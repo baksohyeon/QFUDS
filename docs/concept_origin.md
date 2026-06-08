@@ -4,7 +4,7 @@ This document records the line of thought that led me to Quantum Foam Unified Da
 
 It is not a proof. It is a map from a raw intuition to testable questions.
 
-I did not begin with a finished theory in mind. I was following topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The point of this document is the inference chain. Each step records the next question that became hard to ignore.
+I did not begin with a finished theory in mind. I was following topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The point of this document is the inference chain: I kept asking whether one topic had the same problem structure as the next.
 
 ## The Landauer Trigger
 
@@ -16,19 +16,14 @@ Deleting or forgetting one bit has a minimum thermodynamic cost.
 That cost appears as heat and increases entropy.
 ```
 
-The original passage framed forgetting as something that is paid for in the universe's thermal bookkeeping. Human memory, computer storage, and physical information processing were treated as parts of the same thermodynamic accounting system.
-
-That was the important jump for me:
+The original passage framed forgetting as a physical operation with a thermodynamic cost. My first jump was direct:
 
 ```text
-information
--> data
--> erasure cost
--> entropy
--> physical bookkeeping
+If erasing information has a thermodynamic cost,
+isn't this related to the black-hole information-loss problem?
 ```
 
-From there, black holes became the natural next question for me. I was not trying to build a cosmology model yet. I was asking the next technical question. If information is physically costly to erase, then a black hole is not just an object that swallows matter. It is a place where information, gravity, quantum mechanics, and thermodynamics collide.
+From there, black holes became the natural next question for me. I was not trying to build a cosmology model yet. I was asking the next technical question. If information physically costs something to erase, then a black hole is the extreme case: information enters, Hawking radiation leaves, and quantum mechanics says the map should remain unitary.
 
 My first QFUDS question was therefore:
 
@@ -46,20 +41,19 @@ I read the origin of QFUDS as a three-stage process.
 First, I let the idea diverge. The Landauer trigger opened a chain of adjacent questions:
 
 ```text
-information erasure
--> thermodynamic cost
--> black-hole information
--> Hawking radiation
--> scrambled information recovery
--> decoding cost
--> reverse-process intuition
--> time-reversal or CPT counterpart
--> white-hole-like remnants
--> quantum foam
--> dark sector
+Landauer erasure cost
+-> black-hole information loss
+-> Hawking radiation as scrambled output
+-> recovery in principle versus decoding complexity
+-> reverse-process question
+-> time reversal, CPT, or white-hole-like counterpart
+-> black/white-hole remnant as information reservoir
+-> quantum foam as a candidate medium
+-> dark matter as clustering foam mode
+-> dark energy as residual foam pressure
 ```
 
-At this stage, I was not trying to defend a final model. I let the questions branch far enough to expose the hidden connection: information, entropy, vacuum structure, black holes, dark matter, and dark energy could be asked about in one frame. The method was simple: follow the next question until the chain either breaks or becomes precise enough to test.
+At this stage, I was not trying to defend a final model. I followed the next technical question until the chain either broke or became precise enough to test.
 
 Then I forced the idea to converge. Once the branches became too broad, I kept the broadest image, "the universe as a giant white-hole-like release," as a creative origin, but removed it from the center of the research claim. The sharper center became:
 

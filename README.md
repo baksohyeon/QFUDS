@@ -21,7 +21,7 @@ This work should be read as a research program and toy framework, not as a compl
 
 Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework I started while thinking through dark matter, dark energy, and information flow in cosmology.
 
-I did not start with a target theory. I started with topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The interesting part is the inference trail. One question kept opening the next one, and the repo is where I tried to stop the chain from staying only as intuition.
+I did not start with a target theory. I was already interested in information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The useful part is the actual reasoning trail: I kept asking whether one topic was the same problem in another language, or whether it forced the next question.
 
 This repository is not a claim that the model is correct. It is a workspace for turning curiosity into equations, constraints, toy code, and falsifiable questions. The writing assumes a technically comfortable reader, so it keeps terms like `unitarity`, `equation of state`, `sound speed`, `CMB`, and `matter power spectrum` when those terms carry the idea better than a softer paraphrase.
 
@@ -35,23 +35,31 @@ Deleting one bit has a minimum thermodynamic cost.
 That cost appears as heat in the universe's entropy bookkeeping.
 ```
 
-That was the key turn for me: information stopped being just a label. If deleting data changes heat and entropy, then information belongs in the same physical ledger as energy, matter, and spacetime.
-
-The next jump was black holes. I was not trying to make a cosmology model yet. I was following the obvious next question: if information has physical cost, I could not treat a black hole as a simple trash can for data. The next question was how information entering a black hole is encoded, whether Hawking radiation can return it in a scrambled form, and whether evaporation can stay compatible with quantum unitarity.
-
-That gave me the raw thought chain. It was not a linear proof. It was a chain of "if this is physical, what does it force me to ask next?":
+My first reaction was not "this proves a cosmology model." It was closer to:
 
 ```text
-information
--> data
--> entropy
--> black holes
--> Hawking radiation
--> scrambled information recovery
--> reverse-process intuition
--> time-reversal or CPT counterpart
--> quantum foam
--> unified dark sector
+If erasing information has a thermodynamic cost,
+isn't this related to the black-hole information-loss problem?
+```
+
+That was the first jump. Landauer made the question about information physical enough to connect to black holes. A black hole is exactly where information, entropy, quantum mechanics, and gravity collide.
+
+From there I asked the next question directly: if information entering a black hole is not simply lost, where is it encoded, and can Hawking radiation return it in a scrambled form? If unitarity says recovery is possible in principle, is the real obstruction destruction, or decoding complexity?
+
+That gave me the raw thought chain. It was not a linear proof. It was a sequence of question jumps:
+
+```text
+Landauer: erasing information costs heat
+-> black-hole information loss has the same shape
+-> Hawking radiation may carry scrambled information
+-> recovery is allowed in principle but blocked by decoding cost
+-> if recovery exists, ask about a reverse process
+-> reverse process suggests time reversal, CPT, or white-hole-like counterpart
+-> black/white-hole remnants suggest an information-storage sector
+-> vacuum or spacetime foam becomes a candidate medium
+-> dark matter may be a clustering foam mode
+-> dark energy may be a residual foam pressure
+-> QFUDS: a unified dark sector toy model
 ```
 
 At first, my image was much larger:
@@ -71,9 +79,9 @@ In this framing, dark matter is the clustering phase: the part that behaves almo
 
 ## Divergence, Convergence, Verification
 
-The main artifact I want to preserve here is not only the hypothesis. It is the path that produced it: curiosity, branching questions, pruning, and then pressure from known cosmology.
+The main artifact I want to preserve here is not only the hypothesis. It is the path that produced it: question, next question, branch, pruning, and then pressure from known cosmology.
 
-The first phase was divergence. A small Landauer prompt made me branch into several connected questions. I kept asking the next technical question instead of stopping at the first analogy:
+The first phase was divergence. A small Landauer prompt made me branch into several connected questions. I kept asking whether the same structure was appearing again:
 
 ```text
 If erased information leaves heat,
@@ -89,7 +97,7 @@ If black holes and vacuum structure are part of one information problem,
 then the dark sector might be a large-scale expression of that same structure.
 ```
 
-That phase was intentionally loose. I allowed big images because they helped expose links between fields that usually sit in separate folders: black holes as information compressors, white-hole-like remnants as delayed outlets, the universe as a release process, vacuum fluctuation as sparse structure, and cosmic acceleration as residual pressure.
+That phase was intentionally loose, but the links were specific: black holes raised the information-storage question, Hawking radiation raised the decoding question, time reversal raised the white-hole/CPT question, and the failure to directly detect particle dark matter raised the "maybe this is a collective mode" question.
 
 The important middle step was not simply "black hole, therefore white hole." My thought process passed through reversibility:
 
@@ -104,7 +112,7 @@ If a complete time-reversed process existed,
 what would play that role physically?
 ```
 
-That is where the reverse-process image entered for me. I did not treat white holes, black/white-hole remnants, CPT-like symmetry, and replica-wormhole/island ideas as proofs. I treated them as prompts for a narrower question: whether black holes point to an information-processing sector larger than ordinary matter.
+That is where the reverse-process question entered for me. I did not treat white holes, black/white-hole remnants, CPT-like symmetry, and replica-wormhole/island ideas as proofs. I treated them as possible answers to a narrower question: if black-hole evaporation is unitary but hard to decode, what physical structure could act like a delayed return channel or information reservoir?
 
 The dark-matter turn came from a separate but connected intuition:
 

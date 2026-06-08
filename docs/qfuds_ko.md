@@ -27,7 +27,7 @@ Quantum Foam Unified Dark Sector (QFUDS):
 
 Quantum Foam Unified Dark Sector, 줄여서 QFUDS는 제가 암흑물질, 암흑에너지, 우주의 정보 흐름을 생각하다가 시작한 암흑부문 사고실험입니다.
 
-처음부터 목표 이론이 있었던 것은 아닙니다. 원래 관심 있던 주제들이 있었습니다. 정보, 엔트로피, 블랙홀, 호킹복사, 양자역학, 진공 구조, 암흑부문 같은 것들입니다. 재미있는 부분은 결론 자체보다 추론의 연결고리입니다. 한 질문이 다음 질문을 열었고, 이 저장소는 그 연쇄가 그냥 직관으로만 남지 않게 붙잡아두려는 작업입니다.
+처음부터 목표 이론이 있었던 것은 아닙니다. 원래 관심 있던 주제들이 있었습니다. 정보, 엔트로피, 블랙홀, 호킹복사, 양자역학, 진공 구조, 암흑부문 같은 것들입니다. 중요한 부분은 결론 자체보다 실제 추론 경로입니다. 저는 한 주제가 다른 주제와 같은 문제 구조를 갖는지, 혹은 다음 질문을 강제로 열어버리는지 계속 따라갔습니다.
 
 이 저장소는 “이 모델이 맞다”는 선언이 아닙니다. 호기심에서 나온 직관을 수식, 검증 조건, toy code, 반박 가능한 질문으로 낮춰보는 작업 공간입니다. 독자는 어느 정도 기술 용어에 익숙한 사람을 가정합니다. 그래서 `unitarity`, `equation of state`, `sound speed`, `CMB`, `matter power spectrum` 같은 용어는 억지로 풀어 없애지 않습니다. 이 용어들이 오히려 생각의 방향을 더 정확하게 잡아줍니다.
 
@@ -41,23 +41,31 @@ Quantum Foam Unified Dark Sector, 줄여서 QFUDS는 제가 암흑물질, 암흑
 그 비용은 열로 나타나고, 우주의 엔트로피 장부에 남는다.
 ```
 
-이 지점에서 저에게 정보는 단순한 이름표가 아니게 됐습니다. 데이터를 지우는 일이 열과 엔트로피를 바꾼다면, 정보는 에너지, 물질, 시공간과 같은 물리 장부 안에 들어갑니다.
-
-그다음 저는 자연스럽게 블랙홀을 떠올렸습니다. 이때도 우주론 모델을 만들려던 것이 아니라, 당장 따라오는 질문을 계속 물은 쪽에 가깝습니다. 정보에 물리적 비용이 있다면, 블랙홀을 데이터가 그냥 버려지는 쓰레기통처럼 취급할 수 없습니다. 블랙홀 안으로 들어간 정보가 어디에 인코딩되는지, 호킹복사가 그 정보를 극도로 뒤섞인 형태로 되돌릴 수 있는지, 그리고 블랙홀 증발이 양자역학의 unitarity와 양립 가능한지가 다음 질문이 됐습니다.
-
-제 원래 사고 흐름은 이랬습니다. 선형 증명이 아니라 “이게 물리적이라면 다음에 무엇을 물어야 하지?”에 가까운 질문의 연쇄였습니다.
+이때 제 첫 반응은 “이걸로 우주론 모델을 만들 수 있겠다”가 아니었습니다. 더 raw하게는 이 질문이었습니다.
 
 ```text
-information
--> data
--> entropy
--> black holes
--> Hawking radiation
--> scrambled information recovery
--> reverse-process intuition
--> time-reversal or CPT counterpart
--> quantum foam
--> unified dark sector
+정보 삭제에 열역학적 비용이 있다면,
+이거 블랙홀 정보 손실 문제랑 같은 논점 아닌가?
+```
+
+여기가 첫 번째 사고 점프였습니다. Landauer 때문에 정보 문제가 충분히 물리적인 문제로 보였고, 블랙홀은 정보, 엔트로피, 양자역학, 중력이 한 번에 걸리는 대표적인 케이스였습니다.
+
+그다음 질문은 바로 블랙홀이었습니다. 블랙홀 안으로 들어간 정보가 그냥 사라지는 게 아니라면, 어디에 인코딩되는가? 호킹복사가 그 정보를 극도로 뒤섞인 형태로 되돌릴 수 있는가? unitarity가 원칙적 복구 가능성을 말한다면, 진짜 장애물은 정보 파괴인가, 아니면 decoding complexity인가?
+
+제 원래 사고 흐름은 이랬습니다. 선형 증명이 아니라 질문 점프의 연쇄였습니다.
+
+```text
+Landauer: 정보 삭제에는 열이 든다
+-> 블랙홀 정보 손실 문제와 구조가 비슷하다
+-> 호킹복사는 scrambled information을 담을 수 있다
+-> 원칙적으로 복구 가능해도 decoding cost가 막을 수 있다
+-> 복구 가능성을 생각하면 역과정을 묻게 된다
+-> 역과정은 time reversal, CPT, white-hole-like counterpart를 떠올리게 한다
+-> black/white-hole remnant는 information reservoir 후보처럼 보인다
+-> vacuum이나 spacetime foam이 그 medium일 수 있나?
+-> dark matter는 clustering foam mode일 수 있나?
+-> dark energy는 residual foam pressure일 수 있나?
+-> QFUDS: unified dark sector toy model
 ```
 
 처음에 제가 떠올린 이미지는 훨씬 컸습니다.
@@ -79,7 +87,7 @@ Dark matter + dark energy
 
 이 저장소의 핵심은 가설 하나만이 아닙니다. 제가 그 가설까지 어떻게 생각을 옮겨갔는지, 그 사고 과정 자체가 중요합니다. 관심 있는 주제를 계속 물고 들어가다 보니 정보, 블랙홀, 진공, 암흑물질, 암흑에너지가 하나의 질문 묶음으로 이어졌고, 그 뒤에야 가지치기와 검증이 필요해졌습니다.
 
-첫 단계에서는 일부러 발산했습니다. 작은 Landauer prompt가 여러 질문으로 뻗었습니다. 첫 비유에서 멈춘 것이 아니라, 계속 다음 기술적 질문을 물었습니다.
+첫 단계에서는 일부러 발산했습니다. 작은 Landauer prompt가 여러 질문으로 뻗었습니다. 첫 비유에서 멈춘 것이 아니라, 같은 구조가 다른 문제에서도 반복되는지 계속 물었습니다.
 
 ```text
 정보 삭제가 열을 남긴다면,
@@ -95,7 +103,7 @@ Dark matter + dark energy
 암흑부문도 그 구조가 우주 스케일에서 드러난 것일 수 있다.
 ```
 
-이 단계에서 저는 일부러 생각을 넓게 열어뒀습니다. 서로 다른 폴더에 들어 있을 법한 주제들이 한 줄로 이어질 수 있는지 보고 싶었습니다. 블랙홀은 정보 압축기처럼 보였고, white-hole-like remnant는 delayed outlet처럼 보였고, 우주는 release process처럼 보였고, vacuum fluctuation은 sparse structure처럼 보였습니다. 우주 가속팽창도 residual pressure라는 식으로 연결됐습니다.
+이 단계에서 생각은 넓게 열려 있었지만, 연결고리는 구체적이었습니다. 블랙홀은 information storage 문제를 열었고, 호킹복사는 decoding 문제를 열었고, 시간역전은 white hole/CPT counterpart 질문을 열었고, 입자 암흑물질 직접검출 실패는 “혹시 collective mode인가?”라는 질문을 열었습니다.
 
 중간에서 중요한 고리는 단순히 “블랙홀이니까 화이트홀”이 아니었습니다. 제가 붙잡은 핵심은 복구 가능성과 비용이었습니다.
 
@@ -111,7 +119,7 @@ unitarity가 복구 가능성을 허용하지만,
 물리적으로 무엇이 그 역할을 할 수 있을까?
 ```
 
-여기서 제게 reverse-process 이미지가 들어왔습니다. white hole, black/white-hole remnant, CPT-like symmetry, replica wormhole, island idea는 증거가 아니라 질문을 좁히는 장치였습니다. 블랙홀이 ordinary matter보다 큰 information-processing sector를 가리키는지 묻기 위한 중간 다리였습니다.
+여기서 제게 reverse-process 질문이 들어왔습니다. white hole, black/white-hole remnant, CPT-like symmetry, replica wormhole, island idea는 증거가 아니라 가능한 답의 후보였습니다. 질문은 더 좁았습니다. 블랙홀 증발이 unitary하지만 decoding이 어렵다면, 어떤 물리 구조가 delayed return channel이나 information reservoir처럼 작동할 수 있는가?
 
 그다음 제가 암흑물질 쪽으로 넘어간 직관은 별도로 중요합니다.
 
