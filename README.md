@@ -1,118 +1,222 @@
 # QFUDS / Dorito
 
-Quantum Foam Unified Dark Sector 사고실험을 검증하기 위한 작업장.
+Quantum Foam Unified Dark Sector, nicknamed Dorito, is a toy research program in theoretical astrophysics and cosmology.
 
-심심해서 밀어붙여 보는 이론 천체물리/우주론 검증 노트에 가깝다. 목표는 이 아이디어를 옹호하는 것이 아니라, 기존 문헌과 충돌하지 않는 최소 모형으로 끝까지 세워 본 뒤 어디서 깨지는지 확인하는 것이다.
+The goal is not to prove a new theory. The goal is to turn a speculative idea into a small set of equations and prediction candidates that can fail.
 
-## Core Claim
+## Research Question
 
-암흑물질과 암흑에너지는 완전히 분리된 두 물질이 아니라, 양자 시공간 foam의 두 거시적 infrared phase일 수 있다.
+Can dark matter and dark energy be two large-scale modes of the same underlying quantum spacetime foam?
 
-```text
-dark sector
-= foam-wave
-+ foam-residual
-+ optional remnants
-```
-
-- `foam-wave`: 뭉치는 진동 모드. 암흑물질처럼 보이려면 `w ~= 0`, `c_s^2 ~= 0`, `rho ~ a^-3`.
-- `foam-residual`: 균일한 잔여 압력 모드. 암흑에너지처럼 보이려면 `w ~= -1`, `rho ~= constant`.
-- `remnants`: black/white-hole remnant는 선택적 하위 성분. 핵심 장치가 아니라 정보 순환 보조 항으로 둔다.
-
-논문형 한 줄:
+The starting hypothesis is:
 
 ```text
-Dark matter and dark energy may be two infrared phases of quantum spacetime foam:
-a clustering oscillatory mode with w ~= 0, and a homogeneous residual-pressure mode with w ~= -1.
+Dark matter and dark energy are not separate substances.
+They may be two macroscopic modes of quantum foam.
 ```
 
-## Dorito Intuition
-
-진공은 비어 있지 않고, 시공간의 미시구조는 foam처럼 요동한다고 둔다. 그 foam의 한 거시적 모드는 뭉치는 진동으로 나타나 암흑물질처럼 행동하고, 다른 모드는 균일한 잔여 압력으로 남아 암흑에너지처럼 행동한다.
-
-이 관점에서 기존 Friedmann 방정식은 폐기하지 않는다. 먼저 다음 치환이 관측을 깨지 않는지 본다.
+The clustering mode behaves like dark matter:
 
 ```text
-rho_DM      -> rho_foam_wave
-rho_Lambda  -> rho_foam_residual
+rho_foam_wave ~ a^-3
+w ~= 0
+sound speed ~= 0
 ```
 
-가장 단순한 안정 형태는 다음이다.
+The nearly uniform residual-pressure mode behaves like dark energy:
 
 ```text
-rho_dark = rho_foam_wave + rho_foam_residual + rho_remnant
-
-rho_foam_wave     ~ a^-3,    w ~= 0
-rho_foam_residual ~ rho_*,   w ~= -1
-rho_remnant       = n_r M_r
+rho_foam_residual ~= rho_*
+w ~= -1
 ```
 
-`remnant`는 핵심 장치가 아니다. black/white-hole remnant가 있다면 암흑물질의 일부 후보일 뿐이고, 반드시 질량함수와 abundance 제약을 통과해야 한다.
-
-## Predictions To Kill
-
-이 모델은 맞는 말을 하기보다 죽을 수 있는 예측을 가져야 한다.
-
-1. WIMP식 직접 검출은 계속 null일 가능성이 높다. Dorito에서 암흑물질은 독립 입자라기보다 foam의 집단모드이므로, 핵반동 신호가 없어도 이상하지 않다. 단, 이것만으로 모델이 증명되지는 않는다.
-2. 암흑에너지는 완벽한 상수가 아니라 약하게 시간 변화할 수 있다.
+Optional black-hole or white-hole remnants are treated as a subdominant third term, not as the core of the model.
 
 ```text
-w(a) = w_0 + w_a(1 - a)
-LCDM:    w_0 = -1, w_a = 0
-Dorito:  w_0 ~= -1, |w_a| > 0 but small
+rho_dark
+= rho_foam_wave
++ rho_foam_residual
++ rho_remnant
 ```
 
-3. 작은 은하나 은하 중심부에서 collisionless CDM의 NFW cusp보다 완만한 core가 나올 수 있다. 회전곡선을 맞추려면 여전히 `rho_dark(r) ~ 1/r^2` 구간이 필요하지만, 중심부에서는 `rho(r) -> rho_0` 같은 flattening이 가능해야 한다.
-4. 암흑물질 분포와 보통물질 분포 사이에 약한 추가 상관성이 남을 수 있다. 보통물질이 foam을 변형시키고, foam이 다시 중력장을 보강하는 feedback이 있다면 은하 형태와 halo 구조가 표준 LCDM보다 직접적으로 묶일 수 있다.
-5. 우주상수는 정확한 상수가 아니라 평형값 주변에서 느리게 완화될 수 있다.
+## Why This Is Only A Toy Model
+
+The standard Friedmann equation is kept intact. General relativity is not modified at this stage.
+
+```text
+H^2 = (8 pi G / 3)
+      (rho_b + rho_r + rho_foam_wave + rho_foam_residual + rho_remnant)
+      - k c^2 / a^2
+```
+
+The model only changes the interpretation of the dark sector:
+
+```text
+rho_DM     -> rho_foam_wave
+rho_Lambda -> rho_foam_residual
+```
+
+That makes this a controlled reinterpretation of the dark sector, not a complete theory. It must reproduce the successes of LCDM before any deviation is worth discussing.
+
+## Physical Picture
+
+Imagine an empty universe-sized box. There are no stars, no gas, and no galaxies. Classical physics would call it empty. Quantum field theory does not. The vacuum still has a lowest-energy state, and that state can fluctuate. With gravity included, spacetime itself may have microscopic fluctuations. This is the broad intuition behind quantum foam.
+
+Dorito adds one assumption:
+
+```text
+The microscopic foam almost cancels itself, but not perfectly.
+Its long-wavelength collective motion looks like dark matter.
+Its nearly uniform leftover pressure looks like dark energy.
+```
+
+In plain terms, the foam has waves and a background tension.
+
+The waves can cluster around galaxies. The background tension stays smooth across the universe.
+
+## Minimal Equations
+
+The clustering part must dilute like matter:
+
+```text
+rho_foam_wave ~ a^-3
+w_foam_wave ~= 0
+```
+
+A simple way to model that behavior is an oscillating scalar field:
+
+```text
+V(phi) = (1/2) m_eff^2 phi^2
+<w_phi> ~= 0
+```
+
+This is similar to scalar-field dark matter. The Dorito interpretation is different: `phi` is not introduced as a new particle first. It is treated as an effective collective vibration of spacetime foam.
+
+The residual-pressure part must stay nearly constant:
+
+```text
+rho_foam_residual ~= rho_*
+w_foam_residual ~= -1
+```
+
+The relaxation toy equation is:
 
 ```text
 d rho_Lambda / dt = -Gamma (rho_Lambda - rho_*)
 ```
 
-이 식이 맞다면 높은 적색편이의 `H(z)`, BAO scale, supernova distance에 작은 흔적이 남아야 한다.
-
-6. 블랙홀 정보 방출은 완전히 열적이지 않고 late-time radiation에 극도로 미세한 상관관계를 가져야 한다. 이건 현재 천체 관측으로는 거의 검증 불가능하지만, 이론적으로는 Page curve/island류 논의와 맞닿는 항이다.
-7. white-hole remnant가 암흑물질 일부라면 허용 질량함수는 좁아야 한다.
+`rho_*` is the small positive equilibrium value left after large vacuum contributions almost cancel.
 
 ```text
-rho_remnant = n_r M_r
+rho_vac,total = rho_+ + rho_- + rho_*
+rho_+ + rho_- ~= 0
+rho_* > 0
 ```
 
-너무 무거우면 microlensing에 걸리고, 너무 가벼우면 구조형성, 증발, 검출 제약에 걸린다. 따라서 "remnant가 있다"가 아니라 "어떤 f(M)가 살아남는가"를 계산해야 한다.
+This is not yet a solution to the cosmological constant problem. It only states what a self-regulating foam model would need to do.
 
-## What Must Survive
+## Prediction Candidates
 
-QFUDS/Dorito는 다음을 깨면 탈락이다.
+These are not confirmed predictions. They are quantitative targets that can be tested or ruled out.
 
-- Planck CMB가 맞춘 ΛCDM background와 acoustic structure
-- BAO/DESI expansion history
-- linear growth와 weak lensing
-- 은하 halo 형성 조건
-- 작은 sound speed 조건
-- black/white-hole remnant abundance 제약
+1. Direct dark matter detection may remain null for WIMP-like particles.
 
-## Current Status
+   In this model, dark matter is a collective foam mode, not a standard particle species. Null results from LZ, XENON, and similar nuclear-recoil searches would not prove Dorito, but they would remain compatible with it.
 
-현재 결론은 보수적이다.
+2. Dark energy may vary weakly with time.
 
-QFUDS는 아직 완성 이론이 아니다. 지금 형태만으로는 unified dark fluid, k-essence, scalar-field dark matter, interacting dark energy의 재해석에 가깝다.
+   A common observational form is:
 
-새 내용이 되려면 최소 하나가 필요하다.
+   ```text
+   w(a) = w_0 + w_a (1 - a)
+   LCDM:   w_0 = -1, w_a = 0
+   Dorito: w_0 ~= -1, |w_a| > 0 but small
+   ```
 
-- foam의 covariant microscopic action
-- phase-transfer law `Gamma(a)`의 물리적 유도
-- `c_s^2 ~= 0`을 자연스럽게 만드는 perturbation mechanism
-- remnant mass spectrum과 abundance 예측
-- ΛCDM이나 기존 unified-fluid 모델과 구별되는 관측 신호
+   DESI-like measurements of expansion history are relevant here, but current hints of evolving dark energy are not enough to reject LCDM.
+
+3. Small galaxy halos may have softer centers than collisionless CDM predicts.
+
+   Flat rotation curves still require:
+
+   ```text
+   v^2(r) = G M(r) / r ~= constant
+   rho_dark(r) ~ 1 / r^2
+   ```
+
+   The possible Dorito deviation is a central flattening:
+
+   ```text
+   rho(r) -> rho_0
+   ```
+
+   This would have to come from foam self-interaction or pressure-like collective behavior.
+
+4. Dark matter structure may correlate slightly more strongly with baryonic structure.
+
+   In standard LCDM, dark halos form first and baryonic matter falls into them. In Dorito, baryonic matter may deform the foam, and the foam may feed back into the gravitational field. If true, galaxy morphology and halo structure should show a tighter relation than pure collisionless CDM expects.
+
+5. The cosmological constant may be a slow relaxation process.
+
+   If
+
+   ```text
+   d rho_Lambda / dt = -Gamma (rho_Lambda - rho_*)
+   ```
+
+   is even approximately correct, then high-redshift measurements of `H(z)`, BAO scale, and supernova distances should contain small deviations from a perfect constant Lambda.
+
+6. Black-hole radiation should not be exactly thermal in the full quantum description.
+
+   Dorito treats black holes as information-compression sites for the foam or remnant sector. A white-hole-like remnant would release information only after a long delay. This connects to Page-curve and island-style reasoning, but it is not presently an astrophysical test for ordinary black holes.
+
+7. If white-hole remnants contribute to dark matter, their mass function must be narrow and constrained.
+
+   The simple abundance relation is:
+
+   ```text
+   rho_remnant = n_r M_r
+   ```
+
+   Heavy remnants face microlensing constraints. Very light remnants face structure-formation, evaporation, and detectability constraints. The real question is not whether remnants can be named, but whether an allowed mass function `f(M)` exists.
+
+## What Would Kill The Model
+
+The model fails if any of the following cannot be satisfied:
+
+- the exact LCDM limit is not recovered when deviations are set to zero;
+- the clustering foam mode cannot keep `w ~= 0` and sound speed near zero;
+- the residual mode cannot keep `w ~= -1` without fine-tuning only by declaration;
+- galaxy halos cannot form with realistic rotation curves;
+- CMB, BAO, weak-lensing, or growth data are spoiled;
+- remnant abundance violates microlensing or structure-formation bounds;
+- the model remains only a new vocabulary for existing unified-dark-fluid or k-essence models.
+
+## Current Assessment
+
+At the current stage, QFUDS/Dorito is not a finished theory.
+
+It is a mathematically organized thought experiment. The safest version is close to known ideas: unified dark fluids, scalar-field dark matter, k-essence, interacting dark energy, and remnant dark matter.
+
+The potentially useful part is the combined test:
+
+```text
+one foam origin
+two infrared modes
+one clustering mode with w ~= 0
+one residual-pressure mode with w ~= -1
+optional constrained remnants
+```
+
+The next step is to make each term predictive enough to fail.
 
 ## Repository Contents
 
-- `docs/qfuds_research_report.md`: 문헌 대응, 수학적 정식화, 실패 모드, 다음 연구 단계
+- `docs/qfuds_research_report.md`: literature comparison, mathematical formulation, observational tests, and failure modes
 - `qfuds/background.py`: two-phase background toy model
-- `qfuds/growth.py`: smooth residual phase를 둔 linear growth toy model
-- `scripts/run_minimal_model.py`: `H(a)`, `Omega(a)`, `w(a)`, `D(a)` CSV 생성
-- `outputs/*.csv`: 현재 검증 산출물
+- `qfuds/growth.py`: linear growth toy model with a smooth residual phase
+- `scripts/run_minimal_model.py`: writes `H(a)`, `Omega(a)`, `w(a)`, and `D(a)` to CSV
+- `outputs/*.csv`: generated baseline outputs
 
 ## Minimal Run
 
@@ -121,4 +225,81 @@ python3 scripts/run_minimal_model.py --gamma0 0 --beta 0
 python3 scripts/run_minimal_model.py --gamma0 0.03 --beta 5
 ```
 
-`gamma0 = 0`은 exact ΛCDM limit이다. 이 한계가 맞지 않으면 이후 모형은 볼 필요가 없다.
+`gamma0 = 0` is the exact LCDM limit. If this limit fails, the rest of the model is not worth testing.
+
+---
+
+# 한국어 설명
+
+QFUDS, 별칭 Dorito는 양자 시공간 foam으로 암흑부문을 다시 해석해 보는 사고실험이다.
+
+목표는 이 아이디어가 맞다고 주장하는 것이 아니다. 목표는 다음 질문을 수식으로 세우고, 실제 관측과 충돌하는지 확인하는 것이다.
+
+```text
+암흑물질과 암흑에너지가 서로 다른 물질이 아니라,
+같은 quantum foam의 두 가지 거시적 모드일 수 있는가?
+```
+
+핵심 그림은 단순하다.
+
+우주는 완전히 빈 공간이 아니라 아주 미세하게 출렁이는 시공간 foam의 바다라고 둔다. 그 바다에는 두 가지 큰 움직임이 있다.
+
+첫째는 뭉치는 파도다. 이 모드는 은하 주변에 모일 수 있어야 하고, 압력이 거의 없어야 한다. 그래서 암흑물질처럼 보이려면 다음 조건이 필요하다.
+
+```text
+rho_foam_wave ~ a^-3
+w ~= 0
+```
+
+둘째는 바닥에 깔린 잔여 압력이다. 이 모드는 거의 균일하게 퍼져 있고, 우주가 커져도 잘 희석되지 않아야 한다. 그래서 암흑에너지처럼 보이려면 다음 조건이 필요하다.
+
+```text
+rho_foam_residual ~= rho_*
+w ~= -1
+```
+
+전체 암흑부문은 이렇게 쓴다.
+
+```text
+rho_dark
+= rho_foam_wave
++ rho_foam_residual
++ rho_remnant
+```
+
+여기서 `rho_remnant`는 black-hole 또는 white-hole remnant가 암흑물질 일부일 가능성을 적은 보조항이다. 핵심은 remnant가 아니라 `foam-wave`와 `foam-residual`이다.
+
+이 모델이 말하는 예측 후보는 다음과 같다.
+
+1. WIMP식 암흑물질 직접 검출은 계속 실패할 수 있다. 암흑물질이 입자 알갱이가 아니라 foam의 집단모드라면 핵반동 신호가 약하거나 없을 수 있다.
+2. 암흑에너지는 완벽한 상수가 아니라 아주 약하게 시간 변화할 수 있다.
+
+```text
+w(a) = w_0 + w_a(1 - a)
+LCDM:   w_0 = -1, w_a = 0
+Dorito: w_0 ~= -1, |w_a| > 0 but small
+```
+
+3. 작은 은하의 중심부 halo는 완전한 collisionless CDM보다 더 부드러운 core를 가질 수 있다.
+4. 암흑물질 분포와 보통물질 분포 사이에 표준 LCDM보다 약간 더 강한 상관관계가 남을 수 있다.
+5. 우주상수는 고정된 숫자가 아니라 평형값 주변으로 천천히 돌아가는 과정일 수 있다.
+
+```text
+d rho_Lambda / dt = -Gamma (rho_Lambda - rho_*)
+```
+
+6. 블랙홀 정보 방출은 완전히 열적인 복사가 아니라, 아주 늦은 시점에 미세한 상관관계를 가져야 한다.
+7. white-hole remnant가 암흑물질 일부라면, 허용 가능한 질량분포는 매우 좁아야 한다.
+
+이 사고실험은 다음 조건을 통과해야 한다.
+
+- `gamma0 = 0`에서 정확히 LCDM으로 돌아가야 한다.
+- foam-wave는 은하 halo를 만들 만큼 잘 뭉쳐야 한다.
+- foam-residual은 우주 가속팽창을 설명할 만큼 균일해야 한다.
+- CMB, BAO, 약한 중력렌즈, 구조형성 자료를 망치면 안 된다.
+- remnant를 넣는다면 microlensing과 구조형성 제약을 통과해야 한다.
+
+현재 결론은 보수적이다.
+
+Dorito는 아직 완성된 이론이 아니다. 지금은 기존 Friedmann 우주론 위에서 암흑물질과 암흑에너지의 정체를 다르게 해석하는 toy model이다. 의미가 생기려면 `foam-wave`, `foam-residual`, `rho_remnant` 각각이 실제 수치 예측을 내고, 그 예측이 관측으로 틀릴 수 있어야 한다.
+
