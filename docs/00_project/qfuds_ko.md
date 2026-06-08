@@ -1,3 +1,16 @@
+---
+doc_id: qfuds_korean_overview
+title: Quantum Foam Unified Dark Sector (QFUDS)
+doc_type: reference
+stage: "reference"
+status: reference
+evidence_role: reference
+depends_on:
+  - project_overview
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
 # Quantum Foam Unified Dark Sector (QFUDS)
 
 언어: [English](../README.md) | Korean
@@ -192,7 +205,7 @@ intuition
 
 목표는 QFUDS를 증명하는 것이 아닙니다. 목표는 무엇이 이 모델을 가장 먼저 죽이는지 찾는 것입니다. 혹은 살아남는 버전을 LCDM, unified dark fluid, k-essence, interacting dark energy, scalar-field dark matter, black/white-hole remnant model과 비교할 수 있을 만큼 좁히는 것입니다.
 
-현재 상태는 Level 1 background validation까지 끝난 상태입니다. `exp_000` baseline, `exp_001` Gamma-law scan, `exp_002` entropy/information gate를 통해 어떤 transfer law가 바로 죽는지, 어떤 형태가 알려진 interacting dark energy로 환원되는지, 어떤 좁은 branch가 다음 테스트로 갈 만한지 정리했습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 끝나지 않았습니다.
+현재 상태는 QFUDS v0.15 / Level 1.5 phase-transfer physicality 단계입니다. `exp_000` baseline, `exp_001` Gamma-law scan, `exp_002` entropy/information gate를 통해 어떤 transfer law가 바로 죽는지, 어떤 형태가 알려진 interacting dark energy로 환원되는지 정리했습니다. 다만 `exp_002`는 physical evidence가 아니라 provenance로 격하되었습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 시작할 수 없습니다.
 
 ## 현재 검증 단계
 
@@ -201,15 +214,16 @@ Level 0: literature position       draft form 완료
 Level 1: background validation     완료
   exp_000: LCDM baseline
   exp_001: Gamma-law background scan
-  exp_002: entropy/information gate
-Level 2: perturbation equations    미완성
+  exp_002: entropy/information gate, provenance only
+QFUDS v0.15 / Level 1.5: phase-transfer physicality 진행 중
+Level 2: perturbation equations    blocked
 Level 3: CLASS or CAMB integration 시작 전
 Level 4: CMB comparison            시작 전
 Level 5: matter power comparison   시작 전
 Level 6: DESI/Euclid/Roman tests   시작 전
 ```
 
-QFUDS는 다음 수치 검사를 통과한 뒤에야 물리적으로 흥미로워집니다. `exp_001`과 `exp_002`는 아직 background-level 작업입니다. 나쁜 `Gamma(a)` law를 걸러낼 수는 있지만, CMB나 structure-formation viability를 주장할 단계는 아닙니다.
+QFUDS는 Level 1.5에서 `Gamma(a)`의 물리적 의미를 통과한 뒤에야 perturbation으로 넘어갈 수 있습니다. `exp_001`과 `exp_002`는 background-level 작업입니다. 특히 `exp_002`는 선행 물리 조건 없이 돌린 proxy scan이므로 CMB나 structure-formation viability는 물론 phase-transfer evidence도 주장할 단계가 아닙니다.
 
 ## 한 문장 thesis
 
@@ -482,10 +496,12 @@ QFUDS는 아직 이론이 아닙니다.
 quantum foam unified dark sector with near-zero sound speed
 ```
 
-다음 의미 있는 단계는 더 많은 이야기가 아니라 validation roadmap입니다.
+다음 의미 있는 단계는 더 많은 이야기가 아니라 QFUDS v0.15 / Level 1.5 physicality gate입니다.
 
 ```text
 background equation
+-> Gamma(a) transfer-law filters
+-> QFUDS v0.15 / Level 1.5 phase-transfer physicality
 -> perturbation equation
 -> CLASS or CAMB implementation
 -> CMB comparison
@@ -500,10 +516,10 @@ background equation
 - `docs/01_origin/concept_origin.md`: 정보 흐름에서 QFUDS 질문까지 어떻게 이동했는지
 - `docs/00_project/research_program.md`: abstract, validation roadmap, kill criteria
 - `docs/00_project/verification_guide.md`: 현재 검증을 다시 실행하고 출력물을 읽는 법
-- `docs/03_experiments/exp_002_entropy_information_gate.md`: experiment 002 entropy/information-source 실험 정의
-- `docs/02_theory/qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
-- `docs/04_results/result_001_gamma_scan.md`: experiment 001 `Gamma(a)` transfer-law 진단과 viability table
-- `docs/04_results/result_002_entropy_information_gate.md`: experiment 002 entropy/information-source 결과와 hostile verdict
+- `docs/03_experiments/020_exp_002_entropy_information_gate.md`: experiment 002 entropy/information-source 실험 정의
+- `docs/02_theory/900_qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
+- `docs/04_results/010_result_001_gamma_scan.md`: experiment 001 `Gamma(a)` transfer-law 진단과 viability table
+- `docs/04_results/020_result_002_entropy_information_gate.md`: experiment 002 entropy/information-source 결과와 hostile verdict
 
 ## 참고 anchor
 

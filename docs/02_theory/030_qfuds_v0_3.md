@@ -1,3 +1,17 @@
+---
+doc_id: qfuds_v0_3
+title: QFUDS v0.3 Theory Note
+doc_type: theory_note
+stage: "1"
+status: completed
+evidence_role: hypothesis
+depends_on:
+  - qfuds_v0_2
+  - exp_001_gamma_scan
+next_gate: Level 1.5 phase transfer physicality
+last_updated: 2026-06-08
+---
+
 # QFUDS v0.3 Theory Note
 
 Date: 2026-06-08

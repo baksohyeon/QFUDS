@@ -1,3 +1,16 @@
+---
+doc_id: result_000_lcdm_baseline
+title: "Result 000: Zero-Transfer LCDM Baseline"
+doc_type: result
+stage: "1"
+status: completed
+evidence_role: control
+depends_on:
+  - exp_000_lcdm_baseline
+next_gate: gamma law background scan
+last_updated: 2026-06-08
+---
+
 # Result 000: Zero-Transfer LCDM Baseline
 
 Date: 2026-06-08
