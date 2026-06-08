@@ -9,17 +9,17 @@ A Speculative Framework for Dark Matter, Dark Energy, and Information Cycling
 
 ## Abstract
 
-We propose a speculative cosmological framework in which dark matter and dark energy emerge as two macroscopic phases of a common microscopic quantum-spacetime foam sector. In contrast to the standard LCDM paradigm, where dark matter and dark energy are treated as fundamentally distinct components, we explore the possibility that both phenomena arise from different infrared manifestations of a single quantum foam medium.
+This repository explores a speculative cosmological framework in which dark matter and dark energy emerge as two macroscopic phases of a common microscopic quantum-spacetime foam sector. In contrast to the standard LCDM paradigm, where dark matter and dark energy are treated as distinct components, QFUDS asks whether both phenomena could arise from different infrared manifestations of a single quantum foam medium.
 
-In this framework, the clustering phase behaves as an effectively pressureless component characterized by `w ~= 0` and `c_s^2 ~= 0`, reproducing the large-scale structure formation normally attributed to cold dark matter. The residual phase behaves as a slowly relaxing vacuum-pressure component with `w ~= -1`, providing an effective description of cosmic acceleration. We further interpret black holes as local information-compression nodes and black/white-hole remnants, motivated by loop quantum gravity tunneling scenarios, as subdominant topological defects within the same foam sector.
+In this framework, the clustering phase behaves as an effectively pressureless component characterized by `w ~= 0` and `c_s^2 ~= 0`, reproducing the large-scale structure formation normally attributed to cold dark matter. The residual phase behaves as a slowly relaxing vacuum-pressure component with `w ~= -1`, providing an effective description of cosmic acceleration. Black holes are treated as local information-compression nodes, while black/white-hole remnants, motivated by loop quantum gravity tunneling scenarios, remain subdominant topological-defect candidates within the same foam sector.
 
 The model preserves the Friedmann background dynamics of general relativity while suggesting possible deviations from LCDM in the evolution of dark energy, small-scale halo structure, dark-sector clustering behavior, and late-time information correlations associated with black-hole evaporation.
 
-We emphasize that the present work should be regarded as a research program and toy framework rather than a complete physical theory. The primary objective is to formulate a falsifiable set of predictions that can be tested against CMB observations, large-scale structure surveys, halo profiles, dark matter detection experiments, and future precision measurements of the dark-energy equation of state.
+This work should be read as a research program and toy framework, not as a complete physical theory. The primary objective is to turn the original intuition into falsifiable predictions that can be tested against CMB observations, large-scale structure surveys, halo profiles, dark matter detection experiments, and future precision measurements of the dark-energy equation of state.
 
 ## Project Note
 
-Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework proposed by Dorito for thinking about dark matter, dark energy, and information flow in cosmology.
+Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework started by Dorito for thinking about dark matter, dark energy, and information flow in cosmology.
 
 This repository is not a claim that the model is correct. It is a workspace for turning an intuition into falsifiable questions.
 

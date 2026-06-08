@@ -9,7 +9,7 @@ A Speculative Framework for Dark Matter, Dark Energy, and Information Cycling
 
 ## Abstract Draft
 
-We propose a speculative cosmological framework in which dark matter and dark energy emerge as two macroscopic phases of a common microscopic quantum-spacetime foam sector. In contrast to the standard LCDM paradigm, where dark matter and dark energy are treated as fundamentally distinct components, we explore the possibility that both phenomena arise from different infrared manifestations of a single quantum foam medium.
+This note explores a speculative cosmological framework in which dark matter and dark energy emerge as two macroscopic phases of a common microscopic quantum-spacetime foam sector. In contrast to the standard LCDM paradigm, where dark matter and dark energy are treated as distinct components, QFUDS asks whether both phenomena could arise from different infrared manifestations of a single quantum foam medium.
 
 In this framework, the clustering phase behaves as an effectively pressureless component characterized by `w ~= 0` and `c_s^2 ~= 0`, reproducing the large-scale structure formation normally attributed to cold dark matter. The residual phase behaves as a slowly relaxing vacuum-pressure component with `w ~= -1`, providing an effective description of cosmic acceleration.
 
