@@ -1,6 +1,6 @@
 ---
 doc_id: qfuds_research_report
-title: Quantum Foam Unified Dark Sector Research Evaluation
+title: "Quantum Foam Unified Dark Sector: Research Evaluation"
 doc_type: reference
 stage: reference
 status: reference

@@ -1,6 +1,6 @@
 ---
 doc_id: result_001_5_phase_transfer_physicality
-title: Result 001.5 Phase Transfer Physicality Audit
+title: "Result 001.5: Phase Transfer Physicality Audit"
 doc_type: result
 stage: "1.5"
 status: in_progress

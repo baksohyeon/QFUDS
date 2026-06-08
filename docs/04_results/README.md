@@ -1,6 +1,6 @@
 ---
 doc_id: results_index
-title: Results Document Index
+title: 04 Results
 doc_type: index
 stage: "1.5"
 status: in_progress

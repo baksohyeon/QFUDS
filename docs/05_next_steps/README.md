@@ -1,6 +1,6 @@
 ---
 doc_id: next_steps_index
-title: Next Steps Document Index
+title: 05 Next Steps
 doc_type: index
 stage: "1.5"
 status: in_progress

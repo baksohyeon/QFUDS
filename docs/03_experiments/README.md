@@ -1,6 +1,6 @@
 ---
 doc_id: experiments_index
-title: Experiment Document Index
+title: 03 Experiments
 doc_type: index
 stage: "1.5"
 status: in_progress

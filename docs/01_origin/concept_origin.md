@@ -1,3 +1,15 @@
+---
+doc_id: concept_origin
+title: Concept Origin
+doc_type: reference
+stage: "reference"
+status: provenance
+evidence_role: provenance
+depends_on: []
+next_gate: preserve as provenance, not physical evidence
+last_updated: 2026-06-08
+---
+
 # Concept Origin
 
 This document records the line of thought that led me to Quantum Foam Unified Dark Sector (QFUDS).

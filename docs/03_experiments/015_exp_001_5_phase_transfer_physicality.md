@@ -1,6 +1,6 @@
 ---
 doc_id: exp_001_5_phase_transfer_physicality
-title: Experiment Gate 001.5 Phase Transfer Physicality
+title: "Experiment 001.5: Phase Transfer Physicality Gate"
 doc_type: experiment
 stage: "1.5"
 status: in_progress
@@ -12,7 +12,7 @@ next_gate: do not create exp_003 until this gate is resolved
 last_updated: 2026-06-08
 ---
 
-# exp_001_5_phase_transfer_physicality
+# Experiment 001.5: Phase Transfer Physicality Gate
 
 Date: 2026-06-08
 

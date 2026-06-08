@@ -1,6 +1,6 @@
 ---
 doc_id: theory_index
-title: Theory Document Index
+title: 02 Theory
 doc_type: index
 stage: "1.5"
 status: in_progress

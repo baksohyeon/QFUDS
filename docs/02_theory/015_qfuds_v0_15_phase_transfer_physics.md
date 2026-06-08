@@ -1,6 +1,6 @@
 ---
 doc_id: qfuds_v0_15_phase_transfer_physics
-title: QFUDS v0.15 / Level 1.5 Phase Transfer Physics
+title: "QFUDS v0.15 / Level 1.5: Phase Transfer Physics"
 doc_type: theory_note
 stage: "1.5"
 status: in_progress

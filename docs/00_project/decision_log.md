@@ -1,4 +1,17 @@
-# Decision Log
+---
+doc_id: decision_log
+title: QFUDS Decision Log
+doc_type: decision_log
+stage: "1.5"
+status: in_progress
+evidence_role: ssot
+depends_on:
+  - roadmap
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
+# QFUDS Decision Log
 
 This log records research decisions, not only implementation changes.
 

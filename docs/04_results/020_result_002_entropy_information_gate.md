@@ -1,6 +1,6 @@
 ---
 doc_id: result_002_entropy_information_gate
-title: Result 002 Entropy / Information-Source Gate
+title: "Result 002: Entropy / Information-Source Gate"
 doc_type: result
 stage: "1"
 status: provenance

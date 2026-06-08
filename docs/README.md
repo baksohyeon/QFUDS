@@ -1,6 +1,35 @@
+---
+doc_id: docs_index
+title: QFUDS Documentation Index
+doc_type: index
+stage: "1.5"
+status: in_progress
+evidence_role: ssot
+depends_on:
+  - project_overview
+  - roadmap
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
 # QFUDS Documentation Index
 
 This directory is organized by research workflow stage.
+
+## Conventions
+
+- Every maintained Markdown document in `docs/` starts with YAML frontmatter.
+- The H1 must match the frontmatter `title`.
+- `doc_id` is the stable machine-readable identity; the title is the reader-facing label.
+- Active stage files in `02_theory`, `03_experiments`, `04_results`, and `05_next_steps` keep sortable numeric prefixes.
+- Background-only documents must not imply perturbation, CMB, matter-power, or survey-likelihood viability.
+- Provenance documents must use `status: provenance` or `evidence_role: provenance`.
+
+Run the documentation validator with:
+
+```bash
+python3 scripts/validate_docs.py
+```
 
 ## 00 Project
 

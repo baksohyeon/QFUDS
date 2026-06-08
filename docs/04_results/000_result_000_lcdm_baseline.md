@@ -1,6 +1,6 @@
 ---
 doc_id: result_000_lcdm_baseline
-title: Result 000 LCDM Baseline
+title: "Result 000: Zero-Transfer LCDM Baseline"
 doc_type: result
 stage: "1"
 status: completed

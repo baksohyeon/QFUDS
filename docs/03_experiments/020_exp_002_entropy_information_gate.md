@@ -1,6 +1,6 @@
 ---
 doc_id: exp_002_entropy_information_gate
-title: Experiment 002 Entropy / Information-Source Gate
+title: "Experiment 002: Entropy / Information-Source Gate"
 doc_type: experiment
 stage: "1"
 status: provenance
@@ -11,7 +11,7 @@ next_gate: Level 1.5 phase transfer physicality
 last_updated: 2026-06-08
 ---
 
-# exp_002_entropy_information_gate
+# Experiment 002: Entropy / Information-Source Gate
 
 Date: 2026-06-08
 

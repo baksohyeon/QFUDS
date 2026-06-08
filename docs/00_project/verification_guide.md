@@ -1,3 +1,18 @@
+---
+doc_id: verification_guide
+title: QFUDS Verification Guide
+doc_type: guide
+stage: "1.5"
+status: in_progress
+evidence_role: ssot
+depends_on:
+  - exp_000_lcdm_baseline
+  - exp_001_gamma_scan
+  - exp_002_entropy_information_gate
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
 # QFUDS Verification Guide
 
 Date: 2026-06-08
@@ -93,6 +108,21 @@ What to inspect:
 What it means:
 
 The tests check implementation invariants: the zero-transfer path reproduces the LCDM baseline, all gamma models return finite aligned arrays, viability flags are explicit booleans, and an invalid constant-transfer parameter choice is detected by the positive-density check.
+
+## 5. Documentation Validation
+
+Command:
+
+```bash
+python3 scripts/validate_docs.py
+```
+
+What it means:
+
+This validates frontmatter, H1/title alignment, active-stage filename prefixes,
+required experiment/result document pairs, and the roadmap/decision-log stop
+line. It does not validate physics. It checks that the documentation control
+surface is internally coherent.
 
 ## How To Read CSV Outputs
 

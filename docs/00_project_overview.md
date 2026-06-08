@@ -1,3 +1,17 @@
+---
+doc_id: project_status_entrypoint
+title: QFUDS Project Overview
+doc_type: overview
+stage: "1.5"
+status: in_progress
+evidence_role: ssot
+depends_on:
+  - project_overview
+  - roadmap
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
 # QFUDS Project Overview
 
 Date: 2026-06-08

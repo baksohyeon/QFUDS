@@ -1,3 +1,16 @@
+---
+doc_id: qfuds_korean_overview
+title: Quantum Foam Unified Dark Sector (QFUDS)
+doc_type: reference
+stage: "reference"
+status: reference
+evidence_role: reference
+depends_on:
+  - project_overview
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
 # Quantum Foam Unified Dark Sector (QFUDS)
 
 언어: [English](../README.md) | Korean

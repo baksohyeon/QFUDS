@@ -121,15 +121,16 @@ experiments as theory versions or theory notes as experiments.
 
 ## Frontmatter Convention
 
-Active stage documents in `docs/02_theory/`, `docs/03_experiments/`,
-`docs/04_results/`, and `docs/05_next_steps/` must start with YAML
-frontmatter:
+Every maintained Markdown document under `docs/` must start with YAML
+frontmatter. Active stage documents in `docs/02_theory/`,
+`docs/03_experiments/`, `docs/04_results/`, and `docs/05_next_steps/` must also
+keep their sortable filename prefix.
 
 ```yaml
 ---
 doc_id: string
 title: string
-doc_type: theory_note | experiment | result | roadmap | gate | index | reference
+doc_type: overview | decision_log | guide | theory_note | experiment | result | roadmap | gate | index | reference
 stage: "0" | "1" | "1.5" | "2" | "reference"
 status: draft | completed | in_progress | blocked | provenance | reference
 evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
@@ -141,6 +142,9 @@ last_updated: YYYY-MM-DD
 
 Agents should read frontmatter first, then body text. If frontmatter and body
 conflict, update the active document rather than guessing.
+
+The H1 must match `title`. Use `doc_id` for machine-readable identity and the
+H1/title for human-readable labels.
 
 ## What Experiment 002 Is
 

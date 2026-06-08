@@ -1,6 +1,6 @@
 ---
 doc_id: result_001_gamma_scan
-title: Result 001 Gamma-Law Background Scan
+title: "Result 001: Gamma-Law Background Scan"
 doc_type: result
 stage: "1"
 status: completed

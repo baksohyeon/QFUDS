@@ -1,6 +1,6 @@
 ---
 doc_id: exp_001_gamma_scan
-title: Experiment 001 Gamma-Law Background Scan
+title: "Experiment 001: Gamma-Law Background Scan"
 doc_type: experiment
 stage: "1"
 status: completed
@@ -11,7 +11,7 @@ next_gate: Level 1.5 phase transfer physicality
 last_updated: 2026-06-08
 ---
 
-# exp_001_gamma_scan
+# Experiment 001: Gamma-Law Background Scan
 
 Date: 2026-06-08
 
