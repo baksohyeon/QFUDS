@@ -173,6 +173,7 @@ Current status:
 Level 0: literature position       draft complete
 Level 1: background cosmology      first toy version exists
 Level 1.5: Gamma(a) laws           v0.3 diagnostic pass complete
+Level 1.6: entropy/information     v0.4 diagnostic pass complete
 Level 2: perturbations             incomplete
 Level 3: CLASS/CAMB implementation not started
 Level 4: CMB comparison            not started
@@ -180,7 +181,7 @@ Level 5: matter power spectrum     not started
 Level 6: late-time survey tests    not started
 ```
 
-The project has moved from the first background toy model to v0.3 `Gamma(a)` transfer-law diagnostics. The immediate goal is now to add perturbation assumptions cleanly enough for background-only BAO/SN checks and then a Boltzmann-code implementation.
+The project has moved from the first background toy model through v0.3 `Gamma(a)` transfer-law diagnostics and v0.4 entropy/information-source diagnostics. The immediate goal is now to add perturbation assumptions cleanly enough for background-only BAO/SN checks and then a Boltzmann-code implementation.
 
 ### Level 0: Literature Position
 
@@ -243,6 +244,34 @@ collapsed-fraction, black-hole-entropy, and star-formation proxies are worth tes
 ```
 
 This does not prove QFUDS novel. It only narrows the next target to low-redshift, physically sourced transfer laws.
+
+### Level 1.6: Entropy And Information Sources
+
+Status:
+
+```text
+v0.4 complete at background-diagnostic level
+```
+
+Output:
+
+```text
+docs/03_experiments/exp_002_entropy_information_scan_v04.md
+docs/04_results/qfuds_v0_4_entropy_laws.md
+qfuds/gamma_laws.py
+CSV and PNG output files
+```
+
+Result:
+
+```text
+HBM/KL gravitational entropy fails positivity at the tested amplitude
+horizon information reduces to standard horizon/interacting dark energy
+black-hole entropy still needs a real mass/accretion history
+Press-Schechter information production is the narrow branch worth testing next
+```
+
+This still does not prove perturbation stability, CMB viability, matter-power viability, or novelty.
 
 ### Level 2: Perturbations
 
@@ -348,4 +377,4 @@ no CMB or matter-power fit yet
 remnant sector still optional
 ```
 
-The next real step is a CLASS or CAMB implementation. That is where the model first becomes testable enough to fail.
+The next real step is perturbation closure, then a CLASS or CAMB implementation. That is where the model first becomes testable enough to fail against CMB and matter-power data.

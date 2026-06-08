@@ -192,7 +192,7 @@ intuition
 
 목표는 QFUDS를 증명하는 것이 아닙니다. 목표는 무엇이 이 모델을 가장 먼저 죽이는지 찾는 것입니다. 혹은 살아남는 버전을 LCDM, unified dark fluid, k-essence, interacting dark energy, scalar-field dark matter, black/white-hole remnant model과 비교할 수 있을 만큼 좁히는 것입니다.
 
-현재 상태는 첫 toy-background 단계를 지나 v0.3 `Gamma(a)` phase-transfer 진단까지 진행된 상태입니다. 여러 phase-transfer law를 돌려보고, 어떤 형태가 바로 죽는지와 어떤 형태가 다음 테스트로 갈 만한지 정리했습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 끝나지 않았습니다.
+현재 상태는 첫 toy-background 단계, v0.3 `Gamma(a)` phase-transfer 진단, v0.4 entropy/information-source 진단까지 진행된 상태입니다. 여러 phase-transfer law를 돌려보고, 어떤 형태가 바로 죽는지, 어떤 형태가 알려진 interacting dark energy로 환원되는지, 어떤 좁은 branch가 다음 테스트로 갈 만한지 정리했습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 끝나지 않았습니다.
 
 ## 현재 검증 단계
 
@@ -200,6 +200,7 @@ intuition
 Level 0: literature position       draft form 완료
 Level 1: background toy model      첫 버전 구현
 Level 1.5: Gamma(a) transfer laws  v0.3 진단 완료
+Level 1.6: entropy/information     v0.4 진단 완료
 Level 2: perturbation equations    미완성
 Level 3: CLASS or CAMB integration 시작 전
 Level 4: CMB comparison            시작 전
@@ -207,7 +208,7 @@ Level 5: matter power comparison   시작 전
 Level 6: DESI/Euclid/Roman tests   시작 전
 ```
 
-QFUDS는 다음 수치 검사를 통과한 뒤에야 물리적으로 흥미로워집니다. v0.3은 아직 background-level 작업입니다. 나쁜 `Gamma(a)` law를 걸러낼 수는 있지만, CMB나 structure-formation viability를 주장할 단계는 아닙니다.
+QFUDS는 다음 수치 검사를 통과한 뒤에야 물리적으로 흥미로워집니다. v0.3과 v0.4는 아직 background-level 작업입니다. 나쁜 `Gamma(a)` law를 걸러낼 수는 있지만, CMB나 structure-formation viability를 주장할 단계는 아닙니다.
 
 ## 한 문장 thesis
 
@@ -497,8 +498,11 @@ background equation
 
 - `docs/01_origin/concept_origin.md`: 정보 흐름에서 QFUDS 질문까지 어떻게 이동했는지
 - `docs/00_project/research_program.md`: abstract, validation roadmap, kill criteria
+- `docs/00_project/verification_guide.md`: 현재 검증을 다시 실행하고 출력물을 읽는 법
+- `docs/03_experiments/exp_002_entropy_information_scan_v04.md`: v0.4 entropy/information-source 실험 정의
 - `docs/02_theory/qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
 - `docs/04_results/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law 진단과 viability table
+- `docs/04_results/qfuds_v0_4_entropy_laws.md`: v0.4 entropy/information-source 결과와 hostile verdict
 
 ## 참고 anchor
 

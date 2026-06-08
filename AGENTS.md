@@ -19,6 +19,7 @@ The project status as of 2026-06-08 is:
 - literature mapping is complete;
 - background toy models are implemented;
 - the v0.3 Gamma-law background scan is complete;
+- the v0.4 entropy/information-source background scan is complete;
 - perturbation equations are not yet complete;
 - CLASS/CAMB integration has not started;
 - CMB, matter-power, and survey-likelihood tests have not been performed.
@@ -128,7 +129,7 @@ Every completed experiment must generate all of the following:
 
 1. an experiment document in `docs/03_experiments/`;
 2. a result document in `docs/04_results/`;
-3. a decision log update in `docs/decision_log.md`;
+3. a decision log update in `docs/00_project/decision_log.md`;
 4. a roadmap update in `docs/05_next_steps/roadmap.md`.
 
 No experiment is considered complete until this documentation exists.
@@ -307,6 +308,7 @@ Current roadmap status:
 | Level 0 | Literature Position | completed | QFUDS has been compared at a draft level against LCDM, unified dark fluids, interacting dark energy, scalar-field dark matter, and compact-remnant scenarios. |
 | Level 1 | Background Toy Model | completed | Two-phase background toy models exist and the zero-transfer limit reproduces LCDM. |
 | Level 1.5 | Gamma-law Background Scan | completed | v0.3 transfer-law scan is complete; constant and ungated growth-driven transfer failed at tested amplitudes; low-redshift proxies survived only background checks. |
+| Level 1.6 | Entropy / Information Background Scan | completed | v0.4 entropy/information-source scan is complete; collapse/information production is the only branch kept for perturbation tests. |
 | Level 2 | Perturbation Equations | in progress | Phase-A, phase-B, and transfer perturbations remain unresolved. |
 | Level 3 | CLASS/CAMB Integration | blocked | Boltzmann-code work requires Level 2 equations first. |
 | Level 4 | CMB Comparison | blocked | No CMB comparison is valid until CLASS/CAMB or equivalent perturbation implementation exists. |
@@ -363,6 +365,7 @@ What has been tested:
 - minimal two-phase background formulation;
 - zero-transfer LCDM baseline;
 - v0.3 Gamma-law background scan;
+- v0.4 entropy/information-source background scan;
 - minimal background viability flags for candidate transfer laws.
 
 What survived:
@@ -372,12 +375,18 @@ What survived:
   dark-energy examples unless further derived;
 - collapsed-fraction, black-hole-entropy, and star-formation proxies survived
   minimal background checks and remain candidates for perturbation tests.
+- the v0.4 information-production law survived only background checks and
+  remains the narrowest entropy/information-source candidate.
 
 What failed:
 
 - the white-hole-universe image failed as a central testable claim;
 - constant Gamma transfer failed at the tested amplitude;
 - ungated growth-driven Gamma transfer failed at the tested amplitude;
+- broad HBM/KL gravitational-entropy transfer failed positivity at the tested
+  amplitude;
+- horizon-information transfer reduced to standard horizon/interacting
+  dark-energy phenomenology;
 - any claim of CMB viability from background-only tests failed;
 - any claim of novelty from free `Gamma(a)` failed.
 
@@ -389,6 +398,8 @@ What remains unknown:
 - whether phase B is exactly smooth or weakly perturbed;
 - whether any surviving v0.3 proxy survives CMB tests;
 - whether any surviving v0.3 proxy survives matter-power tests;
+- whether the surviving v0.4 information-production branch survives
+  perturbation tests;
 - whether QFUDS differs observationally from known dark-sector models;
 - whether black-hole or remnant language has any required role in the final
   model.
