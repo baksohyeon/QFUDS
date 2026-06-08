@@ -26,7 +26,9 @@ Checks:
 
 3. AGENTS.md does not maintain independent roadmap status.
 4. CLAUDE.md does not maintain independent roadmap status (and is a thin wrapper).
-5. README.md and PROJECT.md do not contradict the roadmap with their own status.
+5. README.md, PROJECT.md, and the single project overview
+   (docs/00_project/overview.md) do not contradict the roadmap with their own
+   status.
 
 6. No orphan experiment or result documents
    Every experiment doc has a matching result doc and vice versa.
@@ -61,6 +63,9 @@ CLAUDE = ROOT / "CLAUDE.md"
 README = ROOT / "README.md"
 PROJECT = ROOT / "PROJECT.md"
 
+# The single project overview, which must also defer status to the roadmap.
+OVERVIEW = DOCS / "00_project" / "overview.md"
+
 ROADMAP_REF = "docs/05_next_steps/000_roadmap.md"
 
 # A line "maintains status" if it ties a numbered Level to a status keyword.
@@ -93,12 +98,29 @@ def _read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def _body_after_frontmatter(lines: list[str]) -> int:
+    """Return the index of the first body line after any YAML frontmatter.
+
+    The frontmatter ``next_gate`` field legitimately names a gate (e.g.
+    "keep Level 2B blocked"); it is a controlled field, not a duplicated status
+    table, so it is excluded from the status-line scan.
+    """
+    if not lines or lines[0].strip() != "---":
+        return 0
+    for i in range(1, len(lines)):
+        if lines[i].strip() == "---":
+            return i + 1
+    return 0
+
+
 def _status_lines(path: Path) -> list[str]:
-    """Return 'file:line' markers for lines that tie a Level to a status word."""
+    """Return 'file:line' markers for body lines that tie a Level to a status word."""
     offenders: list[str] = []
     if not path.exists():
         return offenders
-    for n, line in enumerate(_read(path).splitlines(), start=1):
+    lines = _read(path).splitlines()
+    start = _body_after_frontmatter(lines)
+    for n, line in enumerate(lines[start:], start=start + 1):
         if LEVEL_RE.search(line) and STATUS_RE.search(line):
             offenders.append(f"{path.relative_to(ROOT)}:{n}: `{line.strip()}`")
     return offenders
@@ -214,16 +236,17 @@ def check_claude_no_status() -> CheckResult:
     return _independent_status_check(CLAUDE, "CLAUDE.md is a thin wrapper", ["AGENTS.md"])
 
 
-def check_readme_project_no_status() -> CheckResult:
+def check_human_facing_no_status() -> CheckResult:
+    """Human-facing entry points and the overview must defer status to the roadmap."""
     details: list[str] = []
     passed = True
-    for path in (README, PROJECT):
-        sub = _independent_status_check(path, path.name, [])
+    for path in (README, PROJECT, OVERVIEW):
+        sub = _independent_status_check(path, str(path.relative_to(ROOT)), [])
         marker = "OK " if sub.passed else "FAIL"
-        details.append(f"[{marker}] {path.name}")
+        details.append(f"[{marker}] {path.relative_to(ROOT)}")
         details.extend(f"    {line}" for line in sub.details)
         passed = passed and sub.passed
-    return CheckResult("README.md and PROJECT.md defer status to roadmap", passed, details)
+    return CheckResult("README.md, PROJECT.md, and overview defer status to roadmap", passed, details)
 
 
 def check_no_orphan_docs() -> CheckResult:
@@ -256,7 +279,7 @@ CHECKS = (
     check_completed_experiments_documented,
     check_agents_no_status,
     check_claude_no_status,
-    check_readme_project_no_status,
+    check_human_facing_no_status,
     check_no_orphan_docs,
 )
 

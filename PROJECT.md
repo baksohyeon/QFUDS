@@ -58,7 +58,6 @@ Canonical active documents:
 PROJECT.md
 AGENTS.md
 README.md
-docs/00_project_overview.md
 docs/00_project/overview.md
 docs/00_project/decision_log.md
 docs/00_project/verification_guide.md

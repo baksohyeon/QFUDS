@@ -215,6 +215,95 @@ Can this be made precise enough to fail?
 
 If the answer is no, the idea remains only a story. If the answer is yes, it becomes a toy framework that can be attacked by CMB data, structure formation, halo profiles, and dark-energy measurements.
 
+## Raw Brainstorm Log (Unedited)
+
+This section is not a set of claims. It is the raw material *before* pruning. The
+sections above are the cleaned model; this is the thinking that produced it, and
+the wrong jumps are kept on purpose, because they are part of the method.
+
+The engine of this project is fast divergence followed by adversarial
+convergence: one prompt branches into ten directions, and the dialogue attaches a
+counterexample, a constraint, or a name to each branch and cuts the dead ones. I
+did the diverging; the dialogue did the converging. Showing only the cleaned
+model hides that engine, so the raw ore is kept here.
+
+Five jumps came out of one head at the same speed. Which were gems and which were
+rocks was only sorted out afterward.
+
+**Jump 1 — Landauer to black-hole information (survived).**
+
+> "If erasing information isn't free, isn't this the same problem as how a black
+> hole handles information loss quantum-mechanically?"
+
+The first jump and the most solid one. Information is physical -> Bekenstein
+bound -> information, entropy, and gravity collide at a black hole. The link is
+standard, and there is real literature on it (arXiv:2407.08777). The one caution:
+"Hawking evaporation *exactly* saturates Landauer" is not taken here as a settled
+result.
+
+**Jump 2 — galaxy-scale quantum computer doing the reverse computation (survived).**
+
+> "What if a galaxy-sized quantum computer just brute-forces the reverse
+> computation and recovers the information?"
+
+The phrasing is raw, but the content is the Hayden–Preskill thought experiment.
+After the Page time, decoding Hawking radiation can recover the input in
+principle, but the decoding complexity is unrealistically large (Harlow–Hayden).
+This was close to a textbook intuition.
+
+**Jump 3 — antiparticle / time-reversed black hole (half survived).**
+
+> "What if there's an antiparticle-like black hole that runs the process in
+> reverse? What if every element moves quantum-symmetrically?"
+
+White holes, CPT, and black-to-white-hole tunneling are real research lines
+(Rovelli, Turok, 't Hooft). But the jump from "a symmetry exists" to "the
+macroscopic reverse process therefore happens" is blocked by the second law. The
+intuition ran ahead of the math here.
+
+**Jump 4 — dark matter as vacuum tremor / sparse / plasma (wrong, but the core survived).**
+
+Kept verbatim, unedited:
+
+> "Isn't dark matter actually energy from spacetime tremors arising in an extreme
+> vacuum state? **Sparse things that exist precisely because they don't exist.**
+> Not matter, but energy. Plasma-like."
+
+The wrong parts are not hidden:
+
+- **The plasma analogy.** Real plasma interacts strongly with light; dark matter
+  is nearly collisionless. The analogy invites the wrong picture.
+- **"Vacuum tremors are sparse."** The notorious problem with vacuum energy is the
+  opposite — it is *too large* (the cosmological-constant problem, theory exceeds
+  observation by ~10^120). The vacuum is at the dense end, not the sparse end.
+- **A triple equilibrium keeping the universe flat.** Flatness comes from
+  Omega_total = 1, not from a balance of inflow and outflow. Unrelated things were
+  tied together.
+
+But there is a core in the same sentence that survived:
+
+> "Dark matter may not be a particle but a collective excitation of a medium:
+> clumping like dust on small scales, behaving differently on large scales."
+
+That intuition points in nearly the same direction as superfluid dark matter
+(Berezhiani–Khoury) and BEC dark matter — a seriously studied hypothesis,
+reinvented through the wrong word ("plasma"). What QFUDS rescued by translating it
+into a `w ~= 0`, `c_s^2 ~= 0` collective mode is exactly this one line.
+
+**Jump 5 — the universe as a giant white hole (survived only as a spark).**
+
+Treating the Big Bang as a time-reversed black-hole singularity is a real idea
+(the black-hole-cosmology family). But extensions like breeding baby universes,
+moving information into an antiverse, or feeding energy through a multiverse
+entanglement bridge are worldbuilding, not a model, so this repository does not
+promote them to variables.
+
+Of the five jumps, two were solid, one half survived, one was wrong but left a
+core, and one remained only a spark. Every one of those labels is a verdict made
+after the fact. In the moment of diverging, none of them is sorted yet. So the
+method this repository records is: do not stop the divergence, but put every
+branch on the test stand without mercy.
+
 ## Why This Repository Exists
 
 This repository records my move from idea burst to research program:
@@ -561,8 +650,7 @@ Maintained research documentation:
 
 - `PROJECT.md`: documentation control and validation order
 - `docs/README.md`: documentation index and folder map
-- `docs/00_project_overview.md`: top-level project overview (defers status to the roadmap)
-- `docs/00_project/overview.md`: project goals, limitations, and model genealogy
+- `docs/00_project/overview.md`: project goals, limitations, and model genealogy (status lives in the roadmap)
 - `docs/00_project/decision_log.md`: chronological decisions with reasons and evidence
 - `docs/00_project/verification_guide.md`: how to rerun and read the current checks
 - `docs/02_theory/010_qfuds_v0_1.md`: conceptual origin-stage theory note

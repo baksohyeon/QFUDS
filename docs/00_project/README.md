@@ -17,8 +17,7 @@ last_updated: 2026-06-08
 
 Project-level documents.
 
-- `../00_project_overview.md`: short top-level status entry point.
-- `overview.md`: current status, scope, limitations, and source-document map.
+- `overview.md`: project overview — scope, limitations, and source-document map (status lives in the roadmap).
 - `research_program.md`: research framing, validation levels, and kill criteria.
 - `decision_log.md`: chronological decisions with evidence.
 - `verification_guide.md`: current reproducible checks and how to read their outputs.

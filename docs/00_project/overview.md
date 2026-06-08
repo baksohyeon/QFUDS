@@ -34,16 +34,11 @@ Can this version be made precise enough to fail?
 
 ## Current Status
 
-The project is currently at roadmap Level 1.5 with Level 2A completed.
-
-- Level 0 literature positioning exists in draft form.
-- Level 1 background validation is complete.
-- Level 1.5 phase-transfer physicality audit is in progress.
-- Level 2A phenomenological perturbation closure is complete for the baseline audit.
-- `exp_000`, `exp_001`, and `exp_002` are complete.
-- Perturbation equations are incomplete.
-- CLASS/CAMB integration has not started.
-- CMB and matter-power comparisons have not been performed.
+The current per-level status — completed, in progress, or blocked — and the list
+of completed experiments are maintained only in the roadmap (single source of
+truth): `docs/05_next_steps/000_roadmap.md`, with the reasoning trail in
+`docs/00_project/decision_log.md`. This overview does not restate them, so it
+cannot drift from the roadmap.
 
 Current implementation anchors:
 
@@ -75,7 +70,7 @@ The immediate research path is:
 1. Preserve the version history and experiment decisions in docs.
 2. Keep experiments 001 and 002 as background-only diagnostic results.
 3. Continue the Level 1.5 phase-transfer physicality gate for physical claims.
-4. Interpret the completed Level 2A result as phenomenological interacting vacuum only.
+4. Interpret the Level 2A result as phenomenological interacting vacuum only; see the roadmap for its status.
 5. Implement a Boltzmann-code version only after the perturbation assumptions are explicit and stable.
 6. Compare against CMB and matter power before adding new speculative mechanisms.
 

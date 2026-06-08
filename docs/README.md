@@ -35,7 +35,6 @@ python3 scripts/validate_docs.py
 
 Project-level status, decisions, roadmap framing, and Korean overview.
 
-- `00_project_overview.md`
 - `00_project/overview.md`
 - `00_project/research_program.md`
 - `00_project/decision_log.md`
