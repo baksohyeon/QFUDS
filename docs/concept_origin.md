@@ -4,6 +4,39 @@ This document records Dorito's original line of thought that led to Quantum Foam
 
 It is not a proof. It is a map from a raw intuition to testable questions.
 
+## The Landauer Trigger
+
+The first spark was not dark matter, dark energy, or white holes. It was a note about Landauer's principle:
+
+```text
+Erasing information is not free.
+Deleting or forgetting one bit has a minimum thermodynamic cost.
+That cost appears as heat and increases entropy.
+```
+
+The original passage framed forgetting as something that is paid for in the universe's thermal bookkeeping. Human memory, computer storage, and physical information processing were treated as parts of the same thermodynamic accounting system.
+
+That was the important jump:
+
+```text
+information
+-> data
+-> erasure cost
+-> entropy
+-> physical bookkeeping
+```
+
+From there, black holes became the natural next question. If information is physically costly to erase, then a black hole is not just an object that swallows matter. It is a place where information, gravity, quantum mechanics, and thermodynamics collide.
+
+The first QFUDS question was therefore:
+
+```text
+If information cannot simply disappear,
+what does a black hole actually do with it?
+```
+
+That question later branched into Hawking radiation, Page-curve/island calculations, reverse-process intuition, white-hole-like remnants, quantum foam, and finally the unified-dark-sector hypothesis. The Landauer passage is origin/provenance for the idea. It is not evidence that QFUDS is correct.
+
 ## Logic Jump Map
 
 The original thought process looks abrupt if it is read only as a list of claims. It is better read as a sequence of question shifts.
@@ -51,7 +84,7 @@ This map is the reason QFUDS is not introduced as a random combination of black 
 
 The first idea was not dark matter. It was information.
 
-Landauer's principle says that information erasure has a thermodynamic cost. In simple terms, information is not only an abstract label. It has physical consequences when it is erased, stored, or processed.
+Landauer's principle says that information erasure has a thermodynamic cost. In simple terms, information is more than a label. It has physical consequences when it is erased, stored, or processed.
 
 That naturally points toward the black-hole information problem:
 

@@ -21,6 +21,98 @@ Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework proposed
 
 This repository is not a claim that the model is correct. It is a workspace for turning an intuition into falsifiable questions.
 
+## Origin: From Information Erasure To QFUDS
+
+QFUDS did not start as a polished theory. It started from a simple information-thermodynamics trigger:
+
+```text
+Erasing information is not free.
+Deleting one bit has a minimum thermodynamic cost.
+That cost appears as heat in the universe's entropy bookkeeping.
+```
+
+That was the key turn: information stopped being just a label. If deleting data changes heat and entropy, then information belongs in the same physical ledger as energy, matter, and spacetime.
+
+The next jump was black holes. If information has physical cost, a black hole cannot be treated as a simple trash can for data. The next question is how information entering a black hole is encoded, whether Hawking radiation can return it in a scrambled form, and whether evaporation can stay compatible with quantum unitarity.
+
+That produced the raw thought chain:
+
+```text
+information
+-> data
+-> entropy
+-> black holes
+-> Hawking radiation
+-> reverse-process intuition
+-> quantum foam
+-> unified dark sector
+```
+
+At first, the creative image was much larger:
+
+```text
+What if the universe itself behaves like a giant white-hole-like release?
+```
+
+That image is useful as a spark, but it is too broad to be a good scientific claim. During pruning, the stronger center became narrower:
+
+```text
+Dark matter + dark energy
+= two effective phases of quantum spacetime foam.
+```
+
+In this framing, dark matter is the clustering phase: the part that behaves almost like pressureless matter and helps form halos. Dark energy is the residual pressure phase: the smooth leftover vacuum behavior that drives accelerated expansion. Black holes and white-hole-like remnants remain as speculative information-flow structures or defect-like remnants, but they are secondary.
+
+## What Was Pruned
+
+The raw idea had several branches:
+
+```text
+black holes as information processors
+white-hole-like reverse channels
+the universe as a white-hole-like release
+vacuum fluctuations as sparse dark structure
+cosmic acceleration as residual vacuum pressure
+```
+
+This repo keeps the branches that can be translated into variables, equations, and tests. The current research version is not:
+
+```text
+The universe is literally a white hole.
+```
+
+The current research version is:
+
+```text
+Can a quantum-foam unified dark sector reproduce the observed behavior
+normally attributed to dark matter and dark energy?
+```
+
+The standard here is simple:
+
+```text
+Can this be made precise enough to fail?
+```
+
+If the answer is no, the idea remains only a story. If the answer is yes, it becomes a toy framework that can be attacked by CMB data, structure formation, halo profiles, and dark-energy measurements.
+
+## Why This Repository Exists
+
+This repository records the move from idea burst to research program:
+
+```text
+intuition
+-> pruning
+-> hypothesis
+-> toy equations
+-> kill criteria
+-> code and future Boltzmann tests
+```
+
+The goal is not to prove QFUDS. The goal is to identify the first constraint that kills it, or to make the surviving version narrow enough to compare with LCDM, unified dark fluids, k-essence, interacting dark energy, scalar-field dark matter, and black/white-hole remnant models.
+
+Current status: the project is at the toy-background stage. A minimal background model exists in this repository. Perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are not complete.
+
 ## Current Validation Stage
 
 The project is currently at Level 1.
@@ -35,7 +127,7 @@ Level 5: matter power comparison   not started
 Level 6: DESI/Euclid/Roman tests   not started
 ```
 
-This matters because QFUDS becomes interesting only after it survives the first numerical checks. The model must first reproduce an LCDM-like background and then preserve CMB and structure-formation observables.
+QFUDS becomes interesting only after it survives the first numerical checks. The model must first reproduce an LCDM-like background and then preserve CMB and structure-formation observables.
 
 ## One-Sentence Thesis
 
@@ -115,7 +207,7 @@ If quantum foam behaves like an effective cosmic medium,
 what observational constraint kills it first?
 ```
 
-## The v0.2 Model
+## Current Working Hypothesis: The v0.2 Model
 
 The safer formulation is a unified dark sector inside ordinary general relativity.
 
@@ -214,6 +306,38 @@ A hostile reviewer should attack the model in this order:
 
 If these fail, the model is only a vocabulary shift.
 
+## Notes For Non-Scientists
+
+Plain-language notes for the technical terms above:
+
+```text
+Information erasure:
+Deleting a bit is not just "forgetting." It leaves a heat/entropy cost in
+the universe's bookkeeping.
+
+Hawking radiation:
+Black holes may leak energy, and possibly information, in an extremely
+scrambled form.
+
+Quantum foam:
+A speculative picture in which spacetime is not perfectly smooth at the
+smallest scales, but has microscopic fluctuations.
+
+Dark matter mode:
+The part of the foam that would clump like a wave or medium around galaxies.
+
+Dark energy mode:
+The smooth leftover pressure of the same sector, pushing cosmic expansion.
+
+Sound speed:
+How stiff the effective medium is. If it is too stiff, it cannot clump into
+galaxy halos. QFUDS survives only if the clustering phase is almost dust-like.
+
+White-hole remnant:
+A speculative tiny leftover or defect-like object that might store or release
+information. It is not established physics and is not the main claim.
+```
+
 ## Black Holes In This Picture
 
 Black holes are not the central proof of QFUDS.
@@ -290,101 +414,19 @@ The project becomes physically interesting only if the model survives the first 
 ## Documents
 
 - `docs/concept_origin.md`: how the raw information-flow idea became the QFUDS question
+- `docs/qfuds_ko.md`: Korean explanation of the same origin, pruning, hypothesis, and validation path
 - `docs/research_program.md`: abstract, model v0.2, validation roadmap, and kill criteria
 - `docs/qfuds_research_report.md`: adversarial literature comparison and mathematical formulation
 
----
+## Formal Reference Anchors
 
-# 한국어 설명
+These links are anchors for the claims and nearby research directions. They do not prove QFUDS.
 
-QFUDS는 Dorito가 제안한, 암흑물질과 암흑에너지를 양자 시공간 foam의 두 가지 거시적 상으로 해석해 보는 사고실험입니다.
-
-핵심은 화이트홀이 아닙니다. 더 강한 핵심은 이것입니다.
-
-```text
-암흑물질과 암흑에너지는 완전히 다른 두 존재가 아니라,
-같은 quantum foam의 서로 다른 거시적 상태일 수 있다.
-```
-
-아이디어의 출발은 정보 보존이었습니다.
-
-```text
-정보는 물리적이다.
-블랙홀이 정보를 삼키면 그 정보는 어디로 가는가?
-블랙홀의 역과정이 있다면 정보가 되돌아오는 통로가 있을 수 있는가?
-진공 요동과 정보 보존이 암흑부문의 평형 구조를 만들 수 있는가?
-```
-
-이 흐름이 다음 가설로 정리됐습니다.
-
-```text
-암흑물질 = 뭉치는 foam 상
-암흑에너지 = 균일하게 남는 foam 잔여 압력
-블랙홀 = foam의 정보 압축 노드
-화이트홀 잔재 = 선택적 정보 방출 결함
-```
-
-여기서 중요한 점은 각 단계가 “증명”이 아니라 질문의 이동이라는 것입니다.
-
-```text
-Landauer:
-정보는 물리적 비용을 가진다.
-
-블랙홀 정보 문제:
-블랙홀에 들어간 정보는 어디에 인코딩되는가?
-
-화이트홀/잔재 직관:
-블랙홀의 시간역전 구조가 있다면 정보의 지연 방출 채널을 생각할 수 있는가?
-
-quantum foam:
-시공간 자체가 미시적으로 요동한다면 그 요동이 암흑부문의 매질일 수 있는가?
-
-암흑물질:
-그 foam의 긴 파장 모드가 w ~= 0, c_s^2 ~= 0으로 뭉칠 수 있는가?
-
-암흑에너지:
-다른 foam 모드가 w ~= -1의 균일한 잔여 압력으로 남을 수 있는가?
-
-QFUDS:
-이 둘을 하나의 암흑부문 유효 매질의 두 상으로 볼 수 있는가?
-```
-
-현재 가장 안전한 버전은 `QFUDS v0.2`입니다.
-
-```text
-rho_dark = rho_QF + rho_rem
-```
-
-여기서 `rho_QF`는 quantum foam unified dark fluid입니다.
-
-```text
-rho_QF(a) = rho_cluster(a) + rho_residual(a)
-```
-
-`rho_cluster`는 암흑물질처럼 행동해야 합니다.
-
-```text
-rho_cluster ~ a^-3
-w ~= 0
-c_s^2 ~= 0
-```
-
-`rho_residual`은 암흑에너지처럼 행동해야 합니다.
-
-```text
-rho_residual ~= rho_*
-w ~= -1
-```
-
-가장 중요한 조건은 `c_s^2 ~= 0`입니다.
-
-쉽게 말하면:
-
-```text
-QFUDS foam은 배경 우주에서는 우주를 밀어내는 압력을 남기지만,
-은하 형성에서는 압력 없는 먼지처럼 뭉쳐야 한다.
-```
-
-이 조건을 만족하지 못하면 은하 halo와 대규모 구조가 만들어지지 않습니다. 그러면 모델은 바로 죽습니다.
-
-현재 이 프로젝트는 이론이 아니라 검증 가능한 toy framework입니다. 다음 단계는 CLASS/CAMB에 넣을 수 있는 배경 방정식과 섭동 방정식을 만들고, CMB와 matter power spectrum에서 LCDM을 얼마나 망가뜨리는지 확인하는 것입니다.
+- [Hawking evaporation and the Landauer Principle](https://arxiv.org/abs/2407.08777)
+- [Entanglement Wedge Reconstruction and the Information Paradox](https://arxiv.org/abs/1905.08255)
+- [Replica wormholes and the black hole interior](https://arxiv.org/abs/1911.11977)
+- [Black hole fireworks: black-to-white-hole tunneling](https://arxiv.org/abs/1407.0989)
+- [Small black/white hole stability and dark matter](https://arxiv.org/abs/1805.03872)
+- [Planck 2018 cosmological parameters](https://arxiv.org/abs/1807.06209)
+- [DESI DR2 results guide](https://www.desi.lbl.gov/2025/03/19/desi-dr2-results-march-19-guide/)
+- [Unified dark fluid with null sound speed](https://arxiv.org/abs/2509.16155)
