@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Validate QFUDS documentation metadata and roadmap links."""
+"""Validate QFUDS documentation metadata and roadmap links.
+
+This script is the executable, authoritative form of the frontmatter schema
+convention documented in `docs/00_project/frontmatter_convention.md`. If that
+document and this script disagree, this script wins and the document must be
+corrected. Keep the enumerations below in sync with that convention.
+"""
 
 from __future__ import annotations
 
@@ -163,7 +169,8 @@ def validate_crosslinks() -> list[str]:
         require_text(decision_log, exp_id, errors)
 
     require_text(roadmap, "Level 1.5", errors)
-    require_text(roadmap, "perturbation equations | blocked", errors)
+    require_text(roadmap, "phenomenological perturbation closure | completed", errors)
+    require_text(roadmap, "physical perturbation closure | blocked", errors)
     require_text(roadmap, "CLASS integration | blocked", errors)
     require_text(roadmap, "CMB comparison | blocked", errors)
     require_text(decision_log, "Demote experiment 002 from evidence to provenance", errors)
@@ -184,6 +191,10 @@ def validate_crosslinks() -> list[str]:
         (
             DOCS / "03_experiments" / "020_exp_002_entropy_information_gate.md",
             DOCS / "04_results" / "020_result_002_entropy_information_gate.md",
+        ),
+        (
+            DOCS / "03_experiments" / "030_exp_003_phenomenological_perturbation_closure.md",
+            DOCS / "04_results" / "030_result_003_phenomenological_perturbation_closure.md",
         ),
     ]
     for experiment, result in pairs:

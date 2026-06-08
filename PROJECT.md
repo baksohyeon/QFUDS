@@ -14,7 +14,8 @@ The validation order is sequential:
 Level 0: literature position
 Level 1: background toy model
 QFUDS v0.15 / Level 1.5: phase transfer physicality
-Level 2: perturbation equations
+Level 2A: phenomenological perturbation closure
+Level 2B: physical perturbation equations
 Level 3: CLASS or CAMB integration
 Level 4: CMB comparison
 Level 5: matter power comparison
@@ -31,38 +32,23 @@ exp_002: entropy / information-source background gate
 
 These are not observational successes. They are filters before QFUDS v0.15 / Level 1.5 because several candidate transfer laws needed to be killed before asking whether the surviving transfer law is physical enough for perturbation work.
 
-Current stop line:
+The current stop line — which level is active, what is complete, and what is
+blocked — is **not** restated here. It lives in the single source of truth:
+`docs/05_next_steps/000_roadmap.md`. Read the roadmap for current status before
+acting.
 
-```text
-QFUDS v0.15 / Level 1.5 phase-transfer physicality is not complete.
-Level 2 perturbation theory is blocked.
-No CLASS/CAMB implementation exists.
-No CMB spectrum exists.
-No matter-power spectrum exists.
-No survey likelihood exists.
-```
+## Status, Decisions, And Evidence
 
-## Current Status
+`PROJECT.md` controls documentation structure, not project status. To avoid
+drift, status is maintained in exactly one place and is not duplicated here:
 
-Completed:
+- **Current status, current level, active branch, and blockers** —
+  `docs/05_next_steps/000_roadmap.md` (single source of truth).
+- **Why decisions were made** — `docs/00_project/decision_log.md`.
+- **Experiment evidence** — `docs/03_experiments/` and `docs/04_results/`.
 
-- Level 0 literature positioning at draft level.
-- Level 1 background validation:
-  - `exp_000` zero-transfer LCDM baseline;
-  - `exp_001` Gamma-law background scan;
-  - `exp_002` entropy/information-source background gate.
-
-In progress:
-
-- QFUDS v0.15 / Level 1.5 phase-transfer physicality.
-
-Blocked:
-
-- Level 2 perturbation equations.
-- CLASS/CAMB integration.
-- CMB comparison.
-- matter-power comparison.
-- DESI/Euclid/Roman constraints.
+If anything in this file appears to assert project status, the roadmap wins and
+this file must be corrected.
 
 ## Documentation Tree
 
@@ -72,22 +58,25 @@ Canonical active documents:
 PROJECT.md
 AGENTS.md
 README.md
-docs/00_project_overview.md
 docs/00_project/overview.md
 docs/00_project/decision_log.md
 docs/00_project/verification_guide.md
+docs/00_project/frontmatter_convention.md
 docs/02_theory/010_qfuds_v0_1.md
 docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md
 docs/02_theory/020_qfuds_v0_2.md
 docs/02_theory/030_qfuds_v0_3.md
+docs/02_theory/040_qfuds_phenomenological_perturbations.md
 docs/03_experiments/000_exp_000_lcdm_baseline.md
 docs/03_experiments/010_exp_001_gamma_scan.md
 docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md
 docs/03_experiments/020_exp_002_entropy_information_gate.md
+docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md
 docs/04_results/000_result_000_lcdm_baseline.md
 docs/04_results/010_result_001_gamma_scan.md
 docs/04_results/015_result_001_5_phase_transfer_physicality.md
 docs/04_results/020_result_002_entropy_information_gate.md
+docs/04_results/030_result_003_phenomenological_perturbation_closure.md
 docs/05_next_steps/000_roadmap.md
 docs/05_next_steps/010_perturbation_gate.md
 ```
@@ -120,6 +109,11 @@ The semantic ID remains in the filename after the prefix. Do not rename
 experiments as theory versions or theory notes as experiments.
 
 ## Frontmatter Convention
+
+The canonical schema, allowed values, and enforced rules live in
+`docs/00_project/frontmatter_convention.md` (SSOT) and are checked by
+`scripts/validate_docs.py`. The block below is a convenience copy; if it drifts
+from the convention document or the validator, those win.
 
 Every maintained Markdown document under `docs/` must start with YAML
 frontmatter. Active stage documents in `docs/02_theory/`,
@@ -168,12 +162,20 @@ Gamma(a) is a phenomenological coarse-grained transfer law with a physically
 motivated source shape. It is not yet derived physics.
 ```
 
-## What Level 2 Must Produce
+## What Level 2 Produced And Still Must Produce
 
-Level 2 must not start until Level 1.5 is resolved. Once unblocked, Level 2 must
-produce new theory and experiment documents before any CLASS/CAMB work starts.
+The Level 2A phenomenological perturbation closure audit was run as `exp_003`.
+It was permitted to proceed without Level 1.5 because it is an explicitly
+phenomenological, gauge-declared closure audit, not a physical derivation. For
+its verdict and current status, see
+`docs/04_results/030_result_003_phenomenological_perturbation_closure.md` and the
+roadmap; do not restate the verdict here.
 
-Required Level 2 outputs:
+Physical Level 2B must not start until Level 1.5 is resolved. Once unblocked,
+Level 2B must produce new theory and experiment documents before any CLASS/CAMB
+work starts.
+
+Required Level 2B outputs:
 
 - self-consistent `dF_coll/dln a` using QFUDS growth `D(a)`;
 - physically fixed collapse mass threshold `M`;
@@ -186,25 +188,29 @@ Required Level 2 outputs:
 - LCDM and `w(a)` / `f sigma8(a)` redshift-ratio comparison;
 - hostile review classification.
 
-No Level 2 experiment is complete until it has:
+No experiment is complete until it has:
 
 - a document in `docs/03_experiments/`;
 - a result in `docs/04_results/`;
 - a decision-log update;
 - a roadmap update.
 
-## Files Still Needed
+`exp_003` satisfied all four for Level 2A.
 
-For the next phase:
+## Files Already Produced And Still Needed
+
+The Level 2A phenomenological closure files exist and are current:
 
 ```text
-docs/02_theory/040_qfuds_perturbations.md
-docs/03_experiments/030_exp_003_perturbation_prescriptions.md
-docs/04_results/030_result_003_perturbation_prescriptions.md
+docs/02_theory/040_qfuds_phenomenological_perturbations.md
+docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md
+docs/04_results/030_result_003_phenomenological_perturbation_closure.md
+docs/05_next_steps/010_perturbation_gate.md
 ```
 
-These files do not exist yet because Level 1.5 is not resolved and perturbation work
-has not been done.
+Physical Level 2B files do not exist yet because Level 1.5 is not resolved and a
+physical phase-transfer derivation has not been done. Names will be assigned when
+Level 2B is unblocked.
 
 ## Refactoring Rule
 
@@ -221,6 +227,7 @@ background filters -> Level 1.5 phase-transfer physicality -> perturbation equat
 The README should remain a reader-facing overview. It should point to:
 
 - `PROJECT.md` for documentation control and validation order;
-- `docs/00_project_overview.md` for project status;
-- `docs/00_project/verification_guide.md` for reproducible checks;
-- `docs/05_next_steps/000_roadmap.md` for current blockers.
+- `docs/05_next_steps/000_roadmap.md` for current status, level, and blockers
+  (single source of truth);
+- `docs/00_project/decision_log.md` for research history and decisions;
+- `docs/00_project/verification_guide.md` for reproducible checks.

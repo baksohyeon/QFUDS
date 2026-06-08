@@ -1,0 +1,11 @@
+run_id,variant,gamma_model,gamma0,any_unstable,unstable_modes,max_abs_perturbation,max_abs_curvature_proxy,max_conservation_residual,theta_B_status
+R0,P1,information_production,0.0,False,,0.007958884143202644,0.0026529261951000953,0.0,not_applicable_for_interacting_vacuum
+R0,P2,information_production,0.0,False,,0.03212472526104183,0.0026529261982299697,0.0,regularized_fluid_variable
+R1,P1,information_production,0.02,False,,0.008254808930048353,0.0027515664824414917,0.0,not_applicable_for_interacting_vacuum
+R1,P2,information_production,0.02,True,0.0001;0.001;0.01;0.1,934412015.0724559,0.7588509226341568,0.0,regularized_fluid_variable
+R2a,P1,information_production,0.005,False,,0.008032115938709295,0.002677336469846931,0.0,not_applicable_for_interacting_vacuum
+R2a,P2,information_production,0.005,False,,0.4001570322051364,0.0026773463584220183,0.0,regularized_fluid_variable
+R2b,P1,information_production,0.01,False,,0.008105846602741298,0.002701913031896735,0.0,not_applicable_for_interacting_vacuum
+R2b,P2,information_production,0.01,False,,78847450.3788696,0.009330376640881231,0.0,regularized_fluid_variable
+R3,P1,information_production,0.04,False,,0.008558766864694924,0.0028528844502022244,0.0,not_applicable_for_interacting_vacuum
+R3,P2,information_production,0.04,True,0.0001;0.001;0.01;0.1,5323437756.584297,0.03612114396352216,0.0,regularized_fluid_variable

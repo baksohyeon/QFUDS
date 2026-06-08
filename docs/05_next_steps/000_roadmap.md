@@ -7,7 +7,7 @@ status: in_progress
 evidence_role: ssot
 depends_on:
   - result_001_5_phase_transfer_physicality
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; classify P1 continuation as phenomenological interacting vacuum
 last_updated: 2026-06-08
 ---
 
@@ -27,23 +27,27 @@ Date: 2026-06-08
 | --- | --- | --- | --- | --- |
 | 0 | literature position | completed | `docs/02_theory/900_qfuds_research_report.md` | Keep comparison current as model changes |
 | 1 | background validation | completed | `docs/04_results/000_result_000_lcdm_baseline.md`, `docs/04_results/010_result_001_gamma_scan.md`, `docs/04_results/020_result_002_entropy_information_gate.md`, `outputs/`, `tests/test_gamma_v03.py` | Treat experiment 002 as provenance; audit only the retained collapse/information-production shape |
-| 1.5 | phase transfer physicality | in progress | `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`, `docs/04_results/015_result_001_5_phase_transfer_physicality.md`, `docs/04_results/020_result_002_entropy_information_gate.md`, `qfuds/gamma_laws.py` | Decide whether `Gamma(a)` is derived physics or only a phenomenological interacting-vacuum law |
-| 2 | perturbation equations | blocked | assumptions noted in `qfuds/growth.py` and theory docs | Requires Level 1.5 closure first |
-| 3 | CLASS integration | blocked | none | Requires Level 2 equations |
+| 1.5 | phase transfer physicality | in progress | `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`, `docs/04_results/015_result_001_5_phase_transfer_physicality.md`, `docs/04_results/020_result_002_entropy_information_gate.md`, `qfuds/gamma_laws.py` | Required for physical Level 2B claims, not for a phenomenological Level 2A closure audit |
+| 2A | phenomenological perturbation closure | completed | `docs/02_theory/040_qfuds_phenomenological_perturbations.md`, `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`, `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`, `outputs/exp003_stability_diagnostics.csv` | P2 failed at retained amplitude; P1 survives only as phenomenological interacting vacuum |
+| 2B | physical perturbation closure | blocked | Level 1.5 audit docs | Requires derived or explicitly justified transfer physics |
+| 3 | CLASS integration | blocked | none | Requires a stable Level 2A closure at minimum; physical claims require Level 2B |
 | 4 | CMB comparison | blocked | none | Requires CLASS/CAMB implementation |
 | 5 | matter power spectrum | blocked | growth proxy only | Requires perturbation solver or Boltzmann output |
 | 6 | DESI/Euclid comparison | blocked | no likelihood pipeline | Requires validated background plus perturbation predictions |
 
 ## Immediate Work
 
-1. Complete QFUDS v0.15 / Level 1.5 in `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`.
-2. Decide whether the surviving branch is a physical phase-transfer hypothesis or only a phenomenological transfer law.
-3. Replace the implicit `collapse_a` threshold with an explicit physical mass threshold `M`, or document why that cannot yet be done.
-4. Recompute `dF_coll/dln a` using self-consistent QFUDS growth only after the required growth ingredients exist.
-5. Follow `docs/05_next_steps/010_perturbation_gate.md` only after the Level 1.5 gate is satisfied.
-6. Kill or demote the branch if it remains ordinary interacting vacuum with a tuned source shape.
+1. Continue QFUDS v0.15 / Level 1.5 in `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`.
+2. Treat `Gamma(a)` as phenomenological unless the Level 1.5 audit derives or fixes its physical source.
+3. Treat the P2 regularized-fluid closure as failed at the retained amplitude.
+4. Treat the P1 interacting-vacuum closure as Level 2A phenomenology only.
+5. Replace the implicit `collapse_a` threshold with an explicit physical mass threshold `M`, or document why that cannot yet be done.
+6. Recompute `dF_coll/dln a` using self-consistent QFUDS growth only after the required growth ingredients exist.
+7. Do not advance to physical Level 2B without a physical transfer derivation.
 
-Do not create `exp_003` as a perturbation experiment until Level 1.5 is resolved.
+Do not treat Level 2A as derived QFUDS physics. Do not start Level 2B, CLASS/CAMB,
+CMB, matter-power, or survey-likelihood claims until the relevant upstream gate
+is satisfied.
 
 ## Completed Background Validations
 
@@ -58,7 +62,7 @@ Do not create `exp_003` as a perturbation experiment until Level 1.5 is resolved
 1. `Gamma(a)` is not derived from microphysics.
 2. The surviving `dF_coll/dln a` source currently uses LCDM growth approximations.
 3. No fixed physical collapse mass threshold `M`.
-4. No perturbation closure relation.
+4. No tested perturbation closure relation.
 5. No Boltzmann-code interface.
 6. No likelihood comparison against CMB, BAO, SN, or matter power data.
 
