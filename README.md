@@ -230,15 +230,16 @@ intuition
 
 The goal is not to prove QFUDS. My goal is to identify the first constraint that kills it, or to make the surviving version narrow enough to compare with LCDM, unified dark fluids, k-essence, interacting dark energy, scalar-field dark matter, and black/white-hole remnant models.
 
-Current status: the project is at the toy-background stage. A minimal background model exists in this repository. Perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are not complete.
+Current status: the project has moved past the first toy-background model into a v0.3 background-transfer diagnostic pass. The repo now tests several physically motivated `Gamma(a)` phase-transfer laws and classifies which ones die immediately. Perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are still not complete.
 
 ## Current Validation Stage
 
-The project is currently at Level 1.
+The project is currently between Level 1 and Level 2: the background model exists, and v0.3 now tests candidate phase-transfer laws, but perturbations are still incomplete.
 
 ```text
 Level 0: literature position       done in draft form
-Level 1: background toy model      in progress / first version implemented
+Level 1: background toy model      implemented
+Level 1.5: Gamma(a) transfer laws  v0.3 diagnostic pass complete
 Level 2: perturbation equations    not complete
 Level 3: CLASS or CAMB integration not started
 Level 4: CMB comparison            not started
@@ -246,7 +247,7 @@ Level 5: matter power comparison   not started
 Level 6: DESI/Euclid/Roman tests   not started
 ```
 
-QFUDS becomes interesting only after it survives the first numerical checks. The model must first reproduce an LCDM-like background and then preserve CMB and structure-formation observables.
+QFUDS becomes interesting only after it survives the next numerical checks. v0.3 is still background-level work: it can reject bad transfer laws, but it cannot claim CMB or structure-formation viability yet.
 
 ## One-Sentence Thesis
 
@@ -326,7 +327,7 @@ If quantum foam behaves like an effective cosmic medium,
 what observational constraint kills it first?
 ```
 
-## Current Working Hypothesis: The v0.2 Model
+## Current Working Hypothesis: The v0.3 Model
 
 The safer formulation is a unified dark sector inside ordinary general relativity.
 
@@ -360,6 +361,15 @@ The optional remnant piece is written as:
 ```text
 rho_rem = integral M f(M) dM
 ```
+
+v0.3 adds a phase-transfer rate between the clustering phase and residual phase:
+
+```text
+d rho_A / d ln a + 3 rho_A = -Gamma(a) rho_A
+d rho_B / d ln a           =  Gamma(a) rho_A
+```
+
+The current test is whether `Gamma(a)` can be tied to a physical proxy instead of being fitted by hand. The most useful toy directions so far are low-redshift collapse, black-hole-entropy, and star-formation proxies. Constant and ungated growth-driven transfer fail early or collapse back into ordinary interacting-dark-energy behavior.
 
 It should stay subdominant unless its mass function survives microlensing, CMB, and structure-formation constraints.
 
@@ -517,10 +527,11 @@ It is a speculative framework with a clearer center than the original white-hole
 quantum foam unified dark sector with near-zero sound speed
 ```
 
-The next meaningful step is not more story. It is a validation roadmap:
+The current v0.3 step is a background-level `Gamma(a)` validation pass. The next meaningful step is not more story. It is perturbations and Boltzmann-code validation:
 
 ```text
-background equation
+background equation                    done
+Gamma(a) transfer-law diagnostics       v0.3 done
 -> perturbation equation
 -> CLASS or CAMB implementation
 -> CMB comparison
@@ -534,8 +545,9 @@ The project becomes physically interesting only if the model survives the first 
 
 - `docs/concept_origin.md`: how the raw information-flow idea became the QFUDS question
 - `docs/qfuds_ko.md`: Korean explanation of the same origin, pruning, hypothesis, and validation path
-- `docs/research_program.md`: abstract, model v0.2, validation roadmap, and kill criteria
+- `docs/research_program.md`: abstract, validation roadmap, and kill criteria
 - `docs/qfuds_research_report.md`: adversarial literature comparison and mathematical formulation
+- `docs/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law diagnostics and viability table
 
 ## Formal Reference Anchors
 

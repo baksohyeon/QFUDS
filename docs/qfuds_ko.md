@@ -192,13 +192,14 @@ intuition
 
 목표는 QFUDS를 증명하는 것이 아닙니다. 목표는 무엇이 이 모델을 가장 먼저 죽이는지 찾는 것입니다. 혹은 살아남는 버전을 LCDM, unified dark fluid, k-essence, interacting dark energy, scalar-field dark matter, black/white-hole remnant model과 비교할 수 있을 만큼 좁히는 것입니다.
 
-현재 상태는 toy-background 단계입니다. 이 저장소에는 최소 배경 모델이 있습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 끝나지 않았습니다.
+현재 상태는 첫 toy-background 단계를 지나 v0.3 `Gamma(a)` phase-transfer 진단까지 진행된 상태입니다. 여러 phase-transfer law를 돌려보고, 어떤 형태가 바로 죽는지와 어떤 형태가 다음 테스트로 갈 만한지 정리했습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 끝나지 않았습니다.
 
 ## 현재 검증 단계
 
 ```text
 Level 0: literature position       draft form 완료
 Level 1: background toy model      첫 버전 구현
+Level 1.5: Gamma(a) transfer laws  v0.3 진단 완료
 Level 2: perturbation equations    미완성
 Level 3: CLASS or CAMB integration 시작 전
 Level 4: CMB comparison            시작 전
@@ -206,7 +207,7 @@ Level 5: matter power comparison   시작 전
 Level 6: DESI/Euclid/Roman tests   시작 전
 ```
 
-QFUDS는 첫 번째 수치 검사를 통과한 뒤에야 물리적으로 흥미로워집니다. 먼저 LCDM-like background를 재현해야 하고, 그다음 CMB와 structure-formation 관측을 망가뜨리지 않아야 합니다.
+QFUDS는 다음 수치 검사를 통과한 뒤에야 물리적으로 흥미로워집니다. v0.3은 아직 background-level 작업입니다. 나쁜 `Gamma(a)` law를 걸러낼 수는 있지만, CMB나 structure-formation viability를 주장할 단계는 아닙니다.
 
 ## 한 문장 thesis
 
@@ -495,8 +496,9 @@ background equation
 ## 문서
 
 - `docs/concept_origin.md`: 정보 흐름에서 QFUDS 질문까지 어떻게 이동했는지
-- `docs/research_program.md`: abstract, model v0.2, validation roadmap, kill criteria
+- `docs/research_program.md`: abstract, validation roadmap, kill criteria
 - `docs/qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
+- `docs/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law 진단과 viability table
 
 ## 참고 anchor
 

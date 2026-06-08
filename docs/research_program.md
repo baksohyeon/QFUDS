@@ -172,6 +172,7 @@ Current status:
 ```text
 Level 0: literature position       draft complete
 Level 1: background cosmology      first toy version exists
+Level 1.5: Gamma(a) laws           v0.3 diagnostic pass complete
 Level 2: perturbations             incomplete
 Level 3: CLASS/CAMB implementation not started
 Level 4: CMB comparison            not started
@@ -179,7 +180,7 @@ Level 5: matter power spectrum     not started
 Level 6: late-time survey tests    not started
 ```
 
-The immediate goal is to move from "idea" to "toy cosmology model" by making the background and perturbation assumptions explicit enough for a Boltzmann code.
+The project has moved from the first background toy model to v0.3 `Gamma(a)` transfer-law diagnostics. The immediate goal is now to add perturbation assumptions cleanly enough for background-only BAO/SN checks and then a Boltzmann-code implementation.
 
 ### Level 0: Literature Position
 
@@ -214,6 +215,34 @@ Omega(a)
 w(a)
 LCDM limit
 ```
+
+### Level 1.5: Physically Motivated Gamma(a) Laws
+
+Status:
+
+```text
+v0.3 complete at background-diagnostic level
+```
+
+Output:
+
+```text
+docs/qfuds_v0_3_gamma_laws.md
+qfuds/gamma_laws.py
+generalized background integration
+viability table for candidate Gamma(a) laws
+CSV and PNG output files
+```
+
+Result:
+
+```text
+constant and ungated growth-driven transfer die early
+power-law and horizon-entropy gates behave like ordinary interacting dark energy
+collapsed-fraction, black-hole-entropy, and star-formation proxies are worth testing next
+```
+
+This does not prove QFUDS novel. It only narrows the next target to low-redshift, physically sourced transfer laws.
 
 ### Level 2: Perturbations
 
