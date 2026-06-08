@@ -8,7 +8,7 @@ evidence_role: audit
 depends_on:
   - exp_001_5_phase_transfer_physicality
   - result_002_entropy_information_gate
-next_gate: resolve physicality before exp_003
+next_gate: Level 2A phenomenological closure; keep physical Level 2B blocked
 last_updated: 2026-06-08
 ---
 
@@ -24,7 +24,7 @@ The surviving experiment 002 branch:
 \Gamma(a) \propto {dF_{\rm coll}(>M,a)\over d\ln a}
 ```
 
-has not earned direct promotion to perturbation theory.
+has not earned direct promotion to physical perturbation theory.
 
 Stronger audit result: experiment 002 is not meaningful physical data for the
 surviving branch. It was run before the phase-transfer mechanism, physical mass
@@ -37,7 +37,8 @@ Gamma(a) is a phenomenological coarse-grained transfer law with a physically
 motivated source shape. It is not yet derived physical phase transfer.
 ```
 
-This is a Level 1.5 result, not a Level 2 perturbation result.
+This is a Level 1.5 result, not a Level 2 perturbation result. It does not
+forbid a Level 2A phenomenological perturbation-closure audit.
 
 ## Scope
 
@@ -53,7 +54,7 @@ repository has not derived why nonlinear collapse or information production
 should convert phase A into smooth vacuum-pressure phase B.
 
 The branch is therefore retained only as a question to clarify, not as a
-physical law and not as data to carry directly into Level 2.
+physical law and not as data to carry directly into physical Level 2B.
 
 ## Parameter Status
 
@@ -99,8 +100,9 @@ exp_002 killed broad entropy language and identified a useful shape to audit.
 It did not produce physically meaningful evidence for phase transfer.
 ```
 
-Do not create `exp_003` or begin Level 2 perturbation closure until the
-Level 1.5 gate is resolved or the branch is explicitly demoted to a
+Do not treat `exp_003` as physical QFUDS evidence. `exp_003` may proceed only
+as Level 2A phenomenological perturbation closure. Level 2B remains blocked
+until the Level 1.5 gate is resolved or the branch is explicitly demoted to a
 phenomenological interacting-vacuum model.
 
 Evidence:

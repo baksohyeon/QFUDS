@@ -129,8 +129,9 @@ The required Level 1.5 gates are:
    required growth ingredients exist.
 3. Fix the mass threshold `M` physically instead of tuning it after seeing the
    result.
-4. Keep Level 2 perturbation equations blocked until the Level 1.5 gate is
-   resolved.
+4. Keep physical Level 2B perturbation equations blocked until the Level 1.5
+   gate is resolved. Level 2A has proceeded only as a phenomenological closure
+   audit.
 5. Kill or demote the branch if it remains ordinary interacting vacuum with a
    tuned source shape.
 
@@ -459,5 +460,6 @@ Next technical step:
 2. Replace the LCDM-source Press-Schechter approximation only after
    self-consistent QFUDS growth exists.
 3. Choose one physical mass threshold or derive it from foam microphysics.
-4. Keep perturbation work blocked until the Level 1.5 gate is resolved.
+4. Keep physical perturbation claims blocked until the Level 1.5 gate is
+   resolved. Level 2A phenomenological closure may proceed as an audit.
 5. Kill the model if the redshift-ratio relation above fails.

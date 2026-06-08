@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - project_overview
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
@@ -205,7 +205,7 @@ intuition
 
 목표는 QFUDS를 증명하는 것이 아닙니다. 목표는 무엇이 이 모델을 가장 먼저 죽이는지 찾는 것입니다. 혹은 살아남는 버전을 LCDM, unified dark fluid, k-essence, interacting dark energy, scalar-field dark matter, black/white-hole remnant model과 비교할 수 있을 만큼 좁히는 것입니다.
 
-현재 상태는 QFUDS v0.15 / Level 1.5 phase-transfer physicality 단계입니다. `exp_000` baseline, `exp_001` Gamma-law scan, `exp_002` entropy/information gate를 통해 어떤 transfer law가 바로 죽는지, 어떤 형태가 알려진 interacting dark energy로 환원되는지 정리했습니다. 다만 `exp_002`는 physical evidence가 아니라 provenance로 격하되었습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 시작할 수 없습니다.
+현재 상태는 QFUDS v0.15 / Level 1.5 phase-transfer physicality와 완료된 Level 2A phenomenological perturbation closure audit 단계입니다. `exp_000` baseline, `exp_001` Gamma-law scan, `exp_002` entropy/information gate를 통해 어떤 transfer law가 바로 죽는지, 어떤 형태가 알려진 interacting dark energy로 환원되는지 정리했습니다. 다만 `exp_002`는 physical evidence가 아니라 provenance로 격하되었습니다. Level 2A는 phenomenological closure audit일 뿐이며, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 시작할 수 없습니다.
 
 ## 현재 검증 단계
 
@@ -216,14 +216,15 @@ Level 1: background validation     완료
   exp_001: Gamma-law background scan
   exp_002: entropy/information gate, provenance only
 QFUDS v0.15 / Level 1.5: phase-transfer physicality 진행 중
-Level 2: perturbation equations    blocked
+Level 2A: phenomenological perturbation closure 완료
+Level 2B: physical perturbation equations    blocked
 Level 3: CLASS or CAMB integration 시작 전
 Level 4: CMB comparison            시작 전
 Level 5: matter power comparison   시작 전
 Level 6: DESI/Euclid/Roman tests   시작 전
 ```
 
-QFUDS는 Level 1.5에서 `Gamma(a)`의 물리적 의미를 통과한 뒤에야 perturbation으로 넘어갈 수 있습니다. `exp_001`과 `exp_002`는 background-level 작업입니다. 특히 `exp_002`는 선행 물리 조건 없이 돌린 proxy scan이므로 CMB나 structure-formation viability는 물론 phase-transfer evidence도 주장할 단계가 아닙니다.
+QFUDS는 Level 1.5에서 `Gamma(a)`의 물리적 의미를 통과한 뒤에야 physical Level 2B perturbation으로 넘어갈 수 있습니다. Level 2A phenomenological perturbation closure는 완료되었지만 physical evidence가 아닙니다. `exp_001`과 `exp_002`는 background-level 작업입니다. 특히 `exp_002`는 선행 물리 조건 없이 돌린 proxy scan이므로 CMB나 structure-formation viability는 물론 phase-transfer evidence도 주장할 단계가 아닙니다.
 
 ## 한 문장 thesis
 
@@ -496,13 +497,14 @@ QFUDS는 아직 이론이 아닙니다.
 quantum foam unified dark sector with near-zero sound speed
 ```
 
-다음 의미 있는 단계는 더 많은 이야기가 아니라 QFUDS v0.15 / Level 1.5 physicality gate입니다.
+다음 의미 있는 단계는 더 많은 이야기가 아니라 QFUDS v0.15 / Level 1.5 physicality gate와 Level 2A 결과의 hostile interpretation입니다.
 
 ```text
 background equation
 -> Gamma(a) transfer-law filters
 -> QFUDS v0.15 / Level 1.5 phase-transfer physicality
--> perturbation equation
+-> Level 2A phenomenological perturbation closure
+-> Level 2B physical perturbation equation
 -> CLASS or CAMB implementation
 -> CMB comparison
 -> matter power spectrum comparison

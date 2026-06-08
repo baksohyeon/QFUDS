@@ -8,7 +8,7 @@ evidence_role: ssot
 depends_on:
   - decision_log
   - roadmap
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
@@ -34,11 +34,12 @@ Can this version be made precise enough to fail?
 
 ## Current Status
 
-The project is currently at roadmap Level 1.5.
+The project is currently at roadmap Level 1.5 with Level 2A completed.
 
 - Level 0 literature positioning exists in draft form.
 - Level 1 background validation is complete.
 - Level 1.5 phase-transfer physicality audit is in progress.
+- Level 2A phenomenological perturbation closure is complete for the baseline audit.
 - `exp_000`, `exp_001`, and `exp_002` are complete.
 - Perturbation equations are incomplete.
 - CLASS/CAMB integration has not started.
@@ -73,9 +74,9 @@ The immediate research path is:
 
 1. Preserve the version history and experiment decisions in docs.
 2. Keep experiments 001 and 002 as background-only diagnostic results.
-3. Complete the Level 1.5 phase-transfer physicality gate.
-4. Write perturbation equations only after `Gamma(a)` is either physically justified or explicitly demoted to a phenomenological interacting-vacuum law.
-5. Implement a Boltzmann-code version only after the perturbation assumptions are explicit.
+3. Continue the Level 1.5 phase-transfer physicality gate for physical claims.
+4. Interpret the completed Level 2A result as phenomenological interacting vacuum only.
+5. Implement a Boltzmann-code version only after the perturbation assumptions are explicit and stable.
 6. Compare against CMB and matter power before adding new speculative mechanisms.
 
 The maintained roadmap is `docs/05_next_steps/000_roadmap.md`.
@@ -116,6 +117,11 @@ Level 1.5
   Phase-transfer physicality audit.
   Current verdict: Gamma(a) is a phenomenological coarse-grained transfer law
   with a physically motivated source shape, not a derived microscopic law.
+
+Level 2A
+  Phenomenological perturbation closure.
+  Completed only as a gauge-declared interacting-dark-sector audit.
+  P2 failed; P1 survives only as phenomenological interacting vacuum.
 ```
 
 ## Primary Source Documents
@@ -130,10 +136,12 @@ Maintained documentation:
 - `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
 - `docs/02_theory/020_qfuds_v0_2.md`
 - `docs/02_theory/030_qfuds_v0_3.md`
+- `docs/02_theory/040_qfuds_phenomenological_perturbations.md`
 - `docs/03_experiments/000_exp_000_lcdm_baseline.md`
 - `docs/03_experiments/010_exp_001_gamma_scan.md`
 - `docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md`
 - `docs/03_experiments/020_exp_002_entropy_information_gate.md`
+- `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`
 - `docs/04_results/000_result_000_lcdm_baseline.md`
 - `docs/04_results/010_result_001_gamma_scan.md`
 - `docs/04_results/015_result_001_5_phase_transfer_physicality.md`

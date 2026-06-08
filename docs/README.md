@@ -8,7 +8,7 @@ evidence_role: ssot
 depends_on:
   - project_overview
   - roadmap
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
@@ -56,6 +56,7 @@ Theory notes, literature positioning, and model-version definitions.
 - `02_theory/015_qfuds_v0_15_phase_transfer_physics.md` - QFUDS v0.15 / Level 1.5 phase-transfer physicality audit
 - `02_theory/020_qfuds_v0_2.md`
 - `02_theory/030_qfuds_v0_3.md`
+- `02_theory/040_qfuds_phenomenological_perturbations.md`
 - `02_theory/900_qfuds_research_report.md`
 
 ## 03 Experiments
@@ -66,6 +67,7 @@ Reproducible experiment definitions.
 - `03_experiments/010_exp_001_gamma_scan.md`
 - `03_experiments/015_exp_001_5_phase_transfer_physicality.md`
 - `03_experiments/020_exp_002_entropy_information_gate.md`
+- `03_experiments/030_exp_003_phenomenological_perturbation_closure.md`
 
 ## 04 Results
 
@@ -75,6 +77,7 @@ Experiment reports, diagnostic results, and hostile-referee conclusions.
 - `04_results/010_result_001_gamma_scan.md`
 - `04_results/015_result_001_5_phase_transfer_physicality.md`
 - `04_results/020_result_002_entropy_information_gate.md`
+- `04_results/030_result_003_phenomenological_perturbation_closure.md`
 
 ## 05 Next Steps
 

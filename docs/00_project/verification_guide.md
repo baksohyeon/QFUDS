@@ -9,7 +9,7 @@ depends_on:
   - exp_000_lcdm_baseline
   - exp_001_gamma_scan
   - exp_002_entropy_information_gate
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
@@ -93,37 +93,6 @@ What it is not:
 
 This is not the perturbation-theory task. It does not evolve `delta_A`, `theta_A`, `delta_B`, or `theta_B`, and it is not a CLASS/CAMB result.
 
-## 4. Regression Tests
-
-Command:
-
-```bash
-python3 -m unittest discover -s tests
-```
-
-What to inspect:
-
-- `tests/test_gamma_v03.py`
-
-What it means:
-
-The tests check implementation invariants: the zero-transfer path reproduces the LCDM baseline, all gamma models return finite aligned arrays, viability flags are explicit booleans, and an invalid constant-transfer parameter choice is detected by the positive-density check.
-
-## 5. Documentation Validation
-
-Command:
-
-```bash
-python3 scripts/validate_docs.py
-```
-
-What it means:
-
-This validates frontmatter, H1/title alignment, active-stage filename prefixes,
-required experiment/result document pairs, and the roadmap/decision-log stop
-line. It does not validate physics. It checks that the documentation control
-surface is internally coherent.
-
 ## How To Read CSV Outputs
 
 The most useful columns are:
@@ -139,8 +108,68 @@ The most useful columns are:
 
 Warning: `f_sigma8_proxy` is not a full matter-power calculation. It is a proxy under the current smooth-phase-B assumption.
 
+## 4. Experiment 003: Level 2A Perturbation Closure
+
+Command:
+
+```bash
+python3 scripts/run_minimal_model.py --exp-003-perturbation-closure
+```
+
+What to inspect:
+
+- `docs/02_theory/040_qfuds_phenomenological_perturbations.md`
+- `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`
+- `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`
+- `docs/05_next_steps/010_perturbation_gate.md`
+- `outputs/exp003_stability_diagnostics.csv`
+- `outputs/exp003_phenomenological_perturbation_summary.json`
+
+What it means:
+
+This is a completed Level 2A phenomenological perturbation-closure audit. P2
+fails at the retained amplitude. P1 is stable only as ordinary
+phenomenological interacting vacuum. This is not a physical derivation of
+`Gamma(a)`.
+
+## 5. Regression Tests
+
+Command:
+
+```bash
+python3 -m unittest discover -s tests
+```
+
+What to inspect:
+
+- `tests/test_gamma_v03.py`
+
+What it means:
+
+The tests check implementation invariants: the zero-transfer path reproduces
+the LCDM baseline, all gamma models return finite aligned arrays, viability
+flags are explicit booleans, and an invalid constant-transfer parameter choice
+is detected by the positive-density check.
+
+## 6. Documentation Validation
+
+Command:
+
+```bash
+python3 scripts/validate_docs.py
+```
+
+What it means:
+
+This validates frontmatter, H1/title alignment, active-stage filename prefixes,
+required experiment/result document pairs, and the roadmap/decision-log stop
+line. It does not validate physics. It checks that the documentation control
+surface is internally coherent.
+
 ## Current Stop Line
 
-The project is blocked at Level 1.5 phase-transfer physicality.
+Physical QFUDS perturbation theory is blocked at Level 1.5 phase-transfer physicality.
+Level 2A is complete for the baseline closure. It does not establish CMB,
+matter-power, survey-likelihood, or physical QFUDS viability.
 
 Do not claim that the surviving `Gamma(a)` branch is derived physics until the phase-transfer mechanism, mass threshold, and self-consistent growth source are defined. Do not claim CMB viability, matter-power viability, or survey-likelihood viability until phase-A perturbations, phase-B behavior, and transfer perturbations are specified and implemented in CLASS/CAMB or an equivalent Boltzmann-code workflow.

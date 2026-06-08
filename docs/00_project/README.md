@@ -9,7 +9,7 @@ depends_on:
   - project_overview
   - decision_log
   - verification_guide
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
