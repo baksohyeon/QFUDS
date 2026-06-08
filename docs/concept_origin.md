@@ -37,6 +37,42 @@ what does a black hole actually do with it?
 
 That question later branched into Hawking radiation, Page-curve/island calculations, reverse-process intuition, white-hole-like remnants, quantum foam, and finally the unified-dark-sector hypothesis. The Landauer passage is origin/provenance for the idea. It is not evidence that QFUDS is correct.
 
+## Divergence, Convergence, And Verification
+
+The origin of QFUDS is best read as a three-stage process.
+
+First came divergence. The Landauer trigger opened a chain of adjacent questions:
+
+```text
+information erasure
+-> thermodynamic cost
+-> black-hole information
+-> Hawking radiation
+-> reverse-process intuition
+-> white-hole-like remnants
+-> quantum foam
+-> dark sector
+```
+
+At this stage, the point was not to defend a final model. The point was to let the questions branch far enough to expose the hidden connection: information, entropy, vacuum structure, black holes, dark matter, and dark energy could be asked about in one frame.
+
+Then came convergence. The broadest image, "the universe as a giant white-hole-like release," was kept as a creative origin but removed from the center of the research claim. The sharper center became:
+
+```text
+dark matter + dark energy
+= two effective modes of quantum spacetime foam
+```
+
+That narrowing matters. A white-hole universe image is too broad to test directly. A unified dark-sector model has to answer specific questions about equations of state, sound speed, structure formation, and observational constraints.
+
+Finally came verification pressure. Once QFUDS is written as a toy model, the question changes again:
+
+```text
+What kills it first?
+```
+
+The likely first attacks are `c_s^2`, CMB acoustic peaks, matter power spectrum, halo structure, dark-energy evolution, and remnant abundance. This is the step that turns the original curiosity into a research program rather than a loose cosmology story.
+
 ## Logic Jump Map
 
 The original thought process looks abrupt if it is read only as a list of claims. It is better read as a sequence of question shifts.

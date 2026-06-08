@@ -65,6 +65,50 @@ Dark matter + dark energy
 
 In this framing, dark matter is the clustering phase: the part that behaves almost like pressureless matter and helps form halos. Dark energy is the residual pressure phase: the smooth leftover vacuum behavior that drives accelerated expansion. Black holes and white-hole-like remnants remain as speculative information-flow structures or defect-like remnants, but they are secondary.
 
+## Divergence, Convergence, Verification
+
+The main artifact here is not only the hypothesis. It is the path that produced it.
+
+The first phase was divergence. A small Landauer prompt expanded into several connected questions:
+
+```text
+If erased information leaves heat,
+then information has physical cost.
+
+If information has physical cost,
+then black-hole evaporation cannot be only a disposal story.
+
+If black holes process information,
+then a reverse-process or delayed-return channel becomes natural to ask about.
+
+If black holes and vacuum structure are part of one information problem,
+then the dark sector might be a large-scale expression of that same structure.
+```
+
+That phase was intentionally loose. It allowed big images: black holes as information compressors, white-hole-like remnants as delayed outlets, the universe as a release process, vacuum fluctuation as sparse structure, and cosmic acceleration as residual pressure.
+
+The second phase was convergence. The broad image was cut down until one question remained stronger than the rest:
+
+```text
+Can dark matter and dark energy be treated as two effective modes
+of the same quantum-foam medium?
+```
+
+That question is smaller than the original image, but much harder to dodge. It forces the model to say how one sector can look dust-like on structure scales and vacuum-like on cosmic scales.
+
+The third phase was verification pressure. Once the idea is written as a dark-sector toy model, it can no longer live on metaphor. It has to face ordinary cosmology:
+
+```text
+Does it recover LCDM in the zero-deviation limit?
+Can the clustering phase keep c_s^2 ~= 0?
+Does it preserve CMB acoustic peaks?
+Does it preserve the matter power spectrum?
+Can it produce realistic halos?
+Does any remnant sector survive compact-object constraints?
+```
+
+This is the reason the repository exists. The work is not only to write the idea down. It is to push the idea from curiosity into a form that can be checked, constrained, or killed.
+
 ## What Was Pruned
 
 The raw idea had several branches:
