@@ -1,7 +1,3 @@
-<INSTRUCTIONS>
-@/Users/cnai/.codex/RTK.md
-</INSTRUCTIONS>
-
 # CLAUDE.md
 
 Claude-specific entry point for the QFUDS repository. This file intentionally

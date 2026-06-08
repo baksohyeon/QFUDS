@@ -1,7 +1,3 @@
-<INSTRUCTIONS>
-@/Users/cnai/.codex/RTK.md
-</INSTRUCTIONS>
-
 # AGENTS.md
 
 # Quantum Foam Unified Dark Sector (QFUDS) Agent Constitution
@@ -37,7 +33,7 @@ That roadmap is the single source of truth for:
 
 Supporting authority, in order:
 
-- `docs/00_project/decision_log.md` records *why* each decision was made;
+- `docs/00_project/decision_log.md` records _why_ each decision was made;
 - `docs/03_experiments/` and `docs/04_results/` hold the experiment and result
   evidence the roadmap points to.
 
