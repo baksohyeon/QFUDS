@@ -6,6 +6,23 @@ It is not a proof. It is a map from a raw intuition to testable questions.
 
 I did not begin with a finished theory in mind. I was following topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The point of this document is the inference chain: I kept asking whether one topic had the same problem structure as the next.
 
+The project also came out of an iterative dialogue with GPT. That matters for the origin story. I was not asking GPT to prove a theory. I used the dialogue to expand, challenge, prune, and reframe the idea:
+
+```text
+raw question
+-> answer
+-> follow-up question
+-> broader speculation
+-> thought experiment
+-> hostile review
+-> toy model
+-> repository implementation
+```
+
+The dialogue first expanded the idea into black-hole information, white-hole-like reverse channels, quantum foam, cosmological constant tension, and science-fiction worldbuilding. Then it narrowed the idea back down into a research question: can a unified dark sector be written in a way that is not just LCDM with new names?
+
+The first adversarial pass was part of the origin, not an afterthought. It found that the conservative model either reproduces LCDM or becomes a known interacting/unified dark-sector model. That result pushed the next step toward a phase-transfer law `Gamma(a)` that would need a physical source: structure growth, black-hole entropy, horizon entropy, star formation, or remnant statistics.
+
 ## The Landauer Trigger
 
 My first spark was not dark matter, dark energy, or white holes. It was a note about Landauer's principle:

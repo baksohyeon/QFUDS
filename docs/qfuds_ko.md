@@ -31,6 +31,48 @@ Quantum Foam Unified Dark Sector, 줄여서 QFUDS는 제가 암흑물질, 암흑
 
 이 저장소는 “이 모델이 맞다”는 선언이 아닙니다. 호기심에서 나온 직관을 수식, 검증 조건, toy code, 반박 가능한 질문으로 낮춰보는 작업 공간입니다. 독자는 어느 정도 기술 용어에 익숙한 사람을 가정합니다. 그래서 `unitarity`, `equation of state`, `sound speed`, `CMB`, `matter power spectrum` 같은 용어는 억지로 풀어 없애지 않습니다. 이 용어들이 오히려 생각의 방향을 더 정확하게 잡아줍니다.
 
+## GPT와의 대화가 저장소가 된 과정
+
+QFUDS는 GPT와의 반복 대화에서 나왔습니다. 한 번의 프롬프트로 완성된 이론이 나온 것이 아닙니다. 제가 raw 질문을 던지고, 설명을 받고, 다시 반문하고, 더 큰 방향으로 발산했다가, 다시 물리 제약과 검증 조건으로 줄이는 과정이었습니다.
+
+```text
+raw question
+-> explanation
+-> follow-up question
+-> counterexample or physical constraint
+-> broader speculation
+-> pruning
+-> toy model
+-> adversarial review
+-> code and outputs in this repository
+```
+
+GPT는 정답 생성기라기보다 반문과 정리의 상대였습니다. 처음에는 Landauer, 블랙홀 정보 문제, 호킹복사, Page curve, island, 역과정, 화이트홀, quantum foam, 암흑물질, 암흑에너지, 우주상수, SF 세계관까지 일부러 넓게 펼쳤습니다. 그다음 다시 물었습니다.
+
+```text
+이 중에서 수식으로 내릴 수 있는 것은 무엇인가?
+무엇이 기존 이론의 재포장인가?
+어떤 관측 제약이 이 모델을 먼저 죽이는가?
+```
+
+그래서 중심이 바뀌었습니다. 초기 이미지는 이것에 가까웠습니다.
+
+```text
+우주가 white-hole-like structure일 수 있나?
+```
+
+하지만 연구 버전은 더 좁아졌습니다.
+
+```text
+하나의 dark sector가
+clustering component와 residual vacuum-pressure component를
+동시에 만들 수 있는가?
+```
+
+첫 번째 hostile review 결과도 중요했습니다. 보수적으로 쓰면 QFUDS는 LCDM으로 정확히 줄어들거나, 이미 알려진 interacting/unified dark-sector model에 가까워집니다. 이건 실패가 아니라 위치 파악입니다. 그 결과 다음 질문은 `Gamma(a)`로 좁혀졌습니다. clustering foam phase가 residual vacuum-pressure phase로 넘어간다면, 그 phase-transfer rate를 structure growth, black-hole entropy, horizon entropy, star formation, remnant statistics 같은 물리량에 묶을 수 있는가?
+
+이 저장소는 그 과정을 기록합니다. GPT와의 대화로 사고를 확장했고, 사고실험으로 눌렀고, hostile review로 잘라냈고, 그다음 최소 모델과 출력 파일로 옮긴 기록입니다.
+
 ## 출발점: 정보 삭제에서 QFUDS까지
 
 저는 처음부터 우주론을 만들려고 한 게 아니었습니다. 시작은 정보 열역학이었습니다.
