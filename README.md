@@ -230,28 +230,38 @@ intuition
 
 The goal is not to prove QFUDS. My goal is to identify the first constraint that kills it, or to make the surviving version narrow enough to compare with LCDM, unified dark fluids, k-essence, interacting dark energy, scalar-field dark matter, and black/white-hole remnant models.
 
-Current status: the project has moved past the first toy-background model, the experiment 001 Gamma-law background scan, and the experiment 002 entropy/information-source background gate. Experiment 002 is retained as provenance, not as physical evidence. A Level 2A phenomenological perturbation-closure audit (experiment 003) has since been completed: the regularized phase-B fluid closure (P2) fails at the retained amplitude, while the interacting-vacuum closure (P1) survives only as a non-novel phenomenological interacting vacuum. The narrow collapse/information-production shape still must pass the QFUDS v0.15 / Level 1.5 physicality audit before any physical phase-transfer claim. Physical Level 2B perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are still not complete.
+Current status is not restated here; it is maintained in one place — the roadmap
+at `docs/05_next_steps/000_roadmap.md` (single source of truth) — with the
+reasoning trail in `docs/00_project/decision_log.md`. In short, the project is
+still early-stage: it has moved through background transfer-law filtering and a
+phenomenological perturbation-closure audit, but no CMB, matter-power, or
+survey-likelihood results exist.
 
 ## Current Validation Stage
 
-The project is currently at QFUDS v0.15 / Level 1.5 for physical interpretation: the background model exists, experiment 001 tested candidate phase-transfer laws, and experiment 002 tested entropy/information-source transfer laws. The surviving `Gamma(a) proportional to dF_coll/dln(a)` branch is being audited for physicality before physical perturbation work proceeds. A phenomenological Level 2A closure audit (experiment 003) has been completed and is not a physical derivation.
+The per-level status of this project is maintained in one place — the roadmap at
+`docs/05_next_steps/000_roadmap.md` (single source of truth). It is not duplicated
+here, so this overview cannot drift from it.
+
+The fixed validation *order* is:
 
 ```text
-Level 0: literature position       done in draft form
-Level 1: background validation     completed
-  exp_000: LCDM baseline
-  exp_001: Gamma-law background scan
-  exp_002: entropy/information gate
-Level 1.5: phase transfer physicality        in progress
-Level 2A: phenomenological perturbation closure   completed (exp_003: P2 fails, P1 = phenomenological interacting vacuum)
-Level 2B: physical perturbation equations    blocked
-Level 3: CLASS or CAMB integration not started
-Level 4: CMB comparison            not started
-Level 5: matter power comparison   not started
-Level 6: DESI/Euclid/Roman tests   not started
+literature position
+-> background validation (exp_000 LCDM baseline, exp_001 Gamma-law scan,
+   exp_002 entropy/information gate)
+-> QFUDS v0.15 / Level 1.5 phase-transfer physicality
+-> Level 2A phenomenological perturbation closure (exp_003)
+-> Level 2B physical perturbation equations
+-> CLASS or CAMB integration
+-> CMB comparison
+-> matter power comparison
+-> DESI / Euclid / Roman constraints
 ```
 
-QFUDS becomes interesting only after it survives the next numerical checks. Experiments 001 and 002 are still background-level work: they can reject bad transfer laws, but they cannot claim CMB or structure-formation viability yet.
+QFUDS becomes interesting only after it survives the next numerical checks.
+Background-level experiments can reject bad transfer laws, but they cannot claim
+CMB or structure-formation viability. For which steps are done, in progress, or
+blocked, read the roadmap.
 
 ## One-Sentence Thesis
 
@@ -523,39 +533,36 @@ galaxy has one.
 
 ## Current Status
 
-QFUDS is not a theory yet.
-
-It is a speculative framework with a clearer center than the original white-hole-universe idea:
+QFUDS is not a theory yet. It is a speculative framework with a clearer center
+than the original white-hole-universe idea:
 
 ```text
 quantum foam unified dark sector with near-zero sound speed
 ```
 
-The completed work is background-level `Gamma(a)` filtering through experiment 002, plus a completed Level 2A phenomenological perturbation-closure audit (experiment 003). Experiment 002 is demoted to provenance because it was run before the physical transfer mechanism, fixed mass threshold, and self-consistent QFUDS growth source were defined. The phenomenological Level 2A closure is complete; the next meaningful step for a *physical* phase-transfer claim is still the QFUDS v0.15 / Level 1.5 physicality gate, which gates physical Level 2B:
-
-```text
-background equation                    done
-Gamma(a) transfer-law diagnostics       exp_001 done
-entropy/information-source gate        exp_002 done, provenance only
-Level 2A phenomenological closure       exp_003 done (P2 fails, P1 = phenomenological interacting vacuum)
--> Level 1.5 phase-transfer physicality (gates physical Level 2B)
--> physical Level 2B perturbation equations
--> CLASS or CAMB implementation
--> CMB comparison
--> matter power spectrum comparison
--> DESI, Euclid, Roman constraints
-```
-
-The project becomes physically interesting only if the model survives the first CMB and structure-formation checks.
+For the current per-level status — what is done, in progress, or blocked — see
+the roadmap (single source of truth): `docs/05_next_steps/000_roadmap.md`, with
+the decision trail in `docs/00_project/decision_log.md`. The project becomes
+physically interesting only if the model survives the first CMB and
+structure-formation checks; none of those checks have been run.
 
 ## Documents
 
+**Documentation authority hierarchy** (each level references the one below; only
+the roadmap holds project status):
+
+```text
+CLAUDE.md  ->  AGENTS.md  ->  docs/05_next_steps/000_roadmap.md  (status SSOT)
+                                ->  docs/00_project/decision_log.md
+                                      ->  docs/03_experiments/ + docs/04_results/
+```
+
 Maintained research documentation:
 
-- `PROJECT.md`: documentation control, validation order, and current stop line
+- `PROJECT.md`: documentation control and validation order
 - `docs/README.md`: documentation index and folder map
-- `docs/00_project_overview.md`: top-level project status entry point
-- `docs/00_project/overview.md`: project goals, status, limitations, roadmap summary, and model genealogy
+- `docs/00_project_overview.md`: top-level project overview (defers status to the roadmap)
+- `docs/00_project/overview.md`: project goals, limitations, and model genealogy
 - `docs/00_project/decision_log.md`: chronological decisions with reasons and evidence
 - `docs/00_project/verification_guide.md`: how to rerun and read the current checks
 - `docs/02_theory/010_qfuds_v0_1.md`: conceptual origin-stage theory note
@@ -574,7 +581,7 @@ Maintained research documentation:
 - `docs/04_results/020_result_002_entropy_information_gate.md`: experiment 002 entropy/information-source provenance result
 - `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`: Level 2A result; P2 fails, P1 survives as phenomenological interacting vacuum
 - `docs/05_next_steps/000_roadmap.md`: validation levels, status, and blockers
-- `docs/05_next_steps/010_perturbation_gate.md`: Level 2 perturbation gate (2A complete, 2B blocked)
+- `docs/05_next_steps/010_perturbation_gate.md`: Level 2 perturbation gate (see roadmap for 2A/2B status)
 
 Historical/source notes:
 
@@ -583,6 +590,46 @@ Historical/source notes:
 - `docs/00_project/research_program.md`: abstract, validation roadmap, and kill criteria
 - `docs/02_theory/900_qfuds_research_report.md`: adversarial literature comparison and mathematical formulation
 - `docs/04_results/010_result_001_gamma_scan.md`: experiment 001 `Gamma(a)` transfer-law diagnostics and viability table
+
+## Repository Checks
+
+A `Makefile` exposes the audit targets; the underlying Python scripts can also be
+run directly.
+
+Validate documentation frontmatter and cross-links:
+
+```bash
+python3 scripts/validate_docs.py        # or: make validate
+```
+
+Enforce repository status-authority consistency (roadmap is the single source of
+truth; AGENTS.md, CLAUDE.md, README.md, and PROJECT.md must not maintain
+independent status; roadmap claims must have evidence; no orphan experiment or
+result documents):
+
+```bash
+python3 scripts/research_consistency.py  # or: make research-audit
+```
+
+Run the full pre-milestone audit (`validate_docs.py` + `research_consistency.py` +
+the exp_004 preflight gate) before any major experiment milestone:
+
+```bash
+make preflight
+```
+
+Run the experiment 004 preflight gate. This must exit `0` before any exp_004
+work begins. It verifies the exp_003 record (theory, experiment, result,
+postmortem, decision log, roadmap, outputs, and the docs index) is internally
+consistent, and refuses to pass if any document claims Level 3 / CLASS / CMB /
+matter-power completion that was not earned:
+
+```bash
+python3 scripts/preflight_exp004.py
+```
+
+The gate is documented in `docs/05_next_steps/020_exp004_preflight_gate.md` and is
+exposed as `make preflight-exp004` (also run as part of `make preflight`).
 
 ## Formal Reference Anchors
 

@@ -41,6 +41,7 @@ Project-level status, decisions, roadmap framing, and Korean overview.
 - `00_project/decision_log.md`
 - `00_project/verification_guide.md`
 - `00_project/qfuds_ko.md`
+- `00_project/frontmatter_convention.md` - canonical YAML frontmatter schema (SSOT for `scripts/validate_docs.py`)
 
 ## 01 Origin
 
@@ -85,3 +86,4 @@ Current validation roadmap and blockers.
 
 - `05_next_steps/000_roadmap.md`
 - `05_next_steps/010_perturbation_gate.md`
+- `05_next_steps/020_exp004_preflight_gate.md` - repository consistency gate that must pass before exp_004

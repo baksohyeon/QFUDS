@@ -14,23 +14,39 @@ QFUDS is not a confirmed theory. QFUDS is a speculative research program asking
 whether dark matter and dark energy can be modeled as two effective macroscopic
 phases of a common quantum-spacetime foam sector.
 
-The project status as of 2026-06-08 is:
-
-- literature mapping is complete;
-- background toy models are implemented;
-- three background validations are complete: `exp_000`, `exp_001`, and `exp_002`;
-- `exp_002` is retained as provenance, not physical evidence;
-- QFUDS v0.15 / Level 1.5 phase-transfer physicality is in progress;
-- a Level 2A phenomenological perturbation-closure audit is complete (`exp_003`):
-  the P2 regularized near-vacuum phase-B fluid closure failed at the retained
-  amplitude, and the P1 interacting-vacuum closure survives only as a non-novel
-  phenomenological interacting vacuum, not as physical QFUDS evidence;
-- physical Level 2B perturbation equations remain blocked until Level 1.5 is resolved;
-- CLASS/CAMB integration has not started;
-- CMB, matter-power, and survey-likelihood tests have not been performed.
-
 The goal is not to prove QFUDS correct. The goal is to determine whether QFUDS
 survives progressively stronger tests.
+
+## Project Status Authority
+
+This constitution defines **process, not status**. It deliberately does not record
+the current level, the active branch, the current blockers, or what has survived
+or failed. That state drifts and must live in exactly one place.
+
+Current project state lives in:
+
+```text
+docs/05_next_steps/000_roadmap.md
+```
+
+That roadmap is the single source of truth for:
+
+- current project status and current level;
+- the active branch and what is in progress;
+- current blockers.
+
+Supporting authority, in order:
+
+- `docs/00_project/decision_log.md` records *why* each decision was made;
+- `docs/03_experiments/` and `docs/04_results/` hold the experiment and result
+  evidence the roadmap points to.
+
+Do not duplicate status anywhere else. Do not copy the roadmap level/status table
+into this file, `CLAUDE.md`, `README.md`, `PROJECT.md`, or any other document. If
+this constitution and the roadmap ever disagree about status, the roadmap wins and
+this file must be corrected to remove the duplicated claim. Agents must read the
+roadmap for status before acting; they must not infer status from this
+constitution.
 
 ## 1. Mission
 
@@ -343,23 +359,11 @@ A failed idea should be documented, not erased.
 
 ## 9. Progression Roadmap
 
-The maintained roadmap is `docs/05_next_steps/000_roadmap.md`. Update it after every
-completed experiment.
-
-Current roadmap status:
-
-| Level | Stage | Status | Meaning |
-| --- | --- | --- | --- |
-| Level 0 | Literature Position | completed | QFUDS has been compared at a draft level against LCDM, unified dark fluids, interacting dark energy, scalar-field dark matter, and compact-remnant scenarios. |
-| Level 1 | Background Validation | completed | `exp_000`, `exp_001`, and `exp_002` are complete; `exp_002` is provenance, not physical evidence. |
-| Level 1.5 | Phase Transfer Physicality | in progress | QFUDS v0.15 audits whether `Gamma(a)` has physical meaning. |
-| Level 2A | Phenomenological Perturbation Closure | completed | `exp_003` closed the baseline phenomenological closure: P2 failed at the retained amplitude, P1 survives only as a non-novel phenomenological interacting vacuum. Not physical QFUDS perturbation evidence. |
-| Level 2B | Physical Perturbation Equations | blocked | Physical phase-A, phase-B, and transfer perturbations require Level 1.5 first. |
-| Level 3 | CLASS/CAMB Integration | blocked | Boltzmann-code work requires a stable Level 2A closure at minimum; physical claims require Level 2B equations first. |
-| Level 4 | CMB Comparison | blocked | No CMB comparison is valid until CLASS/CAMB or equivalent perturbation implementation exists. |
-| Level 5 | Matter Power Spectrum | blocked | Current growth proxy is not a substitute for a full matter-power test. |
-| Level 6 | DESI / Euclid / Roman Constraints | blocked | Survey constraints require validated predictions and likelihood machinery. |
-| Level 7 | Publication Candidate | blocked | Publication is not appropriate until the model survives hostile review and observational comparison. |
+The maintained roadmap is `docs/05_next_steps/000_roadmap.md`. It is the single
+source of truth for the level/status table; see
+[Project Status Authority](#project-status-authority). Update the roadmap after
+every completed experiment. Do not copy the level/status table into this
+constitution.
 
 Progression rule:
 
@@ -404,58 +408,21 @@ The hostile review must also identify:
 
 ## 11. Current Research State
 
-What has been tested:
+This constitution does not maintain a running list of what has been tested,
+survived, failed, or remains unknown. That state drifts and is therefore kept in
+the authoritative documents, not duplicated here:
 
-- literature positioning and comparison at a draft level;
-- minimal two-phase background formulation;
-- zero-transfer LCDM baseline;
-- `exp_001` Gamma-law background scan;
-- `exp_002` entropy/information-source background gate;
-- minimal background viability flags for candidate transfer laws;
-- `exp_003` Level 2A phenomenological perturbation closure (conformal Newtonian
-  gauge, phase-A-frame transfer, deltaGamma=0).
+- `docs/05_next_steps/000_roadmap.md` — current level status, completed
+  background validations, and blockers;
+- `docs/00_project/decision_log.md` — what survived, what failed, and why,
+  recorded chronologically with evidence;
+- `docs/03_experiments/` and `docs/04_results/` — the underlying experiment and
+  result evidence.
 
-What survived:
-
-- the zero-transfer model survives because it is LCDM;
-- power-law and horizon-entropy-gated laws survive as ordinary interacting
-  dark-energy examples unless further derived;
-- collapsed-fraction, black-hole-entropy, and star-formation proxies survived
-  minimal background checks and remain candidates for perturbation tests.
-- the `exp_002` information-production law survived only background checks and
-  remains the narrowest entropy/information-source candidate.
-- the `exp_003` P1 interacting-vacuum perturbation closure survived only as a
-  non-novel phenomenological interacting vacuum in this audit, not as physical
-  QFUDS evidence.
-
-What failed:
-
-- the white-hole-universe image failed as a central testable claim;
-- constant Gamma transfer failed at the tested amplitude;
-- ungated growth-driven Gamma transfer failed at the tested amplitude;
-- broad HBM/KL gravitational-entropy transfer failed positivity at the tested
-  amplitude;
-- horizon-information transfer reduced to standard horizon/interacting
-  dark-energy phenomenology;
-- any claim of CMB viability from background-only tests failed;
-- any claim of novelty from free `Gamma(a)` failed;
-- the `exp_003` P2 regularized near-vacuum phase-B fluid closure failed at the
-  retained `gamma0=0.02` amplitude and at `gamma0=0.04` for every tested
-  wavenumber.
-
-What remains unknown:
-
-- whether QFUDS has a microphysical action;
-- whether the phase split can be derived rather than assumed;
-- whether transfer perturbations are stable;
-- whether phase B is exactly smooth or weakly perturbed;
-- whether any surviving `exp_001` proxy survives CMB tests;
-- whether any surviving `exp_001` proxy survives matter-power tests;
-- whether the surviving `exp_002` information-production branch survives
-  perturbation tests;
-- whether QFUDS differs observationally from known dark-sector models;
-- whether black-hole or remnant language has any required role in the final
-  model.
+The standing requirement is unchanged: keep `derived`, `implemented`, `tested`,
+`survived`, `failed`, and `unknown` claims distinct, and never present
+background-level survival as perturbation, CMB, or large-scale-structure
+viability.
 
 ## 12. AI Agent Behavior
 

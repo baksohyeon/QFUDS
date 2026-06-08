@@ -32,44 +32,23 @@ exp_002: entropy / information-source background gate
 
 These are not observational successes. They are filters before QFUDS v0.15 / Level 1.5 because several candidate transfer laws needed to be killed before asking whether the surviving transfer law is physical enough for perturbation work.
 
-Current stop line:
+The current stop line — which level is active, what is complete, and what is
+blocked — is **not** restated here. It lives in the single source of truth:
+`docs/05_next_steps/000_roadmap.md`. Read the roadmap for current status before
+acting.
 
-```text
-QFUDS v0.15 / Level 1.5 phase-transfer physicality is not complete.
-Level 2A phenomenological perturbation closure is complete (exp_003):
-  P2 failed at the retained amplitude; P1 survives only as a non-novel
-  phenomenological interacting vacuum.
-Level 2B physical perturbation theory is blocked.
-No CLASS/CAMB implementation exists.
-No CMB spectrum exists.
-No matter-power spectrum exists.
-No survey likelihood exists.
-```
+## Status, Decisions, And Evidence
 
-## Current Status
+`PROJECT.md` controls documentation structure, not project status. To avoid
+drift, status is maintained in exactly one place and is not duplicated here:
 
-Completed:
+- **Current status, current level, active branch, and blockers** —
+  `docs/05_next_steps/000_roadmap.md` (single source of truth).
+- **Why decisions were made** — `docs/00_project/decision_log.md`.
+- **Experiment evidence** — `docs/03_experiments/` and `docs/04_results/`.
 
-- Level 0 literature positioning at draft level.
-- Level 1 background validation:
-  - `exp_000` zero-transfer LCDM baseline;
-  - `exp_001` Gamma-law background scan;
-  - `exp_002` entropy/information-source background gate.
-- Level 2A phenomenological perturbation closure (`exp_003`): P2 failed at the
-  retained amplitude; P1 survives only as a non-novel phenomenological
-  interacting vacuum. This is not physical QFUDS perturbation evidence.
-
-In progress:
-
-- QFUDS v0.15 / Level 1.5 phase-transfer physicality.
-
-Blocked:
-
-- Level 2B physical perturbation equations.
-- CLASS/CAMB integration.
-- CMB comparison.
-- matter-power comparison.
-- DESI/Euclid/Roman constraints.
+If anything in this file appears to assert project status, the roadmap wins and
+this file must be corrected.
 
 ## Documentation Tree
 
@@ -186,12 +165,12 @@ motivated source shape. It is not yet derived physics.
 
 ## What Level 2 Produced And Still Must Produce
 
-Level 2A phenomenological perturbation closure has been completed as `exp_003`.
+The Level 2A phenomenological perturbation closure audit was run as `exp_003`.
 It was permitted to proceed without Level 1.5 because it is an explicitly
-phenomenological, gauge-declared closure audit, not a physical derivation. Its
-verdict: the P2 regularized phase-B fluid closure failed at the retained
-amplitude, and the P1 interacting-vacuum closure survives only as a non-novel
-phenomenological interacting vacuum.
+phenomenological, gauge-declared closure audit, not a physical derivation. For
+its verdict and current status, see
+`docs/04_results/030_result_003_phenomenological_perturbation_closure.md` and the
+roadmap; do not restate the verdict here.
 
 Physical Level 2B must not start until Level 1.5 is resolved. Once unblocked,
 Level 2B must produce new theory and experiment documents before any CLASS/CAMB
@@ -210,7 +189,7 @@ Required Level 2B outputs:
 - LCDM and `w(a)` / `f sigma8(a)` redshift-ratio comparison;
 - hostile review classification.
 
-No Level 2 experiment is complete until it has:
+No experiment is complete until it has:
 
 - a document in `docs/03_experiments/`;
 - a result in `docs/04_results/`;
@@ -249,6 +228,7 @@ background filters -> Level 1.5 phase-transfer physicality -> perturbation equat
 The README should remain a reader-facing overview. It should point to:
 
 - `PROJECT.md` for documentation control and validation order;
-- `docs/00_project_overview.md` for project status;
-- `docs/00_project/verification_guide.md` for reproducible checks;
-- `docs/05_next_steps/000_roadmap.md` for current blockers.
+- `docs/05_next_steps/000_roadmap.md` for current status, level, and blockers
+  (single source of truth);
+- `docs/00_project/decision_log.md` for research history and decisions;
+- `docs/00_project/verification_guide.md` for reproducible checks.
