@@ -1,5 +1,7 @@
 # Quantum Foam Unified Dark Sector (QFUDS)
 
+Language: [English](#quantum-foam-unified-dark-sector-qfuds) | [Korean](docs/qfuds_ko.md)
+
 ## Title
 
 Quantum Foam Unified Dark Sector (QFUDS):  
