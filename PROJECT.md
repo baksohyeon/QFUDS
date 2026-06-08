@@ -13,6 +13,7 @@ The validation order is sequential:
 ```text
 Level 0: literature position
 Level 1: background toy model
+QFUDS v0.15 / Level 1.5: phase transfer physicality
 Level 2: perturbation equations
 Level 3: CLASS or CAMB integration
 Level 4: CMB comparison
@@ -28,12 +29,13 @@ exp_001: Gamma-law background scan
 exp_002: entropy / information-source background gate
 ```
 
-These are not separate theory versions and not observational successes. They are filters before Level 2 because several candidate transfer laws needed to be killed before perturbation work.
+These are not observational successes. They are filters before QFUDS v0.15 / Level 1.5 because several candidate transfer laws needed to be killed before asking whether the surviving transfer law is physical enough for perturbation work.
 
 Current stop line:
 
 ```text
-Level 2 perturbation theory is not complete.
+QFUDS v0.15 / Level 1.5 phase-transfer physicality is not complete.
+Level 2 perturbation theory is blocked.
 No CLASS/CAMB implementation exists.
 No CMB spectrum exists.
 No matter-power spectrum exists.
@@ -52,10 +54,11 @@ Completed:
 
 In progress:
 
-- Level 2 perturbation equations.
+- QFUDS v0.15 / Level 1.5 phase-transfer physicality.
 
 Blocked:
 
+- Level 2 perturbation equations.
 - CLASS/CAMB integration.
 - CMB comparison.
 - matter-power comparison.
@@ -73,17 +76,20 @@ docs/00_project_overview.md
 docs/00_project/overview.md
 docs/00_project/decision_log.md
 docs/00_project/verification_guide.md
-docs/02_theory/qfuds_v0_1.md
-docs/02_theory/qfuds_v0_2.md
-docs/02_theory/qfuds_v0_3.md
-docs/03_experiments/exp_000_lcdm_baseline.md
-docs/03_experiments/exp_001_gamma_scan.md
-docs/03_experiments/exp_002_entropy_information_gate.md
-docs/04_results/result_000_lcdm_baseline.md
-docs/04_results/result_001_gamma_scan.md
-docs/04_results/result_002_entropy_information_gate.md
-docs/05_next_steps/roadmap.md
-docs/05_next_steps/perturbation_gate.md
+docs/02_theory/010_qfuds_v0_1.md
+docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md
+docs/02_theory/020_qfuds_v0_2.md
+docs/02_theory/030_qfuds_v0_3.md
+docs/03_experiments/000_exp_000_lcdm_baseline.md
+docs/03_experiments/010_exp_001_gamma_scan.md
+docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md
+docs/03_experiments/020_exp_002_entropy_information_gate.md
+docs/04_results/000_result_000_lcdm_baseline.md
+docs/04_results/010_result_001_gamma_scan.md
+docs/04_results/015_result_001_5_phase_transfer_physicality.md
+docs/04_results/020_result_002_entropy_information_gate.md
+docs/05_next_steps/000_roadmap.md
+docs/05_next_steps/010_perturbation_gate.md
 ```
 
 Historical/provenance documents:
@@ -92,7 +98,7 @@ Historical/provenance documents:
 docs/01_origin/concept_origin.md
 docs/00_project/research_program.md
 docs/00_project/qfuds_ko.md
-docs/02_theory/qfuds_research_report.md
+docs/02_theory/900_qfuds_research_report.md
 ```
 
 ## Naming Convention
@@ -100,24 +106,68 @@ docs/02_theory/qfuds_research_report.md
 Use this convention:
 
 ```text
-theory version: qfuds_v0_1, qfuds_v0_2, qfuds_v0_3
-experiment: exp_000, exp_001, exp_002
-result: result_000, result_001, result_002
+docs/02_theory/:      010_qfuds_v0_1, 015_qfuds_v0_15_*, 020_qfuds_v0_2, 030_qfuds_v0_3, 900_*
+docs/03_experiments/: 000_exp_000_*, 010_exp_001_*, 015_exp_001_5_*, 020_exp_002_*
+docs/04_results/:     000_result_000_*, 010_result_001_*, 015_result_001_5_*, 020_result_002_*
+docs/05_next_steps/:  000_roadmap.md, 010_perturbation_gate.md
 ```
 
-Do not name experiments as new `v0.x` theory versions.
+The numeric prefix is a sort key. It must keep file trees readable in ordinary
+alphabetical or natural-sort file explorers. Do not create unprefixed active
+stage files in `docs/02_theory/` through `docs/05_next_steps/`.
+
+The semantic ID remains in the filename after the prefix. Do not rename
+experiments as theory versions or theory notes as experiments.
+
+## Frontmatter Convention
+
+Active stage documents in `docs/02_theory/`, `docs/03_experiments/`,
+`docs/04_results/`, and `docs/05_next_steps/` must start with YAML
+frontmatter:
+
+```yaml
+---
+doc_id: string
+title: string
+doc_type: theory_note | experiment | result | roadmap | gate | index | reference
+stage: "0" | "1" | "1.5" | "2" | "reference"
+status: draft | completed | in_progress | blocked | provenance | reference
+evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
+depends_on: []
+next_gate: string
+last_updated: YYYY-MM-DD
+---
+```
+
+Agents should read frontmatter first, then body text. If frontmatter and body
+conflict, update the active document rather than guessing.
 
 ## What Experiment 002 Is
 
-`docs/04_results/result_002_entropy_information_gate.md` is not a perturbation result.
+`docs/04_results/020_result_002_entropy_information_gate.md` is not a perturbation result.
 
 It is a background-level entropy/information-source scan. It asks whether the phase-transfer shape can be tied to a concrete source such as horizon information, HBM/KL gravitational entropy, black-hole entropy, or Press-Schechter information production.
 
-Experiment 002 keeps only the collapse/information-production branch as a Level 2 perturbation target.
+Experiment 002 is retained as provenance, not as physical evidence. It keeps
+only the collapse/information-production shape as the QFUDS v0.15 / Level 1.5
+physicality question.
+
+## What Level 1.5 Must Decide
+
+`docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md` asks whether the surviving branch is
+a physical phase-transfer hypothesis or only a phenomenological transfer law.
+
+Current Level 1.5 verdict:
+
+```text
+Gamma(a) is a phenomenological coarse-grained transfer law with a physically
+motivated source shape. It is not yet derived physics.
+```
 
 ## What Level 2 Must Produce
 
-Level 2 must produce new theory and experiment documents before any CLASS/CAMB work starts.
+Level 2 must not start until Level 1.5 is resolved. Once unblocked, Level 2 must
+produce new theory and experiment documents before any CLASS/CAMB work starts.
 
 Required Level 2 outputs:
 
@@ -144,12 +194,13 @@ No Level 2 experiment is complete until it has:
 For the next phase:
 
 ```text
-docs/02_theory/qfuds_perturbations.md
-docs/03_experiments/exp_003_perturbation_prescriptions.md
-docs/04_results/result_003_perturbation_prescriptions.md
+docs/02_theory/040_qfuds_perturbations.md
+docs/03_experiments/030_exp_003_perturbation_prescriptions.md
+docs/04_results/030_result_003_perturbation_prescriptions.md
 ```
 
-These files do not exist yet because the perturbation work has not been done.
+These files do not exist yet because Level 1.5 is not resolved and perturbation work
+has not been done.
 
 ## Refactoring Rule
 
@@ -158,7 +209,7 @@ Do not rewrite history to hide failed branches. The repository should preserve t
 Do make active documents explicit about the sequence:
 
 ```text
-background filters -> perturbation equations -> Boltzmann code -> observables
+background filters -> Level 1.5 phase-transfer physicality -> perturbation equations -> Boltzmann code -> observables
 ```
 
 ## README Update Rule
@@ -168,4 +219,4 @@ The README should remain a reader-facing overview. It should point to:
 - `PROJECT.md` for documentation control and validation order;
 - `docs/00_project_overview.md` for project status;
 - `docs/00_project/verification_guide.md` for reproducible checks;
-- `docs/05_next_steps/roadmap.md` for current blockers.
+- `docs/05_next_steps/000_roadmap.md` for current blockers.

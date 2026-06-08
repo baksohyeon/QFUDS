@@ -1,3 +1,15 @@
+---
+doc_id: qfuds_v0_1
+title: QFUDS v0.1 Theory Note
+doc_type: theory_note
+stage: "0"
+status: completed
+evidence_role: hypothesis
+depends_on: []
+next_gate: qfuds_v0_2
+last_updated: 2026-06-08
+---
+
 # QFUDS v0.1 Theory Note
 
 Date reconstructed: 2026-06-08

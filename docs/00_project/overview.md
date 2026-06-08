@@ -20,10 +20,11 @@ Can this version be made precise enough to fail?
 
 ## Current Status
 
-The project is currently between roadmap Level 1 and Level 2.
+The project is currently at roadmap Level 1.5.
 
 - Level 0 literature positioning exists in draft form.
 - Level 1 background validation is complete.
+- Level 1.5 phase-transfer physicality audit is in progress.
 - `exp_000`, `exp_001`, and `exp_002` are complete.
 - Perturbation equations are incomplete.
 - CLASS/CAMB integration has not started.
@@ -45,7 +46,7 @@ QFUDS is not yet a complete physical theory.
 1. No covariant microscopic foam action has been derived.
 2. The phase split is phenomenological.
 3. `Gamma(a)` laws in experiment 001 are toy prescriptions or empirical proxies.
-4. The experiment 002 information-production branch is still a background/growth-proxy candidate, not a perturbation result.
+4. The experiment 002 information-production branch is still a phenomenological background/growth-proxy candidate, not a derived physical transfer law or perturbation result.
 5. Background-level viability does not imply CMB viability.
 6. The perturbation prescription for coupled phase transfer is not specified.
 7. A single adiabatic unified fluid with late `w -> -1` can fail structure formation through an excessive sound speed.
@@ -58,11 +59,12 @@ The immediate research path is:
 
 1. Preserve the version history and experiment decisions in docs.
 2. Keep experiments 001 and 002 as background-only diagnostic results.
-3. Write the perturbation equations for phase A, phase B, and transfer perturbations.
-4. Implement a Boltzmann-code version only after the perturbation assumptions are explicit.
-5. Compare against CMB and matter power before adding new speculative mechanisms.
+3. Complete the Level 1.5 phase-transfer physicality gate.
+4. Write perturbation equations only after `Gamma(a)` is either physically justified or explicitly demoted to a phenomenological interacting-vacuum law.
+5. Implement a Boltzmann-code version only after the perturbation assumptions are explicit.
+6. Compare against CMB and matter power before adding new speculative mechanisms.
 
-The maintained roadmap is `docs/05_next_steps/roadmap.md`.
+The maintained roadmap is `docs/05_next_steps/000_roadmap.md`.
 
 ## Model Genealogy
 
@@ -88,13 +90,18 @@ qfuds_v0_3 / exp_001
   Background diagnostic scan over physically labeled Gamma(a) laws.
   Constant and ungated growth-driven transfer fail immediately.
   Low-redshift collapse, black-hole-entropy, and star-formation proxies survive
-  only as toy targets for perturbation-level tests.
+  only as toy targets for later audit, not as perturbation evidence.
 
 exp_002
   Entropy/information-source diagnostic scan.
   Broad entropy language is rejected as a general explanation.
-  Collapse/information production is kept only as a background-level target for
-  perturbation tests.
+  The scan is retained as provenance, not as physical evidence.
+  Collapse/information production is kept only as a Level 1.5 question.
+
+Level 1.5
+  Phase-transfer physicality audit.
+  Current verdict: Gamma(a) is a phenomenological coarse-grained transfer law
+  with a physically motivated source shape, not a derived microscopic law.
 ```
 
 ## Primary Source Documents
@@ -105,20 +112,23 @@ Maintained documentation:
 - `docs/00_project/overview.md`
 - `docs/00_project/decision_log.md`
 - `docs/00_project/verification_guide.md`
-- `docs/02_theory/qfuds_v0_1.md`
-- `docs/02_theory/qfuds_v0_2.md`
-- `docs/02_theory/qfuds_v0_3.md`
-- `docs/03_experiments/exp_000_lcdm_baseline.md`
-- `docs/03_experiments/exp_001_gamma_scan.md`
-- `docs/03_experiments/exp_002_entropy_information_gate.md`
-- `docs/04_results/result_000_lcdm_baseline.md`
-- `docs/04_results/result_001_gamma_scan.md`
-- `docs/04_results/result_002_entropy_information_gate.md`
-- `docs/05_next_steps/roadmap.md`
+- `docs/02_theory/010_qfuds_v0_1.md`
+- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
+- `docs/02_theory/020_qfuds_v0_2.md`
+- `docs/02_theory/030_qfuds_v0_3.md`
+- `docs/03_experiments/000_exp_000_lcdm_baseline.md`
+- `docs/03_experiments/010_exp_001_gamma_scan.md`
+- `docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md`
+- `docs/03_experiments/020_exp_002_entropy_information_gate.md`
+- `docs/04_results/000_result_000_lcdm_baseline.md`
+- `docs/04_results/010_result_001_gamma_scan.md`
+- `docs/04_results/015_result_001_5_phase_transfer_physicality.md`
+- `docs/04_results/020_result_002_entropy_information_gate.md`
+- `docs/05_next_steps/000_roadmap.md`
 
 Historical/source notes retained for provenance:
 
 - `docs/01_origin/concept_origin.md`
 - `docs/00_project/research_program.md`
-- `docs/02_theory/qfuds_research_report.md`
+- `docs/02_theory/900_qfuds_research_report.md`
 - `docs/00_project/qfuds_ko.md`

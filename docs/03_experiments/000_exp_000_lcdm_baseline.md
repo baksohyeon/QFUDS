@@ -1,3 +1,16 @@
+---
+doc_id: exp_000_lcdm_baseline
+title: Experiment 000 LCDM Baseline
+doc_type: experiment
+stage: "1"
+status: completed
+evidence_role: control
+depends_on:
+  - qfuds_v0_2
+next_gate: gamma law background scan
+last_updated: 2026-06-08
+---
+
 # exp_000_lcdm_baseline
 
 Date: 2026-06-08

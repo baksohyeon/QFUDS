@@ -17,14 +17,17 @@ The goal is not to prove QFUDS correct. The goal is to determine whether each ve
 ```text
 Level 0: literature position                    completed
 Level 1: background toy model                   completed
-Level 2: perturbation equations                 in progress
+QFUDS v0.15 / Level 1.5: phase transfer physicality    in progress
+Level 2: perturbation equations                 blocked
 Level 3: CLASS/CAMB integration                 blocked
 Level 4: CMB comparison                         blocked
 Level 5: matter power comparison                blocked
 Level 6: DESI/Euclid/Roman constraints          blocked
 ```
 
-The project is currently stopped at Level 2. Perturbation equations are not complete.
+The project is currently stopped at QFUDS v0.15 / Level 1.5. The surviving
+`Gamma(a) proportional to dF_coll/dln(a)` branch is not yet a derived physical
+phase-transfer law, and perturbation equations remain blocked.
 
 Level 1 contains three completed background validations:
 
@@ -38,7 +41,9 @@ exp_002: entropy / information-source gate
 
 - No microphysical foam action has been derived.
 - The phase split remains phenomenological.
-- The surviving transfer laws have passed only background-level checks.
+- The surviving transfer law has passed only background-level checks and is
+  currently classified as phenomenological.
+- The `dF_coll/dln(a)` source still depends on LCDM-style growth approximations.
 - No transfer perturbation model exists.
 - No CLASS/CAMB implementation exists.
 - No CMB, matter-power, or survey-likelihood comparison exists.
@@ -46,7 +51,7 @@ exp_002: entropy / information-source gate
 
 ## Roadmap
 
-The maintained roadmap is `docs/05_next_steps/roadmap.md`.
+The maintained roadmap is `docs/05_next_steps/000_roadmap.md`.
 
 The required order is:
 
@@ -54,6 +59,7 @@ The required order is:
 literature position
 -> background toy model
 -> background transfer-law filters
+-> Level 1.5 phase-transfer physicality gate
 -> perturbation equations
 -> CLASS/CAMB integration
 -> CMB comparison
@@ -76,14 +82,24 @@ v0.2
 qfuds_v0_3 / exp_001
   Background Gamma-law scan.
   Constant and ungated growth-driven transfer fail.
-  Low-redshift proxies survive only as perturbation-test candidates.
+  Low-redshift proxies survive only as candidate shapes for later scrutiny.
+  Later audit inserts QFUDS v0.15 / Level 1.5 before any perturbation work.
 
 exp_002
   Entropy/information-source background gate.
   Broad entropy language mostly fails or reduces to known model classes.
-  Press-Schechter information production is kept as the narrow perturbation target.
+  Demoted to provenance because it was run before the physical transfer
+  mechanism, fixed mass threshold, and self-consistent QFUDS growth source were
+  defined.
+  Press-Schechter information production is retained only as the narrow Level
+  1.5 question.
 
-Level 2 next
+QFUDS v0.15 / Level 1.5
+  Phase-transfer physicality gate.
+  Current verdict: Gamma(a) is a phenomenological coarse-grained transfer law
+  with a physically motivated source shape, not a derived microscopic law.
+
+Level 2 next, blocked
   Perturbation equations for phase A, phase B, and transfer perturbations.
 ```
 
@@ -94,4 +110,5 @@ Level 2 next
 - `docs/00_project/overview.md`: detailed project overview.
 - `docs/00_project/decision_log.md`: chronological decisions.
 - `docs/00_project/verification_guide.md`: how to rerun and read current checks.
-- `docs/05_next_steps/roadmap.md`: current levels and blockers.
+- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`: QFUDS v0.15 / Level 1.5 audit.
+- `docs/05_next_steps/000_roadmap.md`: current levels and blockers.

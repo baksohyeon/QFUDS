@@ -1,3 +1,16 @@
+---
+doc_id: qfuds_v0_2
+title: QFUDS v0.2 Theory Note
+doc_type: theory_note
+stage: "1"
+status: completed
+evidence_role: hypothesis
+depends_on:
+  - qfuds_v0_1
+next_gate: gamma law background scan
+last_updated: 2026-06-08
+---
+
 # QFUDS v0.2 Theory Note
 
 Date: 2026-06-08

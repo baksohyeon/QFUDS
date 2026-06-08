@@ -18,8 +18,8 @@ What to inspect:
 
 - `outputs/qfuds_gamma0_beta0.csv`
 - `outputs/qfuds_gamma0_beta0.png`
-- `docs/03_experiments/exp_000_lcdm_baseline.md`
-- `docs/04_results/result_000_lcdm_baseline.md`
+- `docs/03_experiments/000_exp_000_lcdm_baseline.md`
+- `docs/04_results/000_result_000_lcdm_baseline.md`
 
 What it means:
 
@@ -35,8 +35,8 @@ python3 scripts/run_minimal_model.py --exp-001-gamma-scan
 
 What to inspect:
 
-- `docs/03_experiments/exp_001_gamma_scan.md`
-- `docs/04_results/result_001_gamma_scan.md`
+- `docs/03_experiments/010_exp_001_gamma_scan.md`
+- `docs/04_results/010_result_001_gamma_scan.md`
 - `outputs/qfuds_constant_gamma0.01_beta0.csv`
 - `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`
 - `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`
@@ -58,8 +58,8 @@ python3 scripts/run_minimal_model.py --exp-002-entropy-gate
 
 What to inspect:
 
-- `docs/03_experiments/exp_002_entropy_information_gate.md`
-- `docs/04_results/result_002_entropy_information_gate.md`
+- `docs/03_experiments/020_exp_002_entropy_information_gate.md`
+- `docs/04_results/020_result_002_entropy_information_gate.md`
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`
@@ -67,11 +67,12 @@ What to inspect:
 
 What it means:
 
-This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production is the narrow branch kept for perturbation tests.
+This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production is the narrow branch kept for the Level 1.5 physicality audit.
 
 Where the branch decision is recorded:
 
-- `docs/05_next_steps/perturbation_gate.md`
+- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
+- `docs/05_next_steps/010_perturbation_gate.md`
 
 What it is not:
 
@@ -110,6 +111,6 @@ Warning: `f_sigma8_proxy` is not a full matter-power calculation. It is a proxy 
 
 ## Current Stop Line
 
-The project is blocked at perturbations.
+The project is blocked at Level 1.5 phase-transfer physicality.
 
-Do not claim CMB viability, matter-power viability, or survey-likelihood viability until phase-A perturbations, phase-B behavior, and transfer perturbations are specified and implemented in CLASS/CAMB or an equivalent Boltzmann-code workflow.
+Do not claim that the surviving `Gamma(a)` branch is derived physics until the phase-transfer mechanism, mass threshold, and self-consistent growth source are defined. Do not claim CMB viability, matter-power viability, or survey-likelihood viability until phase-A perturbations, phase-B behavior, and transfer perturbations are specified and implemented in CLASS/CAMB or an equivalent Boltzmann-code workflow.

@@ -1,3 +1,16 @@
+---
+doc_id: exp_001_gamma_scan
+title: Experiment 001 Gamma-Law Background Scan
+doc_type: experiment
+stage: "1"
+status: completed
+evidence_role: proxy_scan
+depends_on:
+  - exp_000_lcdm_baseline
+next_gate: Level 1.5 phase transfer physicality
+last_updated: 2026-06-08
+---
+
 # exp_001_gamma_scan
 
 Date: 2026-06-08
@@ -67,8 +80,14 @@ The scan found:
 
 ### Decision
 
-Reject constant and ungated growth-driven transfer at the tested amplitudes. Preserve low-redshift collapse, black-hole-entropy, and star-formation proxies only as perturbation-test candidates.
+Reject constant and ungated growth-driven transfer at the tested amplitudes.
+Preserve low-redshift collapse, black-hole-entropy, and star-formation proxies
+only as candidate shapes for later scrutiny. QFUDS v0.15 / Level 1.5 must
+resolve phase-transfer physicality before perturbation work.
 
 ### Next Step
 
-Specify transfer perturbations and test the surviving laws in a Boltzmann-code setting. Do not claim CMB viability from this experiment alone.
+Do not proceed directly to perturbations from this scan. Complete the
+phase-transfer physicality gate first, then specify transfer perturbations only
+for branches that survive that gate. Do not claim CMB viability from this
+experiment alone.
