@@ -1,0 +1,377 @@
+{
+  "closure": "baseline Level 2A closure from docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md",
+  "experiment_id": "exp_003",
+  "runs": [
+    {
+      "csv": "outputs/exp003_R0_P1_gamma0.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.0002760662122473362,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "not_applicable_for_interacting_vacuum",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.0,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.0008282096212052517,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "interacting_vacuum",
+        "phase_B_variant": "P1",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R0",
+      "variant": "P1"
+    },
+    {
+      "csv": "outputs/exp003_R0_P2_gamma0.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.00027606621253810186,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "regularized_fluid_variable",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.0,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.0008282096220776859,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "regularized_fluid_w=-0.999_cs2=1",
+        "phase_B_variant": "P2",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R0",
+      "variant": "P2"
+    },
+    {
+      "csv": "outputs/exp003_R1_P1_information_production_gamma0.02.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.0002840578374317639,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "not_applicable_for_interacting_vacuum",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.02,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.0008521848147391829,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "interacting_vacuum",
+        "phase_B_variant": "P1",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R1",
+      "variant": "P1"
+    },
+    {
+      "csv": "outputs/exp003_R1_P2_information_production_gamma0.02.csv",
+      "diagnostics": {
+        "any_unstable": true,
+        "instability_reasons": {
+          "0.0001": "perturbation amplitude exceeded instability threshold",
+          "0.001": "perturbation amplitude exceeded instability threshold",
+          "0.01": "perturbation amplitude exceeded instability threshold",
+          "0.1": "perturbation amplitude exceeded instability threshold"
+        },
+        "max_abs_curvature_proxy": 0.8877946975257436,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "regularized_fluid_variable",
+        "unstable_modes": {
+          "0.0001": true,
+          "0.001": true,
+          "0.01": true,
+          "0.1": true
+        }
+      },
+      "gamma0": 0.02,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 2839903245.66891,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "regularized_fluid_w=-0.999_cs2=1",
+        "phase_B_variant": "P2",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R1",
+      "variant": "P2"
+    },
+    {
+      "csv": "outputs/exp003_R2a_P1_information_production_gamma0.005.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.0002780492745238391,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "not_applicable_for_interacting_vacuum",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.005,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.0008341588869392903,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "interacting_vacuum",
+        "phase_B_variant": "P1",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R2a",
+      "variant": "P1"
+    },
+    {
+      "csv": "outputs/exp003_R2a_P2_information_production_gamma0.005.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.00027805016392166434,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "regularized_fluid_variable",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.005,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.06537753547355112,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "regularized_fluid_w=-0.999_cs2=1",
+        "phase_B_variant": "P2",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R2a",
+      "variant": "P2"
+    },
+    {
+      "csv": "outputs/exp003_R2b_P1_information_production_gamma0.01.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.0002800422344496266,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "not_applicable_for_interacting_vacuum",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.01,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.0008401378460150024,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "interacting_vacuum",
+        "phase_B_variant": "P1",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R2b",
+      "variant": "P1"
+    },
+    {
+      "csv": "outputs/exp003_R2b_P2_information_production_gamma0.01.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.004699270064012475,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "regularized_fluid_variable",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.01,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 40212783.112101056,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "regularized_fluid_w=-0.999_cs2=1",
+        "phase_B_variant": "P2",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R2b",
+      "variant": "P2"
+    },
+    {
+      "csv": "outputs/exp003_R3_P1_information_production_gamma0.04.csv",
+      "diagnostics": {
+        "any_unstable": false,
+        "instability_reasons": {
+          "0.0001": "",
+          "0.001": "",
+          "0.01": "",
+          "0.1": ""
+        },
+        "max_abs_curvature_proxy": 0.00029220767400086174,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "not_applicable_for_interacting_vacuum",
+        "unstable_modes": {
+          "0.0001": false,
+          "0.001": false,
+          "0.01": false,
+          "0.1": false
+        }
+      },
+      "gamma0": 0.04,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 0.0008766346487222345,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "interacting_vacuum",
+        "phase_B_variant": "P1",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R3",
+      "variant": "P1"
+    },
+    {
+      "csv": "outputs/exp003_R3_P2_information_production_gamma0.04.csv",
+      "diagnostics": {
+        "any_unstable": true,
+        "instability_reasons": {
+          "0.0001": "perturbation amplitude exceeded instability threshold",
+          "0.001": "perturbation amplitude exceeded instability threshold",
+          "0.01": "perturbation amplitude exceeded instability threshold",
+          "0.1": "perturbation amplitude exceeded instability threshold"
+        },
+        "max_abs_curvature_proxy": 0.04026202902618171,
+        "max_conservation_residual": 0.0,
+        "theta_B_status": "regularized_fluid_variable",
+        "unstable_modes": {
+          "0.0001": true,
+          "0.001": true,
+          "0.01": true,
+          "0.1": true
+        }
+      },
+      "gamma0": 0.04,
+      "gamma_model": "information_production",
+      "max_abs_perturbation": 1432492441.4913785,
+      "metadata": {
+        "deltaGamma": 0,
+        "deltaQ_rule": "deltaQ = Q delta_A",
+        "gauge": "conformal_newtonian",
+        "phase_A": "w_A=0, cs2_A=0, sigma_A=0",
+        "phase_B": "regularized_fluid_w=-0.999_cs2=1",
+        "phase_B_variant": "P2",
+        "stage": "2A",
+        "transfer_four_vector": "Q_A^mu = -Q u_A^mu; Q_B^mu = +Q u_A^mu",
+        "transfer_frame": "phase_A_comoving"
+      },
+      "run_id": "R3",
+      "variant": "P2"
+    }
+  ],
+  "title": "Phenomenological Perturbation Closure Audit"
+}
