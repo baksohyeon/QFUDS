@@ -94,20 +94,22 @@ qfuds_v0_3
 
 Maintained documentation:
 
-- `docs/00_project_overview.md`
+- `docs/README.md`
+- `docs/00_project/overview.md`
+- `docs/00_project/decision_log.md`
 - `docs/02_theory/qfuds_v0_1.md`
 - `docs/02_theory/qfuds_v0_2.md`
 - `docs/02_theory/qfuds_v0_3.md`
 - `docs/03_experiments/exp_000_lcdm_baseline.md`
 - `docs/03_experiments/exp_001_gamma_scan_v03.md`
 - `docs/04_results/result_001_gamma_scan_v03.md`
-- `docs/decision_log.md`
+- `docs/04_results/qfuds_v0_4_entropy_laws.md`
 - `docs/05_next_steps/roadmap.md`
 
 Historical/source notes retained for provenance:
 
-- `docs/concept_origin.md`
-- `docs/research_program.md`
-- `docs/qfuds_research_report.md`
-- `docs/qfuds_v0_3_gamma_laws.md`
-- `docs/qfuds_ko.md`
+- `docs/01_origin/concept_origin.md`
+- `docs/00_project/research_program.md`
+- `docs/02_theory/qfuds_research_report.md`
+- `docs/04_results/qfuds_v0_3_gamma_laws.md`
+- `docs/00_project/qfuds_ko.md`

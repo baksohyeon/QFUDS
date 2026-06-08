@@ -227,7 +227,7 @@ v0.3 complete at background-diagnostic level
 Output:
 
 ```text
-docs/qfuds_v0_3_gamma_laws.md
+docs/04_results/qfuds_v0_3_gamma_laws.md
 qfuds/gamma_laws.py
 generalized background integration
 viability table for candidate Gamma(a) laws

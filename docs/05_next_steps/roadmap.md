@@ -12,9 +12,10 @@ Date: 2026-06-08
 
 | Level | Topic | Status | Current Evidence | Next Gate |
 | --- | --- | --- | --- | --- |
-| 0 | literature position | completed | `docs/qfuds_research_report.md` | Keep comparison current as model changes |
+| 0 | literature position | completed | `docs/02_theory/qfuds_research_report.md` | Keep comparison current as model changes |
 | 1 | background toy model | completed | `qfuds/background.py`, `scripts/run_minimal_model.py`, `outputs/qfuds_gamma0_beta0.csv` | Use as baseline only |
-| 1.5 | Gamma-law background scan | completed | `docs/qfuds_v0_3_gamma_laws.md`, `outputs/`, `tests/test_gamma_v03.py` | Promote only surviving laws to perturbation tests |
+| 1.5 | Gamma-law background scan | completed | `docs/04_results/qfuds_v0_3_gamma_laws.md`, `outputs/`, `tests/test_gamma_v03.py` | Promote only surviving laws to perturbation tests |
+| 1.6 | entropy-derived Gamma laws | completed | `docs/04_results/qfuds_v0_4_entropy_laws.md`, `qfuds/gamma_laws.py`, v0.4 outputs | Continue only collapse/information-production branch |
 | 2 | perturbation equations | in progress | assumptions noted in `qfuds/growth.py` and theory docs | Specify phase-A, phase-B, and transfer perturbations |
 | 3 | CLASS integration | blocked | none | Requires Level 2 equations |
 | 4 | CMB comparison | blocked | none | Requires CLASS/CAMB implementation |
@@ -26,12 +27,12 @@ Date: 2026-06-08
 1. Write perturbation equations in a new theory note.
 2. Define whether phase B is exactly smooth or weakly perturbed.
 3. Define the transfer perturbation variable `delta_Q`.
-4. Choose one surviving v0.3 proxy as the first perturbation target.
+4. Use the Press-Schechter information-production branch as the first perturbation target.
 5. Add tests that prevent background-only results from being described as CMB-safe.
 
 ## Blockers
 
-1. No microphysical action or derived `Gamma(a)`.
+1. No microphysical action or fixed collapse mass threshold.
 2. No perturbation closure relation.
 3. No Boltzmann-code interface.
 4. No likelihood comparison against CMB, BAO, SN, or matter power data.

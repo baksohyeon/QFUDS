@@ -52,7 +52,7 @@ The next target is not more background scanning. It is perturbation-level specif
 
 Evidence:
 
-- `docs/qfuds_v0_3_gamma_laws.md`
+- `docs/04_results/qfuds_v0_3_gamma_laws.md`
 - `docs/03_experiments/exp_001_gamma_scan_v03.md`
 - `outputs/qfuds_*gamma*.csv`
 - `tests/test_gamma_v03.py`

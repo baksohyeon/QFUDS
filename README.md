@@ -1,6 +1,6 @@
 # Quantum Foam Unified Dark Sector (QFUDS)
 
-Language: [English](#quantum-foam-unified-dark-sector-qfuds) | [Korean](docs/qfuds_ko.md)
+Language: [English](#quantum-foam-unified-dark-sector-qfuds) | [Korean](docs/00_project/qfuds_ko.md)
 
 ## Title
 
@@ -545,23 +545,25 @@ The project becomes physically interesting only if the model survives the first 
 
 Maintained research documentation:
 
-- `docs/00_project_overview.md`: project goals, status, limitations, roadmap summary, and model genealogy
+- `docs/README.md`: documentation index and folder map
+- `docs/00_project/overview.md`: project goals, status, limitations, roadmap summary, and model genealogy
+- `docs/00_project/decision_log.md`: chronological decisions with reasons and evidence
 - `docs/02_theory/qfuds_v0_1.md`: conceptual origin-stage theory note
 - `docs/02_theory/qfuds_v0_2.md`: minimal two-phase effective-fluid theory note
 - `docs/02_theory/qfuds_v0_3.md`: physically labeled `Gamma(a)` transfer-law theory note
 - `docs/03_experiments/exp_000_lcdm_baseline.md`: zero-transfer LCDM control run
 - `docs/03_experiments/exp_001_gamma_scan_v03.md`: v0.3 transfer-law scan
 - `docs/04_results/result_001_gamma_scan_v03.md`: result interpretation and next target
-- `docs/decision_log.md`: chronological decisions with reasons and evidence
+- `docs/04_results/qfuds_v0_4_entropy_laws.md`: v0.4 entropy-derived transfer-law analysis
 - `docs/05_next_steps/roadmap.md`: validation levels, status, and blockers
 
 Historical/source notes:
 
-- `docs/concept_origin.md`: how the raw information-flow idea became the QFUDS question
-- `docs/qfuds_ko.md`: Korean explanation of the same origin, pruning, hypothesis, and validation path
-- `docs/research_program.md`: abstract, validation roadmap, and kill criteria
-- `docs/qfuds_research_report.md`: adversarial literature comparison and mathematical formulation
-- `docs/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law diagnostics and viability table
+- `docs/01_origin/concept_origin.md`: how the raw information-flow idea became the QFUDS question
+- `docs/00_project/qfuds_ko.md`: Korean explanation of the same origin, pruning, hypothesis, and validation path
+- `docs/00_project/research_program.md`: abstract, validation roadmap, and kill criteria
+- `docs/02_theory/qfuds_research_report.md`: adversarial literature comparison and mathematical formulation
+- `docs/04_results/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law diagnostics and viability table
 
 ## Formal Reference Anchors
 

@@ -495,10 +495,10 @@ background equation
 
 ## 문서
 
-- `docs/concept_origin.md`: 정보 흐름에서 QFUDS 질문까지 어떻게 이동했는지
-- `docs/research_program.md`: abstract, validation roadmap, kill criteria
-- `docs/qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
-- `docs/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law 진단과 viability table
+- `docs/01_origin/concept_origin.md`: 정보 흐름에서 QFUDS 질문까지 어떻게 이동했는지
+- `docs/00_project/research_program.md`: abstract, validation roadmap, kill criteria
+- `docs/02_theory/qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
+- `docs/04_results/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law 진단과 viability table
 
 ## 참고 anchor
 

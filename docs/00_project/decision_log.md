@@ -11,7 +11,7 @@ Reason:
 It is too broad to test directly and does not provide a controlled cosmological model.
 
 Evidence:
-`docs/concept_origin.md`, `docs/research_program.md`, `docs/02_theory/qfuds_v0_1.md`
+`docs/01_origin/concept_origin.md`, `docs/00_project/research_program.md`, `docs/02_theory/qfuds_v0_1.md`
 
 ## 2026-06-08
 
@@ -22,7 +22,7 @@ Reason:
 It makes the LCDM limit, phase-transfer problem, sound-speed constraint, and observational kill criteria explicit.
 
 Evidence:
-`docs/qfuds_research_report.md`, `docs/02_theory/qfuds_v0_2.md`, `qfuds/background.py`
+`docs/02_theory/qfuds_research_report.md`, `docs/02_theory/qfuds_v0_2.md`, `qfuds/background.py`
 
 ## 2026-06-08
 
@@ -33,7 +33,7 @@ Reason:
 With `Gamma=0`, the model is LCDM. With free `Gamma(a)`, it is a known interacting dark-sector model.
 
 Evidence:
-`docs/qfuds_research_report.md`
+`docs/02_theory/qfuds_research_report.md`
 
 ## 2026-06-08
 
@@ -44,7 +44,7 @@ Reason:
 It creates negative `rho_B` in the backward-integrated background and fails early-universe viability checks.
 
 Evidence:
-`docs/qfuds_v0_3_gamma_laws.md`, `docs/03_experiments/exp_001_gamma_scan_v03.md`, `outputs/qfuds_constant_gamma0.01_beta0.csv`
+`docs/04_results/qfuds_v0_3_gamma_laws.md`, `docs/03_experiments/exp_001_gamma_scan_v03.md`, `outputs/qfuds_constant_gamma0.01_beta0.csv`
 
 ## 2026-06-08
 
@@ -55,7 +55,7 @@ Reason:
 The growth proxy is active during matter domination, so the transfer turns on too early and fails the background viability checks.
 
 Evidence:
-`docs/qfuds_v0_3_gamma_laws.md`, `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`
+`docs/04_results/qfuds_v0_3_gamma_laws.md`, `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`
 
 ## 2026-06-08
 
@@ -66,7 +66,7 @@ Reason:
 They pass minimal background checks in the v0.3 scan and naturally defer transfer until late times.
 
 Evidence:
-`docs/qfuds_v0_3_gamma_laws.md`, `docs/04_results/result_001_gamma_scan_v03.md`, `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`, `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`, `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
+`docs/04_results/qfuds_v0_3_gamma_laws.md`, `docs/04_results/result_001_gamma_scan_v03.md`, `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`, `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`, `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
 
 ## 2026-06-08
 
@@ -77,4 +77,15 @@ Reason:
 Future researchers need the reasoning trail, failed ideas, surviving assumptions, code paths, outputs, and next decisions without relying on chat history.
 
 Evidence:
-`docs/00_project_overview.md`, `docs/03_experiments/`, `docs/04_results/`, `docs/05_next_steps/roadmap.md`
+`docs/00_project/overview.md`, `docs/03_experiments/`, `docs/04_results/`, `docs/05_next_steps/roadmap.md`
+
+## 2026-06-08
+
+Decision:
+Keep only the collapse/information-production branch from the v0.4 entropy-derived Gamma pass.
+
+Reason:
+Horizon information is physically clean but reduces to standard horizon/interacting dark energy. HBM/KL gravitational entropy is too broad in time and fails positivity unless the coupling is tiny. Press-Schechter information production is the only tested entropy-derived shape that naturally vanishes in radiation domination, peaks after nonlinear collapse begins, and gives a falsifiable relation between `w(a)` and growth history.
+
+Evidence:
+`docs/04_results/qfuds_v0_4_entropy_laws.md`, `outputs/qfuds_information_production_gamma0.02_beta0.csv`, `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`, `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`

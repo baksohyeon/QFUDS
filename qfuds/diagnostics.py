@@ -107,8 +107,14 @@ def classify_gamma_model(model: str, gamma0: float, viability: ViabilityReport) 
         return "D. unstable or observationally dead"
     if model in {"constant", "powerlaw", "growth_driven"}:
         return "B. standard interacting dark energy"
-    if model == "horizon_entropy":
+    if model in {"horizon_entropy", "horizon_information"}:
         return "B. standard interacting dark energy"
-    if model in {"collapsed_fraction_toy", "black_hole_entropy_proxy", "star_formation_proxy"}:
+    if model in {
+        "collapsed_fraction_toy",
+        "black_hole_entropy_proxy",
+        "star_formation_proxy",
+        "gravitational_entropy",
+        "information_production",
+    }:
         return "E. potentially interesting"
     return "C. unified dark fluid equivalent"

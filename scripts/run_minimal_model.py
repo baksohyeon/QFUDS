@@ -34,6 +34,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--collapse-a", type=float, default=0.35, help="Toy collapse/BH entropy logistic midpoint.")
     parser.add_argument("--collapse-nu", type=float, default=5.0, help="Toy collapse/BH entropy logistic steepness.")
     parser.add_argument("--all-v03", action="store_true", help="Run the default v0.3 Gamma-law suite.")
+    parser.add_argument("--all-v04", action="store_true", help="Run the entropy-derived v0.4 comparison suite.")
     parser.add_argument("--outdir", type=Path, default=Path("outputs"))
     return parser.parse_args()
 
@@ -159,6 +160,35 @@ def _default_v03_suite(args: argparse.Namespace) -> list[QFUDSParams]:
     ]
 
 
+def _default_v04_suite(args: argparse.Namespace) -> list[QFUDSParams]:
+    return [
+        QFUDSParams(
+            gamma_model="collapsed_fraction_toy",
+            gamma0=0.03,
+            beta=0.0,
+            collapse_a=args.collapse_a,
+            collapse_nu=args.collapse_nu,
+        ),
+        QFUDSParams(
+            gamma_model="black_hole_entropy_proxy",
+            gamma0=0.03,
+            beta=0.0,
+            collapse_a=0.35,
+            collapse_nu=6.0,
+        ),
+        QFUDSParams(gamma_model="star_formation_proxy", gamma0=0.003, beta=0.0),
+        QFUDSParams(gamma_model="gravitational_entropy", gamma0=0.003, beta=0.0),
+        QFUDSParams(
+            gamma_model="information_production",
+            gamma0=0.02,
+            beta=0.0,
+            collapse_a=args.collapse_a,
+            collapse_nu=args.collapse_nu,
+        ),
+        QFUDSParams(gamma_model="horizon_information", gamma0=0.03, beta=0.0),
+    ]
+
+
 def main() -> None:
     args = parse_args()
     args.outdir.mkdir(parents=True, exist_ok=True)
@@ -166,6 +196,10 @@ def main() -> None:
     cosmo = CosmologyParams()
     if args.all_v03:
         for qfuds in _default_v03_suite(args):
+            _run_one(cosmo, qfuds, args.outdir)
+        return
+    if args.all_v04:
+        for qfuds in _default_v04_suite(args):
             _run_one(cosmo, qfuds, args.outdir)
         return
 
