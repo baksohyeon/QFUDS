@@ -4,6 +4,8 @@ Date: 2026-06-08
 
 ## 1. Executive Summary
 
+Conceptual origin: QFUDS/Dorito began as an information-preservation thought experiment, not as a finished dark-sector theory. The original path was: information has physical cost; black holes should not simply destroy information; white-hole-like remnants could represent a delayed return channel; quantum foam could supply a vacuum medium; dark matter and dark energy might then be two large-scale modes of that medium. The cleaned-up version of that origin is documented in `docs/concept_origin.md`.
+
 Verdict: QFUDS, as stated, is not yet a new theory. It is a research label for a class of already known unified-dark-sector models unless it specifies at least one of the following:
 
 1. a covariant microscopic foam action;

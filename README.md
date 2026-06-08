@@ -39,6 +39,36 @@ rho_dark
 + rho_remnant
 ```
 
+## Concept Origin
+
+The raw intuition behind Dorito did not start from a formal field theory. It started from an information question:
+
+```text
+If information is physical and cannot simply disappear,
+what does a black hole do with the information it absorbs?
+If black holes have a time-reversed counterpart,
+could white-hole-like remnants be part of the return channel?
+Could the dark sector be the large-scale equilibrium medium between
+information compression, vacuum fluctuation, and cosmic expansion?
+```
+
+This line of thought connects several established and speculative ideas:
+
+- Landauer-style information thermodynamics: erasing information has a physical cost.
+- Black-hole information: Page-curve and island arguments suggest information is not simply lost.
+- White-hole remnants: some quantum-gravity models treat black holes as possible long-lived remnant channels.
+- Quantum foam: the vacuum may have microscopic spacetime fluctuations.
+- Cosmological constant problem: the observed vacuum energy is tiny compared with naive quantum-field estimates.
+
+The Dorito move is to place these ideas inside one equilibrium question:
+
+```text
+Can information conservation, vacuum structure, black-hole/white-hole symmetry,
+dark matter, and dark energy be different faces of one self-regulating system?
+```
+
+That is the origin of the model. The rest of this repository tries to cut that story down into equations and failure tests.
+
 ## Why This Is Only A Toy Model
 
 The standard Friedmann equation is kept intact. General relativity is not modified at this stage.
@@ -213,6 +243,7 @@ The next step is to make each term predictive enough to fail.
 ## Repository Contents
 
 - `docs/qfuds_research_report.md`: literature comparison, mathematical formulation, observational tests, and failure modes
+- `docs/concept_origin.md`: origin of the thought experiment and how it becomes testable
 - `qfuds/background.py`: two-phase background toy model
 - `qfuds/growth.py`: linear growth toy model with a smooth residual phase
 - `scripts/run_minimal_model.py`: writes `H(a)`, `Omega(a)`, `w(a)`, and `D(a)` to CSV
@@ -269,6 +300,17 @@ rho_dark
 
 여기서 `rho_remnant`는 black-hole 또는 white-hole remnant가 암흑물질 일부일 가능성을 적은 보조항이다. 핵심은 remnant가 아니라 `foam-wave`와 `foam-residual`이다.
 
+이 생각의 가장 raw한 출발점은 정보 보존이다.
+
+```text
+정보는 물리적이다.
+정보가 사라지지 않는다면 블랙홀은 정보를 어디에 저장하거나 어떻게 되돌려주는가?
+블랙홀의 시간역전 구조가 white hole이라면,
+우주 전체도 흡입, 방출, 진공 요동 사이의 평형 구조일 수 있는가?
+```
+
+이 흐름은 Landauer 원리, 블랙홀 정보 문제, Page curve, white-hole remnant, quantum foam, 우주상수 문제를 한 줄로 묶으려는 시도에서 시작됐다. 다만 이것들은 곧바로 하나의 검증된 물리 이론이 되지 않는다. 그래서 이 저장소에서는 그 직관을 방정식과 관측 조건으로 낮춰서 어디서 틀리는지 본다.
+
 이 모델이 말하는 예측 후보는 다음과 같다.
 
 1. WIMP식 암흑물질 직접 검출은 계속 실패할 수 있다. 암흑물질이 입자 알갱이가 아니라 foam의 집단모드라면 핵반동 신호가 약하거나 없을 수 있다.
@@ -302,4 +344,3 @@ d rho_Lambda / dt = -Gamma (rho_Lambda - rho_*)
 현재 결론은 보수적이다.
 
 Dorito는 아직 완성된 이론이 아니다. 지금은 기존 Friedmann 우주론 위에서 암흑물질과 암흑에너지의 정체를 다르게 해석하는 toy model이다. 의미가 생기려면 `foam-wave`, `foam-residual`, `rho_remnant` 각각이 실제 수치 예측을 내고, 그 예측이 관측으로 틀릴 수 있어야 한다.
-
