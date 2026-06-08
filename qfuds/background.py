@@ -4,6 +4,8 @@ from dataclasses import dataclass
 
 import numpy as np
 
+from .gamma_laws import GAMMA_MODELS, evaluate_gamma
+
 
 @dataclass(frozen=True)
 class CosmologyParams:
@@ -21,23 +23,50 @@ class QFUDSParams:
     """Phenomenological phase-transfer parameters.
 
     gamma0 controls energy exchange between clustering phase A and vacuum-like
-    phase B. beta controls redshift dependence. gamma0=0 gives exact LCDM.
-    Positive gamma transfers A -> B at late times.
+    phase B. gamma_model selects the dimensionless transfer law. beta controls
+    redshift dependence for power-law and gated horizon-entropy laws. gamma0=0
+    gives exact LCDM. Positive gamma transfers A -> B.
     """
 
     gamma0: float = 0.0
     beta: float = 0.0
     cs2_a: float = 0.0
+    gamma_model: str = "powerlaw"
+    collapse_a: float = 0.35
+    collapse_nu: float = 5.0
+    growth_index: float = 0.55
 
 
-def transfer_rate(a: float, q: QFUDSParams) -> float:
+def transfer_rate(a: float | np.ndarray, q: QFUDSParams, cosmo: CosmologyParams | None = None) -> float | np.ndarray:
     """Dimensionless d rho / d ln a transfer term."""
 
-    return q.gamma0 * a**q.beta
+    if q.gamma_model not in GAMMA_MODELS:
+        raise ValueError(f"Unknown gamma model: {q.gamma_model}")
+    if cosmo is None:
+        cosmo = CosmologyParams()
+    return evaluate_gamma(
+        a,
+        model=q.gamma_model,
+        gamma0=q.gamma0,
+        beta=q.beta,
+        omega_b0=cosmo.omega_b0,
+        omega_r0=cosmo.omega_r0,
+        omega_a0=cosmo.omega_a0,
+        omega_bfoam0=cosmo.omega_bfoam0,
+        collapse_a=q.collapse_a,
+        collapse_nu=q.collapse_nu,
+        growth_index=q.growth_index,
+    )
 
 
-def _derivs(a: float, omega_a: float, omega_bfoam: float, q: QFUDSParams) -> tuple[float, float]:
-    gamma = transfer_rate(a, q)
+def _derivs(
+    a: float,
+    omega_a: float,
+    omega_bfoam: float,
+    q: QFUDSParams,
+    cosmo: CosmologyParams,
+) -> tuple[float, float]:
+    gamma = float(transfer_rate(a, q, cosmo))
     d_omega_a = -3.0 * omega_a - gamma * omega_a
     d_omega_bfoam = gamma * omega_a
     return d_omega_a, d_omega_bfoam
@@ -73,7 +102,7 @@ def integrate_background(
         y_b = float(omega_bfoam_desc[i])
 
         def f(xi: float, ya: float, yb: float) -> tuple[float, float]:
-            return _derivs(float(np.exp(xi)), ya, yb, qfuds)
+            return _derivs(float(np.exp(xi)), ya, yb, qfuds, cosmo)
 
         k1a, k1b = f(x, y_a, y_b)
         k2a, k2b = f(x + 0.5 * dx, y_a + 0.5 * dx * k1a, y_b + 0.5 * dx * k1b)
@@ -96,6 +125,8 @@ def integrate_background(
     omega_clustering_frac = (omega_baryon + omega_a) / e2
     omega_a_frac = omega_a / e2
     omega_bfoam_frac = omega_bfoam / e2
+    gamma = np.asarray(transfer_rate(a, qfuds, cosmo), dtype=float)
+    w_bfoam_eff = -1.0 - gamma * omega_a / (3.0 * omega_bfoam)
 
     return {
         "a": a,
@@ -110,6 +141,7 @@ def integrate_background(
         "Omega_Bfoam": omega_bfoam_frac,
         "Omega_clustering": omega_clustering_frac,
         "w_dark": w_dark,
+        "w_Bfoam_eff": w_bfoam_eff,
         "w_eff": w_eff,
+        "Gamma": gamma,
     }
-
