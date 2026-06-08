@@ -45,7 +45,9 @@ information
 -> entropy
 -> black holes
 -> Hawking radiation
+-> scrambled information recovery
 -> reverse-process intuition
+-> time-reversal or CPT counterpart
 -> quantum foam
 -> unified dark sector
 ```
@@ -86,6 +88,32 @@ then the dark sector might be a large-scale expression of that same structure.
 ```
 
 That phase was intentionally loose. It allowed big images: black holes as information compressors, white-hole-like remnants as delayed outlets, the universe as a release process, vacuum fluctuation as sparse structure, and cosmic acceleration as residual pressure.
+
+The important middle step was not simply "black hole, therefore white hole." The thought process passed through reversibility:
+
+```text
+If Hawking radiation carries information in a scrambled form,
+could an ideal quantum decoder recover it?
+
+If recovery is allowed by unitarity but blocked by complexity,
+then the information is not destroyed. It is hidden behind decoding cost.
+
+If a complete time-reversed process existed,
+what would play that role physically?
+```
+
+That is where the reverse-process image entered. White holes, black/white-hole remnants, CPT-like symmetry, and replica-wormhole/island ideas were not treated as proofs. They acted as prompts for a narrower question: whether black holes point to an information-processing sector larger than ordinary matter.
+
+The dark-matter turn came from a separate but connected intuition:
+
+```text
+Maybe dark matter is not "matter" in the usual particle sense.
+Maybe it is an energy-like collective excitation of vacuum or spacetime foam.
+Maybe it is sparse because it comes from the structure of near-empty space,
+not from ordinary particles moving through space.
+```
+
+The plasma-like language belongs here only as an analogy. QFUDS does not claim dark matter is electromagnetic plasma. The point is collective behavior: a medium can have large-scale modes that are easier to see gravitationally than as individual particles.
 
 The second phase was convergence. The broad image was cut down until one question remained stronger than the rest:
 

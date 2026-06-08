@@ -48,7 +48,10 @@ information erasure
 -> thermodynamic cost
 -> black-hole information
 -> Hawking radiation
+-> scrambled information recovery
+-> decoding cost
 -> reverse-process intuition
+-> time-reversal or CPT counterpart
 -> white-hole-like remnants
 -> quantum foam
 -> dark sector
@@ -72,6 +75,66 @@ What kills it first?
 ```
 
 The likely first attacks are `c_s^2`, CMB acoustic peaks, matter power spectrum, halo structure, dark-energy evolution, and remnant abundance. This is the step that turns the original curiosity into a research program rather than a loose cosmology story.
+
+## The Missing Middle: Recovery, Cost, And Reverse Process
+
+The most important intermediate move was the recovery question.
+
+Landauer made information physical. Black holes made the question extreme. Hawking radiation then raised the sharper issue:
+
+```text
+If the information is not destroyed,
+where is it encoded after evaporation?
+```
+
+The next idea was not that recovery is practically easy. It was the opposite. In a unitary picture, information may be recoverable in principle while still being inaccessible in practice because the decoding task is too complex, the radiation is hard to collect, and processing the data has its own thermodynamic cost.
+
+This is why the thought process included a "giant quantum computer" branch. That branch was not a claim about a real machine. It clarified the distinction between:
+
+```text
+information destroyed
+```
+
+and:
+
+```text
+information preserved but scrambled beyond practical recovery
+```
+
+Once that distinction was clear, the reverse-process question became natural:
+
+```text
+If black-hole evaporation hides information in a scrambled outgoing channel,
+is there a time-reversed or symmetry-related picture of the same process?
+```
+
+That is the route by which white-hole-like remnants, CPT-style reversal, and black-to-white-hole tunneling entered the story. They were not the final theory. They were the bridge from black-hole information to a larger information-cycling picture.
+
+## The Dark-Matter Turn
+
+The next key move was linguistic and physical: questioning the word "matter."
+
+Observed dark matter is inferred through gravitational effects. It behaves like something that clusters, bends light, and shapes galaxy rotation curves. But it has not yet been directly detected as an ordinary particle.
+
+That led to the raw question:
+
+```text
+What if dark matter is not matter in the ordinary particle sense?
+What if it is an energy-like collective excitation of vacuum structure?
+```
+
+The original language used "sparse" and "plasma-like" as intuition pumps. In the cleaned model, these words are interpreted conservatively:
+
+```text
+sparse:
+not ordinary particles filling space, but a gravitationally visible mode
+of near-empty spacetime structure
+
+plasma-like:
+not electromagnetic plasma, but collective medium behavior
+```
+
+This was the step that connected the black-hole information branch to the dark-sector branch. If spacetime foam can carry collective long-wavelength modes, then one mode might clump like dark matter while another remains smooth like dark energy. That is the core QFUDS question.
 
 ## Logic Jump Map
 
