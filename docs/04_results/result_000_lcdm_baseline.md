@@ -36,6 +36,10 @@ Omega_Bfoam0 = 0.6858
 - `outputs/qfuds_gamma0_beta0.csv`
 - `outputs/qfuds_gamma0_beta0.png`
 
+## Figure
+
+![exp_000 LCDM baseline](../../outputs/qfuds_gamma0_beta0.png)
+
 ## Result
 
 The zero-transfer path is the exact LCDM-limit control case for this background toy model.

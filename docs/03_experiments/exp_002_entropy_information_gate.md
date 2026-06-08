@@ -1,10 +1,10 @@
-# exp_002_entropy_information_scan_v04
+# exp_002_entropy_information_gate
 
 Date: 2026-06-08
 
 ## Objective
 
-Test whether entropy-derived or information-production transfer laws produce a narrower and more falsifiable `Gamma(a)` source than the v0.3 physically labeled toy laws.
+Test whether entropy-derived or information-production transfer laws produce a narrower and more falsifiable `Gamma(a)` source than the experiment 001 physically labeled toy laws.
 
 ## Hypothesis
 
@@ -27,19 +27,21 @@ This is a background-level scan with a scale-independent growth proxy.
 
 It does not establish perturbation stability, CMB viability, matter-power viability, survey-likelihood viability, or QFUDS novelty.
 
+It is not the Level 2 perturbation experiment. It does not evolve `delta_A`, `theta_A`, `delta_B`, or `theta_B`.
+
 ## Method
 
-Run the default v0.4 suite:
+Run experiment 002:
 
 ```bash
-python3 scripts/run_minimal_model.py --all-v04
+python3 scripts/run_minimal_model.py --exp-002-entropy-gate
 ```
 
 The runner integrates the two-phase background, computes the smooth-phase-B growth proxy, compares each model against the zero-transfer LCDM baseline, writes CSV files, and writes PNG diagnostic plots when `matplotlib` is available.
 
 ## Parameters
 
-Default v0.4 suite:
+Experiment 002 suite:
 
 | Law | Parameters |
 | --- | --- |
@@ -77,14 +79,14 @@ A law fails this background scan if it:
 
 ## Result
 
-The result is documented in `docs/04_results/qfuds_v0_4_entropy_laws.md`.
+The result is documented in `docs/04_results/result_002_entropy_information_gate.md`.
 
 Summary:
 
 - HBM/KL gravitational entropy fails positivity at the tested amplitude.
 - Horizon information is mathematically clean but reduces to standard horizon/interacting dark-energy phenomenology.
 - Total black-hole entropy remains incomplete without an actual cosmic black-hole mass/accretion history.
-- Collapse/information production is the only v0.4 branch worth carrying forward.
+- Collapse/information production is the only experiment 002 branch worth carrying forward.
 
 ## Decision
 

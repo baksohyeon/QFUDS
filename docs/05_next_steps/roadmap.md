@@ -13,9 +13,7 @@ Date: 2026-06-08
 | Level | Topic | Status | Current Evidence | Next Gate |
 | --- | --- | --- | --- | --- |
 | 0 | literature position | completed | `docs/02_theory/qfuds_research_report.md` | Keep comparison current as model changes |
-| 1 | background toy model | completed | `docs/04_results/result_000_lcdm_baseline.md`, `qfuds/background.py`, `scripts/run_minimal_model.py`, `outputs/qfuds_gamma0_beta0.csv` | Use as baseline only |
-| 1.5 | Gamma-law background scan | completed | `docs/04_results/qfuds_v0_3_gamma_laws.md`, `outputs/`, `tests/test_gamma_v03.py` | Promote only surviving laws to perturbation tests |
-| 1.6 | entropy-derived Gamma laws | completed | `docs/03_experiments/exp_002_entropy_information_scan_v04.md`, `docs/04_results/qfuds_v0_4_entropy_laws.md`, `qfuds/gamma_laws.py`, v0.4 outputs | Continue only collapse/information-production branch |
+| 1 | background validation | completed | `docs/04_results/result_000_lcdm_baseline.md`, `docs/04_results/result_001_gamma_scan.md`, `docs/04_results/result_002_entropy_information_gate.md`, `outputs/`, `tests/test_gamma_v03.py` | Continue only the collapse/information-production branch |
 | 2 | perturbation equations | in progress | assumptions noted in `qfuds/growth.py` and theory docs | Specify phase-A, phase-B, and transfer perturbations |
 | 3 | CLASS integration | blocked | none | Requires Level 2 equations |
 | 4 | CMB comparison | blocked | none | Requires CLASS/CAMB implementation |
@@ -24,11 +22,20 @@ Date: 2026-06-08
 
 ## Immediate Work
 
-1. Write perturbation equations in a new theory note.
-2. Define whether phase B is exactly smooth or weakly perturbed.
-3. Define the transfer perturbation variable `delta_Q`.
-4. Use the Press-Schechter information-production branch as the first perturbation target.
-5. Add tests that prevent background-only results from being described as CMB-safe.
+1. Follow `docs/05_next_steps/perturbation_gate.md`.
+2. Recompute `dF_coll/dln a` using self-consistent QFUDS growth `D(a)`.
+3. Fix the collapse mass threshold `M` from a physical criterion.
+4. Define phase-A, phase-B, and transfer perturbations.
+5. Test the redshift-ratio relation between `w(a)` and `f sigma8(a)`.
+6. Kill the branch if the relation fails or perturbations are unstable.
+
+## Completed Background Validations
+
+| Experiment | Purpose | Result |
+| --- | --- | --- |
+| `exp_000` | zero-transfer LCDM baseline | control passed; not novel |
+| `exp_001` | Gamma-law background scan | constant and ungated growth-driven laws rejected |
+| `exp_002` | entropy/information-source gate | only collapse/information production promoted to Level 2 |
 
 ## Blockers
 

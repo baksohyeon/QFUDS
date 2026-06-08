@@ -33,8 +33,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--beta", type=float, default=0.0, help="Power-law transfer redshift dependence.")
     parser.add_argument("--collapse-a", type=float, default=0.35, help="Toy collapse/BH entropy logistic midpoint.")
     parser.add_argument("--collapse-nu", type=float, default=5.0, help="Toy collapse/BH entropy logistic steepness.")
-    parser.add_argument("--all-v03", action="store_true", help="Run the default v0.3 Gamma-law suite.")
-    parser.add_argument("--all-v04", action="store_true", help="Run the entropy-derived v0.4 comparison suite.")
+    parser.add_argument(
+        "--exp-001-gamma-scan",
+        dest="exp_001_gamma_scan",
+        action="store_true",
+        help="Run experiment 001: Gamma-law background scan.",
+    )
+    parser.add_argument(
+        "--exp-002-entropy-gate",
+        dest="exp_002_entropy_gate",
+        action="store_true",
+        help="Run experiment 002: entropy/information-source background gate.",
+    )
     parser.add_argument("--outdir", type=Path, default=Path("outputs"))
     return parser.parse_args()
 
@@ -194,11 +204,11 @@ def main() -> None:
     args.outdir.mkdir(parents=True, exist_ok=True)
 
     cosmo = CosmologyParams()
-    if args.all_v03:
+    if args.exp_001_gamma_scan:
         for qfuds in _default_v03_suite(args):
             _run_one(cosmo, qfuds, args.outdir)
         return
-    if args.all_v04:
+    if args.exp_002_entropy_gate:
         for qfuds in _default_v04_suite(args):
             _run_one(cosmo, qfuds, args.outdir)
         return
