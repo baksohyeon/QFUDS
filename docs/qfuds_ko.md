@@ -1,219 +1,306 @@
-# QFUDS 한국어 설명
+# Quantum Foam Unified Dark Sector (QFUDS)
+
+언어: [English](../README.md) | Korean
+
+## 제목
+
+Quantum Foam Unified Dark Sector (QFUDS):
+암흑물질, 암흑에너지, 정보 순환을 하나의 quantum foam 관점에서 묶어보는 speculative toy framework
+
+## 초록
+
+이 저장소는 암흑물질과 암흑에너지가 같은 미시적 quantum spacetime foam sector의 서로 다른 거시적 상으로 나타날 수 있는지 탐색합니다. 표준 LCDM에서는 암흑물질과 암흑에너지를 서로 다른 성분으로 둡니다. QFUDS는 그 둘이 하나의 quantum foam medium이 큰 스케일에서 다르게 보인 결과일 수 있는지 묻습니다.
+
+이 그림에서 clustering phase는 거의 압력이 없는 성분처럼 행동해야 합니다. 수식으로는 `w ~= 0`, `c_s^2 ~= 0`에 가까워야 하고, 그래야 cold dark matter처럼 은하와 대규모 구조 형성에 참여할 수 있습니다. residual phase는 `w ~= -1`에 가까운 느린 vacuum-pressure 성분처럼 행동하여 우주의 가속팽창을 설명해야 합니다. 블랙홀은 local information-compression node로 보고, black/white-hole remnant는 같은 foam sector 안의 부차적 topological-defect 후보로만 둡니다.
+
+이 모델은 일반상대론의 Friedmann background는 유지합니다. 대신 dark energy evolution, 작은 스케일의 halo 구조, dark-sector clustering, 블랙홀 증발과 관련된 late-time information correlation에서 LCDM과 다른 신호가 가능한지 봅니다.
+
+이 문서는 완성된 물리 이론이 아니라 research program이자 toy framework입니다. 목적은 원래 직관을 CMB, 대규모 구조, halo profile, dark matter direct detection, dark-energy equation-of-state 관측으로 반박 가능한 질문으로 바꾸는 것입니다.
+
+### 개념 주석
+
+`w`는 pressure와 energy density의 비율입니다. `w ~= 0`이면 먼지처럼 뭉치기 쉽고, `w ~= -1`이면 우주 전체를 밀어내는 암흑에너지처럼 행동합니다.
+
+`c_s^2`는 effective sound speed squared입니다. 쉽게 말하면 이 암흑 매질이 얼마나 탱탱한지입니다. 너무 탱탱하면 은하 주변에 못 뭉칩니다. QFUDS가 살아남으려면 clustering phase는 거의 압력 없는 먼지처럼 움직여야 합니다.
+
+## 프로젝트 노트
 
 Quantum Foam Unified Dark Sector, 줄여서 QFUDS는 Dorito가 떠올린 암흑부문 사고실험입니다.
 
-핵심 흐름은 다음과 같습니다.
+이 저장소는 “이 모델이 맞다”는 선언이 아닙니다. 호기심에서 나온 직관을 수식, 검증 조건, toy code로 낮춰보는 작업 공간입니다.
+
+## 출발점: 정보 삭제에서 QFUDS까지
+
+QFUDS는 처음부터 우주론으로 시작하지 않았습니다. 시작은 정보 열역학이었습니다.
 
 ```text
-정보 삭제의 열역학적 비용
--> 정보/데이터는 물리적이라는 직관
--> 블랙홀 정보 문제와 호킹복사
--> 호킹복사에 섞인 정보의 복구 가능성
--> 블랙홀의 역과정/화이트홀적 직관
--> 시간역전/CPT counterpart
--> quantum foam을 암흑부문의 매질로 보는 생각
--> 암흑물질과 암흑에너지를 같은 foam의 두 상으로 정리
--> 검증 가능한 toy framework와 레포 생성
+정보를 지우는 일은 공짜가 아니다.
+1비트의 정보를 지우는 데에는 최소한의 열역학적 비용이 있다.
+그 비용은 열로 나타나고, 우주의 엔트로피 장부에 남는다.
 ```
 
-## 출발점: 정보 삭제에서 시작됨
+이 지점에서 정보는 단순한 이름표가 아니게 됩니다. 데이터를 지우는 일이 열과 엔트로피를 바꾼다면, 정보는 에너지, 물질, 시공간과 같은 물리 장부 안에 들어갑니다.
 
-출발은 거창한 우주론이 아니었습니다. 시작은 Landauer 원리였습니다.
+그다음 자연스럽게 블랙홀이 떠올랐습니다. 정보에 물리적 비용이 있다면, 블랙홀은 데이터를 그냥 버리는 쓰레기통처럼 취급할 수 없습니다. 블랙홀 안으로 들어간 정보가 어디에 인코딩되는지, 호킹복사가 그 정보를 극도로 뒤섞인 형태로 되돌릴 수 있는지, 그리고 블랙홀 증발이 양자역학의 unitarity와 양립 가능한지가 다음 질문이 됩니다.
 
-```text
-기억이나 데이터를 지우는 일은 공짜가 아니다.
-1비트의 정보를 지우거나 잊을 때에는 최소한의 열역학적 비용이 있다.
-그 비용은 열로 방출되고, 우주의 엔트로피 장부에 남는다.
-```
-
-여기서 중요한 직관은 이것입니다.
+원래 사고 흐름은 이랬습니다.
 
 ```text
-정보는 그냥 추상적인 말이 아니다.
-정보를 지우는 일은 에너지, 열, 엔트로피와 연결된다.
-```
-
-그 순간 자연스럽게 블랙홀이 떠올랐습니다.
-
-블랙홀은 물질만 삼키는 것이 아니라, 그 물질이 가진 정보도 함께 삼킵니다. 그런데 양자역학에서는 정보가 그냥 사라지면 안 됩니다. 그래서 질문이 바뀌었습니다.
-
-```text
-블랙홀이 정보를 삼키고 호킹복사로 증발한다면,
-그 정보는 정말 사라지는가?
-아니면 극도로 뒤섞인 형태로 다시 나오는가?
-```
-
-이것이 QFUDS의 첫 번째 가지였습니다.
-
-그다음 중요한 중간 질문은 “정보가 복구 가능한가?”였습니다.
-
-```text
-블랙홀이 정보를 완전히 없애는 것이 아니라,
-호킹복사 속에 극도로 뒤섞어 내보낸다면,
-이론적으로는 그 정보를 다시 풀어낼 수 있는가?
-```
-
-여기서 핵심은 “실제로 복구할 수 있다”가 아닙니다. 오히려 반대입니다.
-
-```text
-양자역학적으로는 정보가 보존될 수 있다.
-하지만 그 정보를 다시 해독하려면
-호킹복사를 거의 완벽히 모아야 하고,
-말도 안 되게 복잡한 양자 계산을 해야 하며,
-그 계산 자체도 Landauer 비용과 decoherence 문제를 가진다.
-```
-
-즉, 정보는 사라진 것이 아니라 실질적으로 복구 불가능할 정도로 숨겨졌을 수 있습니다.
-
-이 구분이 다음 질문을 만들었습니다.
-
-```text
-그렇다면 블랙홀의 완전한 역과정 같은 것은 무엇인가?
-시간역전, CPT 대칭, 혹은 화이트홀적 counterpart가
-정보의 delayed return channel처럼 생각될 수 있는가?
-```
-
-## 생각 발산
-
-처음 생각은 훨씬 거칠었습니다.
-
-```text
-블랙홀이 정보를 삼킨다면,
-그 역과정도 있지 않을까?
-
-블랙홀의 시간역전 구조가 화이트홀이라면,
-정보가 되돌아오는 통로 같은 것도 생각할 수 있지 않을까?
-
-그렇다면 우주 전체의 팽창도
-거대한 화이트홀적 방출처럼 볼 수 있지 않을까?
-```
-
-이 단계는 거의 SF적 직관에 가까웠습니다. 하지만 중요한 점은 “화이트홀이 진짜다”가 아니라, 질문이 정보에서 우주 구조로 확장됐다는 것입니다.
-
-그다음 생각은 암흑물질로 이어졌습니다.
-
-```text
-암흑물질이 꼭 입자여야 하나?
-아직 직접 검출되지 않았다면,
-진공이나 시공간 자체의 집단모드일 가능성은 없나?
-```
-
-여기서 quantum foam이 후보 매질로 등장했습니다.
-
-```text
-시공간이 플랑크 스케일에서 완전히 매끈하지 않고 요동한다면,
-그 긴 파장 집단모드가 은하 주변에서 암흑물질처럼 뭉칠 수 있지 않을까?
-```
-
-동시에 우주상수 문제도 같은 방향으로 연결됐습니다.
-
-```text
-진공에너지가 왜 이렇게 작게 남았는가?
-그냥 주어진 상수가 아니라,
-foam의 동적 평형 잔여값이면 어떨까?
-```
-
-이 단계에서 중요한 것은 결론이 아니라 질문의 확장입니다.
-
-처음에는 정보 삭제 비용이라는 작은 문장에서 시작했습니다. 그다음 정보, 데이터, 엔트로피, 블랙홀, 호킹복사, 역과정, 화이트홀, quantum foam, 암흑물질, 암흑에너지로 가지가 뻗었습니다.
-
-```text
-정보 삭제
--> 열역학적 비용
--> 정보는 물리적이라는 직관
--> 블랙홀 정보 문제
--> 호킹복사와 정보 보존
--> 복구 가능성과 계산 비용
--> 역과정/화이트홀적 직관
--> 시간역전/CPT counterpart
+information
+-> data
+-> entropy
+-> black holes
+-> Hawking radiation
+-> scrambled information recovery
+-> reverse-process intuition
+-> time-reversal or CPT counterpart
 -> quantum foam
--> 암흑부문
+-> unified dark sector
 ```
 
-이 발산 단계는 일부러 넓게 열어둔 단계였습니다. 바로 맞는 답을 찾기보다, 서로 떨어져 보이는 문제들이 같은 질문 안에 들어올 수 있는지 보는 과정이었습니다.
-
-여기서 암흑물질 쪽으로 넘어간 핵심은 `matter`라는 단어 자체를 의심한 것입니다.
+처음에는 이미지가 훨씬 컸습니다.
 
 ```text
-암흑물질이 꼭 입자여야 하나?
-혹시 초극도 진공 상태의 시공간 떨림,
-즉 quantum foam의 집단모드가 중력적으로 보이는 것은 아닐까?
+우리 우주 자체가 거대한 white-hole-like release처럼 행동하는 것은 아닐까?
 ```
 
-원래 직관에는 “sparse”, “plasma-like” 같은 표현이 있었습니다. 정리된 문서에서는 이것을 더 보수적으로 해석합니다.
+이 이미지는 좋은 불씨였지만, 과학적 주장으로 세우기에는 너무 큽니다. 그래서 가지치기를 했고, 더 강한 중심은 이쪽으로 줄었습니다.
 
 ```text
-sparse:
-보통 입자가 공간을 채운다는 뜻이 아니라,
-거의 빈 공간의 구조에서 생기는 드문 중력적 흔적이라는 뜻.
-
-plasma-like:
-전자기 플라즈마라는 뜻이 아니라,
-개별 입자보다 집단모드가 더 중요할 수 있다는 비유.
+Dark matter + dark energy
+= two effective phases of quantum spacetime foam.
 ```
 
-이 지점에서 정보 문제와 암흑부문 문제가 연결됐습니다. 블랙홀은 정보와 중력과 양자역학이 만나는 장소이고, quantum foam은 그 정보/진공 구조가 우주 스케일에서 드러나는 후보 매질이 됩니다.
+이 관점에서 암흑물질은 clustering phase입니다. 은하 주변에 뭉치고, 거의 압력 없는 물질처럼 행동해야 하는 부분입니다. 암흑에너지는 residual pressure phase입니다. 우주 전체에 매끈하게 남아서 가속팽창을 만드는 부분입니다. 블랙홀과 white-hole-like remnant는 정보 흐름이나 결함 구조로 남지만, 모델의 중심 엔진은 아닙니다.
 
-## 가지치기
+## 발산, 수렴, 검증
 
-처음 이미지였던 “우주 전체가 거대한 화이트홀이다”는 너무 큽니다. 공격받기 쉽고, 바로 검증 가능한 수식으로 낮추기 어렵습니다.
+이 저장소의 핵심은 가설 하나만이 아닙니다. 그 가설까지 가는 사고 과정 자체가 중요합니다.
 
-그래서 중심을 줄였습니다.
+첫 단계는 발산이었습니다. 작은 Landauer prompt가 여러 질문으로 뻗었습니다.
 
 ```text
-raw image:
-the universe as a giant white-hole-like release
+정보 삭제가 열을 남긴다면,
+정보는 물리적 비용을 가진다.
 
-pruned core:
-dark matter + dark energy
-= two effective phases of quantum spacetime foam
+정보가 물리적 비용을 가진다면,
+블랙홀 증발은 단순한 폐기 과정으로 볼 수 없다.
+
+블랙홀이 정보를 처리한다면,
+역과정이나 delayed-return channel을 묻는 것이 자연스럽다.
+
+블랙홀과 진공 구조가 같은 정보 문제의 일부라면,
+암흑부문도 그 구조가 우주 스케일에서 드러난 것일 수 있다.
 ```
 
-화이트홀과 블랙홀은 완전히 버린 것이 아닙니다. 다만 메인 엔진이 아니라 보조 구조로 내려놓았습니다.
+이 단계는 일부러 넓게 열어둔 단계였습니다. 블랙홀은 정보 압축기처럼 보였고, white-hole-like remnant는 delayed outlet처럼 보였고, 우주는 release process처럼 보였고, vacuum fluctuation은 sparse structure처럼 보였습니다. 우주 가속팽창도 residual pressure라는 식으로 연결됐습니다.
+
+중간에서 중요한 고리는 단순히 “블랙홀이니까 화이트홀”이 아니었습니다. 핵심은 복구 가능성과 비용이었습니다.
 
 ```text
-main idea:
-암흑물질과 암흑에너지는 같은 quantum foam의 두 거시적 상일 수 있다.
+호킹복사가 정보를 극도로 뒤섞인 형태로 담고 있다면,
+이론적으로 완벽한 quantum decoder가 그 정보를 복구할 수 있을까?
 
-secondary idea:
-블랙홀은 정보 압축 노드일 수 있다.
+unitarity가 복구 가능성을 허용하지만,
+계산 복잡도가 그것을 막는다면,
+정보는 파괴된 것이 아니라 decoding cost 뒤에 숨은 것이다.
 
-optional idea:
-black/white-hole remnant는 foam sector 안의 부차적 결함일 수 있다.
+완전한 시간역전 과정이 있다면,
+물리적으로 무엇이 그 역할을 할 수 있을까?
 ```
 
-이렇게 줄여야 물리학자에게 보여줄 수 있는 질문이 됩니다.
+여기서 reverse-process 이미지가 들어왔습니다. white hole, black/white-hole remnant, CPT-like symmetry, replica wormhole, island idea는 증거가 아니라 질문을 좁히는 장치였습니다. 블랙홀이 ordinary matter보다 큰 information-processing sector를 가리키는지 묻기 위한 중간 다리였습니다.
+
+그다음 암흑물질 쪽으로 넘어간 직관은 별도로 중요합니다.
 
 ```text
-내가 quantum foam 기반으로 암흑물질과 암흑에너지를
-하나의 유효 매질로 해석하는 toy model 직관을 생각해봤는데,
-어떤 관측 제약이 가장 먼저 걸릴까요?
+암흑물질이 꼭 ordinary particle이어야 할까?
+혹시 vacuum이나 spacetime foam의 energy-like collective excitation일 수 없을까?
+거의 빈 공간의 구조에서 생긴 sparse gravitational trace라면 어떨까?
 ```
 
-즉, 수렴 과정에서 살아남은 것은 화이트홀 우주론 자체가 아니라 이것입니다.
+여기서 plasma-like라는 말은 비유입니다. QFUDS는 암흑물질이 전자기 플라즈마라고 주장하지 않습니다. 핵심은 collective behavior입니다. 어떤 매질은 개별 입자로 잡히기보다 큰 스케일의 모드로 더 잘 보일 수 있습니다.
+
+두 번째 단계는 수렴이었습니다. 가장 큰 이미지를 잘라내고, 끝까지 남는 질문을 골랐습니다.
 
 ```text
-암흑물질과 암흑에너지가 정말 별개의 성분인가?
-아니면 같은 quantum foam sector가 스케일에 따라 다르게 보이는 것인가?
+암흑물질과 암흑에너지를
+같은 quantum-foam medium의 두 effective mode로 볼 수 있는가?
 ```
 
-이 질문은 훨씬 작지만 더 위험합니다. 왜냐하면 바로 검증 조건을 요구하기 때문입니다.
+이 질문은 원래 이미지보다 작습니다. 대신 훨씬 더 위험합니다. 하나의 sector가 구조 형성 스케일에서는 dust-like하게 보이고, 우주 배경 스케일에서는 vacuum-like하게 보여야 하기 때문입니다.
 
-## 현재 가설
+세 번째 단계는 검증 압력이었습니다. dark-sector toy model로 쓰는 순간, 더는 은유로 버틸 수 없습니다. 평범한 우주론 관측 앞에 세워야 합니다.
 
-현재 가장 안전한 QFUDS 형태는 이것입니다.
+```text
+zero-deviation limit에서 LCDM을 회복하는가?
+clustering phase가 c_s^2 ~= 0을 유지할 수 있는가?
+CMB acoustic peak를 망가뜨리지 않는가?
+matter power spectrum을 보존하는가?
+realistic halo를 만들 수 있는가?
+remnant sector가 compact-object constraint를 통과하는가?
+```
+
+그래서 이 저장소가 생겼습니다. 아이디어를 적어두는 데서 끝나는 것이 아니라, 확인하고, 제약하고, 필요하면 죽일 수 있는 형태로 밀어 넣기 위한 저장소입니다.
+
+## 가지치기된 것
+
+초기 아이디어에는 여러 가지가 섞여 있었습니다.
+
+```text
+black holes as information processors
+white-hole-like reverse channels
+the universe as a white-hole-like release
+vacuum fluctuations as sparse dark structure
+cosmic acceleration as residual vacuum pressure
+```
+
+이 저장소는 그중 변수, 방정식, 테스트로 낮출 수 있는 부분만 남깁니다. 현재 연구 버전은 이것이 아닙니다.
+
+```text
+우주는 문자 그대로 화이트홀이다.
+```
+
+현재 연구 버전은 이것입니다.
+
+```text
+quantum-foam unified dark sector가
+암흑물질과 암흑에너지로 설명되는 관측 효과를
+재현할 수 있는가?
+```
+
+기준은 단순합니다.
+
+```text
+이 아이디어를 틀릴 수 있을 만큼 정확하게 만들 수 있는가?
+```
+
+그럴 수 없다면 이야기에 머뭅니다. 그럴 수 있다면 CMB, structure formation, halo profile, dark-energy measurement로 공격받을 수 있는 toy framework가 됩니다.
+
+## 이 저장소가 존재하는 이유
+
+이 저장소는 발산한 직관이 연구 프로그램으로 바뀌는 과정을 기록합니다.
+
+```text
+intuition
+-> pruning
+-> hypothesis
+-> toy equations
+-> kill criteria
+-> code and future Boltzmann tests
+```
+
+목표는 QFUDS를 증명하는 것이 아닙니다. 목표는 무엇이 이 모델을 가장 먼저 죽이는지 찾는 것입니다. 혹은 살아남는 버전을 LCDM, unified dark fluid, k-essence, interacting dark energy, scalar-field dark matter, black/white-hole remnant model과 비교할 수 있을 만큼 좁히는 것입니다.
+
+현재 상태는 toy-background 단계입니다. 이 저장소에는 최소 배경 모델이 있습니다. perturbation equation, CLASS/CAMB integration, CMB power-spectrum comparison, matter-power comparison은 아직 끝나지 않았습니다.
+
+## 현재 검증 단계
+
+```text
+Level 0: literature position       draft form 완료
+Level 1: background toy model      첫 버전 구현
+Level 2: perturbation equations    미완성
+Level 3: CLASS or CAMB integration 시작 전
+Level 4: CMB comparison            시작 전
+Level 5: matter power comparison   시작 전
+Level 6: DESI/Euclid/Roman tests   시작 전
+```
+
+QFUDS는 첫 번째 수치 검사를 통과한 뒤에야 물리적으로 흥미로워집니다. 먼저 LCDM-like background를 재현해야 하고, 그다음 CMB와 structure-formation 관측을 망가뜨리지 않아야 합니다.
+
+## 한 문장 thesis
+
+암흑물질과 암흑에너지는 완전히 다른 두 물질이 아닐 수 있습니다. 같은 microscopic quantum-spacetime foam이 거시적으로 다르게 나타난 두 상일 수 있습니다.
+
+```text
+dark matter  -> clustering foam phase
+dark energy  -> residual vacuum-pressure phase
+remnants     -> optional defects in the same foam sector
+```
+
+가장 강한 버전은 “우주는 화이트홀이다”가 아닙니다. 그 말은 너무 크고 너무 쉽게 공격받습니다.
+
+더 강한 버전은 이것입니다.
+
+```text
+Dark matter + dark energy
+= two effective phases of quantum spacetime foam.
+```
+
+블랙홀과 white-hole-like remnant는 부차적인 구조입니다. information-compression node나 topological defect로 볼 수는 있지만, 모델의 중심 엔진은 아닙니다.
+
+## 사고 흐름
+
+아이디어는 암흑물질이 아니라 정보에서 시작했습니다.
+
+```text
+Information is physical.
+정보가 그냥 사라질 수 없다면, 블랙홀은 그 정보를 어떻게 처리하는가?
+블랙홀에 시간역전 counterpart가 있다면 delayed return channel이 가능한가?
+vacuum foam이 정보를 저장하거나 매개한다면 dark sector는 그 foam의 large-scale equilibrium일 수 있는가?
+```
+
+처음 나온 conceptual chain은 다음과 같습니다.
+
+```text
+information conservation
+-> black-hole information problem
+-> white-hole-like return channel
+-> quantum foam as a medium
+-> dark matter as a clustering foam mode
+-> dark energy as residual foam pressure
+-> black/white-hole remnants as optional defects
+```
+
+각 단계는 증명이 아닙니다. 질문의 초점이 이동한 것입니다.
+
+```text
+Landauer:
+정보는 물리적 비용을 가진다.
+
+black-hole information:
+블랙홀에 들어간 정보는 어디에 인코딩되는가?
+
+white-hole-like return:
+블랙홀의 시간역전 구조가 있다면,
+return channel을 remnant나 defect로 모델링할 수 있는가?
+
+quantum foam:
+시공간 자체가 미시적으로 요동한다면,
+그 요동이 dark-sector behavior를 실어 나르는 매질일 수 있는가?
+
+dark matter:
+긴 파장 foam mode가 w ~= 0, c_s^2 ~= 0으로 뭉칠 수 있는가?
+
+dark energy:
+다른 foam mode가 w ~= -1의 smooth residual pressure로 남을 수 있는가?
+
+QFUDS:
+이 둘을 하나의 dark sector의 두 effective phase로 볼 수 있는가?
+```
+
+가장 speculative한 부분을 잘라낸 뒤 남은 질문은 더 좁아졌습니다.
+
+```text
+quantum foam이 effective cosmic medium처럼 행동한다면,
+어떤 관측 제약이 이 모델을 가장 먼저 죽이는가?
+```
+
+## 현재 작업 가설: v0.2 모델
+
+더 안전한 공식화는 일반상대론 안의 unified dark sector입니다.
 
 ```text
 rho_dark = rho_QF + rho_rem
 ```
 
-`rho_QF`는 quantum foam unified dark fluid입니다. 이 유체에는 두 가지 효과적인 부분이 있습니다.
+`rho_QF`는 quantum-foam unified dark fluid입니다. 두 effective piece를 가집니다.
 
 ```text
 rho_QF(a) = rho_cluster(a) + rho_residual(a)
 ```
 
-`rho_cluster`는 암흑물질처럼 행동해야 합니다.
+clustering piece는 cold dark matter처럼 행동해야 합니다.
 
 ```text
 rho_cluster ~ a^-3
@@ -221,38 +308,30 @@ w ~= 0
 c_s^2 ~= 0
 ```
 
-뜻:
-
-```text
-우주가 커질수록 보통 물질처럼 희석되고,
-압력이 거의 없어서 은하 주변에 뭉칠 수 있어야 한다.
-```
-
-`rho_residual`은 암흑에너지처럼 행동해야 합니다.
+residual piece는 dark energy처럼 행동해야 합니다.
 
 ```text
 rho_residual ~= rho_*
 w ~= -1
 ```
 
-뜻:
-
-```text
-거의 균일하게 남아 있고,
-우주의 가속팽창을 설명하는 잔여 압력처럼 행동해야 한다.
-```
-
-부차적 remnant 항은 이렇게 둡니다.
+optional remnant piece는 이렇게 둡니다.
 
 ```text
 rho_rem = integral M f(M) dM
 ```
 
-이 항은 전체 암흑부문의 중심이 아닙니다. black/white-hole remnant가 있다면, 우선은 관측 제약을 통과해야 하는 subcomponent로 보는 것이 안전합니다.
+이 항은 microlensing, CMB, structure-formation constraint를 통과하기 전까지 subdominant로 두는 것이 안전합니다.
 
-## 가장 중요한 생존 조건
+### 개념 주석
 
-QFUDS가 살아남으려면 effective sound speed가 거의 0이어야 합니다.
+`rho_cluster ~ a^-3`은 우주가 커질수록 밀도가 부피에 따라 희석된다는 뜻입니다. 보통 물질이나 cold dark matter가 이런 식으로 줄어듭니다.
+
+`rho_residual ~= rho_*`는 거의 일정하게 남는 residual vacuum density를 뜻합니다. 이것이 `w ~= -1`로 보이면 암흑에너지처럼 우주 가속팽창을 설명할 수 있습니다.
+
+## 핵심 생존 조건
+
+가장 중요한 조건은 effective sound speed입니다.
 
 ```text
 c_s^2 ~= 0
@@ -261,82 +340,173 @@ c_s^2 ~= 0
 쉽게 말하면:
 
 ```text
-QFUDS foam은 배경 우주에서는 우주를 밀어내는 압력을 남기지만,
-은하 형성에서는 압력 없는 먼지처럼 뭉쳐야 한다.
+QFUDS foam은 배경 우주에서는 우주를 밀어내는 압력을 남길 수 있지만,
+은하 형성 단계에서는 압력 없는 먼지처럼 뭉쳐야 한다.
 ```
 
-이 조건을 만족하지 못하면 밀도 요동이 자라지 못하고, 은하 halo와 대규모 구조가 만들어지지 않습니다. 그러면 모델은 바로 죽습니다.
+foam이 너무 stiff하면 압력이 구조 형성을 지워버립니다. 그러면 모델은 바로 죽습니다.
 
-## 검증 단계
+## 이 모델이 설명하려는 것
 
-현재 상태는 완성된 이론이 아니라 toy framework입니다.
+QFUDS가 묶으려는 핵심은 세 가지입니다.
+
+1. Unified dark sector: 암흑물질과 암흑에너지가 같은 origin을 가질 수 있는가.
+2. Coincidence problem: 왜 현재 우주에서 암흑물질과 암흑에너지 비율이 비슷한 시기를 사는가.
+3. Dynamic vacuum energy: cosmological constant가 손으로 넣은 고정 숫자가 아니라 느리게 relax하는 equilibrium value일 수 있는가.
+
+이 단계에서는 일반상대론을 바꾸려 하지 않습니다. Friedmann background는 유지합니다.
+
+## 예측 후보
+
+아래 항목은 검증된 예측이 아닙니다. 모델을 죽일 수 있는 후보 지점입니다.
+
+1. 표준 WIMP direct detection은 계속 null일 수 있습니다.
+2. Dark energy는 아주 작지만 0이 아닌 time evolution을 보일 수 있습니다.
 
 ```text
-Level 0: literature position       draft complete
-Level 1: background toy model      first version exists
-Level 2: perturbation equations    incomplete
-Level 3: CLASS/CAMB implementation not started
-Level 4: CMB comparison            not started
-Level 5: matter power spectrum     not started
-Level 6: late-time survey tests    not started
+w(a) = w_0 + w_a(1 - a)
+LCDM:   w_0 = -1, w_a = 0
+QFUDS: w_0 ~= -1, |w_a| > 0 but small
 ```
 
-다음 단계는 더 멋진 서사를 붙이는 것이 아닙니다. 다음 단계는 모델이 어디서 죽는지 확인하는 것입니다.
+3. Large-scale structure와 CMB는 거의 LCDM-like해야 합니다.
+4. 작은 은하 halo는 sharp cusp보다 core를 선호할 수 있지만, baryonic feedback과 구분해야 합니다.
+5. Dark matter 구조와 baryonic structure 사이에 pure collisionless CDM보다 약간 더 강한 상관이 남을 수 있습니다.
+6. 완전한 quantum description에서 black-hole evaporation은 정확히 thermal하기만 해서는 안 됩니다.
+7. black/white-hole remnant가 있다면 허용 가능한 mass function은 매우 좁아야 합니다.
 
-가장 먼저 공격받아야 하는 지점은 다음입니다.
+가까운 테스트의 핵심은 white hole이 아닙니다. `w = -1`이 계속 정밀하게 지지되는지, 아니면 작은 nonzero `w_a` 쪽으로 움직이는지가 더 중요합니다.
 
-1. `c_s^2 ~= 0`이 그냥 가정인지, 실제로 유도되는지.
-2. CMB acoustic peak를 망가뜨리지 않는지.
-3. matter power spectrum을 망가뜨리지 않는지.
-4. 은하 halo 구조를 만들 수 있는지.
-5. 암흑에너지의 작은 시간 변화가 관측 제약을 통과하는지.
-6. remnant mass function이 microlensing, CMB, 구조형성 제약을 통과하는지.
-7. 기존 unified dark fluid, k-essence, interacting dark energy와 구분되는 예측이 있는지.
+## 먼저 공격해야 할 지점
+
+적대적인 리뷰어라면 이 순서로 공격할 것입니다.
+
+1. zero-deviation limit에서 LCDM을 정확히 회복하는가?
+2. 같은 effective medium이 `w ~= 0`과 `w ~= -1`을 hand-waving 없이 만들 수 있는가?
+3. 왜 `c_s^2`가 0에 가까운가?
+4. CMB acoustic peak를 보존하는가?
+5. matter power spectrum을 보존하는가?
+6. 기존 unified dark fluid나 k-essence보다 나은 것이 있는가?
+7. remnant sector는 실제 예측을 추가하는가, 아니면 story language인가?
+
+여기서 실패하면 QFUDS는 이름만 바꾼 vocabulary shift입니다.
 
 ## 비과학자용 주석
 
 ```text
-정보 삭제:
+Information erasure:
 기억이나 데이터를 지우는 일도 우주의 열/엔트로피 장부에 비용을 남긴다.
 
-호킹복사:
+Hawking radiation:
 블랙홀이 아주 천천히 에너지를 내보내며 증발할 수 있다는 이론적 과정.
 정보가 완전히 사라지는지, 극도로 뒤섞여 나오는지가 핵심 문제다.
 
 Quantum foam:
 시공간이 아주 작은 스케일에서 완전히 매끈하지 않고 요동할 수 있다는 가설적 그림.
 
-암흑물질 모드:
+Dark matter mode:
 foam의 뭉치는 파도. 은하 주변에서 중력을 더해주는 역할을 해야 한다.
 
-암흑에너지 모드:
+Dark energy mode:
 foam의 균일한 잔여 압력. 우주 전체의 가속팽창을 설명해야 한다.
 
 Sound speed:
 이 유효 매질이 얼마나 탱탱한지를 나타내는 값.
 너무 탱탱하면 못 뭉치고, 못 뭉치면 암흑물질 역할을 못 한다.
 
-화이트홀 잔재:
+White-hole remnant:
 블랙홀의 역과정이나 정보 방출 통로를 떠올리게 하는 speculative한 결함 구조.
 현재 QFUDS에서는 메인 주장이 아니라 부차적 가능성이다.
 ```
 
-## 레포의 목적
+## 이 그림에서 블랙홀의 위치
 
-이 레포는 “내가 우주를 설명했다”는 선언이 아닙니다.
+블랙홀은 QFUDS의 중심 증거가 아닙니다.
 
-목적은 더 좁습니다.
+관측 사실:
 
 ```text
-생각 발산
--> 가지치기
--> 가설
--> 수식화
--> 검증 조건
--> toy code
--> 미래 CLASS/CAMB 테스트
+대부분의 큰 은하는 중심에 supermassive black hole을 가진다.
 ```
 
-즉, 이 레포는 호기심을 검증 가능한 형태로 낮추는 기록입니다.
+우리 은하 중심 블랙홀과 M87의 블랙홀이 대표적인 예입니다. 존재 자체는 관측적으로 확립되어 있습니다. 다만 정확한 형성 경로는 여전히 연구 중입니다.
 
-좋은 toy model은 멋있어서 좋은 것이 아니라, 죽을 수 있어서 좋습니다. QFUDS도 마찬가지입니다. 살아남으려면 LCDM이 이미 맞춘 CMB, BAO, 구조형성, 은하 halo 관측을 망가뜨리지 않아야 합니다.
+보수적인 해석은 이렇습니다.
+
+```text
+quantum foam -> dark halo -> galaxy -> central black hole
+```
+
+이 순서는 블랙홀이 은하를 만든다고 말하는 것보다 표준 구조 형성 그림을 더 잘 존중합니다.
+
+QFUDS가 더 강하게 묻는 질문은 이것입니다.
+
+```text
+dark matter가 foam phase라면,
+central black hole은 그 foam sector 안의
+특수한 compression site나 phase-transition site일 수 있는가?
+```
+
+speculative한 해석은 다음과 같습니다.
+
+```text
+black hole = local information-compression node
+```
+
+더 강하게 말하면:
+
+```text
+black hole = possible phase-transition site of the foam sector
+```
+
+이것은 좋은 worldbuilding 이미지이자 연구 방향이 될 수 있지만, 아직 관측 결과는 아닙니다.
+
+안전한 문장은 이 정도입니다.
+
+```text
+QFUDS는 central black hole을 foam-dominated halo 안의
+information-compression node로 재해석할 수 있지만,
+큰 은하마다 왜 하나씩 있는지를 아직 설명하지는 못한다.
+```
+
+## 현재 상태
+
+QFUDS는 아직 이론이 아닙니다.
+
+원래 white-hole-universe 이미지보다 더 선명한 중심은 이것입니다.
+
+```text
+quantum foam unified dark sector with near-zero sound speed
+```
+
+다음 의미 있는 단계는 더 많은 이야기가 아니라 validation roadmap입니다.
+
+```text
+background equation
+-> perturbation equation
+-> CLASS or CAMB implementation
+-> CMB comparison
+-> matter power spectrum comparison
+-> DESI, Euclid, Roman constraints
+```
+
+이 프로젝트는 CMB와 structure-formation 검사를 처음 통과한 뒤에야 물리적으로 흥미로워집니다.
+
+## 문서
+
+- `docs/concept_origin.md`: 정보 흐름에서 QFUDS 질문까지 어떻게 이동했는지
+- `docs/research_program.md`: abstract, model v0.2, validation roadmap, kill criteria
+- `docs/qfuds_research_report.md`: 적대적 문헌 비교와 수학적 formulation
+
+## 참고 anchor
+
+아래 링크들은 QFUDS를 증명하지 않습니다. 다만 근처에 있는 실제 연구 축을 잡아주는 anchor입니다.
+
+- [Hawking evaporation and the Landauer Principle](https://arxiv.org/abs/2407.08777)
+- [Entanglement Wedge Reconstruction and the Information Paradox](https://arxiv.org/abs/1905.08255)
+- [Replica wormholes and the black hole interior](https://arxiv.org/abs/1911.11977)
+- [Black hole fireworks: black-to-white-hole tunneling](https://arxiv.org/abs/1407.0989)
+- [Small black/white hole stability and dark matter](https://arxiv.org/abs/1805.03872)
+- [Planck 2018 cosmological parameters](https://arxiv.org/abs/1807.06209)
+- [DESI DR2 results guide](https://www.desi.lbl.gov/2025/03/19/desi-dr2-results-march-19-guide/)
+- [Unified dark fluid with null sound speed](https://arxiv.org/abs/2509.16155)
