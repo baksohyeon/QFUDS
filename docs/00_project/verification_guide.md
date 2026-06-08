@@ -25,48 +25,57 @@ What it means:
 
 This confirms the null limit. With no phase transfer, the two-phase background behaves as LCDM. This is a control case, not evidence of novelty.
 
-## 2. v0.3 Gamma-Law Background Scan
+## 2. Experiment 001: Gamma-Law Background Scan
 
 Command:
 
 ```bash
-python3 scripts/run_minimal_model.py --all-v03
+python3 scripts/run_minimal_model.py --exp-001-gamma-scan
 ```
 
 What to inspect:
 
-- `docs/03_experiments/exp_001_gamma_scan_v03.md`
-- `docs/04_results/result_001_gamma_scan_v03.md`
-- `docs/04_results/qfuds_v0_3_gamma_laws.md`
+- `docs/03_experiments/exp_001_gamma_scan.md`
+- `docs/04_results/result_001_gamma_scan.md`
 - `outputs/qfuds_constant_gamma0.01_beta0.csv`
 - `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`
 - `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`
 - `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`
 - `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
+- PNG diagnostics in `outputs/` with the same file stems.
 
 What it means:
 
 This scan asks whether candidate `Gamma(a)` laws already fail at the background level. Constant transfer and ungated growth-driven transfer fail at the tested amplitudes. Low-redshift proxies survive only as candidates for stronger tests.
 
-## 3. v0.4 Entropy / Information Scan
+## 3. Experiment 002: Entropy / Information-Source Gate
 
 Command:
 
 ```bash
-python3 scripts/run_minimal_model.py --all-v04
+python3 scripts/run_minimal_model.py --exp-002-entropy-gate
 ```
 
 What to inspect:
 
-- `docs/03_experiments/exp_002_entropy_information_scan_v04.md`
-- `docs/04_results/qfuds_v0_4_entropy_laws.md`
+- `docs/03_experiments/exp_002_entropy_information_gate.md`
+- `docs/04_results/result_002_entropy_information_gate.md`
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`
+- PNG diagnostics in `outputs/` with the same file stems.
 
 What it means:
 
 This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production is the narrow branch kept for perturbation tests.
+
+Where the branch decision is recorded:
+
+- `docs/05_next_steps/perturbation_gate.md`
+
+What it is not:
+
+This is not the perturbation-theory task. It does not evolve `delta_A`, `theta_A`, `delta_B`, or `theta_B`, and it is not a CLASS/CAMB result.
 
 ## 4. Regression Tests
 

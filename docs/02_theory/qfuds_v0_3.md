@@ -55,7 +55,7 @@ D'' + [2 + d ln H / d ln a] D' - (3/2) Omega_clustering(a) D = 0
 
 ## Physical Interpretation
 
-v0.3 asks whether phase conversion should turn on with ordinary structure formation rather than during the early universe. The most relevant surviving toy laws are tied to low-redshift collapse, black-hole entropy growth, or star-formation history.
+experiment 001 asks whether phase conversion should turn on with ordinary structure formation rather than during the early universe. The most relevant surviving toy laws are tied to low-redshift collapse, black-hole entropy growth, or star-formation history.
 
 This does not prove QFUDS novel. It narrows the next target to low-redshift, physically sourced transfer histories.
 

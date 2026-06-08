@@ -1,10 +1,117 @@
-# QFUDS v0.3: Physically Motivated Phase-Transfer Laws
+# Result 001: Gamma-Law Background Scan
 
 Date: 2026-06-08
 
+## What Did We Learn?
+
+The first useful constraint on `Gamma(a)` is timing. A transfer law that is active during matter domination can destroy the background history when integrated backward from present-day densities. Low-redshift gated transfer is safer at background level.
+
+The scan also confirmed a conceptual limit:
+
+```text
+free Gamma(a) -> ordinary interacting dark energy
+Gamma(a)=0    -> LCDM
+```
+
+Therefore QFUDS needs a physically fixed transfer law, not only a fitted one.
+
+## Model Tested
+
+The background equations are:
+
+```math
+\frac{d\rho_A}{d\ln a}+3\rho_A=-\Gamma(a)\rho_A,
+\qquad
+\frac{d\rho_B}{d\ln a}=\Gamma(a)\rho_A.
+```
+
+The scan tested these `Gamma(a)` families:
+
+- constant transfer;
+- power-law late-time gate;
+- ungated growth-driven transfer;
+- collapsed-fraction toy gate;
+- horizon-entropy gate;
+- black-hole-entropy proxy;
+- star-formation proxy.
+
+## Figures
+
+Representative failed laws:
+
+![constant Gamma failure](../../outputs/qfuds_constant_gamma0.01_beta0.png)
+
+![ungated growth-driven Gamma failure](../../outputs/qfuds_growth_driven_gamma0.01_beta0.png)
+
+Representative surviving background candidates:
+
+![collapsed fraction toy](../../outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.png)
+
+![black-hole entropy proxy](../../outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.png)
+
+![star-formation proxy](../../outputs/qfuds_star_formation_proxy_gamma0.003_beta0.png)
+
+## Did The Model Survive?
+
+Only in a narrow background-level sense.
+
+- The zero-transfer model survives because it is LCDM.
+- Power-law and horizon-entropy-gated laws survive as ordinary interacting dark-energy examples.
+- Collapsed-fraction, black-hole-entropy, and star-formation proxies survive the minimal background checks and remain worth testing.
+- Constant and ungated growth-driven transfer fail at the tested amplitudes.
+
+No experiment 001 result establishes perturbation stability, CMB viability, or novelty.
+
+## Viability Table
+
+| Law | Parameters | Result | Classification |
+| --- | --- | --- | --- |
+| LCDM limit | `gamma0=0` | passes as control | trivial LCDM |
+| constant | `gamma0=0.01` | fails positivity and CMB-era `H(a)` deviation | rejected |
+| power law | `gamma0=0.03`, `beta=5` | passes minimal checks | standard interacting dark energy |
+| growth driven | `gamma0=0.01` | fails positivity and CMB-era `H(a)` deviation | rejected |
+| collapsed fraction toy | `gamma0=0.03` | passes minimal background checks | perturbation-test candidate |
+| horizon entropy | `gamma0=0.03`, `beta=4` | passes minimal checks | standard interacting dark energy unless derived |
+| black-hole entropy proxy | `gamma0=0.03` | passes minimal background checks | perturbation-test candidate |
+| star-formation proxy | `gamma0=0.003` | passes minimal background checks | perturbation-test candidate |
+
+The candidate label means only "worth testing next." It does not mean novel or observationally viable.
+
+## Why?
+
+The failing laws are too active too early. They can produce negative `rho_B` when the present-day boundary condition is integrated backward and can move `H(a)` away from the LCDM-like early universe.
+
+The surviving toy laws are mostly low-redshift gates. They leave the early universe close to LCDM and defer transfer until structure formation, black-hole growth, or star formation becomes significant.
+
+## What Failed?
+
+1. Constant transfer with `gamma0=0.01`.
+2. Ungated growth-driven transfer with `gamma0=0.01`.
+3. Any claim that background-level survival proves QFUDS as a new theory.
+4. Any claim that black-hole or star-formation proxies are derived microphysics.
+
+## What Became The Next Target?
+
+The next target is not more background scanning. It is perturbation-level specification:
+
+1. define phase-A perturbations;
+2. define whether phase B is exactly smooth;
+3. define transfer perturbations `delta_Q`;
+4. identify stability and sound-speed conditions;
+5. implement the surviving candidates in CLASS or CAMB;
+6. compare CMB and matter power against LCDM.
+
+Evidence:
+
+- `docs/03_experiments/exp_001_gamma_scan.md`
+- `outputs/qfuds_*gamma*.csv`
+- `tests/test_gamma_v03.py`
+
+## Full Technical Analysis
+
 ## 1. Executive Summary
 
-This v0.3 step tests whether the phase-transfer rate `Gamma(a)` can be tied to a physical quantity instead of used as an arbitrary fitting function.
+This experiment 001 step tests whether the phase-transfer rate `Gamma(a)` can be tied to a physical quantity instead of used as an arbitrary fitting function.
 
 Previous step: QFUDS was mapped against LCDM, unified dark fluids, k-essence, and interacting dark energy. The result was negative for novelty: with `Gamma=0`, QFUDS is exactly LCDM; with free `Gamma(a)`, it is a standard interacting dark-sector model.
 
@@ -13,7 +120,7 @@ This step asks what kind of `Gamma(a)` is needed for QFUDS not to collapse into 
 1. Constant or growth-driven transfer is too active in the early universe unless its amplitude is tiny.
 2. Low-redshift gated transfer can keep the CMB-era background close to LCDM.
 3. Black-hole entropy, collapsed fraction, and star-formation proxies are the most useful toy laws because they naturally peak after structure formation begins.
-4. None of these laws proves QFUDS novel. At v0.3 they are physically labeled interacting-vacuum models.
+4. None of these laws proves QFUDS novel. In experiment 001 they are physically labeled interacting-vacuum models.
 
 The strongest surviving target is not "Gamma is fitted by hand." It is:
 
@@ -32,7 +139,7 @@ v0.2 established the minimal two-phase dark sector:
 w_A\simeq 0,\qquad c_{s,A}^2\simeq0,\qquad w_B=-1.
 ```
 
-v0.3 adds multiple `Gamma(a)` modules and evaluates them with the same background and growth diagnostics:
+experiment 001 adds multiple `Gamma(a)` modules and evaluates them with the same background and growth diagnostics:
 
 - `gamma_constant`
 - `gamma_powerlaw`
@@ -167,7 +274,7 @@ Implemented modules:
 - `qfuds/gamma_laws.py`: Gamma-law definitions and dispatch.
 - `qfuds/background.py`: generalized phase-transfer background integration, including `Gamma(a)` and `w_Bfoam_eff`.
 - `qfuds/diagnostics.py`: LCDM comparison, `f sigma8` proxy, viability flags, and hostile classification.
-- `scripts/run_minimal_model.py`: `--gamma-model` and `--all-v03` runner.
+- `scripts/run_minimal_model.py`: `--gamma-model` and `--exp-001-gamma-scan` runner.
 - `tests/test_gamma_v03.py`: LCDM limit, finite-array, positivity, and viability-flag checks.
 
 Diagnostics written to CSV:
@@ -226,7 +333,7 @@ The "E" classification means only "worth testing next." It does not mean novel.
 
 ## 8. Most Promising Gamma(a)
 
-The most promising v0.3 direction is a low-redshift entropy/collapse law:
+The most promising experiment 001 direction is a low-redshift entropy/collapse law:
 
 ```math
 \Gamma(a)\propto \frac{dS_{\rm BH}}{d\ln a}

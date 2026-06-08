@@ -20,12 +20,11 @@ Can this version be made precise enough to fail?
 
 ## Current Status
 
-The project is currently between roadmap Level 1.6 and Level 2.
+The project is currently between roadmap Level 1 and Level 2.
 
 - Level 0 literature positioning exists in draft form.
-- Level 1 background toy model exists.
-- v0.3 Gamma-law background diagnostics are complete for a small suite of transfer laws.
-- v0.4 entropy/information-source background diagnostics are complete.
+- Level 1 background validation is complete.
+- `exp_000`, `exp_001`, and `exp_002` are complete.
 - Perturbation equations are incomplete.
 - CLASS/CAMB integration has not started.
 - CMB and matter-power comparisons have not been performed.
@@ -37,7 +36,7 @@ Current implementation anchors:
 - `qfuds/growth.py`: scale-independent growth proxy under smooth phase-B assumptions.
 - `qfuds/diagnostics.py`: LCDM comparison and minimal viability flags.
 - `scripts/run_minimal_model.py`: reproducible CLI runner.
-- `outputs/`: generated CSV and PNG files for the baseline, v0.3, and v0.4 diagnostic suites.
+- `outputs/`: generated CSV and PNG files for the baseline and background validation experiments.
 
 ## Known Limitations
 
@@ -45,8 +44,8 @@ QFUDS is not yet a complete physical theory.
 
 1. No covariant microscopic foam action has been derived.
 2. The phase split is phenomenological.
-3. `Gamma(a)` laws in v0.3 are toy prescriptions or empirical proxies.
-4. The v0.4 information-production branch is still a background/growth-proxy candidate, not a perturbation result.
+3. `Gamma(a)` laws in experiment 001 are toy prescriptions or empirical proxies.
+4. The experiment 002 information-production branch is still a background/growth-proxy candidate, not a perturbation result.
 5. Background-level viability does not imply CMB viability.
 6. The perturbation prescription for coupled phase transfer is not specified.
 7. A single adiabatic unified fluid with late `w -> -1` can fail structure formation through an excessive sound speed.
@@ -58,7 +57,7 @@ QFUDS is not yet a complete physical theory.
 The immediate research path is:
 
 1. Preserve the version history and experiment decisions in docs.
-2. Keep v0.3 and v0.4 as background-only diagnostic results.
+2. Keep experiments 001 and 002 as background-only diagnostic results.
 3. Write the perturbation equations for phase A, phase B, and transfer perturbations.
 4. Implement a Boltzmann-code version only after the perturbation assumptions are explicit.
 5. Compare against CMB and matter power before adding new speculative mechanisms.
@@ -85,13 +84,13 @@ qfuds_v0_2
   Gamma = 0 reproduces LCDM.
   Free Gamma(a) reduces to interacting dark energy.
 
-qfuds_v0_3
+qfuds_v0_3 / exp_001
   Background diagnostic scan over physically labeled Gamma(a) laws.
   Constant and ungated growth-driven transfer fail immediately.
   Low-redshift collapse, black-hole-entropy, and star-formation proxies survive
   only as toy targets for perturbation-level tests.
 
-qfuds_v0_4
+exp_002
   Entropy/information-source diagnostic scan.
   Broad entropy language is rejected as a general explanation.
   Collapse/information production is kept only as a background-level target for
@@ -110,11 +109,11 @@ Maintained documentation:
 - `docs/02_theory/qfuds_v0_2.md`
 - `docs/02_theory/qfuds_v0_3.md`
 - `docs/03_experiments/exp_000_lcdm_baseline.md`
-- `docs/03_experiments/exp_001_gamma_scan_v03.md`
-- `docs/03_experiments/exp_002_entropy_information_scan_v04.md`
+- `docs/03_experiments/exp_001_gamma_scan.md`
+- `docs/03_experiments/exp_002_entropy_information_gate.md`
 - `docs/04_results/result_000_lcdm_baseline.md`
-- `docs/04_results/result_001_gamma_scan_v03.md`
-- `docs/04_results/qfuds_v0_4_entropy_laws.md`
+- `docs/04_results/result_001_gamma_scan.md`
+- `docs/04_results/result_002_entropy_information_gate.md`
 - `docs/05_next_steps/roadmap.md`
 
 Historical/source notes retained for provenance:
@@ -122,5 +121,4 @@ Historical/source notes retained for provenance:
 - `docs/01_origin/concept_origin.md`
 - `docs/00_project/research_program.md`
 - `docs/02_theory/qfuds_research_report.md`
-- `docs/04_results/qfuds_v0_3_gamma_laws.md`
 - `docs/00_project/qfuds_ko.md`
