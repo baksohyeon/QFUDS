@@ -5,6 +5,17 @@ This log records research decisions, not only implementation changes.
 ## 2026-06-08
 
 Decision:
+Keep the zero-transfer run as the LCDM regression baseline.
+
+Reason:
+With `Gamma(a)=0`, the two-phase background reproduces the LCDM control path. This is not a novel QFUDS prediction, but it is the required null comparison for every nonzero transfer law.
+
+Evidence:
+`docs/03_experiments/exp_000_lcdm_baseline.md`, `docs/04_results/result_000_lcdm_baseline.md`, `outputs/qfuds_gamma0_beta0.csv`, `tests/test_gamma_v03.py`
+
+## 2026-06-08
+
+Decision:
 Reject the white-hole-universe image as the central QFUDS claim.
 
 Reason:

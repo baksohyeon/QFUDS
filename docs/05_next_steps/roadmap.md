@@ -13,9 +13,9 @@ Date: 2026-06-08
 | Level | Topic | Status | Current Evidence | Next Gate |
 | --- | --- | --- | --- | --- |
 | 0 | literature position | completed | `docs/02_theory/qfuds_research_report.md` | Keep comparison current as model changes |
-| 1 | background toy model | completed | `qfuds/background.py`, `scripts/run_minimal_model.py`, `outputs/qfuds_gamma0_beta0.csv` | Use as baseline only |
+| 1 | background toy model | completed | `docs/04_results/result_000_lcdm_baseline.md`, `qfuds/background.py`, `scripts/run_minimal_model.py`, `outputs/qfuds_gamma0_beta0.csv` | Use as baseline only |
 | 1.5 | Gamma-law background scan | completed | `docs/04_results/qfuds_v0_3_gamma_laws.md`, `outputs/`, `tests/test_gamma_v03.py` | Promote only surviving laws to perturbation tests |
-| 1.6 | entropy-derived Gamma laws | completed | `docs/04_results/qfuds_v0_4_entropy_laws.md`, `qfuds/gamma_laws.py`, v0.4 outputs | Continue only collapse/information-production branch |
+| 1.6 | entropy-derived Gamma laws | completed | `docs/03_experiments/exp_002_entropy_information_scan_v04.md`, `docs/04_results/qfuds_v0_4_entropy_laws.md`, `qfuds/gamma_laws.py`, v0.4 outputs | Continue only collapse/information-production branch |
 | 2 | perturbation equations | in progress | assumptions noted in `qfuds/growth.py` and theory docs | Specify phase-A, phase-B, and transfer perturbations |
 | 3 | CLASS integration | blocked | none | Requires Level 2 equations |
 | 4 | CMB comparison | blocked | none | Requires CLASS/CAMB implementation |
