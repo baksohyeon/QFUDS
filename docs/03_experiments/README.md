@@ -7,7 +7,7 @@ status: in_progress
 evidence_role: ssot
 depends_on:
   - exp_001_5_phase_transfer_physicality
-next_gate: implement exp_003 only as Level 2A phenomenological closure
+next_gate: keep Level 2B blocked; classify P1 continuation as phenomenological interacting vacuum
 last_updated: 2026-06-08
 ---
 
