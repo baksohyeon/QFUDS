@@ -4,6 +4,49 @@ This document records Dorito's original line of thought that led to Quantum Foam
 
 It is not a proof. It is a map from a raw intuition to testable questions.
 
+## Logic Jump Map
+
+The original thought process looks abrupt if it is read only as a list of claims. It is better read as a sequence of question shifts.
+
+```text
+1. Information is physical.
+   If erasing information has a thermodynamic cost, information is part of physics,
+   not just bookkeeping.
+
+2. Black holes process information.
+   If black holes absorb information and later evaporate, the problem becomes:
+   where is the information encoded, and how can it return?
+
+3. A reverse channel is natural to ask about.
+   A white hole is the time reverse of a black hole in classical GR.
+   This does not prove white holes exist, but it motivates asking whether
+   remnants or tunneling channels can play a return-channel role.
+
+4. The question expands from one object to the medium.
+   If black holes are not isolated information sinks, perhaps they interact
+   with a larger vacuum or spacetime sector.
+
+5. Quantum foam becomes the candidate medium.
+   If spacetime has microscopic fluctuations, the vacuum is not empty.
+   It may have collective long-wavelength behavior.
+
+6. Dark matter becomes a clustering mode question.
+   Since dark matter is inferred gravitationally and not yet directly detected,
+   ask whether a collective foam mode can mimic cold dark matter:
+   w ~= 0, c_s^2 ~= 0, rho ~ a^-3.
+
+7. Dark energy becomes a residual-pressure question.
+   If vacuum contributions almost cancel but leave a small positive residual,
+   ask whether that residual behaves like w ~= -1.
+
+8. QFUDS is the pruned version.
+   The white-hole universe story is reduced to a safer claim:
+   dark matter and dark energy are two effective phases of one foam sector,
+   with remnants only as optional defects.
+```
+
+This map is the reason QFUDS is not introduced as a random combination of black holes, quantum foam, dark matter, and dark energy. Each step changes the target question while keeping the previous constraint alive.
+
 ## 1. Starting Point: Information Does Not Just Disappear
 
 The first idea was not dark matter. It was information.
