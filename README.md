@@ -21,6 +21,22 @@ Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework proposed
 
 This repository is not a claim that the model is correct. It is a workspace for turning an intuition into falsifiable questions.
 
+## Current Validation Stage
+
+The project is currently at Level 1.
+
+```text
+Level 0: literature position       done in draft form
+Level 1: background toy model      in progress / first version implemented
+Level 2: perturbation equations    not complete
+Level 3: CLASS or CAMB integration not started
+Level 4: CMB comparison            not started
+Level 5: matter power comparison   not started
+Level 6: DESI/Euclid/Roman tests   not started
+```
+
+This matters because QFUDS becomes interesting only after it survives the first numerical checks. The model must first reproduce an LCDM-like background and then preserve CMB and structure-formation observables.
+
 ## One-Sentence Thesis
 
 Dark matter and dark energy may not be fundamentally separate substances. They may be two macroscopic phases of the same microscopic quantum-spacetime foam.
@@ -175,6 +191,14 @@ If these fail, the model is only a vocabulary shift.
 
 Black holes are not the central proof of QFUDS.
 
+Observational fact:
+
+```text
+Most large galaxies host central supermassive black holes.
+```
+
+Examples include the Milky Way's central black hole and the black hole in M87. Their existence is observationally established. Their exact formation route is still an active research question.
+
 The conservative interpretation is:
 
 ```text
@@ -182,6 +206,14 @@ quantum foam -> dark halo -> galaxy -> central black hole
 ```
 
 That respects the usual structure-formation picture better than saying black holes create galaxies.
+
+The stronger but still speculative QFUDS question is:
+
+```text
+If dark matter is a foam phase,
+could central black holes mark special compression or phase-transition sites
+inside that foam sector?
+```
 
 The speculative QFUDS interpretation proposed by Dorito is:
 
@@ -196,6 +228,14 @@ black hole = possible phase-transition site of the foam sector
 ```
 
 This is a useful worldbuilding image and a possible research direction, but it is not yet an observational result.
+
+The safe statement is:
+
+```text
+QFUDS may reinterpret central black holes as information-compression nodes
+within foam-dominated halos, but it does not yet explain why every large
+galaxy has one.
+```
 
 ## Current Status
 

@@ -131,6 +131,14 @@ without spoiling CMB and large-scale structure?
 
 Nearly all large galaxies appear to host central supermassive black holes. QFUDS should not overclaim this.
 
+Known observational fact:
+
+```text
+large galaxies commonly host central supermassive black holes
+```
+
+This does not by itself support QFUDS. Standard astrophysics already has candidate formation channels: black-hole mergers, direct collapse, early massive seeds, and accretion inside dark-matter halos.
+
 The conservative formation order is:
 
 ```text
@@ -149,7 +157,29 @@ black hole = possible foam phase-transition site
 
 This may become useful if the model predicts changes in halo structure, feedback, or information storage near black holes. Without such predictions, it remains interpretation.
 
+The safe QFUDS position is therefore:
+
+```text
+central SMBHs are not proof of QFUDS;
+they are possible high-density nodes where the foam-sector interpretation
+could become observationally relevant.
+```
+
 ## Validation Roadmap
+
+Current status:
+
+```text
+Level 0: literature position       draft complete
+Level 1: background cosmology      first toy version exists
+Level 2: perturbations             incomplete
+Level 3: CLASS/CAMB implementation not started
+Level 4: CMB comparison            not started
+Level 5: matter power spectrum     not started
+Level 6: late-time survey tests    not started
+```
+
+The immediate goal is to move from "idea" to "toy cosmology model" by making the background and perturbation assumptions explicit enough for a Boltzmann code.
 
 ### Level 0: Literature Position
 
@@ -290,4 +320,3 @@ remnant sector still optional
 ```
 
 The next real step is a CLASS or CAMB implementation. That is where the model first becomes testable enough to fail.
-
