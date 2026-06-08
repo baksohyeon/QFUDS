@@ -1,4 +1,4 @@
-# exp_001_gamma_scan_v03
+# exp_001_gamma_scan
 
 Date: 2026-06-08
 
@@ -12,17 +12,17 @@ Transfer laws that are active during the early universe will fail by producing n
 
 ### Method
 
-Run the default v0.3 suite:
+Run experiment 001:
 
 ```bash
-python3 scripts/run_minimal_model.py --all-v03
+python3 scripts/run_minimal_model.py --exp-001-gamma-scan
 ```
 
 The runner integrates the two-phase background, computes a scale-independent growth proxy, compares each model against the zero-transfer LCDM baseline, writes CSV files, and writes PNG diagnostic plots when `matplotlib` is available.
 
 ### Parameters
 
-Default v0.3 suite:
+Experiment 001 suite:
 
 | Law | Parameters |
 | --- | --- |

@@ -230,17 +230,18 @@ intuition
 
 The goal is not to prove QFUDS. My goal is to identify the first constraint that kills it, or to make the surviving version narrow enough to compare with LCDM, unified dark fluids, k-essence, interacting dark energy, scalar-field dark matter, and black/white-hole remnant models.
 
-Current status: the project has moved past the first toy-background model, the v0.3 background-transfer diagnostic pass, and the v0.4 entropy/information-source background pass. The repo now classifies which transfer laws die immediately, which reduce to known interacting dark-energy behavior, and which narrow branch is worth perturbation testing next. Perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are still not complete.
+Current status: the project has moved past the first toy-background model, the experiment 001 Gamma-law background scan, and the experiment 002 entropy/information-source background gate. The repo now classifies which transfer laws die immediately, which reduce to known interacting dark-energy behavior, and which narrow branch is worth perturbation testing next. Perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are still not complete.
 
 ## Current Validation Stage
 
-The project is currently between Level 1.6 and Level 2: the background model exists, v0.3 tested candidate phase-transfer laws, and v0.4 tested entropy/information-source transfer laws, but perturbations are still incomplete.
+The project is currently between Level 1 and Level 2: the background model exists, experiment 001 tested candidate phase-transfer laws, and experiment 002 tested entropy/information-source transfer laws, but perturbations are still incomplete.
 
 ```text
 Level 0: literature position       done in draft form
-Level 1: background toy model      implemented
-Level 1.5: Gamma(a) transfer laws  v0.3 diagnostic pass complete
-Level 1.6: entropy/information     v0.4 diagnostic pass complete
+Level 1: background validation     completed
+  exp_000: LCDM baseline
+  exp_001: Gamma-law background scan
+  exp_002: entropy/information gate
 Level 2: perturbation equations    not complete
 Level 3: CLASS or CAMB integration not started
 Level 4: CMB comparison            not started
@@ -248,7 +249,7 @@ Level 5: matter power comparison   not started
 Level 6: DESI/Euclid/Roman tests   not started
 ```
 
-QFUDS becomes interesting only after it survives the next numerical checks. v0.3 and v0.4 are still background-level work: they can reject bad transfer laws, but they cannot claim CMB or structure-formation viability yet.
+QFUDS becomes interesting only after it survives the next numerical checks. Experiments 001 and 002 are still background-level work: they can reject bad transfer laws, but they cannot claim CMB or structure-formation viability yet.
 
 ## One-Sentence Thesis
 
@@ -328,7 +329,7 @@ If quantum foam behaves like an effective cosmic medium,
 what observational constraint kills it first?
 ```
 
-## Current Working Hypothesis: The v0.3 Model
+## Current Working Hypothesis: Two-Phase Transfer Model
 
 The safer formulation is a unified dark sector inside ordinary general relativity.
 
@@ -363,7 +364,7 @@ The optional remnant piece is written as:
 rho_rem = integral M f(M) dM
 ```
 
-v0.3 adds a phase-transfer rate between the clustering phase and residual phase:
+experiment 001 adds a phase-transfer rate between the clustering phase and residual phase:
 
 ```text
 d rho_A / d ln a + 3 rho_A = -Gamma(a) rho_A
@@ -528,12 +529,12 @@ It is a speculative framework with a clearer center than the original white-hole
 quantum foam unified dark sector with near-zero sound speed
 ```
 
-The current completed work is background-level `Gamma(a)` validation through v0.4. The next meaningful step is not more story. It is perturbations and Boltzmann-code validation:
+The current completed work is background-level `Gamma(a)` validation through experiment 002. The next meaningful step is not more story. It is perturbations and Boltzmann-code validation:
 
 ```text
 background equation                    done
-Gamma(a) transfer-law diagnostics       v0.3 done
-entropy/information-source diagnostics  v0.4 done
+Gamma(a) transfer-law diagnostics       exp_001 done
+entropy/information-source gate        exp_002 done
 -> perturbation equation
 -> CLASS or CAMB implementation
 -> CMB comparison
@@ -547,7 +548,9 @@ The project becomes physically interesting only if the model survives the first 
 
 Maintained research documentation:
 
+- `PROJECT.md`: documentation control, validation order, and current stop line
 - `docs/README.md`: documentation index and folder map
+- `docs/00_project_overview.md`: top-level project status entry point
 - `docs/00_project/overview.md`: project goals, status, limitations, roadmap summary, and model genealogy
 - `docs/00_project/decision_log.md`: chronological decisions with reasons and evidence
 - `docs/00_project/verification_guide.md`: how to rerun and read the current checks
@@ -555,11 +558,11 @@ Maintained research documentation:
 - `docs/02_theory/qfuds_v0_2.md`: minimal two-phase effective-fluid theory note
 - `docs/02_theory/qfuds_v0_3.md`: physically labeled `Gamma(a)` transfer-law theory note
 - `docs/03_experiments/exp_000_lcdm_baseline.md`: zero-transfer LCDM control run
-- `docs/03_experiments/exp_001_gamma_scan_v03.md`: v0.3 transfer-law scan
-- `docs/03_experiments/exp_002_entropy_information_scan_v04.md`: v0.4 entropy/information-source scan
+- `docs/03_experiments/exp_001_gamma_scan.md`: experiment 001 transfer-law scan
+- `docs/03_experiments/exp_002_entropy_information_gate.md`: experiment 002 entropy/information-source gate
 - `docs/04_results/result_000_lcdm_baseline.md`: zero-transfer baseline result
-- `docs/04_results/result_001_gamma_scan_v03.md`: result interpretation and next target
-- `docs/04_results/qfuds_v0_4_entropy_laws.md`: v0.4 entropy-derived transfer-law analysis
+- `docs/04_results/result_001_gamma_scan.md`: result interpretation and next target
+- `docs/04_results/result_002_entropy_information_gate.md`: experiment 002 entropy/information-source result
 - `docs/05_next_steps/roadmap.md`: validation levels, status, and blockers
 
 Historical/source notes:
@@ -568,7 +571,7 @@ Historical/source notes:
 - `docs/00_project/qfuds_ko.md`: Korean explanation of the same origin, pruning, hypothesis, and validation path
 - `docs/00_project/research_program.md`: abstract, validation roadmap, and kill criteria
 - `docs/02_theory/qfuds_research_report.md`: adversarial literature comparison and mathematical formulation
-- `docs/04_results/qfuds_v0_3_gamma_laws.md`: v0.3 `Gamma(a)` transfer-law diagnostics and viability table
+- `docs/04_results/result_001_gamma_scan.md`: experiment 001 `Gamma(a)` transfer-law diagnostics and viability table
 
 ## Formal Reference Anchors
 

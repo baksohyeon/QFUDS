@@ -6,6 +6,7 @@ This directory is organized by research workflow stage.
 
 Project-level status, decisions, roadmap framing, and Korean overview.
 
+- `00_project_overview.md`
 - `00_project/overview.md`
 - `00_project/research_program.md`
 - `00_project/decision_log.md`
@@ -32,20 +33,20 @@ Theory notes, literature positioning, and model-version definitions.
 Reproducible experiment definitions.
 
 - `03_experiments/exp_000_lcdm_baseline.md`
-- `03_experiments/exp_001_gamma_scan_v03.md`
-- `03_experiments/exp_002_entropy_information_scan_v04.md`
+- `03_experiments/exp_001_gamma_scan.md`
+- `03_experiments/exp_002_entropy_information_gate.md`
 
 ## 04 Results
 
 Experiment reports, diagnostic results, and hostile-referee conclusions.
 
 - `04_results/result_000_lcdm_baseline.md`
-- `04_results/result_001_gamma_scan_v03.md`
-- `04_results/qfuds_v0_3_gamma_laws.md`
-- `04_results/qfuds_v0_4_entropy_laws.md`
+- `04_results/result_001_gamma_scan.md`
+- `04_results/result_002_entropy_information_gate.md`
 
 ## 05 Next Steps
 
 Current validation roadmap and blockers.
 
 - `05_next_steps/roadmap.md`
+- `05_next_steps/perturbation_gate.md`

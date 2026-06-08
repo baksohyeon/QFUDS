@@ -171,9 +171,10 @@ Current status:
 
 ```text
 Level 0: literature position       draft complete
-Level 1: background cosmology      first toy version exists
-Level 1.5: Gamma(a) laws           v0.3 diagnostic pass complete
-Level 1.6: entropy/information     v0.4 diagnostic pass complete
+Level 1: background validation     complete
+  exp_000: LCDM baseline
+  exp_001: Gamma-law background scan
+  exp_002: entropy/information gate
 Level 2: perturbations             incomplete
 Level 3: CLASS/CAMB implementation not started
 Level 4: CMB comparison            not started
@@ -181,7 +182,7 @@ Level 5: matter power spectrum     not started
 Level 6: late-time survey tests    not started
 ```
 
-The project has moved from the first background toy model through v0.3 `Gamma(a)` transfer-law diagnostics and v0.4 entropy/information-source diagnostics. The immediate goal is now to add perturbation assumptions cleanly enough for background-only BAO/SN checks and then a Boltzmann-code implementation.
+The project has moved through Level 1 background validation: `exp_000` baseline, `exp_001` Gamma-law diagnostics, and `exp_002` entropy/information-source gate. The immediate goal is now to add perturbation assumptions cleanly enough for background-only BAO/SN checks and then a Boltzmann-code implementation.
 
 ### Level 0: Literature Position
 
@@ -217,18 +218,18 @@ w(a)
 LCDM limit
 ```
 
-### Level 1.5: Physically Motivated Gamma(a) Laws
+### Experiment 001: Physically Motivated Gamma(a) Laws
 
 Status:
 
 ```text
-v0.3 complete at background-diagnostic level
+experiment 001 complete at background-diagnostic level
 ```
 
 Output:
 
 ```text
-docs/04_results/qfuds_v0_3_gamma_laws.md
+docs/04_results/result_001_gamma_scan.md
 qfuds/gamma_laws.py
 generalized background integration
 viability table for candidate Gamma(a) laws
@@ -245,19 +246,19 @@ collapsed-fraction, black-hole-entropy, and star-formation proxies are worth tes
 
 This does not prove QFUDS novel. It only narrows the next target to low-redshift, physically sourced transfer laws.
 
-### Level 1.6: Entropy And Information Sources
+### Experiment 002: Entropy And Information Sources
 
 Status:
 
 ```text
-v0.4 complete at background-diagnostic level
+experiment 002 complete at background-diagnostic level
 ```
 
 Output:
 
 ```text
-docs/03_experiments/exp_002_entropy_information_scan_v04.md
-docs/04_results/qfuds_v0_4_entropy_laws.md
+docs/03_experiments/exp_002_entropy_information_gate.md
+docs/04_results/result_002_entropy_information_gate.md
 qfuds/gamma_laws.py
 CSV and PNG output files
 ```
