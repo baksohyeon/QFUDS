@@ -205,3 +205,35 @@ compare them against known cosmology
 discard what cannot survive
 ```
 
+## 9. The Latest Pruning
+
+The current version has pruned the original idea into a safer hierarchy:
+
+```text
+main idea:
+dark matter and dark energy are two effective phases of quantum foam
+
+secondary idea:
+black holes are local information-compression nodes
+
+optional idea:
+black/white-hole remnants are subdominant defects in the foam sector
+```
+
+The model should therefore be presented as a quantum-foam unified dark sector, not as a white-hole cosmology.
+
+The question to ask first is:
+
+```text
+Which observational constraint kills a quantum-foam unified dark fluid first?
+```
+
+The likely first attacks are:
+
+1. effective sound speed;
+2. CMB acoustic peaks;
+3. matter power spectrum;
+4. late-time dark-energy evolution;
+5. halo structure;
+6. remnant abundance.
+
