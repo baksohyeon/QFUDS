@@ -9,6 +9,7 @@ Project-level status, decisions, roadmap framing, and Korean overview.
 - `00_project/overview.md`
 - `00_project/research_program.md`
 - `00_project/decision_log.md`
+- `00_project/verification_guide.md`
 - `00_project/qfuds_ko.md`
 
 ## 01 Origin
@@ -32,11 +33,13 @@ Reproducible experiment definitions.
 
 - `03_experiments/exp_000_lcdm_baseline.md`
 - `03_experiments/exp_001_gamma_scan_v03.md`
+- `03_experiments/exp_002_entropy_information_scan_v04.md`
 
 ## 04 Results
 
 Experiment reports, diagnostic results, and hostile-referee conclusions.
 
+- `04_results/result_000_lcdm_baseline.md`
 - `04_results/result_001_gamma_scan_v03.md`
 - `04_results/qfuds_v0_3_gamma_laws.md`
 - `04_results/qfuds_v0_4_entropy_laws.md`
