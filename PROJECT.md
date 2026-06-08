@@ -14,7 +14,8 @@ The validation order is sequential:
 Level 0: literature position
 Level 1: background toy model
 QFUDS v0.15 / Level 1.5: phase transfer physicality
-Level 2: perturbation equations
+Level 2A: phenomenological perturbation closure
+Level 2B: physical perturbation equations
 Level 3: CLASS or CAMB integration
 Level 4: CMB comparison
 Level 5: matter power comparison
@@ -35,7 +36,10 @@ Current stop line:
 
 ```text
 QFUDS v0.15 / Level 1.5 phase-transfer physicality is not complete.
-Level 2 perturbation theory is blocked.
+Level 2A phenomenological perturbation closure is complete (exp_003):
+  P2 failed at the retained amplitude; P1 survives only as a non-novel
+  phenomenological interacting vacuum.
+Level 2B physical perturbation theory is blocked.
 No CLASS/CAMB implementation exists.
 No CMB spectrum exists.
 No matter-power spectrum exists.
@@ -51,6 +55,9 @@ Completed:
   - `exp_000` zero-transfer LCDM baseline;
   - `exp_001` Gamma-law background scan;
   - `exp_002` entropy/information-source background gate.
+- Level 2A phenomenological perturbation closure (`exp_003`): P2 failed at the
+  retained amplitude; P1 survives only as a non-novel phenomenological
+  interacting vacuum. This is not physical QFUDS perturbation evidence.
 
 In progress:
 
@@ -58,7 +65,7 @@ In progress:
 
 Blocked:
 
-- Level 2 perturbation equations.
+- Level 2B physical perturbation equations.
 - CLASS/CAMB integration.
 - CMB comparison.
 - matter-power comparison.
@@ -81,14 +88,17 @@ docs/02_theory/010_qfuds_v0_1.md
 docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md
 docs/02_theory/020_qfuds_v0_2.md
 docs/02_theory/030_qfuds_v0_3.md
+docs/02_theory/040_qfuds_phenomenological_perturbations.md
 docs/03_experiments/000_exp_000_lcdm_baseline.md
 docs/03_experiments/010_exp_001_gamma_scan.md
 docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md
 docs/03_experiments/020_exp_002_entropy_information_gate.md
+docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md
 docs/04_results/000_result_000_lcdm_baseline.md
 docs/04_results/010_result_001_gamma_scan.md
 docs/04_results/015_result_001_5_phase_transfer_physicality.md
 docs/04_results/020_result_002_entropy_information_gate.md
+docs/04_results/030_result_003_phenomenological_perturbation_closure.md
 docs/05_next_steps/000_roadmap.md
 docs/05_next_steps/010_perturbation_gate.md
 ```
@@ -174,12 +184,20 @@ Gamma(a) is a phenomenological coarse-grained transfer law with a physically
 motivated source shape. It is not yet derived physics.
 ```
 
-## What Level 2 Must Produce
+## What Level 2 Produced And Still Must Produce
 
-Level 2 must not start until Level 1.5 is resolved. Once unblocked, Level 2 must
-produce new theory and experiment documents before any CLASS/CAMB work starts.
+Level 2A phenomenological perturbation closure has been completed as `exp_003`.
+It was permitted to proceed without Level 1.5 because it is an explicitly
+phenomenological, gauge-declared closure audit, not a physical derivation. Its
+verdict: the P2 regularized phase-B fluid closure failed at the retained
+amplitude, and the P1 interacting-vacuum closure survives only as a non-novel
+phenomenological interacting vacuum.
 
-Required Level 2 outputs:
+Physical Level 2B must not start until Level 1.5 is resolved. Once unblocked,
+Level 2B must produce new theory and experiment documents before any CLASS/CAMB
+work starts.
+
+Required Level 2B outputs:
 
 - self-consistent `dF_coll/dln a` using QFUDS growth `D(a)`;
 - physically fixed collapse mass threshold `M`;
@@ -199,18 +217,22 @@ No Level 2 experiment is complete until it has:
 - a decision-log update;
 - a roadmap update.
 
-## Files Still Needed
+`exp_003` satisfied all four for Level 2A.
 
-For the next phase:
+## Files Already Produced And Still Needed
+
+The Level 2A phenomenological closure files exist and are current:
 
 ```text
-docs/02_theory/040_qfuds_perturbations.md
-docs/03_experiments/030_exp_003_perturbation_prescriptions.md
-docs/04_results/030_result_003_perturbation_prescriptions.md
+docs/02_theory/040_qfuds_phenomenological_perturbations.md
+docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md
+docs/04_results/030_result_003_phenomenological_perturbation_closure.md
+docs/05_next_steps/010_perturbation_gate.md
 ```
 
-These files do not exist yet because Level 1.5 is not resolved and perturbation work
-has not been done.
+Physical Level 2B files do not exist yet because Level 1.5 is not resolved and a
+physical phase-transfer derivation has not been done. Names will be assigned when
+Level 2B is unblocked.
 
 ## Refactoring Rule
 

@@ -230,11 +230,11 @@ intuition
 
 The goal is not to prove QFUDS. My goal is to identify the first constraint that kills it, or to make the surviving version narrow enough to compare with LCDM, unified dark fluids, k-essence, interacting dark energy, scalar-field dark matter, and black/white-hole remnant models.
 
-Current status: the project has moved past the first toy-background model, the experiment 001 Gamma-law background scan, and the experiment 002 entropy/information-source background gate. Experiment 002 is retained as provenance, not as physical evidence. The narrow collapse/information-production shape must pass the QFUDS v0.15 / Level 1.5 physicality audit before perturbation testing. Perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are still not complete.
+Current status: the project has moved past the first toy-background model, the experiment 001 Gamma-law background scan, and the experiment 002 entropy/information-source background gate. Experiment 002 is retained as provenance, not as physical evidence. A Level 2A phenomenological perturbation-closure audit (experiment 003) has since been completed: the regularized phase-B fluid closure (P2) fails at the retained amplitude, while the interacting-vacuum closure (P1) survives only as a non-novel phenomenological interacting vacuum. The narrow collapse/information-production shape still must pass the QFUDS v0.15 / Level 1.5 physicality audit before any physical phase-transfer claim. Physical Level 2B perturbation equations, CLASS/CAMB integration, CMB power-spectrum comparison, and matter-power comparison are still not complete.
 
 ## Current Validation Stage
 
-The project is currently at QFUDS v0.15 / Level 1.5: the background model exists, experiment 001 tested candidate phase-transfer laws, and experiment 002 tested entropy/information-source transfer laws. The surviving `Gamma(a) proportional to dF_coll/dln(a)` branch is being audited for physicality before perturbation work proceeds.
+The project is currently at QFUDS v0.15 / Level 1.5 for physical interpretation: the background model exists, experiment 001 tested candidate phase-transfer laws, and experiment 002 tested entropy/information-source transfer laws. The surviving `Gamma(a) proportional to dF_coll/dln(a)` branch is being audited for physicality before physical perturbation work proceeds. A phenomenological Level 2A closure audit (experiment 003) has been completed and is not a physical derivation.
 
 ```text
 Level 0: literature position       done in draft form
@@ -242,8 +242,9 @@ Level 1: background validation     completed
   exp_000: LCDM baseline
   exp_001: Gamma-law background scan
   exp_002: entropy/information gate
-Level 1.5: phase transfer physicality   in progress
-Level 2: perturbation equations    blocked
+Level 1.5: phase transfer physicality        in progress
+Level 2A: phenomenological perturbation closure   completed (exp_003: P2 fails, P1 = phenomenological interacting vacuum)
+Level 2B: physical perturbation equations    blocked
 Level 3: CLASS or CAMB integration not started
 Level 4: CMB comparison            not started
 Level 5: matter power comparison   not started
@@ -530,14 +531,15 @@ It is a speculative framework with a clearer center than the original white-hole
 quantum foam unified dark sector with near-zero sound speed
 ```
 
-The current completed work is background-level `Gamma(a)` filtering through experiment 002. Experiment 002 is now demoted to provenance because it was run before the physical transfer mechanism, fixed mass threshold, and self-consistent QFUDS growth source were defined. The next meaningful step is not perturbations yet. It is the QFUDS v0.15 / Level 1.5 physicality gate:
+The completed work is background-level `Gamma(a)` filtering through experiment 002, plus a completed Level 2A phenomenological perturbation-closure audit (experiment 003). Experiment 002 is demoted to provenance because it was run before the physical transfer mechanism, fixed mass threshold, and self-consistent QFUDS growth source were defined. The phenomenological Level 2A closure is complete; the next meaningful step for a *physical* phase-transfer claim is still the QFUDS v0.15 / Level 1.5 physicality gate, which gates physical Level 2B:
 
 ```text
 background equation                    done
 Gamma(a) transfer-law diagnostics       exp_001 done
 entropy/information-source gate        exp_002 done, provenance only
--> Level 1.5 phase-transfer physicality
--> perturbation equation
+Level 2A phenomenological closure       exp_003 done (P2 fails, P1 = phenomenological interacting vacuum)
+-> Level 1.5 phase-transfer physicality (gates physical Level 2B)
+-> physical Level 2B perturbation equations
 -> CLASS or CAMB implementation
 -> CMB comparison
 -> matter power spectrum comparison
@@ -560,15 +562,19 @@ Maintained research documentation:
 - `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`: QFUDS v0.15 / Level 1.5 physicality audit
 - `docs/02_theory/020_qfuds_v0_2.md`: minimal two-phase effective-fluid theory note
 - `docs/02_theory/030_qfuds_v0_3.md`: physically labeled `Gamma(a)` transfer-law theory note
+- `docs/02_theory/040_qfuds_phenomenological_perturbations.md`: Level 2A phenomenological perturbation closure theory note
 - `docs/03_experiments/000_exp_000_lcdm_baseline.md`: zero-transfer LCDM control run
 - `docs/03_experiments/010_exp_001_gamma_scan.md`: experiment 001 transfer-law scan
 - `docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md`: Level 1.5 physicality gate
 - `docs/03_experiments/020_exp_002_entropy_information_gate.md`: experiment 002 entropy/information-source gate
+- `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`: Level 2A perturbation-closure audit (phenomenological)
 - `docs/04_results/000_result_000_lcdm_baseline.md`: zero-transfer baseline result
 - `docs/04_results/010_result_001_gamma_scan.md`: result interpretation and next target
 - `docs/04_results/015_result_001_5_phase_transfer_physicality.md`: Level 1.5 demotion of experiment 002 as evidence
 - `docs/04_results/020_result_002_entropy_information_gate.md`: experiment 002 entropy/information-source provenance result
+- `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`: Level 2A result; P2 fails, P1 survives as phenomenological interacting vacuum
 - `docs/05_next_steps/000_roadmap.md`: validation levels, status, and blockers
+- `docs/05_next_steps/010_perturbation_gate.md`: Level 2 perturbation gate (2A complete, 2B blocked)
 
 Historical/source notes:
 

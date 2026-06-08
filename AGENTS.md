@@ -21,7 +21,11 @@ The project status as of 2026-06-08 is:
 - three background validations are complete: `exp_000`, `exp_001`, and `exp_002`;
 - `exp_002` is retained as provenance, not physical evidence;
 - QFUDS v0.15 / Level 1.5 phase-transfer physicality is in progress;
-- perturbation equations are blocked until Level 1.5 is resolved;
+- a Level 2A phenomenological perturbation-closure audit is complete (`exp_003`):
+  the P2 regularized near-vacuum phase-B fluid closure failed at the retained
+  amplitude, and the P1 interacting-vacuum closure survives only as a non-novel
+  phenomenological interacting vacuum, not as physical QFUDS evidence;
+- physical Level 2B perturbation equations remain blocked until Level 1.5 is resolved;
 - CLASS/CAMB integration has not started;
 - CMB, matter-power, and survey-likelihood tests have not been performed.
 
@@ -349,8 +353,9 @@ Current roadmap status:
 | Level 0 | Literature Position | completed | QFUDS has been compared at a draft level against LCDM, unified dark fluids, interacting dark energy, scalar-field dark matter, and compact-remnant scenarios. |
 | Level 1 | Background Validation | completed | `exp_000`, `exp_001`, and `exp_002` are complete; `exp_002` is provenance, not physical evidence. |
 | Level 1.5 | Phase Transfer Physicality | in progress | QFUDS v0.15 audits whether `Gamma(a)` has physical meaning. |
-| Level 2 | Perturbation Equations | blocked | Phase-A, phase-B, and transfer perturbations require Level 1.5 first. |
-| Level 3 | CLASS/CAMB Integration | blocked | Boltzmann-code work requires Level 2 equations first. |
+| Level 2A | Phenomenological Perturbation Closure | completed | `exp_003` closed the baseline phenomenological closure: P2 failed at the retained amplitude, P1 survives only as a non-novel phenomenological interacting vacuum. Not physical QFUDS perturbation evidence. |
+| Level 2B | Physical Perturbation Equations | blocked | Physical phase-A, phase-B, and transfer perturbations require Level 1.5 first. |
+| Level 3 | CLASS/CAMB Integration | blocked | Boltzmann-code work requires a stable Level 2A closure at minimum; physical claims require Level 2B equations first. |
 | Level 4 | CMB Comparison | blocked | No CMB comparison is valid until CLASS/CAMB or equivalent perturbation implementation exists. |
 | Level 5 | Matter Power Spectrum | blocked | Current growth proxy is not a substitute for a full matter-power test. |
 | Level 6 | DESI / Euclid / Roman Constraints | blocked | Survey constraints require validated predictions and likelihood machinery. |
@@ -406,7 +411,9 @@ What has been tested:
 - zero-transfer LCDM baseline;
 - `exp_001` Gamma-law background scan;
 - `exp_002` entropy/information-source background gate;
-- minimal background viability flags for candidate transfer laws.
+- minimal background viability flags for candidate transfer laws;
+- `exp_003` Level 2A phenomenological perturbation closure (conformal Newtonian
+  gauge, phase-A-frame transfer, deltaGamma=0).
 
 What survived:
 
@@ -417,6 +424,9 @@ What survived:
   minimal background checks and remain candidates for perturbation tests.
 - the `exp_002` information-production law survived only background checks and
   remains the narrowest entropy/information-source candidate.
+- the `exp_003` P1 interacting-vacuum perturbation closure survived only as a
+  non-novel phenomenological interacting vacuum in this audit, not as physical
+  QFUDS evidence.
 
 What failed:
 
@@ -428,7 +438,10 @@ What failed:
 - horizon-information transfer reduced to standard horizon/interacting
   dark-energy phenomenology;
 - any claim of CMB viability from background-only tests failed;
-- any claim of novelty from free `Gamma(a)` failed.
+- any claim of novelty from free `Gamma(a)` failed;
+- the `exp_003` P2 regularized near-vacuum phase-B fluid closure failed at the
+  retained `gamma0=0.02` amplitude and at `gamma0=0.04` for every tested
+  wavenumber.
 
 What remains unknown:
 

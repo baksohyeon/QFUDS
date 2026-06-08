@@ -163,7 +163,7 @@ theory and the repository's validated `qfuds/growth.py` (which correctly uses
 | R1 | P2 | 0.02 | yes | 2.840e9 | yes | 9.344e8 |
 | R2a | P1 | 0.005 | no | 8.342e-4 | no | 8.032e-3 |
 | R2a | P2 | 0.005 | no | 6.538e-2 | no | 4.002e-1 |
-| R2b | P1 | 0.01 | no | 8.401e-4 | no | 7.885e7 (new) / 4.021e7 (old) |
+| R2b | P1 | 0.01 | no | 8.401e-4 | no | 8.106e-3 |
 | R2b | P2 | 0.01 | no flag | 4.021e7 | no flag | 7.885e7 |
 | R3 | P1 | 0.04 | no | 8.766e-4 | no | 8.559e-3 |
 | R3 | P2 | 0.04 | yes | 1.432e9 | yes | 5.323e9 |
