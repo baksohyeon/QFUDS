@@ -1,6 +1,6 @@
 # Concept Origin
 
-This document records the original line of thought that led to QFUDS/Dorito.
+This document records Dorito's original line of thought that led to Quantum Foam Unified Dark Sector (QFUDS).
 
 It is not a proof. It is a map from a raw intuition to testable questions.
 
@@ -19,7 +19,7 @@ is the information inside really lost?
 
 Modern Page-curve and island-style calculations support the view that black-hole evaporation is unitary in a suitable quantum-gravity description. In less technical language: the information should not simply vanish, although it may be hidden in a very nonlocal and hard-to-decode form.
 
-The original Dorito question was:
+Dorito's original question was:
 
 ```text
 If information is preserved, what is the return channel?
@@ -49,7 +49,7 @@ matter information
 -> late-time radiation correlations
 ```
 
-In Dorito, black holes are not used as the main explanation of dark energy or dark matter. They are treated as information-compression sites that may connect to an optional remnant sector.
+In QFUDS, black holes are not used as the main explanation of dark energy or dark matter. They are treated as information-compression sites that may connect to an optional remnant sector.
 
 ## 3. From One Black Hole To The Whole Universe
 
@@ -61,7 +61,7 @@ Could the expanding universe resemble a white-hole-like release process?
 
 This is not a standard cosmological claim. It is a heuristic.
 
-The useful part is the direction of the question. Instead of treating black holes, vacuum energy, dark matter, and cosmic expansion as separate mysteries, Dorito asks whether they can be described as parts of a single dynamical balance:
+The useful part is the direction of the question. Instead of treating black holes, vacuum energy, dark matter, and cosmic expansion as separate mysteries, QFUDS asks whether they can be described as parts of a single dynamical balance:
 
 ```text
 compression  <->  release
@@ -83,7 +83,7 @@ The next conceptual shift was about the word "matter."
 
 Observed dark matter is inferred mainly through gravity: galaxy rotation curves, gravitational lensing, cosmic microwave background structure, and large-scale structure formation. It has not yet been directly detected as a particle.
 
-The Dorito question is:
+The QFUDS question is:
 
 ```text
 Does dark matter have to be a particle species,
@@ -106,7 +106,7 @@ This is a severe constraint. A vacuum fluctuation with large pressure would not 
 
 The cosmological constant problem asks why the observed vacuum energy is so small compared with naive quantum-field estimates.
 
-Dorito reframes this as a residual-equilibrium question:
+QFUDS reframes this as a residual-equilibrium question:
 
 ```text
 rho_vac,total = rho_+ + rho_- + rho_*
@@ -134,7 +134,7 @@ Observationally this becomes:
 ```text
 w(a) = w_0 + w_a(1 - a)
 LCDM:   w_0 = -1, w_a = 0
-Dorito: w_0 ~= -1, |w_a| > 0 but small
+QFUDS: w_0 ~= -1, |w_a| > 0 but small
 ```
 
 ## 6. The Raw Picture
@@ -183,7 +183,7 @@ The model fails unless it can answer these questions:
 
 ## 8. Boundary Between Physics And Fiction
 
-Dorito also has value as science-fiction worldbuilding.
+Dorito's idea also has value as science-fiction worldbuilding.
 
 As fiction, the strongest image is a living equilibrium universe:
 
@@ -236,4 +236,3 @@ The likely first attacks are:
 4. late-time dark-energy evolution;
 5. halo structure;
 6. remnant abundance.
-

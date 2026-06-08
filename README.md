@@ -1,6 +1,6 @@
-# QFUDS / Dorito
+# Quantum Foam Unified Dark Sector (QFUDS)
 
-Quantum Foam Unified Dark Sector, nicknamed Dorito, is a speculative toy framework for thinking about dark matter, dark energy, and information flow in cosmology.
+Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework proposed by Dorito for thinking about dark matter, dark energy, and information flow in cosmology.
 
 This repository is not a claim that the model is correct. It is a workspace for turning an intuition into falsifiable questions.
 
@@ -103,7 +103,7 @@ c_s^2 ~= 0
 Plain language:
 
 ```text
-Dorito foam may leave a pressure that pushes the universe apart,
+QFUDS foam may leave a pressure that pushes the universe apart,
 but during galaxy formation it must still clump almost like pressureless dust.
 ```
 
@@ -129,7 +129,7 @@ These are not verified predictions. They are places where the model can be kille
 ```text
 w(a) = w_0 + w_a(1 - a)
 LCDM:   w_0 = -1, w_a = 0
-Dorito: w_0 ~= -1, |w_a| > 0 but small
+QFUDS: w_0 ~= -1, |w_a| > 0 but small
 ```
 
 3. Large-scale structure and the CMB must remain almost LCDM-like.
@@ -166,7 +166,7 @@ quantum foam -> dark halo -> galaxy -> central black hole
 
 That respects the usual structure-formation picture better than saying black holes create galaxies.
 
-The speculative Dorito interpretation is:
+The speculative QFUDS interpretation proposed by Dorito is:
 
 ```text
 black hole = local information-compression node
@@ -182,7 +182,7 @@ This is a useful worldbuilding image and a possible research direction, but it i
 
 ## Current Status
 
-QFUDS/Dorito is not a theory yet.
+QFUDS is not a theory yet.
 
 It is a speculative framework with a clearer center than the original white-hole-universe idea:
 
@@ -213,7 +213,7 @@ The project becomes physically interesting only if the model survives the first 
 
 # 한국어 설명
 
-QFUDS, 별칭 Dorito는 암흑물질과 암흑에너지를 양자 시공간 foam의 두 가지 거시적 상으로 해석해 보는 사고실험이다.
+QFUDS는 Dorito가 제안한, 암흑물질과 암흑에너지를 양자 시공간 foam의 두 가지 거시적 상으로 해석해 보는 사고실험이다.
 
 핵심은 화이트홀이 아니다. 더 강한 핵심은 이것이다.
 
@@ -240,7 +240,7 @@ QFUDS, 별칭 Dorito는 암흑물질과 암흑에너지를 양자 시공간 foam
 화이트홀 잔재 = 선택적 정보 방출 결함
 ```
 
-현재 가장 안전한 버전은 `Dorito QFUDS v0.2`다.
+현재 가장 안전한 버전은 `QFUDS v0.2`다.
 
 ```text
 rho_dark = rho_QF + rho_rem
@@ -272,11 +272,10 @@ w ~= -1
 쉽게 말하면:
 
 ```text
-Dorito foam은 배경 우주에서는 우주를 밀어내는 압력을 남기지만,
+QFUDS foam은 배경 우주에서는 우주를 밀어내는 압력을 남기지만,
 은하 형성에서는 압력 없는 먼지처럼 뭉쳐야 한다.
 ```
 
 이 조건을 만족하지 못하면 은하 halo와 대규모 구조가 만들어지지 않는다. 그러면 모델은 바로 죽는다.
 
 현재 이 프로젝트는 이론이 아니라 검증 가능한 toy framework다. 다음 단계는 CLASS/CAMB에 넣을 수 있는 배경 방정식과 섭동 방정식을 만들고, CMB와 matter power spectrum에서 LCDM을 얼마나 망가뜨리는지 확인하는 것이다.
-
