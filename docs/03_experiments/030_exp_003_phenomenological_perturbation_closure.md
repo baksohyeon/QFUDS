@@ -91,16 +91,35 @@ P2: regularized fluid with w_B = -0.999, c_s,B^2 = 1, sigma_B = 0
 
 ## Runs
 
-Run all cases against the zero-transfer LCDM control.
+Run all cases against the zero-transfer LCDM control. `R0` is the zero-transfer
+control (exact LCDM). Every non-zero run uses the same `information_production`
+`Gamma(a)` shape (`collapse_a = 0.35`, `collapse_nu = 5.0`) and differs only in
+the amplitude `gamma0`:
 
 ```text
-R0: Gamma = 0
-R1: retained information-production Gamma(a) at documented exp_002 amplitude
-R2: same shape at smaller predeclared amplitudes
-R3: same shape at larger predeclared amplitudes, stopping at the first background or perturbation failure
+R0:  gamma0 = 0      zero-transfer LCDM control (no information production)
+R1:  gamma0 = 0.02   retained information-production amplitude (documented exp_002 value)
+R2a: gamma0 = 0.005  smaller predeclared amplitude
+R2b: gamma0 = 0.01   smaller predeclared amplitude
+R3:  gamma0 = 0.04   larger predeclared amplitude
 ```
 
-Do not retune after seeing perturbation failures.
+Stopping criterion: escalate the amplitude in predeclared steps and stop at the
+first background or perturbation failure. `R3` (`gamma0 = 0.04`) is the largest
+amplitude tested. Do not retune after seeing perturbation failures.
+
+## Execution
+
+Reproduce all runs and diagnostics with:
+
+```bash
+python3 scripts/run_minimal_model.py --exp-003-perturbation-closure --outdir outputs
+```
+
+The `--exp-003-perturbation-closure` flag runs the full R0–R3 x P1/P2 suite with
+the amplitudes above; `--outdir` selects the output directory (default
+`outputs`). This writes the summary JSON, the stability-diagnostics CSV, and the
+per-mode CSVs listed in the result document.
 
 ## Wavenumber Grid
 

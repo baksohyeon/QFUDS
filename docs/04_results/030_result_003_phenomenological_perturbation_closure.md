@@ -48,6 +48,9 @@ This result does not establish physical QFUDS perturbations. It establishes only
 that one phenomenological interacting-vacuum closure can be integrated without
 the stability flags used in this audit.
 
+**Scope**: This is a perturbation-level stability audit. It does not establish
+CMB viability, matter-power consistency, or physical QFUDS microphysics.
+
 ## What Was Tested
 
 The implemented closure follows the experiment specification:
@@ -74,8 +77,12 @@ qfuds/perturbations.py
 The runner is:
 
 ```bash
-python3 scripts/run_minimal_model.py --exp-003-perturbation-closure
+python3 scripts/run_minimal_model.py --exp-003-perturbation-closure --outdir outputs
 ```
+
+This runs the full R0–R3 x P1/P2 suite at the predeclared amplitudes
+(R0 `gamma0=0`, R1 `gamma0=0.02`, R2a `gamma0=0.005`, R2b `gamma0=0.01`,
+R3 `gamma0=0.04`); `--outdir` defaults to `outputs`.
 
 ## Outputs
 
