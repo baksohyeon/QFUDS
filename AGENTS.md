@@ -1,7 +1,3 @@
-<INSTRUCTIONS>
-@/Users/cnai/.codex/RTK.md
-</INSTRUCTIONS>
-
 # AGENTS.md
 
 # Quantum Foam Unified Dark Sector (QFUDS) Agent Constitution
@@ -14,19 +10,39 @@ QFUDS is not a confirmed theory. QFUDS is a speculative research program asking
 whether dark matter and dark energy can be modeled as two effective macroscopic
 phases of a common quantum-spacetime foam sector.
 
-The project status as of 2026-06-08 is:
-
-- literature mapping is complete;
-- background toy models are implemented;
-- three background validations are complete: `exp_000`, `exp_001`, and `exp_002`;
-- `exp_002` is retained as provenance, not physical evidence;
-- QFUDS v0.15 / Level 1.5 phase-transfer physicality is in progress;
-- perturbation equations are blocked until Level 1.5 is resolved;
-- CLASS/CAMB integration has not started;
-- CMB, matter-power, and survey-likelihood tests have not been performed.
-
 The goal is not to prove QFUDS correct. The goal is to determine whether QFUDS
 survives progressively stronger tests.
+
+## Project Status Authority
+
+This constitution defines **process, not status**. It deliberately does not record
+the current level, the active branch, the current blockers, or what has survived
+or failed. That state drifts and must live in exactly one place.
+
+Current project state lives in:
+
+```text
+docs/05_next_steps/000_roadmap.md
+```
+
+That roadmap is the single source of truth for:
+
+- current project status and current level;
+- the active branch and what is in progress;
+- current blockers.
+
+Supporting authority, in order:
+
+- `docs/00_project/decision_log.md` records _why_ each decision was made;
+- `docs/03_experiments/` and `docs/04_results/` hold the experiment and result
+  evidence the roadmap points to.
+
+Do not duplicate status anywhere else. Do not copy the roadmap level/status table
+into this file, `CLAUDE.md`, `README.md`, `PROJECT.md`, or any other document. If
+this constitution and the roadmap ever disagree about status, the roadmap wins and
+this file must be corrected to remove the duplicated claim. Agents must read the
+roadmap for status before acting; they must not infer status from this
+constitution.
 
 ## 1. Mission
 
@@ -181,11 +197,14 @@ The prefix is for ordering only. It does not replace experiment IDs such as
 Active stage documents in those folders must also include YAML frontmatter so
 agents can classify them without inferring status from prose. Required fields:
 
+The canonical schema is `docs/00_project/frontmatter_convention.md`, enforced by
+`scripts/validate_docs.py`. Required fields:
+
 ```yaml
 ---
 doc_id: string
 title: string
-doc_type: theory_note | experiment | result | roadmap | gate | index | reference
+doc_type: overview | decision_log | guide | theory_note | experiment | result | roadmap | gate | index | reference
 stage: "0" | "1" | "1.5" | "2" | "reference"
 status: draft | completed | in_progress | blocked | provenance | reference
 evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
@@ -336,22 +355,11 @@ A failed idea should be documented, not erased.
 
 ## 9. Progression Roadmap
 
-The maintained roadmap is `docs/05_next_steps/000_roadmap.md`. Update it after every
-completed experiment.
-
-Current roadmap status:
-
-| Level | Stage | Status | Meaning |
-| --- | --- | --- | --- |
-| Level 0 | Literature Position | completed | QFUDS has been compared at a draft level against LCDM, unified dark fluids, interacting dark energy, scalar-field dark matter, and compact-remnant scenarios. |
-| Level 1 | Background Validation | completed | `exp_000`, `exp_001`, and `exp_002` are complete; `exp_002` is provenance, not physical evidence. |
-| Level 1.5 | Phase Transfer Physicality | in progress | QFUDS v0.15 audits whether `Gamma(a)` has physical meaning. |
-| Level 2 | Perturbation Equations | blocked | Phase-A, phase-B, and transfer perturbations require Level 1.5 first. |
-| Level 3 | CLASS/CAMB Integration | blocked | Boltzmann-code work requires Level 2 equations first. |
-| Level 4 | CMB Comparison | blocked | No CMB comparison is valid until CLASS/CAMB or equivalent perturbation implementation exists. |
-| Level 5 | Matter Power Spectrum | blocked | Current growth proxy is not a substitute for a full matter-power test. |
-| Level 6 | DESI / Euclid / Roman Constraints | blocked | Survey constraints require validated predictions and likelihood machinery. |
-| Level 7 | Publication Candidate | blocked | Publication is not appropriate until the model survives hostile review and observational comparison. |
+The maintained roadmap is `docs/05_next_steps/000_roadmap.md`. It is the single
+source of truth for the level/status table; see
+[Project Status Authority](#project-status-authority). Update the roadmap after
+every completed experiment. Do not copy the level/status table into this
+constitution.
 
 Progression rule:
 
@@ -396,50 +404,21 @@ The hostile review must also identify:
 
 ## 11. Current Research State
 
-What has been tested:
+This constitution does not maintain a running list of what has been tested,
+survived, failed, or remains unknown. That state drifts and is therefore kept in
+the authoritative documents, not duplicated here:
 
-- literature positioning and comparison at a draft level;
-- minimal two-phase background formulation;
-- zero-transfer LCDM baseline;
-- `exp_001` Gamma-law background scan;
-- `exp_002` entropy/information-source background gate;
-- minimal background viability flags for candidate transfer laws.
+- `docs/05_next_steps/000_roadmap.md` — current level status, completed
+  background validations, and blockers;
+- `docs/00_project/decision_log.md` — what survived, what failed, and why,
+  recorded chronologically with evidence;
+- `docs/03_experiments/` and `docs/04_results/` — the underlying experiment and
+  result evidence.
 
-What survived:
-
-- the zero-transfer model survives because it is LCDM;
-- power-law and horizon-entropy-gated laws survive as ordinary interacting
-  dark-energy examples unless further derived;
-- collapsed-fraction, black-hole-entropy, and star-formation proxies survived
-  minimal background checks and remain candidates for perturbation tests.
-- the `exp_002` information-production law survived only background checks and
-  remains the narrowest entropy/information-source candidate.
-
-What failed:
-
-- the white-hole-universe image failed as a central testable claim;
-- constant Gamma transfer failed at the tested amplitude;
-- ungated growth-driven Gamma transfer failed at the tested amplitude;
-- broad HBM/KL gravitational-entropy transfer failed positivity at the tested
-  amplitude;
-- horizon-information transfer reduced to standard horizon/interacting
-  dark-energy phenomenology;
-- any claim of CMB viability from background-only tests failed;
-- any claim of novelty from free `Gamma(a)` failed.
-
-What remains unknown:
-
-- whether QFUDS has a microphysical action;
-- whether the phase split can be derived rather than assumed;
-- whether transfer perturbations are stable;
-- whether phase B is exactly smooth or weakly perturbed;
-- whether any surviving `exp_001` proxy survives CMB tests;
-- whether any surviving `exp_001` proxy survives matter-power tests;
-- whether the surviving `exp_002` information-production branch survives
-  perturbation tests;
-- whether QFUDS differs observationally from known dark-sector models;
-- whether black-hole or remnant language has any required role in the final
-  model.
+The standing requirement is unchanged: keep `derived`, `implemented`, `tested`,
+`survived`, `failed`, and `unknown` claims distinct, and never present
+background-level survival as perturbation, CMB, or large-scale-structure
+viability.
 
 ## 12. AI Agent Behavior
 

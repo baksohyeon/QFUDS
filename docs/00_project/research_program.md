@@ -8,7 +8,7 @@ evidence_role: ssot
 depends_on:
   - project_overview
   - roadmap
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
@@ -190,14 +190,20 @@ Level 1: background validation     complete
   exp_001: Gamma-law background scan
   exp_002: entropy/information gate, provenance only
 QFUDS v0.15 / Level 1.5: phase-transfer physicality in progress
-Level 2: perturbations             blocked
+Level 2A: phenomenological perturbation closure complete
+Level 2B: physical perturbations   blocked
 Level 3: CLASS/CAMB implementation not started
 Level 4: CMB comparison            not started
 Level 5: matter power spectrum     not started
 Level 6: late-time survey tests    not started
 ```
 
-The project has moved through Level 1 background validation: `exp_000` baseline, `exp_001` Gamma-law diagnostics, and `exp_002` entropy/information-source gate. `exp_002` is now retained as provenance, not physical evidence. The immediate goal is QFUDS v0.15 / Level 1.5 phase-transfer physicality, not perturbation closure.
+The project has moved through Level 1 background validation: `exp_000`
+baseline, `exp_001` Gamma-law diagnostics, and `exp_002`
+entropy/information-source gate. `exp_002` is now retained as provenance, not
+physical evidence. Level 1.5 remains the immediate gate for physical
+phase-transfer claims. Level 2A is complete only as a phenomenological
+perturbation-closure audit.
 
 ### Level 0: Literature Position
 
@@ -289,9 +295,10 @@ Press-Schechter information production is the narrow branch worth testing next
 
 This still does not prove perturbation stability, CMB viability, matter-power viability, or novelty.
 
-### Level 2: Perturbations
+### Level 2A: Phenomenological Perturbations
 
-Write the perturbation equations for the foam fluid.
+Write a gauge-declared phenomenological perturbation closure for the two-phase
+fluid. This is a kill test, not a physical derivation of QFUDS.
 
 The key term is:
 
@@ -300,6 +307,11 @@ c_s^2 k^2 / a^2
 ```
 
 If this term is too large, structure formation fails.
+
+### Level 2B: Physical Perturbations
+
+Derive or physically justify the transfer perturbations after Level 1.5 resolves
+the meaning of `Gamma(a)`.
 
 ### Level 3: CLASS Or CAMB Implementation
 
@@ -393,4 +405,8 @@ no CMB or matter-power fit yet
 remnant sector still optional
 ```
 
-The next real step is QFUDS v0.15 / Level 1.5 phase-transfer physicality. Perturbation closure, then CLASS or CAMB, remain blocked until `Gamma(a)` is either physically justified or explicitly demoted to a phenomenological interacting-vacuum law.
+The next real steps are QFUDS v0.15 / Level 1.5 phase-transfer physicality and
+Level 2A phenomenological perturbation closure. CLASS or CAMB remain blocked
+until a stable perturbation closure exists. Physical Level 2B remains blocked
+until `Gamma(a)` is physically justified or explicitly demoted to a
+phenomenological interacting-vacuum law.

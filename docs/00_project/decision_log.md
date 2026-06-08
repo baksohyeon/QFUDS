@@ -7,7 +7,7 @@ status: in_progress
 evidence_role: ssot
 depends_on:
   - roadmap
-next_gate: resolve Level 1.5 before Level 2
+next_gate: keep Level 2B blocked; no CMB or matter-power claims
 last_updated: 2026-06-08
 ---
 
@@ -139,3 +139,53 @@ surviving QFUDS branch.
 
 Evidence:
 `docs/04_results/015_result_001_5_phase_transfer_physicality.md`, `docs/04_results/020_result_002_entropy_information_gate.md`, `docs/03_experiments/020_exp_002_entropy_information_gate.md`
+
+## 2026-06-08
+
+Decision:
+Split Level 2 into Level 2A phenomenological perturbation closure and Level 2B physical perturbation closure.
+
+Reason:
+The literature does not require a microscopic derivation before perturbation theory. Interacting dark energy, interacting vacuum, generalized dark matter, generalized Chaplygin gas, and PPF-style models all use perturbation closures to test phenomenological dark-sector assumptions. The missing requirement is not microphysics by itself; it is a closed, covariant, gauge-declared transfer prescription. Level 1.5 remains required for physical QFUDS claims.
+
+Evidence:
+`docs/02_theory/040_qfuds_phenomenological_perturbations.md`, `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`, `docs/05_next_steps/010_perturbation_gate.md`
+
+## 2026-06-08
+
+Decision:
+Record experiment 003 as a partial failure: P2 regularized phase-B fluid fails, P1 interacting vacuum remains mathematically closed.
+
+Reason:
+The retained information-production amplitude `gamma0=0.02` produces instability in the P2 regularized-fluid closure for every tested wavenumber. The P1 interacting-vacuum closure remains numerically stable, but this is not a physical QFUDS derivation and is closest to known phenomenological interacting-vacuum models.
+
+Evidence:
+`docs/04_results/030_result_003_phenomenological_perturbation_closure.md`, `outputs/exp003_stability_diagnostics.csv`, `outputs/exp003_phenomenological_perturbation_summary.json`, `qfuds/perturbations.py`
+
+## 2026-06-08
+
+Decision:
+Correct the exp_003 phase-A and phase-B Euler friction bug, re-run the suite, and
+re-evaluate the P1 verdict from scratch. Keep P1 as a surviving but non-novel
+Level 2A interacting-vacuum closure.
+
+Reason:
+Hostile verification against the repository's own validated `qfuds/growth.py`
+showed both Euler equations in `qfuds/perturbations.py` carried one extra unit of
+Hubble friction (base constant `2.0` on the conformal log-derivative
+`dln_hc_dx = 1 + dlnH/dlna`, where the correct base for the integrated `theta/Hc`
+variable is `1.0`). The bug over-damped phase A: its matter-era growing-mode
+exponent was approximately 0.6 instead of the cold-dark-matter value approximately
+1.0. After the fix phase A clusters with exponent approximately 0.9, close to the
+`growth.py` reference approximately 0.97. The corrected run did not kill P1: P1 is
+stable at every tested amplitude and wavenumber, and P2 still fails at the
+retained `gamma0=0.02` and at `gamma0=0.04`. The survive/fail classification was
+unchanged; the bug had corrupted the clustering diagnostic and instability
+magnitudes, and had made the original "phase-A clustering not lost" statement
+unjustified. P1 survival remains qualified: the algebraic Newtonian-gauge `Phi`
+closure cannot test superhorizon curvature instability, the Poisson source omits
+baryons, and `deltaGamma=0` is phenomenological. Original outputs are preserved as
+provenance, not deleted.
+
+Evidence:
+`qfuds/perturbations.py`, `outputs/postmortem/exp003_friction_bug/README.md`, `outputs/postmortem/exp003_friction_bug/`, `outputs/exp003_stability_diagnostics.csv`, `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`

@@ -8,7 +8,7 @@ evidence_role: audit
 depends_on:
   - exp_002_entropy_information_gate
   - result_002_entropy_information_gate
-next_gate: do not create exp_003 until this gate is resolved
+next_gate: Level 2A phenomenological closure; keep physical Level 2B blocked
 last_updated: 2026-06-08
 ---
 
@@ -19,8 +19,8 @@ Date: 2026-06-08
 ## Objective
 
 Audit whether the retained collapse/information-production transfer shape has a
-physical phase-transfer interpretation before any perturbation experiment is
-created.
+physical phase-transfer interpretation before any physical perturbation claim is
+made.
 
 This is a Level 1.5 gate document. It is not a numerical perturbation
 experiment.
@@ -52,9 +52,9 @@ Gamma(a) is an effective coarse-grained phase-conversion rate whose shape is
 motivated by nonlinear collapse or information production.
 ```
 
-This hypothesis must not be promoted to Level 2 unless the missing physical
-inputs are fixed or the branch is explicitly demoted to a phenomenological
-interacting-vacuum model.
+This hypothesis must not be promoted to physical Level 2B unless the missing
+physical inputs are fixed or the branch is explicitly demoted to a
+phenomenological interacting-vacuum model.
 
 ## Scope
 
@@ -93,4 +93,5 @@ docs/04_results/015_result_001_5_phase_transfer_physicality.md
 
 Remain at QFUDS v0.15 / Level 1.5.
 
-Do not create `exp_003` until this gate is resolved.
+Do not treat `exp_003` as physical QFUDS evidence. It may proceed only as a
+Level 2A phenomenological closure audit.

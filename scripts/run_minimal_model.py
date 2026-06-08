@@ -22,6 +22,7 @@ from qfuds import (
     evaluate_viability,
     integrate_background,
     integrate_growth,
+    run_exp003_suite,
 )
 from qfuds.diagnostics import classify_gamma_model
 
@@ -44,6 +45,12 @@ def parse_args() -> argparse.Namespace:
         dest="exp_002_entropy_gate",
         action="store_true",
         help="Run experiment 002: entropy/information-source background gate.",
+    )
+    parser.add_argument(
+        "--exp-003-perturbation-closure",
+        dest="exp_003_perturbation_closure",
+        action="store_true",
+        help="Run experiment 003: Level 2A phenomenological perturbation closure audit.",
     )
     parser.add_argument("--outdir", type=Path, default=Path("outputs"))
     return parser.parse_args()
@@ -211,6 +218,11 @@ def main() -> None:
     if args.exp_002_entropy_gate:
         for qfuds in _default_v04_suite(args):
             _run_one(cosmo, qfuds, args.outdir)
+        return
+    if args.exp_003_perturbation_closure:
+        summary = run_exp003_suite(outdir=args.outdir)
+        print(f"Wrote {args.outdir / 'exp003_phenomenological_perturbation_summary.json'}")
+        print(f"Experiment: {summary['experiment_id']}")
         return
 
     qfuds = QFUDSParams(
