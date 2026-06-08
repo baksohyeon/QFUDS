@@ -4,6 +4,8 @@ This document records the line of thought that led me to Quantum Foam Unified Da
 
 It is not a proof. It is a map from a raw intuition to testable questions.
 
+I did not begin with a finished theory in mind. I was following topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The point of this document is the inference chain. Each step records the next question that became hard to ignore.
+
 ## The Landauer Trigger
 
 My first spark was not dark matter, dark energy, or white holes. It was a note about Landauer's principle:
@@ -26,7 +28,7 @@ information
 -> physical bookkeeping
 ```
 
-From there, black holes became the natural next question for me. If information is physically costly to erase, then a black hole is not just an object that swallows matter. It is a place where information, gravity, quantum mechanics, and thermodynamics collide.
+From there, black holes became the natural next question for me. I was not trying to build a cosmology model yet. I was asking the next technical question. If information is physically costly to erase, then a black hole is not just an object that swallows matter. It is a place where information, gravity, quantum mechanics, and thermodynamics collide.
 
 My first QFUDS question was therefore:
 
@@ -57,9 +59,9 @@ information erasure
 -> dark sector
 ```
 
-At this stage, I was not trying to defend a final model. I let the questions branch far enough to expose the hidden connection: information, entropy, vacuum structure, black holes, dark matter, and dark energy could be asked about in one frame.
+At this stage, I was not trying to defend a final model. I let the questions branch far enough to expose the hidden connection: information, entropy, vacuum structure, black holes, dark matter, and dark energy could be asked about in one frame. The method was simple: follow the next question until the chain either breaks or becomes precise enough to test.
 
-Then I forced the idea to converge. I kept the broadest image, "the universe as a giant white-hole-like release," as a creative origin, but removed it from the center of the research claim. The sharper center became:
+Then I forced the idea to converge. Once the branches became too broad, I kept the broadest image, "the universe as a giant white-hole-like release," as a creative origin, but removed it from the center of the research claim. The sharper center became:
 
 ```text
 dark matter + dark energy
@@ -68,7 +70,7 @@ dark matter + dark energy
 
 That narrowing matters. A white-hole universe image is too broad to test directly. A unified dark-sector model has to answer specific questions about equations of state, sound speed, structure formation, and observational constraints.
 
-Finally, I put the idea under verification pressure. Once QFUDS is written as a toy model, the question changes again:
+Finally, I put the idea under verification pressure. Once QFUDS is written as a toy model, curiosity is not enough. The question changes again:
 
 ```text
 What kills it first?

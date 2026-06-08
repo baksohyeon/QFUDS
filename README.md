@@ -21,7 +21,9 @@ This work should be read as a research program and toy framework, not as a compl
 
 Quantum Foam Unified Dark Sector (QFUDS) is a speculative toy framework I started while thinking through dark matter, dark energy, and information flow in cosmology.
 
-This repository is not a claim that the model is correct. It is a workspace for turning an intuition into falsifiable questions.
+I did not start with a target theory. I started with topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The interesting part is the inference trail. One question kept opening the next one, and the repo is where I tried to stop the chain from staying only as intuition.
+
+This repository is not a claim that the model is correct. It is a workspace for turning curiosity into equations, constraints, toy code, and falsifiable questions. The writing assumes a technically comfortable reader, so it keeps terms like `unitarity`, `equation of state`, `sound speed`, `CMB`, and `matter power spectrum` when those terms carry the idea better than a softer paraphrase.
 
 ## Origin: From Information Erasure To QFUDS
 
@@ -35,9 +37,9 @@ That cost appears as heat in the universe's entropy bookkeeping.
 
 That was the key turn for me: information stopped being just a label. If deleting data changes heat and entropy, then information belongs in the same physical ledger as energy, matter, and spacetime.
 
-The next jump was black holes. If information has physical cost, I could not treat a black hole as a simple trash can for data. The next question was how information entering a black hole is encoded, whether Hawking radiation can return it in a scrambled form, and whether evaporation can stay compatible with quantum unitarity.
+The next jump was black holes. I was not trying to make a cosmology model yet. I was following the obvious next question: if information has physical cost, I could not treat a black hole as a simple trash can for data. The next question was how information entering a black hole is encoded, whether Hawking radiation can return it in a scrambled form, and whether evaporation can stay compatible with quantum unitarity.
 
-That gave me the raw thought chain:
+That gave me the raw thought chain. It was not a linear proof. It was a chain of "if this is physical, what does it force me to ask next?":
 
 ```text
 information
@@ -69,9 +71,9 @@ In this framing, dark matter is the clustering phase: the part that behaves almo
 
 ## Divergence, Convergence, Verification
 
-The main artifact I want to preserve here is not only the hypothesis. It is the path that produced it.
+The main artifact I want to preserve here is not only the hypothesis. It is the path that produced it: curiosity, branching questions, pruning, and then pressure from known cosmology.
 
-The first phase was divergence. A small Landauer prompt made me branch into several connected questions:
+The first phase was divergence. A small Landauer prompt made me branch into several connected questions. I kept asking the next technical question instead of stopping at the first analogy:
 
 ```text
 If erased information leaves heat,
@@ -87,7 +89,7 @@ If black holes and vacuum structure are part of one information problem,
 then the dark sector might be a large-scale expression of that same structure.
 ```
 
-That phase was intentionally loose. I allowed big images: black holes as information compressors, white-hole-like remnants as delayed outlets, the universe as a release process, vacuum fluctuation as sparse structure, and cosmic acceleration as residual pressure.
+That phase was intentionally loose. I allowed big images because they helped expose links between fields that usually sit in separate folders: black holes as information compressors, white-hole-like remnants as delayed outlets, the universe as a release process, vacuum fluctuation as sparse structure, and cosmic acceleration as residual pressure.
 
 The important middle step was not simply "black hole, therefore white hole." My thought process passed through reversibility:
 
@@ -115,7 +117,7 @@ not from ordinary particles moving through space.
 
 The plasma-like language belongs here only as an analogy. I am not claiming dark matter is electromagnetic plasma. The point is collective behavior: a medium can have large-scale modes that are easier to see gravitationally than as individual particles.
 
-The second phase was convergence. I cut the broad image down until one question remained stronger than the rest:
+The second phase was convergence. After the idea branched too far, I cut the broad image down until one question remained stronger than the rest:
 
 ```text
 Can dark matter and dark energy be treated as two effective modes
@@ -124,7 +126,7 @@ of the same quantum-foam medium?
 
 That question is smaller than the original image, but much harder to dodge. It forces the model to say how one sector can look dust-like on structure scales and vacuum-like on cosmic scales.
 
-The third phase was verification pressure. Once I wrote the idea as a dark-sector toy model, it could no longer live on metaphor. It had to face ordinary cosmology:
+The third phase was verification pressure. Once I wrote the idea as a dark-sector toy model, it could no longer live on metaphor or aesthetic fit. It had to face ordinary cosmology:
 
 ```text
 Does it recover LCDM in the zero-deviation limit?
