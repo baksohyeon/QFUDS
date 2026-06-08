@@ -543,6 +543,20 @@ The project becomes physically interesting only if the model survives the first 
 
 ## Documents
 
+Maintained research documentation:
+
+- `docs/00_project_overview.md`: project goals, status, limitations, roadmap summary, and model genealogy
+- `docs/02_theory/qfuds_v0_1.md`: conceptual origin-stage theory note
+- `docs/02_theory/qfuds_v0_2.md`: minimal two-phase effective-fluid theory note
+- `docs/02_theory/qfuds_v0_3.md`: physically labeled `Gamma(a)` transfer-law theory note
+- `docs/03_experiments/exp_000_lcdm_baseline.md`: zero-transfer LCDM control run
+- `docs/03_experiments/exp_001_gamma_scan_v03.md`: v0.3 transfer-law scan
+- `docs/04_results/result_001_gamma_scan_v03.md`: result interpretation and next target
+- `docs/decision_log.md`: chronological decisions with reasons and evidence
+- `docs/05_next_steps/roadmap.md`: validation levels, status, and blockers
+
+Historical/source notes:
+
 - `docs/concept_origin.md`: how the raw information-flow idea became the QFUDS question
 - `docs/qfuds_ko.md`: Korean explanation of the same origin, pruning, hypothesis, and validation path
 - `docs/research_program.md`: abstract, validation roadmap, and kill criteria
