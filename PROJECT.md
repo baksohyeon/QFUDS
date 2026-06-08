@@ -76,6 +76,7 @@ docs/00_project_overview.md
 docs/00_project/overview.md
 docs/00_project/decision_log.md
 docs/00_project/verification_guide.md
+docs/00_project/frontmatter_convention.md
 docs/02_theory/010_qfuds_v0_1.md
 docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md
 docs/02_theory/020_qfuds_v0_2.md
@@ -120,6 +121,11 @@ The semantic ID remains in the filename after the prefix. Do not rename
 experiments as theory versions or theory notes as experiments.
 
 ## Frontmatter Convention
+
+The canonical schema, allowed values, and enforced rules live in
+`docs/00_project/frontmatter_convention.md` (SSOT) and are checked by
+`scripts/validate_docs.py`. The block below is a convenience copy; if it drifts
+from the convention document or the validator, those win.
 
 Every maintained Markdown document under `docs/` must start with YAML
 frontmatter. Active stage documents in `docs/02_theory/`,

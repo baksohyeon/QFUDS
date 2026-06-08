@@ -181,11 +181,14 @@ The prefix is for ordering only. It does not replace experiment IDs such as
 Active stage documents in those folders must also include YAML frontmatter so
 agents can classify them without inferring status from prose. Required fields:
 
+The canonical schema is `docs/00_project/frontmatter_convention.md`, enforced by
+`scripts/validate_docs.py`. Required fields:
+
 ```yaml
 ---
 doc_id: string
 title: string
-doc_type: theory_note | experiment | result | roadmap | gate | index | reference
+doc_type: overview | decision_log | guide | theory_note | experiment | result | roadmap | gate | index | reference
 stage: "0" | "1" | "1.5" | "2" | "reference"
 status: draft | completed | in_progress | blocked | provenance | reference
 evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
