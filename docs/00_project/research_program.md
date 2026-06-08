@@ -1,3 +1,17 @@
+---
+doc_id: research_program
+title: QFUDS Research Program
+doc_type: overview
+stage: "1.5"
+status: in_progress
+evidence_role: ssot
+depends_on:
+  - project_overview
+  - roadmap
+next_gate: resolve Level 1.5 before Level 2
+last_updated: 2026-06-08
+---
+
 # QFUDS Research Program
 
 Working title:
@@ -174,15 +188,16 @@ Level 0: literature position       draft complete
 Level 1: background validation     complete
   exp_000: LCDM baseline
   exp_001: Gamma-law background scan
-  exp_002: entropy/information gate
-Level 2: perturbations             incomplete
+  exp_002: entropy/information gate, provenance only
+QFUDS v0.15 / Level 1.5: phase-transfer physicality in progress
+Level 2: perturbations             blocked
 Level 3: CLASS/CAMB implementation not started
 Level 4: CMB comparison            not started
 Level 5: matter power spectrum     not started
 Level 6: late-time survey tests    not started
 ```
 
-The project has moved through Level 1 background validation: `exp_000` baseline, `exp_001` Gamma-law diagnostics, and `exp_002` entropy/information-source gate. The immediate goal is now to add perturbation assumptions cleanly enough for background-only BAO/SN checks and then a Boltzmann-code implementation.
+The project has moved through Level 1 background validation: `exp_000` baseline, `exp_001` Gamma-law diagnostics, and `exp_002` entropy/information-source gate. `exp_002` is now retained as provenance, not physical evidence. The immediate goal is QFUDS v0.15 / Level 1.5 phase-transfer physicality, not perturbation closure.
 
 ### Level 0: Literature Position
 
@@ -229,7 +244,7 @@ experiment 001 complete at background-diagnostic level
 Output:
 
 ```text
-docs/04_results/result_001_gamma_scan.md
+docs/04_results/010_result_001_gamma_scan.md
 qfuds/gamma_laws.py
 generalized background integration
 viability table for candidate Gamma(a) laws
@@ -257,8 +272,8 @@ experiment 002 complete at background-diagnostic level
 Output:
 
 ```text
-docs/03_experiments/exp_002_entropy_information_gate.md
-docs/04_results/result_002_entropy_information_gate.md
+docs/03_experiments/020_exp_002_entropy_information_gate.md
+docs/04_results/020_result_002_entropy_information_gate.md
 qfuds/gamma_laws.py
 CSV and PNG output files
 ```
@@ -378,4 +393,4 @@ no CMB or matter-power fit yet
 remnant sector still optional
 ```
 
-The next real step is perturbation closure, then a CLASS or CAMB implementation. That is where the model first becomes testable enough to fail against CMB and matter-power data.
+The next real step is QFUDS v0.15 / Level 1.5 phase-transfer physicality. Perturbation closure, then CLASS or CAMB, remain blocked until `Gamma(a)` is either physically justified or explicitly demoted to a phenomenological interacting-vacuum law.

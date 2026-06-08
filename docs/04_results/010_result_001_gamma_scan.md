@@ -1,3 +1,16 @@
+---
+doc_id: result_001_gamma_scan
+title: "Result 001: Gamma-Law Background Scan"
+doc_type: result
+stage: "1"
+status: completed
+evidence_role: proxy_scan
+depends_on:
+  - exp_001_gamma_scan
+next_gate: Level 1.5 phase transfer physicality
+last_updated: 2026-06-08
+---
+
 # Result 001: Gamma-Law Background Scan
 
 Date: 2026-06-08
@@ -70,10 +83,10 @@ No experiment 001 result establishes perturbation stability, CMB viability, or n
 | constant | `gamma0=0.01` | fails positivity and CMB-era `H(a)` deviation | rejected |
 | power law | `gamma0=0.03`, `beta=5` | passes minimal checks | standard interacting dark energy |
 | growth driven | `gamma0=0.01` | fails positivity and CMB-era `H(a)` deviation | rejected |
-| collapsed fraction toy | `gamma0=0.03` | passes minimal background checks | perturbation-test candidate |
+| collapsed fraction toy | `gamma0=0.03` | passes minimal background checks | candidate shape for later scrutiny |
 | horizon entropy | `gamma0=0.03`, `beta=4` | passes minimal checks | standard interacting dark energy unless derived |
-| black-hole entropy proxy | `gamma0=0.03` | passes minimal background checks | perturbation-test candidate |
-| star-formation proxy | `gamma0=0.003` | passes minimal background checks | perturbation-test candidate |
+| black-hole entropy proxy | `gamma0=0.03` | passes minimal background checks | candidate shape for later scrutiny |
+| star-formation proxy | `gamma0=0.003` | passes minimal background checks | candidate shape for later scrutiny |
 
 The candidate label means only "worth testing next." It does not mean novel or observationally viable.
 
@@ -92,7 +105,9 @@ The surviving toy laws are mostly low-redshift gates. They leave the early unive
 
 ## What Became The Next Target?
 
-The next target is not more background scanning. It is perturbation-level specification:
+The next target is not more background scanning. The later QFUDS v0.15 /
+Level 1.5 audit inserted a phase-transfer physicality gate before any
+perturbation-level specification:
 
 1. define phase-A perturbations;
 2. define whether phase B is exactly smooth;
@@ -103,7 +118,7 @@ The next target is not more background scanning. It is perturbation-level specif
 
 Evidence:
 
-- `docs/03_experiments/exp_001_gamma_scan.md`
+- `docs/03_experiments/010_exp_001_gamma_scan.md`
 - `outputs/qfuds_*gamma*.csv`
 - `tests/test_gamma_v03.py`
 

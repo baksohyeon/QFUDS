@@ -1,18 +1,42 @@
+---
+doc_id: result_002_entropy_information_gate
+title: "Result 002: Entropy / Information-Source Gate"
+doc_type: result
+stage: "1"
+status: provenance
+evidence_role: provenance
+depends_on:
+  - exp_002_entropy_information_gate
+next_gate: Level 1.5 phase transfer physicality
+last_updated: 2026-06-08
+---
+
 # Result 002: Entropy / Information-Source Gate
 
 Date: 2026-06-08
 
 ## What Did We Learn?
 
-The experiment 002 scan narrowed the surviving background branch to one source shape:
+The experiment 002 scan narrowed the surviving background proxy shape to one
+candidate:
 
 ```math
 \Gamma(a)\propto {dF_{\rm coll}\over d\ln a}.
 ```
 
-In words: phase transfer should follow nonlinear structure collapse or information production, not broad entropy language.
+In words: if the branch is kept at all, the only shape still worth auditing is
+nonlinear structure collapse or information production, not broad entropy
+language.
 
 This is still a background-level result. It does not include perturbation evolution for `delta_A`, `theta_A`, `delta_B`, or `theta_B`.
+
+Post-Level-1.5 audit status:
+
+```text
+Experiment 002 is retained as provenance, not as physical evidence.
+The scan used a source before the physical transfer mechanism, mass threshold,
+and self-consistent QFUDS growth source were defined.
+```
 
 ## Model Tested
 
@@ -44,20 +68,23 @@ Surviving background branch:
 
 ## Did The Model Survive?
 
-Only one branch survived as worth testing next:
+Only one shape remained narrow enough to audit next:
 
 - Press-Schechter-style collapse / information production.
 
-It survived only as a Level 2 perturbation target. It did not survive CMB, matter-power, CLASS/CAMB, or survey-likelihood tests.
+It did not survive as physical evidence. It survived only as a Level 1.5
+physicality-audit question. It did not survive perturbation, CMB, matter-power,
+CLASS/CAMB, or survey-likelihood tests.
 
 ## Why?
 
-The surviving branch has the right timing for a next test:
+The retained shape has convenient timing for a next audit:
 
 - it vanishes in radiation domination;
 - it peaks after nonlinear structure formation begins;
 - it gives a possible nonlocal relation between dark-energy evolution and growth history;
-- it is less arbitrary than a free `Gamma(a)` curve because the shape is tied to `F_coll(>M,a)`.
+- it is less arbitrary than a free `Gamma(a)` curve because the shape is tied to
+  `F_coll(>M,a)`, but this does not make it physical evidence.
 
 The remaining freedom is still serious:
 
@@ -74,7 +101,7 @@ The remaining freedom is still serious:
 | total black-hole entropy | physical entropy exists, but no `dn_BH/dM` or accretion history exists in repo | do not use as core law yet |
 | HBM/KL gravitational entropy | fails positivity at tested amplitude | reject tested proxy |
 | horizon information | mathematically clean but horizon/interacting dark-energy-like | demote to known-model behavior |
-| nonlinear collapse / information production | quiet in radiation era and peaks after structure formation begins | promote to Level 2 perturbation test |
+| nonlinear collapse / information production | quiet in radiation era and peaks after structure formation begins | demote to Level 1.5 physicality question; not evidence |
 
 ## What Failed?
 
@@ -87,23 +114,31 @@ The following branches are not allowed to proceed as core QFUDS claims:
 
 ## What Became The Next Target?
 
-The next target is Level 2 perturbation theory for the surviving branch:
+The next target is the Level 1.5 phase-transfer physicality audit for the
+retained shape:
 
 ```math
 \Gamma(a)\propto {dF_{\rm coll}(>M,a)\over d\ln a}.
 ```
 
-The required next gates are:
+The required Level 1.5 gates are:
 
-1. Recompute `dF_coll/dln a` using self-consistent QFUDS growth `D(a)`.
-2. Fix the mass threshold `M` physically instead of tuning it after seeing the result.
-3. Add perturbation equations for `delta_A`, `theta_A`, `delta_B`, `theta_B`, and transfer perturbations.
-4. Test the redshift-ratio relation between `w(a)` and `f sigma8(a)`.
-5. Kill the branch if the relation fails or if perturbations are unstable.
+1. Determine whether `Gamma(a)` is a physical transfer hypothesis or only a
+   phenomenological interacting-vacuum law.
+2. Recompute `dF_coll/dln a` using self-consistent QFUDS growth only after the
+   required growth ingredients exist.
+3. Fix the mass threshold `M` physically instead of tuning it after seeing the
+   result.
+4. Keep Level 2 perturbation equations blocked until the Level 1.5 gate is
+   resolved.
+5. Kill or demote the branch if it remains ordinary interacting vacuum with a
+   tuned source shape.
 
 Evidence:
 
-- `docs/03_experiments/exp_002_entropy_information_gate.md`
+- `docs/03_experiments/020_exp_002_entropy_information_gate.md`
+- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
+- `docs/04_results/015_result_001_5_phase_transfer_physicality.md`
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`
@@ -133,10 +168,13 @@ Hostile verdict:
 1. Apparent-horizon entropy is mathematically clean, but it is a background-expansion quantity. It does not derive a dark-energy and structure-formation relation. It reduces to ordinary horizon/interacting dark-energy phenomenology.
 2. HBM/KL gravitational entropy is known in the literature, but the simple linear-variance version is too broad in time. In the current two-phase boundary-value model it drives past `rho_B` negative unless the amplitude is so tiny that the signal is effectively irrelevant.
 3. Black-hole entropy is real physics, but total cosmic `S_BH(a)` is not available without a black-hole mass function and accretion history. The experiment 001 black-hole law remains a proxy, not a derivation.
-4. Nonlinear collapse and information production are the only surviving experiment 002 directions. A Press-Schechter-derived `dF_coll/dln a` naturally vanishes in the radiation era and peaks after nonlinear structure formation begins.
-5. A strict local relation `Delta f sigma8(z)=F(Delta w(z))` does not exist generically. A nonlocal functional relation does exist after a specific entropy source is fixed. For Press-Schechter information production, a redshift-shape relation can be written without a free shape function, but it still contains a coupling amplitude and a mass-threshold choice unless QFUDS microphysics fixes them.
+4. Nonlinear collapse and information production are the only narrow experiment 002 shapes left to audit. Their timing is useful, but this is not physical evidence for phase transfer.
+5. A strict local relation `Delta f sigma8(z)=F(Delta w(z))` does not exist generically. A nonlocal functional relation could exist only after a physical entropy source, coupling amplitude, mass threshold, and perturbation prescription are fixed.
 
-Recommendation: continue only the collapse/information-production branch. Terminate the broad entropy-language version unless it supplies a real `S(a)` from a mass function or microscopic state count.
+Recommendation: demote experiment 002 to a provenance scan. Continue only the
+collapse/information-production shape into Level 1.5 physicality review.
+Terminate the broad entropy-language version unless it supplies a real `S(a)`
+from a mass function or microscopic state count.
 
 ## 2. Entropy Candidates
 
@@ -146,7 +184,7 @@ Recommendation: continue only the collapse/information-production branch. Termin
 | Gravitational entropy | HBM/KL: `S_HBM(D)=int_D rho ln(rho/<rho>_D) dV`; linear limit `S/V proportional to <delta^2>/2` | Known: Hosoya-Buchert-Morita relative information entropy; CET/Weyl proposals also exist | `Gamma proportional to d(D^2)/dln a` in the implemented weak-contrast proxy | No useful narrow peak; broad late growth | Numerically tiny in radiation era, but active through matter era | Interacting dark energy unless nonlinear entropy closes perturbations |
 | Horizon information | Flat apparent horizon: `S_H = k_B A/(4 l_P^2) = pi k_B/(G hbar H^2)` | Known in horizon thermodynamics and holographic dark energy | `Gamma proportional to d(S_H/S_H0)/dln a` | Peaks at low z in the normalized absolute-entropy version | Yes, because `S_H/S_H0 -> 0` as `H -> infinity` | Standard interacting or holographic dark energy |
 | Nonlinear collapse entropy | `F_coll(>M,a)=erfc[delta_c/(sqrt(2) sigma_M D(a))]` | Known Press-Schechter collapse statistics | `Gamma proportional to dF_coll/dln a` | Yes, near selected collapse threshold | Yes, exponentially suppressed | Potentially distinct if mass threshold is fixed physically |
-| Information production | `I(a)` as information encoded into collapsed structures; minimal computable choice `I proportional to F_coll` | Partly known as KL/relative entropy and halo statistics; not a unique entropy | Same as Press-Schechter `dF_coll/dln a` in this implementation | Yes | Yes | Best experiment 002 branch, still incomplete |
+| Information production | `I(a)` as information encoded into collapsed structures; minimal computable choice `I proportional to F_coll` | Partly known as KL/relative entropy and halo statistics; not a unique entropy | Same as Press-Schechter `dF_coll/dln a` in this implementation | Yes | Yes | retained only as Level 1.5 audit question |
 
 Sources used for literature anchors:
 
@@ -270,7 +308,9 @@ The implemented law is:
 {dF_coll/d\ln a\over \max(dF_coll/d\ln a)}.
 ```
 
-This is the cleanest experiment 002 candidate because it directly ties phase transfer to nonlinear structure statistics.
+This is the narrowest experiment 002 shape because it ties the transfer ansatz
+to nonlinear structure statistics. It is not physical evidence for phase
+transfer.
 
 ## 4. Numerical Results
 
@@ -312,7 +352,7 @@ The HBM/KL `gravitational_entropy` row fails positivity. A sweep showed it needs
 
 The LCDM limit remains exact at `gamma0=0`.
 
-For surviving experiment 002 candidates:
+For retained experiment 002 proxy shapes:
 
 - `information_production` is quiet during radiation domination and peaks near `z ~= 2.05`.
 - `horizon_information` is also quiet during radiation domination, but peaks near `z ~= 0.30` because it is driven by horizon-area growth, not collapse.
@@ -366,7 +406,10 @@ This is the desired structure-DE relation, but only after `lambda`, `sigma_M`, a
 \nu_2 e^{-\nu_2^2/2}f(a_2)}.
 ```
 
-That is the cleanest testable experiment 002 signature. It is not a local universal `Delta f sigma8(z)=F(Delta w(z))`; it is a nonlocal consistency relation between `w(a)`, collapse statistics, and growth.
+That is a possible Level 1.5 consistency idea, not an experiment 002 result. It
+is not a local universal `Delta f sigma8(z)=F(Delta w(z))`; it would be a
+nonlocal relation between `w(a)`, collapse statistics, and growth only after the
+missing physical inputs are fixed.
 
 ## 7. Failure Modes
 
@@ -378,9 +421,9 @@ That is the cleanest testable experiment 002 signature. It is not a local univer
 6. If phase-B perturbations and transfer perturbations are not specified, `f sigma8` and CMB claims are not physically complete.
 7. If the collapse mass threshold is fitted after looking at `w(z)`, the Press-Schechter law becomes another fitting function.
 
-## 8. Most Promising Experiment 002 Direction
+## 8. Retained Level 1.5 Question
 
-The best surviving direction is:
+The retained question is:
 
 ```math
 \Gamma(a)\propto {dF_coll(>M,a)\over d\ln a}
@@ -392,23 +435,29 @@ or the same law interpreted as information production:
 I(a)\propto F_coll(>M,a).
 ```
 
-This direction is worth continuing because it:
+This shape is worth auditing because it:
 
 - vanishes in radiation domination,
 - peaks after nonlinear structure formation begins,
 - connects directly to growth observables,
-- gives a falsifiable consistency relation between `w(a)` and `f sigma8(a)`.
+- could give a falsifiable consistency relation between `w(a)` and
+  `f sigma8(a)` after the missing physical inputs are fixed.
 
 The black-hole-entropy branch remains secondary until the repo ingests an actual cosmic black-hole mass/accretion history.
 
-## 9. Recommendation: Continue or Terminate QFUDS
+## 9. Recommendation
 
-Continue only as a narrow experiment 002 interacting-vacuum model with a derived collapse/information-production source. Terminate the broader claim that "entropy production" by itself explains dark energy.
+Demote experiment 002 to provenance. Continue only the
+collapse/information-production shape as a Level 1.5 physicality question.
+Terminate the broader claim that "entropy production" by itself explains dark
+energy.
 
 Next technical step:
 
-1. Replace the LCDM-source Press-Schechter approximation with self-consistent QFUDS growth `D(a)`.
-2. Choose one physical mass threshold or derive it from foam microphysics.
-3. Add transfer perturbations.
-4. Fit background `w(a)` and `f sigma8(a)` jointly.
+1. Decide whether the retained shape is a physical transfer hypothesis or only
+   a phenomenological interacting-vacuum law.
+2. Replace the LCDM-source Press-Schechter approximation only after
+   self-consistent QFUDS growth exists.
+3. Choose one physical mass threshold or derive it from foam microphysics.
+4. Keep perturbation work blocked until the Level 1.5 gate is resolved.
 5. Kill the model if the redshift-ratio relation above fails.

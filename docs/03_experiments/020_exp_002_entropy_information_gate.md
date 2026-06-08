@@ -1,4 +1,17 @@
-# exp_002_entropy_information_gate
+---
+doc_id: exp_002_entropy_information_gate
+title: "Experiment 002: Entropy / Information-Source Gate"
+doc_type: experiment
+stage: "1"
+status: provenance
+evidence_role: provenance
+depends_on:
+  - exp_001_gamma_scan
+next_gate: Level 1.5 phase transfer physicality
+last_updated: 2026-06-08
+---
+
+# Experiment 002: Entropy / Information-Source Gate
 
 Date: 2026-06-08
 
@@ -23,11 +36,20 @@ The expected split is:
 
 ## Scope
 
-This is a background-level scan with a scale-independent growth proxy.
+This is a background-level proxy scan with a scale-independent growth proxy.
 
 It does not establish perturbation stability, CMB viability, matter-power viability, survey-likelihood viability, or QFUDS novelty.
 
 It is not the Level 2 perturbation experiment. It does not evolve `delta_A`, `theta_A`, `delta_B`, or `theta_B`.
+
+Post-audit status:
+
+```text
+Experiment 002 is retained as provenance, not as physical evidence.
+Its surviving shape is not meaningful data for QFUDS physicality because the
+phase-transfer mechanism, physical mass threshold, and self-consistent QFUDS
+growth source were not defined before the scan.
+```
 
 ## Method
 
@@ -79,19 +101,24 @@ A law fails this background scan if it:
 
 ## Result
 
-The result is documented in `docs/04_results/result_002_entropy_information_gate.md`.
+The result is documented in `docs/04_results/020_result_002_entropy_information_gate.md`.
 
 Summary:
 
 - HBM/KL gravitational entropy fails positivity at the tested amplitude.
 - Horizon information is mathematically clean but reduces to standard horizon/interacting dark-energy phenomenology.
 - Total black-hole entropy remains incomplete without an actual cosmic black-hole mass/accretion history.
-- Collapse/information production is the only experiment 002 branch worth carrying forward.
+- Collapse/information production is the only narrow shape retained for Level
+  1.5 scrutiny, but experiment 002 itself is not physical evidence for that
+  branch.
 
 ## Decision
 
-Continue only the collapse/information-production branch as a narrow interacting-vacuum candidate with a fixed source shape. Terminate the broader claim that entropy production by itself explains dark energy.
+Demote experiment 002 to a provenance scan. Continue only the
+collapse/information-production shape as a question for Level 1.5, not as a
+validated transfer law.
 
 ## Next Step
 
-Write perturbation equations for phase A, phase B, and transfer perturbations. Then test whether the information-production branch survives beyond the background/growth-proxy level.
+Complete the Level 1.5 phase-transfer physicality gate before any perturbation
+experiment is created.

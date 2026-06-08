@@ -19,7 +19,9 @@ The project status as of 2026-06-08 is:
 - literature mapping is complete;
 - background toy models are implemented;
 - three background validations are complete: `exp_000`, `exp_001`, and `exp_002`;
-- perturbation equations are not yet complete;
+- `exp_002` is retained as provenance, not physical evidence;
+- QFUDS v0.15 / Level 1.5 phase-transfer physicality is in progress;
+- perturbation equations are blocked until Level 1.5 is resolved;
 - CLASS/CAMB integration has not started;
 - CMB, matter-power, and survey-likelihood tests have not been performed.
 
@@ -129,7 +131,7 @@ Every completed experiment must generate all of the following:
 1. an experiment document in `docs/03_experiments/`;
 2. a result document in `docs/04_results/`;
 3. a decision log update in `docs/00_project/decision_log.md`;
-4. a roadmap update in `docs/05_next_steps/roadmap.md`.
+4. a roadmap update in `docs/05_next_steps/000_roadmap.md`.
 
 No experiment is considered complete until this documentation exists.
 
@@ -158,6 +160,43 @@ Documentation must distinguish these categories:
 
 Do not remove failed mechanisms from the record. Move them to history,
 postmortem, or rejected-candidate sections when needed.
+
+Active documentation in `docs/02_theory/`, `docs/03_experiments/`,
+`docs/04_results/`, and `docs/05_next_steps/` must use a sortable stage prefix:
+
+```text
+000_ baseline/control
+010_ Level 1 / experiment 001
+015_ QFUDS v0.15 / Level 1.5 gate
+020_ experiment 002
+030_ later experiment/result sequence
+040_ future Level 2 theory work when needed
+900_ broad reference or report
+```
+
+The prefix is for ordering only. It does not replace experiment IDs such as
+`exp_001`, result IDs such as `result_001`, or theory labels such as
+`qfuds_v0_15`.
+
+Active stage documents in those folders must also include YAML frontmatter so
+agents can classify them without inferring status from prose. Required fields:
+
+```yaml
+---
+doc_id: string
+title: string
+doc_type: theory_note | experiment | result | roadmap | gate | index | reference
+stage: "0" | "1" | "1.5" | "2" | "reference"
+status: draft | completed | in_progress | blocked | provenance | reference
+evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
+depends_on: []
+next_gate: string
+last_updated: YYYY-MM-DD
+---
+```
+
+If a document is not physical evidence, its frontmatter must say so through
+`status` or `evidence_role`; do not rely on body text alone.
 
 ## 5. Experiment Rules
 
@@ -297,7 +336,7 @@ A failed idea should be documented, not erased.
 
 ## 9. Progression Roadmap
 
-The maintained roadmap is `docs/05_next_steps/roadmap.md`. Update it after every
+The maintained roadmap is `docs/05_next_steps/000_roadmap.md`. Update it after every
 completed experiment.
 
 Current roadmap status:
@@ -305,8 +344,9 @@ Current roadmap status:
 | Level | Stage | Status | Meaning |
 | --- | --- | --- | --- |
 | Level 0 | Literature Position | completed | QFUDS has been compared at a draft level against LCDM, unified dark fluids, interacting dark energy, scalar-field dark matter, and compact-remnant scenarios. |
-| Level 1 | Background Validation | completed | `exp_000`, `exp_001`, and `exp_002` are complete; collapse/information production is the only branch kept for perturbation tests. |
-| Level 2 | Perturbation Equations | in progress | Phase-A, phase-B, and transfer perturbations remain unresolved. |
+| Level 1 | Background Validation | completed | `exp_000`, `exp_001`, and `exp_002` are complete; `exp_002` is provenance, not physical evidence. |
+| Level 1.5 | Phase Transfer Physicality | in progress | QFUDS v0.15 audits whether `Gamma(a)` has physical meaning. |
+| Level 2 | Perturbation Equations | blocked | Phase-A, phase-B, and transfer perturbations require Level 1.5 first. |
 | Level 3 | CLASS/CAMB Integration | blocked | Boltzmann-code work requires Level 2 equations first. |
 | Level 4 | CMB Comparison | blocked | No CMB comparison is valid until CLASS/CAMB or equivalent perturbation implementation exists. |
 | Level 5 | Matter Power Spectrum | blocked | Current growth proxy is not a substitute for a full matter-power test. |

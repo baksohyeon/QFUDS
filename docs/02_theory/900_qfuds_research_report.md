@@ -1,3 +1,15 @@
+---
+doc_id: qfuds_research_report
+title: "Quantum Foam Unified Dark Sector: Research Evaluation"
+doc_type: reference
+stage: reference
+status: reference
+evidence_role: reference
+depends_on: []
+next_gate: keep current when model assumptions change
+last_updated: 2026-06-08
+---
+
 # Quantum Foam Unified Dark Sector: Research Evaluation
 
 Date: 2026-06-08
