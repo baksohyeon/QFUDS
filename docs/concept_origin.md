@@ -1,12 +1,12 @@
 # Concept Origin
 
-This document records Dorito's original line of thought that led to Quantum Foam Unified Dark Sector (QFUDS).
+This document records the line of thought that led me to Quantum Foam Unified Dark Sector (QFUDS).
 
 It is not a proof. It is a map from a raw intuition to testable questions.
 
 ## The Landauer Trigger
 
-The first spark was not dark matter, dark energy, or white holes. It was a note about Landauer's principle:
+My first spark was not dark matter, dark energy, or white holes. It was a note about Landauer's principle:
 
 ```text
 Erasing information is not free.
@@ -16,7 +16,7 @@ That cost appears as heat and increases entropy.
 
 The original passage framed forgetting as something that is paid for in the universe's thermal bookkeeping. Human memory, computer storage, and physical information processing were treated as parts of the same thermodynamic accounting system.
 
-That was the important jump:
+That was the important jump for me:
 
 ```text
 information
@@ -26,9 +26,9 @@ information
 -> physical bookkeeping
 ```
 
-From there, black holes became the natural next question. If information is physically costly to erase, then a black hole is not just an object that swallows matter. It is a place where information, gravity, quantum mechanics, and thermodynamics collide.
+From there, black holes became the natural next question for me. If information is physically costly to erase, then a black hole is not just an object that swallows matter. It is a place where information, gravity, quantum mechanics, and thermodynamics collide.
 
-The first QFUDS question was therefore:
+My first QFUDS question was therefore:
 
 ```text
 If information cannot simply disappear,
@@ -39,9 +39,9 @@ That question later branched into Hawking radiation, Page-curve/island calculati
 
 ## Divergence, Convergence, And Verification
 
-The origin of QFUDS is best read as a three-stage process.
+I read the origin of QFUDS as a three-stage process.
 
-First came divergence. The Landauer trigger opened a chain of adjacent questions:
+First, I let the idea diverge. The Landauer trigger opened a chain of adjacent questions:
 
 ```text
 information erasure
@@ -57,9 +57,9 @@ information erasure
 -> dark sector
 ```
 
-At this stage, the point was not to defend a final model. The point was to let the questions branch far enough to expose the hidden connection: information, entropy, vacuum structure, black holes, dark matter, and dark energy could be asked about in one frame.
+At this stage, I was not trying to defend a final model. I let the questions branch far enough to expose the hidden connection: information, entropy, vacuum structure, black holes, dark matter, and dark energy could be asked about in one frame.
 
-Then came convergence. The broadest image, "the universe as a giant white-hole-like release," was kept as a creative origin but removed from the center of the research claim. The sharper center became:
+Then I forced the idea to converge. I kept the broadest image, "the universe as a giant white-hole-like release," as a creative origin, but removed it from the center of the research claim. The sharper center became:
 
 ```text
 dark matter + dark energy
@@ -68,7 +68,7 @@ dark matter + dark energy
 
 That narrowing matters. A white-hole universe image is too broad to test directly. A unified dark-sector model has to answer specific questions about equations of state, sound speed, structure formation, and observational constraints.
 
-Finally came verification pressure. Once QFUDS is written as a toy model, the question changes again:
+Finally, I put the idea under verification pressure. Once QFUDS is written as a toy model, the question changes again:
 
 ```text
 What kills it first?
@@ -89,7 +89,7 @@ where is it encoded after evaporation?
 
 The next idea was not that recovery is practically easy. It was the opposite. In a unitary picture, information may be recoverable in principle while still being inaccessible in practice because the decoding task is too complex, the radiation is hard to collect, and processing the data has its own thermodynamic cost.
 
-This is why the thought process included a "giant quantum computer" branch. That branch was not a claim about a real machine. It clarified the distinction between:
+This is why my thought process included a "giant quantum computer" branch. That branch was not a claim about a real machine. It clarified the distinction between:
 
 ```text
 information destroyed
@@ -112,18 +112,18 @@ That is the route by which white-hole-like remnants, CPT-style reversal, and bla
 
 ## The Dark-Matter Turn
 
-The next key move was linguistic and physical: questioning the word "matter."
+My next key move was linguistic and physical: questioning the word "matter."
 
 Observed dark matter is inferred through gravitational effects. It behaves like something that clusters, bends light, and shapes galaxy rotation curves. But it has not yet been directly detected as an ordinary particle.
 
-That led to the raw question:
+That led me to the raw question:
 
 ```text
 What if dark matter is not matter in the ordinary particle sense?
 What if it is an energy-like collective excitation of vacuum structure?
 ```
 
-The original language used "sparse" and "plasma-like" as intuition pumps. In the cleaned model, these words are interpreted conservatively:
+I originally used "sparse" and "plasma-like" as intuition pumps. In the cleaned model, these words are interpreted conservatively:
 
 ```text
 sparse:
@@ -134,11 +134,11 @@ plasma-like:
 not electromagnetic plasma, but collective medium behavior
 ```
 
-This was the step that connected the black-hole information branch to the dark-sector branch. If spacetime foam can carry collective long-wavelength modes, then one mode might clump like dark matter while another remains smooth like dark energy. That is the core QFUDS question.
+This was the step that connected the black-hole information branch to the dark-sector branch for me. If spacetime foam can carry collective long-wavelength modes, then one mode might clump like dark matter while another remains smooth like dark energy. That is the core QFUDS question.
 
 ## Logic Jump Map
 
-The original thought process looks abrupt if it is read only as a list of claims. It is better read as a sequence of question shifts.
+My original thought process looks abrupt if it is read only as a list of claims. It is better read as a sequence of question shifts.
 
 ```text
 1. Information is physical.
@@ -194,7 +194,7 @@ is the information inside really lost?
 
 Modern Page-curve and island-style calculations support the view that black-hole evaporation is unitary in a suitable quantum-gravity description. In less technical language: the information should not simply vanish, although it may be hidden in a very nonlocal and hard-to-decode form.
 
-Dorito's original question was:
+My original question was:
 
 ```text
 If information is preserved, what is the return channel?
@@ -358,7 +358,7 @@ The model fails unless it can answer these questions:
 
 ## 8. Boundary Between Physics And Fiction
 
-Dorito's idea also has value as science-fiction worldbuilding.
+My original idea also has value as science-fiction worldbuilding.
 
 As fiction, the strongest image is a living equilibrium universe:
 
