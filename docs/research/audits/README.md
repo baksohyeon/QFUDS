@@ -27,3 +27,9 @@ Availability audits may record:
 Availability audits must not record QFUDS conclusions. A cached "not found"
 entry means only that the product was not found in the checked sources on the
 recorded date.
+
+## Audit Records
+
+- [2026-06-09 Exp006 Literature Availability Audit](2026-06-09_exp006_literature_availability_audit.md)
+- [2026-06-09 Exp006 Sharpening Path Audit](2026-06-09_exp006_sharpening_path_audit.md)
+- [2026-06-09 Exp006 Coverage Expansion Audit](2026-06-09_exp006_coverage_expansion_audit.md)
