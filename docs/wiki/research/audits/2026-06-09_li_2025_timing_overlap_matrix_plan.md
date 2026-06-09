@@ -263,7 +263,7 @@ support from compatibility.
 
 If Li and Zhang data products became available tomorrow:
 
-1. Archive the raw products under `docs/research/assets/` with source, date,
+1. Archive the raw products under `docs/wiki/research/assets/` with source, date,
    checksum if available, and product type.
 2. Record whether the product is author data, covariance, posterior samples,
    chains, or digitization output.

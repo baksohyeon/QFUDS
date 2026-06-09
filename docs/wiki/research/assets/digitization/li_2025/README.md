@@ -21,7 +21,7 @@ Exp006 conclusions, or change roadmap status.
 
 ## Rendering
 
-- Source: `docs/research/assets/figures/li_2025/source/extracted/`
+- Source: `docs/wiki/research/assets/figures/li_2025/source/extracted/`
 - Renderer: macOS Quick Look via `qlmanage -t -s 2400`
 - Output: PNG files with the source figure basename preserved
 

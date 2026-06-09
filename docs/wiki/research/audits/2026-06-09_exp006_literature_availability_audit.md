@@ -92,7 +92,7 @@ functional posteriors, but it would require a separate protocol for:
 - redshift-domain overlap;
 - sign convention notes.
 
-Digitized figures should be stored under `docs/research/assets/digitization/`
+Digitized figures should be stored under `docs/wiki/research/assets/digitization/`
 only after a digitization audit is explicitly approved.
 
 ## Staleness Risk
