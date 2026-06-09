@@ -1,0 +1,24 @@
+{
+  "best_competitor_by_uncertainty_weighted_rms": {
+    "aic_like_descriptive_mode": 4.0507963569879815,
+    "family_id": "logistic_transition",
+    "product_id": "desy5_bin30",
+    "support_overlap": 0.9580954952059926,
+    "uncertainty_weighted_rms": 0.016249422452717332
+  },
+  "best_family_by_primary_product_descriptive_aic": {
+    "desi_dr2_desy5": "logistic_transition",
+    "desy5_bin30": "logistic_transition",
+    "desy5_zmax": "gaussian_ln_a"
+  },
+  "classification": "partial_compression",
+  "decision": "retained timing captures a meaningful high-z structure-era component, but fitted simple transition/tomographic families describe the digitized Li and Zhang timing structure more efficiently under the current digitized-uncertainty evidence.",
+  "primary_representation": "evidence_weighted_support",
+  "retained_best_count": 0,
+  "retained_mean_primary_metrics": {
+    "explained_fraction_vs_zero": 0.357184498468795,
+    "high_z_support_capture": 0.7485137768867739,
+    "support_overlap": 0.4620063545507029,
+    "uncertainty_weighted_rms": 0.44542015798150597
+  }
+}
