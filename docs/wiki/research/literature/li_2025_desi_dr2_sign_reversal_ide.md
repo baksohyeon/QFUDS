@@ -63,6 +63,10 @@ used_by:
 - Reconstructed histories: figures.
 - Figures: yes.
 - PCA summaries: yes, reported in the paper.
+- arXiv source bundle: yes; contains LaTeX and figure PDFs, but no numerical
+  `beta(z)` histories, covariance products, posterior samples, chains, or PCA
+  mode arrays were found in the source package during the 2026-06-09 product
+  search.
 
 ## Digitization Requirements
 
@@ -73,7 +77,11 @@ coverage audit.
 ## Public Code / Data Links
 
 - arXiv page provides PDF, HTML, and TeX source links.
-- No public posterior-product repository was found during the 2026-06-09 check.
+- Public IDECAMB code infrastructure exists at
+  [liaocrane/IDECAMB](https://github.com/liaocrane/IDECAMB), but it is not a
+  Li and Zhang 2025 output-product repository.
+- No public posterior-product, covariance-product, chain, numerical-history, or
+  PCA-product repository was found during the 2026-06-09 product search.
 
 ## QFUDS Relevance
 
@@ -94,3 +102,7 @@ This record does not state that retained timing is supported.
 
 - 2026-06-09: arXiv page and public search checked for bibliographic metadata,
   paper products, and public posterior-product availability.
+- 2026-06-09: dedicated public product search checked arXiv source, JCAP/IOP,
+  GitHub, Zenodo, OSF, Dataverse, and general web search. Result: timing-overlap
+  matrix is only partially executable from current public products; author data
+  or figure digitization is required for uncertainty-aware comparison.

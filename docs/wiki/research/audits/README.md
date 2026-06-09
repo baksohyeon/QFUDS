@@ -33,3 +33,6 @@ recorded date.
 - [2026-06-09 Exp006 Literature Availability Audit](2026-06-09_exp006_literature_availability_audit.md)
 - [2026-06-09 Exp006 Sharpening Path Audit](2026-06-09_exp006_sharpening_path_audit.md)
 - [2026-06-09 Exp006 Coverage Expansion Audit](2026-06-09_exp006_coverage_expansion_audit.md)
+- [2026-06-09 Li 2025 Timing Feasibility Audit](2026-06-09_li_2025_timing_feasibility_audit.md)
+- [2026-06-09 Li 2025 Timing-Overlap Matrix Plan](2026-06-09_li_2025_timing_overlap_matrix_plan.md)
+- [2026-06-09 Li 2025 Public Product Search Audit](2026-06-09_li_2025_public_product_search_audit.md)
