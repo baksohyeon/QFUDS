@@ -15,4 +15,4 @@ last_updated: 2026-06-08
 
 Origin and provenance documents.
 
-- `concept_origin.md`: how the information-flow intuition became the QFUDS research question.
+- [concept_origin.md](concept_origin.md): how the information-flow intuition became the QFUDS research question.

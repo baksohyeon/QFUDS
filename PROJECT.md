@@ -34,18 +34,21 @@ These are not observational successes. They are filters before QFUDS v0.15 / Lev
 
 The current stop line — which level is active, what is complete, and what is
 blocked — is **not** restated here. It lives in the single source of truth:
-`docs/05_next_steps/000_roadmap.md`. Read the roadmap for current status before
-acting.
+[docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md). Read
+the roadmap for current status before acting.
 
 ## Status, Decisions, And Evidence
 
-`PROJECT.md` controls documentation structure, not project status. To avoid
+[PROJECT.md](PROJECT.md) controls documentation structure, not project status. To avoid
 drift, status is maintained in exactly one place and is not duplicated here:
 
 - **Current status, current level, active branch, and blockers** —
-  `docs/05_next_steps/000_roadmap.md` (single source of truth).
-- **Why decisions were made** — `docs/00_project/decision_log.md`.
-- **Experiment evidence** — `docs/03_experiments/` and `docs/04_results/`.
+  [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md)
+  (single source of truth).
+- **Why decisions were made** —
+  [docs/00_project/decision_log.md](docs/00_project/decision_log.md).
+- **Experiment evidence** — [docs/03_experiments/](docs/03_experiments/) and
+  [docs/04_results/](docs/04_results/).
 
 If anything in this file appears to assert project status, the roadmap wins and
 this file must be corrected.
@@ -54,41 +57,39 @@ this file must be corrected.
 
 Canonical active documents:
 
-```text
-PROJECT.md
-AGENTS.md
-README.md
-docs/00_project/overview.md
-docs/00_project/decision_log.md
-docs/00_project/verification_guide.md
-docs/00_project/frontmatter_convention.md
-docs/02_theory/010_qfuds_v0_1.md
-docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md
-docs/02_theory/020_qfuds_v0_2.md
-docs/02_theory/030_qfuds_v0_3.md
-docs/02_theory/040_qfuds_phenomenological_perturbations.md
-docs/03_experiments/000_exp_000_lcdm_baseline.md
-docs/03_experiments/010_exp_001_gamma_scan.md
-docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md
-docs/03_experiments/020_exp_002_entropy_information_gate.md
-docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md
-docs/04_results/000_result_000_lcdm_baseline.md
-docs/04_results/010_result_001_gamma_scan.md
-docs/04_results/015_result_001_5_phase_transfer_physicality.md
-docs/04_results/020_result_002_entropy_information_gate.md
-docs/04_results/030_result_003_phenomenological_perturbation_closure.md
-docs/05_next_steps/000_roadmap.md
-docs/05_next_steps/010_perturbation_gate.md
-```
+- [PROJECT.md](PROJECT.md)
+- [AGENTS.md](AGENTS.md)
+- [README.md](README.md)
+- [docs/00_project/overview.md](docs/00_project/overview.md)
+- [docs/00_project/decision_log.md](docs/00_project/decision_log.md)
+- [docs/00_project/verification_guide.md](docs/00_project/verification_guide.md)
+- [docs/00_project/frontmatter_convention.md](docs/00_project/frontmatter_convention.md)
+- [docs/00_project/experiment_record_convention.md](docs/00_project/experiment_record_convention.md)
+- [docs/02_theory/010_qfuds_v0_1.md](docs/02_theory/010_qfuds_v0_1.md)
+- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+- [docs/02_theory/020_qfuds_v0_2.md](docs/02_theory/020_qfuds_v0_2.md)
+- [docs/02_theory/030_qfuds_v0_3.md](docs/02_theory/030_qfuds_v0_3.md)
+- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](docs/02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/03_experiments/000_exp_000_lcdm_baseline.md](docs/03_experiments/000_exp_000_lcdm_baseline.md)
+- [docs/03_experiments/010_exp_001_gamma_scan.md](docs/03_experiments/010_exp_001_gamma_scan.md)
+- [docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md](docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md)
+- [docs/03_experiments/020_exp_002_entropy_information_gate.md](docs/03_experiments/020_exp_002_entropy_information_gate.md)
+- [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
+- [docs/04_results/000_result_000_lcdm_baseline.md](docs/04_results/000_result_000_lcdm_baseline.md)
+- [docs/04_results/000_experiment_summary.md](docs/04_results/000_experiment_summary.md)
+- [docs/04_results/010_result_001_gamma_scan.md](docs/04_results/010_result_001_gamma_scan.md)
+- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](docs/04_results/015_result_001_5_phase_transfer_physicality.md)
+- [docs/04_results/020_result_002_entropy_information_gate.md](docs/04_results/020_result_002_entropy_information_gate.md)
+- [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md)
+- [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md)
+- [docs/05_next_steps/010_perturbation_gate.md](docs/05_next_steps/010_perturbation_gate.md)
 
 Historical/provenance documents:
 
-```text
-docs/01_origin/concept_origin.md
-docs/00_project/research_program.md
-docs/00_project/qfuds_ko.md
-docs/02_theory/900_qfuds_research_report.md
-```
+- [docs/01_origin/concept_origin.md](docs/01_origin/concept_origin.md)
+- [docs/00_project/research_program.md](docs/00_project/research_program.md)
+- [docs/00_project/qfuds_ko.md](docs/00_project/qfuds_ko.md)
+- [docs/02_theory/900_qfuds_research_report.md](docs/02_theory/900_qfuds_research_report.md)
 
 ## Naming Convention
 
@@ -111,21 +112,24 @@ experiments as theory versions or theory notes as experiments.
 ## Frontmatter Convention
 
 The canonical schema, allowed values, and enforced rules live in
-`docs/00_project/frontmatter_convention.md` (SSOT) and are checked by
+[docs/00_project/frontmatter_convention.md](docs/00_project/frontmatter_convention.md)
+(SSOT) and are checked by
 `scripts/validate_docs.py`. The block below is a convenience copy; if it drifts
 from the convention document or the validator, those win.
 
-Every maintained Markdown document under `docs/` must start with YAML
-frontmatter. Active stage documents in `docs/02_theory/`,
-`docs/03_experiments/`, `docs/04_results/`, and `docs/05_next_steps/` must also
+Every maintained Markdown document under [docs/](docs/) must start with YAML
+frontmatter. Active stage documents in [docs/02_theory/](docs/02_theory/),
+[docs/03_experiments/](docs/03_experiments/),
+[docs/04_results/](docs/04_results/), and
+[docs/05_next_steps/](docs/05_next_steps/) must also
 keep their sortable filename prefix.
 
 ```yaml
 ---
 doc_id: string
 title: string
-doc_type: overview | decision_log | guide | theory_note | experiment | result | roadmap | gate | index | reference
-stage: "0" | "1" | "1.5" | "2" | "reference"
+doc_type: overview | decision_log | guide | theory_note | experiment | result | summary | postmortem | roadmap | gate | index | reference
+stage: "0" | "1" | "1.5" | "2" | "3" | "4" | "5" | "6" | "reference"
 status: draft | completed | in_progress | blocked | provenance | reference
 evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
 depends_on: []
@@ -142,7 +146,8 @@ H1/title for human-readable labels.
 
 ## What Experiment 002 Is
 
-`docs/04_results/020_result_002_entropy_information_gate.md` is not a perturbation result.
+[docs/04_results/020_result_002_entropy_information_gate.md](docs/04_results/020_result_002_entropy_information_gate.md)
+is not a perturbation result.
 
 It is a background-level entropy/information-source scan. It asks whether the phase-transfer shape can be tied to a concrete source such as horizon information, HBM/KL gravitational entropy, black-hole entropy, or Press-Schechter information production.
 
@@ -152,8 +157,9 @@ physicality question.
 
 ## What Level 1.5 Must Decide
 
-`docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md` asks whether the surviving branch is
-a physical phase-transfer hypothesis or only a phenomenological transfer law.
+[docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+asks whether the surviving branch is a physical phase-transfer hypothesis or
+only a phenomenological transfer law.
 
 Current Level 1.5 verdict:
 
@@ -168,8 +174,8 @@ The Level 2A phenomenological perturbation closure audit was run as `exp_003`.
 It was permitted to proceed without Level 1.5 because it is an explicitly
 phenomenological, gauge-declared closure audit, not a physical derivation. For
 its verdict and current status, see
-`docs/04_results/030_result_003_phenomenological_perturbation_closure.md` and the
-roadmap; do not restate the verdict here.
+[docs/04_results/030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md)
+and the roadmap; do not restate the verdict here.
 
 Physical Level 2B must not start until Level 1.5 is resolved. Once unblocked,
 Level 2B must produce new theory and experiment documents before any CLASS/CAMB
@@ -190,10 +196,12 @@ Required Level 2B outputs:
 
 No experiment is complete until it has:
 
-- a document in `docs/03_experiments/`;
-- a result in `docs/04_results/`;
+- a document in [docs/03_experiments/](docs/03_experiments/);
+- a result in [docs/04_results/](docs/04_results/);
 - a decision-log update;
-- a roadmap update.
+- a roadmap update;
+- an experiment-summary update in
+  [docs/04_results/000_experiment_summary.md](docs/04_results/000_experiment_summary.md).
 
 `exp_003` satisfied all four for Level 2A.
 
@@ -201,12 +209,10 @@ No experiment is complete until it has:
 
 The Level 2A phenomenological closure files exist and are current:
 
-```text
-docs/02_theory/040_qfuds_phenomenological_perturbations.md
-docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md
-docs/04_results/030_result_003_phenomenological_perturbation_closure.md
-docs/05_next_steps/010_perturbation_gate.md
-```
+- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](docs/02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
+- [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md)
+- [docs/05_next_steps/010_perturbation_gate.md](docs/05_next_steps/010_perturbation_gate.md)
 
 Physical Level 2B files do not exist yet because Level 1.5 is not resolved and a
 physical phase-transfer derivation has not been done. Names will be assigned when
@@ -226,8 +232,10 @@ background filters -> Level 1.5 phase-transfer physicality -> perturbation equat
 
 The README should remain a reader-facing overview. It should point to:
 
-- `PROJECT.md` for documentation control and validation order;
-- `docs/05_next_steps/000_roadmap.md` for current status, level, and blockers
-  (single source of truth);
-- `docs/00_project/decision_log.md` for research history and decisions;
-- `docs/00_project/verification_guide.md` for reproducible checks.
+- [PROJECT.md](PROJECT.md) for documentation control and validation order;
+- [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md) for
+  current status, level, and blockers (single source of truth);
+- [docs/00_project/decision_log.md](docs/00_project/decision_log.md) for
+  research history and decisions;
+- [docs/00_project/verification_guide.md](docs/00_project/verification_guide.md)
+  for reproducible checks.

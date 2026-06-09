@@ -186,8 +186,25 @@ The goal is to find the first constraint that kills the model, or to narrow any 
 
 - Current status and per-stage progress: [Roadmap](docs/05_next_steps/000_roadmap.md)
 - Decision reasons: [Decision Log](docs/00_project/decision_log.md)
+- Experiment outcomes: [Experiment Summary](docs/04_results/000_experiment_summary.md)
+- Claim/evidence traceability: [Traceability Matrix](docs/00_project/traceability_matrix.md)
+- Level 1.5 pass/fail gate: [Level 1.5 Resolution Gate](docs/05_next_steps/015_level_1_5_resolution_gate.md)
+- Reproducible checks: [Verification Guide](docs/00_project/verification_guide.md)
+- Documentation integrity rules: [Experiment Record Convention](docs/00_project/experiment_record_convention.md) and [Frontmatter Convention](docs/00_project/frontmatter_convention.md)
 
 Until the model survives CMB and structure-formation tests, it should not be read as a strong physical claim.
+
+To audit the research record from the command line:
+
+```bash
+python3 scripts/validate_docs.py
+python3 scripts/research_consistency.py
+python3 scripts/preflight_exp004.py
+```
+
+`validate_docs.py` checks metadata and required experiment/result sections.
+`research_consistency.py` checks that the roadmap remains the status authority.
+`preflight_exp004.py` checks the exp_003 record before any exp_004 planning.
 
 The validation order is:
 
@@ -410,6 +427,9 @@ Maintained research documents:
 - [overview.md](docs/00_project/overview.md): project goals, limits, and model genealogy
 - [decision_log.md](docs/00_project/decision_log.md): chronological decision record with reasons and evidence
 - [verification_guide.md](docs/00_project/verification_guide.md): how to rerun and read current validation
+- [frontmatter_convention.md](docs/00_project/frontmatter_convention.md): canonical metadata schema
+- [experiment_record_convention.md](docs/00_project/experiment_record_convention.md): experiment/result section rules, summary policy, and postmortem policy
+- [traceability_matrix.md](docs/00_project/traceability_matrix.md): bidirectional claim/evidence traceability index
 - [010_qfuds_v0_1.md](docs/02_theory/010_qfuds_v0_1.md): conceptual origin-stage theory note
 - [015_qfuds_v0_15_phase_transfer_physics.md](docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md): phase-transfer physicality audit
 - [020_qfuds_v0_2.md](docs/02_theory/020_qfuds_v0_2.md): minimal two-phase effective-fluid theory note
@@ -425,8 +445,10 @@ Maintained research documents:
 - [015_result_001_5_phase_transfer_physicality.md](docs/04_results/015_result_001_5_phase_transfer_physicality.md): physicality result
 - [020_result_002_entropy_information_gate.md](docs/04_results/020_result_002_entropy_information_gate.md): entropy/information-source provenance result
 - [030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md): perturbation-closure result
+- [000_experiment_summary.md](docs/04_results/000_experiment_summary.md): lightweight experiment conclusions and postmortem coverage
 - [000_roadmap.md](docs/05_next_steps/000_roadmap.md): validation stages, status, and blockers
 - [010_perturbation_gate.md](docs/05_next_steps/010_perturbation_gate.md): perturbation gate
+- [015_level_1_5_resolution_gate.md](docs/05_next_steps/015_level_1_5_resolution_gate.md): evidence criteria for Level 1.5 pass, fail, or demotion
 
 History/source notes:
 
@@ -453,6 +475,13 @@ Run the full preflight audit before major experiment milestones.
 
 ```bash
 make preflight
+```
+
+Install the local git pre-commit hook if you want commits to enforce the same
+documentation and regression checks:
+
+```bash
+make install-git-hooks
 ```
 
 Run the experiment 004 preflight gate.

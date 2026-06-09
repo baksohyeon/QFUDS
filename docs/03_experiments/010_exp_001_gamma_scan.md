@@ -8,7 +8,7 @@ evidence_role: proxy_scan
 depends_on:
   - exp_000_lcdm_baseline
 next_gate: Level 1.5 phase transfer physicality
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Experiment 001: Gamma-Law Background Scan
@@ -22,6 +22,12 @@ Test whether physically labeled `Gamma(a)` transfer laws can pass minimal backgr
 ### Hypothesis
 
 Transfer laws that are active during the early universe will fail by producing negative `rho_B`, excessive early dark-energy fraction, or non-LCDM-like CMB-era expansion. Transfer laws gated to low redshift may survive background checks and become candidates for perturbation-level testing.
+
+### Scope
+
+This is a background-level and scale-independent growth-proxy scan. It does not
+test perturbation stability, CMB spectra, matter power, survey likelihoods, or
+QFUDS microphysics.
 
 ### Method
 
@@ -63,6 +69,13 @@ Experiment 001 suite:
 - `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.png`
 - `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
 - `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.png`
+
+### Failure Criteria
+
+A candidate transfer law fails this scan if it produces negative physical
+densities, excessive early-universe deviation from the LCDM baseline, non-finite
+outputs, or an interpretation that is only a relabeled known model without a new
+constraint.
 
 ### Result
 

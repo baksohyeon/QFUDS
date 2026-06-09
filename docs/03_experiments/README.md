@@ -8,15 +8,19 @@ evidence_role: ssot
 depends_on:
   - exp_001_5_phase_transfer_physicality
 next_gate: keep Level 2B blocked; classify P1 continuation as phenomenological interacting vacuum
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # 03 Experiments
 
 Experiment definitions and reproducibility notes.
 
-- `000_exp_000_lcdm_baseline.md`: zero-transfer LCDM control.
-- `010_exp_001_gamma_scan.md`: experiment 001 transfer-law scan.
-- `015_exp_001_5_phase_transfer_physicality.md`: Level 1.5 physicality gate before perturbations.
-- `020_exp_002_entropy_information_gate.md`: experiment 002 entropy/information-source gate, retained as provenance rather than physical evidence.
-- `030_exp_003_phenomenological_perturbation_closure.md`: Level 2A perturbation-closure audit, not a physical derivation.
+Each experiment must follow [experiment_record_convention.md](../00_project/experiment_record_convention.md)
+and expose objective, hypothesis, scope, outputs, failure criteria, and decision
+sections.
+
+- [000_exp_000_lcdm_baseline.md](000_exp_000_lcdm_baseline.md): zero-transfer LCDM control.
+- [010_exp_001_gamma_scan.md](010_exp_001_gamma_scan.md): experiment 001 transfer-law scan.
+- [015_exp_001_5_phase_transfer_physicality.md](015_exp_001_5_phase_transfer_physicality.md): Level 1.5 physicality gate before perturbations.
+- [020_exp_002_entropy_information_gate.md](020_exp_002_entropy_information_gate.md): experiment 002 entropy/information-source gate, retained as provenance rather than physical evidence.
+- [030_exp_003_phenomenological_perturbation_closure.md](030_exp_003_phenomenological_perturbation_closure.md): Level 2A perturbation-closure audit, not a physical derivation.
