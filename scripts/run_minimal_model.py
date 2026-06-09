@@ -23,6 +23,7 @@ from qfuds import (
     integrate_background,
     integrate_growth,
     run_exp003_suite,
+    run_exp004_suite,
 )
 from qfuds.diagnostics import classify_gamma_model
 
@@ -51,6 +52,12 @@ def parse_args() -> argparse.Namespace:
         dest="exp_003_perturbation_closure",
         action="store_true",
         help="Run experiment 003: Level 2A phenomenological perturbation closure audit.",
+    )
+    parser.add_argument(
+        "--exp-004-p1-positioning",
+        dest="exp_004_p1_positioning",
+        action="store_true",
+        help="Run experiment 004: retained P1 model-family positioning and equivalence map.",
     )
     parser.add_argument("--outdir", type=Path, default=Path("outputs"))
     return parser.parse_args()
@@ -223,6 +230,12 @@ def main() -> None:
         summary = run_exp003_suite(outdir=args.outdir)
         print(f"Wrote {args.outdir / 'exp003_phenomenological_perturbation_summary.json'}")
         print(f"Experiment: {summary['experiment_id']}")
+        return
+    if args.exp_004_p1_positioning:
+        summary = run_exp004_suite(outdir=args.outdir)
+        print(f"Wrote {args.outdir / 'exp004_positioning_summary.json'}")
+        print(f"Experiment: {summary['experiment_id']}")
+        print(f"Classification: {summary['classification']['primary_outcome']}")
         return
 
     qfuds = QFUDSParams(

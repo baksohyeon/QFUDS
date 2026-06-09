@@ -30,8 +30,10 @@ Checks:
    (docs/00_project/overview.md) do not contradict the roadmap with their own
    status.
 
-6. No orphan experiment or result documents
-   Every experiment doc has a matching result doc and vice versa.
+6. No orphan completed experiment or result documents
+   Completed experiment docs have matching result docs, result docs have matching
+   experiment docs, and draft/in-progress experiment specs may exist before
+   execution.
 
 Usage:
 
@@ -165,6 +167,23 @@ def _doc_pairs() -> tuple[dict[str, Path], dict[str, Path]]:
     return experiments, results
 
 
+def _frontmatter_value(path: Path, key: str) -> str | None:
+    """Return a simple top-level frontmatter scalar value if present."""
+    text = _read(path)
+    if not text.startswith("---\n"):
+        return None
+    end = text.find("\n---\n", 4)
+    if end == -1:
+        return None
+    for line in text[4:end].splitlines():
+        if line.startswith("  ") or line.startswith("- ") or ":" not in line:
+            continue
+        found_key, value = line.split(":", 1)
+        if found_key.strip() == key:
+            return value.strip().strip('"').strip("'")
+    return None
+
+
 def check_completed_experiments_documented() -> CheckResult:
     """Each experiment/result pair must be recorded in the decision log."""
     details: list[str] = []
@@ -250,15 +269,26 @@ def check_human_facing_no_status() -> CheckResult:
 
 
 def check_no_orphan_docs() -> CheckResult:
-    """Every experiment doc has a matching result doc and vice versa."""
+    """Completed experiment docs have matching results; draft specs may wait."""
     details: list[str] = []
     experiments, results = _doc_pairs()
     exp_ids = set(experiments)
     result_ids = set(results)
 
-    orphan_experiments = sorted(exp_ids - result_ids)
+    orphan_experiments: list[str] = []
+    pending_experiments: list[str] = []
+    for exp_id in sorted(exp_ids - result_ids):
+        status = _frontmatter_value(experiments[exp_id], "status")
+        if status in {"draft", "in_progress"}:
+            pending_experiments.append(exp_id)
+        else:
+            orphan_experiments.append(exp_id)
     orphan_results = sorted(result_ids - exp_ids)
 
+    for exp_id in pending_experiments:
+        details.append(
+            f"PENDING experiment spec {experiments[exp_id].relative_to(ROOT)} has no result yet"
+        )
     for exp_id in orphan_experiments:
         details.append(
             f"ORPHAN experiment {experiments[exp_id].relative_to(ROOT)} has no matching result doc"
@@ -269,9 +299,16 @@ def check_no_orphan_docs() -> CheckResult:
         )
 
     if not orphan_experiments and not orphan_results:
-        details.append(f"OK  {len(exp_ids)} experiment/result pairs, no orphans")
+        details.append(
+            f"OK  {len(result_ids)} completed experiment/result pairs, "
+            f"{len(pending_experiments)} pending spec(s), no invalid orphans"
+        )
 
-    return CheckResult("no orphan experiment/result documents", not (orphan_experiments or orphan_results), details)
+    return CheckResult(
+        "no orphan completed experiment/result documents",
+        not (orphan_experiments or orphan_results),
+        details,
+    )
 
 
 CHECKS = (

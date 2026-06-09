@@ -1,0 +1,6 @@
+classification,comparison,deltaq_transfer,phase_b_treatment,transfer_frame
+implemented baseline,P1 retained closure,deltaQ = Q delta_A; deltaGamma = 0,exact interacting vacuum,phase-A-comoving
+closure_equivalent within Level 2A,Geodesic-CDM interacting vacuum,maps to the declared P1 phase-A-frame closure at this audit level,interacting vacuum,CDM/phase-A frame
+generic_IDE_subset_mapping,Generic time-dependent IDE,not independent unless a distinct closure is supplied,vacuum or non-vacuum DE must be declared,must be declared
+unresolved,Alternate momentum-transfer frame,not implemented,declared by baseline,non-phase-A frame
+background_degenerate only,Effective non-interacting w(a) reconstruction,no physical transfer perturbation,non-interacting effective dark energy,none

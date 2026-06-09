@@ -1,0 +1,6 @@
+any_unstable,classification,delta_a_rms_rel_error_max_over_k,f_max_abs_error,h_max_abs_error,label,rho_a_max_rel_error,rho_b_max_rel_error,run_id,same_stability_flags,w_dark_max_abs_error
+False,parameterization_difference,0.02030665686413365,0.005558517752847769,0.01186634316069135,LCDM / Gamma(a)=0,0.028157349552091687,1.8620700268777473,R0,True,0.006434516342728944
+False,exact_equivalence,0.0,0.0,0.0,retained P1,0.0,0.0,R1,True,0.0
+False,exact_equivalence,0.0,0.0,0.0,interacting vacuum with xi(a)=Gamma(a),0.0,0.0,R2,True,0.0
+False,parameterization_difference,0.006611471922836414,0.004483622801119691,0.008772301283288542,constant-coupling IDE/interacting vacuum matched by integrated transfer,0.021657235189682898,1174630373.8341823,R4,True,0.005331849497254383
+False,parameterization_difference,0.001291321688374798,0.0025467568917704186,0.0029338699647172284,power-law Gamma(a) matched by least-squares transfer shape,0.009271832518249142,50728.38715619828,R5,True,0.003594902659804944

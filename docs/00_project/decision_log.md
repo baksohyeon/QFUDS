@@ -218,3 +218,24 @@ No new physical-QFUDS branch should be opened unless it provides, at minimum:
 
 Evidence:
 [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), [docs/05_next_steps/015_level_1_5_resolution_gate.md](../05_next_steps/015_level_1_5_resolution_gate.md), [docs/02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](../02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md), [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md), [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md), [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), `qfuds/gamma_laws.py`
+
+## 2026-06-09
+
+Decision:
+Classify retained P1 as an exact interacting-vacuum instance and a subset of
+generic time-dependent interacting dark energy under `xi(a)=Gamma(a)`.
+
+Reason:
+Experiment 004 compared retained P1 against LCDM, the direct interacting-vacuum
+mapping, generic time-dependent IDE, constant-coupling transfer, power-law
+transfer, and an effective non-interacting `w(a)` reconstruction. The direct
+interacting-vacuum mapping has zero background, transfer, growth, and Level 2A
+P1 perturbation differences. Generic IDE is a broader analytic family, not an
+independent numerical baseline unless a distinct IDE closure is supplied.
+Constant and power-law transfer baselines do not reproduce the retained transfer
+shape within the predeclared thresholds, so their differences are
+parameterization differences, not physical distinctions. The effective `w(a)`
+route is background-degenerate only and has no transfer perturbation.
+
+Evidence:
+[docs/03_experiments/030_exp_004_p1_model_family_positioning.md](../03_experiments/030_exp_004_p1_model_family_positioning.md), [docs/04_results/030_result_004_p1_model_family_positioning.md](../04_results/030_result_004_p1_model_family_positioning.md), `outputs/exp004_positioning_summary.json`, `outputs/exp004_baseline_comparison.csv`, `outputs/exp004_closure_frame_mapping.csv`, `qfuds/positioning.py`

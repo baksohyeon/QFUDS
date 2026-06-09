@@ -84,6 +84,7 @@ Reproducible experiment definitions.
 - [015_exp_001_5_phase_transfer_physicality.md](03_experiments/015_exp_001_5_phase_transfer_physicality.md)
 - [020_exp_002_entropy_information_gate.md](03_experiments/020_exp_002_entropy_information_gate.md)
 - [030_exp_003_phenomenological_perturbation_closure.md](03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
+- [030_exp_004_p1_model_family_positioning.md](03_experiments/030_exp_004_p1_model_family_positioning.md)
 
 ## 04 Results
 
@@ -95,6 +96,7 @@ Experiment reports, diagnostic results, and hostile-referee conclusions.
 - [015_result_001_5_phase_transfer_physicality.md](04_results/015_result_001_5_phase_transfer_physicality.md)
 - [020_result_002_entropy_information_gate.md](04_results/020_result_002_entropy_information_gate.md)
 - [030_result_003_phenomenological_perturbation_closure.md](04_results/030_result_003_phenomenological_perturbation_closure.md)
+- [030_result_004_p1_model_family_positioning.md](04_results/030_result_004_p1_model_family_positioning.md)
 
 ## 05 Next Steps
 

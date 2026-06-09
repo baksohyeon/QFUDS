@@ -1,0 +1,221 @@
+{
+  "baseline_comparison": [
+    {
+      "any_unstable": false,
+      "classification": "parameterization_difference",
+      "delta_a_rms_rel_error_max_over_k": 0.02030665686413365,
+      "exact_mapping": false,
+      "f_max_abs_error": 0.005558517752847769,
+      "gamma_max_error": 1.0,
+      "gamma_rms_error": 0.6634842481443832,
+      "h_max_abs_error": 0.01186634316069135,
+      "has_perturbations": true,
+      "label": "LCDM / Gamma(a)=0",
+      "note": "LCDM null limit.",
+      "rho_a_max_rel_error": 0.028157349552091687,
+      "rho_b_max_rel_error": 1.8620700268777473,
+      "run_id": "R0",
+      "same_stability_flags": true,
+      "status": "implemented",
+      "w_dark_max_abs_error": 0.006434516342728944
+    },
+    {
+      "any_unstable": false,
+      "classification": "exact_equivalence",
+      "delta_a_rms_rel_error_max_over_k": 0.0,
+      "exact_mapping": true,
+      "f_max_abs_error": 0.0,
+      "gamma_max_error": 0.0,
+      "gamma_rms_error": 0.0,
+      "h_max_abs_error": 0.0,
+      "has_perturbations": true,
+      "label": "retained P1",
+      "note": "Retained P1 reference.",
+      "rho_a_max_rel_error": 0.0,
+      "rho_b_max_rel_error": 0.0,
+      "run_id": "R1",
+      "same_stability_flags": true,
+      "status": "implemented",
+      "w_dark_max_abs_error": 0.0
+    },
+    {
+      "any_unstable": false,
+      "classification": "exact_equivalence",
+      "delta_a_rms_rel_error_max_over_k": 0.0,
+      "exact_mapping": true,
+      "f_max_abs_error": 0.0,
+      "gamma_max_error": 0.0,
+      "gamma_rms_error": 0.0,
+      "h_max_abs_error": 0.0,
+      "has_perturbations": true,
+      "label": "interacting vacuum with xi(a)=Gamma(a)",
+      "note": "Same background and Level 2A P1 vacuum closure as retained P1.",
+      "rho_a_max_rel_error": 0.0,
+      "rho_b_max_rel_error": 0.0,
+      "run_id": "R2",
+      "same_stability_flags": true,
+      "status": "implemented_exact_mapping",
+      "w_dark_max_abs_error": 0.0
+    },
+    {
+      "classification": "generic_IDE_subset_mapping",
+      "exact_mapping": true,
+      "has_perturbations": false,
+      "label": "generic time-dependent IDE with xi(a)=Gamma(a)",
+      "note": "Not an independent numerical baseline without a distinct IDE closure.",
+      "run_id": "R3",
+      "status": "analytic_subset_mapping"
+    },
+    {
+      "any_unstable": false,
+      "classification": "parameterization_difference",
+      "delta_a_rms_rel_error_max_over_k": 0.006611471922836414,
+      "exact_mapping": false,
+      "f_max_abs_error": 0.004483622801119691,
+      "gamma_max_error": 0.8449474766939936,
+      "gamma_rms_error": 0.5359559127342558,
+      "h_max_abs_error": 0.008772301283288542,
+      "has_perturbations": true,
+      "label": "constant-coupling IDE/interacting vacuum matched by integrated transfer",
+      "note": "constant gamma0=0.00310100482635 matched to retained P1 integrated transfer.",
+      "rho_a_max_rel_error": 0.021657235189682898,
+      "rho_b_max_rel_error": 1174630373.8341823,
+      "run_id": "R4",
+      "same_stability_flags": true,
+      "status": "implemented",
+      "w_dark_max_abs_error": 0.005331849497254383
+    },
+    {
+      "any_unstable": false,
+      "classification": "parameterization_difference",
+      "delta_a_rms_rel_error_max_over_k": 0.001291321688374798,
+      "exact_mapping": false,
+      "f_max_abs_error": 0.0025467568917704186,
+      "gamma_max_error": 1.6280293294922958,
+      "gamma_rms_error": 0.5559232656913536,
+      "h_max_abs_error": 0.0029338699647172284,
+      "has_perturbations": true,
+      "label": "power-law Gamma(a) matched by least-squares transfer shape",
+      "note": "powerlaw gamma0=0.0395961994033, beta=1.43859736826 fit over retained P1 support.",
+      "rho_a_max_rel_error": 0.009271832518249142,
+      "rho_b_max_rel_error": 50728.38715619828,
+      "run_id": "R5",
+      "same_stability_flags": true,
+      "status": "implemented",
+      "w_dark_max_abs_error": 0.003594902659804944
+    },
+    {
+      "background_reconstruction_max_abs_e2_error": 0.0001220703125,
+      "classification": "background_degenerate",
+      "exact_mapping": true,
+      "has_perturbations": false,
+      "label": "effective non-interacting w(a) reconstruction",
+      "note": "Matches P1 background expansion by construction; no transfer perturbations.",
+      "positive_rho_de_eff_all": true,
+      "run_id": "R6",
+      "status": "background_reconstruction"
+    }
+  ],
+  "classification": {
+    "closest_model_family": "interacting vacuum; subset of time-dependent IDE",
+    "physical_difference": false,
+    "primary_outcome": "exact_interacting_vacuum_instance",
+    "remaining_differences": "parameterization-only for the retained source-shaped Gamma(a) within Level 2A; alternate frames unresolved",
+    "secondary_outcome": "generic_IDE_equivalent under xi(a)=Gamma(a)"
+  },
+  "closure_frame_mapping": [
+    {
+      "classification": "implemented baseline",
+      "comparison": "P1 retained closure",
+      "deltaq_transfer": "deltaQ = Q delta_A; deltaGamma = 0",
+      "phase_b_treatment": "exact interacting vacuum",
+      "transfer_frame": "phase-A-comoving"
+    },
+    {
+      "classification": "closure_equivalent within Level 2A",
+      "comparison": "Geodesic-CDM interacting vacuum",
+      "deltaq_transfer": "maps to the declared P1 phase-A-frame closure at this audit level",
+      "phase_b_treatment": "interacting vacuum",
+      "transfer_frame": "CDM/phase-A frame"
+    },
+    {
+      "classification": "generic_IDE_subset_mapping",
+      "comparison": "Generic time-dependent IDE",
+      "deltaq_transfer": "not independent unless a distinct closure is supplied",
+      "phase_b_treatment": "vacuum or non-vacuum DE must be declared",
+      "transfer_frame": "must be declared"
+    },
+    {
+      "classification": "unresolved",
+      "comparison": "Alternate momentum-transfer frame",
+      "deltaq_transfer": "not implemented",
+      "phase_b_treatment": "declared by baseline",
+      "transfer_frame": "non-phase-A frame"
+    },
+    {
+      "classification": "background_degenerate only",
+      "comparison": "Effective non-interacting w(a) reconstruction",
+      "deltaq_transfer": "no physical transfer perturbation",
+      "phase_b_treatment": "non-interacting effective dark energy",
+      "transfer_frame": "none"
+    }
+  ],
+  "experiment_id": "exp_004",
+  "fit_parameters": {
+    "R4_constant_gamma0": 0.003101004826353231,
+    "R5_powerlaw_beta": 1.4385973682618156,
+    "R5_powerlaw_gamma0": 0.039596199403330284
+  },
+  "outputs": [
+    "outputs/exp004_baseline_comparison.csv",
+    "outputs/exp004_background_equivalence.csv",
+    "outputs/exp004_transfer_reconstruction.csv",
+    "outputs/exp004_closure_frame_mapping.csv",
+    "outputs/exp004_reduction_limits.csv",
+    "outputs/exp004_positioning_summary.json",
+    "outputs/exp004_R6_effective_w_reconstruction.csv",
+    "outputs/exp004_R0_background_growth.csv",
+    "outputs/exp004_R1_background_growth.csv",
+    "outputs/exp004_R2_background_growth.csv",
+    "outputs/exp004_R4_background_growth.csv",
+    "outputs/exp004_R5_background_growth.csv",
+    "outputs/exp004_R0_p1_perturbations.csv",
+    "outputs/exp004_R1_p1_perturbations.csv",
+    "outputs/exp004_R2_p1_perturbations.csv",
+    "outputs/exp004_R4_p1_perturbations.csv",
+    "outputs/exp004_R5_p1_perturbations.csv"
+  ],
+  "reduction_limits": [
+    {
+      "classification": "LCDM null limit",
+      "evidence": "R0",
+      "limit": "Gamma(a) -> 0"
+    },
+    {
+      "classification": "constant-coupling IDE/interacting-vacuum limit; not approximately equivalent to retained P1 at matched integrated transfer",
+      "evidence": "R4",
+      "limit": "Gamma(a) = const"
+    },
+    {
+      "classification": "generic time-dependent IDE/interacting-vacuum model",
+      "evidence": "R3 analytic mapping",
+      "limit": "arbitrary Gamma(a)"
+    },
+    {
+      "classification": "direct interacting-vacuum/IDE subset mapping",
+      "evidence": "R2/R3",
+      "limit": "xi(a) = Gamma(a)"
+    },
+    {
+      "classification": "interacting vacuum in phase-A/geodesic frame",
+      "evidence": "P1 closure",
+      "limit": "w_B = -1 with transfer along u_A^mu"
+    },
+    {
+      "classification": "effective non-interacting w(a) degeneracy at background level",
+      "evidence": "R6",
+      "limit": "background-only H(a) matching"
+    }
+  ],
+  "title": "Retained P1 Model-Family Positioning and Equivalence Map"
+}

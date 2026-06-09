@@ -7,7 +7,7 @@ status: in_progress
 evidence_role: ssot
 depends_on:
   - exp_001_5_phase_transfer_physicality
-next_gate: keep Level 2B blocked; classify P1 continuation as phenomenological interacting vacuum
+next_gate: keep Level 2B blocked; classify retained P1 within known model families
 last_updated: 2026-06-09
 ---
 
@@ -24,3 +24,4 @@ sections.
 - [015_exp_001_5_phase_transfer_physicality.md](015_exp_001_5_phase_transfer_physicality.md): Level 1.5 physicality gate before perturbations.
 - [020_exp_002_entropy_information_gate.md](020_exp_002_entropy_information_gate.md): experiment 002 entropy/information-source gate, retained as provenance rather than physical evidence.
 - [030_exp_003_phenomenological_perturbation_closure.md](030_exp_003_phenomenological_perturbation_closure.md): Level 2A perturbation-closure audit, not a physical derivation.
+- [030_exp_004_p1_model_family_positioning.md](030_exp_004_p1_model_family_positioning.md): retained P1 model-family positioning and equivalence map.
