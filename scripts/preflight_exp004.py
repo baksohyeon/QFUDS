@@ -42,6 +42,12 @@ DOCS_INDEX = DOCS / "README.md"
 # Files that are indexes, not "active docs" that must themselves be indexed.
 INDEX_FILENAMES = {"README.md"}
 
+# Reference-cache records are locally indexed under docs/research/. The top-level
+# docs index should link only the cache entry point, not every paper record.
+LOCAL_INDEXED_DIRS = {
+    DOCS / "research",
+}
+
 # Output references are extracted with this pattern (relative to repo root).
 OUTPUT_REF = re.compile(r"outputs/[\w./-]+?\.(?:csv|json|png|svg)")
 
@@ -205,6 +211,8 @@ def check_docs_index_complete() -> CheckResult:
     missing: list[str] = []
     for path in sorted(DOCS.rglob("*.md")):
         if path == DOCS_INDEX or path.name in INDEX_FILENAMES:
+            continue
+        if any(path.is_relative_to(local_dir) for local_dir in LOCAL_INDEXED_DIRS):
             continue
         rel_to_docs = path.relative_to(DOCS).as_posix()
         # Accept either the docs-relative path or the bare filename in the index.

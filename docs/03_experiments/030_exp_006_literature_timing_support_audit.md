@@ -3,12 +3,12 @@ doc_id: exp_006_literature_timing_support_audit
 title: "Experiment 006: Literature Timing-Support Audit"
 doc_type: experiment
 stage: "2"
-status: draft
+status: completed
 evidence_role: audit
 depends_on:
   - result_005_timing_prior_usefulness
   - result_004_p1_model_family_positioning
-next_gate: table-level literature audit before using retained timing as an IV/IDE prior
+next_gate: result 006 classifies retained timing as allowed but not informative at table level
 last_updated: 2026-06-09
 ---
 
