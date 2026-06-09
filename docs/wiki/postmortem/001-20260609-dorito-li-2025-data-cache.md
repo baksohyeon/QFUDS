@@ -40,17 +40,17 @@ audit_log:
     note: "Added verbatim user prompt trail because the search direction changed through user judgment, not only agent initiative."
 tags: [postmortem, li-2025, data-products, digitization, exp006]
 relations:
-  - docs/research/audits/2026-06-09_li_2025_public_product_search_audit.md
-  - docs/research/audits/2026-06-09_li_2025_timing_overlap_matrix_plan.md
-  - docs/research/literature/li_2025_desi_dr2_sign_reversal_ide.md
-  - docs/research/assets/figures/li_2025/README.md
-  - docs/research/assets/digitization/li_2025/README.md
+  - docs/wiki/research/audits/2026-06-09_li_2025_public_product_search_audit.md
+  - docs/wiki/research/audits/2026-06-09_li_2025_timing_overlap_matrix_plan.md
+  - docs/wiki/research/literature/li_2025_desi_dr2_sign_reversal_ide.md
+  - docs/wiki/research/assets/figures/li_2025/README.md
+  - docs/wiki/research/assets/digitization/li_2025/README.md
 code_refs:
-  - file: docs/research/audits/2026-06-09_li_2025_public_product_search_audit.md
+  - file: docs/wiki/research/audits/2026-06-09_li_2025_public_product_search_audit.md
     note: "Public numerical-product availability search record."
-  - file: docs/research/assets/figures/li_2025/README.md
+  - file: docs/wiki/research/assets/figures/li_2025/README.md
     note: "Cached arXiv source package, extracted source files, and full paper PDF manifest."
-  - file: docs/research/assets/digitization/li_2025/README.md
+  - file: docs/wiki/research/assets/digitization/li_2025/README.md
     note: "High-resolution PNG render manifest for future digitization."
 ---
 
@@ -354,7 +354,7 @@ rtk strings /private/tmp/qfuds_2506_18477_src/fig_reconstruct.pdf \
 자료가 numerical product는 아니더라도, figure-level product는 다음 분석의 입력이 된다. 그래서 local cache를 만들었다.
 
 ```text
-docs/research/assets/figures/li_2025/
+docs/wiki/research/assets/figures/li_2025/
 ```
 
 현재 구조:
@@ -381,13 +381,13 @@ source/extracted/jcappub.sty
 
 ```bash
 qlmanage -t -s 2400 -o /private/tmp/qfuds_li2025_ql_all \
-  docs/research/assets/figures/li_2025/source/extracted/fig_reconstruct.pdf \
-  docs/research/assets/figures/li_2025/source/extracted/fig_bayes_data.pdf \
-  docs/research/assets/figures/li_2025/source/extracted/fig_evals.pdf \
-  docs/research/assets/figures/li_2025/source/extracted/fig_pc.pdf \
-  docs/research/assets/figures/li_2025/source/extracted/fig_mock_lcdm.pdf \
-  docs/research/assets/figures/li_2025/source/extracted/fig_bin30.pdf \
-  docs/research/assets/figures/li_2025/source/extracted/fig_zmax.pdf
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_reconstruct.pdf \
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_bayes_data.pdf \
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_evals.pdf \
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_pc.pdf \
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_mock_lcdm.pdf \
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_bin30.pdf \
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_zmax.pdf
 ```
 
 핵심 출력:
@@ -406,7 +406,7 @@ Done producing thumbnails
 출력 이미지 확인:
 
 ```bash
-rtk file docs/research/assets/digitization/li_2025/*.png
+rtk file docs/wiki/research/assets/digitization/li_2025/*.png
 ```
 
 핵심 출력:
@@ -553,10 +553,10 @@ retained timing peak/weighted-mean 부근에 data-supported beta(z) structure가
 - 사용자가 `tar 파일같은거 없냐?`라고 지적하면서 nested archive/data-like file 가능성을 별도로 확인했다.
 - numerical product는 찾지 못했지만 figure PDFs와 TeX source를 확인했다.
 - 사용자가 `pdf 가 존나 중요해보이는데`라고 짚으면서 figure PDF를 future digitization input으로 분류했다.
-- `docs/research/assets/figures/li_2025/`에 source bundle, extracted files, full paper PDF를 캐싱했다.
+- `docs/wiki/research/assets/figures/li_2025/`에 source bundle, extracted files, full paper PDF를 캐싱했다.
 - 사용자가 `docs/research/assets 가 존재함`과 `source 는 tar 도 드가야되는거아니녀?`라고 지적하면서 asset tree 구조를 repo convention에 맞게 재정리했다.
 - 사용자가 `고해상도 필요해`라고 지적하면서 낮은 해상도 변환을 버리고 `qlmanage -t -s 2400` 고해상도 렌더로 전환했다.
-- `docs/research/assets/digitization/li_2025/`에 고해상도 PNG 7개와 figure map을 추가했다.
+- `docs/wiki/research/assets/digitization/li_2025/`에 고해상도 PNG 7개와 figure map을 추가했다.
 - Li & Zhang reconstruction과 Exp005 retained timing profile의 qualitative overlap을 분석했다.
 - 회고상 핵심 판단을 정리했다: 이 작업은 QFUDS 지지가 아니라, retained structure-era timing intuition이 DESI-era IDE reconstruction feature와 비교 가능한 질문으로 올라간 사건이다.
 
@@ -650,7 +650,7 @@ rtk strings /private/tmp/qfuds_2506_18477_src/fig_reconstruct.pdf \
 
 ```bash
 qlmanage -t -s 2400 -o /private/tmp/qfuds_li2025_ql_all \
-  docs/research/assets/figures/li_2025/source/extracted/fig_reconstruct.pdf
+  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_reconstruct.pdf
 ```
 
 일반 의미:

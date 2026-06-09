@@ -27,7 +27,7 @@ QFUDS conclusions.
 ## Directory Layout
 
 ```text
-docs/research/
+docs/wiki/research/
   literature/
   audits/
   assets/
@@ -39,6 +39,7 @@ docs/research/
 
 - [Literature Cache](literature/README.md)
 - [Availability Audits](audits/README.md)
+- [IV/IDE Timing Korean Synthesis](2026-06-09_iv_ide_timing_synthesis_ko.md)
 
 ## Rules
 
