@@ -1,0 +1,7 @@
+classification,evidence,limit
+LCDM null limit,R0,Gamma(a) -> 0
+constant-coupling IDE/interacting-vacuum limit; not approximately equivalent to retained P1 at matched integrated transfer,R4,Gamma(a) = const
+generic time-dependent IDE/interacting-vacuum model,R3 analytic mapping,arbitrary Gamma(a)
+direct interacting-vacuum/IDE subset mapping,R2/R3,xi(a) = Gamma(a)
+interacting vacuum in phase-A/geodesic frame,P1 closure,w_B = -1 with transfer along u_A^mu
+effective non-interacting w(a) degeneracy at background level,R6,background-only H(a) matching

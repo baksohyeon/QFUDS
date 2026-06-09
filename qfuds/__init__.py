@@ -10,6 +10,7 @@ from .perturbations import (
     integrate_phenomenological_perturbations,
     run_exp003_suite,
 )
+from .positioning import run_exp004_suite
 
 __all__ = [
     "CosmologyParams",
@@ -23,4 +24,5 @@ __all__ = [
     "integrate_phenomenological_perturbations",
     "integrate_growth",
     "run_exp003_suite",
+    "run_exp004_suite",
 ]
