@@ -68,3 +68,12 @@ The `index.csv` `evidence_level` column is a routing label only:
 - `historical`: background precedent or older reconstruction family.
 
 Use [index.csv](index.csv) to find individual literature records.
+
+## Coverage Expansion Records
+
+- [Li 2025 DESI DR2 Sign-Reversal IDE](li_2025_desi_dr2_sign_reversal_ide.md)
+- [Silva 2025 DESI DR2 IDE and S-IDE](silva_2025_desi_dr2_ide_s_ide.md)
+- [You 2025 DESI DR2 Coupled Dark Sector](you_2025_desi_dr2_coupled_dark_sector.md)
+- [Tsedrik 2025 BOSS DES Y3 Dark Scattering](tsedrik_2025_boss_des_y3_dark_scattering.md)
+- [Figueruelo 2026 DESI DR2 Linear Nonlinear IDE](figueruelo_2026_desi_dr2_linear_nonlinear_ide.md)
+- [Silva 2024 Nonlinear Matter Power IDE](silva_2024_nonlinear_matter_power_ide.md)
