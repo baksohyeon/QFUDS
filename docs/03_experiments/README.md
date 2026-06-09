@@ -26,3 +26,4 @@ sections.
 - [030_exp_003_phenomenological_perturbation_closure.md](030_exp_003_phenomenological_perturbation_closure.md): Level 2A perturbation-closure audit, not a physical derivation.
 - [030_exp_004_p1_model_family_positioning.md](030_exp_004_p1_model_family_positioning.md): retained P1 model-family positioning and equivalence map.
 - [030_exp_005_timing_prior_usefulness.md](030_exp_005_timing_prior_usefulness.md): timing-prior usefulness and redundancy audit inside IV/IDE phenomenology.
+- [030_exp_006_literature_timing_support_audit.md](030_exp_006_literature_timing_support_audit.md): table-level literature timing-support audit against reconstructed or tomographic IV/IDE products.

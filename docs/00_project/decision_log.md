@@ -259,3 +259,24 @@ histories if future reconstructions prefer similar support.
 
 Evidence:
 [docs/03_experiments/030_exp_005_timing_prior_usefulness.md](../03_experiments/030_exp_005_timing_prior_usefulness.md), [docs/04_results/030_result_005_timing_prior_usefulness.md](../04_results/030_result_005_timing_prior_usefulness.md), `outputs/exp005_timing_prior_summary.json`, `outputs/exp005_timing_family_comparison.csv`, `outputs/exp005_timing_fingerprint.csv`, `outputs/figures/exp005_timing_family_errors.png`, `qfuds/timing_prior.py`
+
+## 2026-06-09
+
+Decision:
+Classify retained `Gamma(a)` timing as `allowed_but_not_informative` against
+the inspected table-level literature products.
+
+Reason:
+Experiment 006 used Escamilla et al. 2023 as the primary IV/IDE kernel target,
+Goh et al. 2023 as a secondary scalar-field CDE proxy, and left Bonilla et al.
+2022 optional because no table-level coupling history was available without
+author data or digitization. Escamilla's GP nodes overlap the retained weighted
+mean and peak regions, and the paper reports a weak structure-era feature near
+`z ~ 2.3`, but the relevant `Pi_DE` table constraints are broad,
+zero-compatible, or unconstrained. The high-redshift shoulder is not tested
+because `Pi_5` is unconstrained in all Escamilla cases. Goh does not contradict
+the broad timing allowance, but it is only a proxy and cannot promote the
+conclusion.
+
+Evidence:
+[docs/03_experiments/030_exp_006_literature_timing_support_audit.md](../03_experiments/030_exp_006_literature_timing_support_audit.md), [docs/04_results/030_result_006_literature_timing_support_audit.md](../04_results/030_result_006_literature_timing_support_audit.md), `outputs/exp006_literature_target_feasibility.csv`, `outputs/exp006_literature_timing_support_matrix.csv`, `outputs/exp006_literature_classification.json`

@@ -8,10 +8,11 @@ evidence_role: ssot
 depends_on:
   - result_001_5_phase_transfer_physicality
   - result_005_timing_prior_usefulness
+  - result_006_literature_timing_support_audit
   - qfuds_level_1_5_equivalence_source_perturbation_audit
   - qfuds_level_1_5_transfer_four_vector_derivation_attempt
   - qfuds_strong_gravity_source_mechanism_audit
-next_gate: retained branch demoted; future physical-QFUDS branches must pass the admission rule before Level 2B
+next_gate: retained branch demoted; retained timing allowed but not informative as an IV/IDE prior
 last_updated: 2026-06-09
 ---
 
@@ -47,10 +48,12 @@ Date: 2026-06-09
 4. Treat the P1 interacting-vacuum closure as Level 2A phenomenology only.
 5. Do not open a new physical-QFUDS branch unless it satisfies the future-branch admission rule below.
 6. Do not advance to physical Level 2B without a physical transfer derivation.
-7. If continuing the phenomenological IV/IDE track, treat retained
-   structure-era timing only as a possible prior-compression target and compare
-   it against actual reconstructed or tomographic IV/IDE coupling histories
-   before using it as a prior.
+7. If continuing the phenomenological IV/IDE track, do not use retained
+   structure-era timing as an informative prior from the current table-level
+   literature audit alone. Experiment 006 found it allowed by Escamilla 2023
+   table products but not informative; stronger posterior products,
+   digitization with uncertainty, or a likelihood-level prior test would be
+   required.
 
 Do not treat Level 2A as derived QFUDS physics. Do not start Level 2B, CLASS/CAMB,
 CMB, matter-power, or survey-likelihood claims until the relevant upstream gate
@@ -64,6 +67,7 @@ is satisfied.
 | `exp_001` | Gamma-law background scan | constant and ungated growth-driven laws rejected |
 | `exp_002` | entropy/information-source gate | demoted to provenance; retained shape failed Level 1.5 physical promotion and remains phenomenological |
 | `exp_005` | timing-prior usefulness audit | retained timing is a possible IV/IDE prior-compression target, not a physical source or new model family |
+| `exp_006` | literature timing-support audit | retained timing is allowed by Escamilla 2023 table-level products but not informative enough for prior use |
 
 ## Blockers
 
@@ -73,6 +77,8 @@ is satisfied.
 4. No physical Level 2B perturbation closure relation exists.
 5. No Boltzmann-code interface exists.
 6. No likelihood comparison against CMB, BAO, SN, or matter power data exists.
+7. No posterior-product, digitized-uncertainty, or likelihood-level evidence
+   currently supports retained timing as an informative IV/IDE prior.
 
 ## Rule For New Ideas
 

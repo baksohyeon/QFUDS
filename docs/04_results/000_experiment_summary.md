@@ -13,6 +13,7 @@ depends_on:
   - result_003_phenomenological_perturbation_closure
   - result_004_p1_model_family_positioning
   - result_005_timing_prior_usefulness
+  - result_006_literature_timing_support_audit
 next_gate: retained branch demoted; use roadmap for current status
 last_updated: 2026-06-09
 ---
@@ -43,6 +44,7 @@ likelihoods.
 | `exp_003` | Level 2A phenomenological perturbation stability | P1 interacting-vacuum vs P2 regularized-fluid closure | `outputs/exp003_stability_diagnostics.csv`, `outputs/figures/exp003_stability_summary.png`, [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](030_result_003_phenomenological_perturbation_closure.md) | P2 fails at retained amplitude; P1 remains stable only as phenomenological interacting vacuum | non-novel Level 2A phenomenology | physical Level 2B remains blocked |
 | `exp_004` | Level 2A positioning/classification | retained P1 model-family map | `outputs/exp004_positioning_summary.json`, `outputs/figures/exp004_gamma_shape_comparison.png`, [docs/04_results/030_result_004_p1_model_family_positioning.md](030_result_004_p1_model_family_positioning.md) | P1 is an exact interacting-vacuum instance and a time-dependent IDE subset; simple transfer-shape baselines differ by parameterization | phenomenological positioning result, not physical QFUDS | use interacting-vacuum / IDE literature as the comparison class |
 | `exp_005` | Level 2A timing-prior usefulness audit | retained normalized `Gamma(a)` timing shape | `outputs/exp005_timing_prior_summary.json`, `outputs/figures/exp005_timing_family_errors.png`, [docs/04_results/030_result_005_timing_prior_usefulness.md](030_result_005_timing_prior_usefulness.md) | retained timing is a potential IV/IDE prior-compression target; flexible reconstruction matches better than compact pulse families | phenomenological timing-prior audit, not physical QFUDS | compare against actual IV/IDE reconstructed or tomographic timing histories before using as a prior |
+| `exp_006` | Level 2A literature timing-support audit | actual reconstructed or tomographic IV/IDE timing products | `outputs/exp006_literature_classification.json`, `outputs/exp006_literature_timing_support_matrix.csv`, [docs/04_results/030_result_006_literature_timing_support_audit.md](030_result_006_literature_timing_support_audit.md) | Escamilla 2023 allows retained structure-era timing but table constraints are broad, zero-compatible, or unconstrained | allowed but not informative; not physical QFUDS | do not use retained timing as an informative prior without posterior products, digitized uncertainty, or a likelihood-level test |
 
 ## Visual Evidence Index
 
@@ -88,6 +90,10 @@ decision pressure visible.
 9. This demotion rejects only the current retained source relation as a physical
    derivation. It does not falsify the broader DM-to-DE phase-transition
    hypothesis or all future physical QFUDS variants.
+10. Experiment 006 classifies retained timing as allowed by table-level
+    literature products but not informative enough for prior use. Escamilla
+    2023 overlaps the retained structure-era window, but the relevant
+    constraints are broad, zero-compatible, or unconstrained.
 
 ## Postmortem Coverage
 

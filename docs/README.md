@@ -87,6 +87,7 @@ Reproducible experiment definitions.
 - [030_exp_003_phenomenological_perturbation_closure.md](03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
 - [030_exp_004_p1_model_family_positioning.md](03_experiments/030_exp_004_p1_model_family_positioning.md)
 - [030_exp_005_timing_prior_usefulness.md](03_experiments/030_exp_005_timing_prior_usefulness.md)
+- [030_exp_006_literature_timing_support_audit.md](03_experiments/030_exp_006_literature_timing_support_audit.md)
 
 ## 04 Results
 
@@ -100,6 +101,7 @@ Experiment reports, diagnostic results, and hostile-referee conclusions.
 - [030_result_003_phenomenological_perturbation_closure.md](04_results/030_result_003_phenomenological_perturbation_closure.md)
 - [030_result_004_p1_model_family_positioning.md](04_results/030_result_004_p1_model_family_positioning.md)
 - [030_result_005_timing_prior_usefulness.md](04_results/030_result_005_timing_prior_usefulness.md)
+- [030_result_006_literature_timing_support_audit.md](04_results/030_result_006_literature_timing_support_audit.md)
 
 ## 05 Next Steps
 
@@ -111,3 +113,10 @@ Current validation roadmap and blockers.
 - [015_retained_branch_source_closure_plan_provenance.md](05_next_steps/015_retained_branch_source_closure_plan_provenance.md) - provenance planning gate superseded by the retained-branch demotion
 - [030_exp003_record_consistency_gate.md](05_next_steps/030_exp003_record_consistency_gate.md) - exp_003 record consistency gate
 - [900_roadmap_overview_ko.md](05_next_steps/900_roadmap_overview_ko.md) - Korean guide to roadmap trajectory and branch outcomes
+
+## Research Cache
+
+Raw literature records and dated availability audits. These are reference
+records only, not experiment conclusions.
+
+- [Research Cache](research/README.md)

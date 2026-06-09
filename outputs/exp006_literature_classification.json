@@ -1,0 +1,49 @@
+{
+  "experiment_id": "exp_006",
+  "title": "Literature Timing-Support Audit",
+  "date": "2026-06-09",
+  "scope": "coarse table-level timing-support audit only",
+  "classification": "allowed_but_not_informative",
+  "classification_reason": "Escamilla et al. 2023 overlaps the retained structure-era timing window and reports a weak GP feature near z~2.3, but the table-level constraints near the retained peak are broad and zero-compatible, the binned peak-region values are unconstrained, and Pi_5 is unconstrained where the retained high-z shoulder would be tested.",
+  "primary_target": {
+    "paper": "Escamilla et al. 2023",
+    "variable": "Pi_DE(z)",
+    "usable_at_table_level": true,
+    "primary_findings": [
+      "GP nodes cover z=0.0, 0.75, 1.5, 2.25, 3.0.",
+      "The retained weighted-mean and peak regions overlap GP nodes z=1.5 and z=2.25.",
+      "The strongest retained-peak overlap is Pi_4=5.35 (5.82) for the GP w0-free reconstruction, with text noting a more prominent maximum near z~2.3.",
+      "The same region is too broad to treat as informative support, and the binned Pi_4 value is unconstrained.",
+      "Pi_5 is unconstrained for every case, so the retained high-z shoulder is not testable from the table product."
+    ]
+  },
+  "secondary_proxy": {
+    "paper": "Goh et al. 2023",
+    "variable": "beta(z)",
+    "usable_at_table_level": true,
+    "limitations": [
+      "beta(z) is a scalar-field CDE coupling proxy, not a direct interacting-vacuum transfer variable.",
+      "The proxy can check whether structure-era bins are allowed or constrained, but cannot promote retained Gamma(a) as an IV/IDE prior by itself."
+    ],
+    "finding": "Goh tables allow or constrain nonzero structure-era proxy coupling in some bins, but do not contradict the allowed-but-not-informative primary classification."
+  },
+  "optional_target": {
+    "paper": "Bonilla et al. 2022",
+    "variable": "delta(z)=q(1+z)^-6",
+    "used_in_classification": false,
+    "reason_not_used": "No table-level timing history or posterior product was available in the inspected paper/source. Using it would require author-provided data or figure digitization."
+  },
+  "conclusions_changed": [
+    "Retained timing is no longer merely awaiting literature contact; it has a completed coarse table-level audit.",
+    "The correct table-level status is allowed but not informative, not supported as a compression target.",
+    "A future likelihood-level or posterior-product prior test would require stronger numerical products than the tables used here."
+  ],
+  "conclusions_not_changed": [
+    "No physical QFUDS source is established.",
+    "The retained branch remains failed for Level 1.5 physical promotion.",
+    "Physical Level 2B remains blocked.",
+    "No CMB, matter-power, BAO, supernova, DESI, Euclid, Roman, or likelihood-level viability is established.",
+    "No novelty claim is supported."
+  ],
+  "next_gate": "Do not use retained timing as an informative IV/IDE prior unless posterior products, author data, digitized uncertainty bands, or a likelihood-level test show meaningful structure-era support beyond broad compatibility."
+}

@@ -1,0 +1,7 @@
+doc_id,paper,year,evidence_level,primary_variable,model_family,redshift_coverage,product_status,digitization_status,author_data_required,used_by,last_checked
+lit_escamilla_2023_interacting_dark_energy_kernel,Escamilla et al.,2023,primary,Pi_DE(z),IV/IDE,z=0 to 3 nodes; binned Delta z=0.6,tables+figures,optional,likely,exp_006,2026-06-09
+lit_goh_2023_tomographic_coupled_dark_energy,Goh et al.,2023,secondary,beta(z),scalar-field CDE,z=0 to 1000 tomographic bins,tables+code,not_needed,unknown,exp_006,2026-06-09
+lit_bonilla_2022_dark_sector_interaction_gp,Bonilla et al.,2022,optional,delta(z),GP IV/IDE reconstruction,z=0 to 2.5 figures,figures_only,required,likely,exp_006,2026-06-09
+lit_martinelli_2019_interacting_vacuum_geodesic_cdm,Martinelli et al.,2019,historical,q_V(z),vacuum-geodesic CDM,tomographic bins and transition redshift cases,tables+figures,optional,unknown,exp_006,2026-06-09
+lit_hogg_2020_vacuum_geodesic_cdm_interaction,Hogg et al.,2020,historical,coupling function q_V(z),vacuum-geodesic CDM,17 redshift bins,figures+request_available_data,optional,yes,exp_006,2026-06-09
+lit_wang_2015_dark_matter_vacuum_interaction,Wang et al.,2015,historical,alpha(a),dark matter-vacuum interaction,scale factor reconstruction,figures,optional,unknown,exp_006,2026-06-09
