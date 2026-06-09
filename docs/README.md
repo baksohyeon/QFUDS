@@ -44,6 +44,9 @@ Project-level status, decisions, roadmap framing, and Korean overview.
 
 - [overview.md](00_project/overview.md)
 - [research_program.md](00_project/research_program.md)
+- [project_identity.md](00_project/project_identity.md) - current project identity, scope, non-goals, and lessons learned
+- [qfuds_positioning.md](00_project/qfuds_positioning.md) - QFUDS ideas mapped against existing cosmology model families
+- [success_criteria.md](00_project/success_criteria.md) - minimum, moderate, and strong success criteria plus physical-branch admission rule
 - [decision_log.md](00_project/decision_log.md)
 - [verification_guide.md](00_project/verification_guide.md)
 - [qfuds_ko.md](00_project/qfuds_ko.md)
