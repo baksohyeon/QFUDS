@@ -53,15 +53,17 @@ The gate makes those failure modes loud and blocking instead of silent.
 `scripts/preflight_exp004.py` runs seven cross-document checks:
 
 1. **exp_003 core documents exist** — the theory note
-   (`docs/02_theory/040_qfuds_phenomenological_perturbations.md`), the experiment
-   (`docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`),
+   ([docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)), the experiment
+   ([docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)),
    and the result
-   (`docs/04_results/030_result_003_phenomenological_perturbation_closure.md`)
+   ([docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md))
    are all present.
 2. **Postmortem note (if referenced)** — if the result doc or decision log
    references `outputs/postmortem/exp003_friction_bug`, that directory and its
-   `README.md` must exist. A referenced but missing postmortem is a blocker.
-3. **Decision log has the final exp_003 verdict** — `decision_log.md` records the
+   [README.md](../../outputs/postmortem/exp003_friction_bug/README.md) must
+   exist. A referenced but missing postmortem is a blocker.
+3. **Decision log has the final exp_003 verdict** —
+   [docs/00_project/decision_log.md](../00_project/decision_log.md) records the
    exp_003 outcome (P2 regularized-fluid closure failed, P1 interacting-vacuum
    closure survives as non-novel Level 2A) and the friction-bug correction.
 4. **Roadmap reflects Level 2A status** — the roadmap marks Level 2A
@@ -70,9 +72,9 @@ The gate makes those failure modes loud and blocking instead of silent.
 5. **Referenced outputs exist** — every `outputs/*.csv`, `*.json`, or `*.png`
    path cited by the exp_003 documents actually exists on disk.
 6. **No premature completion claims** — no document under `docs/` (or the root
-   `README.md`) claims Level 3 / CLASS / CAMB / CMB / matter-power completion or
+   [README.md](README.md)) claims Level 3 / CLASS / CAMB / CMB / matter-power completion or
    viability.
-7. **Docs index is complete** — `docs/README.md` references every active
+7. **Docs index is complete** — [docs/README.md](../README.md) references every active
    (non-index) Markdown document under `docs/`.
 
 This gate is complementary to `scripts/validate_docs.py`, which validates
@@ -108,7 +110,7 @@ incomplete or contradictory. Typical causes:
 
 - a referenced output file was moved or deleted;
 - the decision log or roadmap was not updated after a correction;
-- a new active document was added but never indexed in `docs/README.md`;
+- a new active document was added but never indexed in [docs/README.md](../README.md);
 - a document started claiming downstream (Level 3+) completion that has not been
   earned.
 

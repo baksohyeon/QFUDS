@@ -1,0 +1,12 @@
+#!/bin/sh
+set -eu
+
+echo "pre-commit: running QFUDS documentation and regression checks"
+
+python3 scripts/validate_docs.py
+python3 scripts/research_consistency.py
+python3 scripts/preflight_exp004.py
+git diff --check
+python3 -m unittest discover -s tests -p 'test_*.py'
+
+echo "pre-commit: all checks passed"

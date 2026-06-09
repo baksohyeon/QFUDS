@@ -126,7 +126,7 @@ kappa = k / Hc
 
 For phase A (velocity variable `theta/Hc`, so the Euler base friction constant is
 `1`, consistent with `qfuds/growth.py`; see
-`outputs/postmortem/exp003_friction_bug/README.md`):
+[outputs/postmortem/exp003_friction_bug/README.md](../../outputs/postmortem/exp003_friction_bug/README.md)):
 
 ```text
 delta_A,x = -theta_A - Gamma Phi

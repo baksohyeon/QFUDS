@@ -19,11 +19,8 @@ This constitution defines **process, not status**. It deliberately does not reco
 the current level, the active branch, the current blockers, or what has survived
 or failed. That state drifts and must live in exactly one place.
 
-Current project state lives in:
-
-```text
-docs/05_next_steps/000_roadmap.md
-```
+Current project state lives in
+[docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md).
 
 That roadmap is the single source of truth for:
 
@@ -33,12 +30,15 @@ That roadmap is the single source of truth for:
 
 Supporting authority, in order:
 
-- `docs/00_project/decision_log.md` records _why_ each decision was made;
-- `docs/03_experiments/` and `docs/04_results/` hold the experiment and result
-  evidence the roadmap points to.
+- [docs/00_project/decision_log.md](docs/00_project/decision_log.md) records
+  _why_ each decision was made;
+- [docs/03_experiments/](docs/03_experiments/) and
+  [docs/04_results/](docs/04_results/) hold the experiment and result evidence
+  the roadmap points to.
 
 Do not duplicate status anywhere else. Do not copy the roadmap level/status table
-into this file, `CLAUDE.md`, `README.md`, `PROJECT.md`, or any other document. If
+into this file, [CLAUDE.md](CLAUDE.md), [README.md](README.md),
+[PROJECT.md](PROJECT.md), or any other document. If
 this constitution and the roadmap ever disagree about status, the roadmap wins and
 this file must be corrected to remove the duplicated claim. Agents must read the
 roadmap for status before acting; they must not infer status from this
@@ -144,10 +144,12 @@ source of truth.
 
 Every completed experiment must generate all of the following:
 
-1. an experiment document in `docs/03_experiments/`;
-2. a result document in `docs/04_results/`;
-3. a decision log update in `docs/00_project/decision_log.md`;
-4. a roadmap update in `docs/05_next_steps/000_roadmap.md`.
+1. an experiment document in [docs/03_experiments/](docs/03_experiments/);
+2. a result document in [docs/04_results/](docs/04_results/);
+3. a decision log update in
+   [docs/00_project/decision_log.md](docs/00_project/decision_log.md);
+4. a roadmap update in
+   [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md).
 
 No experiment is considered complete until this documentation exists.
 
@@ -177,8 +179,10 @@ Documentation must distinguish these categories:
 Do not remove failed mechanisms from the record. Move them to history,
 postmortem, or rejected-candidate sections when needed.
 
-Active documentation in `docs/02_theory/`, `docs/03_experiments/`,
-`docs/04_results/`, and `docs/05_next_steps/` must use a sortable stage prefix:
+Active documentation in [docs/02_theory/](docs/02_theory/),
+[docs/03_experiments/](docs/03_experiments/),
+[docs/04_results/](docs/04_results/), and
+[docs/05_next_steps/](docs/05_next_steps/) must use a sortable stage prefix:
 
 ```text
 000_ baseline/control
@@ -197,15 +201,16 @@ The prefix is for ordering only. It does not replace experiment IDs such as
 Active stage documents in those folders must also include YAML frontmatter so
 agents can classify them without inferring status from prose. Required fields:
 
-The canonical schema is `docs/00_project/frontmatter_convention.md`, enforced by
-`scripts/validate_docs.py`. Required fields:
+The canonical schema is
+[docs/00_project/frontmatter_convention.md](docs/00_project/frontmatter_convention.md),
+enforced by `scripts/validate_docs.py`. Required fields:
 
 ```yaml
 ---
 doc_id: string
 title: string
-doc_type: overview | decision_log | guide | theory_note | experiment | result | roadmap | gate | index | reference
-stage: "0" | "1" | "1.5" | "2" | "reference"
+doc_type: overview | decision_log | guide | theory_note | experiment | result | summary | postmortem | roadmap | gate | index | reference
+stage: "0" | "1" | "1.5" | "2" | "3" | "4" | "5" | "6" | "reference"
 status: draft | completed | in_progress | blocked | provenance | reference
 evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
 depends_on: []
@@ -220,9 +225,13 @@ If a document is not physical evidence, its frontmatter must say so through
 ## 5. Experiment Rules
 
 Before implementing a new model, create a hypothesis document in
-`docs/03_experiments/`.
+[docs/03_experiments/](docs/03_experiments/).
 
-After implementation, create a result document in `docs/04_results/`.
+After implementation, create a result document in
+[docs/04_results/](docs/04_results/).
+
+After the result is interpreted, update the lightweight experiment summary in
+[docs/04_results/000_experiment_summary.md](docs/04_results/000_experiment_summary.md).
 
 Every experiment must record:
 
@@ -355,8 +364,9 @@ A failed idea should be documented, not erased.
 
 ## 9. Progression Roadmap
 
-The maintained roadmap is `docs/05_next_steps/000_roadmap.md`. It is the single
-source of truth for the level/status table; see
+The maintained roadmap is
+[docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md). It is
+the single source of truth for the level/status table; see
 [Project Status Authority](#project-status-authority). Update the roadmap after
 every completed experiment. Do not copy the level/status table into this
 constitution.
@@ -408,12 +418,13 @@ This constitution does not maintain a running list of what has been tested,
 survived, failed, or remains unknown. That state drifts and is therefore kept in
 the authoritative documents, not duplicated here:
 
-- `docs/05_next_steps/000_roadmap.md` — current level status, completed
-  background validations, and blockers;
-- `docs/00_project/decision_log.md` — what survived, what failed, and why,
-  recorded chronologically with evidence;
-- `docs/03_experiments/` and `docs/04_results/` — the underlying experiment and
-  result evidence.
+- [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md) —
+  current level status, completed background validations, and blockers;
+- [docs/00_project/decision_log.md](docs/00_project/decision_log.md) — what
+  survived, what failed, and why, recorded chronologically with evidence;
+- [docs/03_experiments/](docs/03_experiments/) and
+  [docs/04_results/](docs/04_results/) — the underlying experiment and result
+  evidence.
 
 The standing requirement is unchanged: keep `derived`, `implemented`, `tested`,
 `survived`, `failed`, and `unknown` claims distinct, and never present

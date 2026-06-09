@@ -101,7 +101,7 @@ A law fails this background scan if it:
 
 ## Result
 
-The result is documented in `docs/04_results/020_result_002_entropy_information_gate.md`.
+The result is documented in [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md).
 
 Summary:
 

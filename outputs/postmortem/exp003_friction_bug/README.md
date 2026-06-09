@@ -59,7 +59,7 @@ continuity equation, which already assumed `theta/Hc`.
 - `max_abs_perturbation` and `max_abs_curvature_proxy` in
   `exp003_stability_diagnostics.csv`.
 - The qualitative clustering statement in
-  `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`.
+  [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../../../docs/04_results/030_result_003_phenomenological_perturbation_closure.md).
 
 Not affected: `conservation_residual` (identically zero, the transfer is
 antisymmetric by construction); the gauge/transfer metadata.

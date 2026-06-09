@@ -36,8 +36,8 @@ Can this version be made precise enough to fail?
 
 The current per-level status — completed, in progress, or blocked — and the list
 of completed experiments are maintained only in the roadmap (single source of
-truth): `docs/05_next_steps/000_roadmap.md`, with the reasoning trail in
-`docs/00_project/decision_log.md`. This overview does not restate them, so it
+truth): [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), with the reasoning trail in
+[docs/00_project/decision_log.md](decision_log.md). This overview does not restate them, so it
 cannot drift from the roadmap.
 
 Current implementation anchors:
@@ -74,7 +74,7 @@ The immediate research path is:
 5. Implement a Boltzmann-code version only after the perturbation assumptions are explicit and stable.
 6. Compare against CMB and matter power before adding new speculative mechanisms.
 
-The maintained roadmap is `docs/05_next_steps/000_roadmap.md`.
+The maintained roadmap is [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
 
 ## Model Genealogy
 
@@ -123,29 +123,29 @@ Level 2A
 
 Maintained documentation:
 
-- `docs/README.md`
-- `docs/00_project/overview.md`
-- `docs/00_project/decision_log.md`
-- `docs/00_project/verification_guide.md`
-- `docs/02_theory/010_qfuds_v0_1.md`
-- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
-- `docs/02_theory/020_qfuds_v0_2.md`
-- `docs/02_theory/030_qfuds_v0_3.md`
-- `docs/02_theory/040_qfuds_phenomenological_perturbations.md`
-- `docs/03_experiments/000_exp_000_lcdm_baseline.md`
-- `docs/03_experiments/010_exp_001_gamma_scan.md`
-- `docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md`
-- `docs/03_experiments/020_exp_002_entropy_information_gate.md`
-- `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`
-- `docs/04_results/000_result_000_lcdm_baseline.md`
-- `docs/04_results/010_result_001_gamma_scan.md`
-- `docs/04_results/015_result_001_5_phase_transfer_physicality.md`
-- `docs/04_results/020_result_002_entropy_information_gate.md`
-- `docs/05_next_steps/000_roadmap.md`
+- [docs/README.md](../README.md)
+- [docs/00_project/overview.md](overview.md)
+- [docs/00_project/decision_log.md](decision_log.md)
+- [docs/00_project/verification_guide.md](verification_guide.md)
+- [docs/02_theory/010_qfuds_v0_1.md](../02_theory/010_qfuds_v0_1.md)
+- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+- [docs/02_theory/020_qfuds_v0_2.md](../02_theory/020_qfuds_v0_2.md)
+- [docs/02_theory/030_qfuds_v0_3.md](../02_theory/030_qfuds_v0_3.md)
+- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/03_experiments/000_exp_000_lcdm_baseline.md](../03_experiments/000_exp_000_lcdm_baseline.md)
+- [docs/03_experiments/010_exp_001_gamma_scan.md](../03_experiments/010_exp_001_gamma_scan.md)
+- [docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md](../03_experiments/015_exp_001_5_phase_transfer_physicality.md)
+- [docs/03_experiments/020_exp_002_entropy_information_gate.md](../03_experiments/020_exp_002_entropy_information_gate.md)
+- [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
+- [docs/04_results/000_result_000_lcdm_baseline.md](../04_results/000_result_000_lcdm_baseline.md)
+- [docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md)
+- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md)
+- [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md)
+- [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md)
 
 Historical/source notes retained for provenance:
 
-- `docs/01_origin/concept_origin.md`
-- `docs/00_project/research_program.md`
-- `docs/02_theory/900_qfuds_research_report.md`
-- `docs/00_project/qfuds_ko.md`
+- [docs/01_origin/concept_origin.md](../01_origin/concept_origin.md)
+- [docs/00_project/research_program.md](research_program.md)
+- [docs/02_theory/900_qfuds_research_report.md](../02_theory/900_qfuds_research_report.md)
+- [docs/00_project/qfuds_ko.md](qfuds_ko.md)
