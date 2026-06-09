@@ -36,3 +36,4 @@ recorded date.
 - [2026-06-09 Li 2025 Timing Feasibility Audit](2026-06-09_li_2025_timing_feasibility_audit.md)
 - [2026-06-09 Li 2025 Timing-Overlap Matrix Plan](2026-06-09_li_2025_timing_overlap_matrix_plan.md)
 - [2026-06-09 Li 2025 Public Product Search Audit](2026-06-09_li_2025_public_product_search_audit.md)
+- [2026-06-09 Li 2025 Digitized Compression Audit](2026-06-09_li_2025_digitized_compression_audit.md)
