@@ -65,6 +65,19 @@ The tested source families were:
 
 ## Figures
 
+Summary diagnostic:
+
+![result_002 entropy information summary](../../outputs/figures/result002_entropy_information_summary.png)
+
+The left panel compares the timing shapes of the surviving-or-relevant source
+families after broad entropy language was narrowed. The right panel shows why
+the retained branch was not physical evidence: gravitational entropy is
+pressured by negative phase-B density at the tested amplitude, horizon
+information behaves like a known horizon/interacting-dark-energy route, and
+information production is retained only because its timing is useful and
+low-leakage. The figure supports demotion to provenance, not promotion to a
+physical QFUDS branch.
+
 Killed or demoted branches:
 
 ![gravitational entropy failure](../../outputs/qfuds_gravitational_entropy_gamma0.003_beta0.png)
@@ -154,6 +167,8 @@ Evidence:
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`
+- `outputs/figures/result002_entropy_information_summary.png`
+- `outputs/figures/result002_entropy_information_summary.svg`
 
 ## Full Technical Analysis
 

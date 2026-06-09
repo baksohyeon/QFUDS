@@ -56,6 +56,17 @@ The scan tested these `Gamma(a)` families:
 
 ## Figures
 
+Summary diagnostic:
+
+![result_001 Gamma scan summary](../../outputs/figures/result001_gamma_scan_summary.png)
+
+The left panel compares the timing information in each tested `Gamma(a)` shape.
+The right panel separates two background-screening pressures: early
+`H/H_LCDM` deviation and negative phase-B density depth. Constant and ungated
+growth-driven transfer are not rejected because their names are bad; they are
+rejected because they are active too early and break the backward-integrated
+background. Low-redshift shapes survive only the weak background screen.
+
 Representative failed laws:
 
 ![constant Gamma failure](../../outputs/qfuds_constant_gamma0.01_beta0.png)
@@ -335,6 +346,8 @@ Generated CSV and PNG outputs:
 - `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.png`
 - `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
 - `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.png`
+- `outputs/figures/result001_gamma_scan_summary.png`
+- `outputs/figures/result001_gamma_scan_summary.svg`
 
 ## 6. Viability Table
 

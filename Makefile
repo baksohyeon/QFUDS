@@ -5,13 +5,14 @@
 
 PYTHON ?= python3
 
-.PHONY: help validate research-audit preflight-exp004 preflight test install-git-hooks
+.PHONY: help validate research-audit preflight-exp004 result-figures preflight test install-git-hooks
 
 help:
 	@echo "QFUDS make targets:"
 	@echo "  make validate          - validate per-document frontmatter and cross-links"
 	@echo "  make research-audit    - validate + enforce status-authority consistency"
 	@echo "  make preflight-exp004  - exp_003 -> exp_004 readiness gate"
+	@echo "  make result-figures    - regenerate docs/04_results summary figures"
 	@echo "  make preflight         - full pre-milestone audit (all of the above)"
 	@echo "  make test              - run unittest regression tests under tests/"
 	@echo "  make install-git-hooks - install local git pre-commit checks"
@@ -24,6 +25,9 @@ research-audit: validate
 
 preflight-exp004:
 	$(PYTHON) scripts/preflight_exp004.py
+
+result-figures:
+	$(PYTHON) scripts/generate_result_figures.py
 
 test:
 	$(PYTHON) -m unittest discover -s tests -p 'test_*.py'

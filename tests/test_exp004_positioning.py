@@ -28,6 +28,10 @@ class Exp004PositioningTests(unittest.TestCase):
             self.assertTrue((outdir / "exp004_R1_background_growth.csv").exists())
             self.assertTrue((outdir / "exp004_R1_p1_perturbations.csv").exists())
             self.assertTrue((outdir / "exp004_R6_effective_w_reconstruction.csv").exists())
+            self.assertTrue((outdir / "figures" / "exp004_gamma_shape_comparison.png").exists())
+            self.assertTrue((outdir / "figures" / "exp004_gamma_shape_comparison.svg").exists())
+            self.assertTrue((outdir / "figures" / "exp004_baseline_error_summary.png").exists())
+            self.assertTrue((outdir / "figures" / "exp004_baseline_error_summary.svg").exists())
 
     def test_r2_is_exact_mapping_and_r3_is_analytic_subset(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

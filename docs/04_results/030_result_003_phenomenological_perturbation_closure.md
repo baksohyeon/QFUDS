@@ -94,6 +94,10 @@ Primary diagnostics:
 ```text
 outputs/exp003_phenomenological_perturbation_summary.json
 outputs/exp003_stability_diagnostics.csv
+outputs/figures/exp003_stability_summary.png
+outputs/figures/exp003_stability_summary.svg
+outputs/figures/exp003_retained_mode_growth.png
+outputs/figures/exp003_retained_mode_growth.svg
 ```
 
 Mode CSV outputs:
@@ -110,6 +114,26 @@ outputs/exp003_R2b_P2_information_production_gamma0.01.csv
 outputs/exp003_R3_P1_information_production_gamma0.04.csv
 outputs/exp003_R3_P2_information_production_gamma0.04.csv
 ```
+
+## Visual Diagnostics
+
+![exp_003 stability summary](../../outputs/figures/exp003_stability_summary.png)
+
+This figure is the main visual decision record for Exp 003. The dashed line is
+the predeclared instability threshold. P1 remains safely below it for every
+tested amplitude, while P2 crosses it at the retained amplitude and again at the
+larger stress test. This is why the result keeps only the interacting-vacuum P1
+closure as Level 2A phenomenology and rejects the regularized near-vacuum fluid
+P2 closure at the retained branch.
+
+![exp_003 retained mode growth](../../outputs/figures/exp003_retained_mode_growth.png)
+
+This figure focuses on the retained-amplitude run at `k=0.1 h/Mpc`. The P1
+curve shows the corrected phase-A growth staying interpretable under the
+declared closure. The P2 curve exposes the instability channel that makes the
+near-vacuum fluid interpretation unusable at the retained amplitude. The figure
+does not establish CMB or matter-power viability; it only visualizes the
+stability audit already summarized in the CSV diagnostics.
 
 ## Stability Diagnostics
 

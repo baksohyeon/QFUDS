@@ -16,6 +16,7 @@ from .perturbations import (
     PerturbationResult,
     integrate_phenomenological_perturbations,
 )
+from .plotting import save_figure_pair
 
 
 K_VALUES: tuple[float, ...] = (1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1)
@@ -272,6 +273,57 @@ def _classify_metrics(metrics: dict[str, Any], *, has_perturbations: bool) -> st
     return "phenomenological_difference"
 
 
+def _write_visualizations(
+    outdir: Path,
+    backgrounds: dict[str, dict[str, np.ndarray]],
+    baseline_rows: list[dict[str, Any]],
+) -> list[str]:
+    try:
+        import matplotlib.pyplot as plt
+    except ModuleNotFoundError:
+        return []
+
+    outputs: list[str] = []
+    fig, ax = plt.subplots(figsize=(8.5, 4.8), constrained_layout=True)
+    for run_id, label in (
+        ("R1", "retained P1"),
+        ("R0", "LCDM / zero transfer"),
+        ("R4", "constant matched"),
+        ("R5", "power-law matched"),
+    ):
+        background = backgrounds.get(run_id)
+        if background is None:
+            continue
+        gamma = background["Gamma"]
+        norm = max(float(np.max(np.abs(gamma))), 1.0e-30)
+        ax.plot(background["z"], gamma / norm, label=label)
+    ax.set(xlabel="z", ylabel="normalized Gamma(a)", title="Exp 004 transfer-shape comparison", xlim=(8.0, 0.0))
+    ax.legend(frameon=False)
+    figures_dir = outdir / "figures"
+    outputs.extend(save_figure_pair(fig, figures_dir / "exp004_gamma_shape_comparison"))
+    plt.close(fig)
+
+    rows = [row for row in baseline_rows if row.get("run_id") in {"R0", "R4", "R5"}]
+    labels = [str(row["run_id"]) for row in rows]
+    gamma_rms = [float(row.get("gamma_rms_error", 0.0)) for row in rows]
+    gamma_max = [float(row.get("gamma_max_error", 0.0)) for row in rows]
+    h_error = [float(row.get("h_max_abs_error", 0.0)) for row in rows]
+    x = np.arange(len(rows))
+    width = 0.26
+    fig, ax = plt.subplots(figsize=(8.5, 4.8), constrained_layout=True)
+    ax.bar(x - width, gamma_rms, width=width, label="Gamma RMS")
+    ax.bar(x, gamma_max, width=width, label="Gamma max")
+    ax.bar(x + width, h_error, width=width, label="H max")
+    ax.axhline(0.05, color="#2b2b2b", linestyle="--", linewidth=1.0, label="shape RMS threshold")
+    ax.set_xticks(x, labels)
+    ax.set_ylabel("error")
+    ax.set_title("Exp 004 baseline error summary")
+    ax.legend(frameon=False)
+    outputs.extend(save_figure_pair(fig, figures_dir / "exp004_baseline_error_summary"))
+    plt.close(fig)
+    return outputs
+
+
 def run_exp004_suite(
     *,
     outdir: Path = Path("outputs"),
@@ -474,6 +526,7 @@ def run_exp004_suite(
     write_rows(outdir / "exp004_transfer_reconstruction.csv", transfer_rows)
     write_rows(outdir / "exp004_closure_frame_mapping.csv", closure_rows)
     write_rows(outdir / "exp004_reduction_limits.csv", reduction_rows)
+    plot_outputs = _write_visualizations(outdir, backgrounds, baseline_rows)
 
     summary = {
         "experiment_id": "exp_004",
@@ -493,6 +546,7 @@ def run_exp004_suite(
         "baseline_comparison": baseline_rows,
         "closure_frame_mapping": closure_rows,
         "reduction_limits": reduction_rows,
+        "visual_outputs": plot_outputs,
         "outputs": [
             "outputs/exp004_baseline_comparison.csv",
             "outputs/exp004_background_equivalence.csv",
@@ -502,6 +556,7 @@ def run_exp004_suite(
             "outputs/exp004_positioning_summary.json",
             "outputs/exp004_R6_effective_w_reconstruction.csv",
         ]
+        + plot_outputs
         + [
             f"outputs/exp004_{run.run_id}_background_growth.csv"
             for run in runs

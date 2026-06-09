@@ -73,8 +73,8 @@ The gate makes those failure modes loud and blocking instead of silent.
 4. **Roadmap reflects Level 2A status** — the roadmap marks Level 2A
    `completed` and keeps Level 2B, CLASS integration, CMB comparison, and matter
    power spectrum `blocked`.
-5. **Referenced outputs exist** — every `outputs/*.csv`, `*.json`, or `*.png`
-   path cited by the exp_003 documents actually exists on disk.
+5. **Referenced outputs exist** — every `outputs/*.csv`, `*.json`, `*.png`,
+   or `*.svg` path cited by the exp_003 documents actually exists on disk.
 6. **No premature completion claims** — no document under `docs/` (or the root
    [README.md](README.md)) claims Level 3 / CLASS / CAMB / CMB / matter-power completion or
    viability.
@@ -87,7 +87,13 @@ state for the exp_003 record.
 
 ## How to run it
 
-There is no `Makefile` in this repository, so run the gate directly:
+Run the gate through the maintained Makefile target:
+
+```bash
+make preflight-exp004
+```
+
+Or run the script directly:
 
 ```bash
 python3 scripts/preflight_exp004.py

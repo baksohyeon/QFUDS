@@ -24,6 +24,7 @@ from qfuds import (
     integrate_growth,
     run_exp003_suite,
     run_exp004_suite,
+    run_exp005_timing_prior_audit,
 )
 from qfuds.diagnostics import classify_gamma_model
 
@@ -58,6 +59,12 @@ def parse_args() -> argparse.Namespace:
         dest="exp_004_p1_positioning",
         action="store_true",
         help="Run experiment 004: retained P1 model-family positioning and equivalence map.",
+    )
+    parser.add_argument(
+        "--exp-005-timing-prior-audit",
+        dest="exp_005_timing_prior_audit",
+        action="store_true",
+        help="Run experiment 005: timing-prior usefulness and redundancy audit.",
     )
     parser.add_argument("--outdir", type=Path, default=Path("outputs"))
     return parser.parse_args()
@@ -236,6 +243,12 @@ def main() -> None:
         print(f"Wrote {args.outdir / 'exp004_positioning_summary.json'}")
         print(f"Experiment: {summary['experiment_id']}")
         print(f"Classification: {summary['classification']['primary_outcome']}")
+        return
+    if args.exp_005_timing_prior_audit:
+        summary = run_exp005_timing_prior_audit(outdir=args.outdir)
+        print(f"Wrote {args.outdir / 'exp005_timing_prior_summary.json'}")
+        print(f"Experiment: {summary['experiment_id']}")
+        print(f"Verdict: {summary['decision']['verdict']}")
         return
 
     qfuds = QFUDSParams(
