@@ -8,7 +8,7 @@ evidence_role: control
 depends_on:
   - qfuds_v0_2
 next_gate: gamma law background scan
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Experiment 000: Zero-Transfer LCDM Baseline
@@ -22,6 +22,12 @@ Verify that the implemented two-phase QFUDS background reproduces LCDM when phas
 ### Hypothesis
 
 If `Gamma(a) = 0`, phase A should scale as pressureless matter and phase B should remain constant. The result should be the LCDM limit of the model.
+
+### Scope
+
+This is a background-only control. It tests the null limit of the implemented
+two-phase background equations. It does not test perturbations, CMB spectra,
+matter power, survey likelihoods, or microphysical novelty.
 
 ### Method
 
@@ -52,6 +58,12 @@ Omega_Bfoam0 = 0.6858
 - `outputs/qfuds_gamma0_beta0.png`
 
 CSV columns include `Gamma`, `H_over_H_LCDM`, `rho_A_over_rhocrit0`, `rho_Bfoam_over_rhocrit0`, `Omega_A`, `Omega_Bfoam`, `w_dark`, `w_Bfoam_eff`, `D`, and `f_sigma8_proxy`.
+
+### Failure Criteria
+
+The control fails if `Gamma(a)=0` does not keep phase B constant, does not make
+phase A dilute as pressureless matter, produces non-finite outputs, or fails the
+LCDM-limit regression checks in `tests/test_gamma_v03.py`.
 
 ### Result
 

@@ -8,7 +8,7 @@ evidence_role: proxy_scan
 depends_on:
   - exp_001_gamma_scan
 next_gate: Level 1.5 phase transfer physicality
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Result 001: Gamma-Law Background Scan
@@ -27,6 +27,12 @@ Gamma(a)=0    -> LCDM
 ```
 
 Therefore QFUDS needs a physically fixed transfer law, not only a fitted one.
+
+## Scope
+
+This is a background-level scan with scale-independent growth-proxy diagnostics.
+It does not establish perturbation stability, CMB viability, matter-power
+viability, survey-likelihood viability, or QFUDS novelty.
 
 ## Model Tested
 
@@ -90,6 +96,14 @@ No experiment 001 result establishes perturbation stability, CMB viability, or n
 
 The candidate label means only "worth testing next." It does not mean novel or observationally viable.
 
+## Decision
+
+Reject constant and ungated growth-driven transfer at the tested amplitudes.
+Keep low-redshift collapse, black-hole-entropy, and star-formation proxies only
+as candidate shapes for stronger scrutiny. Treat power-law and horizon-entropy
+survivals as known-model-like unless a later derivation changes that
+classification.
+
 ## Why?
 
 The failing laws are too active too early. They can produce negative `rho_B` when the present-day boundary condition is integrated backward and can move `H(a)` away from the LCDM-like early universe.
@@ -118,7 +132,7 @@ perturbation-level specification:
 
 Evidence:
 
-- `docs/03_experiments/010_exp_001_gamma_scan.md`
+- [docs/03_experiments/010_exp_001_gamma_scan.md](../03_experiments/010_exp_001_gamma_scan.md)
 - `outputs/qfuds_*gamma*.csv`
 - `tests/test_gamma_v03.py`
 

@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - exp_002_entropy_information_gate
 next_gate: Level 1.5 phase transfer physicality
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Result 002: Entropy / Information-Source Gate
@@ -37,6 +37,12 @@ Experiment 002 is retained as provenance, not as physical evidence.
 The scan used a source before the physical transfer mechanism, mass threshold,
 and self-consistent QFUDS growth source were defined.
 ```
+
+## Scope
+
+This is a background-level entropy/information-source proxy scan. It does not
+test perturbation stability, CMB spectra, matter power, survey likelihoods, or a
+derived microscopic phase-transfer mechanism.
 
 ## Model Tested
 
@@ -103,6 +109,12 @@ The remaining freedom is still serious:
 | horizon information | mathematically clean but horizon/interacting dark-energy-like | demote to known-model behavior |
 | nonlinear collapse / information production | quiet in radiation era and peaks after structure formation begins | demote to Level 1.5 physicality question; not evidence |
 
+## Decision
+
+Demote experiment 002 to provenance. It killed broad entropy labels and retained
+only the collapse/information-production shape as a Level 1.5 physicality
+question. It is not current physical evidence for QFUDS.
+
 ## What Failed?
 
 The following branches are not allowed to proceed as core QFUDS claims:
@@ -137,9 +149,9 @@ The required Level 1.5 gates are:
 
 Evidence:
 
-- `docs/03_experiments/020_exp_002_entropy_information_gate.md`
-- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
-- `docs/04_results/015_result_001_5_phase_transfer_physicality.md`
+- [docs/03_experiments/020_exp_002_entropy_information_gate.md](../03_experiments/020_exp_002_entropy_information_gate.md)
+- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](015_result_001_5_phase_transfer_physicality.md)
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`

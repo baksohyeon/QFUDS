@@ -9,7 +9,7 @@ depends_on:
   - exp_002_entropy_information_gate
   - result_002_entropy_information_gate
 next_gate: Level 2A phenomenological closure; keep physical Level 2B blocked
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Experiment 001.5: Phase Transfer Physicality Gate
@@ -80,6 +80,16 @@ The retained branch fails or is demoted if:
 - `F_coll` cannot be computed from QFUDS growth;
 - the branch is indistinguishable from known interacting vacuum models;
 - entropy or information language is used without a stress-energy derivation.
+
+## Outputs
+
+This audit produces a classification result rather than a new numerical output
+grid. Required evidence artifacts are:
+
+- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md);
+- cited implementation evidence in `qfuds/gamma_laws.py` and `qfuds/growth.py`;
+- roadmap and decision-log updates recording whether the branch remains physical
+  QFUDS, is demoted to phenomenology, or is rejected.
 
 ## Result Document
 

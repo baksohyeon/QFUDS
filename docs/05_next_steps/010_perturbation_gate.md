@@ -85,7 +85,7 @@ viability, or survey-likelihood viability.
 
 ## Required Work Before Level 2B Closure
 
-1. Resolve `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`.
+1. Resolve [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md).
 2. Decide whether `Gamma(a)` is a physical phase-transfer hypothesis or only a phenomenological interacting-vacuum law.
 3. Recompute `dF_coll/dln a` using QFUDS self-consistent growth `D(a)`, not an LCDM-source approximation, once the required growth ingredients exist.
 4. Fix the mass threshold `M` from a physical criterion.
@@ -96,12 +96,12 @@ viability, or survey-likelihood viability.
 
 Level 2A documents:
 
-- `docs/02_theory/040_qfuds_phenomenological_perturbations.md`
-- `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`
+- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
 
 Level 2A result:
 
-- `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`
+- [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md)
 
 Each must state that no CMB or matter-power claim is valid until CLASS/CAMB or equivalent Boltzmann-code output exists.
 

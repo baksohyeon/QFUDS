@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on: []
 next_gate: none; canonical schema reference
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # QFUDS Frontmatter Schema Convention
@@ -20,8 +20,9 @@ human-readable companion to the executable check in `scripts/validate_docs.py`.
 When this document and the validator disagree, the validator is authoritative and
 this document must be corrected to match it.
 
-`PROJECT.md` and `AGENTS.md` describe the same schema for convenience; both defer
-to this file and to `scripts/validate_docs.py`.
+[PROJECT.md](../../PROJECT.md) and [AGENTS.md](../../AGENTS.md) describe the same
+schema for convenience; both defer to this file and to
+`scripts/validate_docs.py`.
 
 ## Where it applies
 
@@ -38,8 +39,8 @@ All nine fields are required on every validated document, in this schema:
 ---
 doc_id: string
 title: string
-doc_type: overview | decision_log | guide | theory_note | experiment | result | roadmap | gate | index | reference
-stage: "0" | "1" | "1.5" | "2" | reference
+doc_type: overview | decision_log | guide | theory_note | experiment | result | summary | postmortem | roadmap | gate | index | reference
+stage: "0" | "1" | "1.5" | "2" | "3" | "4" | "5" | "6" | reference
 status: draft | completed | in_progress | blocked | provenance | reference
 evidence_role: control | hypothesis | proxy_scan | provenance | audit | ssot | reference
 depends_on: []
@@ -54,8 +55,8 @@ These enumerations match `scripts/validate_docs.py` exactly.
 
 | Field | Allowed values |
 | --- | --- |
-| `doc_type` | `overview`, `decision_log`, `guide`, `theory_note`, `experiment`, `result`, `roadmap`, `gate`, `index`, `reference` |
-| `stage` | `0`, `1`, `1.5`, `2`, `reference` |
+| `doc_type` | `overview`, `decision_log`, `guide`, `theory_note`, `experiment`, `result`, `summary`, `postmortem`, `roadmap`, `gate`, `index`, `reference` |
+| `stage` | `0`, `1`, `1.5`, `2`, `3`, `4`, `5`, `6`, `reference` |
 | `status` | `draft`, `completed`, `in_progress`, `blocked`, `provenance`, `reference` |
 | `evidence_role` | `control`, `hypothesis`, `proxy_scan`, `provenance`, `audit`, `ssot`, `reference` |
 
@@ -78,8 +79,13 @@ These enumerations match `scripts/validate_docs.py` exactly.
    is not physical evidence must say so through metadata, not body text alone.
 8. **Sortable filename prefix in active stage dirs.** Files in `docs/02_theory/`,
    `docs/03_experiments/`, `docs/04_results/`, and `docs/05_next_steps/` (except
-   `README.md`) must start with one of the prefixes `000_`, `010_`, `015_`,
+   [README.md](README.md)) must start with one of the prefixes `000_`, `010_`, `015_`,
    `020_`, `030_`, `040_`, `900_`.
+9. **Experiment/result section coverage.** Experiment documents must expose
+   objective, hypothesis, scope, outputs, failure criteria, and decision
+   sections. Result documents must expose scope, evidence or outputs, decision,
+   and next-gate sections. The detailed convention is
+   [docs/00_project/experiment_record_convention.md](experiment_record_convention.md).
 
 ## Stage prefix meaning
 
@@ -93,6 +99,7 @@ IDs (`exp_001`), result IDs (`result_001`), or theory labels (`qfuds_v0_15`).
 020_ experiment 002
 030_ later experiment/result sequence (e.g. exp_003)
 040_ Level 2 theory work
+040_ Level 3+ theory or interface work when the roadmap unblocks it
 900_ broad reference or report
 ```
 

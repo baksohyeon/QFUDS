@@ -9,7 +9,7 @@ depends_on:
   - exp_001_5_phase_transfer_physicality
   - result_002_entropy_information_gate
 next_gate: Level 2A phenomenological closure; keep physical Level 2B blocked
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Result 001.5: Phase Transfer Physicality Audit
@@ -107,8 +107,21 @@ phenomenological interacting-vacuum model.
 
 Evidence:
 
-- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
-- `docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md`
-- `docs/04_results/020_result_002_entropy_information_gate.md`
+- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+- [docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md](../03_experiments/015_exp_001_5_phase_transfer_physicality.md)
+- [docs/04_results/020_result_002_entropy_information_gate.md](020_result_002_entropy_information_gate.md)
 - `qfuds/gamma_laws.py`
 - `qfuds/growth.py`
+
+## Evidence
+
+The audit is supported by the theory note, experiment specification, demoted
+experiment 002 result, and implementation files listed above. It produced a
+classification decision, not a new numerical output table.
+
+## Next Gate
+
+Keep physical Level 2B blocked until the transfer mechanism, mass threshold,
+self-consistent growth source, and transfer perturbation prescription are
+defined or the branch is explicitly retained only as phenomenological
+interacting vacuum.

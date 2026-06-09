@@ -10,7 +10,7 @@ depends_on:
   - exp_001_gamma_scan
   - exp_002_entropy_information_gate
 next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # QFUDS Verification Guide
@@ -33,8 +33,8 @@ What to inspect:
 
 - `outputs/qfuds_gamma0_beta0.csv`
 - `outputs/qfuds_gamma0_beta0.png`
-- `docs/03_experiments/000_exp_000_lcdm_baseline.md`
-- `docs/04_results/000_result_000_lcdm_baseline.md`
+- [docs/03_experiments/000_exp_000_lcdm_baseline.md](../03_experiments/000_exp_000_lcdm_baseline.md)
+- [docs/04_results/000_result_000_lcdm_baseline.md](../04_results/000_result_000_lcdm_baseline.md)
 
 What it means:
 
@@ -50,8 +50,8 @@ python3 scripts/run_minimal_model.py --exp-001-gamma-scan
 
 What to inspect:
 
-- `docs/03_experiments/010_exp_001_gamma_scan.md`
-- `docs/04_results/010_result_001_gamma_scan.md`
+- [docs/03_experiments/010_exp_001_gamma_scan.md](../03_experiments/010_exp_001_gamma_scan.md)
+- [docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md)
 - `outputs/qfuds_constant_gamma0.01_beta0.csv`
 - `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`
 - `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`
@@ -73,8 +73,8 @@ python3 scripts/run_minimal_model.py --exp-002-entropy-gate
 
 What to inspect:
 
-- `docs/03_experiments/020_exp_002_entropy_information_gate.md`
-- `docs/04_results/020_result_002_entropy_information_gate.md`
+- [docs/03_experiments/020_exp_002_entropy_information_gate.md](../03_experiments/020_exp_002_entropy_information_gate.md)
+- [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md)
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`
@@ -86,8 +86,8 @@ This scan asks whether the transfer law can be tied to a concrete entropy or inf
 
 Where the branch decision is recorded:
 
-- `docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md`
-- `docs/05_next_steps/010_perturbation_gate.md`
+- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+- [docs/05_next_steps/010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md)
 
 What it is not:
 
@@ -118,10 +118,11 @@ python3 scripts/run_minimal_model.py --exp-003-perturbation-closure
 
 What to inspect:
 
-- `docs/02_theory/040_qfuds_phenomenological_perturbations.md`
-- `docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md`
-- `docs/04_results/030_result_003_phenomenological_perturbation_closure.md`
-- `docs/05_next_steps/010_perturbation_gate.md`
+- [docs/04_results/000_experiment_summary.md](../04_results/000_experiment_summary.md)
+- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
+- [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md)
+- [docs/05_next_steps/010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md)
 - `outputs/exp003_stability_diagnostics.csv`
 - `outputs/exp003_phenomenological_perturbation_summary.json`
 
@@ -137,19 +138,21 @@ phenomenological interacting vacuum. This is not a physical derivation of
 Command:
 
 ```bash
-python3 -m unittest discover -s tests
+python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
 What to inspect:
 
 - `tests/test_gamma_v03.py`
+- `tests/test_exp003_perturbations.py`
 
 What it means:
 
 The tests check implementation invariants: the zero-transfer path reproduces
 the LCDM baseline, all gamma models return finite aligned arrays, viability
 flags are explicit booleans, and an invalid constant-transfer parameter choice
-is detected by the positive-density check.
+is detected by the positive-density check. They also cover the corrected
+phenomenological perturbation closure used by `exp_003`.
 
 ## 6. Documentation Validation
 
@@ -162,9 +165,28 @@ python3 scripts/validate_docs.py
 What it means:
 
 This validates frontmatter, H1/title alignment, active-stage filename prefixes,
-required experiment/result document pairs, and the roadmap/decision-log stop
-line. It does not validate physics. It checks that the documentation control
-surface is internally coherent.
+required experiment/result document pairs, required experiment/result sections,
+and the roadmap/decision-log stop line. It does not validate physics. It checks
+that the documentation control surface is internally coherent.
+
+## 7. Documentation Integrity
+
+Commands:
+
+```bash
+python3 scripts/research_consistency.py
+python3 scripts/preflight_exp004.py
+```
+
+What they mean:
+
+`research_consistency.py` checks cross-document authority: roadmap evidence
+paths, decision-log coverage, experiment/result pairing, and whether human-facing
+documents defer current status to the roadmap.
+
+`preflight_exp004.py` checks the specific exp_003 to exp_004 transition record:
+exp_003 documents, referenced outputs, decision-log verdict, postmortem
+reference, and premature CLASS/CMB/matter-power claims.
 
 ## Current Stop Line
 

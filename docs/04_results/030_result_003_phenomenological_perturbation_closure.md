@@ -9,7 +9,7 @@ depends_on:
   - exp_003_phenomenological_perturbation_closure
   - qfuds_phenomenological_perturbations
 next_gate: keep Level 2B blocked; classify any continuation as phenomenological interacting vacuum
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Result 003: Phenomenological Perturbation Closure Audit
@@ -48,8 +48,11 @@ This result does not establish physical QFUDS perturbations. It establishes only
 that one phenomenological interacting-vacuum closure can be integrated without
 the stability flags used in this audit.
 
-**Scope**: This is a perturbation-level stability audit. It does not establish
-CMB viability, matter-power consistency, or physical QFUDS microphysics.
+## Scope
+
+This is a perturbation-level stability audit. It does not establish CMB
+viability, matter-power consistency, survey-likelihood viability, or physical
+QFUDS microphysics.
 
 ## What Was Tested
 

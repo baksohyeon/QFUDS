@@ -37,12 +37,14 @@ ALLOWED_VALUES = {
         "theory_note",
         "experiment",
         "result",
+        "summary",
+        "postmortem",
         "roadmap",
         "gate",
         "index",
         "reference",
     },
-    "stage": {"0", "1", "1.5", "2", "reference"},
+    "stage": {"0", "1", "1.5", "2", "3", "4", "5", "6", "reference"},
     "status": {
         "draft",
         "completed",
@@ -70,6 +72,31 @@ ACTIVE_STAGE_DIRS = {
 }
 
 PREFIXED_NAME = re.compile(r"^(000|010|015|020|030|040|900)_.+\.md$")
+MD_PATH_RE = re.compile(
+    r"(?P<path>(?:\.\.?/|docs/|outputs/|[A-Za-z0-9_-]+/)?[A-Za-z0-9_./-]+\.md)"
+)
+
+SECTION_RULES = {
+    "experiment": {
+        "Objective": ("Objective",),
+        "Hypothesis": ("Hypothesis",),
+        "Scope": ("Scope",),
+        "Failure Criteria": ("Failure Criteria",),
+        "Outputs": ("Outputs", "Required Outputs"),
+        "Decision": ("Decision", "Decision Rule"),
+    },
+    "result": {
+        "Scope": ("Scope",),
+        "Evidence or Outputs": (
+            "Outputs",
+            "Figures",
+            "Evidence",
+            "Plots / Output Files Produced",
+        ),
+        "Decision": ("Decision",),
+        "Next Gate": ("Next Gate", "Next Test", "Next Step", "What Became The Next Target"),
+    },
+}
 
 
 def parse_frontmatter(path: Path) -> tuple[dict[str, str], str]:
@@ -99,6 +126,60 @@ def first_h1(body: str) -> str | None:
         if line.startswith("# "):
             return line[2:].strip()
     return None
+
+
+def headings(body: str) -> list[str]:
+    found: list[str] = []
+    for line in body.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("#"):
+            found.append(stripped.lstrip("#").strip().lower())
+    return found
+
+
+def has_heading(body_headings: list[str], labels: tuple[str, ...]) -> bool:
+    lowered = tuple(label.lower() for label in labels)
+    return any(any(label in heading for label in lowered) for heading in body_headings)
+
+
+def resolve_md_reference(path: Path, reference: str) -> Path:
+    if reference.startswith("docs/") or reference.startswith("outputs/"):
+        return ROOT / reference
+    relative_path = (path.parent / reference).resolve()
+    if relative_path.exists():
+        return relative_path
+    root_path = ROOT / reference
+    if root_path.exists():
+        return root_path
+    return relative_path
+
+
+def validate_markdown_doc_links(path: Path, body: str) -> list[str]:
+    """Require concrete Markdown document references to be clickable links."""
+    errors: list[str] = []
+    in_fence = False
+    for line_number, line in enumerate(body.splitlines(), start=1):
+        if line.strip().startswith("```"):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        if line.lstrip().startswith("#"):
+            continue
+        for match in MD_PATH_RE.finditer(line):
+            reference = match.group("path")
+            if "*" in reference:
+                continue
+            previous = line[match.start() - 1] if match.start() > 0 else ""
+            if previous in {"(", "[", "<"}:
+                continue
+            referenced_path = resolve_md_reference(path, reference)
+            if referenced_path.exists() and referenced_path.suffix == ".md":
+                rel = path.relative_to(ROOT)
+                errors.append(
+                    f"{rel}:{line_number}: `{reference}` should be a Markdown link"
+                )
+    return errors
 
 
 def validate_doc(path: Path) -> list[str]:
@@ -139,6 +220,13 @@ def validate_doc(path: Path) -> list[str]:
             f"{rel}: H1 `{h1}` does not match title `{frontmatter['title']}`"
         )
 
+    doc_type = frontmatter.get("doc_type")
+    if doc_type in SECTION_RULES:
+        body_headings = headings(body)
+        for section, accepted_labels in SECTION_RULES[doc_type].items():
+            if not has_heading(body_headings, accepted_labels):
+                errors.append(f"{rel}: missing required `{section}` section")
+
     parent = path.parent
     if parent in ACTIVE_STAGE_DIRS and path.name != "README.md":
         if not PREFIXED_NAME.match(path.name):
@@ -150,6 +238,8 @@ def validate_doc(path: Path) -> list[str]:
             errors.append(
                 f"{rel}: status `{frontmatter['status']}` needs provenance/reference evidence_role"
             )
+
+    errors.extend(validate_markdown_doc_links(path, body))
 
     return errors
 
@@ -206,6 +296,20 @@ def validate_crosslinks() -> list[str]:
     return errors
 
 
+def validate_global_markdown_link_hygiene() -> list[str]:
+    """Check non-docs Markdown files that are not part of the frontmatter schema."""
+    errors: list[str] = []
+    paths = list(ROOT.glob("*.md"))
+    postmortem_dir = ROOT / "outputs" / "postmortem"
+    if postmortem_dir.exists():
+        paths.extend(postmortem_dir.rglob("*.md"))
+
+    for path in sorted(paths):
+        text = path.read_text(encoding="utf-8")
+        errors.extend(validate_markdown_doc_links(path, text))
+    return errors
+
+
 def main() -> int:
     errors: list[str] = []
     doc_ids: dict[str, Path] = {}
@@ -223,6 +327,7 @@ def main() -> int:
         elif doc_id:
             doc_ids[doc_id] = path
     errors.extend(validate_crosslinks())
+    errors.extend(validate_global_markdown_link_hygiene())
 
     if errors:
         for error in errors:
