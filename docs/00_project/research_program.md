@@ -2,14 +2,14 @@
 doc_id: research_program
 title: QFUDS Research Program
 doc_type: overview
-stage: "1.5"
-status: in_progress
-evidence_role: ssot
+stage: "reference"
+status: reference
+evidence_role: reference
 depends_on:
   - project_overview
   - roadmap
-next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-08
+next_gate: roadmap is status SSOT; keep Level 2B blocked unless a new physical branch is admitted
+last_updated: 2026-06-09
 ---
 
 # QFUDS Research Program
@@ -181,29 +181,15 @@ could become observationally relevant.
 
 ## Validation Roadmap
 
-Current status:
+Current per-level status lives only in the roadmap:
+[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
 
-```text
-Level 0: literature position       draft complete
-Level 1: background validation     complete
-  exp_000: LCDM baseline
-  exp_001: Gamma-law background scan
-  exp_002: entropy/information gate, provenance only
-QFUDS v0.15 / Level 1.5: phase-transfer physicality in progress
-Level 2A: phenomenological perturbation closure complete
-Level 2B: physical perturbations   blocked
-Level 3: CLASS/CAMB implementation not started
-Level 4: CMB comparison            not started
-Level 5: matter power spectrum     not started
-Level 6: late-time survey tests    not started
-```
-
-The project has moved through Level 1 background validation: `exp_000`
-baseline, `exp_001` Gamma-law diagnostics, and `exp_002`
-entropy/information-source gate. `exp_002` is now retained as provenance, not
-physical evidence. Level 1.5 remains the immediate gate for physical
-phase-transfer claims. Level 2A is complete only as a phenomenological
-perturbation-closure audit.
+This document is a reference note for the research framing and idea trail. It
+must not be used as the status source. The retained
+`dF_coll/dln(a)`/information-production branch has failed physical Level 1.5
+promotion and is demoted to phenomenological interacting-vacuum status. That
+rejects only the current retained source relation as a physical derivation; it
+does not falsify the broader DM-to-DE phase-transition hypothesis.
 
 ### Level 0: Literature Position
 
@@ -290,15 +276,16 @@ Result:
 HBM/KL gravitational entropy fails positivity at the tested amplitude
 horizon information reduces to standard horizon/interacting dark energy
 black-hole entropy still needs a real mass/accretion history
-Press-Schechter information production is the narrow branch worth testing next
+Press-Schechter information production was the narrow branch retained for
+Level 1.5, then demoted after failing physical promotion
 ```
 
 This still does not prove perturbation stability, CMB viability, matter-power viability, or novelty.
 
 ### Level 2A: Phenomenological Perturbations
 
-Write a gauge-declared phenomenological perturbation closure for the two-phase
-fluid. This is a kill test, not a physical derivation of QFUDS.
+The gauge-declared phenomenological perturbation closure has been run as a kill
+test, not as a physical derivation of QFUDS.
 
 The key term is:
 
@@ -310,8 +297,9 @@ If this term is too large, structure formation fails.
 
 ### Level 2B: Physical Perturbations
 
-Derive or physically justify the transfer perturbations after Level 1.5 resolves
-the meaning of `Gamma(a)`.
+Physical Level 2B remains blocked for the retained branch. A future physical
+branch must first supply the admission-rule ingredients in the roadmap before
+any physical perturbation closure is claimed.
 
 ### Level 3: CLASS Or CAMB Implementation
 
@@ -405,8 +393,7 @@ no CMB or matter-power fit yet
 remnant sector still optional
 ```
 
-The next real steps are QFUDS v0.15 / Level 1.5 phase-transfer physicality and
-Level 2A phenomenological perturbation closure. CLASS or CAMB remain blocked
-until a stable perturbation closure exists. Physical Level 2B remains blocked
-until `Gamma(a)` is physically justified or explicitly demoted to a
-phenomenological interacting-vacuum law.
+The next real step is not to reopen the retained `Gamma(a)` branch. CLASS or
+CAMB remain blocked for physical claims until a new physical branch supplies a
+transfer derivation and perturbation prescription. The retained branch may
+continue only as explicitly phenomenological interacting-vacuum work.

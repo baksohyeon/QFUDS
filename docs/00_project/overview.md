@@ -9,12 +9,12 @@ depends_on:
   - decision_log
   - roadmap
 next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # QFUDS Project Overview
 
-Date: 2026-06-08
+Date: 2026-06-09
 
 ## Project Goals
 
@@ -56,9 +56,9 @@ QFUDS is not yet a complete physical theory.
 1. No covariant microscopic foam action has been derived.
 2. The phase split is phenomenological.
 3. `Gamma(a)` laws in experiment 001 are toy prescriptions or empirical proxies.
-4. The experiment 002 information-production branch is still a phenomenological background/growth-proxy candidate, not a derived physical transfer law or perturbation result.
+4. The experiment 002 information-production branch is provenance, not current physical evidence.
 5. Background-level viability does not imply CMB viability.
-6. The perturbation prescription for coupled phase transfer is not specified.
+6. Physical perturbation closure is blocked until a new admitted physical branch supplies a transfer derivation.
 7. A single adiabatic unified fluid with late `w -> -1` can fail structure formation through an excessive sound speed.
 8. Compact black/white-hole remnants are optional and must remain subdominant unless their abundance and mass function are derived.
 9. Existing data already strongly constrain deviations from LCDM.
@@ -69,10 +69,10 @@ The immediate research path is:
 
 1. Preserve the version history and experiment decisions in docs.
 2. Keep experiments 001 and 002 as background-only diagnostic results.
-3. Continue the Level 1.5 phase-transfer physicality gate for physical claims.
+3. Keep the retained `dF_coll/dln(a)` branch closed as a failed physical Level 1.5 promotion.
 4. Interpret the Level 2A result as phenomenological interacting vacuum only; see the roadmap for its status.
-5. Implement a Boltzmann-code version only after the perturbation assumptions are explicit and stable.
-6. Compare against CMB and matter power before adding new speculative mechanisms.
+5. Open no physical Level 2B or Boltzmann-code work until a new physical branch passes the roadmap admission rule.
+6. Compare against CMB and matter power only after the relevant upstream perturbation and implementation gates exist.
 
 The maintained roadmap is [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
 
@@ -110,8 +110,9 @@ exp_002
 
 Level 1.5
   Phase-transfer physicality audit.
-  Current verdict: Gamma(a) is a phenomenological coarse-grained transfer law
-  with a physically motivated source shape, not a derived microscopic law.
+  Current retained-branch verdict: Gamma(a) is a phenomenological
+  coarse-grained transfer law with a physically motivated source shape, not a
+  derived microscopic law.
 
 Level 2A
   Phenomenological perturbation closure.
