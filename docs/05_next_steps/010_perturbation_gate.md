@@ -9,7 +9,7 @@ depends_on:
   - qfuds_v0_15_phase_transfer_physics
   - result_001_5_phase_transfer_physicality
 next_gate: keep Level 2B blocked; classify P1 continuation as phenomenological interacting vacuum
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Level 2 Perturbation Gate
@@ -32,11 +32,13 @@ Phenomenological perturbation closure may begin as Level 2A if the closure is
 covariant, gauge-declared, and explicitly labeled as phenomenological.
 ```
 
-Do not add new speculative mechanisms before Level 1.5 is addressed.
+Do not add new speculative mechanisms as physical QFUDS branches unless they
+pass the future-branch admission rule in
+[015_level_1_5_resolution_gate.md](015_level_1_5_resolution_gate.md).
 
-## Surviving Branch
+## Retained Branch
 
-The only branch promoted from experiment 002 is:
+The only branch retained from experiment 002 was:
 
 ```math
 \Gamma(a)\propto {dF_{\rm coll}(>M,a)\over d\ln a}.
@@ -48,9 +50,11 @@ Interpretation:
 phase transfer follows nonlinear structure collapse / information production
 ```
 
-This is not yet a confirmed physical law. It remains a Level 1.5 branch for
-physical interpretation and a Level 2A phenomenological closure target for
-perturbative kill tests.
+This is not a confirmed physical law. The retained-branch Level 1.5
+investigation is now closed: it failed physical promotion and is demoted to
+phenomenological interacting-vacuum status. This does not falsify the broader
+DM-to-DE phase-transition hypothesis; it rejects only the current retained
+source relation as a physical derivation.
 
 ## Killed Branches
 
@@ -66,7 +70,7 @@ Do not continue these as core claims without new equations and evidence:
 | Level | Status | Meaning | Gate |
 | --- | --- | --- | --- |
 | 2A | completed | Phenomenological perturbation closure for a known interacting-dark-sector style model | P2 failed at retained amplitude; P1 survives as phenomenological interacting vacuum |
-| 2B | blocked | Physical QFUDS perturbation closure | Resolve Level 1.5 or explicitly derive/fix the transfer physics |
+| 2B | blocked | Physical QFUDS perturbation closure | Requires a new admitted physical branch with source, transfer, phase-B, `delta Q`, and known-model distinction |
 
 Level 2A may test whether the current branch is even mathematically usable.
 Level 2A may not claim microphysics, novelty, CMB viability, matter-power
@@ -85,18 +89,22 @@ viability, or survey-likelihood viability.
 
 ## Required Work Before Level 2B Closure
 
-1. Resolve [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md).
-2. Decide whether `Gamma(a)` is a physical phase-transfer hypothesis or only a phenomenological interacting-vacuum law.
-3. Recompute `dF_coll/dln a` using QFUDS self-consistent growth `D(a)`, not an LCDM-source approximation, once the required growth ingredients exist.
-4. Fix the mass threshold `M` from a physical criterion.
-5. Derive or physically justify the transfer perturbation variable.
-6. Check whether any claimed redshift relation between `w(a)` and `f sigma8(a)` survives.
+1. Open a new physical-QFUDS branch only after it provides `X`, `Q^nu`, a
+   reason phase B has `w ~= -1`, a `delta Q` route, and a known-model
+   distinction.
+2. Recompute any source history using self-consistent ingredients for that
+   branch, not an LCDM-source approximation, unless explicitly bounded as a
+   proxy.
+3. Fix all physical thresholds before comparison.
+4. Derive or physically justify the transfer perturbation variable.
+5. Check whether any claimed redshift relation between `w(a)` and
+   `f sigma8(a)` survives.
 
 ## Required Level 2 Documents
 
 Level 2A documents:
 
-- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/02_theory/030_qfuds_phenomenological_perturbations.md](../02_theory/030_qfuds_phenomenological_perturbations.md)
 - [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
 
 Level 2A result:
@@ -119,9 +127,9 @@ Terminate or narrow the surviving branch if:
 ## Current Decision
 
 Level 2A is complete for the baseline closure. P2 failed at the retained
-amplitude. P1 is stable only as phenomenological interacting vacuum. Remain at
-Level 1.5 for the physical interpretation of the collapse/information-production
-branch, and keep Level 2B blocked.
+amplitude. P1 is stable only as phenomenological interacting vacuum. The
+retained collapse/information-production branch is demoted after Level 1.5, and
+Level 2B remains blocked.
 
 Do not treat experiment 002 as a perturbation result, and do not treat the
 current `Gamma(a) proportional to dF_coll/dln(a)` law as derived physics.

@@ -8,7 +8,7 @@ evidence_role: ssot
 depends_on:
   - roadmap
   - perturbation_gate
-next_gate: keep Level 2B blocked; no CMB or matter-power claims
+next_gate: retained branch demoted; keep Level 2B blocked
 last_updated: 2026-06-09
 ---
 
@@ -19,5 +19,7 @@ Current roadmap and validation blockers.
 - [000_roadmap.md](000_roadmap.md): validation levels, status, and next required checks.
 - [015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md): QFUDS v0.15 / Level 1.5 phase-transfer physicality gate.
 - [010_perturbation_gate.md](010_perturbation_gate.md): split handoff from background scans to Level 2A phenomenological closure and Level 2B physical closure.
-- [015_level_1_5_resolution_gate.md](015_level_1_5_resolution_gate.md): evidence criteria for Level 1.5 pass, fail, or demotion.
+- [015_level_1_5_resolution_gate.md](015_level_1_5_resolution_gate.md): evidence criteria for Level 1.5 pass, fail, demotion, and future branch admission.
+- [015_retained_branch_source_closure_plan_provenance.md](015_retained_branch_source_closure_plan_provenance.md): provenance planning gate superseded by the retained-branch demotion.
+- [030_exp003_record_consistency_gate.md](030_exp003_record_consistency_gate.md): exp_003 record consistency gate.
 - [900_roadmap_overview_ko.md](900_roadmap_overview_ko.md): Korean guide to roadmap trajectory and branch outcomes.

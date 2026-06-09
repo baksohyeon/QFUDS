@@ -65,11 +65,11 @@ Canonical active documents:
 - [docs/00_project/verification_guide.md](docs/00_project/verification_guide.md)
 - [docs/00_project/frontmatter_convention.md](docs/00_project/frontmatter_convention.md)
 - [docs/00_project/experiment_record_convention.md](docs/00_project/experiment_record_convention.md)
-- [docs/02_theory/010_qfuds_v0_1.md](docs/02_theory/010_qfuds_v0_1.md)
+- [docs/02_theory/000_qfuds_v0_1_conceptual_origin.md](docs/02_theory/000_qfuds_v0_1_conceptual_origin.md)
+- [docs/02_theory/000_qfuds_v0_2_two_phase_background.md](docs/02_theory/000_qfuds_v0_2_two_phase_background.md)
+- [docs/02_theory/010_qfuds_v0_3_gamma_laws.md](docs/02_theory/010_qfuds_v0_3_gamma_laws.md)
 - [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
-- [docs/02_theory/020_qfuds_v0_2.md](docs/02_theory/020_qfuds_v0_2.md)
-- [docs/02_theory/030_qfuds_v0_3.md](docs/02_theory/030_qfuds_v0_3.md)
-- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](docs/02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/02_theory/030_qfuds_phenomenological_perturbations.md](docs/02_theory/030_qfuds_phenomenological_perturbations.md)
 - [docs/03_experiments/000_exp_000_lcdm_baseline.md](docs/03_experiments/000_exp_000_lcdm_baseline.md)
 - [docs/03_experiments/010_exp_001_gamma_scan.md](docs/03_experiments/010_exp_001_gamma_scan.md)
 - [docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md](docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md)
@@ -96,10 +96,13 @@ Historical/provenance documents:
 Use this convention:
 
 ```text
-docs/02_theory/:      010_qfuds_v0_1, 015_qfuds_v0_15_*, 020_qfuds_v0_2, 030_qfuds_v0_3, 900_*
-docs/03_experiments/: 000_exp_000_*, 010_exp_001_*, 015_exp_001_5_*, 020_exp_002_*
-docs/04_results/:     000_result_000_*, 010_result_001_*, 015_result_001_5_*, 020_result_002_*
-docs/05_next_steps/:  000_roadmap.md, 010_perturbation_gate.md
+000_ baseline/control
+010_ Level 1 / experiment 001
+015_ QFUDS v0.15 / Level 1.5 gate
+020_ experiment 002 entropy/information provenance sequence
+030_ Level 2A / experiment 003 phenomenological perturbation sequence
+040_ future Level 2B+ physical perturbation, interface, or downstream theory work
+900_ broad reference or report
 ```
 
 The numeric prefix is a sort key. It must keep file trees readable in ordinary
@@ -209,7 +212,7 @@ No experiment is complete until it has:
 
 The Level 2A phenomenological closure files exist and are current:
 
-- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](docs/02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/02_theory/030_qfuds_phenomenological_perturbations.md](docs/02_theory/030_qfuds_phenomenological_perturbations.md)
 - [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
 - [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md)
 - [docs/05_next_steps/010_perturbation_gate.md](docs/05_next_steps/010_perturbation_gate.md)

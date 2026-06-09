@@ -3,12 +3,13 @@ doc_id: level_1_5_resolution_gate
 title: Level 1.5 Phase-Transfer Resolution Gate
 doc_type: gate
 stage: "1.5"
-status: in_progress
+status: completed
 evidence_role: ssot
 depends_on:
   - result_001_5_phase_transfer_physicality
   - result_002_entropy_information_gate
-next_gate: resolve physical transfer or explicitly demote to phenomenological interacting vacuum
+  - qfuds_level_1_5_transfer_four_vector_derivation_attempt
+next_gate: retained branch demoted; future physical-QFUDS branches must pass the admission rule before Level 2B
 last_updated: 2026-06-09
 ---
 
@@ -19,6 +20,17 @@ Date: 2026-06-09
 This gate defines what would count as resolving the current phase-transfer
 physicality blocker. It does not change project status. Current status remains
 in [docs/05_next_steps/000_roadmap.md](000_roadmap.md).
+
+## Retained-Branch Resolution
+
+The retained collapse/information-production `Gamma(a)` branch fails physical
+Level 1.5 promotion and is demoted to phenomenological interacting-vacuum
+status. This does not falsify the broader DM-to-DE phase-transition hypothesis;
+it rejects only the current retained source relation as a physical derivation.
+
+This document remains the gate definition for any future physical-QFUDS branch,
+but the retained `dF_coll/dln(a)` branch is closed as a physical-promotion
+candidate.
 
 ## Question
 
@@ -132,3 +144,13 @@ A Level 1.5 resolution must point to:
 - roadmap update.
 
 No background-only output can satisfy this gate by itself.
+
+## Future-Branch Admission Rule
+
+No new physical-QFUDS branch should be opened unless it provides, at minimum:
+
+- `X =`
+- `Q^nu =`
+- `why phase B has w ~= -1 =`
+- `delta Q route =`
+- `known-model distinction =`

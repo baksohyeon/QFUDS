@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Preflight gate that must pass before experiment 004 may begin.
+"""Record-consistency gate originally created before experiment 004 planning.
 
-This script enforces a single rule: QFUDS may not advance to exp_004 unless the
-exp_003 documentation, roadmap, outputs, and decision log are internally
-consistent. It does not run any physics. It does not rewrite scientific
-conclusions. It only verifies that the research record is complete and
-non-contradictory, and reports blockers when it is not.
+This script enforces a narrow record rule: the exp_003 documentation, roadmap,
+outputs, and decision log must stay internally consistent. It does not run any
+physics. It does not rewrite scientific conclusions. It does not authorize
+exp_004 for the demoted retained branch. It only verifies that the research
+record is complete and non-contradictory, and reports blockers when it is not.
 
-Companion document: ``docs/05_next_steps/020_exp004_preflight_gate.md``.
+Companion document: ``docs/05_next_steps/030_exp003_record_consistency_gate.md``.
 It complements (does not replace) ``scripts/validate_docs.py``, which checks
 per-document frontmatter schema. This gate checks cross-document state for the
-specific exp_003 -> exp_004 transition.
+exp_003 record.
 
 Usage:
 
     python3 scripts/preflight_exp004.py
 
-Exit code 0 means the gate passes and exp_004 may be planned. Any other exit
+Exit code 0 means the exp_003 record-consistency gate passes. Any other exit
 code lists the failed checks; those are the blockers that must be fixed first.
 """
 
@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
 # Canonical exp_003 documents (theory, experiment, result) and supporting files.
-THEORY_DOC = DOCS / "02_theory" / "040_qfuds_phenomenological_perturbations.md"
+THEORY_DOC = DOCS / "02_theory" / "030_qfuds_phenomenological_perturbations.md"
 EXPERIMENT_DOC = DOCS / "03_experiments" / "030_exp_003_phenomenological_perturbation_closure.md"
 RESULT_DOC = DOCS / "04_results" / "030_result_003_phenomenological_perturbation_closure.md"
 DECISION_LOG = DOCS / "00_project" / "decision_log.md"
@@ -230,7 +230,7 @@ CHECKS = (
 
 
 def main() -> int:
-    print("QFUDS exp_004 preflight gate")
+    print("QFUDS exp_003 record consistency gate")
     print("=" * 60)
     results = [check() for check in CHECKS]
 
@@ -243,13 +243,13 @@ def main() -> int:
 
     print("\n" + "=" * 60)
     if failed:
-        print(f"PREFLIGHT FAILED: {len(failed)} check(s) blocking exp_004")
-        print("Blockers (must be fixed before exp_004):")
+        print(f"PREFLIGHT FAILED: {len(failed)} exp_003 record check(s)")
+        print("Record blockers:")
         for result in failed:
             print(f"  - {result.name}")
         return 1
 
-    print("PREFLIGHT PASSED: exp_003 record is consistent; exp_004 may be planned")
+    print("PREFLIGHT PASSED: exp_003 record is consistent")
     return 0
 
 

@@ -188,9 +188,9 @@ Active documentation in [docs/02_theory/](docs/02_theory/),
 000_ baseline/control
 010_ Level 1 / experiment 001
 015_ QFUDS v0.15 / Level 1.5 gate
-020_ experiment 002
-030_ later experiment/result sequence
-040_ future Level 2 theory work when needed
+020_ experiment 002 entropy/information provenance sequence
+030_ Level 2A / experiment 003 phenomenological perturbation sequence
+040_ future Level 2B+ physical perturbation, interface, or downstream theory work
 900_ broad reference or report
 ```
 

@@ -3,12 +3,13 @@ doc_id: exp_001_5_phase_transfer_physicality
 title: "Experiment 001.5: Phase Transfer Physicality Gate"
 doc_type: experiment
 stage: "1.5"
-status: in_progress
+status: completed
 evidence_role: audit
 depends_on:
   - exp_002_entropy_information_gate
   - result_002_entropy_information_gate
-next_gate: Level 2A phenomenological closure; keep physical Level 2B blocked
+  - qfuds_level_1_5_transfer_four_vector_derivation_attempt
+next_gate: retained branch demoted; no physical Level 2B without a new admitted physical branch
 last_updated: 2026-06-09
 ---
 
@@ -101,7 +102,21 @@ docs/04_results/015_result_001_5_phase_transfer_physicality.md
 
 ## Decision
 
-Remain at QFUDS v0.15 / Level 1.5.
+The retained collapse/information-production `Gamma(a)` branch fails physical
+Level 1.5 promotion and is demoted to phenomenological interacting-vacuum
+status. This does not falsify the broader DM-to-DE phase-transition hypothesis;
+it rejects only the current retained source relation as a physical derivation.
 
 Do not treat `exp_003` as physical QFUDS evidence. It may proceed only as a
-Level 2A phenomenological closure audit.
+Level 2A phenomenological closure audit. Do not open physical Level 2B for this
+retained branch.
+
+## Future-Branch Admission Rule
+
+No new physical-QFUDS branch should be opened unless it provides, at minimum:
+
+- `X =`
+- `Q^nu =`
+- `why phase B has w ~= -1 =`
+- `delta Q route =`
+- `known-model distinction =`

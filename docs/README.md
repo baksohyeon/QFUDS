@@ -8,7 +8,7 @@ evidence_role: ssot
 depends_on:
   - project_overview
   - roadmap
-next_gate: keep Level 2B blocked; no CMB or matter-power claims
+next_gate: retained branch demoted; keep Level 2B blocked
 last_updated: 2026-06-09
 ---
 
@@ -61,11 +61,15 @@ Provenance and idea-history documents. These are not evidence that QFUDS is corr
 
 Theory notes, literature positioning, and model-version definitions.
 
-- [010_qfuds_v0_1.md](02_theory/010_qfuds_v0_1.md)
-- [015_qfuds_v0_15_phase_transfer_physics.md](02_theory/015_qfuds_v0_15_phase_transfer_physics.md) - QFUDS v0.15 / Level 1.5 phase-transfer physicality audit
-- [020_qfuds_v0_2.md](02_theory/020_qfuds_v0_2.md)
-- [030_qfuds_v0_3.md](02_theory/030_qfuds_v0_3.md)
-- [040_qfuds_phenomenological_perturbations.md](02_theory/040_qfuds_phenomenological_perturbations.md)
+- [000_qfuds_v0_1_conceptual_origin.md](02_theory/000_qfuds_v0_1_conceptual_origin.md)
+- [000_qfuds_v0_2_two_phase_background.md](02_theory/000_qfuds_v0_2_two_phase_background.md)
+- [010_qfuds_v0_3_gamma_laws.md](02_theory/010_qfuds_v0_3_gamma_laws.md)
+- [015_qfuds_v0_15_phase_transfer_physics.md](02_theory/015_qfuds_v0_15_phase_transfer_physics.md) - QFUDS v0.15 / Level 1.5 retained-branch demotion audit
+- [015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md) - completed Level 1.5 equivalence, source, and perturbation-readiness audit
+- [015_qfuds_qnu_necessity_formulation_audit.md](02_theory/015_qfuds_qnu_necessity_formulation_audit.md) - audit of whether QFUDS needs an explicit transfer four-vector
+- [015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md) - failed Level 1.5 derivation attempt for a transfer four-vector
+- [015_qfuds_strong_gravity_source_mechanism_audit.md](02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md) - strong-gravity source-mechanism audit for the broader DM-to-DE phase-transition hypothesis
+- [030_qfuds_phenomenological_perturbations.md](02_theory/030_qfuds_phenomenological_perturbations.md)
 - [900_qfuds_research_report.md](02_theory/900_qfuds_research_report.md)
 
 ## 03 Experiments
@@ -95,6 +99,7 @@ Current validation roadmap and blockers.
 
 - [000_roadmap.md](05_next_steps/000_roadmap.md)
 - [010_perturbation_gate.md](05_next_steps/010_perturbation_gate.md)
-- [015_level_1_5_resolution_gate.md](05_next_steps/015_level_1_5_resolution_gate.md) - evidence criteria for Level 1.5 pass, fail, or demotion
-- [020_exp004_preflight_gate.md](05_next_steps/020_exp004_preflight_gate.md) - repository consistency gate that must pass before exp_004
+- [015_level_1_5_resolution_gate.md](05_next_steps/015_level_1_5_resolution_gate.md) - evidence criteria for Level 1.5 pass, fail, demotion, and future branch admission
+- [015_retained_branch_source_closure_plan_provenance.md](05_next_steps/015_retained_branch_source_closure_plan_provenance.md) - provenance planning gate superseded by the retained-branch demotion
+- [030_exp003_record_consistency_gate.md](05_next_steps/030_exp003_record_consistency_gate.md) - exp_003 record consistency gate
 - [900_roadmap_overview_ko.md](05_next_steps/900_roadmap_overview_ko.md) - Korean guide to roadmap trajectory and branch outcomes
