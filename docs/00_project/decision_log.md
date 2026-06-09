@@ -7,8 +7,8 @@ status: in_progress
 evidence_role: ssot
 depends_on:
   - roadmap
-next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-08
+next_gate: retained branch demoted; no physical Level 2B without a new admitted physical branch
+last_updated: 2026-06-09
 ---
 
 # QFUDS Decision Log
@@ -35,7 +35,7 @@ Reason:
 It is too broad to test directly and does not provide a controlled cosmological model.
 
 Evidence:
-[docs/01_origin/concept_origin.md](../01_origin/concept_origin.md), [docs/00_project/research_program.md](research_program.md), [docs/02_theory/010_qfuds_v0_1.md](../02_theory/010_qfuds_v0_1.md)
+[docs/01_origin/concept_origin.md](../01_origin/concept_origin.md), [docs/00_project/research_program.md](research_program.md), [docs/02_theory/000_qfuds_v0_1_conceptual_origin.md](../02_theory/000_qfuds_v0_1_conceptual_origin.md)
 
 ## 2026-06-08
 
@@ -46,7 +46,7 @@ Reason:
 It makes the LCDM limit, phase-transfer problem, sound-speed constraint, and observational kill criteria explicit.
 
 Evidence:
-[docs/02_theory/900_qfuds_research_report.md](../02_theory/900_qfuds_research_report.md), [docs/02_theory/020_qfuds_v0_2.md](../02_theory/020_qfuds_v0_2.md), `qfuds/background.py`
+[docs/02_theory/900_qfuds_research_report.md](../02_theory/900_qfuds_research_report.md), [docs/02_theory/000_qfuds_v0_2_two_phase_background.md](../02_theory/000_qfuds_v0_2_two_phase_background.md), `qfuds/background.py`
 
 ## 2026-06-08
 
@@ -149,7 +149,7 @@ Reason:
 The literature does not require a microscopic derivation before perturbation theory. Interacting dark energy, interacting vacuum, generalized dark matter, generalized Chaplygin gas, and PPF-style models all use perturbation closures to test phenomenological dark-sector assumptions. The missing requirement is not microphysics by itself; it is a closed, covariant, gauge-declared transfer prescription. Level 1.5 remains required for physical QFUDS claims.
 
 Evidence:
-[docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md), [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md), [docs/05_next_steps/010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md)
+[docs/02_theory/030_qfuds_phenomenological_perturbations.md](../02_theory/030_qfuds_phenomenological_perturbations.md), [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md), [docs/05_next_steps/010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md)
 
 ## 2026-06-08
 
@@ -189,3 +189,32 @@ provenance, not deleted.
 
 Evidence:
 `qfuds/perturbations.py`, [outputs/postmortem/exp003_friction_bug/README.md](../../outputs/postmortem/exp003_friction_bug/README.md), `outputs/postmortem/exp003_friction_bug/`, `outputs/exp003_stability_diagnostics.csv`, [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md)
+
+## 2026-06-09
+
+Decision:
+The retained collapse/information-production Gamma(a) branch fails physical
+Level 1.5 promotion and is demoted to phenomenological interacting-vacuum
+status. This does not falsify the broader DM-to-DE phase-transition hypothesis;
+it rejects only the current retained source relation as a physical derivation.
+
+Reason:
+The retained relation `Gamma(a) proportional to dF_coll/dln(a)` can be written
+as an interacting-vacuum background ansatz, but the repository does not derive a
+non-ad hoc source scalar, physical threshold `M`, transfer four-vector,
+phase-B vacuum-pressure response, or `delta Q` prescription from the same
+mechanism. The smallest attempted candidate `Q^nu` reproduces the background
+equations only by adding unsupported assumptions, so it is conservation-compatible
+phenomenology rather than physical QFUDS.
+
+Future-branch admission rule:
+No new physical-QFUDS branch should be opened unless it provides, at minimum:
+
+- `X =`
+- `Q^nu =`
+- `why phase B has w ~= -1 =`
+- `delta Q route =`
+- `known-model distinction =`
+
+Evidence:
+[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), [docs/05_next_steps/015_level_1_5_resolution_gate.md](../05_next_steps/015_level_1_5_resolution_gate.md), [docs/02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](../02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md), [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md), [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md), [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), `qfuds/gamma_laws.py`

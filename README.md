@@ -204,7 +204,8 @@ python3 scripts/preflight_exp004.py
 
 `validate_docs.py` checks metadata and required experiment/result sections.
 `research_consistency.py` checks that the roadmap remains the status authority.
-`preflight_exp004.py` checks the exp_003 record before any exp_004 planning.
+`preflight_exp004.py` checks exp_003 record consistency. It does not authorize
+new retained-branch experiments.
 
 The validation order is:
 
@@ -430,11 +431,11 @@ Maintained research documents:
 - [frontmatter_convention.md](docs/00_project/frontmatter_convention.md): canonical metadata schema
 - [experiment_record_convention.md](docs/00_project/experiment_record_convention.md): experiment/result section rules, summary policy, and postmortem policy
 - [traceability_matrix.md](docs/00_project/traceability_matrix.md): bidirectional claim/evidence traceability index
-- [010_qfuds_v0_1.md](docs/02_theory/010_qfuds_v0_1.md): conceptual origin-stage theory note
+- [000_qfuds_v0_1_conceptual_origin.md](docs/02_theory/000_qfuds_v0_1_conceptual_origin.md): conceptual origin-stage theory note
+- [000_qfuds_v0_2_two_phase_background.md](docs/02_theory/000_qfuds_v0_2_two_phase_background.md): minimal two-phase effective-fluid theory note
+- [010_qfuds_v0_3_gamma_laws.md](docs/02_theory/010_qfuds_v0_3_gamma_laws.md): physically labeled $\Gamma(a)$ transfer-law theory note
 - [015_qfuds_v0_15_phase_transfer_physics.md](docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md): phase-transfer physicality audit
-- [020_qfuds_v0_2.md](docs/02_theory/020_qfuds_v0_2.md): minimal two-phase effective-fluid theory note
-- [030_qfuds_v0_3.md](docs/02_theory/030_qfuds_v0_3.md): physically labeled $\Gamma(a)$ transfer-law theory note
-- [040_qfuds_phenomenological_perturbations.md](docs/02_theory/040_qfuds_phenomenological_perturbations.md): phenomenological perturbation closure theory note
+- [030_qfuds_phenomenological_perturbations.md](docs/02_theory/030_qfuds_phenomenological_perturbations.md): phenomenological perturbation closure theory note
 - [000_exp_000_lcdm_baseline.md](docs/03_experiments/000_exp_000_lcdm_baseline.md): zero-transfer LCDM control run
 - [010_exp_001_gamma_scan.md](docs/03_experiments/010_exp_001_gamma_scan.md): transfer-law scan
 - [015_exp_001_5_phase_transfer_physicality.md](docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md): physicality gate
@@ -490,7 +491,7 @@ Run the experiment 004 preflight gate.
 python3 scripts/preflight_exp004.py
 ```
 
-This gate is documented in [020_exp004_preflight_gate.md](docs/05_next_steps/020_exp004_preflight_gate.md) and can also be run with `make preflight-exp004`.
+This gate is documented in [030_exp003_record_consistency_gate.md](docs/05_next_steps/030_exp003_record_consistency_gate.md) and can also be run with `make preflight-exp004`.
 
 ### Reference Literature
 

@@ -9,7 +9,7 @@ depends_on:
   - exp_000_lcdm_baseline
   - exp_001_gamma_scan
   - exp_002_entropy_information_gate
-next_gate: keep Level 2B blocked; no CMB or matter-power claims
+next_gate: retained branch demoted; keep Level 2B blocked
 last_updated: 2026-06-09
 ---
 
@@ -82,7 +82,7 @@ What to inspect:
 
 What it means:
 
-This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production is the narrow branch kept for the Level 1.5 physicality audit.
+This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production was the narrow branch kept for the Level 1.5 physicality audit, and that retained branch is now demoted to phenomenological interacting-vacuum status.
 
 Where the branch decision is recorded:
 
@@ -119,7 +119,7 @@ python3 scripts/run_minimal_model.py --exp-003-perturbation-closure
 What to inspect:
 
 - [docs/04_results/000_experiment_summary.md](../04_results/000_experiment_summary.md)
-- [docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)
+- [docs/02_theory/030_qfuds_phenomenological_perturbations.md](../02_theory/030_qfuds_phenomenological_perturbations.md)
 - [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
 - [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md)
 - [docs/05_next_steps/010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md)
@@ -190,8 +190,13 @@ reference, and premature CLASS/CMB/matter-power claims.
 
 ## Current Stop Line
 
-Physical QFUDS perturbation theory is blocked at Level 1.5 phase-transfer physicality.
+Physical QFUDS perturbation theory is blocked because the retained Level 1.5
+collapse/information-production branch failed physical promotion.
 Level 2A is complete for the baseline closure. It does not establish CMB,
 matter-power, survey-likelihood, or physical QFUDS viability.
 
-Do not claim that the surviving `Gamma(a)` branch is derived physics until the phase-transfer mechanism, mass threshold, and self-consistent growth source are defined. Do not claim CMB viability, matter-power viability, or survey-likelihood viability until phase-A perturbations, phase-B behavior, and transfer perturbations are specified and implemented in CLASS/CAMB or an equivalent Boltzmann-code workflow.
+Do not claim that the retained `Gamma(a)` branch is derived physics. It has
+been demoted to phenomenological interacting vacuum. Do not claim CMB viability,
+matter-power viability, or survey-likelihood viability until phase-A
+perturbations, phase-B behavior, and transfer perturbations are specified and
+implemented in CLASS/CAMB or an equivalent Boltzmann-code workflow.

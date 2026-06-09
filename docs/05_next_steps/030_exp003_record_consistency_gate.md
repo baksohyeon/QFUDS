@@ -1,6 +1,6 @@
 ---
-doc_id: exp004_preflight_gate
-title: Experiment 004 Preflight Gate
+doc_id: exp003_record_consistency_gate
+title: Experiment 003 Record Consistency Gate
 doc_type: gate
 stage: "2"
 status: completed
@@ -9,23 +9,27 @@ depends_on:
   - result_003_phenomenological_perturbation_closure
   - roadmap
   - decision_log
-next_gate: keep Level 2B blocked; exp_004 may only be planned after this gate passes
-last_updated: 2026-06-08
+next_gate: retained branch demoted; exp_003 record remains consistent
+last_updated: 2026-06-09
 ---
 
-# Experiment 004 Preflight Gate
+# Experiment 003 Record Consistency Gate
 
 Date: 2026-06-08
 
-This document defines the repository consistency gate that must pass before any
-experiment 004 work begins. It is the human-readable companion to the executable
-check in `scripts/preflight_exp004.py`. If the two disagree, the script is
-authoritative and this document must be corrected.
+This document defines the repository consistency gate for the completed
+`exp_003` Level 2A record. It is the human-readable companion to the executable
+check in `scripts/preflight_exp004.py`. The script name is historical. If this
+document and the script disagree, the script is authoritative and this document
+must be corrected.
 
 This gate does not run physics and does not decide whether QFUDS is correct. It
 only verifies that the exp_003 research record — theory note, experiment,
 result, decision log, roadmap, and outputs — is complete and internally
-consistent before the project spends effort on exp_004.
+consistent.
+
+After the retained-branch Level 1.5 decision, this gate does not authorize
+opening a retained-branch `exp_004`.
 
 ## Why this gate exists
 
@@ -36,7 +40,7 @@ agree. exp_003 (Level 2A phenomenological perturbation closure) also went throug
 a hostile-verification correction (the phase-A/phase-B Euler friction bug), so
 its record spans several files that must stay mutually consistent.
 
-Advancing to exp_004 on top of an inconsistent or partially documented exp_003
+Building future work on top of an inconsistent or partially documented exp_003
 would risk:
 
 - building on outputs that no longer exist or were superseded;
@@ -53,7 +57,7 @@ The gate makes those failure modes loud and blocking instead of silent.
 `scripts/preflight_exp004.py` runs seven cross-document checks:
 
 1. **exp_003 core documents exist** — the theory note
-   ([docs/02_theory/040_qfuds_phenomenological_perturbations.md](../02_theory/040_qfuds_phenomenological_perturbations.md)), the experiment
+   ([docs/02_theory/030_qfuds_phenomenological_perturbations.md](../02_theory/030_qfuds_phenomenological_perturbations.md)), the experiment
    ([docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)),
    and the result
    ([docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md))
@@ -79,7 +83,7 @@ The gate makes those failure modes loud and blocking instead of silent.
 
 This gate is complementary to `scripts/validate_docs.py`, which validates
 per-document frontmatter schema. The preflight gate validates cross-document
-state for the exp_003 → exp_004 transition.
+state for the exp_003 record.
 
 ## How to run it
 
@@ -104,7 +108,7 @@ make preflight-exp004
 ## What failure means
 
 A non-zero exit code means the exp_003 record is not yet consistent enough to
-build exp_004 on. The script prints each failing check and a `Blockers` list.
+build on. The script prints each failing check and a `Blockers` list.
 Failure does **not** mean a scientific result is wrong; it means the record is
 incomplete or contradictory. Typical causes:
 
@@ -114,9 +118,9 @@ incomplete or contradictory. Typical causes:
 - a document started claiming downstream (Level 3+) completion that has not been
   earned.
 
-## What must be fixed before exp_004
+## What must be fixed
 
-Before exp_004 may be planned:
+Before the exp_003 record can be treated as consistent:
 
 1. `python3 scripts/preflight_exp004.py` must exit `0`.
 2. `python3 scripts/validate_docs.py` must exit `0`.
@@ -125,6 +129,7 @@ Before exp_004 may be planned:
    demoted to provenance with honest frontmatter; scientific conclusions must not
    be silently rewritten to make the gate pass.
 
-Passing this gate authorizes only the *planning* of exp_004. It does not lift any
-physics blocker: Level 2B, CLASS/CAMB, CMB, matter-power, and survey-likelihood
-work remain blocked under the roadmap and the Level 2 perturbation gate.
+Passing this gate authorizes only repository-record consistency. It does not
+authorize future retained-branch experiments and does not lift any physics
+blocker: Level 2B, CLASS/CAMB, CMB, matter-power, and survey-likelihood work
+remain blocked under the roadmap and the Level 2 perturbation gate.

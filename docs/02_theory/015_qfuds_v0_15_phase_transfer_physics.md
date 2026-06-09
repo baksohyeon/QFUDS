@@ -3,13 +3,15 @@ doc_id: qfuds_v0_15_phase_transfer_physics
 title: "QFUDS v0.15 / Level 1.5: Phase Transfer Physics"
 doc_type: theory_note
 stage: "1.5"
-status: in_progress
+status: completed
 evidence_role: audit
 depends_on:
   - exp_002_entropy_information_gate
   - result_002_entropy_information_gate
-next_gate: decide physical transfer hypothesis or demote to phenomenological law
-last_updated: 2026-06-08
+  - qfuds_level_1_5_equivalence_source_perturbation_audit
+  - qfuds_level_1_5_transfer_four_vector_derivation_attempt
+next_gate: retained branch demoted; no physical Level 2B without a new admitted physical branch
+last_updated: 2026-06-09
 ---
 
 # QFUDS v0.15 / Level 1.5: Phase Transfer Physics
@@ -26,8 +28,10 @@ The surviving branch from experiment 002 is:
 \Gamma(a) \propto {dF_{\rm coll}(>M,a)\over d\ln a}.
 ```
 
-Current verdict: QFUDS does not yet have a derived physical phase-transfer law.
-It has a phenomenological transfer law with a physically motivated source shape.
+Final retained-branch verdict: QFUDS does not have a derived physical
+phase-transfer law for the retained collapse/information-production branch. The
+retained branch is demoted to a phenomenological interacting-vacuum transfer law
+with a physically motivated source shape.
 
 The minimum defensible interpretation is:
 
@@ -45,9 +49,11 @@ This is not yet:
 - evidence that structure formation creates dark energy;
 - evidence that information production generates vacuum pressure.
 
-The branch should remain at Level 1.5. It has not earned unrestricted entry into
-perturbation closure. A limited perturbation exercise may be useful only as a
-stress test of a phenomenological interacting-vacuum model.
+The retained-branch Level 1.5 investigation is closed as a physical-promotion
+failure. This does not falsify the broader DM-to-DE phase-transition hypothesis;
+it rejects only the current retained source relation as a physical derivation.
+A limited perturbation exercise remains useful only as a stress test of a
+phenomenological interacting-vacuum model.
 
 ## 2. Phase Transfer Physicality Assessment
 
@@ -369,44 +375,47 @@ A hostile referee would reject:
 
 ## 8. Recommendation
 
-Recommendation: remain at Level 1.5.
+Recommendation: demote the retained branch to phenomenological interacting
+vacuum and close Level 1.5 for this branch.
 
-Do not reject the branch yet, because `dF_coll/dln a` is a falsifiable,
-physically motivated source shape and is narrower than a free `Gamma(a)`.
+The branch should not proceed to physical Level 2B. The derivation attempt can
+write a conservation-compatible candidate `Q^nu`, but only by adding unsupported
+assumptions about the source scalar, mass threshold, transfer direction,
+phase-B vacuum-pressure response, and `delta Q`.
 
-Do not proceed to full perturbation closure as if the branch were physically
-derived. The branch has not earned that status.
+Allowed continuation:
 
-Allowed next work:
-
-1. Recast the branch explicitly as a phenomenological interacting-vacuum model.
-2. Replace `collapse_a` with an explicit mass threshold `M` or document why that
-   cannot yet be done.
-3. Attempt a toy self-consistent `D(a)` iteration, clearly labeled as a toy.
-4. Define the exact conditions under which the branch would be rejected before
-   any perturbation implementation.
-
-Kill or demote the branch if:
-
-- `M` remains a tunable shape parameter;
-- `gamma0` remains the only meaningful degree of freedom and absorbs all signal;
-- self-consistent QFUDS growth erases the low-redshift source peak;
-- perturbation closure requires arbitrary transfer perturbations;
-- the branch remains indistinguishable from known interacting vacuum models.
+1. Use the retained shape only as phenomenological interacting-vacuum model
+   comparison.
+2. Preserve the failed physical-transfer interpretation as provenance.
+3. Open no new physical-QFUDS branch unless the future-branch admission rule is
+   satisfied before the branch is accepted into the roadmap.
 
 ## 9. Decision
 
 Current classification:
 
 ```text
-Gamma(a) is a phenomenological, coarse-grained effective transfer law.
-The surviving source shape is motivated by collapse/information production,
-but it is not derived.
+The retained collapse/information-production Gamma(a) branch fails physical
+Level 1.5 promotion and is demoted to phenomenological interacting-vacuum
+status. This does not falsify the broader DM-to-DE phase-transition hypothesis;
+it rejects only the current retained source relation as a physical derivation.
 ```
 
 Level status:
 
 ```text
-Level 1.5: in progress
-Level 2: blocked for this branch until Level 1.5 gates are satisfied
+Retained-branch Level 1.5: closed as physical-promotion failure
+Level 2B: blocked for this branch
+```
+
+Future-branch admission rule:
+
+```text
+No new physical-QFUDS branch should be opened unless it provides, at minimum:
+X =
+Q^nu =
+why phase B has w ~= -1 =
+delta Q route =
+known-model distinction =
 ```

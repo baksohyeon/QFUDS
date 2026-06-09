@@ -26,25 +26,29 @@ Date: 2026-06-09
 ## 한 줄 요약
 
 QFUDS는 암흑물질과 암흑에너지를 하나의 양자 거품 암흑부문의 두 유효
-상으로 볼 수 있는지 테스트하는 연구 프로그램입니다. 현재 핵심
-질문은 다음입니다.
+상으로 볼 수 있는지 테스트하는 연구 프로그램입니다. 현재 retained
+branch에 대한 결론은 다음입니다.
 
 ```text
-Gamma(a)가 실제 물리에서 유도되는가,
-아니면 현상론적 상호작용 진공 모형의 전달 함수로 남는가?
+retained collapse/information-production Gamma(a)는 물리적 Level 1.5 승격에
+실패했고, 현상론적 interacting-vacuum 전달 함수로 강등되었다.
 ```
 
 ## 현재 해석
 
 현재 로드맵은 다음처럼 읽으면 됩니다.
 
-1. `Gamma(a)`가 기저 물리에서 유도되는지는 아직 해결되지 않았습니다.
-2. 유도가 끝내 나오지 않아도, 프로젝트는 현상론적 모형으로 계속될 수
+1. retained `dF_coll/dln(a)` / `Gamma(a)` branch의 Level 1.5 조사는
+   물리적 승격 실패로 닫혔습니다.
+2. 이 결정은 현재 retained source relation만 물리 유도로 기각한 것이며,
+   더 넓은 DM-to-DE phase-transition 가설 전체를 반증하지는 않습니다.
+3. 프로젝트는 현상론적 interacting-vacuum 모형 검증으로 계속될 수
    있습니다.
-3. 하지만 물리적 QFUDS 섭동 이론인 Level 2B는 Level 1.5 증거 관문이
-   통과되기 전까지 막혀 있습니다.
+4. 물리적 QFUDS 섭동 이론인 Level 2B는 새 physical branch가 admission
+   rule을 통과하기 전까지 막혀 있습니다.
 
-즉, 현상론적 진행과 물리적 승격은 분리되어 있습니다.
+즉, retained branch의 현상론적 진행과 future physical-QFUDS branch는
+분리되어 있습니다.
 
 ## 이미 세워진 것
 
@@ -53,10 +57,11 @@ Gamma(a)가 실제 물리에서 유도되는가,
 - `Gamma(a)=0`이면 구현된 두 상 배경 모형은 LCDM 대조군으로 돌아갑니다.
 - 상수 전달과 제한 없는 성장 기반 전달은 테스트된 진폭에서 배경
   수준 제약을 통과하지 못했습니다.
-- 낮은 적색편이에서 켜지는 붕괴/정보생산 형태는 다음 감사 대상으로
-  남았지만, 물리적 증거는 아닙니다.
+- 낮은 적색편이에서 켜지는 붕괴/정보생산 형태는 감사 대상으로
+  남았지만, Level 1.5 물리 승격에는 실패했습니다.
 - `exp_002`는 provenance로 강등되었습니다. 넓은 엔트로피 언어는
-  핵심 증거가 아니며, 남은 것은 `dF_coll/dln(a)` 형태를 감사할 질문뿐입니다.
+  핵심 증거가 아니며, `dF_coll/dln(a)` retained branch도 물리 유도로는
+  강등되었습니다.
 - Level 2A에서 P2 regularized phase-B fluid 닫힘은 실패했습니다.
 - P1 interacting-vacuum 닫힘은 안정적으로 적분되지만, 물리적 QFUDS
   유도가 아니라 현상론적 상호작용 진공 모형으로만 남습니다.
@@ -66,7 +71,8 @@ Gamma(a)가 실제 물리에서 유도되는가,
 다음은 아직 확립되지 않았습니다.
 
 - 양자 거품이 실제 암흑물질/암흑에너지의 미시적 기원이라는 주장.
-- `Gamma(a)`가 미시 물리, 엔트로피, 정보생산, 붕괴 역사에서 유도된다는 주장.
+- retained `Gamma(a)`가 미시 물리, 엔트로피, 정보생산, 붕괴 역사에서
+  유도된다는 주장.
 - 붕괴 임계값 `M`이 물리적으로 고정되었다는 주장.
 - `dF_coll/dln(a)`가 QFUDS 자체 성장으로 self-consistent하게 계산되었다는 주장.
 - 물리적 Level 2B 섭동 방정식.
@@ -74,6 +80,16 @@ Gamma(a)가 실제 물리에서 유도되는가,
 - CMB, 물질 파워 스펙트럼, BAO, 초신성, DESI, Euclid, Roman 제약 통과.
 - QFUDS가 LCDM, 통합 암흑 유체, 상호작용 암흑에너지와 구별되는 새
   물리라는 주장.
+
+## Future Physical Branch Admission Rule
+
+새 physical-QFUDS branch는 최소한 다음을 제시하기 전에는 열지 않습니다.
+
+- `X =`
+- `Q^nu =`
+- `why phase B has w ~= -1 =`
+- `delta Q route =`
+- `known-model distinction =`
 
 ## Level 1.5가 통과하려면
 
