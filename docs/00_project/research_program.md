@@ -191,6 +191,20 @@ promotion and is demoted to phenomenological interacting-vacuum status. That
 rejects only the current retained source relation as a physical derivation; it
 does not falsify the broader DM-to-DE phase-transition hypothesis.
 
+## Validation Lineage
+
+The validation path is intentionally staged. The project first checked whether
+the two-phase background has a clean LCDM null limit. It then tested whether
+named `Gamma(a)` transfer laws already fail at background level. After that,
+entropy and information-source scans asked whether any candidate transfer shape
+was less arbitrary than a free fitting function. The retained
+collapse/information-production shape then became a Level 1.5 physicality
+question, not a physical result.
+
+That lineage is historical context only. For the current per-level state, use
+the roadmap:
+[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
+
 ### Level 0: Literature Position
 
 Goal:
@@ -282,6 +296,13 @@ Level 1.5, then demoted after failing physical promotion
 
 This still does not prove perturbation stability, CMB viability, matter-power viability, or novelty.
 
+The Press-Schechter/information-production branch was retained because its
+source history naturally turns on after nonlinear structure formation and is
+less arbitrary than a free `Gamma(a)` curve. That made it worth a hostile
+Level 1.5 review. The later demotion means the timing was useful as a proxy, but
+the repository still did not derive a physical conversion from phase A into
+vacuum-pressure phase B.
+
 ### Level 2A: Phenomenological Perturbations
 
 The gauge-declared phenomenological perturbation closure has been run as a kill
@@ -294,6 +315,13 @@ c_s^2 k^2 / a^2
 ```
 
 If this term is too large, structure formation fails.
+
+Level 2A and Level 2B answer different questions. Level 2A is allowed to test a
+declared phenomenological closure and record whether it is numerically stable.
+Level 2B requires a physical transfer derivation, including the source, transfer
+frame, phase-B response, and perturbation route. CLASS/CAMB, CMB, and
+matter-power work come later because they need a solver-ready perturbation model
+rather than only a background `Gamma(a)` history.
 
 ### Level 2B: Physical Perturbations
 
