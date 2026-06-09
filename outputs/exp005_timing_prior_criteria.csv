@@ -1,0 +1,5 @@
+criterion,matters_because,measurement,pass_signal
+parameter_reduction,The possible value is compact timing structure between rigid and arbitrary coupling histories.,parameter_count versus shape_rms_error and shape_max_error,few parameters reproduce the timing support within thresholds
+early_leakage_suppression,Early coupling risks CMB-era contamination and strong early-universe constraints.,z_gt_1100_fraction and z_gt_10_fraction,fractions remain negligible for the retained prior and matched family
+interpretability,"A timing prior is useful only if its parameters map to peak, width, support, and tails.","peak_z, weighted_mean_z, half-max support, skew_ln_a",parameters can be stated before amplitude fitting
+redundancy,A prior is not unique if standard timing families reproduce it with equal or fewer assumptions.,best compact family errors and classification,"retained prior is labeled as reusable prior, not new timing family, when compact matches exist"

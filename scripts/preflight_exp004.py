@@ -43,7 +43,7 @@ DOCS_INDEX = DOCS / "README.md"
 INDEX_FILENAMES = {"README.md"}
 
 # Output references are extracted with this pattern (relative to repo root).
-OUTPUT_REF = re.compile(r"outputs/[\w./-]+?\.(?:csv|json|png)")
+OUTPUT_REF = re.compile(r"outputs/[\w./-]+?\.(?:csv|json|png|svg)")
 
 # A document "claims completion" of a blocked level if any of these match.
 # These are deliberately narrow so legitimate "... | blocked" rows and prose

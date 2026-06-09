@@ -77,6 +77,10 @@ outputs/exp004_transfer_reconstruction.csv
 outputs/exp004_closure_frame_mapping.csv
 outputs/exp004_reduction_limits.csv
 outputs/exp004_R6_effective_w_reconstruction.csv
+outputs/figures/exp004_gamma_shape_comparison.png
+outputs/figures/exp004_gamma_shape_comparison.svg
+outputs/figures/exp004_baseline_error_summary.png
+outputs/figures/exp004_baseline_error_summary.svg
 ```
 
 Per-run background and perturbation outputs:
@@ -98,7 +102,31 @@ Execution note:
 
 The command emitted local matplotlib/fontconfig cache warnings because the
 environment could not write to the default user cache directories. The Exp 004
-runner produced CSV and JSON outputs and did not rely on plot generation.
+runner produced CSV, JSON, PNG, and SVG outputs. The cache warnings did not
+affect the generated diagnostics.
+
+## Visual Diagnostics
+
+![exp_004 Gamma shape comparison](../../outputs/figures/exp004_gamma_shape_comparison.png)
+
+This figure shows the transfer-shape part of the positioning result. The direct
+interacting-vacuum mapping is identical to retained P1, so drawing it separately
+would only overplot the retained curve. The visible comparison is therefore
+between retained P1 and simpler shape bases. Constant coupling has no localized
+timing information, and the matched power-law still misses the transient support
+of the retained profile. This supports the conclusion that the remaining
+difference is a `Gamma(a)` parameterization choice, not a physical model-family
+difference.
+
+![exp_004 baseline error summary](../../outputs/figures/exp004_baseline_error_summary.png)
+
+This figure separates two facts that are easy to blur in prose. Constant and
+power-law baselines can be relatively close in some background diagnostics, but
+their normalized transfer-shape errors remain far above the predeclared
+equivalence thresholds. That is the key evidence for the Exp 004 boundary:
+simple baselines differ from retained P1 by transfer-shape basis, while retained
+P1 itself is still exactly inside interacting-vacuum / time-dependent IDE
+phenomenology.
 
 ## Baseline Comparison
 

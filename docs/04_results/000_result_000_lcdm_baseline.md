@@ -48,8 +48,21 @@ Omega_Bfoam0 = 0.6858
 
 - `outputs/qfuds_gamma0_beta0.csv`
 - `outputs/qfuds_gamma0_beta0.png`
+- `outputs/figures/result000_lcdm_baseline.png`
+- `outputs/figures/result000_lcdm_baseline.svg`
 
 ## Figure
+
+![result_000 LCDM baseline summary](../../outputs/figures/result000_lcdm_baseline.png)
+
+This figure records the null-limit check visually. The left panel shows the two
+invariants that must hold for the control run: `H/H_LCDM = 1` and
+`Gamma(a) = 0`. The right panel shows the intended bookkeeping split: phase A
+behaves like pressureless matter while phase B remains the vacuum-like
+component. The figure is not evidence for QFUDS novelty; it is evidence that
+later nonzero-transfer runs have a clean LCDM baseline.
+
+The original full diagnostic plot is also retained:
 
 ![exp_000 LCDM baseline](../../outputs/qfuds_gamma0_beta0.png)
 

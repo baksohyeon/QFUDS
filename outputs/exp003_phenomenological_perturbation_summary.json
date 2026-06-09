@@ -373,5 +373,11 @@
       "variant": "P2"
     }
   ],
-  "title": "Phenomenological Perturbation Closure Audit"
+  "title": "Phenomenological Perturbation Closure Audit",
+  "visual_outputs": [
+    "outputs/figures/exp003_stability_summary.png",
+    "outputs/figures/exp003_stability_summary.svg",
+    "outputs/figures/exp003_retained_mode_growth.png",
+    "outputs/figures/exp003_retained_mode_growth.svg"
+  ]
 }

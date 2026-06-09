@@ -335,6 +335,8 @@ The experiment result must include:
 - a perturbation-closure comparison table;
 - growth or stability diagnostics for each implemented baseline;
 - a reduction-limit table;
+- transfer-shape and baseline-error visual diagnostics in PNG and SVG under
+  `outputs/figures/`;
 - a final positioning statement.
 
 The final positioning statement should use this form:

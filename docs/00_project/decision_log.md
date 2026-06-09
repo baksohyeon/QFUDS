@@ -24,7 +24,7 @@ Reason:
 With `Gamma(a)=0`, the two-phase background reproduces the LCDM control path. This is not a novel QFUDS prediction, but it is the required null comparison for every nonzero transfer law.
 
 Evidence:
-[docs/03_experiments/000_exp_000_lcdm_baseline.md](../03_experiments/000_exp_000_lcdm_baseline.md), [docs/04_results/000_result_000_lcdm_baseline.md](../04_results/000_result_000_lcdm_baseline.md), `outputs/qfuds_gamma0_beta0.csv`, `tests/test_gamma_v03.py`
+[docs/03_experiments/000_exp_000_lcdm_baseline.md](../03_experiments/000_exp_000_lcdm_baseline.md), [docs/04_results/000_result_000_lcdm_baseline.md](../04_results/000_result_000_lcdm_baseline.md), `outputs/qfuds_gamma0_beta0.csv`, `outputs/figures/result000_lcdm_baseline.png`, `tests/test_gamma_v03.py`
 
 ## 2026-06-08
 
@@ -68,7 +68,7 @@ Reason:
 It creates negative `rho_B` in the backward-integrated background and fails early-universe viability checks.
 
 Evidence:
-[docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), [docs/03_experiments/010_exp_001_gamma_scan.md](../03_experiments/010_exp_001_gamma_scan.md), `outputs/qfuds_constant_gamma0.01_beta0.csv`
+[docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), [docs/03_experiments/010_exp_001_gamma_scan.md](../03_experiments/010_exp_001_gamma_scan.md), `outputs/qfuds_constant_gamma0.01_beta0.csv`, `outputs/figures/result001_gamma_scan_summary.png`
 
 ## 2026-06-08
 
@@ -79,7 +79,7 @@ Reason:
 The growth proxy is active during matter domination, so the transfer turns on too early and fails the background viability checks.
 
 Evidence:
-[docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`
+[docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), `outputs/qfuds_growth_driven_gamma0.01_beta0.csv`, `outputs/figures/result001_gamma_scan_summary.png`
 
 ## 2026-06-08
 
@@ -90,7 +90,7 @@ Reason:
 They pass minimal background checks in the experiment 001 scan and naturally defer transfer until late times. Later Level 1.5 work blocks direct perturbation promotion until phase-transfer physicality is resolved.
 
 Evidence:
-[docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`, `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`, `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
+[docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`, `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`, `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`, `outputs/figures/result001_gamma_scan_summary.png`
 
 ## 2026-06-08
 
@@ -112,7 +112,7 @@ Reason:
 Horizon information is physically clean but reduces to standard horizon/interacting dark energy. HBM/KL gravitational entropy is too broad in time and fails positivity unless the coupling is tiny. Press-Schechter information production is the only tested entropy-derived shape that naturally vanishes in radiation domination, peaks after nonlinear collapse begins, and gives a falsifiable relation between `w(a)` and growth history.
 
 Evidence:
-[docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md), `outputs/qfuds_information_production_gamma0.02_beta0.csv`, `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`, `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
+[docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md), `outputs/qfuds_information_production_gamma0.02_beta0.csv`, `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`, `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`, `outputs/figures/result002_entropy_information_summary.png`
 
 ## 2026-06-08
 
@@ -123,7 +123,7 @@ Reason:
 The surviving collapse/information-production branch is narrower than a free `Gamma(a)`, but the repository has not derived why collapse or information production should convert phase A into vacuum-pressure phase B. The current `Gamma(a) proportional to dF_coll/dln(a)` law is best classified as a phenomenological coarse-grained interacting-vacuum transfer law with a physically motivated source shape. It also uses LCDM-style growth approximations in the source and does not yet define a physical mass threshold `M`.
 
 Evidence:
-[docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md), `qfuds/gamma_laws.py`, `qfuds/growth.py`, [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md)
+[docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../02_theory/015_qfuds_v0_15_phase_transfer_physics.md), `qfuds/gamma_laws.py`, `qfuds/growth.py`, [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md), `outputs/figures/result002_entropy_information_summary.png`
 
 ## 2026-06-08
 
@@ -138,7 +138,7 @@ and some proxy shapes fail, but they are not physically meaningful data for a
 surviving QFUDS branch.
 
 Evidence:
-[docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md), [docs/03_experiments/020_exp_002_entropy_information_gate.md](../03_experiments/020_exp_002_entropy_information_gate.md)
+[docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md), [docs/03_experiments/020_exp_002_entropy_information_gate.md](../03_experiments/020_exp_002_entropy_information_gate.md), `outputs/figures/result001_5_physicality_audit.png`
 
 ## 2026-06-08
 
@@ -160,7 +160,7 @@ Reason:
 The retained information-production amplitude `gamma0=0.02` produces instability in the P2 regularized-fluid closure for every tested wavenumber. The P1 interacting-vacuum closure remains numerically stable, but this is not a physical QFUDS derivation and is closest to known phenomenological interacting-vacuum models.
 
 Evidence:
-[docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md), `outputs/exp003_stability_diagnostics.csv`, `outputs/exp003_phenomenological_perturbation_summary.json`, `qfuds/perturbations.py`
+[docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md), `outputs/exp003_stability_diagnostics.csv`, `outputs/exp003_phenomenological_perturbation_summary.json`, `outputs/figures/exp003_stability_summary.png`, `qfuds/perturbations.py`
 
 ## 2026-06-08
 
@@ -217,7 +217,7 @@ No new physical-QFUDS branch should be opened unless it provides, at minimum:
 - `known-model distinction =`
 
 Evidence:
-[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), [docs/05_next_steps/015_level_1_5_resolution_gate.md](../05_next_steps/015_level_1_5_resolution_gate.md), [docs/02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](../02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md), [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md), [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md), [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), `qfuds/gamma_laws.py`
+[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), [docs/05_next_steps/015_level_1_5_resolution_gate.md](../05_next_steps/015_level_1_5_resolution_gate.md), [docs/02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](../02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md), [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md), [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md), [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), `outputs/figures/result001_5_physicality_audit.png`, `qfuds/gamma_laws.py`
 
 ## 2026-06-09
 
@@ -238,4 +238,24 @@ parameterization differences, not physical distinctions. The effective `w(a)`
 route is background-degenerate only and has no transfer perturbation.
 
 Evidence:
-[docs/03_experiments/030_exp_004_p1_model_family_positioning.md](../03_experiments/030_exp_004_p1_model_family_positioning.md), [docs/04_results/030_result_004_p1_model_family_positioning.md](../04_results/030_result_004_p1_model_family_positioning.md), `outputs/exp004_positioning_summary.json`, `outputs/exp004_baseline_comparison.csv`, `outputs/exp004_closure_frame_mapping.csv`, `qfuds/positioning.py`
+[docs/03_experiments/030_exp_004_p1_model_family_positioning.md](../03_experiments/030_exp_004_p1_model_family_positioning.md), [docs/04_results/030_result_004_p1_model_family_positioning.md](../04_results/030_result_004_p1_model_family_positioning.md), `outputs/exp004_positioning_summary.json`, `outputs/exp004_baseline_comparison.csv`, `outputs/exp004_closure_frame_mapping.csv`, `outputs/figures/exp004_gamma_shape_comparison.png`, `qfuds/positioning.py`
+
+## 2026-06-09
+
+Decision:
+Classify retained `Gamma(a)` timing as a potential IV/IDE prior-compression
+target, not as a physical source or distinct model family.
+
+Reason:
+Experiment 005 compared the retained normalized timing profile against rigid
+constant and power-law couplings, compact transition and smooth-pulse families,
+tomographic approximations, and a flexible reconstruction proxy. Constant,
+power-law, transition, logistic-rate, Gaussian, and low-bin tomographic
+families did not pass the predeclared timing-shape threshold. The eight-knot
+reconstruction proxy did pass. The retained profile is therefore not supported
+as a unique physical or timing family, but it remains potentially useful as a
+compact, interpretable target for compressing reconstructed IV/IDE coupling
+histories if future reconstructions prefer similar support.
+
+Evidence:
+[docs/03_experiments/030_exp_005_timing_prior_usefulness.md](../03_experiments/030_exp_005_timing_prior_usefulness.md), [docs/04_results/030_result_005_timing_prior_usefulness.md](../04_results/030_result_005_timing_prior_usefulness.md), `outputs/exp005_timing_prior_summary.json`, `outputs/exp005_timing_family_comparison.csv`, `outputs/exp005_timing_fingerprint.csv`, `outputs/figures/exp005_timing_family_errors.png`, `qfuds/timing_prior.py`

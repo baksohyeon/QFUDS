@@ -25,3 +25,4 @@ sections.
 - [020_exp_002_entropy_information_gate.md](020_exp_002_entropy_information_gate.md): experiment 002 entropy/information-source gate, retained as provenance rather than physical evidence.
 - [030_exp_003_phenomenological_perturbation_closure.md](030_exp_003_phenomenological_perturbation_closure.md): Level 2A perturbation-closure audit, not a physical derivation.
 - [030_exp_004_p1_model_family_positioning.md](030_exp_004_p1_model_family_positioning.md): retained P1 model-family positioning and equivalence map.
+- [030_exp_005_timing_prior_usefulness.md](030_exp_005_timing_prior_usefulness.md): timing-prior usefulness and redundancy audit inside IV/IDE phenomenology.

@@ -145,6 +145,7 @@ Record:
 - total energy-momentum conservation residual;
 - instability flags;
 - comparison to `Gamma=0`.
+- visual stability diagnostics in PNG and SVG under `outputs/figures/`.
 
 ## Failure Criteria
 

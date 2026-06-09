@@ -34,6 +34,7 @@ python3 scripts/validate_docs.py
 Run the full documentation-integrity checks with:
 
 ```bash
+python3 scripts/generate_result_figures.py
 python3 scripts/research_consistency.py
 python3 scripts/preflight_exp004.py
 ```
@@ -85,6 +86,7 @@ Reproducible experiment definitions.
 - [020_exp_002_entropy_information_gate.md](03_experiments/020_exp_002_entropy_information_gate.md)
 - [030_exp_003_phenomenological_perturbation_closure.md](03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
 - [030_exp_004_p1_model_family_positioning.md](03_experiments/030_exp_004_p1_model_family_positioning.md)
+- [030_exp_005_timing_prior_usefulness.md](03_experiments/030_exp_005_timing_prior_usefulness.md)
 
 ## 04 Results
 
@@ -97,6 +99,7 @@ Experiment reports, diagnostic results, and hostile-referee conclusions.
 - [020_result_002_entropy_information_gate.md](04_results/020_result_002_entropy_information_gate.md)
 - [030_result_003_phenomenological_perturbation_closure.md](04_results/030_result_003_phenomenological_perturbation_closure.md)
 - [030_result_004_p1_model_family_positioning.md](04_results/030_result_004_p1_model_family_positioning.md)
+- [030_result_005_timing_prior_usefulness.md](04_results/030_result_005_timing_prior_usefulness.md)
 
 ## 05 Next Steps
 

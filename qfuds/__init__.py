@@ -11,6 +11,7 @@ from .perturbations import (
     run_exp003_suite,
 )
 from .positioning import run_exp004_suite
+from .timing_prior import run_exp005_timing_prior_audit
 
 __all__ = [
     "CosmologyParams",
@@ -25,4 +26,5 @@ __all__ = [
     "integrate_growth",
     "run_exp003_suite",
     "run_exp004_suite",
+    "run_exp005_timing_prior_audit",
 ]

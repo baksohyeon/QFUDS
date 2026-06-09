@@ -10,6 +10,7 @@ from typing import Literal
 import numpy as np
 
 from .background import CosmologyParams, QFUDSParams, integrate_background
+from .plotting import save_figure_pair
 
 
 Variant = Literal["P1", "P2"]
@@ -311,6 +312,48 @@ def _run_label(run_id: str, variant: str, qfuds: QFUDSParams) -> str:
     return f"exp003_{run_id}_{variant}_{qfuds.gamma_model}_gamma{qfuds.gamma0:g}"
 
 
+def _write_visualizations(
+    outdir: Path,
+    summary_runs: list[dict[str, object]],
+    retained_results: dict[str, PerturbationResult],
+) -> list[str]:
+    try:
+        import matplotlib.pyplot as plt
+    except ModuleNotFoundError:
+        return []
+
+    outputs: list[str] = []
+    labels = [f"{run['run_id']} {run['variant']}" for run in summary_runs]
+    values = [float(run["max_abs_perturbation"]) for run in summary_runs]
+    colors = ["#2f6f9f" if run["variant"] == "P1" else "#b84a4a" for run in summary_runs]
+
+    fig, ax = plt.subplots(figsize=(10, 4.8), constrained_layout=True)
+    ax.bar(labels, values, color=colors)
+    ax.axhline(PerturbationClosure(variant="P1").instability_threshold, color="#2b2b2b", linestyle="--", linewidth=1.2, label="instability threshold")
+    ax.set_yscale("log")
+    ax.set_ylabel("max absolute perturbation")
+    ax.set_title("Exp 003 stability diagnostic")
+    ax.tick_params(axis="x", rotation=40)
+    ax.legend(frameon=False)
+    figures_dir = outdir / "figures"
+    outputs.extend(save_figure_pair(fig, figures_dir / "exp003_stability_summary"))
+    plt.close(fig)
+
+    if {"P1", "P2"}.issubset(retained_results):
+        fig, axes = plt.subplots(1, 2, figsize=(10, 4.2), constrained_layout=True)
+        for variant, result in retained_results.items():
+            mode = result.modes[1.0e-1]
+            axes[0].plot(result.a, np.abs(mode["delta_A"]), label=variant)
+            axes[1].plot(result.a, np.abs(mode["curvature_proxy"]), label=variant)
+        axes[0].set(xlabel="a", ylabel="|delta_A|", xscale="log", yscale="log", title="Retained branch, k=0.1 h/Mpc")
+        axes[1].set(xlabel="a", ylabel="|curvature proxy|", xscale="log", yscale="log", title="Curvature proxy")
+        for ax in axes:
+            ax.legend(frameon=False)
+        outputs.extend(save_figure_pair(fig, figures_dir / "exp003_retained_mode_growth"))
+        plt.close(fig)
+    return outputs
+
+
 def run_exp003_suite(
     *,
     outdir: Path = Path("outputs"),
@@ -328,6 +371,7 @@ def run_exp003_suite(
         ("R3", QFUDSParams(gamma_model="information_production", gamma0=0.04, collapse_a=0.35, collapse_nu=5.0)),
     ]
     summary_runs: list[dict[str, object]] = []
+    retained_results: dict[str, PerturbationResult] = {}
 
     for run_id, qfuds in runs:
         background = integrate_background(cosmo, qfuds, n=n_background)
@@ -340,6 +384,8 @@ def run_exp003_suite(
             label = _run_label(run_id, variant, qfuds)
             csv_path = outdir / f"{label}.csv"
             _write_result_csv(csv_path, result)
+            if run_id == "R1":
+                retained_results[variant] = result
             summary_runs.append(
                 {
                     "run_id": run_id,
@@ -353,11 +399,13 @@ def run_exp003_suite(
                 }
             )
 
+    plot_outputs = _write_visualizations(outdir, summary_runs, retained_results)
     summary = {
         "experiment_id": "exp_003",
         "title": "Phenomenological Perturbation Closure Audit",
         "closure": "baseline Level 2A closure from docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md",
         "runs": summary_runs,
+        "visual_outputs": plot_outputs,
     }
     summary_path = outdir / "exp003_phenomenological_perturbation_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2, sort_keys=True), encoding="utf-8")

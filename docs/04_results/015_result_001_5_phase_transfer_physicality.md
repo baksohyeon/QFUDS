@@ -60,6 +60,18 @@ The branch is therefore closed as a physical Level 1.5 candidate. It remains
 usable only as a phenomenological interacting-vacuum transfer shape, not as data
 to carry directly into physical Level 2B.
 
+## Visual Audit
+
+![result_001_5 physicality audit](../../outputs/figures/result001_5_physicality_audit.png)
+
+This figure is a checklist view of the physical-promotion failure. Every item is
+an ingredient required before the retained branch could be treated as physical
+QFUDS rather than IV/IDE phenomenology. The retained branch has a useful timing
+shape, but it lacks a physical source `X`, a fixed threshold `M`,
+self-consistent growth, a derived `Q^nu`, a phase-B vacuum-pressure rationale,
+and a physical `delta Q` route. This is why the correct result is demotion, not
+Level 2B promotion.
+
 ## Parameter Status
 
 | Quantity | Current classification | Reason |
@@ -119,6 +131,8 @@ Evidence:
 - [docs/04_results/020_result_002_entropy_information_gate.md](020_result_002_entropy_information_gate.md)
 - `qfuds/gamma_laws.py`
 - `qfuds/growth.py`
+- `outputs/figures/result001_5_physicality_audit.png`
+- `outputs/figures/result001_5_physicality_audit.svg`
 
 ## Evidence
 

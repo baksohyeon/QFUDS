@@ -72,6 +72,10 @@ class Exp003PerturbationTests(unittest.TestCase):
             self.assertGreaterEqual(len(written["runs"]), 4)
             self.assertTrue((outdir / "exp003_R0_P1_gamma0.csv").exists())
             self.assertTrue((outdir / "exp003_R1_P2_information_production_gamma0.02.csv").exists())
+            self.assertTrue((outdir / "figures" / "exp003_stability_summary.png").exists())
+            self.assertTrue((outdir / "figures" / "exp003_stability_summary.svg").exists())
+            self.assertTrue((outdir / "figures" / "exp003_retained_mode_growth.png").exists())
+            self.assertTrue((outdir / "figures" / "exp003_retained_mode_growth.svg").exists())
 
     def test_regularized_phase_b_closure_records_instability_flags(self) -> None:
         result = integrate_phenomenological_perturbations(

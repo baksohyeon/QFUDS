@@ -33,6 +33,7 @@ What to inspect:
 
 - `outputs/qfuds_gamma0_beta0.csv`
 - `outputs/qfuds_gamma0_beta0.png`
+- `outputs/figures/result000_lcdm_baseline.png`
 - [docs/03_experiments/000_exp_000_lcdm_baseline.md](../03_experiments/000_exp_000_lcdm_baseline.md)
 - [docs/04_results/000_result_000_lcdm_baseline.md](../04_results/000_result_000_lcdm_baseline.md)
 
@@ -57,6 +58,7 @@ What to inspect:
 - `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`
 - `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`
 - `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`
+- `outputs/figures/result001_gamma_scan_summary.png`
 - PNG diagnostics in `outputs/` with the same file stems.
 
 What it means:
@@ -78,6 +80,7 @@ What to inspect:
 - `outputs/qfuds_gravitational_entropy_gamma0.003_beta0.csv`
 - `outputs/qfuds_information_production_gamma0.02_beta0.csv`
 - `outputs/qfuds_horizon_information_gamma0.03_beta0.csv`
+- `outputs/figures/result002_entropy_information_summary.png`
 - PNG diagnostics in `outputs/` with the same file stems.
 
 What it means:
@@ -125,6 +128,8 @@ What to inspect:
 - [docs/05_next_steps/010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md)
 - `outputs/exp003_stability_diagnostics.csv`
 - `outputs/exp003_phenomenological_perturbation_summary.json`
+- `outputs/figures/exp003_stability_summary.png`
+- `outputs/figures/exp003_retained_mode_growth.png`
 
 What it means:
 
@@ -133,7 +138,31 @@ fails at the retained amplitude. P1 is stable only as ordinary
 phenomenological interacting vacuum. This is not a physical derivation of
 `Gamma(a)`.
 
-## 5. Regression Tests
+## 5. Result Figures
+
+Command:
+
+```bash
+python3 scripts/generate_result_figures.py
+```
+
+What to inspect:
+
+- `outputs/figures/result000_lcdm_baseline.png`
+- `outputs/figures/result001_gamma_scan_summary.png`
+- `outputs/figures/result001_5_physicality_audit.png`
+- `outputs/figures/result002_entropy_information_summary.png`
+- experiment-native figures under `outputs/figures/exp003_*.png`,
+  `outputs/figures/exp004_*.png`, and `outputs/figures/exp005_*.png`
+
+What it means:
+
+These figures are explanatory views over existing CSV and JSON outputs. They do
+not introduce new physical assumptions or new experiments. The PNG files are
+embedded in `docs/04_results/`; matching SVG files are retained for scalable
+review or publication drafts.
+
+## 6. Regression Tests
 
 Command:
 
@@ -154,7 +183,7 @@ flags are explicit booleans, and an invalid constant-transfer parameter choice
 is detected by the positive-density check. They also cover the corrected
 phenomenological perturbation closure used by `exp_003`.
 
-## 6. Documentation Validation
+## 7. Documentation Validation
 
 Command:
 
@@ -169,7 +198,7 @@ required experiment/result document pairs, required experiment/result sections,
 and the roadmap/decision-log stop line. It does not validate physics. It checks
 that the documentation control surface is internally coherent.
 
-## 7. Documentation Integrity
+## 8. Documentation Integrity
 
 Commands:
 
