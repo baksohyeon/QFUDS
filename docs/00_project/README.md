@@ -10,7 +10,7 @@ depends_on:
   - decision_log
   - verification_guide
 next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # 00 Project
@@ -21,6 +21,7 @@ Project-level documents.
 - [research_program.md](research_program.md): research framing, validation levels, and kill criteria.
 - [project_identity.md](project_identity.md): current project identity, scope, non-goals, and lessons learned.
 - [qfuds_positioning.md](qfuds_positioning.md): QFUDS ideas mapped against existing cosmology model families.
+- [concept_survival_audit.md](concept_survival_audit.md): original intuition mapped against current evidence, demotions, and open candidates.
 - [success_criteria.md](success_criteria.md): minimum, moderate, and strong success criteria plus physical-branch admission rule.
 - [decision_log.md](decision_log.md): chronological decisions with evidence.
 - [verification_guide.md](verification_guide.md): current reproducible checks and how to read their outputs.
