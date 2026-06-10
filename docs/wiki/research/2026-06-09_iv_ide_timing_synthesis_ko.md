@@ -290,7 +290,7 @@ Li & Zhang 2025가 retained Gamma(a) 또는 QFUDS를 검증했다.
    - 질문은 "DESI-era IV/IDE가 어떤 low-dimensional timing family를 가리키나?"이다.
 
 4. Physical-source work는 admission rule 없이는 시작하지 않는다.
-   - `X`, `Q^nu`, phase-B rationale, `delta Q`, known-model distinction 없이는 Level 1.5를 다시 열면 안 된다.
+   - `X`, `Q^nu`, phase-B rationale, `delta Q`, known-model distinction 없이는 [Level 1.5](../glossary/repository_levels.md)를 다시 열면 안 된다.
 
 ## 세션 리셋용 문장
 

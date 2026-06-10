@@ -49,7 +49,7 @@ Q = Hc Gamma(a) rho_A
 ```
 
 The retained source-shaped `Gamma(a)` may be equivalent to a time-dependent IDE
-or interacting-vacuum coupling at the background and Level 2A perturbation
+or interacting-vacuum coupling at the background and [Level 2A](../wiki/glossary/repository_levels.md) perturbation
 levels. Any remaining difference is expected to live in the chosen
 parameterization of `Gamma(a)`, not in a physical QFUDS derivation.
 

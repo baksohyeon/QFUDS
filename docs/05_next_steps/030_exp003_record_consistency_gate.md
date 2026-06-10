@@ -18,7 +18,7 @@ last_updated: 2026-06-09
 Date: 2026-06-08
 
 This document defines the repository consistency gate for the completed
-`exp_003` Level 2A record. It is the human-readable companion to the executable
+`exp_003` [Level 2A](../wiki/glossary/repository_levels.md) record. It is the human-readable companion to the executable
 check in `scripts/preflight_exp004.py`. The script name is historical. If this
 document and the script disagree, the script is authoritative and this document
 must be corrected.

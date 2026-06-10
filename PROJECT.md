@@ -8,29 +8,9 @@ QFUDS is not a confirmed theory. The repository is a staged attempt to turn a sp
 
 ## Execution Order
 
-The validation order is sequential:
-
-```text
-Level 0: literature position
-Level 1: background toy model
-QFUDS v0.15 / Level 1.5: phase transfer physicality
-Level 2A: phenomenological perturbation closure
-Level 2B: physical perturbation equations
-Level 3: CLASS or CAMB integration
-Level 4: CMB comparison
-Level 5: matter power comparison
-Level 6: DESI / Euclid / Roman constraints
-```
-
-Level 1 contains three background validations:
-
-```text
-exp_000: zero-transfer LCDM baseline
-exp_001: Gamma-law background scan
-exp_002: entropy / information-source background gate
-```
-
-These are not observational successes. They are filters before QFUDS v0.15 / Level 1.5 because several candidate transfer laws needed to be killed before asking whether the surviving transfer law is physical enough for perturbation work.
+Repository level terminology and validation-order meanings live in
+[repository_levels.md](docs/wiki/glossary/repository_levels.md). This file
+controls documentation structure, not level definitions.
 
 The current stop line — which level is active, what is complete, and what is
 blocked — is **not** restated here. It lives in the single source of truth:
@@ -158,44 +138,11 @@ Experiment 002 is retained as provenance, not as physical evidence. It keeps
 only the collapse/information-production shape as the QFUDS v0.15 / Level 1.5
 physicality question.
 
-## What Level 1.5 Must Decide
+## Level Terminology
 
-[docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
-asks whether the surviving branch is a physical phase-transfer hypothesis or
-only a phenomenological transfer law.
-
-Current Level 1.5 verdict:
-
-```text
-Gamma(a) is a phenomenological coarse-grained transfer law with a physically
-motivated source shape. It is not yet derived physics.
-```
-
-## What Level 2 Produced And Still Must Produce
-
-The Level 2A phenomenological perturbation closure audit was run as `exp_003`.
-It was permitted to proceed without Level 1.5 because it is an explicitly
-phenomenological, gauge-declared closure audit, not a physical derivation. For
-its verdict and current status, see
-[docs/04_results/030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md)
-and the roadmap; do not restate the verdict here.
-
-Physical Level 2B must not start until Level 1.5 is resolved. Once unblocked,
-Level 2B must produce new theory and experiment documents before any CLASS/CAMB
-work starts.
-
-Required Level 2B outputs:
-
-- self-consistent `dF_coll/dln a` using QFUDS growth `D(a)`;
-- physically fixed collapse mass threshold `M`;
-- perturbation literature review;
-- equations for `delta_A`, `theta_A`, `delta_B`, `theta_B`;
-- explicit transfer perturbation prescription;
-- gauge assumptions;
-- stability analysis;
-- numerical perturbation evolution;
-- LCDM and `w(a)` / `f sigma8(a)` redshift-ratio comparison;
-- hostile review classification.
+Use [repository_levels.md](docs/wiki/glossary/repository_levels.md) for level
+definitions and [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md)
+for current status. Do not duplicate those definitions here.
 
 No experiment is complete until it has:
 
@@ -206,20 +153,7 @@ No experiment is complete until it has:
 - an experiment-summary update in
   [docs/04_results/000_experiment_summary.md](docs/04_results/000_experiment_summary.md).
 
-`exp_003` satisfied all four for Level 2A.
-
-## Files Already Produced And Still Needed
-
-The Level 2A phenomenological closure files exist and are current:
-
-- [docs/02_theory/030_qfuds_phenomenological_perturbations.md](docs/02_theory/030_qfuds_phenomenological_perturbations.md)
-- [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md)
-- [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md)
-- [docs/05_next_steps/010_perturbation_gate.md](docs/05_next_steps/010_perturbation_gate.md)
-
-Physical Level 2B files do not exist yet because Level 1.5 is not resolved and a
-physical phase-transfer derivation has not been done. Names will be assigned when
-Level 2B is unblocked.
+`exp_003` satisfied all four for its documented scope.
 
 ## Refactoring Rule
 

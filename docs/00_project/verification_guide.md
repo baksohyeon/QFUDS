@@ -85,7 +85,7 @@ What to inspect:
 
 What it means:
 
-This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production was the narrow branch kept for the Level 1.5 physicality audit, and that retained branch is now demoted to phenomenological interacting-vacuum status.
+This scan asks whether the transfer law can be tied to a concrete entropy or information source. Broad entropy language mostly fails or reduces to known models. Press-Schechter-style information production was the narrow branch kept for the [Level 1.5](../wiki/glossary/repository_levels.md) physicality audit, and that retained branch is now demoted to phenomenological interacting-vacuum status.
 
 Where the branch decision is recorded:
 

@@ -95,7 +95,7 @@ The scan found:
 
 Reject constant and ungated growth-driven transfer at the tested amplitudes.
 Preserve low-redshift collapse, black-hole-entropy, and star-formation proxies
-only as candidate shapes for later scrutiny. QFUDS v0.15 / Level 1.5 must
+only as candidate shapes for later scrutiny. QFUDS v0.15 / [Level 1.5](../wiki/glossary/repository_levels.md) must
 resolve phase-transfer physicality before perturbation work.
 
 ### Next Step

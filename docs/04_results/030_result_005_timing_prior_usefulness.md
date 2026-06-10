@@ -55,7 +55,7 @@ It does not establish:
 - physical QFUDS validation;
 - a physical `Gamma(a)` source;
 - a new `Q^nu`;
-- physical Level 2B readiness;
+- physical [Level 2B](../wiki/glossary/repository_levels.md) readiness;
 - CMB, matter-power, BAO, supernova, DESI, Euclid, Roman, or likelihood
   viability;
 - novelty of QFUDS as a physical theory.

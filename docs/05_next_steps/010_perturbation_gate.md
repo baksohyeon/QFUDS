@@ -50,7 +50,7 @@ Interpretation:
 phase transfer follows nonlinear structure collapse / information production
 ```
 
-This is not a confirmed physical law. The retained-branch Level 1.5
+This is not a confirmed physical law. The retained-branch [Level 1.5](../wiki/glossary/repository_levels.md)
 investigation is now closed: it failed physical promotion and is demoted to
 phenomenological interacting-vacuum status. This does not falsify the broader
 DM-to-DE phase-transition hypothesis; it rejects only the current retained

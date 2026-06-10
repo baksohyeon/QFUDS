@@ -24,7 +24,7 @@ in [docs/05_next_steps/000_roadmap.md](000_roadmap.md).
 ## Retained-Branch Resolution
 
 The retained collapse/information-production `Gamma(a)` branch fails physical
-Level 1.5 promotion and is demoted to phenomenological interacting-vacuum
+[Level 1.5](../wiki/glossary/repository_levels.md) promotion and is demoted to phenomenological interacting-vacuum
 status. This does not falsify the broader DM-to-DE phase-transition hypothesis;
 it rejects only the current retained source relation as a physical derivation.
 

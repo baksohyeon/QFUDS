@@ -58,7 +58,7 @@ code_refs:
 
 Li & Zhang 2025가 Exp006 후속 timing target으로 올라온 뒤, 공개 numerical product가 있는지 찾았다. 결론은 "공개 numerical beta(z), covariance, posterior, PCA array는 못 찾았지만, arXiv source bundle 안의 figure PDF와 TeX source를 확인했고, 이를 repo asset cache와 digitization용 고해상도 PNG로 정리했다"이다.
 
-이 문서는 새 실험이 아니다. Exp006 결론, roadmap status, Level 1.5는 변경하지 않았다.
+이 문서는 새 실험이 아니다. Exp006 결론, roadmap status, [Level 1.5](../glossary/repository_levels.md)는 변경하지 않았다.
 
 이 작업의 실제 의미는 단순한 파일 정리가 아니었다. Exp004, Exp005, Exp006을 지나면서 retained timing branch는 다음 상태에 있었다.
 

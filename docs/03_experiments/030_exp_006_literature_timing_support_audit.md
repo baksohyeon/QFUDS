@@ -77,7 +77,7 @@ This experiment can change conclusions about:
 This experiment cannot change conclusions about:
 
 - physical QFUDS validity;
-- the retained branch's failed Level 1.5 physical promotion;
+- the retained branch's failed [Level 1.5](../wiki/glossary/repository_levels.md) physical promotion;
 - physical Level 2B readiness;
 - existence of a physical `Q^nu`, source field `X`, or phase-B vacuum-pressure
   derivation;

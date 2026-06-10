@@ -40,7 +40,7 @@ status. This does not falsify the broader DM-to-DE phase-transition hypothesis;
 it rejects only the current retained source relation as a physical derivation.
 ```
 
-This is a Level 1.5 result, not a Level 2 perturbation result. It does not
+This is a [Level 1.5](../wiki/glossary/repository_levels.md) result, not a Level 2 perturbation result. It does not
 forbid a Level 2A phenomenological perturbation-closure audit.
 
 ## Scope

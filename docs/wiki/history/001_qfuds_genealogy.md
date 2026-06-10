@@ -28,7 +28,7 @@ Phenomenological IV/IDE; Not Yet A Physical Model.
 This classification applies to the current retained branch only. It does not
 define the entire QFUDS research program.
 
-Level 2B remains blocked. Retained `Gamma(a)` is a prototype phenomenological
+[Level 2B](../glossary/repository_levels.md) remains blocked. Retained `Gamma(a)` is a prototype phenomenological
 transfer profile, not a derived physical law.
 
 ## Reading Rule

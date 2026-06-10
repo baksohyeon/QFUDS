@@ -21,7 +21,7 @@ last_updated: 2026-06-10
 
 This document lists safe follow-up branches after the accepted physical-branch
 audit. It does not update roadmap status and does not open Physical-QFUDS
-Level 2B.
+[Level 2B](../wiki/glossary/repository_levels.md).
 
 Current status remains governed by
 [000_roadmap.md](000_roadmap.md). The retained branch remains classified as

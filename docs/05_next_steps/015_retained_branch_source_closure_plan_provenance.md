@@ -18,7 +18,7 @@ last_updated: 2026-06-09
 
 Date: 2026-06-09
 
-This gate previously turned the Level 1.5 blocker into a possible next research
+This gate previously turned the [Level 1.5](../wiki/glossary/repository_levels.md) blocker into a possible next research
 step. It did not start physical Level 2B, change project status, or treat
 `Gamma(a)` as derived physics.
 

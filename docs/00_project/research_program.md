@@ -186,7 +186,7 @@ Current per-level status lives only in the roadmap:
 
 This document is a reference note for the research framing and idea trail. It
 must not be used as the status source. The retained
-`dF_coll/dln(a)`/information-production branch has failed physical Level 1.5
+`dF_coll/dln(a)`/information-production branch has failed physical [Level 1.5](../wiki/glossary/repository_levels.md)
 promotion and is demoted to phenomenological interacting-vacuum status. That
 rejects only the current retained source relation as a physical derivation; it
 does not falsify the broader DM-to-DE phase-transition hypothesis.
@@ -205,39 +205,9 @@ That lineage is historical context only. For the current per-level state, use
 the roadmap:
 [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
 
-### Level 0: Literature Position
-
-Goal:
-
-```text
-Find out whether QFUDS is just a rephrasing of existing unified dark fluid,
-k-essence, scalar-field dark matter, or interacting dark energy models.
-```
-
-Output:
-
-```text
-comparison table
-known limits
-first kill criteria
-```
-
-### Level 1: Background Cosmology
-
-Implement:
-
-```text
-rho_QF(a) = rho_QF,0 [(1 - B_s) + B_s a^(-3(1 + alpha))]
-```
-
-Check:
-
-```text
-H(a)
-Omega(a)
-w(a)
-LCDM limit
-```
+Level terminology and level relationships are defined in
+[repository_levels.md](../wiki/glossary/repository_levels.md). This section
+keeps the historical experiment lineage only.
 
 ### Experiment 001: Physically Motivated Gamma(a) Laws
 
@@ -303,31 +273,9 @@ Level 1.5 review. The later demotion means the timing was useful as a proxy, but
 the repository still did not derive a physical conversion from phase A into
 vacuum-pressure phase B.
 
-### Level 2A: Phenomenological Perturbations
-
-The gauge-declared phenomenological perturbation closure has been run as a kill
-test, not as a physical derivation of QFUDS.
-
-The key term is:
-
-```text
-c_s^2 k^2 / a^2
-```
-
-If this term is too large, structure formation fails.
-
-Level 2A and Level 2B answer different questions. Level 2A is allowed to test a
-declared phenomenological closure and record whether it is numerically stable.
-Level 2B requires a physical transfer derivation, including the source, transfer
-frame, phase-B response, and perturbation route. CLASS/CAMB, CMB, and
-matter-power work come later because they need a solver-ready perturbation model
-rather than only a background `Gamma(a)` history.
-
-### Level 2B: Physical Perturbations
-
-Physical Level 2B remains blocked for the retained branch. A future physical
-branch must first supply the admission-rule ingredients in the roadmap before
-any physical perturbation closure is claimed.
+For perturbation-level terminology, use
+[repository_levels.md](../wiki/glossary/repository_levels.md) and
+[010_perturbation_gate.md](../05_next_steps/010_perturbation_gate.md).
 
 ### Level 3: CLASS Or CAMB Implementation
 

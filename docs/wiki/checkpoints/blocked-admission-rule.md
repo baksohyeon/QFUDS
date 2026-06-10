@@ -18,7 +18,7 @@ last_updated: 2026-06-10
 
 ## Current Gate
 
-No Physical-QFUDS Level 2B work is allowed until all five items are supplied by
+No Physical-QFUDS [Level 2B](../glossary/repository_levels.md) work is allowed until all five items are supplied by
 one mechanism.
 
 This checkpoint restates the admission rule for handoff clarity. It is not a

@@ -42,7 +42,7 @@ Evidence already achieved:
 - constant and ungated growth-driven transfer laws were rejected at tested
   amplitudes;
 - experiment 002 was preserved as provenance after stronger audits;
-- Level 1.5 closed the retained physical branch without erasing it;
+- [Level 1.5](../wiki/glossary/repository_levels.md) closed the retained physical branch without erasing it;
 - Level 2A recorded the boundary of a phenomenological perturbation closure;
 - documentation now preserves roadmap, decision, evidence, and traceability
   records.

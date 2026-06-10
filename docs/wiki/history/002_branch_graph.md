@@ -22,7 +22,7 @@ This file maps branch relationships for handoff and routing. It is not the
 roadmap and does not change project status. Current project status remains
 governed by [docs/05_next_steps/000_roadmap.md](../../05_next_steps/000_roadmap.md).
 
-Physical Level 2B remains blocked. This graph cannot admit a branch into Level
+Physical [Level 2B](../glossary/repository_levels.md) remains blocked. This graph cannot admit a branch into Level
 2B.
 
 ## Current Retained-Branch Classification

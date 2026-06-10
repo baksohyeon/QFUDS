@@ -22,7 +22,7 @@ Determine whether the retained `Gamma(a)` branch can be written as a stable,
 gauge-declared, mathematically closed linear perturbation system while
 `Gamma(a)` remains phenomenological.
 
-This is a Level 2A experiment specification. It is not a physical derivation of
+This is a [Level 2A](../wiki/glossary/repository_levels.md) experiment specification. It is not a physical derivation of
 QFUDS.
 
 ## Hypothesis

@@ -346,7 +346,7 @@ partial_compression
 
 | Claim | Status | 근거 |
 | --- | --- | --- |
-| retained `Gamma(a)`가 physical QFUDS source다 | rejected for retained branch | Level 1.5 physicality gate |
+| retained `Gamma(a)`가 physical QFUDS source다 | rejected for retained branch | [Level 1.5](../glossary/repository_levels.md) physicality gate |
 | retained P1이 known IV/IDE와 구별되는 physical model family다 | rejected | Exp004 exact IV mapping |
 | two-phase naming만으로 novelty가 생긴다 | rejected | qfuds_positioning, Exp004 |
 | Exp006 table overlap만으로 retained timing이 informative prior다 | rejected | Exp006 `allowed_but_not_informative` |

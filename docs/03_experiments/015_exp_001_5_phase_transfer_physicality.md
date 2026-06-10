@@ -23,7 +23,7 @@ Audit whether the retained collapse/information-production transfer shape has a
 physical phase-transfer interpretation before any physical perturbation claim is
 made.
 
-This is a Level 1.5 gate document. It is not a numerical perturbation
+This is a [Level 1.5](../wiki/glossary/repository_levels.md) gate document. It is not a numerical perturbation
 experiment.
 
 ## Trigger

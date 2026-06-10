@@ -28,7 +28,7 @@ Date: 2026-06-08
 
 ## Executive Verdict
 
-QFUDS can be written as a mathematically closed Level 2A phenomenological
+QFUDS can be written as a mathematically closed [Level 2A](../wiki/glossary/repository_levels.md) phenomenological
 perturbation system only in the interacting-vacuum P1 closure tested here.
 
 The regularized near-vacuum phase-B fluid closure P2 fails at the retained
