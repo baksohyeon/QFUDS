@@ -77,3 +77,4 @@ product was not found in the checked sources on the recorded date.
 | 022 | [2026-06-10 Black-Hole-Coupled Literature Search Audit](source_x/coverage/022_phase2_black_hole_coupled_literature_search_audit.md) | Phase 2 coverage |
 | 023 | [2026-06-10 Compact-Object Transient Source Literature Audit](source_x/coverage/023_phase2_compact_object_transient_source_literature_audit.md) | Phase 2 coverage |
 | 024 | [2026-06-10 Structure-Era Activation Literature Audit](source_x/coverage/024_phase2_structure_era_activation_literature_audit.md) | Phase 2 coverage |
+| 029 | [2026-06-10 Phase 2 Candidate Selection Closeout](source_x/conclusions/029_phase2_candidate_selection_closeout.md) | Phase 2 closeout |

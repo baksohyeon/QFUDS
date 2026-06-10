@@ -27,6 +27,14 @@ used_by:
 - Venue: Monthly Notices of the Royal Astronomical Society 528, 2377-2390
   (2024)
 
+## Short Summary
+
+Amendola et al. constrain cosmologically coupled black holes using
+gravitational-wave black-hole populations and minimal formation-mass arguments.
+The paper is useful to QFUDS as a constraint and code-route comparator for
+CCBH-like assumptions. It does not supply QFUDS `X`, `Q^nu`, phase-B pressure
+rationale, or `delta Q`.
+
 ## Key Equations
 
 - Tests black holes that grow as a power of scale factor, with coupling index

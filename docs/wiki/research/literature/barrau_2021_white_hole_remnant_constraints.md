@@ -26,6 +26,13 @@ used_by:
 - DOI: [10.1103/PhysRevD.103.043532](https://doi.org/10.1103/PhysRevD.103.043532)
 - Venue: Physical Review D 103, 043532 (2021)
 
+## Short Summary
+
+Barrau et al. examine white-hole remnants as constrained dark-matter candidates.
+For QFUDS this is a remnant-sector constraint comparator. It does not make
+remnants a phase-B dark-energy source and does not provide a QFUDS transfer
+vector, pressure derivation, or perturbation prescription.
+
 ## Key Equations
 
 - Studies Planck-mass black holes tunneling into metastable white holes.

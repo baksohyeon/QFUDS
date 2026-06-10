@@ -27,6 +27,14 @@ used_by:
 - DOI: [10.3847/2041-8213/ad1b5f](https://doi.org/10.3847/2041-8213/ad1b5f)
 - Venue: Astrophysical Journal Letters
 
+## Short Summary
+
+Lacy et al. use the accretion history of supermassive black holes to constrain
+cosmological coupling strength, finding bounds below the strong `k = 3`
+dark-energy-source case under the reported assumptions. For QFUDS this is an
+accretion-history constraint comparator. It is not a QFUDS source history or an
+admission-rule completion.
+
 ## Key Equations
 
 - Tests black-hole mass coupling to cosmic expansion using SMBH mass density at

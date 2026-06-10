@@ -44,6 +44,7 @@ records. The prefix is a route number, not a project-status claim.
 | 022 | [Black-Hole-Coupled Literature Search Audit](coverage/022_phase2_black_hole_coupled_literature_search_audit.md) | Phase 2 coverage |
 | 023 | [Compact-Object Transient Source Literature Audit](coverage/023_phase2_compact_object_transient_source_literature_audit.md) | Phase 2 coverage |
 | 024 | [Structure-Era Activation Literature Audit](coverage/024_phase2_structure_era_activation_literature_audit.md) | Phase 2 coverage |
+| 029 | [Phase 2 Candidate Selection Closeout](conclusions/029_phase2_candidate_selection_closeout.md) | Phase 2 closeout |
 
 Reserved future records:
 
@@ -64,6 +65,8 @@ Reserved future records:
 - `024` expands beyond black-hole keywords into structure-era activation:
   backreaction, vacuum activation, emergent/transition DE, and nonparametric
   IDE.
+- `029` closes Phase 2 and retains the black-hole-coupled lane for Phase 3 audit
+  only.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

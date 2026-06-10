@@ -27,6 +27,14 @@ used_by:
 - DOI: [10.3847/2515-5172/acd767](https://doi.org/10.3847/2515-5172/acd767)
 - Venue: Research Notes of the AAS 7, 101 (2023)
 
+## Short Summary
+
+Mistele comments on the theoretical link between cosmologically coupled black
+holes and dark energy in the Farrah et al. interpretation. For QFUDS this is a
+critique/comparator for the black-hole-coupled lane. It does not provide QFUDS
+`X`, `Q^nu`, phase-B pressure rationale, `delta Q`, or a known-model distinction
+that would satisfy admission by itself.
+
 ## Key Equations
 
 - Critiques the theoretical link between black holes and dark energy in the

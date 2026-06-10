@@ -26,6 +26,13 @@ used_by:
 - DOI: [10.1103/PhysRevD.110.063553](https://doi.org/10.1103/PhysRevD.110.063553)
 - Venue: Physical Review D 110, 063553 (2024)
 
+## Short Summary
+
+Faraoni and Rinaldi argue that black-hole event horizons are cosmologically
+coupled in time-dependent geometries. For QFUDS this is a theoretical
+black-hole/cosmology coupling comparator, not a source-history product. It does
+not establish QFUDS phase transfer, phase-B pressure, or perturbation closure.
+
 ## Key Equations
 
 - Shows that an exactly static, spherically symmetric black-hole event horizon

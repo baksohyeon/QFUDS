@@ -26,6 +26,13 @@ used_by:
 - DOI: [10.1088/1475-7516/2023/08/005](https://doi.org/10.1088/1475-7516/2023/08/005)
 - Venue: JCAP 08, 005 (2023)
 
+## Short Summary
+
+Avelino analyzes whether gravitational vacuum condensate stars can act as a
+dark-energy source and argues against that route under the studied assumptions.
+For QFUDS this is a compact-object/vacuum-interior critique and comparator. It
+does not provide a QFUDS phase-transfer equation or Level 2B admission path.
+
 ## Key Equations
 
 - Discusses gravastars as black-hole alternatives with interior equation of

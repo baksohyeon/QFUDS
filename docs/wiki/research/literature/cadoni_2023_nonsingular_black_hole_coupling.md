@@ -27,6 +27,14 @@ used_by:
 - DOI: [10.1088/1475-7516/2023/11/007](https://doi.org/10.1088/1475-7516/2023/11/007)
 - Venue: JCAP 11, 007 (2023)
 
+## Short Summary
+
+Cadoni et al. study cosmological coupling for nonsingular black holes and find a
+weaker mass-growth scaling than the `k ~= 3` dark-energy-source case. For QFUDS
+this is a theoretical comparator showing reduction risk and possible failure
+modes for regular black-hole source claims. It does not provide a QFUDS-specific
+transfer vector, phase-B pressure derivation, or perturbation route.
+
 ## Key Equations
 
 - Studies cosmological coupling of singularity-free black holes and horizonless
