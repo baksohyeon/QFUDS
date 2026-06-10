@@ -80,3 +80,4 @@ product was not found in the checked sources on the recorded date.
 | 029 | [2026-06-10 Phase 2 Candidate Selection Closeout](source_x/conclusions/029_phase2_candidate_selection_closeout.md) | Phase 2 closeout |
 | 030 | [2026-06-10 Phase 3 Q^nu Derivation Attempt Plan](source_x/plans/030_phase3_qnu_derivation_attempt_plan.md) | Phase 3 plan |
 | 031 | [2026-06-10 Phase 3 Q^nu Derivation Attempt](source_x/conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
+| 040 | [2026-06-10 Black-Hole Data Product Audit Plan](source_x/plans/040_black_hole_data_product_audit_plan.md) | data-product interlock plan |

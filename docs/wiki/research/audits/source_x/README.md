@@ -25,7 +25,8 @@ Use phase-reserved prefixes:
 010-019  Phase 1: Source-X audit
 020-029  Phase 2: Source-X candidate selection and coverage
 030-039  Phase 3: Q^nu derivation attempt
-040-049  Phase 4: delta Q derivation attempt
+040      Data-product interlock before Phase 4 derivation work
+041-049  Phase 4: delta Q derivation attempt
 050-059  Phase 5: known-model distinction
 060-069  Final: Level 2B admission audit
 ```
@@ -47,12 +48,13 @@ records. The prefix is a route number, not a project-status claim.
 | 029 | [Phase 2 Candidate Selection Closeout](conclusions/029_phase2_candidate_selection_closeout.md) | Phase 2 closeout |
 | 030 | [Phase 3 Q^nu Derivation Attempt Plan](plans/030_phase3_qnu_derivation_attempt_plan.md) | Phase 3 plan |
 | 031 | [Phase 3 Q^nu Derivation Attempt](conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
+| 040 | [Black-Hole Data Product Audit Plan](plans/040_black_hole_data_product_audit_plan.md) | data-product interlock before Phase 4 |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 040 | `040_phase4_delta_q_derivation_attempt.md` | derive or fail to derive `delta Q`; no perturbation viability claim without equations |
+| 041 | `041_phase4_delta_q_derivation_attempt.md` | derive or fail to derive `delta Q`; no perturbation viability claim without equations |
 | 050 | `050_phase5_known_model_distinction.md` | compare against CCBH, IV/IDE, HDE, remnant-DM, and adjacent known models |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
@@ -72,6 +74,9 @@ Reserved future records:
   derivation.
 - `031` executes the Phase 3 feasibility audit and records that both retained
   lanes are data-product blocked.
+- `040` is an intentional data-product interlock before Phase 4 delta-Q
+  derivation work. It plans product recovery only; it does not derive `Q^nu`,
+  open Level 2B, or modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
