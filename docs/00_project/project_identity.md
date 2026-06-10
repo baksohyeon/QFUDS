@@ -11,7 +11,7 @@ depends_on:
   - experiment_summary
   - roadmap
 next_gate: use roadmap for current status; use success criteria before new branches
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # QFUDS Project Identity
@@ -27,6 +27,16 @@ into equations and tests, and identify which parts survive contact with known
 cosmology.
 
 Current per-level status lives only in the roadmap:
+[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
+
+## Accepted Physical-Branch Audit Classification
+
+Current retained-branch classification: Phenomenological IV/IDE; Not Yet A
+Physical Model.
+
+This is a retained-branch classification summary, not a definition of the
+entire QFUDS research program and not a roadmap status table. Current level,
+blockers, and next gates remain governed by
 [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
 
 ## Project Scope

@@ -45,7 +45,7 @@ Project-level status, decisions, roadmap framing, and Korean overview.
 
 - [overview.md](00_project/overview.md)
 - [research_program.md](00_project/research_program.md)
-- [project_identity.md](00_project/project_identity.md) - current project identity, scope, non-goals, and lessons learned
+- [project_identity.md](00_project/project_identity.md) - current project identity, scope, non-goals, retained-branch classification, and lessons learned
 - [qfuds_positioning.md](00_project/qfuds_positioning.md) - QFUDS ideas mapped against existing cosmology model families
 - [concept_survival_audit.md](00_project/concept_survival_audit.md) - original intuition mapped against current evidence, demotions, and open candidates
 - [success_criteria.md](00_project/success_criteria.md) - minimum, moderate, and strong success criteria plus physical-branch admission rule
@@ -109,6 +109,7 @@ Experiment reports, diagnostic results, and hostile-referee conclusions.
 Current validation roadmap and blockers.
 
 - [000_roadmap.md](05_next_steps/000_roadmap.md)
+- [010_safe_future_branch_candidates.md](05_next_steps/010_safe_future_branch_candidates.md) - allowed non-Level-2B follow-up branches after the accepted physical-branch audit
 - [010_perturbation_gate.md](05_next_steps/010_perturbation_gate.md)
 - [015_level_1_5_resolution_gate.md](05_next_steps/015_level_1_5_resolution_gate.md) - evidence criteria for Level 1.5 pass, fail, demotion, and future branch admission
 - [015_retained_branch_source_closure_plan_provenance.md](05_next_steps/015_retained_branch_source_closure_plan_provenance.md) - provenance planning gate superseded by the retained-branch demotion
@@ -121,3 +122,11 @@ Raw literature records and dated availability audits. These are reference
 records only, not experiment conclusions.
 
 - [Research Cache](research/README.md)
+
+## Wiki Audits And Checkpoints
+
+Accepted audit summaries and handoff checkpoints. These are not roadmap status
+authorities.
+
+- [Physical Branch Audit Summary](wiki/audits/004-physical-branch-audit-summary.md)
+- [Blocked Admission Rule Checkpoint](wiki/checkpoints/blocked-admission-rule.md)
