@@ -79,3 +79,4 @@ product was not found in the checked sources on the recorded date.
 | 024 | [2026-06-10 Structure-Era Activation Literature Audit](source_x/coverage/024_phase2_structure_era_activation_literature_audit.md) | Phase 2 coverage |
 | 029 | [2026-06-10 Phase 2 Candidate Selection Closeout](source_x/conclusions/029_phase2_candidate_selection_closeout.md) | Phase 2 closeout |
 | 030 | [2026-06-10 Phase 3 Q^nu Derivation Attempt Plan](source_x/plans/030_phase3_qnu_derivation_attempt_plan.md) | Phase 3 plan |
+| 031 | [2026-06-10 Phase 3 Q^nu Derivation Attempt](source_x/conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
