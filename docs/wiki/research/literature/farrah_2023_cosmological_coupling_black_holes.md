@@ -31,6 +31,18 @@ used_by:
 - DOI: [10.3847/2041-8213/acb704](https://doi.org/10.3847/2041-8213/acb704)
 - Venue: Astrophysical Journal Letters 944, L31 (2023)
 
+## Short Summary
+
+Farrah et al. claim observational evidence that supermassive black-hole masses
+are cosmologically coupled and can grow with cosmic expansion beyond ordinary
+accretion or mergers. In their interpretation, cosmologically coupled black
+holes can behave as an astrophysical source of dark energy. For QFUDS this is a
+primary comparator and reduction-risk source: a black-hole-coupled QFUDS branch
+would need to predict something distinct from CCBH, not just reuse the same
+mass-growth idea. The paper does not by itself admit QFUDS Level 2B because it
+does not supply QFUDS `X`, `Q^nu`, phase-B `w ~= -1` rationale, `delta Q`, and
+known-model distinction together.
+
 ## Key Equations
 
 - Studies cosmological black-hole mass growth independent of ordinary accretion

@@ -25,6 +25,13 @@ used_by:
 - Author: Niayesh Afshordi
 - arXiv: [1003.4811](https://arxiv.org/abs/1003.4811)
 
+## Short Summary
+
+Afshordi proposes a route from black-hole entropy corrections to a
+gravitational-vacuum pressure scale related to dark energy. For QFUDS this is an
+entropy/vacuum-pressure comparator. It does not by itself define QFUDS `X`,
+`Q^nu`, phase-B perturbations, `delta Q`, or a known-model distinction.
+
 ## Key Equations
 
 - Proposes that finite-temperature quantum-gravity corrections to black-hole

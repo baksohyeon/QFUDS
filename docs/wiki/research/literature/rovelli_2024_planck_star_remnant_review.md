@@ -26,6 +26,13 @@ used_by:
 - Authors: Carlo Rovelli, Francesca Vidotto
 - arXiv: [2407.09584](https://arxiv.org/abs/2407.09584)
 
+## Short Summary
+
+Rovelli and Vidotto review Planck-star, white-hole, and remnant scenarios in
+black-hole evolution. For QFUDS this is remnant-sector background and a DM
+comparator, not a phase-B dark-energy source. It does not provide QFUDS `X`,
+`Q^nu`, `delta Q`, or a smooth vacuum-pressure derivation.
+
 ## Key Equations
 
 - Reviews quantum-gravity black-hole evolution scenarios predicting

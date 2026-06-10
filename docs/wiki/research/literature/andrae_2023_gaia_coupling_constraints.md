@@ -26,6 +26,14 @@ used_by:
 - DOI: [10.1051/0004-6361/202346350](https://doi.org/10.1051/0004-6361/202346350)
 - Venue: Astronomy & Astrophysics 673, L10 (2023)
 
+## Short Summary
+
+Andrae and El-Badry use Gaia BH1 and BH2 to test whether strong cosmological
+black-hole mass growth would imply implausibly low formation masses. For QFUDS
+this is a nearby-system constraint comparator on CCBH-like source assumptions,
+not evidence for a QFUDS source. It does not define `Q^nu`, phase-B stress
+energy, or `delta Q`.
+
 ## Key Equations
 
 - Tests mass growth following cosmological expansion for black holes in Gaia

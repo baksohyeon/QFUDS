@@ -24,6 +24,13 @@ used_by:
 - Authors: Carlo Rovelli, Francesca Vidotto
 - arXiv: [1804.04147](https://arxiv.org/abs/1804.04147)
 
+## Short Summary
+
+Rovelli and Vidotto propose Planck-size white-hole remnants as a dark-matter
+component. For QFUDS this belongs to the remnant/DM comparator lane, not the
+phase-B dark-energy lane. It does not supply a smooth `w ~= -1` stress-energy
+route, `Q^nu`, or `delta Q`.
+
 ## Key Equations
 
 - Proposes that remnants of evaporated black holes could form a component of

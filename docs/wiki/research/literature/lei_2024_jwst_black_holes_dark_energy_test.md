@@ -29,6 +29,14 @@ used_by:
 - DOI: [10.1007/s11433-023-2233-2](https://doi.org/10.1007/s11433-023-2233-2)
 - Venue: Science China Physics, Mechanics & Astronomy 67, 229811 (2024)
 
+## Short Summary
+
+Lei et al. test the black-holes-as-dark-energy interpretation against
+high-redshift JWST AGN host and black-hole mass estimates. The record is useful
+for QFUDS only as a constraint comparator on strong black-hole cosmological
+coupling. It does not provide a QFUDS source term, covariant transfer vector,
+phase-B pressure derivation, or perturbation prescription.
+
 ## Key Equations
 
 - Tests cosmological coupling with coupling index near `k = 3`.

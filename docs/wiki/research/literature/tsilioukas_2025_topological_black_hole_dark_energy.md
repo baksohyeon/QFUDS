@@ -25,6 +25,14 @@ used_by:
 - Authors: Stylianos A. Tsilioukas, Nicholas Petropoulos, Emmanuel N. Saridakis
 - arXiv: [2412.21146](https://arxiv.org/abs/2412.21146)
 
+## Short Summary
+
+Tsilioukas et al. model effective dark energy from black-hole formation and
+merger topology through a gravity-thermodynamics approach. For QFUDS this is a
+black-hole entropy/topological dark-energy comparator and reduction-risk source.
+It does not provide QFUDS phase-A to phase-B transfer, `Q^nu`, `delta Q`, or an
+independent QFUDS observable distinction.
+
 ## Key Equations
 
 - Uses Einstein-Gauss-Bonnet gravity, Wald-Gauss-Bonnet entropy, and topology

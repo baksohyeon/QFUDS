@@ -28,6 +28,15 @@ used_by:
 - DOI: [10.1088/1475-7516/2024/10/094](https://doi.org/10.1088/1475-7516/2024/10/094)
 - Venue: JCAP 10, 094 (2024)
 
+## Short Summary
+
+Croker et al. present a DESI-era comparison in which cosmologically coupled
+black-hole production recovers a dark-energy time evolution similar to DESI
+dark-energy fits. For QFUDS this is a high-priority known-model comparator: if a
+black-hole production lane is used as a source for phase B, it risks reducing to
+CCBH dark energy unless it supplies a distinct QFUDS source equation,
+perturbation route, and observable distinction.
+
 ## Key Equations
 
 - Assumes dark energy is sourced by cosmologically coupled black-hole

@@ -27,6 +27,14 @@ used_by:
 - DOI: [10.3847/2041-8213/acc9b6](https://doi.org/10.3847/2041-8213/acc9b6)
 - Venue: Astrophysical Journal Letters 947, L12 (2023)
 
+## Short Summary
+
+Rodriguez uses old stellar-mass black-hole candidates in NGC 3201 to constrain
+strong cosmological black-hole mass growth. For QFUDS this is a failure-test
+comparator for any branch that imports strong black-hole coupling. It does not
+provide a QFUDS transfer law, phase-B pressure rationale, or Level 2B admission
+route by itself.
+
 ## Key Equations
 
 - Tests cosmologically coupled black-hole mass growth using old stellar-mass

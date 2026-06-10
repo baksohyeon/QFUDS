@@ -24,6 +24,14 @@ used_by:
 - Author: S. L. Parnovsky
 - arXiv: [2302.13333](https://arxiv.org/abs/2302.13333)
 
+## Short Summary
+
+Parnovsky critiques the idea that black-hole mass growth with cosmic volume can
+make black holes a dark-energy source. For QFUDS this is a conceptual
+reduction-test comparator for the black-hole-coupled lane. It does not supply a
+QFUDS source definition, transfer vector, phase-B pressure rationale, or
+perturbation rule.
+
 ## Key Equations
 
 - Critiques the hypothesis that black-hole mass increasing with cosmic volume
