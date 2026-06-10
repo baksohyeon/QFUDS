@@ -49,7 +49,7 @@ The black-hole-coupled source audit must not prove Gamma(a). It must determine w
 
 The plan and the executed audit must not:
 
-- open Physical-QFUDS [Level 2B](../../../glossary/repository_levels.md);
+- open Physical-QFUDS [Level 2B](../../../../glossary/repository_levels.md);
 - modify roadmap status;
 - create a black-hole physical branch;
 - claim black holes explain `Gamma(a)`;
@@ -62,13 +62,13 @@ The plan and the executed audit must not:
 
 Use these files as authorities:
 
-- [docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md)
-- [docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md)
-- [docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md)
-- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../checkpoints/blocked-admission-rule.md)
-- [docs/wiki/research/audits/source_x/002_source_x_audit.md](002_source_x_audit.md)
-- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
-- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../05_next_steps/010_safe_future_branch_candidates.md)
+- [docs/05_next_steps/000_roadmap.md](../../../../../05_next_steps/000_roadmap.md)
+- [docs/wiki/glossary/repository_levels.md](../../../../glossary/repository_levels.md)
+- [docs/wiki/checkpoints/missing_physics_map.md](../../../../checkpoints/missing_physics_map.md)
+- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../../checkpoints/blocked-admission-rule.md)
+- [docs/wiki/research/audits/source_x/conclusions/011_phase1_source_x_audit.md](../conclusions/011_phase1_source_x_audit.md)
+- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
+- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../../05_next_steps/010_safe_future_branch_candidates.md)
 
 Authority roles:
 
@@ -87,18 +87,18 @@ Authority roles:
 Before proposing new external literature work, the executed audit must scan the
 existing repository evidence anchors:
 
-- [docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md)
-- [docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md)
-- [docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md)
-- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../checkpoints/blocked-admission-rule.md)
-- [docs/wiki/research/audits/source_x/002_source_x_audit.md](002_source_x_audit.md)
-- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
-- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../05_next_steps/010_safe_future_branch_candidates.md)
-- [docs/wiki/research/literature/README.md](../../literature/README.md)
+- [docs/05_next_steps/000_roadmap.md](../../../../../05_next_steps/000_roadmap.md)
+- [docs/wiki/glossary/repository_levels.md](../../../../glossary/repository_levels.md)
+- [docs/wiki/checkpoints/missing_physics_map.md](../../../../checkpoints/missing_physics_map.md)
+- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../../checkpoints/blocked-admission-rule.md)
+- [docs/wiki/research/audits/source_x/conclusions/011_phase1_source_x_audit.md](../conclusions/011_phase1_source_x_audit.md)
+- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
+- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../../05_next_steps/010_safe_future_branch_candidates.md)
+- [docs/wiki/research/literature/README.md](../../../literature/README.md)
 - `docs/wiki/research/literature/index.csv`
 - `docs/wiki/research/audits/`
-- [docs/wiki/history/001_qfuds_genealogy.md](../../../history/001_qfuds_genealogy.md)
-- [docs/wiki/history/002_branch_graph.md](../../../history/002_branch_graph.md)
+- [docs/wiki/history/001_qfuds_genealogy.md](../../../../history/001_qfuds_genealogy.md)
+- [docs/wiki/history/002_branch_graph.md](../../../../history/002_branch_graph.md)
 
 The current literature cache does not contain a dedicated
 black-hole-coupled-dark-energy cache record. Treat that as a literature gap
@@ -254,7 +254,7 @@ failure test. It does not mean Level 2B admission.
 The future executed audit should create:
 
 ```text
-docs/wiki/research/audits/source_x/004_black_hole_coupled_source_audit.md
+docs/wiki/research/audits/source_x/conclusions/021_phase2_black_hole_coupled_source_audit.md
 ```
 
 That executed audit should be an audit result, not an experiment result, roadmap
@@ -275,7 +275,7 @@ The executed audit must confirm:
 
 ## Level 2B blocked confirmation
 
-Physical [Level 2B](../../../glossary/repository_levels.md) remains blocked.
+Physical [Level 2B](../../../../glossary/repository_levels.md) remains blocked.
 
 The executed audit must not open Level 2B. A black-hole-related candidate can
 only become eligible for future branch admission if one mechanism supplies all
@@ -299,8 +299,8 @@ black-hole-related source `X` can replace, derive, constrain, or reject it.
 
 The audit must also confirm:
 
-- [docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md)
+- [docs/wiki/glossary/repository_levels.md](../../../../glossary/repository_levels.md)
   remains SSOT for level terminology;
-- [docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md)
+- [docs/wiki/checkpoints/missing_physics_map.md](../../../../checkpoints/missing_physics_map.md)
   remains SSOT for missing admission-rule items;
 - no `Gamma(a)` proof attempt was made.

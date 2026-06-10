@@ -33,7 +33,8 @@ should optimize navigation by research flow, not by calendar grouping.
 Current chains:
 
 - `exp006_timing/`: IV/IDE timing and Li 2025 data-product audits.
-- `source_x/`: Source-X and black-hole-coupled source audit plans/results.
+- `source_x/`: Source-X plans, conclusions, and coverage audits. Start at
+  [source_x/README.md](source_x/README.md).
 
 ## Record Boundaries
 
@@ -68,6 +69,11 @@ product was not found in the checked sources on the recorded date.
 
 | Order | Record | Type |
 | ---: | --- | --- |
-| 001 | [2026-06-10 Source-X Audit Plan](source_x/001_source_x_audit_plan.md) | plan |
-| 002 | [2026-06-10 Source-X Audit](source_x/002_source_x_audit.md) | audit |
-| 003 | [2026-06-10 Black-Hole-Coupled Source Audit Plan](source_x/003_black_hole_coupled_source_audit_plan.md) | plan |
+| index | [Source-X Research Audits](source_x/README.md) | chain index |
+| 010 | [2026-06-10 Source-X Audit Plan](source_x/plans/010_phase1_source_x_audit_plan.md) | Phase 1 plan |
+| 011 | [2026-06-10 Source-X Audit](source_x/conclusions/011_phase1_source_x_audit.md) | Phase 1 conclusion |
+| 020 | [2026-06-10 Black-Hole-Coupled Source Audit Plan](source_x/plans/020_phase2_black_hole_coupled_source_audit_plan.md) | Phase 2 plan |
+| 021 | [2026-06-10 Black-Hole-Coupled Source Audit](source_x/conclusions/021_phase2_black_hole_coupled_source_audit.md) | Phase 2 conclusion |
+| 022 | [2026-06-10 Black-Hole-Coupled Literature Search Audit](source_x/coverage/022_phase2_black_hole_coupled_literature_search_audit.md) | Phase 2 coverage |
+| 023 | [2026-06-10 Compact-Object Transient Source Literature Audit](source_x/coverage/023_phase2_compact_object_transient_source_literature_audit.md) | Phase 2 coverage |
+| 024 | [2026-06-10 Structure-Era Activation Literature Audit](source_x/coverage/024_phase2_structure_era_activation_literature_audit.md) | Phase 2 coverage |
