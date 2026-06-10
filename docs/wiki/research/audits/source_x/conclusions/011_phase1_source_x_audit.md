@@ -13,6 +13,7 @@ depends_on:
   - blocked_admission_rule_checkpoint
   - wiki_audit_004_physical_branch_audit_summary
   - safe_future_branch_candidates
+  - audit_2026_06_10_structure_era_activation_literature
 next_gate: no physical branch; retained Gamma(a) remains phenomenological unless a future candidate supplies all admission-rule items
 last_updated: 2026-06-10
 ---
@@ -22,7 +23,7 @@ last_updated: 2026-06-10
 ## Scope
 
 This document executes the accepted
-[2026-06-10 Source-X Audit Plan](001_source_x_audit_plan.md).
+[2026-06-10 Source-X Audit Plan](../plans/010_phase1_source_x_audit_plan.md).
 
 It audits six candidate source-scalar lanes:
 
@@ -33,9 +34,17 @@ It audits six candidate source-scalar lanes:
 5. remnant-sector source;
 6. information / entropy source.
 
-No new lane is added. No external literature search is performed. The audit uses
-only existing repository evidence anchors, literature-cache records, timing
-audits, source audits, and comparison documents.
+No new lane is added. This audit was initially executed as a repository-local
+audit using existing evidence anchors, literature-cache records, timing audits,
+source audits, and comparison documents. It should not be read as a claim that
+uncached external literature does not exist.
+
+A broader follow-up literature audit is recorded in
+[2026-06-10 Structure-Era Activation Literature Audit](../coverage/024_phase2_structure_era_activation_literature_audit.md).
+That follow-up found a real search-keyword gap in the black-hole-centered search
+coverage: structure-era activation, backreaction, vacuum metamorphosis, running
+vacuum, emergent/transition dark energy, and nonparametric/thresholded IDE are
+broader source-audit lanes than black-hole-coupled terminology alone.
 
 ## Status Boundary
 
@@ -51,39 +60,63 @@ can derive, replace, constrain, or reject the retained prototype transfer
 profile.
 
 Status authority remains
-[docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md).
+[docs/05_next_steps/000_roadmap.md](../../../../../05_next_steps/000_roadmap.md).
 Terminology authority remains
-[docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md).
+[docs/wiki/glossary/repository_levels.md](../../../../glossary/repository_levels.md).
 Missing-admission authority remains
-[docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md).
+[docs/wiki/checkpoints/missing_physics_map.md](../../../../checkpoints/missing_physics_map.md).
 
 ## Evidence Used
 
 Primary authority and checkpoint files:
 
-- [docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md)
-- [docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md)
-- [docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md)
-- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../checkpoints/blocked-admission-rule.md)
-- [docs/wiki/audits/004-physical-branch-audit-summary.md](../../../audits/004-physical-branch-audit-summary.md)
-- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../05_next_steps/010_safe_future_branch_candidates.md)
+- [docs/05_next_steps/000_roadmap.md](../../../../../05_next_steps/000_roadmap.md)
+- [docs/wiki/glossary/repository_levels.md](../../../../glossary/repository_levels.md)
+- [docs/wiki/checkpoints/missing_physics_map.md](../../../../checkpoints/missing_physics_map.md)
+- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../../checkpoints/blocked-admission-rule.md)
+- [docs/wiki/audits/004-physical-branch-audit-summary.md](../../../../audits/004-physical-branch-audit-summary.md)
+- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../../05_next_steps/010_safe_future_branch_candidates.md)
 
 Existing audit, result, and routing files:
 
-- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../../../../04_results/015_result_001_5_phase_transfer_physicality.md)
-- [docs/04_results/020_result_002_entropy_information_gate.md](../../../../04_results/020_result_002_entropy_information_gate.md)
-- [docs/04_results/030_result_005_timing_prior_usefulness.md](../../../../04_results/030_result_005_timing_prior_usefulness.md)
-- [docs/04_results/030_result_006_literature_timing_support_audit.md](../../../../04_results/030_result_006_literature_timing_support_audit.md)
-- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../../../../02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
-- [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../../../../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md)
-- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
-- [docs/wiki/history/001_qfuds_genealogy.md](../../../history/001_qfuds_genealogy.md)
-- [docs/wiki/history/002_branch_graph.md](../../../history/002_branch_graph.md)
-- [docs/wiki/research/literature/README.md](../../literature/README.md)
-- [docs/wiki/research/literature/index.csv](../../literature/index.csv)
+- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../../../../../04_results/015_result_001_5_phase_transfer_physicality.md)
+- [docs/04_results/020_result_002_entropy_information_gate.md](../../../../../04_results/020_result_002_entropy_information_gate.md)
+- [docs/04_results/030_result_005_timing_prior_usefulness.md](../../../../../04_results/030_result_005_timing_prior_usefulness.md)
+- [docs/04_results/030_result_006_literature_timing_support_audit.md](../../../../../04_results/030_result_006_literature_timing_support_audit.md)
+- [docs/02_theory/015_qfuds_v0_15_phase_transfer_physics.md](../../../../../02_theory/015_qfuds_v0_15_phase_transfer_physics.md)
+- [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../../../../../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md)
+- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
+- [docs/wiki/history/001_qfuds_genealogy.md](../../../../history/001_qfuds_genealogy.md)
+- [docs/wiki/history/002_branch_graph.md](../../../../history/002_branch_graph.md)
+- [docs/wiki/research/literature/README.md](../../../literature/README.md)
+- [docs/wiki/research/literature/index.csv](../../../literature/index.csv)
 
 No existing literature table is duplicated here. Literature-cache files remain
 raw paper-fact anchors, not QFUDS conclusions.
+
+## Expanded-Coverage Caveat
+
+The Source-X admission result remains negative for the current retained branch:
+no lane supplies `X`, `Q^nu`, `w ~= -1` rationale, `delta Q`, and known-model
+distinction together.
+
+The broader literature claim is narrower:
+
+```text
+repository-local Source-X negative: accepted only as dated and scoped
+global external-literature absence: not claimed
+black-hole-keyword search coverage: insufficient for structure-era activation
+physical admission: still blocked by actual evidence and data-product gaps
+```
+
+Per the expanded audit, the previous negative result is:
+
+- weakened as a global literature-negative claim;
+- redirected toward structure-era activation as the next audit direction;
+- still unresolved for execution because data products and admission-rule items
+  remain missing.
+
+This caveat does not modify roadmap status or open Level 2B.
 
 ## Admission Rule
 
@@ -341,7 +374,7 @@ Unresolved evidence gaps:
 ## Repository Impact
 
 - Roadmap unchanged.
-- [Level 2B](../../../glossary/repository_levels.md) remains blocked.
+- [Level 2B](../../../../glossary/repository_levels.md) remains blocked.
 - Retained-branch classification unchanged:
   Phenomenological IV/IDE; Not Yet A Physical Model.
 - New physical branch not opened.
