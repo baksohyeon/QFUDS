@@ -49,6 +49,7 @@ records. The prefix is a route number, not a project-status claim.
 | 030 | [Phase 3 Q^nu Derivation Attempt Plan](plans/030_phase3_qnu_derivation_attempt_plan.md) | Phase 3 plan |
 | 031 | [Phase 3 Q^nu Derivation Attempt](conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
 | 040 | [Black-Hole Data Product Audit Plan](plans/040_black_hole_data_product_audit_plan.md) | data-product interlock before Phase 4 |
+| 040 | [Black-Hole Data Product Audit](conclusions/040_black_hole_data_product_audit.md) | data-product interlock result |
 
 Reserved future records:
 
@@ -75,8 +76,8 @@ Reserved future records:
 - `031` executes the Phase 3 feasibility audit and records that both retained
   lanes are data-product blocked.
 - `040` is an intentional data-product interlock before Phase 4 delta-Q
-  derivation work. It plans product recovery only; it does not derive `Q^nu`,
-  open Level 2B, or modify roadmap status.
+  derivation work. It plans and records product coverage only; it does not
+  derive `Q^nu`, open Level 2B, or modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
