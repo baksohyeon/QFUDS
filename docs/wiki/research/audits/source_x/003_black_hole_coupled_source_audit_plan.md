@@ -117,9 +117,11 @@ The executed audit must evaluate each candidate below:
 | black-hole merger history | Can merger rate or merger-driven mass growth source phase transfer, or is it only compact-object bookkeeping? |
 | total black-hole entropy `S_BH` | Does total entropy define stress-energy transfer, or only an entropy accounting variable? |
 | `dS_BH / dln(a)` | Can entropy-growth timing define `X`, or does it remain a timing proxy for `Gamma(a)`? |
-| cosmologically coupled black-hole models | Do these models supply QFUDS-specific phase transfer, or replace the lane with their own model family? |
-| black-hole-coupled dark energy | Does the lane reduce to existing black-hole-coupled dark energy? |
 | black-hole remnant contribution | Treat as DM-only unless a smooth vacuum-pressure route is derived. |
+
+Do not treat model families as source quantities. The executed audit may inspect
+cosmologically coupled black-hole models and black-hole-coupled dark energy only
+as reduction-test comparators.
 
 For each candidate, require the executed audit to fill:
 
@@ -182,13 +184,17 @@ Use one matrix row per candidate quantity:
 | black-hole merger history | unknown | unknown | unknown | unknown | unknown | not admitted unless all five items are supplied |
 | total black-hole entropy `S_BH` | unknown | unknown | unknown | unknown | unknown | not admitted unless all five items are supplied |
 | `dS_BH / dln(a)` | unknown | unknown | unknown | unknown | unknown | not admitted unless all five items are supplied |
-| cosmologically coupled black-hole models | unknown | unknown | unknown | unknown | unknown | not admitted unless all five items are supplied |
-| black-hole-coupled dark energy | unknown | unknown | unknown | unknown | unknown | not admitted unless all five items are supplied |
 | black-hole remnant contribution | unknown | unknown | unknown | unknown | unknown | DM-only unless smooth vacuum-pressure route is derived |
 
 The future audit may replace `unknown` only with evidence from repository
 anchors, verified literature-cache records, or explicitly documented literature
 gaps. It must not infer admission from partial answers.
+
+Model families such as cosmologically coupled black-hole models and
+black-hole-coupled dark energy should not receive admission-rule rows unless the
+audit first extracts a concrete source quantity from them, such as a production
+history, mass-growth history, accretion history, merger history, entropy
+history, or remnant abundance.
 
 ## Known-model reduction tests
 
