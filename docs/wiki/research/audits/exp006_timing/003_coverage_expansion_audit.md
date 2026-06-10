@@ -30,16 +30,16 @@ conclusions, modify roadmap status, or introduce new physical hypotheses.
 
 | Literature family | Status | Current cache records | Coverage note |
 | --- | --- | --- | --- |
-| Escamilla-style model-independent IV/IDE kernel reconstruction | already covered | [Escamilla 2023 Interacting Dark Energy Kernel](../literature/escamilla_2023_interacting_dark_energy_kernel.md) | primary table-level product, but no public posterior histories found |
-| Scalar-field tomographic CDE proxy | already covered | [Goh 2023 Tomographic Coupled Dark Energy](../literature/goh_2023_tomographic_coupled_dark_energy.md) | secondary proxy only |
-| GP dark-sector interaction reconstruction | partially covered | [Bonilla 2022 Dark Sector Interaction GP](../literature/bonilla_2022_dark_sector_interaction_gp.md), [You 2025 DESI DR2 Coupled Dark Sector](../literature/you_2025_desi_dr2_coupled_dark_sector.md) | figure-level or indirect coupling products |
-| Vacuum-geodesic CDM binned reconstruction | already covered | [Martinelli 2019 Interacting Vacuum Geodesic CDM](../literature/martinelli_2019_interacting_vacuum_geodesic_cdm.md), [Hogg 2020 Vacuum Geodesic CDM Interaction](../literature/hogg_2020_vacuum_geodesic_cdm_interaction.md) | historical/pre-DESI |
-| Nonparametric dark matter-vacuum reconstruction | already covered | [Wang 2015 Dark Matter Vacuum Interaction](../literature/wang_2015_dark_sector_interaction_reconstruction.md) | historical |
-| DESI-era nonparametric sign-reversal IV/IDE | high-priority missing coverage | [Li 2025 DESI DR2 Sign-Reversal IDE](../literature/li_2025_desi_dr2_sign_reversal_ide.md) | strongest new timing target |
-| DESI-era sign-switching IDE and parameterized IDE | high-priority missing coverage | [Silva 2025 DESI DR2 IDE and S-IDE](../literature/silva_2025_desi_dr2_ide_s_ide.md), [Figueruelo 2026 DESI DR2 Linear Nonlinear IDE](../literature/figueruelo_2026_desi_dr2_linear_nonlinear_ide.md) | tests sign-switching/timing families but not free histories |
-| Weak-lensing, RSD, and full-shape growth-sensitive IDE | high-priority missing coverage | [Tsedrik 2025 BOSS DES Y3 Dark Scattering](../literature/tsedrik_2025_boss_des_y3_dark_scattering.md) | growth-sensitive, not direct energy-transfer timing |
-| Euclid-era non-linear growth and forecast IDE | partially covered | [Silva 2024 Nonlinear Matter Power IDE](../literature/silva_2024_nonlinear_matter_power_ide.md) | forecast/growth consequences, not present-data timing support |
-| PCA/Bayesian timing reconstruction | partially covered | [Li 2025 DESI DR2 Sign-Reversal IDE](../literature/li_2025_desi_dr2_sign_reversal_ide.md) | PCA appears in one high-priority DESI-era target |
+| Escamilla-style model-independent IV/IDE kernel reconstruction | already covered | [Escamilla 2023 Interacting Dark Energy Kernel](../../literature/escamilla_2023_interacting_dark_energy_kernel.md) | primary table-level product, but no public posterior histories found |
+| Scalar-field tomographic CDE proxy | already covered | [Goh 2023 Tomographic Coupled Dark Energy](../../literature/goh_2023_tomographic_coupled_dark_energy.md) | secondary proxy only |
+| GP dark-sector interaction reconstruction | partially covered | [Bonilla 2022 Dark Sector Interaction GP](../../literature/bonilla_2022_dark_sector_interaction_gp.md), [You 2025 DESI DR2 Coupled Dark Sector](../../literature/you_2025_desi_dr2_coupled_dark_sector.md) | figure-level or indirect coupling products |
+| Vacuum-geodesic CDM binned reconstruction | already covered | [Martinelli 2019 Interacting Vacuum Geodesic CDM](../../literature/martinelli_2019_interacting_vacuum_geodesic_cdm.md), [Hogg 2020 Vacuum Geodesic CDM Interaction](../../literature/hogg_2020_vacuum_geodesic_cdm_interaction.md) | historical/pre-DESI |
+| Nonparametric dark matter-vacuum reconstruction | already covered | [Wang 2015 Dark Matter Vacuum Interaction](../../literature/wang_2015_dark_sector_interaction_reconstruction.md) | historical |
+| DESI-era nonparametric sign-reversal IV/IDE | high-priority missing coverage | [Li 2025 DESI DR2 Sign-Reversal IDE](../../literature/li_2025_desi_dr2_sign_reversal_ide.md) | strongest new timing target |
+| DESI-era sign-switching IDE and parameterized IDE | high-priority missing coverage | [Silva 2025 DESI DR2 IDE and S-IDE](../../literature/silva_2025_desi_dr2_ide_s_ide.md), [Figueruelo 2026 DESI DR2 Linear Nonlinear IDE](../../literature/figueruelo_2026_desi_dr2_linear_nonlinear_ide.md) | tests sign-switching/timing families but not free histories |
+| Weak-lensing, RSD, and full-shape growth-sensitive IDE | high-priority missing coverage | [Tsedrik 2025 BOSS DES Y3 Dark Scattering](../../literature/tsedrik_2025_boss_des_y3_dark_scattering.md) | growth-sensitive, not direct energy-transfer timing |
+| Euclid-era non-linear growth and forecast IDE | partially covered | [Silva 2024 Nonlinear Matter Power IDE](../../literature/silva_2024_nonlinear_matter_power_ide.md) | forecast/growth consequences, not present-data timing support |
+| PCA/Bayesian timing reconstruction | partially covered | [Li 2025 DESI DR2 Sign-Reversal IDE](../../literature/li_2025_desi_dr2_sign_reversal_ide.md) | PCA appears in one high-priority DESI-era target |
 
 ## Newly Identified Targets
 

@@ -250,8 +250,8 @@ Required equation, observable, or falsifiable test:
 - [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
 - [docs/04_results/030_result_005_timing_prior_usefulness.md](../../04_results/030_result_005_timing_prior_usefulness.md)
 - [docs/04_results/030_result_006_literature_timing_support_audit.md](../../04_results/030_result_006_literature_timing_support_audit.md)
-- [docs/wiki/research/audits/2026-06-09_exp006_coverage_expansion_audit.md](../research/audits/2026-06-09_exp006_coverage_expansion_audit.md)
-- [docs/wiki/research/audits/2026-06-09_li_2025_digitized_compression_audit.md](../research/audits/2026-06-09_li_2025_digitized_compression_audit.md)
+- [docs/wiki/research/audits/exp006_timing/003_coverage_expansion_audit.md](../research/audits/exp006_timing/003_coverage_expansion_audit.md)
+- [docs/wiki/research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md](../research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md)
 
 ## No-Roadmap-Upgrade Confirmation
 

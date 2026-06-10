@@ -38,9 +38,9 @@ relations:
   - docs/04_results/030_result_004_p1_model_family_positioning.md
   - docs/04_results/030_result_005_timing_prior_usefulness.md
   - docs/04_results/030_result_006_literature_timing_support_audit.md
-  - docs/wiki/research/audits/2026-06-09_exp006_coverage_expansion_audit.md
-  - docs/wiki/research/audits/2026-06-09_li_2025_timing_feasibility_audit.md
-  - docs/wiki/research/audits/2026-06-09_li_2025_digitized_compression_audit.md
+  - docs/wiki/research/audits/exp006_timing/003_coverage_expansion_audit.md
+  - docs/wiki/research/audits/exp006_timing/004_li_2025_timing_feasibility_audit.md
+  - docs/wiki/research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md
   - docs/00_project/project_identity.md
   - docs/00_project/qfuds_positioning.md
   - docs/00_project/success_criteria.md

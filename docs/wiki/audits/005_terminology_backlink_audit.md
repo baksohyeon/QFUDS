@@ -75,8 +75,8 @@ definitions, duplicate glossary content, or change roadmap status.
 - [docs/wiki/postmortem/002-20260609-dorito-iv-ide-timing-checkpoint.md](../postmortem/002-20260609-dorito-iv-ide-timing-checkpoint.md)
 - [docs/wiki/postmortem/003-20260610-dorito-qfuds-scope-demotion-retrospective.md](../postmortem/003-20260610-dorito-qfuds-scope-demotion-retrospective.md)
 - [docs/wiki/research/2026-06-09_iv_ide_timing_synthesis_ko.md](../research/2026-06-09_iv_ide_timing_synthesis_ko.md)
-- [docs/wiki/research/audits/2026-06-09_li_2025_digitized_compression_audit.md](../research/audits/2026-06-09_li_2025_digitized_compression_audit.md)
-- [docs/wiki/research/audits/2026-06-09_li_2025_timing_overlap_matrix_plan.md](../research/audits/2026-06-09_li_2025_timing_overlap_matrix_plan.md)
+- [docs/wiki/research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md](../research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md)
+- [docs/wiki/research/audits/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md](../research/audits/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md)
 
 ## Files Already Compliant
 
