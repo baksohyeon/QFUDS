@@ -202,7 +202,7 @@ CMB 음향 피크를 보존하는가?
 - 결정 이유: [Decision Log](decision_log.md)
 - 실험별 결론: [Experiment Summary](../04_results/000_experiment_summary.md)
 - 주장/증거 추적: [Traceability Matrix](traceability_matrix.md)
-- Level 1.5 통과/실패 관문: [Level 1.5 Resolution Gate](../05_next_steps/015_level_1_5_resolution_gate.md)
+- [Level 1.5](../wiki/glossary/repository_levels.md) 통과/실패 관문: [Level 1.5 Resolution Gate](../05_next_steps/015_level_1_5_resolution_gate.md)
 - 로드맵 한국어 해설: [Roadmap Overview Korean Guide](../05_next_steps/900_roadmap_overview_ko.md)
 - 재현 가능한 검사: [Verification Guide](verification_guide.md)
 - 문서 무결성 규칙: [Experiment Record Convention](experiment_record_convention.md) 및 [Frontmatter Convention](frontmatter_convention.md)

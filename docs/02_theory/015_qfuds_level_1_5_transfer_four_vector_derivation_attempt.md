@@ -17,7 +17,7 @@ last_updated: 2026-06-09
 
 Date: 2026-06-09
 
-This note attempts the smallest possible Level 1.5 derivation:
+This note attempts the smallest possible [Level 1.5](../wiki/glossary/repository_levels.md) derivation:
 
 ```text
 Can collapse or information production source a non-ad hoc transfer four-vector

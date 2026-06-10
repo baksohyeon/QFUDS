@@ -131,7 +131,7 @@ The surviving toy laws are mostly low-redshift gates. They leave the early unive
 ## What Became The Next Target?
 
 The next target is not more background scanning. The later QFUDS v0.15 /
-Level 1.5 audit inserted a phase-transfer physicality gate before any
+[Level 1.5](../wiki/glossary/repository_levels.md) audit inserted a phase-transfer physicality gate before any
 perturbation-level specification:
 
 1. define phase-A perturbations;

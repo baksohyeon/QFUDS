@@ -59,7 +59,7 @@ The project is allowed to:
 The project should not:
 
 1. present QFUDS as a confirmed physical theory;
-2. treat the retained `dF_coll/dln(a)` branch as physical after its Level 1.5
+2. treat the retained `dF_coll/dln(a)` branch as physical after its [Level 1.5](../wiki/glossary/repository_levels.md)
    demotion;
 3. reopen the retained branch without new evidence;
 4. claim CMB, matter-power, survey-likelihood, or physical perturbation viability

@@ -34,7 +34,7 @@ This summary is not a roadmap and does not update project status. Current level,
 active blockers, and next gates remain governed by
 [docs/05_next_steps/000_roadmap.md](../../05_next_steps/000_roadmap.md).
 
-The accepted audit does not open Physical-QFUDS Level 2B. The retained branch
+The accepted audit does not open Physical-QFUDS [Level 2B](../glossary/repository_levels.md). The retained branch
 remains demoted to phenomenological interacting-vacuum / interacting-dark-energy
 work unless a future branch satisfies the admission rule.
 

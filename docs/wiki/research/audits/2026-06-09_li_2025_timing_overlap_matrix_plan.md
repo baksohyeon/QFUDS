@@ -46,7 +46,7 @@ It cannot answer:
 - whether retained P1 is novel;
 - whether the model passes CMB, matter-power, BAO, supernova, DESI, Euclid,
   Roman, or likelihood-level viability;
-- whether Level 2B should reopen.
+- whether [Level 2B](../../glossary/repository_levels.md) should reopen.
 
 ## Required Inputs
 

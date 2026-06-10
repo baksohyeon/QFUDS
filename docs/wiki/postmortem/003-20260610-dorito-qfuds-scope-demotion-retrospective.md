@@ -122,7 +122,7 @@ Landauer intuition
 | "Gamma(a)가 물리적으로 유도됐다" | retained relation은 source derivation을 통과하지 못했다 | `Gamma(a)`는 timing shape 또는 ansatz로 둔다 |
 | "문헌이 timing을 지지한다" | Exp006은 allowed but not informative다 | literature support를 overlap 수준으로 제한한다 |
 | "화이트홀/블랙홀이 중심 증거다" | 현재 docs에서는 origin/provenance 또는 future branch 후보에 가깝다 | central claim이 아니라 downgraded origin trail로 둔다 |
-| "버그 수정 후 P1이 물리적으로 검증됐다" | Exp003 bug fix는 P1 stability classification만 재검증했다 | Level 2A phenomenology로 제한한다 |
+| "버그 수정 후 P1이 물리적으로 검증됐다" | Exp003 bug fix는 P1 stability classification만 재검증했다 | [Level 2A](../glossary/repository_levels.md) phenomenology로 제한한다 |
 
 즉 이 postmortem의 목적은 회고 텍스트를 더 멋있게 만드는 것이 아니다.
 강한 문장을 저장소의 증거 등급에 맞게 낮추는 것이다.

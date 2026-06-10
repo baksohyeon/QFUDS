@@ -69,7 +69,7 @@ The immediate research path is:
 
 1. Preserve the version history and experiment decisions in docs.
 2. Keep experiments 001 and 002 as background-only diagnostic results.
-3. Keep the retained `dF_coll/dln(a)` branch closed as a failed physical Level 1.5 promotion.
+3. Keep the retained `dF_coll/dln(a)` branch closed as a failed physical [Level 1.5](../wiki/glossary/repository_levels.md) promotion.
 4. Interpret the Level 2A result as phenomenological interacting vacuum only; see the roadmap for its status.
 5. Open no physical Level 2B or Boltzmann-code work until a new physical branch passes the roadmap admission rule.
 6. Compare against CMB and matter power only after the relevant upstream perturbation and implementation gates exist.

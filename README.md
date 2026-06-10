@@ -188,7 +188,7 @@ The goal is to find the first constraint that kills the model, or to narrow any 
 - Decision reasons: [Decision Log](docs/00_project/decision_log.md)
 - Experiment outcomes: [Experiment Summary](docs/04_results/000_experiment_summary.md)
 - Claim/evidence traceability: [Traceability Matrix](docs/00_project/traceability_matrix.md)
-- Level 1.5 pass/fail gate: [Level 1.5 Resolution Gate](docs/05_next_steps/015_level_1_5_resolution_gate.md)
+- [Level 1.5](docs/wiki/glossary/repository_levels.md) pass/fail gate: [Level 1.5 Resolution Gate](docs/05_next_steps/015_level_1_5_resolution_gate.md)
 - Reproducible checks: [Verification Guide](docs/00_project/verification_guide.md)
 - Documentation integrity rules: [Experiment Record Convention](docs/00_project/experiment_record_convention.md) and [Frontmatter Convention](docs/00_project/frontmatter_convention.md)
 

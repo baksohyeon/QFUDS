@@ -18,7 +18,7 @@ last_updated: 2026-06-09
 
 Date: 2026-06-08
 
-Status: QFUDS v0.15 / Level 1.5 audit document. This is not a perturbation-theory document.
+Status: QFUDS v0.15 / [Level 1.5](../wiki/glossary/repository_levels.md) audit document. This is not a perturbation-theory document.
 
 ## 1. Executive Summary
 

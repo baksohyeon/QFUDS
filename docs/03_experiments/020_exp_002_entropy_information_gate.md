@@ -115,7 +115,7 @@ Summary:
 ## Decision
 
 Demote experiment 002 to a provenance scan. Continue only the
-collapse/information-production shape as a question for Level 1.5, not as a
+collapse/information-production shape as a question for [Level 1.5](../wiki/glossary/repository_levels.md), not as a
 validated transfer law.
 
 ## Next Step

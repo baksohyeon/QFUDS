@@ -42,7 +42,7 @@ from clustering phase A to smooth vacuum-pressure phase B.
 
 ## Candidate Mechanism Table
 
-| Candidate | Possible source `X` | Established physics | Main gap for QFUDS | Level 1.5 outlook |
+| Candidate | Possible source `X` | Established physics | Main gap for QFUDS | [Level 1.5](../wiki/glossary/repository_levels.md) outlook |
 | --- | --- | --- | --- | --- |
 | black-hole entropy | total `S_BH = sum A_i/(4G)` or `dS_BH/dln(a)` | black-hole thermodynamics, area entropy | entropy growth does not imply vacuum-pressure energy transfer | weak; useful provenance, not enough |
 | Hawking evaporation | `-dM_BH/dt`, evaporation luminosity, radiation entropy | semiclassical radiation from black holes | produces radiation-like output, not smooth `w ~= -1` phase B | poor for DE, possible for radiation/remnants |

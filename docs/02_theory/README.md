@@ -26,7 +26,7 @@ Use these folders for validation evidence:
 - [000_qfuds_v0_1_conceptual_origin.md](000_qfuds_v0_1_conceptual_origin.md): initial conceptual theory note.
 - [000_qfuds_v0_2_two_phase_background.md](000_qfuds_v0_2_two_phase_background.md): minimal two-phase effective-fluid note.
 - [010_qfuds_v0_3_gamma_laws.md](010_qfuds_v0_3_gamma_laws.md): physically labeled `Gamma(a)` theory note.
-- [015_qfuds_v0_15_phase_transfer_physics.md](015_qfuds_v0_15_phase_transfer_physics.md): QFUDS v0.15 / Level 1.5 hostile audit closing the retained `Gamma(a)` branch as phenomenological.
+- [015_qfuds_v0_15_phase_transfer_physics.md](015_qfuds_v0_15_phase_transfer_physics.md): QFUDS v0.15 / [Level 1.5](../wiki/glossary/repository_levels.md) hostile audit closing the retained `Gamma(a)` branch as phenomenological.
 - [015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](015_qfuds_level_1_5_equivalence_source_perturbation_audit.md): completed Level 1.5 equivalence, source, and perturbation-readiness audit for the retained branch.
 - [015_qfuds_qnu_necessity_formulation_audit.md](015_qfuds_qnu_necessity_formulation_audit.md): audit of whether a phase-transition formulation needs an explicit transfer four-vector.
 - [015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md): focused Level 1.5 attempt that failed to derive a non-ad hoc transfer four-vector.

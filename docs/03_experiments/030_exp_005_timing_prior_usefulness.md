@@ -45,7 +45,7 @@ features:
 - early leakage;
 - late tail.
 
-This hypothesis is phenomenological only. It does not reopen Level 1.5 and does
+This hypothesis is phenomenological only. It does not reopen [Level 1.5](../wiki/glossary/repository_levels.md) and does
 not assert a physical source for `Gamma(a)`.
 
 ## Scope

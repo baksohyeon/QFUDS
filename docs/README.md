@@ -69,7 +69,7 @@ Theory notes, literature positioning, and model-version definitions.
 - [000_qfuds_v0_1_conceptual_origin.md](02_theory/000_qfuds_v0_1_conceptual_origin.md)
 - [000_qfuds_v0_2_two_phase_background.md](02_theory/000_qfuds_v0_2_two_phase_background.md)
 - [010_qfuds_v0_3_gamma_laws.md](02_theory/010_qfuds_v0_3_gamma_laws.md)
-- [015_qfuds_v0_15_phase_transfer_physics.md](02_theory/015_qfuds_v0_15_phase_transfer_physics.md) - QFUDS v0.15 / Level 1.5 retained-branch demotion audit
+- [015_qfuds_v0_15_phase_transfer_physics.md](02_theory/015_qfuds_v0_15_phase_transfer_physics.md) - QFUDS v0.15 / [Level 1.5](wiki/glossary/repository_levels.md) retained-branch demotion audit
 - [015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md) - completed Level 1.5 equivalence, source, and perturbation-readiness audit
 - [015_qfuds_qnu_necessity_formulation_audit.md](02_theory/015_qfuds_qnu_necessity_formulation_audit.md) - audit of whether QFUDS needs an explicit transfer four-vector
 - [015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md) - failed Level 1.5 derivation attempt for a transfer four-vector

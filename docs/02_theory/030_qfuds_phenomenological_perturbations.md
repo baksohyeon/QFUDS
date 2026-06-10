@@ -22,7 +22,7 @@ A microscopic derivation of `Gamma(a)` is not required before writing
 perturbation equations. What is required is a mathematically closed perturbation
 prescription for the stress-energy transfer.
 
-Therefore QFUDS may enter Level 2A:
+Therefore QFUDS may enter [Level 2A](../wiki/glossary/repository_levels.md):
 
 ```text
 phenomenological perturbation closure

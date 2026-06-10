@@ -95,7 +95,7 @@ Only one shape remained narrow enough to audit next:
 - Press-Schechter-style collapse / information production.
 
 It did not survive as physical evidence. It survived only long enough to become
-a Level 1.5 physicality-audit question, and that retained branch later failed
+a [Level 1.5](../wiki/glossary/repository_levels.md) physicality-audit question, and that retained branch later failed
 physical promotion. It did not survive perturbation, CMB, matter-power,
 CLASS/CAMB, or survey-likelihood tests.
 

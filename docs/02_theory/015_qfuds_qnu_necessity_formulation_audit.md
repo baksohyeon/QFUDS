@@ -240,7 +240,7 @@ Required:
 Either path can be legitimate. What is not acceptable is claiming a transition
 without any stress-energy accounting.
 
-## Consequence For Level 1.5
+## Consequence For [Level 1.5](../wiki/glossary/repository_levels.md)
 
 The current Level 1.5 blocker is not "no `Q^nu`, therefore no phase transition
 is possible." The blocker is:

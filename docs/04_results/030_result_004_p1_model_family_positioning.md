@@ -38,7 +38,7 @@ transfer-shape prompt. It is not a physical QFUDS derivation.
 
 ## Scope
 
-This result establishes a Level 2A model-family classification for retained P1.
+This result establishes a [Level 2A](../wiki/glossary/repository_levels.md) model-family classification for retained P1.
 
 It does not establish:
 

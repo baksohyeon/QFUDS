@@ -17,7 +17,7 @@ last_updated: 2026-06-09
 
 Date: 2026-06-09
 
-This document performs the Level 1.5 audit before any numerical `exp_004` or
+This document performs the [Level 1.5](../wiki/glossary/repository_levels.md) audit before any numerical `exp_004` or
 physical Level 2B work begins. It asks whether the retained
 collapse/information-production transfer shape is physical, equivalent to known
 interacting-vacuum models, or only phenomenological.

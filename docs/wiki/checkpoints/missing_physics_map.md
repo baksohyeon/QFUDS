@@ -31,7 +31,7 @@ Phenomenological IV/IDE; Not Yet A Physical Model.
 This classification applies to the current retained branch only. It does not
 define the entire QFUDS research program.
 
-Physical Level 2B remains blocked.
+Physical [Level 2B](../glossary/repository_levels.md) remains blocked.
 
 ## Admission Rule
 

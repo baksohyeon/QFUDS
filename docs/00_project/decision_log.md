@@ -87,7 +87,7 @@ Decision:
 Keep low-redshift collapse, black-hole-entropy, and star-formation proxies as candidate shapes for later scrutiny.
 
 Reason:
-They pass minimal background checks in the experiment 001 scan and naturally defer transfer until late times. Later Level 1.5 work blocks direct perturbation promotion until phase-transfer physicality is resolved.
+They pass minimal background checks in the experiment 001 scan and naturally defer transfer until late times. Later [Level 1.5](../wiki/glossary/repository_levels.md) work blocks direct perturbation promotion until phase-transfer physicality is resolved.
 
 Evidence:
 [docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), `outputs/qfuds_collapsed_fraction_toy_gamma0.03_beta0.csv`, `outputs/qfuds_black_hole_entropy_proxy_gamma0.03_beta0.csv`, `outputs/qfuds_star_formation_proxy_gamma0.003_beta0.csv`, `outputs/figures/result001_gamma_scan_summary.png`
