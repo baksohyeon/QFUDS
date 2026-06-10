@@ -46,12 +46,12 @@ records. The prefix is a route number, not a project-status claim.
 | 024 | [Structure-Era Activation Literature Audit](coverage/024_phase2_structure_era_activation_literature_audit.md) | Phase 2 coverage |
 | 029 | [Phase 2 Candidate Selection Closeout](conclusions/029_phase2_candidate_selection_closeout.md) | Phase 2 closeout |
 | 030 | [Phase 3 Q^nu Derivation Attempt Plan](plans/030_phase3_qnu_derivation_attempt_plan.md) | Phase 3 plan |
+| 031 | [Phase 3 Q^nu Derivation Attempt](conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 031 | `031_phase3_qnu_derivation_attempt.md` | derive or fail to derive `Q^nu`; no admission by naming |
 | 040 | `040_phase4_delta_q_derivation_attempt.md` | derive or fail to derive `delta Q`; no perturbation viability claim without equations |
 | 050 | `050_phase5_known_model_distinction.md` | compare against CCBH, IV/IDE, HDE, remnant-DM, and adjacent known models |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
@@ -70,6 +70,8 @@ Reserved future records:
   only.
 - `030` plans the Phase 3 `Q^nu` feasibility audit without executing a
   derivation.
+- `031` executes the Phase 3 feasibility audit and records that both retained
+  lanes are data-product blocked.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
