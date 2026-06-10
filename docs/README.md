@@ -9,7 +9,7 @@ depends_on:
   - project_overview
   - roadmap
 next_gate: retained branch demoted; keep Level 2B blocked
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # QFUDS Documentation Index
@@ -47,6 +47,7 @@ Project-level status, decisions, roadmap framing, and Korean overview.
 - [research_program.md](00_project/research_program.md)
 - [project_identity.md](00_project/project_identity.md) - current project identity, scope, non-goals, and lessons learned
 - [qfuds_positioning.md](00_project/qfuds_positioning.md) - QFUDS ideas mapped against existing cosmology model families
+- [concept_survival_audit.md](00_project/concept_survival_audit.md) - original intuition mapped against current evidence, demotions, and open candidates
 - [success_criteria.md](00_project/success_criteria.md) - minimum, moderate, and strong success criteria plus physical-branch admission rule
 - [decision_log.md](00_project/decision_log.md)
 - [verification_guide.md](00_project/verification_guide.md)
