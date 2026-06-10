@@ -40,13 +40,13 @@ audit_log:
     note: "Added verbatim user prompt trail because the search direction changed through user judgment, not only agent initiative."
 tags: [postmortem, li-2025, data-products, digitization, exp006]
 relations:
-  - docs/wiki/research/audits/2026-06-09_li_2025_public_product_search_audit.md
-  - docs/wiki/research/audits/2026-06-09_li_2025_timing_overlap_matrix_plan.md
+  - docs/wiki/research/audits/exp006_timing/006_li_2025_public_product_search_audit.md
+  - docs/wiki/research/audits/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md
   - docs/wiki/research/literature/li_2025_desi_dr2_sign_reversal_ide.md
   - docs/wiki/research/assets/figures/li_2025/README.md
   - docs/wiki/research/assets/digitization/li_2025/README.md
 code_refs:
-  - file: docs/wiki/research/audits/2026-06-09_li_2025_public_product_search_audit.md
+  - file: docs/wiki/research/audits/exp006_timing/006_li_2025_public_product_search_audit.md
     note: "Public numerical-product availability search record."
   - file: docs/wiki/research/assets/figures/li_2025/README.md
     note: "Cached arXiv source package, extracted source files, and full paper PDF manifest."

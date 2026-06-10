@@ -18,7 +18,8 @@ experiment record, result record, decision log, or roadmap.
 The cache separates three categories:
 
 - literature records: stable facts from papers;
-- availability audits: dated search and data-product checks;
+- research audits: dated plans, feasibility checks, availability checks, and
+  data-product audits;
 - research conclusions: experiment, result, decision, and roadmap documents only.
 
 Cached records must reduce repeated paper rereading without creating hidden
@@ -38,7 +39,7 @@ docs/wiki/research/
 ## Local Indexes
 
 - [Literature Cache](literature/README.md)
-- [Availability Audits](audits/README.md)
+- [Research Audits](audits/README.md)
 - [IV/IDE Timing Korean Synthesis](2026-06-09_iv_ide_timing_synthesis_ko.md)
 
 ## Rules
@@ -47,8 +48,8 @@ Literature records may store bibliographic metadata, paper-defined equations,
 coupling definitions, datasets, redshift coverage, available products,
 digitization requirements, and narrow QFUDS relevance.
 
-Availability audits may store what was searched, where it was searched, what
-was found, what was not found, and when the check happened.
+Research audits may store what was searched, where it was searched, what was
+found, what was not found, what audit was planned, and when the check happened.
 
 Neither record type may store QFUDS conclusions, roadmap status, experiment
 classifications, or GPT opinions as facts.

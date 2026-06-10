@@ -26,13 +26,13 @@ without running a new likelihood analysis, rerunning Exp006, reopening Level
 
 This audit uses the local research cache as the primary source:
 
-- [Escamilla 2023 Interacting Dark Energy Kernel](../literature/escamilla_2023_interacting_dark_energy_kernel.md)
-- [Goh 2023 Tomographic Coupled Dark Energy](../literature/goh_2023_tomographic_coupled_dark_energy.md)
-- [Bonilla 2022 Dark Sector Interaction GP](../literature/bonilla_2022_dark_sector_interaction_gp.md)
-- [Martinelli 2019 Interacting Vacuum Geodesic CDM](../literature/martinelli_2019_interacting_vacuum_geodesic_cdm.md)
-- [Hogg 2020 Vacuum Geodesic CDM Interaction](../literature/hogg_2020_vacuum_geodesic_cdm_interaction.md)
-- [Wang 2015 Dark Matter Vacuum Interaction](../literature/wang_2015_dark_sector_interaction_reconstruction.md)
-- [2026-06-09 Exp006 Literature Availability Audit](2026-06-09_exp006_literature_availability_audit.md)
+- [Escamilla 2023 Interacting Dark Energy Kernel](../../literature/escamilla_2023_interacting_dark_energy_kernel.md)
+- [Goh 2023 Tomographic Coupled Dark Energy](../../literature/goh_2023_tomographic_coupled_dark_energy.md)
+- [Bonilla 2022 Dark Sector Interaction GP](../../literature/bonilla_2022_dark_sector_interaction_gp.md)
+- [Martinelli 2019 Interacting Vacuum Geodesic CDM](../../literature/martinelli_2019_interacting_vacuum_geodesic_cdm.md)
+- [Hogg 2020 Vacuum Geodesic CDM Interaction](../../literature/hogg_2020_vacuum_geodesic_cdm_interaction.md)
+- [Wang 2015 Dark Matter Vacuum Interaction](../../literature/wang_2015_dark_sector_interaction_reconstruction.md)
+- [2026-06-09 Exp006 Literature Availability Audit](001_literature_availability_audit.md)
 
 It records sharpening paths only. It does not change the Exp006 classification.
 

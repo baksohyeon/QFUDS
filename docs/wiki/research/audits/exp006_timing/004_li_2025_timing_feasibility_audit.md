@@ -34,10 +34,10 @@ introduce a new physical hypothesis.
 
 This audit uses the local research cache and existing Exp005/Exp006 results:
 
-- [Li 2025 DESI DR2 Sign-Reversal IDE](../literature/li_2025_desi_dr2_sign_reversal_ide.md)
-- [2026-06-09 Exp006 Coverage Expansion Audit](2026-06-09_exp006_coverage_expansion_audit.md)
-- [Result 005: Timing-Prior Usefulness and Redundancy Audit](../../04_results/030_result_005_timing_prior_usefulness.md)
-- [Result 006: Literature Timing-Support Audit](../../04_results/030_result_006_literature_timing_support_audit.md)
+- [Li 2025 DESI DR2 Sign-Reversal IDE](../../literature/li_2025_desi_dr2_sign_reversal_ide.md)
+- [2026-06-09 Exp006 Coverage Expansion Audit](003_coverage_expansion_audit.md)
+- [Result 005: Timing-Prior Usefulness and Redundancy Audit](../../../../04_results/030_result_005_timing_prior_usefulness.md)
+- [Result 006: Literature Timing-Support Audit](../../../../04_results/030_result_006_literature_timing_support_audit.md)
 
 ## Fixed Retained Timing Target
 

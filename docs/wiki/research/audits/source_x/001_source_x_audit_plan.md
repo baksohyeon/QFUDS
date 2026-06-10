@@ -23,7 +23,7 @@ last_updated: 2026-06-10
 Create the Source-X audit plan at:
 
 ```text
-docs/wiki/research/audits/2026-06-10_source_x_audit_plan.md
+docs/wiki/research/audits/source_x/001_source_x_audit_plan.md
 ```
 
 This file is the plan for the next audit stage. It is not the audit result and
@@ -51,7 +51,7 @@ This is an audit task, not a theory-building task.
 
 The Source-X Audit must not:
 
-- open Physical-QFUDS [Level 2B](../../glossary/repository_levels.md);
+- open Physical-QFUDS [Level 2B](../../../glossary/repository_levels.md);
 - upgrade the roadmap;
 - create a new physical branch;
 - prove or rescue the current retained `Gamma(a)`;
@@ -60,7 +60,7 @@ The Source-X Audit must not:
   physical source without equations, observables, and stress-energy relation.
 
 Current status remains governed by
-[docs/05_next_steps/000_roadmap.md](../../../05_next_steps/000_roadmap.md).
+[docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md).
 
 ## Required Status Wording
 
@@ -86,7 +86,7 @@ The audit must reuse existing literature notes as anchors. It must not duplicate
 existing literature tables, paper summaries, or dated availability audits.
 
 If a needed literature family is already represented in
-[docs/wiki/research/literature/index.csv](../literature/index.csv), route through
+[docs/wiki/research/literature/index.csv](../../literature/index.csv), route through
 that cache record. If a needed external source is absent, record the missing
 source as a gap instead of inventing a file or conclusion.
 
@@ -277,21 +277,21 @@ The following do not count as progress:
 
 Scan these repository files before adding new literature work:
 
-- [docs/05_next_steps/000_roadmap.md](../../../05_next_steps/000_roadmap.md)
-- [docs/wiki/glossary/repository_levels.md](../../glossary/repository_levels.md)
-- [docs/wiki/checkpoints/missing_physics_map.md](../../checkpoints/missing_physics_map.md)
-- [docs/wiki/checkpoints/blocked-admission-rule.md](../../checkpoints/blocked-admission-rule.md)
-- [docs/wiki/audits/004-physical-branch-audit-summary.md](../../audits/004-physical-branch-audit-summary.md)
-- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../05_next_steps/010_safe_future_branch_candidates.md)
-- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../../../04_results/015_result_001_5_phase_transfer_physicality.md)
-- [docs/04_results/030_result_005_timing_prior_usefulness.md](../../../04_results/030_result_005_timing_prior_usefulness.md)
-- [docs/04_results/030_result_006_literature_timing_support_audit.md](../../../04_results/030_result_006_literature_timing_support_audit.md)
-- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
-- [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../../../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md)
-- [docs/wiki/history/001_qfuds_genealogy.md](../../history/001_qfuds_genealogy.md)
-- [docs/wiki/history/002_branch_graph.md](../../history/002_branch_graph.md)
-- [docs/wiki/research/literature/README.md](../literature/README.md)
-- [docs/wiki/research/literature/index.csv](../literature/index.csv)
+- [docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md)
+- [docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md)
+- [docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md)
+- [docs/wiki/checkpoints/blocked-admission-rule.md](../../../checkpoints/blocked-admission-rule.md)
+- [docs/wiki/audits/004-physical-branch-audit-summary.md](../../../audits/004-physical-branch-audit-summary.md)
+- [docs/05_next_steps/010_safe_future_branch_candidates.md](../../../../05_next_steps/010_safe_future_branch_candidates.md)
+- [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../../../../04_results/015_result_001_5_phase_transfer_physicality.md)
+- [docs/04_results/030_result_005_timing_prior_usefulness.md](../../../../04_results/030_result_005_timing_prior_usefulness.md)
+- [docs/04_results/030_result_006_literature_timing_support_audit.md](../../../../04_results/030_result_006_literature_timing_support_audit.md)
+- [docs/02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md](../../../../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
+- [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../../../../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md)
+- [docs/wiki/history/001_qfuds_genealogy.md](../../../history/001_qfuds_genealogy.md)
+- [docs/wiki/history/002_branch_graph.md](../../../history/002_branch_graph.md)
+- [docs/wiki/research/literature/README.md](../../literature/README.md)
+- [docs/wiki/research/literature/index.csv](../../literature/index.csv)
 - [docs/wiki/research/audits/](./)
 
 ## Missing References
@@ -299,17 +299,17 @@ Scan these repository files before adding new literature work:
 No checked requested evidence anchor is missing.
 
 The target file
-[docs/wiki/research/audits/2026-06-10_source_x_audit_plan.md](2026-06-10_source_x_audit_plan.md)
+[docs/wiki/research/audits/source_x/001_source_x_audit_plan.md](001_source_x_audit_plan.md)
 is intentionally new.
 
 ## Confirmations
 
 - Roadmap remains SSOT for current status:
-  [docs/05_next_steps/000_roadmap.md](../../../05_next_steps/000_roadmap.md).
+  [docs/05_next_steps/000_roadmap.md](../../../../05_next_steps/000_roadmap.md).
 - `repository_levels.md` remains SSOT for level terminology:
-  [docs/wiki/glossary/repository_levels.md](../../glossary/repository_levels.md).
+  [docs/wiki/glossary/repository_levels.md](../../../glossary/repository_levels.md).
 - `missing_physics_map.md` remains SSOT for missing admission-rule items:
-  [docs/wiki/checkpoints/missing_physics_map.md](../../checkpoints/missing_physics_map.md).
+  [docs/wiki/checkpoints/missing_physics_map.md](../../../checkpoints/missing_physics_map.md).
 - No roadmap upgrade is made by this plan.
 - No Level 2B opening is made by this plan.
 - No new physical branch is created by this plan.

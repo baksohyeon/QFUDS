@@ -24,7 +24,7 @@ Determine whether the retained Exp005 structure-era timing profile provides a
 better low-dimensional description of the Li and Zhang 2025 reconstructed
 `beta(z)` timing structure than simpler timing families.
 
-This audit does not create a new physical hypothesis, reopen [Level 1.5](../../glossary/repository_levels.md), change
+This audit does not create a new physical hypothesis, reopen [Level 1.5](../../../glossary/repository_levels.md), change
 roadmap status, or change Exp004, Exp005, or Exp006 conclusions.
 
 ## Execution Boundary

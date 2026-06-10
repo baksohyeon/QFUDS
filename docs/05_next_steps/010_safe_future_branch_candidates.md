@@ -62,8 +62,8 @@ Use existing repo records before adding any new literature summary:
 - [blocked-admission-rule.md](../wiki/checkpoints/blocked-admission-rule.md)
 - [docs/wiki/research/literature/README.md](../wiki/research/literature/README.md)
 - [index.csv](../wiki/research/literature/index.csv)
-- [2026-06-09_exp006_coverage_expansion_audit.md](../wiki/research/audits/2026-06-09_exp006_coverage_expansion_audit.md)
-- [2026-06-09_li_2025_digitized_compression_audit.md](../wiki/research/audits/2026-06-09_li_2025_digitized_compression_audit.md)
+- [Exp006 Coverage Expansion Audit](../wiki/research/audits/exp006_timing/003_coverage_expansion_audit.md)
+- [Li 2025 Digitized Compression Audit](../wiki/research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md)
 
 These records should be referenced, not duplicated.
 
