@@ -1,0 +1,764 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{Abbott {et~al.}(2019)Abbott, Abbott, Abbott, Abraham, Acernese,
+  Ackley, Adams, Adhikari, Adya, Affeldt, {et~al.}}]{abbott2019gwtc}
+Abbott, B., Abbott, R., Abbott, T., {et~al.} 2019, Physical Review X, 9, 031040
+
+\bibitem[{Abbott {et~al.}(2021)Abbott, Abbott, Abraham, Acernese, Ackley,
+  Adams, Adams, Adhikari, Adya, Affeldt, {et~al.}}]{abbott2021tests}
+Abbott, R., Abbott, T., Abraham, S., {et~al.} 2021, Physical review D, 103,
+  122002
+
+\bibitem[{Afshordi(2008)}]{afshordi2008gravitational}
+Afshordi, N. 2008, arXiv preprint arXiv:0807.2639
+
+\bibitem[{Aghanim {et~al.}(2020)Aghanim, Akrami, Ashdown, Aumont, Baccigalupi,
+  Ballardini, Banday, Barreiro, Bartolo, Basak, {et~al.}}]{aghanim2020planck}
+Aghanim, N., Akrami, Y., Ashdown, M., {et~al.} 2020, Astronomy \& Astrophysics,
+  641, A6
+
+\bibitem[{Akiyama {et~al.}(2022)Akiyama, Alberdi, Alef, Algaba, Anantua, Asada,
+  Azulay, Bach, Baczko, Ball, {et~al.}}]{akiyama2022first}
+Akiyama, K., Alberdi, A., Alef, W., {et~al.} 2022, The Astrophysical Journal
+  Letters, 930, L12
+
+\bibitem[{{Algera} {et~al.}(2023){Algera}, {Inami}, {Oesch}, {Sommovigo},
+  {Bouwens}, {Topping}, {Schouws}, {Stefanon}, {Stark}, {Aravena}, {Barrufet},
+  {da Cunha}, {Dayal}, {Endsley}, {Ferrara}, {Fudamoto}, {Gonzalez},
+  {Graziani}, {Hodge}, {Hygate}, {de Looze}, {Nanayakkara}, {Schneider}, \&
+  {van der Werf}}]{almarebels2023}
+{Algera}, H. S.~B., {Inami}, H., {Oesch}, P.~A., {et~al.} 2023, \mnras, 518,
+  6142, \dodoi{10.1093/mnras/stac3195}
+
+\bibitem[{Armano {et~al.}(2018)Armano, Audley, Baird, Binetruy, Born,
+  Bortoluzzi, Castelli, Cavalleri, Cesarini, Cruise,
+  {et~al.}}]{armano2018beyond}
+Armano, M., Audley, H., Baird, J., {et~al.} 2018, Physical review letters, 120,
+  061101
+
+\bibitem[{Arzoumanian {et~al.}(2020)Arzoumanian, Baker, Blumer, B{\'e}csy,
+  Brazier, Brook, Burke-Spolaor, Chatterjee, Chen, Cordes,
+  {et~al.}}]{arzoumanian2020nanograv}
+Arzoumanian, Z., Baker, P.~T., Blumer, H., {et~al.} 2020, The Astrophysical
+  Journal Letters, 905, L34
+
+\bibitem[{Bardeen(1970)}]{bardeen1970kerr}
+Bardeen, J.~M. 1970, Nature, 226, 64
+
+\bibitem[{Beltracchi \& Gondolo(2019)}]{beltracchi2019formation}
+Beltracchi, P., \& Gondolo, P. 2019, Physical Review D, 99, 044037
+
+\bibitem[{Binney \& Tremaine(2011)}]{binney2011galactic}
+Binney, J., \& Tremaine, S. 2011, Galactic dynamics, Vol.~13 (Princeton
+  university press)
+
+\bibitem[{{Blaineau} {et~al.}(2022){Blaineau}, {Moniez}, {Afonso}, {Albert},
+  {Ansari}, {Aubourg}, {Coutures}, {Glicenstein}, {Goldman}, {Hamadache},
+  {Lasserre}, {Le Guillou}, {Lesquoy}, {Magneville}, {Marquette},
+  {Palanque-Delabrouille}, {Perdereau}, {Rich}, {Spiro}, \&
+  {Tisserand}}]{blaineau2022mulensing}
+{Blaineau}, T., {Moniez}, M., {Afonso}, C., {et~al.} 2022, \aap, 664, A106,
+  \dodoi{10.1051/0004-6361/202243430}
+
+\bibitem[{{Bouwens} {et~al.}(2022){Bouwens}, {Stefanon}, {Brammer}, {Oesch},
+  {Herard-Demanche}, {Illingworth}, {Matthee}, {Naidu}, {van Dokkum}, \& {van
+  Leeuwen}}]{bouwens2022}
+{Bouwens}, R.~J., {Stefanon}, M., {Brammer}, G., {et~al.} 2022, arXiv e-prints,
+  arXiv:2211.02607.
+\newblock \doarXiv{2211.02607}
+
+\bibitem[{{Brandt}(2016)}]{brandt16}
+{Brandt}, T.~D. 2016, \apjl, 824, L31, \dodoi{10.3847/2041-8205/824/2/L31}
+
+\bibitem[{Broekgaarden {et~al.}(2022)Broekgaarden, Berger, Stevenson, Justham,
+  Mandel, Chru{\'{s} }li{\'{n}}ska, van Son, Wagg, Vigna-G{\'{o}}mez, de~Mink,
+  Chattopadhyay, \& Neijssel}]{Broekgaarden_2022}
+Broekgaarden, F.~S., Berger, E., Stevenson, S., {et~al.} 2022, Monthly Notices
+  of the Royal Astronomical Society, 516, 5737, \dodoi{10.1093/mnras/stac1677}
+
+\bibitem[{{Callan} {et~al.}(1965){Callan}, {Dicke}, \&
+  {Peebles}}]{callandickepeebles1965wrong}
+{Callan}, C., {Dicke}, R.~H., \& {Peebles}, P.~J.~E. 1965, American Journal of
+  Physics, 33, 105, \dodoi{10.1119/1.1971256}
+
+\bibitem[{Cardoso {et~al.}(2016)Cardoso, Franzin, \&
+  Pani}]{cardoso2016gravitational}
+Cardoso, V., Franzin, E., \& Pani, P. 2016, Physical Review Letters, 116,
+  171101
+
+\bibitem[{Cardoso \& Pani(2017)}]{cardoso2017tests}
+Cardoso, V., \& Pani, P. 2017, Nature Astronomy, 1, 586
+
+\bibitem[{Carr {et~al.}(2021)Carr, K{\"u}hnel, \&
+  Visinelli}]{carr2021constraints}
+Carr, B., K{\"u}hnel, F., \& Visinelli, L. 2021, Monthly Notices of the Royal
+  Astronomical Society, 501, 2029
+
+\bibitem[{Cattoen {et~al.}(2005)Cattoen, Faber, \&
+  Visser}]{cattoen2005gravastars}
+Cattoen, C., Faber, T., \& Visser, M. 2005, Classical and Quantum Gravity, 22,
+  4189
+
+\bibitem[{Cautun {et~al.}(2020)Cautun, Ben{\'\i}tez-Llambay, Deason, Frenk,
+  Fattahi, G{\'o}mez, Grand, Oman, Navarro, \& Simpson}]{cautun2020milky}
+Cautun, M., Ben{\'\i}tez-Llambay, A., Deason, A.~J., {et~al.} 2020, Monthly
+  Notices of the Royal Astronomical Society, 494, 4291
+
+\bibitem[{{Chapline} {et~al.}(2002){Chapline}, {Laughlin}, \&
+  {Santiago}}]{chaplinelaughlin2002}
+{Chapline}, G., {Laughlin}, R.~B., \& {Santiago}, D.~I. 2002, in Artificial
+  Black Holes. Edited by NOVELLO MARIO ET AL. Published by World Scientific
+  Publishing Co. Pte. Ltd, 179--198, \dodoi{10.1142/9789812778178_0007}
+
+\bibitem[{{Chen} {et~al.}(2022){Chen}, {Wen}, {Gao}, {Liao}, {Liu}, {Zhao},
+  {Li}, {Biesiada}, {Pi{\'o}rkowska-Kurpas}, {Xiao}, \& {Xiong}}]{chen22grav}
+{Chen}, S., {Wen}, X., {Gao}, H., {et~al.} 2022, \apj, 924, 49,
+  \dodoi{10.3847/1538-4357/ac31ad}
+
+\bibitem[{Chirenti(2018)}]{chirenti2018black}
+Chirenti, C. 2018, Brazilian Journal of Physics, 48, 102
+
+\bibitem[{{Christensen}(2019)}]{christensen2019stochastic}
+{Christensen}, N. 2019, Reports on Progress in Physics, 82, 016903,
+  \dodoi{10.1088/1361-6633/aae6b5}
+
+\bibitem[{Chruślińska(2022)}]{arxiv.2206.10622}
+Chruślińska, M. 2022, Chemical evolution of the Universe and its consequences
+  for gravitational-wave astrophysics,  arXiv,
+  \dodoi{10.48550/ARXIV.2206.10622}
+
+\bibitem[{{Croker} {et~al.}(2020{\natexlab{a}}){Croker}, {Nishimura}, \&
+  {Farrah}}]{cro20}
+{Croker}, K.~S., {Nishimura}, K.~A., \& {Farrah}, D. 2020{\natexlab{a}}, \apj,
+  889, 115, \dodoi{10.3847/1538-4357/ab5aff}
+
+\bibitem[{{Croker} {et~al.}(2020{\natexlab{b}}){Croker}, {Runburg}, \&
+  {Farrah}}]{croker2020implications}
+{Croker}, K.~S., {Runburg}, J., \& {Farrah}, D. 2020{\natexlab{b}}, \apj, 900,
+  57, \dodoi{10.3847/1538-4357/abad2f}
+
+\bibitem[{{Croker} \& {Weiner}(2019)}]{cro19}
+{Croker}, K.~S., \& {Weiner}, J.~L. 2019, \apj, 882, 19,
+  \dodoi{10.3847/1538-4357/ab32da}
+
+\bibitem[{{Croker} {et~al.}(2022){Croker}, {Weiner}, \&
+  {Farrah}}]{croker2022well}
+{Croker}, K.~S., {Weiner}, J.~L., \& {Farrah}, D. 2022, \prd, 105, 084042,
+  \dodoi{10.1103/PhysRevD.105.084042}
+
+\bibitem[{{Croker} {et~al.}(2021){Croker}, {Zevin}, {Farrah}, {Nishimura}, \&
+  {Tarl{\'e}}}]{cro21}
+{Croker}, K.~S., {Zevin}, M., {Farrah}, D., {Nishimura}, K.~A., \& {Tarl{\'e}},
+  G. 2021, \apjl, 921, L22, \dodoi{10.3847/2041-8213/ac2fad}
+
+\bibitem[{da~Silva {et~al.}(2013)da~Silva, Fontanini, \&
+  Guariento}]{da2013expansion}
+da~Silva, A.~M., Fontanini, M., \& Guariento, D.~C. 2013, Physical Review D,
+  87, 064030
+
+\bibitem[{{Dodelson} \& {Schmidt}(2020)}]{dodelsoncosmology2020}
+{Dodelson}, S., \& {Schmidt}, F. 2020, {Modern Cosmology},
+  \dodoi{10.1016/C2017-0-01943-2}
+
+\bibitem[{{Donnan} {et~al.}(2022){Donnan}, {McLeod}, {Dunlop}, {McLure},
+  {Carnall}, {Begley}, {Cullen}, {Hamadouche}, {Bowler}, {McCracken},
+  {Milvang-Jensen}, {Moneti}, \& {Targett}}]{donnandropouts2022}
+{Donnan}, C.~T., {McLeod}, D.~J., {Dunlop}, J.~S., {et~al.} 2022, arXiv
+  e-prints, arXiv:2207.12356.
+\newblock \doarXiv{2207.12356}
+
+\bibitem[{Dymnikova(1992)}]{dymnikova1992vacuum}
+Dymnikova, I. 1992, General {R}elativity and {G}ravitation, 24, 235
+
+\bibitem[{Dymnikova \& Galaktionov(2016)}]{dymnikova2016regular}
+Dymnikova, I., \& Galaktionov, E. 2016, Classical and Quantum Gravity, 33,
+  145010
+
+\bibitem[{Einstein \& Straus(1945)}]{einstein1945influence}
+Einstein, A., \& Straus, E.~G. 1945, Reviews of Modern Physics, 17, 120
+
+\bibitem[{Ellis \& Stoeger(1987)}]{ellis1987fitting}
+Ellis, G.~F., \& Stoeger, W. 1987, Classical and Quantum Gravity, 4, 1697
+
+\bibitem[{{Event Horizon Telescope Collaboration} {et~al.}(2019){Event Horizon
+  Telescope Collaboration}, {Akiyama}, {Alberdi}, {Alef}, {Asada}, {Azulay},
+  {Baczko}, {Ball}, {Balokovi{\'c}}, {Barrett}, {Bintley}, {Blackburn},
+  {Boland}, {Bouman}, {Bower}, {Bremer}, {Brinkerink}, {Brissenden}, {Britzen},
+  {Broderick}, {Broguiere}, {Bronzwaer}, {Byun}, {Carlstrom}, {Chael}, {Chan},
+  {Chatterjee}, {Chatterjee}, {Chen}, {Chen}, {Cho}, {Christian}, {Conway},
+  {Cordes}, {Crew}, {Cui}, {Davelaar}, {De Laurentis}, {Deane}, {Dempsey},
+  {Desvignes}, {Dexter}, {Doeleman}, {Eatough}, {Falcke}, {Fish}, {Fomalont},
+  {Fraga-Encinas}, {Friberg}, {Fromm}, {G{\'o}mez}, {Galison}, {Gammie},
+  {Garc{\'\i}a}, {Gentaz}, {Georgiev}, {Goddi}, {Gold}, {Gu}, {Gurwell},
+  {Hada}, {Hecht}, {Hesper}, {Ho}, {Ho}, {Honma}, {Huang}, {Huang}, {Hughes},
+  {Ikeda}, {Inoue}, {Issaoun}, {James}, {Jannuzi}, {Janssen}, {Jeter}, {Jiang},
+  {Johnson}, {Jorstad}, {Jung}, {Karami}, {Karuppusamy}, {Kawashima},
+  {Keating}, {Kettenis}, {Kim}, {Kim}, {Kim}, {Kino}, {Koay}, {Koch}, {Koyama},
+  {Kramer}, {Kramer}, {Krichbaum}, {Kuo}, {Lauer}, {Lee}, {Li}, {Li},
+  {Lindqvist}, {Liu}, {Liuzzo}, {Lo}, {Lobanov}, {Loinard}, {Lonsdale}, {Lu},
+  {MacDonald}, {Mao}, {Markoff}, {Marrone}, {Marscher}, {Mart{\'\i}-Vidal},
+  {Matsushita}, {Matthews}, {Medeiros}, {Menten}, {Mizuno}, {Mizuno}, {Moran},
+  {Moriyama}, {Moscibrodzka}, {M{\"u}ller}, {Nagai}, {Nagar}, {Nakamura},
+  {Narayan}, {Narayanan}, {Natarajan}, {Neri}, {Ni}, {Noutsos}, {Okino},
+  {Olivares}, {Oyama}, {{\"O}zel}, {Palumbo}, {Patel}, {Pen}, {Pesce},
+  {Pi{\'e}tu}, {Plambeck}, {PopStefanija}, {Porth}, {Prather},
+  {Preciado-L{\'o}pez}, {Psaltis}, {Pu}, {Ramakrishnan}, {Rao}, {Rawlings},
+  {Raymond}, {Rezzolla}, {Ripperda}, {Roelofs}, {Rogers}, {Ros}, {Rose},
+  {Roshanineshat}, {Rottmann}, {Roy}, {Ruszczyk}, {Ryan}, {Rygl},
+  {S{\'a}nchez}, {S{\'a}nchez-Arguelles}, {Sasada}, {Savolainen}, {Schloerb},
+  {Schuster}, {Shao}, {Shen}, {Small}, {Sohn}, {SooHoo}, {Tazaki}, {Tiede},
+  {Tilanus}, {Titus}, {Toma}, {Torne}, {Trent}, {Trippe}, {Tsuda}, {van
+  Bemmel}, {van Langevelde}, {van Rossum}, {Wagner}, {Wardle}, {Weintroub},
+  {Wex}, {Wharton}, {Wielgus}, {Wong}, {Wu}, {Young}, {Young}, {Younsi},
+  {Yuan}, {Yuan}, {Zensus}, {Zhao}, {Zhao}, {Zhu}, {Farah}, {Meyer-Zhao},
+  {Michalik}, {Nadolski}, {Nishioka}, {Pradel}, {Primiani}, {Souccar},
+  {Vertatschitsch}, \& {Yamaguchi}}]{ehtm8719}
+{Event Horizon Telescope Collaboration}, {Akiyama}, K., {Alberdi}, A., {et~al.}
+  2019, \apjl, 875, L6, \dodoi{10.3847/2041-8213/ab1141}
+
+\bibitem[{{Faraoni} \& {Jacques}(2007)}]{farja07}
+{Faraoni}, V., \& {Jacques}, A. 2007, \prd, 76, 063510,
+  \dodoi{10.1103/PhysRevD.76.063510}
+
+\bibitem[{{Faraoni} {et~al.}(2012){Faraoni}, {Zambrano Moreno}, \&
+  {Nandra}}]{faraoni2012bizarre}
+{Faraoni}, V., {Zambrano Moreno}, A.~F., \& {Nandra}, R. 2012, \prd, 85,
+  083526, \dodoi{10.1103/PhysRevD.85.083526}
+
+\bibitem[{{Farmer} {et~al.}(2020){Farmer}, {Renzo}, {de Mink}, {Fishbach}, \&
+  {Justham}}]{2020ApJ...902L..36F}
+{Farmer}, R., {Renzo}, M., {de Mink}, S.~E., {Fishbach}, M., \& {Justham}, S.
+  2020, \apjl, 902, L36, \dodoi{10.3847/2041-8213/abbadd}
+
+\bibitem[{{Farrah} {et~al.}(2022){Farrah}, {Efstathiou}, {Afonso},
+  {Bernard-Salas}, {Cairns}, {Clements}, {Croker}, {Hatziminaoglou}, {Joyce},
+  {Lacy}, {Lebouteiller}, {Lieblich}, {Lonsdale}, {Oliver}, {Pearson}, {Petty},
+  {Pitchford}, {Rigopoulou}, {Rowan-Robinson}, {Runburg}, {Spoon}, {Verma}, \&
+  {Wang}}]{farrah22}
+{Farrah}, D., {Efstathiou}, A., {Afonso}, J., {et~al.} 2022, \mnras,
+  \dodoi{10.1093/mnras/stac980}
+
+\bibitem[{{Farrah} {et~al.}(2023){Farrah}, {Petty}, {Croker}, {Tarl{\'e}},
+  {Zevin}, {Hatziminaoglou}, {Shankar}, {Wang}, {Clements}, {Efstathiou},
+  {Lacy}, {Nishimura}, {Afonso}, {Pearson}, \& {Pitchford}}]{farrah22b}
+{Farrah}, D., {Petty}, S., {Croker}, K.~S., {et~al.} 2023, \apj, 943, 133,
+  \dodoi{10.3847/1538-4357/acac2e}
+
+\bibitem[{{Fryer} {et~al.}(2012){Fryer}, {Belczynski}, {Wiktorowicz},
+  {Dominik}, {Kalogera}, \& {Holz}}]{fryerbelczynski2012}
+{Fryer}, C.~L., {Belczynski}, K., {Wiktorowicz}, G., {et~al.} 2012, \apj, 749,
+  91, \dodoi{10.1088/0004-637X/749/1/91}
+
+\bibitem[{{Gliner}(1966)}]{gliner1966algebraic}
+{Gliner}, E.~B. 1966, Soviet Journal of Experimental and Theoretical Physics,
+  22, 378
+
+\bibitem[{Gong {et~al.}(2021)Gong, Luo, \& Wang}]{gong2021concepts}
+Gong, Y., Luo, J., \& Wang, B. 2021, Nature Astronomy, 5, 881
+
+\bibitem[{Guariento {et~al.}(2012)Guariento, Fontanini, da~Silva, \&
+  Abdalla}]{guariento2012realistic}
+Guariento, D.~C., Fontanini, M., da~Silva, A.~M., \& Abdalla, E. 2012, Physical
+  Review D, 86, 124020
+
+\bibitem[{Hadjidemetriou(1963)}]{hadjidemetriou1963two}
+Hadjidemetriou, J.~D. 1963, Icarus, 2, 440
+
+\bibitem[{{Harikane} {et~al.}(2022{\natexlab{a}}){Harikane}, {Ouchi}, {Oguri},
+  {Ono}, {Nakajima}, {Isobe}, {Umeda}, {Mawatari}, \&
+  {Zhang}}]{harikanedropouts2022}
+{Harikane}, Y., {Ouchi}, M., {Oguri}, M., {et~al.} 2022{\natexlab{a}}, arXiv
+  e-prints, arXiv:2208.01612.
+\newblock \doarXiv{2208.01612}
+
+\bibitem[{{Harikane} {et~al.}(2022{\natexlab{b}}){Harikane}, {Ono}, {Ouchi},
+  {Liu}, {Sawicki}, {Shibuya}, {Behroozi}, {He}, {Shimasaku}, {Arnouts},
+  {Coupon}, {Fujimoto}, {Gwyn}, {Huang}, {Inoue}, {Kashikawa}, {Komiyama},
+  {Matsuoka}, \& {Willott}}]{harikanegoldrush2022}
+{Harikane}, Y., {Ono}, Y., {Ouchi}, M., {et~al.} 2022{\natexlab{b}}, \apjs,
+  259, 20, \dodoi{10.3847/1538-4365/ac3dfc}
+
+\bibitem[{Harlow(2016)}]{harlow2016jerusalem}
+Harlow, D. 2016, Reviews of Modern Physics, 88, 015002
+
+\bibitem[{Harwit(2006)}]{harwit2006astrophysical}
+Harwit, M. 2006, Astrophysical Concepts (Springer Science \& Business Media)
+
+\bibitem[{Inayoshi \& Haiman(2016)}]{inayoshi2016there}
+Inayoshi, K., \& Haiman, Z. 2016, The Astrophysical Journal, 828, 110
+
+\bibitem[{{Inayoshi} {et~al.}(2016){Inayoshi}, {Haiman}, \&
+  {Ostriker}}]{inayoshihyper2016}
+{Inayoshi}, K., {Haiman}, Z., \& {Ostriker}, J.~P. 2016, \mnras, 459, 3738,
+  \dodoi{10.1093/mnras/stw836}
+
+\bibitem[{{Inayoshi} {et~al.}(2020){Inayoshi}, {Visbal}, \&
+  {Haiman}}]{inayoshi2020seeds}
+{Inayoshi}, K., {Visbal}, E., \& {Haiman}, Z. 2020, \araa, 58, 27,
+  \dodoi{10.1146/annurev-astro-120419-014455}
+
+\bibitem[{{Inoue} {et~al.}(2014){Inoue}, {Tanaka}, {Madejski}, \&
+  {Dom{\'\i}nguez}}]{inoue2014}
+{Inoue}, Y., {Tanaka}, Y.~T., {Madejski}, G.~M., \& {Dom{\'\i}nguez}, A. 2014,
+  \apjl, 781, L35, \dodoi{10.1088/2041-8205/781/2/L35}
+
+\bibitem[{{Kalantari} {et~al.}(2022){Kalantari}, {Rahvar}, \&
+  {Ibrahim}}]{kalan22}
+{Kalantari}, Z., {Rahvar}, S., \& {Ibrahim}, A. 2022, \apj, 934, 106,
+  \dodoi{10.3847/1538-4357/ac7da9}
+
+\bibitem[{Kalogera \& Baym(1996)}]{kalogera1996maximum}
+Kalogera, V., \& Baym, G. 1996, The Astrophysical Journal, 470, L61
+
+\bibitem[{Kaloper {et~al.}(2010)Kaloper, Kleban, \&
+  Martin}]{kaloper2010mcvittie}
+Kaloper, N., Kleban, M., \& Martin, D. 2010, Physical Review D, 81, 104044
+
+\bibitem[{Kerr(1963)}]{kerr1963gravitational}
+Kerr, R.~P. 1963, Physical review letters, 11, 237
+
+\bibitem[{King(2015)}]{king2015big}
+King, A. 2015, Monthly Notices of the Royal Astronomical Society: Letters, 456,
+  L109
+
+\bibitem[{{Kistler} {et~al.}(2009){Kistler}, {Y{\"u}ksel}, {Beacom}, {Hopkins},
+  \& {Wyithe}}]{kist09}
+{Kistler}, M.~D., {Y{\"u}ksel}, H., {Beacom}, J.~F., {Hopkins}, A.~M., \&
+  {Wyithe}, J. S.~B. 2009, \apjl, 705, L104,
+  \dodoi{10.1088/0004-637X/705/2/L104}
+
+\bibitem[{Koivisto \& Mota(2006)}]{koivisto2006dark}
+Koivisto, T., \& Mota, D.~F. 2006, Physical Review D, 73, 083502
+
+\bibitem[{Konoplya {et~al.}(2019)Konoplya, Posada, Stuchl{\'\i}k, \&
+  Zhidenko}]{konoplya2019stable}
+Konoplya, R.~A., Posada, C., Stuchl{\'\i}k, Z., \& Zhidenko, A. 2019, Physical
+  Review D, 100, 044027
+
+\bibitem[{{Kroupa}(2002)}]{kroupa03}
+{Kroupa}, P. 2002, Science, 295, 82, \dodoi{10.1126/science.1067524}
+
+\bibitem[{Lake \& Abdelqader(2011)}]{lake2011more}
+Lake, K., \& Abdelqader, M. 2011, Physical Review D, 84, 044045
+
+\bibitem[{{Lema{\^\i}tre}(1931)}]{lemaitre1931}
+{Lema{\^\i}tre}, G. 1931, \mnras, 91, 490, \dodoi{10.1093/mnras/91.5.490}
+
+\bibitem[{{Liao} {et~al.}(2022){Liao}, {Biesiada}, \& {Zhu}}]{liao22rev}
+{Liao}, K., {Biesiada}, M., \& {Zhu}, Z.-H. 2022, Chinese Physics Letters, 39,
+  119801, \dodoi{10.1088/0256-307X/39/11/119801}
+
+\bibitem[{{Lin} {et~al.}(2022){Lin}, {Li}, {Gao}, {Lin}, {Zhang}, {Liu}, {Zou},
+  {Zhang}, {Zhou}, {Li}, \& {Lan}}]{lin22grav}
+{Lin}, S.-J., {Li}, A., {Gao}, H., {et~al.} 2022, \apj, 931, 4,
+  \dodoi{10.3847/1538-4357/ac6505}
+
+\bibitem[{Liu \& Bromm(2020)}]{liu2020did}
+Liu, B., \& Bromm, V. 2020, Monthly Notices of the Royal Astronomical Society,
+  497, 2839
+
+\bibitem[{Lobo(2006)}]{lobo2006stable}
+Lobo, F.~S. 2006, Classical and Quantum Gravity, 23, 1525
+
+\bibitem[{{Maciel} {et~al.}(2015){Maciel}, {Guariento}, \&
+  {Molina}}]{maciel2015timedep}
+{Maciel}, A., {Guariento}, D.~C., \& {Molina}, C. 2015, \prd, 91, 084043,
+  \dodoi{10.1103/PhysRevD.91.084043}
+
+\bibitem[{{Macquart} {et~al.}(2020){Macquart}, {Prochaska}, {McQuinn},
+  {Bannister}, {Bhandari}, {Day}, {Deller}, {Ekers}, {James}, {Marnoch},
+  {Os{\l}owski}, {Phillips}, {Ryder}, {Scott}, {Shannon}, \&
+  {Tejos}}]{macquartfrbbaryons2020}
+{Macquart}, J.~P., {Prochaska}, J.~X., {McQuinn}, M., {et~al.} 2020, \nat, 581,
+  391, \dodoi{10.1038/s41586-020-2300-2}
+
+\bibitem[{{Madau} \& {Fragos}(2017)}]{madaufragos2017}
+{Madau}, P., \& {Fragos}, T. 2017, \apj, 840, 39,
+  \dodoi{10.3847/1538-4357/aa6af9}
+
+\bibitem[{Madau {et~al.}(2014)Madau, Haardt, \& Dotti}]{madau2014super}
+Madau, P., Haardt, F., \& Dotti, M. 2014, The Astrophysical Journal Letters,
+  784, L38
+
+\bibitem[{Maggio {et~al.}(2020)Maggio, Buoninfante, Mazumdar, \&
+  Pani}]{maggio2020does}
+Maggio, E., Buoninfante, L., Mazumdar, A., \& Pani, P. 2020, Physical Review D,
+  102, 064053
+
+\bibitem[{Mandel \& Farmer(2022)}]{Mandel_2022}
+Mandel, I., \& Farmer, A. 2022, Physics Reports, 955, 1,
+  \dodoi{10.1016/j.physrep.2022.01.003}
+
+\bibitem[{Mazur \& Mottola(2004)}]{mazur2004gravitational}
+Mazur, P.~O., \& Mottola, E. 2004, Proceedings of the National Academy of
+  Sciences, 101, 9545
+
+\bibitem[{Mazur \& Mottola(2015)}]{mazur2015surface}
+---. 2015, Classical and Quantum Gravity, 32, 215024
+
+\bibitem[{McVittie(1933)}]{mcvittie1933mass}
+McVittie, G.~C. 1933, Monthly Notices of the Royal Astronomical Society, 93,
+  325
+
+\bibitem[{{Miller-Jones} {et~al.}(2021){Miller-Jones}, {Bahramian}, {Orosz},
+  {Mandel}, {Gou}, {Maccarone}, {Neijssel}, {Zhao}, {Zi{\'o}{\l}kowski},
+  {Reid}, {Uttley}, {Zheng}, {Byun}, {Dodson}, {Grinberg}, {Jung}, {Kim},
+  {Marcote}, {Markoff}, {Rioja}, {Rushton}, {Russell}, {Sivakoff}, {Tetarenko},
+  {Tudose}, \& {Wilms}}]{millerjones2021cygnus}
+{Miller-Jones}, J. C.~A., {Bahramian}, A., {Orosz}, J.~A., {et~al.} 2021,
+  Science, 371, 1046, \dodoi{10.1126/science.abb3363}
+
+\bibitem[{{Monroy-Rodr{\'\i}guez} \& {Allen}(2014)}]{monroyallen2014widehalo}
+{Monroy-Rodr{\'\i}guez}, M.~A., \& {Allen}, C. 2014, \apj, 790, 159,
+  \dodoi{10.1088/0004-637X/790/2/159}
+
+\bibitem[{Nolan(1993)}]{nolan1993sources}
+Nolan, B. 1993, Journal of mathematical physics, 34, 178
+
+\bibitem[{Patton \& Sukhbold(2020)}]{Patton_2020}
+Patton, R.~A., \& Sukhbold, T. 2020, Monthly Notices of the Royal Astronomical
+  Society, 499, 2803, \dodoi{10.1093/mnras/staa3029}
+
+\bibitem[{{Paynter} {et~al.}(2021){Paynter}, {Webster}, \&
+  {Thrane}}]{paynter21}
+{Paynter}, J., {Webster}, R., \& {Thrane}, E. 2021, Nature Astronomy, 5, 560,
+  \dodoi{10.1038/s41550-021-01307-1}
+
+\bibitem[{Peebles(1993)}]{peebles1993principles}
+Peebles, P. J.~E. 1993, Principles of physical cosmology (Princeton university
+  press)
+
+\bibitem[{{Planck Collaboration} {et~al.}(2020){Planck Collaboration},
+  {Aghanim}, {Akrami}, {Ashdown}, {Aumont}, {Baccigalupi}, {Ballardini},
+  {Banday}, {Barreiro}, {Bartolo}, {Basak}, {Benabed}, {Bernard}, {Bersanelli},
+  {Bielewicz}, {Bock}, {Bond}, {Borrill}, {Bouchet}, {Boulanger}, {Bucher},
+  {Burigana}, {Butler}, {Calabrese}, {Cardoso}, {Carron}, {Casaponsa},
+  {Challinor}, {Chiang}, {Colombo}, {Combet}, {Crill}, {Cuttaia}, {de
+  Bernardis}, {de Rosa}, {de Zotti}, {Delabrouille}, {Delouis}, {Di Valentino},
+  {Diego}, {Dor{\'e}}, {Douspis}, {Ducout}, {Dupac}, {Dusini}, {Efstathiou},
+  {Elsner}, {En{\ss}lin}, {Eriksen}, {Fantaye}, {Fernandez-Cobos}, {Finelli},
+  {Frailis}, {Fraisse}, {Franceschi}, {Frolov}, {Galeotta}, {Galli}, {Ganga},
+  {G{\'e}nova-Santos}, {Gerbino}, {Ghosh}, {Giraud-H{\'e}raud},
+  {Gonz{\'a}lez-Nuevo}, {G{\'o}rski}, {Gratton}, {Gruppuso}, {Gudmundsson},
+  {Hamann}, {Handley}, {Hansen}, {Herranz}, {Hivon}, {Huang}, {Jaffe}, {Jones},
+  {Keih{\"a}nen}, {Keskitalo}, {Kiiveri}, {Kim}, {Kisner}, {Krachmalnicoff},
+  {Kunz}, {Kurki-Suonio}, {Lagache}, {Lamarre}, {Lasenby}, {Lattanzi},
+  {Lawrence}, {Le Jeune}, {Levrier}, {Lewis}, {Liguori}, {Lilje}, {Lilley},
+  {Lindholm}, {L{\'o}pez-Caniego}, {Lubin}, {Ma}, {Mac{\'\i}as-P{\'e}rez},
+  {Maggio}, {Maino}, {Mandolesi}, {Mangilli}, {Marcos-Caballero}, {Maris},
+  {Martin}, {Mart{\'\i}nez-Gonz{\'a}lez}, {Matarrese}, {Mauri}, {McEwen},
+  {Meinhold}, {Melchiorri}, {Mennella}, {Migliaccio}, {Millea},
+  {Miville-Desch{\^e}nes}, {Molinari}, {Moneti}, {Montier}, {Morgante}, {Moss},
+  {Natoli}, {N{\o}rgaard-Nielsen}, {Pagano}, {Paoletti}, {Partridge},
+  {Patanchon}, {Peiris}, {Perrotta}, {Pettorino}, {Piacentini}, {Polenta},
+  {Puget}, {Rachen}, {Reinecke}, {Remazeilles}, {Renzi}, {Rocha}, {Rosset},
+  {Roudier}, {Rubi{\~n}o-Mart{\'\i}n}, {Ruiz-Granados}, {Salvati}, {Sandri},
+  {Savelainen}, {Scott}, {Shellard}, {Sirignano}, {Sirri}, {Spencer},
+  {Sunyaev}, {Suur-Uski}, {Tauber}, {Tavagnacco}, {Tenti}, {Toffolatti},
+  {Tomasi}, {Trombetti}, {Valiviita}, {Van Tent}, {Vielva}, {Villa},
+  {Vittorio}, {Wandelt}, {Wehus}, {Zacchei}, \& {Zonca}}]{planck2018cmb}
+{Planck Collaboration}, {Aghanim}, N., {Akrami}, Y., {et~al.} 2020, \aap, 641,
+  A5, \dodoi{10.1051/0004-6361/201936386}
+
+\bibitem[{Posada(2017)}]{posada2017slowly}
+Posada, C. 2017, Monthly Notices of the Royal Astronomical Society, 468, 2128
+
+\bibitem[{Posada \& Chirenti(2019)}]{posada2019radial}
+Posada, C., \& Chirenti, C. 2019, Classical and Quantum Gravity, 36, 065004
+
+\bibitem[{Posti \& Helmi(2019)}]{posti2019mass}
+Posti, L., \& Helmi, A. 2019, Astronomy \& Astrophysics, 621, A56
+
+\bibitem[{{Prescod-Weinstein} {et~al.}(2009){Prescod-Weinstein}, {Afshordi}, \&
+  {Balogh}}]{prewei09}
+{Prescod-Weinstein}, C., {Afshordi}, N., \& {Balogh}, M.~L. 2009, \prd, 80,
+  043513, \dodoi{10.1103/PhysRevD.80.043513}
+
+\bibitem[{{Rowan-Robinson} {et~al.}(2018){Rowan-Robinson}, {Wang}, {Farrah},
+  {Rigopoulou}, {Gruppioni}, {Vaccari}, {Marchetti}, {Clements}, \&
+  {Pearson}}]{mrr18}
+{Rowan-Robinson}, M., {Wang}, L., {Farrah}, D., {et~al.} 2018, \aap, 619, A169,
+  \dodoi{10.1051/0004-6361/201832671}
+
+\bibitem[{{Safarzadeh} \& {Haiman}(2020)}]{safarz20}
+{Safarzadeh}, M., \& {Haiman}, Z. 2020, \apjl, 903, L21,
+  \dodoi{10.3847/2041-8213/abc253}
+
+\bibitem[{Sakai {et~al.}(2014)Sakai, Saida, \& Tamaki}]{sakai2014gravastar}
+Sakai, N., Saida, H., \& Tamaki, T. 2014, Physical Review D, 90, 104013
+
+\bibitem[{Sato {et~al.}(2017)Sato, Kawamura, Ando, Nakamura, Tsubono, Araya,
+  Funaki, Ioka, Kanda, Moriwaki, {et~al.}}]{sato2017status}
+Sato, S., Kawamura, S., Ando, M., {et~al.} 2017, in Journal of Physics:
+  Conference Series, Vol. 840, IOP Publishing, 012010
+
+\bibitem[{{Schwarz} {et~al.}(2016){Schwarz}, {Copi}, {Huterer}, \&
+  {Starkman}}]{schwarzanomalies2016}
+{Schwarz}, D.~J., {Copi}, C.~J., {Huterer}, D., \& {Starkman}, G.~D. 2016,
+  Classical and Quantum Gravity, 33, 184001,
+  \dodoi{10.1088/0264-9381/33/18/184001}
+
+\bibitem[{So\l{}tan(1982)}]{soltan1982masses}
+So\l{}tan, A. 1982, Monthly Notices of the Royal Astronomical Society, 200, 115
+
+\bibitem[{{The LIGO Scientific Collaboration} {et~al.}(2021){The LIGO
+  Scientific Collaboration}, {The Virgo Collaboration}, {The KAGRA
+  Collaboration}, Abbott, Abbott, Acernese, Ackley, Adams, Adhikari, Adhikari,
+  Adya, Affeldt, Agarwal, Agathos, Agatsuma, Aggarwal, Aguiar, Aiello, Ain,
+  Ajith, Akutsu, Albanesi, Allocca, Altin, Amato, Anand, Anand, Ananyeva,
+  Anderson, Anderson, Ando, Andrade, Andres, Andrić, Angelova, Ansoldi,
+  Antelis, Antier, Antonini, Appert, Arai, Arai, Arai, Araki, Araya, Araya,
+  Areeda, Arène, Aritomi, Arnaud, Aronson, Arun, Asada, Asali, Ashton, Aso,
+  Assiduo, Aston, Astone, Aubin, Austin, Babak, Badaracco, Bader, Badger, Bae,
+  Bae, Baer, Bagnasco, Bai, Baiotti, Baird, Bajpai, Ball, Ballardin, Ballmer,
+  Balsamo, Baltus, Banagiri, Bankar, Barayoga, Barbieri, Barish, Barker,
+  Barneo, Barone, Barr, Barsotti, Barsuglia, Barta, Bartlett, Barton, Bartos,
+  Bassiri, Basti, Bawaj, Bayley, Baylor, Bazzan, Bécsy, Bedakihale, Bejger,
+  Belahcene, Benedetto, Beniwal, Bennett, Bentley, BenYaala, Bergamin, Berger,
+  Bernuzzi, Berry, Bersanetti, Bertolini, Betzwieser, Beveridge, Bhandare,
+  Bhardwaj, Bhattacharjee, Bhaumik, Bilenko, Billingsley, Bini, Birney,
+  Birnholtz, Biscans, Bischi, Biscoveanu, Bisht, Biswas, Bitossi, Bizouard,
+  Blackburn, Blair, Blair, Blair, Bobba, Bode, Boer, Bogaert, Boldrini,
+  Bonavena, Bondu, Bonilla, Bonnand, Booker, Boom, Bork, Boschi, Bose, Bose,
+  Bossilkov, Boudart, Bouffanais, Bozzi, Bradaschia, Brady, Bramley, Branch,
+  Branchesi, Brau, Breschi, Briant, Briggs, Brillet, Brinkmann, Brockill,
+  Brooks, Brooks, Brown, Brunett, Bruno, Bruntz, Bryant, Bulik, Bulten,
+  Buonanno, Buscicchio, Buskulic, Buy, Byer, Cadonati, Cagnoli, Cahillane,
+  Bustillo, Callaghan, Callister, Calloni, Cameron, Camp, Canepa, Canevarolo,
+  Cannavacciuolo, Cannon, Cao, Cao, Capocasa, Capote, Carapella, Carbognani,
+  Carlin, Carney, Carpinelli, Carrillo, Carullo, Carver, Diaz, Casentini,
+  Castaldi, Caudill, Cavaglià, Cavalier, Cavalieri, Ceasar, Cella,
+  Cerdá-Durán, Cesarini, Chaibi, Chakravarti, Subrahmanya, Champion, Chan,
+  Chan, Chan, Chan, Chan, Chandra, Chanial, Chao, Charlton, Chase,
+  Chassande-Mottin, Chatterjee, Chatterjee, Chatterjee, Chaturvedi, Chaty,
+  Chatziioannou, Chen, Chen, Chen, Chen, Chen, Chen, Chen, Chen, Cheng, Cheong,
+  Cheung, Chia, Chiadini, Chiang, Chiarini, Chierici, Chincarini, Chiofalo,
+  Chiummo, Cho, Cho, Choudhary, Choudhary, Christensen, Chu, Chu, Chu, Chua,
+  Chung, Ciani, Ciecielag, Cieślar, Cifaldi, Ciobanu, Ciolfi, Cipriano,
+  Cirone, Clara, Clark, Clark, Clarke, Clearwater, Clesse, Cleva, Coccia,
+  Codazzo, Cohadon, Cohen, Cohen, Colleoni, Collette, Colombo, Colpi, Compton,
+  Constancio, Conti, Cooper, Corban, Corbitt, Cordero-Carrión, Corezzi,
+  Corley, Cornish, Corre, Corsi, Cortese, Costa, Cotesta, Coughlin, Coulon,
+  Countryman, Cousins, Couvares, Coward, Cowart, Coyne, Coyne, Creighton,
+  Creighton, Criswell, Croquette, Crowder, Cudell, Cullen, Cumming, Cummings,
+  Cunningham, Cuoco, Curyło, Dabadie, Canton, Dall'Osso, Dálya, Dana,
+  DaneshgaranBajastani, D'Angelo, Danilishin, D'Antonio, Danzmann,
+  Darsow-Fromm, Dasgupta, Datrier, Datta, Dattilo, Dave, Davier, Davies, Davis,
+  Davis, Daw, Dean, DeBra, Deenadayalan, Degallaix, De~Laurentis, Deléglise,
+  Del~Favero, De~Lillo, De~Lillo, Del~Pozzo, DeMarchi, De~Matteis, D'Emilio,
+  Demos, Dent, Depasse, De~Pietri, De~Rosa, De~Rossi, DeSalvo, De~Simone,
+  Dhurandhar, Díaz, Diaz-Ortiz, Didio, Dietrich, Di~Fiore, Di~Fronzo,
+  Di~Giorgio, Di~Giovanni, Di~Giovanni, Di~Girolamo, Di~Lieto, Ding, Di~Pace,
+  Di~Palma, Di~Renzo, Divakarla, Dmitriev, Doctor, D'Onofrio, Donovan, Dooley,
+  Doravari, Dorrington, Drago, Driggers, Drori, Ducoin, Dupej, Durante, D'Urso,
+  Duverne, Dwyer, Eassa, Easter, Ebersold, Eckhardt, Eddolls, Edelman, Edo,
+  Edy, Effler, Eguchi, Eichholz, Eikenberry, Eisenmann, Eisenstein, Ejlli,
+  Engelby, Enomoto, Errico, Essick, Estellés, Estevez, Etienne, Etzel, Evans,
+  Evans, Ewing, Fafone, Fair, Fairhurst, Farah, Farinon, Farr, Farr, Farrow,
+  Fauchon-Jones, Favaro, Favata, Fays, Fazio, Feicht, Fejer, Fenyvesi,
+  Ferguson, Fernandez-Galiana, Ferrante, Ferreira, Fidecaro, Figura, Fiori,
+  Fishbach, Fisher, Fittipaldi, Fiumara, Flaminio, Floden, Fong, Font, Fornal,
+  Forsyth, Franke, Frasca, Frasconi, Frederick, Freed, Frei, Freise, Frey,
+  Fritschel, Frolov, Fronzé, Fujii, Fujikawa, Fukunaga, Fukushima, Fulda,
+  Fyffe, Gabbard, Gadre, Gair, Gais, Galaudage, Gamba, Ganapathy, Ganguly, Gao,
+  Gaonkar, Garaventa, García-Núñez, García-Quirós, Garufi, Gateley,
+  Gaudio, Gayathri, Ge, Gemme, Gennai, George, Gerberding, Gergely, Gewecke,
+  Ghonge, Ghosh, Ghosh, Ghosh, Ghosh, Giacomazzo, Giacoppo, Giaime, Giardina,
+  Gibson, Gier, Giesler, Giri, Gissi, Glanzer, Gleckl, Godwin, Goetz, Goetz,
+  Gohlke, Golomb, Goncharov, González, Gopakumar, Gosselin, Gouaty, Gould,
+  Grace, Grado, Granata, Granata, Grant, Gras, Grassia, Gray, Gray, Greco,
+  Green, Green, Gretarsson, Gretarsson, Griffith, Griffiths, Griggs, Grignani,
+  Grimaldi, Grimm, Grote, Grunewald, Gruning, Guerra, Guidi, Guimaraes, Guixé,
+  Gulati, Guo, Guo, Gupta, Gupta, Gupta, Gustafson, Gustafson, Guzman, Ha,
+  Haegel, Hagiwara, Haino, Halim, Hall, Hamilton, Hammond, Han, Haney, Hanks,
+  Hanna, Hannam, Hannuksela, Hansen, Hansen, Hanson, Harder, Hardwick, Haris,
+  Harms, Harry, Harry, Hartwig, Hasegawa, Haskell, Hasskew, Haster, Hattori,
+  Haughian, Hayakawa, Hayama, Hayes, Healy, Heidmann, Heidt, Heintze, Heinze,
+  Heinzel, Heitmann, Hellman, Hello, Helmling-Cornell, Hemming, Hendry, Heng,
+  Hennes, Hennig, Hennig, Hernandez, Vivanco, Heurs, Hild, Hill, Himemoto,
+  Hines, Hiranuma, Hirata, Hirose, Hochheim, Hofman, Hohmann, Holcomb, Holland,
+  Hollows, Holmes, Holt, Holz, Hong, Hopkins, Hough, Hourihane, Howell, Hoy,
+  Hoyland, Hreibi, Hsieh, Hsu, Huang, Huang, Huang, Huang, Huang, Huang,
+  Hübner, Huddart, Hughey, Hui, Hui, Husa, Huttner, Huxford, Huynh-Dinh, Ide,
+  Idzkowski, Iess, Ikenoue, Imam, Inayoshi, Ingram, Inoue, Ioka, Isi, Isleif,
+  Ito, Itoh, Iyer, Izumi, JaberianHamedan, Jacqmin, Jadhav, Jadhav, James, Jan,
+  Jani, Janquart, Janssens, Janthalur, Jaranowski, Jariwala, Jaume, Jenkins,
+  Jenner, Jeon, Jeunon, Jia, Jin, Johns, Jones, Jones, Jones, Jones, Jones,
+  Jonker, Ju, Jung, Jung, Junker, Juste, Kaihotsu, Kajita, Kakizaki,
+  Kalaghatgi, Kalogera, Kamai, Kamiizumi, Kanda, Kandhasamy, Kang, Kanner, Kao,
+  Kapadia, Kapasi, Karat, Karathanasis, Karki, Kashyap, Kasprzack, Kastaun,
+  Katsanevas, Katsavounidis, Katzman, Kaur, Kawabe, Kawaguchi, Kawai, Kawasaki,
+  Kéfélian, Keitel, Key, Khadka, Khalili, Khan, Khazanov, Khetan, Khursheed,
+  Kijbunchoo, Kim, Kim, Kim, Kim, Kim, Kim, Kimball, Kimura, Kinley-Hanlon,
+  Kirchhoff, Kissel, Kita, Kitazawa, Kleybolte, Klimenko, Knee, Knowles,
+  Knyazev, Koch, Koekoek, Kojima, Kokeyama, Koley, Kolitsidou, Kolstein,
+  Komori, Kondrashov, Kong, Kontos, Koper, Korobko, Kotake, Kovalam, Kozak,
+  Kozakai, Kozu, Kringel, Krishnendu, Królak, Kuehn, Kuei, Kuijer, Kumar,
+  Kumar, Kumar, Kumar, Kume, Kuns, Kuo, Kuo, Kuromiya, Kuroyanagi, Kusayanagi,
+  Kuwahara, Kwak, Lagabbe, Laghi, Lalande, Lam, Lamberts, Landry, Landry, Lane,
+  Lang, Lange, Lantz, La~Rosa, Lartaux-Vollard, Lasky, Laxen, Lazzarini,
+  Lazzaro, Leaci, Leavey, Lecoeuche, Lee, Lee, Lee, Lee, Lee, Lee, Lehmann,
+  Lemaître, Leonardi, Leroy, Letendre, Levesque, Levin, Leviton, Leyde, Li,
+  Li, Li, Li, Li, Li, Lin, Lin, Lin, Lin, Lin, Linde, Linker, Linley,
+  Littenberg, Liu, Liu, Liu, Liu, Llamas, Llorens-Monteagudo, Lo, Lockwood,
+  London, Longo, Lopez, Portilla, Lorenzini, Loriette, Lormand, Losurdo, Lott,
+  Lough, Lousto, Lovelace, Lucaccioni, Lück, Lumaca, Lundgren, Luo, Lynam,
+  Macas, MacInnis, Macleod, MacMillan, Macquet, Hernandez, Magazzù, Magee,
+  Maggiore, Magnozzi, Mahesh, Majorana, Makarem, Maksimovic, Maliakal, Malik,
+  Man, Mandic, Mangano, Mango, Mansell, Manske, Mantovani, Mapelli, Marchesoni,
+  Marchio, Marion, Mark, Márka, Márka, Markakis, Markosyan, Markowitz, Maros,
+  Marquina, Marsat, Martelli, Martin, Martin, Martinez, Martinez, Martinez,
+  Martinovic, Martynov, Marx, Masalehdan, Mason, Massera, Masserot, Massinger,
+  Masso-Reid, Mastrogiovanni, Matas, Mateu-Lucena, Matichard, Matiushechkina,
+  Mavalvala, McCann, McCarthy, McClelland, McClincy, McCormick, McCuller,
+  McGhee, McGuire, McIsaac, McIver, McRae, McWilliams, Meacher, Mehmet, Mehta,
+  Meijer, Melatos, Melchor, Mendell, Menendez-Vazquez, Menoni, Mercer, Mereni,
+  Merfeld, Merilh, Merritt, Merzougui, Meshkov, Messenger, Messick, Meyers,
+  Meylahn, Mhaske, Miani, Miao, Michaloliakos, Michel, Michimura, Middleton,
+  Milano, Miller, Miller, Miller, Miller, Millhouse, Mills, Milotti, Minazzoli,
+  Minenkov, Mio, Mir, Miravet-Tenés, Mishra, Mishra, Mistry, Mitra,
+  Mitrofanov, Mitselmakher, Mittleman, Miyakawa, Miyamoto, Miyazaki, Miyo,
+  Miyoki, Mo, Moguel, Mogushi, Mohapatra, Mohite, Molina, Molina-Ruiz, Mondin,
+  Montani, Moore, Moraru, Morawski, More, Moreno, Moreno, Mori, Morisaki,
+  Moriwaki, Mours, Mow-Lowry, Mozzon, Muciaccia, Mukherjee, Mukherjee,
+  Mukherjee, Mukherjee, Mukherjee, Mukund, Mullavey, Munch, Muñiz, Murray,
+  Musenich, Muusse, Nadji, Nagano, Nagano, Nagar, Nakamura, Nakano, Nakano,
+  Nakashima, Nakayama, Napolano, Nardecchia, Narikawa, Naticchioni, Nayak,
+  Nayak, Negishi, Neil, Neilson, Nelemans, Nelson, Nery, Neubauer, Neunzert,
+  Ng, Ng, Nguyen, Nguyen, Nguyen, Quynh, Ni, Nichols, Nishizawa, Nissanke,
+  Nitoglia, Nocera, Norman, North, Nozaki, Nuttall, Oberling, O'Brien, Obuchi,
+  O'Dell, Oelker, Ogaki, Oganesyan, Oh, Oh, Oh, Ohashi, Ohishi, Ohkawa, Ohme,
+  Ohta, Okada, Okutani, Okutomi, Olivetto, Oohara, Ooi, Oram, O'Reilly,
+  Ormiston, Ormsby, Ortega, O'Shaughnessy, O'Shea, Oshino, Ossokine, Osthelder,
+  Otabe, Ottaway, Overmier, Pace, Pagano, Page, Pagliaroli, Pai, Pai, Palamos,
+  Palashov, Palomba, Pan, Pan, Panda, Pang, Pang, Pankow, Pannarale, Pant,
+  Panther, Paoletti, Paoli, Paolone, Parisi, Park, Park, Parker, Pascucci,
+  Pasqualetti, Passaquieti, Passuello, Patel, Pathak, Patricelli, Patron, Paul,
+  Payne, Pedraza, Pegoraro, Pele, Arellano, Penn, Perego, Pereira, Pereira,
+  Perez, Périgois, Perkins, Perreca, Perriès, Petermann, Petterson, Pfeiffer,
+  Pham, Phukon, Piccinni, Pichot, Piendibene, Piergiovanni, Pierini, Pierro,
+  Pillant, Pillas, Pilo, Pinard, Pinto, Pinto, Piotrzkowski, Pirello, Pitkin,
+  Placidi, Planas, Plastino, Pluchar, Poggiani, Polini, Pong, Ponrathnam,
+  Popolizio, Porter, Poulton, Powell, Pracchia, Pradier, Prajapati, Prasai,
+  Prasanna, Pratten, Principe, Prodi, Prokhorov, Prosposito, Prudenzi, Puecher,
+  Punturo, Puosi, Puppo, Pürrer, Qi, Quetschke, Quitzow-James, Raab,
+  Raaijmakers, Radkins, Radulesco, Raffai, Rail, Raja, Rajan, Ramirez, Ramirez,
+  Ramos-Buades, Rana, Rapagnani, Rapol, Ray, Raymond, Raza, Razzano, Read,
+  Rees, Regimbau, Rei, Reid, Reid, Reitze, Relton, Renzini, Rettegno, Rezac,
+  Ricci, Richards, Richardson, Richardson, Riemenschneider, Riles, Rinaldi,
+  Rink, Rizzo, Robertson, Robie, Robinet, Rocchi, Rodriguez, Rolland, Rollins,
+  Romanelli, Romano, Romel, Romero-Rodríguez, Romero-Shaw, Romie, Ronchini,
+  Rosa, Rose, Rosińska, Ross, Rowan, Rowlinson, Roy, Roy, Roy, Rozza, Ruggi,
+  Ryan, Sachdev, Sadecki, Sadiq, Sago, Saito, Saito, Sakai, Sakai,
+  Sakellariadou, Sakuno, Salafia, Salconi, Saleem, Salemi, Samajdar, Sanchez,
+  Sanchez, Sanchez, Sanchis-Gual, Sanders, Sanuy, Saravanan, Sarin, Sassolas,
+  Satari, Sathyaprakash, Sato, Sato, Sauter, Savage, Sawada, Sawant, Sawant,
+  Sayah, Schaetzl, Scheel, Scheuer, Schiworski, Schmidt, Schmidt, Schnabel,
+  Schneewind, Schofield, Schönbeck, Schulte, Schutz, Schwartz, Scott, Scott,
+  Seglar-Arroyo, Sekiguchi, Sekiguchi, Sellers, Sengupta, Sentenac, Seo,
+  Sequino, Sergeev, Setyawati, Shaffer, Shahriar, Shams, Shao, Sharma, Sharma,
+  Shawhan, Shcheblanov, Shibagaki, Shikauchi, Shimizu, Shimoda, Shimode,
+  Shinkai, Shishido, Shoda, Shoemaker, Shoemaker, ShyamSundar, Sieniawska,
+  Sigg, Singer, Singh, Singh, Singha, Sintes, Sipala, Skliris, Slagmolen,
+  Slaven-Blair, Smetana, Smith, Smith, Soldateschi, Somala, Somiya, Son, Soni,
+  Soni, Sordini, Sorrentino, Sorrentino, Sotani, Soulard, Souradeep, Sowell,
+  Spagnuolo, Spencer, Spera, Srinivasan, Srivastava, Srivastava, Staats,
+  Stachie, Steer, Steinlechner, Steinlechner, Stops, Stover, Strain, Strang,
+  Stratta, Strunk, Sturani, Stuver, Sudhagar, Sudhir, Sugimoto, Suh,
+  Summerscales, Sun, Sun, Sunil, Sur, Suresh, Sutton, Suzuki, Suzuki, Swinkels,
+  Szczepańczyk, Szewczyk, Tacca, Tagoshi, Tait, Takahashi, Takahashi,
+  Takamori, Takano, Takeda, Takeda, Talbot, Talbot, Tanaka, Tanaka, Tanaka,
+  Tanaka, Tanaka, Tanasijczuk, Tanioka, Tanner, Tao, Tao, Martín, Taranto,
+  Tasson, Telada, Tenorio, Terhune, Terkowski, Thirugnanasambandam, Thomas,
+  Thomas, Thompson, Thondapu, Thorne, Thrane, Tiwari, Tiwari, Tiwari, Toivonen,
+  Toland, Tolley, Tomaru, Tomigami, Tomura, Tonelli, Torres-Forné, Torrie,
+  Melo, Töyrä, Trapananti, Travasso, Traylor, Trevor, Tringali, Tripathee,
+  Troiano, Trovato, Trozzo, Trudeau, Tsai, Tsai, Tsang, Tsang, Tsao, Tse, Tso,
+  Tsubono, Tsuchida, Tsukada, Tsuna, Tsutsui, Tsuzuki, Turbang, Turconi,
+  Tuyenbayev, Ubhi, Uchikata, Uchiyama, Udall, Ueda, Uehara, Ueno, Ueshima,
+  Unnikrishnan, Uraguchi, Urban, Ushiba, Utina, Vahlbruch, Vajente, Vajpeyi,
+  Valdes, Valentini, Valsan, van Bakel, van Beuzekom, Brand, Broeck,
+  Vander-Hyde, van~der Schaaf, van Heijningen, Vanosky, van Putten, van
+  Remortel, Vardaro, Vargas, Varma, Vasúth, Vecchio, Vedovato, Veitch, Veitch,
+  Venneberg, Venugopalan, Verkindt, Verma, Verma, Veske, Vetrano, Viceré,
+  Vidyant, Viets, Vijaykumar, Villa-Ortega, Vinet, Virtuoso, Vitale, Vo, Vocca,
+  von Reis, von Wrangel, Vorvick, Vyatchanin, Wade, Wade, Wagner, Walet,
+  Walker, Wallace, Wallace, Walsh, Wang, Wang, Wang, Ward, Warner, Was,
+  Washimi, Washington, Watchi, Weaver, Webster, Weinert, Weinstein, Weiss,
+  Weller, Wellmann, Wen, Weßels, Wette, Whelan, White, Whiting, Whittle,
+  Wilken, Williams, Williams, Williamson, Willis, Willke, Wilson, Winkler,
+  Wipf, Wlodarczyk, Woan, Woehler, Wofford, Wong, Wu, Wu, Wu, Wu, Wysocki,
+  Xiao, Xu, Yamada, Yamamoto, Yamamoto, Yamamoto, Yamamoto, Yamashita,
+  Yamazaki, Yang, Yang, Yang, Yang, Yang, Yap, Yeeles, Yelikar, Ying, Yokogawa,
+  Yokoyama, Yokozawa, Yoo, Yoshioka, Yu, Yu, Yuzurihara, Zadrożny, Zanolin,
+  Zeidler, Zelenova, Zendri, Zevin, Zhan, Zhang, Zhang, Zhang, Zhang, Zhang,
+  Zhao, Zhao, Zhao, Zhao, Zhou, Zhou, Zhu, Zhu, Zimmerman, Zlochower, Zucker,
+  \& Zweizig}]{2111.03634}
+{The LIGO Scientific Collaboration}, {The Virgo Collaboration}, {The KAGRA
+  Collaboration}, {et~al.} 2021, The population of merging compact binaries
+  inferred using gravitational waves through GWTC-3,  arXiv,
+  \dodoi{10.48550/ARXIV.2111.03634}
+
+\bibitem[{{Tortosa} {et~al.}(2022){Tortosa}, {Ricci}, {Tombesi}, {Ho}, {Du},
+  {Inayoshi}, {Wang}, {Shangguan}, \& {Li}}]{tortosa22}
+{Tortosa}, A., {Ricci}, C., {Tombesi}, F., {et~al.} 2022, \mnras, 509, 3599,
+  \dodoi{10.1093/mnras/stab3152}
+
+\bibitem[{{Trakhtenbrot} {et~al.}(2015){Trakhtenbrot}, {Urry}, {Civano},
+  {Rosario}, {Elvis}, {Schawinski}, {Suh}, {Bongiorno}, \& {Simmons}}]{trakh15}
+{Trakhtenbrot}, B., {Urry}, C.~M., {Civano}, F., {et~al.} 2015, Science, 349,
+  168, \dodoi{10.1126/science.aaa4506}
+
+\bibitem[{{Tyler} {et~al.}(2022){Tyler}, {Green}, \&
+  {Goodwin}}]{tylerwidebinary2022}
+{Tyler}, E., {Green}, A.~M., \& {Goodwin}, S.~P. 2022, arXiv e-prints,
+  arXiv:2207.08668.
+\newblock \doarXiv{2207.08668}
+
+\bibitem[{Uchikata {et~al.}(2016)Uchikata, Yoshida, \&
+  Pani}]{uchikata2016tidal}
+Uchikata, N., Yoshida, S., \& Pani, P. 2016, Physical Review D, 94, 064015
+
+\bibitem[{Volonteri {et~al.}(2021)Volonteri, Habouzit, \&
+  Colpi}]{volonteri2021origins}
+Volonteri, M., Habouzit, M., \& Colpi, M. 2021, Nature Reviews Physics, 3, 732
+
+\bibitem[{{Wang} {et~al.}(2021){Wang}, {Jiang}, {Li}, {Ren}, {Tang}, {Zhou},
+  {Liang}, \& {Fan}}]{wang21grav}
+{Wang}, Y., {Jiang}, L.-Y., {Li}, C.-K., {et~al.} 2021, \apjl, 918, L34,
+  \dodoi{10.3847/2041-8213/ac1ff9}
+
+\bibitem[{Weinberg(2008)}]{weinberg2008cosmology}
+Weinberg, S. 2008, Cosmology (Oxford university press)
+
+\bibitem[{{Weisberg} {et~al.}(2010){Weisberg}, {Nice}, \&
+  {Taylor}}]{weisberg2010binarypulsar}
+{Weisberg}, J.~M., {Nice}, D.~J., \& {Taylor}, J.~H. 2010, \apj, 722, 1030,
+  \dodoi{10.1088/0004-637X/722/2/1030}
+
+\bibitem[{{Wiltshire} {et~al.}(2009){Wiltshire}, {Visser}, \&
+  {Scott}}]{wiltshire2009kerr}
+{Wiltshire}, D.~L., {Visser}, M., \& {Scott}, S.~M. 2009, {The Kerr Spacetime}
+
+\bibitem[{Xiao \& Schaefer(2011)}]{xiao2011redshift}
+Xiao, L., \& Schaefer, B.~E. 2011, The Astrophysical Journal, 731, 103
+
+\bibitem[{{Yang} {et~al.}(2021){Yang}, {L{\"u}}, {Yuan}, {Rice}, {Zhang},
+  {Zhang}, \& {Liang}}]{yang21grav}
+{Yang}, X., {L{\"u}}, H.-J., {Yuan}, H.-Y., {et~al.} 2021, \apjl, 921, L29,
+  \dodoi{10.3847/2041-8213/ac2f39}
+
+\bibitem[{Yunes {et~al.}(2016)Yunes, Yagi, \& Pretorius}]{yunes2016theoretical}
+Yunes, N., Yagi, K., \& Pretorius, F. 2016, Physical Review D, 94, 084002
+
+\bibitem[{{Zevin} {et~al.}(2021){Zevin}, {Bavera}, {Berry}, {Kalogera},
+  {Fragos}, {Marchant}, {Rodriguez}, {Antonini}, {Holz}, \& {Pankow}}]{zevin21}
+{Zevin}, M., {Bavera}, S.~S., {Berry}, C. P.~L., {et~al.} 2021, \apj, 910, 152,
+  \dodoi{10.3847/1538-4357/abe40e}
+
+\end{thebibliography}

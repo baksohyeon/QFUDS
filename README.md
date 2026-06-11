@@ -485,6 +485,9 @@ documentation and regression checks:
 make install-git-hooks
 ```
 
+The hook also updates staged Markdown frontmatter `last_updated` dates before
+running validation.
+
 Run the experiment 004 preflight gate.
 
 ```bash

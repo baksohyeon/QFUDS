@@ -25,7 +25,7 @@ created_at: 2026-06-09
 created_by: dorito
 updated_at: 2026-06-09
 updated_by: dorito
-last_updated: 2026-06-09
+last_updated: 2026-06-11
 last_verified_at: 2026-06-09
 last_verified_by: dorito
 audit_log:
@@ -38,9 +38,9 @@ relations:
   - docs/04_results/030_result_004_p1_model_family_positioning.md
   - docs/04_results/030_result_005_timing_prior_usefulness.md
   - docs/04_results/030_result_006_literature_timing_support_audit.md
-  - docs/wiki/research/audits/exp006_timing/003_coverage_expansion_audit.md
-  - docs/wiki/research/audits/exp006_timing/004_li_2025_timing_feasibility_audit.md
-  - docs/wiki/research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md
+  - docs/wiki/research/investigations/exp006_timing/003_coverage_expansion_audit.md
+  - docs/wiki/research/investigations/exp006_timing/004_li_2025_timing_feasibility_audit.md
+  - docs/wiki/research/investigations/exp006_timing/007_li_2025_digitized_compression_audit.md
   - docs/00_project/project_identity.md
   - docs/00_project/qfuds_positioning.md
   - docs/00_project/success_criteria.md
@@ -373,7 +373,7 @@ Digitized Compression Audit은 `docs/04_results/`에 넣지 않았다.
 - 새 experiment로 선언하지 않았다.
 - roadmap status를 바꾸지 않는다.
 - Exp004/Exp005/Exp006 classification을 바꾸지 않는다.
-- `docs/wiki/research/audits/`의 follow-up audit로 충분하다.
+- `docs/wiki/research/investigations/`의 follow-up audit로 충분하다.
 
 `docs/04_results/`에 넣으려면 별도 experiment spec, result boundary,
 decision-log/roadmap handling이 필요하다. 지금 작업은 그 수준이 아니다.

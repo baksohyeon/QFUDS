@@ -12,8 +12,8 @@ evidence_role: reference
 depends_on:
   - audit_2026_06_10_black_hole_data_product_audit_plan
   - audit_2026_06_10_black_hole_data_product_audit
-  - source_x_audit_index
-  - research_audit_index
+  - source_x_investigation_index
+  - research_investigations_index
   - repository_levels_glossary
 next_gate: no roadmap change; use this as the postmortem for the Source-X black-hole data-product interlock
 date: 2026-06-10
@@ -24,7 +24,7 @@ created_at: 2026-06-10
 created_by: dorito
 updated_at: 2026-06-10
 updated_by: dorito
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 last_verified_at: 2026-06-10
 last_verified_by: dorito
 audit_log:
@@ -34,17 +34,17 @@ audit_log:
     note: "Created after reviewing the 2026-06-10 Source-X data-product audit commits, chat prompts, source_x audit chain, and repository levels glossary."
 tags: [postmortem, source-x, data-products, level-2b, qfuds]
 relations:
-  - docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md
-  - docs/wiki/research/audits/source_x/conclusions/040_black_hole_data_product_audit.md
-  - docs/wiki/research/audits/source_x/README.md
-  - docs/wiki/research/audits/README.md
+  - docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md
+  - docs/wiki/research/investigations/source_x/conclusions/040_black_hole_data_product_audit.md
+  - docs/wiki/research/investigations/source_x/README.md
+  - docs/wiki/research/investigations/README.md
   - docs/wiki/glossary/repository_levels.md
 code_refs:
-  - file: docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md
+  - file: docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md
     note: "Approved plan: defines the data-product interlock, product-state taxonomy, Lane A/B search axes, and no-Level-2B boundary."
-  - file: docs/wiki/research/audits/source_x/conclusions/040_black_hole_data_product_audit.md
+  - file: docs/wiki/research/investigations/source_x/conclusions/040_black_hole_data_product_audit.md
     note: "Executed audit result: records Lane A/B product search trace, candidate matrix, products not found, and no-derivation confirmation."
-  - file: docs/wiki/research/audits/source_x/README.md
+  - file: docs/wiki/research/investigations/source_x/README.md
     note: "Source-X read order updated to include the 040 plan/result and reserve 041 for future delta-Q work."
   - file: docs/wiki/glossary/repository_levels.md
     note: "Glossary authority for why Level 2B remains blocked until a physical branch supplies X, Q^nu, phase-B rationale, delta Q, and known-model distinction."
@@ -107,7 +107,7 @@ known-model distinction =
 ```text
 # Black-Hole Data Product Audit Plan
 
-Create `docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md`
+Create `docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md`
 as a docs-only audit plan for the current `data_product_blocked` state after Phase 3.
 The plan will not derive `Q^nu`, will not open Physical-QFUDS Level 2B,
 and will not modify roadmap status.
@@ -128,7 +128,7 @@ Execute the approved plan.
 
 Authority:
 
-[040_black_hole_data_product_audit_plan.md](docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md)
+[040_black_hole_data_product_audit_plan.md](docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md)
 
 Follow the plan exactly.
 
@@ -163,7 +163,7 @@ Do not open Physical-QFUDS Level 2B.
 사용한 명령:
 
 ```bash
-rtk proxy git log --all --format='%h %ad %an %s' --date=iso --since='2026-06-10 00:00' -- docs/wiki/research/audits/source_x docs/wiki/research/audits/README.md
+rtk proxy git log --all --format='%h %ad %an %s' --date=iso --since='2026-06-10 00:00' -- docs/wiki/research/investigations/source_x docs/wiki/research/investigations/README.md
 ```
 
 핵심 출력:
@@ -202,14 +202,14 @@ rtk proxy git show --name-status --oneline cd756a2 d2072b0
 
 ```text
 cd756a2 plan(audit): black hole data product audit
-M	docs/wiki/research/audits/README.md
-M	docs/wiki/research/audits/source_x/README.md
-A	docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md
+M	docs/wiki/research/investigations/README.md
+M	docs/wiki/research/investigations/source_x/README.md
+A	docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md
 
 d2072b0 audit(conslusions): physical-QFUDS Level 2B remains blocked
-M	docs/wiki/research/audits/README.md
-M	docs/wiki/research/audits/source_x/README.md
-A	docs/wiki/research/audits/source_x/conclusions/040_black_hole_data_product_audit.md
+M	docs/wiki/research/investigations/README.md
+M	docs/wiki/research/investigations/source_x/README.md
+A	docs/wiki/research/investigations/source_x/conclusions/040_black_hole_data_product_audit.md
 ```
 
 해석:
@@ -226,25 +226,25 @@ H4는 지지된다. 변경 범위가 audit chain 내부에 갇혀 있다.
 사용한 명령:
 
 ```bash
-rtk rg --files docs/wiki/research/audits/source_x | sort
+rtk rg --files docs/wiki/research/investigations/source_x | sort
 ```
 
 핵심 출력:
 
 ```text
-docs/wiki/research/audits/source_x/README.md
-docs/wiki/research/audits/source_x/conclusions/011_phase1_source_x_audit.md
-docs/wiki/research/audits/source_x/conclusions/021_phase2_black_hole_coupled_source_audit.md
-docs/wiki/research/audits/source_x/conclusions/029_phase2_candidate_selection_closeout.md
-docs/wiki/research/audits/source_x/conclusions/031_phase3_qnu_derivation_attempt.md
-docs/wiki/research/audits/source_x/conclusions/040_black_hole_data_product_audit.md
-docs/wiki/research/audits/source_x/coverage/022_phase2_black_hole_coupled_literature_search_audit.md
-docs/wiki/research/audits/source_x/coverage/023_phase2_compact_object_transient_source_literature_audit.md
-docs/wiki/research/audits/source_x/coverage/024_phase2_structure_era_activation_literature_audit.md
-docs/wiki/research/audits/source_x/plans/010_phase1_source_x_audit_plan.md
-docs/wiki/research/audits/source_x/plans/020_phase2_black_hole_coupled_source_audit_plan.md
-docs/wiki/research/audits/source_x/plans/030_phase3_qnu_derivation_attempt_plan.md
-docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md
+docs/wiki/research/investigations/source_x/README.md
+docs/wiki/research/investigations/source_x/conclusions/011_phase1_source_x_audit.md
+docs/wiki/research/investigations/source_x/conclusions/021_phase2_black_hole_coupled_source_audit.md
+docs/wiki/research/investigations/source_x/conclusions/029_phase2_candidate_selection_closeout.md
+docs/wiki/research/investigations/source_x/conclusions/031_phase3_qnu_derivation_attempt.md
+docs/wiki/research/investigations/source_x/conclusions/040_black_hole_data_product_audit.md
+docs/wiki/research/investigations/source_x/coverage/022_phase2_black_hole_coupled_literature_search_audit.md
+docs/wiki/research/investigations/source_x/coverage/023_phase2_compact_object_transient_source_literature_audit.md
+docs/wiki/research/investigations/source_x/coverage/024_phase2_structure_era_activation_literature_audit.md
+docs/wiki/research/investigations/source_x/plans/010_phase1_source_x_audit_plan.md
+docs/wiki/research/investigations/source_x/plans/020_phase2_black_hole_coupled_source_audit_plan.md
+docs/wiki/research/investigations/source_x/plans/030_phase3_qnu_derivation_attempt_plan.md
+docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md
 ```
 
 해석:
@@ -259,7 +259,7 @@ docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.
 사용한 명령:
 
 ```bash
-rtk rg -n "data_product_blocked|not physics_blocked|Do not derive Q\\^nu|Physical-QFUDS Level 2B|Roadmap unchanged" docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md
+rtk rg -n "data_product_blocked|not physics_blocked|Do not derive Q\\^nu|Physical-QFUDS Level 2B|Roadmap unchanged" docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md
 ```
 
 핵심 출력:
@@ -289,7 +289,7 @@ H1은 지지된다.
 사용한 명령:
 
 ```bash
-rtk rg -n "Lane A remains|Lane B remains|Products Not Found|No-Derivation Confirmation|Physical-QFUDS Level 2B remains blocked|Roadmap unchanged" docs/wiki/research/audits/source_x/conclusions/040_black_hole_data_product_audit.md
+rtk rg -n "Lane A remains|Lane B remains|Products Not Found|No-Derivation Confirmation|Physical-QFUDS Level 2B remains blocked|Roadmap unchanged" docs/wiki/research/investigations/source_x/conclusions/040_black_hole_data_product_audit.md
 ```
 
 핵심 출력:
@@ -362,7 +362,7 @@ H4는 지지된다.
 ```bash
 rtk python3 scripts/validate_docs.py
 rtk python3 scripts/research_consistency.py
-rtk git diff --check -- docs/wiki/research/audits/source_x docs/wiki/research/audits/README.md
+rtk git diff --check -- docs/wiki/research/investigations/source_x docs/wiki/research/investigations/README.md
 rtk git diff -- docs/05_next_steps/000_roadmap.md
 ```
 
@@ -454,7 +454,7 @@ Roadmap unchanged.
 ### 오늘 source_x 관련 커밋 보기
 
 ```bash
-rtk proxy git log --all --format='%h %ad %an %s' --date=iso --since='2026-06-10 00:00' -- docs/wiki/research/audits/source_x docs/wiki/research/audits/README.md
+rtk proxy git log --all --format='%h %ad %an %s' --date=iso --since='2026-06-10 00:00' -- docs/wiki/research/investigations/source_x docs/wiki/research/investigations/README.md
 ```
 
 일반적으로 `git log -- <path>`는 특정 path에 영향을 준 commit만 본다.
@@ -474,7 +474,7 @@ index만 바꿨고 roadmap은 건드리지 않았음을 확인했다.
 ### Source-X 파일 구조 보기
 
 ```bash
-rtk rg --files docs/wiki/research/audits/source_x | sort
+rtk rg --files docs/wiki/research/investigations/source_x | sort
 ```
 
 `rg --files`는 저장소 파일 목록을 빠르게 출력한다. 이번 사건에서는
@@ -484,7 +484,7 @@ phase별로 정리되어 있음을 확인했다.
 ### Boundary 문장 확인하기
 
 ```bash
-rtk rg -n "data_product_blocked|not physics_blocked|Do not derive Q\\^nu|Physical-QFUDS Level 2B|Roadmap unchanged" docs/wiki/research/audits/source_x/plans/040_black_hole_data_product_audit_plan.md
+rtk rg -n "data_product_blocked|not physics_blocked|Do not derive Q\\^nu|Physical-QFUDS Level 2B|Roadmap unchanged" docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md
 ```
 
 `rg -n`은 match된 line number를 같이 보여준다. 이번 사건에서는 plan이
@@ -494,7 +494,7 @@ rtk rg -n "data_product_blocked|not physics_blocked|Do not derive Q\\^nu|Physica
 ### Result 결론 확인하기
 
 ```bash
-rtk rg -n "Lane A remains|Lane B remains|Products Not Found|No-Derivation Confirmation|Physical-QFUDS Level 2B remains blocked|Roadmap unchanged" docs/wiki/research/audits/source_x/conclusions/040_black_hole_data_product_audit.md
+rtk rg -n "Lane A remains|Lane B remains|Products Not Found|No-Derivation Confirmation|Physical-QFUDS Level 2B remains blocked|Roadmap unchanged" docs/wiki/research/investigations/source_x/conclusions/040_black_hole_data_product_audit.md
 ```
 
 이 명령은 result 문서가 plan의 acceptance criteria를 실제로 반영했는지
@@ -531,7 +531,7 @@ of truth; no drift detected`로 통과했다.
 ### Whitespace와 roadmap diff 확인하기
 
 ```bash
-rtk git diff --check -- docs/wiki/research/audits/source_x docs/wiki/research/audits/README.md
+rtk git diff --check -- docs/wiki/research/investigations/source_x docs/wiki/research/investigations/README.md
 rtk git diff -- docs/05_next_steps/000_roadmap.md
 ```
 

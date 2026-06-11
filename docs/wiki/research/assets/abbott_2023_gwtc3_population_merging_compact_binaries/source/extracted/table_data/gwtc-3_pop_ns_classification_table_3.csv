@@ -1,0 +1,8 @@
+name,min_far,P_m_lessthan_MTOV,P_m_lessthan_mgap_low,classifiation
+GW170817,<1e-5,0.99,0.97,BNS
+GW190425,3.38e-02,0.67,0.71,BNS
+GW190814,< 1e-5,0.06,0.24,BBH
+GW200105,2.04e-01,0.94,0.73,NSBH
+GW200115,<1e-5,0.93,0.96,NSBH
+GW190426,9.12e-01,0.82,--,NSBH
+GW190917,6.56e-01,0.56,--,NSBH

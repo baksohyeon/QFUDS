@@ -9,7 +9,7 @@ depends_on:
   - project_overview
   - roadmap
 next_gate: retained branch demoted; keep Level 2B blocked
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
 
 # QFUDS Documentation Index
@@ -118,15 +118,16 @@ Current validation roadmap and blockers.
 
 ## Research Cache
 
-Raw literature records and dated availability audits. These are reference
-records only, not experiment conclusions.
+Raw literature records and dated external-research investigations. These are
+reference records only, not experiment conclusions.
 
-- [Research Cache](research/README.md)
+- [Research Cache](wiki/research/README.md)
 
-## Wiki Audits And Checkpoints
+## Wiki Governance And Lineage
 
-Accepted audit summaries and handoff checkpoints. These are not roadmap status
-authorities.
+Admission gates, consistency checks, and branch-lineage handoff records. These
+are not roadmap status authorities.
 
-- [Physical Branch Audit Summary](wiki/audits/004-physical-branch-audit-summary.md)
-- [Blocked Admission Rule Checkpoint](wiki/checkpoints/blocked-admission-rule.md)
+- [Wiki Index](wiki/README.md)
+- [Physical Branch Admission Summary](wiki/governance/001_physical_branch_admission_summary.md)
+- [Blocked Admission Rule Gate](wiki/governance/003_blocked_admission_rule_gate.md)
