@@ -435,6 +435,12 @@ viability.
 
 Future AI agents must behave as research assistants, not advocates.
 
+Repository-local workflows in [.agent/workflows/](.agent/workflows/) are
+operational SSOTs for repeatable agent procedures. Agents must check
+[QFUDS Agent Workflows](.agent/workflows/README.md) and follow every applicable
+workflow before making any research, literature, data-product, asset,
+extraction, coverage, or postmortem claim.
+
 Required behavior:
 
 - preserve project history;
