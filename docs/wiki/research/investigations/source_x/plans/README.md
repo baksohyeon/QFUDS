@@ -29,3 +29,4 @@ not store downloaded assets.
 - [Product-Recovery Execution Plan](042_product_recovery_execution_plan.md)
 - [Product-Recovery Extraction Plan](043_product_recovery_extraction_plan.md)
 - [Numeric Digitization Planning Audit](044_numeric_digitization_planning_audit.md)
+- [Chen Figure 5 Numeric Digitization Execution Plan](045_chen_figure5_numeric_digitization_execution_plan.md)
