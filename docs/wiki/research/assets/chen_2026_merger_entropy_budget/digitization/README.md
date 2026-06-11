@@ -36,3 +36,12 @@ PNGs, then store the curated output here.
 - [PageIndex structure](pageindex_structure.md) - hierarchical TOC tree with
   per-node page ranges and summaries, generated via PageIndex MCP
   (`source_text_parse`). Inspection aid for section targeting; not numeric.
+- [Merger entropy history recovery extract](chen_2026_merger_entropy_history_recovery_extract.md) -
+  manual structured extraction for the retained Source-X Lane B target. It is a
+  source-history candidate record, not QFUDS support.
+- [Chen Figure 5 numeric digitization CSV](chen_figure5_numeric_digitization.csv) -
+  `numeric_digitized` source-history candidate for the Figure 5 blue entropy
+  and red entropy-density curves.
+- [Chen Figure 5 numeric digitization provenance](chen_figure5_numeric_digitization_provenance.md) -
+  calibration, method, landmark checks, missing fields, and status boundary for
+  the CSV.

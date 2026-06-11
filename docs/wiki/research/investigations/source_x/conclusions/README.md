@@ -28,3 +28,4 @@ made through the project process.
 - [Phase 3 Q^nu Derivation Attempt](031_phase3_qnu_derivation_attempt.md)
 - [Black-Hole Data Product Audit](040_black_hole_data_product_audit.md)
 - [Product-Recovery Extraction Result](043_product_recovery_extraction_result.md)
+- [Chen Figure 5 Numeric Digitization Result](046_chen_figure5_numeric_digitization_result.md)

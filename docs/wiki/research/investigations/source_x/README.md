@@ -64,12 +64,13 @@ records. The prefix is a route number, not a project-status claim.
 | 043 | [Product-Recovery Extraction Result](conclusions/043_product_recovery_extraction_result.md) | product-recovery extraction closeout |
 | 044 | [Numeric Digitization Planning Audit](plans/044_numeric_digitization_planning_audit.md) | numeric digitization target selection |
 | 045 | [Chen Figure 5 Numeric Digitization Execution Plan](plans/045_chen_figure5_numeric_digitization_execution_plan.md) | Chen Figure 5 digitization execution specification |
+| 046 | [Numeric Digitization Execution Plan](plans/046_numeric_digitization_execution_plan.md) | approved Chen Figure 5 numeric digitization scope |
+| 046 | [Chen Figure 5 Numeric Digitization Result](conclusions/046_chen_figure5_numeric_digitization_result.md) | Chen Figure 5 numeric digitization closeout |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 046 | future Chen Figure 5 numeric digitization output | create the selected curve CSV only if explicitly approved; no physical-admission claim |
 | 047-049 | reserved product-recovery follow-up records | use only after the numeric product state is known; no perturbation viability claim without equations |
 | 050 | `050_phase5_known_model_distinction.md` | compare against CCBH, IV/IDE, HDE, remnant-DM, and adjacent known models |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
@@ -105,6 +106,12 @@ Reserved future records:
   create a structured product, open Level 2B, or modify roadmap status.
 - `045` defines how a future approved `046` task should digitize Chen Figure 5.
   It does not digitize, create a CSV, open Level 2B, or modify roadmap status.
+- `046` records the approved numeric digitization execution scope for Chen
+  Figure 5. The asset-level CSV remains a source-history candidate product, not
+  a physical branch.
+- `046` also includes a result closeout that records the product-state advance
+  to `numeric_digitized` while preserving the `data_product_blocked` physical
+  admission boundary.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

@@ -12,8 +12,9 @@ last_updated: 2026-06-11
 
 # Research Cache
 
-This directory stores reusable research reference material. It is not an
-experiment record, result record, decision log, or roadmap.
+This directory stores reusable research reference material, investigation
+process records, cached external assets, and derived asset products. It is not
+an experiment record, result record, decision log, or roadmap.
 
 The cache separates reusable research records from QFUDS status documents.
 
@@ -49,13 +50,36 @@ docs/wiki/research/
   Bibliographic metadata, source-defined equations, available products, redshift
   coverage, datasets, and narrow relevance notes.
 - `investigations/`: dated research-process records. Use this for search plans,
-  availability checks, feasibility checks, data-product audits, synthesis
-  handoffs, and audit-chain conclusions. Audit folders are process history, not
-  asset storage.
+  availability checks, feasibility checks, data-product audits, digitization
+  execution plans, synthesis handoffs, and audit-chain conclusions. Audit
+  folders are process history and result interpretation, not asset storage.
 - `assets/`: repository-cached external files and derived asset products,
-  grouped by paper or release key.
+  grouped by paper or release key. Use this for PDFs, TeX/source bundles,
+  rendered figures, Markdown conversions, manual extracts, digitized CSV/JSON,
+  and asset-level provenance.
 - one-off synthesis files belong under the investigation chain they summarize,
   not at the research-cache root.
 
+## Result Routing Rule
+
+Plans and result interpretations must stay in `investigations/`. Raw cached
+assets and derived asset products must stay in `assets/`.
+
+When an investigation task creates or materially changes an asset-level product
+such as a `manual_structured_extract` or `numeric_digitized` CSV, the same
+investigation chain must also have a `conclusions/` closeout that states:
+
+- what product was created;
+- what quality state was reached;
+- what remains missing;
+- whether the product changes the investigation decision;
+- whether roadmap status, Level 2B, or QFUDS support changed.
+
+Do not rely on an asset README, a CSV, or a provenance file alone as the
+investigation result. Asset records preserve product provenance; conclusion
+records preserve audit-chain decisions.
+
 For operational rules, state names, and required asset handling, use the
 [Research Asset and Product Workflow](../../../.agent/workflows/research-asset-product-workflow.md).
+For placement of plans, asset products, and result closeouts, use the
+[Research Investigation Result Routing Workflow](../../../.agent/workflows/research-investigation-result-routing-workflow.md).
