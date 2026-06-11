@@ -44,12 +44,21 @@ Use the most specific state that the evidence supports:
 | `hit_not_cached` | A source was found but no local cache record or asset exists. |
 | `asset_available_not_downloaded` | The source exposes an asset, but it has not been retrieved. |
 | `asset_downloaded_not_extracted` | The asset is in the repo, but has not been unpacked, parsed, rendered, or inspected. |
-| `asset_extracted_not_digitized` | Source, figures, tables, or archive contents were extracted, but numerical digitization or Markdown conversion is not done. |
+| `asset_extracted_not_digitized` | Source, figures, tables, archive contents, or Markdown conversions exist, but numerical digitization or product classification is not done. |
 | `asset_digitized` | Figure/table values were digitized, but may not yet be classified against the research criterion. |
 | `asset_cached` | Raw asset and manifest README are stored in the repo. |
 | `inspected_no_numerical_product` | Contents were inspected and no machine-readable numerical product was found. |
 | `no_asset_found` | PDF/source/supplement/archive/figure/table/code/raw asset checks were run and no relevant asset was found. |
 | `inaccessible` | A source appears to exist but access failed or requires unavailable credentials. |
+
+Markdown conversion quality must be recorded separately from asset state:
+
+| Quality | Meaning |
+| --- | --- |
+| `low_fidelity_search_text` | Automated PDF-to-Markdown conversion useful only for rough keyword, section, and citation search. Do not use it as a numerical source. |
+| `source_text_parse` | TeX, HTML, XML, or publisher text is parseable enough to inspect equations, captions, and tables against the source. |
+| `manual_structured_extract` | A human or agent has curated exact equations, table values, figure values, or section excerpts into a structured file with source locations. |
+| `numeric_digitized` | Numerical values have been digitized or extracted with method, units, uncertainty handling, and provenance recorded. |
 
 Allowed extraction-potential classifications:
 
@@ -79,22 +88,80 @@ any literature-coverage or data-product claim.
 
 ## Step 2: Place Assets Inside The Repository
 
-Use this path pattern:
+Use the repository asset-cache layout below. Do not invent new top-level asset
+categories without first updating this workflow.
+
+The cache index at
+[docs/wiki/research/README.md](../../docs/wiki/research/README.md) describes
+the current stored records, but this workflow is the operational SSOT for where
+agents place assets.
+
+Repository wiki folder roles are:
+
+- `docs/wiki/governance/`: admission rules, branch gates, consistency checks,
+  and missing-physics maps for the repository itself.
+- `docs/wiki/lineage/`: idea genealogy and branch dependency provenance.
+- `docs/wiki/research/`: external literature records, investigations, cached
+  assets, and source/product recovery work.
+
+External papers, PDFs, arXiv source bundles, Zenodo records, figures, tables,
+code repositories, and raw assets belong under `docs/wiki/research/`, not under
+`governance/` or `lineage/`.
+
+Required asset layout:
 
 ```text
-docs/wiki/research/assets/<topic>/<paper_key>/source/
+docs/wiki/research/assets/
+  <paper_or_release_key>/
+    source/
+    figures/
+    digitization/
 ```
+
+Use these path patterns:
+
+```text
+docs/wiki/research/assets/<paper_or_release_key>/source/
+docs/wiki/research/assets/<paper_or_release_key>/figures/
+docs/wiki/research/assets/<paper_or_release_key>/digitization/
+```
+
+Create all three standard child directories for every asset folder. If a
+standard directory is empty, add `.gitkeep` so the layout is visible to future
+agents and git status does not hide the intended destination.
 
 Examples:
 
 ```text
-docs/wiki/research/assets/black_holes/farrah_2023/source/
-docs/wiki/research/assets/entropy/chen_2026/source/
+docs/wiki/research/assets/farrah_2023_cosmological_coupling_black_holes/source/
+docs/wiki/research/assets/chen_2026_merger_entropy_budget/source/
+docs/wiki/research/assets/chen_2026_merger_entropy_budget/digitization/
+docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/
+docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/
 ```
 
 If the asset is downloaded, store the original raw asset under `source/`. If it
 is extracted, keep extracted files under a clearly named child directory such as
 `source/extracted/`.
+
+Use `source/` for external originals and raw products: PDFs, arXiv source
+bundles, supplementary archives, Zenodo records or datasets, GitHub metadata
+snapshots, code-release manifests, and downloadable raw assets. Use `figures/`
+inside the same asset directory for figure-level extracted or rendered assets.
+Use `digitization/` inside the same asset directory only for derived conversion
+or digitization outputs such as Markdown conversions, extracted table drafts,
+and digitized CSV/JSON files. Rendered PNG mirrors of figures belong under
+`figures/`, not `digitization/`.
+
+Do not create top-level category or audit-chain folders under `assets/`, such as
+`assets/figures/`, `assets/digitization/`, `assets/source_x/`, or
+`assets/exp006_timing/`. The first child of `assets/` must be a paper or release
+key.
+
+The Li and Zhang 2025 cache is the local example of a paper-level asset folder:
+[Li 2025 assets](../../docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/README.md)
+and its digitization manifest:
+[Li 2025 digitization assets](../../docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/README.md).
 
 ## Step 3: Create Asset README
 
@@ -137,9 +204,9 @@ If assets are visible but not retrieved, record
 If assets are downloaded but not unpacked or parsed, record
 `asset_downloaded_not_extracted`.
 
-If source/figures/tables are extracted, record
-`asset_extracted_not_digitized` until figure/table digitization or Markdown
-conversion exists.
+If source, figures, tables, or Markdown conversions are extracted, record
+`asset_extracted_not_digitized` until figure/table digitization or numerical
+product classification exists.
 
 Only say `no_asset_found` after the PDF, arXiv HTML/source, supplement,
 archive, figure/table, code, and raw-asset checks were actually run.
@@ -147,11 +214,49 @@ archive, figure/table, code, and raw-asset checks were actually run.
 Only say a QFUDS-ready product was not found after distinguishing raw assets,
 extractable products, numerical products, and QFUDS-specific requirements.
 
-## Step 5: Request Markdown Conversion When Text Extraction Is Required
+## Step 5: Convert Or Request Markdown When Text Extraction Is Required
 
-If text extraction is required, do not perform silent extraction and continue.
+If text extraction is required, first try to create a repository-local Markdown
+conversion when a safe converter is available. Preferred command:
 
-Instead, create a task request for the user with this exact structure:
+```text
+uvx --from 'markitdown[all]' markitdown <input.pdf> > <asset_dir>/digitization/<output>.md
+```
+
+Record the command or tool, the input PDF, the output Markdown path, conversion
+quality, and any conversion warnings in the asset README, digitization README, or
+dependent audit. A Markdown conversion is still only a derived inspection asset;
+it is not numerical digitization and is not QFUDS-ready evidence.
+
+Default MarkItDown PDF conversions must be treated as
+`low_fidelity_search_text` unless manually checked against the source. This is
+especially important for two-column papers, equations, tables, captions, and
+figures. Broken line order, spurious Markdown tables, merged words, missing
+minus signs, and lost equation structure are expected failure modes.
+
+Do not ask the user to manually extract an entire paper by default. Ask for
+targeted manual extraction only when a specific audit needs exact equations,
+tables, figure values, captions, or source sections. Store the curated output in
+the same `digitization/` directory with a filename that names the extracted
+product, for example `table_1_entropy_budget.csv`,
+`figure_1_beta_history_points.csv`, or `equation_source_terms.md`.
+
+After Markdown conversion, check image references:
+
+- If the Markdown contains `![...](...)` links, every target must resolve
+  relative to the Markdown file unless the link is an intentional external URL.
+- If the converter emits no image links, record that explicitly. Do not imply
+  the figures were embedded.
+- Preserve original figure files in their upstream/extracted layout under the
+  same asset directory, usually `source/extracted/`.
+- Store rendered PNG mirrors and copied figure files under `figures/`, usually
+  `figures/extracted/`. Do not store figure mirrors under `digitization/`.
+
+If conversion fails, the output is unusable, or the environment cannot run the
+converter, do not perform silent extraction and continue.
+
+Instead, either perform targeted manual extraction yourself from the repository
+source assets, or create a task request for the user with this exact structure:
 
 ```text
 Markdown conversion required.

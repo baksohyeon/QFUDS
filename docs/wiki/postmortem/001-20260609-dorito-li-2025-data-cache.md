@@ -22,7 +22,7 @@ created_at: 2026-06-09
 created_by: dorito
 updated_at: 2026-06-10
 updated_by: dorito
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 last_verified_at: 2026-06-10
 last_verified_by: dorito
 audit_log:
@@ -44,20 +44,20 @@ audit_log:
     note: "Recorded the real resolution: the agent could not reliably parse the paper PDF, so the user produced a complete Markdown rendering of the paper with an external tool, which became the usable text-level artifact."
 tags: [postmortem, li-2025, data-products, digitization, exp006]
 relations:
-  - docs/wiki/research/audits/exp006_timing/006_li_2025_public_product_search_audit.md
-  - docs/wiki/research/audits/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md
+  - docs/wiki/research/investigations/exp006_timing/006_li_2025_public_product_search_audit.md
+  - docs/wiki/research/investigations/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md
   - docs/wiki/research/literature/li_2025_desi_dr2_sign_reversal_ide.md
-  - docs/wiki/research/assets/figures/li_2025/README.md
-  - docs/wiki/research/assets/digitization/li_2025/README.md
-  - docs/wiki/research/assets/digitization/li_2025/paper_arxiv_2506.18477v2.md
+  - docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/README.md
+  - docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/README.md
+  - docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/paper_arxiv_2506.18477v2.md
 code_refs:
-  - file: docs/wiki/research/audits/exp006_timing/006_li_2025_public_product_search_audit.md
+  - file: docs/wiki/research/investigations/exp006_timing/006_li_2025_public_product_search_audit.md
     note: "Public numerical-product availability search record."
-  - file: docs/wiki/research/assets/figures/li_2025/README.md
+  - file: docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/README.md
     note: "Cached arXiv source package, extracted source files, and full paper PDF manifest."
-  - file: docs/wiki/research/assets/digitization/li_2025/README.md
+  - file: docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/README.md
     note: "High-resolution PNG render manifest for future digitization."
-  - file: docs/wiki/research/assets/digitization/li_2025/paper_arxiv_2506.18477v2.md
+  - file: docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/paper_arxiv_2506.18477v2.md
     note: "User-produced full-paper Markdown rendering; the reliable text-level source after the agent could not parse the paper PDF."
 ---
 
@@ -363,7 +363,7 @@ rtk strings /private/tmp/qfuds_2506_18477_src/fig_reconstruct.pdf \
 자료가 numerical product는 아니더라도, figure-level product는 다음 분석의 입력이 된다. 그래서 local cache를 만들었다.
 
 ```text
-docs/wiki/research/assets/figures/li_2025/
+docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/
 ```
 
 현재 구조:
@@ -390,13 +390,13 @@ source/extracted/jcappub.sty
 
 ```bash
 qlmanage -t -s 2400 -o /private/tmp/qfuds_li2025_ql_all \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_reconstruct.pdf \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_bayes_data.pdf \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_evals.pdf \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_pc.pdf \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_mock_lcdm.pdf \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_bin30.pdf \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_zmax.pdf
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_reconstruct.pdf \
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_bayes_data.pdf \
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_evals.pdf \
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_pc.pdf \
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_mock_lcdm.pdf \
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_bin30.pdf \
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_zmax.pdf
 ```
 
 핵심 출력:
@@ -415,7 +415,7 @@ Done producing thumbnails
 출력 이미지 확인:
 
 ```bash
-rtk file docs/wiki/research/assets/digitization/li_2025/*.png
+rtk file docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/*.png
 ```
 
 핵심 출력:
@@ -442,7 +442,7 @@ fig_zmax.png:        PNG image data, 2400 x 1823
 이 한계는 agent 쪽에서 우회하지 않았다. 대신 사용자가 별도 도구로 논문 전체를 하나의 완성형 Markdown 문서로 변환했다.
 
 ```text
-docs/wiki/research/assets/digitization/li_2025/paper_arxiv_2506.18477v2.md
+docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/paper_arxiv_2506.18477v2.md
 ```
 
 - 810줄 규모의 full-paper Markdown 변환본이다.
@@ -459,7 +459,7 @@ docs/wiki/research/assets/digitization/li_2025/paper_arxiv_2506.18477v2.md
 | `paper_arxiv_2506.18477v2.pdf` | arXiv 원본 | 보관용 원본. agent 본문 추출은 신뢰 불가 |
 | `paper_arxiv_2506.18477v2.md` | 사용자 (외부 도구) | text-level 분석의 단일 source |
 | `source/extracted/*.pdf` figure | arXiv source bundle | digitization 입력 |
-| `digitization/li_2025/*.png` | `qlmanage -t -s 2400` | 고해상도 digitization 이미지 |
+| `li_2025_desi_dr2_sign_reversal_ide/digitization/*.png` | `qlmanage -t -s 2400` | 고해상도 digitization 이미지 |
 
 ### 4.2 회고: 왜 `ls`가 연구 판단을 바꿨나
 
@@ -590,10 +590,10 @@ retained timing peak/weighted-mean 부근에 data-supported beta(z) structure가
 - 사용자가 `tar 파일같은거 없냐?`라고 지적하면서 nested archive/data-like file 가능성을 별도로 확인했다.
 - numerical product는 찾지 못했지만 figure PDFs와 TeX source를 확인했다.
 - 사용자가 `pdf 가 존나 중요해보이는데`라고 짚으면서 figure PDF를 future digitization input으로 분류했다.
-- `docs/wiki/research/assets/figures/li_2025/`에 source bundle, extracted files, full paper PDF를 캐싱했다.
+- `docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/`에 source bundle, extracted files, full paper PDF를 캐싱했다.
 - 사용자가 `docs/research/assets 가 존재함`과 `source 는 tar 도 드가야되는거아니녀?`라고 지적하면서 asset tree 구조를 repo convention에 맞게 재정리했다.
 - 사용자가 `고해상도 필요해`라고 지적하면서 낮은 해상도 변환을 버리고 `qlmanage -t -s 2400` 고해상도 렌더로 전환했다.
-- `docs/wiki/research/assets/digitization/li_2025/`에 고해상도 PNG 7개와 figure map을 추가했다.
+- `docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/digitization/`에 고해상도 PNG 7개와 figure map을 추가했다.
 - 논문 본문 PDF는 agent가 안정적으로 추출하지 못했다. 사용자가 별도 도구로 논문 전체를 `paper_arxiv_2506.18477v2.md`(810줄) 완성형 Markdown으로 변환해 text-level 단일 source로 확보했다.
 - Li & Zhang reconstruction과 Exp005 retained timing profile의 qualitative overlap을 분석했다.
 - 회고상 핵심 판단을 정리했다: 이 작업은 QFUDS 지지가 아니라, retained structure-era timing intuition이 DESI-era IDE reconstruction feature와 비교 가능한 질문으로 올라간 사건이다.
@@ -688,7 +688,7 @@ rtk strings /private/tmp/qfuds_2506_18477_src/fig_reconstruct.pdf \
 
 ```bash
 qlmanage -t -s 2400 -o /private/tmp/qfuds_li2025_ql_all \
-  docs/wiki/research/assets/figures/li_2025/source/extracted/fig_reconstruct.pdf
+  docs/wiki/research/assets/li_2025_desi_dr2_sign_reversal_ide/source/extracted/fig_reconstruct.pdf
 ```
 
 일반 의미:

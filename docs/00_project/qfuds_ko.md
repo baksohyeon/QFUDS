@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - project_overview
 next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-09
+last_updated: 2026-06-11
 ---
 
 # Quantum Foam Unified Dark Sector (QFUDS)
@@ -497,6 +497,9 @@ make preflight
 ```bash
 make install-git-hooks
 ```
+
+이 hook은 검증을 실행하기 전에 staged Markdown frontmatter의 `last_updated`
+날짜도 자동으로 갱신합니다.
 
 experiment 004 preflight gate를 실행합니다.
 

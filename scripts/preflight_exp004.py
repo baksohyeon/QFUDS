@@ -42,10 +42,11 @@ DOCS_INDEX = DOCS / "README.md"
 # Files that are indexes, not "active docs" that must themselves be indexed.
 INDEX_FILENAMES = {"README.md"}
 
-# Reference-cache records are locally indexed under docs/research/. The top-level
-# docs index should link only the cache entry point, not every paper record.
+# Wiki/reference-cache records are locally indexed under docs/wiki/. The
+# top-level docs index should link only the wiki/cache entry point, not every
+# generated wiki page, paper record, asset conversion, or investigation record.
 LOCAL_INDEXED_DIRS = {
-    DOCS / "research",
+    DOCS / "wiki",
 }
 
 # Output references are extracted with this pattern (relative to repo root).

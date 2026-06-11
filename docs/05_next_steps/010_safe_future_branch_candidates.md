@@ -7,12 +7,12 @@ status: in_progress
 evidence_role: audit
 depends_on:
   - roadmap
-  - blocked_admission_rule_checkpoint
+  - wiki_governance_003_blocked_admission_rule_gate
   - result_005_timing_prior_usefulness
   - result_006_literature_timing_support_audit
   - qfuds_strong_gravity_source_mechanism_audit
 next_gate: choose only safe non-Level-2B branch work
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
 
 # Safe Future Branch Candidates
@@ -58,12 +58,12 @@ Use existing repo records before adding any new literature summary:
 - [030_result_005_timing_prior_usefulness.md](../04_results/030_result_005_timing_prior_usefulness.md)
 - [030_result_006_literature_timing_support_audit.md](../04_results/030_result_006_literature_timing_support_audit.md)
 - [015_qfuds_strong_gravity_source_mechanism_audit.md](../02_theory/015_qfuds_strong_gravity_source_mechanism_audit.md)
-- [004-physical-branch-audit-summary.md](../wiki/audits/004-physical-branch-audit-summary.md)
-- [blocked-admission-rule.md](../wiki/checkpoints/blocked-admission-rule.md)
+- [001_physical_branch_admission_summary.md](../wiki/governance/001_physical_branch_admission_summary.md)
+- [003_blocked_admission_rule_gate.md](../wiki/governance/003_blocked_admission_rule_gate.md)
 - [docs/wiki/research/literature/README.md](../wiki/research/literature/README.md)
 - [index.csv](../wiki/research/literature/index.csv)
-- [Exp006 Coverage Expansion Audit](../wiki/research/audits/exp006_timing/003_coverage_expansion_audit.md)
-- [Li 2025 Digitized Compression Audit](../wiki/research/audits/exp006_timing/007_li_2025_digitized_compression_audit.md)
+- [Exp006 Coverage Expansion Audit](../wiki/research/investigations/exp006_timing/003_coverage_expansion_audit.md)
+- [Li 2025 Digitized Compression Audit](../wiki/research/investigations/exp006_timing/007_li_2025_digitized_compression_audit.md)
 
 These records should be referenced, not duplicated.
 
