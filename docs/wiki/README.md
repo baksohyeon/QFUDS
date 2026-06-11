@@ -22,7 +22,8 @@ The roadmap remains the status authority:
 Agent operational workflows are not maintained here. Future agents must use
 [.agent/README.md](../../.agent/README.md) and
 [.agent/workflows/README.md](../../.agent/workflows/README.md) for executable
-workflow rules.
+workflow rules, including the
+[Documentation Folder Routing Workflow](../../.agent/workflows/documentation-folder-routing-workflow.md).
 
 ## Wiki Files
 

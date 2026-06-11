@@ -16,7 +16,9 @@ last_updated: 2026-06-11
 This is the content-oriented catalog for the QFUDS wiki.
 
 Operational workflow rules live in
-[Wiki Maintenance Workflow](../../.agent/workflows/wiki-maintenance-workflow.md).
+[Wiki Maintenance Workflow](../../.agent/workflows/wiki-maintenance-workflow.md)
+and
+[Documentation Folder Routing Workflow](../../.agent/workflows/documentation-folder-routing-workflow.md).
 
 ## Core Navigation
 
