@@ -19,6 +19,7 @@ the authority and reduce the `docs/` copy to a link or descriptive cache index.
 | --- | --- |
 | [Wiki Maintenance Workflow](wiki-maintenance-workflow.md) | Maintaining `docs/wiki/`, ingesting new wiki records, filing reusable query answers, updating wiki indexes, or linting wiki health. |
 | [Research Asset and Product Workflow](research-asset-product-workflow.md) | Research work touches an external paper, PDF, arXiv source bundle, supplementary material, Zenodo/OSF/Dataverse/GitHub asset, figure PDF, table, code repository, downloadable archive, or any product-availability claim. |
+| [Research Asset Digitization Workflow](research-asset-digitization-workflow.md) | Converting a cached asset under `docs/wiki/research/assets/` into Markdown: PageIndex structure/full-text extraction, MarkItDown conversion of data releases, and high-resolution figure extraction/mapping. |
 
 ## Required Routing
 
