@@ -8,6 +8,17 @@ python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py
 python3 scripts/preflight_exp004.py
 git diff --check
-python3 -m unittest discover -s tests -p 'test_*.py'
+
+# Numerical regression tests re-validate the experiment suites against their
+# recorded outputs. They only matter when experiment code or the tests change.
+# Doc-only commits (the common case) skip them and stay fast.
+# Override with RUN_TESTS=1 to force the full suite.
+staged=$(git diff --cached --name-only --diff-filter=ACMR)
+if [ "${RUN_TESTS:-0}" = "1" ] || printf '%s\n' "$staged" | grep -qE '^(qfuds/|tests/)'; then
+  echo "pre-commit: experiment code changed -> running regression suite"
+  python3 -m unittest discover -s tests -p 'test_*.py'
+else
+  echo "pre-commit: no qfuds/ or tests/ changes -> skipping regression suite (RUN_TESTS=1 to force)"
+fi
 
 echo "pre-commit: all checks passed"
