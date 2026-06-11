@@ -180,6 +180,8 @@ CMB 음향 피크를 보존하는가?
 
 세부 원문 흐름은 이 개요에서 반복하지 않습니다. 출처 기록은 [concept_origin.md](../01_origin/concept_origin.md)에 보존합니다.
 
+어떤 가지가 살아남았고, 동기로 강등됐고, 레포 증거에 의해 폐기됐는지에 대한 현재 감사 상태는 — Source-X known-model-distinction 결과와 관측자 모드 전환을 포함해 — [concept_survival_audit.md](concept_survival_audit.md)에서 확인하세요. 상태(status)의 단일 진실 원천은 여전히 [Roadmap](../05_next_steps/000_roadmap.md)입니다.
+
 ## 연구 프로그램
 
 제가 장난스럽게 떠올린 가설이 어디까지 정합적인지 확인하려고 구현해보았습니다.

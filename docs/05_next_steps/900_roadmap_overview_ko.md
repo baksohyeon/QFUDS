@@ -11,7 +11,7 @@ depends_on:
   - level_1_5_resolution_gate
   - traceability_matrix
 next_gate: read roadmap for current status before acting
-last_updated: 2026-06-09
+last_updated: 2026-06-11
 ---
 
 # QFUDS Roadmap Overview Korean Guide
@@ -33,6 +33,33 @@ branch에 대한 결론은 다음입니다.
 retained collapse/information-production Gamma(a)는 물리적 Level 1.5 승격에
 실패했고, 현상론적 interacting-vacuum 전달 함수로 강등되었다.
 ```
+
+## 현재 자세: 관측자 모드
+
+2026-06-11 기준, 프로젝트는 **관측자 모드(observer mode)**입니다.
+
+retained `Gamma(a)` branch는 현상론적 interacting vacuum으로 강등됐고,
+Physical-QFUDS Level 2B는 막혀 있으며, Source-X black-hole entropy / Chen-Gamma
+lane은 다섯 개 admission-rule 항목(`X`, `Q^nu`, phase-B `w≈-1` 근거, `delta Q`,
+known-model distinction)이 모두 비어 있어 Level 2B 부적격으로 판정됐습니다.
+근거: Source-X
+[Level 2B Admission Eligibility Review and Observer-Mode Routing](../wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md).
+
+관측자 모드에서는:
+
+- 새 physical-QFUDS branch를 열지 않고, Level 2B 작업도 하지 않습니다.
+- retained `Gamma(a)`를 말로 되살리지 않습니다.
+- 살아남은 falsifiable 훅은 암흑에너지 타이밍 신호(`w0 ≈ -1`, `|wa| > 0`,
+  retained timing peak `z ≈ 2`)이며, 레포 안에서 유도하는 게 아니라 외부 관측으로
+  추적합니다.
+- watchlist: DESI DR3, Euclid, Roman, Rubin/LSST, CCBH 논쟁,
+  entropic / IV-IDE reconstruction products.
+
+관측자 모드는 future-branch admission rule이 충족되거나, 새 데이터가 기존 모델
+계열로 흡수되지 않는 `z ≈ 2` 암흑섹터 상호작용 feature를 분리해낼 때만
+빠져나옵니다. 이 상태는 모델 성공도 실패도 아닌 **audit 성공**으로 기록합니다:
+구조형성기 타이밍 직관은 유지되지만, 그 설명 후보는 이미 문헌에 여러 개 존재하며,
+현재 증거만으로는 그중 하나를 고르거나 새 물리를 주장할 수 없습니다.
 
 ## 현재 해석
 

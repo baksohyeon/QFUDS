@@ -7,8 +7,8 @@ status: in_progress
 evidence_role: ssot
 depends_on:
   - roadmap
-next_gate: retained branch demoted; no physical Level 2B without a new admitted physical branch
-last_updated: 2026-06-09
+next_gate: observer mode; no physical Level 2B without a new admitted physical branch
+last_updated: 2026-06-11
 ---
 
 # QFUDS Decision Log
@@ -280,3 +280,28 @@ conclusion.
 
 Evidence:
 [docs/03_experiments/030_exp_006_literature_timing_support_audit.md](../03_experiments/030_exp_006_literature_timing_support_audit.md), [docs/04_results/030_result_006_literature_timing_support_audit.md](../04_results/030_result_006_literature_timing_support_audit.md), `outputs/exp006_literature_target_feasibility.csv`, `outputs/exp006_literature_timing_support_matrix.csv`, `outputs/exp006_literature_classification.json`
+
+## 2026-06-11
+
+Decision:
+Enter observer mode for the Source-X black-hole entropy / Chen-Gamma lane and,
+by extension, the current QFUDS program.
+
+Reason:
+The Source-X chain `040-048` advanced the lane from "nothing to inspect" to a
+numeric, digitized source-history comparator (Chen Figure 5) and a bounded
+qualitative shape comparison against retained `Gamma(a)`. It did not, however,
+supply any of the five admission-rule items. The `048` known-model distinction
+audit found the lane not distinguished from entropic dark energy, horizon
+entropy, black-hole-entropy dark energy, CCBH, IV/IDE, running vacuum, emergent
+dark energy, or structure-activation families. The `049` eligibility review
+therefore found the lane ineligible for Level 2B. Because the missing items
+coincide with open observational problems of modern cosmology, further progress
+depends on new external data, not on more in-repository derivation. The outcome
+is recorded as audit success rather than model success or failure: the
+structure-era (`z ~= 2`) timing intuition is retained, but its explanatory
+candidates already exist in the literature and current evidence cannot select
+among them or assert new physics.
+
+Evidence:
+[docs/wiki/research/investigations/source_x/conclusions/048_known_model_distinction_audit_result.md](../wiki/research/investigations/source_x/conclusions/048_known_model_distinction_audit_result.md), [docs/wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md](../wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md), [docs/00_project/concept_survival_audit.md](concept_survival_audit.md), [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md)

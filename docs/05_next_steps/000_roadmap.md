@@ -12,8 +12,8 @@ depends_on:
   - qfuds_level_1_5_equivalence_source_perturbation_audit
   - qfuds_level_1_5_transfer_four_vector_derivation_attempt
   - qfuds_strong_gravity_source_mechanism_audit
-next_gate: retained branch demoted; retained timing allowed but not informative as an IV/IDE prior
-last_updated: 2026-06-09
+next_gate: observer mode; retained branch demoted; no Level 2B without all five admission-rule items
+last_updated: 2026-06-11
 ---
 
 # QFUDS Research Roadmap
@@ -25,6 +25,33 @@ Date: 2026-06-09
 - `completed`: implemented or documented at the current required level.
 - `in progress`: partially implemented or drafted, but not sufficient for the next validation gate.
 - `blocked`: cannot proceed responsibly until an upstream assumption or implementation is defined.
+
+## Current Posture: Observer Mode
+
+As of 2026-06-11 the project is in observer mode.
+
+The retained `Gamma(a)` branch is demoted to phenomenological interacting
+vacuum, Physical-QFUDS Level 2B is blocked, and the Source-X black-hole entropy
+/ Chen-Gamma lane was found ineligible for Level 2B because all five
+admission-rule items remain unsatisfied. See the Source-X
+[Level 2B admission eligibility review](../wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md).
+
+In observer mode:
+
+- No new physical-QFUDS branch is opened and no Level 2B work is performed.
+- Retained `Gamma(a)` is not rescued by wording.
+- The surviving falsifiable hook is the dark-energy timing signature (`w0 ~= -1`,
+  `|wa| > 0`, retained timing peak near `z ~= 2`). It is tracked against external
+  observations, not derived in-repository.
+- Watchlist: DESI DR3, Euclid, Roman, Rubin/LSST, the CCBH debate, and entropic
+  or IV/IDE reconstruction products.
+
+Observer mode is exited only when the future-branch admission rule is satisfied,
+or when new data isolate a `z ~= 2` dark-sector interaction feature that known
+families cannot absorb. This posture is recorded as audit success, not model
+success or failure: the structure-era timing intuition is retained, its
+explanatory candidates already exist in the literature, and current evidence
+cannot select among them or assert new physics.
 
 ## Levels
 

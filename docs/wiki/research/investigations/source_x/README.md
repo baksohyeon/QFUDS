@@ -72,12 +72,12 @@ records. The prefix is a route number, not a project-status claim.
 | 047 | [Chen-Gamma Shape Comparison Result](conclusions/047_chen_gamma_shape_comparison_result.md) | qualitative Chen-Gamma shape comparison closeout |
 | 048 | [Known-Model Distinction Audit Plan](plans/048_known_model_distinction_audit_plan.md) | plan-only known-model distinction audit scope |
 | 048 | [Known-Model Distinction Audit Result](conclusions/048_known_model_distinction_audit_result.md) | Phase 5 known-model distinction closeout |
+| 049 | [Level 2B Admission Eligibility Review and Observer-Mode Routing](conclusions/049_level2b_eligibility_review_and_observer_mode.md) | gate-check verdict; routes the lane to observer mode |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 049 | reserved Level 2B admission eligibility review | gate check only; no Level 2B opening without all admission-rule items |
 | 050 | reserved later Phase 5 or admission follow-up | do not use to bypass the 048 Chen-Gamma distinction result |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
@@ -131,6 +131,12 @@ Reserved future records:
 - `048` also includes a result closeout that executes Phase 5 known-model
   distinction for the current Chen-Gamma lane. It finds no supported
   known-model distinction and leaves all five admission-rule items blocked.
+- `049` is the Level 2B admission eligibility review. It finds the lane
+  ineligible for Level 2B because all five admission-rule items remain
+  unsatisfied, frames the outcome as audit success rather than model success or
+  failure, and routes the lane to observer mode with an external watchlist
+  (DESI DR3, Euclid, Roman, Rubin/LSST, CCBH, entropic/IV-IDE products). It does
+  not open Level 2B and does not itself modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
