@@ -31,3 +31,4 @@ not store downloaded assets.
 - [Numeric Digitization Planning Audit](044_numeric_digitization_planning_audit.md)
 - [Chen Figure 5 Numeric Digitization Execution Plan](045_chen_figure5_numeric_digitization_execution_plan.md)
 - [Numeric Digitization Execution Plan](046_numeric_digitization_execution_plan.md)
+- [Chen-Gamma Shape Comparison Plan](047_chen_gamma_shape_comparison_plan.md)
