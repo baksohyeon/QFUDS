@@ -58,6 +58,14 @@ Operational workflow rules live in
   - scope-demotion process retrospective.
 - [Source-X Data Product Audit Retrospective](postmortem/004-20260610-dorito-source-x-data-product-audit.md)
   - data-product audit process retrospective.
+- [Research Asset Digitization Automation Retrospective](postmortem/005-20260611-dorito-research-asset-digitization-automation.md)
+  - research asset digitization workflow retrospective.
+- [Pre-commit Regression Test Scope Retrospective](postmortem/006-20260611-dorito-precommit-regression-test-scope.md)
+  - pre-commit validation-scope retrospective.
+- [Source-X Product Routing Workflow Retrospective](postmortem/007-20260611-dorito-source-x-product-routing-workflow.md)
+  - asset-product and investigation-result routing retrospective.
+- [Source-X Progress Checkpoint](postmortem/008-20260611-dorito-source-x-progress-checkpoint.md)
+  - end-of-day Source-X product-recovery and next-gate checkpoint.
 
 ## Research Cache
 
