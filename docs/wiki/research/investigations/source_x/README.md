@@ -34,7 +34,8 @@ Use phase-reserved prefixes:
 020-029  Phase 2: Source-X candidate selection and coverage
 030-039  Phase 3: Q^nu derivation attempt
 040      Data-product interlock before Phase 4 derivation work
-041-049  Phase 4: delta Q derivation attempt
+041      Product-recovery candidate selection
+042-049  Phase 4: delta Q derivation attempt after a candidate X product exists
 050-059  Phase 5: known-model distinction
 060-069  Final: Level 2B admission audit
 ```
@@ -58,12 +59,13 @@ records. The prefix is a route number, not a project-status claim.
 | 031 | [Phase 3 Q^nu Derivation Attempt](conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
 | 040 | [Black-Hole Data Product Audit Plan](plans/040_black_hole_data_product_audit_plan.md) | data-product interlock before Phase 4 |
 | 040 | [Black-Hole Data Product Audit](conclusions/040_black_hole_data_product_audit.md) | data-product interlock result |
+| 041 | [Product-Recovery Candidate Selection Plan](plans/041_product_recovery_candidate_selection_plan.md) | product-recovery candidate selection |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 041 | `041_phase4_delta_q_derivation_attempt.md` | derive or fail to derive `delta Q`; no perturbation viability claim without equations |
+| 042 | `042_phase4_delta_q_derivation_attempt.md` | derive or fail to derive `delta Q` only after a candidate `X` product exists; no perturbation viability claim without equations |
 | 050 | `050_phase5_known_model_distinction.md` | compare against CCBH, IV/IDE, HDE, remnant-DM, and adjacent known models |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
@@ -86,6 +88,9 @@ Reserved future records:
 - `040` is an intentional data-product interlock before Phase 4 delta-Q
   derivation work. It plans and records product coverage only; it does not
   derive `Q^nu`, open Level 2B, or modify roadmap status.
+- `041` selects cached product-recovery candidates for future manual
+  structuring or numeric digitization. It does not populate an extracted
+  product, derive `delta Q`, open Level 2B, or modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
