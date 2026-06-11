@@ -66,12 +66,13 @@ records. The prefix is a route number, not a project-status claim.
 | 045 | [Chen Figure 5 Numeric Digitization Execution Plan](plans/045_chen_figure5_numeric_digitization_execution_plan.md) | Chen Figure 5 digitization execution specification |
 | 046 | [Numeric Digitization Execution Plan](plans/046_numeric_digitization_execution_plan.md) | approved Chen Figure 5 numeric digitization scope |
 | 046 | [Chen Figure 5 Numeric Digitization Result](conclusions/046_chen_figure5_numeric_digitization_result.md) | Chen Figure 5 numeric digitization closeout |
+| 047 | [Chen-Gamma Shape Comparison Plan](plans/047_chen_gamma_shape_comparison_plan.md) | plan-only qualitative shape comparison scope |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 047-049 | reserved product-recovery follow-up records | use only after the numeric product state is known; no perturbation viability claim without equations |
+| 048-049 | reserved product-recovery follow-up records | use only after the numeric product state is known; no perturbation viability claim without equations |
 | 050 | `050_phase5_known_model_distinction.md` | compare against CCBH, IV/IDE, HDE, remnant-DM, and adjacent known models |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
@@ -112,6 +113,9 @@ Reserved future records:
 - `046` also includes a result closeout that records the product-state advance
   to `numeric_digitized` while preserving the `data_product_blocked` physical
   admission boundary.
+- `047` plans a qualitative Chen-Gamma shape comparison. It does not execute the
+  comparison, fit parameters, create candidate `X`, derive `Q^nu`, derive
+  `delta Q`, open Level 2B, or modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
