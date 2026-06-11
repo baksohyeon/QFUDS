@@ -13,8 +13,9 @@ depends_on:
   - result_004_p1_model_family_positioning
   - result_005_timing_prior_usefulness
   - result_006_literature_timing_support_audit
-next_gate: no physical branch without X, Q^nu, phase-B rationale, delta Q, and known-model distinction
-last_updated: 2026-06-10
+  - audit_2026_06_11_known_model_distinction_audit_result
+next_gate: observer mode; no physical branch without X, Q^nu, phase-B rationale, delta Q, and known-model distinction
+last_updated: 2026-06-11
 ---
 
 # QFUDS Concept Survival Audit
@@ -252,6 +253,97 @@ It also cannot say:
 QFUDS is novel, physically derived, perturbatively complete, CMB viable,
 matter-power viable, DESI/Euclid/Roman viable, or observationally preferred.
 ```
+
+## Project Convergence Arc (2026-06-08 to 2026-06-11)
+
+This section records the higher-altitude arc of the project so the survival map
+above is read in context. It is narrative, not a status authority. Current
+status lives only in
+[000_roadmap.md](../05_next_steps/000_roadmap.md).
+
+### Timeline
+
+The repository spans about four days.
+
+```text
+2026-06-08 Mon  repository opens; prose theory, origin trail, v0.1-v0.3 notes
+2026-06-09 Tue  background validation and verification-record hardening
+2026-06-10 Wed  Source-X audit opens; black-hole lane, literature cache
+2026-06-11 Thu  040 data-product audit -> 043 extraction -> 046 Chen Figure 5
+                digitization -> 047 Gamma shape comparison -> 048 known-model
+                distinction -> 049 eligibility review and observer mode
+```
+
+The entire Source-X `040-049` sprint, from data-product audit to the known-model
+distinction and observer-mode routing, landed in a single day.
+
+### Methodology arc
+
+The discipline level rose in four stages, independent of the physics content:
+
+1. Prose theory and origin trail. The idea is held in words only, with no
+   verification device.
+2. Experiments and results (`exp_000` to `exp_006`). The idea is forced into a
+   LCDM null limit, a transfer scan, a physicality gate, an entropy gate, a
+   perturbation closure, and a model-family positioning. This is where retained
+   `Gamma(a)` was demoted from physics to phenomenological interacting vacuum.
+3. Governance and SSOT. The roadmap becomes the single status authority,
+   frontmatter and validation scripts are added, and the repository starts
+   policing its own over-claims.
+4. Source-X investigation. The chain hunts for a physical source `X` (black-hole
+   entropy history, Chen merger entropy) that could ground retained `Gamma(a)`,
+   and ends at a numeric comparator with no admitted physical source.
+
+### Source-X outcome (040-049)
+
+The Source-X chain did not break `data_product_blocked`. It moved the blocker
+forward and made it precise:
+
+```text
+literature exists
+-> manual structured extract exists (043)
+-> Chen Figure 5 numeric digitization exists (046)
+-> qualitative Gamma shape comparison done (047); red entropy density is the
+   closest timing comparator, but peaks earlier and has a shorter tail
+-> known-model distinction blocked (048); the lane is not distinguished from
+   entropy-DE, horizon entropy, black-hole-entropy DE, CCBH, IV/IDE, running
+   vacuum, emergent DE, or structure-activation families
+-> Level 2B ineligible; routed to observer mode (049)
+```
+
+See the
+[Known-Model Distinction Audit Result](../wiki/research/investigations/source_x/conclusions/048_known_model_distinction_audit_result.md)
+and the
+[Level 2B Admission Eligibility Review and Observer-Mode Routing](../wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md).
+
+### Reading of the outcome
+
+The result is best read as audit success, not model success or model failure:
+
+```text
+not QFUDS success
+not QFUDS failure
+QFUDS audit success
+```
+
+What the four days bought is a precise location of the idea: where it overlaps
+already-researched territory, how much is reducible to existing families, and
+where the unsolved-physics boundary begins. The five blocked admission items
+(`X`, `Q^nu`, phase-B `w ~= -1` rationale, `delta Q`, known-model distinction)
+are close to open problems of modern cosmology, so the lane reached a real
+research frontier rather than a self-made wall.
+
+The single most accurate closing sentence for the `040-049` chain is:
+
+> The intuition that an important transition sat near the structure-formation
+> era (`z ~= 2`) is retained, but its explanatory candidates already exist as
+> several research lines (CCBH, entropic DE, IDE, running vacuum, emergent DE),
+> and current evidence cannot select one of them or assert new physics.
+
+The original divergence (Landauer, white holes, foam) narrowed to one surviving
+question that the major surveys and competing dark-energy programs are already
+working on: why did something transition near cosmic high noon? That is the
+basis for the observer-mode posture recorded in `049`.
 
 ## Handoff Rule
 

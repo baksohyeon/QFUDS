@@ -166,6 +166,8 @@ Can this idea be made precise enough to be wrong?
 
 The detailed raw trail is not repeated in this overview. The source record is preserved in [concept_origin.md](docs/01_origin/concept_origin.md).
 
+For the current audited status of which branches survived, were demoted to motivation, or were killed against repository evidence, including the Source-X known-model-distinction outcome and the move to observer mode, see [concept_survival_audit.md](docs/00_project/concept_survival_audit.md). The [Roadmap](docs/05_next_steps/000_roadmap.md) remains the single source of truth for status.
+
 ## Research Program
 
 I implemented this because I wanted to see how far an initially playful hypothesis could stay coherent.

@@ -31,3 +31,4 @@ made through the project process.
 - [Chen Figure 5 Numeric Digitization Result](046_chen_figure5_numeric_digitization_result.md)
 - [Chen-Gamma Shape Comparison Result](047_chen_gamma_shape_comparison_result.md)
 - [Known-Model Distinction Audit Result](048_known_model_distinction_audit_result.md)
+- [Level 2B Admission Eligibility Review and Observer-Mode Routing](049_level2b_eligibility_review_and_observer_mode.md)
