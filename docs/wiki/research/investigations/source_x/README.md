@@ -35,9 +35,9 @@ Use phase-reserved prefixes:
 030-039  Phase 3: Q^nu derivation attempt
 040      Data-product interlock before Phase 4 derivation work
 041-047  Product-recovery selection, extraction, digitization, and shape comparison follow-up
-048      Known-model distinction audit plan for the Chen-Gamma lane
-049      Reserved known-model distinction follow-up if the 048 result requires it
-050-059  Later Phase 5 known-model distinction or admission follow-up
+048      Phase 5: known-model distinction for the Chen-Gamma lane
+049      Level 2B admission eligibility review, if requested
+050-059  Later Phase 5 or admission follow-up
 060-069  Final: Level 2B admission audit
 ```
 
@@ -71,14 +71,14 @@ records. The prefix is a route number, not a project-status claim.
 | 047 | [Chen-Gamma Shape Comparison Plan](plans/047_chen_gamma_shape_comparison_plan.md) | plan-only qualitative shape comparison scope |
 | 047 | [Chen-Gamma Shape Comparison Result](conclusions/047_chen_gamma_shape_comparison_result.md) | qualitative Chen-Gamma shape comparison closeout |
 | 048 | [Known-Model Distinction Audit Plan](plans/048_known_model_distinction_audit_plan.md) | plan-only known-model distinction audit scope |
+| 048 | [Known-Model Distinction Audit Result](conclusions/048_known_model_distinction_audit_result.md) | Phase 5 known-model distinction closeout |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 048 | `048_known_model_distinction_audit_result.md` | future execution result only; no roadmap or Level 2B change without all admission-rule items |
-| 049 | reserved known-model distinction follow-up | use only if the 048 result identifies a bounded follow-up need |
-| 050 | reserved later Phase 5 known-model/admission follow-up | do not use to bypass the 048 Chen-Gamma distinction route |
+| 049 | reserved Level 2B admission eligibility review | gate check only; no Level 2B opening without all admission-rule items |
+| 050 | reserved later Phase 5 or admission follow-up | do not use to bypass the 048 Chen-Gamma distinction result |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
 ## Short Interpretation
@@ -128,6 +128,9 @@ Reserved future records:
   entropy / Chen-Gamma lane. It does not execute the audit, claim novelty,
   define candidate `X`, derive `Q^nu`, derive `delta Q`, open Level 2B, or
   modify roadmap status.
+- `048` also includes a result closeout that executes Phase 5 known-model
+  distinction for the current Chen-Gamma lane. It finds no supported
+  known-model distinction and leaves all five admission-rule items blocked.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
