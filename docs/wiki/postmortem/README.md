@@ -25,3 +25,4 @@ not change roadmap status, promote evidence, or open a new research level.
 - [IV/IDE Timing Handoff Checkpoint](002-20260609-dorito-iv-ide-timing-checkpoint.md)
 - [QFUDS Scope Demotion Retrospective](003-20260610-dorito-qfuds-scope-demotion-retrospective.md)
 - [Source-X Data Product Audit Retrospective](004-20260610-dorito-source-x-data-product-audit.md)
+- [느린 pre-commit 훅 — 범인은 회귀 테스트](006-20260611-dorito-precommit-regression-test-scope.md)
