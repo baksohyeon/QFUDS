@@ -27,3 +27,4 @@ made through the project process.
 - [Phase 2 Candidate Selection Closeout](029_phase2_candidate_selection_closeout.md)
 - [Phase 3 Q^nu Derivation Attempt](031_phase3_qnu_derivation_attempt.md)
 - [Black-Hole Data Product Audit](040_black_hole_data_product_audit.md)
+- [Product-Recovery Extraction Result](043_product_recovery_extraction_result.md)
