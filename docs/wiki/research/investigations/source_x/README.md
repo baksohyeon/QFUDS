@@ -34,8 +34,7 @@ Use phase-reserved prefixes:
 020-029  Phase 2: Source-X candidate selection and coverage
 030-039  Phase 3: Q^nu derivation attempt
 040      Data-product interlock before Phase 4 derivation work
-041      Product-recovery candidate selection
-042-049  Phase 4: delta Q derivation attempt after a candidate X product exists
+041-049  Product-recovery selection, extraction, and digitization follow-up
 050-059  Phase 5: known-model distinction
 060-069  Final: Level 2B admission audit
 ```
@@ -60,12 +59,17 @@ records. The prefix is a route number, not a project-status claim.
 | 040 | [Black-Hole Data Product Audit Plan](plans/040_black_hole_data_product_audit_plan.md) | data-product interlock before Phase 4 |
 | 040 | [Black-Hole Data Product Audit](conclusions/040_black_hole_data_product_audit.md) | data-product interlock result |
 | 041 | [Product-Recovery Candidate Selection Plan](plans/041_product_recovery_candidate_selection_plan.md) | product-recovery candidate selection |
+| 042 | [Product-Recovery Execution Plan](plans/042_product_recovery_execution_plan.md) | product-recovery extraction procedure |
+| 043 | [Product-Recovery Extraction Plan](plans/043_product_recovery_extraction_plan.md) | product-recovery extraction execution scope |
+| 043 | [Product-Recovery Extraction Result](conclusions/043_product_recovery_extraction_result.md) | product-recovery extraction closeout |
+| 044 | [Numeric Digitization Planning Audit](plans/044_numeric_digitization_planning_audit.md) | numeric digitization target selection |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 042 | `042_phase4_delta_q_derivation_attempt.md` | derive or fail to derive `delta Q` only after a candidate `X` product exists; no perturbation viability claim without equations |
+| 045 | future numeric digitization execution record | execute selected curve digitization only if explicitly approved; no physical-admission claim |
+| 046-049 | reserved product-recovery follow-up records | use only after the numeric product state is known; no perturbation viability claim without equations |
 | 050 | `050_phase5_known_model_distinction.md` | compare against CCBH, IV/IDE, HDE, remnant-DM, and adjacent known models |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
@@ -91,6 +95,13 @@ Reserved future records:
 - `041` selects cached product-recovery candidates for future manual
   structuring or numeric digitization. It does not populate an extracted
   product, derive `delta Q`, open Level 2B, or modify roadmap status.
+- `042` defines the extraction procedure for the selected Lacy and Chen
+  product-recovery lanes. It does not extract or digitize values.
+- `043` records both the extraction plan and the extraction-result closeout.
+  The result confirms that manual structured extracts exist, but a
+  QFUDS-usable numeric product does not.
+- `044` selects the first numeric digitization target. It does not digitize,
+  create a structured product, open Level 2B, or modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

@@ -26,3 +26,6 @@ not store downloaded assets.
 - [Phase 3 Q^nu Derivation Attempt Plan](030_phase3_qnu_derivation_attempt_plan.md)
 - [Black-Hole Data Product Audit Plan](040_black_hole_data_product_audit_plan.md)
 - [Product-Recovery Candidate Selection Plan](041_product_recovery_candidate_selection_plan.md)
+- [Product-Recovery Execution Plan](042_product_recovery_execution_plan.md)
+- [Product-Recovery Extraction Plan](043_product_recovery_extraction_plan.md)
+- [Numeric Digitization Planning Audit](044_numeric_digitization_planning_audit.md)
