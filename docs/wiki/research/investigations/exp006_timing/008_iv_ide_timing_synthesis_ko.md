@@ -12,7 +12,7 @@ depends_on:
   - audit_2026_06_09_exp006_coverage_expansion
   - audit_2026_06_09_li_2025_digitized_compression
 next_gate: no roadmap change; use as Korean handoff summary only
-last_updated: 2026-06-09
+last_updated: 2026-06-11
 record_type: korean_synthesis
 ---
 
@@ -23,6 +23,17 @@ record_type: korean_synthesis
 모형군) timing 조사의 한국어 handoff summary(다음 세션이 바로 이어받기
 위한 요약)다. 새 실험이 아니며, roadmap status(현재 프로젝트 진행 상태)나
 Exp004, Exp005, Exp006 결론을 바꾸지 않는다.
+
+별도 영어 원문을 번역한 문서가 아니다. 아래 repository records(저장소에
+남아 있는 조사/결과 문서)를 한국어로 합성한 handoff다.
+
+| Source record | Role |
+| --- | --- |
+| [Result 004 P1 Model Family Positioning](../../../../04_results/030_result_004_p1_model_family_positioning.md) | retained P1을 IV/IDE family로 분류한 결과 문서 |
+| [Result 005 Timing Prior Usefulness](../../../../04_results/030_result_005_timing_prior_usefulness.md) | retained timing을 compression target으로 시험한 결과 문서 |
+| [Result 006 Literature Timing Support Audit](../../../../04_results/030_result_006_literature_timing_support_audit.md) | Escamilla 2023 기준 literature timing audit 결과 문서 |
+| [Coverage Expansion Audit](003_coverage_expansion_audit.md) | DESI-era/nonparametric/sign-switching coverage gap을 확인한 조사 문서 |
+| [Li 2025 Digitized Compression Audit](007_li_2025_digitized_compression_audit.md) | Li & Zhang 2025 digitized comparison에서 partial compression을 판정한 조사 문서 |
 
 ## 한 줄 결론
 

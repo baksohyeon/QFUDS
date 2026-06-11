@@ -69,5 +69,5 @@ Operational workflow rules live in
   research-process records.
 - [Research Assets](research/assets/README.md) - cached external source and
   derived inspection assets.
-- [IV/IDE Timing Korean Synthesis](research/2026-06-09_iv_ide_timing_synthesis_ko.md)
+- [IV/IDE Timing Korean Synthesis](research/investigations/exp006_timing/008_iv_ide_timing_synthesis_ko.md)
   - Korean timing synthesis reference.

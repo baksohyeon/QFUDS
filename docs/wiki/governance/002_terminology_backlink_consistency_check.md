@@ -74,7 +74,7 @@ definitions, duplicate glossary content, or change roadmap status.
 - [docs/wiki/postmortem/001-20260609-dorito-li-2025-data-cache.md](../postmortem/001-20260609-dorito-li-2025-data-cache.md)
 - [docs/wiki/postmortem/002-20260609-dorito-iv-ide-timing-checkpoint.md](../postmortem/002-20260609-dorito-iv-ide-timing-checkpoint.md)
 - [docs/wiki/postmortem/003-20260610-dorito-qfuds-scope-demotion-retrospective.md](../postmortem/003-20260610-dorito-qfuds-scope-demotion-retrospective.md)
-- [docs/wiki/research/2026-06-09_iv_ide_timing_synthesis_ko.md](../research/2026-06-09_iv_ide_timing_synthesis_ko.md)
+- [docs/wiki/research/investigations/exp006_timing/008_iv_ide_timing_synthesis_ko.md](../research/investigations/exp006_timing/008_iv_ide_timing_synthesis_ko.md)
 - [docs/wiki/research/investigations/exp006_timing/007_li_2025_digitized_compression_audit.md](../research/investigations/exp006_timing/007_li_2025_digitized_compression_audit.md)
 - [docs/wiki/research/investigations/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md](../research/investigations/exp006_timing/005_li_2025_timing_overlap_matrix_plan.md)
 
