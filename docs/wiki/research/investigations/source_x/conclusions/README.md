@@ -29,3 +29,4 @@ made through the project process.
 - [Black-Hole Data Product Audit](040_black_hole_data_product_audit.md)
 - [Product-Recovery Extraction Result](043_product_recovery_extraction_result.md)
 - [Chen Figure 5 Numeric Digitization Result](046_chen_figure5_numeric_digitization_result.md)
+- [Chen-Gamma Shape Comparison Result](047_chen_gamma_shape_comparison_result.md)
