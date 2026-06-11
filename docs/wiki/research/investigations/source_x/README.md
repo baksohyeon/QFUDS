@@ -67,6 +67,7 @@ records. The prefix is a route number, not a project-status claim.
 | 046 | [Numeric Digitization Execution Plan](plans/046_numeric_digitization_execution_plan.md) | approved Chen Figure 5 numeric digitization scope |
 | 046 | [Chen Figure 5 Numeric Digitization Result](conclusions/046_chen_figure5_numeric_digitization_result.md) | Chen Figure 5 numeric digitization closeout |
 | 047 | [Chen-Gamma Shape Comparison Plan](plans/047_chen_gamma_shape_comparison_plan.md) | plan-only qualitative shape comparison scope |
+| 047 | [Chen-Gamma Shape Comparison Result](conclusions/047_chen_gamma_shape_comparison_result.md) | qualitative Chen-Gamma shape comparison closeout |
 
 Reserved future records:
 
@@ -116,6 +117,9 @@ Reserved future records:
 - `047` plans a qualitative Chen-Gamma shape comparison. It does not execute the
   comparison, fit parameters, create candidate `X`, derive `Q^nu`, derive
   `delta Q`, open Level 2B, or modify roadmap status.
+- `047` also includes a result closeout that records limited qualitative
+  timing-shape resemblance and material peak/tail mismatch. It preserves the
+  `data_product_blocked` boundary and makes no QFUDS support claim.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
