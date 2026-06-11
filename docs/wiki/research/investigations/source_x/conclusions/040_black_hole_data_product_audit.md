@@ -301,6 +301,44 @@ These are recovery tasks, not Level 2B openings and not QFUDS support claims:
 5. If Chen 2026 is used for a redshift entropy history, digitize or extract the
    relevant figure/table products and document the uncertainty route.
 
+## Post-Cache Development Readiness
+
+After the 2026-06-11 asset-cache and paper-parse cleanup, Source-X can be
+developed further, but only at the product-recovery and equation-extraction
+layer.
+
+The information gap changed from:
+
+```text
+papers/products may be missing
+```
+
+to:
+
+```text
+papers and selected products are cached; QFUDS-usable structured products are
+still missing
+```
+
+That makes these follow-ups admissible:
+
+1. Extract a structured `rho_BH(a)` or `d rho_BH / dln(a)` candidate from the
+   cached CCBH/LVK/Lacy/Amendola materials, with units, redshift coverage,
+   uncertainty route, and provenance.
+2. Extract a structured `S_BH(a)` or `dS_BH / dln(a)` candidate from
+   Chen 2026 or Lineweaver, with units, redshift coverage, uncertainty route,
+   and provenance.
+3. Search the cached source text for an explicit entropy-to-energy or
+   mass-growth-to-transfer equation. If none exists, record the absence as a
+   failed derivation precondition rather than filling it with a fitted
+   `Gamma(a)`.
+4. Only after a candidate `X` product exists, attempt the Phase 4 `delta Q`
+   derivation or record why it fails.
+
+These follow-ups still do not open Level 2B. A cached paper, full-text parse,
+figure, table, or source bundle is not a QFUDS-ready source product until it is
+manually structured or numerically digitized with provenance and uncertainty.
+
 ## Markdown Conversion Outputs
 
 MarkItDown PDF-to-Markdown conversions were created for cached paper PDFs as

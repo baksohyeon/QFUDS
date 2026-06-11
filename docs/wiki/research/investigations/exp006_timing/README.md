@@ -30,3 +30,4 @@ paper assets here; those belong under
 5. [Li 2025 Timing Overlap Matrix Plan](005_li_2025_timing_overlap_matrix_plan.md)
 6. [Li 2025 Public Product Search Audit](006_li_2025_public_product_search_audit.md)
 7. [Li 2025 Digitized Compression Audit](007_li_2025_digitized_compression_audit.md)
+8. [IV/IDE Timing Korean Synthesis](008_iv_ide_timing_synthesis_ko.md)

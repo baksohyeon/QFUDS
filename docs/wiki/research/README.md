@@ -41,7 +41,7 @@ docs/wiki/research/
 - [Literature Cache](literature/README.md)
 - [Research Investigations](investigations/README.md)
 - [Research Assets](assets/README.md)
-- [IV/IDE Timing Korean Synthesis](2026-06-09_iv_ide_timing_synthesis_ko.md)
+- [IV/IDE Timing Korean Synthesis](investigations/exp006_timing/008_iv_ide_timing_synthesis_ko.md)
 
 ## Folder Roles
 
@@ -49,14 +49,13 @@ docs/wiki/research/
   Bibliographic metadata, source-defined equations, available products, redshift
   coverage, datasets, and narrow relevance notes.
 - `investigations/`: dated research-process records. Use this for search plans,
-  availability checks, feasibility checks, data-product audits, and audit-chain
-  conclusions. Audit folders are process history, not asset storage.
+  availability checks, feasibility checks, data-product audits, synthesis
+  handoffs, and audit-chain conclusions. Audit folders are process history, not
+  asset storage.
 - `assets/`: repository-cached external files and derived asset products,
   grouped by paper or release key.
-- top-level one-off synthesis files, such as
-  [IV/IDE Timing Korean Synthesis](2026-06-09_iv_ide_timing_synthesis_ko.md),
-  are allowed only when they are research-cache summaries, not roadmap status or
-  experiment results.
+- one-off synthesis files belong under the investigation chain they summarize,
+  not at the research-cache root.
 
 For operational rules, state names, and required asset handling, use the
 [Research Asset and Product Workflow](../../../.agent/workflows/research-asset-product-workflow.md).
