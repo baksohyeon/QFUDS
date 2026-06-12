@@ -799,6 +799,54 @@ Level 3, **blocked**.
 - η 는 proxy, w·c_s² 는 손잡이, 050 천장 그대로. 진짜 검증은 CLASS/hi_class = blocked.
 ```
 
+## CP17 (2026-06-12): CMB렌즈는 z≳1, 약중력렌즈는 z~0.3 — 같은 c_eff²가 둘을 동시에 깰까
+
+CP5–CP9는 암흑유체 음속 c_eff²를 손으로 키워 성장(growth)을 눌러 약중력렌즈 S8를
+0.83→0.76(진폭 약 8.4%↓)로 끌어내렸다. 약중력렌즈는 z~0.3–0.8의 **저적색편이**
+탐침이다. 그런데 ACT DR6 CMB렌즈는 같은 "구조 성장"을 보면서도 ΛCDM과
+일치한다(렌즈 진폭 A_lens=1.013±0.023, 약 2.3% 정밀도, S8^CMBL=0.818±0.022, 43σ;
+저z 억제 증거 없음 — arXiv:2304.05202). **여기서 쓴 ACT 수치는 그 논문 초록에서
+길어온 대표 스칼라값(인용)일 뿐, likelihood가 아니며 데이터벡터·공분산은 일절
+들이지 않았다.** 질문: S8를 끌어내린 그 c_eff²가 CMB렌즈 C_ℓ^φφ도 ΛCDM에서
+밀어내 — 약중력렌즈는 낮게, CMB렌즈는 ΛCDM을 원하는 — 모순(CP10 H0 실패의 섭동판
+짝)에 빠지는가? ([`cp17_cmb_lensing.py`](assets/004_rough_tanh/cp17_cmb_lensing.py),
+[`fig_cp17_cmb_lensing.png`](assets/004_rough_tanh/fig_cp17_cmb_lensing.png))
+
+cp9 η-Jeans 프록시 성장 D(k,z)로 Limber C_ℓ^φφ = ∫dz W_κ²/(χ²H/c)·P(ℓ/χ,z)를
+계산했다. P_prim·T(k)²는 두 모형에 공통으로 두고 성장 D만 다르게 해 비(ratio)를
+깨끗이 했다(기하는 ΛCDM 고정 — CP10에서 배경≈ΛCDM이므로 섭동 효과만 분리). 핵심은
+**렌즈 커널이 z를 어디에 싣느냐**다: CMB렌즈는 가중치의 **91%가 z>1, z<0.5는
+3%**뿐 — 약중력렌즈(z~0.3–0.8)보다 훨씬 높은 z를 본다. 토이의 성장 변형은 z≲1에서만
+자라고 z~2에선 D_Q/D_L≈1.00이라, z≳1을 싣는 CMB렌즈는 그 변형을 거의 못 본다.
+
+| 항목 | 값 | 메모 |
+| --- | --- | --- |
+| ACT DR6 렌즈 진폭 정밀도 | ±2.3% (A_lens=1.013±0.023) | 대표값, 출처 arXiv:2304.05202, **likelihood/공분산 아님** |
+| 약중력렌즈가 원하는 진폭 ↓ | 8.4% (S8 0.83→0.76, z~0.3) | cp5 라인 |
+| C_ℓ^φφ 밴드평균(ℓ100–600) c²=2.92e-5(S8→0.76 fit) | ΛCDM 대비 **+0.8% (0.34σ)** | ACT ±2.3% 밴드 **안쪽** |
+| C_ℓ^φφ 밴드평균 c²=4.6e-6(cp8/cp9 라인값) | +5.0% | 단 이 c²는 S8≈0.82(0.76 아님) |
+| 판정 | **뚜렷한 CMB렌즈 tension 없음** | 토이가 *늦은* 유체라 빠져나감 |
+
+판정: **모순 아님.** 약중력렌즈 S8를 8.4% 끌어내리는 그 c_eff²가 CMB렌즈는
+0.8%(0.34σ)밖에 못 움직여 ACT 대표 밴드 안에 든다. 토이는 "성장 변형을 z<1에
+몰아넣은 늦은 유체"라는 성질 덕에 약중력렌즈와 CMB렌즈 사이를 통과한다 — CP10에서
+H0가 깨진 것과는 반대 결과다. 단 솔직한 단서 셋: (1) 라인 드리프트 — c²=4.6e-6은
+실제로 S8≈0.82를 주고 S8=0.76 교차는 c²≈2.92e-5다(헤드라인은 후자, 둘 다 보고).
+(2) Jeans 프록시는 c²→0에서 w→-1 성분을 억지로 뭉치게 해 대규모에서 과군집(밴드비
+1.07>1)하므로 이 작은 변화의 *부호*는 프록시 의존적이다 — 단 *작다*는 점만 견고하다.
+(3) 천장(050: foam에서 암흑섹터 유도)·observer mode는 그대로 손대지 않았고, 진짜
+검증은 CLASS/hi_class 결합섭동(Level 3)이며 BLOCKED.
+
+### CP17 결론 (2026-06-12)
+
+```text
+- C_ℓ^φφ 밴드평균(ℓ100–600): S8=0.76 fit c²=2.92e-5에서 ΛCDM 대비 +0.8%(0.34σ), ACT ±2.3% 안쪽.
+- 대비: 약중력렌즈는 z~0.3에서 진폭 8.4%↓를 원하지만, CMB렌즈는 가중치 91%가 z>1이라 같은 c²를 거의 못 봄.
+- 판정: 뚜렷한 tension 없음 — weak-lensing wants low, CMB-lensing wants ΛCDM이지만 토이가 '늦은 유체'라 둘 사이 통과(CP10 H0 실패와 반대).
+- ACT 정밀도(2.3%, A_lens=1.013±0.023, S8^CMBL=0.818±0.022)는 arXiv:2304.05202 대표값 인용 — likelihood/공분산 아님.
+- 단서: 프록시가 c²→0에서 과군집(부호 프록시 의존), 작다는 점만 견고. 050·observer mode 그대로, 진짜는 CLASS blocked.
+```
+
 ## 재현
 
 ```bash
@@ -823,6 +871,7 @@ python3 cp13_isw.py              # fig_cp13_isw.png + csv (CP13 ISW)
 python3 cp14_kill_test.py        # fig_cp14_kill_test.png + csv (CP14 kill test)
 python3 cp15_viscosity.py        # fig_cp15_viscosity.png + csv (CP15 점성 c_vis²)
 python3 cp16_growth_index.py     # fig_cp16_growth_index.png + csv (CP16 성장지수 γ)
+python3 cp17_cmb_lensing.py      # fig_cp17_cmb_lensing.png + csv (CP17 CMB렌즈 내부모순)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
