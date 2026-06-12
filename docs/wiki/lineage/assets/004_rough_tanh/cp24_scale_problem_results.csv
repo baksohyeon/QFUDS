@@ -1,0 +1,14 @@
+"# CP24 scale problem — survey + ledger (parametrize, not derive)"
+# xi_target_Mpc,9.5398,from c_s²=4.6e-6 (CP8)
+origin,scale_Mpc,ratio_to_xi,category,note
+matter–radiation equality  1/k_eq,94.7232,9.9293,wrong-size,"horizon @ z_eq≈3499, set by Ω_m h²; ~10× too big, not ξ"
+sound horizon at drag  r_d,147.0900,15.4185,wrong-size,"representative (Planck2018, cited); ~15× too big, not ξ"
+nonlinear / σ8 scale  R8=8/h,11.8694,1.2442,circular,"ξ LANDS here, but R8 is fixed by STANDARD physics (Ω_m h², P(k), transfer) → matching it = zero independent evidence"
+dark-fluid Jeans  λ_J=c_s/H @z*=2,9.4370,0.9892,circular,= ξ·(1+z*)/E(z*) BY CONSTRUCTION; built from c_s² (the CP8 fit) → circular
+causal/Kibble horizon @z~2,4400.0159,461.2268,wrong-size,comoving Hubble radius; 461× too big (CP20/CP21)
+dimensional transmutation  L0·exp(c/g²),10.0000,1.0482,relocated,"reaches 10 Mpc only by choosing g (exp≈134 from Planck L0); relocates tuning, does not pick 10 Mpc"
+transmutation_exponent_Planck,134.1966,,relocated,c/g² = ln(10Mpc/L_Planck)
+transmutation_exponent_GeVinv,90.2479,,relocated,c/g² = ln(10Mpc/(1 GeV^-1))
+transmutation_coupling_precision_x2,0.002583,,relocated,fractional |Δln g| to stay within ×2 of 10 Mpc
+z_eq,3499.00,,context,matter–radiation equality redshift
+Omega_m_h2,0.1431,,context,fixes k_eq & R8 (standard)
