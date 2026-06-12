@@ -1,0 +1,25 @@
+DESI DR1 Lyalpha BAO
+ DM/rd = 39.6964 +- 0.9105
+ DH/rd = 8.5160 +- 0.1692
+ rho = -0.46
+
+DESI DR2 stat
+ DM/rd = 38.9886 +- 0.5190
+ DH/rd = 8.6315 +- 0.0978
+ rho = -0.46
+
+DESI DR2 stat+sys
+ DM/rd = 38.9886 +- 0.5312
+ DH/rd = 8.6316 +- 0.1011
+ rho = -0.43
+
+CMB (LambdaCDM)
+ DM/rd = 39.0913 +- 0.1915
+ DH/rd = 8.5939 +- 0.0774
+ rho = 1.00
+
+CMB + DESY5 (w_0 w_aCDM)
+ DM/rd = 39.0311 +- 0.5226
+ DH/rd = 8.7257 +- 0.1805
+ rho = 0.95
+
