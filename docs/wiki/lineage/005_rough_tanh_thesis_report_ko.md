@@ -500,6 +500,7 @@ swampland는 모두 relocate한다.
 | CP22 | coincidence tracker | IC 16 decade 부분환원, meV 잔존 | `fig_cp22_coincidence_tracker` |
 | CP23 | meV=우주상수 문제 | 아무도 derive 못 함 | `fig_cp23_cc_problem` |
 | CP24 | ξ=σ8 스케일 | circular, 독립 유도 없음 | `fig_cp24_scale_problem` |
+| CP25 | "덜 본 것" 직관 학계 위치 | S1·S2·S3 모두 학계 이미 답사 → lineage 자연 닫힘 | (수치 없음, 문헌) |
 
 ## 부록 B: 재현 (Reproducibility)
 
