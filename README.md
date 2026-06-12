@@ -69,7 +69,7 @@ The map reads on three levels:
   dark sector barely spreads and mostly clumps) pulls the structure-growth
   amplitude $S_8$ down to the observed $S_8 \approx 0.76$. But this is not better than
   LCDM: the apparent fit win is just the generic effect of lowering $S_8$, it costs
-  one more hand-tuned knob, and the $H_0$ tension (the ~8% disagreement between
+  one more hand-tuned knob, and the $H_0$ tension (the roughly 8% disagreement between
   nearby and distant measures of the expansion rate) gets *worse*, not better.
 - **Falsifiable level: where the science actually is.** Because it hides in the
   background, the model's only scientific value is where it *diverges* from LCDM.
@@ -95,9 +95,9 @@ The map reads on three levels:
 
 Two findings survive as genuine, narrow gains rather than story language: a
 tracker-attractor mechanism (any starting value gets pulled to the same outcome
-over time) that removes ~15.7 decades (factors of ten, an enormous range) of
+over time) that removes about 15.7 decades (factors of ten, an enormous range) of
 initial-condition tuning, the one real partial win, and the observation that three independent
-"what did I miss?" intuitions each re-discovered, on their own, ~25 years of
+"what did I miss?" intuitions each re-discovered, on their own, about 25 years of
 existing literature (chameleon screening, LTB voids, Buchert averaging), which
 corroborates that the ceiling is real rather than an artifact of one approach.
 
@@ -188,7 +188,7 @@ whether vacuum energy should not be cut at the Planck scale but coarse-grained
 travelled from the 1990s to today. Obvious in hindsight, and quietly funny in the
 moment. This is what standing on the shoulders of giants feels like: holographic
 dark energy, EFTofLSS, IR cutoffs, coarse-graining, running vacuum, Buchert
-averaging, LTB voids, screening. Even the specific move of using the ~10 Mpc
+averaging, LTB voids, screening. Even the specific move of using the roughly 10 Mpc
 nonlinear scale as a coarse-graining cutoff for the dark sector was already in the
 papers.
 
