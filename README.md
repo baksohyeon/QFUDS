@@ -6,13 +6,13 @@ Language: English | [Korean](docs/00_project/qfuds_ko.md)
 
 ### Abstract
 
-This repository explores whether dark matter and dark energy could appear as two macroscopic phases of the same microscopic quantum-spacetime foam sector. In standard LCDM, dark matter and dark energy are treated as separate components. QFUDS asks whether both phenomena could instead be different large-scale appearances of one quantum foam medium.
+This repository explores whether dark matter (the unseen mass that makes up most of the universe's matter but gives off no light) and dark energy (the unknown energy driving the universe's accelerating expansion) could appear as two macroscopic phases of the same microscopic quantum-spacetime foam (a hypothetical medium in which spacetime froths at the tiniest scales). In standard LCDM (the current best-fit cosmological model), the two are treated as separate components. QFUDS asks whether both could instead be different large-scale appearances of one quantum foam medium.
 
 Analogy: water can appear as ice, liquid water, or vapor depending on conditions. QFUDS asks a similar question about the dark sector. Can one underlying medium look like matter under one condition and like vacuum pressure under another?
 
-In this picture, the clustering phase must behave like an almost pressureless component with $w \simeq 0$ and $c_s^2 \simeq 0$. That is how it can participate in structure formation like cold dark matter. The residual phase would have to behave like a slow vacuum-pressure component with $w \simeq -1$ if it is to account for cosmic acceleration. Black holes are not used as evidence for QFUDS. At most, they are speculative QFUDS labels for local information-compression sites, while black/white-hole remnants remain secondary topological-defect candidates unless their dynamics and constraints are derived.
+In this picture, the clustering phase must behave like an almost pressureless component (equation of state $w \simeq 0$, effective sound speed $c_s^2 \simeq 0$). That is how it can join structure formation like cold dark matter. The residual phase would have to behave like a slow vacuum-pressure component ($w \simeq -1$) to account for cosmic acceleration. Black holes are not used as evidence for QFUDS. At most they are speculative QFUDS labels for local information-compression sites, while black/white-hole remnants stay secondary topological-defect candidates (loosely, flaws in the weave of spacetime) unless their dynamics and constraints are derived.
 
-The model preserves the Friedmann background dynamics of general relativity. Instead, it asks whether QFUDS can produce signals that differ from LCDM in dark-energy evolution, small-scale galaxy halo structure, or dark-sector clustering. Any statement about black-hole evaporation is a quantum-gravity motivation, not a current observational test of this repository.
+The model keeps the Friedmann background dynamics of general relativity (the standard equations for how the universe expands on average). It then asks whether QFUDS can produce signals that differ from LCDM in dark-energy evolution, small-scale galaxy halo structure (a halo is the clump of dark matter wrapping a galaxy), or dark-sector clustering. Any statement about black-hole evaporation is a quantum-gravity motivation, not a current observational test of this repository.
 
 This project is not a complete physical theory. It is a research program and a testable toy framework. The goal is to put the hypothesis under real tests and turn it into falsifiable predictions that can be checked against the cosmic microwave background (CMB), large-scale structure, galaxy halo profiles, dark matter detection experiments, and precision measurements of the dark-energy equation of state.
 
@@ -253,13 +253,13 @@ The seemingly vague act of "forgetting" is actually paid to the universe as heat
 This is a neuroscience story, a story about the limits of computers, and also a cosmology story.
 ```
 
-Conservative reading: Landauer's principle applies to logically irreversible erasure in a physical system coupled to a thermal environment. It does not mean that every act of computation has the same unavoidable cost, and it does not by itself imply cosmology.
+Conservative reading: Landauer's principle applies to logically irreversible erasure (deletions you cannot undo, like overwriting a bit) in a physical system coupled to a thermal environment (one that can exchange heat with its surroundings). It does not mean that every act of computation has the same unavoidable cost, and it does not by itself imply cosmology.
 
 Analogy: deleting a file does not make a laptop ignore physics. The machine still uses energy and releases heat. In the ideal limit, erasing one bit has a minimum thermodynamic cost of order $k_B T \ln 2$ under the usual Landauer assumptions. The longer raw trail is not repeated here; it is preserved in [concept_origin.md](docs/01_origin/concept_origin.md).
 
 That immediately led me to the black-hole question.
 If information has a physical cost, a black hole should not be treated as a simple trash can in a quantum theory. This is a motivation for asking sharper questions, not a derivation of QFUDS.
-The next questions are where the information is encoded, whether a unitary evaporation process would return it through correlations in the radiation, and whether the obstacle is information destruction or decoding complexity.
+The next questions: where is the information encoded; could a unitary evaporation (one that preserves information rather than destroying it) hand it back through correlations hidden in the radiation; and is the real obstacle that information is destroyed, or just that decoding it is hopelessly complex?
 
 The first thought flow was not a proof. The question moved roughly like this:
 
@@ -470,8 +470,8 @@ $$
 \frac{d\rho_B}{d\ln a} = \Gamma(a)\rho_A
 $$
 
-The test this branch was held to was whether $\Gamma(a)$ can be tied to a physical source or explicitly labeled proxy instead of being a hand-fit function. It did not pass that bar as a physical derivation and now survives only as labeled phenomenology.
-Useful but still provisional validation directions are low-redshift collapse, black-hole entropy, and star-formation proxies.
+The test this branch was held to was whether $\Gamma(a)$ can be tied to a real physical source, or to an explicitly labeled proxy (a stand-in quantity whose origin is stated up front), instead of being a hand-fit function. It did not pass that bar as a physical derivation and now survives only as labeled phenomenology.
+Useful but still provisional validation directions are low-redshift collapse (how structure breaks down in the nearby, recent universe), black-hole entropy, and star-formation proxies.
 Constant transfer or ungated growth-based transfer will either fail early or return to ordinary interacting-dark-energy behavior.
 
 Analogy: this is like two connected water tanks. One tank is the clustering phase, and the other is the residual phase. $\Gamma(a)$ is the valve rule. If the valve rule is set arbitrarily, it is just tuning. If the valve rule comes from a physical source, it can be tested.
@@ -503,13 +503,13 @@ This model tries to connect three ideas.
 
 1. Unified dark sector: can dark matter and dark energy share the same origin?
 2. Coincidence problem: why are the dark matter and dark energy densities comparable in the current universe?
-3. Dynamic vacuum energy: can the cosmological constant be a slowly relaxing equilibrium value rather than a fixed number inserted by hand?
+3. Dynamic vacuum energy: can the cosmological constant be a slowly relaxing equilibrium value (a number that settles into place over time) rather than a fixed number inserted by hand?
 
 ### Possible Phenomena If The Model Works
 
 The following are not verified predictions. They are candidate kill surfaces, and several are not unique to QFUDS.
 
-1. Standard WIMP direct detection may continue to return null results. This would not by itself favor QFUDS, because many non-QFUDS dark-matter models also predict weak or hidden direct-detection signals.
+1. Standard WIMP (Weakly Interacting Massive Particle, the long-favored dark-matter candidate) direct detection may continue to return null results. This would not by itself favor QFUDS, because many non-QFUDS dark-matter models also predict weak or hidden direct-detection signals.
 2. Dark energy may show small but nonzero time evolution.
 
 $$
@@ -519,9 +519,9 @@ $$
 In LCDM, $w_0=-1$ and $w_a=0$. For QFUDS to differ, it needs a small deviation with $w_0 \simeq -1$ and $|w_a|>0$.
 
 3. Large-scale structure and the CMB must remain almost LCDM-like.
-4. Small galaxy halos may prefer cores over sharp cusps, but this must be separated from baryonic feedback.
-5. Dark matter structure and baryonic structure may show a slightly stronger correlation than in pure collisionless CDM, but no such QFUDS-specific relation has been derived yet.
-6. In a complete unitary quantum description, the final black-hole evaporation state should not be describable as purely information-free thermal radiation. This is a quantum-gravity consistency expectation, not an observed astrophysical signal.
+4. Small galaxy halos may prefer flat cores over sharp central spikes (cusps), but this must be separated from baryonic feedback (ordinary matter, stars and supernovae, pushing back on the structure).
+5. Dark matter structure and ordinary (baryonic) matter structure may show a slightly stronger correlation than in pure collisionless CDM (cold dark matter that interacts only through gravity), but no such QFUDS-specific relation has been derived yet.
+6. In a complete unitary (information-preserving) quantum description, the final black-hole evaporation state should not be describable as purely information-free thermal radiation. This is a quantum-gravity consistency expectation, not an observed astrophysical signal.
 7. If black/white-hole remnants exist, their allowed mass distribution must be narrow.
 
 The core of the current test is not white holes.
@@ -532,7 +532,7 @@ What matters more is whether precision observations keep supporting $w=-1$, or m
 A hostile reviewer should attack the model in this order.
 
 1. Does it recover LCDM exactly in the zero-deviation limit?
-2. Can the same effective medium produce $w \simeq 0$ and $w \simeq -1$ without hand-waving?
+2. Can the same effective medium produce $w \simeq 0$ and $w \simeq -1$ without hand-waving (vague, unproven arm-waving)?
 3. Why is $c_s^2$ near zero?
 4. Does it preserve CMB acoustic peaks?
 5. Does it preserve the matter power spectrum?
@@ -562,7 +562,7 @@ primordial density perturbations
 -> central massive black-hole seeds plus accretion and mergers
 ```
 
-This is not the same as saying that black holes create galaxies. Black holes can affect their host galaxies through feedback, especially active galactic nuclei, but they are not the general starting point of galaxy formation in the standard picture.
+This is not the same as saying that black holes create galaxies. Black holes can affect their host galaxies through feedback, especially active galactic nuclei (AGN, where a black hole's energetic output reaches back to influence its galaxy's star formation), but they are not the general starting point of galaxy formation in the standard picture.
 
 QFUDS may ask a different question:
 
@@ -598,7 +598,7 @@ More strongly:
 black hole = speculative candidate phase-transition site of the foam sector
 ```
 
-This is not established black-hole physics. "Black-hole phase transition" is an existing phrase in black-hole thermodynamics, especially in anti-de Sitter or extended thermodynamic settings, but that literature does not mean that observed galactic-center black holes are phase-transition sites of a quantum-foam dark sector.
+This is not established black-hole physics. "Black-hole phase transition" is an existing phrase in black-hole thermodynamics, especially in anti-de Sitter (AdS, an imaginary spacetime with negative vacuum energy) or extended-thermodynamics settings, but that literature does not mean that observed galactic-center black holes are phase-transition sites of a quantum-foam dark sector.
 
 Analogy: in a large city, a major data center may sit near routes where lots of data flows. But the existence of that data center does not prove that the whole city was created by the network. Likewise, a central black hole can be read in QFUDS language as a compression point or routing point, but it does not prove QFUDS and does not replace standard black-hole formation physics.
 
