@@ -35,3 +35,4 @@ Do not use this folder for:
 3. [QFUDS 연구 흐름 쉬운 설명](003_research_flow_plain_language_ko.md)
 4. [QFUDS rough tanh 수치 스케치](004_rough_tanh_numerical_sketch_ko.md)
 5. [QFUDS rough tanh 논문 보고서](005_rough_tanh_thesis_report_ko.md)
+6. [QFUDS 에이전틱 연구 시스템 해부](006_agentic_research_system_ko.md)
