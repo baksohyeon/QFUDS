@@ -603,6 +603,54 @@ EFTofLSS c_s(eff)~10 Mpc는 CP8의 ξ와 스케일만 겹침(유도 아님).
    050 천장 그대로, observer mode 그대로. 진짜 검증은 hi_class/CLASS(blocked).
 ```
 
+## CP13 (2026-06-12): 후기 ISW — 세 번째 falsifiable 신호로 CMB 후기 채널을 처음 친다
+
+CP6b의 w(z) 동결, CP9의 P(k) 스텝에 이어 **세 번째 반증 채널**을 찾는다. 지금까지
+이 스케치는 CMB 후기 채널(late-time ISW)을 한 번도 안 건드렸다. ISW는
+ΔT/T = 2∫(∂Φ/∂η)dη — **포텐셜이 식어야(Φ̇≠0)** 생긴다. 순수 물질우주는 D∝a라
+Φ가 안 식고 ISW=0; 가속하거나 성장이 눌리면 켜진다. 그래서 ISW source를
+g_ISW(a) ≡ −d/dlna[D/a]로 정의했다(P=D/a, 물질기엔 상수). sub-horizon
+Poisson(∇²Φ=4πGa²δρ → Φ∝D/a)을 in-comment에서 재유도·검산했고, 물질 plateau에서
+g→0, ΛCDM 후기 g>0을 assert로 박았다([`cp13_isw.py`](assets/004_rough_tanh/cp13_isw.py),
+[`fig_cp13_isw.png`](assets/004_rough_tanh/fig_cp13_isw.png)).
+
+QFUDS 비틂 두 개: (1) z≈2 w-전환이 Φ가 *언제* 식는지를 바꾸고, (2) 작은
+c_s²=4.6e-6의 클러스터링 억제(CP9 η-Jeans, scale-dependent D(k,a))가 g_ISW를
+**k-의존**으로 만든다. 그래서 거친 Limber auto-power proxy
+C_ℓ^ISW ∝ ∫dz g_ISW(k=ℓ/χ,z)²·a²E/χ²로 QFUDS/ΛCDM **비**만 본다(primordial
+정규화는 같다고 두고 약분 — 절대 μK²가 아니라 상대 진폭).
+
+| 양 | ΛCDM | QFUDS | 비/판정 |
+| --- | --- | --- | --- |
+| ISW auto-power 총합(ℓ≤30) | 1 | — | **0.679** (대규모 ~32% 억제) |
+| C_ℓ 비 vs ℓ | flat 1 | 0.350→0.822 | **기울어짐**(저-ℓ 가장 세게) |
+| 균일 저-σ8(0.75) 비교 | — | — | **0.857, 모든 ℓ flat** |
+| g_ISW(z=2) | +0.0373 | +0.0043 | 0.115 (전환서 거의 죽음) |
+| ISW-galaxy cross(ℓ=10) | +(positive) | +(positive) | **0.880, 부호 안 뒤집힘** |
+
+결과: QFUDS ISW는 **부호는 ΛCDM과 같고(양의 cross, 뒤집힘 없음)** 진폭만
+낮춘다(cross 0.88, auto 0.68). 핵심은 **모양**이다 — 균일 저-σ8은 모든 ℓ에서
+0.857로 *평평*하지만, QFUDS는 0.35→0.82로 *기울어진다*(클러스터링이 큰 스케일
+ISW를 더 깎음). 즉 균일 저-σ8과 **원리적으론 구별된다**(scale-dependent
+tilt = 서명). z≈2 feature는 g_ISW(z=2)가 ΛCDM의 11%로 떨어지는 것 — 전환기에
+QFUDS는 아직 뭉치므로 Φ가 덜 식는다.
+
+정직하게: tilt는 진짜지만 그 차이는 작고, 하필 ISW가 사는 저-ℓ는 cosmic variance가
+거대해 ΛCDM조차 ISW 검출이 간당간당하다. 이건 상대-진폭 Limber proxy지
+검출가능성 예보가 아니다. c_s²=4.6e-6도 w(a)도 손으로 고른 값이라 **parametrize지
+derive가 아니다**. 050 천장(foam→δQ 전이 유도)은 한 톨도 안 건드렸다. 진짜 ISW는
+CLASS/hi_class Boltzmann solve(Level 3, blocked)다.
+
+### CP13 결론 (2026-06-12)
+
+```text
+ISW = falsifiable 신호 #3. QFUDS/ΛCDM: auto-power(ℓ≤30) 0.68, cross 0.88, 부호 안 뒤집힘.
+clustering-DE 서명: C_ℓ 비가 0.35→0.82로 기울어짐(저-ℓ 더 억제) vs 균일 저-σ8 flat 0.857.
+=> 모양(tilt)으로 균일 저-σ8과 원리적 구별 가능. 단 저-ℓ cosmic variance 커서 검출은 별개.
+z≈2 feature: g_ISW(z=2)가 ΛCDM의 11%로 죽음(전환기엔 아직 뭉쳐 Φ 덜 식음).
+050 천장 그대로, 전부 parametrize. 진짜 검증은 CLASS/hi_class (blocked).
+```
+
 ## 재현
 
 ```bash
@@ -623,6 +671,7 @@ python3 cp9_lensing_pk.py        # fig_cp9_lensing_pk.png + csv (CP9 렌즈 P(k)
 python3 cp10_h0_test.py          # fig_cp10_h0_test.png + csv (CP10 H0 긴장)
 python3 cp11_two_fluid.py        # fig_cp11_two_fluid.png + csv (CP11 2-fluid 검증)
 python3 cp12_fluid_frameworks.py # fig_cp12_fluid_frameworks.png + csv (CP12 유체/EFT 위치)
+python3 cp13_isw.py              # fig_cp13_isw.png + csv (CP13 ISW)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
