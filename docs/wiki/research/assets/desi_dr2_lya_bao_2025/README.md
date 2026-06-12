@@ -40,6 +40,8 @@ change Exp006 conclusions, open a likelihood pipeline, or change roadmap status.
 - `figures/` - reserved for rendered or copied figure assets.
 - `digitization/` - reserved for manual structured extracts or derived numeric
   products.
+- [Data-release parse](digitization/desi_dr2_lya_bao_data_release.md) -
+  Markdown inspection record for the cached Zenodo archive (`source_text_parse`).
 
 ## Current Asset State
 
