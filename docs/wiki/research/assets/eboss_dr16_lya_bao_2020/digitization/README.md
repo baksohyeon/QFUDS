@@ -31,3 +31,14 @@ digitization, not a likelihood implementation, and not QFUDS evidence.
   source-product choices.
 - [MarkItDown BAO-only README conversion](markitdown_BAO-only_README.md) -
   low-fidelity Markdown conversion of the cached upstream README.
+- [MarkItDown SDSS final BAO/RSD page conversion](markitdown_sdss_final_bao_rsd_measurements.md)
+  - low-fidelity Markdown conversion of the SDSS source page that points to
+  likelihoods and covariance matrices.
+- [MarkItDown SDSS BAO-only directory conversion](markitdown_sdss_bao_only_directory.md)
+  - low-fidelity Markdown conversion of the SDSS SVN BAO-only directory.
+- [MarkItDown SDSS data-vector/covariance directory conversion](markitdown_sdss_dataveccov_lya_forest_directory.md)
+  - low-fidelity Markdown conversion of the SDSS SVN raw Lyman-alpha directory.
+- [MarkItDown data-vector/covariance README conversion](markitdown_dataveccov_lya_forest_README.md)
+  - low-fidelity Markdown conversion of the cached raw-product README.
+- [MarkItDown arXiv page conversion](markitdown_arxiv_2007.08995.md) -
+  low-fidelity Markdown conversion of the source abstract page.
