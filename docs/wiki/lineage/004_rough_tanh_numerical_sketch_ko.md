@@ -1038,6 +1038,50 @@ hit ≠ derivation. 050 천장·observer mode 그대로, 진짜 검증은 CLASS/
 - 050 ceiling 그대로, observer mode 그대로, 로드맵 변동 없음. 진짜 검증은 CLASS/hi_class(Level 3), blocked.
 ```
 
+## CP22 (2026-06-12): tracker attractor는 초기조건 튜닝을 16 decade 지우지만, meV(why-now)는 끝까지 tuned로 남는다
+
+CP20은 전이 임계밀도 ρ*가 ρ_Λ의 ~3 order 안에 들어앉아야 한다(전체 ~120 order 중)는
+cosmic-coincidence/why-now 문제를 짚었고, 빠져나갈 유일한 길로 ρ*↔ρ_Λ를 동역학적으로
+묶는 tracker/attractor quintessence를 지목했다. CP22는 그 메커니즘을 실제로 적분해
+**brute-force**로 두들겨 봤다. Ratra–Peebles 역멱포텐셜 `V(φ)=M^(4+α)/φ^α`(α=1)를
+평탄 FRW(물질+복사+φ) 배경에서 e-fold `N=ln a` 단위 Klein–Gordon으로 풀었다. 적분기는
+물질기 tracker 상태방정식 `w_φ=-0.666`이 해석값 `-2/(α+2)=-0.667`과 정확히 일치,
+물질/복사 `H'/H` 극한(−3/2, −2)도 통과해
+검증됐다([`cp22_coincidence_tracker.py`](assets/004_rough_tanh/cp22_coincidence_tracker.py),
+[`fig_cp22_coincidence_tracker.png`](assets/004_rough_tanh/fig_cp22_coincidence_tracker.png)).
+
+**진짜 부분 승리(초기조건 튜닝 제거).** M을 고정하고 초기 장값 φ_i를 19 decade에
+걸쳐 훑었더니, φ_i ∈ [10⁻¹⁶, 0.46] 약 **15.7 decade**가 전부 같은 후기 attractor로
+빨려 들어가 Ω_DE(0)=0.685±0.05(퍼짐 0.006)에 착지한다. 장이 출발점을 완전히 잊는다
+— 초기조건 튜닝이 실제로 사라진다. 이건 dismiss할 게 아니라 트래커가 주는 **진짜**
+환원이다.
+
+**그러나 why-now는 살아남는다.** 에너지 스케일 M_eff=V0^{1/4}를 훑으면, 가속 시작
+적색편이 z_acc가 관측 창 [0,2]에 들어오는 건 **오직 M_eff ∈ [1.71, 3.50] meV(0.31
+decade)** 뿐이다. 그보다 작으면 가속은 영영 미래(오늘까지 시작 안 함), 크면
+z=수십~수백으로 밀린다. 즉 V0≈ρ_Λ인 meV 스케일 1개는 여전히 손으로 맞춰야 한다.
+coincidence는 **풀리지 않았다.**
+
+| 항목 | tracker 이전 | tracker 이후 |
+| --- | --- | --- |
+| 초기조건 (φ_i) | tuned | **FREE** — attractor basin ~16 decade |
+| 에너지 스케일 (M≈meV) | tuned | **여전히 tuned** — 창 0.31 decade @ 2.3 meV |
+| 합계 | **2개** | **1개** |
+
+순효과 2→1, 진짜지만 부분 환원. brute-force로 Ω_DE=0.685에 맞춘 건 곡선일 뿐 foam
+미시물리로부터의 **유도가 아니다**(hit ≠ derivation). 050 ceiling과 observer mode는
+손대지 않았다. 진짜 검증은 CLASS/hi_class(Level 3) — blocked.
+
+### CP22 결론 (2026-06-12)
+
+```text
+- tracker attractor가 초기조건 튜닝을 ~16 decade 실제로 제거 = 진짜 부분 승리.
+- 그러나 meV/why-now 스케일 1개는 끝까지 tuned (z_acc∈[0,2] 창 0.31 decade @2.3meV).
+- 튜닝 장부: 2개 {초기조건, 스케일} → 1개 {스케일=meV}. 부분 환원, coincidence 미해결.
+- brute-force hit ≠ derivation. 곡선이지 foam 유도 아님.
+- 050 ceiling, observer mode 그대로. 진짜 검증은 CLASS/hi_class (Level 3) — BLOCKED.
+```
+
 ## 재현
 
 ```bash
@@ -1067,6 +1111,7 @@ python3 cp18_desi_highz_bao.py   # fig_cp18_desi_highz_bao.png + csv (CP18 DESI 
 python3 cp19_euclid_forecast.py  # fig_cp19_euclid_forecast.png + csv (CP19 Euclid forecast)
 python3 cp20_ceiling_derivation.py # fig_cp20_ceiling_derivation.png + csv (CP20 050 천장 직격)
 python3 cp21_xi_criticality.py   # fig_cp21_xi_criticality.png + csv (CP21 ξ 근임계 brute-force)
+python3 cp22_coincidence_tracker.py # fig_cp22_coincidence_tracker.png + csv (CP22 coincidence tracker)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
