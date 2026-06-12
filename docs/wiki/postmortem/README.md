@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - roadmap
 next_gate: none; postmortems are process history only
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Wiki Postmortems
@@ -30,3 +30,4 @@ not change roadmap status, promote evidence, or open a new research level.
 - [Source-X Product Routing Workflow Retrospective](007-20260611-dorito-source-x-product-routing-workflow.md)
 - [Source-X Progress Checkpoint](008-20260611-dorito-source-x-progress-checkpoint.md)
 - [QFUDS 관측자 모드 전환 마무리 회고](009-20260611-dorito-qfuds-observer-mode-closing-retro.md)
+- [rough tanh lineage 하강 회고 (CP13~CP24)](010-20260612-dorito-rough-tanh-lineage-descent-retro.md)
