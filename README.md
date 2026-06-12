@@ -655,6 +655,7 @@ History/source notes:
 
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the 24-checkpoint rough-`tanh` numerical exploration log (Korean)
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
+- [006_agentic_research_system_ko.md](docs/wiki/lineage/006_agentic_research_system_ko.md): anatomy of the self-correcting AI research harness behind the lineage — SSOT authority chain, governance workflows, asset cache state ladder, PageIndex/MarkItDown MCP, adversarial review, and deterministic git-hook gates (Korean)
 - [concept_origin.md](docs/01_origin/concept_origin.md): how the raw information-flow idea became the QFUDS question
 - [qfuds_ko.md](docs/00_project/qfuds_ko.md): Korean version of this document
 - [research_program.md](docs/00_project/research_program.md): abstract, validation roadmap, and kill criteria
