@@ -41,6 +41,9 @@ change Exp006 conclusions, open a likelihood pipeline, or change roadmap status.
 - `figures/` - reserved for rendered or copied figure assets.
 - `digitization/` - reserved for manual structured extracts or derived numeric
   products.
+- [Likelihood-release parse](digitization/eboss_dr16_lya_bao_likelihood_release.md)
+  - Markdown inspection record for the cached SDSS likelihood grids
+  (`source_text_parse`).
 
 ## Current Asset State
 

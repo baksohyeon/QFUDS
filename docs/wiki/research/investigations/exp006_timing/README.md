@@ -32,3 +32,4 @@ paper assets here; those belong under
 7. [Li 2025 Digitized Compression Audit](007_li_2025_digitized_compression_audit.md)
 8. [IV/IDE Timing Korean Synthesis](008_iv_ide_timing_synthesis_ko.md)
 9. [BAO Primary-Source and Covariance Inventory](009_bao_primary_source_covariance_inventory.md)
+10. [BAO Asset Digitization Closeout](010_bao_asset_digitization_closeout.md)
