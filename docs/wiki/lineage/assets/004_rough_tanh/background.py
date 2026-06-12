@@ -189,6 +189,19 @@ ax.legend(loc='upper left', fontsize=9)
 
 outfile = 'fig_background.png'
 fig.savefig(outfile, dpi=130, bbox_inches='tight')
+fig.savefig('fig_background.svg', bbox_inches='tight')
 plt.close(fig)
 print(f"Saved: {outfile}")
-print("\nDone — all numbers printed, PNG written.")
+print("Saved: fig_background.svg")
+
+# --- CSV dump ---
+import csv as _csv
+_csv_path = 'background_results.csv'
+with open(_csv_path, 'w', newline='') as _f:
+    _w = _csv.writer(_f)
+    _w.writerow(['z', 'E_LCDM', 'E_V1', 'E_V2', 'dmu_V1', 'dmu_V2'])
+    for _i in range(len(Z_GRID)):
+        _w.writerow([Z_GRID[_i], E_lcdm[_i], E_v1[_i], E_v2[_i],
+                     delta_mu_v1[_i], delta_mu_v2[_i]])
+print(f"Saved: {_csv_path}")
+print("\nDone — all numbers printed, PNG, SVG, and CSV written.")

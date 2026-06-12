@@ -267,4 +267,25 @@ ax4.text(0.02, 0.04,
 # ──────────────────────────────────────────────────────────────────────────────
 fig.tight_layout(rect=[0, 0, 1, 0.97])
 fig.savefig(OUT, dpi=130, bbox_inches="tight")
+_svg_out = OUT.with_suffix(".svg")
+fig.savefig(_svg_out, bbox_inches="tight")
 print(f"\nSaved: {OUT}  ({OUT.stat().st_size // 1024} kB)")
+print(f"Saved: {_svg_out}")
+
+# --- CSV dump ---
+import csv as _csv
+_csv_path = OUT.parent / "phase_results.csv"
+with open(_csv_path, "w", newline="") as _f:
+    _w = _csv.writer(_f)
+    # Sheet 1: w(z) for QFUDS tanh and DESI CPL over the DESI z-grid
+    _w.writerow(["# w(z) comparison over z_desi grid"])
+    _w.writerow(["z", "w_QFUDS_tanh", "w_DESI_CPL"])
+    for _i in range(len(z_desi)):
+        _w.writerow([z_desi[_i], w_Q_desi[_i], w_CPL_arr[_i]])
+    _w.writerow([])
+    # Sheet 2: Omega_i(a) fractions vs a (V1 unified)
+    _w.writerow(["# V1 density fractions Omega_i(a) vs a"])
+    _w.writerow(["a", "z", "Omega_radiation", "Omega_baryon", "Omega_QFUDS"])
+    for _i in range(len(a_full)):
+        _w.writerow([a_full[_i], z_full[_i], omega_rad[_i], omega_bar[_i], omega_q[_i]])
+print(f"Saved: {_csv_path}")

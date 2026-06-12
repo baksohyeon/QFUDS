@@ -336,7 +336,32 @@ def main() -> None:
     )
 
     fig.savefig("fig_cp6a_ceiling.png", dpi=130, bbox_inches="tight")
+    fig.savefig("fig_cp6a_ceiling.svg", bbox_inches="tight")
     print("\nsaved fig_cp6a_ceiling.png")
+    print("saved fig_cp6a_ceiling.svg")
+
+    # --- CSV dump ---
+    import csv as _csv
+    _csv_path = "cp6a_ceiling_probe_results.csv"
+    with open(_csv_path, "w", newline="") as _f:
+        _wr = _csv.writer(_f)
+        # Part 1: c_eff2 vs S8 scan
+        _wr.writerow(["c_eff2", "S8"])
+        for _c2, _s8 in zip(ceff2_grid, S8s):
+            _wr.writerow([_c2, _s8])
+        _wr.writerow([])
+        # Part 2: key summary values
+        _wr.writerow(["# key summary"])
+        _wr.writerow(["quantity", "value"])
+        _wr.writerow(["canonical_c_eff2", CEFF2_CANONICAL])
+        _wr.writerow(["required_c_eff2", CEFF2_REQUIRED])
+        _wr.writerow(["gap_orders_of_magnitude", gap_orders])
+        _wr.writerow(["S8_canonical", S8_can])
+        _wr.writerow(["S8_required", S8_req])
+        _wr.writerow(["S8_obs_target", S8_OBS])
+        _wr.writerow(["knobs_before", len(KNOBS_BEFORE)])
+        _wr.writerow(["knobs_after", len(KNOBS_AFTER)])
+    print(f"saved {_csv_path}")
 
 
 if __name__ == "__main__":

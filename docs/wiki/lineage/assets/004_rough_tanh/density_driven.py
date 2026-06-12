@@ -188,7 +188,27 @@ def main():
                  fontweight="bold")
     fig.tight_layout()
     fig.savefig("fig_density_driven.png", dpi=130)
+    fig.savefig("fig_density_driven.svg")
     print("saved fig_density_driven.png")
+    print("saved fig_density_driven.svg")
+
+    # --- CSV dump ---
+    import csv as _csv
+    _csv_path = "density_driven_results.csv"
+    with open(_csv_path, "w", newline="") as _f:
+        _wr = _csv.writer(_f)
+        # Table 1: z_star -> z_obs lag
+        _wr.writerow(["# z* -> z_obs lag table"])
+        _wr.writerow(["z_star", "z_obs", "lag_dz", "w_at_z0"])
+        for _zs, _zo, _lag, _w0 in rows:
+            _wr.writerow([_zs, _zo, _lag, _w0])
+        _wr.writerow([])
+        # Table 2: (a, w_best) curve for the best z*
+        _wr.writerow([f"# w_best curve for z_star={z_star_best:.1f} (observed transition at z~2)"])
+        _wr.writerow(["a", "z", "w_best"])
+        for _i in range(len(A_GRID)):
+            _wr.writerow([A_GRID[_i], Z_GRID[_i], w_best[_i]])
+    print(f"saved {_csv_path}")
 
 
 if __name__ == "__main__":

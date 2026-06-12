@@ -146,7 +146,23 @@ def main():
                  fontweight="bold")
     fig.tight_layout()
     fig.savefig("fig_cp5_sound_speed.png", dpi=130)
+    fig.savefig("fig_cp5_sound_speed.svg")
     print("saved fig_cp5_sound_speed.png")
+    print("saved fig_cp5_sound_speed.svg")
+
+    # --- CSV dump ---
+    import csv as _csv
+    _csv_path = "cp5_sound_speed_results.csv"
+    with open(_csv_path, "w", newline="") as _f:
+        _wr = _csv.writer(_f)
+        _wr.writerow(["c_eff2", "S8"])
+        for _c2, _s8 in zip(ceff2_grid, S8s):
+            _wr.writerow([_c2, _s8])
+        _wr.writerow([])
+        _wr.writerow(["# crossing estimate"])
+        _wr.writerow(["S8_obs", "c_eff2_at_crossing"])
+        _wr.writerow([S8_OBS, cross if cross is not None else "NOT_REACHABLE"])
+    print(f"saved {_csv_path}")
 
 
 if __name__ == "__main__":

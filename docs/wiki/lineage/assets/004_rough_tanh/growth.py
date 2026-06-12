@@ -221,4 +221,23 @@ ax_c.set_title("(c) sigma8 & S8 summary", fontsize=10)
 
 out_path = "fig_growth.png"
 fig.savefig(out_path, dpi=130, bbox_inches="tight")
+fig.savefig("fig_growth.svg", bbox_inches="tight")
 print(f"Saved {out_path}")
+print("Saved fig_growth.svg")
+
+# --- CSV dump ---
+import csv as _csv
+_csv_path = "growth_results.csv"
+with open(_csv_path, "w", newline="") as _f:
+    _w = _csv.writer(_f)
+    # main curve: a, D/a LCDM, D/a V2, fsig8 LCDM, fsig8 V2
+    _w.writerow(["a", "D_over_a_LCDM", "D_over_a_V2", "fsig8_LCDM", "fsig8_V2"])
+    for _i in range(len(a_arr)):
+        _w.writerow([a_arr[_i], D_lcdm[_i] / a_arr[_i], D_v2[_i] / a_arr[_i],
+                     fs8_lcdm[_i], fs8_v2[_i]])
+    # summary row appended as a comment-style block
+    _w.writerow([])
+    _w.writerow(["# SUMMARY"])
+    _w.writerow(["sigma8_LCDM", "sigma8_V2", "S8_LCDM", "S8_V2", "dS8", "dS8_pct", "D_ratio"])
+    _w.writerow([SIGMA8_LCDM, sigma8_v2, S8_lcdm, S8_v2, dS8, dS8_pct, ratio_D])
+print(f"Saved {_csv_path}")

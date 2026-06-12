@@ -349,4 +349,31 @@ fig.suptitle(
     fontweight="bold", fontsize=10)
 fig.tight_layout()
 fig.savefig("fig_cp6b_falsification.png", dpi=130)
+fig.savefig("fig_cp6b_falsification.svg")
 print("\nSaved fig_cp6b_falsification.png")
+print("Saved fig_cp6b_falsification.svg")
+
+# --- CSV dump ---
+import csv as _csv
+_csv_path = "cp6b_falsification_results.csv"
+_z_plot = np.linspace(0.0, 1.65, 300)
+with open(_csv_path, "w", newline="") as _f:
+    _wr = _csv.writer(_f)
+    # Table 1: fsigma8 model curves + data
+    _wr.writerow(["# fsig8(z): model curves and approximate RSD data"])
+    _wr.writerow(["z", "fsig8_LCDM", "fsig8_QFUDS_ceff2_3e-5", "fsig8_QFUDS_ceff2_1"])
+    for _z in _z_plot:
+        _wr.writerow([_z, float(fsig8_l_itp(_z)), float(fsig8_q_itp(_z)), float(fsig8_s_itp(_z))])
+    _wr.writerow([])
+    _wr.writerow(["# approximate RSD data points (not for formal inference)"])
+    _wr.writerow(["z_data", "fsig8_data", "fsig8_err"])
+    for _z, _fs, _e in zip(RSD_Z, RSD_FS8, RSD_ERR):
+        _wr.writerow([_z, _fs, _e])
+    _wr.writerow([])
+    # Table 2: w(z) comparison
+    _wr.writerow(["# w(z): QFUDS density-driven vs DESI CPL"])
+    _z_w_plot = np.linspace(0, 2, 400)
+    _wr.writerow(["z", "w_QFUDS", "w_DESI_CPL"])
+    for _z in _z_w_plot:
+        _wr.writerow([_z, float(_w_itp(_z)), float(w_cpl(_z))])
+print(f"Saved {_csv_path}")

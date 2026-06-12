@@ -131,7 +131,27 @@ def main():
                  fontweight="bold")
     fig.tight_layout()
     fig.savefig("fig_state_variable.png", dpi=130)
+    fig.savefig("fig_state_variable.svg")
     print("saved fig_state_variable.png")
+    print("saved fig_state_variable.svg")
+
+    # --- CSV dump ---
+    import csv as _csv
+    _csv_path = "state_variable_results.csv"
+    with open(_csv_path, "w", newline="") as _f:
+        _wr = _csv.writer(_f)
+        # columns: a, z, w_tanh (reference), then phi and w_eff for each case
+        _case_names = list(results.keys())
+        _header = ["a", "z", "w_tanh"]
+        for _cn in _case_names:
+            _header += [f"phi_{_cn}", f"w_eff_{_cn}"]
+        _wr.writerow(_header)
+        for _i in range(len(a)):
+            _row = [a[_i], z[_i], w_tanh[_i]]
+            for _cn in _case_names:
+                _row += [results[_cn]["phi"][_i], results[_cn]["w"][_i]]
+            _wr.writerow(_row)
+    print(f"saved {_csv_path}")
 
 
 if __name__ == "__main__":

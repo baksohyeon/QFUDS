@@ -136,7 +136,46 @@ def main():
                  fontweight="bold")
     fig.tight_layout()
     fig.savefig("fig_cp4_growth.png", dpi=130)
+    fig.savefig("fig_cp4_growth.svg")
     print("saved fig_cp4_growth.png")
+    print("saved fig_cp4_growth.svg")
+
+    # --- CSV dump ---
+    import csv as _csv
+    _csv_path = "cp4_growth_results.csv"
+    with open(_csv_path, "w", newline="") as _f:
+        _wr = _csv.writer(_f)
+        # Table 1: summary sigma8/S8 per model
+        _wr.writerow(["# S8 summary table"])
+        _wr.writerow(["model", "D_ratio", "sigma8", "S8", "dS8_vs_LCDM"])
+        for _name, _s in summary.items():
+            _dS8 = _s["S8"] - summary["ΛCDM"]["S8"]
+            _wr.writerow([_name, _s["ratio"], _s["sigma8"], _s["S8"], _dS8])
+        _wr.writerow([])
+        # Table 2: fsigma8(z) curves
+        _wr.writerow(["# fsigma8(z) curves"])
+        _model_names = list(out.keys())
+        _wr.writerow(["z"] + _model_names)
+        # build a common z grid (use the shortest a_out)
+        _a_ref = out[_model_names[0]]["a"]
+        _z_ref = 1 / _a_ref - 1
+        _mask_z2 = _z_ref <= 2.0
+        _z_out = _z_ref[_mask_z2][::-1]  # increasing z
+        for _iz, _zval in enumerate(_z_out):
+            _a_val = 1.0 / (1.0 + _zval)
+            _row = [_zval]
+            for _mn in _model_names:
+                _r = out[_mn]
+                _a_m = _r["a"]
+                _D_m = _r["D"]
+                _f_m = _r["f"]
+                _D0_m = _r["D"][-1]
+                _s8_m = SIGMA8_LCDM * (_D0_m / D1_lcdm)
+                _fs8_arr = _f_m * _s8_m * _D_m / _D0_m
+                _fs8_val = float(np.interp(_a_val, _a_m, _fs8_arr))
+                _row.append(_fs8_val)
+            _wr.writerow(_row)
+    print(f"saved {_csv_path}")
 
 
 if __name__ == "__main__":
