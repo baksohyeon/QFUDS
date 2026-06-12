@@ -386,6 +386,50 @@ brute-force로 끼워맞추면: 명목상 ΛCDM을 AIC로 이기는 지점까지
        그건 튜닝의 힘이지 새 물리도 우월성도 아니다. 진짜 판정은 CLASS likelihood(Level 3, blocked).
 ```
 
+## CP8 (2026-06-12): c_eff²를 dial 말고 rough 도출 시도
+
+CP5~CP7은 c_eff²를 데이터에 맞게 돌렸다(best≈4.6e-6). CP8은 묻는다. **어떤
+물리량이 그 값을 *내놓나*, 아니면 거품 전제는 다른 값을 주나?**
+
+물리 핸들 = order parameter의 **상관길이 ξ**. 자유에너지에 gradient 항을 넣으면
+장은 ξ보다 작은 요동을 매끄럽게 지우고, 섭동 음속도 같은 stiffness가 정한다.
+
+```text
+c_eff ≈ ξ / d_H      (음속 지평선 ~ 상관길이, d_H = c/H0 ≈ 4448 Mpc)
+c_eff² ≈ (ξ H0 / c)²
+```
+
+즉 c_eff²는 자유값이 아니라 **거품의 상관길이를 정하면 따라 나온다.** 계산 결과
+([`cp8_ceff2_derivation.py`](assets/004_rough_tanh/cp8_ceff2_derivation.py),
+[`fig_cp8_ceff2_derivation.png`](assets/004_rough_tanh/fig_cp8_ceff2_derivation.png)):
+
+| 상관길이 ξ | c_eff² | S8 |
+| --- | --- | --- |
+| 미시 거품 ξ≤1 Mpc | →0 (5e-8 이하) | **0.95 (너무 높음)** |
+| 구조 스케일 ξ≈10 Mpc | ~5e-6 | 0.82 |
+| 데이터 fit (c_eff²=4.6e-6) | → ξ≈**9.5 Mpc** | ~0.78-0.82 |
+| Hubble ξ≈c/H0 | ~1 | 0.68 (오버슈트) |
+
+핵심: **데이터가 원하는 c_eff²≈4.6e-6은 상관길이 ξ≈10 Mpc = 우주 거대구조(cosmic
+web) 스케일에 대응한다.** 그런데 "양자 거품"이라는 전제는 ξ가 **미시적**이어야
+한다(Planck~은하 이하). 미시 거품이면 c_eff²→0 → 암흑성분이 CDM처럼 완전히 뭉쳐
+**S8≈0.95로 오히려 ΛCDM(0.83)보다 더 높아지고 관측 0.76에서 더 멀어진다.**
+
+즉 **rough 도출은 fit 값을 자연스럽게 내놓지 못한다.** 오히려 거품 전제(미시 ξ)는
+S8를 *틀린 방향*으로(높게) 민다. 맞추려면 ξ를 10 Mpc로 키워야 하는데 그건 거품이
+아니라 구조 스케일이다. 이것이 050 천장을 **c_eff² 쪽에서** 재확인한 것이다 — 이번엔
+"왜 막히나"에 물리적 의미가 붙었다: *데이터가 원하는 음속은 미시 거품이 아니라
+10 Mpc 상관길이를 요구한다.*
+
+### CP8 결론 (2026-06-12)
+
+```text
+c_eff² rough 도출(상관길이 ξ 경유): 데이터 fit 값 4.6e-6 = ξ≈10 Mpc(구조 스케일).
+미시 '양자 거품'(ξ≪Mpc) -> c_eff²→0 -> S8≈0.95 (틀린 방향, ΛCDM보다 나쁨).
+=> 자연스러운 거품 상관길이는 fit을 못 만든다. 도출 실패 = 050 천장 재확인.
+의미: dial한 c_eff²는 "10 Mpc 상관길이"라는 비-거품 스케일을 숨기고 있었다.
+```
+
 ## 재현
 
 ```bash
@@ -401,6 +445,7 @@ python3 cp5_sound_speed.py       # fig_cp5_sound_speed.png (CP5 c_eff² 스캔)
 python3 cp6a_ceiling_probe.py    # fig_cp6a_ceiling.png (CP6a 천장 직격)
 python3 cp6b_falsification.py    # fig_cp6b_falsification.png (CP6b 반증 설계)
 python3 cp7_brute_fit.py         # fig_cp7_brute_fit.png + scan/summary csv (CP7)
+python3 cp8_ceff2_derivation.py  # fig_cp8_ceff2_derivation.png + csv (CP8 도출 시도)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
