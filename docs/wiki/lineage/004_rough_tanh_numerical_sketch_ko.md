@@ -1082,6 +1082,58 @@ coincidence는 **풀리지 않았다.**
 - 050 ceiling, observer mode 그대로. 진짜 검증은 CLASS/hi_class (Level 3) — BLOCKED.
 ```
 
+## CP23 (2026-06-12): meV/why-now 스케일 = 우주상수 문제 — 최고의 공략도 select/relocate일 뿐 derive가 아니다
+
+CP20–CP22는 손튜닝 스펙을 두 숫자로 줄였고, CP22는 tracker가 초기조건은 풀어도
+에너지 스케일 ρ_Λ ≈ (2.3 meV)^4 는 못 푼다는 걸 보였다. CP23은 그 한 숫자만
+정면으로 묻는다 — 세상에 알려진 공략법들이 meV를 **유도(derive)** 하는가, 아니면
+선택(select)·이전(relocate)·가정(assume)하는가. 결론부터: **아무도 meV를 유도하지
+못한다.** 이건 우주상수 문제 그 자체이고, QFUDS는 ΛCDM과 똑같이 이 문제를
+상속한다([`cp23_cc_problem.py`](assets/004_rough_tanh/cp23_cc_problem.py),
+[`fig_cp23_cc_problem.png`](assets/004_rough_tanh/fig_cp23_cc_problem.png)).
+
+**문제의 크기.** 순진한 QFT 진공에너지는 ρ_vac ~ M_cutoff⁴. Planck 컷오프면
+관측 ρ_Λ보다 **10^123**(흔히 인용되는 ~10^120), TeV/SUSY면 **10^59**(~10^55–59)배
+크다. 이게 곧 우주상수 문제다(category=problem). 그 다음 칸들은 이 격차를 "푼다"고
+말하지만, 실제로 하는 일은 다르다.
+
+**장부(ledger).** Weinberg(1987) anthropic 천장은 "구조가 Λ-지배 전에 형성돼야
+한다"에서 ρ_Λ ≲ 수백·ρ_m0 를 준다. 관측 ρ_Λ/ρ_m0 = Ω_Λ/Ω_m = 2.17 로 그 천장
+**바로 아래(약 1.7–2.4 orders)** 에 앉아 있다 — 자릿수는 "설명"되지만 아무것도
+유도되지 않고, 질문은 "왜 landscape인가"로 **이전**된다(select). Dimensional
+transmutation M = M_pl·exp(−c/g²)은 O(1) 결합에서 지수 **c/g² ≈ 70**(ln(M_pl/M_DE))
+으로 *작음 그 자체*를 technically natural 하게 만든다 — 이건 **정직하게 인정해야 할
+부분적 성과**다. 하지만 (a) 맞는 O(1) 결합이 여전히 input이고, (b) 이건 **포텐셜
+스케일**을 다룰 뿐 진공에너지 CC 문제가 아니다(ρ_vac~M_cutoff⁴는 지수억제되지
+않음). 즉 실제 문제를 풀지 못한다(partial). SUSY는 깨지면 ρ_vac~m_SUSY⁴로 스케일이
+틀리고, sequestering/unimodular(Kaloper–Padilla)는 Λ를 전역 적분상수로 만들어
+중력원에서 떼어내지만 그 **값**은 설명 안 되는 경계/역사평균 input으로 남으며,
+swampland/de Sitter 추측은 제약만 줄 뿐 meV 값을 고정하지 못한다 — 모두 relocate.
+
+| 공략 | 가정 | 유도 vs 선택/이전 | 핵심 숫자 | 판정 |
+| --- | --- | --- | --- | --- |
+| 순진한 QFT 진공 | M_cutoff⁴ | — (문제 그 자체) | 10^123 / 10^59 | problem |
+| Weinberg anthropic | landscape+관측자 선택 | 선택, 유도 아님 | 천장 아래 1.7–2.4 orders | select |
+| Dimensional transmutation | O(1) 결합 | 작음만 natural, 값은 아님 | 지수 ≈70 | partial |
+| SUSY (깨짐) | 정확 SUSY ρ_vac=0 | 이전(스케일 틀림) | ~10^59 off | relocate |
+| sequestering/unimodular | Λ=적분상수 | 이전(값 미설명) | — | relocate |
+| swampland/dS | 양자중력 EFT | 이전(제약뿐) | — | relocate |
+
+외부 숫자는 대표·인용값(Weinberg 1987, PRL 59, 2607)이다. 050 ceiling과 observer
+모드는 그대로이고, 진짜 검증은 CLASS/hi_class(Level 3)이며 blocked다. hit/select는
+유도가 아니다.
+
+### CP23 결론 (2026-06-12)
+
+```text
+- ρ_vac~M⁴ 는 관측 ρ_Λ보다 10^123(Planck)/10^59(TeV) 큼 = 우주상수 문제 그 자체.
+- Weinberg anthropic: 천장 아래 1.7–2.4 orders. select일 뿐, 유도 아님(why-landscape로 이전).
+- transmutation: 지수~70으로 "작음"만 technically natural(정직히 인정), 스케일 1개 input 잔존 + 포텐셜 스케일이라 진공 CC 아님.
+- SUSY/sequestering/swampland: 모두 relocate(스케일 틀림/값 미설명/제약뿐).
+- 아무도 meV를 derive 못 함. QFUDS가 ΛCDM과 똑같이 그대로 상속. hit/select≠derivation.
+- 050/observer 그대로, 진짜 검증은 CLASS blocked.
+```
+
 ## 재현
 
 ```bash
@@ -1112,6 +1164,7 @@ python3 cp19_euclid_forecast.py  # fig_cp19_euclid_forecast.png + csv (CP19 Eucl
 python3 cp20_ceiling_derivation.py # fig_cp20_ceiling_derivation.png + csv (CP20 050 천장 직격)
 python3 cp21_xi_criticality.py   # fig_cp21_xi_criticality.png + csv (CP21 ξ 근임계 brute-force)
 python3 cp22_coincidence_tracker.py # fig_cp22_coincidence_tracker.png + csv (CP22 coincidence tracker)
+python3 cp23_cc_problem.py       # fig_cp23_cc_problem.png + csv (CP23 우주상수 문제)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
