@@ -33,3 +33,4 @@ made through the project process.
 - [Known-Model Distinction Audit Result](048_known_model_distinction_audit_result.md)
 - [Level 2B Admission Eligibility Review and Observer-Mode Routing](049_level2b_eligibility_review_and_observer_mode.md)
 - [Foam-Sector-to-Gamma Derivation Feasibility Result](050_foam_sector_to_gamma_derivation_feasibility_result.md)
+- [Effective Phase-Fraction Scaffold](051_effective_phase_fraction_scaffold.md)

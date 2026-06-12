@@ -76,6 +76,7 @@ records. The prefix is a route number, not a project-status claim.
 | 049 | [Foam-Sector-to-Gamma Derivation Feasibility Plan](plans/049_foam_sector_to_gamma_derivation_feasibility_plan.md) | forward-direction feasibility plan; no derivation or admission |
 | 049 | [Level 2B Admission Eligibility Review and Observer-Mode Routing](conclusions/049_level2b_eligibility_review_and_observer_mode.md) | gate-check verdict; routes the lane to observer mode |
 | 050 | [Foam-Sector-to-Gamma Derivation Feasibility Result](conclusions/050_foam_sector_to_gamma_derivation_feasibility_result.md) | forward-direction feasibility closeout; minimum objects missing |
+| 051 | [Effective Phase-Fraction Scaffold](conclusions/051_effective_phase_fraction_scaffold.md) | weak single-sector phase-fraction scaffold; analytic density only |
 
 Reserved future records:
 
@@ -150,6 +151,10 @@ Reserved future records:
   no foam-sector state variable, no calculable phase definitions, no replacement
   transition object, and no foam-sector equation set. It does not open Level 2B
   or modify roadmap status.
+- `051` relaxes the foam-sector route into a weak one-sector effective
+  phase-fraction scaffold. It derives the analytic background density for a
+  smooth `f_B(a)`/`w_D(a)` ansatz without using `Gamma(a)`, deriving a physical
+  source, opening Level 2B, or modifying roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 
