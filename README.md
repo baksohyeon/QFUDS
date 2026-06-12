@@ -47,13 +47,15 @@ Black holes and white-hole-like remnants are secondary. They may be read in QFUD
 ## Where This Stands: What Pushing the Idea to the Wall Found
 
 The conceptual program above is the starting point, not the result. The most
-complete attempt so far took one concrete version, a rough `tanh`
-equation-of-state transition for a unified dark sector, and pushed it all the
-way to its limits across 24 atomic checkpoints. That record is the
+complete attempt so far took one concrete version: a rough `tanh`
+equation-of-state transition for a unified dark sector (the equation of state `w`
+slides smoothly along an S-shaped curve from one value to another). I pushed it
+all the way to its limits across 24 atomic checkpoints. That record is the
 [rough-`tanh` lineage report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
 (Korean). Its contribution is a systematic *map* of how far the idea reaches and
 where it is blocked, not a discovery of new cosmology. The project is currently
-in **observer mode**; the single source of truth for status remains the
+in **observer mode** (no longer pushing new hypotheses, just waiting on external
+observations); the single source of truth for status remains the
 [Roadmap](docs/05_next_steps/000_roadmap.md).
 
 ![It works at the effective level: the V2 variant's background expansion and distance modulus track LCDM to within the Type Ia supernova scatter floor (±0.05 mag), while the fully unified V1 variant breaks at high redshift.](docs/wiki/lineage/assets/004_rough_tanh/fig_background.png)
@@ -62,32 +64,39 @@ The map reads on three levels:
 
 - **Effective level: it works, but it does not win.** With ordinary matter held
   separate (variant V2), the background expansion is indistinguishable from LCDM
-  in supernovae (`|Δμ| < 0.02` mag), and a tiny effective sound speed
-  `c_eff² ≈ 3×10⁻⁵` pulls the structure-growth amplitude down to the observed
-  `S8 ≈ 0.76`. But this is not better than LCDM: the apparent fit win is just the
-  generic effect of lowering `S8`, it costs one more hand-tuned knob, and the
-  `H0` tension gets *worse*, not better.
+  in supernovae (`|Δμ| < 0.02` mag, within the brightness scatter of Type Ia
+  supernovae), and a tiny effective sound speed (`c_eff² ≈ 3×10⁻⁵`, so small the
+  dark sector barely spreads and mostly clumps) pulls the structure-growth
+  amplitude `S8` down to the observed `S8 ≈ 0.76`. But this is not better than
+  LCDM: the apparent fit win is just the generic effect of lowering `S8`, it costs
+  one more hand-tuned knob, and the `H0` tension (the ~8% disagreement between
+  nearby and distant measures of the expansion rate) gets *worse*, not better.
 - **Falsifiable level: where the science actually is.** Because it hides in the
   background, the model's only scientific value is where it *diverges* from LCDM.
   It leaves three clean falsifiable signatures: a scale-dependent step in the
-  weak-lensing matter power spectrum (`k_J ≈ 0.1 Mpc⁻¹`), a scale-dependent tilt
-  in the late ISW signal, and a running growth index `γ_eff(k)`. A representative
-  Euclid-class tomographic forecast detects these at **~24σ**, within reach of
-  next-generation surveys.
+  weak-lensing matter power spectrum (weak lensing reads the matter map from how
+  foreground gravity bends the light of distant galaxies; the step sits at
+  `k_J ≈ 0.1 Mpc⁻¹`), a scale-dependent tilt in the late ISW signal (the faint
+  energy shift CMB photons pick up while crossing large-scale structure), and a
+  running growth index `γ_eff(k)` (the exponent for how fast structure grows). A
+  representative Euclid-class tomographic forecast detects these at **~24σ**
+  (statistically as good as certain), within reach of next-generation surveys.
 - **Fundamental level: the ceiling.** Trying to *derive* the parameters the data
   wants from a microscopic foam structure fails. The data prefer a correlation
   length `ξ ≈ 10 Mpc` (a large-scale-structure scale, not a microscopic foam
   scale) and a transition near a critical density `ρ* ≈ ρ_Λ`. Forcing these from
   a mechanism does not reduce the tuning; it relocates it, and the two numbers
-  reduce to the **cosmological-constant problem** and the **hierarchy/scale
-  problem**. This ceiling is not a failure unique to this idea; it is the wall
+  reduce to the **cosmological-constant problem** (why the vacuum energy is so
+  absurdly small) and the **hierarchy/scale problem** (why this particular size).
+  This ceiling is not a failure unique to this idea; it is the wall
   every dynamical-dark-energy model shares.
 
 ![The ceiling in one picture: the correlation length the data wants (ξ ≈ 9.5 Mpc) is natural to neither the microscopic foam scale nor the causal horizon, and the transition density sits inside the ~3-orders cosmic-coincidence window. In other words, the scale problem and the why-now problem.](docs/wiki/lineage/assets/004_rough_tanh/fig_cp20_ceiling_derivation.png)
 
 Two findings survive as genuine, narrow gains rather than story language: a
-tracker-attractor mechanism that removes ~15.7 decades of initial-condition
-tuning (the one real partial win), and the observation that three independent
+tracker-attractor mechanism (any starting value gets pulled to the same outcome
+over time) that removes ~15.7 decades (factors of ten, an enormous range) of
+initial-condition tuning, the one real partial win, and the observation that three independent
 "what did I miss?" intuitions each re-discovered, on their own, ~25 years of
 existing literature (chameleon screening, LTB voids, Buchert averaging), which
 corroborates that the ceiling is real rather than an artifact of one approach.
@@ -99,7 +108,8 @@ quietly survive. That is what let a speculative hypothesis be pushed to the wall
 while still landing on an honest conclusion.
 
 Every number above comes from a rough proxy; rigorous validation requires a
-Boltzmann code (CLASS/hi_class) and is currently blocked. Nothing here is a
+Boltzmann code (a full cosmology solver such as CLASS/hi_class) and is currently
+blocked. Nothing here is a
 confirmed physical claim. See the
 [thesis-style report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) for
 the full checkpoint-by-checkpoint record, and
@@ -113,11 +123,13 @@ converged onto two of modern physics' unsolved problems. The conclusion of these
 few days, stated up front:
 
 > **The two open problems**
-> 1. **Why is the dark-energy scale exactly meV?** This leads straight into the
->    cosmological-constant problem.
+> 1. **Why is the dark-energy scale exactly meV (a tiny energy unit, the
+>    milli-electronvolt)?** This leads straight into the cosmological-constant
+>    problem (why the vacuum energy is so absurdly small).
 > 2. **Where should the vacuum-energy cutoff be set?** I reasoned from the quantum
->    side, but what distance scale does it actually require: the Planck scale, the
->    horizon scale, or the galaxy / cosmic-web scale?
+>    side, but what distance scale does it actually require: the Planck scale
+>    (impossibly small), the horizon scale (the size of the observable universe),
+>    or the galaxy / cosmic-web scale?
 
 I never reached the "why." Of course not: these two *are* modern physics' open
 problems, which is exactly why none of this can be derived from first principles.
@@ -134,14 +146,15 @@ look like a clustering phase (`w ≈ 0`, `c_s² ≈ 0`, so it joins structure
 formation like cold dark matter) in one regime and a residual vacuum-pressure
 phase (`w ≈ -1`, so it drives acceleration) in another?
 
-I hit the honest limit quickly: at best this is *phenomenological*, and it cannot
-be *derived* from first principles. It was not even new: schools of thought with
+I hit the honest limit quickly: at best this is *phenomenological* (it fits the
+data without explaining why), and it cannot be *derived* from first principles. It
+was not even new: schools of thought with
 a similar approach had already run the same calculation and stopped at the same
 place. It was disappointing, but I reasoned that a scientist bound by rigor would
 stop here, and that I was not, so I could push it through even if it became
 unscientific. To get the properties a dynamical-dark-energy model needs, I
-brute-forced a fit toward the places where the standard model is subtly off,
-watching the trends as I went.
+brute-forced a fit (just trying values until they land) toward the places where
+the standard model is subtly off, watching the trends as I went.
 
 And then an optimum actually appeared.
 
@@ -170,8 +183,8 @@ structure. (None of this is a physical proof, of course; the two open problems
 above make a derivation impossible from the start.)
 
 It made me ask whether I had been trapped in the micro/quantum picture, and
-whether vacuum energy should not be cut at the Planck scale but coarse-grained at
-the galaxy/structure scale instead. Digging further, I found this road had been
+whether vacuum energy should not be cut at the Planck scale but coarse-grained
+(averaged over the fine detail) at the galaxy/structure scale instead. Digging further, I found this road had been
 travelled from the 1990s to today. Obvious in hindsight, and quietly funny in the
 moment. This is what standing on the shoulders of giants feels like: holographic
 dark energy, EFTofLSS, IR cutoffs, coarse-graining, running vacuum, Buchert
@@ -193,9 +206,10 @@ modern cosmology's open problems.
 And this was not done by chatting with a chatbot. I dug into the repository and
 built a research-agent system, then pushed the whole thing through in 5 days. It
 searched the literature, pulled PDFs and arXiv source, extracted figure assets,
-converted them to Markdown, digitized plots, produced CSVs, compared `Γ(a)`
-against the actual Chen entropy curve, automated known-model distinction, and
-cached lookups to save tokens. Agents, workflows, and validation gates, all built
+converted them to Markdown, digitized plots (recovered the numbers from the
+figures), produced CSVs, compared `Γ(a)` against the actual Chen entropy curve,
+automated the known-model distinction (telling it apart from already-known
+models), and cached lookups to save tokens. Agents, workflows, and validation gates, all built
 to a serious scientific standard. It amounted to assembling a small research team,
 with the final reviewer, too, an agent.
 
@@ -214,8 +228,9 @@ here are five things I'm allowing myself to be proud of:
 5. And doing all of it through an agent system I built myself, in 5 days, is what
    I'm most proud of.
 
-The relevant DESI/Euclid data won't be released until this October. Until then,
-there is nothing more to do but wait.
+The relevant DESI/Euclid data (from next-generation surveys that map large-scale
+structure in detail) won't be released until this October. Until then, there is
+nothing more to do but wait.
 
 ## Why I Came Up With The Hypothesis
 
