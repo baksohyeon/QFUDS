@@ -509,6 +509,48 @@ H0를 풀려면 재결합 이전(r_s)을 바꿔야 하는데 늦은 z≈2 전환
 => 헤드라인 '허블 완화'는 이 모델에선 실패. S8/H0 레버는 분리돼 S8만 닿는다.
 ```
 
+## CP11 (2026-06-12): η 프록시를 진짜 2-fluid 섭동으로 검증
+
+CP5/CP9의 클러스터링 효율 η는 거친 프록시였다. CP11은 그걸 **실제 결합 2-fluid
+섭동 시스템**으로 교체해 얼마나 어긋났는지 본다. Ma-Bertschinger sub-horizon(준정적)
+방정식을 연속·오일러식에서 직접 유도해 e-folds로 옮겼다(δ_m, ϑ_m, δ_X, ϑ_X 4변수,
+중력으로만 결합, c_s²(k/𝓗)² Jeans 압력항 포함):
+
+```text
+δ_m' = -ϑ_m
+ϑ_m' = -(2+dlnE/dN)ϑ_m - (3/2)(Ω_m δ_m + Ω_X δ_X)
+δ_X' = -(1+w)ϑ_X - 3(c_s²-w)δ_X
+ϑ_X' = -(2-3c_s²+dlnE/dN)ϑ_X + (c_s²/(1+w))(k/𝓗)²δ_X - (3/2)(Ω_m δ_m + Ω_X δ_X)
+```
+
+([`cp11_two_fluid.py`](assets/004_rough_tanh/cp11_two_fluid.py),
+[`fig_cp11_two_fluid.png`](assets/004_rough_tanh/fig_cp11_two_fluid.png))
+
+**극한 검증 통과**: c_s²→0이면 δ_X가 δ_m을 따라 뭉치고(성장 부스트), c_s²→1이면
+압력에 눌려 매끄러움 — full 시스템이 옳게 거동(k=0.2서 비율 1.29>1).
+
+**프록시 정확도**: WL 밴드(k=0.05~1)에서
+- raw 진폭: full/proxy = **0.91 ~ 1.09 (±~9%)**
+- 정규화 모양: 최대 편차 **~20%** (프록시가 더 일찍·세게 억제)
+
+즉 **η 프록시는 정성적으론 맞다**(스텝 @ k_J, 극한 OK) — CP9의 결론(스케일 의존
+P(k) 스텝 = falsifiable 신호)은 full 2-fluid에서도 **살아남는다**. 다만 **정량적으론
+10~20% 어긋나서** 실제 파라미터 제약엔 못 쓴다. 그래서 CP1~CP10의 toy 숫자들은
+*경향·자릿수*로만 읽어야 한다는 캐비엇이 정당했음을 *수치로* 확인한 셈.
+
+그리고 이 full 2-fluid조차 거칠다(sub-horizon·준정적, Boltzmann 위계·비선형·super-
+horizon 없음, w→−1에서 1+w를 floor로 regularize). 진짜 정밀값은 CLASS다 — 현상론
+유체 모듈로 코딩하면 되지만(천장 안 넘음), 물리 QFUDS는 δQ 도출이 먼저(050).
+
+### CP11 결론 (2026-06-12)
+
+```text
+η 프록시 vs 진짜 2-fluid 섭동: 정성적 일치(스텝, 극한 OK), 정량 10~20% 편차.
+CP9의 falsifiable P(k) 스텝은 full 시스템에서도 생존.
+=> toy 숫자는 경향/자릿수로만, 정밀값은 CLASS. (full 2-fluid도 아직 rough)
+검증 의의: CP1~CP10의 "rough proxy, 진짜는 blocked" 캐비엇이 수치로 정당화됨.
+```
+
 ## 재현
 
 ```bash
@@ -527,6 +569,7 @@ python3 cp7_brute_fit.py         # fig_cp7_brute_fit.png + scan/summary csv (CP7
 python3 cp8_ceff2_derivation.py  # fig_cp8_ceff2_derivation.png + csv (CP8 도출 시도)
 python3 cp9_lensing_pk.py        # fig_cp9_lensing_pk.png + csv (CP9 렌즈 P(k))
 python3 cp10_h0_test.py          # fig_cp10_h0_test.png + csv (CP10 H0 긴장)
+python3 cp11_two_fluid.py        # fig_cp11_two_fluid.png + csv (CP11 2-fluid 검증)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
