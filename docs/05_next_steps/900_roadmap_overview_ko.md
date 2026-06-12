@@ -10,8 +10,9 @@ depends_on:
   - experiment_summary
   - level_1_5_resolution_gate
   - traceability_matrix
+  - audit_2026_06_12_foam_sector_to_gamma_derivation_feasibility_result
 next_gate: read roadmap for current status before acting
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # QFUDS Roadmap Overview Korean Guide
@@ -45,6 +46,13 @@ known-model distinction)이 모두 비어 있어 Level 2B 부적격으로 판정
 근거: Source-X
 [Level 2B Admission Eligibility Review and Observer-Mode Routing](../wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md).
 
+2026-06-12의
+[Foam-Sector-to-Gamma Derivation Feasibility Result](../wiki/research/investigations/source_x/conclusions/050_foam_sector_to_gamma_derivation_feasibility_result.md)는
+초기 질문으로 돌아가서, foam sector에서 `Gamma(a)` 비슷한 것이 나올 수
+있는지 보려면 무엇이 최소한 필요하냐를 정리했습니다. 결론은 아직 유도
+불가입니다. 비순환 foam-sector 상태변수, 계산 가능한 phase A/B 정의,
+`Gamma(a)`를 대체할 전이 객체, foam-sector 방정식 세트가 없습니다.
+
 관측자 모드에서는:
 
 - 새 physical-QFUDS branch를 열지 않고, Level 2B 작업도 하지 않습니다.
@@ -76,6 +84,19 @@ known-model distinction)이 모두 비어 있어 Level 2B 부적격으로 판정
 
 즉, retained branch의 현상론적 진행과 future physical-QFUDS branch는
 분리되어 있습니다.
+
+## 초심 대비 현재 분류
+
+첨부된 초심 문장 기준으로, 현재 레포 상태는 이렇게 읽는 것이 가장
+정확합니다.
+
+| 분류 | 현재 레포 기준 |
+| --- | --- |
+| 검증됨 | `Gamma(a)=0` LCDM 대조군과 두 상 배경 bookkeeping은 테스트 scaffolding으로 검증됨. |
+| 확인됨 | retained prototype의 구조형성기 타이밍 fingerprint는 확인됨. peak는 대략 `z ~= 2` 근처. |
+| 기각됨 | constant transfer, ungated growth-driven transfer, retained collapse/information-production source relation의 물리 유도 주장, P2 closure at retained amplitude, Chen-Gamma / black-hole entropy lane의 known-model distinction. |
+| 폐기됨 | white-hole-universe 이미지, Landauer 자체를 우주론 소스로 쓰는 주장, 넓은 entropy/foam/remnant 언어를 증거처럼 쓰는 방식. 이들은 provenance나 motivation으로만 남음. |
+| 유보됨 | 원래 QFUDS 질문: 하나의 foam sector가 phase A와 phase B를 만들고 거기서 `Gamma(a)` 비슷한 전이가 자연히 나오는가. 050 결과 기준 아직 상태변수와 방정식이 없어 유도 시도 전 단계에서 blocked. |
 
 ## 이미 세워진 것
 
