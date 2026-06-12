@@ -334,7 +334,7 @@ partial_compression
 - 하지만 Li & Zhang의 full shape(전체 곡선 모양)는 sign-reversal
   transition(부호가 바뀌는 전이형 구조)에 가깝다.
 - logistic transition(S자 모양으로 한 상태에서 다른 상태로 넘어가는
-  2-parameter 전이 함수)과 Gaussian/pulse families(중심과 폭을 가진
+  2-parameter 전이 함수)과 Gaussian/pulse families(중심과 폭이 있는
   봉우리형 함수군)가 retained보다 훨씬 효율적으로 reconstruction을 압축했다.
 - retained `Gamma(a)`는 leading compression implementation이 아니다.
 

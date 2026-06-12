@@ -598,7 +598,7 @@ retained timing peak/weighted-mean 부근에 data-supported beta(z) structure가
 - Li & Zhang reconstruction과 Exp005 retained timing profile의 qualitative overlap을 분석했다.
 - 회고상 핵심 판단을 정리했다: 이 작업은 QFUDS 지지가 아니라, retained structure-era timing intuition이 DESI-era IDE reconstruction feature와 비교 가능한 질문으로 올라간 사건이다.
 
-## 부록 A — 디버깅 명령어 모음
+## 부록 A: 디버깅 명령어 모음
 
 ### arXiv source bundle manifest 보기
 
@@ -706,7 +706,7 @@ qlmanage -t -s 2400 -o /private/tmp/qfuds_li2025_ql_all \
 
 - 논문 data product 탐색은 `metadata search -> source bundle -> extracted files -> PDF internals -> external archives -> local cache` 순서가 안전하다. 중간에 "없다"고 단정하면 figure-level product를 놓치기 쉽다.
 
-## 부록 B — 왜 figure PDF도 중요한가
+## 부록 B: 왜 figure PDF도 중요한가
 
 numerical product가 없으면 비교를 포기해야 하는 것은 아니다. 다만 증거 수준을 낮춰야 한다.
 
@@ -726,7 +726,7 @@ classification-level numerical product는 없다.
 
 그래서 Li & Zhang 2025는 여전히 다음 timing-overlap 분석의 최우선 target으로 남는다.
 
-## 부록 C — 이번 사건의 연구 교훈
+## 부록 C: 이번 사건의 연구 교훈
 
 이 사건은 "논문 하나를 더 찾았다"보다 크고, "새 물리학을 찾았다"보다 작다. 정확히는 검증 가능한 질문의 해상도가 올라간 사건이다.
 
