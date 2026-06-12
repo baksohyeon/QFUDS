@@ -1,0 +1,10 @@
+quantity,value
+int_dz_E_LCDM,3.11733
+int_dz_E_QFUDS,3.06102
+H0_ratio_QFUDS_over_LCDM,0.981938
+H0_shift_pct,-1.8062
+H0_QFUDS_inferred,66.183
+H0_CMB,67.4
+H0_local,73.0
+pct_needed_to_close,8.309
+frac_integral_from_z_lt_2,0.3830

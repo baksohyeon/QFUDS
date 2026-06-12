@@ -1,0 +1,17 @@
+# CP23 cosmological constant problem — survey + ledger; parametrize-not-derive; hit/select != derivation; 050+observer untouched; real check CLASS Level3 BLOCKED
+# observed dark-energy scale m_DE = Omega_L^0.25 * 2.5 meV = 2.274 meV ; rho_L = (2.274 meV)^4
+
+approach,key_number,category,note
+Naive QFT vacuum (M_cutoff=Planck (1.22e19 GeV)),rho_vac/rho_L=1e122.9,problem,rho_vac~M_cutoff^4; this IS the CC problem quantified
+Naive QFT vacuum (M_cutoff=SUSY/TeV (1e3 GeV)),rho_vac/rho_L=1e58.6,problem,rho_vac~M_cutoff^4; this IS the CC problem quantified
+Naive QFT vacuum (M_cutoff=electroweak (246 GeV)),rho_vac/rho_L=1e56.1,problem,rho_vac~M_cutoff^4; this IS the CC problem quantified
+Weinberg anthropic bound,obs 1.66-2.36 orders below cap (N=100-500),selects,Weinberg 1987 PRL 59 2607 (representative); SELECTS via landscape+observer; relocates to 'why a landscape'
+  obs rho_L/rho_m0,2.174,selects,"Omega_L/Omega_m, the O(2) why-now coincidence"
+Dimensional transmutation,exponent c/g^2=69.1 (reduced) / 70.8 (full M_pl),partial,"smallness technically natural (REAL partial win); needs O(1) coupling input + addresses POTENTIAL scale, not vacuum-energy CC"
+SUSY (broken),(qualitative),relocates,broken SUSY gives ρ_vac~m_SUSY^4 — wrong by ~10^59
+sequestering / unimodular (Kaloper–Padilla),(qualitative),relocates,"Λ no longer gravitates, but its VALUE = unexplained boundary/historic-average input"
+swampland / de Sitter conjectures,(qualitative),relocates,"constrains the value/dynamics, does NOT fix the meV scale"
+
+## VERDICT
+meV_value_derived_by_any_row,NO,nobody derives the meV/why-now scale
+net,select/relocate/partial-natural,hit/select != derivation; QFUDS inherits this unsolved CC problem; 050 + observer untouched; real check = CLASS Level3 BLOCKED

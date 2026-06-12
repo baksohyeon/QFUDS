@@ -1,0 +1,3 @@
+model,z_star,omega_m0,c_eff2,S8,chi2_fsigma8,chi2_S8,chi2_total,n_params,AIC
+LCDM,-,0.315,-,0.830,6.223,12.250,18.473,1,20.473
+QFUDS_best,6.0,0.29,4.641589e-06,0.7780,7.236,0.813,8.049,4,16.049

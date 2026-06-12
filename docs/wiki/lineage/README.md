@@ -33,3 +33,4 @@ Do not use this folder for:
 1. [QFUDS Idea Genealogy](001_qfuds_genealogy.md)
 2. [QFUDS Branch Dependency Graph](002_branch_graph.md)
 3. [QFUDS 연구 흐름 쉬운 설명](003_research_flow_plain_language_ko.md)
+4. [QFUDS rough tanh 수치 스케치](004_rough_tanh_numerical_sketch_ko.md)
