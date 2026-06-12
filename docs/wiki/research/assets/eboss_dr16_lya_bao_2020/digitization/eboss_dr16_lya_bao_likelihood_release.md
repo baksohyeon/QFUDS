@@ -35,7 +35,8 @@ likelihood implementation.
 | SDSS final results page | <https://www.sdss4.org/science/final-bao-and-rsd-measurements/> |
 | BAO-only likelihood directory | <https://svn.sdss.org/public/data/eboss/DR16cosmo/tags/v1_0_1/likelihoods/BAO-only/> |
 | Data-vector/covariance directory | <https://svn.sdss.org/public/data/eboss/DR16cosmo/tags/v1_0_1/dataveccov/lya_forest/> |
-| Parse method | source-file inspection, MarkItDown README conversion, and Markdown assembly |
+| Source-page conversions | [SDSS final BAO/RSD page](markitdown_sdss_final_bao_rsd_measurements.md), [BAO-only directory](markitdown_sdss_bao_only_directory.md), [data-vector/covariance directory](markitdown_sdss_dataveccov_lya_forest_directory.md), [arXiv page](markitdown_arxiv_2007.08995.md) |
+| Parse method | source-page conversion, source-file inspection, MarkItDown README conversion, and Markdown assembly |
 | PageIndex used | no; no paper PDF body was parsed |
 | MarkItDown used | yes, for [MarkItDown BAO-only README conversion](markitdown_BAO-only_README.md) |
 
@@ -44,6 +45,7 @@ likelihood implementation.
 | Local file | Upstream role |
 | --- | --- |
 | `../source/BAO-only_README.txt` | format description for DR16 BAO likelihood products |
+| `../source/dataveccov_lya_forest_README.txt` | format description for raw Lyman-alpha data-vector/covariance products |
 | `../source/sdss_DR16_LYAUTO_BAO_DMDHgrid.txt` | Ly-alpha auto-correlation likelihood grid |
 | `../source/sdss_DR16_LYxQSO_BAO_DMDHgrid.txt` | Ly-alpha/quasar cross-correlation likelihood grid |
 | `../source/dataveccov_lya_forest_listing.xml` | directory listing for raw Lyman-alpha data-vector/covariance assets |
@@ -97,6 +99,32 @@ asset candidates:
 | `xcf_z_0_10.fits.gz` | listed only |
 
 Those FITS products were not downloaded or parsed in this pass.
+
+The source-page retrieval added the upstream `dataveccov_lya_forest_README.txt`.
+It states that the folder contains correlation functions, covariances, and
+associated files from du Mas des Bourboux et al. 2020. Files ending in `-exp`
+include the covariance matrix for a particular measurement and its distortion
+matrix. The format corresponds to Picca output and Picca/Vega fitter input.
+
+## Raw FITS Size Inventory
+
+The raw FITS assets were size-checked but not downloaded because several are
+hundreds of MB to about 1 GB each.
+
+| File | Size bytes | Local state |
+| --- | ---: | --- |
+| `cf_LYA_in_LYA_LYA_in_LYB_z_0_10-exp.fits.gz` | `55307441` | `asset_available_not_downloaded` |
+| `cf_LYA_in_LYA_LYA_in_LYB_z_0_10.fits.gz` | `33804112` | `asset_available_not_downloaded` |
+| `cf_z_0_10-exp.fits.gz` | `55804251` | `asset_available_not_downloaded` |
+| `cf_z_0_10.fits.gz` | `33797900` | `asset_available_not_downloaded` |
+| `metal_dmat_LYA_in_LYA_LYA_in_LYB_z_0_10.fits` | `1001629440` | `asset_available_not_downloaded` |
+| `metal_dmat_z_0_10.fits` | `1001629440` | `asset_available_not_downloaded` |
+| `metal_xdmat_LYA_in_LYB_z_0_10.fits` | `1000814400` | `asset_available_not_downloaded` |
+| `metal_xdmat_z_0_10.fits` | `1000814400` | `asset_available_not_downloaded` |
+| `xcf_LYA_in_LYB_z_0_10-exp.fits.gz` | `205520221` | `asset_available_not_downloaded` |
+| `xcf_LYA_in_LYB_z_0_10.fits.gz` | `66241631` | `asset_available_not_downloaded` |
+| `xcf_z_0_10-exp.fits.gz` | `204731684` | `asset_available_not_downloaded` |
+| `xcf_z_0_10.fits.gz` | `67408974` | `asset_available_not_downloaded` |
 
 ## Open Product Choices
 

@@ -35,7 +35,9 @@ likelihood implementation.
 | Zenodo record | <https://zenodo.org/records/15690869> |
 | Cached archive | `../source/desi-dr2-lya-bao-figdata.tgz` |
 | Extracted README | `../source/extracted/README` |
-| Parse method | source-file inspection, MarkItDown README conversion, and Markdown assembly |
+| Source-page conversions | [Zenodo record](markitdown_zenodo_record_15690869.md), [arXiv page](markitdown_arxiv_2503.14739.md) |
+| Archive-member conversions | [DESI DR2 archive MarkItDown index](desi_dr2_lya_bao_archive_markitdown_index.md) |
+| Parse method | source-page conversion, archive-member conversion, source-file inspection, MarkItDown README conversion, and Markdown assembly |
 | PageIndex used | no; no paper PDF body was parsed |
 | MarkItDown used | yes, for [MarkItDown upstream README conversion](markitdown_upstream_README.md) |
 
@@ -103,3 +105,19 @@ Before any BAO penalty or likelihood comparison, a future plan must decide:
 - whether the comparison is diagnostic only or a formal likelihood.
 
 No such decision is made here.
+
+## Additional Source-Page Retrieval
+
+The Zenodo and arXiv source pages were converted with MarkItDown after the
+initial asset cache pass. The Zenodo source page confirms the release-level
+record and points to the cached archive. The arXiv source page is retained only
+as a paper metadata aid; paper-body parsing should use PageIndex if equation,
+caption, or table provenance becomes necessary.
+
+## Archive-Member Conversion
+
+The cached `desi-dr2-lya-bao-figdata.tgz` archive was already unpacked under
+`../source/extracted/`. The text, CSV, DAT, and JSON members were converted with
+MarkItDown under `markitdown_extracted/` and indexed in
+[DESI DR2 archive MarkItDown index](desi_dr2_lya_bao_archive_markitdown_index.md).
+Binary FITS, NPY, and NPZ members were not converted.

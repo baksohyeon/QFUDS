@@ -29,5 +29,12 @@ digitization, not a likelihood implementation, and not QFUDS evidence.
 - [DESI DR2 Lyman-alpha BAO data-release parse](desi_dr2_lya_bao_data_release.md)
   - source-file inventory, figure-product map, compact `D_M/r_d` and `D_H/r_d`
   source table, and open source-product choices.
+- [DESI DR2 archive MarkItDown index](desi_dr2_lya_bao_archive_markitdown_index.md)
+  - MarkItDown conversion index for text, CSV, DAT, and JSON members extracted
+  from `desi-dr2-lya-bao-figdata.tgz`.
 - [MarkItDown upstream README conversion](markitdown_upstream_README.md) -
   low-fidelity Markdown conversion of the cached upstream README.
+- [MarkItDown Zenodo record conversion](markitdown_zenodo_record_15690869.md)
+  - low-fidelity Markdown conversion of the source record page.
+- [MarkItDown arXiv page conversion](markitdown_arxiv_2503.14739.md) -
+  low-fidelity Markdown conversion of the source abstract page.

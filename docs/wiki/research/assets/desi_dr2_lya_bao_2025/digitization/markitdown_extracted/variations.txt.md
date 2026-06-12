@@ -1,0 +1,84 @@
+---
+doc_id: asset_desi_dr2_lya_bao_2025_markitdown_extracted_variations_txt
+title: "DESI DR2 Lyman-alpha BAO MarkItDown Extracted variations.txt Conversion"
+doc_type: reference
+stage: reference
+status: reference
+evidence_role: reference
+depends_on:
+  - asset_desi_dr2_lya_bao_2025
+next_gate: use curated data-release parse for source-product decisions
+last_updated: 2026-06-12
+---
+
+# DESI DR2 Lyman-alpha BAO MarkItDown Extracted variations.txt Conversion
+
+Quality state: `low_fidelity_search_text`.
+
+This is a direct MarkItDown conversion of `../../source/extracted/variations.txt`.
+Use [DESI DR2 Lyman-alpha BAO data-release parse](../desi_dr2_lya_bao_data_release.md) for the curated source-file inspection record.
+
+Delta at:
+ignore quasar radiation 0.9945 0.0137
+ignore modelling of sky residuals 0.9958 0.0133
+ignore small-scales correction 0.9947 0.0130
+UV fluctuations 0.9949 0.0125
+no prior on bias_CIV_eff 0.9945 0.0132
+no prior on bias_QSO 0.9949 0.0132
+no prior on drp_QSO 0.9949 0.0132
+no prior on beta_HCD 0.9949 0.0132
+no prior on L0_HCD 0.9949 0.0132
+Gaussian redshift errors 0.9948 0.0132
+Delta r = 5 Mpc/h 0.9983 0.0136
+nside = 32 0.9958 0.0130
+Delta lambda = 1.6 , AA 0.9959 0.0132
+Delta lambda = 3.2 , AA 0.9971 0.0131
+dmat model z-indep 0.9949 0.0132
+dmat model 4 Mpc/h 0.9955 0.0130
+dmat 2% 0.9950 0.0132
+dmat r_{parallel} < 200 Mpc/h 0.9950 0.0132
+no sharp lines mask 0.9950 0.0133
+weak BALs 0.9987 0.0131
+mask DLAs with SNR_RED > 3 0.9952 0.0133
+only quasar targets 1.0034 0.0140
+> 50 pixels in forest 0.9967 0.0132
+z_Q < 3.78 0.9964 0.0133
+lambda_{rm RF} < 1200 , AA 0.9949 0.0132
+lambda_{rm obs} > 3650 , AA 0.9933 0.0137
+lambda_{rm obs} < 5500 , AA 0.9958 0.0132
+Delta lambda = 2.4 , AA 0.9972 0.0134
+eta_{rm LSS} = 3.5 0.9934 0.0133
+eta_{rm pip} = 1 0.9949 0.0132
+no calibration 0.9949 0.0133
+Delta ap:
+ignore quasar radiation 1.0014 0.0116
+ignore modelling of sky residuals 1.0010 0.0112
+ignore small-scales correction 1.0020 0.0112
+UV fluctuations 1.0017 0.0108
+no prior on bias_CIV_eff 1.0020 0.0113
+no prior on bias_QSO 1.0017 0.0113
+no prior on drp_QSO 1.0016 0.0113
+no prior on beta_HCD 1.0016 0.0113
+no prior on L0_HCD 1.0016 0.0113
+Gaussian redshift errors 1.0017 0.0113
+Delta r = 5 Mpc/h 0.9995 0.0115
+nside = 32 1.0018 0.0110
+Delta lambda = 1.6 , AA 1.0015 0.0114
+Delta lambda = 3.2 , AA 1.0014 0.0113
+dmat model z-indep 1.0017 0.0113
+dmat model 4 Mpc/h 1.0013 0.0113
+dmat 2% 1.0017 0.0114
+dmat r_{parallel} < 200 Mpc/h 1.0014 0.0113
+no sharp lines mask 1.0028 0.0114
+weak BALs 0.9994 0.0110
+mask DLAs with SNR_RED > 3 1.0010 0.0114
+only quasar targets 0.9987 0.0117
+> 50 pixels in forest 1.0007 0.0112
+z_Q < 3.78 1.0010 0.0115
+lambda_{rm RF} < 1200 , AA 1.0017 0.0113
+lambda_{rm obs} > 3650 , AA 1.0017 0.0115
+lambda_{rm obs} < 5500 , AA 1.0016 0.0114
+Delta lambda = 2.4 , AA 1.0031 0.0114
+eta_{rm LSS} = 3.5 1.0058 0.0117
+eta_{rm pip} = 1 1.0016 0.0113
+no calibration 1.0019 0.0113

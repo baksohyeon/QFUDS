@@ -38,6 +38,8 @@ change Exp006 conclusions, open a likelihood pipeline, or change roadmap status.
   cross-correlation likelihood grid.
 - `source/dataveccov_lya_forest_listing.xml` - cached directory listing for raw
   Lyman-alpha forest data-vector/covariance assets.
+- `source/dataveccov_lya_forest_README.txt` - upstream README for raw
+  Lyman-alpha data-vector/covariance assets.
 - `figures/` - reserved for rendered or copied figure assets.
 - `digitization/` - reserved for manual structured extracts or derived numeric
   products.
