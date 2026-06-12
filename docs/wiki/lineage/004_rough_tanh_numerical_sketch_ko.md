@@ -748,6 +748,57 @@ k-모양도 다름: c_s² Jeans는 k_J≈0.1 큰 스케일, 점성은 고-k(k_ha
    c_vis²=0은 강제 아닌 선택. 전부 parametrize, 진짜는 CLASS/hi_class GDM(blocked).
 ```
 
+## CP16 (2026-06-12): 성장지수 γ 지문 — S8 스케일에선 f(R)와 축퇴, 스케일 의존성이 구별의 단서
+
+성장률 f(a)≡dlnD/dlna 는 흔히 f=Ω_m(a)^γ 로 적합되며, GR/ΛCDM 은 γ≈0.55,
+수정중력은 이 값을 민다(f(R) γ≈0.42 성장 강화, DGP γ≈0.68 성장 억제). γ 는
+"같은 배경 Ω_m 에서 얼마나 다르게 자라는가"의 압축된 지문이다. CP16 은 QFUDS
+군집형 암흑유체(작은 c_s², η Jeans 억제)가 이 표준 진단에서 ΛCDM 처럼 보이는지,
+수정중력처럼 보이는지를 물었다. 성장은 e-folds 에서
+D''+(2+dlnE/dN)D'−1.5 Ω_clust D=0 로 풀었고, QFUDS 의 소스항만
+Ω_clust=Ω_m+η Ω_X 로 군집 보정했다. γ_eff(a)=ln f / ln Ω_m 의 Ω_m 은 관측자가
+배경에서 읽는 **보통물질 비율**(η Ω_X 가 몰래 군집하는 건 모름)을 썼다 — 그래야
+0.55 에서의 이탈이 곧 "지문"이 된다. 먼저 ΛCDM 솔버가
+**γ_LCDM(z=0)=0.554≈0.55** 를 재현해 검산을 통과했다([`cp16_growth_index.py`](assets/004_rough_tanh/cp16_growth_index.py),
+[`fig_cp16_growth_index.png`](assets/004_rough_tanh/fig_cp16_growth_index.png)).
+
+데이터-적합 c_s²=4.6e-6, S8 스케일 k=0.2 Mpc⁻¹ 에서
+**γ_eff,QFUDS(z=0)=0.477** 이 나왔다. 이 한 스케일에서는 MG 밴드 [0.42,0.68]
+**안쪽**, f(R)(0.42)에 가깝다 — 즉 단일 스케일 진단으로는 수정중력과 **축퇴**다.
+부호도 솔직히 적자: 이 스케일에선 η Ω_X 가 부분적으로 군집해 성장을
+**강화**(f_QFUDS(0)=0.576 > f_LCDM(0)=0.527)하므로 γ_eff<0.55 가 되어 f(R)을
+흉내 낸다 — 억제로 γ>0.55 가 될 거라던 사전 추측과는 반대였다.
+
+| 모델 | γ (z=0) | 위치 |
+| --- | --- | --- |
+| ΛCDM/GR (검산) | 0.554 | 기준 0.55 ✓ |
+| f(R) 중력 | 0.42 | 성장 강화 |
+| DGP | 0.68 | 성장 억제 |
+| QFUDS (k=0.2) | **0.477** | MG 밴드 안, f(R) 근접 |
+| QFUDS (k=0.01) | 0.225 | MG 밴드 **아래**(이탈) |
+| QFUDS (k=1.0) | 0.551 | ΛCDM 로 복귀 |
+
+결정적인 차이는 **스케일 의존성**이다. η 가 큰 스케일(작은 k)에서 1→완전군집,
+작은 스케일(큰 k)에서 0→매끈으로 가므로 γ_eff(z=0)는 k 에 따라 0.225 → 0.551 로
+Δγ≈0.33 만큼 흐른다(running). 진짜 수정중력은 선형 스케일에서 γ 가 거의
+스케일-무관이므로, 이 **γ_eff(k) 의 흐름** 자체가 QFUDS 를 f(R)/DGP 와
+**구별**하는 단서다. 큰 스케일에선 γ_eff 가 MG 밴드 아래로까지 떨어져 단순
+축퇴를 벗어난다. 단, η 는 sub-horizon 압력의 **proxy**이고(CP11 에서 full
+2-fluid 와 수 % 일치 확인), w(a)·c_s²·η 는 모두 현상론적 손잡이일 뿐 foam
+미시물리에서 유도된 게 아니다 — **050 천장(암흑섹터·δQ 전이·진짜 c_eff² 유도)은
+그대로**다. 진짜 성장지수 검증은 CLASS/hi_class 의 결합 군집-DE 섭동이며
+Level 3, **blocked**.
+
+### CP16 결론 (2026-06-12)
+
+```text
+- QFUDS γ_eff(z=0)≈0.48 (S8 스케일 k=0.2) → MG 밴드 안, f(R) 0.42 에 근접 = 단일 스케일 축퇴.
+- ΛCDM γ(z=0)=0.554≈0.55 검산 OK; matter-dom 에서 f→1, Ω_m→1 sanity OK.
+- 그러나 γ_eff 가 강하게 스케일 의존(k=0.01→0.22, k=1→0.55, Δγ≈0.33): 진짜 MG 는 선형서 γ 거의 무관.
+- 따라서 단일 스케일=축퇴, 다중 스케일=구별 가능. 큰 스케일선 MG 밴드 아래로도 떨어짐.
+- η 는 proxy, w·c_s² 는 손잡이, 050 천장 그대로. 진짜 검증은 CLASS/hi_class = blocked.
+```
+
 ## 재현
 
 ```bash
@@ -771,6 +822,7 @@ python3 cp12_fluid_frameworks.py # fig_cp12_fluid_frameworks.png + csv (CP12 유
 python3 cp13_isw.py              # fig_cp13_isw.png + csv (CP13 ISW)
 python3 cp14_kill_test.py        # fig_cp14_kill_test.png + csv (CP14 kill test)
 python3 cp15_viscosity.py        # fig_cp15_viscosity.png + csv (CP15 점성 c_vis²)
+python3 cp16_growth_index.py     # fig_cp16_growth_index.png + csv (CP16 성장지수 γ)
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
