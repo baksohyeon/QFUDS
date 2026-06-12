@@ -48,7 +48,7 @@ Black holes and white-hole-like remnants are secondary. They may be read in QFUD
 
 The conceptual program above is the starting point, not the result. The most
 complete attempt so far took one concrete version: a rough `tanh`
-equation-of-state transition for a unified dark sector (the equation of state `w`
+equation-of-state transition for a unified dark sector (the equation of state $w$
 slides smoothly along an S-shaped curve from one value to another). I pushed it
 all the way to its limits across 24 atomic checkpoints. That record is the
 [rough-`tanh` lineage report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
@@ -64,27 +64,27 @@ The map reads on three levels:
 
 - **Effective level: it works, but it does not win.** With ordinary matter held
   separate (variant V2), the background expansion is indistinguishable from LCDM
-  in supernovae (`|Δμ| < 0.02` mag, within the brightness scatter of Type Ia
-  supernovae), and a tiny effective sound speed (`c_eff² ≈ 3×10⁻⁵`, so small the
+  in supernovae ($|\Delta\mu| < 0.02$ mag, within the brightness scatter of Type Ia
+  supernovae), and a tiny effective sound speed ($c_{\rm eff}^2 \approx 3\times10^{-5}$, so small the
   dark sector barely spreads and mostly clumps) pulls the structure-growth
-  amplitude `S8` down to the observed `S8 ≈ 0.76`. But this is not better than
-  LCDM: the apparent fit win is just the generic effect of lowering `S8`, it costs
-  one more hand-tuned knob, and the `H0` tension (the ~8% disagreement between
+  amplitude $S_8$ down to the observed $S_8 \approx 0.76$. But this is not better than
+  LCDM: the apparent fit win is just the generic effect of lowering $S_8$, it costs
+  one more hand-tuned knob, and the $H_0$ tension (the ~8% disagreement between
   nearby and distant measures of the expansion rate) gets *worse*, not better.
 - **Falsifiable level: where the science actually is.** Because it hides in the
   background, the model's only scientific value is where it *diverges* from LCDM.
   It leaves three clean falsifiable signatures: a scale-dependent step in the
   weak-lensing matter power spectrum (weak lensing reads the matter map from how
   foreground gravity bends the light of distant galaxies; the step sits at
-  `k_J ≈ 0.1 Mpc⁻¹`), a scale-dependent tilt in the late ISW signal (the faint
+  $k_J \approx 0.1\,\mathrm{Mpc}^{-1}$), a scale-dependent tilt in the late ISW signal (the faint
   energy shift CMB photons pick up while crossing large-scale structure), and a
-  running growth index `γ_eff(k)` (the exponent for how fast structure grows). A
-  representative Euclid-class tomographic forecast detects these at **~24σ**
+  running growth index $\gamma_{\rm eff}(k)$ (the exponent for how fast structure grows). A
+  representative Euclid-class tomographic forecast detects these at $\sim\!24\sigma$
   (statistically as good as certain), within reach of next-generation surveys.
 - **Fundamental level: the ceiling.** Trying to *derive* the parameters the data
   wants from a microscopic foam structure fails. The data prefer a correlation
-  length `ξ ≈ 10 Mpc` (a large-scale-structure scale, not a microscopic foam
-  scale) and a transition near a critical density `ρ* ≈ ρ_Λ`. Forcing these from
+  length $\xi \approx 10$ Mpc (a large-scale-structure scale, not a microscopic foam
+  scale) and a transition near a critical density $\rho_* \approx \rho_\Lambda$. Forcing these from
   a mechanism does not reduce the tuning; it relocates it, and the two numbers
   reduce to the **cosmological-constant problem** (why the vacuum energy is so
   absurdly small) and the **hierarchy/scale problem** (why this particular size).
@@ -142,9 +142,9 @@ medium, vacuum or spacetime foam, might clump like dark matter under some
 conditions and push the universe apart like dark energy under others, and I gave it a
 suitably grand name: **QFUDS (Quantum Foam Unified Dark Sector)**. Just as water
 appears as ice, liquid, or vapor depending on conditions, could one dark sector
-look like a clustering phase (`w ≈ 0`, `c_s² ≈ 0`, so it joins structure
+look like a clustering phase ($w \approx 0$, $c_s^2 \approx 0$, so it joins structure
 formation like cold dark matter) in one regime and a residual vacuum-pressure
-phase (`w ≈ -1`, so it drives acceleration) in another?
+phase ($w \approx -1$, so it drives acceleration) in another?
 
 I hit the honest limit quickly: at best this is *phenomenological* (it fits the
 data without explaining why), and it cannot be *derived* from first principles. It
@@ -158,20 +158,20 @@ the standard model is subtly off, watching the trends as I went.
 
 And then an optimum actually appeared.
 
-- **`c_eff² ≈ 4.6×10⁻⁶`**: the effective sound speed squared. In plain terms,
+- **$c_{\rm eff}^2 \approx 4.6\times10^{-6}$**: the effective sound speed squared. In plain terms,
   the knob that sets how readily this dark sector spreads out versus how readily
   it clumps during structure formation.
-- **correlation length `ξ ≈ 9.5–10 Mpc`**: the effective distance over which its
+- **correlation length $\xi \approx 9.5$–$10$ Mpc**: the effective distance over which its
   parts influence one another. Since 1 Mpc is about 3.26 million light-years,
   10 Mpc is not the inside of a single galaxy but the scale of the cosmic web,
   the realm of large-scale structure.
 
-| Correlation length ξ | `c_eff²` | `S8` |
+| Correlation length $\xi$ | $c_{\rm eff}^2$ | $S_8$ |
 | --- | --- | --- |
-| microscopic foam (ξ ≤ 1 Mpc) | → 0 (≤ 5×10⁻⁸) | **0.95 (too high)** |
-| structure scale (ξ ≈ 10 Mpc) | ≈ 5×10⁻⁶ | 0.82 |
-| **data fit (`c_eff²` = 4.6×10⁻⁶)** | **→ ξ ≈ 9.5 Mpc** | ≈ 0.78–0.82 |
-| Hubble (ξ ≈ c/H0) | ≈ 1 | 0.68 (overshoot) |
+| microscopic foam ($\xi \le 1$ Mpc) | $\to 0$ ($\le 5\times10^{-8}$) | **0.95 (too high)** |
+| structure scale ($\xi \approx 10$ Mpc) | $\approx 5\times10^{-6}$ | 0.82 |
+| **data fit ($c_{\rm eff}^2 = 4.6\times10^{-6}$)** | **$\to\ \xi \approx 9.5$ Mpc** | $\approx 0.78$–$0.82$ |
+| Hubble ($\xi \approx c/H_0$) | $\approx 1$ | 0.68 (overshoot) |
 
 ![The moment it flipped: the correlation length that reproduces the observed S8 is ξ ≈ 10 Mpc (a large-scale-structure scale), not the microscopic foam scale I expected.](docs/wiki/lineage/assets/004_rough_tanh/fig_cp8_ceff2_derivation.png)
 
@@ -194,7 +194,7 @@ papers.
 
 What is interesting is that the model does not vanish entirely. It is
 indistinguishable from LCDM in the background, but it leaves fingerprints in
-structure: a step in `P(k)`, a scale-dependent tilt in the ISW signal, a running
+structure: a step in $P(k)$, a scale-dependent tilt in the ISW signal, a running
 growth index. It hides in the background and can be caught in structure; a
 falsifiable signal that a Euclid-class survey could actually detect fell out of
 it.
@@ -207,7 +207,7 @@ And this was not done by chatting with a chatbot. I dug into the repository and
 built a research-agent system, then pushed the whole thing through in 5 days. It
 searched the literature, pulled PDFs and arXiv source, extracted figure assets,
 converted them to Markdown, digitized plots (recovered the numbers from the
-figures), produced CSVs, compared `Γ(a)` against the actual Chen entropy curve,
+figures), produced CSVs, compared $\Gamma(a)$ against the actual Chen entropy curve,
 automated the known-model distinction (telling it apart from already-known
 models), and cached lookups to save tokens. Agents, workflows, and validation gates, all built
 to a serious scientific standard. It amounted to assembling a small research team,
