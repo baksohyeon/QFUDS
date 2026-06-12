@@ -34,7 +34,7 @@ Can this version be made precise enough to fail?
 
 ## Current Status
 
-The current per-level status — completed, in progress, or blocked — and the list
+The current per-level status (completed, in progress, or blocked) and the list
 of completed experiments are maintained only in the roadmap (single source of
 truth): [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), with the reasoning trail in
 [docs/00_project/decision_log.md](decision_log.md). This overview does not restate them, so it

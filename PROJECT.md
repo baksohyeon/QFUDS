@@ -12,8 +12,8 @@ Repository level terminology and validation-order meanings live in
 [repository_levels.md](docs/wiki/glossary/repository_levels.md). This file
 controls documentation structure, not level definitions.
 
-The current stop line — which level is active, what is complete, and what is
-blocked — is **not** restated here. It lives in the single source of truth:
+The current stop line (which level is active, what is complete, and what is
+blocked) is **not** restated here. It lives in the single source of truth:
 [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md). Read
 the roadmap for current status before acting.
 
@@ -22,12 +22,12 @@ the roadmap for current status before acting.
 [PROJECT.md](PROJECT.md) controls documentation structure, not project status. To avoid
 drift, status is maintained in exactly one place and is not duplicated here:
 
-- **Current status, current level, active branch, and blockers** —
+- **Current status, current level, active branch, and blockers**:
   [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md)
   (single source of truth).
-- **Why decisions were made** —
+- **Why decisions were made**:
   [docs/00_project/decision_log.md](docs/00_project/decision_log.md).
-- **Experiment evidence** — [docs/03_experiments/](docs/03_experiments/) and
+- **Experiment evidence**: [docs/03_experiments/](docs/03_experiments/) and
   [docs/04_results/](docs/04_results/).
 
 If anything in this file appears to assert project status, the roadmap wins and

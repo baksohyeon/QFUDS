@@ -17,7 +17,7 @@ last_updated: 2026-06-10
 
 Project-level documents.
 
-- [overview.md](overview.md): project overview — scope, limitations, and source-document map (status lives in the roadmap).
+- [overview.md](overview.md): project overview covering scope, limitations, and source-document map (status lives in the roadmap).
 - [research_program.md](research_program.md): research framing, validation levels, and kill criteria.
 - [project_identity.md](project_identity.md): current project identity, scope, non-goals, and lessons learned.
 - [qfuds_positioning.md](qfuds_positioning.md): QFUDS ideas mapped against existing cosmology model families.
