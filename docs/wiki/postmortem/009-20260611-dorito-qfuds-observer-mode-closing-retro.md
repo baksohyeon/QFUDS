@@ -99,8 +99,8 @@ QFUDS는 성공도 실패도 아니다. **audit이 성공했다.** 내 직관이
               → 047 Gamma shape 비교 → 048 known-model distinction → 049 eligibility + 관측자 모드
 ```
 
-Source-X `040-049` 전체 — 데이터 프로덕트 감사부터 known-model distinction과
-관측자 모드 라우팅까지 — 가 **6-11 목요일 하루**에 끝났다. 4일 만에 학계
+Source-X `040-049` 전체(데이터 프로덕트 감사부터 known-model distinction과
+관측자 모드 라우팅까지)가 **6-11 목요일 하루**에 끝났다. 4일 만에 학계
 벽에 도착했다.
 
 ## 2. 발산 → 수렴: 결국 살아남은 질문은 하나
