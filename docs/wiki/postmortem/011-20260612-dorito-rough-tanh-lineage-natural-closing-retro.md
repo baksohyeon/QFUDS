@@ -224,7 +224,7 @@ S1·S2·S3·S4 학계 위치를 인용할 때 처음에는 웹 검색 요약과 
 
 - [x] CP25를 `004_rough_tanh_numerical_sketch_ko.md`에 추가했다(새 수치 없이
   학계 위치 확인 + 가지 자연 닫힘 선언).
-- [x] 졸업과제 보고서 `005_rough_tanh_thesis_report_ko.md` 부록 A에 CP25 행을
+- [x] 논문 보고서 `005_rough_tanh_thesis_report_ko.md` 부록 A에 CP25 행을
   추가했다.
 - [x] 본 회고(011)를 작성했다.
 - [x] 신규 인용 10편(Cohen–Kaplan–Nelson 1999, Li 2004, Cai 2007, Gao 2009,
