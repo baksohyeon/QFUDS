@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+  <text x="380" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">
+    이중우물 자유에너지: z≈2에서 지형이 기울어지며 전이가 일어난다
+  </text>
+
+  <!-- ===== Panel 1: before transition ===== -->
+  <text x="185" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a5276">z &gt; 2 (전이 전)</text>
+
+  <!-- axes -->
+  <line x1="45" y1="90" x2="45" y2="300" stroke="#999" stroke-width="1.5"/>
+  <line x1="45" y1="300" x2="335" y2="300" stroke="#999" stroke-width="1.5"/>
+  <text x="30" y="115" font-size="12" fill="#666">F</text>
+  <text x="330" y="320" font-size="12" fill="#666">φ</text>
+  <text x="110" y="320" text-anchor="middle" font-size="11" fill="#888">0</text>
+  <text x="270" y="320" text-anchor="middle" font-size="11" fill="#888">1</text>
+
+  <!-- double well curve: LEFT well lower -->
+  <path d="M 55,115 C 78,205 95,238 110,238 C 132,238 175,150 190,150 C 208,150 250,200 270,200 C 290,200 318,185 330,118"
+        fill="none" stroke="#1a5276" stroke-width="3"/>
+
+  <!-- ball in left (lower) well -->
+  <circle cx="110" cy="226" r="11" fill="#e67e22" stroke="#a04000" stroke-width="1.5"/>
+
+  <!-- well labels -->
+  <text x="110" y="262" text-anchor="middle" font-size="11" fill="#a04000" font-weight="bold">φ=0</text>
+  <text x="110" y="277" text-anchor="middle" font-size="10" fill="#555">A상·암흑물질</text>
+  <text x="270" y="227" text-anchor="middle" font-size="11" fill="#555">φ=1</text>
+  <text x="270" y="242" text-anchor="middle" font-size="10" fill="#555">B상·암흑에너지</text>
+  <text x="185" y="135" text-anchor="middle" font-size="10" fill="#999">장벽</text>
+
+  <!-- ===== middle arrow: tilt ===== -->
+  <line x1="350" y1="195" x2="408" y2="195" stroke="#27ae60" stroke-width="3"/>
+  <polygon points="408,195 396,189 396,201" fill="#27ae60"/>
+  <text x="379" y="183" text-anchor="middle" font-size="11" fill="#27ae60" font-weight="bold">h(a)</text>
+  <text x="379" y="214" text-anchor="middle" font-size="10" fill="#27ae60">기울임</text>
+
+  <!-- ===== Panel 2: after transition ===== -->
+  <text x="575" y="62" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a5276">z &lt; 2 (전이 후)</text>
+
+  <!-- axes -->
+  <line x1="425" y1="90" x2="425" y2="300" stroke="#999" stroke-width="1.5"/>
+  <line x1="425" y1="300" x2="715" y2="300" stroke="#999" stroke-width="1.5"/>
+  <text x="410" y="115" font-size="12" fill="#666">F</text>
+  <text x="710" y="320" font-size="12" fill="#666">φ</text>
+  <text x="490" y="320" text-anchor="middle" font-size="11" fill="#888">0</text>
+  <text x="650" y="320" text-anchor="middle" font-size="11" fill="#888">1</text>
+
+  <!-- double well curve: RIGHT well lower (tilted) -->
+  <path d="M 435,118 C 458,188 475,202 490,202 C 512,202 555,150 570,150 C 588,150 630,240 650,240 C 670,240 698,205 710,112"
+        fill="none" stroke="#1a5276" stroke-width="3"/>
+
+  <!-- faded ball at old position + arrow rolling to new well -->
+  <circle cx="490" cy="190" r="10" fill="#e67e22" opacity="0.3"/>
+  <path d="M 500,196 C 540,225 600,240 632,238" fill="none" stroke="#a04000" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="632,238 620,232 622,244" fill="#a04000"/>
+  <!-- ball in right (now lower) well -->
+  <circle cx="650" cy="228" r="11" fill="#e67e22" stroke="#a04000" stroke-width="1.5"/>
+
+  <!-- well labels -->
+  <text x="490" y="234" text-anchor="middle" font-size="11" fill="#555">φ=0</text>
+  <text x="650" y="264" text-anchor="middle" font-size="11" fill="#a04000" font-weight="bold">φ=1</text>
+  <text x="650" y="279" text-anchor="middle" font-size="10" fill="#555">B상·암흑에너지</text>
+
+  <!-- caption -->
+  <text x="380" y="358" text-anchor="middle" font-size="12" fill="#444">
+    공(φ)은 늘 더 낮은 골로 이완한다. 전이 전엔 왼쪽(물질)이 낮고, z≈2에서 h(a)가 지형을 기울이면 오른쪽(암흑에너지)이 낮아져 공이 굴러간다.
+  </text>
+</svg>
