@@ -430,6 +430,46 @@ c_eff² rough 도출(상관길이 ξ 경유): 데이터 fit 값 4.6e-6 = ξ≈10
 의미: dial한 c_eff²는 "10 Mpc 상관길이"라는 비-거품 스케일을 숨기고 있었다.
 ```
 
+## CP9 (2026-06-12): ξ를 약중력렌즈 P(k) 모양과 직접 대보기
+
+CP8의 ξ는 단순히 S8(적분된 진폭) 하나만 바꾸는 게 아니다. 음속 있는 암흑성분은
+Jeans 스케일 k_J≈1/ξ **아래**에서만 뭉치고 **위**에선 매끄럽다 → P(k)를 **스케일
+의존적으로** 억제한다. 반면 그냥 낮은 σ8 ΛCDM은 모든 k에서 같은 비율로 균일 억제.
+**이 차이가 약중력렌즈 P(k) 모양의 판별점이다.**
+
+스케일 의존 성장 D(k,a)를 η(k,a)=1/(1+(c_s c k/aH)²)로 풀어 억제비
+T(k)=[D_QFUDS(k,1)/D_ΛCDM(1)]² ≈ P_QFUDS(k)/P_ΛCDM(k)를 구했다
+([`cp9_lensing_pk.py`](assets/004_rough_tanh/cp9_lensing_pk.py),
+[`fig_cp9_lensing_pk.png`](assets/004_rough_tanh/fig_cp9_lensing_pk.png)).
+
+| ξ (c_eff²) | k_J [Mpc⁻¹] | 모양 |
+| --- | --- | --- |
+| ξ≈3 Mpc (5e-7) | 0.32 | k_J가 커서 꺾임이 작은 스케일에 |
+| **ξ≈10 Mpc (4.6e-6, data-fit)** | **0.105** | **렌즈 감도 영역 한가운데서 꺾임** |
+| ξ≈30 Mpc (5e-5) | 0.032 | 큰 스케일부터 억제 |
+| uniform 낮은 σ8 (0.83→0.76) | — | **모든 k에서 평평 = 모양 변화 없음** |
+
+핵심: **QFUDS는 P(k)에 스케일 의존적 *스텝*(k_J에서 꺾임)을 남긴다.** 이건 균일한
+σ8 낮춤(평평한 억제)과 *질적으로 다르고*, 데이터-fit ξ≈10 Mpc면 그 스텝이 k≈0.1
+Mpc⁻¹ — 약중력렌즈가 보는 영역 정중앙에 온다. 즉 Stage-IV 렌즈(Euclid/LSST/Rubin)의
+tomographic shear P(k) 모양이 **QFUDS의 스텝 vs 평평한 저-σ8를 구별**할 수 있다.
+
+이건 CP6b의 w(z) 킬러에 더해진 **렌즈 쪽 깨끗한 falsifiable 신호**다. 정리하면 이제
+판별 손잡이가 둘: (1) w(z) freezing vs DESI thawing(z≳1), (2) P(k) 스텝 @ k≈0.1.
+
+주의: 거친 Jeans-η 성장(선형, 비선형/Boltzmann 없음). 진짜 P(k) 예측은 CLASS =
+Level 3 = blocked. 큰 스케일 과클러스터링(그림 a의 T>1)은 정규화 의존이라 모양(스텝
+위치)만 신호로 본다.
+
+### CP9 결론 (2026-06-12)
+
+```text
+ξ는 S8 진폭만이 아니라 P(k) 모양에 스케일 의존 스텝(k_J≈1/ξ)을 남긴다.
+data-fit ξ≈10 Mpc -> 스텝 @ k≈0.1 Mpc⁻¹ = 약중력렌즈 감도 정중앙.
+균일 저-σ8은 평평 -> 렌즈 P(k) 모양이 둘을 구별 가능 = 깨끗한 falsifiable 신호.
+판별 손잡이 2개 확보: w(z) thawing(CP6b) + P(k) 스텝(CP9). 진짜 검증은 CLASS(blocked).
+```
+
 ## 재현
 
 ```bash
@@ -446,6 +486,7 @@ python3 cp6a_ceiling_probe.py    # fig_cp6a_ceiling.png (CP6a 천장 직격)
 python3 cp6b_falsification.py    # fig_cp6b_falsification.png (CP6b 반증 설계)
 python3 cp7_brute_fit.py         # fig_cp7_brute_fit.png + scan/summary csv (CP7)
 python3 cp8_ceff2_derivation.py  # fig_cp8_ceff2_derivation.png + csv (CP8 도출 시도)
+python3 cp9_lensing_pk.py        # fig_cp9_lensing_pk.png + csv (CP9 렌즈 P(k))
 ```
 
 각 스크립트는 그림을 `.png`와 `.svg`로, 수치 결과를 `*_results.csv`(또는 CP7은
