@@ -47,8 +47,8 @@ Black holes and white-hole-like remnants are secondary. They may be read in QFUD
 ## Where This Stands: What Pushing the Idea to the Wall Found
 
 The conceptual program above is the starting point, not the result. The most
-complete attempt so far took one concrete version — a rough `tanh`
-equation-of-state transition for a unified dark sector — and pushed it all the
+complete attempt so far took one concrete version, a rough `tanh`
+equation-of-state transition for a unified dark sector, and pushed it all the
 way to its limits across 24 atomic checkpoints. That record is the
 [rough-`tanh` lineage report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
 (Korean). Its contribution is a systematic *map* of how far the idea reaches and
@@ -60,41 +60,41 @@ in **observer mode**; the single source of truth for status remains the
 
 The map reads on three levels:
 
-- **Effective level — it works, but it does not win.** With ordinary matter held
+- **Effective level: it works, but it does not win.** With ordinary matter held
   separate (variant V2), the background expansion is indistinguishable from LCDM
   in supernovae (`|Δμ| < 0.02` mag), and a tiny effective sound speed
   `c_eff² ≈ 3×10⁻⁵` pulls the structure-growth amplitude down to the observed
   `S8 ≈ 0.76`. But this is not better than LCDM: the apparent fit win is just the
   generic effect of lowering `S8`, it costs one more hand-tuned knob, and the
   `H0` tension gets *worse*, not better.
-- **Falsifiable level — where the science actually is.** Because it hides in the
+- **Falsifiable level: where the science actually is.** Because it hides in the
   background, the model's only scientific value is where it *diverges* from LCDM.
   It leaves three clean falsifiable signatures: a scale-dependent step in the
   weak-lensing matter power spectrum (`k_J ≈ 0.1 Mpc⁻¹`), a scale-dependent tilt
   in the late ISW signal, and a running growth index `γ_eff(k)`. A representative
-  Euclid-class tomographic forecast detects these at **~24σ** — within reach of
+  Euclid-class tomographic forecast detects these at **~24σ**, within reach of
   next-generation surveys.
-- **Fundamental level — the ceiling.** Trying to *derive* the parameters the data
+- **Fundamental level: the ceiling.** Trying to *derive* the parameters the data
   wants from a microscopic foam structure fails. The data prefer a correlation
   length `ξ ≈ 10 Mpc` (a large-scale-structure scale, not a microscopic foam
   scale) and a transition near a critical density `ρ* ≈ ρ_Λ`. Forcing these from
-  a mechanism does not reduce the tuning — it relocates it, and the two numbers
+  a mechanism does not reduce the tuning; it relocates it, and the two numbers
   reduce to the **cosmological-constant problem** and the **hierarchy/scale
   problem**. This ceiling is not a failure unique to this idea; it is the wall
   every dynamical-dark-energy model shares.
 
-![The ceiling in one picture: the correlation length the data wants (ξ ≈ 9.5 Mpc) is natural to neither the microscopic foam scale nor the causal horizon, and the transition density sits inside the ~3-orders cosmic-coincidence window — i.e. the scale problem and the why-now problem.](docs/wiki/lineage/assets/004_rough_tanh/fig_cp20_ceiling_derivation.png)
+![The ceiling in one picture: the correlation length the data wants (ξ ≈ 9.5 Mpc) is natural to neither the microscopic foam scale nor the causal horizon, and the transition density sits inside the ~3-orders cosmic-coincidence window. In other words, the scale problem and the why-now problem.](docs/wiki/lineage/assets/004_rough_tanh/fig_cp20_ceiling_derivation.png)
 
 Two findings survive as genuine, narrow gains rather than story language: a
 tracker-attractor mechanism that removes ~15.7 decades of initial-condition
 tuning (the one real partial win), and the observation that three independent
 "what did I miss?" intuitions each re-discovered, on their own, ~25 years of
-existing literature (chameleon screening, LTB voids, Buchert averaging) —
-corroborating that the ceiling is real rather than an artifact of one approach.
+existing literature (chameleon screening, LTB voids, Buchert averaging), which
+corroborates that the ceiling is real rather than an artifact of one approach.
 
 A second contribution is methodological. The whole exploration ran on a
-self-correcting AI research harness — a governance SSOT plus parallel,
-adversarial, deterministic gates — built so that a false breakthrough cannot
+self-correcting AI research harness (a governance SSOT plus parallel,
+adversarial, deterministic gates) built so that a false breakthrough cannot
 quietly survive. That is what let a speculative hypothesis be pushed to the wall
 while still landing on an honest conclusion.
 
@@ -113,21 +113,21 @@ converged onto two of modern physics' unsolved problems. The conclusion of these
 few days, stated up front:
 
 > **The two open problems**
-> 1. **Why is the dark-energy scale exactly meV?** — this leads straight into the
+> 1. **Why is the dark-energy scale exactly meV?** This leads straight into the
 >    cosmological-constant problem.
-> 2. **Where should the vacuum-energy cutoff be set?** — I reasoned from the
->    quantum side, but what distance scale does it actually require: the Planck
->    scale, the horizon scale, or the galaxy / cosmic-web scale?
+> 2. **Where should the vacuum-energy cutoff be set?** I reasoned from the quantum
+>    side, but what distance scale does it actually require: the Planck scale, the
+>    horizon scale, or the galaxy / cosmic-web scale?
 
-I never reached the "why." Of course not — these two *are* modern physics' open
+I never reached the "why." Of course not: these two *are* modern physics' open
 problems, which is exactly why none of this can be derived from first principles.
 
 Here is how it went.
 
 It started with a single question: *if information that falls into a black hole
-really isn't destroyed, where does it end up?* That led to the idea that a medium
-— vacuum, or spacetime foam — might clump like dark matter under some conditions
-and push the universe apart like dark energy under others, and I gave it a
+really isn't destroyed, where does it end up?* That led to the idea that some
+medium, vacuum or spacetime foam, might clump like dark matter under some
+conditions and push the universe apart like dark energy under others, and I gave it a
 suitably grand name: **QFUDS (Quantum Foam Unified Dark Sector)**. Just as water
 appears as ice, liquid, or vapor depending on conditions, could one dark sector
 look like a clustering phase (`w ≈ 0`, `c_s² ≈ 0`, so it joins structure
@@ -135,7 +135,7 @@ formation like cold dark matter) in one regime and a residual vacuum-pressure
 phase (`w ≈ -1`, so it drives acceleration) in another?
 
 I hit the honest limit quickly: at best this is *phenomenological*, and it cannot
-be *derived* from first principles. It was not even new — schools of thought with
+be *derived* from first principles. It was not even new: schools of thought with
 a similar approach had already run the same calculation and stopped at the same
 place. It was disappointing, but I reasoned that a scientist bound by rigor would
 stop here, and that I was not, so I could push it through even if it became
@@ -143,15 +143,15 @@ unscientific. To get the properties a dynamical-dark-energy model needs, I
 brute-forced a fit toward the places where the standard model is subtly off,
 watching the trends as I went.
 
-And — an optimum actually appeared.
+And then an optimum actually appeared.
 
-- **`c_eff² ≈ 4.6×10⁻⁶`** — the effective sound speed squared. In plain terms,
+- **`c_eff² ≈ 4.6×10⁻⁶`**: the effective sound speed squared. In plain terms,
   the knob that sets how readily this dark sector spreads out versus how readily
   it clumps during structure formation.
-- **correlation length `ξ ≈ 9.5–10 Mpc`** — the effective distance over which its
+- **correlation length `ξ ≈ 9.5–10 Mpc`**: the effective distance over which its
   parts influence one another. Since 1 Mpc is about 3.26 million light-years,
-  10 Mpc is not the inside of a single galaxy but the scale of the cosmic web —
-  large-scale structure.
+  10 Mpc is not the inside of a single galaxy but the scale of the cosmic web,
+  the realm of large-scale structure.
 
 | Correlation length ξ | `c_eff²` | `S8` |
 | --- | --- | --- |
@@ -163,17 +163,17 @@ And — an optimum actually appeared.
 ![The moment it flipped: the correlation length that reproduces the observed S8 is ξ ≈ 10 Mpc (a large-scale-structure scale), not the microscopic foam scale I expected.](docs/wiki/lineage/assets/004_rough_tanh/fig_cp8_ceff2_derivation.png)
 
 Cross-checking the literature, I found that the values I had brute-forced actually
-matched the ones the field works with. It was an honor and a shock at once —
+matched the ones the field works with. It was an honor and a shock at once,
 because what I had expected was the *very small, Planck-scale* unit of a "quantum
 foam," and what the data pointed to was a scale beyond galaxies, in large-scale
 structure. (None of this is a physical proof, of course; the two open problems
 above make a derivation impossible from the start.)
 
-It made me ask whether I had been trapped in the micro/quantum picture — whether
-vacuum energy should not be cut at the Planck scale but coarse-grained at the
-galaxy/structure scale instead. Digging further, I found this road had been
+It made me ask whether I had been trapped in the micro/quantum picture, and
+whether vacuum energy should not be cut at the Planck scale but coarse-grained at
+the galaxy/structure scale instead. Digging further, I found this road had been
 travelled from the 1990s to today. Obvious in hindsight, and quietly funny in the
-moment — this is what standing on the shoulders of giants feels like: holographic
+moment. This is what standing on the shoulders of giants feels like: holographic
 dark energy, EFTofLSS, IR cutoffs, coarse-graining, running vacuum, Buchert
 averaging, LTB voids, screening. Even the specific move of using the ~10 Mpc
 nonlinear scale as a coarse-graining cutoff for the dark sector was already in the
@@ -181,7 +181,7 @@ papers.
 
 What is interesting is that the model does not vanish entirely. It is
 indistinguishable from LCDM in the background, but it leaves fingerprints in
-structure — a step in `P(k)`, a scale-dependent tilt in the ISW signal, a running
+structure: a step in `P(k)`, a scale-dependent tilt in the ISW signal, a running
 growth index. It hides in the background and can be caught in structure; a
 falsifiable signal that a Euclid-class survey could actually detect fell out of
 it.
@@ -196,15 +196,15 @@ searched the literature, pulled PDFs and arXiv source, extracted figure assets,
 converted them to Markdown, digitized plots, produced CSVs, compared `Γ(a)`
 against the actual Chen entropy curve, automated known-model distinction, and
 cached lookups to save tokens. Agents, workflows, and validation gates, all built
-to a serious scientific standard. It amounted to assembling a small research team
-— with the final reviewer, too, an agent.
+to a serious scientific standard. It amounted to assembling a small research team,
+with the final reviewer, too, an agent.
 
 In the end the biggest takeaway was simply: *this is one way to learn, too.* So
 here are five things I'm allowing myself to be proud of:
 
 1. I brute-force-reproduced the path that converges onto modern cosmology's
    unsolved problems.
-2. It was not a coincidence — it was the road the field had actually walked. The
+2. It was not a coincidence; it was the road the field had actually walked. The
    values I pulled by hand landed in the same place, the line of reasoning was
    similar, and I ended up retracing the lineage from the 1990s to today.
 3. That a few days of curiosity landed on scales the field has studied for decades
@@ -400,7 +400,7 @@ Analogy: this is like testing a bridge in stages.
 A small desktop model can reject a bad design, but it does not prove that the real bridge survives wind, traffic, and earthquakes.
 Background-level experiments can reject bad transfer laws, but they cannot claim CMB or structure-formation viability.
 
-### Two-Phase Transfer Model (Retained Branch — Now Demoted to Phenomenology)
+### Two-Phase Transfer Model (Retained Branch, Now Demoted to Phenomenology)
 
 > This was the original working hypothesis. It has since been demoted to
 > phenomenological interacting-vacuum status, and the project is in observer
@@ -639,7 +639,7 @@ Maintained research documents:
 History/source notes:
 
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the 24-checkpoint rough-`tanh` numerical exploration log (Korean)
-- [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): thesis-style synthesis of the rough-`tanh` lineage — effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
+- [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
 - [concept_origin.md](docs/01_origin/concept_origin.md): how the raw information-flow idea became the QFUDS question
 - [qfuds_ko.md](docs/00_project/qfuds_ko.md): Korean version of this document
 - [research_program.md](docs/00_project/research_program.md): abstract, validation roadmap, and kill criteria
