@@ -536,13 +536,20 @@ python3 cp22_coincidence_tracker.py # tracker attractor (부분 승리)
 
 ## 참고 개념 및 문헌 (대표)
 
-- Hu, W. (1998), *Generalized Dark Matter*, astro-ph/9801234. 세 함수 {w, c_eff², c_vis²} 도입.
-- Armendariz-Picon, Mukhanov, Steinhardt (2000), *k-essence*. c_s² = P_X/(P_X+2X P_XX).
-- Ratra & Peebles (1988); Steinhardt, Zlatev, Wang (1999). tracker quintessence.
-- Weinberg, S. (1987), *Anthropic bound on the cosmological constant*, PRL 59, 2607.
-- Ma & Bertschinger (1995). 결합 유체 섭동.
-- DESI DR2 BAO (2025); ACT DR6 CMB lensing; Euclid Q1 (2025). 대표 관측 맥락(인용,
-  likelihood 미사용).
+- [Hu, W. (1998), *Generalized Dark Matter*, astro-ph/9801234](https://arxiv.org/abs/astro-ph/9801234):
+  암흑 성분을 세 함수 {w, c_eff², c_vis²}로 일반화한 GDM(일반화 암흑물질) 유체 학파.
+  이 토이 모델의 좌표가 GDM 안에 들어간다.
+- Armendariz-Picon, Mukhanov, Steinhardt (2000), *k-essence*: 운동항이 비표준인
+  스칼라장으로 암흑에너지를 만드는 k-에센스 학파. 음속이 c_s² = P_X/(P_X+2X P_XX)로 정해진다.
+- Ratra & Peebles (1988); Steinhardt, Zlatev, Wang (1999): 초기조건과 무관하게 같은
+  해로 빨려드는 tracker(추적자) 퀸테센스 학파. 코인시던스 문제 완화 시도의 원조.
+- [Weinberg, S. (1987), *Anthropic bound on the cosmological constant*, PRL 59, 2607](https://doi.org/10.1103/PhysRevLett.59.2607):
+  우주상수 값을 인류 원리(우리가 존재할 수 있는 범위)로 제한하는 고전 논문. 값을
+  '유도'하지 않고 '선택'하는 논증의 원조다.
+- [Ma & Bertschinger (1995), astro-ph/9506072](https://arxiv.org/abs/astro-ph/9506072):
+  결합 유체의 우주론적 섭동을 정식화한 표준 참고문헌(본문 2-유체 검증의 토대).
+- DESI DR2 BAO (2025); ACT DR6 CMB lensing; Euclid Q1 (2025): 차세대 거대구조·CMB
+  렌즈 관측 릴리스. 본문에서는 대표값으로만 인용하고 likelihood는 쓰지 않았다.
 
 > 본 보고서의 모든 수치는 거친 프록시이며, 엄밀한 검증은 Boltzmann 코드(CLASS/hi_class)
 > 수준에서 수행되어야 한다. 현 단계에서 그 검증은 미수행(blocked)이다.

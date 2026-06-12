@@ -418,12 +418,12 @@ This constitution does not maintain a running list of what has been tested,
 survived, failed, or remains unknown. That state drifts and is therefore kept in
 the authoritative documents, not duplicated here:
 
-- [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md) —
+- [docs/05_next_steps/000_roadmap.md](docs/05_next_steps/000_roadmap.md):
   current level status, completed background validations, and blockers;
-- [docs/00_project/decision_log.md](docs/00_project/decision_log.md) — what
+- [docs/00_project/decision_log.md](docs/00_project/decision_log.md): what
   survived, what failed, and why, recorded chronologically with evidence;
 - [docs/03_experiments/](docs/03_experiments/) and
-  [docs/04_results/](docs/04_results/) — the underlying experiment and result
+  [docs/04_results/](docs/04_results/): the underlying experiment and result
   evidence.
 
 The standing requirement is unchanged: keep `derived`, `implemented`, `tested`,

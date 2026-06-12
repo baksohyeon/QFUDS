@@ -24,8 +24,8 @@ document and the script disagree, the script is authoritative and this document
 must be corrected.
 
 This gate does not run physics and does not decide whether QFUDS is correct. It
-only verifies that the exp_003 research record — theory note, experiment,
-result, decision log, roadmap, and outputs — is complete and internally
+only verifies that the exp_003 research record (theory note, experiment,
+result, decision log, roadmap, and outputs) is complete and internally
 consistent.
 
 After the retained-branch Level 1.5 decision, this gate does not authorize
@@ -56,29 +56,29 @@ The gate makes those failure modes loud and blocking instead of silent.
 
 `scripts/preflight_exp004.py` runs seven cross-document checks:
 
-1. **exp_003 core documents exist** — the theory note
+1. **exp_003 core documents exist**: the theory note
    ([docs/02_theory/030_qfuds_phenomenological_perturbations.md](../02_theory/030_qfuds_phenomenological_perturbations.md)), the experiment
    ([docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md)),
    and the result
    ([docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md))
    are all present.
-2. **Postmortem note (if referenced)** — if the result doc or decision log
+2. **Postmortem note (if referenced)**: if the result doc or decision log
    references `outputs/postmortem/exp003_friction_bug`, that directory and its
    [README.md](../../outputs/postmortem/exp003_friction_bug/README.md) must
    exist. A referenced but missing postmortem is a blocker.
-3. **Decision log has the final exp_003 verdict** —
+3. **Decision log has the final exp_003 verdict**:
    [docs/00_project/decision_log.md](../00_project/decision_log.md) records the
    exp_003 outcome (P2 regularized-fluid closure failed, P1 interacting-vacuum
    closure survives as non-novel Level 2A) and the friction-bug correction.
-4. **Roadmap reflects Level 2A status** — the roadmap marks Level 2A
+4. **Roadmap reflects Level 2A status**: the roadmap marks Level 2A
    `completed` and keeps Level 2B, CLASS integration, CMB comparison, and matter
    power spectrum `blocked`.
-5. **Referenced outputs exist** — every `outputs/*.csv`, `*.json`, `*.png`,
+5. **Referenced outputs exist**: every `outputs/*.csv`, `*.json`, `*.png`,
    or `*.svg` path cited by the exp_003 documents actually exists on disk.
-6. **No premature completion claims** — no document under `docs/` (or the root
+6. **No premature completion claims**: no document under `docs/` (or the root
    [README.md](README.md)) claims Level 3 / CLASS / CAMB / CMB / matter-power completion or
    viability.
-7. **Docs index is complete** — [docs/README.md](../README.md) references every active
+7. **Docs index is complete**: [docs/README.md](../README.md) references every active
    (non-index) Markdown document under `docs/`.
 
 This gate is complementary to `scripts/validate_docs.py`, which validates
