@@ -1,0 +1,79 @@
+# CP19 Euclid-like tomographic WL forecast (exploratory)
+# PARAMETRIZE-not-DERIVE; 050 ceiling + observer mode UNTOUCHED;
+# survey config REPRESENTATIVE & SOURCED but NOT a likelihood;
+"# real verdict = CLASS/hi_class, Level 3, BLOCKED."
+# SOURCE (survey scale): https://www.euclid-ec.org/public/press-releases/euclid-quick-data-release-1/
+"# config: f_sky=0.36, n_eff=30.0/arcmin^2, sigma_eps=0.3, N_bins=10, nz~z^2 exp(-(z/z0)^1.5) z0=0.6373 median=0.9000 peak=0.7720, c_eff2=4.6e-06"
+# shape_noise_Nl=2.538478e-09
+
+"# tomographic bin edges (z, equal galaxy counts)"
+bin_edge_index,z_edge
+0,0.00100
+1,0.41830
+2,0.56029
+3,0.67798
+4,0.78854
+5,0.90000
+6,1.01911
+7,1.15475
+8,1.32389
+9,1.57615
+10,4.00000
+
+# cumulative shape SNR vs ell_max
+ell_max,cumulative_SNR_step_multibin_perbinmarg,cumulative_SNR_gamma_running_globalmarg,cumulative_SNR_raw_unmarginalized
+30,0.2348,0.3142,1.3284
+34,0.3419,0.4533,1.9548
+39,0.4400,0.5749,2.5313
+45,0.5315,0.6806,3.0458
+51,0.6220,0.7791,3.5205
+58,0.7248,0.8843,3.9939
+66,0.8452,1.0025,4.4584
+75,0.9947,1.1477,4.9292
+86,1.1857,1.3344,5.3886
+98,1.4197,1.5695,5.8241
+112,1.7153,1.8748,6.2363
+128,2.0700,2.2490,6.5989
+145,2.4952,2.7060,6.9274
+166,3.0236,3.2759,7.2122
+189,3.6414,3.9429,7.4522
+216,4.3697,4.7232,7.6595
+246,5.2048,5.6096,7.8670
+281,6.1593,6.6089,8.1324
+320,7.2202,7.7052,8.5401
+365,8.4054,8.9139,9.2070
+417,9.6869,10.2045,10.2236
+475,11.0396,11.5540,11.6300
+542,12.4619,12.9615,13.4329
+619,13.9063,14.3822,15.5338
+706,15.3295,15.7766,17.8000
+805,16.7036,17.1195,20.1117
+918,17.9970,18.3817,22.3512
+1047,19.1804,19.5359,24.4196
+1194,20.2349,20.5642,26.2544
+1362,21.1508,21.4576,27.8257
+1554,21.9234,22.2114,29.1239
+1772,22.5614,22.8342,30.1709
+2022,23.0756,23.3361,30.9930
+2306,23.4807,23.7318,31.6245
+2630,23.7942,24.0380,32.1013
+3000,24.0167,24.2554,32.4319
+
+# gamma_eff(z=0) running across k (CP16 diagnostic)
+k_Mpc^-1,gamma_eff_z0
+0.01,0.22513
+0.05,0.27943
+0.1,0.37255
+0.2,0.47698
+0.5,0.53917
+1.0,0.55069
+
+# headline numbers
+quantity,value
+SNR_step_multibin_perbin_marg,24.017
+SNR_step_single_bin_CP14,18.071
+multibin_over_singlebin_ratio,1.329
+SNR_gamma_running_globalmarg,24.255
+gamma_running_delta_over_WLband,0.3256
+SANITY_uniform_shift_raw_SNR,26.561
+SANITY_uniform_shift_marg_SNR,4.768e-07
