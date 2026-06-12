@@ -2,7 +2,7 @@
 CP10: does QFUDS relieve the H0 tension? (the headline tension, never tested.)
 
 So far we only tested S8. H0 is the bigger headline tension (CMB-inferred 67.4 vs
-local 73.0, a ~8% gap). The Notion/Gemini pitch hoped QFUDS would relieve it.
+local 73.0, a ~8% gap). I had hoped QFUDS would relieve it.
 
 H0 is a BACKGROUND quantity, inferred via the inverse distance ladder: the CMB
 fixes the angular acoustic scale θ* = r_s / D_M(z_rec) very precisely, and the
