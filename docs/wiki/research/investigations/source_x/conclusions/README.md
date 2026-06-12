@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - source_x_investigation_index
 next_gate: none; conclusion records only
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Source-X Investigation Conclusions
@@ -32,3 +32,4 @@ made through the project process.
 - [Chen-Gamma Shape Comparison Result](047_chen_gamma_shape_comparison_result.md)
 - [Known-Model Distinction Audit Result](048_known_model_distinction_audit_result.md)
 - [Level 2B Admission Eligibility Review and Observer-Mode Routing](049_level2b_eligibility_review_and_observer_mode.md)
+- [Foam-Sector-to-Gamma Derivation Feasibility Result](050_foam_sector_to_gamma_derivation_feasibility_result.md)
