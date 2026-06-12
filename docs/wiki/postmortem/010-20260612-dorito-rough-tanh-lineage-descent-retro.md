@@ -2,7 +2,7 @@
 doc_id: postmortem-010-rough-tanh-lineage-descent-retro
 id: postmortem-010-rough-tanh-lineage-descent-retro
 seq: 10
-title: "rough tanh lineage 하강 회고 — 관측 falsifiable에서 우주상수 문제까지 (CP13~CP24)"
+title: "rough tanh lineage 하강 회고 — 반증 가능 신호에서 우주상수 문제까지 (CP13~CP24)"
 doc_type: postmortem
 type: postmortem
 stage: reference
@@ -40,31 +40,35 @@ code_refs:
     note: "CP13~CP24 스크립트 12개 + png/svg/csv. 전부 rough proxy, parametrize-not-derive."
 ---
 
-# rough tanh lineage 하강 회고 — 관측 falsifiable에서 우주상수 문제까지 (CP13~CP24)
+# rough tanh lineage 하강 회고 — 반증 가능 신호에서 우주상수 문제까지 (CP13~CP24)
 
 ## 사건 한 줄 요약
 
-worktree-qfuds-rough-tanh에서 rough tanh 탐색(004 lineage)을 CP13~CP24까지 밀었고,
-"관측으로 어떻게 죽나 → 천장을 직격하면 뭐가 막나 → brute-force로 맞추면 손잡이가
-주나"를 순서대로 내려가, **결국 남은 두 숫자(ξ≈10 Mpc, meV)가 곧 스케일/계층 문제와
-우주상수 문제**임을 정직하게 못박았다. QFUDS 상태·050 천장·observer mode는 한 톨도
-안 바뀌었다(이 문서를 포함해 전부 provenance).
+worktree-qfuds-rough-tanh 브랜치에서 rough tanh 탐색(004 lineage)을 CP13부터
+CP24까지 진행했다. "이 모델을 관측으로 어떻게 반증할 수 있나 → 이론적 천장을
+정면으로 두드리면 무엇이 막나 → 끝까지 끼워 맞추면 자유 손잡이가 줄어드나"라는
+세 단계를 차례로 내려갔고, **마지막에 남은 두 숫자(상관길이 ξ≈10 Mpc, 그리고
+에너지 스케일 meV)가 결국 우주론의 스케일·계층 문제와 우주상수 문제 그 자체**임을
+정직하게 확인했다. QFUDS의 상태, 050 천장, observer mode는 전혀 바뀌지 않았다(이
+문서를 포함해 모두 연구 흐름 기록일 뿐이다).
 
-## 0. 사전 지식
+## 0. 먼저 알아둘 것
 
-이 회고를 읽는 데 필요한 최소 개념만.
+이 회고를 읽는 데 필요한 최소한의 개념만 정리한다.
 
-| 개념 | 한 줄 |
+| 개념 | 설명 |
 | --- | --- |
-| lineage(004) | 연구 흐름 *기록*(provenance). 새 증거도, 상태 변경도 아님. roadmap이 상태 권위 |
-| CP 로그 | append-only 체크포인트. 각 CP = `## CPn` 본문 + `### CPn 결론`. 이전 결론 덮지 않음 |
-| parametrize vs derive | parametrize = 손으로 값을 *깔고* 곡선 맞춤. derive = 미시구조에서 값이 *나옴*. 050 천장 = derive가 막힘 |
-| rough proxy | 모든 toy는 거친 근사. 진짜 검증은 CLASS/hi_class(Level 3, blocked) |
-| observer mode | 새 관측 외엔 레포 내부 추가 유도 안 함. 이 세션 전체가 이 모드를 지킴 |
+| lineage(004) | 연구가 어떻게 흘러갔는지 남기는 *기록*(provenance)이다. 새 증거도, 상태 변경도 아니다. 프로젝트의 공식 상태는 roadmap이 정한다 |
+| CP 로그 | 덧붙이기만 하는(append-only) 체크포인트. 각 CP는 `## CPn` 본문과 `### CPn 결론`으로 이뤄지며, 앞선 결론을 덮어쓰지 않는다 |
+| parametrize vs derive | parametrize는 값을 손으로 *깔아 두고* 곡선을 맞추는 것, derive는 미시구조에서 값이 *저절로 나오는* 것이다. 050 천장은 바로 이 derive가 막혀 있다는 뜻이다 |
+| rough proxy | 여기 나오는 모든 모델은 거친 근사다. 제대로 된 검증은 Boltzmann 코드(CLASS/hi_class)로 해야 하고, 그건 Level 3이라 막혀 있다(blocked) |
+| observer mode | 새 관측이 들어오는 것 말고는 레포 안에서 새 유도를 하지 않는 상태. 이 세션 전체가 이 모드를 지켰다 |
 
-핵심 규약: 그림 png+svg, 수치 *_results.csv, 매 CP `__pycache__` 삭제, 표준식은
-직접 유도·검산, 근사는 "proxy" 명시, 커밋 전 `validate_docs.py` +
-`research_consistency.py` PASS, 한글 `docs:` 커밋(Co-Authored-By 금지).
+작업 규약도 정리해 둔다. 그림은 png와 svg로, 수치는 `*_results.csv`로 남긴다. 매 CP마다
+`__pycache__`를 지운다. 표준 우주론 식은 코드 안에서 직접 유도·검산하고, 근사를 쓸 때는
+"proxy"라고 명시한다. 커밋 전에 `validate_docs.py`와 `research_consistency.py`가
+모두 PASS해야 한다. 커밋 메시지는 한글 `docs:` 형식으로 쓰되, 이 lineage 작업에서는
+Co-Authored-By를 붙이지 않는다.
 
 ## 1. 무엇을 했나 (CP13~CP24 한눈)
 
@@ -90,117 +94,137 @@ CP22 `ad1e3e1`, CP23 `c0c47b4`, CP24 `1141373`.
 
 ## 2. 세 국면 서사
 
-이 세션은 거칠게 세 국면으로 내려갔다.
+이 세션은 크게 세 국면을 거치며 내려갔다.
 
-**국면 1 — 관측으로 어디서 죽나 (CP13~CP19).** 직전 결론(S8는 튜닝 완화, H0 악화,
-죽일 곳은 DESI w(z)+렌즈 P(k))을 *실제 오차*로 밀었다. ISW를 세 번째 falsifiable
-신호로 추가(CP13), 두 신호를 대표 오차로 채점(CP14), GDM/γ로 이론 위치 확정(CP15·16),
-CMB렌즈 내부 정합성 통과(CP17), DESI z>2와 Euclid forecast로 "언제 죽나"를 구체화
-(CP18·19). 핵심 교훈: **QFUDS의 진짜 증거 자리는 ΛCDM과 *갈라지는* 신호(P(k) 스텝·γ
-running·ISW tilt)지, 공유하는 벽이 아니다.** 외부 관측 숫자는 전부 "대표값/예시,
-likelihood 아님"으로 라벨링(사용자와 명시적으로 A=forecast vs B=likelihood 경계 합의).
+**국면 1 — 관측으로 어디서 반증되나 (CP13~CP19).** 직전 결론(S8 긴장은 튜닝으로
+완화되지만 H0는 오히려 악화되고, 이 모델을 반증할 곳은 DESI의 w(z)와 약중력렌즈
+P(k)다)을 *실제 오차 막대*로 검증했다. 먼저 ISW를 세 번째 반증 신호로 추가하고(CP13),
+두 신호를 대표 오차로 채점했다(CP14). GDM과 성장지수 γ로 이 모델이 기존 이론 지도
+위 어디에 놓이는지 확정하고(CP15·16), CMB렌즈와의 내부 정합성도 통과했다(CP17).
+이어 DESI z>2와 Euclid 예측으로 "언제 반증될 수 있나"를 구체화했다(CP18·19). 핵심
+교훈은 이렇다. **QFUDS가 진짜 증거를 얻을 수 있는 자리는 ΛCDM과 *갈라지는* 신호
+(P(k) 계단, γ running, ISW 기울기)이지, ΛCDM과 함께 부딪치는 공통의 벽이 아니다.**
+외부 관측 숫자는 모두 "대표값·예시이지 likelihood가 아니다"로 표시했다(forecast인지
+실제 likelihood인지의 경계를 사용자와 명시적으로 합의했다).
 
-**국면 2 — 천장을 직격 (CP20).** "관측 말고 천장 자체를 쳐보자"로 전환. 데이터가
-원하는 손잡이 {ξ, N_X, z*}를 foam order-parameter ansatz에서 *유도 시도*. 결과는
-돌파가 아니라 **분해**: 스펙 3개가 (1) 스케일 문제 + (2) 코인시던스 문제로 줄었다.
-이때 **adversarial red-team**이 내 초안의 한쪽-편향(미시 foam 척도만 나열)을 잡아,
-인과/Kibble 지평(~4400 Mpc, 461배 큼)을 추가해 양쪽 horn으로 교정했다 — 결론은
-같지만 더 정직·더 강해짐.
+**국면 2 — 이론적 천장을 정면으로 두드리다 (CP20).** "관측이 아니라 천장 자체를
+건드려 보자"로 방향을 틀었다. 데이터가 요구하는 손잡이 {ξ, N_X, z*}를 foam order-parameter ansatz
+(거품을 하나의 질서변수로 보는 가정)에서 *유도해 보려* 했다. 결과는 돌파가 아니라
+**분해**였다. 스펙 세 개가 (1) 스케일 문제 (2) 코인시던스 문제, 두 가지로 줄었다.
+이 과정에서 **반대편을 일부러 파고드는 검토(adversarial red-team)**가 내 초안의
+한쪽 편향(미시 foam 척도만 늘어놓은 것)을 잡아냈고, 인과/Kibble 지평(~4400 Mpc,
+데이터보다 461배 큼)을 추가해 양쪽 극단을 모두 보도록 교정했다. 결론은 같지만 더
+정직하고 더 단단해졌다.
 
-**국면 3 — brute-force로 마저 맞춰봐 (CP21~CP24).** 사용자 요청으로 "남은 메커니즘을
-brute-force 미세조정"에 들어갔다. 핵심 전제를 먼저 박음: *brute-force는 정의상
-맞춘다. 출력은 "맞췄냐"가 아니라 튜닝 장부(손잡이가 주나 옮기나)다.* CP21(ξ
-근임계/KZ): relocated, 칼날 튜닝. CP22(tracker): IC 튜닝 16 decade를 *진짜로* 제거
-(이 세션 유일한 부분 승리, w_φ=−2/3 재현으로 검증) 하지만 meV는 잔존. 그다음 남은 두
-숫자 자체에 들어가 CP23(meV=우주상수 문제)·CP24(ξ=σ8 스케일 문제). 둘 다 환각(가짜
-해결) 없이 survey+ledger로 "아무도 derive 못 함, QFUDS가 ΛCDM과 똑같이 상속"을 못박음.
+**국면 3 — 끝까지 끼워 맞춰 보다 (CP21~CP24).** 사용자 요청으로 "남은 메커니즘을
+끝까지 미세조정해 보자"에 들어갔다. 먼저 핵심 전제를 분명히 했다. *끼워 맞추기는
+정의상 언제나 맞출 수 있다. 그러니 진짜 출력은 "맞췄냐"가 아니라 튜닝 장부 — 즉
+자유 손잡이가 줄어드는지, 아니면 자리만 옮겨가는지 — 다.* CP21(ξ를 근임계성이나
+Kibble-Zurek으로 맞추기)에서는 손잡이가 줄지 않고 자리만 옮겨갔고, 그것도 칼날 위에
+선 듯한 극단적 미세조정이 필요했다. CP22(tracker)에서는 초기조건 튜닝을 16 decade
+*실제로* 제거했다(이 세션의 유일한 부분 승리이며, w_φ=−2/3 재현으로 검증했다). 다만
+meV 스케일은 끝까지 남았다. 그다음에는 남은 두 숫자 자체로 들어가, CP23(meV =
+우주상수 문제)과 CP24(ξ = σ8 스케일 문제)를 다뤘다. 둘 다 가짜 해결로 빠지지 않고
+문헌 조사와 튜닝 장부만으로 "아무도 유도하지 못했고, QFUDS도 ΛCDM과 똑같이 이
+문제를 그대로 물려받는다"를 분명히 했다.
 
 ## 3. 핵심 발견
 
 ```text
-22개 CP를 관통하는 한 줄:
-  - 효과 수준(가정→fit)에선 작동한다. ΛCDM과 배경·S8·CMB렌즈·BAO 다 통과.
-  - 그러나 ΛCDM보다 낫지 않다(이김은 S8 튜닝 덕, 고유 아님; H0는 악화).
-  - 근본 수준(foam에서 유도)에선 막힌다. 손잡이를 못 줄인다.
-  - 튜닝 장부의 바닥 = 2개 숫자 = 스케일/계층 문제 + 우주상수 문제.
-    => QFUDS의 천장 = 이론물리 전체의 두 미해결 문제. QFUDS 고유 실패 아님.
+24개 CP 전체를 꿰뚫는 핵심:
+  - 효과 수준(파라미터를 입력으로 가정하고 fit)에선 작동한다.
+    ΛCDM과 배경·S8·CMB렌즈·BAO를 모두 통과.
+  - 그러나 ΛCDM보다 낫지는 않다(이긴 건 S8를 낮춘 보편 효과 덕이지 고유한 강점이 아니고,
+    H0는 오히려 악화).
+  - 근본 수준(foam에서 유도)에선 막힌다. 자유 손잡이를 줄이지 못한다.
+  - 튜닝 장부의 맨 밑바닥 = 숫자 2개 = 스케일/계층 문제 + 우주상수 문제.
+    => QFUDS의 천장 = 이론물리 전체의 두 미해결 난제. QFUDS만의 고유한 실패가 아님.
 유일한 부분 승리: tracker attractor가 초기조건 튜닝을 16 decade 제거(CP22).
 ```
 
-`evidence` 노트: CP22의 부분 승리는 hand-wave가 아니다. 적분기가 Ratra–Peebles
-물질기 tracker 상태방정식 `w_φ=-0.666`을 해석값 `-2/(α+2)=-0.667`로 재현(독립
-실행으로 직접 확인) → attractor 로직이 옳다는 결정적 증거. 반면 meV 창은 0.31 decade로
-좁아 why-now는 잔존.
+근거 메모: CP22의 부분 승리는 막연한 주장이 아니다. 적분기가 Ratra–Peebles 모델의
+물질 지배기 tracker 상태방정식 `w_φ=-0.666`을 해석값 `-2/(α+2)=-0.667`로 재현했고(별도
+실행으로 직접 확인했다), 이는 attractor 로직이 옳게 구현됐다는 결정적 증거다. 반면
+에너지 스케일 meV가 관측 창에 들어오는 폭은 0.31 decade로 좁아서, "왜 하필 지금
+가속이 시작되나(why-now)" 문제는 끝까지 남았다.
 
 ## 4. 운영 실수 1건 — git checkout이 미스테이징 문서 편집을 되돌림
 
 ### 증상
 
-CP18 커밋 직후 `git show --stat`이 **4 files**만 보였다(기대 5: 문서+asset 4).
-문서 섹션(CP18)이 커밋에서 빠지고 asset 4개만 들어감.
+CP18 커밋 직후 `git show --stat`에 **파일 4개**만 잡혔다(기대한 건 5개: 문서 1 +
+asset 4). 문서 섹션(CP18)이 커밋에서 빠지고 asset 4개만 들어간 것이다.
 
 ### 원인
 
-직전에 agent 재실행으로 생긴 *추적 도면 드리프트*(예: `fig_cp5_sound_speed.svg`)를
-되돌리려고 다음을 실행:
+직전에 에이전트를 다시 실행하면서 추적 중이던 그림 파일이 의도치 않게 바뀌어 있었고
+(예: `fig_cp5_sound_speed.svg`), 이걸 되돌리려고 다음을 실행했다.
 
 ```bash
 git checkout -- $(git diff --name-only)
 ```
 
-그 시점 `git diff --name-only`에는 **아직 stage 안 한 CP18 문서 편집**도 포함돼 있었고,
-`git checkout`이 그것까지 같이 되돌려버렸다. 이후 `git add` 시 문서는 HEAD와 동일
-상태(=변경 없음)라 스테이징되지 않았고, CP18 커밋엔 asset만 들어감.
+문제는 그 시점의 `git diff --name-only` 목록에 **아직 스테이징하지 않은 CP18 문서
+편집**도 들어 있었다는 점이다. `git checkout`이 그 문서 편집까지 함께 되돌려 버렸다.
+그래서 이후 `git add`를 했을 때 문서는 HEAD와 똑같은 상태(=바뀐 게 없음)라 스테이징되지
+않았고, 결국 CP18 커밋에는 asset만 들어갔다.
 
 ### 해결
 
-문서 섹션·repro를 다시 Edit로 삽입한 뒤(파일이 reverted돼 "Read first" 에러 →
-Read 후 재편집), `git commit --amend --no-edit`로 문서를 CP18 커밋에 합쳤다. 결과
-`d72a135`에 5 files(문서+asset 4) 완비.
+문서 섹션과 재현 절을 Edit로 다시 삽입한 뒤(파일이 되돌려진 상태라 "Read first"
+에러가 떠서, Read 후 재편집했다), `git commit --amend --no-edit`로 문서를 CP18 커밋에
+합쳤다. 그 결과 `d72a135`에 파일 5개(문서 1 + asset 4)가 모두 들어갔다.
 
 ### 결정 근거
 
 | 선택지 | 채택? | 근거 |
 | --- | --- | --- |
-| 새 커밋으로 문서만 추가 | ✗ | atomic 규약 위반(1 CP = 1 커밋). 문서/asset 분리됨 |
-| `commit --amend`로 합침 | ✓ | 로컬 워크트리 브랜치(미push)라 amend 안전. atomic 복원 |
+| 새 커밋으로 문서만 추가 | ✗ | atomic 규약 위반(1 CP = 1 커밋). 문서와 asset이 두 커밋으로 쪼개진다 |
+| `commit --amend`로 합침 | ✓ | 로컬 워크트리 브랜치라 아직 push 전이라서 amend가 안전하고, atomic 규약도 복원된다 |
 
 ## 5. 결정 / 열린 질문
 
-이 세션이 닫지 않고 남긴 *유일한 열린 결정*:
+이 세션이 닫지 않고 남긴 *유일하게 열린 결정*은 이것이다.
 
 ```text
 QFUDS를 어떤 레벨로 볼 것인가?
-  (a) 효과모델: ξ·meV를 input으로 가정. fit은 되지만 ΛCDM 못 이김(파라미터 더 씀),
-      증거는 falsifiable 신호(P(k)/ISW/γ)에서만. observer mode와 정합.
-  (b) 근본이론: foam에서 유도 고집. 그게 QFUDS의 원래 정체성이자 050 천장.
-      CP20~24가 보인 대로 현재 blocked.
-"가정하면 되잖아"는 (a)를 고른다는 뜻 — 나쁜 게 아니라, 그게 무슨 선택인지 알고 고르면 됨.
+  (a) 효과모델: ξ와 meV를 입력으로 가정. fit은 되지만 ΛCDM을 이기지는 못하고
+      (파라미터를 더 쓰니까), 증거는 ΛCDM과 갈라지는 반증 가능 신호(P(k)/ISW/γ)에서만 나온다.
+      observer mode와 잘 맞는다.
+  (b) 근본이론: foam에서 유도하기를 고집. 그게 QFUDS의 원래 정체성이자 050 천장이다.
+      CP20~24가 보여준 대로 지금은 막혀 있다(blocked).
+"그냥 가정하면 되잖아"는 (a)를 고른다는 뜻이다. 나쁜 선택이 아니라,
+그게 무슨 선택인지 알고 고르면 된다.
 ```
 
-이건 로드맵 결정이지 lineage가 정할 게 아니다. observer mode 하에선 둘 다 "새 관측
-대기"로 수렴한다(Euclid 2026.10, DESI DR 계속).
+이건 roadmap이 내릴 결정이지 lineage가 정할 일이 아니다. observer mode 아래에서는
+두 선택지 모두 결국 "새 관측을 기다린다"로 수렴한다(Euclid 2026년 10월, DESI 데이터
+릴리스 계속).
 
 ## 6. 재발 방지 / 운영 메모
 
-- **`git checkout -- $(git diff --name-only)` 금지 패턴.** 드리프트만 되돌릴 땐 대상
-  파일을 *명시*하라(`git checkout -- docs/.../fig_cp5_sound_speed.svg`). 와일드/명령치환은
-  스테이징 안 한 정당한 편집을 삼킨다. 이후 CP19~24는 도면만 골라 되돌리는
-  `git diff --name-only -- 'fig_*' '*_results.csv'`로 안전 처리.
-- **positive 주장 CP는 adversarial 검증 필수.** CP20(초안 편향)·CP22(부분 승리
-  주장)·CP23/24(우주상수 문제, 환각 최대 위험)는 red-team 또는 독립 재실행으로
-  검증 후 커밋. negative/relocated 결과는 안전 방향이라 라이트 검증.
-- **외부 관측 숫자는 항상 "대표값/예시, likelihood/공분산 아님"으로 라벨.** A(forecast,
-  provenance) vs B(real likelihood, evidence, observer mode 위반) 경계를 문서에 명시.
-- **워크트리 cd 주의.** Bash wd가 assets 디렉터리로 이동하면 `scripts/*.py` 경로가
-  깨진다. audit/커밋은 워크트리 루트 절대경로에서 실행.
-- 재발 방지 코드 변경 없음 — by process, not by code.
+- **`git checkout -- $(git diff --name-only)`는 금지 패턴이다.** 바뀐 그림만 되돌릴
+  때는 대상 파일을 *직접 지정*해야 한다(`git checkout -- docs/.../fig_cp5_sound_speed.svg`).
+  와일드카드나 명령 치환을 쓰면 아직 스테이징하지 않은 정당한 편집까지 함께 삼킨다.
+  이후 CP19~24에서는 그림과 결과 파일만 골라 되돌리는
+  `git diff --name-only -- 'fig_*' '*_results.csv'`로 안전하게 처리했다.
+- **무언가를 줄였다·풀었다 같은 긍정 주장 CP는 반대 검증이 필수다.** CP20(초안 편향),
+  CP22(부분 승리 주장), CP23·24(우주상수 문제, 가짜 해결 위험이 가장 큼)는 red-team이나
+  별도 재실행으로 검증한 뒤 커밋했다. 반대로 막혔다·자리만 옮겼다 같은 부정적 결과는
+  과대주장 위험이 없는 안전한 방향이라 가볍게만 검증했다.
+- **외부 관측 숫자는 항상 "대표값·예시이지 likelihood/공분산이 아니다"로 표시한다.**
+  forecast(연구 흐름 기록)와 실제 likelihood(증거, 쓰면 observer mode 위반)의 경계를
+  문서에 명시한다.
+- **워크트리에서 디렉터리 이동에 주의한다.** Bash 작업 디렉터리가 assets 폴더로
+  옮겨가면 `scripts/*.py` 경로가 깨진다. 검사와 커밋은 워크트리 루트의 절대경로에서
+  실행한다.
+- 재발 방지를 위한 코드 변경은 없다 — 코드가 아니라 작업 절차로 막는다.
 
 ## 7. 타임라인
 
-- CP13~CP19: 관측 falsifiable 신호 확장·실오차 채점 (커밋 `2586b4b`…`541d77b`).
-- CP18 커밋 중 git checkout 사고 → `--amend`로 복구(`d72a135`).
-- CP20: 천장 직격 + red-team 교정(`ec4a9a7`).
-- CP21·CP22: brute-force 튜닝 장부 — relocated / 부분 환원(`602fe4c`, `ad1e3e1`).
-- CP23·CP24: 최심층 두 숫자 = 우주상수·스케일 문제(`c0c47b4`, `1141373`).
-- 회고 작성(이 문서, seq 010). roadmap/050/observer mode 무손상 확인.
+- CP13~CP19: 관측 반증 신호 확장과 실제 오차 채점(커밋 `2586b4b`…`541d77b`).
+- CP18 커밋 도중 git checkout 사고 발생 → `--amend`로 복구(`d72a135`).
+- CP20: 이론적 천장 정면 두드리기 + red-team 교정(`ec4a9a7`).
+- CP21·CP22: 끝까지 끼워 맞추기 튜닝 장부 — 자리만 옮김 / 부분 환원(`602fe4c`, `ad1e3e1`).
+- CP23·CP24: 가장 깊은 곳의 두 숫자 = 우주상수 문제·스케일 문제(`c0c47b4`, `1141373`).
+- 회고 작성(이 문서, seq 010). roadmap·050 천장·observer mode가 바뀌지 않았음을 확인.
