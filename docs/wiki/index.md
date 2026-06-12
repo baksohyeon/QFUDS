@@ -54,7 +54,7 @@ and
 - [QFUDS rough tanh 수치 스케치](lineage/004_rough_tanh_numerical_sketch_ko.md)
   - append-only checkpoint log (CP1~CP24) of the rough tanh phenomenology
     sketch; provenance only, observer mode.
-- [QFUDS rough tanh 졸업과제 논문 보고서](lineage/005_rough_tanh_thesis_report_ko.md)
+- [QFUDS rough tanh 논문 보고서](lineage/005_rough_tanh_thesis_report_ko.md)
   - thesis-style synthesis of the CP1~CP24 sketch and the AI agent harness
     methodology; provenance only, 050 ceiling intact.
 
