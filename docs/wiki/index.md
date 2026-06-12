@@ -77,6 +77,13 @@ and
   - asset-product and investigation-result routing retrospective.
 - [Source-X Progress Checkpoint](postmortem/008-20260611-dorito-source-x-progress-checkpoint.md)
   - end-of-day Source-X product-recovery and next-gate checkpoint.
+- [QFUDS observer-mode closing retrospective](postmortem/009-20260611-dorito-qfuds-observer-mode-closing-retro.md)
+  - observer-mode transition closure retrospective.
+- [rough tanh lineage descent retrospective (CP13~CP24)](postmortem/010-20260612-dorito-rough-tanh-lineage-descent-retro.md)
+  - falsifiable signals → cosmological-constant problem descent retrospective.
+- [rough tanh lineage natural closing retrospective (CP25)](postmortem/011-20260612-dorito-rough-tanh-lineage-natural-closing-retro.md)
+  - three intuitions independently rediscovering the 2000s–2025 literature arc;
+    lineage natural closing.
 
 ## Research Cache
 
