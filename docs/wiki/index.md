@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Wiki Content Index
@@ -48,6 +48,9 @@ and
   retained, demoted, and blocked ideas.
 - [QFUDS Branch Dependency Graph](lineage/002_branch_graph.md) - branch
   relationship and routing map.
+- [QFUDS 연구 흐름 쉬운 설명](lineage/003_research_flow_plain_language_ko.md)
+  - non-specialist Korean summary of the QFUDS research flow and current
+    status boundaries.
 
 ## Postmortems
 
