@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_investigations_index
 next_gate: none; navigation and audit routing only
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Source-X Research Investigations
@@ -36,8 +36,9 @@ Use phase-reserved prefixes:
 040      Data-product interlock before Phase 4 derivation work
 041-047  Product-recovery selection, extraction, digitization, and shape comparison follow-up
 048      Phase 5: known-model distinction for the Chen-Gamma lane
-049      Level 2B admission eligibility review, if requested
-050-059  Later Phase 5 or admission follow-up
+049      Level 2B admission eligibility review and foam-sector feasibility plan
+050      Foam-sector-to-Gamma feasibility result
+051-059  Later Phase 5 or admission follow-up
 060-069  Final: Level 2B admission audit
 ```
 
@@ -72,13 +73,15 @@ records. The prefix is a route number, not a project-status claim.
 | 047 | [Chen-Gamma Shape Comparison Result](conclusions/047_chen_gamma_shape_comparison_result.md) | qualitative Chen-Gamma shape comparison closeout |
 | 048 | [Known-Model Distinction Audit Plan](plans/048_known_model_distinction_audit_plan.md) | plan-only known-model distinction audit scope |
 | 048 | [Known-Model Distinction Audit Result](conclusions/048_known_model_distinction_audit_result.md) | Phase 5 known-model distinction closeout |
+| 049 | [Foam-Sector-to-Gamma Derivation Feasibility Plan](plans/049_foam_sector_to_gamma_derivation_feasibility_plan.md) | forward-direction feasibility plan; no derivation or admission |
 | 049 | [Level 2B Admission Eligibility Review and Observer-Mode Routing](conclusions/049_level2b_eligibility_review_and_observer_mode.md) | gate-check verdict; routes the lane to observer mode |
+| 050 | [Foam-Sector-to-Gamma Derivation Feasibility Result](conclusions/050_foam_sector_to_gamma_derivation_feasibility_result.md) | forward-direction feasibility closeout; minimum objects missing |
 
 Reserved future records:
 
 | Prefix | Future record | Boundary |
 | ---: | --- | --- |
-| 050 | reserved later Phase 5 or admission follow-up | do not use to bypass the 048 Chen-Gamma distinction result |
+| 051-059 | reserved later Phase 5 or admission follow-up | do not use to bypass the 048 Chen-Gamma distinction result or 050 feasibility result |
 | 060 | `060_level2b_admission_audit.md` | final admission audit only after all required evidence exists |
 
 ## Short Interpretation
@@ -137,6 +140,16 @@ Reserved future records:
   failure, and routes the lane to observer mode with an external watchlist
   (DESI DR3, Euclid, Roman, Rubin/LSST, CCBH, entropic/IV-IDE products). It does
   not open Level 2B and does not itself modify roadmap status.
+- `049` also includes a forward-direction foam-sector-to-`Gamma(a)` feasibility
+  plan. It defines the minimum mathematical objects needed before attempting a
+  derivation from foam-sector phase structure to a `Gamma(a)`-like profile. It
+  does not perform the derivation, admit a physical source, open Level 2B, or
+  modify roadmap status.
+- `050` executes the foam-sector-to-`Gamma(a)` feasibility plan. It finds that
+  the route is not ready for derivation because the minimum objects are missing:
+  no foam-sector state variable, no calculable phase definitions, no replacement
+  transition object, and no foam-sector equation set. It does not open Level 2B
+  or modify roadmap status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

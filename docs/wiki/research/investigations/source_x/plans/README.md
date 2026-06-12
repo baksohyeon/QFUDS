@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - source_x_investigation_index
 next_gate: none; planning records only
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Source-X Investigation Plans
@@ -33,3 +33,4 @@ not store downloaded assets.
 - [Numeric Digitization Execution Plan](046_numeric_digitization_execution_plan.md)
 - [Chen-Gamma Shape Comparison Plan](047_chen_gamma_shape_comparison_plan.md)
 - [Known-Model Distinction Audit Plan](048_known_model_distinction_audit_plan.md)
+- [Foam-Sector-to-Gamma Derivation Feasibility Plan](049_foam_sector_to_gamma_derivation_feasibility_plan.md)
