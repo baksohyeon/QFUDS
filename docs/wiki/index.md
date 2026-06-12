@@ -51,6 +51,12 @@ and
 - [QFUDS 연구 흐름 쉬운 설명](lineage/003_research_flow_plain_language_ko.md)
   - non-specialist Korean summary of the QFUDS research flow and current
     status boundaries.
+- [QFUDS rough tanh 수치 스케치](lineage/004_rough_tanh_numerical_sketch_ko.md)
+  - append-only checkpoint log (CP1~CP24) of the rough tanh phenomenology
+    sketch; provenance only, observer mode.
+- [QFUDS rough tanh 졸업과제 논문 보고서](lineage/005_rough_tanh_thesis_report_ko.md)
+  - thesis-style synthesis of the CP1~CP24 sketch and the AI agent harness
+    methodology; provenance only, 050 ceiling intact.
 
 ## Postmortems
 
