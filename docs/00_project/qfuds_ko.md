@@ -15,7 +15,33 @@ last_updated: 2026-06-13
 
 언어: [English](../../README.md) | Korean
 
-## 암흑물질과 암흑에너지, 정보 순환을 하나로 묶어본다면 어떨까?
+## 한눈에 보기
+
+QFUDS는 확정 이론이 아니라 초기 단계의 우주론 연구 프로그램입니다. 질문은 암흑물질과
+암흑에너지가 공통된 양자 시공간 거품 부문의 서로 다른 거시적 상으로 설명될 수 있는지입니다.
+
+이 저장소의 목적은 QFUDS를 옹호하는 것이 아닙니다. 아이디어를 검증, 비교, 축소, 또는
+폐기할 수 있을 만큼 명시적으로 만드는 것이 목적입니다. 현재 프로젝트 상태는
+[로드맵](../05_next_steps/000_roadmap.md)만 말할 수 있습니다.
+
+짧게 말하면 다음과 같습니다.
+
+- 실증으로 뒷받침되는 본 줄기는
+  [lineage 003](../wiki/lineage/003_research_flow_plain_language_ko.md)에서 끝납니다.
+- 2단계의 거친 탐색 대표 문서는
+  [lineage 004](../wiki/lineage/004_rough_tanh_numerical_sketch_ko.md)입니다.
+- [lineage 005](../wiki/lineage/005_rough_tanh_thesis_report_ko.md)는 거친 `tanh`
+  탐색을 논문 형식으로 압축한 선택적 종합 문서입니다.
+
+## 처음 읽을 곳
+
+- **현재 상태:** [로드맵](../05_next_steps/000_roadmap.md)
+- **쉬운 말로 정리한 검증 본 줄기:** [lineage 003](../wiki/lineage/003_research_flow_plain_language_ko.md)
+- **2단계 거친 탐색 대표 문서:** [lineage 004](../wiki/lineage/004_rough_tanh_numerical_sketch_ko.md)
+- **선택적 논문형 종합:** [lineage 005](../wiki/lineage/005_rough_tanh_thesis_report_ko.md)
+- **영어 개요:** [README.md](../../README.md)
+
+## 긴 개요: 암흑물질과 암흑에너지, 정보 순환을 하나로 묶어본다면 어떨까?
 
 ### 초록
 
