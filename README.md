@@ -2,7 +2,34 @@
 
 Language: English | [Korean](docs/00_project/qfuds_ko.md)
 
-## What if dark matter, dark energy, and information circulation could be tied together?
+## At a Glance
+
+QFUDS is an early-stage cosmology research program, not a confirmed theory. It
+asks whether dark matter and dark energy can be modeled as two effective
+macroscopic phases of a common quantum-spacetime foam sector.
+
+The goal of this repository is not to defend QFUDS. The goal is to make the idea
+explicit enough to test, compare, narrow, or reject. Current project status lives
+only in the [Roadmap](docs/05_next_steps/000_roadmap.md).
+
+Short version:
+
+- The validated empirical thread stops at
+  [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md).
+- The rough Season 2 exploration is represented by
+  [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md).
+- [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) is an
+  optional thesis-style compression of the rough `tanh` exploration.
+
+## Start Here
+
+- **Current status:** [Roadmap](docs/05_next_steps/000_roadmap.md)
+- **Plain-language tested thread:** [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md)
+- **Season 2 rough exploration:** [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md)
+- **Optional formal synthesis:** [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
+- **Korean overview:** [qfuds_ko.md](docs/00_project/qfuds_ko.md)
+
+## Longer Overview: What if dark matter, dark energy, and information circulation could be tied together?
 
 ### Abstract
 
