@@ -9,7 +9,7 @@ depends_on:
   - project_overview
   - roadmap
 next_gate: retained branch demoted; keep Level 2B blocked
-last_updated: 2026-06-11
+last_updated: 2026-06-13
 ---
 
 # QFUDS Documentation Index
@@ -18,7 +18,7 @@ This directory is organized by research workflow stage.
 
 ## Conventions
 
-- Every maintained Markdown document in `docs/` starts with YAML frontmatter.
+- Every maintained Markdown document in [docs](../docs/) starts with YAML frontmatter.
 - The H1 must match the frontmatter `title`.
 - `doc_id` is the stable machine-readable identity; the title is the reader-facing label.
 - Active stage files in `02_theory`, `03_experiments`, `04_results`, and `05_next_steps` keep sortable numeric prefixes.
@@ -52,7 +52,7 @@ Project-level status, decisions, roadmap framing, and Korean overview.
 - [decision_log.md](00_project/decision_log.md)
 - [verification_guide.md](00_project/verification_guide.md)
 - [qfuds_ko.md](00_project/qfuds_ko.md)
-- [frontmatter_convention.md](00_project/frontmatter_convention.md) - canonical YAML frontmatter schema (SSOT for `scripts/validate_docs.py`)
+- [frontmatter_convention.md](00_project/frontmatter_convention.md) - canonical YAML frontmatter schema (SSOT for [scripts/validate_docs.py](../scripts/validate_docs.py))
 - [experiment_record_convention.md](00_project/experiment_record_convention.md) - required experiment/result sections, summary policy, and postmortem policy
 - [traceability_matrix.md](00_project/traceability_matrix.md) - bidirectional claim/evidence traceability index
 
@@ -131,3 +131,9 @@ are not roadmap status authorities.
 - [Wiki Index](wiki/README.md)
 - [Physical Branch Admission Summary](wiki/governance/001_physical_branch_admission_summary.md)
 - [Blocked Admission Rule Gate](wiki/governance/003_blocked_admission_rule_gate.md)
+- [Missing Physics Map](wiki/governance/004_missing_physics_map.md)
+- [Lineage Index](wiki/lineage/README.md)
+- [Rough Tanh Numerical Sketch](wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) - append-only CP1-CP24 rough phenomenology record
+- [Rough Tanh Thesis Report](wiki/lineage/005_rough_tanh_thesis_report_ko.md) - synthesis of the rough tanh lineage and ceiling
+- [Agent-Based Research Operations](wiki/lineage/006_agentic_research_system_ko.md) - workflow, document boundary, review, and git-hook gate record
+- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-050, digitization, known-model distinction, observer-mode routing, and closeout boundaries
