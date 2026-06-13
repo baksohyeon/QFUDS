@@ -130,9 +130,10 @@ The map reads on three levels:
 - **Effective level: it works, but it does not win.** With ordinary matter held
   separate (variant V2), the background expansion is indistinguishable from LCDM
   in supernovae ($|\Delta\mu| < 0.02$ mag, within the brightness scatter of Type Ia
-  supernovae), and a tiny effective sound speed ($c_{\rm eff}^2 \approx 3\times10^{-5}$, so small the
-  dark sector barely spreads and mostly clumps) pulls the structure-growth
-  amplitude $S_8$ down to the observed $S_8 \approx 0.76$. But this is not better than
+  supernovae), and a tiny effective sound speed ($c_{\rm eff}^2 \approx 2.9\times10^{-5}$
+  in the single-$S_8$ CP5 crossing; the later coarse CP7 fit uses
+  $4.6\times10^{-6}$ and lands near $S_8\approx0.78$) pulls the structure-growth
+  amplitude $S_8$ toward the observed $S_8 \approx 0.76$. But this is not better than
   LCDM: the apparent fit win is just the generic effect of lowering $S_8$, it costs
   one more hand-tuned knob, and the $H_0$ tension (the roughly 8% disagreement between
   nearby and distant measures of the expansion rate) gets *worse*, not better.
@@ -312,12 +313,14 @@ And then an optimum actually appeared.
 
 ![The moment it flipped: the correlation length that reproduces the observed S8 is ξ ≈ 10 Mpc (a large-scale-structure scale), not the microscopic foam scale I expected.](docs/wiki/lineage/assets/004_rough_tanh/fig_cp8_ceff2_derivation.png)
 
-Cross-checking the literature, I found that the values I had brute-forced actually
-matched the ones the field works with. It was an honor and a shock at once,
-because what I had expected was the *very small, Planck-scale* unit of a "quantum
-foam," and what the data pointed to was a scale beyond galaxies, in large-scale
-structure. (None of this is a physical proof, of course; the two open problems
-above make a derivation impossible from the start.)
+Cross-checking the literature, I found something I think is worth being proud
+of: the scale and parameter language I had brute-forced landed in the same
+territory the field already works with. Not a proof, not a novelty claim, but a
+real convergence onto the right problem scale. That was useful and sobering at
+once, because what I had expected was the *very small, Planck-scale* unit of a
+"quantum foam," while the proxy fit pointed to a scale beyond galaxies, in
+large-scale structure. (None of this is a physical proof, of course; the two
+open problems above make a derivation impossible from the start.)
 
 It made me ask whether I had been trapped in the micro/quantum picture, and
 whether vacuum energy should not be cut at the Planck scale but coarse-grained
@@ -377,9 +380,10 @@ The operational summary is:
 5. The process is kept as a methodology record alongside the physical negative
    results.
 
-The relevant DESI/Euclid data (from next-generation surveys that map large-scale
-structure in detail) won't be released until this October. Until then, there is
-nothing more to do but wait.
+The relevant DESI/Euclid follow-up releases (from surveys that map large-scale
+structure in detail) remain the next external check for this rough-tanh branch.
+Until those data are available and run through a proper likelihood, this branch
+should stay in observer mode rather than claim a stronger result.
 
 ## How This Was Built: Agent-Based Research Operations
 

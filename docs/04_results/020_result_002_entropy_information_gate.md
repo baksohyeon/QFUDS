@@ -8,12 +8,17 @@ evidence_role: provenance
 depends_on:
   - exp_002_entropy_information_gate
 next_gate: retained branch demoted; no physical Level 2B from exp_002
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Result 002: Entropy / Information-Source Gate
 
 Date: 2026-06-08
+
+Regeneration note, 2026-06-13: outputs and summary figures were regenerated
+after the exact-flat LCDM baseline correction
+(`Omega_Bfoam0 = 0.685708`). Rounded diagnostics and the demotion/provenance
+decision are unchanged.
 
 ## What Did We Learn?
 

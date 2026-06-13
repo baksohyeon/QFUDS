@@ -1,6 +1,6 @@
 classification,gamma_max_error,gamma_rms_error,label,run_id
-parameterization_difference,1.0,0.6634842481443832,LCDM / Gamma(a)=0,R0
+parameterization_difference,1.0,0.6634866983786741,LCDM / Gamma(a)=0,R0
 exact_equivalence,0.0,0.0,retained P1,R1
 exact_equivalence,0.0,0.0,interacting vacuum with xi(a)=Gamma(a),R2
-parameterization_difference,0.8449474766939936,0.5359559127342558,constant-coupling IDE/interacting vacuum matched by integrated transfer,R4
-parameterization_difference,1.6280293294922958,0.5559232656913536,power-law Gamma(a) matched by least-squares transfer shape,R5
+background_viability_failure,0.8449468155781745,0.5359577234682519,constant-coupling IDE/interacting vacuum matched by integrated transfer,R4
+background_viability_failure,1.628074554927617,0.5559312645870694,power-law Gamma(a) matched by least-squares transfer shape,R5

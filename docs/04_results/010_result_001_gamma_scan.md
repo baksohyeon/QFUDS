@@ -8,12 +8,17 @@ evidence_role: proxy_scan
 depends_on:
   - exp_001_gamma_scan
 next_gate: Level 1.5 phase transfer physicality
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Result 001: Gamma-Law Background Scan
 
 Date: 2026-06-08
+
+Regeneration note, 2026-06-13: outputs and summary figures were regenerated
+after the exact-flat LCDM baseline correction
+(`Omega_Bfoam0 = 0.685708`). Rounded diagnostics and the survive/fail
+classification are unchanged.
 
 ## What Did We Learn?
 

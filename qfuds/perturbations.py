@@ -51,6 +51,13 @@ def _metric_phi(kappa2: float, omega_a_frac: float, omega_b_frac: float, delta_a
     return -1.5 * source / max(kappa2 + 3.0, 1.0e-30)
 
 
+def _nanmax_abs_or_none(values: np.ndarray) -> float | None:
+    finite = values[np.isfinite(values)]
+    if len(finite) == 0:
+        return None
+    return float(np.max(np.abs(finite)))
+
+
 def integrate_phenomenological_perturbations(
     background: dict[str, np.ndarray],
     *,
@@ -68,6 +75,13 @@ def integrate_phenomenological_perturbations(
         raise ValueError("exp_003 baseline closure uses conformal_newtonian gauge")
     if closure.transfer_frame != "phase_A_comoving":
         raise ValueError("exp_003 baseline closure uses phase_A_comoving transfer")
+
+    omega_bfoam_grid = np.asarray(background["omega_Bfoam"], dtype=float)
+    if not np.all(np.isfinite(omega_bfoam_grid)) or np.any(omega_bfoam_grid <= 0.0):
+        raise ValueError(
+            "Perturbation closure requires positive finite phase-B density; "
+            "negative rho_B is a background-viability failure."
+        )
 
     a = background["a"]
     x_grid = np.log(a)
@@ -88,7 +102,7 @@ def integrate_phenomenological_perturbations(
         q = np.empty_like(a)
         delta_q = np.empty_like(a)
         curvature = np.empty_like(a)
-        conservation = np.zeros_like(a)
+        conservation = np.full_like(a, np.nan)
 
         delta_a[0] = 1.0e-5
         theta_a[0] = 0.0
@@ -112,7 +126,7 @@ def integrate_phenomenological_perturbations(
             omega_b = _interp(x_grid, background["omega_Bfoam"], xi)
             friction = _interp(x_grid, dln_hc_dx, xi)
             kappa2 = (k_dimless / max(ai * math.sqrt(e2i), 1.0e-30)) ** 2
-            source = gamma * omega_a / max(abs(omega_b), 1.0e-30)
+            source = gamma * omega_a / max(omega_b, 1.0e-30)
             return gamma, omega_a_frac, omega_b_frac, source, friction, kappa2, omega_b
 
         def rhs(xi: float, state: np.ndarray) -> np.ndarray:
@@ -217,6 +231,11 @@ def integrate_phenomenological_perturbations(
             "conservation_residual": conservation,
         }
 
+    conservation_max_values = [
+        value
+        for mode in modes.values()
+        if (value := _nanmax_abs_or_none(mode["conservation_residual"])) is not None
+    ]
     diagnostics: dict[str, object] = {
         "any_unstable": any(unstable_modes.values()),
         "unstable_modes": unstable_modes,
@@ -224,9 +243,8 @@ def integrate_phenomenological_perturbations(
         "max_abs_curvature_proxy": max(
             float(np.nanmax(np.abs(mode["curvature_proxy"]))) for mode in modes.values()
         ),
-        "max_conservation_residual": max(
-            float(np.nanmax(np.abs(mode["conservation_residual"]))) for mode in modes.values()
-        ),
+        "max_conservation_residual": max(conservation_max_values, default=None),
+        "conservation_residual_status": "not_computed_for_algebraic_metric_closure",
         "theta_B_status": "not_applicable_for_interacting_vacuum" if closure.variant == "P1" else "regularized_fluid_variable",
     }
     metadata: dict[str, object] = {
@@ -294,6 +312,49 @@ def _write_result_csv(path: Path, result: PerturbationResult) -> None:
                 )
     # Touch first_mode so static checkers do not mistake the empty result case.
     _ = first_mode
+
+
+def _write_skipped_result_csv(
+    path: Path,
+    background: dict[str, np.ndarray],
+    k_h_mpc_values: tuple[float, ...],
+) -> None:
+    with path.open("w", newline="") as handle:
+        writer = csv.writer(handle, lineterminator="\n")
+        writer.writerow(
+            [
+                "a",
+                "z",
+                "k_h_Mpc",
+                "delta_A",
+                "theta_A",
+                "delta_B_or_substitute",
+                "theta_B",
+                "Phi",
+                "Q",
+                "deltaQ",
+                "curvature_proxy",
+                "conservation_residual",
+            ]
+        )
+        for k in k_h_mpc_values:
+            for i, ai in enumerate(background["a"]):
+                writer.writerow(
+                    [
+                        ai,
+                        background["z"][i],
+                        k,
+                        np.nan,
+                        np.nan,
+                        np.nan,
+                        np.nan,
+                        np.nan,
+                        background["Gamma"][i] * background["omega_A"][i],
+                        np.nan,
+                        np.nan,
+                        np.nan,
+                    ]
+                )
 
 
 def _max_abs_perturbation(result: PerturbationResult) -> float:
@@ -375,27 +436,62 @@ def run_exp003_suite(
 
     for run_id, qfuds in runs:
         background = integrate_background(cosmo, qfuds, n=n_background)
+        min_rho_b = float(np.nanmin(background["omega_Bfoam"]))
         for variant in ("P1", "P2"):
             closure = PerturbationClosure(variant=variant)  # type: ignore[arg-type]
-            result = integrate_phenomenological_perturbations(
-                background,
-                closure=closure,
-            )
             label = _run_label(run_id, variant, qfuds)
             csv_path = outdir / f"{label}.csv"
-            _write_result_csv(csv_path, result)
-            if run_id == "R1":
-                retained_results[variant] = result
+            try:
+                result = integrate_phenomenological_perturbations(
+                    background,
+                    closure=closure,
+                )
+            except ValueError as exc:
+                k_values = (1.0e-4, 1.0e-3, 1.0e-2, 1.0e-1)
+                _write_skipped_result_csv(csv_path, background, k_values)
+                diagnostics: dict[str, object] = {
+                    "any_unstable": False,
+                    "unstable_modes": {f"{k:g}": False for k in k_values},
+                    "instability_reasons": {
+                        f"{k:g}": "not_integrated_background_viability_failure"
+                        for k in k_values
+                    },
+                    "max_abs_curvature_proxy": None,
+                    "max_conservation_residual": None,
+                    "conservation_residual_status": "not_computed_background_viability_failure",
+                    "theta_B_status": "not_integrated_background_viability_failure",
+                    "background_viability_failed": True,
+                    "background_failure_reason": str(exc),
+                    "background_min_rho_b": min_rho_b,
+                }
+                metadata: dict[str, object] = {
+                    "stage": "2A",
+                    "phase_B_variant": variant,
+                    "status": "not_integrated_background_viability_failure",
+                }
+                max_abs_perturbation = float("nan")
+                run_status = "background_failed"
+            else:
+                _write_result_csv(csv_path, result)
+                if run_id == "R1":
+                    retained_results[variant] = result
+                diagnostics = result.diagnostics
+                diagnostics["background_viability_failed"] = False
+                diagnostics["background_min_rho_b"] = min_rho_b
+                metadata = result.metadata
+                max_abs_perturbation = _max_abs_perturbation(result)
+                run_status = "integrated"
             summary_runs.append(
                 {
                     "run_id": run_id,
                     "variant": variant,
                     "gamma_model": qfuds.gamma_model,
                     "gamma0": qfuds.gamma0,
+                    "run_status": run_status,
                     "csv": str(csv_path),
-                    "metadata": result.metadata,
-                    "diagnostics": result.diagnostics,
-                    "max_abs_perturbation": _max_abs_perturbation(result),
+                    "metadata": metadata,
+                    "diagnostics": diagnostics,
+                    "max_abs_perturbation": max_abs_perturbation,
                 }
             )
 
@@ -419,11 +515,14 @@ def run_exp003_suite(
                 "variant",
                 "gamma_model",
                 "gamma0",
+                "run_status",
+                "background_min_rho_b",
                 "any_unstable",
                 "unstable_modes",
                 "max_abs_perturbation",
                 "max_abs_curvature_proxy",
                 "max_conservation_residual",
+                "conservation_residual_status",
                 "theta_B_status",
             ]
         )
@@ -438,11 +537,14 @@ def run_exp003_suite(
                     run["variant"],
                     run["gamma_model"],
                     run["gamma0"],
+                    run["run_status"],
+                    diagnostics["background_min_rho_b"],
                     diagnostics["any_unstable"],
                     ";".join(unstable_modes),
                     run["max_abs_perturbation"],
                     diagnostics["max_abs_curvature_proxy"],
                     diagnostics["max_conservation_residual"],
+                    diagnostics["conservation_residual_status"],
                     diagnostics["theta_B_status"],
                 ]
             )

@@ -11,12 +11,17 @@ depends_on:
   - qfuds_positioning
   - qfuds_success_criteria
 next_gate: retain timing only as phenomenological IV/IDE prior-compression target
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Result 005: Timing-Prior Usefulness and Redundancy Audit
 
 Date: 2026-06-09
+
+Regeneration note, 2026-06-13: CSV, JSON, PNG, and SVG outputs were regenerated
+after the exact-flat LCDM baseline correction and headless plotting-cache
+fixes. The timing fingerprint, family comparisons, and verdict are unchanged at
+the documented precision.
 
 ## Executive Verdict
 
@@ -90,9 +95,9 @@ outputs/figures/exp005_timing_family_errors.svg
 
 Execution note:
 
-The command emitted local matplotlib/fontconfig cache warnings from the runner's
-plotting import. Exp 005 produced JSON, CSV, PNG, and SVG outputs. The cache
-warnings did not affect the generated diagnostics.
+The runner configures a temporary matplotlib/fontconfig cache before importing
+`pyplot`, so headless execution does not depend on writable user-cache
+directories.
 
 ## Visual Diagnostics
 

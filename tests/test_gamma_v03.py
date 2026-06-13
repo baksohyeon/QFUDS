@@ -31,6 +31,17 @@ class GammaV03Tests(unittest.TestCase):
         np.testing.assert_allclose(other["omega_Bfoam"], self.lcdm["omega_Bfoam"])
         np.testing.assert_allclose(other["H"], self.lcdm["H"])
 
+    def test_default_cosmology_is_flat_at_present_day(self) -> None:
+        total = (
+            self.cosmo.omega_b0
+            + self.cosmo.omega_r0
+            + self.cosmo.omega_a0
+            + self.cosmo.omega_bfoam0
+        )
+        self.assertAlmostEqual(total, 1.0, places=14)
+        self.assertAlmostEqual(float(self.lcdm["E2"][-1]), 1.0, places=14)
+        self.assertAlmostEqual(float(self.lcdm["H"][-1]), self.cosmo.h0, places=12)
+
     def test_each_gamma_model_returns_finite_aligned_arrays(self) -> None:
         for model in GAMMA_MODELS:
             with self.subTest(model=model):

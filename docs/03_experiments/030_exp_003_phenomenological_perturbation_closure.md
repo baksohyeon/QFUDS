@@ -9,7 +9,7 @@ depends_on:
   - qfuds_phenomenological_perturbations
   - perturbation_gate
 next_gate: result_003 phenomenological closure audit
-last_updated: 2026-06-08
+last_updated: 2026-06-13
 ---
 
 # Experiment 003: Phenomenological Perturbation Closure Audit
@@ -142,17 +142,23 @@ Record:
 - `theta_B(a,k)` only for the regularized-fluid variant;
 - metric perturbations;
 - total curvature diagnostic;
-- total energy-momentum conservation residual;
+- conservation-residual status;
 - instability flags;
 - comparison to `Gamma=0`.
 - visual stability diagnostics in PNG and SVG under `outputs/figures/`.
+
+The current algebraic Newtonian-gauge metric closure does not compute an
+independent total energy-momentum-conservation residual. The output schema keeps
+the `conservation_residual` column as `NaN` and records the explicit status
+`not_computed_for_algebraic_metric_closure`.
 
 ## Failure Criteria
 
 The closure fails if any of the following occur:
 
 1. unbounded superhorizon curvature growth;
-2. negative physical densities;
+2. negative physical densities, including any background with `rho_B <= 0`
+   before perturbation integration;
 3. singular behavior as `w_B -> -1`;
 4. strong dependence on arbitrary `deltaQ` or transfer-frame choice;
 5. loss of phase-A clustering behavior;

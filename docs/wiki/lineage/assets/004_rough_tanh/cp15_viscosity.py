@@ -44,8 +44,9 @@ touch the validation: with σ_X(a_i)=0 and the source ∝ c_vis², setting c_vis
 makes σ_X≡0 and the system collapses EXACTLY back to CP11's full_2fluid_D1.
 
 VALIDATION (mandatory, reported): c_vis²=0 must reproduce CP11 to ≲1% across k.
-SANITY: very large c_vis² strongly free-streams δ_X (smoother, extra suppression)
-with a DIFFERENT k-dependence than the c_s² Jeans term — measured below.
+SANITY: increasing c_vis² free-streams δ_X (smoother, extra suppression) with a
+DIFFERENT k-dependence than the c_s² Jeans term — measured below, including the
+c_vis²=1 stress-test even though the high-k rough proxy ODE is stiff.
 
 STATUS. Exploratory. PARAMETRIZE-not-DERIVE: c_vis² is a hand-turned GDM knob,
 NOT derived from foam microphysics. The 050 ceiling (foam → δQ inter-phase
@@ -69,13 +70,14 @@ import cp11_two_fluid as cp11
 C_KM_S, H0 = M.C_KM_S, M.H0_CMB
 OM0 = cp5.OM0
 A_I = 1e-3
-K_GRID = cp11.K_GRID            # reuse CP11 grid so the overlay is apples-to-apples
 WL_BAND = cp11.WL_BAND
+K_GRID = cp11.K_GRID            # reuse CP11 grid so the overlay is apples-to-apples
 C2 = cp11.C2                    # fixed data-fit sound speed c_s² = 4.6e-6
 S8_REF = 0.83                   # Planck-ish ΛCDM S8 anchor for an "S8-like" number
 
 # viscosity scan (includes 0 for the CP11 validation point)
 CVIS2_GRID = np.array([0.0, 1e-6, 1e-4, 1e-2, 1.0])
+CVIS2_STRESS = float(CVIS2_GRID[-1])
 
 w_of = cp11.w_of               # identical w(a) curve CP11/CP12 used
 k_over_H2 = cp11.k_over_H2
@@ -133,12 +135,11 @@ def dark_only(k, c2, cvis2):
     return sol.y[2][-1]
 
 
-def half_suppression_k(kgrid, supp):
-    """First k where a (monotone-falling) suppression ratio crosses 0.95."""
-    target = 0.95
+def threshold_crossing_k(kgrid, ratio, target=0.95):
+    """First k where a ratio crosses ``target`` in either direction."""
     for i in range(len(kgrid)-1):
-        if (supp[i]-target)*(supp[i+1]-target) <= 0 and supp[i] != supp[i+1]:
-            f = (target-supp[i])/(supp[i+1]-supp[i])
+        if (ratio[i]-target)*(ratio[i+1]-target) <= 0 and ratio[i] != ratio[i+1]:
+            f = (target-ratio[i])/(ratio[i+1]-ratio[i])
             return 10**(np.log10(kgrid[i]) + f*(np.log10(kgrid[i+1])-np.log10(kgrid[i])))
     return np.nan
 
@@ -185,42 +186,49 @@ def main():
     print("\nc_vis²        S8-like(δ_m)   S8-like(combined)")
     for cv, sm, sc in zip(CVIS2_GRID, S8m, S8c):
         print(f"  {cv:.0e}       {sm:.4f}          {sc:.4f}")
-    print(f"\nS8-like(combined) range over c_vis²∈[0,1] at fixed c_s²={C2:.1e}: "
+    print(f"\nS8-like(combined) range over c_vis²∈[0,{CVIS2_STRESS:.0e}] "
+          f"at fixed c_s²={C2:.1e}: "
           f"{S8c.min():.4f} .. {S8c.max():.4f}  (Δ={S8c.max()-S8c.min():.4f})")
     print(f"S8-like(δ_m)      range: {S8m.min():.4f} .. {S8m.max():.4f}  "
           f"(Δ={S8m.max()-S8m.min():.4f})")
 
     # ---------------------------------------------------------------
-    # 3) k-SHAPE: does viscosity suppress δ_X with a DIFFERENT k-dependence
-    #    than the c_s² Jeans term? Compare matched-depth suppression shapes.
-    # Both effects isolated at the SAME fixed fit c_s², each relative to the
-    # case WITHOUT that effect, so their k-onset is directly comparable:
-    #   viscosity:   δ_X(c_s²=fit, c_vis²=1) / δ_X(c_s²=fit, c_vis²=0)
+    # 3) k-SHAPE: does viscosity change δ_X with a DIFFERENT k-dependence
+    #    than the c_s² Jeans term? Compare ratio shapes. Both effects are
+    # isolated relative to the case WITHOUT that effect:
+    #   viscosity:   δ_X(c_s²=fit, c_vis²=CVIS2_STRESS) / δ_X(c_s²=fit, c_vis²=0)
     #   sound speed: δ_X(c_s²=fit, c_vis²=0) / δ_X(c_s²→0,   c_vis²=0)  [pure Jeans]
-    supp_vis = dX_of[1.0]/dX_of[0.0]
+    supp_vis = dX_of[CVIS2_STRESS]/dX_of[0.0]
     dX_nopress = np.array([dark_only(k, 1e-12, 0.0) for k in K_GRID])
     supp_cs = dX_of[0.0]/dX_nopress           # Jeans suppression of the FIT c_s²
 
-    k_half_vis = half_suppression_k(K_GRID, supp_vis)
-    k_half_cs = half_suppression_k(K_GRID, supp_cs)
+    k_cross_vis = threshold_crossing_k(K_GRID, supp_vis)
+    k_cross_cs = threshold_crossing_k(K_GRID, supp_cs)
     # Jeans scale where c_s·k/𝓗 ~ 1 today (a=1): k_J = aH/(c·c_s)
     k_jeans = (1.0*H0*cp5.E(1.0))/(C_KM_S*np.sqrt(C2))
     # viscosity onset scale (k/𝓗~1 today, where the (k/𝓗)²σ term wakes up)
     k_visc = (1.0*H0*cp5.E(1.0))/C_KM_S
-    print(f"\n[k-shape] viscosity (c_vis²=1, fixed c_s²) δ_X suppression: min={supp_vis.min():.4f}, "
-          f"crosses 0.95 at k≈{k_half_vis:.3f} Mpc⁻¹")
-    print(f"[k-shape] pure Jeans (fit c_s²={C2:.1e}) δ_X suppression: min={supp_cs.min():.4f}, "
-          f"crosses 0.95 at k≈{k_half_cs:.3f} Mpc⁻¹")
+    vis_cross_note = (
+        f"starts below 0.95 at k_min={K_GRID[0]:.3g} and returns through "
+        f"0.95 at k≈{k_cross_vis:.3f} Mpc⁻¹"
+        if supp_vis[0] < 0.95 and np.isfinite(k_cross_vis)
+        else f"crosses 0.95 at k≈{k_cross_vis:.3f} Mpc⁻¹"
+    )
+    print(f"\n[k-shape] viscosity (c_vis²={CVIS2_STRESS:.0e}, fixed c_s²) "
+          f"δ_X ratio: min={supp_vis.min():.4f}; {vis_cross_note}")
+    print(f"[k-shape] pure Jeans (fit c_s²={C2:.1e}) δ_X ratio: min={supp_cs.min():.4f}, "
+          f"crosses 0.95 at k≈{k_cross_cs:.3f} Mpc⁻¹")
     print(f"[k-shape] c_s² Jeans scale k_J = aH/(c·c_s) ≈ {k_jeans:.3f} Mpc⁻¹  ;  "
           f"viscosity scale k_aH = aH/c ≈ {k_visc:.4f} Mpc⁻¹")
-    different_shape = (np.isnan(k_half_vis) != np.isnan(k_half_cs)) or (
-        not np.isnan(k_half_vis) and not np.isnan(k_half_cs)
-        and abs(np.log10(k_half_vis) - np.log10(k_half_cs)) > 0.15)
-    print(f"[k-shape] viscosity k-onset {'DIFFERS from' if different_shape else 'resembles'} "
-          f"the c_s² Jeans k-onset "
-          f"(Δlog10 k ≈ {abs(np.log10(k_half_vis)-np.log10(k_half_cs)):.2f})"
-          if not (np.isnan(k_half_vis) or np.isnan(k_half_cs)) else
+    different_shape = (np.isnan(k_cross_vis) != np.isnan(k_cross_cs)) or (
+        not np.isnan(k_cross_vis) and not np.isnan(k_cross_cs)
+        and abs(np.log10(k_cross_vis) - np.log10(k_cross_cs)) > 0.15)
+    print(f"[k-shape] viscosity ratio shape {'DIFFERS from' if different_shape else 'resembles'} "
+          f"the c_s² Jeans ratio shape "
+          f"(Δlog10 k ≈ {abs(np.log10(k_cross_vis)-np.log10(k_cross_cs)):.2f})"
+          if not (np.isnan(k_cross_vis) or np.isnan(k_cross_cs)) else
           f"[k-shape] one onset is off-grid -> shapes differ")
+    k_cross_vis_label = f"{k_cross_vis:.2g}" if np.isfinite(k_cross_vis) else f"<{K_GRID[0]:.2g}"
 
     # verdict: is c_vis² an independent knob? (does it move S8 at fixed c_s²?)
     # Physical S8 proxy = MATTER field δ_m (what weak lensing traces in this V2
@@ -247,9 +255,9 @@ def main():
                    label=f"CP11 c_vis²=0 (resid {max_resid:.0e})")
     ax[0].axvline(k_jeans, color="tab:red", ls=":", lw=1.2,
                   label=f"c_s² Jeans k_J≈{k_jeans:.2g}")
-    if not np.isnan(k_half_vis):
-        ax[0].axvline(k_half_vis, color="tab:blue", ls="-.", lw=1.2,
-                      label=f"c_vis² onset≈{k_half_vis:.2g}")
+    if not np.isnan(k_cross_vis):
+        ax[0].axvline(k_cross_vis, color="tab:blue", ls="-.", lw=1.2,
+                      label=f"c_vis² 0.95-cross≈{k_cross_vis:.2g}")
     ax[0].axhline(1.0, color="k", lw=0.6)
     ax[0].set_xlabel("k [Mpc⁻¹]"); ax[0].set_ylabel("P/P_ΛCDM  (matter δ_m)")
     ax[0].set_title(f"(a) T(k) vs c_vis² at fixed c_s²={C2:.1e}\n"
@@ -263,7 +271,7 @@ def main():
                    label=f"total-δ clustering (diag.), Δ={S8c.max()-S8c.min():.3f}")
     ax[1].axhline(1.0, color="k", ls=":", lw=1, label="c_vis²=0 baseline")
     ax[1].annotate(f"c_s² Jeans lever FIXED\n(c_s²={C2:.1e}, k_J≈{k_jeans:.2g} Mpc⁻¹)\n"
-                   f"viscosity acts at k≈{k_half_vis:.2g} Mpc⁻¹\n"
+                   f"viscosity already active; 0.95-cross≈{k_cross_vis_label} Mpc⁻¹\n"
                    f"→ different k-scale, independent knob",
                    xy=(0.03, 0.06), xycoords="axes fraction", fontsize=7.2,
                    va="bottom", bbox=dict(boxstyle="round", fc="wheat", alpha=0.6))
@@ -306,12 +314,13 @@ def main():
                          f"{resid[i]:.3e}"])
         wr.writerow(["# max_abs_rel_resid", f"{max_resid:.3e}"])
         wr.writerow([])
-        wr.writerow(["# Table 4: k-shape — dark-fluid suppression (both at fixed fit c_s²)"])
-        wr.writerow(["k_Mpc^-1", "supp_vis_cvis2=1_over_cvis0",
+        wr.writerow(["# Table 4: k-shape — dark-fluid ratio (both at fixed fit c_s²)"])
+        wr.writerow(["k_Mpc^-1", f"supp_vis_cvis2={CVIS2_STRESS:.0e}_over_cvis0",
                      "supp_jeans_fitcs_over_nopress"])
         for i, k in enumerate(K_GRID):
             wr.writerow([f"{k:.5g}", f"{supp_vis[i]:.5f}", f"{supp_cs[i]:.5f}"])
-        wr.writerow(["# k_half_vis", f"{k_half_vis:.4f}", "# k_half_cs", f"{k_half_cs:.4f}"])
+        wr.writerow(["# k_cross_vis_ratio_0.95", f"{k_cross_vis:.4f}",
+                     "# k_cross_cs_ratio_0.95", f"{k_cross_cs:.4f}"])
         wr.writerow(["# k_jeans_cs", f"{k_jeans:.4f}", "# k_visc_aH", f"{k_visc:.4f}"])
     print("saved cp15_viscosity_results.csv")
 
