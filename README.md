@@ -74,7 +74,8 @@ section just below is the honest report of how far that rough push reached. Read
 it as an organized exploration by a non-specialist, not as proof.
 
 In one line: **Phase 1 is what survived real tests (up to 003); Phase 2 is what
-happened when I pushed a failing idea to its visible limits (004 to 005).**
+happened when I pushed a failing idea to its visible limits. The representative
+record is 004; 005 is an optional thesis-style compression.**
 
 ## Where This Stands: What Pushing the Idea to the Wall Found
 
