@@ -233,7 +233,7 @@ append 로그(`## CPn` 본문 + `### CPn 결론`)에 스크립트·png·svg·csv
   비정상 종료하며 *커밋 자체가 실패*한다. 문체 차단 훅(`no-bak-slang-check`·
   `no-emoji-check`)도 PreToolUse 단계에서 쓰기를 *deny*한다. 모델이 말로 우회할 수 없는,
   결정론적 셸·파이썬 게이트다.
-- **소프트(프롬프트) 강제.** AGENTS.md 헌법, 실행 프롬프트에 적어 넣은 가드레일, 매 turn
+- **소프트(프롬프트) 강제.** [AGENTS.md](../../../AGENTS.md) 헌법, 실행 프롬프트에 적어 넣은 가드레일, 매 turn
   컨텍스트에 주입되는 한국어 스타일 리마인더 훅(`remind-korean-style`, UserPromptSubmit)이
   *행동을 유도*한다. 단 이건 모델이 따라야 효력이 있다.
 
