@@ -133,7 +133,7 @@ are not roadmap status authorities.
 - [Blocked Admission Rule Gate](wiki/governance/003_blocked_admission_rule_gate.md)
 - [Missing Physics Map](wiki/governance/004_missing_physics_map.md)
 - [Lineage Index](wiki/lineage/README.md)
-- [Rough Tanh Numerical Sketch](wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) - append-only CP1-CP24 rough phenomenology record
-- [Rough Tanh Thesis Report](wiki/lineage/005_rough_tanh_thesis_report_ko.md) - synthesis of the rough tanh lineage and ceiling
+- [Rough Tanh Numerical Sketch](wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) - representative Season 2 append-only CP1-CP24 rough phenomenology record
+- [Rough Tanh Thesis Report](wiki/lineage/005_rough_tanh_thesis_report_ko.md) - optional thesis-style synthesis of the rough tanh lineage and ceiling
 - [Agent-Based Research Operations](wiki/lineage/006_agentic_research_system_ko.md) - workflow, document boundary, review, and git-hook gate record
 - [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-050, digitization, known-model distinction, observer-mode routing, and closeout boundaries
