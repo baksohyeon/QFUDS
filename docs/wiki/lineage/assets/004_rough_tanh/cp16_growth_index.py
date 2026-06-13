@@ -149,6 +149,22 @@ def gamma_eff(f, Om):
     return np.log(f) / np.log(Om)
 
 
+def gamma_eff_scale_curves(n_grid, c2, k_values, a_reference):
+    """Return γ_eff(a_reference) curves for each k in ``k_values``.
+
+    The plot x-axis is redshift, but γ_eff is computed on a scale-factor grid.
+    Keep this interpolation explicitly in ``a`` so the scale-dependence band is
+    not accidentally sampled with redshift values.
+    """
+    a_reference = np.asarray(a_reference, dtype=float)
+    curves = []
+    for k in k_values:
+        ak, Dk, Dpk = growth_qfuds(n_grid, c2, k)
+        gk = gamma_eff(Dpk / Dk, Om_qfuds(ak))
+        curves.append(np.interp(a_reference, ak, gk))
+    return np.asarray(curves)
+
+
 def main():
     n_grid = np.linspace(np.log(A_I), 0.0, 1600)
 
@@ -258,12 +274,7 @@ def main():
     ax[1].plot(z[gm], g_q[gm], color="tab:purple", lw=2.2,
                label=f"γ_eff QFUDS (k={K_S8})")
     # scale-dependence band: shade min..max over K_SCAN at each z
-    gk_curves = []
-    for k in K_SCAN:
-        ak, Dk, Dpk = growth_qfuds(n_grid, C2, k)
-        gk = gamma_eff(Dpk / Dk, Om_qfuds(ak))
-        gk_curves.append(np.interp(z, ak, gk))
-    gk_curves = np.array(gk_curves)
+    gk_curves = gamma_eff_scale_curves(n_grid, C2, K_SCAN, a_l)
     ax[1].fill_between(z[gm], gk_curves[:, gm].min(axis=0),
                        gk_curves[:, gm].max(axis=0),
                        color="tab:purple", alpha=0.15,

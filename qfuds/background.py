@@ -15,7 +15,7 @@ class CosmologyParams:
     omega_b0: float = 0.0493
     omega_r0: float = 9.2e-5
     omega_a0: float = 0.2649
-    omega_bfoam0: float = 0.6858
+    omega_bfoam0: float = 0.685708
 
 
 @dataclass(frozen=True)

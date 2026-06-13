@@ -75,6 +75,7 @@ PREFIXED_NAME = re.compile(r"^(000|010|015|020|030|040|900)_.+\.md$")
 MD_PATH_RE = re.compile(
     r"(?P<path>(?:\.\.?/|docs/|outputs/|[A-Za-z0-9_-]+/)?[A-Za-z0-9_./-]+\.md)"
 )
+PNG_IMAGE_RE = re.compile(r"!\[[^\]]*\]\((?P<path>[^)#]+\.png)(?:#[^)]+)?\)")
 
 SECTION_RULES = {
     "experiment": {
@@ -182,6 +183,29 @@ def validate_markdown_doc_links(path: Path, body: str) -> list[str]:
     return errors
 
 
+def resolve_local_reference(path: Path, reference: str) -> Path:
+    if reference.startswith("docs/") or reference.startswith("outputs/"):
+        return ROOT / reference
+    return (path.parent / reference).resolve()
+
+
+def validate_local_png_links(path: Path, body: str) -> list[str]:
+    """Require active stage local PNG image links to point at existing files."""
+    errors: list[str] = []
+    rel = path.relative_to(ROOT)
+    for line_number, line in enumerate(body.splitlines(), start=1):
+        for match in PNG_IMAGE_RE.finditer(line):
+            reference = match.group("path")
+            if "://" in reference or reference.startswith("/"):
+                continue
+            target = resolve_local_reference(path, reference)
+            if not target.exists():
+                errors.append(
+                    f"{rel}:{line_number}: local PNG `{reference}` does not exist"
+                )
+    return errors
+
+
 def validate_doc(path: Path) -> list[str]:
     rel = path.relative_to(ROOT)
     errors: list[str] = []
@@ -240,6 +264,8 @@ def validate_doc(path: Path) -> list[str]:
             )
 
     errors.extend(validate_markdown_doc_links(path, body))
+    if path.parent in ACTIVE_STAGE_DIRS:
+        errors.extend(validate_local_png_links(path, body))
 
     return errors
 

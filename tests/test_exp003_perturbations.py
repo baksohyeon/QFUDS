@@ -55,6 +55,12 @@ class Exp003PerturbationTests(unittest.TestCase):
             result.modes[1.0e-3]["deltaQ"],
             result.modes[1.0e-3]["Q"] * result.modes[1.0e-3]["delta_A"],
         )
+        self.assertIsNone(result.diagnostics["max_conservation_residual"])
+        self.assertEqual(
+            result.diagnostics["conservation_residual_status"],
+            "not_computed_for_algebraic_metric_closure",
+        )
+        self.assertTrue(np.all(np.isnan(result.modes[1.0e-3]["conservation_residual"])))
 
     def test_exp003_suite_writes_summary_outputs(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -77,6 +83,17 @@ class Exp003PerturbationTests(unittest.TestCase):
             self.assertTrue((outdir / "figures" / "exp003_retained_mode_growth.png").exists())
             self.assertTrue((outdir / "figures" / "exp003_retained_mode_growth.svg").exists())
 
+            rows = {
+                (run["run_id"], run["variant"]): run
+                for run in summary["runs"]
+            }
+            self.assertEqual(rows[("R3", "P1")]["run_status"], "background_failed")
+            self.assertEqual(rows[("R3", "P2")]["run_status"], "background_failed")
+            self.assertLess(
+                rows[("R3", "P1")]["diagnostics"]["background_min_rho_b"],
+                0.0,
+            )
+
     def test_regularized_phase_b_closure_records_instability_flags(self) -> None:
         result = integrate_phenomenological_perturbations(
             self.background,
@@ -88,6 +105,20 @@ class Exp003PerturbationTests(unittest.TestCase):
         self.assertIsInstance(unstable_modes, dict)
         self.assertTrue(any(unstable_modes.values()))
         self.assertTrue(result.diagnostics["any_unstable"])
+
+    def test_perturbations_reject_negative_phase_b_background(self) -> None:
+        invalid_background = integrate_background(
+            self.cosmo,
+            QFUDSParams(gamma_model="constant", gamma0=0.5),
+            n=240,
+        )
+
+        with self.assertRaisesRegex(ValueError, "positive finite phase-B density"):
+            integrate_phenomenological_perturbations(
+                invalid_background,
+                closure=PerturbationClosure(variant="P2"),
+                k_h_mpc_values=(1.0e-3,),
+            )
 
 
 if __name__ == "__main__":

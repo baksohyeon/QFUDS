@@ -11,7 +11,7 @@ depends_on:
   - qfuds_phenomenological_perturbations
   - result_003_phenomenological_perturbation_closure
 next_gate: result_004 model-family classification complete; use roadmap for current status
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Experiment 004: Retained P1 Model-Family Positioning and Equivalence Map
@@ -213,6 +213,7 @@ Use the following classification vocabulary:
 | `closure_equivalent` | Perturbation prescription matches a known IDE or interacting-vacuum closure. |
 | `parameterization_difference` | Difference comes only from the chosen `Gamma(a)` shape or fitting basis. |
 | `phenomenological_difference` | Difference changes testable behavior but is not physically derived. |
+| `background_viability_failure` | The baseline violates positive-density or other background viability checks before perturbations can be interpreted. |
 | `physical_difference` | Difference follows from a derived source, transfer four-vector, or microphysical closure. |
 | `unresolved` | Existing implementation or diagnostics cannot decide the classification. |
 
@@ -265,10 +266,12 @@ applicable thresholds:
 | Growth-rate proxy | matter-era growth slope or `f(a)` | max absolute error <= 0.05 over the reported matter-era window |
 | Stability | instability flags | same stable/unstable classification for every implemented tested mode |
 
-If a diagnostic cannot be computed for a baseline, classify that layer as
-`unresolved`, not equivalent. If a baseline matches background diagnostics but
-fails perturbation diagnostics, classify it as `background_degenerate`, not
-fully equivalent.
+If a diagnostic cannot be computed because the baseline violates positive
+physical densities, classify that layer as `background_viability_failure`. If a
+diagnostic cannot be computed for implementation or closure reasons without a
+viability failure, classify that layer as `unresolved`, not equivalent. If a
+baseline matches background diagnostics but fails perturbation diagnostics,
+classify it as `background_degenerate`, not fully equivalent.
 
 ### Distinct-Phenomenology Boundary
 

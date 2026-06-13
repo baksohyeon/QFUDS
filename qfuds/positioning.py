@@ -247,6 +247,13 @@ def _perturbation_metrics(candidate: PerturbationResult, p1: PerturbationResult)
 def _classify_metrics(metrics: dict[str, Any], *, has_perturbations: bool) -> str:
     if metrics.get("exact_mapping"):
         return "exact_equivalence"
+    background_min_rho_b = float(metrics.get("background_min_rho_b", 1.0))
+    if (
+        metrics.get("perturbation_status") == "skipped_background_viability_failure"
+        or not np.isfinite(background_min_rho_b)
+        or background_min_rho_b <= 0.0
+    ):
+        return "background_viability_failure"
     background_ok = (
         metrics.get("h_max_abs_error", float("inf")) <= 0.005
         and metrics.get("rho_a_max_rel_error", float("inf")) <= 0.02
@@ -394,23 +401,39 @@ def run_exp004_suite(
     backgrounds: dict[str, dict[str, np.ndarray]] = {}
     growths: dict[str, dict[str, np.ndarray]] = {}
     perturbations: dict[str, PerturbationResult] = {}
+    perturbation_status: dict[str, dict[str, Any]] = {}
 
     for run in runs:
         if run.qfuds is None:
             continue
         background = integrate_background(cosmo, run.qfuds, n=n_background)
         growth = integrate_growth(background)
-        perturbation = integrate_phenomenological_perturbations(
-            background,
-            closure=PerturbationClosure(variant="P1"),
-            k_h_mpc_values=K_VALUES,
-        )
         backgrounds[run.run_id] = background
         growths[run.run_id] = growth
-        perturbations[run.run_id] = perturbation
         stem = f"exp004_{run.run_id}"
         _write_background_csv(outdir / f"{stem}_background_growth.csv", background, growth)
-        _write_perturbation_csv(outdir / f"{stem}_p1_perturbations.csv", perturbation)
+        perturbation_path = outdir / f"{stem}_p1_perturbations.csv"
+        try:
+            perturbation = integrate_phenomenological_perturbations(
+                background,
+                closure=PerturbationClosure(variant="P1"),
+                k_h_mpc_values=K_VALUES,
+            )
+        except ValueError as exc:
+            if perturbation_path.exists():
+                perturbation_path.unlink()
+            perturbation_status[run.run_id] = {
+                "perturbation_status": "skipped_background_viability_failure",
+                "perturbation_skip_reason": str(exc),
+                "background_min_rho_b": float(np.nanmin(background["omega_Bfoam"])),
+            }
+        else:
+            perturbations[run.run_id] = perturbation
+            perturbation_status[run.run_id] = {
+                "perturbation_status": "integrated",
+                "background_min_rho_b": float(np.nanmin(background["omega_Bfoam"])),
+            }
+            _write_perturbation_csv(perturbation_path, perturbation)
 
     reconstruction = _effective_w_reconstruction(cosmo, p1_background)
     _write_effective_w_csv(outdir / "exp004_R6_effective_w_reconstruction.csv", reconstruction)
@@ -457,14 +480,21 @@ def run_exp004_suite(
         metrics.update(_gamma_shape_metrics(background, p1_background))
         metrics.update(_background_metrics(background, p1_background))
         metrics.update(_growth_metrics(growth, p1_growth))
-        metrics.update(_perturbation_metrics(perturbations[run.run_id], p1_perturbation))
+        metrics.update(perturbation_status.get(run.run_id, {}))
         metrics["exact_mapping"] = run.run_id in {"R1", "R2"}
-        classification = "exact_equivalence" if metrics["exact_mapping"] else _classify_metrics(metrics, has_perturbations=True)
+        has_perturbations = run.run_id in perturbations
+        if has_perturbations:
+            metrics.update(_perturbation_metrics(perturbations[run.run_id], p1_perturbation))
+        classification = (
+            "exact_equivalence"
+            if metrics["exact_mapping"]
+            else _classify_metrics(metrics, has_perturbations=has_perturbations)
+        )
         row.update(metrics)
         row["classification"] = classification
-        row["has_perturbations"] = True
+        row["has_perturbations"] = has_perturbations
         baseline_rows.append(row)
-        background_rows.append({k: row[k] for k in row if k in {"run_id", "label", "classification", "h_max_abs_error", "rho_a_max_rel_error", "rho_b_max_rel_error", "w_dark_max_abs_error", "f_max_abs_error", "delta_a_rms_rel_error_max_over_k", "same_stability_flags", "any_unstable"}})
+        background_rows.append({k: row[k] for k in row if k in {"run_id", "label", "classification", "h_max_abs_error", "rho_a_max_rel_error", "rho_b_max_rel_error", "w_dark_max_abs_error", "f_max_abs_error", "delta_a_rms_rel_error_max_over_k", "same_stability_flags", "any_unstable", "perturbation_status", "perturbation_skip_reason", "background_min_rho_b"}})
         transfer_rows.append({k: row[k] for k in row if k in {"run_id", "label", "classification", "gamma_rms_error", "gamma_max_error"}})
 
     closure_rows = [
@@ -565,7 +595,7 @@ def run_exp004_suite(
         + [
             f"outputs/exp004_{run.run_id}_p1_perturbations.csv"
             for run in runs
-            if run.qfuds is not None
+            if run.run_id in perturbations
         ],
     }
     summary_path = outdir / "exp004_positioning_summary.json"

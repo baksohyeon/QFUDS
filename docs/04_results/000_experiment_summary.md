@@ -15,7 +15,7 @@ depends_on:
   - result_005_timing_prior_usefulness
   - result_006_literature_timing_support_audit
 next_gate: retained branch demoted; use roadmap for current status
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # QFUDS Experiment Summary
@@ -25,6 +25,11 @@ Date: 2026-06-09
 This summary answers what each completed or in-progress experiment has taught
 so far. It is not the current project-status authority. For current level,
 active branch, and blockers, use [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
+
+Regeneration note, 2026-06-13: affected CSV/JSON/PNG/SVG outputs were
+regenerated after the exact-flat LCDM baseline correction
+(`Omega_Bfoam0 = 0.685708`) and plotting-cache fixes. The roadmap-level
+interpretation is unchanged.
 
 ## Current Evidence Boundary
 

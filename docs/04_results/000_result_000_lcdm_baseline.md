@@ -8,7 +8,7 @@ evidence_role: control
 depends_on:
   - exp_000_lcdm_baseline
 next_gate: gamma law background scan
-last_updated: 2026-06-08
+last_updated: 2026-06-13
 ---
 
 # Result 000: Zero-Transfer LCDM Baseline
@@ -41,8 +41,11 @@ H0 = 67.4
 Omega_b0 = 0.0493
 Omega_r0 = 9.2e-5
 Omega_A0 = 0.2649
-Omega_Bfoam0 = 0.6858
+Omega_Bfoam0 = 0.685708
 ```
+
+The phase-B value closes the flat normalized bookkeeping including radiation:
+`Omega_b0 + Omega_r0 + Omega_A0 + Omega_Bfoam0 = 1`, so `H(a=1)=H0`.
 
 ## Outputs
 

@@ -9,7 +9,7 @@ depends_on:
   - result_001_5_phase_transfer_physicality
   - perturbation_gate
 next_gate: result_003 phenomenological closure audit
-last_updated: 2026-06-08
+last_updated: 2026-06-13
 ---
 
 # QFUDS Level 2A Phenomenological Perturbations
@@ -157,6 +157,19 @@ theta_B,x =
 
 The small denominator in P2 is not hidden. It is the exact reason this audit
 tests whether a near-vacuum phase-B fluid closure becomes unstable.
+
+The implemented perturbation runner requires positive finite background
+`rho_B` before evaluating this source. If a background scan drives `rho_B <= 0`,
+that branch has already failed the physical-density gate and the perturbation
+closure is not integrated. The denominator is sign-preserving within the valid
+domain; it is not regularized with `abs(rho_B)`.
+
+The CSV field named `conservation_residual` is retained only as a schema
+placeholder for future dynamical-metric implementations. For the current
+algebraic Newtonian-gauge metric closure, no independent total
+energy-momentum-conservation residual is computed; diagnostics therefore report
+`conservation_residual_status =
+not_computed_for_algebraic_metric_closure`.
 
 ## Risks
 

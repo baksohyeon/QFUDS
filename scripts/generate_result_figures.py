@@ -8,8 +8,18 @@ change experiment conclusions and do not introduce new model runs.
 from __future__ import annotations
 
 import csv
+import os
 from pathlib import Path
 import sys
+import tempfile
+
+os.environ.setdefault("MPLBACKEND", "Agg")
+_cache_root = Path(tempfile.gettempdir()) / "qfuds-cache"
+_cache_root.mkdir(parents=True, exist_ok=True)
+(_cache_root / "matplotlib").mkdir(parents=True, exist_ok=True)
+(_cache_root / "fontconfig").mkdir(parents=True, exist_ok=True)
+os.environ.setdefault("MPLCONFIGDIR", str(_cache_root / "matplotlib"))
+os.environ.setdefault("XDG_CACHE_HOME", str(_cache_root))
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:

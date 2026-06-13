@@ -1,7 +1,17 @@
 from __future__ import annotations
 
+import os
 from pathlib import Path
+import tempfile
 from typing import Any
+
+os.environ.setdefault("MPLBACKEND", "Agg")
+_cache_root = Path(tempfile.gettempdir()) / "qfuds-cache"
+_cache_root.mkdir(parents=True, exist_ok=True)
+(_cache_root / "matplotlib").mkdir(parents=True, exist_ok=True)
+(_cache_root / "fontconfig").mkdir(parents=True, exist_ok=True)
+os.environ.setdefault("MPLCONFIGDIR", str(_cache_root / "matplotlib"))
+os.environ.setdefault("XDG_CACHE_HOME", str(_cache_root))
 
 
 def save_figure_pair(fig: Any, stem: Path) -> list[str]:

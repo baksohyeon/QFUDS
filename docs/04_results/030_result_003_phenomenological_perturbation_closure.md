@@ -9,7 +9,7 @@ depends_on:
   - exp_003_phenomenological_perturbation_closure
   - qfuds_phenomenological_perturbations
 next_gate: keep Level 2B blocked; classify any continuation as phenomenological interacting vacuum
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Result 003: Phenomenological Perturbation Closure Audit
@@ -25,6 +25,16 @@ Date: 2026-06-08
 > section for the old-vs-new comparison and the from-scratch re-evaluation of the
 > P1 verdict. The survive/fail classification did not change; the clustering
 > diagnostic and instability magnitudes did.
+
+> Diagnostic clarification (2026-06-13): a follow-up numerical audit found that
+> the `conservation_residual` output was a placeholder column filled with zeros,
+> not an independently computed conservation residual. The code now leaves this
+> column as `NaN` and reports `conservation_residual_status =
+> not_computed_for_algebraic_metric_closure`. The same audit removed an
+> `abs(rho_B)` regularization in the P2 source denominator and now rejects
+> perturbation integration for any background with non-positive phase-B density.
+> These changes tighten the audit bookkeeping; they do not promote P1 beyond
+> Level 2A phenomenological interacting vacuum.
 
 ## Executive Verdict
 
@@ -121,10 +131,11 @@ outputs/exp003_R3_P2_information_production_gamma0.04.csv
 
 This figure is the main visual decision record for Exp 003. The dashed line is
 the predeclared instability threshold. P1 remains safely below it for every
-tested amplitude, while P2 crosses it at the retained amplitude and again at the
-larger stress test. This is why the result keeps only the interacting-vacuum P1
-closure as Level 2A phenomenology and rejects the regularized near-vacuum fluid
-P2 closure at the retained branch.
+integrated amplitude. P2 crosses it at the retained amplitude, while the larger
+`gamma0=0.04` stress case now fails earlier at the background positive-density
+gate. This is why the result keeps only the interacting-vacuum P1 closure as
+Level 2A phenomenology at the retained amplitude and rejects the regularized
+near-vacuum fluid P2 closure at the retained branch.
 
 ![exp_003 retained mode growth](../../outputs/figures/exp003_retained_mode_growth.png)
 
@@ -144,17 +155,22 @@ Corrected diagnostics (base friction `1.0`):
 | R0 | P1 | 0 | no | none | 7.959e-3 | 2.653e-4 |
 | R0 | P2 | 0 | no | none | 3.212e-2 | 2.653e-4 |
 | R1 | P1 | 0.02 | no | none | 8.255e-3 | 2.752e-4 |
-| R1 | P2 | 0.02 | yes | all tested k | 9.344e8 | 7.589e-1 |
+| R1 | P2 | 0.02 | yes | all tested k | 9.624e8 | 7.811e-1 |
 | R2a | P1 | 0.005 | no | none | 8.032e-3 | 2.677e-4 |
 | R2a | P2 | 0.005 | no | none | 4.002e-1 | 2.677e-4 |
 | R2b | P1 | 0.01 | no | none | 8.106e-3 | 2.702e-4 |
-| R2b | P2 | 0.01 | no flag | none | 7.885e7 | 9.330e-3 |
-| R3 | P1 | 0.04 | no | none | 8.559e-3 | 2.853e-4 |
-| R3 | P2 | 0.04 | yes | all tested k | 5.323e9 | 3.612e-2 |
+| R2b | P2 | 0.01 | no flag | none | 8.188e7 | 9.679e-3 |
+| R3 | P1 | 0.04 | not integrated | background failed (`min rho_B < 0`) | NaN | NaN |
+| R3 | P2 | 0.04 | not integrated | background failed (`min rho_B < 0`) | NaN | NaN |
 
-The conservation residual column in `outputs/exp003_stability_diagnostics.csv`
-is zero for all runs because the implemented transfer is explicitly
-antisymmetric between the two dark-sector components.
+The `max_conservation_residual` field in
+`outputs/exp003_stability_diagnostics.csv` is intentionally blank for the
+current code path. The algebraic Newtonian-gauge metric closure used in this
+audit does not compute an independent total energy-momentum-conservation
+residual. The per-mode CSVs retain a `conservation_residual` schema column as
+`NaN`, and the diagnostics record
+`conservation_residual_status =
+not_computed_for_algebraic_metric_closure`.
 
 ## Friction-Bug Correction
 
@@ -189,6 +205,11 @@ theory and the repository's validated `qfuds/growth.py` (which correctly uses
 
 ### Old vs new
 
+This table records the friction-bug postmortem comparison before the
+positive-density production gate was added. Current production diagnostics do
+not integrate `R3`, because that background has `rho_B < 0`; the current
+diagnostic table above is authoritative for the active run status.
+
 | Run | Variant | gamma0 | Old unstable | Old max pert | New unstable | New max pert |
 | --- | --- | ---: | --- | ---: | --- | ---: |
 | R0 | P1 | 0 | no | 8.282e-4 | no | 7.959e-3 |
@@ -214,20 +235,22 @@ Phase-A matter-era slope (k=0.1 h/Mpc), `dln delta_A / dln a`:
 
 The corrected run does **not** kill P1:
 
-- P1 remains numerically stable in every run (R0, R1, R2a, R2b, R3) at every
+- P1 remains numerically stable in every integrated run (R0, R1, R2a, R2b) at every
   tested wavenumber.
 - After the fix, phase A clusters with the approximately correct exponent
   (~0.9 in the matter era), so the earlier suspicion that P1 stability was an
   over-damping artifact is removed. The correction *strengthened* P1's survival.
-- P2 still fails at the retained `gamma0=0.02` and at `gamma0=0.04` for every
-  tested wavenumber. The near-vacuum `1/(1+w_B)` instability is genuine and
-  survives the correction.
+- P2 still fails at the retained `gamma0=0.02` for every tested wavenumber.
+  The larger `gamma0=0.04` stress case now fails before perturbation
+  integration because the backward-integrated background has `rho_B < 0`.
+  The near-vacuum `1/(1+w_B)` instability is genuine at the retained amplitude
+  and survives the correction.
 
 The bug therefore changed the clustering diagnostic and the instability
-magnitudes, not the survive/fail classification. Its real cost was a false
-clustering statement: the original document's claim that phase-A clustering loss
-was "not triggered for P1" was unjustified under the buggy code, and is only
-justified after the correction.
+magnitudes, not the retained-amplitude survive/fail classification. Its real
+cost was a false clustering statement: the original document's claim that
+phase-A clustering loss was "not triggered for P1" was unjustified under the
+buggy code, and is only justified after the correction.
 
 ### Residual limitations (not bugs)
 
@@ -243,6 +266,9 @@ limitations remain after the correction:
 2. The algebraic Poisson source omits baryons, so corrected phase-A growth
    (~0.90) still sits slightly below the `growth.py` reference (~0.97).
 3. `deltaGamma = 0` remains a phenomenological gauge-fixed choice, not derived.
+4. The current algebraic metric closure does not provide an independent
+   conservation-residual check; the output now marks this explicitly instead of
+   reporting placeholder zeros.
 
 These keep P1 firmly at Level 2A phenomenological interacting vacuum. They do not
 constitute new failures; they are the boundaries of what this audit established.
@@ -255,14 +281,16 @@ amplitude this drives a large instability in all tested modes. This is a real
 failure mode for treating phase B as an ordinary nearly-vacuum fluid with a
 velocity perturbation.
 
-The P1 interacting-vacuum branch is numerically stable in this audit, including
-at `gamma0=0.02` and `gamma0=0.04`. That does not rescue QFUDS as new physics.
-It means the branch can be represented as a known-style phenomenological
-interacting-vacuum perturbation closure.
+The P1 interacting-vacuum branch is numerically stable in this audit at the
+integrated amplitudes through the retained `gamma0=0.02` branch and the smaller
+stress amplitudes. The `gamma0=0.04` stress case is not a perturbation result
+because it fails background positivity. The stable integrated cases do not
+rescue QFUDS as new physics. They mean the retained branch can be represented as
+a known-style phenomenological interacting-vacuum perturbation closure.
 
 The P2 small-amplitude scan also shows a warning sign before the formal
 threshold: `gamma0=0.01` reaches a maximum perturbation amplitude of
-approximately `7.885e7` in the corrected run (`4.021e7` in the original buggy
+approximately `8.188e7` in the corrected run (`4.021e7` in the original buggy
 run). It was not flagged only because the predeclared instability threshold was
 `1e8`. The corrected value sits closer to the threshold, reinforcing that P2 is
 marginal even below the retained amplitude.
@@ -271,8 +299,8 @@ marginal even below the retained amplitude.
 
 | Criterion | Result |
 | --- | --- |
-| unbounded superhorizon curvature growth | P2 fails at retained and larger amplitude by large curvature response; for P1 this is **untested**, because the algebraic Newtonian-gauge `Phi` closure cannot carry an independent superhorizon curvature mode |
-| negative physical densities | not triggered in this perturbation run |
+| unbounded superhorizon curvature growth | P2 fails at retained amplitude by large curvature response; the larger `gamma0=0.04` stress case fails background positivity before perturbations; for P1 this is **untested**, because the algebraic Newtonian-gauge `Phi` closure cannot carry an independent superhorizon curvature mode |
+| negative physical densities | not triggered in the retained perturbation runs; future runs with `rho_B <= 0` are rejected before perturbation integration |
 | singular behavior as `w_B -> -1` | P2 shows the expected near-vacuum instability |
 | arbitrary `deltaQ` or transfer-frame dependence | unresolved; only the baseline A-frame closure was tested |
 | loss of phase-A clustering behavior | not triggered for P1 after the friction correction (matter-era slope ~0.9, near the `growth.py` reference ~0.97); it *was* degraded (~0.6) under the original buggy code; P2 instability prevents interpretation |

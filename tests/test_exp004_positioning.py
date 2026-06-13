@@ -27,6 +27,8 @@ class Exp004PositioningTests(unittest.TestCase):
             self.assertTrue((outdir / "exp004_reduction_limits.csv").exists())
             self.assertTrue((outdir / "exp004_R1_background_growth.csv").exists())
             self.assertTrue((outdir / "exp004_R1_p1_perturbations.csv").exists())
+            self.assertFalse((outdir / "exp004_R4_p1_perturbations.csv").exists())
+            self.assertFalse((outdir / "exp004_R5_p1_perturbations.csv").exists())
             self.assertTrue((outdir / "exp004_R6_effective_w_reconstruction.csv").exists())
             self.assertTrue((outdir / "figures" / "exp004_gamma_shape_comparison.png").exists())
             self.assertTrue((outdir / "figures" / "exp004_gamma_shape_comparison.svg").exists())
@@ -41,6 +43,16 @@ class Exp004PositioningTests(unittest.TestCase):
             self.assertEqual(rows["R2"]["classification"], "exact_equivalence")
             self.assertEqual(rows["R3"]["classification"], "generic_IDE_subset_mapping")
             self.assertEqual(rows["R3"]["status"], "analytic_subset_mapping")
+            self.assertEqual(
+                rows["R4"]["perturbation_status"],
+                "skipped_background_viability_failure",
+            )
+            self.assertEqual(rows["R4"]["classification"], "background_viability_failure")
+            self.assertEqual(
+                rows["R5"]["perturbation_status"],
+                "skipped_background_viability_failure",
+            )
+            self.assertEqual(rows["R5"]["classification"], "background_viability_failure")
 
 
 if __name__ == "__main__":

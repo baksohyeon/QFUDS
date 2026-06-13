@@ -11,7 +11,7 @@ depends_on:
   - qfuds_success_criteria
   - result_003_phenomenological_perturbation_closure
 next_gate: use retained P1 as interacting-vacuum phenomenology only; no physical Level 2B without new source admission
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Result 004: Retained P1 Model-Family Positioning and Equivalence Map
@@ -93,17 +93,16 @@ outputs/exp004_R1_p1_perturbations.csv
 outputs/exp004_R2_background_growth.csv
 outputs/exp004_R2_p1_perturbations.csv
 outputs/exp004_R4_background_growth.csv
-outputs/exp004_R4_p1_perturbations.csv
 outputs/exp004_R5_background_growth.csv
-outputs/exp004_R5_p1_perturbations.csv
 ```
 
 Execution note:
 
-The command emitted local matplotlib/fontconfig cache warnings because the
-environment could not write to the default user cache directories. The Exp 004
-runner produced CSV, JSON, PNG, and SVG outputs. The cache warnings did not
-affect the generated diagnostics.
+The runner configures a temporary matplotlib/fontconfig cache before importing
+`pyplot`, so headless execution does not depend on writable user-cache
+directories. `R4` and `R5` fail the positive-`rho_B` background gate; their stale
+perturbation CSVs are removed during regeneration rather than preserved as
+current outputs.
 
 ## Visual Diagnostics
 
@@ -136,8 +135,8 @@ phenomenology.
 | `R1` | retained P1 | `exact_equivalence` | reference branch |
 | `R2` | interacting vacuum with `xi(a)=Gamma(a)` | `exact_equivalence` | all reported background, transfer, growth, and P1 perturbation differences are zero |
 | `R3` | generic time-dependent IDE with `xi(a)=Gamma(a)` | `generic_IDE_subset_mapping` | analytic mapping; not an independent numerical baseline without a distinct IDE closure |
-| `R4` | constant-coupling IDE/interacting vacuum matched by integrated transfer | `parameterization_difference` | transfer-shape RMS error `0.536`, max error `0.845`; not approximately equivalent |
-| `R5` | power-law `Gamma(a)` matched by least-squares transfer shape | `parameterization_difference` | transfer-shape RMS error `0.556`, max error `1.628`; not approximately equivalent |
+| `R4` | constant-coupling IDE/interacting vacuum matched by integrated transfer | `background_viability_failure` | transfer-shape RMS error `0.536`, max error `0.845`; also drives past `rho_B` negative, so P1 perturbations are not integrated |
+| `R5` | power-law `Gamma(a)` matched by least-squares transfer shape | `background_viability_failure` | transfer-shape RMS error `0.556`, max error `1.628`; also drives past `rho_B` negative, so P1 perturbations are not integrated |
 | `R6` | effective non-interacting `w(a)` reconstruction | `background_degenerate` | background expansion can be reconstructed, but no transfer perturbation exists |
 
 ## Quantitative Diagnostics
@@ -147,13 +146,14 @@ phenomenology.
 | `R0` | 0.663 | 1.000 | 0.0119 | 0.0203 | yes |
 | `R1` | 0 | 0 | 0 | 0 | yes |
 | `R2` | 0 | 0 | 0 | 0 | yes |
-| `R4` | 0.536 | 0.845 | 0.00877 | 0.00661 | yes |
-| `R5` | 0.556 | 1.628 | 0.00293 | 0.00129 | yes |
+| `R4` | 0.536 | 0.845 | 0.00877 | not integrated (`rho_B<0`) | not computed |
+| `R5` | 0.556 | 1.628 | 0.00293 | not integrated (`rho_B<0`) | not computed |
 
 The simple constant and power-law baselines can be reasonably close in some
 background and growth diagnostics, but they fail the predeclared
-transfer-shape thresholds. Their remaining difference is therefore
-parameterization-level, not physical.
+transfer-shape thresholds and also fail the positive-`rho_B` background gate
+when integrated back to the experiment range. Their perturbation layer is
+therefore not a valid equivalence comparison.
 
 ## Closure and Frame Mapping
 
@@ -199,8 +199,11 @@ IDE closure is supplied.
 
 The closest approximate alternatives tested here, constant-coupling and
 power-law transfer forms, do not reproduce the retained transfer shape within
-the predeclared thresholds. Their differences are parameterization differences:
-they change the shape basis for `Gamma(a)`, not the physical model family.
+the predeclared thresholds. In the corrected perturbation preflight they also
+drive `rho_B` negative in the backward-integrated background, so their P1
+perturbation comparisons are skipped rather than treated as stable alternatives.
+Their remaining useful role is as failed/simple shape-basis comparisons for
+`Gamma(a)`, not as viable physical model-family competitors.
 
 An effective non-interacting `w(a)` reconstruction can reproduce the background
 expansion by construction. That is a background degeneracy only; it does not

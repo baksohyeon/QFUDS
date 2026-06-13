@@ -8,7 +8,7 @@ evidence_role: control
 depends_on:
   - qfuds_v0_2
 next_gate: gamma law background scan
-last_updated: 2026-06-09
+last_updated: 2026-06-13
 ---
 
 # Experiment 000: Zero-Transfer LCDM Baseline
@@ -49,8 +49,12 @@ H0 = 67.4
 Omega_b0 = 0.0493
 Omega_r0 = 9.2e-5
 Omega_A0 = 0.2649
-Omega_Bfoam0 = 0.6858
+Omega_Bfoam0 = 0.685708
 ```
+
+The phase-B value is chosen so
+`Omega_b0 + Omega_r0 + Omega_A0 + Omega_Bfoam0 = 1` at `a=1`, making
+`H(a=1)=H0` in the normalized background.
 
 ### Outputs
 
