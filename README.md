@@ -116,6 +116,72 @@ the full checkpoint-by-checkpoint record, and
 [What We Actually Learned](docs/00_project/project_identity.md) for the standing
 lessons.
 
+## The Main Thread: What Makes Gamma(a), and Why z≈2?
+
+Before the rough-`tanh` story above, there was an earlier, main thread. It began
+with the black-hole information paradox: *if information really isn't destroyed,
+where does it go?* From there the chain ran, confidently, `Landauer ->
+black-hole information -> white hole -> quantum foam -> dark matter / dark
+energy`. To keep it from staying a daydream, I built a transfer function
+`Gamma(a)` (a valve that sets how much of the clustering, dark-matter-like phase
+converts into the leftover, dark-energy-like phase) and stacked experiments.
+
+How it went:
+
+- **exp_000**: confirm that `Gamma=0` returns to standard LCDM (control).
+- **exp_001**: scan transfer laws; over-active or unconstrained ones die.
+- **exp_001.5**: audit "does this come from a real physical source?" The retained
+  `Gamma` fails physical derivation.
+- **exp_002**: entropy/information as a source. Broad entropy language dies; the
+  information-production shape survives only as provenance.
+- **exp_003**: perturbation closure. P2 dies; only P1 survives, phenomenologically.
+- **exp_004**: model genealogy. The decisive result: my P1 is not a new cosmology
+  but a special case inside existing interacting-vacuum (IV) / interacting-dark-energy
+  (IDE). Not "I built a new theory," but "it landed in a form comparable to known
+  IDE/IV."
+- **exp_005–006**: is my `Gamma` timing just a pretty curve, or a prior that
+  compresses real IDE reconstructions? Answer: not a physical source, not a new
+  model. But the retained `Gamma` peaks near z≈2, and IV/IDE reconstructions
+  (Escamilla 2023; DESI DR2-era work like Li & Zhang 2025) keep showing a feature
+  around z≈1–2. The data is wide and weak, so it is "allowed but not informative."
+
+A digitized compression audit went further: my `Gamma` was not the optimal
+compression family; simpler transition/Gaussian/pulse shapes fit the
+reconstructions better. My implementation lost. Yet the *epoch* it pointed at,
+z≈2, kept surviving.
+
+Why z≈2? That is Cosmic Noon, when star formation, galaxy growth, quasars, and
+black-hole growth all peak. The funny part: the literature also stops here. "There
+is a feature; we do not know why." Standard LCDM sets the dark-matter-to-dark-energy
+interaction to zero, so it never asks the question at all.
+
+In plain terms: I first asked "why does ice cream sell more in summer? heat?
+tourists? school break?" and found the field had already tried those (black-hole
+entropy, CCBH, IDE). So I changed the angle: "maybe it is not any single cause,
+but an index of the whole city's activity." Good angle. Then the next question
+blocked me: **"what do you actually measure that city-wide activity with?"** Power
+use? foot traffic? card spending? There was no number for it. I had the idea but
+no thermometer.
+
+That is exactly where QFUDS stands: not a stage of not knowing the candidate
+cause, but a stage of **not yet having defined a state variable** (a measurable
+quantity for that macroscopic state). This is, literally, a roadmap blocker: no
+non-circular foam-sector state variable exists yet.
+
+I started from the black-hole information paradox ("where does conserved
+information go?"), and the question left at the end had the same shape: *when*
+(z≈2) does the conserved thing flow, and *what measurable quantity* counts it? I
+came back out the door I went in.
+
+The honest bottom line: I have no answer yet. `Gamma(a)` was a first prototype,
+not the whole hypothesis, and that prototype lost. What survives is the core
+intuition that *structure-formation timing and dark-sector interaction timing may
+be related.* The most striking part is that the question I happened to chase is
+one nobody can cleanly answer yet. Status authority remains the
+[Roadmap](docs/05_next_steps/000_roadmap.md); the project is in observer mode.
+This demotion is not a falsification of the broad dark-matter-to-dark-energy
+transition hypothesis, only the retirement of one mechanism meant to explain it.
+
 ## Afterword: A Grand-Sounding Theory That Converged on Two Open Problems
 
 I proposed a grand-sounding theory, and after pushing it all the way through, it
