@@ -17,7 +17,7 @@ depends_on:
   - audit_2026_06_12_effective_phase_fraction_scaffold
   - qfuds_research_report
 next_gate: use as a plain-language handoff only; roadmap remains status authority
-last_updated: 2026-06-12
+last_updated: 2026-06-13
 ---
 
 # QFUDS(Quantum Foam Unified Dark Sector, 양자 거품 통합 암흑 섹터) 연구 흐름 쉬운 설명
@@ -284,7 +284,7 @@ Yale 연구진은 NGC 1052-DF2라는 은하가 암흑물질이 거의 없는 것
 결과를 추가 관측으로 뒷받침했고, 이런 사례가 암흑물질이 보통 물질과 항상
 붙어 있지 않다는 점을 보여준다고 설명했다
 ([Yale News](https://news.yale.edu/2019/03/29/new-studies-confirm-existence-galaxies-almost-no-dark-matter)).
-Nature의 2022년 논문은 DF2와 DF4 같은 암흑물질 부족 은하들이 약 8십억 년
+Nature의 2022년 논문은 DF2와 DF4 같은 암흑물질 부족 은하들이 약 80억 년
 전의 bullet-dwarf collision(왜소은하끼리의 고속 충돌) 이후 형성됐을 수
 있다는 시나리오를 제안했다
 ([Nature](https://www.nature.com/articles/s41586-022-04665-6)).

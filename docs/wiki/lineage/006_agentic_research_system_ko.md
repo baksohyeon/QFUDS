@@ -154,7 +154,7 @@ scripts/ · tests/ · outputs/ · qfuds/   검증·회귀 테스트·산출물·
 
 ## 4. 연구 파이프라인: 논문에서 판별까지
 
-사용자가 손으로 했다면 가장 지쳤을 부분, 곧 "논문에서 숫자를 꺼내 우리 곡선과
+연구자가 손으로 했다면 가장 지쳤을 부분, 곧 "논문에서 숫자를 꺼내 우리 곡선과
 맞대는" 과정이 워크플로로 자동화돼 있다. 흐름은 이렇다.
 
 ```text
@@ -197,7 +197,7 @@ Markdown으로 변환하고, 그림은 Poppler·ImageMagick으로 추출한다. 
 거버넌스 안에서 한 세션은 다음 패턴으로 돈다.
 
 - **Append-only(덮어쓰지 않고 아래로만 쌓기) + 원자적 커밋.** 각 체크포인트는 독립 스크립트, 그림, 수치(csv),
-  문서 섹션을 커밋 하나로 묶는다(1 CP = 1 commit). 이전 결론을 덮지 않고 아래로 쌓는다.
+  문서 섹션을 커밋 하나로 묶는다(1 CP = 1 commit).
 - **병렬 fan-out(한 작업을 여러 갈래로 동시에 펼침) + 직렬 통합.** 서로 독립인 계산(ISW, kill-test, 점성, 천장 메커니즘
   등)은 다수 하위 에이전트로 *병렬 spawn*되고, 공유 자원(문서 append, CP 번호, git)은
   충돌과 번호 경합을 피하려 메인 에이전트가 *직렬*로 통합한다. 파일을 동시에 고치는
@@ -260,7 +260,7 @@ frontmatter last_updated 자동 갱신
 회귀 테스트를 문서 전용 커밋에서 건너뛰어 속도를 지키는 스코프 결정은
 [회고 006](../postmortem/006-20260611-dorito-precommit-regression-test-scope.md)에
 근거가 남아 있다. 같은 게이트를 `Makefile`(`make preflight`)과 `scripts/`로도 돌릴 수
-있다. rough tanh lineage의 전 24개 체크포인트가 이 게이트를 통과했고, 그래서 "미성숙
+있다. rough tanh lineage의 24개 체크포인트가 전부 이 게이트를 통과했고, 그래서 "미성숙
 완료 주장"이 디렉터리·인덱스 차원에서 자동 차단됐다.
 
 게이트는 커밋 시점에서 끝나지 않는다. 에이전트가 글을 *쓰는 순간*에도 Claude Code 훅이
@@ -288,8 +288,8 @@ frontmatter last_updated 자동 갱신
   생존 판정, (4) 코드와 출력이 있는 재현 실험 중 *적어도 하나*를 내놓지 못하면 본 모델에
   들이지 않는다.
 - **물리 가지 admission rule(새 가지를 열기 위한 입장 조건).** 새 물리-QFUDS 가지를 열려면 `X`, `Q^nu`, 'phase B가 왜
-  w≈-1인가', 'δQ 경로', 'known-model 구별'의 다섯 항목을 최소한으로 공급해야 한다. 하나
-  라도 비면 Level 2B는 blocked로 남는다.
+  w≈-1인가', 'δQ 경로', 'known-model 구별'의 다섯 항목을 최소한 갖춰야 한다. 하나라도
+  비면 Level 2B는 blocked로 남는다.
 - **인식론적 경계.** representative ≠ likelihood: observer mode에서는 실제 데이터 벡터나
   공분산을 적재하지 않고 대표값만 인용한다. rough proxy: 진짜 검증은 Boltzmann 코드이며
   지금은 blocked임을 매 결과에 명시한다. 적합 적중을 유도로, 매개화를 유도로 승격하지
