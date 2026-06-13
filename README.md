@@ -44,7 +44,41 @@ dark matter + dark energy
 
 Black holes and white-hole-like remnants are secondary. They may be read in QFUDS language as information-compression nodes or topological defects, but this is speculative interpretation rather than established black-hole or galaxy-formation physics. Under the current standard they are far from the core and are not the main topic.
 
+## How To Read This Repository: Two Phases, At Two Different Times
+
+This project has two different layers, and it matters which one you are reading.
+They were produced at different stages of the work and do not carry the same
+evidential weight.
+
+**Phase 1: the rigorous thread (the real experiments).** This is the part that was
+put through explicit kill-gates: define a rule, test it, and reject the versions
+that fail. Claims in this layer are backed by numbered experiments in
+[docs/03_experiments/](docs/03_experiments/). The plain-language account ends at
+[lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md), and it
+corresponds to the `Gamma(a)` story below under
+[The Main Thread](#the-main-thread-what-makes-gammaa-and-why-z2). If you only rely
+on one part of this repository, rely on this layer. **The empirical record stops
+at 003.**
+
+**Phase 2: the rough push (exploratory sketches).** After the rigorous thread hit
+its wall, I relaxed the standard and pushed one deliberately rough version as far
+as it would go: a hand-drawn `tanh` transition checked across 24 checkpoints.
+These are sketches, not validated results. The raw numerical work is collected in
+[lineage/assets/](docs/wiki/lineage/assets/), and it is written up
+phenomenologically in
+[lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) and
+[lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md).
+The [Where This Stands](#where-this-stands-what-pushing-the-idea-to-the-wall-found)
+section just below is the honest report of how far that rough push reached. Read
+it as an organized exploration by a non-specialist, not as proof.
+
+In one line: **Phase 1 is what survived real tests (up to 003); Phase 2 is what
+happened when I pushed a failing idea to its visible limits (004 to 005).**
+
 ## Where This Stands: What Pushing the Idea to the Wall Found
+
+*Phase 2: the rough push. Phenomenological sketches (lineage 004 to 005), not
+gated experiments.*
 
 The conceptual program above is the starting point, not the result. The most
 complete attempt so far took one concrete version: a rough `tanh`
@@ -101,11 +135,10 @@ initial-condition tuning, the one real partial win, and the observation that thr
 existing literature (chameleon screening, LTB voids, Buchert averaging), which
 corroborates that the ceiling is real rather than an artifact of one approach.
 
-A second contribution is methodological. The whole exploration ran on a
-self-correcting AI research harness (a governance SSOT plus parallel,
-adversarial, deterministic gates) built so that a false breakthrough cannot
-quietly survive. That is what let a speculative hypothesis be pushed to the wall
-while still landing on an honest conclusion.
+The exploration also used an agent-based operating procedure: workflow SSOT,
+parallel work, adversarial review, and deterministic gates. The purpose was to
+reduce the chance that an unsupported positive claim would pass unchecked while
+the speculative branch was pushed to its recorded limit.
 
 Every number above comes from a rough proxy; rigorous validation requires a
 Boltzmann code (a full cosmology solver such as CLASS/hi_class) and is currently
@@ -117,6 +150,11 @@ the full checkpoint-by-checkpoint record, and
 lessons.
 
 ## The Main Thread: What Makes Gamma(a), and Why z≈2?
+
+*Phase 1: the rigorous thread. Every step below is a gated experiment in
+[docs/03_experiments/](docs/03_experiments/), summarized in
+[lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md). This is
+the empirically grounded part of the project, and it came first.*
 
 Before the rough-`tanh` story above, there was an earlier, main thread. It began
 with the black-hole information paradox: *if information really isn't destroyed,
@@ -269,34 +307,109 @@ One thing I want to state plainly: this is not a record of proving QFUDS. It is
 closer to a record of a non-specialist brute-forcing the path that converges onto
 modern cosmology's open problems.
 
-And this was not done by chatting with a chatbot. I dug into the repository and
-built a research-agent system, then pushed the whole thing through in 5 days. It
-searched the literature, pulled PDFs and arXiv source, extracted figure assets,
-converted them to Markdown, digitized plots (recovered the numbers from the
-figures), produced CSVs, compared $\Gamma(a)$ against the actual Chen entropy curve,
-automated the known-model distinction (telling it apart from already-known
-models), and cached lookups to save tokens. Agents, workflows, and validation gates, all built
-to a serious scientific standard. It amounted to assembling a small research team,
-with the final reviewer, too, an agent.
+The starting point was a set of questions I already cared about: information,
+thermodynamics, and black holes. The link between information erasure and heat
+led naturally to `it from bit`, the black-hole information problem, and then the
+dark sector. After several GPT conversations and thought experiments, I wanted
+to know where the idea actually held together and where it failed. As a
+developer, I also had a practical hunch: with AI, literature search, asset
+management, numerical checks, and failure records could be tied into one
+research pipeline.
 
-In the end the biggest takeaway was simply: *this is one way to learn, too.* So
-here are five things I'm allowing myself to be proud of:
+So this was not just a chatbot conversation. Inside this repository I spent 5
+days building and running an agent-based operating procedure: paper caches,
+asset-status tables, workflow definitions, experiment/result records, and
+validation scripts. The system kept separating what I knew, what I did not know,
+and what I did not yet know I was missing. It did not prove the physics; it
+provided a way to record the search and filter unsupported conclusions.
 
-1. I brute-force-reproduced the path that converges onto modern cosmology's
-   unsolved problems.
-2. It was not a coincidence; it was the road the field had actually walked. The
-   values I pulled by hand landed in the same place, the line of reasoning was
-   similar, and I ended up retracing the lineage from the 1990s to today.
-3. That a few days of curiosity landed on scales the field has studied for decades
-   is, personally, a real honor.
-4. That an AI harness alone could carry a non-specialist this far is, frankly,
-   startling.
-5. And doing all of it through an agent system I built myself, in 5 days, is what
-   I'm most proud of.
+I used broad searches to understand the field, but I only used primary sources
+for reference data and numerical comparison. YouTube, Wikipedia, and even
+English Wikipedia were not evidence sources. The pipeline searched papers,
+pulled PDFs and arXiv source, extracted figures, converted documents, digitized
+plots into CSVs, and compared my transfer function $\Gamma(a)$ against recovered
+`S_BH(a)` and `entropy_density(a)` values from Chen Figure 5. It also automated
+known-model distinction, reduced duplicate fetches through caching, and attached
+validation gates to each status claim.
+
+The operational summary is:
+
+1. The brute-force exploration reached the same unsolved-problem region that
+   appears in the cosmology literature.
+2. Several hand-built values and intuitions overlapped with existing literature
+   paths from the 1990s to today.
+3. The result remains a rough proxy record, not a validated physical model.
+4. The agent-based workflow helped keep literature, assets, status, validation,
+   and failure records separate.
+5. The process is kept as a methodology record alongside the physical negative
+   results.
 
 The relevant DESI/Euclid data (from next-generation surveys that map large-scale
 structure in detail) won't be released until this October. Until then, there is
 nothing more to do but wait.
+
+## How This Was Built: Agent-Based Research Operations
+
+The physics above is only part of the story. The other part is the system used to
+produce and check the work. The repository used a consistent feedback loop. I did not
+assume the AI was right; I assumed it could be wrong, could overstate results,
+and could confuse "not in cache" with "does not exist." So the repository split
+literature, assets, status, validation, and retrospectives into separate layers
+and made each pass check the others. The workflow record is in
+[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md); the incident
+records are in the
+[postmortems folder](docs/wiki/postmortem/) (11 of them).
+
+The setup is divided into explicit operating rules:
+
+- **It reads real papers, not summaries.** PageIndex and MarkItDown were attached
+  through MCP, the standard way to connect external tools to an AI agent. The
+  important part was not a generic `PDF -> Markdown` conversion, but parser
+  routing. Paper PDFs and arXiv source went through PageIndex for structure,
+  pages, and body text; data releases, manifests, tables, and code-like records
+  went through MarkItDown. Figures were extracted separately. Chen Figure 5 was
+  digitized by separating the colored curves, calibrating the axes, and
+  recovering a 432-row CSV. This provided a numeric comparison between my
+  `Gamma(a)` curve and recovered `S_BH(a)` / `entropy_density(a)` values, not
+  just a visual comparison. This remained a source-history candidate, not QFUDS
+  evidence. The parsed-and-checked results live in
+  [docs/wiki/research/](docs/wiki/research/): about 60 literature notes and a
+  dozen fully digitized papers (see the
+  [Source-X investigation](docs/wiki/research/investigations/source_x/)), each
+  kept with its source, its figures, and its recovered numbers.
+- **It knows the difference between "I have the PDF" and "I can actually use this
+  as data."** Every source sits on an 11-rung ladder, from "never searched" to
+  "downloaded but never opened" to "numbers digitized and ready to use." This
+  blocks a common research failure mode: treating a downloaded file as if it had
+  actually been checked. The
+  [literature index](docs/wiki/research/literature/index.csv) records fields like
+  `product_status`, `digitization_status`, `used_by`, and `last_checked`, so "not
+  in cache," "not found in the world," and "paper exists but no usable data
+  product exists" do not collapse into the same state. The cache saves tokens and
+  fetches, and it avoids downloading the same paper twice.
+- **Validation is applied in two layers.** At the prompt layer, I repeatedly
+  forced instructions such as "run the tests," "do not change the roadmap SSOT,"
+  and "do not treat timing resemblance as evidence." At the commit layer, git
+  hooks run `validate_docs.py`, `research_consistency.py`, and
+  `preflight_exp004.py`. Here "evidence" does not mean that an LLM found the
+  claim plausible. It means file-backed conditions: frontmatter status, required
+  sections, links, output files, result documents, and consistency with the
+  roadmap SSOT. All 24 checkpoints had to clear these gates before they were
+  recorded.
+- **Positive claims get a separate review pass.** When a sentence says "reduced,"
+  "derived," or "passed," the same Codex/AI workflow runs an adversarial review
+  pass looking for counterexamples and overclaims. Then the prompt asks for tests
+  again, and the commit hook runs the mechanical checks. This process flagged
+  three overclaims mid-flight (recorded in
+  [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)).
+- **More than one AI checked the work.** I ran Codex as the lead, with Claude Code
+  and Gemini as backups and cross-checkers, so one model's omissions could be checked
+  by another.
+
+The point is methodological: the repository records how a speculative branch was
+pushed while unsupported conclusions were checked against documented gates.
+Failures are written down in postmortems, and positive claims must pass the same
+documented gates as the rest of the repository.
 
 ## Why I Came Up With The Hypothesis
 
@@ -707,21 +820,31 @@ Maintained research documents:
 - [015_exp_001_5_phase_transfer_physicality.md](docs/03_experiments/015_exp_001_5_phase_transfer_physicality.md): physicality gate
 - [020_exp_002_entropy_information_gate.md](docs/03_experiments/020_exp_002_entropy_information_gate.md): entropy/information-source gate
 - [030_exp_003_phenomenological_perturbation_closure.md](docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md): perturbation-closure audit
+- [030_exp_004_p1_model_family_positioning.md](docs/03_experiments/030_exp_004_p1_model_family_positioning.md): retained P1 model-family positioning audit
+- [030_exp_005_timing_prior_usefulness.md](docs/03_experiments/030_exp_005_timing_prior_usefulness.md): timing-prior usefulness audit
+- [030_exp_006_literature_timing_support_audit.md](docs/03_experiments/030_exp_006_literature_timing_support_audit.md): literature timing-support audit
 - [000_result_000_lcdm_baseline.md](docs/04_results/000_result_000_lcdm_baseline.md): zero-transfer baseline result
 - [010_result_001_gamma_scan.md](docs/04_results/010_result_001_gamma_scan.md): result interpretation and next target
 - [015_result_001_5_phase_transfer_physicality.md](docs/04_results/015_result_001_5_phase_transfer_physicality.md): physicality result
 - [020_result_002_entropy_information_gate.md](docs/04_results/020_result_002_entropy_information_gate.md): entropy/information-source provenance result
 - [030_result_003_phenomenological_perturbation_closure.md](docs/04_results/030_result_003_phenomenological_perturbation_closure.md): perturbation-closure result
+- [030_result_004_p1_model_family_positioning.md](docs/04_results/030_result_004_p1_model_family_positioning.md): retained P1 is an interacting-vacuum/time-dependent IDE instance, not a new physical branch
+- [030_result_005_timing_prior_usefulness.md](docs/04_results/030_result_005_timing_prior_usefulness.md): retained timing is useful only as a prior-compression target
+- [030_result_006_literature_timing_support_audit.md](docs/04_results/030_result_006_literature_timing_support_audit.md): literature timing overlap is allowed but not a source derivation
 - [000_experiment_summary.md](docs/04_results/000_experiment_summary.md): lightweight experiment conclusions and postmortem coverage
 - [000_roadmap.md](docs/05_next_steps/000_roadmap.md): validation stages, status, and blockers
 - [010_perturbation_gate.md](docs/05_next_steps/010_perturbation_gate.md): perturbation gate
 - [015_level_1_5_resolution_gate.md](docs/05_next_steps/015_level_1_5_resolution_gate.md): evidence criteria for Level 1.5 pass, fail, or demotion
+- [030_exp003_record_consistency_gate.md](docs/05_next_steps/030_exp003_record_consistency_gate.md): record-consistency gate for the Level 2A perturbation closure
 
 History/source notes:
 
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the 24-checkpoint rough-`tanh` numerical exploration log (Korean)
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
-- [006_agentic_research_system_ko.md](docs/wiki/lineage/006_agentic_research_system_ko.md): anatomy of the self-correcting AI research harness behind the lineage: SSOT authority chain, governance workflows, asset cache state ladder, PageIndex/MarkItDown MCP, adversarial review, and deterministic git-hook gates (Korean)
+- [006_agentic_research_system_ko.md](docs/wiki/lineage/006_agentic_research_system_ko.md): agent-based research operations record: document/status boundaries, workflow routing, asset cache states, PageIndex/MarkItDown MCP, adversarial review passes, and deterministic git-hook gates (Korean)
+- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-050, Chen Figure 5 digitization, known-model distinction, observer-mode routing, and foam-sector feasibility closeout
+- [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
+- [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open
 - [concept_origin.md](docs/01_origin/concept_origin.md): how the raw information-flow idea became the QFUDS question
 - [qfuds_ko.md](docs/00_project/qfuds_ko.md): Korean version of this document
 - [research_program.md](docs/00_project/research_program.md): abstract, validation roadmap, and kill criteria

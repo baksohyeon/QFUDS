@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-12
+last_updated: 2026-06-13
 ---
 
 # Wiki Content Index
@@ -55,8 +55,11 @@ and
   - append-only checkpoint log (CP1~CP24) of the rough tanh phenomenology
     sketch; provenance only, observer mode.
 - [QFUDS rough tanh 논문 보고서](lineage/005_rough_tanh_thesis_report_ko.md)
-  - thesis-style synthesis of the CP1~CP24 sketch and the AI agent harness
+  - thesis-style synthesis of the CP1~CP24 sketch and the agent-based workflow
     methodology; provenance only, 050 ceiling intact.
+- [QFUDS 에이전트 기반 연구 운영 절차](lineage/006_agentic_research_system_ko.md)
+  - workflow, document/status boundary, parser routing, cache state,
+    adversarial review, and git-hook gate record.
 
 ## Postmortems
 
@@ -93,6 +96,9 @@ and
   reference records.
 - [Research Investigations](research/investigations/README.md) - dated
   research-process records.
+- [Source-X Research Investigations](research/investigations/source_x/README.md)
+  - Source-X plans 041-050, Chen digitization, known-model distinction, and
+    observer-mode routing boundaries.
 - [Research Assets](research/assets/README.md) - cached external source and
   derived inspection assets.
 - [IV/IDE Timing Korean Synthesis](research/investigations/exp006_timing/008_iv_ide_timing_synthesis_ko.md)

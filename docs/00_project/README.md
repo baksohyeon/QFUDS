@@ -10,7 +10,7 @@ depends_on:
   - decision_log
   - verification_guide
 next_gate: keep Level 2B blocked; no CMB or matter-power claims
-last_updated: 2026-06-10
+last_updated: 2026-06-13
 ---
 
 # 00 Project
@@ -28,4 +28,4 @@ Project-level documents.
 - [frontmatter_convention.md](frontmatter_convention.md): canonical metadata schema and validator contract.
 - [experiment_record_convention.md](experiment_record_convention.md): required experiment/result sections, summary policy, and postmortem policy.
 - [traceability_matrix.md](traceability_matrix.md): bidirectional claim/evidence traceability index.
-- [qfuds_ko.md](qfuds_ko.md): Korean overview.
+- [qfuds_ko.md](qfuds_ko.md): Korean mirror of the root README with the same status boundaries and document map.
