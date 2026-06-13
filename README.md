@@ -64,10 +64,11 @@ at 003.**
 its wall, I relaxed the standard and pushed one deliberately rough version as far
 as it would go: a hand-drawn `tanh` transition checked across 24 checkpoints.
 These are sketches, not validated results. The raw numerical work is collected in
-[lineage/assets/](docs/wiki/lineage/assets/), and it is written up
-phenomenologically in
-[lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) and
-[lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md).
+[lineage/assets/](docs/wiki/lineage/assets/), and the representative Season 2
+experiment record is
+[lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md).
+[lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) is a
+thesis-style compression of the same rough push, not the best first read.
 The [Where This Stands](#where-this-stands-what-pushing-the-idea-to-the-wall-found)
 section just below is the honest report of how far that rough push reached. Read
 it as an organized exploration by a non-specialist, not as proof.
@@ -77,19 +78,21 @@ happened when I pushed a failing idea to its visible limits (004 to 005).**
 
 ## Where This Stands: What Pushing the Idea to the Wall Found
 
-*Phase 2: the rough push. Phenomenological sketches (lineage 004 to 005), not
-gated experiments.*
+*Phase 2: the rough push. Phenomenological sketches, not gated experiments.*
 
 The conceptual program above is the starting point, not the result. The most
 complete attempt so far took one concrete version: a rough `tanh`
 equation-of-state transition for a unified dark sector (the equation of state $w$
 slides smoothly along an S-shaped curve from one value to another). I pushed it
 all the way to its limits across 24 atomic checkpoints. That record is the
-[rough-`tanh` lineage report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
-(Korean). Its contribution is a systematic *map* of how far the idea reaches and
-where it is blocked, not a discovery of new cosmology. The project is currently
-in **observer mode** (no longer pushing new hypotheses, just waiting on external
-observations); the single source of truth for status remains the
+[rough-`tanh` numerical sketch](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md)
+(Korean). Its contribution is a checkpoint-by-checkpoint record of how far the
+idea reaches and where it is blocked, not a discovery of new cosmology. The
+more formal
+[thesis-style report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
+compresses the same material, but 004 is the practical entry point. The project
+is currently in **observer mode** (no longer pushing new hypotheses, just waiting
+on external observations); the single source of truth for status remains the
 [Roadmap](docs/05_next_steps/000_roadmap.md).
 
 ![It works at the effective level: the V2 variant's background expansion and distance modulus track LCDM to within the Type Ia supernova scatter floor (±0.05 mag), while the fully unified V1 variant breaks at high redshift.](docs/wiki/lineage/assets/004_rough_tanh/fig_background.png)
@@ -144,8 +147,10 @@ Every number above comes from a rough proxy; rigorous validation requires a
 Boltzmann code (a full cosmology solver such as CLASS/hi_class) and is currently
 blocked. Nothing here is a
 confirmed physical claim. See the
+[rough-`tanh` numerical sketch](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md)
+for the full checkpoint-by-checkpoint record, the
 [thesis-style report](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) for
-the full checkpoint-by-checkpoint record, and
+the compressed formal synthesis, and
 [What We Actually Learned](docs/00_project/project_identity.md) for the standing
 lessons.
 
@@ -401,6 +406,8 @@ The setup is divided into explicit operating rules:
   pass looking for counterexamples and overclaims. Then the prompt asks for tests
   again, and the commit hook runs the mechanical checks. This process flagged
   three overclaims mid-flight (recorded in
+  [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) and
+  summarized formally in
   [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)).
 - **More than one AI checked the work.** I ran Codex as the lead, with Claude Code
   and Gemini as backups and cross-checkers, so one model's omissions could be checked
@@ -839,8 +846,8 @@ Maintained research documents:
 
 History/source notes:
 
-- [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the 24-checkpoint rough-`tanh` numerical exploration log (Korean)
-- [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
+- [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the representative Season 2 rough-`tanh` experiment record and 24-checkpoint numerical exploration log (Korean)
+- [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
 - [006_agentic_research_system_ko.md](docs/wiki/lineage/006_agentic_research_system_ko.md): agent-based research operations record: document/status boundaries, workflow routing, asset cache states, PageIndex/MarkItDown MCP, adversarial review passes, and deterministic git-hook gates (Korean)
 - [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-050, Chen Figure 5 digitization, known-model distinction, observer-mode routing, and foam-sector feasibility closeout
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate

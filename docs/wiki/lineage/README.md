@@ -33,8 +33,8 @@ Do not use this folder for:
 1. [QFUDS Idea Genealogy](001_qfuds_genealogy.md)
 2. [QFUDS Branch Dependency Graph](002_branch_graph.md)
 3. [QFUDS 연구 흐름 쉬운 설명](003_research_flow_plain_language_ko.md)
-4. [QFUDS rough tanh 수치 스케치](004_rough_tanh_numerical_sketch_ko.md)
-5. [QFUDS rough tanh 논문 보고서](005_rough_tanh_thesis_report_ko.md)
+4. [QFUDS rough tanh 수치 스케치](004_rough_tanh_numerical_sketch_ko.md) - Season 2 대표 탐색 기록
+5. [QFUDS rough tanh 논문 보고서](005_rough_tanh_thesis_report_ko.md) - 선택적으로 읽는 논문형 압축본
 6. [QFUDS 에이전트 기반 연구 운영 절차 기록](006_agentic_research_system_ko.md)
 
 The 006 document records the agent-based workflow that produced and checked
