@@ -30,6 +30,18 @@ open Level 2B.
 - Source owner shown in HTML metadata: NASA GSFC LAMBDA.
 - Content attribution in pages: NASA / LAMBDA Archive Team.
 
+## Workflow Application
+
+- Workflow:
+  [Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
+- Source type: stable reference website and templated/page-family web resource.
+- Asset state: `asset_cached`.
+- Derived product state: `manual_structured_extract` for the data-reference
+  matrix only.
+- Extraction potential: `direct_table`, `figure_digitization_possible`.
+- Cache role: baseline constraint/source-coverage reference only, not QFUDS
+  evidence.
+
 ## Cached Page Family
 
 The crawl followed the tertiary navigation menu exposed by
@@ -70,6 +82,20 @@ All 90 linked figure/vector URLs discovered in the cached page family were
 downloaded. The source does not expose an obvious machine-readable CSV of the
 plotted numerical parameter histories. The plots are available as PNG/PDF/SVG
 and, for several parameter plots, EPS.
+
+## Coverage Verification
+
+- 2026-06-17: Live NASA LAMBDA landing, parameter, and data-reference pages were
+  re-opened and compared against the local cache scope.
+- Local `data_ref.html` and `data_reference_matrix.csv` include the 2025
+  reference rows visible in the live source, including `CLASSxPlanck 2025`,
+  `ACT+Planck++ 2025`, `GravLens_Time_Delay 2025`, `Planck+ACT_DR6 2025`, and
+  `SPT-3G_D1 2025`.
+- Local inventory counts after verification: 20 cached HTML page stems, 106
+  page-level link records, 90 unique downloaded figure/vector assets, and 57
+  source-derived data-reference rows plus CSV header.
+- Removed empty local malformed directories from an earlier URL/path handling
+  artifact; no cached files were removed.
 
 ## Recovered Quantities
 

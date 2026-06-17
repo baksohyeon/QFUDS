@@ -64,6 +64,18 @@ LAMBDA graphics image paths. This produced 90 local figure/vector files.
 The `data_ref.html` table was parsed into a source-derived CSV. No plot-point
 digitization was performed.
 
+## Follow-up Verification
+
+On 2026-06-17, the live NASA LAMBDA landing, parameter, and data-reference pages
+were re-opened and compared against the local cache record. The local cache
+includes the 2025 rows visible in the live `data_ref.html` source, and the local
+inventory still resolves to 20 HTML page stems, 106 page-level link records, 90
+unique downloaded figure/vector assets, and 57 data-reference rows plus header.
+
+Empty malformed local directories from an earlier URL/path handling artifact
+were removed. No cached source HTML, figure/vector asset, data-reference matrix,
+link inventory, or download queue file was removed.
+
 ## Recovered Quantities
 
 The extracted data-reference matrix records which literature/data source labels

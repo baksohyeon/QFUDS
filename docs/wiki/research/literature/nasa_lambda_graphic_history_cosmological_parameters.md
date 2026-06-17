@@ -28,6 +28,18 @@ last_updated: 2026-06-17
 - Cache:
   [NASA LAMBDA Graphic History Assets](../assets/nasa_lambda_graphic_history/README.md).
 
+## Workflow Application
+
+- Workflow:
+  [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+- Source type: stable NASA LAMBDA reference website and page-family cache.
+- Asset state: `asset_cached`.
+- Derived product state: `manual_structured_extract` for the data-reference
+  matrix only.
+- Extraction potential: `direct_table`, `figure_digitization_possible`.
+- Evidence role: baseline LambdaCDM/observational-parameter source coverage;
+  not QFUDS support.
+
 ## Key Equations
 
 The page family is primarily an explanatory and historical reference. The
@@ -115,3 +127,6 @@ candidate `X`, `Q^nu`, `delta Q`, or known-model distinction.
 
 - 2026-06-17: Cached 20 HTML pages, downloaded 90 linked figure/vector assets,
   and extracted the 57-row data-reference matrix.
+- 2026-06-17: Re-opened live NASA LAMBDA landing, parameter, and
+  data-reference pages; local cache includes the 2025 data-reference rows and
+  remains `asset_cached`, with plotted numerical values still not digitized.
