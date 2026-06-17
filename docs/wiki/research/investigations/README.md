@@ -70,6 +70,7 @@ product was not found in the checked sources on the recorded date.
 | ---: | --- | --- |
 | index | [Baseline Reference Investigations](baseline_reference/README.md) | chain index |
 | 001 | [2026-06-17 NASA LAMBDA Graphic History Cache Closeout](baseline_reference/conclusions/001_nasa_lambda_graphic_history_cache_closeout.md) | cache closeout |
+| 002 | [2026-06-17 Effective Foam Assumption Ledger Preflight Plan](baseline_reference/plans/002_effective_foam_assumption_ledger_preflight_plan.md) | preflight plan |
 
 ## Exp006 Timing Chain
 
