@@ -16,8 +16,27 @@ last_updated: 2026-06-17
 This folder stores closeouts for baseline-reference asset caches and
 status-neutral baseline-reference investigation results.
 
+These records use the
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)
+when they make asset, cache, table, or source-product claims. Current workflow
+states include `asset_cached`, `manual_structured_extract`,
+`asset_extracted_not_digitized`, and `direct_table`.
+
+They are not experiment results, QFUDS evidence, roadmap updates, or Level 2B
+admission records.
+
 ## Records
 
-- [NASA LAMBDA Graphic History Cache Closeout](001_nasa_lambda_graphic_history_cache_closeout.md)
-- [Effective Foam Assumption Ledger Result](002_effective_foam_assumption_ledger_result.md)
-- [NASA + BAO Baseline Constraint Map](003_nasa_bao_baseline_constraint_map.md)
+- [NASA LAMBDA Graphic History Cache Closeout](001_nasa_lambda_graphic_history_cache_closeout.md):
+  cache and source-provenance closeout only.
+- [Effective Foam Assumption Ledger Result](002_effective_foam_assumption_ledger_result.md):
+  non-circularity audit for `xi`, equation-side placement, and fitted-vs-independent
+  assumptions.
+- [NASA + BAO Baseline Constraint Map](003_nasa_bao_baseline_constraint_map.md):
+  observational kill-map only.
+
+## Stop Rule
+
+Stop if NASA/LAMBDA, DESI/eBOSS, BAO, LSS, or retained timing targets are used
+first to choose `xi`, transition width, transition redshift, or amplitude and
+then those choices are described as a foam-sector source.
