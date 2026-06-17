@@ -73,6 +73,7 @@ product was not found in the checked sources on the recorded date.
 | 002 | [2026-06-17 Effective Foam Assumption Ledger Preflight Plan](baseline_reference/plans/002_effective_foam_assumption_ledger_preflight_plan.md) | preflight plan |
 | 002 | [2026-06-17 Effective Foam Assumption Ledger Result](baseline_reference/conclusions/002_effective_foam_assumption_ledger_result.md) | non-circularity audit |
 | 003 | [2026-06-17 NASA + BAO Baseline Constraint Map](baseline_reference/conclusions/003_nasa_bao_baseline_constraint_map.md) | observational kill-map |
+| 004 | [2026-06-17 Foam State Variable and Placement Selection Matrix](baseline_reference/conclusions/004_foam_state_variable_placement_selection_matrix.md) | state-variable placement audit |
 
 ## Exp006 Timing Chain
 

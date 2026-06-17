@@ -34,9 +34,14 @@ admission records.
   assumptions.
 - [NASA + BAO Baseline Constraint Map](003_nasa_bao_baseline_constraint_map.md):
   observational kill-map only.
+- [Foam State Variable and Placement Selection Matrix](004_foam_state_variable_placement_selection_matrix.md):
+  candidate-state-variable and equation-side placement rejection matrix.
 
 ## Stop Rule
 
 Stop if NASA/LAMBDA, DESI/eBOSS, BAO, LSS, or retained timing targets are used
 first to choose `xi`, transition width, transition redshift, or amplitude and
 then those choices are described as a foam-sector source.
+
+Before using the NASA + BAO map for any model-facing interpretation, read the
+effective foam ledger and the state-variable/placement matrix first.
