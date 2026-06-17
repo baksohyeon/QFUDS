@@ -71,7 +71,9 @@ Use [index.csv](index.csv) to find individual literature records.
 
 ## Coverage Expansion Records
 
-- [NASA LAMBDA Graphic History Cosmological Parameters](nasa_lambda_graphic_history_cosmological_parameters.md)
+- [NASA LAMBDA Graphic History Cosmological Parameters](nasa_lambda_graphic_history_cosmological_parameters.md) -
+  reference-only baseline-parameter coverage; routed through the
+  [baseline reference chain](../investigations/baseline_reference/README.md).
 - [Li 2025 DESI DR2 Sign-Reversal IDE](li_2025_desi_dr2_sign_reversal_ide.md)
 - [Silva 2025 DESI DR2 IDE and S-IDE](silva_2025_desi_dr2_ide_s_ide.md)
 - [You 2025 DESI DR2 Coupled Dark Sector](you_2025_desi_dr2_coupled_dark_sector.md)

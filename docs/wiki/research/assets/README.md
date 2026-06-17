@@ -47,4 +47,6 @@ Current product-family caches include:
 
 - [NASA LAMBDA Graphic History](nasa_lambda_graphic_history/README.md) -
   cached 20-page NASA LAMBDA Graphic History web family, linked figure/vector
-  products, and the source-derived data-reference matrix.
+  products, and the source-derived data-reference matrix. Interpretation and
+  use restrictions live in the
+  [baseline reference chain](../investigations/baseline_reference/README.md).

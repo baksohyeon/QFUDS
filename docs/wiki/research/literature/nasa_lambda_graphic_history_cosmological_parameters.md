@@ -27,6 +27,10 @@ last_updated: 2026-06-17
 - Source owner shown in HTML metadata: NASA GSFC LAMBDA.
 - Cache:
   [NASA LAMBDA Graphic History Assets](../assets/nasa_lambda_graphic_history/README.md).
+- Baseline-reference closeout:
+  [NASA LAMBDA Graphic History Cache Closeout](../investigations/baseline_reference/conclusions/001_nasa_lambda_graphic_history_cache_closeout.md).
+- Downstream kill-map:
+  [NASA + BAO Baseline Constraint Map](../investigations/baseline_reference/conclusions/003_nasa_bao_baseline_constraint_map.md).
 
 ## Workflow Application
 

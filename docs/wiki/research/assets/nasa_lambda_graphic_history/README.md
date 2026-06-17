@@ -70,6 +70,14 @@ Cached HTML pages:
 - [Data reference matrix](digitization/data_reference_matrix.csv) - source
   extraction of the LAMBDA `data_ref.html` table.
 
+## Related Investigation Records
+
+- [NASA LAMBDA Graphic History Cache Closeout](../../investigations/baseline_reference/conclusions/001_nasa_lambda_graphic_history_cache_closeout.md)
+- [NASA + BAO Baseline Constraint Map](../../investigations/baseline_reference/conclusions/003_nasa_bao_baseline_constraint_map.md)
+
+These investigation records define the allowed use of this cache as baseline
+source provenance and observational kill-map context only.
+
 ## Current Asset State
 
 - Asset state: `asset_cached`.
