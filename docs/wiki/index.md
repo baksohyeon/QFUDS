@@ -94,6 +94,8 @@ and
   - formula, lineage asset, and documentation consistency audit retrospective.
 - [Agent research workflow guard retrospective](postmortem/013-20260617-dorito-agent-research-workflow-guard.md)
   - workflow miss retrospective and commit-gate enforcement record.
+- [Parser tool link guard false-positive retrospective](postmortem/014-20260617-dorito-parser-tool-link-guard-false-positive.md)
+  - PageIndex/MarkItDown tool-link guard false-positive and narrow exception record.
 
 ## Research Cache
 

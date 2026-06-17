@@ -623,6 +623,7 @@ pre-commit gate에 있습니다.
 | 011 | [rough tanh lineage 자연 닫힘 회고](../postmortem/011-20260612-dorito-rough-tanh-lineage-natural-closing-retro.md) |
 | 012 | [QFUDS 수식 검산과 문서 정합성 감사 회고](../postmortem/012-20260613-dorito-qfuds-math-doc-audit.md) |
 | 013 | [에이전트 연구 workflow 강제 게이트 회고](../postmortem/013-20260617-dorito-agent-research-workflow-guard.md) |
+| 014 | [파서 도구 링크와 workflow guard 오탐 회고](../postmortem/014-20260617-dorito-parser-tool-link-guard-false-positive.md) |
 
 회고는 이후 워크플로와 스크립트 변경의 근거로 사용됐습니다. 001은 PDF/source asset을 캐시하지 않은 채 문헌을 확인했다고
 말하는 문제를 잡았고, 005는 [PageIndex](https://github.com/VectifyAI/PageIndex)와 [MarkItDown](https://github.com/microsoft/markitdown)의 역할 차이, TeX 기반 figure mapping,

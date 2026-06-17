@@ -34,3 +34,4 @@ not change roadmap status, promote evidence, or open a new research level.
 - [rough tanh lineage 자연 닫힘 회고 (CP25): 직관 셋이 25년치 학계 흐름을 독립 재발견한 날](011-20260612-dorito-rough-tanh-lineage-natural-closing-retro.md)
 - [QFUDS 수식 검산과 문서 정합성 감사 회고](012-20260613-dorito-qfuds-math-doc-audit.md)
 - [에이전트 연구 workflow 강제 게이트 회고](013-20260617-dorito-agent-research-workflow-guard.md)
+- [파서 도구 링크와 workflow guard 오탐 회고](014-20260617-dorito-parser-tool-link-guard-false-positive.md)
