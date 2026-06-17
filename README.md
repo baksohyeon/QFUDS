@@ -2,11 +2,35 @@
 
 Language: English | [Korean](docs/00_project/qfuds_ko.md)
 
+## Table of Contents
+
+- [At a Glance](#at-a-glance)
+- [Start Here](#start-here)
+- [How To Read This Repository](#how-to-read-this-repository-harness-first-then-two-research-phases)
+- [Core Artifact](#core-artifact-agentic-research-harness)
+- [Longer Overview](#longer-overview-what-if-dark-matter-dark-energy-and-information-circulation-could-be-tied-together)
+- [Where This Stands](#where-this-stands-what-pushing-the-idea-to-the-wall-found)
+- [The Main Thread](#the-main-thread-what-makes-gammaa-and-why-z2)
+- [Afterword](#afterword-a-grand-sounding-theory-that-converged-on-two-open-problems)
+- [Why I Came Up With The Hypothesis](#why-i-came-up-with-the-hypothesis)
+- [Research Program](#research-program)
+- [Black Hole Interpretation](#black-hole-interpretation-re-reading-not-evidence)
+- [Documents](#documents)
+- [Repository Checks](#repository-checks)
+- [Reference Literature](#reference-literature)
+
 ## At a Glance
 
 QFUDS is an early-stage cosmology research program, not a confirmed theory. It
 asks whether dark matter and dark energy can be modeled as two effective
 macroscopic phases of a common quantum-spacetime foam sector.
+
+The most important artifact in this repository is the **agentic research
+harness**: the workflow, cache, parser-routing, adversarial review, and gate
+system that made the speculative search auditable. Read
+[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md) for that
+system. The physics documents are the payload the harness was used to inspect,
+stress, and demote when needed.
 
 The goal of this repository is not to defend QFUDS. The goal is to make the idea
 explicit enough to test, compare, narrow, or reject. Current project status lives
@@ -14,20 +38,147 @@ only in the [Roadmap](docs/05_next_steps/000_roadmap.md).
 
 Short version:
 
+- The core methodology artifact is
+  [lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md): the
+  agentic research harness and operating-system record.
 - The validated empirical thread stops at
   [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md).
 - The rough Season 2 exploration is represented by
   [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md).
 - [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) is an
-  optional thesis-style compression of the rough `tanh` exploration.
+  optional thesis-style archive/compression of the rough `tanh` exploration. It
+  is not the practical first read.
 
 ## Start Here
 
-- **Current status:** [Roadmap](docs/05_next_steps/000_roadmap.md)
-- **Plain-language tested thread:** [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md)
-- **Season 2 rough exploration:** [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md)
-- **Optional formal synthesis:** [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)
-- **Korean overview:** [qfuds_ko.md](docs/00_project/qfuds_ko.md)
+| If you want... | Read this |
+| --- | --- |
+| The core agentic research harness | [lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md) and [.agent/workflows](.agent/workflows/README.md) |
+| Current status, blockers, and active gates | [Roadmap](docs/05_next_steps/000_roadmap.md) |
+| The tested plain-language research thread | [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md) |
+| The representative rough Season 2 exploration | [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) |
+| The formal thesis-style archive | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
+| Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
+
+Recommended order:
+
+```text
+lineage 006
+Roadmap
+-> lineage 003
+-> lineage 004
+-> docs/README.md
+```
+
+Use [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) only if
+you want the formal compressed version of the rough branch.
+
+## How To Read This Repository: Harness First, Then Two Research Phases
+
+This project has three different layers, and it matters which one you are
+reading. They were produced for different jobs and do not carry the same
+evidential weight.
+
+**Layer 0: the research harness (the core artifact).** This is the agentic
+operating system: workflow SSOT, parser routing, asset cache states, adversarial
+review, postmortems, and deterministic gates. It is documented in
+[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md), with
+executable workflow rules in [.agent/workflows](.agent/workflows/README.md). If
+you are trying to understand what is actually reusable here, start with this
+layer.
+
+**Phase 1: the rigorous thread (the real experiments).** This is the part that was
+put through explicit kill-gates: define a rule, test it, and reject the versions
+that fail. Claims in this layer are backed by numbered experiments in
+[docs/03_experiments/](docs/03_experiments/). The plain-language account ends at
+[lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md), and it
+corresponds to the `Gamma(a)` story below under
+[The Main Thread](#the-main-thread-what-makes-gammaa-and-why-z2). If you only rely
+on one part of this repository, rely on this layer. **The empirical record stops
+at 003.**
+
+**Phase 2: the rough push (exploratory sketches).** After the rigorous thread hit
+its wall, I relaxed the standard and pushed one deliberately rough version as far
+as it would go: a hand-drawn `tanh` transition checked across 24 checkpoints.
+These are sketches, not validated results. The raw numerical work is collected in
+[lineage/assets/](docs/wiki/lineage/assets/), and the representative Season 2
+experiment record is
+[lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md).
+[lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) is a
+thesis-style compression of the same rough push, not the best first read.
+The [Where This Stands](#where-this-stands-what-pushing-the-idea-to-the-wall-found)
+section is the honest report of how far that rough push reached. Read it as an
+organized exploration by a non-specialist, not as proof.
+
+In one line: **lineage 006 is the reusable harness; Phase 1 is what survived real
+tests up to 003; Phase 2 is what happened when I pushed a failing idea to its
+visible limits. The representative record is 004; 005 is an optional thesis-style
+compression.**
+
+## Core Artifact: Agentic Research Harness
+
+The physics is only the payload. The core artifact is the system used to
+produce and check the work. The repository used a consistent feedback loop. I did not
+assume the AI was right; I assumed it could be wrong, could overstate results,
+and could confuse "not in cache" with "does not exist." So the repository split
+literature, assets, status, validation, and retrospectives into separate layers
+and made each pass check the others. The workflow record is in
+[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md); executable
+workflow rules live in [.agent/workflows](.agent/workflows/README.md); incident
+records are in the [postmortems folder](docs/wiki/postmortem/).
+
+The setup is divided into explicit operating rules:
+
+- **It reads real papers, not summaries.** PageIndex and MarkItDown were attached
+  through MCP, the standard way to connect external tools to an AI agent. The
+  important part was not a generic `PDF -> Markdown` conversion, but parser
+  routing. Paper PDFs and arXiv source went through PageIndex for structure,
+  pages, and body text; data releases, manifests, tables, and code-like records
+  went through MarkItDown. Figures were extracted separately. Chen Figure 5 was
+  digitized by separating the colored curves, calibrating the axes, and
+  recovering a 432-row CSV. This provided a numeric comparison between my
+  `Gamma(a)` curve and recovered `S_BH(a)` / `entropy_density(a)` values, not
+  just a visual comparison. This remained a source-history candidate, not QFUDS
+  evidence. The parsed-and-checked results live in
+  [docs/wiki/research/](docs/wiki/research/): about 60 literature notes and a
+  dozen fully digitized papers (see the
+  [Source-X investigation](docs/wiki/research/investigations/source_x/)), each
+  kept with its source, its figures, and its recovered numbers.
+- **It knows the difference between "I have the PDF" and "I can actually use this
+  as data."** Every source sits on an 11-rung ladder, from "never searched" to
+  "downloaded but never opened" to "numbers digitized and ready to use." This
+  blocks a common research failure mode: treating a downloaded file as if it had
+  actually been checked. The
+  [literature index](docs/wiki/research/literature/index.csv) records fields like
+  `product_status`, `digitization_status`, `used_by`, and `last_checked`, so "not
+  in cache," "not found in the world," and "paper exists but no usable data
+  product exists" do not collapse into the same state. The cache saves tokens and
+  fetches, and it avoids downloading the same paper twice.
+- **Validation is applied in two layers.** At the prompt layer, I repeatedly
+  forced instructions such as "run the tests," "do not change the roadmap SSOT,"
+  and "do not treat timing resemblance as evidence." At the commit layer, git
+  hooks run `validate_docs.py`, `research_consistency.py`, and
+  `preflight_exp004.py`. Here "evidence" does not mean that an LLM found the
+  claim plausible. It means file-backed conditions: frontmatter status, required
+  sections, links, output files, result documents, and consistency with the
+  roadmap SSOT. All 24 checkpoints had to clear these gates before they were
+  recorded.
+- **Positive claims get a separate review pass.** When a sentence says "reduced,"
+  "derived," or "passed," the same Codex/AI workflow runs an adversarial review
+  pass looking for counterexamples and overclaims. Then the prompt asks for tests
+  again, and the commit hook runs the mechanical checks. This process flagged
+  three overclaims mid-flight (recorded in
+  [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) and
+  summarized formally in
+  [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)).
+- **More than one AI checked the work.** I ran Codex as the lead, with Claude Code
+  and Gemini as backups and cross-checkers, so one model's omissions could be checked
+  by another.
+
+The point is methodological: the repository records how a speculative branch was
+pushed while unsupported conclusions were checked against documented gates.
+Failures are written down in postmortems, and positive claims must pass the same
+documented gates as the rest of the repository.
 
 ## Longer Overview: What if dark matter, dark energy, and information circulation could be tied together?
 
@@ -70,39 +221,6 @@ dark matter + dark energy
 ```
 
 Black holes and white-hole-like remnants are secondary. They may be read in QFUDS language as information-compression nodes or topological defects, but this is speculative interpretation rather than established black-hole or galaxy-formation physics. Under the current standard they are far from the core and are not the main topic.
-
-## How To Read This Repository: Two Phases, At Two Different Times
-
-This project has two different layers, and it matters which one you are reading.
-They were produced at different stages of the work and do not carry the same
-evidential weight.
-
-**Phase 1: the rigorous thread (the real experiments).** This is the part that was
-put through explicit kill-gates: define a rule, test it, and reject the versions
-that fail. Claims in this layer are backed by numbered experiments in
-[docs/03_experiments/](docs/03_experiments/). The plain-language account ends at
-[lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md), and it
-corresponds to the `Gamma(a)` story below under
-[The Main Thread](#the-main-thread-what-makes-gammaa-and-why-z2). If you only rely
-on one part of this repository, rely on this layer. **The empirical record stops
-at 003.**
-
-**Phase 2: the rough push (exploratory sketches).** After the rigorous thread hit
-its wall, I relaxed the standard and pushed one deliberately rough version as far
-as it would go: a hand-drawn `tanh` transition checked across 24 checkpoints.
-These are sketches, not validated results. The raw numerical work is collected in
-[lineage/assets/](docs/wiki/lineage/assets/), and the representative Season 2
-experiment record is
-[lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md).
-[lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) is a
-thesis-style compression of the same rough push, not the best first read.
-The [Where This Stands](#where-this-stands-what-pushing-the-idea-to-the-wall-found)
-section just below is the honest report of how far that rough push reached. Read
-it as an organized exploration by a non-specialist, not as proof.
-
-In one line: **Phase 1 is what survived real tests (up to 003); Phase 2 is what
-happened when I pushed a failing idea to its visible limits. The representative
-record is 004; 005 is an optional thesis-style compression.**
 
 ## Where This Stands: What Pushing the Idea to the Wall Found
 
@@ -167,10 +285,12 @@ initial-condition tuning, the one real partial win, and the observation that thr
 existing literature (chameleon screening, LTB voids, Buchert averaging), which
 corroborates that the ceiling is real rather than an artifact of one approach.
 
-The exploration also used an agent-based operating procedure: workflow SSOT,
-parallel work, adversarial review, and deterministic gates. The purpose was to
-reduce the chance that an unsupported positive claim would pass unchecked while
-the speculative branch was pushed to its recorded limit.
+The exploration also used an
+[agent-based research harness](docs/wiki/lineage/006_agentic_research_system_ko.md):
+workflow SSOT, parallel work, parser routing, cache-state tracking,
+adversarial review, and deterministic gates. The purpose was to reduce the
+chance that an unsupported positive claim would pass unchecked while the
+speculative branch was pushed to its recorded limit.
 
 Every number above comes from a rough proxy; rigorous validation requires a
 Boltzmann code (a full cosmology solver such as CLASS/hi_class) and is currently
@@ -384,71 +504,6 @@ The relevant DESI/Euclid follow-up releases (from surveys that map large-scale
 structure in detail) remain the next external check for this rough-tanh branch.
 Until those data are available and run through a proper likelihood, this branch
 should stay in observer mode rather than claim a stronger result.
-
-## How This Was Built: Agent-Based Research Operations
-
-The physics above is only part of the story. The other part is the system used to
-produce and check the work. The repository used a consistent feedback loop. I did not
-assume the AI was right; I assumed it could be wrong, could overstate results,
-and could confuse "not in cache" with "does not exist." So the repository split
-literature, assets, status, validation, and retrospectives into separate layers
-and made each pass check the others. The workflow record is in
-[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md); the incident
-records are in the
-[postmortems folder](docs/wiki/postmortem/) (11 of them).
-
-The setup is divided into explicit operating rules:
-
-- **It reads real papers, not summaries.** PageIndex and MarkItDown were attached
-  through MCP, the standard way to connect external tools to an AI agent. The
-  important part was not a generic `PDF -> Markdown` conversion, but parser
-  routing. Paper PDFs and arXiv source went through PageIndex for structure,
-  pages, and body text; data releases, manifests, tables, and code-like records
-  went through MarkItDown. Figures were extracted separately. Chen Figure 5 was
-  digitized by separating the colored curves, calibrating the axes, and
-  recovering a 432-row CSV. This provided a numeric comparison between my
-  `Gamma(a)` curve and recovered `S_BH(a)` / `entropy_density(a)` values, not
-  just a visual comparison. This remained a source-history candidate, not QFUDS
-  evidence. The parsed-and-checked results live in
-  [docs/wiki/research/](docs/wiki/research/): about 60 literature notes and a
-  dozen fully digitized papers (see the
-  [Source-X investigation](docs/wiki/research/investigations/source_x/)), each
-  kept with its source, its figures, and its recovered numbers.
-- **It knows the difference between "I have the PDF" and "I can actually use this
-  as data."** Every source sits on an 11-rung ladder, from "never searched" to
-  "downloaded but never opened" to "numbers digitized and ready to use." This
-  blocks a common research failure mode: treating a downloaded file as if it had
-  actually been checked. The
-  [literature index](docs/wiki/research/literature/index.csv) records fields like
-  `product_status`, `digitization_status`, `used_by`, and `last_checked`, so "not
-  in cache," "not found in the world," and "paper exists but no usable data
-  product exists" do not collapse into the same state. The cache saves tokens and
-  fetches, and it avoids downloading the same paper twice.
-- **Validation is applied in two layers.** At the prompt layer, I repeatedly
-  forced instructions such as "run the tests," "do not change the roadmap SSOT,"
-  and "do not treat timing resemblance as evidence." At the commit layer, git
-  hooks run `validate_docs.py`, `research_consistency.py`, and
-  `preflight_exp004.py`. Here "evidence" does not mean that an LLM found the
-  claim plausible. It means file-backed conditions: frontmatter status, required
-  sections, links, output files, result documents, and consistency with the
-  roadmap SSOT. All 24 checkpoints had to clear these gates before they were
-  recorded.
-- **Positive claims get a separate review pass.** When a sentence says "reduced,"
-  "derived," or "passed," the same Codex/AI workflow runs an adversarial review
-  pass looking for counterexamples and overclaims. Then the prompt asks for tests
-  again, and the commit hook runs the mechanical checks. This process flagged
-  three overclaims mid-flight (recorded in
-  [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) and
-  summarized formally in
-  [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md)).
-- **More than one AI checked the work.** I ran Codex as the lead, with Claude Code
-  and Gemini as backups and cross-checkers, so one model's omissions could be checked
-  by another.
-
-The point is methodological: the repository records how a speculative branch was
-pushed while unsupported conclusions were checked against documented gates.
-Failures are written down in postmortems, and positive claims must pass the same
-documented gates as the rest of the repository.
 
 ## Why I Came Up With The Hypothesis
 
@@ -876,11 +931,15 @@ Maintained research documents:
 - [015_level_1_5_resolution_gate.md](docs/05_next_steps/015_level_1_5_resolution_gate.md): evidence criteria for Level 1.5 pass, fail, or demotion
 - [030_exp003_record_consistency_gate.md](docs/05_next_steps/030_exp003_record_consistency_gate.md): record-consistency gate for the Level 2A perturbation closure
 
+Core harness record:
+
+- [006_agentic_research_system_ko.md](docs/wiki/lineage/006_agentic_research_system_ko.md): the core agentic research-harness record: document/status boundaries, workflow routing, asset cache states, PageIndex/MarkItDown MCP, adversarial review passes, deterministic git-hook gates, and postmortem feedback loops (Korean)
+- [.agent/workflows](.agent/workflows/README.md): executable workflow SSOT for future agents.
+
 History/source notes:
 
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the representative Season 2 rough-`tanh` experiment record and 24-checkpoint numerical exploration log (Korean)
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
-- [006_agentic_research_system_ko.md](docs/wiki/lineage/006_agentic_research_system_ko.md): agent-based research operations record: document/status boundaries, workflow routing, asset cache states, PageIndex/MarkItDown MCP, adversarial review passes, and deterministic git-hook gates (Korean)
 - [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-050, Chen Figure 5 digitization, known-model distinction, observer-mode routing, and foam-sector feasibility closeout
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
 - [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open
