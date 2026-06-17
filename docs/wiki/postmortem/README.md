@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - roadmap
 next_gate: none; postmortems are process history only
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # Wiki Postmortems
@@ -32,3 +32,5 @@ not change roadmap status, promote evidence, or open a new research level.
 - [QFUDS 관측자 모드 전환 마무리 회고](009-20260611-dorito-qfuds-observer-mode-closing-retro.md)
 - [rough tanh lineage 하강 회고 (CP13–CP24)](010-20260612-dorito-rough-tanh-lineage-descent-retro.md)
 - [rough tanh lineage 자연 닫힘 회고 (CP25): 직관 셋이 25년치 학계 흐름을 독립 재발견한 날](011-20260612-dorito-rough-tanh-lineage-natural-closing-retro.md)
+- [QFUDS 수식 검산과 문서 정합성 감사 회고](012-20260613-dorito-qfuds-math-doc-audit.md)
+- [에이전트 연구 workflow 강제 게이트 회고](013-20260617-dorito-agent-research-workflow-guard.md)

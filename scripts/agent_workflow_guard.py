@@ -136,8 +136,14 @@ def has_absence_claim(text: str) -> bool:
     return ABSENCE_CLAIM_RE.search(text) is not None
 
 
+def is_navigation_index(text: str) -> bool:
+    return re.search(r"(?m)^doc_type:\s*index\s*$", text) is not None
+
+
 def check_file(path: Path, staged: bool) -> list[str]:
     text = file_text(path, staged=staged)
+    if is_navigation_index(text):
+        return []
     if not has_external_research_signal(path, text) and not has_absence_claim(text):
         return []
 

@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-13
+last_updated: 2026-06-17
 ---
 
 # Wiki Content Index
@@ -39,6 +39,9 @@ and
   - five-item physical-branch admission gate.
 - [Missing Physics Map](governance/004_missing_physics_map.md) - map of missing
   physics required before a physical branch can open.
+- [Agent Workflow Enforcement Design](governance/005_agent_workflow_enforcement_design.md)
+  - design record for enforcing research workflow state markers across Codex,
+    Claude Code, and git pre-commit.
 
 ## Lineage
 
@@ -87,6 +90,10 @@ and
 - [rough tanh lineage natural closing retrospective (CP25)](postmortem/011-20260612-dorito-rough-tanh-lineage-natural-closing-retro.md)
   - three intuitions independently rediscovering the 2000s–2025 literature arc;
     lineage natural closing.
+- [QFUDS math and documentation audit retrospective](postmortem/012-20260613-dorito-qfuds-math-doc-audit.md)
+  - formula, lineage asset, and documentation consistency audit retrospective.
+- [Agent research workflow guard retrospective](postmortem/013-20260617-dorito-agent-research-workflow-guard.md)
+  - workflow miss retrospective and commit-gate enforcement record.
 
 ## Research Cache
 
