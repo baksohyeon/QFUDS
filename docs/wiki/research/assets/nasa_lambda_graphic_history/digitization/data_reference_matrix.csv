@@ -1,0 +1,58 @@
+label,n_s,t0,tau,h0,omega_m,omega_b_h2,omega_c_h2,sigma8,reference,reference_url
+GC NGC7652 age 1996,,x,,,,,,,Renzini et al.(1996),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Renzini
+COBE/DMR 1yr 1996,x,,,,,,,,Bennett et al. (1996),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Bennett
+CNOC galaxy survey 1998,,,,,x,,,,Carlberg et al. (1998),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Carlberg
+IRAS Galaxy velocity fields 1998,,,,,,,,x,Willick and Strauss (1998),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Willick and Strauss
+SNIa 1999,,x,,,,,,,Perlmutter et al. (1999),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Perlmutter
+HST_Key_Project 2001,,,,x,,,,,Freedman et al. (2001),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Freedman
+D/H+BBN 2001,,,,,,x,,,Pettini and Bowen (2001),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Pettini and Bowen
+White dwarf dating 2002,,x,,,,,,,Hansen et al. (2002); Richer et al. (2002),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Richer
+Galaxy bias + z distort 2002,,,,,x,,,,Verde et al. (2002),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Verde
+Clusters+SNIa 2002,,,,,,x,,,Steigman et al. (2002),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Steigman
+Boomerang 2002a,x,x,x,,,x,x,,Netterfield et al. (2002),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Netterfield
+DASI+DMR 2002,x,,,,,x,x,,Pryke et al. (2002),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Pryke
+CBI SZ 2002,,,,,,,,x,Komatsu and Seljak (2002),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Komatsu and Seljak
+CBI+DMR 2003,,,,,,x,,,Sievers et al. (2003),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Sievers
+D/H+BBN 2003,,,,,,x,,,Kirkman et al. (2003),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Kirkman
+X-ray cluster abunduance 2003,,,,,,,,x,Bahcall and Bode (2003),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Bahcall and Bode
+WMAP1++ 2003b,,,x,,,,,,Spergel et al. (2003),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Spergel
+SNIa 2004,,,,,x,,,,Riess et al. (2004),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Riess
+CHANDRA+tSZ 2006,,,,x,,,,,Bonamente et al. (2006),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Bonamente2006
+Cepheids+SNIa 2011,,,,x,,,,,Riess et al. (2011),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Riess2011
+D/H+BBN 2012,,,,,,x,,,Pettini and Cooke (2012),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Pettini and Cooke
+WMAP9++ 2013c,x,x,x,x,x,x,x,,Hinshaw et al. (2013),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Hinshaw
+WMAP9 2013,,,,x,,,,,Hinshaw et al. (2013),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Hinshaw
+BOSS Lyα forest 2013,x,,,,,,,x,Palanque-Delabrouille et al. (2013),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Palanque-Delabrouille
+BAO+LSS 2013,,,,,,,,x,Addison et al. (2013),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Addison
+SPT+tau_prior 2013,,,,x,,,,,Story et al. (2013),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Story
+Planck SZ+BAO+BBN,,,,,x,,,x,Planck Collaboration (2014),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Planck
+SPT SZ bispectrum 2014,,,,,,,,x,Crawford et al. (2014),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Crawford
+ACT SZ PDF 2014,,,,,,,,x,Hill et al. (2014),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Hill
+BOSS weak lensing 2015,,,,,x,,,x,More et al. (2015),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#More
+SNIa 2014,,,,,x,,,,Betoule et al. (2014),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Betoule
+Planck_PR2++ 2015d,,,x,,,,,,Planck XIII (2015),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Planck XIII
+Inv_Dist_Ladder 2015,,,,x,,,,,Aubourg et al. (2015),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Aubourg
+D/H+BBN 2016,,,,,,x,,,Cooke et al. (2016),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Cooke
+ACTPol 2017,,,,x,,,,,Louis et al. (2017),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Louis
+SPTPol 2017,,,,x,,,,,Henning et al. (2017),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Henning
+Planck-PR3++ 2018e,x,x,x,x,x,x,x,x,Planck VI (2018),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Planck VI
+Pantheon_SNIa 2018,,,,,x,,,,Scolnic et al. (2018),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Scolnic
+Planck-PR3 2018,,,,x,,,,,Planck VI (2018),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Planck VI
+XMM+Planck_tSZ 2018,,,,x,,,,,Kozmanyan et al. (2018),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Kozmanyan
+TRGB Dist Ladder,,,,x,,,,,Freedman et al. (2019),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Freedman2019
+Megamasers 2020,,,,x,,,,,Pesce et al. (2020),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Pesce
+eBOSS_BBN+BAO 2020,,,,x,,,,,eBOSS Collaboration (2020),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#eBOSS
+ACTPol_DR4,,,,x,,,,,Aiola et al. (2020),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Aiola
+SPT-3G_TE+EE,,,,x,,,,,Dutcher et al. (2021),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Dutcher
+SBF_distances 2021,,,,x,,,,,Blakeslee et al. (2021),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Blakeslee
+Planck+ACTPol+SPTpol_EE,,,,x,,,,,Addison (2021),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Addison2021
+LIGO-Virgo-KAGRA Collaboration (2021),,,,x,,,,,LIGO-Virgo-KAGRA Collaboration (2021),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#LIGO2021
+Cepheids+SNIa 2021,,,,x,,,,,Riess et al. (2021),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Riess2021
+Planck_PR3+S2 2020,,,x,,,,,,Pagano et al. (2020),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Pagano
+Planck_PR4 2020,,,x,,,,,,Planck Int. LVII (2020),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Plancklvii
+Planck_PR4 2023,,,x,,,,,,Tristram et al. (2023),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Tristram
+CLASSxPlanck 2025,,,x,,,,,,Li et al. (2025),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Li
+ACT+Planck++ 2025,,,x,,,,,,Louis et al. (2025),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Louis2025
+GravLens_Time_Delay 2025,,,,x,,,,,TDCOSMO Collaboration (2025),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#TDCOSMO
+Planck+ACT_DR6 2025,,,,x,,,,,Louis et al. (2025),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Louis2025
+SPT-3G_D1 2025,,,,x,,,,,Camphuis et al. (2025),https://lambda.gsfc.nasa.gov/resources/graphic_history/more_ref.html#Camphuis2025

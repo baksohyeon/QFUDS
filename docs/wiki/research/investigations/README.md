@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_cache_index
 next_gate: none; dated external research investigation records only
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Research Investigations
@@ -40,6 +40,8 @@ should optimize navigation by research flow, not by calendar grouping.
 
 Current chains:
 
+- [baseline_reference/](baseline_reference/README.md): baseline standard
+  cosmology and reference-cache closeouts.
 - [exp006_timing/](exp006_timing/README.md): IV/IDE timing and Li 2025
   data-product audits.
 - `source_x/`: Source-X plans, conclusions, and coverage audits. Start at
@@ -61,6 +63,13 @@ Research investigations may record:
 Research investigations must not replace experiment documents, result documents,
 decision logs, or the roadmap. A cached "not found" entry means only that the
 product was not found in the checked sources on the recorded date.
+
+## Baseline Reference Chain
+
+| Order | Record | Type |
+| ---: | --- | --- |
+| index | [Baseline Reference Investigations](baseline_reference/README.md) | chain index |
+| 001 | [2026-06-17 NASA LAMBDA Graphic History Cache Closeout](baseline_reference/conclusions/001_nasa_lambda_graphic_history_cache_closeout.md) | cache closeout |
 
 ## Exp006 Timing Chain
 

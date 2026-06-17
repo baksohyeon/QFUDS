@@ -2,7 +2,8 @@
 
 Use this workflow whenever research work touches an external paper, PDF, arXiv
 source bundle, supplementary material, Zenodo/OSF/Dataverse/GitHub asset, figure
-PDF, table, code repository, or downloadable archive.
+PDF, table, code repository, downloadable archive, stable reference website,
+or templated/page-family web resource.
 
 This file is the SSOT for literature product recovery and PDF/source/archive
 asset handling. It is process-only: it does not change roadmap status, does not
@@ -82,9 +83,18 @@ For every external hit, record whether the source exposes:
 - table data
 - code repository
 - downloadable raw assets
+- HTML page families reachable from navigation menus, sitemap-like link lists,
+  or templated URL patterns such as `{parameter}.html`
+- linked figure/vector products such as PNG, JPG, PDF, SVG, and EPS files
 
 Record the source URL, asset type, state, and extraction potential before making
 any literature-coverage or data-product claim.
+
+If the user supplies a URL pattern, a screenshot of a navigation menu, or a page
+whose links imply sibling resources, do not cache only the pasted URL. Resolve
+the local navigation first, list the inferred page family, and cache the linked
+source pages and page-level figure/table products that are in scope. Record the
+crawl scope and any skipped off-site links in the asset README or inventory.
 
 ## Step 2: Place Assets Inside The Repository
 
@@ -146,12 +156,13 @@ is extracted, keep extracted files under a clearly named child directory such as
 
 Use `source/` for external originals and raw products: PDFs, arXiv source
 bundles, supplementary archives, Zenodo records or datasets, GitHub metadata
-snapshots, code-release manifests, and downloadable raw assets. Use `figures/`
-inside the same asset directory for figure-level extracted or rendered assets.
-Use `digitization/` inside the same asset directory only for derived conversion
-or digitization outputs such as Markdown conversions, extracted table drafts,
-and digitized CSV/JSON files. Rendered PNG mirrors of figures belong under
-`figures/`, not `digitization/`.
+snapshots, code-release manifests, cached HTML pages, and downloadable raw
+assets. Use `figures/` inside the same asset directory for figure-level
+downloaded, extracted, or rendered assets. Use `digitization/` inside the same
+asset directory only for derived conversion or digitization outputs such as
+Markdown conversions, link inventories, extracted table drafts, and digitized
+CSV/JSON files. Rendered PNG mirrors of figures belong under `figures/`, not
+`digitization/`.
 
 Do not create top-level category or audit-chain folders under `assets/`, such as
 `assets/figures/`, `assets/digitization/`, `assets/source_x/`, or
@@ -179,6 +190,9 @@ The README must contain:
 - current asset state
 - extraction potential
 - known extraction failures or blocked steps
+- for web page families, the crawl scope, inferred URL pattern, linked-asset
+  inventory path, and any distinction between source-reference tables and
+  numerical digitization
 
 The README is the manifest. Do not rely on chat history, temp paths, or an
 agent's memory as the only record of the asset.

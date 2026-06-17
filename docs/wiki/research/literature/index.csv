@@ -1,4 +1,5 @@
 doc_id,paper,year,evidence_level,primary_variable,model_family,redshift_coverage,product_status,digitization_status,author_data_required,used_by,last_checked
+lit_nasa_lambda_graphic_history_cosmological_parameters,NASA LAMBDA,2025,reference_only,standard cosmological parameters,LambdaCDM parameter-history reference,CMB SN galaxies intensity mapping and parameter-history pages,html+figures+reference_table,manual_structured_extract,no,baseline_reference_coverage,2026-06-17
 lit_escamilla_2023_interacting_dark_energy_kernel,Escamilla et al.,2023,primary,Pi_DE(z),IV/IDE,z=0 to 3 nodes; binned Delta z=0.6,tables+figures,optional,likely,exp_006,2026-06-09
 lit_goh_2023_tomographic_coupled_dark_energy,Goh et al.,2023,secondary,beta(z),scalar-field CDE,z=0 to 1000 tomographic bins,tables+code,not_needed,unknown,exp_006,2026-06-09
 lit_bonilla_2022_dark_sector_interaction_gp,Bonilla et al.,2022,optional,delta(z),GP IV/IDE reconstruction,z=0 to 2.5 figures,figures_only,required,likely,exp_006,2026-06-09

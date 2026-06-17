@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_cache_index
 next_gate: none; raw literature records only
-last_updated: 2026-06-10
+last_updated: 2026-06-17
 ---
 
 # Literature Cache
@@ -71,6 +71,7 @@ Use [index.csv](index.csv) to find individual literature records.
 
 ## Coverage Expansion Records
 
+- [NASA LAMBDA Graphic History Cosmological Parameters](nasa_lambda_graphic_history_cosmological_parameters.md)
 - [Li 2025 DESI DR2 Sign-Reversal IDE](li_2025_desi_dr2_sign_reversal_ide.md)
 - [Silva 2025 DESI DR2 IDE and S-IDE](silva_2025_desi_dr2_ide_s_ide.md)
 - [You 2025 DESI DR2 Coupled Dark Sector](you_2025_desi_dr2_coupled_dark_sector.md)

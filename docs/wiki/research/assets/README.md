@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_cache_index
 next_gate: none; repository asset-cache routing only
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Research Assets
@@ -42,3 +42,9 @@ docs/wiki/research/assets/
 Each paper, release, or product-family directory has an asset README manifest.
 The required fields and handling rules are defined only in the
 [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+
+Current product-family caches include:
+
+- [NASA LAMBDA Graphic History](nasa_lambda_graphic_history/README.md) -
+  cached 20-page NASA LAMBDA Graphic History web family, linked figure/vector
+  products, and the source-derived data-reference matrix.
