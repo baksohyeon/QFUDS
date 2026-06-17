@@ -37,6 +37,13 @@ own copy of project status.
   default behavior.
 - Read the roadmap for status before making any status claim. Do not maintain,
   cache, or restate project status in this file.
+- Before any external literature, web, source, asset, extraction,
+  product-availability, NASA/LAMBDA, BAO, DESI/eBOSS, or cache claim, read
+  [.agent/workflows/README.md](.agent/workflows/README.md) and apply
+  [Research Asset and Product Workflow](.agent/workflows/research-asset-product-workflow.md).
+  Any resulting research document must record the workflow marker and a state
+  token such as `hit_not_cached`, `asset_cached`, `no_asset_found`, or
+  `inaccessible`.
 - Do not duplicate roadmap, decision-log, theory, or experiment content here.
 - When this file disagrees with [AGENTS.md](AGENTS.md) or the roadmap, those win and this
   file must be corrected.
@@ -47,7 +54,9 @@ Before major experiment milestones, run:
 
 ```bash
 make research-audit        # validate_docs.py + research_consistency.py
+make agent-workflow-guard  # staged external-research workflow guard
 # or, without make:
 python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py
+python3 scripts/agent_workflow_guard.py --staged
 ```

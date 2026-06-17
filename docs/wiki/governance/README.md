@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - repository_levels_glossary
 next_gate: none; governance routing only
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Wiki Governance
@@ -35,6 +35,7 @@ workflow records. Those belong under
 2. [Terminology Backlink Consistency Check](002_terminology_backlink_consistency_check.md)
 3. [Blocked Admission Rule Gate](003_blocked_admission_rule_gate.md)
 4. [Missing Physics Map](004_missing_physics_map.md)
+5. [Agent Workflow Enforcement Design](005_agent_workflow_enforcement_design.md)
 
 ## Boundary
 

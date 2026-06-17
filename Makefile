@@ -5,12 +5,13 @@
 
 PYTHON ?= python3
 
-.PHONY: help validate research-audit preflight-exp004 result-figures preflight test install-git-hooks
+.PHONY: help validate research-audit agent-workflow-guard preflight-exp004 result-figures preflight test install-git-hooks
 
 help:
 	@echo "QFUDS make targets:"
 	@echo "  make validate          - validate per-document frontmatter and cross-links"
 	@echo "  make research-audit    - validate + enforce status-authority consistency"
+	@echo "  make agent-workflow-guard - enforce staged research workflow evidence"
 	@echo "  make preflight-exp004  - exp_003 -> exp_004 readiness gate"
 	@echo "  make result-figures    - regenerate docs/04_results summary figures"
 	@echo "  make preflight         - full pre-milestone audit (all of the above)"
@@ -23,6 +24,9 @@ validate:
 research-audit: validate
 	$(PYTHON) scripts/research_consistency.py
 
+agent-workflow-guard:
+	$(PYTHON) scripts/agent_workflow_guard.py --staged
+
 preflight-exp004:
 	$(PYTHON) scripts/preflight_exp004.py
 
@@ -33,7 +37,7 @@ test:
 	$(PYTHON) -m unittest discover -s tests -p 'test_*.py'
 
 # Run before any major experiment milestone.
-preflight: validate research-audit preflight-exp004
+preflight: validate research-audit agent-workflow-guard preflight-exp004
 	@echo "preflight: all repository audits passed"
 
 install-git-hooks:

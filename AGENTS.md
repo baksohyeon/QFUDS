@@ -441,6 +441,18 @@ operational SSOTs for repeatable agent procedures. Agents must check
 workflow before making any research, literature, data-product, asset,
 extraction, coverage, or postmortem claim.
 
+For external literature, web, PDF, arXiv source, supplement, NASA/LAMBDA,
+BAO/DESI/eBOSS, Zenodo/OSF/Dataverse/GitHub, page-family, figure, table, code,
+asset, extraction, cache, or product-availability claims, agents must apply
+[Research Asset and Product Workflow](.agent/workflows/research-asset-product-workflow.md)
+before writing the claim. Any resulting research document must record both the
+workflow marker/link and the most specific workflow state token, such as
+`hit_not_cached`, `asset_available_not_downloaded`, `asset_cached`,
+`inspected_no_numerical_product`, `no_asset_found`, or `inaccessible`.
+Repository enforcement lives in `scripts/agent_workflow_guard.py --staged`,
+`scripts/git-hooks/pre-commit`, and `make agent-workflow-guard`; Codex and
+Claude Code prompt hooks are reminders, not substitutes for the commit gate.
+
 Required behavior:
 
 - preserve project history;
