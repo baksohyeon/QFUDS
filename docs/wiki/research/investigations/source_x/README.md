@@ -7,8 +7,8 @@ status: reference
 evidence_role: reference
 depends_on:
   - research_investigations_index
-next_gate: none; navigation and audit routing only
-last_updated: 2026-06-12
+next_gate: execute foam-state variable literature question audit before selecting xi
+last_updated: 2026-06-17
 ---
 
 # Source-X Research Investigations
@@ -77,6 +77,7 @@ records. The prefix is a route number, not a project-status claim.
 | 049 | [Level 2B Admission Eligibility Review and Observer-Mode Routing](conclusions/049_level2b_eligibility_review_and_observer_mode.md) | gate-check verdict; routes the lane to observer mode |
 | 050 | [Foam-Sector-to-Gamma Derivation Feasibility Result](conclusions/050_foam_sector_to_gamma_derivation_feasibility_result.md) | forward-direction feasibility closeout; minimum objects missing |
 | 051 | [Effective Phase-Fraction Scaffold](conclusions/051_effective_phase_fraction_scaffold.md) | weak single-sector phase-fraction scaffold; analytic density only |
+| 052 | [Foam-State Variable Literature Question Plan](plans/052_foam_state_variable_literature_question_plan.md) | question plan for literature-neighbor state variables before selecting `xi` |
 
 Reserved future records:
 
@@ -155,6 +156,12 @@ Reserved future records:
   phase-fraction scaffold. It derives the analytic background density for a
   smooth `f_B(a)`/`w_D(a)` ansatz without using `Gamma(a)`, deriving a physical
   source, opening Level 2B, or modifying roadmap status.
+- `052` plans the next question pass: before choosing `xi ~= 10 Mpc`, ask
+  whether nearby literature variables already absorb the idea through EFTofLSS,
+  backreaction, running vacuum, screened modified gravity, spacetime-foam
+  correlation, stochastic Lambda, or the internal phase-fraction scaffold. It
+  does not select `xi`, define candidate `X`, open Level 2B, or modify roadmap
+  status.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

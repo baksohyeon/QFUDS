@@ -7,8 +7,8 @@ status: reference
 evidence_role: reference
 depends_on:
   - source_x_investigation_index
-next_gate: none; planning records only
-last_updated: 2026-06-12
+next_gate: execute foam-state variable literature question audit before selecting xi
+last_updated: 2026-06-17
 ---
 
 # Source-X Investigation Plans
@@ -34,3 +34,4 @@ not store downloaded assets.
 - [Chen-Gamma Shape Comparison Plan](047_chen_gamma_shape_comparison_plan.md)
 - [Known-Model Distinction Audit Plan](048_known_model_distinction_audit_plan.md)
 - [Foam-Sector-to-Gamma Derivation Feasibility Plan](049_foam_sector_to_gamma_derivation_feasibility_plan.md)
+- [Foam-State Variable Literature Question Plan](052_foam_state_variable_literature_question_plan.md)
