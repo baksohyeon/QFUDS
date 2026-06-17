@@ -22,3 +22,4 @@ and do not open Physical-QFUDS Level 2B.
 ## Records
 
 - [Effective Foam Assumption Ledger Preflight Plan](002_effective_foam_assumption_ledger_preflight_plan.md)
+- [Foam State Variable Definition Plan](005_foam_state_variable_definition_plan.md)

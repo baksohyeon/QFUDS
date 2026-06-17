@@ -40,7 +40,10 @@ changes.
 4. [Foam State Variable and Placement Selection Matrix](conclusions/004_foam_state_variable_placement_selection_matrix.md):
    propose and reject candidate foam-sector state variables and equation-side
    placements before model-facing use of baseline constraints.
-5. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
+5. [Foam State Variable Definition Plan](plans/005_foam_state_variable_definition_plan.md):
+   define the required fields for a plan-only `X(x,a)` or `f_B(x,a)` definition
+   audit before any model-facing baseline use.
+6. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
    list observational kill thresholds only after the non-circularity ledger is
    frozen.
 
@@ -60,6 +63,7 @@ Forbidden use:
   seeing NASA/LAMBDA, DESI, eBOSS, BAO, LSS, or retained-timing targets;
 - treating retained `Gamma(a)` as a physical foam-sector source.
 
-The chain order matters. The assumption ledger and state-variable/placement
-matrix must come before model-facing use of the baseline constraint map so
-observations cannot back-drive the effective foam scale.
+The chain order matters. The assumption ledger, state-variable/placement
+matrix, and state-variable definition plan must come before model-facing use of
+the baseline constraint map so observations cannot back-drive the effective foam
+scale.
