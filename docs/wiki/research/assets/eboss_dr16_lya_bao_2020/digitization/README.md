@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: manual structured extraction before numerical reuse
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO Digitization Assets
@@ -17,8 +17,8 @@ This folder stores derived inspection products for the eBOSS DR16 Lyman-alpha
 BAO asset.
 
 The cached SDSS product is a data-release asset, not a paper-PDF asset. This
-pass therefore used source-file inspection, MarkItDown conversion of the
-upstream README, and Markdown assembly from grid files, not PageIndex PDF
+pass therefore used source-file inspection, [MarkItDown](https://github.com/microsoft/markitdown) conversion of the
+upstream README, and Markdown assembly from grid files, not [PageIndex](https://github.com/VectifyAI/PageIndex) PDF
 parsing.
 
 The resulting Markdown is `source_text_parse` only. It is not numerical

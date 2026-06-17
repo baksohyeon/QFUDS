@@ -8,14 +8,14 @@ evidence_role: reference
 depends_on:
   - asset_farrah_2023_cosmological_coupling_black_holes_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Farrah et al. 2023 — PageIndex Full-Text Extraction
 
-Verbatim page-by-page text extraction of arXiv:2302.07878v1 via PageIndex MCP
+Verbatim page-by-page text extraction of arXiv:2302.07878v1 via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP
 `get_page_content` (13 pages). Quality: `source_text_parse` — faithful text and
-LaTeX-equation extraction, higher fidelity than the prior MarkItDown pass, but
+LaTeX-equation extraction, higher fidelity than the prior [MarkItDown](https://github.com/microsoft/markitdown) pass, but
 machine-extracted and not line-for-line verified.
 
 Figure image links resolve to the repo's rendered PNG mirrors under

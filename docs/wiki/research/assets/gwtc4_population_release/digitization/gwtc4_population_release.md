@@ -8,12 +8,12 @@ evidence_role: reference
 depends_on:
   - asset_gwtc4_pop_release_digitization_index
 next_gate: targeted manual extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # GWTC-4.0 Population Release — Data Release Document
 
-MarkItDown-based markdown document for the LIGO-Virgo-KAGRA data release
+[MarkItDown](https://github.com/microsoft/markitdown)-based markdown document for the LIGO-Virgo-KAGRA data release
 "GWTC-4.0: Population Properties of Merging Compact Binaries" (Zenodo record
 16911563). This asset is a **data release**, not a single paper PDF: the source
 cache holds the release notes, figure PDFs, figure-generation scripts, event

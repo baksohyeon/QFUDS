@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - lit_li_2025_desi_dr2_sign_reversal_ide
 next_gate: Li 2025 timing-overlap digitization or author-data request
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Li and Zhang 2025 DESI DR2 Sign-Reversal IDE Assets
@@ -24,7 +24,7 @@ change Exp006 conclusions, or change roadmap status.
 - `source/arxiv_source_2506.18477v2.tar.gz` - downloaded arXiv source bundle.
 - `source/extracted/` - extracted arXiv source bundle contents, copied
   file-for-file from the downloaded source package.
-- `digitization/` - Markdown conversion, PageIndex hierarchical structure parse
+- `digitization/` - Markdown conversion, [PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical structure parse
   (`pageindex_structure.md`, `source_text_parse`), and future numeric
   digitization products.
 - `figures/extracted/` - rendered PNG mirror of source figure PDFs for

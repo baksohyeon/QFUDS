@@ -8,12 +8,12 @@ evidence_role: reference
 depends_on:
   - asset_desi_dr2_lya_bao_2025
 next_gate: use curated data-release parse for source-product decisions
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # DESI DR2 Lyman-alpha BAO Archive MarkItDown Index
 
-This index records the MarkItDown conversion pass over the extracted
+This index records the [MarkItDown](https://github.com/microsoft/markitdown) conversion pass over the extracted
 `desi-dr2-lya-bao-figdata.tgz` archive.
 
 Quality state:
@@ -28,7 +28,7 @@ for the curated source-product summary.
 
 ## Converted Archive Members
 
-| Source file | MarkItDown output |
+| Source file | [MarkItDown](https://github.com/microsoft/markitdown) output |
 | --- | --- |
 | `README` | [README.md](markitdown_extracted/README.md) |
 | `Y1_numtile.csv` | [Y1_numtile.csv.md](markitdown_extracted/Y1_numtile.csv.md) |

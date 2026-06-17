@@ -242,7 +242,7 @@ quality, and any conversion warnings in the asset README, digitization README, o
 dependent audit. A Markdown conversion is still only a derived inspection asset;
 it is not numerical digitization and is not QFUDS-ready evidence.
 
-Default MarkItDown PDF conversions must be treated as
+Default [MarkItDown](https://github.com/microsoft/markitdown) PDF conversions must be treated as
 `low_fidelity_search_text` unless manually checked against the source. This is
 especially important for two-column papers, equations, tables, captions, and
 figures. Broken line order, spurious Markdown tables, merged words, missing

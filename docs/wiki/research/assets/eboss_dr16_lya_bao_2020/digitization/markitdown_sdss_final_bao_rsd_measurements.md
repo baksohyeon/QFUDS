@@ -8,14 +8,14 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: use curated likelihood-release parse for source-product decisions
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO MarkItDown SDSS Final BAO/RSD Page Conversion
 
 Quality state: `low_fidelity_search_text`.
 
-This is a direct MarkItDown conversion of
+This is a direct [MarkItDown](https://github.com/microsoft/markitdown) conversion of
 <https://www.sdss4.org/science/final-bao-and-rsd-measurements/>. It is a
 source-page aid for locating official SDSS products.
 

@@ -17,7 +17,7 @@ depends_on:
   - wiki_governance_004_missing_physics_map
   - wiki_governance_003_blocked_admission_rule_gate
 next_gate: no derivation; black-hole lanes remain data-product blocked until a QFUDS-usable product is recovered
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # 2026-06-10 Black-Hole Data Product Audit
@@ -295,7 +295,7 @@ These are recovery tasks, not Level 2B openings and not QFUDS support claims:
    or contour files from the cached Zenodo manifest before download.
 3. If Amendola 2024 constraints must be reproduced, clone/run the two GitHub
    repositories and record exact LVK inputs.
-4. If Lineweaver is used numerically, use the MarkItDown output only for rough
+4. If Lineweaver is used numerically, use the [MarkItDown](https://github.com/microsoft/markitdown) output only for rough
    navigation, then manually extract the entropy table values with units into a
    digitized product from the PDF.
 5. If Chen 2026 is used for a redshift entropy history, digitize or extract the
@@ -341,7 +341,7 @@ manually structured or numerically digitized with provenance and uncertainty.
 
 ## Markdown Conversion Outputs
 
-MarkItDown PDF-to-Markdown conversions were created for cached paper PDFs as
+[MarkItDown](https://github.com/microsoft/markitdown) PDF-to-Markdown conversions were created for cached paper PDFs as
 low-fidelity search text:
 
 - [Farrah 2023 Markdown](../../../assets/farrah_2023_cosmological_coupling_black_holes/digitization/paper_arxiv_2302.07878.md)
@@ -357,7 +357,7 @@ them only for rough keyword, section, and citation search. They do not
 constitute numerical digitization, table extraction, equation provenance, or
 QFUDS-ready evidence.
 
-Figure/image-link check: the MarkItDown text was regenerated with a local figure
+Figure/image-link check: the [MarkItDown](https://github.com/microsoft/markitdown) text was regenerated with a local figure
 reference section appended for each paper asset that exposes extracted figures.
 Each generated image link points to `../figures/extracted/...`; each source link
 points back to `../source/extracted/...`. The Lineweaver PDF has no local

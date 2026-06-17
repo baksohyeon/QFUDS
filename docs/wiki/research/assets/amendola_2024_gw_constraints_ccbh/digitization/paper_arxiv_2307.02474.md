@@ -8,17 +8,17 @@ evidence_role: reference
 depends_on:
   - asset_amendola_2024_gw_constraints_ccbh_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Amendola et al. 2024 — PageIndex Full-Text Extraction
 
 Verbatim page-by-page text extraction of arXiv:2307.02474v2 ("Constraints on
 cosmologically coupled black holes from gravitational wave observations and
-minimal formation mass", MNRAS) via PageIndex MCP `get_page_content` (14 pages).
+minimal formation mass", MNRAS) via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_page_content` (14 pages).
 Quality: `source_text_parse` — faithful text and LaTeX-equation transcription
 including Table 1 and Eqs. (1)–(23, B1–B4), higher fidelity than the prior
-MarkItDown pass, but machine-extracted and not line-for-line verified.
+[MarkItDown](https://github.com/microsoft/markitdown) pass, but machine-extracted and not line-for-line verified.
 
 Figure image links resolve to the repo PNG mirrors under
 `../figures/extracted/plots/`. Figure→file mapping is taken from the arXiv LaTeX

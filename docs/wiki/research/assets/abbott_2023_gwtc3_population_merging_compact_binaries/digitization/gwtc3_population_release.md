@@ -8,12 +8,12 @@ evidence_role: reference
 depends_on:
   - asset_abbott_2023_gwtc3_pop_digitization_index
 next_gate: targeted manual extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Abbott et al. 2023 (GWTC-3 Population) — Data Release Document
 
-MarkItDown-based markdown document for the LIGO-Virgo-KAGRA data release
+[MarkItDown](https://github.com/microsoft/markitdown)-based markdown document for the LIGO-Virgo-KAGRA data release
 accompanying "The population of merging compact binaries inferred using
 gravitational waves through GWTC-3" (LIGO P2100239; arXiv:2111.03634; PRX 13,
 011048). Zenodo record 11254021 (release v3).

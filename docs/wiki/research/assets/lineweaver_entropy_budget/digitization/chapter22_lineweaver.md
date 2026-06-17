@@ -8,16 +8,16 @@ evidence_role: reference
 depends_on:
   - asset_lineweaver_entropy_budget_digitization_index
 next_gate: targeted manual table extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Lineweaver Entropy-Budget Chapter — PageIndex Full-Text Extraction
 
 Verbatim page-by-page text extraction of "Chapter 22: The Entropy of the Universe
 and the Maximum Entropy Production Principle" (Charles H. Lineweaver, in *Beyond
-the Second Law*, Springer 2014) via PageIndex MCP `get_page_content` (13 pages).
+the Second Law*, Springer 2014) via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_page_content` (13 pages).
 Quality: `source_text_parse` — faithful text and LaTeX-equation transcription
-including Table 22.1, higher fidelity than the prior MarkItDown pass, but
+including Table 22.1, higher fidelity than the prior [MarkItDown](https://github.com/microsoft/markitdown) pass, but
 machine-extracted and not line-for-line verified.
 
 Figure note: the four in-text figures were extracted directly from the chapter

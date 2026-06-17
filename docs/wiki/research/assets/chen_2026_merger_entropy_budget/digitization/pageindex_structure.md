@@ -8,17 +8,17 @@ evidence_role: reference
 depends_on:
   - asset_chen_2026_merger_entropy_budget_digitization_index
 next_gate: targeted manual extraction before entropy-history classification
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Chen et al. 2026 — PageIndex Structure
 
 Source paper: arXiv:2601.13621 (BBH merger contribution to the cosmological entropy budget)
-PageIndex doc_name: `2601.13621v1.pdf` (15 pages)
-Parse quality: `source_text_parse` (PageIndex hierarchical TOC tree + node summaries)
-Generated: 2026-06-11 via PageIndex MCP `get_document_structure`.
+[PageIndex](https://github.com/VectifyAI/PageIndex) doc_name: `2601.13621v1.pdf` (15 pages)
+Parse quality: `source_text_parse` ([PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical TOC tree + node summaries)
+Generated: 2026-06-11 via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_document_structure`.
 
-Derived inspection product. Node summaries are PageIndex-generated; not numerical
+Derived inspection product. Node summaries are [PageIndex](https://github.com/VectifyAI/PageIndex)-generated; not numerical
 digitization or equation provenance. Use page ranges to target `get_page_content`.
 
 ## Hierarchical Outline (node_id · pages)

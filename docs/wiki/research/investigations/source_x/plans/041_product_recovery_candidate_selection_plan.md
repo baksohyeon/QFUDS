@@ -11,7 +11,7 @@ depends_on:
   - asset_chen_2026_merger_entropy_budget
   - roadmap
 next_gate: manually structure or numerically digitize the selected cached candidates; no derivation
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # 2026-06-11 Product-Recovery Candidate Selection Plan
@@ -43,7 +43,7 @@ Do not modify roadmap status.
 
 Do not claim QFUDS support.
 
-Cached papers, PageIndex full text, figures, tables, TeX source, and Zenodo
+Cached papers, [PageIndex](https://github.com/VectifyAI/PageIndex) full text, figures, tables, TeX source, and Zenodo
 assets are not QFUDS-ready products until a future extraction records units,
 redshift coverage, uncertainty route, normalization route, provenance, and
 limitations.
@@ -74,7 +74,7 @@ the extraction clearly marked as source-history structure only.
 
 | Criterion                   | Evaluation                                                                                                                                                                                              |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Asset availability          | PDF, arXiv HTML, arXiv source tar, extracted TeX, extracted figures, rendered figure PNGs, PageIndex structure, and PageIndex full text are cached under `docs/wiki/research/assets/`.                  |
+| Asset availability          | PDF, arXiv HTML, arXiv source tar, extracted TeX, extracted figures, rendered figure PNGs, [PageIndex](https://github.com/VectifyAI/PageIndex) structure, and [PageIndex](https://github.com/VectifyAI/PageIndex) full text are cached under `docs/wiki/research/assets/`.                  |
 | Markdown conversion quality | `source_text_parse`; useful for section search and equation targeting, not numerical digitization.                                                                                                      |
 | Figure/table availability   | Figure 1 contains mass-density and accretion-history constraints; Figure 2 contains parameter-space constraints. No standalone machine-readable product table or covariance product is cached.          |
 | Numerical extractability    | Medium-high. Future work should manually verify equations and units against the PDF/source and digitize figure curves or structured values only where provenance is clear.                              |
@@ -101,7 +101,7 @@ structure only.
 
 | Criterion                   | Evaluation                                                                                                                                                                                     |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Asset availability          | PDF, arXiv HTML, arXiv source tar, extracted TeX, source figure PNGs, rendered figure PNG mirrors, PageIndex structure, and PageIndex full text are cached under `docs/wiki/research/assets/`. |
+| Asset availability          | PDF, arXiv HTML, arXiv source tar, extracted TeX, source figure PNGs, rendered figure PNG mirrors, [PageIndex](https://github.com/VectifyAI/PageIndex) structure, and [PageIndex](https://github.com/VectifyAI/PageIndex) full text are cached under `docs/wiki/research/assets/`. |
 | Markdown conversion quality | `source_text_parse`; includes Table 1 and Eqs. 1-16 for targeting, but remains machine-extracted and not numerical digitization.                                                               |
 | Figure/table availability   | Figures 5-7 provide redshift entropy-history products; Table 1 provides an entropy inventory.                                                                                                  |
 | Numerical extractability    | Medium. Future work can digitize cached PNG figures and manually verify equations/captions against the PDF/source.                                                                             |

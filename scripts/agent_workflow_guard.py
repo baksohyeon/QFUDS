@@ -32,6 +32,11 @@ WORKFLOW_MARKERS = {
     ".agent/workflows/research-asset-product-workflow.md",
 }
 
+TOOL_REFERENCE_LINKS = {
+    "[PageIndex](https://github.com/VectifyAI/PageIndex)": "PageIndex",
+    "[MarkItDown](https://github.com/microsoft/markitdown)": "MarkItDown",
+}
+
 STRICT_EXTERNAL_RESEARCH_RE = re.compile(
     r"(?ix)"
     r"https?://|"
@@ -103,6 +108,10 @@ def staged_text(path: Path) -> str:
         return (ROOT / path).read_text(encoding="utf-8")
 
 
+def staged_diff(path: Path) -> str:
+    return run_git(["diff", "--cached", "--unified=0", "--", path.as_posix()])
+
+
 def file_text(path: Path, staged: bool) -> str:
     if staged:
         return staged_text(path)
@@ -134,6 +143,68 @@ def has_external_research_signal(path: Path, text: str) -> bool:
 
 def has_absence_claim(text: str) -> bool:
     return ABSENCE_CLAIM_RE.search(text) is not None
+
+
+def normalize_tool_reference_links(text: str) -> str:
+    for linked, plain in TOOL_REFERENCE_LINKS.items():
+        text = text.replace(linked, plain)
+    return text
+
+
+def canonical_tool_reference_link_text(text: str) -> str:
+    return " ".join(normalize_tool_reference_links(text).split())
+
+
+def staged_change_is_only_tool_reference_links(path: Path) -> bool:
+    diff = staged_diff(path)
+    if not diff:
+        return False
+
+    hunks: list[tuple[list[str], list[str]]] = []
+    removed: list[str] = []
+    added: list[str] = []
+
+    def flush() -> None:
+        nonlocal removed, added
+        if removed or added:
+            hunks.append((removed, added))
+        removed = []
+        added = []
+
+    for line in diff.splitlines():
+        if line.startswith(("diff --git ", "index ", "--- ", "+++ ")):
+            continue
+        if line.startswith("@@"):
+            flush()
+            continue
+        if line.startswith("-"):
+            removed.append(line[1:])
+        elif line.startswith("+"):
+            added.append(line[1:])
+        elif line.startswith(" "):
+            flush()
+
+    flush()
+
+    if not hunks:
+        return False
+
+    changed_any_tool_link = False
+    for removed_lines, added_lines in hunks:
+        if not removed_lines or not added_lines:
+            return False
+        if all(line.startswith("last_updated:") for line in removed_lines + added_lines):
+            continue
+        removed_text = "\n".join(removed_lines)
+        added_text = "\n".join(added_lines)
+        normalized_removed = canonical_tool_reference_link_text(removed_text)
+        normalized_added = canonical_tool_reference_link_text(added_text)
+        if normalized_removed != normalized_added:
+            return False
+        if removed_text != added_text:
+            changed_any_tool_link = True
+
+    return changed_any_tool_link
 
 
 def is_navigation_index(text: str) -> bool:
@@ -185,6 +256,8 @@ def main() -> int:
     failures: list[tuple[Path, list[str]]] = []
     for path in paths:
         errors = check_file(path, staged=staged)
+        if errors and staged and staged_change_is_only_tool_reference_links(path):
+            continue
         if errors:
             failures.append((path, errors))
 

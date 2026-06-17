@@ -8,16 +8,16 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: PageIndex paper parse only if paper-body provenance is needed
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO MarkItDown arXiv Page Conversion
 
 Quality state: `low_fidelity_search_text`.
 
-This is a direct MarkItDown conversion of the arXiv abstract page
+This is a direct [MarkItDown](https://github.com/microsoft/markitdown) conversion of the arXiv abstract page
 <https://arxiv.org/abs/2007.08995>. It is a source-page aid, not a replacement
-for PageIndex paper parsing.
+for [PageIndex](https://github.com/VectifyAI/PageIndex) paper parsing.
 
 [Skip to main content](#content)
 

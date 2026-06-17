@@ -8,14 +8,14 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: download raw FITS assets only under a size-aware plan
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO MarkItDown SDSS Data-Vector/Covariance Directory Conversion
 
 Quality state: `low_fidelity_search_text`.
 
-This is a direct MarkItDown conversion of the SDSS SVN Lyman-alpha
+This is a direct [MarkItDown](https://github.com/microsoft/markitdown) conversion of the SDSS SVN Lyman-alpha
 data-vector/covariance directory page
 <https://svn.sdss.org/public/data/eboss/DR16cosmo/tags/v1_0_1/dataveccov/lya_forest/>.
 

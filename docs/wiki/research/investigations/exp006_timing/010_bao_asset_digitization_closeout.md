@@ -11,7 +11,7 @@ depends_on:
   - asset_eboss_dr16_lya_bao_2020_likelihood_release_parse
   - roadmap
 next_gate: no likelihood experiment until source-product choices and covariance semantics are specified
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # 2026-06-12 BAO Asset Digitization Closeout
@@ -40,7 +40,7 @@ It does not change roadmap status.
 | Asset product | Quality state | Role |
 | --- | --- | --- |
 | [DESI DR2 data-release parse](../../assets/desi_dr2_lya_bao_2025/digitization/desi_dr2_lya_bao_data_release.md) | `source_text_parse` | Markdown inspection record for the cached Zenodo archive and source pages |
-| [DESI DR2 archive MarkItDown index](../../assets/desi_dr2_lya_bao_2025/digitization/desi_dr2_lya_bao_archive_markitdown_index.md) | `low_fidelity_search_text` | MarkItDown index for text-like members of `desi-dr2-lya-bao-figdata.tgz` |
+| [DESI DR2 archive [MarkItDown](https://github.com/microsoft/markitdown) index](../../assets/desi_dr2_lya_bao_2025/digitization/desi_dr2_lya_bao_archive_markitdown_index.md) | `low_fidelity_search_text` | [MarkItDown](https://github.com/microsoft/markitdown) index for text-like members of `desi-dr2-lya-bao-figdata.tgz` |
 | [DESI DR2 digitization index](../../assets/desi_dr2_lya_bao_2025/digitization/README.md) | `source_text_parse` | asset-local digitization manifest |
 | [eBOSS DR16 likelihood-release parse](../../assets/eboss_dr16_lya_bao_2020/digitization/eboss_dr16_lya_bao_likelihood_release.md) | `source_text_parse` | Markdown inspection record for the cached SDSS likelihood grids, source pages, and raw-product listing |
 | [eBOSS DR16 digitization index](../../assets/eboss_dr16_lya_bao_2020/digitization/README.md) | `source_text_parse` | asset-local digitization manifest |
@@ -54,8 +54,8 @@ It does not change roadmap status.
 ## Method
 
 Both assets were classified as data-release assets, not paper-PDF assets.
-PageIndex was not used because no paper body needed to be parsed in this pass.
-MarkItDown 0.1.6 was installed and used to convert cached upstream README files
+[PageIndex](https://github.com/VectifyAI/PageIndex) was not used because no paper body needed to be parsed in this pass.
+[MarkItDown](https://github.com/microsoft/markitdown) 0.1.6 was installed and used to convert cached upstream README files
 and source pages. The curated Markdown products were assembled from cached
 source README, CSV, TXT, XML, and source-page conversion files.
 
@@ -64,7 +64,7 @@ source README, CSV, TXT, XML, and source-page conversion files.
 The DESI DR2 parse records:
 
 - upstream figure-data file map;
-- MarkItDown conversions for text-like members of the extracted Zenodo archive;
+- [MarkItDown](https://github.com/microsoft/markitdown) conversions for text-like members of the extracted Zenodo archive;
 - compact `D_M/r_d`, `D_H/r_d`, and `rho` source values from `dmdh_cmb.txt`;
 - Figure 11 `ap`, `at` rows from `data_points_2D.csv`.
 

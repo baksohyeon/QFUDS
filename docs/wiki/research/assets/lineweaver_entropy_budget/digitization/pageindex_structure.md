@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_lineweaver_entropy_budget_digitization_index
 next_gate: targeted manual table extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Lineweaver — Entropy Budget Chapter — PageIndex Structure
@@ -16,11 +16,11 @@ last_updated: 2026-06-11
 Source: "The Entropy of the Universe and the Maximum Entropy Production Principle"
 (Chapter 22, Lineweaver). Source URL:
 <https://www.mso.anu.edu.au/~charley/papers/Chapter22Lineweaver.pdf>
-PageIndex doc_name: `Chapter22Lineweaver.pdf` (13 pages)
-Parse quality: `source_text_parse` (PageIndex hierarchical TOC tree + node summaries)
-Generated: 2026-06-11 via PageIndex MCP `get_document_structure`.
+[PageIndex](https://github.com/VectifyAI/PageIndex) doc_name: `Chapter22Lineweaver.pdf` (13 pages)
+Parse quality: `source_text_parse` ([PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical TOC tree + node summaries)
+Generated: 2026-06-11 via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_document_structure`.
 
-Derived inspection product. Node summaries are PageIndex-generated; not numerical
+Derived inspection product. Node summaries are [PageIndex](https://github.com/VectifyAI/PageIndex)-generated; not numerical
 digitization or equation provenance. Use page ranges to target `get_page_content`.
 
 ## Hierarchical Outline (node_id · pages)
@@ -43,4 +43,4 @@ digitization or equation provenance. Use page ranges to target `get_page_content
   (22.1.2, p3–4). This is the table whose values still require manual numeric
   extraction (units + normalization) before numerical reuse.
 - Entropy gap discussion: node 0005 (p4–7).
-- Note: this cache has no extracted figure files; PageIndex parse is text-tree only.
+- Note: this cache has no extracted figure files; [PageIndex](https://github.com/VectifyAI/PageIndex) parse is text-tree only.

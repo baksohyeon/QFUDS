@@ -11,7 +11,7 @@ depends_on:
   - audit_2026_06_11_product_recovery_execution_plan
   - asset_chen_2026_merger_entropy_budget
 next_gate: no derivation; remains data_product_blocked unless candidate X and missing fields are supplied later
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Chen 2026 Merger Entropy History Recovery Extract
@@ -50,7 +50,7 @@ It does not turn Chen 2026 into QFUDS-ready evidence.
 | Source type | Source file | Inspection status |
 | --- | --- | --- |
 | Source PDF | [paper_arxiv_2601.13621.pdf](../source/paper_arxiv_2601.13621.pdf) | File present; direct PDF text extraction unavailable in this environment. |
-| PageIndex Markdown | [paper_arxiv_2601.13621.md](paper_arxiv_2601.13621.md) | Used for page, table, equation, figure, and caption locations. |
+| [PageIndex](https://github.com/VectifyAI/PageIndex) Markdown | [paper_arxiv_2601.13621.md](paper_arxiv_2601.13621.md) | Used for page, table, equation, figure, and caption locations. |
 | TeX source | [sample631.tex](../source/extracted/sample631.tex) | Used to verify table row, equation labels, source conventions, and figure source paths. |
 | Figure 5 PNG | [growth_entropy_gwtc4_only.png](../figures/extracted/growth_entropy_gwtc4_only.png) | Inspected as source figure path; not digitized. |
 | Figure 6 PNG | [cumulative_ent_den_gwtc4_only.png](../figures/extracted/cumulative_ent_den_gwtc4_only.png) | Inspected as source figure path; not digitized. |
@@ -62,18 +62,18 @@ Quality state:
 `manual_structured_extract`.
 
 Extraction method:
-manual extraction from PageIndex Markdown and TeX source, with source figure
+manual extraction from [PageIndex](https://github.com/VectifyAI/PageIndex) Markdown and TeX source, with source figure
 paths recorded but no pixel-level digitization.
 
 No figure values were digitized. Figure entries below record values only when
-they are stated in the PageIndex Markdown or TeX source text.
+they are stated in the [PageIndex](https://github.com/VectifyAI/PageIndex) Markdown or TeX source text.
 
 ## Structured Extract
 
 | product_id | quantity | value | value_unit | z | a | ln_a | source_location | extraction_method | quality_state | qfuds_role |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `chen_2026_table1_bbh_merger_delta_s_entropy_density` | `S_BH(a)` | `7.1e12` | `k m^-3` | present inventory; redshift not specified | missing | missing | Page 5, Table 1, row `BBH mergers Delta S`; TeX `tab:budget` row | manual table extraction from PageIndex and TeX | `manual_structured_extract` | normalization check |
-| `chen_2026_table1_bbh_merger_delta_s_entropy` | `S_BH(a)` | `1.1e93` | `k` | present inventory; redshift not specified | missing | missing | Page 5, Table 1, row `BBH mergers Delta S`; TeX `tab:budget` row | manual table extraction from PageIndex and TeX | `manual_structured_extract` | normalization check |
+| `chen_2026_table1_bbh_merger_delta_s_entropy_density` | `S_BH(a)` | `7.1e12` | `k m^-3` | present inventory; redshift not specified | missing | missing | Page 5, Table 1, row `BBH mergers Delta S`; TeX `tab:budget` row | manual table extraction from [PageIndex](https://github.com/VectifyAI/PageIndex) and TeX | `manual_structured_extract` | normalization check |
+| `chen_2026_table1_bbh_merger_delta_s_entropy` | `S_BH(a)` | `1.1e93` | `k` | present inventory; redshift not specified | missing | missing | Page 5, Table 1, row `BBH mergers Delta S`; TeX `tab:budget` row | manual table extraction from [PageIndex](https://github.com/VectifyAI/PageIndex) and TeX | `manual_structured_extract` | normalization check |
 | `chen_2026_fig5_total_entropy_peak` | `S_BH(a)` | `1.43e90` | `k` | approximately `4.55` | approximately `0.180` | approximately `-1.714` | Page 8, Figure 5 text and caption; file `figures/extracted/growth_entropy_gwtc4_only.png` | manual figure-text extraction | `manual_structured_extract` | source-history candidate |
 | `chen_2026_fig5_entropy_density_peak_redshift_only` | `S_BH(a)` | missing | `k m^-3` expected for entropy density, value not stated in text | approximately `2.79` | approximately `0.264` | approximately `-1.333` | Page 8, Figure 5 text and caption; file `figures/extracted/growth_entropy_gwtc4_only.png` | manual figure-text extraction | `manual_structured_extract` | source-history candidate |
 | `chen_2026_fig5_low_z_growth_power_law` | `S_BH(a)` | `S_growth = 1.46e88 * z^2.37` | `k` | `z <= 0.5` | `a >= 0.667` | `ln_a >= -0.405` | Page 8, Figure 5 text; Figure 5 caption | manual figure-text extraction | `manual_structured_extract` | source-history candidate |
@@ -87,16 +87,16 @@ they are stated in the PageIndex Markdown or TeX source text.
 
 | product_id | units | redshift coverage | uncertainty route | normalization route | provenance | candidate X boundary |
 | --- | --- | --- | --- | --- | --- | --- |
-| `chen_2026_table1_bbh_merger_delta_s_entropy_density` | verified against PageIndex and TeX as `k m^-3`; source PDF not directly text-checked | present inventory only; no redshift | `-3.5e12`, `+9.2e12` from Table 1 | entropy density computed by dividing by `V_obs`; TeX records `V_obs = 3.52e80 m^3` with uncertainty | PageIndex page 5 Table 1; TeX `tab:budget` | missing |
-| `chen_2026_table1_bbh_merger_delta_s_entropy` | verified against PageIndex and TeX as `k`; source PDF not directly text-checked | present inventory only; no redshift | `-0.6e93`, `+1.5e93` from Table 1 | observable-universe entropy inventory | PageIndex page 5 Table 1; TeX `tab:budget` | missing |
-| `chen_2026_fig5_total_entropy_peak` | source text states `k` | Figure 5 covers `z in [0.01,20]`; this row is peak at `z ~= 4.55` | `-0.71e90`, `+1.91e90` stated in Figure 5 text | merger-generated entropy in comoving frame; population/model convention not fully reusable without source code | PageIndex page 8 Figure 5 text/caption; PNG path recorded | missing |
-| `chen_2026_fig5_entropy_density_peak_redshift_only` | unit available as entropy density, value missing | Figure 5 covers `z in [0.01,20]`; peak redshift only at `z ~= 2.79` | missing for value because value is not stated in text | merger-generated entropy density in comoving frame | PageIndex page 8 Figure 5 text/caption; PNG path recorded | missing |
-| `chen_2026_fig5_low_z_growth_power_law` | source text states `k` for `S_growth` | low-redshift approximation only, `z <= 0.5` | missing | source fit from Figure 5 discussion; no covariance or residuals | PageIndex page 8 Figure 5 text | missing |
-| `chen_2026_fig5_intermediate_high_z_slopes` | proportionality only; normalized values missing | intermediate and high-redshift regimes around the Figure 5 peak | missing | Figure 5 slope description only | PageIndex page 8 Figure 5 text | missing |
-| `chen_2026_fig6_cmb_crossover_redshift` | not an entropy scalar | crossover redshift `12.6`; Figure 6 covers `z in [0.01,20]` | `-3.5`, `+1.5` in redshift | cumulative entropy compared with CMB photon entropy | PageIndex page 9-10 Section 4.1 and Figure 6 caption | missing |
-| `chen_2026_fig6_pbh_stellar_crossover_redshift` | not an entropy scalar | crossover redshift `9.17`; Figure 6 covers `z in [0.01,20]` | `-1.01`, `+1.31` in redshift | PBH fraction comparator, not a QFUDS route | PageIndex page 10 Figure 6 text/caption | missing |
-| `chen_2026_fig7_retrospective_entropy_density_peak` | source text states `k m^-3` | peak at `z=4.33`; Figure 7 integrates over `z in [0.01,20]` | `-2.00e12`, `+5.35e12` | retrospective entropy density normalized by comoving volume | PageIndex page 11-12 Equation 16 and Figure 7 text/caption | missing |
-| `chen_2026_eq16_retrospective_entropy_density_definition` | equation-level density definition only | integration over `z in [0.01,20]` | missing | cumulative entropy divided by enclosed comoving volume | PageIndex page 11 Equation 16 and PageIndex page 12 Figure 7 caption | missing |
+| `chen_2026_table1_bbh_merger_delta_s_entropy_density` | verified against [PageIndex](https://github.com/VectifyAI/PageIndex) and TeX as `k m^-3`; source PDF not directly text-checked | present inventory only; no redshift | `-3.5e12`, `+9.2e12` from Table 1 | entropy density computed by dividing by `V_obs`; TeX records `V_obs = 3.52e80 m^3` with uncertainty | [PageIndex](https://github.com/VectifyAI/PageIndex) page 5 Table 1; TeX `tab:budget` | missing |
+| `chen_2026_table1_bbh_merger_delta_s_entropy` | verified against [PageIndex](https://github.com/VectifyAI/PageIndex) and TeX as `k`; source PDF not directly text-checked | present inventory only; no redshift | `-0.6e93`, `+1.5e93` from Table 1 | observable-universe entropy inventory | [PageIndex](https://github.com/VectifyAI/PageIndex) page 5 Table 1; TeX `tab:budget` | missing |
+| `chen_2026_fig5_total_entropy_peak` | source text states `k` | Figure 5 covers `z in [0.01,20]`; this row is peak at `z ~= 4.55` | `-0.71e90`, `+1.91e90` stated in Figure 5 text | merger-generated entropy in comoving frame; population/model convention not fully reusable without source code | [PageIndex](https://github.com/VectifyAI/PageIndex) page 8 Figure 5 text/caption; PNG path recorded | missing |
+| `chen_2026_fig5_entropy_density_peak_redshift_only` | unit available as entropy density, value missing | Figure 5 covers `z in [0.01,20]`; peak redshift only at `z ~= 2.79` | missing for value because value is not stated in text | merger-generated entropy density in comoving frame | [PageIndex](https://github.com/VectifyAI/PageIndex) page 8 Figure 5 text/caption; PNG path recorded | missing |
+| `chen_2026_fig5_low_z_growth_power_law` | source text states `k` for `S_growth` | low-redshift approximation only, `z <= 0.5` | missing | source fit from Figure 5 discussion; no covariance or residuals | [PageIndex](https://github.com/VectifyAI/PageIndex) page 8 Figure 5 text | missing |
+| `chen_2026_fig5_intermediate_high_z_slopes` | proportionality only; normalized values missing | intermediate and high-redshift regimes around the Figure 5 peak | missing | Figure 5 slope description only | [PageIndex](https://github.com/VectifyAI/PageIndex) page 8 Figure 5 text | missing |
+| `chen_2026_fig6_cmb_crossover_redshift` | not an entropy scalar | crossover redshift `12.6`; Figure 6 covers `z in [0.01,20]` | `-3.5`, `+1.5` in redshift | cumulative entropy compared with CMB photon entropy | [PageIndex](https://github.com/VectifyAI/PageIndex) page 9-10 Section 4.1 and Figure 6 caption | missing |
+| `chen_2026_fig6_pbh_stellar_crossover_redshift` | not an entropy scalar | crossover redshift `9.17`; Figure 6 covers `z in [0.01,20]` | `-1.01`, `+1.31` in redshift | PBH fraction comparator, not a QFUDS route | [PageIndex](https://github.com/VectifyAI/PageIndex) page 10 Figure 6 text/caption | missing |
+| `chen_2026_fig7_retrospective_entropy_density_peak` | source text states `k m^-3` | peak at `z=4.33`; Figure 7 integrates over `z in [0.01,20]` | `-2.00e12`, `+5.35e12` | retrospective entropy density normalized by comoving volume | [PageIndex](https://github.com/VectifyAI/PageIndex) page 11-12 Equation 16 and Figure 7 text/caption | missing |
+| `chen_2026_eq16_retrospective_entropy_density_definition` | equation-level density definition only | integration over `z in [0.01,20]` | missing | cumulative entropy divided by enclosed comoving volume | [PageIndex](https://github.com/VectifyAI/PageIndex) page 11 Equation 16 and [PageIndex](https://github.com/VectifyAI/PageIndex) page 12 Figure 7 caption | missing |
 
 ## Lane B Outcome
 
@@ -108,7 +108,7 @@ It does not recover a standalone machine-readable `S_BH(a)` curve, does not
 recover `dS_BH / dln(a)`, and does not supply a candidate `X` boundary.
 
 Units are partly verified. Table 1 entropy and entropy-density rows match
-PageIndex and TeX source. Source-PDF direct text checking was unavailable in
+[PageIndex](https://github.com/VectifyAI/PageIndex) and TeX source. Source-PDF direct text checking was unavailable in
 this environment.
 
 Uncertainty route is partial. Table 1 uncertainties, peak/crossover redshift

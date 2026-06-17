@@ -8,14 +8,14 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: download raw FITS assets only under a size-aware plan
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO MarkItDown Data-Vector/Covariance README Conversion
 
 Quality state: `low_fidelity_search_text`.
 
-This is a direct MarkItDown conversion of
+This is a direct [MarkItDown](https://github.com/microsoft/markitdown) conversion of
 `../source/dataveccov_lya_forest_README.txt`. Use
 [eBOSS DR16 Lyman-alpha BAO likelihood-release parse](eboss_dr16_lya_bao_likelihood_release.md)
 for the curated source-file inspection record.

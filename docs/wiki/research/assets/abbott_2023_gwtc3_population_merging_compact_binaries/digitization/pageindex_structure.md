@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_abbott_2023_gwtc3_pop_digitization_index
 next_gate: targeted page extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Abbott et al. 2023 (GWTC-3 Population) — PageIndex Structure
@@ -16,7 +16,7 @@ last_updated: 2026-06-11
 Hierarchical section outline of the published paper "Population of Merging Compact
 Binaries Inferred Using Gravitational Waves through GWTC-3" (R. Abbott et al.,
 LIGO/Virgo/KAGRA; Phys. Rev. X 13, 011048; arXiv:2111.03634v5), generated via
-PageIndex MCP `get_document_structure`. The paper is 75 pages (main text
+[PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_document_structure`. The paper is 75 pages (main text
 pp. 1–36; appendices pp. 37–53; references pp. 53–65; author list/affiliations
 pp. 65–75). Quality: `source_text_parse`. Use page ranges to target
 `get_page_content` for exact text.

@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_chen_2026_merger_entropy_budget
 next_gate: targeted manual extraction before entropy-history classification
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Chen 2026 Digitization Assets
@@ -16,8 +16,8 @@ last_updated: 2026-06-11
 This folder stores derived inspection products for the Chen, Jani, and Kephart
 2026 asset.
 
-The full-text Markdown was regenerated via PageIndex MCP (`source_text_parse`),
-replacing the earlier low-fidelity MarkItDown pass. It is a faithful page-by-page
+The full-text Markdown was regenerated via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP (`source_text_parse`),
+replacing the earlier low-fidelity [MarkItDown](https://github.com/microsoft/markitdown) pass. It is a faithful page-by-page
 text and LaTeX-equation transcription (including the updated entropy budget
 Table 1 and Eqs. 1–16) with figure image links wired to the repo PNG mirrors
 under `../figures/extracted/`. It is machine-extracted and not line-for-line
@@ -31,10 +31,10 @@ PNGs, then store the curated output here.
 ## Records
 
 - [PageIndex full-text extraction](paper_arxiv_2601.13621.md) - faithful
-  page-by-page text + LaTeX transcription via PageIndex MCP (`source_text_parse`),
-  with working figure image links. Supersedes the prior MarkItDown conversion. - `low_fidelity_search_text`.
+  page-by-page text + LaTeX transcription via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP (`source_text_parse`),
+  with working figure image links. Supersedes the prior [MarkItDown](https://github.com/microsoft/markitdown) conversion. - `low_fidelity_search_text`.
 - [PageIndex structure](pageindex_structure.md) - hierarchical TOC tree with
-  per-node page ranges and summaries, generated via PageIndex MCP
+  per-node page ranges and summaries, generated via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP
   (`source_text_parse`). Inspection aid for section targeting; not numeric.
 - [Merger entropy history recovery extract](chen_2026_merger_entropy_history_recovery_extract.md) -
   manual structured extraction for the retained Source-X Lane B target. It is a

@@ -9,7 +9,7 @@ depends_on:
   - lit_farrah_2023_cosmological_coupling_black_holes
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion or digitize figures if Farrah 2023 is reused as a source-history comparator
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Farrah 2023 Cosmological Coupling Black-Hole Assets
@@ -56,7 +56,7 @@ Farrah 2023 product-absence claim.
 ## Known Limitations
 
 The source bundle exposes TeX and figure assets, and the PDF now has a
-MarkItDown Markdown conversion for text inspection, plus a PageIndex hierarchical
+[MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion for text inspection, plus a [PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical
 structure parse (`source_text_parse`,
 [pageindex_structure.md](digitization/pageindex_structure.md)) for section/page
 targeting. Neither is numerical digitization; the asset state
@@ -64,5 +64,5 @@ remains `asset_extracted_not_digitized`. No machine-readable `rho_BH(a)`,
 covariance, posterior sample, or QFUDS normalization product was identified in
 the extracted source tree.
 
-The MarkItDown conversion includes six local figure references. Rendered PNGs
+The [MarkItDown](https://github.com/microsoft/markitdown) conversion includes six local figure references. Rendered PNGs
 live under `figures/extracted/`, with source links back to `source/extracted/`.

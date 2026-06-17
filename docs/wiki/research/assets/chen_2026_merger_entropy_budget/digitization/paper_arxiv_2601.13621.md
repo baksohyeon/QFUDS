@@ -8,16 +8,16 @@ evidence_role: reference
 depends_on:
   - asset_chen_2026_merger_entropy_budget_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Chen, Jani, and Kephart 2026 — PageIndex Full-Text Extraction
 
 Verbatim page-by-page text extraction of arXiv:2601.13621v1 ("Cosmological Budget
-of Entropy from Merging Black Holes") via PageIndex MCP `get_page_content`
+of Entropy from Merging Black Holes") via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_page_content`
 (15 pages). Quality: `source_text_parse` — faithful text and LaTeX-equation
 transcription including Table 1 (updated entropy budget) and Eqs. (1)–(16),
-higher fidelity than the prior MarkItDown pass, but machine-extracted and not
+higher fidelity than the prior [MarkItDown](https://github.com/microsoft/markitdown) pass, but machine-extracted and not
 line-for-line verified.
 
 Figure image links resolve to the repo PNG mirrors under `../figures/extracted/`.

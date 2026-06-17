@@ -8,16 +8,16 @@ evidence_role: reference
 depends_on:
   - asset_croker_2024_desi_coupled_black_holes_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Croker et al. 2024 — PageIndex Full-Text Extraction
 
 Verbatim page-by-page text extraction of arXiv:2405.12282v3 ("DESI Dark Energy
-Time Evolution is Recovered by Cosmologically Coupled Black Holes") via PageIndex
+Time Evolution is Recovered by Cosmologically Coupled Black Holes") via [PageIndex](https://github.com/VectifyAI/PageIndex)
 MCP `get_page_content`. Quality: `source_text_parse` — faithful text and
 LaTeX-equation transcription of the main body (pages 1–13) including Table 1 (fit
-results) and Eqs. (1)–(10), higher fidelity than the prior MarkItDown pass, but
+results) and Eqs. (1)–(10), higher fidelity than the prior [MarkItDown](https://github.com/microsoft/markitdown) pass, but
 machine-extracted and not line-for-line verified. Pages 14–20 are the
 bibliography (~128 references); the captured leading entries are reproduced and
 the remainder is noted (full list in the source PDF).
@@ -209,5 +209,5 @@ Leading entries (captured):
 
 The full reference list (~128 entries, [1]–[128]) continues on pages 14–20 of the
 source PDF (`../source/paper_arxiv_2405.12282.pdf`); only the leading entries were
-captured in this extraction pass. Re-run PageIndex `get_page_content` on pages
+captured in this extraction pass. Re-run [PageIndex](https://github.com/VectifyAI/PageIndex) `get_page_content` on pages
 14–20 if the complete bibliography is needed verbatim.

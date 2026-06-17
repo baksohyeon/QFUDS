@@ -8,14 +8,14 @@ evidence_role: reference
 depends_on:
   - asset_lacy_2024_smbh_accretion_coupling_constraints_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Lacy et al. 2024 — PageIndex Full-Text Extraction
 
-Verbatim page-by-page text extraction of arXiv:2312.12344v1 via PageIndex MCP
+Verbatim page-by-page text extraction of arXiv:2312.12344v1 via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP
 `get_page_content` (8 pages). Quality: `source_text_parse` — faithful text and
-LaTeX-equation extraction, higher fidelity than the MarkItDown conversion, but
+LaTeX-equation extraction, higher fidelity than the [MarkItDown](https://github.com/microsoft/markitdown) conversion, but
 machine-extracted and not manually verified line-for-line. Figure image links
 resolve to the repo PNG mirrors under `../figures/extracted/`. Mapping:
 Figure 1 → `scenario1_revised.png`; Figure 2 → `Salpeter_plot_revised.png`.

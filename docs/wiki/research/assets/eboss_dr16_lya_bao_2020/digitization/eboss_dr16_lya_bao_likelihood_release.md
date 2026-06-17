@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: manual structured extraction before BAO penalty or likelihood use
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO Likelihood-Release Parse
@@ -36,9 +36,9 @@ likelihood implementation.
 | BAO-only likelihood directory | <https://svn.sdss.org/public/data/eboss/DR16cosmo/tags/v1_0_1/likelihoods/BAO-only/> |
 | Data-vector/covariance directory | <https://svn.sdss.org/public/data/eboss/DR16cosmo/tags/v1_0_1/dataveccov/lya_forest/> |
 | Source-page conversions | [SDSS final BAO/RSD page](markitdown_sdss_final_bao_rsd_measurements.md), [BAO-only directory](markitdown_sdss_bao_only_directory.md), [data-vector/covariance directory](markitdown_sdss_dataveccov_lya_forest_directory.md), [arXiv page](markitdown_arxiv_2007.08995.md) |
-| Parse method | source-page conversion, source-file inspection, MarkItDown README conversion, and Markdown assembly |
-| PageIndex used | no; no paper PDF body was parsed |
-| MarkItDown used | yes, for [MarkItDown BAO-only README conversion](markitdown_BAO-only_README.md) |
+| Parse method | source-page conversion, source-file inspection, [MarkItDown](https://github.com/microsoft/markitdown) README conversion, and Markdown assembly |
+| [PageIndex](https://github.com/VectifyAI/PageIndex) used | no; no paper PDF body was parsed |
+| [MarkItDown](https://github.com/microsoft/markitdown) used | yes, for [MarkItDown BAO-only README conversion](markitdown_BAO-only_README.md) |
 
 ## Cached Likelihood Files
 

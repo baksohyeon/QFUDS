@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_abbott_2023_gwtc3_population_merging_compact_binaries
 next_gate: targeted manual extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Abbott 2023 GWTC-3 Population Digitization Assets
@@ -27,7 +27,7 @@ verified. They must not be treated as numerical digitization or audited provenan
 
 - [Paper full text](paper_arxiv_2111.03634.md) - the complete published paper
   (arXiv:2111.03634v5, Phys. Rev. X 13, 011048), all 75 pages page-by-page via
-  PageIndex: the full narrative (Sections I–XI) and all appendices (A–E)
+  [PageIndex](https://github.com/VectifyAI/PageIndex): the full narrative (Sections I–XI) and all appendices (A–E)
   transcribed with every numbered equation verbatim. The six large numerical
   tables (I–IV, XV, XVI) and 34 figures are referenced to the data-release
   document; the reference list and author affiliations (pp. 52–75) are summarized.
@@ -37,7 +37,7 @@ verified. They must not be treated as numerical digitization or audited provenan
   six numerical tables (Tables I–IV, XV, XVI) converted from the release CSVs,
   and an inventory of all 34 paper figures (high-resolution, 2000 px) with
   working image links to the PNG mirrors under `../figures/extracted/figures/`.
-- [Release notes (converted)](zenodo_README.md) - MarkItDown conversion of
+- [Release notes (converted)](zenodo_README.md) - [MarkItDown](https://github.com/microsoft/markitdown) conversion of
   `source/zenodo_README.txt`.
 - [Reproduction notes (converted)](zenodo_README_GWTC-3-population-data.md) -
-  MarkItDown conversion of `source/zenodo_README_GWTC-3-population-data.txt`.
+  [MarkItDown](https://github.com/microsoft/markitdown) conversion of `source/zenodo_README_GWTC-3-population-data.txt`.

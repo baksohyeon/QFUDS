@@ -8,17 +8,17 @@ evidence_role: reference
 depends_on:
   - asset_li_2025_desi_dr2_sign_reversal_ide_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Li and Zhang 2025 — PageIndex Full-Text Extraction
 
 Verbatim page-by-page text extraction of arXiv:2506.18477v2 ("Cosmic
 sign-reversal: non-parametric reconstruction of interacting dark energy with DESI
-DR2") via PageIndex MCP `get_page_content`. Quality: `source_text_parse` —
+DR2") via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_page_content`. Quality: `source_text_parse` —
 faithful text and LaTeX-equation transcription of the main body and appendices
 (pages 1–14) including Tables 1–3 and Eqs. (1)–(10), higher fidelity than the
-prior MarkItDown pass, but machine-extracted and not line-for-line verified.
+prior [MarkItDown](https://github.com/microsoft/markitdown) pass, but machine-extracted and not line-for-line verified.
 Pages 14–20 are the bibliography (118 references); the captured leading entries
 are reproduced and the remainder is noted.
 
@@ -228,5 +228,5 @@ Leading entries (captured):
 
 The full reference list (118 entries, [1]–[118]) continues on pages 14–20 of the
 source PDF (`../source/paper_arxiv_2506.18477v2.pdf`); only the leading entries
-were captured in this extraction pass. Re-run PageIndex `get_page_content` on
+were captured in this extraction pass. Re-run [PageIndex](https://github.com/VectifyAI/PageIndex) `get_page_content` on
 pages 14–20 if the complete bibliography is needed verbatim.

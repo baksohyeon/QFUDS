@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_abbott_2023_gwtc3_pop_digitization_index
 next_gate: targeted manual verification before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Abbott et al. 2023 (GWTC-3 Population) — Full Paper Text
@@ -16,7 +16,7 @@ last_updated: 2026-06-11
 Complete page-by-page text of "Population of Merging Compact Binaries Inferred
 Using Gravitational Waves through GWTC-3" (R. Abbott et al., LIGO/Virgo/KAGRA;
 Phys. Rev. X 13, 011048 (2023); arXiv:2111.03634v5, 75 pages), extracted via
-PageIndex MCP `get_page_content`. Quality: `source_text_parse`, machine-extracted
+[PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_page_content`. Quality: `source_text_parse`, machine-extracted
 and not line-for-line verified. Coverage: every page (1–75) is represented in
 order. The full section narrative (Sections I–XI) and all appendices (A–E) are
 transcribed, with all numbered equations [(1)–(21), (B1)–(B25), (A1)–(C2)] given

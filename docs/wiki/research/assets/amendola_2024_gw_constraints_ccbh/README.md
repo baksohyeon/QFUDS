@@ -9,7 +9,7 @@ depends_on:
   - lit_amendola_2024_gw_constraints_ccbh
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: code checkout or table extraction if CCBH constraint reproduction is needed
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Amendola 2024 GW Constraint CCBH Assets
@@ -62,8 +62,8 @@ constraints from QFUDS-ready source products.
 
 ## Known Limitations
 
-The PDF now has a MarkItDown Markdown conversion for text inspection, plus a
-PageIndex hierarchical structure parse (`source_text_parse`,
+The PDF now has a [MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion for text inspection, plus a
+[PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical structure parse (`source_text_parse`,
 [pageindex_structure.md](digitization/pageindex_structure.md)) for section/page
 targeting. Neither is
 numerical digitization; the asset state remains `asset_extracted_not_digitized`.
@@ -71,5 +71,5 @@ The GitHub repositories were not cloned in this pass. Repository metadata and RE
 snapshots were cached only. Reproducing constraints requires a separate code
 checkout and LVK input setup.
 
-The MarkItDown conversion includes twenty local figure references. Rendered PNGs
+The [MarkItDown](https://github.com/microsoft/markitdown) conversion includes twenty local figure references. Rendered PNGs
 live under `figures/extracted/`, with source links back to `source/extracted/`.

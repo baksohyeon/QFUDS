@@ -17,10 +17,10 @@ does not perform `manual_structured_extract` or `numeric_digitized`.
 
 ## Prerequisites: PageIndex MCP
 
-Paper full-text and structure extraction require the PageIndex MCP server.
+Paper full-text and structure extraction require the [PageIndex](https://github.com/VectifyAI/PageIndex) MCP server.
 
-- Cowork: add the PageIndex connector in Settings (one click).
-- Claude Code / Codex: register the same PageIndex API key in the MCP server
+- Cowork: add the [PageIndex](https://github.com/VectifyAI/PageIndex) connector in Settings (one click).
+- Claude Code / Codex: register the same [PageIndex](https://github.com/VectifyAI/PageIndex) API key in the MCP server
   config JSON.
 - Never commit the API key. Keep it in environment variables or local MCP
   config only; ensure it is git-ignored.
@@ -28,7 +28,7 @@ Paper full-text and structure extraction require the PageIndex MCP server.
   `browse_documents` (and `get_document_image` only for inspection — do not write
   base64 into files).
 
-MarkItDown is required for non-paper (data-release) assets:
+[MarkItDown](https://github.com/microsoft/markitdown) is required for non-paper (data-release) assets:
 `pip install 'markitdown[all]' --break-system-packages`.
 
 Poppler and ImageMagick are required for figures: `pdftocairo`, `pdftoppm`,
@@ -53,8 +53,8 @@ and `digitization/` contents. Classify the asset as:
 
 Pick the output route from the classification:
 
-- `paper-PDF` -> PageIndex structure + full text (Phases 2-4).
-- `data-release` -> MarkItDown conversion + table/figure inventory (Phase 5).
+- `paper-PDF` -> [PageIndex](https://github.com/VectifyAI/PageIndex) structure + full text (Phases 2-4).
+- `data-release` -> [MarkItDown](https://github.com/microsoft/markitdown) conversion + table/figure inventory (Phase 5).
 
 ## Phase 2: Ingest and Structure (PageIndex)
 
@@ -70,7 +70,7 @@ Call `get_page_content` in page chunks (about 6-8 pages; responses over ~50KB ar
 persisted to a temp file, so prefer smaller inline chunks). Write
 `digitization/paper_<id>.md` (or the existing source-named file) page by page
 with `## Page N` markers, preserving LaTeX equations verbatim. This output
-*replaces* any low-fidelity MarkItDown conversion of the same paper.
+*replaces* any low-fidelity [MarkItDown](https://github.com/microsoft/markitdown) conversion of the same paper.
 
 For large papers, build the file incrementally with a quoted bash heredoc
 (`cat >> file <<'EOF' ... EOF`) so the growing file is not re-read and `$` and
@@ -85,7 +85,7 @@ Authoritative mapping. Parse each `\begin{figure} ... \includegraphics{} ...
 \caption{} ... \end{figure}` block in the arXiv `.tex` source to obtain the exact
 figure-number-to-file mapping. Do not guess from captions. If the `.tex` is a
 draft superset, reconcile against the figures that actually appear in the
-compiled PDF (via PageIndex page content).
+compiled PDF (via [PageIndex](https://github.com/VectifyAI/PageIndex) page content).
 
 Coverage audit. For each asset compare the count of source figure PDFs, the count
 of PNG mirrors under `figures/extracted/`, and the count of figures referenced in
@@ -148,8 +148,8 @@ or temp files remain.
 - Mount constraints: bash `rm` and `chmod` are blocked on the mount. Use the
   cowork file-delete tool (after approval) to remove stray files. File mode `600`
   does not block rendering because the files are owned by the user.
-- Quality ladder: `low_fidelity_search_text` (default MarkItDown) <
-  `source_text_parse` (PageIndex or verified conversion) <
+- Quality ladder: `low_fidelity_search_text` (default [MarkItDown](https://github.com/microsoft/markitdown)) <
+  `source_text_parse` ([PageIndex](https://github.com/VectifyAI/PageIndex) or verified conversion) <
   `manual_structured_extract` < `numeric_digitized`. This workflow promotes only
   to `source_text_parse`.
 - Do not claim "no product", "missing", or "not extractable" until the PDF,

@@ -9,7 +9,7 @@ depends_on:
   - lit_croker_2024_desi_coupled_black_holes
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion, extract tables, or digitize figures if Croker 2024 is reused as a DESI CCBH comparator
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Croker 2024 DESI Coupled Black-Hole Assets
@@ -56,7 +56,7 @@ depends on this asset cache for table/figure/source inspection.
 ## Known Limitations
 
 The extracted source includes TeX and figure PDFs, and the PDF now has a
-MarkItDown Markdown conversion for text inspection, plus a PageIndex hierarchical
+[MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion for text inspection, plus a [PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical
 structure parse (`source_text_parse`,
 [pageindex_structure.md](digitization/pageindex_structure.md)) for section/page
 targeting. Neither is numerical digitization; the asset state
@@ -64,5 +64,5 @@ remains `asset_extracted_not_digitized`. It cites DESI BAO data and external
 BAO/cosmology inputs, but no paper-specific public posterior chain or
 QFUDS-normalized source-history product was identified in this cache pass.
 
-The MarkItDown conversion includes three local figure references. Rendered PNGs
+The [MarkItDown](https://github.com/microsoft/markitdown) conversion includes three local figure references. Rendered PNGs
 live under `figures/extracted/`, with source links back to `source/extracted/`.

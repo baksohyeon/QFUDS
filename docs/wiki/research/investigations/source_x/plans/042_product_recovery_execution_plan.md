@@ -12,7 +12,7 @@ depends_on:
   - asset_chen_2026_merger_entropy_budget
   - roadmap
 next_gate: approved 043 extraction only
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # 2026-06-11 Product-Recovery Execution Plan
@@ -129,7 +129,7 @@ The future `043` extraction must inspect these files before recording values:
 | Source type | File |
 | --- | --- |
 | Source PDF | [paper_arxiv_2312.12344.pdf](../../../assets/lacy_2024_smbh_accretion_coupling_constraints/source/paper_arxiv_2312.12344.pdf) |
-| PageIndex Markdown | [paper_arxiv_2312.12344.md](../../../assets/lacy_2024_smbh_accretion_coupling_constraints/digitization/paper_arxiv_2312.12344.md) |
+| [PageIndex](https://github.com/VectifyAI/PageIndex) Markdown | [paper_arxiv_2312.12344.md](../../../assets/lacy_2024_smbh_accretion_coupling_constraints/digitization/paper_arxiv_2312.12344.md) |
 | TeX source | [AGN_BHgrowth.tex](../../../assets/lacy_2024_smbh_accretion_coupling_constraints/source/extracted/AGN_BHgrowth.tex) |
 | Figure 1 PNG | [scenario1_revised.png](../../../assets/lacy_2024_smbh_accretion_coupling_constraints/figures/extracted/scenario1_revised.png) |
 | Figure 2 PNG | [Salpeter_plot_revised.png](../../../assets/lacy_2024_smbh_accretion_coupling_constraints/figures/extracted/Salpeter_plot_revised.png) |
@@ -154,7 +154,7 @@ The future `043` extraction must inspect these files before recording values:
 Unit checks:
 
 - Verify whether each SMBH density value is in `M_sun Mpc^-3`.
-- If PageIndex text and TeX/PDF disagree on powers of `Mpc`, treat the unit as
+- If [PageIndex](https://github.com/VectifyAI/PageIndex) text and TeX/PDF disagree on powers of `Mpc`, treat the unit as
   inconsistent until checked against the PDF.
 - Do not reuse any value numerically if its density unit cannot be verified.
 
@@ -231,7 +231,7 @@ The future `043` extraction must inspect these files before recording values:
 | Source type | File |
 | --- | --- |
 | Source PDF | [paper_arxiv_2601.13621.pdf](../../../assets/chen_2026_merger_entropy_budget/source/paper_arxiv_2601.13621.pdf) |
-| PageIndex Markdown | [paper_arxiv_2601.13621.md](../../../assets/chen_2026_merger_entropy_budget/digitization/paper_arxiv_2601.13621.md) |
+| [PageIndex](https://github.com/VectifyAI/PageIndex) Markdown | [paper_arxiv_2601.13621.md](../../../assets/chen_2026_merger_entropy_budget/digitization/paper_arxiv_2601.13621.md) |
 | TeX source | [sample631.tex](../../../assets/chen_2026_merger_entropy_budget/source/extracted/sample631.tex) |
 | Figure 5 PNG | [growth_entropy_gwtc4_only.png](../../../assets/chen_2026_merger_entropy_budget/figures/extracted/growth_entropy_gwtc4_only.png) |
 | Figure 6 PNG | [cumulative_ent_den_gwtc4_only.png](../../../assets/chen_2026_merger_entropy_budget/figures/extracted/cumulative_ent_den_gwtc4_only.png) |

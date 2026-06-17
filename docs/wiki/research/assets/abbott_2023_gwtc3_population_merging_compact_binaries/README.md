@@ -9,7 +9,7 @@ depends_on:
   - lit_abbott_2023_gwtc3_population_merging_compact_binaries
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: selected population-product extraction if a merger-population proxy is needed
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # GWTC-3 Population Release Assets
@@ -60,6 +60,6 @@ small table/figure assets and manifest files only. Thirty-four extracted figure
 PDFs were rendered to PNG under `figures/extracted/` for local Markdown/image
 inspection.
 
-A MarkItDown markdown document of this release (release notes, the six
+A [MarkItDown](https://github.com/microsoft/markitdown) markdown document of this release (release notes, the six
 numerical tables, and an inventory of all 34 figures with working image links) is
 available at [digitization/gwtc3_population_release.md](digitization/gwtc3_population_release.md).

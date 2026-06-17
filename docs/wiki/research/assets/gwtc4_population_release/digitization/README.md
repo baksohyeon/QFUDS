@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_gwtc4_population_release
 next_gate: targeted manual extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # GWTC-4.0 Population Release Digitization Assets
@@ -28,7 +28,7 @@ the release text and notebook, machine-extracted and not line-for-line verified.
   overview, the two event lists (BBH-only and full-spectrum) as tables, and an
   inventory of all 22 paper figures with working image links to the PNG mirrors
   under `../figures/extracted/`.
-- [Release notes (converted)](zenodo_README.md) - MarkItDown conversion of
+- [Release notes (converted)](zenodo_README.md) - [MarkItDown](https://github.com/microsoft/markitdown) conversion of
   `source/zenodo_README.txt`.
-- [popsummary tutorial (converted)](popsummary_tutorial.md) - MarkItDown
+- [popsummary tutorial (converted)](popsummary_tutorial.md) - [MarkItDown](https://github.com/microsoft/markitdown)
   conversion of `source/popsummary_tutorial.ipynb`.

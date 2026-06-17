@@ -9,7 +9,7 @@ depends_on:
   - lit_lacy_2024_smbh_accretion_coupling_constraints
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion or extract figure/table values if Lacy 2024 is reused as an accretion-history constraint
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Lacy 2024 SMBH Accretion Coupling Assets
@@ -57,7 +57,7 @@ constraint.
 ## Known Limitations
 
 The extracted source contains TeX and figure images, and the PDF now has a
-MarkItDown Markdown conversion for text inspection, plus a PageIndex hierarchical
+[MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion for text inspection, plus a [PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical
 structure parse (`source_text_parse`,
 [pageindex_structure.md](digitization/pageindex_structure.md)) for section/page
 targeting. Neither is numerical digitization; the asset state
@@ -65,5 +65,5 @@ remains `asset_extracted_not_digitized`. It does not include a machine-readable
 SMBH accretion-history table, posterior chain, covariance matrix, or QFUDS
 normalization route.
 
-The MarkItDown conversion includes two local figure references. Rendered PNGs
+The [MarkItDown](https://github.com/microsoft/markitdown) conversion includes two local figure references. Rendered PNGs
 live under `figures/extracted/`, with source links back to `source/extracted/`.

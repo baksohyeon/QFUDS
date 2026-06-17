@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion or digitize figure/table products before entropy-history classification
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Chen Jani Kephart 2026 Merger Entropy Assets
@@ -55,13 +55,13 @@ depends on this asset cache before calling the entropy-history product absent.
 ## Known Limitations
 
 The source bundle contains TeX and figure PNGs, plus arXiv build metadata, and
-the PDF now has a MarkItDown Markdown conversion for text inspection, plus a
-PageIndex hierarchical structure parse (`source_text_parse`,
+the PDF now has a [MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion for text inspection, plus a
+[PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical structure parse (`source_text_parse`,
 [pageindex_structure.md](digitization/pageindex_structure.md)) for section/page
 targeting. Neither is
 numerical digitization; the asset state remains `asset_extracted_not_digitized`.
 No standalone machine-readable entropy-history table, posterior sample, or
 covariance product was identified in the extracted source tree.
 
-The MarkItDown conversion includes seven local figure references. Rendered PNGs
+The [MarkItDown](https://github.com/microsoft/markitdown) conversion includes seven local figure references. Rendered PNGs
 live under `figures/extracted/`, with source links back to `source/extracted/`.

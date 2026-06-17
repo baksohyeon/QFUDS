@@ -17,7 +17,7 @@ depends_on:
   - audit_2026_06_12_effective_phase_fraction_scaffold
   - qfuds_research_report
 next_gate: use as a plain-language handoff only; roadmap remains status authority
-last_updated: 2026-06-13
+last_updated: 2026-06-17
 ---
 
 # QFUDS(Quantum Foam Unified Dark Sector, 양자 거품 통합 암흑 섹터) 연구 흐름 쉬운 설명
@@ -1241,7 +1241,7 @@ BAO가 여기서 중요해지는 이유는 이것이다.
 돌린 게 아니다. DESI DR2(Dark Energy Spectroscopic Instrument Data
 Release 2, DESI 2차 자료 공개)와 eBOSS DR16(extended Baryon Oscillation
 Spectroscopic Survey Data Release 16, eBOSS 16차 자료 공개) 자료를
-로컬에 저장(cache)하고, MarkItDown(자료를 마크다운 문서로 바꾸는
+로컬에 저장(cache)하고, [MarkItDown](https://github.com/microsoft/markitdown)(자료를 마크다운 문서로 바꾸는
 도구)으로 자료를 읽기 쉬운 마크다운으로 바꾼 준비 작업이다.
 
 현재 BAO 작업의 의미:
@@ -1791,7 +1791,7 @@ QFUDS가 아니다. `f_B(a)`는 아직 실제 foam sector(양자 거품 섹터)
 어떻게 설계했나: DESI DR2 Lyman-alpha BAO(DESI 2차 Lyman-alpha 숲 BAO
 자료)와 eBOSS DR16 Lyman-alpha BAO(eBOSS 16차 Lyman-alpha 숲 BAO 자료)를
 로컬에 저장하고, source page(원본 페이지)와 archive(자료 보관소) 내용을
-MarkItDown으로 마크다운화했다. covariance(공분산, 측정 오차들이 서로 얼마나
+[MarkItDown](https://github.com/microsoft/markitdown)으로 마크다운화했다. covariance(공분산, 측정 오차들이 서로 얼마나
 엮여 있는지), observable(관측량) 이름, 원본 자료 묶음(source product)
 선택지를 정리했다.
 

@@ -8,14 +8,14 @@ evidence_role: reference
 depends_on:
   - asset_desi_dr2_lya_bao_2025
 next_gate: use curated data-release parse for source-product decisions
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # DESI DR2 Lyman-alpha BAO MarkItDown Extracted lyalyaxqso_data.csv Conversion
 
 Quality state: `low_fidelity_search_text`.
 
-This is a direct MarkItDown conversion of `../../source/extracted/lyalyaxqso_data.csv`.
+This is a direct [MarkItDown](https://github.com/microsoft/markitdown) conversion of `../../source/extracted/lyalyaxqso_data.csv`.
 Use [DESI DR2 Lyman-alpha BAO data-release parse](../desi_dr2_lya_bao_data_release.md) for the curated source-file inspection record.
 
 | 2.000000 | 0.000000 | 0.000000 | -0.381078 | 0.002813 | -0.381078 | 0.002813 | -0.381078 | 0.002813 |

@@ -8,14 +8,16 @@ evidence_role: reference
 depends_on:
   - asset_eboss_dr16_lya_bao_2020
 next_gate: use curated likelihood-release parse for source-product decisions
-last_updated: 2026-06-12
+last_updated: 2026-06-17
 ---
 
 # eBOSS DR16 Lyman-alpha BAO MarkItDown BAO-only README Conversion
 
 Quality state: `low_fidelity_search_text`.
 
-This is a direct MarkItDown conversion of
+Workflow: [Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md); asset state: `asset_cached`.
+
+This is a direct [MarkItDown](https://github.com/microsoft/markitdown) conversion of
 `../source/BAO-only_README.txt`. Use
 [eBOSS DR16 Lyman-alpha BAO likelihood-release parse](eboss_dr16_lya_bao_likelihood_release.md)
 for the curated source-file inspection record.
@@ -54,6 +56,6 @@ Column 3:  likelihood (relative to the best point on the grid)
 
  * Previous SDSS results *
 
-The BOSS DR12 likelihoods bundled in this release correspond to the two lower redshift bins of the originally published likelihood. These are independent of the DR16 results provided here; the DR16 LRG results supersede the original DR12 results for the 0.5 < z < 0.75 redshift bin.One can compare the BOSS results we have included to the published BOSS DR12 likelihoods available from https://data.sdss.org/sas/dr12/boss/papers/clustering/ALAM_ET_AL_2016_consensus_and_individual_Gaussian_constraints.tar.gz
+The BOSS DR12 likelihoods bundled in this release correspond to the two lower redshift bins of the originally published likelihood. These are independent of the DR16 results provided here; the DR16 LRG results supersede the original DR12 results for the 0.5 < z < 0.75 redshift bin. One can compare the BOSS results we have included to the published BOSS DR12 likelihoods available from https://data.sdss.org/sas/dr12/boss/papers/clustering/ALAM_ET_AL_2016_consensus_and_individual_Gaussian_constraints.tar.gz
 
 The BAO likelihood for the DR7 Main Galaxy Sample (MGS), designed to be independent from BOSS (z < 0.2), is available within the source files here: https://arxiv.org/e-print/1409.3242 and also from the publisher here: https://academic.oup.com/mnras/article/449/1/835/1298372#supplementary-data

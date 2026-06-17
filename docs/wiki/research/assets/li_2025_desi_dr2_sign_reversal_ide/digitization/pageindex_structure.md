@@ -8,20 +8,20 @@ evidence_role: reference
 depends_on:
   - asset_li_2025_desi_dr2_sign_reversal_ide_digitization_index
 next_gate: targeted manual extraction before numerical reuse
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Li & Zhang 2025 — PageIndex Structure
 
 Source paper: arXiv:2506.18477v2 (DESI DR2 non-parametric sign-reversal IDE reconstruction)
-PageIndex doc_name: `paper_arxiv_2506.18477v2.pdf` (20 pages; ingested 2026-06-09)
-Parse quality: `source_text_parse` (PageIndex hierarchical TOC tree + node summaries)
-Generated: 2026-06-11 via PageIndex MCP `get_document_structure`.
+[PageIndex](https://github.com/VectifyAI/PageIndex) doc_name: `paper_arxiv_2506.18477v2.pdf` (20 pages; ingested 2026-06-09)
+Parse quality: `source_text_parse` ([PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical TOC tree + node summaries)
+Generated: 2026-06-11 via [PageIndex](https://github.com/VectifyAI/PageIndex) MCP `get_document_structure`.
 
-Derived inspection product. Node summaries are PageIndex-generated; not numerical
+Derived inspection product. Node summaries are [PageIndex](https://github.com/VectifyAI/PageIndex)-generated; not numerical
 digitization or equation provenance. Use page ranges to target `get_page_content`.
 Figure PDFs (fig_reconstruct, fig_pc, fig_evals, fig_bin30, fig_zmax,
-fig_mock_lcdm, fig_bayes_data) are individually ingested in PageIndex and mirrored
+fig_mock_lcdm, fig_bayes_data) are individually ingested in [PageIndex](https://github.com/VectifyAI/PageIndex) and mirrored
 under `figures/extracted/`.
 
 ## Hierarchical Outline (node_id · pages)

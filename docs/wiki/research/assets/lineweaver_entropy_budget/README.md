@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion and extract table values before using the entropy inventory numerically
-last_updated: 2026-06-11
+last_updated: 2026-06-17
 ---
 
 # Lineweaver Entropy Budget Chapter Asset
@@ -24,7 +24,7 @@ source/chapter22_lineweaver.pdf
 digitization/chapter22_lineweaver.md
 ```
 
-Asset type: PDF chapter, MarkItDown Markdown conversion.
+Asset type: PDF chapter, [MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion.
 
 Current asset state: `asset_extracted_not_digitized`; PDF converted to
 Markdown, but table values not extracted into a numerical product.
@@ -47,13 +47,13 @@ prose citation.
 
 ## Known Limitations
 
-The PDF now has a MarkItDown Markdown conversion for text inspection, plus a
-PageIndex hierarchical structure parse (`source_text_parse`,
+The PDF now has a [MarkItDown](https://github.com/microsoft/markitdown) Markdown conversion for text inspection, plus a
+[PageIndex](https://github.com/VectifyAI/PageIndex) hierarchical structure parse (`source_text_parse`,
 [pageindex_structure.md](digitization/pageindex_structure.md)) that locates the
 22.1.2 entropy-budget table on p3-4. Neither is numerical digitization; table
 values, units, and
 normalization text still need explicit extraction before this asset can be used
 numerically.
 
-The MarkItDown conversion has no local figure references because this cache does
+The [MarkItDown](https://github.com/microsoft/markitdown) conversion has no local figure references because this cache does
 not include extracted chapter figure files.
