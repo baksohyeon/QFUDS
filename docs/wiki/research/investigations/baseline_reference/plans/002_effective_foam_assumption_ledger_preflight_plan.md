@@ -3,8 +3,8 @@ doc_id: audit_2026_06_17_effective_foam_assumption_ledger_preflight_plan
 title: "2026-06-17 Effective Foam Assumption Ledger Preflight Plan"
 doc_type: reference
 stage: reference
-status: draft
-evidence_role: audit
+status: reference
+evidence_role: reference
 depends_on:
   - roadmap
   - qfuds_positioning
@@ -13,7 +13,7 @@ depends_on:
   - audit_2026_06_17_nasa_lambda_graphic_history_cache_closeout
   - asset_desi_dr2_lya_bao_2025
   - asset_eboss_dr16_lya_bao_2020
-next_gate: execute only as a non-circularity ledger before any NASA or BAO baseline constraint map
+next_gate: executed by audit_2026_06_17_effective_foam_assumption_ledger_result
 last_updated: 2026-06-17
 ---
 

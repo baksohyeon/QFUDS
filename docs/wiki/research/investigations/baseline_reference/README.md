@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - research_investigations_index
-next_gate: execute effective foam assumption ledger before any NASA or BAO constraint map
+next_gate: define one candidate foam-sector state variable before model-facing NASA or BAO interpretation
 last_updated: 2026-06-17
 ---
 
@@ -24,3 +24,4 @@ changes.
 
 1. [NASA LAMBDA Graphic History Cache Closeout](conclusions/001_nasa_lambda_graphic_history_cache_closeout.md)
 2. [Effective Foam Assumption Ledger Preflight Plan](plans/002_effective_foam_assumption_ledger_preflight_plan.md)
+3. [Effective Foam Assumption Ledger Result](conclusions/002_effective_foam_assumption_ledger_result.md)
