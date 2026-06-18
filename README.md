@@ -48,6 +48,9 @@ Short version:
 - [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) is an
   optional thesis-style archive/compression of the rough `tanh` exploration. It
   is not the practical first read.
+- [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md)
+  preserves the black-hole information origin story as a public bridge. It is
+  provenance, not physical evidence.
 
 ## Start Here
 
@@ -58,6 +61,7 @@ Short version:
 | The tested plain-language research thread | [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md) |
 | The representative rough Season 2 exploration | [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) |
 | The formal thesis-style archive | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
+| The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
 Recommended order:
@@ -940,6 +944,7 @@ History/source notes:
 
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the representative Season 2 rough-`tanh` experiment record and 24-checkpoint numerical exploration log (Korean)
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
+- [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
 - [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-050, Chen Figure 5 digitization, known-model distinction, observer-mode routing, and foam-sector feasibility closeout
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
 - [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open

@@ -65,6 +65,9 @@ and
 - [QFUDS 에이전트 기반 연구 운영 절차](lineage/006_agentic_research_system_ko.md)
   - workflow, document/status boundary, parser routing, cache state,
     adversarial review, and git-hook gate record.
+- [블랙홀은 우주의 하드디스크인가?](lineage/007_black_hole_information_public_bridge_ko.md)
+  - public bridge for the black-hole information origin story; provenance only,
+    not physical evidence.
 
 ## Postmortems
 

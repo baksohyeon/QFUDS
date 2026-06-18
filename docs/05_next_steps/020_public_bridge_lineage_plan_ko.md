@@ -84,7 +84,8 @@ where recorded by the owning research notes.
 
 ## 다음 문서
 
-다음 실행 문서는 `docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md`
+다음 실행 문서는
+[docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md](../wiki/lineage/007_black_hole_information_public_bridge_ko.md)
 로 둔다.
 
 문서 역할:
@@ -179,7 +180,8 @@ through constraints.
 
 ## 다음 실행 지시
 
-다음 작업은 `docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md`
+다음 작업은
+[docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md](../wiki/lineage/007_black_hole_information_public_bridge_ko.md)
 를 작성하는 것이다. 그 문서는 public bridge/provenance 문서로만 작성하고,
 roadmap status, Physical-QFUDS Level 2B, model support, validation language를
 열지 않는다. 작성 후 [docs/wiki/lineage/README.md](../wiki/lineage/README.md),

@@ -7,7 +7,7 @@ status: reference
 evidence_role: provenance
 depends_on:
   - roadmap
-next_gate: none; lineage is routing provenance only; 005 has 2026-06-18 baseline-reference ceiling addendum
+next_gate: none; lineage is routing provenance only; 007 is public bridge, not physical evidence
 last_updated: 2026-06-18
 ---
 
@@ -36,10 +36,15 @@ Do not use this folder for:
 4. [QFUDS rough tanh 수치 스케치](004_rough_tanh_numerical_sketch_ko.md) - Season 2 대표 탐색 기록
 5. [QFUDS rough tanh 논문 보고서](005_rough_tanh_thesis_report_ko.md) - 선택적으로 읽는 논문형 압축본; 2026-06-18 baseline-reference audits added the `f_B` bookkeeping, known-model reduction, escape-template, and NASA/BAO kill-map-only boundary
 6. [QFUDS 에이전트 기반 연구 운영 절차 기록](006_agentic_research_system_ko.md)
+7. [블랙홀은 우주의 하드디스크인가?](007_black_hole_information_public_bridge_ko.md) - black-hole information origin story를 public bridge로 보존하되 physical evidence로 쓰지 않는 provenance 문서
 
 The 006 document records the agent-based workflow that produced and checked
 the rough-tanh lineage. It is provenance and process analysis, not physical
 evidence and not a roadmap-status authority.
+
+The 007 document records the public-facing black-hole information bridge. It is
+origin narrative and audit-harness context only. It does not claim black-hole
+evaporation, remnants, or information preservation as a physical QFUDS source.
 
 ## Current 005 Boundary
 

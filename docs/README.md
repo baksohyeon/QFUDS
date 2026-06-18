@@ -139,4 +139,5 @@ are not roadmap status authorities.
 - [Rough Tanh Numerical Sketch](wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) - representative Season 2 append-only CP1-CP24 rough phenomenology record
 - [Rough Tanh Thesis Report](wiki/lineage/005_rough_tanh_thesis_report_ko.md) - optional thesis-style synthesis of the rough tanh lineage and ceiling
 - [Agent-Based Research Operations](wiki/lineage/006_agentic_research_system_ko.md) - workflow, document boundary, review, and git-hook gate record
+- [Black-Hole Information Public Bridge](wiki/lineage/007_black_hole_information_public_bridge_ko.md) - Korean provenance-only bridge from the black-hole information origin story to the audit harness
 - [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-050, digitization, known-model distinction, observer-mode routing, and closeout boundaries
