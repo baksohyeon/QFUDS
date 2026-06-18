@@ -37,17 +37,17 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
 | Field | Value |
 | --- | --- |
 | Source URL | <https://arxiv.org/abs/2305.16290> |
-| Asset type | arXiv PDF, arXiv source tarball, extracted TeX/source figures |
+| Asset type | arXiv PDF, extracted TeX/source figures |
 | Current asset state | `asset_cached`; `asset_extracted_not_digitized` |
 | Extraction potential | `source_tex_parse_possible`; `figure_digitization_possible`; `direct_table` for paper tables |
 | Text quality | TeX source parse available through `source/extracted/main.tex` |
 | Depends on | Source-X 059 Escamilla equation extraction result |
 | Known blocked step | no numerical digitization or perturbation closure exists in this cache |
+| Raw bundle policy | original arXiv source bundle is not retained; only extracted files needed for audit are cached |
 
 ## Files
 
 - `source/paper_arxiv_2305.16290.pdf` - full arXiv paper PDF.
-- `source/arxiv_source_2305.16290.tar.gz` - downloaded arXiv source bundle.
 - `source/extracted/main.tex` - extracted manuscript TeX source.
 - `source/extracted/bibliography.bib` - extracted bibliography.
 - `source/extracted/*.pdf` - extracted source figure PDFs, including `Pi_*`,
@@ -74,3 +74,7 @@ whether Q^mu, frame, delta Q, and perturbation closure are absent or deferred
 
 Do not use the figure PDFs as numerical products without a later digitization
 protocol.
+
+Generated sync metadata and the raw source bundle are not retained in this
+asset cache; the structured extraction uses the cached TeX source and PDF
+figures only.

@@ -104,9 +104,10 @@ This record does not state that QFUDS or retained `Gamma(a)` is supported.
 
 - 2026-06-09: arXiv page, paper source, and Exp006 source notes checked for
   table products and public posterior products.
-- 2026-06-18: arXiv PDF and source tarball cached locally for Source-X
+- 2026-06-18: arXiv PDF and extracted source files cached locally for Source-X
   equation extraction. Current source state: `asset_cached`;
-  `asset_extracted_not_digitized`.
+  `asset_extracted_not_digitized`. The raw source bundle is not retained in the
+  repo asset cache.
 - 2026-06-18: manual structured equation extract added for background `Q`,
   `Pi_DE`, `Pi_DM`, `I_Q`, sign convention, reconstruction nodes, and
   background-only perturbation boundary. Current extraction state:
