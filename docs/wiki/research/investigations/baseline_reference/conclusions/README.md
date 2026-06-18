@@ -38,6 +38,9 @@ admission records.
   candidate-state-variable and equation-side placement rejection matrix.
 - [Foam State Variable Definition Audit](005_foam_state_variable_definition_audit.md):
   execution audit for `X(x,a)` and `f_B(x,a)` definition candidates.
+- [f_B Stress-Energy Definition Audit](006_fB_stress_energy_definition_audit.md):
+  stress-energy-side audit showing that `f_B` remains bookkeeping unless it
+  supplies `T_mu_nu`, `p_B`, `Q^nu`, and `delta Q`.
 
 ## Stop Rule
 
@@ -47,4 +50,4 @@ then those choices are described as a foam-sector source.
 
 Before using the NASA + BAO map for any model-facing interpretation, read the
 effective foam ledger, the state-variable/placement matrix, and the state
-variable definition audit first.
+variable definition audit, and the `f_B` stress-energy definition audit first.

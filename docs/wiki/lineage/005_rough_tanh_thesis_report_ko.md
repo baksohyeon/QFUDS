@@ -39,6 +39,10 @@ effective fit, falsifiable signatures, and the theoretical ceiling**
 > 해석으로 승격하지 않는다. 관련 baseline source state는 NASA/LAMBDA `asset_cached`,
 > DESI DR2 Ly-alpha BAO `asset_extracted_not_digitized` + `direct_table`,
 > eBOSS DR16 Ly-alpha BAO `asset_cached` + `direct_table`이다.
+> 같은 날짜의 `f_B` stress-energy audit은 이 결론을 더 좁힌다. `f_B =
+> rho_B/(rho_A+rho_B)`는 identity/bookkeeping이고, `p_B ~= -rho_B`,
+> `T_mu_nu`, `Q^nu`, `delta Q`를 독립적으로 주지 못하면 effective `w(a)` 또는
+> IV/IDE 재표현으로 기각된다.
 
 ---
 
@@ -653,6 +657,9 @@ $\rho_\ast \approx \rho_\Lambda$를 원리적으로 유도할 수 있는지
 두는 경로는 기각됐고, stress-energy-side `f_B(x,a)`는 bookkeeping 변수로만 남았다.
 `f_B`가 물리 변수가 되려면 `rho_A`, `rho_B`, `p_A`, `p_B`, phase-B equation of state,
 conservation/transfer law, perturbation route, known-model reduction test를 먼저 채워야 한다.
+추가 stress-energy audit에서는 `f_B = rho_B/(rho_A+rho_B)`가 이미 존재하는 phase split의
+identity일 뿐이며, `p_B ~= -rho_B`, `T_mu_nu`, `Q^nu`, `delta Q`를 독립적으로 주지 못하면
+effective `w(a)` 또는 IV/IDE 재표현으로 닫힌다고 판정했다.
 이 전에는 NASA/LAMBDA나 BAO를 모델 해석에 쓰면 순환논리다.
 
 ---

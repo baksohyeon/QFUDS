@@ -76,6 +76,7 @@ product was not found in the checked sources on the recorded date.
 | 004 | [2026-06-17 Foam State Variable and Placement Selection Matrix](baseline_reference/conclusions/004_foam_state_variable_placement_selection_matrix.md) | state-variable placement audit |
 | 005 | [2026-06-17 Foam State Variable Definition Plan](baseline_reference/plans/005_foam_state_variable_definition_plan.md) | plan-only definition checkpoint |
 | 005 | [2026-06-18 Foam State Variable Definition Audit](baseline_reference/conclusions/005_foam_state_variable_definition_audit.md) | definition audit |
+| 006 | [2026-06-18 f_B Stress-Energy Definition Audit](baseline_reference/conclusions/006_fB_stress_energy_definition_audit.md) | stress-energy definition audit |
 
 ## Exp006 Timing Chain
 
