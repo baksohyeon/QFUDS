@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - source_x_investigation_index
 next_gate: execute foam-state variable literature question audit before selecting xi
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Source-X Investigation Plans
@@ -35,3 +35,4 @@ not store downloaded assets.
 - [Known-Model Distinction Audit Plan](048_known_model_distinction_audit_plan.md)
 - [Foam-Sector-to-Gamma Derivation Feasibility Plan](049_foam_sector_to_gamma_derivation_feasibility_plan.md)
 - [Foam-State Variable Literature Question Plan](052_foam_state_variable_literature_question_plan.md)
+- [Paper-by-Paper IV/IDE Equation Extraction Plan](058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md)

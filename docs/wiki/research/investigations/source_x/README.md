@@ -84,6 +84,7 @@ records. The prefix is a route number, not a project-status claim.
 | 055 | [Academic Derivation Bridge](conclusions/055_academic_derivation_bridge_ko.md) | translates retained `Gamma(a)` into academic IV/IDE source-term language; no physical branch |
 | 056 | [IV/IDE Formalism Study Map](conclusions/056_iv_ide_formalism_study_map_ko.md) | defines the safe study route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
 | 057 | [IV/IDE Formalism Notes Ledger](conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | executes the first formalism ledger: background `Q`, `Q^mu` frame, perturbation closure, and stop rules |
+| 058 | [Paper-by-Paper IV/IDE Equation Extraction Plan](plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) | plans exact per-paper extraction before any timing fit or observational constraint use |
 
 Reserved future records:
 

@@ -118,3 +118,4 @@ product was not found in the checked sources on the recorded date.
 | 055 | [2026-06-18 Academic Derivation Bridge](source_x/conclusions/055_academic_derivation_bridge_ko.md) | translates retained `Gamma(a)` into academic IV/IDE formalism; no physical branch |
 | 056 | [2026-06-18 IV/IDE Formalism Study Map](source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) | maps the safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
 | 057 | [2026-06-18 IV/IDE Formalism Notes Ledger](source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | records the first IV/IDE ledger: background `Q`, frame choice, perturbation closure, and solver stop rules |
+| 058 | [2026-06-18 Paper-by-Paper IV/IDE Equation Extraction Plan](source_x/plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) | plans exact equation extraction before any timing fit or NASA/BAO/CMB/LSS use |
