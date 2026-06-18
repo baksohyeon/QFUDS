@@ -15,6 +15,7 @@ depends_on:
   - audit_2026_06_12_foam_sector_to_gamma_derivation_feasibility_result
   - audit_2026_06_18_candidate_equation_triage_closeout
   - plan_2026_06_18_public_bridge_lineage_ko
+  - audit_2026_06_18_academic_derivation_bridge_ko
 next_gate: observer mode; retained branch demoted; public bridge is provenance-only; no Level 2B without all five admission-rule items
 last_updated: 2026-06-18
 ---
@@ -111,6 +112,11 @@ and `direct_table` as recorded in the baseline-reference chain.
    and keep it as provenance only. Do not turn black-hole evaporation,
    remnant, or information-preservation language into a physical source claim
    without the admission-rule items.
+10. If learning from the retained `Gamma(a)` branch, use the
+    [academic derivation bridge](../wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md)
+    to translate it into interacting-vacuum / interacting-dark-energy source
+    language. This is an observer-mode reference path, not Level 4 CMB work and
+    not a Level 2B reopening.
 
 Do not treat Level 2A as derived QFUDS physics. Do not start Level 2B, CLASS/CAMB,
 CMB, matter-power, or survey-likelihood claims until the relevant upstream gate
