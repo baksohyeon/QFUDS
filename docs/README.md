@@ -113,6 +113,7 @@ Current validation roadmap and blockers.
 - [010_perturbation_gate.md](05_next_steps/010_perturbation_gate.md)
 - [015_level_1_5_resolution_gate.md](05_next_steps/015_level_1_5_resolution_gate.md) - evidence criteria for Level 1.5 pass, fail, demotion, and future branch admission
 - [015_retained_branch_source_closure_plan_provenance.md](05_next_steps/015_retained_branch_source_closure_plan_provenance.md) - provenance planning gate superseded by the retained-branch demotion
+- [020_public_bridge_lineage_plan_ko.md](05_next_steps/020_public_bridge_lineage_plan_ko.md) - Korean routing plan for preserving the black-hole information origin story as public lineage/provenance while keeping scientific gates intact
 - [030_exp003_record_consistency_gate.md](05_next_steps/030_exp003_record_consistency_gate.md) - exp_003 record consistency gate
 - [900_roadmap_overview_ko.md](05_next_steps/900_roadmap_overview_ko.md) - Korean guide to roadmap trajectory and branch outcomes
 

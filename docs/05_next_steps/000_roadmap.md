@@ -14,7 +14,8 @@ depends_on:
   - qfuds_strong_gravity_source_mechanism_audit
   - audit_2026_06_12_foam_sector_to_gamma_derivation_feasibility_result
   - audit_2026_06_18_candidate_equation_triage_closeout
-next_gate: observer mode; retained branch demoted; coarse-grained galaxy/cosmic-web hypothesis is template-only; no Level 2B without all five admission-rule items
+  - plan_2026_06_18_public_bridge_lineage_ko
+next_gate: observer mode; retained branch demoted; public bridge is provenance-only; no Level 2B without all five admission-rule items
 last_updated: 2026-06-18
 ---
 
@@ -105,6 +106,11 @@ and `direct_table` as recorded in the baseline-reference chain.
    treat `xi_gal` as a preregistered input and run the
    candidate-equation template first. Do not treat galaxy-scale language as
    `X`, `Q^nu`, phase-B pressure, `delta Q`, or known-model distinction.
+9. If producing public-facing black-hole information bridge material, route it
+   through [020_public_bridge_lineage_plan_ko.md](020_public_bridge_lineage_plan_ko.md)
+   and keep it as provenance only. Do not turn black-hole evaporation,
+   remnant, or information-preservation language into a physical source claim
+   without the admission-rule items.
 
 Do not treat Level 2A as derived QFUDS physics. Do not start Level 2B, CLASS/CAMB,
 CMB, matter-power, or survey-likelihood claims until the relevant upstream gate
