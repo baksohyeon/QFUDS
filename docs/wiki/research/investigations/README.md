@@ -112,3 +112,5 @@ product was not found in the checked sources on the recorded date.
 | 031 | [2026-06-10 Phase 3 Q^nu Derivation Attempt](source_x/conclusions/031_phase3_qnu_derivation_attempt.md) | Phase 3 feasibility result |
 | 040 | [2026-06-10 Black-Hole Data Product Audit Plan](source_x/plans/040_black_hole_data_product_audit_plan.md) | data-product interlock plan |
 | 040 | [2026-06-10 Black-Hole Data Product Audit](source_x/conclusions/040_black_hole_data_product_audit.md) | data-product interlock result |
+| 052 | [2026-06-18 Foam-State Variable Literature Question Result](source_x/conclusions/052_foam_state_variable_literature_question_result.md) | `xi_gal` known-model-sink audit |
+| 053 | [2026-06-18 Black-Hole Vacuum Foam Falsifiability Ledger](source_x/conclusions/053_black_hole_vacuum_foam_falsifiability_ledger_ko.md) | integrated falsifiability ledger for black-hole, vacuum, remnant, and foam-origin questions |

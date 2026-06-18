@@ -7,8 +7,8 @@ status: reference
 evidence_role: reference
 depends_on:
   - research_investigations_index
-next_gate: execute foam-state variable literature question audit before selecting xi
-last_updated: 2026-06-17
+next_gate: candidate-equation template only; do not open Level 2B
+last_updated: 2026-06-18
 ---
 
 # Source-X Research Investigations
@@ -78,6 +78,8 @@ records. The prefix is a route number, not a project-status claim.
 | 050 | [Foam-Sector-to-Gamma Derivation Feasibility Result](conclusions/050_foam_sector_to_gamma_derivation_feasibility_result.md) | forward-direction feasibility closeout; minimum objects missing |
 | 051 | [Effective Phase-Fraction Scaffold](conclusions/051_effective_phase_fraction_scaffold.md) | weak single-sector phase-fraction scaffold; analytic density only |
 | 052 | [Foam-State Variable Literature Question Plan](plans/052_foam_state_variable_literature_question_plan.md) | question plan for literature-neighbor state variables before selecting `xi` |
+| 052 | [Foam-State Variable Literature Question Result](conclusions/052_foam_state_variable_literature_question_result.md) | executes the `xi_gal`/known-model-sink question; no `xi` selected |
+| 053 | [Black-Hole Vacuum Foam Falsifiability Ledger](conclusions/053_black_hole_vacuum_foam_falsifiability_ledger_ko.md) | integrated falsifiability ledger for five public-origin questions; no Level 2B |
 
 Reserved future records:
 
@@ -162,6 +164,15 @@ Reserved future records:
   correlation, stochastic Lambda, or the internal phase-fraction scaffold. It
   does not select `xi`, define candidate `X`, open Level 2B, or modify roadmap
   status.
+- `052` also includes a result closeout. It finds `xi_gal` not ready as a QFUDS
+  state variable because the candidate scale is first absorbed by EFTofLSS,
+  backreaction, screened modified gravity, running vacuum, stochastic Lambda,
+  or a neighboring spacetime-foam dark-energy comparator.
+- `053` integrates five public-origin questions into a falsifiability ledger:
+  black-hole information, vacuum energy, evaporation information return,
+  white-hole/remnant storage, and galaxy-scale foam. It preserves the questions
+  as audit material and records kill conditions, but it does not create QFUDS
+  support, validation, novelty, or Level 2B admission.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

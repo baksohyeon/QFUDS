@@ -7,8 +7,8 @@ status: reference
 evidence_role: reference
 depends_on:
   - source_x_investigation_index
-next_gate: none; conclusion records only
-last_updated: 2026-06-12
+next_gate: candidate-equation template only; no conclusion opens Level 2B
+last_updated: 2026-06-18
 ---
 
 # Source-X Investigation Conclusions
@@ -34,3 +34,5 @@ made through the project process.
 - [Level 2B Admission Eligibility Review and Observer-Mode Routing](049_level2b_eligibility_review_and_observer_mode.md)
 - [Foam-Sector-to-Gamma Derivation Feasibility Result](050_foam_sector_to_gamma_derivation_feasibility_result.md)
 - [Effective Phase-Fraction Scaffold](051_effective_phase_fraction_scaffold.md)
+- [Foam-State Variable Literature Question Result](052_foam_state_variable_literature_question_result.md)
+- [Black-Hole Vacuum Foam Falsifiability Ledger](053_black_hole_vacuum_foam_falsifiability_ledger_ko.md)
