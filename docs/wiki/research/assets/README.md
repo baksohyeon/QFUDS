@@ -56,3 +56,5 @@ Current product-family caches include:
   cached arXiv PDF/source assets for Source-X IV/geodesic-CDM equation extraction.
 - [Hogg 2020 Vacuum Geodesic CDM Interaction](hogg_2020_vacuum_geodesic_cdm_interaction/README.md) -
   cached arXiv PDF/source assets for Source-X IV/geodesic-CDM same-family extraction.
+- [Wang 2015 Dark Matter Vacuum Interaction](wang_2015_dark_matter_vacuum_interaction/README.md) -
+  cached arXiv PDF/source assets for Source-X historical IV/vacuum convention extraction.

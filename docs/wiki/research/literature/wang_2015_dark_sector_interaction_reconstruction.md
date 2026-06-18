@@ -7,8 +7,8 @@ status: reference
 evidence_role: reference
 depends_on:
   - literature_cache_index
-next_gate: none; raw literature cache only
-last_updated: 2026-06-09
+next_gate: structured equation extraction before historical convention comparison
+last_updated: 2026-06-18
 record_type: literature_record
 paper_year: 2015
 availability_last_checked: 2026-06-09
@@ -17,6 +17,17 @@ used_by:
 ---
 
 # Wang 2015 Dark Matter Vacuum Interaction
+
+## Workflow Boundary
+
+This record follows the
+[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+
+The 2026-06-18 update records a local source cache. Current source state:
+`asset_cached`; `asset_extracted_not_digitized`. The arXiv source bundle was
+fetched and extracted, but the raw bundle is not retained because extracted EPS
+metadata contained upstream local path metadata. This is not QFUDS evidence,
+not retained `Gamma(a)` support, and not Level 2B admission.
 
 ## Bibliographic Metadata
 
@@ -68,6 +79,8 @@ timing extraction if numerical products are unavailable.
 ## Public Code / Data Links
 
 - arXiv page provides PDF and TeX source.
+- Repository-local asset cache:
+  [Wang 2015 assets](../assets/wang_2015_dark_matter_vacuum_interaction/README.md).
 - Public posterior products were not found during the 2026-06-09 check.
 
 ## QFUDS Relevance
@@ -87,3 +100,6 @@ This record does not provide a QFUDS conclusion.
 ## Check History
 
 - 2026-06-09: arXiv page checked for metadata and public source availability.
+- 2026-06-18: arXiv PDF and source bundle fetched from arXiv; PDF and extracted
+  source retained locally. Current source state: `asset_cached`;
+  `asset_extracted_not_digitized`.
