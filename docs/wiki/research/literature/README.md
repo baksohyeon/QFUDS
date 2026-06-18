@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_cache_index
 next_gate: none; raw literature records only
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Literature Cache
@@ -126,3 +126,17 @@ Use [index.csv](index.csv) to find individual literature records.
 - [Abbott 2023 GWTC-3 Population Merging Compact Binaries](abbott_2023_gwtc3_population_merging_compact_binaries.md)
 - [Abbott 2021 Isotropic Gravitational-Wave Background O3](abbott_2021_isotropic_gwb_o3.md)
 - [Kasen 2017 Kilonova R-Process GW170817](kasen_2017_kilonova_r_process_gw170817.md)
+
+## Falsifiability Ledger Support Records
+
+- [Page 1993 Information Black Hole Radiation](page_1993_information_black_hole_radiation.md)
+- [Almheiri 2021 Entropy Hawking Radiation](almheiri_2021_entropy_hawking_radiation.md)
+- [Hayden 2007 Black Holes Mirrors](hayden_2007_black_holes_mirrors.md)
+- [Martin 2012 Cosmological Constant Problem](martin_2012_cosmological_constant_problem.md)
+- [Padilla 2015 Cosmological Constant Lectures](padilla_2015_cosmological_constant_lectures.md)
+- [Burgess 2013 Naturalness Dark Energy](burgess_2013_naturalness_dark_energy.md)
+- [Carr 2020 PBH Constraints](carr_2020_pbh_constraints.md)
+- [Nascimento 2024 EFTofLSS Sound Speed Counterterm](nascimento_2024_eftoflss_sound_speed_counterterm.md)
+- [Brax 2012 Unified Screened Modified Gravity](brax_2012_unified_screened_modified_gravity.md)
+- [Zwane 2017 Everpresent Lambda](zwane_2017_everpresent_lambda.md)
+- [Xue 2025 Spacetime Foam Correlation](xue_2025_spacetime_foam_correlation.md)
