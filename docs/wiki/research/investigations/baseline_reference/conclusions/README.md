@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - baseline_reference_investigation_index
-next_gate: keep NASA and BAO as observational kill-map only until upstream escape-equation templates are filled
+next_gate: baseline-reference chain closed until a future candidate fills upstream escape-equation templates
 last_updated: 2026-06-18
 ---
 
@@ -49,6 +49,9 @@ admission records.
 - [Known-Model Escape Equation Templates](008_known_model_escape_equation_templates.md):
   preregistration templates for the minimum equations needed before a future
   `f_B`, `X`, or `xi` route can claim it escapes a known-model sink.
+- [Baseline Reference Chain Closure](009_baseline_reference_chain_closure.md):
+  read-order and stop-rule summary closing the chain until a future candidate
+  fills the upstream escape-equation templates.
 
 ## Stop Rule
 
@@ -59,4 +62,5 @@ then those choices are described as a foam-sector source.
 Before using the NASA + BAO map for any model-facing interpretation, read the
 effective foam ledger, the state-variable/placement matrix, and the state
 variable definition audit, the `f_B` stress-energy definition audit, and the
-`f_B` known-model reduction checklist and escape-equation templates first.
+`f_B` known-model reduction checklist, escape-equation templates, and chain
+closure first.

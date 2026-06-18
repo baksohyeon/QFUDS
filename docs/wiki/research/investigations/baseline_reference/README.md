@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - research_investigations_index
-next_gate: keep NASA and BAO as observational kill-map only until upstream escape-equation templates are filled
+next_gate: baseline-reference chain closed until a future candidate fills upstream escape-equation templates
 last_updated: 2026-06-18
 ---
 
@@ -61,6 +61,8 @@ changes.
    list observational kill thresholds only after the non-circularity ledger,
    definition audits, known-model checklist, and escape-equation templates are
    frozen.
+11. [Baseline Reference Chain Closure](conclusions/009_baseline_reference_chain_closure.md):
+   final read-order and stop-rule summary for this chain.
 
 ## Use Boundary
 
@@ -81,5 +83,6 @@ Forbidden use:
 The chain order matters. The assumption ledger, state-variable/placement
 matrix, state-variable definition plan, definition audit, `f_B` stress-energy
 audit, `f_B` known-model reduction checklist, and escape-equation templates
-must come before model-facing use of the baseline constraint map so
+must come before model-facing use of the baseline constraint map. The closure
+summary records this chain as closed until new candidate equations exist, so
 observations cannot back-drive the effective foam scale.
