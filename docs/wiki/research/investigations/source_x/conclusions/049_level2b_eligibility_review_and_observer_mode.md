@@ -13,7 +13,7 @@ depends_on:
   - source_x_investigation_index
   - roadmap
 next_gate: observer mode; no Level 2B opening and no new physical branch without all five admission-rule items
-last_updated: 2026-06-11
+last_updated: 2026-06-18
 ---
 
 # 2026-06-11 Level 2B Admission Eligibility Review and Observer-Mode Routing
@@ -40,6 +40,21 @@ This review does not claim novelty or QFUDS support.
 This review does not, by itself, change roadmap status. The roadmap remains the
 single status authority and would need a separate, explicit roadmap edit to
 formally enter observer mode.
+
+## Workflow Boundary
+
+This eligibility review applies the
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)
+only to preserve source-state boundaries.
+
+No new external web, PDF, table, product, cache, digitization, or availability
+claim is introduced by this marker migration. Existing source states remain
+owned by the Source-X research records, including `asset_cached`,
+`asset_extracted_not_digitized`, `hit_not_cached`, and
+`inspected_no_numerical_product` where those states are recorded.
+
+This review is not QFUDS support, validation, roadmap advancement, or
+Physical-QFUDS Level 2B admission.
 
 ## Eligibility Standard
 

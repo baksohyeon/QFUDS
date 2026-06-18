@@ -7,7 +7,7 @@ status: provenance
 evidence_role: provenance
 depends_on: []
 next_gate: preserve as provenance, not physical evidence
-last_updated: 2026-06-08
+last_updated: 2026-06-18
 ---
 
 # Concept Origin
@@ -15,6 +15,21 @@ last_updated: 2026-06-08
 This document records the line of thought that led me to Quantum Foam Unified Dark Sector (QFUDS).
 
 It is not a proof. It is a map from a raw intuition to testable questions.
+
+## Workflow Boundary
+
+This provenance note applies the
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)
+only to preserve source-state boundaries.
+
+No new external web, PDF, table, product, cache, digitization, or availability
+claim is introduced by this marker migration. Existing source states remain
+owned by the research cache and investigation records, including
+`asset_cached`, `asset_extracted_not_digitized`, `hit_not_cached`, and
+`inspected_no_numerical_product` where those states are recorded.
+
+This note is origin provenance only. It is not QFUDS support, validation,
+roadmap advancement, or Physical-QFUDS Level 2B admission.
 
 I did not begin with a finished theory in mind. I was following topics I was already curious about: information, entropy, black holes, Hawking radiation, quantum mechanics, vacuum structure, and the dark sector. The point of this document is the inference chain: I kept asking whether one topic had the same problem structure as the next.
 

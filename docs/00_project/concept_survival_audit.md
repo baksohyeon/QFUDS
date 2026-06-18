@@ -16,7 +16,7 @@ depends_on:
   - audit_2026_06_11_known_model_distinction_audit_result
   - audit_2026_06_12_foam_sector_to_gamma_derivation_feasibility_result
 next_gate: observer mode; no physical branch without X, Q^nu, phase-B rationale, delta Q, and known-model distinction
-last_updated: 2026-06-12
+last_updated: 2026-06-18
 ---
 
 # QFUDS Concept Survival Audit
@@ -27,6 +27,21 @@ This note maps the original QFUDS intuition against the current repository
 evidence. It is a handoff audit, not a status authority. Current level, active
 blockers, and roadmap status live only in
 [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md).
+
+## Workflow Boundary
+
+This handoff audit applies the
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)
+only to preserve source-state boundaries.
+
+No new external web, PDF, table, product, cache, digitization, or availability
+claim is introduced by this marker migration. Existing source states remain
+owned by the research cache and investigation records, including
+`asset_cached`, `asset_extracted_not_digitized`, `hit_not_cached`, and
+`inspected_no_numerical_product` where those states are recorded.
+
+This audit is not QFUDS support, validation, roadmap advancement, or
+Physical-QFUDS Level 2B admission.
 
 The original intuition can be summarized as:
 

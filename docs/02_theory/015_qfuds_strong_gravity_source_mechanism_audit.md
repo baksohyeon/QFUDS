@@ -10,7 +10,7 @@ depends_on:
   - qfuds_level_1_5_equivalence_source_perturbation_audit
   - qfuds_level_1_5_transfer_four_vector_derivation_attempt
 next_gate: retained branch demoted; strong-gravity ideas require a new admitted physical branch
-last_updated: 2026-06-09
+last_updated: 2026-06-18
 ---
 
 # QFUDS Strong Gravity Source Mechanism Audit
@@ -23,6 +23,21 @@ DM-to-DE phase-transition hypothesis.
 
 It does not by itself change viability classifications. The retained-branch
 decision is recorded in [000_roadmap.md](../05_next_steps/000_roadmap.md).
+
+## Workflow Boundary
+
+This theory audit applies the
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)
+only to preserve source-state boundaries.
+
+No new external web, PDF, table, product, cache, digitization, or availability
+claim is introduced by this marker migration. Existing source states remain
+owned by the research cache and investigation records, including
+`asset_cached`, `asset_extracted_not_digitized`, `hit_not_cached`, and
+`inspected_no_numerical_product` where those states are recorded.
+
+This audit is not QFUDS support, validation, roadmap advancement, or
+Physical-QFUDS Level 2B admission.
 
 ## Summary Verdict
 
