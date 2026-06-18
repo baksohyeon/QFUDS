@@ -13,8 +13,9 @@ depends_on:
   - qfuds_level_1_5_transfer_four_vector_derivation_attempt
   - qfuds_strong_gravity_source_mechanism_audit
   - audit_2026_06_12_foam_sector_to_gamma_derivation_feasibility_result
-next_gate: observer mode; retained branch demoted; no Level 2B without all five admission-rule items
-last_updated: 2026-06-12
+  - audit_2026_06_18_candidate_equation_triage_closeout
+next_gate: observer mode; retained branch demoted; coarse-grained galaxy/cosmic-web hypothesis is template-only; no Level 2B without all five admission-rule items
+last_updated: 2026-06-18
 ---
 
 # QFUDS Research Roadmap
@@ -58,6 +59,20 @@ success or failure: the structure-era timing intuition is retained, its
 explanatory candidates already exist in the literature, and current evidence
 cannot select among them or assert new physics.
 
+As of 2026-06-18, a galaxy/cosmic-web coarse-grained spacetime hypothesis may
+be tracked only as a future candidate lane. In that lane, `xi_gal` must be
+declared before model-facing use of NASA/LAMBDA, BAO, LSS, CMB, or retained
+timing targets. Until a candidate supplies the admission-rule items below,
+`xi_gal` is a preregistered effective coarse-graining input, not a derived
+foam scale, physical source, or roadmap upgrade.
+
+Workflow boundary: this roadmap applies the
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)
+only to preserve source-state boundaries. No new external asset, table, PDF,
+or product claim is introduced here. Existing baseline states remain
+`asset_cached`, `manual_structured_extract`, `asset_extracted_not_digitized`,
+and `direct_table` as recorded in the baseline-reference chain.
+
 ## Levels
 
 | Level | Topic | Status | Current Evidence | Next Gate |
@@ -86,6 +101,10 @@ cannot select among them or assert new physics.
    table products but not informative; stronger posterior products,
    digitization with uncertainty, or a likelihood-level prior test would be
    required.
+8. If exploring the galaxy/cosmic-web coarse-grained spacetime hypothesis,
+   treat `xi_gal` as a preregistered input and run the
+   candidate-equation template first. Do not treat galaxy-scale language as
+   `X`, `Q^nu`, phase-B pressure, `delta Q`, or known-model distinction.
 
 Do not treat Level 2A as derived QFUDS physics. Do not start Level 2B, CLASS/CAMB,
 CMB, matter-power, or survey-likelihood claims until the relevant upstream gate
@@ -115,6 +134,10 @@ is satisfied.
 7. No likelihood comparison against CMB, BAO, SN, or matter power data exists.
 8. No posterior-product, digitized-uncertainty, or likelihood-level evidence
    currently supports retained timing as an informative IV/IDE prior.
+9. The galaxy/cosmic-web scale hypothesis has not supplied an effective
+   stress tensor, geometry correction, averaging equation, conservation rule,
+   perturbation route, or escape observable beyond known coarse-graining,
+   EFTofLSS, halo-model, backreaction, or modified-gravity sinks.
 
 ## Rule For New Ideas
 
@@ -134,3 +157,14 @@ No new physical-QFUDS branch should be opened unless it provides, at minimum:
 - `why phase B has w ~= -1 =`
 - `delta Q route =`
 - `known-model distinction =`
+
+For the galaxy/cosmic-web coarse-grained spacetime hypothesis, the first
+allowed re-entry is a template-filled candidate that states:
+
+- `xi_gal =` with units and whether it is an input, derived output,
+  calibrated input, or unknown;
+- whether the correction lives on the geometry side or stress-energy side;
+- the effective equation, stress tensor, or averaging relation produced after
+  coarse-graining;
+- why the route does not reduce first to LCDM+EFTofLSS, halo modeling,
+  backreaction, screened modified gravity, effective `w(a)`, or IV/IDE.

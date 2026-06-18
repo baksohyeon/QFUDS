@@ -8,7 +8,7 @@ evidence_role: ssot
 depends_on:
   - roadmap
 next_gate: observer mode; no physical Level 2B without a new admitted physical branch
-last_updated: 2026-06-11
+last_updated: 2026-06-18
 ---
 
 # QFUDS Decision Log
@@ -305,3 +305,31 @@ among them or assert new physics.
 
 Evidence:
 [docs/wiki/research/investigations/source_x/conclusions/048_known_model_distinction_audit_result.md](../wiki/research/investigations/source_x/conclusions/048_known_model_distinction_audit_result.md), [docs/wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md](../wiki/research/investigations/source_x/conclusions/049_level2b_eligibility_review_and_observer_mode.md), [docs/00_project/concept_survival_audit.md](concept_survival_audit.md), [docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md)
+
+## 2026-06-18
+
+Decision:
+Register the galaxy/cosmic-web coarse-grained spacetime hypothesis as a safe
+future candidate lane only, not as a physical-QFUDS admission or roadmap
+upgrade.
+
+Reason:
+The hypothesis is allowed as a preregistered effective-scale idea: QFUDS-like
+foam effects might be meaningful only after coarse-graining over a galaxy or
+cosmic-web scale `xi_gal`. However, current repository evidence does not derive
+`xi_gal`, define an effective stress tensor or geometry correction, supply
+`Q^nu` or `delta Q`, explain phase-B vacuum pressure, or distinguish the route
+from LCDM+EFTofLSS, halo modeling, backreaction, screened modified gravity,
+effective `w(a)`, or IV/IDE. The lane can re-enter only by filling the
+candidate-equation template before any NASA/LAMBDA, BAO, LSS, CMB, or retained
+timing target is used.
+
+Workflow boundary: this decision applies the
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)
+only to preserve source-state boundaries. No new external asset, table, PDF,
+or product claim is introduced here. Existing baseline states remain
+`asset_cached`, `manual_structured_extract`, `asset_extracted_not_digitized`,
+and `direct_table` as recorded in the baseline-reference chain.
+
+Evidence:
+[docs/05_next_steps/000_roadmap.md](../05_next_steps/000_roadmap.md), [docs/05_next_steps/010_safe_future_branch_candidates.md](../05_next_steps/010_safe_future_branch_candidates.md), [docs/wiki/research/investigations/baseline_reference/plans/010_candidate_equation_proposal_template.md](../wiki/research/investigations/baseline_reference/plans/010_candidate_equation_proposal_template.md), [docs/wiki/research/investigations/baseline_reference/conclusions/010_candidate_equation_triage_closeout.md](../wiki/research/investigations/baseline_reference/conclusions/010_candidate_equation_triage_closeout.md)
