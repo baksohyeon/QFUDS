@@ -90,6 +90,7 @@ records. The prefix is a route number, not a project-status claim.
 | 059 | [Li/Escamilla IV/IDE Convention Comparison Note](conclusions/059_li_escamilla_iv_ide_convention_comparison_note_ko.md) | compares the two extracted conventions before any timing fit or baseline-constraint use |
 | 059 | [Martinelli 2019 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_martinelli_2019_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Martinelli 2019 `Q`, `Q^mu`, CDM-frame closure, perturbations, and CAMB route |
 | 059 | [Hogg 2020 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_hogg_2020_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Hogg 2020 `Q`, `Q^mu`/frame summary, 17-bin CPZ-prior reconstruction, PCA, and evidence boundary |
+| 059 | [Martinelli/Hogg IV/Geodesic-CDM Same-Family Comparison Note](conclusions/059_martinelli_hogg_iv_geodesic_cdm_same_family_comparison_note_ko.md) | separates shared vacuum-geodesic CDM formalism from Hogg-specific reconstruction safeguards |
 
 Reserved future records:
 
@@ -211,6 +212,9 @@ Reserved future records:
   same-family physical setup separate from Hogg-specific reconstruction
   safeguards: 17 bins, CPZ correlation prior, PCA prior-dominance checks, and
   weak/no-meaningful evidence language.
+- `059` also includes the Martinelli/Hogg same-family comparison note. It
+  identifies Martinelli as the perturbation/formalism anchor and Hogg as the
+  reconstruction/non-circularity teaching target.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 

@@ -45,3 +45,4 @@ made through the project process.
 - [Li/Escamilla IV/IDE Convention Comparison Note](059_li_escamilla_iv_ide_convention_comparison_note_ko.md)
 - [Martinelli 2019 IV/Geodesic-CDM Equation Extraction Result](059_martinelli_2019_iv_geodesic_cdm_equation_extraction_result_ko.md)
 - [Hogg 2020 IV/Geodesic-CDM Equation Extraction Result](059_hogg_2020_iv_geodesic_cdm_equation_extraction_result_ko.md)
+- [Martinelli/Hogg IV/Geodesic-CDM Same-Family Comparison Note](059_martinelli_hogg_iv_geodesic_cdm_same_family_comparison_note_ko.md)
