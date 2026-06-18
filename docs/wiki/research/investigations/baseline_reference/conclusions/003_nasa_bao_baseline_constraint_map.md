@@ -8,12 +8,16 @@ evidence_role: audit
 depends_on:
   - audit_2026_06_17_effective_foam_assumption_ledger_result
   - audit_2026_06_17_nasa_lambda_graphic_history_cache_closeout
+  - audit_2026_06_18_foam_state_variable_definition_audit
+  - audit_2026_06_18_fB_stress_energy_definition_audit
+  - audit_2026_06_18_fB_known_model_reduction_checklist
+  - audit_2026_06_18_known_model_escape_equation_templates
   - asset_nasa_lambda_graphic_history
   - asset_desi_dr2_lya_bao_2025
   - asset_eboss_dr16_lya_bao_2020
   - roadmap
-next_gate: define a foam-sector state variable and equation-side placement before using this map for model-facing interpretation
-last_updated: 2026-06-17
+next_gate: use as observational kill-map only until escape-equation templates are filled before model-facing interpretation
+last_updated: 2026-06-18
 ---
 
 # 2026-06-17 NASA + BAO Baseline Constraint Map
@@ -43,6 +47,25 @@ This does not derive `xi`, transition width, amplitude, candidate `X`,
 `Q^nu`, `delta Q`, or a foam-sector state variable.
 
 This does not open Physical-QFUDS Level 2B.
+
+## 2026-06-18 Re-Scope
+
+The later baseline-reference audit chain narrows this document's use:
+
+- [Foam State Variable Definition Audit](005_foam_state_variable_definition_audit.md):
+  rejects `X(x,a)` at the current definition and keeps `f_B(x,a)` as
+  bookkeeping only;
+- [f_B Stress-Energy Definition Audit](006_fB_stress_energy_definition_audit.md):
+  shows that `f_B` does not supply `p_B`, `T_mu_nu`, `Q^nu`, or `delta Q`;
+- [f_B Known-Model Reduction Checklist](007_fB_known_model_reduction_checklist.md):
+  shows that the current `f_B` route first reduces to effective `w(a)`,
+  unified dark fluid, or IV/IDE;
+- [Known-Model Escape Equation Templates](008_known_model_escape_equation_templates.md):
+  records that the current repository fills none of the escape templates.
+
+Therefore this NASA + BAO map is now explicitly downstream of those audits.
+It is an observational kill-map only. It is not a model-facing interpretation
+surface.
 
 ## Source Boundary
 
@@ -103,6 +126,17 @@ No QFUDS model in the repository currently computes these quantities.
 | Perturbation stability | Perturbation prescription, sound speed, and conservation route. | Claims CMB, matter-power, or clustering viability from background-only timing. |
 | Known-model distinction | Comparison against LCDM+EFTofLSS, backreaction, running vacuum/HDE, screened modified gravity, IV/IDE, and effective `w(a)`. | Reproduces a known model with renamed foam language and no new observable. |
 
+## Threshold Separation
+
+| Threshold class | What any future physical branch would need to pass | What retained timing can actually test | Current repo state |
+| --- | --- | --- | --- |
+| NASA/LAMBDA parameter axes | Full model must state which standard cosmological axes it computes or imports. | No direct test; retained timing is not a parameter-estimation pipeline. | Baseline reference only. |
+| DESI/eBOSS Ly-alpha BAO geometry | Model must compute `D_M/r_d`, `D_H/r_d`, and covariance-aware comparison semantics. | Only flags that retained timing sits near the high-redshift BAO region; it does not compute BAO observables. | Kill-map only. |
+| `xi ~= 10 Mpc` | Must be declared as input or derived output before comparison. | Retained timing cannot derive `xi`. | `xi` remains undefined. |
+| Transition redshift, width, amplitude | Must be fixed by a source equation or preregistered calibration split. | Retained timing can be compared as a phenomenological fingerprint only. | Circular if chosen from NASA/BAO/LSS targets. |
+| Perturbations and CMB/LSS | Must provide `T_mu_nu`, `Q^nu`, `delta Q`, sound speed, and stability route. | Retained timing cannot test perturbation viability. | Blocked by missing equations. |
+| Known-model distinction | Must pass the escape-equation templates before observational interpretation. | Retained timing cannot distinguish QFUDS from IV/IDE or effective `w(a)`. | Not supplied. |
+
 ## Retained Timing Boundary
 
 Retained timing near `z ~= 2` can only do this:
@@ -138,23 +172,42 @@ That is a post-hoc fit.
 Allowed use is narrower:
 
 ```text
-freeze state variable and equation-side placement first
+fill the upstream definition and escape-equation templates first
 -> compute H(z), D_M/r_d, D_H/r_d, perturbations, or other observables
+   without retuning to NASA/BAO targets
 -> compare to this baseline map as a possible kill test
 ```
 
 ## Decision
 
-The NASA + BAO baseline map is usable as an observational kill-map only.
+The NASA + BAO baseline map remains usable as an observational kill-map only.
 
-It is not yet usable for model-facing interpretation because the repository has
-not defined:
+It is not usable for model-facing interpretation because the repository has not
+filled the upstream definition and escape-equation requirements:
 
 - a foam-sector state variable;
 - whether the modification is geometry-side or stress-energy-side;
 - a replacement for retained `Gamma(a)`;
 - a non-circular `xi` definition;
+- `p_B`, `T_mu_nu`, `Q^nu`, and `delta Q`;
+- known-model escape equations;
 - a BAO/CMB/SNe/matter-power likelihood pipeline.
+
+Allowed use:
+
+```text
+future candidate supplies all upstream equations first
+-> compute observables without retuning to NASA/BAO
+-> compare against this map as a kill test
+```
+
+Forbidden use:
+
+```text
+read NASA/BAO targets
+-> choose xi, transition width, transition redshift, or amplitude
+-> describe the fitted choices as foam-source evidence
+```
 
 ## Status Boundary Closeout
 
@@ -171,3 +224,5 @@ QFUDS support: no.
 Roadmap status change: no.
 
 Physical-QFUDS Level 2B change: no.
+
+NASA/LAMBDA or BAO model-facing interpretation: no.

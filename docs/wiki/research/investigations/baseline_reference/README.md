@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - research_investigations_index
-next_gate: define one candidate foam-sector state variable before model-facing NASA or BAO interpretation
+next_gate: keep NASA and BAO as observational kill-map only until upstream escape-equation templates are filled
 last_updated: 2026-06-18
 ---
 
@@ -58,7 +58,8 @@ changes.
    define the minimum equations required before any future `f_B`, `X`, or `xi`
    route can claim it escapes a known-model sink.
 10. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
-   list observational kill thresholds only after the non-circularity ledger is
+   list observational kill thresholds only after the non-circularity ledger,
+   definition audits, known-model checklist, and escape-equation templates are
    frozen.
 
 ## Use Boundary

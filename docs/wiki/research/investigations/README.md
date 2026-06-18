@@ -72,7 +72,7 @@ product was not found in the checked sources on the recorded date.
 | 001 | [2026-06-17 NASA LAMBDA Graphic History Cache Closeout](baseline_reference/conclusions/001_nasa_lambda_graphic_history_cache_closeout.md) | cache closeout |
 | 002 | [2026-06-17 Effective Foam Assumption Ledger Preflight Plan](baseline_reference/plans/002_effective_foam_assumption_ledger_preflight_plan.md) | preflight plan |
 | 002 | [2026-06-17 Effective Foam Assumption Ledger Result](baseline_reference/conclusions/002_effective_foam_assumption_ledger_result.md) | non-circularity audit |
-| 003 | [2026-06-17 NASA + BAO Baseline Constraint Map](baseline_reference/conclusions/003_nasa_bao_baseline_constraint_map.md) | observational kill-map |
+| 003 | [2026-06-17 NASA + BAO Baseline Constraint Map](baseline_reference/conclusions/003_nasa_bao_baseline_constraint_map.md) | observational kill-map; re-scoped 2026-06-18 |
 | 004 | [2026-06-17 Foam State Variable and Placement Selection Matrix](baseline_reference/conclusions/004_foam_state_variable_placement_selection_matrix.md) | state-variable placement audit |
 | 005 | [2026-06-17 Foam State Variable Definition Plan](baseline_reference/plans/005_foam_state_variable_definition_plan.md) | plan-only definition checkpoint |
 | 005 | [2026-06-18 Foam State Variable Definition Audit](baseline_reference/conclusions/005_foam_state_variable_definition_audit.md) | definition audit |

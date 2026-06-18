@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - baseline_reference_investigation_index
-next_gate: effective foam state variable definition before model-facing NASA or BAO interpretation
+next_gate: keep NASA and BAO as observational kill-map only until upstream escape-equation templates are filled
 last_updated: 2026-06-18
 ---
 
@@ -33,7 +33,8 @@ admission records.
   non-circularity audit for `xi`, equation-side placement, and fitted-vs-independent
   assumptions.
 - [NASA + BAO Baseline Constraint Map](003_nasa_bao_baseline_constraint_map.md):
-  observational kill-map only.
+  observational kill-map only; re-scoped on 2026-06-18 after the state-variable,
+  `f_B`, known-model, and escape-template audits.
 - [Foam State Variable and Placement Selection Matrix](004_foam_state_variable_placement_selection_matrix.md):
   candidate-state-variable and equation-side placement rejection matrix.
 - [Foam State Variable Definition Audit](005_foam_state_variable_definition_audit.md):
