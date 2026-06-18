@@ -79,6 +79,8 @@ available.
 - arXiv page provides PDF and TeX source.
 - Repository-local asset cache:
   [Martinelli 2019 assets](../assets/martinelli_2019_interacting_vacuum_geodesic_cdm/README.md).
+- Manual structured equation extract:
+  [Martinelli 2019 IV/Geodesic-CDM Equation Extraction](../assets/martinelli_2019_interacting_vacuum_geodesic_cdm/digitization/equation_extraction_20260618.md).
 - Public posterior products were not found during the 2026-06-09 check.
 
 ## QFUDS Relevance
@@ -100,3 +102,7 @@ This record is not a QFUDS conclusion.
 - 2026-06-18: arXiv PDF and source bundle cached locally for Source-X equation
   extraction. Current source state: `asset_cached`;
   `asset_extracted_not_digitized`.
+- 2026-06-18: manual structured equation extract added for background `Q`,
+  covariant `Q^mu`, CDM-frame/geodesic closure, perturbation equations, RSD
+  growth adjustment, and modified CAMB/CosmoMC route. Current extraction state:
+  `manual_structured_extract`.

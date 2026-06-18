@@ -88,6 +88,7 @@ records. The prefix is a route number, not a project-status claim.
 | 059 | [Li 2025 IV/IDE Equation Extraction Result](conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md) | executes the Li 2025 pilot extraction; comparator only, no QFUDS admission |
 | 059 | [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](conclusions/059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md) | executes the Escamilla 2023 background-kernel extraction; background-only stop |
 | 059 | [Li/Escamilla IV/IDE Convention Comparison Note](conclusions/059_li_escamilla_iv_ide_convention_comparison_note_ko.md) | compares the two extracted conventions before any timing fit or baseline-constraint use |
+| 059 | [Martinelli 2019 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_martinelli_2019_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Martinelli 2019 `Q`, `Q^mu`, CDM-frame closure, perturbations, and CAMB route |
 
 Reserved future records:
 
@@ -202,6 +203,9 @@ Reserved future records:
 - `059` also includes a convention-comparison note. It freezes the translation
   hazards before any retained-timing fit, NASA/BAO/CMB/LSS interpretation, or
   next-target literature extraction.
+- `059` also includes the Martinelli 2019 IV/geodesic-CDM extraction. It shows
+  what a perturbation-ready interacting-vacuum comparator looks like, while
+  preserving the boundary that this is not a QFUDS source derivation.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 

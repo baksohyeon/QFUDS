@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - lit_martinelli_2019_interacting_vacuum_geodesic_cdm
-next_gate: structured equation extraction before IV/geodesic-CDM convention comparison
+next_gate: Source-X 059 Martinelli extraction result before Hogg 2020 comparison
 last_updated: 2026-06-18
 ---
 
@@ -40,8 +40,8 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
 | Current asset state | `asset_cached`; `asset_extracted_not_digitized` |
 | Extraction potential | `source_tex_parse_possible`; `figure_digitization_possible`; `direct_table` for paper tables |
 | Text quality | TeX source parse available through `source/extracted/void.tex` |
-| Depends on | Source-X 059 Martinelli equation extraction target |
-| Known blocked step | no structured equation extract exists yet |
+| Depends on | Source-X 059 Martinelli equation extraction result |
+| Known blocked step | no numerical digitization or QFUDS physical source exists in this cache |
 | Local metadata check | extracted source and raw bundle string search found no local path or sync metadata markers |
 
 ## Files
@@ -55,12 +55,14 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
   interaction, density, CMB, matter power, Hubble, and tension figures.
 - `figures/.gitkeep` - reserved for rendered or copied figure mirrors if later
   needed.
-- `digitization/.gitkeep` - reserved for future structured extracts or
-  digitization products.
+- [Martinelli 2019 IV/Geodesic-CDM Equation Extraction](digitization/equation_extraction_20260618.md) -
+  manual structured extract of the IV/geodesic-CDM convention.
+- [Digitization asset index](digitization/README.md) - digitization asset
+  index.
 
 ## Immediate Use
 
-The next Source-X task may inspect `source/extracted/void.tex` for:
+The Source-X 059 extraction result inspected `source/extracted/void.tex` for:
 
 ```text
 interacting-vacuum background Q convention
