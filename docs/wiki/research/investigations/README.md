@@ -77,6 +77,7 @@ product was not found in the checked sources on the recorded date.
 | 005 | [2026-06-17 Foam State Variable Definition Plan](baseline_reference/plans/005_foam_state_variable_definition_plan.md) | plan-only definition checkpoint |
 | 005 | [2026-06-18 Foam State Variable Definition Audit](baseline_reference/conclusions/005_foam_state_variable_definition_audit.md) | definition audit |
 | 006 | [2026-06-18 f_B Stress-Energy Definition Audit](baseline_reference/conclusions/006_fB_stress_energy_definition_audit.md) | stress-energy definition audit |
+| 007 | [2026-06-18 f_B Known-Model Reduction Checklist](baseline_reference/conclusions/007_fB_known_model_reduction_checklist.md) | known-model reduction checklist |
 
 ## Exp006 Timing Chain
 

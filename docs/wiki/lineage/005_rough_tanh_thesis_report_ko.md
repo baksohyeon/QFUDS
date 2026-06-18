@@ -43,6 +43,10 @@ effective fit, falsifiable signatures, and the theoretical ceiling**
 > rho_B/(rho_A+rho_B)`는 identity/bookkeeping이고, `p_B ~= -rho_B`,
 > `T_mu_nu`, `Q^nu`, `delta Q`를 독립적으로 주지 못하면 effective `w(a)` 또는
 > IV/IDE 재표현으로 기각된다.
+> 이어진 known-model reduction checklist는 이 흡수 순서를
+> identity/bookkeeping -> effective `w(a)` -> unified dark fluid -> IV/IDE로
+> 닫고, running vacuum/HDE, EFTofLSS, backreaction, screened modified gravity도
+> 별도 escape equation 없이는 비교 대상일 뿐이라고 기록한다.
 
 ---
 
@@ -660,6 +664,10 @@ conservation/transfer law, perturbation route, known-model reduction test를 먼
 추가 stress-energy audit에서는 `f_B = rho_B/(rho_A+rho_B)`가 이미 존재하는 phase split의
 identity일 뿐이며, `p_B ~= -rho_B`, `T_mu_nu`, `Q^nu`, `delta Q`를 독립적으로 주지 못하면
 effective `w(a)` 또는 IV/IDE 재표현으로 닫힌다고 판정했다.
+known-model reduction checklist는 이 경로가 현재
+identity/bookkeeping -> effective `w(a)` -> unified dark fluid -> IV/IDE 순서로 흡수되며,
+running vacuum/HDE, EFTofLSS, backreaction, screened modified gravity와의 차이도 아직
+독립 방정식으로 제시되지 않았다고 닫았다.
 이 전에는 NASA/LAMBDA나 BAO를 모델 해석에 쓰면 순환논리다.
 
 ---

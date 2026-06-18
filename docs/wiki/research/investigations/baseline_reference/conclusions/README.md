@@ -41,6 +41,10 @@ admission records.
 - [f_B Stress-Energy Definition Audit](006_fB_stress_energy_definition_audit.md):
   stress-energy-side audit showing that `f_B` remains bookkeeping unless it
   supplies `T_mu_nu`, `p_B`, `Q^nu`, and `delta Q`.
+- [f_B Known-Model Reduction Checklist](007_fB_known_model_reduction_checklist.md):
+  reduction checklist showing where `f_B` is first absorbed by effective
+  `w(a)`, unified dark fluid, IV/IDE, running vacuum/HDE, EFTofLSS,
+  backreaction, or screened modified gravity.
 
 ## Stop Rule
 
@@ -50,4 +54,5 @@ then those choices are described as a foam-sector source.
 
 Before using the NASA + BAO map for any model-facing interpretation, read the
 effective foam ledger, the state-variable/placement matrix, and the state
-variable definition audit, and the `f_B` stress-energy definition audit first.
+variable definition audit, the `f_B` stress-energy definition audit, and the
+`f_B` known-model reduction checklist first.
