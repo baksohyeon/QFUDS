@@ -81,6 +81,7 @@ product was not found in the checked sources on the recorded date.
 | 007 | [2026-06-18 f_B Known-Model Reduction Checklist](baseline_reference/conclusions/007_fB_known_model_reduction_checklist.md) | known-model reduction checklist |
 | 008 | [2026-06-18 Known-Model Escape Equation Templates](baseline_reference/conclusions/008_known_model_escape_equation_templates.md) | escape-equation templates |
 | 009 | [2026-06-18 Baseline Reference Chain Closure](baseline_reference/conclusions/009_baseline_reference_chain_closure.md) | chain closure |
+| 010 | [2026-06-18 Candidate Equation Triage Closeout](baseline_reference/conclusions/010_candidate_equation_triage_closeout.md) | admission triage closeout |
 
 ## Exp006 Timing Chain
 

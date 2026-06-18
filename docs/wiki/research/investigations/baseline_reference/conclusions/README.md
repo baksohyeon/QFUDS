@@ -52,6 +52,9 @@ admission records.
 - [Baseline Reference Chain Closure](009_baseline_reference_chain_closure.md):
   read-order and stop-rule summary closing the chain until a future candidate
   fills the upstream escape-equation templates.
+- [Candidate Equation Triage Closeout](010_candidate_equation_triage_closeout.md):
+  applies the candidate-equation template to current lanes and records that no
+  current route passes physical-branch admission.
 
 ## Stop Rule
 
@@ -63,4 +66,4 @@ Before using the NASA + BAO map for any model-facing interpretation, read the
 effective foam ledger, the state-variable/placement matrix, and the state
 variable definition audit, the `f_B` stress-energy definition audit, and the
 `f_B` known-model reduction checklist, escape-equation templates, and chain
-closure first.
+closure, and candidate-equation triage closeout first.

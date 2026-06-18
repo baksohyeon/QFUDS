@@ -66,6 +66,9 @@ changes.
 12. [Candidate Equation Proposal Template](plans/010_candidate_equation_proposal_template.md):
    use this before accepting any future `Y`, `X`, `f_B`, `xi`, stress-tensor,
    or transfer-law proposal.
+13. [Candidate Equation Triage Closeout](conclusions/010_candidate_equation_triage_closeout.md):
+   apply the template to current lanes and record that no current candidate
+   passes physical-branch admission.
 
 ## Use Boundary
 
@@ -96,3 +99,7 @@ The chain can re-enter only through the
 [Candidate Equation Proposal Template](plans/010_candidate_equation_proposal_template.md).
 If a candidate cannot fill that template, reject it before NASA/LAMBDA, BAO,
 LSS, CMB, matter-power, or likelihood comparison.
+
+The 2026-06-18
+[Candidate Equation Triage Closeout](conclusions/010_candidate_equation_triage_closeout.md)
+records that the current candidate set does not pass this re-entry rule.
