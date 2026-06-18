@@ -115,6 +115,7 @@ Current validation roadmap and blockers.
 - [015_retained_branch_source_closure_plan_provenance.md](05_next_steps/015_retained_branch_source_closure_plan_provenance.md) - provenance planning gate superseded by the retained-branch demotion
 - [020_legacy_workflow_marker_migration_plan.md](05_next_steps/020_legacy_workflow_marker_migration_plan.md) - core-first plan for migrating legacy workflow markers before lineage 007 while leaving full `--all` cleanup as backlog
 - [020_public_bridge_lineage_plan_ko.md](05_next_steps/020_public_bridge_lineage_plan_ko.md) - Korean routing plan for preserving the black-hole information origin story as public lineage/provenance while keeping scientific gates intact
+- [020_three_branch_routing_plan_ko.md](05_next_steps/020_three_branch_routing_plan_ko.md) - Korean routing plan separating empirical kill-map work, exploratory candidate sandbox work, and idea-lineage provenance
 - [030_exp003_record_consistency_gate.md](05_next_steps/030_exp003_record_consistency_gate.md) - exp_003 record consistency gate
 - [900_roadmap_overview_ko.md](05_next_steps/900_roadmap_overview_ko.md) - Korean guide to roadmap trajectory and branch outcomes
 

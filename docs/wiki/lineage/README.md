@@ -45,6 +45,10 @@ evidence and not a roadmap-status authority.
 The 007 document records the public-facing black-hole information bridge. It is
 origin narrative and audit-harness context only. It does not claim black-hole
 evaporation, remnants, or information preservation as a physical QFUDS source.
+Follow-up work after 007 should branch through the
+[three-branch routing plan](../../05_next_steps/020_three_branch_routing_plan_ko.md)
+before becoming an empirical kill-map, exploratory candidate audit, or lineage
+continuation.
 
 ## Current 005 Boundary
 
