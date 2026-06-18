@@ -93,6 +93,7 @@ records. The prefix is a route number, not a project-status claim.
 | 059 | [Martinelli/Hogg IV/Geodesic-CDM Same-Family Comparison Note](conclusions/059_martinelli_hogg_iv_geodesic_cdm_same_family_comparison_note_ko.md) | separates shared vacuum-geodesic CDM formalism from Hogg-specific reconstruction safeguards |
 | 059 | [Wang 2015 IV Equation Extraction Result](conclusions/059_wang_2015_iv_equation_extraction_result_ko.md) | extracts Wang 2015 `alpha(a)`, nonlinear density-factor `Q`, DM-frame closure, perturbation/RSD route, PCA, and evidence boundary |
 | 059 | [Wang/Martinelli/Hogg IV Convention Comparison Note](conclusions/059_wang_martinelli_hogg_iv_convention_comparison_note_ko.md) | compares sign, density factor, frame, perturbation, RSD, prior/PCA, and evidence boundaries across Tier 1 IV targets |
+| 059 | [Tier 1 IV Extraction Pass Closeout](conclusions/059_tier1_iv_extraction_pass_closeout_ko.md) | closes Tier 1 extraction: retained `Gamma(a)` is a timing comparator, not derived source physics |
 
 Reserved future records:
 
@@ -224,6 +225,10 @@ Reserved future records:
   records that Wang is sign-closer to retained `Gamma(a)`, but all three lanes
   remain blocked by density-factor, frame, perturbation, and evidence
   translation requirements.
+- `059` also includes the Tier 1 extraction closeout. It records that the
+  retained `Gamma(a)` bridge is now sufficient for formalism learning, but still
+  lacks `X`, `Q^mu[X]`, phase-B pressure, perturbation closure, and a
+  known-model escape equation.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 
