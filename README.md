@@ -384,6 +384,9 @@ The current honest learning path is the
 translate `Gamma(a)` into the standard IV/IDE source-term chain
 `Q -> Q^mu -> transfer frame -> perturbation closure -> stability -> likelihood`.
 That bridge is not a physical QFUDS derivation and not Level 4 CMB work.
+The follow-up
+[IV/IDE Formalism Study Map](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md)
+keeps that next step as a learning path, not a renewed QFUDS claim.
 
 ## Afterword: A Grand-Sounding Theory That Converged on Two Open Problems
 
@@ -953,7 +956,8 @@ History/source notes:
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
-- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-055, Chen Figure 5 digitization, known-model distinction, observer-mode routing, foam-sector feasibility closeout, and academic IV/IDE bridge
+- [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
+- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-056, Chen Figure 5 digitization, known-model distinction, observer-mode routing, foam-sector feasibility closeout, and academic IV/IDE bridge
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
 - [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open
 - [concept_origin.md](docs/01_origin/concept_origin.md): how the raw information-flow idea became the QFUDS question

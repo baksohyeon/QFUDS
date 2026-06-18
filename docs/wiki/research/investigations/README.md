@@ -116,3 +116,4 @@ product was not found in the checked sources on the recorded date.
 | 053 | [2026-06-18 Black-Hole Vacuum Foam Falsifiability Ledger](source_x/conclusions/053_black_hole_vacuum_foam_falsifiability_ledger_ko.md) | integrated falsifiability ledger for black-hole, vacuum, remnant, and foam-origin questions |
 | 054 | [2026-06-18 Candidate Equation Template Attempts](source_x/conclusions/054_candidate_equation_template_attempts_ko.md) | applies the admission template to the five origin routes; none is admitted |
 | 055 | [2026-06-18 Academic Derivation Bridge](source_x/conclusions/055_academic_derivation_bridge_ko.md) | translates retained `Gamma(a)` into academic IV/IDE formalism; no physical branch |
+| 056 | [2026-06-18 IV/IDE Formalism Study Map](source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) | maps the safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |

@@ -38,3 +38,4 @@ made through the project process.
 - [Black-Hole Vacuum Foam Falsifiability Ledger](053_black_hole_vacuum_foam_falsifiability_ledger_ko.md)
 - [Candidate Equation Template Attempts](054_candidate_equation_template_attempts_ko.md)
 - [Academic Derivation Bridge](055_academic_derivation_bridge_ko.md)
+- [IV/IDE Formalism Study Map](056_iv_ide_formalism_study_map_ko.md)

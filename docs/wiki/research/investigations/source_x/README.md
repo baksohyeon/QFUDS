@@ -82,6 +82,7 @@ records. The prefix is a route number, not a project-status claim.
 | 053 | [Black-Hole Vacuum Foam Falsifiability Ledger](conclusions/053_black_hole_vacuum_foam_falsifiability_ledger_ko.md) | integrated falsifiability ledger for five public-origin questions; no Level 2B |
 | 054 | [Candidate Equation Template Attempts](conclusions/054_candidate_equation_template_attempts_ko.md) | applies the candidate-equation template to all five routes; no route admitted |
 | 055 | [Academic Derivation Bridge](conclusions/055_academic_derivation_bridge_ko.md) | translates retained `Gamma(a)` into academic IV/IDE source-term language; no physical branch |
+| 056 | [IV/IDE Formalism Study Map](conclusions/056_iv_ide_formalism_study_map_ko.md) | defines the safe study route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
 
 Reserved future records:
 
@@ -184,6 +185,10 @@ Reserved future records:
   bridge is useful for learning `Q`, `Q^mu`, transfer frames, perturbation
   closure, and constraints, but it does not derive physical QFUDS or open
   Level 2B.
+- `056` turns that bridge into a study map: model taxonomy, background `Q`,
+  covariant `Q^mu`, perturbation closure, stability, and likelihood readiness.
+  It is a learning route and guardrail against repeating brute-force fitting,
+  not a new QFUDS branch.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 
