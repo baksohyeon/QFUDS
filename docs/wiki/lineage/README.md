@@ -7,7 +7,7 @@ status: reference
 evidence_role: provenance
 depends_on:
   - roadmap
-next_gate: none; lineage is routing provenance only; 007 is public bridge, not physical evidence
+next_gate: none; lineage is routing provenance only; 007 and 008 are public/provenance bridges, not physical evidence
 last_updated: 2026-06-18
 ---
 
@@ -61,6 +61,11 @@ not physical QFUDS evidence, Level 2B admission, or Level 4 CMB work.
 The 008 document records the result of that learning path as lineage: retained
 `Gamma(a)` is useful as an IV/IDE timing comparator and reading handle, but it
 does not derive `Q^mu`, phase-B pressure, perturbations, or novelty.
+The corresponding Source-X closeout is
+[Gamma IV Bridge Branch Closeout](../research/investigations/source_x/conclusions/059_gamma_iv_bridge_branch_closeout_ko.md).
+It closes the branch as learning/audit harness only. Follow-up work must choose
+either standard IV/IDE study mode or a new pre-data source-object `X` proposal
+with equations.
 
 ## Current 005 Boundary
 

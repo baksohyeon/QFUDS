@@ -51,6 +51,9 @@ Short version:
 - [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md)
   preserves the black-hole information origin story as a public bridge. It is
   provenance, not physical evidence.
+- [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md)
+  records where retained `Gamma(a)` enters academic IV/IDE language and where
+  it stops. It is a learning bridge, not a physical derivation.
 
 ## Start Here
 
@@ -62,6 +65,7 @@ Short version:
 | The representative rough Season 2 exploration | [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) |
 | The formal thesis-style archive | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
 | The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
+| Where retained `Gamma(a)` stopped | [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) |
 | How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
@@ -71,6 +75,7 @@ Recommended order:
 lineage 006
 Roadmap
 -> lineage 003
+-> lineage 008
 -> lineage 004
 -> docs/README.md
 ```
@@ -398,6 +403,11 @@ constraint use.
 The Li 2025 pilot extraction is recorded in
 [Li 2025 IV/IDE Equation Extraction Result](docs/wiki/research/investigations/source_x/conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md);
 it is a comparator-only formalism extract, not a QFUDS source claim.
+The current branch closeout is
+[Gamma IV Bridge Branch Closeout](docs/wiki/research/investigations/source_x/conclusions/059_gamma_iv_bridge_branch_closeout_ko.md):
+the `Gamma(a)` to IV/IDE bridge is complete as a learning/audit harness, but not
+as physical QFUDS. Future work must either enter standard IV/IDE study mode or
+introduce a genuinely pre-data source object `X` with equations.
 
 ## Afterword: A Grand-Sounding Theory That Converged on Two Open Problems
 
@@ -966,11 +976,13 @@ History/source notes:
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the representative Season 2 rough-`tanh` experiment record and 24-checkpoint numerical exploration log (Korean)
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
+- [008_gamma_to_academic_iv_bridge_result_ko.md](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md): Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules
 - [058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md](docs/wiki/research/investigations/source_x/plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md): exact per-paper IV/IDE equation extraction plan before timing fit or observational constraint use
 - [059_li_2025_iv_ide_equation_extraction_result_ko.md](docs/wiki/research/investigations/source_x/conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md): Li 2025 pilot extraction for `Q`, `Q_mu`/frame, and ePPF route as comparator-only formalism
+- [059_gamma_iv_bridge_branch_closeout_ko.md](docs/wiki/research/investigations/source_x/conclusions/059_gamma_iv_bridge_branch_closeout_ko.md): closes the `Gamma(a)` to IV/IDE bridge as learning/audit harness, not physical QFUDS
 - [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-059, Chen Figure 5 digitization, known-model distinction, observer-mode routing, foam-sector feasibility closeout, and academic IV/IDE bridge
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
 - [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open
