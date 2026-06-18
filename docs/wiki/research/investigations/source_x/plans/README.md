@@ -36,3 +36,4 @@ not store downloaded assets.
 - [Foam-Sector-to-Gamma Derivation Feasibility Plan](049_foam_sector_to_gamma_derivation_feasibility_plan.md)
 - [Foam-State Variable Literature Question Plan](052_foam_state_variable_literature_question_plan.md)
 - [Paper-by-Paper IV/IDE Equation Extraction Plan](058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md)
+- [Source Object X Definition Preflight Plan](059_source_object_x_definition_preflight_plan_ko.md)

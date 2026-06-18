@@ -85,6 +85,7 @@ records. The prefix is a route number, not a project-status claim.
 | 056 | [IV/IDE Formalism Study Map](conclusions/056_iv_ide_formalism_study_map_ko.md) | defines the safe study route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
 | 057 | [IV/IDE Formalism Notes Ledger](conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | executes the first formalism ledger: background `Q`, `Q^mu` frame, perturbation closure, and stop rules |
 | 058 | [Paper-by-Paper IV/IDE Equation Extraction Plan](plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) | plans exact per-paper extraction before any timing fit or observational constraint use |
+| 059 | [Source Object X Definition Preflight Plan](plans/059_source_object_x_definition_preflight_plan_ko.md) | freezes the minimum conditions for anything to count as source object `X` before timing or constraint use |
 | 059 | [Li 2025 IV/IDE Equation Extraction Result](conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md) | executes the Li 2025 pilot extraction; comparator only, no QFUDS admission |
 | 059 | [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](conclusions/059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md) | executes the Escamilla 2023 background-kernel extraction; background-only stop |
 | 059 | [Li/Escamilla IV/IDE Convention Comparison Note](conclusions/059_li_escamilla_iv_ide_convention_comparison_note_ko.md) | compares the two extracted conventions before any timing fit or baseline-constraint use |
@@ -201,6 +202,9 @@ Reserved future records:
   covariant `Q^mu`, perturbation closure, stability, and likelihood readiness.
   It is a learning route and guardrail against repeating brute-force fitting,
   not a new QFUDS branch.
+- `059` includes the source-object `X` definition preflight plan. It freezes the
+  minimum required fields for `X` before any retained timing or observational
+  comparison is allowed.
 - `059` includes the Li 2025 pilot extraction and the Escamilla 2023
   background-kernel extraction. Together they show why retained `Gamma(a)` can
   be a formalism comparator but still cannot be used as a physical source:
