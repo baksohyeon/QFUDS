@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - literature_cache_index
-next_gate: none; raw literature cache only
+next_gate: Martinelli/Hogg same-family comparison note before any retained timing fit
 last_updated: 2026-06-18
 record_type: literature_record
 paper_year: 2020
@@ -23,9 +23,10 @@ used_by:
 This record follows the
 [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
 
-The 2026-06-18 update records a local source cache only. Current source state:
-`asset_cached`; `asset_extracted_not_digitized`. This is not QFUDS evidence,
-not retained `Gamma(a)` support, and not Level 2B admission.
+The 2026-06-18 updates record a local source cache and a manual structured
+equation extract. Current source state: `asset_cached`;
+`asset_extracted_not_digitized`; `manual_structured_extract`. This is not QFUDS
+evidence, not retained `Gamma(a)` support, and not Level 2B admission.
 
 ## Bibliographic Metadata
 
@@ -40,6 +41,9 @@ not retained `Gamma(a)` support, and not Level 2B admission.
 
 - Reconstructs the coupling function between vacuum energy and geodesic CDM.
 - Uses redshift bins and a correlation prior to control rapid oscillations.
+- Source extraction records `Q = -qHV`, the raw continuity equations, the
+  geodesic-CDM `Q^mu`/frame summary, the RSD observable adjustment, PCA
+  prior-dominance check, and Bayesian evidence boundary.
 
 ## Coupling Definitions
 
@@ -76,6 +80,8 @@ is preferable for any posterior-level comparison.
 - arXiv page provides PDF and TeX source.
 - Repository-local asset cache:
   [Hogg 2020 assets](../assets/hogg_2020_vacuum_geodesic_cdm_interaction/README.md).
+- Repository-local equation extract:
+  [2026-06-18 Hogg equation extraction](../assets/hogg_2020_vacuum_geodesic_cdm_interaction/digitization/equation_extraction_20260618.md).
 - Data availability statement:
   [University of Portsmouth record](https://researchportal.port.ac.uk/en/datasets/data-availability-statement-for-latest-evidence-for-a-late-time-v)
 
@@ -99,3 +105,5 @@ This record does not change Exp006 or roadmap conclusions.
 - 2026-06-18: arXiv PDF and source bundle cached locally for Source-X equation
   extraction. Current source state: `asset_cached`;
   `asset_extracted_not_digitized`.
+- 2026-06-18: manual structured equation extraction added from cached source
+  TeX. Current workflow state additionally includes `manual_structured_extract`.

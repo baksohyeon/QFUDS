@@ -44,3 +44,4 @@ made through the project process.
 - [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md)
 - [Li/Escamilla IV/IDE Convention Comparison Note](059_li_escamilla_iv_ide_convention_comparison_note_ko.md)
 - [Martinelli 2019 IV/Geodesic-CDM Equation Extraction Result](059_martinelli_2019_iv_geodesic_cdm_equation_extraction_result_ko.md)
+- [Hogg 2020 IV/Geodesic-CDM Equation Extraction Result](059_hogg_2020_iv_geodesic_cdm_equation_extraction_result_ko.md)

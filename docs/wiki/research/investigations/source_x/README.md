@@ -89,6 +89,7 @@ records. The prefix is a route number, not a project-status claim.
 | 059 | [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](conclusions/059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md) | executes the Escamilla 2023 background-kernel extraction; background-only stop |
 | 059 | [Li/Escamilla IV/IDE Convention Comparison Note](conclusions/059_li_escamilla_iv_ide_convention_comparison_note_ko.md) | compares the two extracted conventions before any timing fit or baseline-constraint use |
 | 059 | [Martinelli 2019 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_martinelli_2019_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Martinelli 2019 `Q`, `Q^mu`, CDM-frame closure, perturbations, and CAMB route |
+| 059 | [Hogg 2020 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_hogg_2020_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Hogg 2020 `Q`, `Q^mu`/frame summary, 17-bin CPZ-prior reconstruction, PCA, and evidence boundary |
 
 Reserved future records:
 
@@ -206,6 +207,10 @@ Reserved future records:
 - `059` also includes the Martinelli 2019 IV/geodesic-CDM extraction. It shows
   what a perturbation-ready interacting-vacuum comparator looks like, while
   preserving the boundary that this is not a QFUDS source derivation.
+- `059` also includes the Hogg 2020 IV/geodesic-CDM extraction. It keeps the
+  same-family physical setup separate from Hogg-specific reconstruction
+  safeguards: 17 bins, CPZ correlation prior, PCA prior-dominance checks, and
+  weak/no-meaningful evidence language.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 
