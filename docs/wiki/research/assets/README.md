@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_cache_index
 next_gate: none; repository asset-cache routing only
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Research Assets
@@ -50,3 +50,5 @@ Current product-family caches include:
   products, and the source-derived data-reference matrix. Interpretation and
   use restrictions live in the
   [baseline reference chain](../investigations/baseline_reference/README.md).
+- [Escamilla 2023 Interacting Dark Energy Kernel](escamilla_2023_interacting_dark_energy_kernel/README.md) -
+  cached arXiv PDF/source assets for Source-X IV/IDE equation extraction.

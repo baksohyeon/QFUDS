@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - literature_cache_index
 next_gate: none; raw literature cache only
-last_updated: 2026-06-09
+last_updated: 2026-06-18
 record_type: literature_record
 paper_year: 2023
 availability_last_checked: 2026-06-09
@@ -17,6 +17,15 @@ used_by:
 ---
 
 # Escamilla 2023 Interacting Dark Energy Kernel
+
+## Workflow Boundary
+
+This record follows the
+[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+
+The 2026-06-18 update records a local source cache only. Current source state:
+`asset_cached`; `asset_extracted_not_digitized`. This is not QFUDS evidence,
+not retained `Gamma(a)` support, and not Level 2B admission.
 
 ## Bibliographic Metadata
 
@@ -72,6 +81,8 @@ functional posterior figures.
 ## Public Code / Data Links
 
 - arXiv page provides PDF and TeX source.
+- Repository-local asset cache:
+  [Escamilla 2023 assets](../assets/escamilla_2023_interacting_dark_energy_kernel/README.md).
 - No public posterior-product repository was found during the 2026-06-09 check.
 
 ## QFUDS Relevance
@@ -91,3 +102,6 @@ This record does not state that QFUDS or retained `Gamma(a)` is supported.
 
 - 2026-06-09: arXiv page, paper source, and Exp006 source notes checked for
   table products and public posterior products.
+- 2026-06-18: arXiv PDF and source tarball cached locally for Source-X
+  equation extraction. Current source state: `asset_cached`;
+  `asset_extracted_not_digitized`.

@@ -1,0 +1,122 @@
+\documentclass[10pt,fleqn]{report}
+\usepackage{hyperref,xcolor}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage[capitalize]{cleveref}
+\usepackage[left=2cm,top=2cm,right=2cm,bottom=2cm]{geometry}
+
+\begin{document}
+\begin{center}
+\textbf{Response to Referee's Report on JCAP\_105P\_0523}
+\end{center}
+
+\noindent Dear Editor,\\
+
+At the outset,  we extend our gratitude to the referee for providing constructive comments and suggestions that help us improve the manuscript (MS) and further clarify some points. We have revised the MS in accordance with the referee's report. To  facilitate the review process, our responses to the comments and suggestions of the referee are written below while the corresponding changes in the revised MS are made in \textbf{\textcolor{blue}{blue}} color. Some minor corrections or changes remained in black to avoid some clutter in the text, and finally some references were added to complement the new additions.\\
+
+%\bigskip
+
+\noindent\textbf{Referee's comment 1.} in the abstract (but also later in the text and in the conclusion) the authors mention the possibility for a transition between negative and positive dark energy. I suggest to discuss why this is an interesting option and what is the physical interpretation of this scenario;
+
+\noindent\textbf{Authors'  response:} Thank you for the observation. Since this type of behavior is not the main aim of our study but an outcome of it, we refer to other works that further discuss the physical interpretation in a more rigorous manner. We have also added a paragraph, for a brief discussion on this, at the end of section \textit{V. Results}, starting on page 9 with the sentence ``We conclude this section by commenting on..." and continuing on the next page. Also we have a relevant minor modification, ``which indicates that...", in a sentence on page 8.
+\\
+
+\noindent\textbf{Referee's comment 2.} at the end of page 3 and beginning of page 4 the authors derive some condition ($|\Pi_{DE}| >> \Omega_m H^2/H^2_0$) that the interaction kernel should satisfy in order for it to be available model. It would be instructive to see in Figures 2-6 these bounds, to check whether the constraints are well within them or not;
+
+\noindent\textbf{Authors'  response:}  We now made clear, with a new sentence ``These restrictions will be..." on page 4, that the constraint was relaxed to be $|\Pi_{\rm DE} | \sim \Omega_{\rm m}\frac{H^2}{H_0^2}$, and for reference, this curve is in every plot of $\Pi_{\rm DE}$ as a dotted line, which is now mentioned in the text and in every caption of the relevant figures.
+\\
+
+\noindent\textbf{Referee's comment 3.} as far as I understood, the authors decided to parameterise only the
+background interactions leaving the evolution of the perturbations unchanged
+w.r.t. a $\Lambda$CDM model (i.e., the effects of IDE on the perturbations
+are driven by a different background evolution). In any case I suggest to explain this in the main text. If, as I presume, the authors
+neglected a proper implementation of the perturbations in IDE,
+they should justify their choice and explain why we should not expect
+drastic changes in the results;
+
+\noindent\textbf{Authors'  response:}  As a proof of the concept of this type of implementation, and to save considerable amount of time, this work uses background observations to perform the parameter inference procedure, then we postpone the full study of perturbations for future works. However, we believe the main general behavior would be roughly preserved as dark energy perturbations may be negligible, to some extend.
+A new text has now been added explaining this; it starts with the new sentence ``For a comprehensive..." at the end of page 3 and continues on page 4.
+\\
+
+\noindent\textbf{Referee's comment 4.} it seems to me that the text should be homogenised a bit regarding
+the setup used. For example, from the discussion in section III it seems
+that the authors use multiple choices regarding the number of bins, but
+from the end of section IV I inferred that the number of bins and nodes
+used in this analysis was fixed to 5. To ease the read of this paper I
+recommend to state clearly in section III the number and the position
+of the bins and nodes used here. In the binning implementation it is
+not clear to me which value of $\xi$ has been chosen;
+
+\noindent\textbf{Authors'  response:} We have moved and rewritten the relevant text accordingly and now it should be neat. We have added, at the end of section 3, a new relevant paragraph starting with ``In the present work,..." on page 5. Regarding the referee's comment on $\xi$ here, we refer the referee to our response to the Referee's comment 6 below.
+\\
+
+\noindent\textbf{Referee's comment 5.} throughout the paper the authors claim that they obtain model independent
+constraints since they do not choose a specific parameterisation.
+I substantially agree with this claim, with some caveat. Indeed,
+the number of bins/nodes is relatively small, and an analysis with twice
+the number of them could give substantially different results. On top
+of that, the amplitudes obtained could be correlated. Ideally, for a
+proper "model-independent" analysis, I would run the pipeline with a
+large number of bins, and then do some form of data compression (e.g.,
+principal component analysis) to extract the modes that are really independent.
+I understand that this would signify redo completely the
+analysis, and I am not asking to do that. But, I would like this point
+to be addressed in the text, and be sure that their analysis is robust
+against changing the binning strategy;
+
+\noindent\textbf{Authors'  response:} We have now made the reconstruction also with 10 nodes (selecting the one with GP and $w_0$ free). As expected, the constraints are somewhat loose given the greater number of parameters and in the high redshift region the lack of data. However, and the main point is that we obtained general consistent results (similar oscillatory behavior in the $1\sigma$ level and the possibility of a negative DE density). We also obtained a minimal improvement in the fit (its $\Delta\chi^2 $ being $-4.73$, just barely an improvement of $\sim0.5$ over the one with 5 nodes) but a much worse Bayesian Evidence ($9.97$ due to the inclusion of these extra 5 parameters). The results are attached here in~\cref{fig:derived_gp_wide_10nodes}. The number of nodes/bins can be varied to search for particular features, as we have done in similar analysis, however this is the main aim of a work in preparation that also includes a forecast of future experiments, to increase the accuracy on the datasets, and therefore that may be able to select the favored technique.
+
+
+\begin{figure*}[h!]
+    \centering
+    \makebox[11cm][c]{
+    \includegraphics[trim = 5mm  0mm 0mm 0mm, clip, width=6.cm, height=4.5cm]{figures/Pi_idegp10_betoprior.pdf}
+    \includegraphics[trim = 0mm  0mm 0mm 0mm, clip, width=6.cm, height=4.5cm]{figures/omde_idegp10_betoprior.pdf}
+    }
+    \caption{Functional posterior probability of the reconstruction by using a Gaussian Process and $w=w_0$ with 10 nodes.
+}\label{fig:derived_gp_wide_10nodes}
+\end{figure*}
+
+Regarding the changes of the conclusions resulting from the binning strategy, we have modified the text/added new text to provide specific clarifications: please see, the new text that starts with ``Despite the significant findings..." and continues till the end of the paragraph. We have addressed our approach to the model-independent reconstruction, referencing alternative methods (such as the use of more parameters and the use of a correlation function) and how they can/will be used in future work. Some other modifications in the revised manuscript relevant (but less directly) to this comment of the referee, please see the new sentence ``Another limitation..." on page 2, the new paragraph starting with ``In the present work,..." on page 5, and the two new sentences (``However, it is crucial... We will discuss...") added to the end of the paragraph in the first column of page 8.
+\\
+
+\noindent\textbf{Referee's comment 6.} I am a bit puzzled by Figure 1. If I focus on the blue curve I am worried
+that this could give non-physical effects in the constraints (because the
+curve is not smooth and its derivatives can be very large). What is the
+value of $\xi$ used in their analysis? This should be clarified;
+
+\noindent\textbf{Authors'  response:}  We now made clear, just below Eqn. (13), that the value of $\xi$ is 0.15 (which we made several tests, in some other works, and this value is smooth enough to avoid problems with the derivatives).
+\\
+
+\noindent\textbf{Referee's comment 7.} in the abstract and in sections V and VI the authors state that there is
+a slight indication for some oscillatory behavior. I would be even more
+cautious on this. In all the plots presented in this paper, I see perfect
+consistency with the $\Lambda$CDM standard scenario. These oscillations could
+easily be an effect of the binning strategy or just statistical fluctuations
+(if I am not mistaken it is all within 2$\sigma$).
+
+\noindent\textbf{Authors'  response:}  We mention in the results section that the oscillatory behavior occurs above the 1$\sigma$ level. Nevertheless we have added some text clarifying that we cannot completely rule out the standard model with our findings alone given that it is still a possibility within the 2$\sigma$ level. The relevant new text starts with ``Despite the significant findings..." on page 9. Regarding the referee's comment on binning strategy here, we kindly refer the referee to our response to the Referee's comment 5.
+\\
+
+
+%\textcolor{red}{The references [x, y, z,....] are new.}
+
+
+
+\bigskip
+
+We conclude by thanking the referee again for their positive and constructive feedback, which helped us improve our manuscript considerably. Thus, we have addressed all the comments and suggestions by the referee, and we believe our paper is now suitable for publication in JCAP.\\
+
+%Finally, we once again thank the referee for their important comments that were instrumental in improving this article. We hope that the revised version may now be suitable for publication in JCAP.
+\bigskip
+
+Sincerely,\\
+
+The authors
+
+%Luis A. Escamilla on behalf of the authors
+
+\end{document}
