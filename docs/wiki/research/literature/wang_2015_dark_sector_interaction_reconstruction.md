@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - literature_cache_index
-next_gate: structured equation extraction before historical convention comparison
+next_gate: Wang versus Martinelli/Hogg convention comparison before any retained timing fit
 last_updated: 2026-06-18
 record_type: literature_record
 paper_year: 2015
@@ -23,11 +23,12 @@ used_by:
 This record follows the
 [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
 
-The 2026-06-18 update records a local source cache. Current source state:
-`asset_cached`; `asset_extracted_not_digitized`. The arXiv source bundle was
-fetched and extracted, but the raw bundle is not retained because extracted EPS
-metadata contained upstream local path metadata. This is not QFUDS evidence,
-not retained `Gamma(a)` support, and not Level 2B admission.
+The 2026-06-18 updates record a local source cache and manual structured
+equation extract. Current source state: `asset_cached`;
+`asset_extracted_not_digitized`; `manual_structured_extract`. The arXiv source
+bundle was fetched and extracted, but the raw bundle is not retained because
+extracted EPS metadata contained upstream local path metadata. This is not
+QFUDS evidence, not retained `Gamma(a)` support, and not Level 2B admission.
 
 ## Bibliographic Metadata
 
@@ -43,6 +44,9 @@ not retained `Gamma(a)` support, and not Level 2B admission.
 - Reconstructs the temporal evolution of the coupling strength between dark
   matter and vacuum energy.
 - Uses a nonparametric Bayesian approach.
+- Source extraction records `Q = 3 alpha H rho_dm V / (rho_dm + V)`,
+  DM-frame `Q^mu`, the `delta_dm` perturbation equation, RSD observable
+  replacement, 40-bin CPZ-prior reconstruction, PCA, and evidence boundary.
 
 ## Coupling Definitions
 
@@ -81,6 +85,8 @@ timing extraction if numerical products are unavailable.
 - arXiv page provides PDF and TeX source.
 - Repository-local asset cache:
   [Wang 2015 assets](../assets/wang_2015_dark_matter_vacuum_interaction/README.md).
+- Repository-local equation extract:
+  [2026-06-18 Wang equation extraction](../assets/wang_2015_dark_matter_vacuum_interaction/digitization/equation_extraction_20260618.md).
 - Public posterior products were not found during the 2026-06-09 check.
 
 ## QFUDS Relevance
@@ -103,3 +109,5 @@ This record does not provide a QFUDS conclusion.
 - 2026-06-18: arXiv PDF and source bundle fetched from arXiv; PDF and extracted
   source retained locally. Current source state: `asset_cached`;
   `asset_extracted_not_digitized`.
+- 2026-06-18: manual structured equation extraction added from cached source
+  TeX. Current workflow state additionally includes `manual_structured_extract`.

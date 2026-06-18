@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - lit_wang_2015_dark_matter_vacuum_interaction
-next_gate: structured equation extraction before historical convention comparison
+next_gate: Wang versus Martinelli/Hogg convention comparison before any retained timing fit
 last_updated: 2026-06-18
 ---
 
@@ -37,11 +37,11 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
 | --- | --- |
 | Source URL | <https://arxiv.org/abs/1505.01373> |
 | Asset type | arXiv PDF, extracted arXiv TeX/source figures |
-| Current asset state | `asset_cached`; `asset_extracted_not_digitized` |
+| Current asset state | `asset_cached`; `asset_extracted_not_digitized`; `manual_structured_extract` |
 | Extraction potential | `source_tex_parse_possible`; `figure_digitization_possible`; `direct_table` for paper tables |
 | Text quality | TeX source parse available through `source/extracted/Recon_Inter-resubmit_2.tex` |
 | Depends on | Source-X 059 Wang equation extraction target |
-| Known blocked step | no structured equation extract exists yet |
+| Known blocked step | no machine-readable posterior, chain, covariance, or numerical `alpha(a)` product is created by the current extraction |
 | Raw bundle boundary | arXiv source bundle was fetched and extracted, but the raw bundle is not retained because extracted EPS metadata contained upstream local path metadata |
 | Local metadata check | extracted source path metadata was inspected; `bayes-evi.eps` title metadata was normalized from an upstream local path to `bayes-evi.eps` |
 
@@ -55,20 +55,24 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
 - `source/extracted/bao-fs8-pca.eps` - extracted BAO/RSD/PCA figure asset.
 - `source/extracted/bayes-evi.eps` - extracted Bayesian-evidence figure asset,
   with upstream local path title metadata normalized.
+- [digitization/README.md](digitization/README.md) - digitization and
+  structured-extract index.
+- [digitization/equation_extraction_20260618.md](digitization/equation_extraction_20260618.md) -
+  manual structured extract of the source TeX equations and reconstruction
+  boundary.
 
 ## Immediate Use
 
-The next Source-X task may inspect
-`source/extracted/Recon_Inter-resubmit_2.tex` for:
+The next Source-X task may compare Wang 2015 against the Martinelli/Hogg
+geodesic-CDM family:
 
 ```text
-historical alpha(a) convention
-Q = 3 alpha H rho_dm V / (rho_dm + V)
-Q^mu / DM-frame geodesic condition
-delta_dm perturbation equation
-RSD growth observable adjustment
-40-bin correlated-prior reconstruction
-PCA and Bayesian evidence boundary
+Wang alpha(a) nonlinear density factor
+Martinelli/Hogg q(z) vacuum-density factor
+dimensionless-coupling sign flip
+DM-frame/geodesic closure similarities
+RSD observable replacement
+prior/PCA/evidence anti-overfit safeguards
 ```
 
 Do not use the EPS figure assets as numerical products without a later

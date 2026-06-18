@@ -91,6 +91,7 @@ records. The prefix is a route number, not a project-status claim.
 | 059 | [Martinelli 2019 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_martinelli_2019_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Martinelli 2019 `Q`, `Q^mu`, CDM-frame closure, perturbations, and CAMB route |
 | 059 | [Hogg 2020 IV/Geodesic-CDM Equation Extraction Result](conclusions/059_hogg_2020_iv_geodesic_cdm_equation_extraction_result_ko.md) | extracts Hogg 2020 `Q`, `Q^mu`/frame summary, 17-bin CPZ-prior reconstruction, PCA, and evidence boundary |
 | 059 | [Martinelli/Hogg IV/Geodesic-CDM Same-Family Comparison Note](conclusions/059_martinelli_hogg_iv_geodesic_cdm_same_family_comparison_note_ko.md) | separates shared vacuum-geodesic CDM formalism from Hogg-specific reconstruction safeguards |
+| 059 | [Wang 2015 IV Equation Extraction Result](conclusions/059_wang_2015_iv_equation_extraction_result_ko.md) | extracts Wang 2015 `alpha(a)`, nonlinear density-factor `Q`, DM-frame closure, perturbation/RSD route, PCA, and evidence boundary |
 
 Reserved future records:
 
@@ -215,6 +216,9 @@ Reserved future records:
 - `059` also includes the Martinelli/Hogg same-family comparison note. It
   identifies Martinelli as the perturbation/formalism anchor and Hogg as the
   reconstruction/non-circularity teaching target.
+- `059` also includes the Wang 2015 IV extraction. It records the historical
+  `alpha(a)` convention, its nonlinear density factor, DM-frame perturbation
+  route, LyaF/RSD tension boundary, PCA, and Bayesian non-preference over LCDM.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 
