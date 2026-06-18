@@ -54,7 +54,10 @@ changes.
    close where the `f_B` route is first absorbed by effective `w(a)`, unified
    dark fluid, IV/IDE, running vacuum/HDE, EFTofLSS, backreaction, or screened
    modified gravity.
-9. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
+9. [Known-Model Escape Equation Templates](conclusions/008_known_model_escape_equation_templates.md):
+   define the minimum equations required before any future `f_B`, `X`, or `xi`
+   route can claim it escapes a known-model sink.
+10. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
    list observational kill thresholds only after the non-circularity ledger is
    frozen.
 
@@ -76,6 +79,6 @@ Forbidden use:
 
 The chain order matters. The assumption ledger, state-variable/placement
 matrix, state-variable definition plan, definition audit, `f_B` stress-energy
-audit, and `f_B` known-model reduction checklist must come before model-facing
-use of the baseline constraint map so observations cannot back-drive the
-effective foam scale.
+audit, `f_B` known-model reduction checklist, and escape-equation templates
+must come before model-facing use of the baseline constraint map so
+observations cannot back-drive the effective foam scale.

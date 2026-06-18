@@ -78,6 +78,7 @@ product was not found in the checked sources on the recorded date.
 | 005 | [2026-06-18 Foam State Variable Definition Audit](baseline_reference/conclusions/005_foam_state_variable_definition_audit.md) | definition audit |
 | 006 | [2026-06-18 f_B Stress-Energy Definition Audit](baseline_reference/conclusions/006_fB_stress_energy_definition_audit.md) | stress-energy definition audit |
 | 007 | [2026-06-18 f_B Known-Model Reduction Checklist](baseline_reference/conclusions/007_fB_known_model_reduction_checklist.md) | known-model reduction checklist |
+| 008 | [2026-06-18 Known-Model Escape Equation Templates](baseline_reference/conclusions/008_known_model_escape_equation_templates.md) | escape-equation templates |
 
 ## Exp006 Timing Chain
 

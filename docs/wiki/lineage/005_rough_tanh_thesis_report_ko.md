@@ -47,6 +47,8 @@ effective fit, falsifiable signatures, and the theoretical ceiling**
 > identity/bookkeeping -> effective `w(a)` -> unified dark fluid -> IV/IDE로
 > 닫고, running vacuum/HDE, EFTofLSS, backreaction, screened modified gravity도
 > 별도 escape equation 없이는 비교 대상일 뿐이라고 기록한다.
+> escape-equation template은 현재 레포가 그 escape equation을 하나도 채우지
+> 못했다고 닫는다.
 
 ---
 
@@ -668,6 +670,9 @@ known-model reduction checklist는 이 경로가 현재
 identity/bookkeeping -> effective `w(a)` -> unified dark fluid -> IV/IDE 순서로 흡수되며,
 running vacuum/HDE, EFTofLSS, backreaction, screened modified gravity와의 차이도 아직
 독립 방정식으로 제시되지 않았다고 닫았다.
+이어진 escape-equation template은 `T_A/T_B`, `p_B`, `Q^nu`, `delta Q`, `xi` rule,
+sink가 흡수하지 못하는 observable을 선등록해야 한다고 요구하며, 현재 레포는 그 템플릿을
+채우지 못한다고 기록했다.
 이 전에는 NASA/LAMBDA나 BAO를 모델 해석에 쓰면 순환논리다.
 
 ---
