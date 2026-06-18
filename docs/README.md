@@ -141,6 +141,7 @@ are not roadmap status authorities.
 - [Rough Tanh Thesis Report](wiki/lineage/005_rough_tanh_thesis_report_ko.md) - optional thesis-style synthesis of the rough tanh lineage and ceiling
 - [Agent-Based Research Operations](wiki/lineage/006_agentic_research_system_ko.md) - workflow, document boundary, review, and git-hook gate record
 - [Black-Hole Information Public Bridge](wiki/lineage/007_black_hole_information_public_bridge_ko.md) - Korean provenance-only bridge from the black-hole information origin story to the audit harness
+- [감마에서 멈춘 곳](wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) - Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
 - [Academic Derivation Bridge](wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) - translates retained `Gamma(a)` into academic IV/IDE formalism without physical-QFUDS admission
 - [IV/IDE Formalism Study Map](wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) - safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness
 - [IV/IDE Formalism Notes Ledger](wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md) - first formalism ledger for background `Q`, `Q^mu` frame, perturbation closure, and solver stop rules

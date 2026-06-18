@@ -37,6 +37,7 @@ Do not use this folder for:
 5. [QFUDS rough tanh 논문 보고서](005_rough_tanh_thesis_report_ko.md) - 선택적으로 읽는 논문형 압축본; 2026-06-18 baseline-reference audits added the `f_B` bookkeeping, known-model reduction, escape-template, and NASA/BAO kill-map-only boundary
 6. [QFUDS 에이전트 기반 연구 운영 절차 기록](006_agentic_research_system_ko.md)
 7. [블랙홀은 우주의 하드디스크인가?](007_black_hole_information_public_bridge_ko.md) - black-hole information origin story를 public bridge로 보존하되 physical evidence로 쓰지 않는 provenance 문서
+8. [감마에서 멈춘 곳](008_gamma_to_academic_iv_bridge_result_ko.md) - retained `Gamma(a)`가 IV/IDE formalism으로 번역되는 지점과 physical derivation으로 승격하지 못하는 지점을 정리한 lineage 결과 문서
 
 The 006 document records the agent-based workflow that produced and checked
 the rough-tanh lineage. It is provenance and process analysis, not physical
@@ -56,6 +57,10 @@ lineage claim. It is the
 which translates the naive `Gamma(a)` intuition into interacting-vacuum /
 interacting-dark-energy language. That bridge is an observer-mode learning path,
 not physical QFUDS evidence, Level 2B admission, or Level 4 CMB work.
+
+The 008 document records the result of that learning path as lineage: retained
+`Gamma(a)` is useful as an IV/IDE timing comparator and reading handle, but it
+does not derive `Q^mu`, phase-B pressure, perturbations, or novelty.
 
 ## Current 005 Boundary
 
