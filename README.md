@@ -57,6 +57,9 @@ Short version:
 - [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md)
   is the simplest Korean public story bridge for non-specialists: black holes,
   vacuum energy, `Gamma(a)`, and why story is not evidence.
+- [lineage 010](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md)
+  is a Korean fiction companion that closes the public-story branch as a short
+  SF piece. It is not research evidence.
 
 ## Start Here
 
@@ -70,6 +73,7 @@ Short version:
 | The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
 | Where retained `Gamma(a)` stopped | [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) |
 | The simplest public story bridge | [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md) |
+| A short SF closing story | [lineage 010](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md) |
 | How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
@@ -983,6 +987,7 @@ History/source notes:
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
 - [008_gamma_to_academic_iv_bridge_result_ko.md](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md): Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
 - [009_qfuds_public_story_bridge_ko.md](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md): simplest Korean public story bridge for non-specialists; motivation only, not physical evidence
+- [010_qfuds_closing_sf_story_ko.md](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md): Korean fiction companion closing the public-story branch; motivation only, not physical evidence
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules
