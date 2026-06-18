@@ -102,9 +102,9 @@ xi_gal을 관측 후 고르면 circular_if_fitted다.
 기존 backreaction, EFTofLSS, modified gravity, running vacuum에 흡수될 수 있다.
 ```
 
-예정 에피소드:
+현재 에피소드:
 
-- 제3화: 10 Mpc의 유혹
+- [제3화: 10 Mpc의 유혹](003_ten_mpc_temptation_ko.md)
 
 ### C. Q^mu의 문법
 
