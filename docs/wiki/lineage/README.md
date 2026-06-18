@@ -7,7 +7,7 @@ status: reference
 evidence_role: provenance
 depends_on:
   - roadmap
-next_gate: none; lineage is routing provenance only; 007 and 008 are public/provenance bridges, not physical evidence
+next_gate: none; lineage is routing provenance only; 007-009 are public/provenance bridges, not physical evidence
 last_updated: 2026-06-18
 ---
 
@@ -38,10 +38,16 @@ Do not use this folder for:
 6. [QFUDS 에이전트 기반 연구 운영 절차 기록](006_agentic_research_system_ko.md)
 7. [블랙홀은 우주의 하드디스크인가?](007_black_hole_information_public_bridge_ko.md) - black-hole information origin story를 public bridge로 보존하되 physical evidence로 쓰지 않는 provenance 문서
 8. [감마에서 멈춘 곳](008_gamma_to_academic_iv_bridge_result_ko.md) - retained `Gamma(a)`가 IV/IDE formalism으로 번역되는 지점과 physical derivation으로 승격하지 못하는 지점을 정리한 lineage 결과 문서
+9. [우주 거품 이야기](009_qfuds_public_story_bridge_ko.md) - 초등학생도 읽을 수 있게 QFUDS의 SF적 출발점, `Gamma(a)` 정지점, audit-harness 가치를 설명하는 public story bridge
 
 The 006 document records the agent-based workflow that produced and checked
 the rough-tanh lineage. It is provenance and process analysis, not physical
 evidence and not a roadmap-status authority.
+
+The 009 document is the lightest public entry point. It preserves the fun
+black-hole, vacuum-energy, and cosmic-foam story while keeping the boundary:
+story is motivation, not evidence; equations and observations decide the
+research branch.
 
 The 007 document records the public-facing black-hole information bridge. It is
 origin narrative and audit-harness context only. It does not claim black-hole

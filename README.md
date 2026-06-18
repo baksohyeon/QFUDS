@@ -54,6 +54,9 @@ Short version:
 - [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md)
   records where retained `Gamma(a)` enters academic IV/IDE language and where
   it stops. It is a learning bridge, not a physical derivation.
+- [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md)
+  is the simplest Korean public story bridge for non-specialists: black holes,
+  vacuum energy, `Gamma(a)`, and why story is not evidence.
 
 ## Start Here
 
@@ -66,6 +69,7 @@ Short version:
 | The formal thesis-style archive | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
 | The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
 | Where retained `Gamma(a)` stopped | [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) |
+| The simplest public story bridge | [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md) |
 | How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
@@ -74,6 +78,7 @@ Recommended order:
 ```text
 lineage 006
 Roadmap
+-> lineage 009
 -> lineage 003
 -> lineage 008
 -> lineage 004
@@ -977,6 +982,7 @@ History/source notes:
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
 - [008_gamma_to_academic_iv_bridge_result_ko.md](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md): Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
+- [009_qfuds_public_story_bridge_ko.md](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md): simplest Korean public story bridge for non-specialists; motivation only, not physical evidence
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules
