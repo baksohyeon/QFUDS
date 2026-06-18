@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - asset_li_2025_desi_dr2_sign_reversal_ide
 next_gate: targeted manual extraction before numerical reuse
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Li 2025 Digitization Assets
@@ -37,3 +37,6 @@ PDF, TeX, figures, or rendered figure PNGs, then store the curated output here.
   per-node page ranges and summaries (`source_text_parse`). Paper PDF and the
   seven figure PDFs are ingested in [PageIndex](https://github.com/VectifyAI/PageIndex) for figure-level inspection.
   Section-targeting aid.
+- [Li 2025 IV/IDE Equation Extraction](equation_extraction_20260618.md) -
+  manual structured equation extract for the Source-X 059 audit
+  (`manual_structured_extract`); not numerical digitization.

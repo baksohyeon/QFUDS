@@ -145,4 +145,5 @@ are not roadmap status authorities.
 - [IV/IDE Formalism Study Map](wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) - safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness
 - [IV/IDE Formalism Notes Ledger](wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md) - first formalism ledger for background `Q`, `Q^mu` frame, perturbation closure, and solver stop rules
 - [Paper-by-Paper IV/IDE Equation Extraction Plan](wiki/research/investigations/source_x/plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) - exact per-paper extraction plan before timing fit or observational constraint use
-- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-058, digitization, known-model distinction, observer-mode routing, closeout boundaries, and IV/IDE bridge
+- [Li 2025 IV/IDE Equation Extraction Result](wiki/research/investigations/source_x/conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md) - Li 2025 pilot extraction for `Q`, `Q_mu`/frame, and ePPF route; comparator only
+- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-059, digitization, known-model distinction, observer-mode routing, closeout boundaries, and IV/IDE bridge

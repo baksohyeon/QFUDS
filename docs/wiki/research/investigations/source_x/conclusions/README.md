@@ -40,3 +40,4 @@ made through the project process.
 - [Academic Derivation Bridge](055_academic_derivation_bridge_ko.md)
 - [IV/IDE Formalism Study Map](056_iv_ide_formalism_study_map_ko.md)
 - [IV/IDE Formalism Notes Ledger](057_iv_ide_formalism_notes_ledger_ko.md)
+- [Li 2025 IV/IDE Equation Extraction Result](059_li_2025_iv_ide_equation_extraction_result_ko.md)

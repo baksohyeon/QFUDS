@@ -395,6 +395,9 @@ The next plan-only step is the
 [Paper-by-Paper IV/IDE Equation Extraction Plan](docs/wiki/research/investigations/source_x/plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md),
 which freezes exact extraction fields before any timing fit or observational
 constraint use.
+The Li 2025 pilot extraction is recorded in
+[Li 2025 IV/IDE Equation Extraction Result](docs/wiki/research/investigations/source_x/conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md);
+it is a comparator-only formalism extract, not a QFUDS source claim.
 
 ## Afterword: A Grand-Sounding Theory That Converged on Two Open Problems
 
@@ -967,7 +970,8 @@ History/source notes:
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules
 - [058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md](docs/wiki/research/investigations/source_x/plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md): exact per-paper IV/IDE equation extraction plan before timing fit or observational constraint use
-- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-058, Chen Figure 5 digitization, known-model distinction, observer-mode routing, foam-sector feasibility closeout, and academic IV/IDE bridge
+- [059_li_2025_iv_ide_equation_extraction_result_ko.md](docs/wiki/research/investigations/source_x/conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md): Li 2025 pilot extraction for `Q`, `Q_mu`/frame, and ePPF route as comparator-only formalism
+- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-059, Chen Figure 5 digitization, known-model distinction, observer-mode routing, foam-sector feasibility closeout, and academic IV/IDE bridge
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
 - [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open
 - [concept_origin.md](docs/01_origin/concept_origin.md): how the raw information-flow idea became the QFUDS question

@@ -119,3 +119,4 @@ product was not found in the checked sources on the recorded date.
 | 056 | [2026-06-18 IV/IDE Formalism Study Map](source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) | maps the safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
 | 057 | [2026-06-18 IV/IDE Formalism Notes Ledger](source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | records the first IV/IDE ledger: background `Q`, frame choice, perturbation closure, and solver stop rules |
 | 058 | [2026-06-18 Paper-by-Paper IV/IDE Equation Extraction Plan](source_x/plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) | plans exact equation extraction before any timing fit or NASA/BAO/CMB/LSS use |
+| 059 | [2026-06-18 Li 2025 IV/IDE Equation Extraction Result](source_x/conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md) | extracts Li 2025 `Q`, `Q_mu`/frame, and ePPF route as comparator-only formalism |
