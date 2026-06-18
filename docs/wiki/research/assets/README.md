@@ -52,3 +52,5 @@ Current product-family caches include:
   [baseline reference chain](../investigations/baseline_reference/README.md).
 - [Escamilla 2023 Interacting Dark Energy Kernel](escamilla_2023_interacting_dark_energy_kernel/README.md) -
   cached arXiv PDF/source assets for Source-X IV/IDE equation extraction.
+- [Martinelli 2019 Interacting Vacuum Geodesic CDM](martinelli_2019_interacting_vacuum_geodesic_cdm/README.md) -
+  cached arXiv PDF/source assets for Source-X IV/geodesic-CDM equation extraction.

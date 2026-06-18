@@ -1,0 +1,416 @@
+\begin{thebibliography}{}
+\makeatletter
+\relax
+\def\mn@urlcharsother{\let\do\@makeother \do\$\do\&\do\#\do\^\do\_\do\%\do\~}
+\def\mn@doi{\begingroup\mn@urlcharsother \@ifnextchar [ {\mn@doi@}
+  {\mn@doi@[]}}
+\def\mn@doi@[#1]#2{\def\@tempa{#1}\ifx\@tempa\@empty \href
+  {http://dx.doi.org/#2} {doi:#2}\else \href {http://dx.doi.org/#2} {#1}\fi
+  \endgroup}
+\def\mn@eprint#1#2{\mn@eprint@#1:#2::\@nil}
+\def\mn@eprint@arXiv#1{\href {http://arxiv.org/abs/#1} {{\tt arXiv:#1}}}
+\def\mn@eprint@dblp#1{\href {http://dblp.uni-trier.de/rec/bibtex/#1.xml}
+  {dblp:#1}}
+\def\mn@eprint@#1:#2:#3:#4\@nil{\def\@tempa {#1}\def\@tempb {#2}\def\@tempc
+  {#3}\ifx \@tempc \@empty \let \@tempc \@tempb \let \@tempb \@tempa \fi \ifx
+  \@tempb \@empty \def\@tempb {arXiv}\fi \@ifundefined
+  {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
+  mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
+
+\bibitem[\protect\citeauthoryear{Abbott et~al.}{Abbott
+  et~al.}{2017}]{Abbott:2017xzu}
+Abbott B.~P.,  et~al., 2017, \mn@doi [\nat] {10.1038/nature24471}, 551, 85
+
+\bibitem[\protect\citeauthoryear{Abbott et~al.}{Abbott
+  et~al.}{2018}]{Abbott:2017wau}
+Abbott T. M.~C.,  et~al., 2018, \mn@doi [Phys. Rev.]
+  {10.1103/PhysRevD.98.043526}, D98, 043526
+
+\bibitem[\protect\citeauthoryear{Ade et~al.}{Ade et~al.}{2016a}]{Ade:2015xua}
+Ade P. A.~R.,  et~al., 2016a, \mn@doi [\aap] {10.1051/0004-6361/201525830},
+  594, A13
+
+\bibitem[\protect\citeauthoryear{Ade et~al.}{Ade et~al.}{2016b}]{PlanckSZ2015}
+Ade P. A.~R.,  et~al., 2016b, \mn@doi [Astron. Astrophys.]
+  {10.1051/0004-6361/201525833}, 594, A24
+
+\bibitem[\protect\citeauthoryear{{Adler}, {Casey}  \& {Jacob}}{{Adler}
+  et~al.}{1995}]{Adler1995}
+{Adler} R.~J.,  {Casey} B.,   {Jacob} O.~C.,  1995, \mn@doi [American Journal
+  of Physics] {10.1119/1.17850}, \href
+  {http://adsabs.harvard.edu/abs/1995AmJPh..63..620A} {63, 620}
+
+\bibitem[\protect\citeauthoryear{Aghanim et~al.}{Aghanim
+  et~al.}{2016}]{Aghanim:2015xee}
+Aghanim N.,  et~al., 2016, \mn@doi [\aap] {10.1051/0004-6361/201526926}, 594,
+  A11
+
+\bibitem[\protect\citeauthoryear{Aghanim et~al.}{Aghanim
+  et~al.}{2018}]{Aghanim:2018eyx}
+Aghanim N.,  et~al., 2018, preprint, \href
+  {http://adsabs.harvard.edu/abs/2018arXiv180706209P} {} (\mn@eprint {arXiv}
+  {1807.06209})
+
+\bibitem[\protect\citeauthoryear{Al-Rawaf \& Taha}{Al-Rawaf \&
+  Taha}{1996}]{Alrawaf1996}
+Al-Rawaf A.,  Taha M.,  1996, \mn@doi [Physics Letters B]
+  {https://doi.org/10.1016/0370-2693(95)01145-5}, 366, 69
+
+\bibitem[\protect\citeauthoryear{Alam et~al.}{Alam et~al.}{2017}]{Alam:2016hwk}
+Alam S.,  et~al., 2017, \mn@doi [\mnras] {10.1093/mnras/stx721}, 470, 2617
+
+\bibitem[\protect\citeauthoryear{{Aubourg} et~al.}{{Aubourg}
+  et~al.}{2015}]{Aubourg2015}
+{Aubourg} {\'E}.,  et~al., 2015, \mn@doi [\prd] {10.1103/PhysRevD.92.123516},
+  \href {http://adsabs.harvard.edu/abs/2015PhRvD..92l3516A} {92, 123516}
+
+\bibitem[\protect\citeauthoryear{Battye, Charnock  \& Moss}{Battye
+  et~al.}{2015}]{Battye:2014qga}
+Battye R.~A.,  Charnock T.,   Moss A.,  2015, \mn@doi [\prd]
+  {10.1103/PhysRevD.91.103508}, 91, 103508
+
+\bibitem[\protect\citeauthoryear{Beaton et~al.}{Beaton
+  et~al.}{2018}]{Beaton:2018fyo}
+Beaton R.~L.,  et~al., 2018, preprint (\mn@eprint {arXiv} {1808.09191})
+
+\bibitem[\protect\citeauthoryear{Bernal, Verde  \& Riess}{Bernal
+  et~al.}{2016}]{Bernal:2016gxb}
+Bernal J.~L.,  Verde L.,   Riess A.~G.,  2016, \mn@doi [\jcap]
+  {10.1088/1475-7516/2016/10/019}, 1610, 019
+
+\bibitem[\protect\citeauthoryear{Bertacca, Bruni, Piattella  \&
+  Pietrobon}{Bertacca et~al.}{2011}]{Bertacca:2010mt}
+Bertacca D.,  Bruni M.,  Piattella O.~F.,   Pietrobon D.,  2011, \mn@doi [JCAP]
+  {10.1088/1475-7516/2011/02/018}, 1102, 018
+
+\bibitem[\protect\citeauthoryear{Bertolami}{Bertolami}{1986}]{Bertolami1986}
+Bertolami O.,  1986, \mn@doi [Il Nuovo Cimento B (1971-1996)]
+  {10.1007/BF02728301}, 93, 36
+
+\bibitem[\protect\citeauthoryear{Betoule et~al.}{Betoule
+  et~al.}{2014}]{Betoule:2014frx}
+Betoule M.,  et~al., 2014, \mn@doi [\aap] {10.1051/0004-6361/201423413}, 568,
+  A22
+
+\bibitem[\protect\citeauthoryear{{Beutler} et~al.,}{{Beutler}
+  et~al.}{2011}]{Beutler2011}
+{Beutler} F.,  et~al., 2011, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2011.19250.x}, \href
+  {http://adsabs.harvard.edu/abs/2011MNRAS.416.3017B} {416, 3017}
+
+\bibitem[\protect\citeauthoryear{{Beutler} et~al.,}{{Beutler}
+  et~al.}{2012}]{6df_fs8}
+{Beutler} F.,  et~al., 2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21136.x}, \href
+  {https://ui.adsabs.harvard.edu/\#abs/2012MNRAS.423.3430B} {423, 3430}
+
+\bibitem[\protect\citeauthoryear{{Birrer} et~al.,}{{Birrer}
+  et~al.}{2018}]{Birrer2018}
+{Birrer} S.,  et~al., 2018, preprint, \href
+  {http://adsabs.harvard.edu/abs/2018arXiv180901274B} {} (\mn@eprint {arXiv}
+  {1809.01274})
+
+\bibitem[\protect\citeauthoryear{{Blake} et~al.}{{Blake}
+  et~al.}{2011}]{wigglez_fs8}
+{Blake} C.,  et~al., 2011, \mn@doi [\mnras] {10.1111/j.1365-2966.2011.18903.x},
+  415, 2876
+
+\bibitem[\protect\citeauthoryear{Borges \& Wands}{Borges \&
+  Wands}{2017}]{Borges:2017jvi}
+Borges H.~A.,  Wands D.,  2017, preprint (\mn@eprint {arXiv} {1709.08933})
+
+\bibitem[\protect\citeauthoryear{Bruni, Thomas  \& Wands}{Bruni
+  et~al.}{2014}]{Bruni:2013mua}
+Bruni M.,  Thomas D.~B.,   Wands D.,  2014, \mn@doi [Phys. Rev.]
+  {10.1103/PhysRevD.89.044010}, D89, 044010
+
+\bibitem[\protect\citeauthoryear{Di~Valentino, Melchiorri  \&
+  Mena}{Di~Valentino et~al.}{2017}]{DiValentino:2017iww}
+Di~Valentino E.,  Melchiorri A.,   Mena O.,  2017, \mn@doi [\prd]
+  {10.1103/PhysRevD.96.043503}, 96, 043503
+
+\bibitem[\protect\citeauthoryear{Hamilton}{Hamilton}{2001}]{Hamilton2001}
+Hamilton A. J.~S.,  2001, \mn@doi [Monthly Notices of the Royal Astronomical
+  Society] {10.1046/j.1365-8711.2001.04137.x}, 322, 419
+
+\bibitem[\protect\citeauthoryear{He, Guzzo, Li  \& Baugh}{He
+  et~al.}{2018}]{He:2018oai}
+He J.-h.,  Guzzo L.,  Li B.,   Baugh C.~M.,  2018, \mn@doi [Nat. Astron.]
+  {10.1038/s41550-018-0573-2}, 2, 967
+
+\bibitem[\protect\citeauthoryear{Heymans et~al.}{Heymans
+  et~al.}{2013}]{Heymans:2013fya}
+Heymans C.,  et~al., 2013, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/stt601}, 432, 2433
+
+\bibitem[\protect\citeauthoryear{{Hinshaw} et~al.}{{Hinshaw}
+  et~al.}{2009}]{Hinshaw2009}
+{Hinshaw} G.,  et~al., 2009, Astrophysical Journal Supplement, 180, 225
+
+\bibitem[\protect\citeauthoryear{Howlett, Lewis, Hall  \& Challinor}{Howlett
+  et~al.}{2012}]{Howlett:2012mh}
+Howlett C.,  Lewis A.,  Hall A.,   Challinor A.,  2012, \mn@doi [\jcap]
+  {10.1088/1475-7516/2012/04/027}, 1204, 027
+
+\bibitem[\protect\citeauthoryear{{Ivezi{\'c}}, {Beers}  \&
+  {Juri{\'c}}}{{Ivezi{\'c}} et~al.}{2012}]{Ivesic2012}
+{Ivezi{\'c}} {\v Z}.,  {Beers} T.~C.,   {Juri{\'c}} M.,  2012, \mn@doi [\araa]
+  {10.1146/annurev-astro-081811-125504}, \href
+  {http://adsabs.harvard.edu/abs/2012ARA%26A..50..251I} {50, 251}
+
+\bibitem[\protect\citeauthoryear{Joudaki et~al.}{Joudaki
+  et~al.}{2017}]{Joudaki:2016kym}
+Joudaki S.,  et~al., 2017, \mn@doi [Mon. Not. Roy. Astron. Soc.]
+  {10.1093/mnras/stx998}, 471, 1259
+
+\bibitem[\protect\citeauthoryear{Kimura, Suyama, Yamaguchi, Yamauchi  \&
+  Yokoyama}{Kimura et~al.}{2018}]{Kimura:2017fnq}
+Kimura R.,  Suyama T.,  Yamaguchi M.,  Yamauchi D.,   Yokoyama S.,  2018,
+  \mn@doi [Publ. Astron. Soc. Jap.] {10.1093/pasj/psy083}, 70, Publications of
+  the Astronomical Society of Japan, Volume 70, Issue 5, 1 October 2018, L5,
+  https://doi.org/10.1093/pasj/psy083
+
+\bibitem[\protect\citeauthoryear{Kodama \& Sasaki}{Kodama \&
+  Sasaki}{1984}]{1984PThPS..78....1K}
+Kodama H.,  Sasaki M.,  1984, Progress of Theoretical Physics Supplement, 78, 1
+
+\bibitem[\protect\citeauthoryear{{K{\"o}hlinger} et~al.,}{{K{\"o}hlinger}
+  et~al.}{2017}]{Kohlinger2017}
+{K{\"o}hlinger} F.,  et~al., 2017, \mn@doi [Monthly Notices of the Royal
+  Astronomical Society] {10.1093/mnras/stx1820}, 471, 4412
+
+\bibitem[\protect\citeauthoryear{Kumar \& Nunes}{Kumar \&
+  Nunes}{2017}]{Kumar:2017dnp}
+Kumar S.,  Nunes R.~C.,  2017, \mn@doi [Phys. Rev.]
+  {10.1103/PhysRevD.96.103511}, D96, 103511
+
+\bibitem[\protect\citeauthoryear{Kumar, Nunes  \& Yadav}{Kumar
+  et~al.}{2019}]{Kumar:2019wfs}
+Kumar S.,  Nunes R.~C.,   Yadav S.~K.,  2019, preprint (\mn@eprint {arXiv}
+  {1903.04865})
+
+\bibitem[\protect\citeauthoryear{{Lema{\^i}tre}}{{Lema{\^i}tre}}{1931}]{1931Natur.127..706L}
+{Lema{\^i}tre} G.,  1931, \mn@doi [\nat] {10.1038/127706b0}, \href
+  {http://cdsads.u-strasbg.fr/abs/1931Natur.127..706L} {127, 706}
+
+\bibitem[\protect\citeauthoryear{Lema\^{i}tre}{Lema\^{i}tre}{1934}]{Lemaitre1933}
+Lema\^{i}tre G.,  1934, \mn@doi [Proceedings of the National Academy of
+  Sciences] {10.1073/pnas.20.1.12}, 20, 12
+
+\bibitem[\protect\citeauthoryear{Lewis}{Lewis}{2013}]{Lewis:2013hha}
+Lewis A.,  2013, \mn@doi [\prd] {10.1103/PhysRevD.87.103529}, 87, 103529
+
+\bibitem[\protect\citeauthoryear{Lewis \& Bridle}{Lewis \&
+  Bridle}{2002}]{Lewis:2002ah}
+Lewis A.,  Bridle S.,  2002, \mn@doi [\prd] {10.1103/PhysRevD.66.103511}, 66,
+  103511
+
+\bibitem[\protect\citeauthoryear{Lewis, Challinor  \& Lasenby}{Lewis
+  et~al.}{2000}]{Lewis:1999bs}
+Lewis A.,  Challinor A.,   Lasenby A.,  2000, \mn@doi [\apj] {10.1086/309179},
+  538, 473
+
+\bibitem[\protect\citeauthoryear{Macaulay, Wehus  \& Eriksen}{Macaulay
+  et~al.}{2013}]{Macaulay:2013swa}
+Macaulay E.,  Wehus I.~K.,   Eriksen H.~K.,  2013, \mn@doi [\prl]
+  {10.1103/PhysRevLett.111.161301}, 111, 161301
+
+\bibitem[\protect\citeauthoryear{Macaulay et~al.}{Macaulay
+  et~al.}{2018}]{Macaulay:2018fxi}
+Macaulay E.,  et~al., 2018, preprint, \href
+  {http://adsabs.harvard.edu/abs/2018arXiv181102376M} {} (\mn@eprint {arXiv}
+  {1811.02376})
+
+\bibitem[\protect\citeauthoryear{Malik \& Wands}{Malik \&
+  Wands}{2008}]{Malik:2008tq}
+Malik K.~A.,  Wands D.,  2008, eprint arXiv, 0809, 4944
+
+\bibitem[\protect\citeauthoryear{Pav\'on}{Pav\'on}{1991}]{Pavon1991}
+Pav\'on D.,  1991, \mn@doi [Phys. Rev. D] {10.1103/PhysRevD.43.375}, 43, 375
+
+\bibitem[\protect\citeauthoryear{{Percival} et~al.}{{Percival}
+  et~al.}{2004}]{2df_fs8}
+{Percival} W.~J.,  et~al., 2004, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2004.08146.x}, 353, 1201
+
+\bibitem[\protect\citeauthoryear{{Perlmutter} et~al.}{{Perlmutter}
+  et~al.}{1999}]{Perlmutter1999}
+{Perlmutter} S.,  et~al., 1999, \mn@doi [\apj] {10.1086/307221}, \href
+  {http://adsabs.harvard.edu/abs/1999ApJ...517..565P} {517, 565}
+
+\bibitem[\protect\citeauthoryear{Piattella, Bertacca, Bruni  \&
+  Pietrobon}{Piattella et~al.}{2010}]{Piattella:2009kt}
+Piattella O.~F.,  Bertacca D.,  Bruni M.,   Pietrobon D.,  2010, \mn@doi [JCAP]
+  {10.1088/1475-7516/2010/01/014}, 1001, 014
+
+\bibitem[\protect\citeauthoryear{Poulin, Smith, Karwal  \& Kamionkowski}{Poulin
+  et~al.}{2018}]{Poulin:2018cxd}
+Poulin V.,  Smith T.~L.,  Karwal T.,   Kamionkowski M.,  2018, preprint
+  (\mn@eprint {arXiv} {1811.04083})
+
+\bibitem[\protect\citeauthoryear{Quercellini, Bruni, Balbi  \&
+  Pietrobon}{Quercellini et~al.}{2008}]{Quercellini2008}
+Quercellini C.,  Bruni M.,  Balbi A.,   Pietrobon D.,  2008, \mn@doi [Phys.
+  Rev. D] {10.1103/PhysRevD.78.063527}, 78, 063527
+
+\bibitem[\protect\citeauthoryear{{Reid} et~al.}{{Reid} et~al.}{2012}]{boss_fs8}
+{Reid} B.~A.,  et~al., 2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21779.x}, \href
+  {https://ui.adsabs.harvard.edu/\#abs/2012MNRAS.426.2719R} {426, 2719}
+
+\bibitem[\protect\citeauthoryear{{Riess} et~al.}{{Riess}
+  et~al.}{1998}]{Riess1998}
+{Riess} A.~G.,  et~al., 1998, \mn@doi [\aj] {10.1086/300499}, \href
+  {http://adsabs.harvard.edu/abs/1998AJ....116.1009R} {116, 1009}
+
+\bibitem[\protect\citeauthoryear{{Riess} et~al.,}{{Riess}
+  et~al.}{2016}]{Riess2016}
+{Riess} A.~G.,  et~al., 2016, \mn@doi [\apj] {10.3847/0004-637X/826/1/56},
+  \href {http://adsabs.harvard.edu/abs/2016ApJ...826...56R} {826, 56}
+
+\bibitem[\protect\citeauthoryear{{Riess} et~al.,}{{Riess}
+  et~al.}{2018}]{Riess2018}
+{Riess} A.~G.,  et~al., 2018, \mn@doi [\apj] {10.3847/1538-4357/aaadb7}, \href
+  {http://adsabs.harvard.edu/abs/2018ApJ...855..136R} {855, 136}
+
+\bibitem[\protect\citeauthoryear{{Ross}, {Samushia}, {Howlett}, {Percival},
+  {Burden}  \& {Manera}}{{Ross} et~al.}{2015}]{Ross2015}
+{Ross} A.~J.,  {Samushia} L.,  {Howlett} C.,  {Percival} W.~J.,  {Burden} A.,
+  {Manera} M.,  2015, \mn@doi [\mnras] {10.1093/mnras/stv154}, \href
+  {http://adsabs.harvard.edu/abs/2015MNRAS.449..835R} {449, 835}
+
+\bibitem[\protect\citeauthoryear{Salvatelli, Said, Bruni, Melchiorri  \&
+  Wands}{Salvatelli et~al.}{2014}]{Salvatelli2014}
+Salvatelli V.,  Said N.,  Bruni M.,  Melchiorri A.,   Wands D.,  2014, \mn@doi
+  [\prl] {10.1103/PhysRevLett.113.181301}, 113, 181301
+
+\bibitem[\protect\citeauthoryear{{Samushia}, {Percival}  \&
+  {Raccanelli}}{{Samushia} et~al.}{2012}]{SDSS_fs8}
+{Samushia} L.,  {Percival} W.~J.,   {Raccanelli} A.,  2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2011.20169.x}, \href
+  {https://ui.adsabs.harvard.edu/\#abs/2012MNRAS.420.2102S} {420, 2102}
+
+\bibitem[\protect\citeauthoryear{Sawicki, Marra  \& Valkenburg}{Sawicki
+  et~al.}{2013}]{Sawicki2013}
+Sawicki I.,  Marra V.,   Valkenburg W.,  2013, \mn@doi [Phys. Rev. D]
+  {10.1103/PhysRevD.88.083520}, 88, 083520
+
+\bibitem[\protect\citeauthoryear{{Seikel} \& {Clarkson}}{{Seikel} \&
+  {Clarkson}}{2013}]{Seikel2013}
+{Seikel} M.,  {Clarkson} C.,  2013, preprint, \href
+  {http://adsabs.harvard.edu/abs/2013arXiv1311.6678S} {} (\mn@eprint {arXiv}
+  {1311.6678})
+
+\bibitem[\protect\citeauthoryear{{Seikel}, {Clarkson}  \& {Smith}}{{Seikel}
+  et~al.}{2012}]{Seikel2012}
+{Seikel} M.,  {Clarkson} C.,   {Smith} M.,  2012, \mn@doi [\jcap]
+  {10.1088/1475-7516/2012/06/036}, \href
+  {http://adsabs.harvard.edu/abs/2012JCAP...06..036S} {6, 036}
+
+\bibitem[\protect\citeauthoryear{{Shafieloo}, {Kim}  \& {Linder}}{{Shafieloo}
+  et~al.}{2012}]{Shafieloo2012}
+{Shafieloo} A.,  {Kim} A.~G.,   {Linder} E.~V.,  2012, \mn@doi [\prd]
+  {10.1103/PhysRevD.85.123530}, \href
+  {http://adsabs.harvard.edu/abs/2012PhRvD..85l3530S} {85, 123530}
+
+\bibitem[\protect\citeauthoryear{Shapiro \& Sola}{Shapiro \&
+  Sola}{2002}]{Shapiro:2000dz}
+Shapiro I.~L.,  Sola J.,  2002, \mn@doi [JHEP] {10.1088/1126-6708/2002/02/006},
+  02, 006
+
+\bibitem[\protect\citeauthoryear{Sola}{Sola}{2011}]{Sola:2011qr}
+Sola J.,  2011, \mn@doi [J. Phys. Conf. Ser.] {10.1088/1742-6596/283/1/012033},
+  283, 012033
+
+\bibitem[\protect\citeauthoryear{Sol\`{a}, G\'{o}mez-Valent  \& de
+  Cruz~P\'{e}rez}{Sol\`{a} et~al.}{2017a}]{Sola:2017lxc}
+Sol\`{a} J.,  G\'{o}mez-Valent A.,   de Cruz~P\'{e}rez J.,  2017a, \mn@doi
+  [International Journal of Modern Physics] {10.1142/S0217751X17300149}, A32,
+  1730014
+
+\bibitem[\protect\citeauthoryear{Sol\`{a}, G\'{o}mez-Valent  \& de
+  Cruz~P\'{e}rez}{Sol\`{a} et~al.}{2017b}]{Sola:2017znb}
+Sol\`{a} J.,  G\'{o}mez-Valent A.,   de Cruz~P\'{e}rez J.,  2017b, \mn@doi
+  [Phys. Lett.] {10.1016/j.physletb.2017.09.073}, B774, 317
+
+\bibitem[\protect\citeauthoryear{Sol\`{a}, G\'{o}mez-Valent  \& de
+  Cruz~P\'{e}rez}{Sol\`{a} et~al.}{2018a}]{Sola2018:lcd}
+Sol\`{a} J.,  G\'{o}mez-Valent A.,   de Cruz~P\'{e}rez J.,  2018a, preprint,
+  \href {http://adsabs.harvard.edu/abs/2018arXiv181103505S} {} (\mn@eprint
+  {arXiv} {1811.03505})
+
+\bibitem[\protect\citeauthoryear{Sol\`{a}, de Cruz~P\'{e}rez  \&
+  G\'{o}mez-Valent}{Sol\`{a} et~al.}{2018b}]{Sola:2017jbl}
+Sol\`{a} J.,  de Cruz~P\'{e}rez J.,   G\'{o}mez-Valent A.,  2018b, \mn@doi
+  [\mnras] {10.1093/mnras/sty1253}, 478, 4357
+
+\bibitem[\protect\citeauthoryear{Spiegelhalter, Best, Carlin  \& van~der
+  Linde}{Spiegelhalter et~al.}{2014}]{RSSB:RSSB12062}
+Spiegelhalter D.~J.,  Best N.~G.,  Carlin B.~P.,   van~der Linde A.,  2014,
+  \mn@doi [Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)] {10.1111/rssb.12062}, 76, 485
+
+\bibitem[\protect\citeauthoryear{Tsiapi \& Basilakos}{Tsiapi \&
+  Basilakos}{2018}]{Tsiapi:2018she}
+Tsiapi P.,  Basilakos S.,  2018, preprint (\mn@eprint {arXiv} {1810.12902})
+
+\bibitem[\protect\citeauthoryear{Wands, De-Santiago  \& Wang}{Wands
+  et~al.}{2012}]{Wands:2012vg}
+Wands D.,  De-Santiago J.,   Wang Y.,  2012, \mn@doi [Classical and Quantum
+  Gravity] {10.1088/0264-9381/29/14/145017}, 29, 145017
+
+\bibitem[\protect\citeauthoryear{Wang, Wands, Xu, De-Santiago  \& Hojjati}{Wang
+  et~al.}{2013}]{PhysRevD.87.083503}
+Wang Y.,  Wands D.,  Xu L.,  De-Santiago J.,   Hojjati A.,  2013, \mn@doi
+  [Phys. Rev. D] {10.1103/PhysRevD.87.083503}, 87, 083503
+
+\bibitem[\protect\citeauthoryear{Wang, Wands, Zhao  \& Xu}{Wang
+  et~al.}{2014}]{Wang:2014xca}
+Wang Y.,  Wands D.,  Zhao G.-B.,   Xu L.,  2014, \mn@doi [\prd]
+  {10.1103/PhysRevD.90.023502}, p. 023502
+
+\bibitem[\protect\citeauthoryear{Wang, Zhao, Wands, Pogosian  \&
+  Crittenden}{Wang et~al.}{2015}]{Wang:2015wga}
+Wang Y.,  Zhao G.-B.,  Wands D.,  Pogosian L.,   Crittenden R.~G.,  2015,
+  \mn@doi [\prd] {10.1103/PhysRevD.92.103005}, 92, 103005
+
+\bibitem[\protect\citeauthoryear{Wang, Pogosian, Zhao  \& Zucca}{Wang
+  et~al.}{2018}]{Wang:2018fng}
+Wang Y.,  Pogosian L.,  Zhao G.-B.,   Zucca A.,  2018, preprint (\mn@eprint
+  {arXiv} {1807.03772})
+
+\bibitem[\protect\citeauthoryear{Weinberg}{Weinberg}{1989}]{Weinberg1989}
+Weinberg S.,  1989, Reviews of Modern Physics, 61, 1
+
+\bibitem[\protect\citeauthoryear{Yang, Guo  \& Cai}{Yang
+  et~al.}{2015}]{Cai:2015zoa}
+Yang T.,  Guo Z.-K.,   Cai R.-G.,  2015, \mn@doi [\prd]
+  {10.1103/PhysRevD.91.123533}, 91, 123533
+
+\bibitem[\protect\citeauthoryear{Yang, Pan, Di~Valentino, Saridakis  \&
+  Chakraborty}{Yang et~al.}{2018a}]{Yang:2018qmz}
+Yang W.,  Pan S.,  Di~Valentino E.,  Saridakis E.~N.,   Chakraborty S.,  2018a,
+  preprint (\mn@eprint {arXiv} {1810.05141})
+
+\bibitem[\protect\citeauthoryear{Yang, Banerjee, Paliathanasis  \& Pan}{Yang
+  et~al.}{2018b}]{Yang:2018qec}
+Yang W.,  Banerjee N.,  Paliathanasis A.,   Pan S.,  2018b, preprint
+  (\mn@eprint {arXiv} {1812.06854})
+
+\bibitem[\protect\citeauthoryear{{Zhang} \& {Li}}{{Zhang} \&
+  {Li}}{2018}]{Zhang2018}
+{Zhang} M.-J.,  {Li} H.,  2018, \mn@doi [European Physical Journal C]
+  {10.1140/epjc/s10052-018-5953-3}, \href
+  {http://adsabs.harvard.edu/abs/2018EPJC...78..460Z} {78, 460}
+
+\bibitem[\protect\citeauthoryear{Zhao et~al.}{Zhao et~al.}{2017}]{Zhao:2017cud}
+Zhao G.-B.,  et~al., 2017, \mn@doi [Nature Astronomy]
+  {10.1038/s41550-017-0216-z}, 1, 627
+
+\bibitem[\protect\citeauthoryear{{de la Torre} et~al.}{{de la Torre}
+  et~al.}{2013}]{vipers_fs8}
+{de la Torre} S.,  et~al., 2013, \mn@doi [\aap] {10.1051/0004-6361/201321463},
+  \href {https://ui.adsabs.harvard.edu/\#abs/2013A&A...557A..54D} {557, A54}
+
+\makeatother
+\end{thebibliography}

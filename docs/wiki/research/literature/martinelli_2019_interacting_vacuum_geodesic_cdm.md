@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - literature_cache_index
 next_gate: none; raw literature cache only
-last_updated: 2026-06-09
+last_updated: 2026-06-18
 record_type: literature_record
 paper_year: 2019
 availability_last_checked: 2026-06-09
@@ -17,6 +17,15 @@ used_by:
 ---
 
 # Martinelli 2019 Interacting Vacuum Geodesic CDM
+
+## Workflow Boundary
+
+This record follows the
+[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+
+The 2026-06-18 update records a local source cache only. Current source state:
+`asset_cached`; `asset_extracted_not_digitized`. This is not QFUDS evidence,
+not retained `Gamma(a)` support, and not Level 2B admission.
 
 ## Bibliographic Metadata
 
@@ -68,6 +77,8 @@ available.
 ## Public Code / Data Links
 
 - arXiv page provides PDF and TeX source.
+- Repository-local asset cache:
+  [Martinelli 2019 assets](../assets/martinelli_2019_interacting_vacuum_geodesic_cdm/README.md).
 - Public posterior products were not found during the 2026-06-09 check.
 
 ## QFUDS Relevance
@@ -86,3 +97,6 @@ This record is not a QFUDS conclusion.
 
 - 2026-06-09: arXiv and article search checked for public source and product
   availability.
+- 2026-06-18: arXiv PDF and source bundle cached locally for Source-X equation
+  extraction. Current source state: `asset_cached`;
+  `asset_extracted_not_digitized`.
