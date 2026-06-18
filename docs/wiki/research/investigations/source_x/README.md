@@ -80,6 +80,7 @@ records. The prefix is a route number, not a project-status claim.
 | 052 | [Foam-State Variable Literature Question Plan](plans/052_foam_state_variable_literature_question_plan.md) | question plan for literature-neighbor state variables before selecting `xi` |
 | 052 | [Foam-State Variable Literature Question Result](conclusions/052_foam_state_variable_literature_question_result.md) | executes the `xi_gal`/known-model-sink question; no `xi` selected |
 | 053 | [Black-Hole Vacuum Foam Falsifiability Ledger](conclusions/053_black_hole_vacuum_foam_falsifiability_ledger_ko.md) | integrated falsifiability ledger for five public-origin questions; no Level 2B |
+| 054 | [Candidate Equation Template Attempts](conclusions/054_candidate_equation_template_attempts_ko.md) | applies the candidate-equation template to all five routes; no route admitted |
 
 Reserved future records:
 
@@ -173,6 +174,10 @@ Reserved future records:
   white-hole/remnant storage, and galaxy-scale foam. It preserves the questions
   as audit material and records kill conditions, but it does not create QFUDS
   support, validation, novelty, or Level 2B admission.
+- `054` applies the candidate-equation template to the same five routes. Each
+  route remains blocked or rejected because it cannot fill the required source
+  object, phase-B pressure, transfer vector, perturbation route, and
+  known-model escape equation together.
 - None of these records opens Level 2B, modifies the roadmap, or creates a
   physical branch.
 

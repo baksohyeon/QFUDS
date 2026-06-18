@@ -36,3 +36,4 @@ made through the project process.
 - [Effective Phase-Fraction Scaffold](051_effective_phase_fraction_scaffold.md)
 - [Foam-State Variable Literature Question Result](052_foam_state_variable_literature_question_result.md)
 - [Black-Hole Vacuum Foam Falsifiability Ledger](053_black_hole_vacuum_foam_falsifiability_ledger_ko.md)
+- [Candidate Equation Template Attempts](054_candidate_equation_template_attempts_ko.md)
