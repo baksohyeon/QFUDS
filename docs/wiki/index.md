@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Wiki Content Index
@@ -59,7 +59,9 @@ and
     sketch; provenance only, observer mode.
 - [QFUDS rough tanh 논문 보고서](lineage/005_rough_tanh_thesis_report_ko.md)
   - thesis-style synthesis of the CP1~CP24 sketch and the agent-based workflow
-    methodology; provenance only, 050 ceiling intact.
+    methodology; provenance only, 050 ceiling intact. The 2026-06-18
+    baseline-reference addendum keeps `f_B` bookkeeping-only and NASA/BAO as
+    kill-map-only sources.
 - [QFUDS 에이전트 기반 연구 운영 절차](lineage/006_agentic_research_system_ko.md)
   - workflow, document/status boundary, parser routing, cache state,
     adversarial review, and git-hook gate record.
@@ -105,6 +107,9 @@ and
   reference records.
 - [Research Investigations](research/investigations/README.md) - dated
   research-process records.
+- [Baseline Reference Investigations](research/investigations/baseline_reference/README.md)
+  - NASA/LAMBDA cache, BAO kill-map, non-circularity ledger, `f_B`
+    stress-energy audit, known-model reduction, and escape-equation templates.
 - [Source-X Research Investigations](research/investigations/source_x/README.md)
   - Source-X plans 041-050, Chen digitization, known-model distinction, and
     observer-mode routing boundaries.

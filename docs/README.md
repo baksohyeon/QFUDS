@@ -9,7 +9,7 @@ depends_on:
   - project_overview
   - roadmap
 next_gate: retained branch demoted; keep Level 2B blocked
-last_updated: 2026-06-13
+last_updated: 2026-06-18
 ---
 
 # QFUDS Documentation Index
@@ -122,6 +122,7 @@ Raw literature records and dated external-research investigations. These are
 reference records only, not experiment conclusions.
 
 - [Research Cache](wiki/research/README.md)
+- [Baseline Reference Investigations](wiki/research/investigations/baseline_reference/README.md) - NASA/LAMBDA cache, BAO kill-map, non-circularity ledger, `f_B` audits, known-model reduction, and escape-equation templates
 
 ## Wiki Governance And Lineage
 
