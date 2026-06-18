@@ -8,8 +8,8 @@ evidence_role: provenance
 depends_on:
   - roadmap
   - qfuds_lineage_rough_tanh_numerical_sketch_ko
-next_gate: provenance only; roadmap이 상태 권위; observer mode 유지; 050 천장 무손상
-last_updated: 2026-06-13
+next_gate: provenance only; roadmap이 상태 권위; observer mode 유지; 050 천장 및 005 definition audit 경계 무손상
+last_updated: 2026-06-18
 ---
 
 # 통합 암흑 부문의 거친 tanh 상전이 현상론: 효과적 적합성, 반증 가능 신호, 그리고 이론적 천장
@@ -29,6 +29,16 @@ effective fit, falsifiable signatures, and the theoretical ceiling**
 > *"새 우주론의 발견"이 아니라*, **하나의 거친 통합 암흑부문 가설이 데이터에 어디까지
 > 맞고 어디서 왜 막히는지를 단계별로 정리하고, 차세대 관측이 검증할 반증 가능
 > 신호를 도출한 것**이다.
+
+> **2026-06-18 추가 경계.** 이후 baseline-reference audit chain은 이 보고서의 천장 결론을
+> 더 좁혔다. `xi ~= 10 Mpc`는 state variable이 아니며, `X(x,a)`는 현재
+> `rho_F[X]`/`p_F[X]` mapping과 evolution equation이 없어 정의 실패다.
+> `f_B(x,a)`는 phase-B fraction bookkeeping에는 쓸 수 있지만, phase B가 왜
+> `w ~= -1`인지 설명하지 못하므로 물리 source가 아니다. 따라서 NASA/LAMBDA와 BAO는
+> 여전히 baseline/kill-map일 뿐이고, 이 보고서의 rough proxy 결과를 model-facing
+> 해석으로 승격하지 않는다. 관련 baseline source state는 NASA/LAMBDA `asset_cached`,
+> DESI DR2 Ly-alpha BAO `asset_extracted_not_digitized` + `direct_table`,
+> eBOSS DR16 Ly-alpha BAO `asset_cached` + `direct_table`이다.
 
 ---
 
@@ -638,6 +648,12 @@ AI 연구 하네스가 아직 검증 전인 가설의 과대주장을 줄이는 
 신호를 검산하는 일이다. 다른 하나는 $\xi \approx 10\,\mathrm{Mpc}$와
 $\rho_\ast \approx \rho_\Lambda$를 원리적으로 유도할 수 있는지
 다시 묻는 일이다. 후자는 곧 우주상수 문제와 스케일 문제에 직접 들어가는 작업이다.
+
+2026-06-18 기준 추가 audit 결과, 이 두 번째 길은 더 좁아졌다. `xi` 자체를 state variable로
+두는 경로는 기각됐고, stress-energy-side `f_B(x,a)`는 bookkeeping 변수로만 남았다.
+`f_B`가 물리 변수가 되려면 `rho_A`, `rho_B`, `p_A`, `p_B`, phase-B equation of state,
+conservation/transfer law, perturbation route, known-model reduction test를 먼저 채워야 한다.
+이 전에는 NASA/LAMBDA나 BAO를 모델 해석에 쓰면 순환논리다.
 
 ---
 

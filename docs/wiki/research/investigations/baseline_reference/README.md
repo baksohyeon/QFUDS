@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_investigations_index
 next_gate: define one candidate foam-sector state variable before model-facing NASA or BAO interpretation
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Baseline Reference Investigations
@@ -43,7 +43,10 @@ changes.
 5. [Foam State Variable Definition Plan](plans/005_foam_state_variable_definition_plan.md):
    define the required fields for a plan-only `X(x,a)` or `f_B(x,a)` definition
    audit before any model-facing baseline use.
-6. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
+6. [Foam State Variable Definition Audit](conclusions/005_foam_state_variable_definition_audit.md):
+   execute the `X(x,a)` / `f_B(x,a)` definition audit and keep both below
+   physical admission.
+7. [NASA + BAO Baseline Constraint Map](conclusions/003_nasa_bao_baseline_constraint_map.md):
    list observational kill thresholds only after the non-circularity ledger is
    frozen.
 
@@ -64,6 +67,6 @@ Forbidden use:
 - treating retained `Gamma(a)` as a physical foam-sector source.
 
 The chain order matters. The assumption ledger, state-variable/placement
-matrix, and state-variable definition plan must come before model-facing use of
-the baseline constraint map so observations cannot back-drive the effective foam
-scale.
+matrix, state-variable definition plan, and definition audit must come before
+model-facing use of the baseline constraint map so observations cannot
+back-drive the effective foam scale.

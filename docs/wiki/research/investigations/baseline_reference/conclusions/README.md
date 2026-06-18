@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - baseline_reference_investigation_index
 next_gate: effective foam state variable definition before model-facing NASA or BAO interpretation
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Baseline Reference Investigation Conclusions
@@ -36,6 +36,8 @@ admission records.
   observational kill-map only.
 - [Foam State Variable and Placement Selection Matrix](004_foam_state_variable_placement_selection_matrix.md):
   candidate-state-variable and equation-side placement rejection matrix.
+- [Foam State Variable Definition Audit](005_foam_state_variable_definition_audit.md):
+  execution audit for `X(x,a)` and `f_B(x,a)` definition candidates.
 
 ## Stop Rule
 
@@ -44,4 +46,5 @@ first to choose `xi`, transition width, transition redshift, or amplitude and
 then those choices are described as a foam-sector source.
 
 Before using the NASA + BAO map for any model-facing interpretation, read the
-effective foam ledger and the state-variable/placement matrix first.
+effective foam ledger, the state-variable/placement matrix, and the state
+variable definition audit first.
