@@ -42,3 +42,4 @@ made through the project process.
 - [IV/IDE Formalism Notes Ledger](057_iv_ide_formalism_notes_ledger_ko.md)
 - [Li 2025 IV/IDE Equation Extraction Result](059_li_2025_iv_ide_equation_extraction_result_ko.md)
 - [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md)
+- [Li/Escamilla IV/IDE Convention Comparison Note](059_li_escamilla_iv_ide_convention_comparison_note_ko.md)

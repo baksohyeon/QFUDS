@@ -87,6 +87,7 @@ records. The prefix is a route number, not a project-status claim.
 | 058 | [Paper-by-Paper IV/IDE Equation Extraction Plan](plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) | plans exact per-paper extraction before any timing fit or observational constraint use |
 | 059 | [Li 2025 IV/IDE Equation Extraction Result](conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md) | executes the Li 2025 pilot extraction; comparator only, no QFUDS admission |
 | 059 | [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](conclusions/059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md) | executes the Escamilla 2023 background-kernel extraction; background-only stop |
+| 059 | [Li/Escamilla IV/IDE Convention Comparison Note](conclusions/059_li_escamilla_iv_ide_convention_comparison_note_ko.md) | compares the two extracted conventions before any timing fit or baseline-constraint use |
 
 Reserved future records:
 
@@ -198,6 +199,9 @@ Reserved future records:
   be a formalism comparator but still cannot be used as a physical source:
   Li supplies `Q^mu`/frame/ePPF machinery while Escamilla stops at a
   background kernel.
+- `059` also includes a convention-comparison note. It freezes the translation
+  hazards before any retained-timing fit, NASA/BAO/CMB/LSS interpretation, or
+  next-target literature extraction.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 
