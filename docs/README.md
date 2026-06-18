@@ -141,4 +141,5 @@ are not roadmap status authorities.
 - [Rough Tanh Thesis Report](wiki/lineage/005_rough_tanh_thesis_report_ko.md) - optional thesis-style synthesis of the rough tanh lineage and ceiling
 - [Agent-Based Research Operations](wiki/lineage/006_agentic_research_system_ko.md) - workflow, document boundary, review, and git-hook gate record
 - [Black-Hole Information Public Bridge](wiki/lineage/007_black_hole_information_public_bridge_ko.md) - Korean provenance-only bridge from the black-hole information origin story to the audit harness
-- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-050, digitization, known-model distinction, observer-mode routing, and closeout boundaries
+- [Academic Derivation Bridge](wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) - translates retained `Gamma(a)` into academic IV/IDE formalism without physical-QFUDS admission
+- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-055, digitization, known-model distinction, observer-mode routing, closeout boundaries, and IV/IDE bridge

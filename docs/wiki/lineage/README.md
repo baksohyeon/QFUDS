@@ -50,6 +50,13 @@ Follow-up work after 007 should branch through the
 before becoming an empirical kill-map, exploratory candidate audit, or lineage
 continuation.
 
+For the retained `Gamma(a)` branch, the current follow-up is not another
+lineage claim. It is the
+[Academic Derivation Bridge](../research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md),
+which translates the naive `Gamma(a)` intuition into interacting-vacuum /
+interacting-dark-energy language. That bridge is an observer-mode learning path,
+not physical QFUDS evidence, Level 2B admission, or Level 4 CMB work.
+
 ## Current 005 Boundary
 
 The 2026-06-18 baseline-reference audit chain narrows the 005 thesis-style

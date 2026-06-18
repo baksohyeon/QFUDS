@@ -62,6 +62,7 @@ Short version:
 | The representative rough Season 2 exploration | [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) |
 | The formal thesis-style archive | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
 | The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
+| How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
 Recommended order:
@@ -377,6 +378,12 @@ one nobody can cleanly answer yet. Status authority remains the
 [Roadmap](docs/05_next_steps/000_roadmap.md); the project is in observer mode.
 This demotion is not a falsification of the broad dark-matter-to-dark-energy
 transition hypothesis, only the retirement of one mechanism meant to explain it.
+
+The current honest learning path is the
+[Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md):
+translate `Gamma(a)` into the standard IV/IDE source-term chain
+`Q -> Q^mu -> transfer frame -> perturbation closure -> stability -> likelihood`.
+That bridge is not a physical QFUDS derivation and not Level 4 CMB work.
 
 ## Afterword: A Grand-Sounding Theory That Converged on Two Open Problems
 
@@ -945,7 +952,8 @@ History/source notes:
 - [004_rough_tanh_numerical_sketch_ko.md](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md): the representative Season 2 rough-`tanh` experiment record and 24-checkpoint numerical exploration log (Korean)
 - [005_rough_tanh_thesis_report_ko.md](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md): optional thesis-style synthesis of the rough-`tanh` lineage covering effective fit, falsifiable signatures, and the theoretical ceiling (Korean)
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
-- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-050, Chen Figure 5 digitization, known-model distinction, observer-mode routing, and foam-sector feasibility closeout
+- [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
+- [Source-X investigation index](docs/wiki/research/investigations/source_x/README.md): Source-X plans 041-055, Chen Figure 5 digitization, known-model distinction, observer-mode routing, foam-sector feasibility closeout, and academic IV/IDE bridge
 - [Blocked Admission Rule Gate](docs/wiki/governance/003_blocked_admission_rule_gate.md): five-item physical-branch admission gate
 - [Missing Physics Map](docs/wiki/governance/004_missing_physics_map.md): missing mathematical objects before a physical branch can open
 - [concept_origin.md](docs/01_origin/concept_origin.md): how the raw information-flow idea became the QFUDS question

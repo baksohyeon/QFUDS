@@ -218,8 +218,16 @@ SF적 아이디어를 과학적 장부에 넣으면,
    - 하나의 black-hole route를 골라 `X`, `Q^nu`, phase-B pressure,
      `delta Q`, known-model distinction을 빈칸 없이 채워 본다.
    - 빈칸이 남으면 rejected 또는 blocked로 기록한다.
+3. **academic derivation bridge**
+   - retained `Gamma(a)`를 독립 QFUDS 이론으로 살리려 하지 않고, 학계의
+     interacting vacuum / interacting dark energy 언어로 번역한다.
+   - 현재 bridge는
+     [055_academic_derivation_bridge_ko.md](../research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md)에
+     있다.
+   - 이 경로는 `Q -> Q^mu -> transfer frame -> perturbation closure`를 배우는
+     observer-mode 경로이지, Level 2B 재개나 Level 4 CMB 작업이 아니다.
 
-지금 상태에서는 1번이 더 안전하다. 2번은 실제 방정식 후보가 생겼을 때만
+지금 상태에서는 1번과 3번이 안전하다. 2번은 실제 방정식 후보가 생겼을 때만
 의미가 있다.
 
 ## 닫는 말
@@ -238,4 +246,3 @@ Black-hole information route = motivation and provenance.
 Physical-QFUDS admission = no.
 Audit-harness value = yes.
 ```
-
