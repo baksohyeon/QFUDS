@@ -86,6 +86,7 @@ records. The prefix is a route number, not a project-status claim.
 | 057 | [IV/IDE Formalism Notes Ledger](conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | executes the first formalism ledger: background `Q`, `Q^mu` frame, perturbation closure, and stop rules |
 | 058 | [Paper-by-Paper IV/IDE Equation Extraction Plan](plans/058_paper_by_paper_iv_ide_equation_extraction_plan_ko.md) | plans exact per-paper extraction before any timing fit or observational constraint use |
 | 059 | [Li 2025 IV/IDE Equation Extraction Result](conclusions/059_li_2025_iv_ide_equation_extraction_result_ko.md) | executes the Li 2025 pilot extraction; comparator only, no QFUDS admission |
+| 059 | [Escamilla 2023 IV/IDE Kernel Equation Extraction Result](conclusions/059_escamilla_2023_iv_ide_kernel_equation_extraction_result_ko.md) | executes the Escamilla 2023 background-kernel extraction; background-only stop |
 
 Reserved future records:
 
@@ -192,6 +193,11 @@ Reserved future records:
   covariant `Q^mu`, perturbation closure, stability, and likelihood readiness.
   It is a learning route and guardrail against repeating brute-force fitting,
   not a new QFUDS branch.
+- `059` includes the Li 2025 pilot extraction and the Escamilla 2023
+  background-kernel extraction. Together they show why retained `Gamma(a)` can
+  be a formalism comparator but still cannot be used as a physical source:
+  Li supplies `Q^mu`/frame/ePPF machinery while Escamilla stops at a
+  background kernel.
 - None of these records opens Level 2B, changes roadmap status, or creates a
   physical branch.
 

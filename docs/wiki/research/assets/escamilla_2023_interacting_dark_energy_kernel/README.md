@@ -7,7 +7,7 @@ status: reference
 evidence_role: reference
 depends_on:
   - lit_escamilla_2023_interacting_dark_energy_kernel
-next_gate: structured equation extraction before IV/IDE convention comparison
+next_gate: Source-X 059 Escamilla extraction result before convention comparison
 last_updated: 2026-06-18
 ---
 
@@ -41,8 +41,8 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
 | Current asset state | `asset_cached`; `asset_extracted_not_digitized` |
 | Extraction potential | `source_tex_parse_possible`; `figure_digitization_possible`; `direct_table` for paper tables |
 | Text quality | TeX source parse available through `source/extracted/main.tex` |
-| Depends on | Source-X 060 Escamilla equation extraction target |
-| Known blocked step | no structured equation extract exists yet |
+| Depends on | Source-X 059 Escamilla equation extraction result |
+| Known blocked step | no numerical digitization or perturbation closure exists in this cache |
 
 ## Files
 
@@ -54,12 +54,14 @@ roadmap status, open Level 2B, or support retained `Gamma(a)`.
   `Q_*`, `IQ_*`, `qz_*`, density, effective-EOS, and triangle-plot figures.
 - `figures/.gitkeep` - reserved for rendered or copied figure mirrors if later
   needed.
-- `digitization/.gitkeep` - reserved for future structured extracts or
-  digitization products.
+- [Escamilla 2023 IV/IDE Kernel Equation Extraction](digitization/equation_extraction_20260618.md) -
+  manual structured extract of the background IV/IDE kernel convention.
+- [Digitization asset index](digitization/README.md) - digitization asset
+  index.
 
 ## Immediate Use
 
-The next Source-X task may inspect `source/extracted/main.tex` for:
+The Source-X 059 extraction result inspected `source/extracted/main.tex` for:
 
 ```text
 Q sign convention

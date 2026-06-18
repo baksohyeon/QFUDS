@@ -83,6 +83,8 @@ functional posterior figures.
 - arXiv page provides PDF and TeX source.
 - Repository-local asset cache:
   [Escamilla 2023 assets](../assets/escamilla_2023_interacting_dark_energy_kernel/README.md).
+- Manual structured equation extract:
+  [Escamilla 2023 IV/IDE Kernel Equation Extraction](../assets/escamilla_2023_interacting_dark_energy_kernel/digitization/equation_extraction_20260618.md).
 - No public posterior-product repository was found during the 2026-06-09 check.
 
 ## QFUDS Relevance
@@ -105,3 +107,7 @@ This record does not state that QFUDS or retained `Gamma(a)` is supported.
 - 2026-06-18: arXiv PDF and source tarball cached locally for Source-X
   equation extraction. Current source state: `asset_cached`;
   `asset_extracted_not_digitized`.
+- 2026-06-18: manual structured equation extract added for background `Q`,
+  `Pi_DE`, `Pi_DM`, `I_Q`, sign convention, reconstruction nodes, and
+  background-only perturbation boundary. Current extraction state:
+  `manual_structured_extract`.
