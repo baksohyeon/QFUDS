@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - literature_cache_index
 next_gate: none; raw literature cache only
-last_updated: 2026-06-09
+last_updated: 2026-06-18
 record_type: literature_record
 paper_year: 2020
 availability_last_checked: 2026-06-09
@@ -17,6 +17,15 @@ used_by:
 ---
 
 # Hogg 2020 Vacuum Geodesic CDM Interaction
+
+## Workflow Boundary
+
+This record follows the
+[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+
+The 2026-06-18 update records a local source cache only. Current source state:
+`asset_cached`; `asset_extracted_not_digitized`. This is not QFUDS evidence,
+not retained `Gamma(a)` support, and not Level 2B admission.
 
 ## Bibliographic Metadata
 
@@ -65,6 +74,8 @@ is preferable for any posterior-level comparison.
 ## Public Code / Data Links
 
 - arXiv page provides PDF and TeX source.
+- Repository-local asset cache:
+  [Hogg 2020 assets](../assets/hogg_2020_vacuum_geodesic_cdm_interaction/README.md).
 - Data availability statement:
   [University of Portsmouth record](https://researchportal.port.ac.uk/en/datasets/data-availability-statement-for-latest-evidence-for-a-late-time-v)
 
@@ -85,3 +96,6 @@ This record does not change Exp006 or roadmap conclusions.
 
 - 2026-06-09: arXiv page and University of Portsmouth data availability record
   checked.
+- 2026-06-18: arXiv PDF and source bundle cached locally for Source-X equation
+  extraction. Current source state: `asset_cached`;
+  `asset_extracted_not_digitized`.
