@@ -63,6 +63,9 @@ changes.
    frozen.
 11. [Baseline Reference Chain Closure](conclusions/009_baseline_reference_chain_closure.md):
    final read-order and stop-rule summary for this chain.
+12. [Candidate Equation Proposal Template](plans/010_candidate_equation_proposal_template.md):
+   use this before accepting any future `Y`, `X`, `f_B`, `xi`, stress-tensor,
+   or transfer-law proposal.
 
 ## Use Boundary
 
@@ -86,3 +89,10 @@ audit, `f_B` known-model reduction checklist, and escape-equation templates
 must come before model-facing use of the baseline constraint map. The closure
 summary records this chain as closed until new candidate equations exist, so
 observations cannot back-drive the effective foam scale.
+
+## Candidate Re-Entry
+
+The chain can re-enter only through the
+[Candidate Equation Proposal Template](plans/010_candidate_equation_proposal_template.md).
+If a candidate cannot fill that template, reject it before NASA/LAMBDA, BAO,
+LSS, CMB, matter-power, or likelihood comparison.

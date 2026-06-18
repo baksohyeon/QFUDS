@@ -7,8 +7,8 @@ status: reference
 evidence_role: reference
 depends_on:
   - baseline_reference_investigation_index
-next_gate: none; plan records only
-last_updated: 2026-06-17
+next_gate: reject future candidates that cannot fill the equation proposal template before observational comparison
+last_updated: 2026-06-18
 ---
 
 # Baseline Reference Investigation Plans
@@ -23,3 +23,4 @@ and do not open Physical-QFUDS Level 2B.
 
 - [Effective Foam Assumption Ledger Preflight Plan](002_effective_foam_assumption_ledger_preflight_plan.md)
 - [Foam State Variable Definition Plan](005_foam_state_variable_definition_plan.md)
+- [Candidate Equation Proposal Template](010_candidate_equation_proposal_template.md)

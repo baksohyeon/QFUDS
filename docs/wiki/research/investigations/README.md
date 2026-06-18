@@ -75,6 +75,7 @@ product was not found in the checked sources on the recorded date.
 | 003 | [2026-06-17 NASA + BAO Baseline Constraint Map](baseline_reference/conclusions/003_nasa_bao_baseline_constraint_map.md) | observational kill-map; re-scoped 2026-06-18 |
 | 004 | [2026-06-17 Foam State Variable and Placement Selection Matrix](baseline_reference/conclusions/004_foam_state_variable_placement_selection_matrix.md) | state-variable placement audit |
 | 005 | [2026-06-17 Foam State Variable Definition Plan](baseline_reference/plans/005_foam_state_variable_definition_plan.md) | plan-only definition checkpoint |
+| 010 | [2026-06-18 Candidate Equation Proposal Template](baseline_reference/plans/010_candidate_equation_proposal_template.md) | candidate equation template |
 | 005 | [2026-06-18 Foam State Variable Definition Audit](baseline_reference/conclusions/005_foam_state_variable_definition_audit.md) | definition audit |
 | 006 | [2026-06-18 f_B Stress-Energy Definition Audit](baseline_reference/conclusions/006_fB_stress_energy_definition_audit.md) | stress-energy definition audit |
 | 007 | [2026-06-18 f_B Known-Model Reduction Checklist](baseline_reference/conclusions/007_fB_known_model_reduction_checklist.md) | known-model reduction checklist |

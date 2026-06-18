@@ -95,6 +95,9 @@ That is circular reasoning.
 
 Allowed work must stay in one of these lanes:
 
+- fill the
+  [Candidate Equation Proposal Template](../plans/010_candidate_equation_proposal_template.md)
+  before proposing observational comparison;
 - propose a future candidate that fills the
   [escape-equation templates](008_known_model_escape_equation_templates.md)
   before observing kill-map targets;
@@ -125,6 +128,7 @@ The baseline-reference chain is closed for now:
 
 ```text
 baseline_reference_chain = closed_until_new_candidate_equations
+candidate_reentry = candidate_equation_template_first
 NASA_LAMBDA = baseline_source_only
 BAO = observational_kill_map_only
 f_B = bookkeeping_only
