@@ -117,3 +117,4 @@ product was not found in the checked sources on the recorded date.
 | 054 | [2026-06-18 Candidate Equation Template Attempts](source_x/conclusions/054_candidate_equation_template_attempts_ko.md) | applies the admission template to the five origin routes; none is admitted |
 | 055 | [2026-06-18 Academic Derivation Bridge](source_x/conclusions/055_academic_derivation_bridge_ko.md) | translates retained `Gamma(a)` into academic IV/IDE formalism; no physical branch |
 | 056 | [2026-06-18 IV/IDE Formalism Study Map](source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) | maps the safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
+| 057 | [2026-06-18 IV/IDE Formalism Notes Ledger](source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | records the first IV/IDE ledger: background `Q`, frame choice, perturbation closure, and solver stop rules |

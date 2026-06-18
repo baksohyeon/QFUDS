@@ -143,4 +143,5 @@ are not roadmap status authorities.
 - [Black-Hole Information Public Bridge](wiki/lineage/007_black_hole_information_public_bridge_ko.md) - Korean provenance-only bridge from the black-hole information origin story to the audit harness
 - [Academic Derivation Bridge](wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) - translates retained `Gamma(a)` into academic IV/IDE formalism without physical-QFUDS admission
 - [IV/IDE Formalism Study Map](wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md) - safe learning route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness
-- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-056, digitization, known-model distinction, observer-mode routing, closeout boundaries, and IV/IDE bridge
+- [IV/IDE Formalism Notes Ledger](wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md) - first formalism ledger for background `Q`, `Q^mu` frame, perturbation closure, and solver stop rules
+- [Source-X Investigation Index](wiki/research/investigations/source_x/README.md) - plans 041-057, digitization, known-model distinction, observer-mode routing, closeout boundaries, and IV/IDE bridge

@@ -83,6 +83,7 @@ records. The prefix is a route number, not a project-status claim.
 | 054 | [Candidate Equation Template Attempts](conclusions/054_candidate_equation_template_attempts_ko.md) | applies the candidate-equation template to all five routes; no route admitted |
 | 055 | [Academic Derivation Bridge](conclusions/055_academic_derivation_bridge_ko.md) | translates retained `Gamma(a)` into academic IV/IDE source-term language; no physical branch |
 | 056 | [IV/IDE Formalism Study Map](conclusions/056_iv_ide_formalism_study_map_ko.md) | defines the safe study route from `Q` to `Q^mu`, perturbations, stability, and likelihood readiness |
+| 057 | [IV/IDE Formalism Notes Ledger](conclusions/057_iv_ide_formalism_notes_ledger_ko.md) | executes the first formalism ledger: background `Q`, `Q^mu` frame, perturbation closure, and stop rules |
 
 Reserved future records:
 
