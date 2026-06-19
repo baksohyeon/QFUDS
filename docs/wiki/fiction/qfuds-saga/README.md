@@ -39,6 +39,22 @@ Codex와 Claude Code 기준의 운영 경로는
 [Documentation Folder Routing Workflow](../../../../.agent/workflows/documentation-folder-routing-workflow.md)
 가 정한다.
 
+## Workflow Boundary
+
+이 index는 SAGA 창작 트랙의 선반과 read order를 정한다. 새 외부 paper, web
+reference, PDF, MCP 실행 결과, cached asset, extraction product, source/product
+availability claim을 만들지 않는다.
+
+외부 자료를 새로 쓰는 문서는
+[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md)
+를 별도로 적용하고 workflow state token을 자기 문서 안에 기록해야 한다.
+
+현재 workflow state:
+
+```text
+not_extractable
+```
+
 ```text
 active SAGA operating specs -> 00_system/
 active SAGA canon/world bible -> 10_bible/

@@ -33,3 +33,12 @@ External-source handling remains governed by
 [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md)
 whenever archived fiction touches an external paper, web reference, PDF, MCP,
 code repository, or source/product availability claim.
+
+Current workflow state:
+
+```text
+not_extractable
+```
+
+This archive index does not introduce a new external asset, cached source,
+extraction claim, or source/product availability claim.
