@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 current_phase: "none"
-status: Phases 1-16 complete; revised Episodes 1-4 complete; no active GSD phase
+status: Phases 1-17 complete; revised Episodes 1-6 complete; no active GSD phase
 last_updated: 2026-06-19
 progress:
-  total_phases: 16
-  completed_phases: 16
-  total_plans: 16
-  completed_plans: 16
+  total_phases: 17
+  completed_phases: 17
+  total_plans: 17
+  completed_plans: 17
   percent: 100
 ---
 
@@ -23,8 +23,8 @@ See: .planning/PROJECT.md
 
 **Milestone:** v1.0 milestone
 **Current phase:** none
-**Status:** Phases 1-16 complete. `The Broken Crown` first arc rough draft set,
-canon consolidation, revision control pass, and revised Episodes 1-4 are
+**Status:** Phases 1-17 complete. `The Broken Crown` first arc rough draft set,
+canon consolidation, revision control pass, and revised Episodes 1-6 are
 complete; next GSD phase not planned.
 
 ## Session Log
@@ -64,3 +64,5 @@ complete; next GSD phase not planned.
   and setting the next rewrite loop to revised Episodes 3-4.
 - 2026-06-19: Completed Phase 16 by adding revised v2 drafts for Episodes 3-4
   and setting the next rewrite loop to revised Episodes 5-6.
+- 2026-06-19: Completed Phase 17 by adding revised v2 drafts for Episodes 5-6
+  and closing the paired first arc revision loop.

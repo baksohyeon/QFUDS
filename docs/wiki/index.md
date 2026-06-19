@@ -195,6 +195,14 @@ and
   - English-first Episode 4 v2 cut that makes Null-Key Cells morally ambiguous,
     reduces graph-count exposition, and ties `PLURALITY IS NOT CONSENT` to
     lived proof overflow; fiction/provenance only.
+- [QFUDS SAGA Hawking Court Revised V2 English Draft](fiction/qfuds-saga/30_drafts/016_hawking_court_revised_v2_english_draft.md)
+  - English-first Episode 5 v2 cut that makes H-1 frightening through human
+    stakes before terminology and keeps QFUDS-adjacent language rejected/useful
+    but unsafe as truth claim; fiction/provenance only.
+- [QFUDS SAGA The Broken Crown Revised V2 English Draft](fiction/qfuds-saga/30_drafts/017_the_broken_crown_revised_v2_english_draft.md)
+  - English-first Episode 6 v2 cut that shortens the city-fracture opening,
+    makes pending doctrine dangerous earlier, and opens arc two with
+    `who may author loss`; fiction/provenance only.
 
 ## Postmortems
 

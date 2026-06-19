@@ -228,7 +228,15 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Episode 4 v2 cut. Null-Key Cells를 단순 공격자가 아니라 court appetite를
       드러내는 애매한 고발자로 먼저 제시하고, `PLURALITY IS NOT CONSENT`를
       proof overflow의 living cost에 묶는다.
-32. [Fiction Catalog](../01_catalog/README.md)
+32. [QFUDS SAGA Hawking Court Revised V2 English Draft](30_drafts/016_hawking_court_revised_v2_english_draft.md)
+    - Episode 5 v2 cut. H-1을 technical exhibit보다 먼저 mothers, graves,
+      testimony pressure로 무섭게 만들고, QFUDS-adjacent lattice를
+      `REJECTED / USEFUL / UNSAFE AS TRUTH CLAIM`으로 제한한다.
+33. [QFUDS SAGA The Broken Crown Revised V2 English Draft](30_drafts/017_the_broken_crown_revised_v2_english_draft.md)
+    - Episode 6 v2 cut. city fracture 설명을 줄이고, field marks가 이미 권력
+      문법으로 재사용되는 위험을 앞당기며, `who may author loss`로 arc two를
+      연다.
+34. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
@@ -247,7 +255,7 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 
 전체 arc revision control pass는
 [011 First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
-로 정리되었다. Revised v2 pass는 현재 1-4화까지 진행되었다.
+로 정리되었다. Revised v2 pass는 현재 1-6화까지 진행되었다.
 
 | Revised pass | Draft |
 | --- | --- |
@@ -255,8 +263,10 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 | 2. The Dead Exchange v2 | [013](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md) |
 | 3. The Last Hodler v2 | [014](30_drafts/014_the_last_hodler_revised_v2_english_draft.md) |
 | 4. Identity Flood v2 | [015](30_drafts/015_identity_flood_revised_v2_english_draft.md) |
+| 5. Hawking Court v2 | [016](30_drafts/016_hawking_court_revised_v2_english_draft.md) |
+| 6. The Broken Crown v2 | [017](30_drafts/017_the_broken_crown_revised_v2_english_draft.md) |
 
-다음 자연 작업은 revised Episodes 5-6 작성이다.
+다음 자연 작업은 arc-level polish/read-order pass 또는 arc two planning이다.
 
 ## 역할
 

@@ -61,6 +61,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 16: Revised Episodes 3-4** - Add revised v2 drafts for
   `The Last Hodler` and `Identity Flood` while preserving the rough drafts.
   Completed 2026-06-19.
+- [x] **Phase 17: Revised Episodes 5-6** - Add revised v2 drafts for
+  `Hawking Court` and `The Broken Crown` while preserving the rough drafts.
+  Completed 2026-06-19.
 
 ## Phase Details
 
@@ -267,6 +270,18 @@ Plans:
 
 - [x] 16-01: Add revised Episodes 3-4 and index them.
 
+### Phase 17: Revised Episodes 5-6
+
+**Goal:** Apply the first arc revision pass to Episodes 5-6 while preserving
+the rough drafts as provenance.
+**Requirements:** [FIC-REVISION-13, FIC-REVISION-14, FIC-REVISION-15]
+**Depends on:** Phase 16
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 17-01: Add revised Episodes 5-6 and index them.
+
 ## Progress
 
 **Execution Order:**
@@ -290,10 +305,12 @@ Phases execute in numeric order.
 | 14. First arc full revision pass | 1/1 | Complete | 2026-06-19 |
 | 15. Revised Episodes 1-2 | 1/1 | Complete | 2026-06-19 |
 | 16. Revised Episodes 3-4 | 1/1 | Complete | 2026-06-19 |
+| 17. Revised Episodes 5-6 | 1/1 | Complete | 2026-06-19 |
 
 ## Milestone Status
 
 `The Broken Crown` first arc rough draft set is complete, draft discoveries
 have been consolidated into the series bible, and the full arc revision pass has
-started converting rough drafts into revised v2 cuts. Revised Episodes 1-4 are
-complete. Next work should create revised Episodes 5-6 before arc two planning.
+converted the first arc into revised v2 cuts. Revised Episodes 1-6 are complete.
+Next work should run an arc-level polish/read-order pass or begin arc two
+planning.
