@@ -8,6 +8,8 @@
 - Canon status: `canon | soft-canon | elseworld | prototype | retired`
 - Audience mode: `fun | literary SF | hard SF | adult SF | YA`
 - Language mode: `English-first | Korean-first | bilingual`
+- Authoring baseline date: `YYYY-MM-DD`
+- Time baseline notes:
 
 ## Inherits From
 
@@ -26,6 +28,7 @@
 - Tone:
 - Special rules:
 - Ignored or simplified shared rules:
+- Style constraints: clean, direct, no unnecessary manifesto language.
 
 ## Work Bible
 
@@ -48,6 +51,5 @@
 
 ## Boundary
 
-This work is fiction/provenance only. It is not QFUDS evidence, validation,
-support, or Level 2B admission.
-
+State only local source or science-boundary exceptions. Do not repeat the full
+project disclaimer.

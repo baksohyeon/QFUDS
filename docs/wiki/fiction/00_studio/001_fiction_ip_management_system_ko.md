@@ -26,10 +26,21 @@ IP 관리 시스템**으로 다루기 위한 사람용 설명서다.
 GSD phase로 실행할 때는
 [Fiction GSD Planning Bridge](002_gsd_planning_bridge_ko.md)를 같이 읽는다.
 
+## Tone / Baseline
+
+새 fiction reference는 기준일을 가져야 한다. 기준일은 문서를 쓰기 시작한
+날짜다. "현재", "고대", "post-COVID", "AGI 이전/이후" 같은 말은 이 기준일에
+상대적으로 설명한다.
+
+문체는 간결하게 유지한다. 반복 disclaimer, 과한 선언문, 장식적 비유를 피하고,
+역할/규칙/장면 사용법을 먼저 쓴다.
+
+사용자의 개인 맥락은 독자 감각을 맞추는 참고값일 뿐이다. 사용자 개인 정보는
+문서나 소설에 직접 쓰지 않는다.
+
 ## Workflow Boundary
 
-This document does not introduce a new external asset, cached source, extraction
-product, or QFUDS evidence claim.
+This document introduces no external-source or source-product claim.
 
 External-source handling remains governed by
 [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
@@ -37,7 +48,7 @@ External-source handling remains governed by
 Current workflow state:
 
 ```text
-not_extractable
+no_asset_found
 ```
 
 ## 핵심 판단
@@ -53,10 +64,11 @@ idea -> universe/IP -> continuity status -> work folder -> bible/design/draft
 
 - 어떤 universe/IP에 속하는가.
 - canon, soft-canon, elseworld, prototype, retired 중 무엇인가.
+- authoring baseline date가 무엇인가.
 - 어떤 세계관/연표/과학 경계를 상속하는가.
 - 이 작품만의 local override는 무엇인가.
 - bible, story design, drafts, release가 어디에 있는가.
-- fiction/provenance only boundary가 무엇인가.
+- local boundary exception이 있는가.
 
 ## 권장 구조
 
@@ -147,5 +159,4 @@ fiction 작업을 GSD로 시작할 때는
 - README 없이 series/short/anthology/elseworld를 만들지 않는다.
 - "대충 QFUDS 느낌"이라고 쓰지 않는다. universe/IP와 continuity status를
   명시한다.
-- fiction premise를 QFUDS evidence, validation, Level 2B admission으로 쓰지
-  않는다.
+- fiction premise를 연구 결과나 roadmap 상태 변경처럼 쓰지 않는다.

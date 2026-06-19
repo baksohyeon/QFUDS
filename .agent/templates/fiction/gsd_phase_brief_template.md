@@ -5,6 +5,7 @@
 - Phase name:
 - GSD mode: `plan | execute | verify | migration`
 - Applicable workflow: `.agent/workflows/fiction-ip-management-workflow.md`
+- Authoring baseline date: `YYYY-MM-DD`
 
 ## Objective
 
@@ -17,6 +18,7 @@ What concrete fiction/IP work should this phase finish?
 - Work id:
 - Work format: `series | novel | short | anthology | webtoon | elseworld`
 - Target folder:
+- Time baseline notes:
 
 ## Scope
 
@@ -26,10 +28,20 @@ Allowed outputs:
 
 Forbidden outputs:
 
-- QFUDS evidence, support, validation, or Level 2B admission.
+- Research evidence or roadmap status changes.
 - Draft prose without a work README.
 - Canon changes without continuity classification.
 - External-source claims without Research Asset and Product Workflow state.
+
+## Tone Rules
+
+- Do not repeat the full evidence disclaimer; state only local boundary
+  exceptions or workflow state.
+- Keep reference prose clean and direct.
+- Explain `ancient`, `modern`, `post-COVID`, `pre-AGI`, and `future` relative
+  to the authoring baseline date.
+- Do not write private user context into docs or story text unless explicitly
+  authorized.
 
 ## Required Reads
 
@@ -61,4 +73,3 @@ sh scripts/git-hooks/pre-commit
 - Commit boundary:
 - Next phase:
 - User confirmation needed:
-

@@ -9,6 +9,8 @@ What should this session produce?
 - Universe/IP:
 - Work:
 - Target folder:
+- Authoring baseline date:
+- Time baseline notes:
 - Allowed outputs:
 - Forbidden outputs:
 
@@ -29,7 +31,15 @@ State what needs user confirmation before writing or committing.
 
 - Does this touch external sources? `yes | no`
 - If yes, apply Research Asset and Product Workflow.
-- Fiction premise must not become QFUDS evidence.
+- State only local boundary exceptions. Do not repeat the full harness
+  disclaimer.
+
+## Tone
+
+- Clean and direct.
+- No unnecessary manifesto language.
+- Use metaphors only when they help the scene.
+- Anchor time words to the authoring baseline date.
 
 ## Verification
 
@@ -38,4 +48,3 @@ State what needs user confirmation before writing or committing.
 - Staged workflow guard:
 - Preflight:
 - Pre-commit:
-

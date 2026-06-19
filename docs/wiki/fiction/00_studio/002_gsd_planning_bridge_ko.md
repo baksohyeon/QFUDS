@@ -32,8 +32,7 @@ GSD planning = 이번 phase에서 무엇을 끝낼지 정한다
 
 ## Workflow Boundary
 
-This document does not introduce a new external asset, cached source, extraction
-product, or QFUDS evidence claim.
+This document introduces no external-source or source-product claim.
 
 External-source handling remains governed by
 [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
@@ -41,7 +40,7 @@ External-source handling remains governed by
 Current workflow state:
 
 ```text
-not_extractable
+no_asset_found
 ```
 
 ## GSD가 맡는 것
@@ -62,7 +61,7 @@ GSD는 canon을 결정하지 않는다.
 - GSD phase plan은 fiction canon이 아니다.
 - GSD가 universe/IP 분류를 생략하면 안 된다.
 - GSD가 README 없는 원고 추가를 허용하면 안 된다.
-- GSD가 fiction premise를 QFUDS evidence로 바꾸면 안 된다.
+- GSD가 fiction premise를 연구 결과나 상태 변경으로 바꾸면 안 된다.
 
 ## Phase 문서에 반드시 들어갈 것
 
@@ -106,4 +105,3 @@ fiction/IP GSD phase는 최소한 아래 항목을 가져야 한다.
 - 사용자 확인 전에는 전체 migration을 하지 않음.
 
 이 phase는 계획/스캐폴드 작업이지 원고 작성 작업이 아니다.
-

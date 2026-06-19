@@ -4,6 +4,13 @@
 
 State what this bible controls for this work.
 
+## Authoring Baseline
+
+- Date started: `YYYY-MM-DD`
+- Present baseline:
+- Terms such as `ancient`, `modern`, `post-COVID`, `pre-AGI`, and `future`
+  mean:
+
 ## Inherited Rules
 
 - Universe/IP:
@@ -33,6 +40,7 @@ State what this bible controls for this work.
 - Tense:
 - Narration distance:
 - Style constraints:
+- Tone constraints: clean, direct, no unnecessary manifesto language.
 
 ## Relationship Map
 
@@ -46,5 +54,5 @@ Record the major relationship tensions and changes.
 
 ## Boundary
 
-This bible is a fiction continuity reference. It is not research evidence.
-
+State only local source or science-boundary exceptions. Do not repeat the full
+project disclaimer.

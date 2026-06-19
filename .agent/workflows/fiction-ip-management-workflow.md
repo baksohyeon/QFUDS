@@ -3,14 +3,40 @@
 Use this workflow whenever an agent creates, moves, classifies, or extends
 fiction material under `docs/wiki/fiction/`.
 
-This workflow is process-only. It does not create QFUDS evidence, roadmap
-status, QFUDS support, validation, or Level 2B admission.
+This workflow is process-only. It does not change research evidence or roadmap
+status.
 
 Workflow index: [QFUDS Agent Workflows](README.md).
 
 ## Core Rule
 
 Manage fiction like an IP studio, not like loose one-off documents.
+
+## Tone And Baseline Rule
+
+Keep fiction-system documents clean and direct.
+
+Do not repeat the full evidence disclaimer in every document. The harness already
+defines the boundary. In individual documents, use a short boundary only when it
+adds local information, such as an external-source state token or a specific
+scope exception.
+
+Avoid grandiose summary prose, decorative metaphors, and repeated manifesto
+language in reference documents. Prefer:
+
+- concrete roles over mood labels;
+- short definitions over slogans;
+- scene-use rules over abstract praise;
+- tables/checklists when they reduce ambiguity.
+
+Every new fiction reference, work README, bible, or scene plan must record an
+authoring baseline date. Use the date when the document starts, not a floating
+"now." When using terms like `ancient`, `modern`, `post-COVID`,
+`pre-AGI`, or `future`, explain them relative to that baseline.
+
+Author-context may guide clarity and audience assumptions, but do not write
+private user identity, location, nationality, job, or personal context into the
+story or docs unless the user explicitly asks for it.
 
 Before writing or moving fiction, classify the idea by these layers:
 
@@ -84,8 +110,11 @@ Before creating a fiction document, answer:
 7. Does it need a work README before any bible/design/draft is added?
 8. Does it touch external references, papers, PDFs, MCP outputs, assets, or
    source/product claims?
-9. Does it accidentally phrase a fiction premise as QFUDS evidence?
-10. What validation and commit boundary will close this step?
+9. Does it accidentally phrase a fiction premise as a research/status claim?
+10. What is the authoring baseline date?
+11. Are time words such as `ancient`, `current`, `post-COVID`, or `future`
+    anchored to that baseline?
+12. What validation and commit boundary will close this step?
 
 ## Work README Contract
 
@@ -96,10 +125,11 @@ The README must state:
 - universe/IP;
 - format: series, novel, short, anthology, webtoon-like run, or elseworld;
 - canon status;
+- authoring baseline date;
 - inherited continuity/world/science-boundary documents;
 - local overrides;
 - bible/design/draft/release paths;
-- fiction/provenance boundary.
+- local boundary exceptions, if any.
 
 Use [.agent/templates/fiction/work_readme_template.md](../templates/fiction/work_readme_template.md).
 
@@ -177,7 +207,7 @@ Do not use GSD planning for:
 - skipping the universe/IP and continuity classification;
 - adding drafts before a work README exists;
 - treating a phase plan as fiction canon;
-- turning fiction premises into QFUDS evidence.
+- turning fiction premises into research/status claims.
 
 Every fiction-related GSD phase must state:
 
@@ -203,8 +233,7 @@ Every resulting fiction document must record:
 
 - workflow marker/link;
 - most specific workflow state token;
-- a statement that the source is fiction craft/background only, not QFUDS
-  evidence.
+- a short local boundary statement for how the source is used.
 
 ## Validation
 

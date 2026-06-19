@@ -5,7 +5,8 @@
 - Universe/IP id: `<universe-id>`
 - Parent continuity: `none | <multiverse branch>`
 - Status: `active | prototype | retired`
-- Evidence role: `fiction/provenance only`
+- Authoring baseline date: `YYYY-MM-DD`
+- Time baseline notes:
 
 ## Premise
 
@@ -35,6 +36,5 @@ Short description of the shared fictional world.
 
 ## Boundary
 
-This universe is fiction/provenance only. It is not QFUDS evidence, validation,
-support, or Level 2B admission.
-
+State only local source or science-boundary exceptions. Do not repeat the full
+project disclaimer.
