@@ -34,6 +34,9 @@ last_updated: 2026-06-19
 4. [QFUDS SAGA 세력 문화 권력 생태계 장부](system/004_factions_cultures_power_ecology_ko.md)
    - 복원 문명의 세력, 공동체, 정치권력, 종교적 언어, 원장 자본주의,
      망각권, 잔상 유목민 생태계를 정리한 SAGA bible 전 단계.
+5. [QFUDS SAGA 시점 주제 고유명사 규칙](system/005_narrative_pov_theme_naming_ko.md)
+   - 3인칭 제한 시점, 중심 주제, 역사 차용 규칙, 영어/프랑스어/라틴어풍
+     canon naming convention을 고정하는 SAGA bible 전 단계.
 
 ## 역할
 

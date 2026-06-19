@@ -85,6 +85,9 @@ and
 - [QFUDS SAGA 세력 문화 권력 생태계 장부](fiction/qfuds-saga/system/004_factions_cultures_power_ecology_ko.md)
   - factions, communities, political power, religion-inspired language, and
     restoration-economy ecology for the SAGA bible backbone.
+- [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/system/005_narrative_pov_theme_naming_ko.md)
+  - narrative POV, core theme, historical borrowing rules, and canon naming
+    convention before the SAGA bible.
 
 ## Postmortems
 
