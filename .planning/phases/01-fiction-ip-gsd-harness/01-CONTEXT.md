@@ -4,7 +4,7 @@ name: "Fiction IP GSD Harness"
 created: 2026-06-19
 ---
 
-# Phase 1: Fiction IP GSD Harness — Context
+# Phase 1: Fiction IP GSD Harness - Context
 
 ## Decisions
 

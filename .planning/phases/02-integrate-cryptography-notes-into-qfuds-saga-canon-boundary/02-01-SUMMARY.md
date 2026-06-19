@@ -16,10 +16,7 @@ SAGA series-bible reference.
 
 ## Boundary
 
-The new 007 document is not a security guide, not a cryptography authority, and
-not QFUDS evidence. It translates the user's notes into story mechanics:
-Cryptographic Death, Preimage Restoration, Hash Covenant, identity-flood attacks,
-and Bitcoin as Genesis Chain artifact.
+Story mechanics only; not security guidance or QFUDS evidence.
 
 ## Next Step
 

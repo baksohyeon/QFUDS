@@ -51,6 +51,17 @@ Forbidden outputs:
 - Do not write private user context into docs or story text unless explicitly
   authorized.
 
+## Planning Brevity
+
+- Do not repeat the same boundary claim through `truths`, `artifacts`,
+  `key_links`, task text, verification, and summary.
+- Use `truths` for facts, `artifacts` for files, and `key_links` only for
+  non-obvious dependencies.
+- Keep summaries short. Use one `Boundary` line unless a local exception needs
+  more detail.
+- For external tooling issues or maintainer comments, prefer an
+  `Issue | Impact | Fix` table over long defensive prose.
+
 ## Technical Grounding
 
 - Preserve scientific and technical terms by default.

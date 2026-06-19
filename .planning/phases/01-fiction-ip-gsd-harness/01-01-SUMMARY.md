@@ -25,8 +25,7 @@ Codex worktree.
 
 ## Boundary
 
-This GSD layer is operational planning for fiction/IP work only. It does not
-create QFUDS evidence, support, validation, novelty, or Level 2B admission.
+Fiction/IP planning only; no QFUDS research status change.
 
 ## Next Step
 

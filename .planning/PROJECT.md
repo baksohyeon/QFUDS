@@ -6,12 +6,15 @@ This is a GSD planning layer for the QFUDS fiction track. It manages story/IP
 workflow, canon boundaries, and publication-style folder discipline separately
 from the QFUDS research program.
 
-It does not create QFUDS evidence, support, validation, or Level 2B admission.
-
 ## Core Value
 
-Make the fiction workflow fun and expandable while preserving the research
-boundary: fiction may use QFUDS history as inspiration, never as evidence.
+Make the fiction workflow fun, expandable, and easy to resume without blurring
+research status.
+
+## Boundary
+
+Fiction work may use QFUDS history as inspiration only. It cannot create
+research evidence, support claims, validation claims, or Level 2B admission.
 
 ## Requirements
 
@@ -32,10 +35,10 @@ boundary: fiction may use QFUDS history as inspiration, never as evidence.
 
 ### Out of Scope
 
-- Physical QFUDS validation — fiction is not research evidence.
-- Level 2B reopening — this planning layer cannot change research status.
-- Direct publication claims — current outputs are repo-local creative planning
-  and drafts.
+- QFUDS research status changes.
+- Practical security or cryptography advice.
+- Direct publication claims.
+- Sensitive real-person framing.
 
 ## Context
 
@@ -46,20 +49,22 @@ without confusing it with QFUDS research state.
 
 ## Constraints
 
-- **Research boundary**: No fiction artifact can be cited as QFUDS support.
-- **Workflow boundary**: Use `.agent/workflows/fiction-ip-management-workflow.md`
+- **Workflow authority**: Use `.agent/workflows/fiction-ip-management-workflow.md`
   for fiction/IP decisions.
 - **User gate**: Major direction changes require explicit user confirmation.
-- **No sensitive real-person framing**: Avoid user-identifying details and avoid
-  importing sensitive real-world factions as direct canon labels.
+- **Planning prose**: Keep boundary language in one section. Phase plans should
+  use one local boundary line and avoid repeating the same claim through
+  `truths`, `artifacts`, `key_links`, tasks, and summaries.
+- **Issue comments**: When reporting tooling issues, prefer a compact
+  `Issue | Impact | Fix` table over long narrative comments.
 
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Manage fiction as IP/studio work, not a QFUDS research phase | Prevents creative work from changing research status | Pending |
-| Use GSD for major fiction phases | Keeps planning, dependencies, and acceptance checks explicit | Pending |
+| Manage fiction as IP/studio work, not a QFUDS research phase | Prevents creative work from changing research status | Active |
+| Use GSD for major fiction phases | Keeps planning, dependencies, and acceptance checks explicit | Active |
 | Keep `.planning` scoped to this worktree | Avoids writing to another QFUDS checkout from a Codex worktree | Good |
 
 ---
-*Last updated: 2026-06-19 after initial GSD setup for the fiction/IP track*
+*Last updated: 2026-06-19 after STATE/ROADMAP reconciliation and planning prose cleanup*

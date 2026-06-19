@@ -4,7 +4,7 @@ name: "Integrate cryptography notes into QFUDS SAGA canon boundary"
 created: 2026-06-19
 ---
 
-# Phase 2: Integrate cryptography notes into QFUDS SAGA canon boundary — Context
+# Phase 2: Integrate cryptography notes into QFUDS SAGA canon boundary - Context
 
 ## Decisions
 
