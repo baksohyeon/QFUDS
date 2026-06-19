@@ -82,6 +82,9 @@ and
     deep-time empire, tactical philosophy SF, and it-from-bit mythos.
 - [QFUDS SAGA 장기 복원 문명사 타임라인](fiction/qfuds-saga/system/003_deep_time_restoration_timeline_ko.md)
   - deep-time restoration civilization timeline for the SAGA bible backbone.
+- [QFUDS SAGA 세력 문화 권력 생태계 장부](fiction/qfuds-saga/system/004_factions_cultures_power_ecology_ko.md)
+  - factions, communities, political power, religion-inspired language, and
+    restoration-economy ecology for the SAGA bible backbone.
 
 ## Postmortems
 

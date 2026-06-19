@@ -363,3 +363,7 @@ phase B: residual pressure of the saved.
 - 라우어 관측소의 일상, 식사, 복장, 승진, 처벌, 의례.
 - 첫 주인공 3명과 그들이 숨기는 것.
 - 시즌 1의 5개 episode arc.
+
+세력과 공동체 생태계 확장은
+[QFUDS SAGA 세력 문화 권력 생태계 장부](004_factions_cultures_power_ecology_ko.md)
+에서 이어진다.

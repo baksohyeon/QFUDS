@@ -31,6 +31,9 @@ last_updated: 2026-06-19
 3. [QFUDS SAGA 장기 복원 문명사 타임라인](system/003_deep_time_restoration_timeline_ko.md)
    - 완전 복원, 라스트 아카이브, 망각권, 알레테이아 자매회, 라우어 관측소를
      시간순 역사로 정리한 SAGA bible 전 단계.
+4. [QFUDS SAGA 세력 문화 권력 생태계 장부](system/004_factions_cultures_power_ecology_ko.md)
+   - 복원 문명의 세력, 공동체, 정치권력, 종교적 언어, 원장 자본주의,
+     망각권, 잔상 유목민 생태계를 정리한 SAGA bible 전 단계.
 
 ## 역할
 
