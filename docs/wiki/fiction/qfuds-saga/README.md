@@ -65,6 +65,9 @@ Codex와 Claude Code 기준의 운영 경로는
 가 정한다. 이 SAGA 폴더는 장기적으로 `qfuds-verse` 같은 universe/IP 아래의
 series work로 이동할 수 있다. 이동은 사용자 확인 후 별도 migration으로만 한다.
 
+현재 active shelf와 migration gate는
+[Fiction Catalog](../01_catalog/README.md)에서 관리한다.
+
 ## Workflow Boundary
 
 이 index는 SAGA 창작 트랙의 선반과 read order를 정한다. 새 외부 paper, web
@@ -162,6 +165,9 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - `Exhibit S-0` working title의 first episode beat sheet. Liora 중심
       장면 순서, 인물 압력, reveal order, technical guard, 다음 draft 후보를
       정리한다.
+16. [Fiction Catalog](../01_catalog/README.md)
+    - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
+      구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
 ## 역할
 

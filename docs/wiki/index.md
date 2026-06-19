@@ -82,6 +82,8 @@ and
 - [Fiction GSD Harness Operator Guide](fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
   - step-by-step guide for starting fiction/IP tasks through workflow
     classification, GSD phase checks, validation, and commit boundaries.
+- [Fiction Catalog](fiction/01_catalog/README.md)
+  - active fiction shelf, work list, migration gate, and next task candidates.
 - [QFUDS SAGA](fiction/qfuds-saga/README.md) - active publisher-style fiction
   track for the QFUDS-inspired SAGA; not research evidence.
 - [Fiction Archive](fiction/archive/README.md) - archived fiction prototypes
