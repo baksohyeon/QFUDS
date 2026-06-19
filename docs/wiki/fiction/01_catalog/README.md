@@ -36,6 +36,7 @@ last_updated: 2026-06-19
 | Shelf | Path | Role | Status |
 | --- | --- | --- | --- |
 | Studio system | [../00_studio/](../00_studio/) | fiction/IP 관리, GSD bridge, craft harness | active |
+| Universe scaffold | [../10_universes/qfuds-verse/](../10_universes/qfuds-verse/) | QFUDS-derived fiction universe/IP 컨테이너 | active prototype |
 | Active SAGA | [../qfuds-saga/](../qfuds-saga/) | QFUDS-inspired long-form SAGA 작업 선반 | active prototype |
 | Archive | [../archive/](../archive/) | superseded prototype fiction | archived |
 
@@ -43,7 +44,7 @@ last_updated: 2026-06-19
 
 | Work | Current path | Format | Continuity status | Next decision |
 | --- | --- | --- | --- | --- |
-| QFUDS SAGA | [../qfuds-saga/](../qfuds-saga/) | long-form SAGA / series candidate | active prototype, not migrated | Decide whether to scaffold `qfuds-verse` and move it under `10_universes/` |
+| QFUDS SAGA | [../qfuds-saga/](../qfuds-saga/) | long-form SAGA / series candidate | active prototype, not migrated | Create work README before any move under `qfuds-verse` |
 | Laur Observatory prototype | [../archive/lineage-prototype/](../archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
 ## Target Structure
@@ -68,9 +69,10 @@ docs/wiki/fiction/
 
 ## Migration Gate
 
-`qfuds-saga/`를 IP 구조로 옮기려면 먼저 아래를 결정한다.
+`qfuds-verse` scaffold는 생성됐다. `qfuds-saga/`를 IP 구조로 옮기려면 먼저
+아래를 결정한다.
 
-1. Universe/IP id: 예: `qfuds-verse`
+1. Universe/IP id: `qfuds-verse`
 2. Continuity policy: canon, soft-canon, elseworld, prototype 기준
 3. Work id: 예: `qfuds-saga`
 4. Work format: series, novel, short, anthology, webtoon-like run 중 무엇인지
@@ -91,7 +93,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. `qfuds-verse` universe scaffold를 만들지 사용자 확인.
-2. `qfuds-saga` work README 초안을 만들지 사용자 확인.
-3. Liora Sen `Exhibit S-0` beat sheet를 실제 prose draft로 확장할지 결정.
-4. Mara Veyr prologue와 Liora episode가 같은 continuity인지 분리할지 결정.
+1. `qfuds-saga` work README 초안을 만들지 사용자 확인.
+2. Liora Sen `Exhibit S-0` beat sheet를 실제 prose draft로 확장할지 결정.
+3. Mara Veyr prologue와 Liora episode가 같은 continuity인지 분리할지 결정.

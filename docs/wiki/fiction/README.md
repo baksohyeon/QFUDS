@@ -39,10 +39,12 @@ status.
    benchmarks used by the fiction harness.
 6. [Fiction Catalog](01_catalog/README.md)
    - active shelf, work list, migration gate, and next fiction task candidates.
-7. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
+7. [QFUDS Verse](10_universes/qfuds-verse/README.md)
+   - universe/IP scaffold for future QFUDS-derived fiction works.
+8. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
    the QFUDS-inspired SAGA, split into operating system, series bible,
    development package, and prose drafts.
-8. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
+9. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
 ## Boundary
@@ -54,7 +56,8 @@ Active fiction-IP system notes belong under
 [Fiction IP Management System](00_studio/001_fiction_ip_management_system_ko.md).
 The current work list and migration gate live in
 [Fiction Catalog](01_catalog/README.md). Current active fiction work belongs
-under [QFUDS SAGA](qfuds-saga/README.md).
+under [QFUDS SAGA](qfuds-saga/README.md). The current universe/IP scaffold is
+[QFUDS Verse](10_universes/qfuds-verse/README.md).
 Superseded or prototype fiction belongs under [Fiction Archive](archive/README.md).
 
 Research-source handling remains governed by

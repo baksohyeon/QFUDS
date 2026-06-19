@@ -84,6 +84,8 @@ and
     classification, GSD phase checks, validation, and commit boundaries.
 - [Fiction Catalog](fiction/01_catalog/README.md)
   - active fiction shelf, work list, migration gate, and next task candidates.
+- [QFUDS Verse](fiction/10_universes/qfuds-verse/README.md)
+  - universe/IP scaffold for QFUDS-derived fiction works.
 - [QFUDS SAGA](fiction/qfuds-saga/README.md) - active publisher-style fiction
   track for the QFUDS-inspired SAGA; not research evidence.
 - [Fiction Archive](fiction/archive/README.md) - archived fiction prototypes
