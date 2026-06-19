@@ -53,6 +53,7 @@ no_asset_found
 | Templates | [.agent/templates/fiction/](../../../../.agent/templates/fiction/) | work README, bible, session brief, GSD phase brief |
 | Fiction shelf | [docs/wiki/fiction/](../README.md) | 실제 fiction system, 세계관, 개발, draft, archive |
 | Craft harness | [004 Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md) | 문예창작 기본 개념, 한국어 용어 해설, 장면/인물/시점 체크리스트 |
+| University reference matrix | [005 University Creative Writing Reference Matrix](005_university_creative_writing_reference_matrix_ko.md) | 대학/워크숍/과학 글쓰기 기준을 source state와 함께 반영하는 표 |
 
 ## 작업 시작 순서
 
@@ -61,15 +62,18 @@ no_asset_found
 1. [Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)를 읽는다.
 2. [Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md)를 읽고
    용어, 장면, 인물, 시점 기준을 확인한다.
-3. 아이디어를 `studio`, `catalog`, `universe/IP`, `continuity`, `work`,
+3. 대학, 문예창작과, writing program, workshop 기준을 참고한다면
+   [University Creative Writing Reference Matrix](005_university_creative_writing_reference_matrix_ko.md)를
+   먼저 확인한다.
+4. 아이디어를 `studio`, `catalog`, `universe/IP`, `continuity`, `work`,
    `bible`, `story_design`, `draft`, `release`, `archive` 중 하나로 분류한다.
-4. 새 작품이면 work README가 필요한지 먼저 판단한다.
-5. 큰 작업이면 [Fiction GSD Phase Brief Template](../../../../.agent/templates/fiction/gsd_phase_brief_template.md)을 채운다.
-6. `gsd-tools`로 phase 상태를 확인한다.
-7. 사용자 확인이 필요한 선택지를 먼저 닫는다.
-8. 문서/원고를 작성한다.
-9. repo validation을 돌린다.
-10. 좁게 stage하고 commit한다.
+5. 새 작품이면 work README가 필요한지 먼저 판단한다.
+6. 큰 작업이면 [Fiction GSD Phase Brief Template](../../../../.agent/templates/fiction/gsd_phase_brief_template.md)을 채운다.
+7. `gsd-tools`로 phase 상태를 확인한다.
+8. 사용자 확인이 필요한 선택지를 먼저 닫는다.
+9. 문서/원고를 작성한다.
+10. repo validation을 돌린다.
+11. 좁게 stage하고 commit한다.
 
 ## GSD 명령 기본형
 
@@ -202,6 +206,7 @@ fiction은 QFUDS research가 아니다.
 | 원고 쓰기 | work README와 bible/design 경계 확인 | `30_drafts/` |
 | 폴더 migration | GSD phase로 계획 후 사용자 확인 | 별도 commit |
 | 외부 자료 참고 | Research Asset and Product Workflow 적용 | 문서별 workflow state 기록 |
+| 대학식 문예창작 기준 참고 | 005 reference matrix 적용 | source state와 claim boundary 기록 |
 
 ## 최소 검증 루프
 

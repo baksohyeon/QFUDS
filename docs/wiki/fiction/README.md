@@ -34,10 +34,13 @@ status.
 4. [Creative Writing Craft Harness](00_studio/004_creative_writing_craft_harness_ko.md)
    - Korean-friendly fiction craft checklist for premise, character, conflict,
    scene, POV, worldbuilding, dialogue, theme, revision, and jargon handling.
-5. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
+5. [University Creative Writing Reference Matrix](00_studio/005_university_creative_writing_reference_matrix_ko.md)
+   - source-state-aware reference matrix for university/workshop/science-writing
+   benchmarks used by the fiction harness.
+6. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
    the QFUDS-inspired SAGA, split into operating system, series bible,
    development package, and prose drafts.
-6. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
+7. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
 ## Boundary

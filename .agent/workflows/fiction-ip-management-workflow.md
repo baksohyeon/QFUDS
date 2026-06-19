@@ -104,6 +104,15 @@ This adds Korean-readable explanations for English craft terms and checks
 premise, character, conflict, scene purpose, point of view, dialogue,
 worldbuilding, theme, pacing, and revision.
 
+If the user asks for a university, writing-program, workshop, literary-craft, or
+formal creative-writing benchmark, also apply
+[University Creative Writing Reference Matrix](../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md).
+
+Do not cite web references as loose "materials consulted." If a source changes a
+workflow, template, checklist, or fiction-system document, the changed document
+must record the source URL, allowed claim, blocked claim, and workflow state.
+If that record is missing, treat the source as unused.
+
 Before writing or moving fiction, classify the idea by these layers:
 
 ```text
@@ -187,11 +196,15 @@ Before creating a fiction document, answer:
     for which implied audience?
 15. Has the craft harness been applied for work bible, story design, prose, or
     release work?
-16. Are English craft terms and abbreviations explained for Korean readers?
-17. Does this introduce or rename a scientific or technical concept?
-18. If yes, what is the recorded rationale and what technical meaning is
+16. Does this task cite university, writing-program, workshop, or craft-web
+    references?
+17. If yes, has the university reference matrix recorded source state and claim
+    boundaries?
+18. Are English craft terms and abbreviations explained for Korean readers?
+19. Does this introduce or rename a scientific or technical concept?
+20. If yes, what is the recorded rationale and what technical meaning is
     preserved?
-19. What validation and commit boundary will close this step?
+21. What validation and commit boundary will close this step?
 
 ## Work README Contract
 
