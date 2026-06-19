@@ -32,6 +32,7 @@ Forbidden outputs:
 - Draft prose without a work README.
 - Canon changes without continuity classification.
 - External-source claims without Research Asset and Product Workflow state.
+- Undocumented renaming of scientific or technical terms.
 
 ## Tone Rules
 
@@ -42,6 +43,12 @@ Forbidden outputs:
   to the authoring baseline date.
 - Do not write private user context into docs or story text unless explicitly
   authorized.
+
+## Technical Grounding
+
+- Preserve scientific and technical terms by default.
+- If a term is renamed into a fictional, legal, religious, social, or poetic
+  alias, record the rationale and the technical meaning that must remain clear.
 
 ## Required Reads
 

@@ -136,6 +136,23 @@ fiction은 QFUDS research가 아니다.
 - 외부 paper, PDF, web source, MCP output을 workflow state 없이 claim하기;
 - 연구 문서를 소설 설정에 맞춰 뒤집어 해석하기.
 
+### 5. Technical grounding
+
+기술어는 먼저 기술어로 둔다. `hash`, `KDF`, `key`, `salt`, `collision`처럼
+이미 정확한 의미가 있는 말은 임의로 권리, 비용, 신원, 절차 같은 제도어로
+바꾸지 않는다.
+
+바꿔야 한다면 아래를 문서에 남긴다.
+
+| 항목 | 질문 |
+| --- | --- |
+| Original term | 원래 기술어는 무엇인가? |
+| Fictional alias | 작중 별칭은 무엇인가? |
+| Rationale | 왜 바꾸는가? |
+| Loss risk | 어떤 기술 의미가 흐려지는가? |
+| Accurate anchor | 정확한 설명은 어디에 남는가? |
+| Scene purpose | 이 별칭이 장면에서 하는 일은 무엇인가? |
+
 ## 다음 작업을 고르는 법
 
 작업 유형별 추천 경로:

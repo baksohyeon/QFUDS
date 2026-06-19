@@ -38,6 +38,30 @@ GSD phase로 실행할 때는
 사용자의 개인 맥락은 독자 감각을 맞추는 참고값일 뿐이다. 사용자 개인 정보는
 문서나 소설에 직접 쓰지 않는다.
 
+## Technical Grounding
+
+과학자/엔지니어가 쓴 SF처럼 다룬다. 기술어는 설정의 장식이 아니라 작동
+개념이다.
+
+`hash`, `KDF`, `key`, `salt`, `collision` 같은 암호학 용어는 기본적으로
+그대로 보존한다. 이를 권리, 비용, 신원, 절차 같은 사회 제도어로 바꾸려면
+그 이유를 기록해야 한다.
+
+허용되는 경우:
+
+- 작중 기관이 기술 개념을 법/행정 용어로 제도화했다.
+- 종교, 의례, 선전, 번역 관습 때문에 별칭이 생겼다.
+- 인물이 기술을 오해하거나 은폐하려고 다른 말을 쓴다.
+
+금지되는 경우:
+
+- 기술 개념을 이해하지 않고 분위기용 비유로 바꾼다.
+- 정확한 기술 정보가 사라지는데 근거를 남기지 않는다.
+- 독자가 실제 개념과 작중 제도어를 구분할 수 없게 만든다.
+
+설정 문서에는 최소한 원기술어, 작중 명칭, 변경 이유, 손실될 수 있는 의미,
+정확한 설명 위치, 장면 목적을 남긴다.
+
 ## Workflow Boundary
 
 This document introduces no external-source or source-product claim.
@@ -67,6 +91,7 @@ idea -> universe/IP -> continuity status -> work folder -> bible/design/draft
 - authoring baseline date가 무엇인가.
 - 어떤 세계관/연표/과학 경계를 상속하는가.
 - 이 작품만의 local override는 무엇인가.
+- 기술어를 바꾸거나 별칭화한다면 근거가 무엇인가.
 - bible, story design, drafts, release가 어디에 있는가.
 - local boundary exception이 있는가.
 
@@ -159,4 +184,5 @@ fiction 작업을 GSD로 시작할 때는
 - README 없이 series/short/anthology/elseworld를 만들지 않는다.
 - "대충 QFUDS 느낌"이라고 쓰지 않는다. universe/IP와 continuity status를
   명시한다.
+- 기술 개념을 근거 없이 비유나 제도어로 바꾸지 않는다.
 - fiction premise를 연구 결과나 roadmap 상태 변경처럼 쓰지 않는다.

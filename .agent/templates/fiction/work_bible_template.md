@@ -28,6 +28,12 @@ State what this bible controls for this work.
 - Technology limits:
 - Forbidden claims:
 
+## Technical Grounding
+
+| Original term | Preserved term or alias | Rationale | Loss risk | Accurate anchor | Scene purpose |
+| --- | --- | --- | --- | --- | --- |
+| TBD | TBD | TBD | TBD | TBD | TBD |
+
 ## Cast
 
 | Character | Role | Want | Fear | Secret | Voice notes |

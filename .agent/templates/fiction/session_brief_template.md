@@ -33,6 +33,9 @@ State what needs user confirmation before writing or committing.
 - If yes, apply Research Asset and Product Workflow.
 - State only local boundary exceptions. Do not repeat the full harness
   disclaimer.
+- Does this introduce or rename a scientific/technical term? `yes | no`
+- If yes, record original term, alias, rationale, loss risk, accurate anchor,
+  and scene purpose.
 
 ## Tone
 

@@ -29,6 +29,8 @@
 - Special rules:
 - Ignored or simplified shared rules:
 - Style constraints: clean, direct, no unnecessary manifesto language.
+- Technical-term rule: preserve technical terms unless a documented fictional
+  alias has a story-world rationale.
 
 ## Work Bible
 

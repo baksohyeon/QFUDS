@@ -38,6 +38,30 @@ Author-context may guide clarity and audience assumptions, but do not write
 private user identity, location, nationality, job, or personal context into the
 story or docs unless the user explicitly asks for it.
 
+## Technical Grounding Rule
+
+Treat scientific and technical terms as load-bearing concepts.
+
+Do not replace terms such as `hash`, `KDF`, `key`, `salt`, `collision`,
+`entropy`, `Hawking radiation`, `Page curve`, `island`, `AGI`, or `QFUDS`
+with social, legal, religious, or poetic aliases unless the document records a
+reason. The default is to preserve the technical term and explain it cleanly.
+
+A fictional alias is allowed only when it represents a story-world institution,
+ritual, legal category, propaganda term, translation convention, or character
+misunderstanding. It must not hide the underlying technical mechanism.
+
+When a setting changes a technical term, record:
+
+- original technical term;
+- preserved term or fictional alias;
+- reason for the alias;
+- what technical meaning could be lost or distorted;
+- where the accurate explanation remains available;
+- scene purpose.
+
+If there is no reason, keep the technical term.
+
 Before writing or moving fiction, classify the idea by these layers:
 
 ```text
@@ -114,7 +138,10 @@ Before creating a fiction document, answer:
 10. What is the authoring baseline date?
 11. Are time words such as `ancient`, `current`, `post-COVID`, or `future`
     anchored to that baseline?
-12. What validation and commit boundary will close this step?
+12. Does this introduce or rename a scientific or technical concept?
+13. If yes, what is the recorded rationale and what technical meaning is
+    preserved?
+14. What validation and commit boundary will close this step?
 
 ## Work README Contract
 
