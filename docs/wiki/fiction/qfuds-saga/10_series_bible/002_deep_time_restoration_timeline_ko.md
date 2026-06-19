@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_world_direction_matrix_ko
   - qfuds_saga_agentic_system_ko
-next_gate: user confirms whether this timeline becomes the saga bible backbone
+next_gate: user confirms whether this timeline becomes the series reference backbone
 last_updated: 2026-06-19
 ---
 
@@ -40,7 +40,7 @@ validation, Level 2B admission이 아니다.
 후대에 `The Soft Editing`이라고 불리는 고대 지층으로 남는다.
 
 자세한 시대 좌표와 핍진성 규칙은
-[QFUDS SAGA World Anchor and Verisimilitude](012_world_anchor_and_verisimilitude_ko.md)
+[QFUDS SAGA World Anchor and Verisimilitude](001_world_anchor_and_verisimilitude_ko.md)
 를 따른다.
 
 ## Influence Boundary
@@ -363,7 +363,7 @@ phase B: residual pressure of the saved.
 
 ## 다음 게이트
 
-이 타임라인이 마음에 들면 다음 문서는 SAGA bible이다.
+이 타임라인이 마음에 들면 다음 작업은 작품 설정 기준서 보강이다.
 
 다음 문서에서 고정할 항목:
 
@@ -374,5 +374,5 @@ phase B: residual pressure of the saved.
 - 시즌 1의 5개 episode arc.
 
 세력과 공동체 생태계 확장은
-[QFUDS SAGA 세력 문화 권력 생태계 장부](004_factions_cultures_power_ecology_ko.md)
+[QFUDS SAGA 세력 문화 권력 생태계 장부](003_factions_cultures_power_ecology_ko.md)
 에서 이어진다.

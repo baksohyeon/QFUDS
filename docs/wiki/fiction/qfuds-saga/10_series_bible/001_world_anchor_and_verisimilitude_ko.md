@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
   - qfuds_saga_mara_veyr_prologue_english_revision_ko
-next_gate: user reviews whether this becomes the saga bible chronology spine
+next_gate: user reviews whether this becomes the series reference chronology spine
 last_updated: 2026-06-19
 ---
 

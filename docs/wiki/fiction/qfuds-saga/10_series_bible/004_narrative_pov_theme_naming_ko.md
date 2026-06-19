@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_factions_cultures_power_ecology_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
-next_gate: user confirms POV/theme/naming before saga bible canon
+next_gate: user confirms POV/theme/naming before series reference canon
 last_updated: 2026-06-19
 ---
 
@@ -16,7 +16,7 @@ last_updated: 2026-06-19
 
 ## 목적
 
-이 문서는 SAGA bible 작성 전에 시점, 중심 주제, 고유명사 체계, 역사 차용
+이 문서는 작품 설정 기준서 작성 전에 시점, 중심 주제, 고유명사 체계, 역사 차용
 규칙을 고정한다.
 
 이 문서는 fiction/provenance only다. QFUDS 연구 결과, 물리 증거, support,
@@ -247,9 +247,9 @@ needs faction contrast     -> rotating 3rd-limited POV
 인물이 다섯 쪽 동안 정보철학을 설명한다.
 ```
 
-## SAGA Bible로 넘길 결정
+## 작품 설정 기준서로 넘길 결정
 
-SAGA bible에는 다음을 canon 기본값으로 넘긴다.
+작품 설정 기준서에는 다음을 canon 기본값으로 넘긴다.
 
 - 본문 기본 시점: 3인칭 제한 시점.
 - interlude 시점: 1인칭 문서, 법정 진술, 로그, 기도문, 작전 보고서 허용.

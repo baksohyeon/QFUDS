@@ -59,7 +59,7 @@ or QFUDS-ready product is created by this document.
 
 ```text
 idea -> direction matrix -> user confirmation
-     -> saga bible -> user confirmation
+     -> series bible / 작품 설정 기준서 -> user confirmation
      -> pilot arc -> user confirmation
      -> episode draft -> user confirmation
      -> revision -> commit
@@ -70,10 +70,10 @@ idea -> direction matrix -> user confirmation
 | Agent | 역할 | 산출물 | 금지 |
 | --- | --- | --- | --- |
 | `showrunner` | 시즌 구조, 중심 테마, 장기 반전 관리 | season premise, arc map, episode order | 장면을 멋대로 확정하지 않음 |
-| `worldbuilder` | 기관, 문화, 금기, 경제, 기술, 역사 설계 | world bible, faction sheet, ritual map | 기존 장르 고유 설정을 복제하지 않음 |
+| `worldbuilder` | 기관, 문화, 금기, 경제, 기술, 역사 설계 | series bible entry, faction sheet, ritual map | 기존 장르 고유 설정을 복제하지 않음 |
 | `science_auditor` | QFUDS 연구 경계, known-model 환원, 관측 제약 감시 | science boundary note, forbidden-claim list | fiction premise를 evidence로 승격하지 않음 |
 | `plot_architect` | 미션 구조, 반전, 정보 공개 순서 설계 | act outline, reveal schedule, mission brief | 과학적 결론을 plot convenience로 바꾸지 않음 |
-| `character_room` | 인물 욕망, 관계, 상처, 말투 관리 | character bible, relationship graph | 인물을 논문 설명 도구로만 쓰지 않음 |
+| `character_room` | 인물 욕망, 관계, 상처, 말투 관리 | character sheet, relationship graph | 인물을 논문 설명 도구로만 쓰지 않음 |
 | `style_editor` | 문장 리듬, 장면성, show/tell 균형 퇴고 | revision memo, prose pass | 기존 문장을 무단 삭제하지 않음 |
 
 ## Sub-Agent Operation Rule
@@ -136,8 +136,8 @@ MCP는 별도 창작 보조 시스템이다. 본 연구의 Level, roadmap, admis
 | Step | 확인 질문 | 완료 조건 |
 | --- | --- | --- |
 | 1. System boundary | 창작 트랙 위치와 연구 분리 경계가 맞는가? | 이 문서와 index가 통과 |
-| 2. World direction | 어떤 세계관 프레임을 1차 SAGA bible로 삼을 것인가? | direction matrix에서 하나 또는 hybrid 선택 |
-| 3. Saga bible | 기관, 문화, 인물, 과학 금기, 정보 공개 순서가 충분한가? | bible 초안 승인 |
+| 2. World direction | 어떤 세계관 프레임을 1차 작품 설정 기준서로 삼을 것인가? | direction matrix에서 하나 또는 hybrid 선택 |
+| 3. Series bible | 기관, 문화, 인물, 과학 금기, 정보 공개 순서가 충분한가? | 작품 설정 기준서 초안 승인 |
 | 4. Pilot arc | 3-5화 arc가 장편 엔진을 보여 주는가? | pilot outline 승인 |
 | 5. Episode draft | 본문을 계속 확장할 만한 톤인가? | draft + revision memo 승인 |
 

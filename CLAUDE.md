@@ -48,11 +48,11 @@ own copy of project status.
   [Documentation Folder Routing Workflow](.agent/workflows/documentation-folder-routing-workflow.md)
   and [Wiki Maintenance Workflow](.agent/workflows/wiki-maintenance-workflow.md).
   For SAGA fiction, route operating specs to
-  `docs/wiki/fiction/qfuds-saga/00_system/`, canon/world bible material to
-  `docs/wiki/fiction/qfuds-saga/10_bible/`, pitches/outlines/visual packages to
-  `docs/wiki/fiction/qfuds-saga/20_development/`, prose drafts with harness
-  boundaries to `docs/wiki/fiction/qfuds-saga/30_drafts/`, and archived
-  prototypes to `docs/wiki/fiction/archive/`.
+  `docs/wiki/fiction/qfuds-saga/00_system/`, series bible / 작품 설정 기준서
+  material to `docs/wiki/fiction/qfuds-saga/10_series_bible/`,
+  pitches/outlines/visual packages to `docs/wiki/fiction/qfuds-saga/20_development/`,
+  prose drafts with harness boundaries to `docs/wiki/fiction/qfuds-saga/30_drafts/`,
+  and archived prototypes to `docs/wiki/fiction/archive/`.
 - Do not duplicate roadmap, decision-log, theory, or experiment content here.
 - When this file disagrees with [AGENTS.md](AGENTS.md) or the roadmap, those win and this
   file must be corrected.

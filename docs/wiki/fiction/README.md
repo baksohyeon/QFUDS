@@ -23,7 +23,7 @@ QFUDS support, validation, or Level 2B admission.
 ## Read Order
 
 1. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
-   the QFUDS-inspired SAGA, split into operating system, world bible,
+   the QFUDS-inspired SAGA, split into operating system, series bible,
    development package, and prose drafts.
 2. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.

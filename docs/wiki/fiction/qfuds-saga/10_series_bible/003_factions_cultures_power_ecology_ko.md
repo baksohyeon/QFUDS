@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - qfuds_saga_world_direction_matrix_ko
-next_gate: user confirms which factions become saga bible canon
+next_gate: user confirms which factions become series reference canon
 last_updated: 2026-06-19
 ---
 
@@ -492,7 +492,7 @@ QFUDS 금지 연구실의 가장 큰 비밀은 이것이다.
 나는 다음 우주에서 먼저 깨어난 사람이다."
 ```
 
-## SAGA Bible로 넘길 항목
+## 작품 설정 기준서로 넘길 항목
 
 다음 문서에서 canon으로 고정할 후보:
 
@@ -505,5 +505,5 @@ QFUDS 금지 연구실의 가장 큰 비밀은 이것이다.
 - 첫 사건: 복원체의 "나는 다음 우주에서 먼저 깨어났다" 증언.
 
 시점, 중심 주제, 고유명사 체계는
-[QFUDS SAGA 시점 주제 고유명사 규칙](005_narrative_pov_theme_naming_ko.md)
+[QFUDS SAGA 시점 주제 고유명사 규칙](004_narrative_pov_theme_naming_ko.md)
 에서 고정한다.
