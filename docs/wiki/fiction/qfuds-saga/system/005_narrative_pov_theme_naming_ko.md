@@ -80,7 +80,7 @@ needs faction contrast     -> rotating 3rd-limited POV
 | POV | 역할 | 독자가 보는 세계 |
 | --- | --- | --- |
 | Laur auditor | 복원 claim을 의심하는 사람 | 법, 감사, unknown, circularity |
-| Sister of Aletheia | 삭제된 자와 망각권 사이에 선 사람 | 계승, 동의, 돌봄, 비밀 결사 |
+| Aletheia custodian | 삭제된 자와 망각권 사이에 선 사람 | 계승, 동의, 돌봄, 비밀 결사 |
 | Ledger heir or deserter | 원장 권력 내부를 아는 사람 | exit-only 통치, 불변원장, 기술귀족 |
 
 라스트 아카이브는 기본 POV가 아니다. 너무 빨리 내면을 주면 신비가 죽는다.
@@ -185,7 +185,7 @@ needs faction contrast     -> rotating 3rd-limited POV
 | 복원청 | Ministry of Restoration | Diwan al-Restitution | 제국 행정, 장부, 복원 허가 |
 | 원장 가문 | Ledger Houses | Domus Tabularii | 로마 archive, 상업 귀족, 불변원장 |
 | 원장 성채 | Ledger Keeps | Castra Tabularii | 성채, 군영, 데이터 봉건제 |
-| 알레테이아 자매회 | Sisters of Aletheia | Sororitas Aletheia / Sorores Velatae | 계승, 결사, 수도회 |
+| 알레테이아 베일 | Aletheia Veil | Velum Aletheiae / Custodes Velati | 계승, 결사, 수도회 |
 | 망각권 연맹 | League of Oblivion | Sangha Oblivionis | 해탈, 잊힐 권리, 수도원 |
 | 망각 수도원 | Oblivion Cloister | Cloister Anatta | 무아, 집착의 중단 |
 | 잔상 유목민 | Remnant Nomads | Ordu Remanentium | 초원 군영, oath, 이동 공동체 |

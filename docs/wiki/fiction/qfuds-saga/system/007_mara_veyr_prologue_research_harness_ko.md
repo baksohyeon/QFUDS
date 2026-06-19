@@ -373,7 +373,8 @@ courtroom ritual
 ## Next Executable Task
 
 사용자가 위 checklist를 승인하면 다음 작업은
-`008_mara_veyr_prologue_draft_ko.md` 작성이다.
+[QFUDS SAGA Mara Veyr Prologue Draft](008_mara_veyr_prologue_draft_ko.md)
+작성이다.
 
 그 문서는 설명 문서가 아니라 실제 소설 장면이어야 한다. 첫 문단 안에 장면,
 몸짓, 소리, 증거물 중 하나가 나와야 하며, QFUDS 설명으로 시작하면 실패다.

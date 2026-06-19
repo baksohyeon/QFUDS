@@ -95,6 +95,10 @@ and
   - writer harness for the Mara Veyr prologue, including scene craft,
     post-COVID digital afterlife context, erasure rights, AI reality editing,
     and science-audit boundaries.
+- [QFUDS SAGA Mara Veyr Prologue Draft](fiction/qfuds-saga/system/008_mara_veyr_prologue_draft_ko.md)
+  - first fiction-draft test for cryptographic death, Genesis Chain,
+    The Broken Crown, Last Archive intervention, and the Mara Veyr continuity
+    case.
 ## Postmortems
 
 - [Wiki Postmortems](postmortem/README.md) - index for process-failure records.

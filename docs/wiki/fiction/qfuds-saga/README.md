@@ -29,7 +29,7 @@ last_updated: 2026-06-19
    - Nested Cosmology, closed-world revelation, deep-time empire, tactical
      philosophy SF, it-from-bit mythos 후보 비교.
 3. [QFUDS SAGA 장기 복원 문명사 타임라인](system/003_deep_time_restoration_timeline_ko.md)
-   - 완전 복원, 라스트 아카이브, 망각권, 알레테이아 자매회, 라우어 관측소를
+   - 완전 복원, 라스트 아카이브, 망각권, 알레테이아 베일, 라우어 관측소를
      시간순 역사로 정리한 SAGA bible 전 단계.
 4. [QFUDS SAGA 세력 문화 권력 생태계 장부](system/004_factions_cultures_power_ecology_ko.md)
    - 복원 문명의 세력, 공동체, 정치권력, 종교적 언어, 원장 자본주의,
@@ -46,6 +46,10 @@ last_updated: 2026-06-19
    - Mara Veyr 프롤로그를 쓰기 전, 소설 craft, COVID 이후 digital afterlife,
      right to be forgotten, AI reality editing, Bitcoin artifact, science-audit
      경계를 묶는 writer harness.
+8. [QFUDS SAGA Mara Veyr Prologue Draft](system/008_mara_veyr_prologue_draft_ko.md)
+   - cryptographic death, Genesis Chain, Last Archive, The Broken Crown,
+     Continuity Court, Mara Veyr 자기부정 복원체 사건을 실제 프롤로그 장면으로
+     테스트한 초안.
 ## 역할
 
 이 트랙의 목표는 QFUDS를 증명하는 것이 아니다.
