@@ -80,6 +80,8 @@ and
 - [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/qfuds-saga/system/002_world_direction_matrix_ko.md)
   - world-direction comparison for Nested Cosmology, closed-world revelation,
     deep-time empire, tactical philosophy SF, and it-from-bit mythos.
+- [QFUDS SAGA 장기 복원 문명사 타임라인](fiction/qfuds-saga/system/003_deep_time_restoration_timeline_ko.md)
+  - deep-time restoration civilization timeline for the SAGA bible backbone.
 
 ## Postmortems
 

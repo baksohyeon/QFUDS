@@ -28,6 +28,9 @@ last_updated: 2026-06-19
 2. [QFUDS SAGA 세계관 방향 선택 매트릭스](system/002_world_direction_matrix_ko.md)
    - Nested Cosmology, closed-world revelation, deep-time empire, tactical
      philosophy SF, it-from-bit mythos 후보 비교.
+3. [QFUDS SAGA 장기 복원 문명사 타임라인](system/003_deep_time_restoration_timeline_ko.md)
+   - 완전 복원, 라스트 아카이브, 망각권, 알레테이아 자매회, 라우어 관측소를
+     시간순 역사로 정리한 SAGA bible 전 단계.
 
 ## 역할
 
