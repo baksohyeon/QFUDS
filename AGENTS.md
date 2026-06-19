@@ -438,8 +438,8 @@ Future AI agents must behave as research assistants, not advocates.
 Repository-local workflows in [.agent/workflows/](.agent/workflows/) are
 operational SSOTs for repeatable agent procedures. Agents must check
 [QFUDS Agent Workflows](.agent/workflows/README.md) and follow every applicable
-workflow before making any research, literature, data-product, asset,
-extraction, coverage, or postmortem claim.
+workflow before making any documentation-routing, wiki-maintenance, research,
+literature, data-product, asset, extraction, coverage, or postmortem claim.
 
 For external literature, web, PDF, arXiv source, supplement, NASA/LAMBDA,
 BAO/DESI/eBOSS, Zenodo/OSF/Dataverse/GitHub, page-family, figure, table, code,
@@ -452,6 +452,12 @@ workflow marker/link and the most specific workflow state token, such as
 Repository enforcement lives in `scripts/agent_workflow_guard.py --staged`,
 `scripts/git-hooks/pre-commit`, and `make agent-workflow-guard`; Codex and
 Claude Code prompt hooks are reminders, not substitutes for the commit gate.
+
+For QFUDS-inspired fiction, agents must still follow the documentation-routing
+and wiki-maintenance workflows. Active SAGA system specs and active prose drafts
+with an explicit harness/provenance boundary belong under
+`docs/wiki/fiction/qfuds-saga/system/`; archived or superseded fiction belongs
+under `docs/wiki/fiction/archive/`. Fiction is never research evidence.
 
 Required behavior:
 

@@ -111,6 +111,9 @@ and
 - [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/qfuds-saga/system/010_mara_veyr_prologue_english_revision_ko.md)
   - English-first tone revision for the Mara Veyr prologue, with Korean
     translation and revision notes; fiction/provenance only.
+- [QFUDS SAGA Visual Exhibit Design](fiction/qfuds-saga/system/011_visual_exhibit_design_ko.md)
+  - visual-exhibit plan for reusing existing rough-tanh assets as fictional
+    court/archive plates; not research evidence.
 
 ## Postmortems
 

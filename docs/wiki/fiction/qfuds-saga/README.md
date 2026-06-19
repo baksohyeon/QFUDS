@@ -21,6 +21,23 @@ last_updated: 2026-06-19
 프로토타입과 기원 기록으로 보존한다. 이 폴더는 이후 SAGA를 쓰기 위한
 창작 시스템, 세계관 선택, canon bible, episode plan을 관리한다.
 
+## Routing Note
+
+Codex와 Claude Code 기준의 운영 경로는
+[Documentation Folder Routing Workflow](../../../../.agent/workflows/documentation-folder-routing-workflow.md)
+가 정한다.
+
+```text
+active SAGA system specs -> system/
+active prose drafts with harness/provenance boundary -> system/
+raw prose-only drafts without harness boundary -> do not add as-is
+superseded fiction prototypes -> ../archive/
+```
+
+즉 `system/`은 "설정표만 넣는 폴더"가 아니다. active SAGA 작업 중
+agentic harness, workflow boundary, science-audit boundary, revision memo가 붙은
+문서를 두는 장소다.
+
 ## 먼저 읽을 것
 
 1. [QFUDS SAGA 창작 시스템](system/001_agentic_saga_system_ko.md)
@@ -57,6 +74,9 @@ last_updated: 2026-06-19
     - 008 초안을 보존한 상태에서 영어 원문 우선으로 다시 쓴 tone revision.
       quiet catastrophe, Continuity Court, Genesis Chain, Last Archive의
       question-correction 기능을 실제 장면으로 테스트한다.
+11. [QFUDS SAGA Visual Exhibit Design](system/011_visual_exhibit_design_ko.md)
+    - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
+      metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
 
 ## 역할
 

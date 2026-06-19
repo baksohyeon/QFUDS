@@ -76,6 +76,34 @@ idea -> direction matrix -> user confirmation
 | `character_room` | 인물 욕망, 관계, 상처, 말투 관리 | character bible, relationship graph | 인물을 논문 설명 도구로만 쓰지 않음 |
 | `style_editor` | 문장 리듬, 장면성, show/tell 균형 퇴고 | revision memo, prose pass | 기존 문장을 무단 삭제하지 않음 |
 
+## Sub-Agent Operation Rule
+
+위 agent들은 먼저 **역할 분리 규칙**이다. 실제 Codex/Claude Code 세션에서
+sub-agent 도구가 제공될 때만 병렬 실행한다.
+
+운영 규칙:
+
+```text
+1. 사용자가 sub-agent/병렬 작업을 명시적으로 허용한다.
+2. 각 sub-agent에 겹치지 않는 질문이나 파일 범위를 준다.
+3. read-only scout와 writer를 분리한다.
+4. writer는 단일 main agent가 통합한다.
+5. fiction premise를 research evidence로 승격하지 않는다.
+6. 결과는 staged guard와 pre-commit으로 검증한다.
+```
+
+현재 권장 분리:
+
+| Sub-agent | Use when | Output |
+| --- | --- | --- |
+| `science_auditor` scout | 과학/출처/증거 경계가 흐려질 때 | forbidden-claim list, workflow-state check |
+| `visual_exhibit` scout | 기존 asset을 fiction exhibit로 쓸 때 | asset 후보, caption risk, provenance note |
+| `style_editor` scout | 대사가 많고 장면성이 약할 때 | sensory/metaphor pass memo |
+| `showrunner` scout | 장면이 장기 arc와 어긋날 때 | arc-fit note, reveal-order risk |
+
+sub-agent가 없으면 위 표는 main agent의 체크리스트로 사용한다. sub-agent가 있어도
+최종 문서 수정, stage, commit은 main agent가 책임진다.
+
 ## MCP Candidates
 
 | MCP or tool family | Planned use | State | Boundary |

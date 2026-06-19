@@ -44,6 +44,12 @@ own copy of project status.
   Any resulting research document must record the workflow marker and a state
   token such as `hit_not_cached`, `asset_cached`, `no_asset_found`, or
   `inaccessible`.
+- Before moving, creating, or indexing documentation, read
+  [Documentation Folder Routing Workflow](.agent/workflows/documentation-folder-routing-workflow.md)
+  and [Wiki Maintenance Workflow](.agent/workflows/wiki-maintenance-workflow.md).
+  For SAGA fiction, active system specs and prose drafts with harness boundaries
+  route to `docs/wiki/fiction/qfuds-saga/system/`; archived prototypes route to
+  `docs/wiki/fiction/archive/`.
 - Do not duplicate roadmap, decision-log, theory, or experiment content here.
 - When this file disagrees with [AGENTS.md](AGENTS.md) or the roadmap, those win and this
   file must be corrected.
