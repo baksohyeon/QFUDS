@@ -200,9 +200,29 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Episode 5 English-first draft. Genesis Chain을 cosmic audit 문제로
       확장하되, black-hole/Hawking restoration과 QFUDS는 fiction premise로만
       두고 `PHYSICS IS NOT JURISDICTION` mark를 도입한다.
-25. [Fiction Catalog](../01_catalog/README.md)
+25. [QFUDS SAGA The Broken Crown English Draft](30_drafts/010_the_broken_crown_english_draft.md)
+    - Episode 6 English-first first-arc finale draft. Mara의 sealed letter와
+      field mark chain으로 첫 arc를 닫고, `who may author loss`를 다음 arc
+      질문으로 연다.
+26. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
+
+## First Arc Rough Draft Set
+
+`The Broken Crown` first arc의 6개 rough draft가 모두 작성되었다.
+
+| Episode | Draft |
+| --- | --- |
+| 1. Exhibit S-0 | [005](30_drafts/005_exhibit_s0_episode1_revised_english_draft.md) |
+| 2. The Dead Exchange | [006](30_drafts/006_the_dead_exchange_english_draft.md) |
+| 3. The Last Hodler | [007](30_drafts/007_the_last_hodler_english_draft.md) |
+| 4. Identity Flood | [008](30_drafts/008_identity_flood_english_draft.md) |
+| 5. Hawking Court | [009](30_drafts/009_hawking_court_english_draft.md) |
+| 6. The Broken Crown | [010](30_drafts/010_the_broken_crown_english_draft.md) |
+
+다음 자연 작업은 전체 arc revision pass, series bible consolidation, 또는 arc two
+planning 중 하나다.
 
 ## 역할
 

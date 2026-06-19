@@ -46,6 +46,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 11: Hawking Court English draft** - Draft Episode 5 as a sealed
   cosmic-audit admissibility hearing that keeps QFUDS as fiction temptation.
   Completed 2026-06-19.
+- [x] **Phase 12: The Broken Crown English draft** - Draft Episode 6 as the
+  first-arc finale and mark the first arc rough draft set complete. Completed
+  2026-06-19.
 
 ## Phase Details
 
@@ -192,6 +195,18 @@ Plans:
 
 - [x] 11-01: Add Hawking Court English draft and index it.
 
+### Phase 12: The Broken Crown English draft
+
+**Goal:** Complete the first arc rough draft set with Episode 6, closing Mara's
+first-arc claim while opening the next arc question.
+**Requirements:** [FIC-DRAFT-19, FIC-DRAFT-20, FIC-DRAFT-21]
+**Depends on:** Phase 11
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 12-01: Add The Broken Crown English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -210,3 +225,13 @@ Phases execute in numeric order.
 | 9. The Last Hodler English draft | 1/1 | Complete | 2026-06-19 |
 | 10. Identity Flood English draft | 1/1 | Complete | 2026-06-19 |
 | 11. Hawking Court English draft | 1/1 | Complete | 2026-06-19 |
+| 12. The Broken Crown English draft | 1/1 | Complete | 2026-06-19 |
+
+## Milestone Status
+
+`The Broken Crown` first arc rough draft set is complete. Next work should choose
+between:
+
+- full arc revision pass across Episodes 1-6;
+- series bible consolidation from draft discoveries;
+- arc two planning from the `who may author loss` hook.

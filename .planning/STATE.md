@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 current_phase: "none"
-status: Phases 1-11 complete; no active GSD phase
+status: Phases 1-12 complete; first arc rough draft set complete; no active GSD phase
 last_updated: 2026-06-19
 progress:
-  total_phases: 11
-  completed_phases: 11
-  total_plans: 11
-  completed_plans: 11
+  total_phases: 12
+  completed_phases: 12
+  total_plans: 12
+  completed_plans: 12
   percent: 100
 ---
 
@@ -23,7 +23,8 @@ See: .planning/PROJECT.md
 
 **Milestone:** v1.0 milestone
 **Current phase:** none
-**Status:** Phases 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11 complete; next GSD phase not planned.
+**Status:** Phases 1-12 complete. `The Broken Crown` first arc rough draft set
+is complete; next GSD phase not planned.
 
 ## Session Log
 
@@ -52,3 +53,5 @@ See: .planning/PROJECT.md
   English draft.
 - 2026-06-19: Completed Phase 11 by adding the `Hawking Court` Episode 5
   English draft.
+- 2026-06-19: Completed Phase 12 by adding the `The Broken Crown` Episode 6
+  English draft and marking the first arc rough draft set complete.

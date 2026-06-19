@@ -168,6 +168,10 @@ and
   - English-first Episode 5 draft that expands Genesis Chain into sealed cosmic
     audit pressure while keeping Hawking restoration and QFUDS as fiction
     premises; fiction/provenance only.
+- [QFUDS SAGA The Broken Crown English Draft](fiction/qfuds-saga/30_drafts/010_the_broken_crown_english_draft.md)
+  - English-first Episode 6 first-arc finale draft that chains prior field
+    marks into a ruling and opens the next arc with `who may author loss`;
+    fiction/provenance only.
 
 ## Postmortems
 
