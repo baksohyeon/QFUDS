@@ -196,7 +196,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Episode 4 English-first draft. Null-Key Cells의 identity graph flood로
       깨끗한 identity proof를 무너뜨리고, `PLURALITY IS NOT CONSENT` mark를
       도입한다.
-24. [Fiction Catalog](../01_catalog/README.md)
+24. [QFUDS SAGA Hawking Court English Draft](30_drafts/009_hawking_court_english_draft.md)
+    - Episode 5 English-first draft. Genesis Chain을 cosmic audit 문제로
+      확장하되, black-hole/Hawking restoration과 QFUDS는 fiction premise로만
+      두고 `PHYSICS IS NOT JURISDICTION` mark를 도입한다.
+25. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

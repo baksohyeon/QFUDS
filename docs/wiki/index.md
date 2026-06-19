@@ -164,6 +164,10 @@ and
   - English-first Episode 4 draft where Null-Key Cells flood the court with
     plausible identity graphs and introduce `PLURALITY IS NOT CONSENT`;
     fiction/provenance only.
+- [QFUDS SAGA Hawking Court English Draft](fiction/qfuds-saga/30_drafts/009_hawking_court_english_draft.md)
+  - English-first Episode 5 draft that expands Genesis Chain into sealed cosmic
+    audit pressure while keeping Hawking restoration and QFUDS as fiction
+    premises; fiction/provenance only.
 
 ## Postmortems
 

@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 current_phase: "none"
-status: Phases 1-10 complete; no active GSD phase
+status: Phases 1-11 complete; no active GSD phase
 last_updated: 2026-06-19
 progress:
-  total_phases: 10
-  completed_phases: 10
-  total_plans: 10
-  completed_plans: 10
+  total_phases: 11
+  completed_phases: 11
+  total_plans: 11
+  completed_plans: 11
   percent: 100
 ---
 
@@ -23,7 +23,7 @@ See: .planning/PROJECT.md
 
 **Milestone:** v1.0 milestone
 **Current phase:** none
-**Status:** Phases 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10 complete; next GSD phase not planned.
+**Status:** Phases 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, and 11 complete; next GSD phase not planned.
 
 ## Session Log
 
@@ -49,4 +49,6 @@ See: .planning/PROJECT.md
 - 2026-06-19: Completed Phase 9 by adding the `The Last Hodler` Episode 3
   English draft.
 - 2026-06-19: Completed Phase 10 by adding the `Identity Flood` Episode 4
+  English draft.
+- 2026-06-19: Completed Phase 11 by adding the `Hawking Court` Episode 5
   English draft.

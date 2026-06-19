@@ -43,6 +43,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 10: Identity Flood English draft** - Draft Episode 4 as a
   Null-Key Cells identity-graph flood that breaks clean proof. Completed
   2026-06-19.
+- [x] **Phase 11: Hawking Court English draft** - Draft Episode 5 as a sealed
+  cosmic-audit admissibility hearing that keeps QFUDS as fiction temptation.
+  Completed 2026-06-19.
 
 ## Phase Details
 
@@ -177,6 +180,18 @@ Plans:
 
 - [x] 10-01: Add Identity Flood English draft and index it.
 
+### Phase 11: Hawking Court English draft
+
+**Goal:** Continue the first arc with Episode 5 by expanding from Genesis Chain
+to sealed cosmic audit while preserving fiction/science boundaries.
+**Requirements:** [FIC-DRAFT-16, FIC-DRAFT-17, FIC-DRAFT-18]
+**Depends on:** Phase 10
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 11-01: Add Hawking Court English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -194,3 +209,4 @@ Phases execute in numeric order.
 | 8. The Dead Exchange English draft | 1/1 | Complete | 2026-06-19 |
 | 9. The Last Hodler English draft | 1/1 | Complete | 2026-06-19 |
 | 10. Identity Flood English draft | 1/1 | Complete | 2026-06-19 |
+| 11. Hawking Court English draft | 1/1 | Complete | 2026-06-19 |
