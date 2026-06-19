@@ -35,8 +35,9 @@ last_updated: 2026-06-19
    - 복원 문명의 세력, 공동체, 정치권력, 종교적 언어, 원장 자본주의,
      망각권, 잔상 유목민 생태계를 정리한 SAGA bible 전 단계.
 5. [QFUDS SAGA 시점 주제 고유명사 규칙](system/005_narrative_pov_theme_naming_ko.md)
-   - 3인칭 제한 시점, 중심 주제, 역사 차용 규칙, 영어/프랑스어/라틴어풍
-     canon naming convention을 고정하는 SAGA bible 전 단계.
+   - 3인칭 제한 시점의 decision rationale, 중심 주제, 역사 차용 규칙,
+     common/formal name 이중 구조와 종교/제국/수도원/유목 naming strata를
+     고정하는 SAGA bible 전 단계.
 
 ## 역할
 

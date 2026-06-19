@@ -86,8 +86,8 @@ and
   - factions, communities, political power, religion-inspired language, and
     restoration-economy ecology for the SAGA bible backbone.
 - [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/system/005_narrative_pov_theme_naming_ko.md)
-  - narrative POV, core theme, historical borrowing rules, and canon naming
-    convention before the SAGA bible.
+  - narrative POV decision rationale, core theme, historical borrowing rules,
+    and common/formal naming strata before the SAGA bible.
 
 ## Postmortems
 
