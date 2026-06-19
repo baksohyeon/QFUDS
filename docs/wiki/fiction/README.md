@@ -17,8 +17,8 @@ last_updated: 2026-06-19
 This folder stores fiction companion material derived from QFUDS provenance,
 research process, and public-story records.
 
-It is a separate creative track. It is not roadmap status, research evidence,
-QFUDS support, validation, or Level 2B admission.
+It is a separate creative track. It does not change research evidence or roadmap
+status.
 
 ## Read Order
 
@@ -31,10 +31,13 @@ QFUDS support, validation, or Level 2B admission.
 3. [Fiction GSD Harness Operator Guide](00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
    - step-by-step guide for starting a fiction/IP task with workflow
    classification, GSD phase checks, validation, and commit boundaries.
-4. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
+4. [Creative Writing Craft Harness](00_studio/004_creative_writing_craft_harness_ko.md)
+   - Korean-friendly fiction craft checklist for premise, character, conflict,
+   scene, POV, worldbuilding, dialogue, theme, revision, and jargon handling.
+5. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
    the QFUDS-inspired SAGA, split into operating system, series bible,
    development package, and prose drafts.
-5. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
+6. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
 ## Boundary
@@ -55,7 +58,7 @@ MCP, code repository, or source/product availability claim.
 Current workflow state:
 
 ```text
-not_extractable
+no_asset_found
 ```
 
 This index does not introduce a new external asset, cached source, extraction

@@ -11,6 +11,12 @@
 
 What concrete fiction/IP work should this phase finish?
 
+## Reader Support
+
+- English craft terms used:
+- Korean-friendly explanations added:
+- Bare `TBD` placeholders allowed? `yes | no`
+
 ## IP Classification
 
 - Universe/IP:

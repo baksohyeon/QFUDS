@@ -25,6 +25,9 @@ IP 관리 시스템**으로 다루기 위한 사람용 설명서다.
 
 GSD phase로 실행할 때는
 [Fiction GSD Planning Bridge](002_gsd_planning_bridge_ko.md)를 같이 읽는다.
+소설 craft 기준은
+[Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md)를
+같이 읽는다.
 
 ## Tone / Baseline
 
@@ -82,6 +85,21 @@ story year, era id를 둔다.
 
 frame narrative를 쓰면 outer frame이 inner story의 의미를 어떻게 바꾸는지도
 기록한다.
+
+## Jargon / Korean Reader Support
+
+영어권 창작 용어를 기준으로 쓰되, 한국어 독자가 바로 따라올 수 있게 첫 등장에
+풀이한다.
+
+예:
+
+- `TBD`: 아직 정하지 않음.
+- `POV`: 시점.
+- `canon`: 정사.
+- `beat`: 장면 안의 작은 전환점.
+- `arc`: 변화 곡선.
+
+템플릿에는 가능하면 `TBD`만 쓰지 말고 `TBD: 아직 정하지 않음`처럼 쓴다.
 
 ## Workflow Boundary
 

@@ -26,6 +26,15 @@ relationship to our world above as `fully invented`.
 - Current story year:
 - Era naming rule:
 
+## Glossary / Reader Support
+
+Explain English craft or technical terms at first use. Prefer
+`TBD: not decided yet` over bare `TBD`.
+
+| Term | Plain meaning | Korean-friendly explanation | Where used |
+| --- | --- | --- | --- |
+| `TBD` | To Be Determined | 아직 정하지 않음 | template placeholder |
+
 ## Time Labels
 
 Define time words by work-local IDs instead of relying on loose labels. Fully
@@ -34,12 +43,12 @@ in-world era IDs.
 
 | Time label id | Display term | Definition relative to author baseline | In-world meaning | Use in scenes |
 | --- | --- | --- | --- | --- |
-| `time_current` | current | TBD | TBD | TBD |
-| `time_pre_covid` | pre-COVID | TBD | TBD | TBD |
-| `time_post_covid` | post-COVID | TBD | TBD | TBD |
-| `time_pre_agi` | pre-AGI | TBD | TBD | TBD |
-| `time_future` | future | TBD | TBD | TBD |
-| `era_001` | TBD | unrelated or TBD | TBD | TBD |
+| `time_current` | current | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
+| `time_pre_covid` | pre-COVID | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
+| `time_post_covid` | post-COVID | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
+| `time_pre_agi` | pre-AGI | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
+| `time_future` | future | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
+| `era_001` | TBD: not decided yet | unrelated or TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
 
 ## Inherited Rules
 
@@ -62,13 +71,13 @@ in-world era IDs.
 
 | Original term | Preserved term or alias | Rationale | Loss risk | Accurate anchor | Scene purpose |
 | --- | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | TBD | TBD |
+| TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
 
 ## Cast
 
 | Character | Role | Want | Fear | Secret | Voice notes |
 | --- | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | TBD | TBD |
+| TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
 
 ## Point Of View And Voice
 

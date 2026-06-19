@@ -94,6 +94,16 @@ Every work bible or substantial scene plan must define the narrative frame:
 For frame narratives, also record how the outer frame changes the meaning of the
 inner story.
 
+## Craft Harness Rule
+
+Before creating or revising a work bible, story design, prose draft, or release
+candidate, apply
+[Creative Writing Craft Harness](../../docs/wiki/fiction/00_studio/004_creative_writing_craft_harness_ko.md).
+
+This adds Korean-readable explanations for English craft terms and checks
+premise, character, conflict, scene purpose, point of view, dialogue,
+worldbuilding, theme, pacing, and revision.
+
 Before writing or moving fiction, classify the idea by these layers:
 
 ```text
@@ -175,10 +185,13 @@ Before creating a fiction document, answer:
     anchored to the authoring baseline or to an in-world era ID?
 14. What is the narrative frame: who speaks, who sees, when, in what form, and
     for which implied audience?
-15. Does this introduce or rename a scientific or technical concept?
-16. If yes, what is the recorded rationale and what technical meaning is
+15. Has the craft harness been applied for work bible, story design, prose, or
+    release work?
+16. Are English craft terms and abbreviations explained for Korean readers?
+17. Does this introduce or rename a scientific or technical concept?
+18. If yes, what is the recorded rationale and what technical meaning is
     preserved?
-17. What validation and commit boundary will close this step?
+19. What validation and commit boundary will close this step?
 
 ## Work README Contract
 

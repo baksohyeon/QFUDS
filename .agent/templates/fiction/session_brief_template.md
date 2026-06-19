@@ -14,6 +14,12 @@ What should this session produce?
 - Allowed outputs:
 - Forbidden outputs:
 
+## Jargon / Reader Support
+
+- New English terms or abbreviations:
+- Plain Korean explanations:
+- Any bare `TBD` placeholders left? `yes | no`
+
 ## Required Reads
 
 - Studio workflow:

@@ -32,7 +32,7 @@ Short description of the shared fictional world.
 
 | Work | Format | Canon status | Path |
 | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| TBD: not decided yet | TBD: not decided yet | TBD: not decided yet | TBD: not decided yet |
 
 ## Boundary
 

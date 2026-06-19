@@ -52,21 +52,24 @@ no_asset_found
 | GSD state | `.planning/` | 현재 fiction/IP planning phase 상태 |
 | Templates | [.agent/templates/fiction/](../../../../.agent/templates/fiction/) | work README, bible, session brief, GSD phase brief |
 | Fiction shelf | [docs/wiki/fiction/](../README.md) | 실제 fiction system, 세계관, 개발, draft, archive |
+| Craft harness | [004 Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md) | 문예창작 기본 개념, 한국어 용어 해설, 장면/인물/시점 체크리스트 |
 
 ## 작업 시작 순서
 
 새 fiction 작업은 아래 순서로 시작한다.
 
 1. [Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)를 읽는다.
-2. 아이디어를 `studio`, `catalog`, `universe/IP`, `continuity`, `work`,
+2. [Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md)를 읽고
+   용어, 장면, 인물, 시점 기준을 확인한다.
+3. 아이디어를 `studio`, `catalog`, `universe/IP`, `continuity`, `work`,
    `bible`, `story_design`, `draft`, `release`, `archive` 중 하나로 분류한다.
-3. 새 작품이면 work README가 필요한지 먼저 판단한다.
-4. 큰 작업이면 [Fiction GSD Phase Brief Template](../../../../.agent/templates/fiction/gsd_phase_brief_template.md)을 채운다.
-5. `gsd-tools`로 phase 상태를 확인한다.
-6. 사용자 확인이 필요한 선택지를 먼저 닫는다.
-7. 문서/원고를 작성한다.
-8. repo validation을 돌린다.
-9. 좁게 stage하고 commit한다.
+4. 새 작품이면 work README가 필요한지 먼저 판단한다.
+5. 큰 작업이면 [Fiction GSD Phase Brief Template](../../../../.agent/templates/fiction/gsd_phase_brief_template.md)을 채운다.
+6. `gsd-tools`로 phase 상태를 확인한다.
+7. 사용자 확인이 필요한 선택지를 먼저 닫는다.
+8. 문서/원고를 작성한다.
+9. repo validation을 돌린다.
+10. 좁게 stage하고 commit한다.
 
 ## GSD 명령 기본형
 
@@ -171,6 +174,21 @@ fiction은 QFUDS research가 아니다.
 | Motive | 왜 지금 말하는가? |
 | Knowledge limit | 무엇을 알 수 없는가? |
 | Distortion risk | 무엇을 왜곡하거나 숨길 수 있는가? |
+
+### 7. Jargon / Korean-reader support
+
+영어권 창작 용어를 쓰되, 한국어 독자가 바로 이해할 수 있게 첫 등장에 풀이한다.
+
+예:
+
+- `TBD`: 아직 정하지 않음. `To Be Determined`의 약자.
+- `POV`: 시점. `Point of View`의 약자.
+- `canon`: 정사. 작품 세계에서 확정된 설정.
+- `beat`: 장면 안의 작은 전환점.
+
+새 용어나 약어를 추가하면
+[Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md)의
+용어 해설 방식과 맞춘다.
 
 ## 다음 작업을 고르는 법
 
