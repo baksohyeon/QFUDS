@@ -158,6 +158,10 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - SAGA를 첫 작품 기획으로 옮기는 launch package. 핵심 질문, first arc,
       주인공 후보, 첫 episode hook, 세력 기능, technical kill-switch,
       non-canon 항목을 정리한다.
+15. [QFUDS SAGA Liora Sen First Episode Beat Sheet](20_development/004_liora_sen_first_episode_beat_sheet_ko.md)
+    - `Exhibit S-0` working title의 first episode beat sheet. Liora 중심
+      장면 순서, 인물 압력, reveal order, technical guard, 다음 draft 후보를
+      정리한다.
 
 ## 역할
 
