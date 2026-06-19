@@ -179,6 +179,14 @@ and
 - [QFUDS SAGA First Arc Full Revision Pass](fiction/qfuds-saga/30_drafts/011_first_arc_full_revision_pass.md)
   - Revision control pass for Episodes 1-6, fixing arc-level cuts, required
     additions, field mark rules, continuity fixes, and the next rewrite loop.
+- [QFUDS SAGA Exhibit S-0 Episode 1 Revised V2 English Draft](fiction/qfuds-saga/30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md)
+  - English-first Episode 1 v2 cut that moves Mara's active refusal earlier,
+    tightens the Genesis/Broken Crown setup, and keeps `RECOVERABLE / NOT
+    CLAIMABLE` provisional; fiction/provenance only.
+- [QFUDS SAGA The Dead Exchange Revised V2 English Draft](fiction/qfuds-saga/30_drafts/013_the_dead_exchange_revised_v2_english_draft.md)
+  - English-first Episode 2 v2 cut that gives Noor concrete household and
+    burial-record cost before the legal argument and ties `ACCESS != AUTHORITY`
+    to lived authority; fiction/provenance only.
 
 ## Postmortems
 

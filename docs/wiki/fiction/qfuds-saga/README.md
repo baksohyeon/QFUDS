@@ -212,7 +212,15 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - 1-6화 rough draft를 직접 덮어쓰기 전, arc-level cut/addition,
       episode-level revision matrix, field mark rules, continuity fixes,
       다음 rewrite loop를 고정한 revision control pass.
-28. [Fiction Catalog](../01_catalog/README.md)
+28. [QFUDS SAGA Exhibit S-0 Episode 1 Revised V2 English Draft](30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md)
+    - Episode 1 v2 cut. Mara의 active refusal을 더 앞당기고, Genesis/Broken
+      Crown 설명을 chamber pressure 안으로 압축하며, `RECOVERABLE / NOT
+      CLAIMABLE`을 provisional field mark로 유지한다.
+29. [QFUDS SAGA The Dead Exchange Revised V2 English Draft](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md)
+    - Episode 2 v2 cut. Noor의 household privacy, maternal burial record,
+      kinship graph cost를 먼저 제시하고, `ACCESS != AUTHORITY`를 living
+      cost에 묶는다.
+30. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
@@ -231,7 +239,14 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 
 전체 arc revision control pass는
 [011 First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
-로 정리되었다. 다음 자연 작업은 revised Episodes 1-2 작성이다.
+로 정리되었다. Revised v2 pass는 현재 1-2화까지 진행되었다.
+
+| Revised pass | Draft |
+| --- | --- |
+| 1. Exhibit S-0 v2 | [012](30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md) |
+| 2. The Dead Exchange v2 | [013](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md) |
+
+다음 자연 작업은 revised Episodes 3-4 작성이다.
 
 ## 역할
 

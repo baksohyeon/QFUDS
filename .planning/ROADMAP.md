@@ -55,6 +55,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 14: First arc full revision pass** - Convert first arc canon
   consolidation into concrete rewrite rules and the next two-episode revision
   loop. Completed 2026-06-19.
+- [x] **Phase 15: Revised Episodes 1-2** - Add revised v2 drafts for
+  `Exhibit S-0` and `The Dead Exchange` while preserving the rough drafts.
+  Completed 2026-06-19.
 
 ## Phase Details
 
@@ -237,6 +240,18 @@ Plans:
 
 - [x] 14-01: Add first arc full revision pass and index it.
 
+### Phase 15: Revised Episodes 1-2
+
+**Goal:** Apply the first arc revision pass to Episodes 1-2 while preserving
+the rough drafts as provenance.
+**Requirements:** [FIC-REVISION-07, FIC-REVISION-08, FIC-REVISION-09]
+**Depends on:** Phase 14
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 15-01: Add revised Episodes 1-2 and index them.
+
 ## Progress
 
 **Execution Order:**
@@ -258,9 +273,11 @@ Phases execute in numeric order.
 | 12. The Broken Crown English draft | 1/1 | Complete | 2026-06-19 |
 | 13. First arc canon consolidation | 1/1 | Complete | 2026-06-19 |
 | 14. First arc full revision pass | 1/1 | Complete | 2026-06-19 |
+| 15. Revised Episodes 1-2 | 1/1 | Complete | 2026-06-19 |
 
 ## Milestone Status
 
 `The Broken Crown` first arc rough draft set is complete, draft discoveries
-have been consolidated into the series bible, and the full arc revision pass is
-defined. Next work should create revised Episodes 1-2 before arc two planning.
+have been consolidated into the series bible, and the full arc revision pass has
+started converting rough drafts into revised v2 cuts. Revised Episodes 1-2 are
+complete. Next work should create revised Episodes 3-4 before arc two planning.
