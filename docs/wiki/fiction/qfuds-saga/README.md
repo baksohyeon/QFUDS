@@ -154,6 +154,10 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 13. [QFUDS SAGA Visual Exhibit Design](20_development/002_visual_exhibit_design_ko.md)
     - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
       metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
+14. [QFUDS SAGA Launch Package](20_development/003_saga_launch_package_ko.md)
+    - SAGA를 첫 작품 기획으로 옮기는 launch package. 핵심 질문, first arc,
+      주인공 후보, 첫 episode hook, 세력 기능, technical kill-switch,
+      non-canon 항목을 정리한다.
 
 ## 역할
 
