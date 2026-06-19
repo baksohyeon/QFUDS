@@ -76,6 +76,9 @@ and
 - [Fiction IP Management System](fiction/00_studio/001_fiction_ip_management_system_ko.md)
   - fiction studio/IP management guide for universes, continuity, works,
     bibles, story design, drafts, releases, and archives.
+- [Fiction GSD Planning Bridge](fiction/00_studio/002_gsd_planning_bridge_ko.md)
+  - bridge document for using GSD planning as execution management without
+    replacing fiction/IP classification.
 - [QFUDS SAGA](fiction/qfuds-saga/README.md) - active publisher-style fiction
   track for the QFUDS-inspired SAGA; not research evidence.
 - [Fiction Archive](fiction/archive/README.md) - archived fiction prototypes

@@ -23,6 +23,9 @@ IP 관리 시스템**으로 다루기 위한 사람용 설명서다.
 [Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)
 다. 이 문서는 그 workflow를 사람이 읽기 쉽게 요약한다.
 
+GSD phase로 실행할 때는
+[Fiction GSD Planning Bridge](002_gsd_planning_bridge_ko.md)를 같이 읽는다.
+
 ## Workflow Boundary
 
 This document does not introduce a new external asset, cached source, extraction
@@ -126,6 +129,18 @@ docs/wiki/fiction/
 4. old archive를 `90_archive/`로 이동할지 결정.
 5. 모든 README와 index를 재검증.
 
+## GSD 사용 경계
+
+GSD는 실행 phase를 관리한다. fiction/IP 분류를 대체하지 않는다.
+
+즉 GSD는 "이번 작업에서 무엇을 끝낼 것인가"를 관리하고,
+[Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)
+는 "이 아이디어가 어느 universe/IP와 continuity에 속하는가"를 관리한다.
+
+fiction 작업을 GSD로 시작할 때는
+[Fiction GSD Phase Brief Template](../../../../.agent/templates/fiction/gsd_phase_brief_template.md)
+을 사용한다.
+
 ## 금지
 
 - 작품 폴더 없이 원고만 추가하지 않는다.
@@ -134,4 +149,3 @@ docs/wiki/fiction/
   명시한다.
 - fiction premise를 QFUDS evidence, validation, Level 2B admission으로 쓰지
   않는다.
-

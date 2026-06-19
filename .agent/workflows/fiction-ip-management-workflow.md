@@ -151,6 +151,48 @@ If a work borrows only some motifs from a universe, classify it as `elseworld`
 or create a new universe. Do not write "loosely QFUDS-ish" without a continuity
 classification.
 
+## GSD Planning Integration
+
+GSD planning may manage execution phases, but it must not replace this
+classification workflow.
+
+Use this split:
+
+```text
+Fiction IP Management Workflow = where the idea belongs and what it is
+GSD planning = how to execute a bounded phase of work
+```
+
+Use GSD planning for:
+
+- migrating an existing fiction folder into the IP structure;
+- creating a catalog or universe scaffold;
+- building a new series/short/anthology work package;
+- planning a multi-step writing sprint;
+- coordinating review, revision, verification, commit, and handoff.
+
+Do not use GSD planning for:
+
+- deciding canon by momentum;
+- skipping the universe/IP and continuity classification;
+- adding drafts before a work README exists;
+- treating a phase plan as fiction canon;
+- turning fiction premises into QFUDS evidence.
+
+Every fiction-related GSD phase must state:
+
+- applicable workflow: this workflow;
+- universe/IP or `none yet`;
+- continuity status;
+- target work folder;
+- allowed outputs;
+- forbidden outputs;
+- acceptance criteria;
+- verification commands.
+
+Use [.agent/templates/fiction/gsd_phase_brief_template.md](../templates/fiction/gsd_phase_brief_template.md)
+when drafting a GSD phase for fiction work.
+
 ## External Source Boundary
 
 If fiction work touches external paper, web reference, PDF, code repository,
@@ -178,4 +220,3 @@ sh scripts/git-hooks/pre-commit
 
 For fiction restructuring, also run a local link/state smoke check over
 `docs/wiki/fiction/` when practical.
-

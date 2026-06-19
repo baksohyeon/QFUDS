@@ -25,10 +25,13 @@ QFUDS support, validation, or Level 2B admission.
 1. [Fiction IP Management System](00_studio/001_fiction_ip_management_system_ko.md)
    - studio/IP management rules for universes, continuity, works, bibles,
    story design, drafts, releases, and archives.
-2. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
+2. [Fiction GSD Planning Bridge](00_studio/002_gsd_planning_bridge_ko.md)
+   - how to use GSD planning as execution management without replacing the
+   fiction/IP classification workflow.
+3. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
    the QFUDS-inspired SAGA, split into operating system, series bible,
    development package, and prose drafts.
-3. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
+4. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
 ## Boundary
