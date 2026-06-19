@@ -22,6 +22,10 @@ last_updated: 2026-06-19
 연구 결과가 아니다. 물리 증거가 아니다. QFUDS support, validation, Level 2B
 admission으로 읽지 않는다.
 
+이 폴더는 초기 프로토타입과 기원 기록으로 보존한다. 이후 SAGA 창작 시스템,
+세계관 선택, writers' room, MCP 후보 관리는
+[QFUDS SAGA](../../fiction/qfuds-saga/README.md)에서 진행한다.
+
 세계관의 재료는 기존 provenance 문서에서 가져온다.
 
 ```text

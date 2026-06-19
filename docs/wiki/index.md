@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # Wiki Content Index
@@ -68,6 +68,18 @@ and
 - [블랙홀은 우주의 하드디스크인가?](lineage/007_black_hole_information_public_bridge_ko.md)
   - public bridge for the black-hole information origin story; provenance only,
     not physical evidence.
+
+## Fiction
+
+- [Wiki Fiction](fiction/README.md) - index for separate fiction companion
+  tracks derived from provenance records.
+- [QFUDS SAGA](fiction/qfuds-saga/README.md) - active fiction-system track for
+  the QFUDS-inspired SAGA; not research evidence.
+- [QFUDS SAGA 창작 시스템](fiction/qfuds-saga/system/001_agentic_saga_system_ko.md)
+  - AI writers' room, MCP candidates, and user-confirmation workflow.
+- [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/qfuds-saga/system/002_world_direction_matrix_ko.md)
+  - world-direction comparison for Nested Cosmology, closed-world revelation,
+    deep-time empire, tactical philosophy SF, and it-from-bit mythos.
 
 ## Postmortems
 
