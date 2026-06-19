@@ -188,7 +188,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Episode 2 English-first draft. Genesis Chain을 죽은 시장이 아니라
       살아 있는 상속/권력 장치로 보여 주고, `ACCESS != AUTHORITY` mark를
       도입한다.
-22. [Fiction Catalog](../01_catalog/README.md)
+22. [QFUDS SAGA The Last Hodler English Draft](30_drafts/007_the_last_hodler_english_draft.md)
+    - Episode 3 English-first draft. Bitcoin/Genesis Chain을 현재 시장 예측이
+      아니라 미래 신화와 `civilization-scale consent artifact`로 다루고,
+      `NO CONSENT BY ANALOGY` mark를 도입한다.
+23. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

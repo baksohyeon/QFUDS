@@ -37,6 +37,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 8: The Dead Exchange English draft** - Draft Episode 2 as a
   Genesis Chain succession case where recovered access conflicts with living
   authority. Completed 2026-06-19.
+- [x] **Phase 9: The Last Hodler English draft** - Draft Episode 3 as public
+  Genesis Chain myth, protest, deposition, and consent-language escalation.
+  Completed 2026-06-19.
 
 ## Phase Details
 
@@ -146,6 +149,19 @@ Plans:
 
 - [x] 08-01: Add The Dead Exchange English draft and index it.
 
+### Phase 9: The Last Hodler English draft
+
+**Goal:** Continue the first arc with Episode 3 by turning the Genesis Chain
+into a public myth and consent-language escalation rather than market
+prediction.
+**Requirements:** [FIC-DRAFT-10, FIC-DRAFT-11, FIC-DRAFT-12]
+**Depends on:** Phase 8
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 09-01: Add The Last Hodler English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -161,3 +177,4 @@ Phases execute in numeric order.
 | 6. Exhibit S-0 hearing continuation draft | 1/1 | Complete | 2026-06-19 |
 | 7. Exhibit S-0 episode 1 revision pass | 1/1 | Complete | 2026-06-19 |
 | 8. The Dead Exchange English draft | 1/1 | Complete | 2026-06-19 |
+| 9. The Last Hodler English draft | 1/1 | Complete | 2026-06-19 |

@@ -156,6 +156,10 @@ and
   - English-first Episode 2 draft that turns Genesis Chain into a dead-market
     succession institution and introduces `ACCESS != AUTHORITY`;
     fiction/provenance only.
+- [QFUDS SAGA The Last Hodler English Draft](fiction/qfuds-saga/30_drafts/007_the_last_hodler_english_draft.md)
+  - English-first Episode 3 draft that treats Bitcoin/Genesis Chain as future
+    myth and a civilization-scale consent artifact, introducing
+    `NO CONSENT BY ANALOGY`; fiction/provenance only.
 
 ## Postmortems
 
