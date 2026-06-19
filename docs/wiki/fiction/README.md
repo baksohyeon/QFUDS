@@ -28,10 +28,13 @@ QFUDS support, validation, or Level 2B admission.
 2. [Fiction GSD Planning Bridge](00_studio/002_gsd_planning_bridge_ko.md)
    - how to use GSD planning as execution management without replacing the
    fiction/IP classification workflow.
-3. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
+3. [Fiction GSD Harness Operator Guide](00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
+   - step-by-step guide for starting a fiction/IP task with workflow
+   classification, GSD phase checks, validation, and commit boundaries.
+4. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
    the QFUDS-inspired SAGA, split into operating system, series bible,
    development package, and prose drafts.
-4. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
+5. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
 ## Boundary
