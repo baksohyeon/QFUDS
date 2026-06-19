@@ -91,6 +91,10 @@ and
 - [QFUDS SAGA Bitcoin Genesis Chain and Restoration Myth](fiction/qfuds-saga/system/006_bitcoin_genesis_chain_and_restoration_myth_ko.md)
   - Bitcoin as Genesis Chain artifact, `it from bit`, soft reality editing,
     cryptographic death, and black-hole/white-hole restoration myth boundaries.
+- [QFUDS SAGA Mara Veyr Prologue Research Harness](fiction/qfuds-saga/system/007_mara_veyr_prologue_research_harness_ko.md)
+  - writer harness for the Mara Veyr prologue, including scene craft,
+    post-COVID digital afterlife context, erasure rights, AI reality editing,
+    and science-audit boundaries.
 ## Postmortems
 
 - [Wiki Postmortems](postmortem/README.md) - index for process-failure records.

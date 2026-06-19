@@ -42,6 +42,10 @@ last_updated: 2026-06-19
    - Bitcoin을 Genesis Chain artifact로 사용하고, `it from bit`, 현실 편집,
      암호학 붕괴, 블랙홀/화이트홀 복원, Mara Veyr 사건을 연결하는 SAGA
      canon 후보.
+7. [QFUDS SAGA Mara Veyr Prologue Research Harness](system/007_mara_veyr_prologue_research_harness_ko.md)
+   - Mara Veyr 프롤로그를 쓰기 전, 소설 craft, COVID 이후 digital afterlife,
+     right to be forgotten, AI reality editing, Bitcoin artifact, science-audit
+     경계를 묶는 writer harness.
 ## 역할
 
 이 트랙의 목표는 QFUDS를 증명하는 것이 아니다.
