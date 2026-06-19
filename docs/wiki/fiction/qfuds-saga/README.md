@@ -181,7 +181,10 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - 003 opening을 이어 Mara Veyr hearing, Broken Crown exhibit,
       continuity tests, `RECOVERABLE / NOT CLAIMABLE` category, Last Archive
       question correction까지 진행한 English-first continuation draft.
-20. [Fiction Catalog](../01_catalog/README.md)
+20. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
+    - 003 opening과 004 hearing continuation을 보존한 상태에서 하나의
+      Episode 1 rough cut으로 압축한 revision pass.
+21. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

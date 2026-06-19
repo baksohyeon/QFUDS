@@ -149,6 +149,9 @@ and
   - English-first continuation draft for episode 1, moving through the Mara
     Veyr hearing, Broken Crown exhibit, continuity tests, and Last Archive
     question correction; fiction/provenance only.
+- [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](fiction/qfuds-saga/30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
+  - English-first revision pass combining the Exhibit S-0 opening and hearing
+    continuation into one episode 1 rough cut; fiction/provenance only.
 
 ## Postmortems
 

@@ -31,6 +31,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 6: Exhibit S-0 hearing continuation draft** - Continue episode 1
   through the Mara Veyr hearing, Broken Crown exhibit, continuity tests, and
   Last Archive question correction. Completed 2026-06-19.
+- [x] **Phase 7: Exhibit S-0 episode 1 revision pass** - Combine the opening
+  and hearing continuation into one cleaner episode 1 rough cut. Completed
+  2026-06-19.
 
 ## Phase Details
 
@@ -116,6 +119,18 @@ Plans:
 
 - [x] 06-01: Add Exhibit S-0 hearing continuation draft and index it.
 
+### Phase 7: Exhibit S-0 episode 1 revision pass
+
+**Goal:** Preserve drafts 003 and 004 while producing a single readable episode
+1 rough cut with tighter pacing and fewer repeated setup beats.
+**Requirements:** [FIC-REVISION-01, FIC-REVISION-02, FIC-REVISION-03]
+**Depends on:** Phase 6
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 07-01: Add Exhibit S-0 episode 1 revised English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -129,3 +144,4 @@ Phases execute in numeric order.
 | 4. First arc six-episode outline | 1/1 | Complete | 2026-06-19 |
 | 5. Exhibit S-0 opening English draft | 1/1 | Complete | 2026-06-19 |
 | 6. Exhibit S-0 hearing continuation draft | 1/1 | Complete | 2026-06-19 |
+| 7. Exhibit S-0 episode 1 revision pass | 1/1 | Complete | 2026-06-19 |
