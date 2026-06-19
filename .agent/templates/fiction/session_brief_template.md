@@ -36,6 +36,9 @@ State what needs user confirmation before writing or committing.
 - Does this introduce or rename a scientific/technical term? `yes | no`
 - If yes, record original term, alias, rationale, loss risk, accurate anchor,
   and scene purpose.
+- Narrative frame checked? `yes | no`
+- If yes, record who speaks, who sees, telling time, form, implied audience,
+  motive, knowledge limits, and distortion risk.
 
 ## Tone
 

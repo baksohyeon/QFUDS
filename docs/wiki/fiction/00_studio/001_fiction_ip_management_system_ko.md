@@ -32,6 +32,10 @@ GSD phase로 실행할 때는
 날짜다. "현재", "고대", "post-COVID", "AGI 이전/이후" 같은 말은 이 기준일에
 상대적으로 설명한다.
 
+단, 기준일은 작중 canon이 아니다. 완전 창작 세계관, 대체역사, 먼 미래물은
+현실 기준일과 작중 연표를 분리한다. 작중에는 별도 calendar, year zero,
+story year, era id를 둔다.
+
 문체는 간결하게 유지한다. 반복 disclaimer, 과한 선언문, 장식적 비유를 피하고,
 역할/규칙/장면 사용법을 먼저 쓴다.
 
@@ -62,6 +66,23 @@ GSD phase로 실행할 때는
 설정 문서에는 최소한 원기술어, 작중 명칭, 변경 이유, 손실될 수 있는 의미,
 정확한 설명 위치, 장면 목적을 남긴다.
 
+## Narrative Frame
+
+시점은 `1인칭/3인칭`만으로 정하지 않는다. 작품마다 아래를 분리한다.
+
+- 누가 말하는가: 인물, 역사가, 기록관, 재판 속기사, 회고록 작성자, 기계,
+  익명 화자.
+- 누가 보는가: 주인공, 목격자, 외부 관찰자, 기관, archive, 교대 focalizer.
+- 언제 말하는가: 사건 직후, 수십 년 뒤, 문명 붕괴 뒤, 재판 중, 복원 후.
+- 어떤 형식인가: 역사록, 회고록, 수필, 재판 기록, field report, archive note,
+  편지, transcript, recovered file, oral history, 직접 장면.
+- 누구에게 말하는가: 독자, 후대 시민, 법정, 기관, 특정 인물, 자기 자신.
+- 왜 지금 말하는가: 증언, 고백, 변론, 교육, 선전, 복원 오류 수정, 기록 보존.
+- 무엇을 알 수 있고 무엇을 왜곡할 수 있는가.
+
+frame narrative를 쓰면 outer frame이 inner story의 의미를 어떻게 바꾸는지도
+기록한다.
+
 ## Workflow Boundary
 
 This document introduces no external-source or source-product claim.
@@ -91,6 +112,7 @@ idea -> universe/IP -> continuity status -> work folder -> bible/design/draft
 - authoring baseline date가 무엇인가.
 - 어떤 세계관/연표/과학 경계를 상속하는가.
 - 이 작품만의 local override는 무엇인가.
+- 누가, 언제, 어떤 형식으로 이야기를 말하는가.
 - 기술어를 바꾸거나 별칭화한다면 근거가 무엇인가.
 - bible, story design, drafts, release가 어디에 있는가.
 - local boundary exception이 있는가.
@@ -184,5 +206,6 @@ fiction 작업을 GSD로 시작할 때는
 - README 없이 series/short/anthology/elseworld를 만들지 않는다.
 - "대충 QFUDS 느낌"이라고 쓰지 않는다. universe/IP와 continuity status를
   명시한다.
+- 시점을 `1인칭/3인칭` 한 줄로만 정하지 않는다.
 - 기술 개념을 근거 없이 비유나 제도어로 바꾸지 않는다.
 - fiction premise를 연구 결과나 roadmap 상태 변경처럼 쓰지 않는다.

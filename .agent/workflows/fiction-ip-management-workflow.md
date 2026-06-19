@@ -34,6 +34,16 @@ authoring baseline date. Use the date when the document starts, not a floating
 "now." When using terms like `ancient`, `modern`, `post-COVID`,
 `pre-AGI`, or `future`, explain them relative to that baseline.
 
+The authoring baseline is not automatically story canon. For alternate-history,
+far-future, or fully invented worlds, separate:
+
+- author-side baseline: the real-world writing context;
+- in-world chronology: calendar, era names, year zero, story year, and internal
+  historical labels.
+
+Fully invented worlds should define in-world era IDs instead of forcing
+real-world labels such as `post-COVID`.
+
 Author-context may guide clarity and audience assumptions, but do not write
 private user identity, location, nationality, job, or personal context into the
 story or docs unless the user explicitly asks for it.
@@ -61,6 +71,28 @@ When a setting changes a technical term, record:
 - scene purpose.
 
 If there is no reason, keep the technical term.
+
+## Narrative Frame Rule
+
+Do not reduce narration to only `first person` or `third person`.
+
+Every work bible or substantial scene plan must define the narrative frame:
+
+- who speaks: narrator, editor, archivist, court recorder, memoirist, historian,
+  machine, chorus, or anonymous voice;
+- who sees: focal character, witness, external camera, institution, archive, or
+  rotating focalizers;
+- when the telling happens relative to the events;
+- what document or performance form carries the story: chronicle, memoir,
+  essay, trial record, field report, archive note, letter, transcript,
+  recovered file, oral history, direct scene, or mixed form;
+- who the implied audience is;
+- why the story is being told now;
+- what the narrator can know;
+- what the narrator may distort, omit, or misunderstand.
+
+For frame narratives, also record how the outer frame changes the meaning of the
+inner story.
 
 Before writing or moving fiction, classify the idea by these layers:
 
@@ -136,12 +168,17 @@ Before creating a fiction document, answer:
    source/product claims?
 9. Does it accidentally phrase a fiction premise as a research/status claim?
 10. What is the authoring baseline date?
-11. Are time words such as `ancient`, `current`, `post-COVID`, or `future`
-    anchored to that baseline?
-12. Does this introduce or rename a scientific or technical concept?
-13. If yes, what is the recorded rationale and what technical meaning is
+11. Is the work same-universe, alternate-history, far-future, fully invented,
+    or unknown?
+12. What is the in-world chronology if it is not simple same-universe fiction?
+13. Are time words such as `ancient`, `current`, `post-COVID`, or `future`
+    anchored to the authoring baseline or to an in-world era ID?
+14. What is the narrative frame: who speaks, who sees, when, in what form, and
+    for which implied audience?
+15. Does this introduce or rename a scientific or technical concept?
+16. If yes, what is the recorded rationale and what technical meaning is
     preserved?
-14. What validation and commit boundary will close this step?
+17. What validation and commit boundary will close this step?
 
 ## Work README Contract
 

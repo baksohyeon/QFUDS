@@ -22,6 +22,7 @@
 ## Local Overrides
 
 - POV:
+- Narrative frame:
 - Main cast:
 - Time period:
 - Location/realm:
@@ -41,6 +42,7 @@
 ## Story Design
 
 - Premise:
+- Narrative form:
 - Arc:
 - Plot outline:
 - Scene list:

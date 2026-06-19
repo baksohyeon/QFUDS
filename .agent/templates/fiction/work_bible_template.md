@@ -7,9 +7,39 @@ State what this bible controls for this work.
 ## Authoring Baseline
 
 - Date started: `YYYY-MM-DD`
-- Present baseline:
-- Terms such as `ancient`, `modern`, `post-COVID`, `pre-AGI`, and `future`
-  mean:
+- Author-side present baseline:
+- Relationship to our world: `same universe | alternate history | far future | fully invented | unknown`
+- Baseline note:
+
+The authoring baseline is not automatically in-world canon. It only fixes the
+real-world writing context used for reader assumptions, technology references,
+and revision decisions.
+
+## In-World Chronology
+
+Use this section for the fictional calendar, eras, and historical labels. For a
+fully invented world, define the internal chronology here and set the
+relationship to our world above as `fully invented`.
+
+- Calendar system:
+- Year zero / founding event:
+- Current story year:
+- Era naming rule:
+
+## Time Labels
+
+Define time words by work-local IDs instead of relying on loose labels. Fully
+invented worlds may omit real-world labels such as `post-COVID` and use only
+in-world era IDs.
+
+| Time label id | Display term | Definition relative to author baseline | In-world meaning | Use in scenes |
+| --- | --- | --- | --- | --- |
+| `time_current` | current | TBD | TBD | TBD |
+| `time_pre_covid` | pre-COVID | TBD | TBD | TBD |
+| `time_post_covid` | post-COVID | TBD | TBD | TBD |
+| `time_pre_agi` | pre-AGI | TBD | TBD | TBD |
+| `time_future` | future | TBD | TBD | TBD |
+| `era_001` | TBD | unrelated or TBD | TBD | TBD |
 
 ## Inherited Rules
 
@@ -43,10 +73,27 @@ State what this bible controls for this work.
 ## Point Of View And Voice
 
 - POV:
+- Who speaks:
+- Who sees / focalizer:
+- Telling time:
+- Narrative form: `direct scene | chronicle | memoir | essay | trial record | field report | archive note | letter | transcript | recovered file | oral history | mixed`
+- Implied audience:
+- Narrator motive:
+- Knowledge limits:
+- Distortion risk:
 - Tense:
 - Narration distance:
 - Style constraints:
 - Tone constraints: clean, direct, no unnecessary manifesto language.
+
+## Frame Narrative
+
+Use this only if the work has an outer frame.
+
+- Outer frame:
+- Inner story:
+- How the outer frame changes the inner story:
+- Frame reliability risk:
 
 ## Relationship Map
 

@@ -33,6 +33,7 @@ Forbidden outputs:
 - Canon changes without continuity classification.
 - External-source claims without Research Asset and Product Workflow state.
 - Undocumented renaming of scientific or technical terms.
+- Scene or work package without a narrative-frame decision.
 
 ## Tone Rules
 
@@ -49,6 +50,17 @@ Forbidden outputs:
 - Preserve scientific and technical terms by default.
 - If a term is renamed into a fictional, legal, religious, social, or poetic
   alias, record the rationale and the technical meaning that must remain clear.
+
+## Narrative Frame
+
+- Who speaks:
+- Who sees / focalizer:
+- Telling time:
+- Narrative form:
+- Implied audience:
+- Narrator motive:
+- Knowledge limits:
+- Distortion risk:
 
 ## Required Reads
 

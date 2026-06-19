@@ -103,6 +103,10 @@ gsd-tools --cwd <WORKTREE> phase add "Short description of the fiction/IP phase"
 기준일은 문서를 시작한 날짜다. `ancient`, `modern`, `post-COVID`, `pre-AGI`,
 `future` 같은 말은 그 기준일과의 관계가 보여야 한다.
 
+완전 창작 세계관이면 현실 기준일을 작중 canon으로 쓰지 않는다. 현실 기준일은
+제작 맥락이고, 작중 시간은 calendar, year zero, story year, era id로 따로
+정의한다.
+
 문체는 짧고 직접적으로 쓴다.
 
 - 전체 evidence disclaimer를 문서마다 반복하지 않는다.
@@ -152,6 +156,21 @@ fiction은 QFUDS research가 아니다.
 | Loss risk | 어떤 기술 의미가 흐려지는가? |
 | Accurate anchor | 정확한 설명은 어디에 남는가? |
 | Scene purpose | 이 별칭이 장면에서 하는 일은 무엇인가? |
+
+### 6. Narrative frame
+
+작업 전 아래를 답한다.
+
+| 항목 | 질문 |
+| --- | --- |
+| Who speaks | 누가 말하는가? |
+| Who sees | 누구의 인식으로 보는가? |
+| Telling time | 사건과 말하는 시점의 거리는? |
+| Form | 역사록, 회고록, 수필, 재판 기록, archive note, 직접 장면 중 무엇인가? |
+| Implied audience | 누구에게 말하는가? |
+| Motive | 왜 지금 말하는가? |
+| Knowledge limit | 무엇을 알 수 없는가? |
+| Distortion risk | 무엇을 왜곡하거나 숨길 수 있는가? |
 
 ## 다음 작업을 고르는 법
 
