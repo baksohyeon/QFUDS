@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_fiction_saga_index_ko
 next_gate: fiction only; do not use as physical evidence or Level 2B admission
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # 분기 지도
@@ -50,6 +50,7 @@ A route: black-hole / remnant / information return
 B route: galaxy-scale foam / 10 Mpc / known-model sink
 C route: Gamma(a) / IV/IDE formalism / Q^mu grammar
 D route: audit harness / postmortem / failed-claim memory
+E route: academy orders / forbidden rooms / initiation rites
 ```
 
 ## 시즌 1 메인 분기
@@ -156,6 +157,34 @@ background timing만 있으면 physical branch가 아니다.
 
 - 제5화: 실패를 보존하는 기계
 
+### E. 라우어 관측소의 네 학파
+
+질문:
+
+```text
+같은 우주를 보면서도,
+왜 사람들은 서로 다른 방식으로 실패를 다루는가?
+```
+
+주요 인물:
+
+- 한서윤
+- 이라온
+- 마야 진
+- 노아 백
+- 감사관
+
+위험:
+
+```text
+세계관이 연구 claim처럼 읽히면 안 된다.
+학파와 금지구역은 fiction structure이며, physical evidence가 아니다.
+```
+
+현재 에피소드:
+
+- [제4화: 라우어 관측소의 네 학파](004_laur_observatory_orders_ko.md)
+
 ## 독자 선택 메모
 
 재미로 읽는다면 A route부터 가면 된다. 블랙홀, remnant, white-hole-like
@@ -169,3 +198,6 @@ mailbox가 가장 SF적이다.
 
 이 repo의 진짜 핵심을 보고 싶다면 D route가 좋다. 정답보다 실패를 보존하는
 하네스가 왜 남았는지 보여 준다.
+
+더 입체적인 saga 세계관을 원한다면 E route가 좋다. 라우어 관측소가 단순한
+연구기관이 아니라 학파, 금지구역, 입문 의식을 가진 비밀 아카데미로 확장된다.
