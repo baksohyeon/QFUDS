@@ -173,7 +173,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - `The Broken Crown` 첫 arc를 여섯 episode로 나누어 Mara Veyr, Genesis
       Chain, Cryptographic Death, Identity Flood, Hawking Court를 단계적으로
       배치한 development outline.
-18. [Fiction Catalog](../01_catalog/README.md)
+18. [QFUDS SAGA Exhibit S-0 Opening English Draft](30_drafts/003_exhibit_s0_opening_english_draft.md)
+    - `The Broken Crown` 1화 opening candidate. Liora Sen이 Waiting City와
+      Court of Continuance를 통과하며 Mara Veyr hearing으로 들어가는
+      English-first prose draft.
+19. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

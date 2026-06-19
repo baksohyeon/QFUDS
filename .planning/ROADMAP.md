@@ -25,6 +25,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 4: First arc six-episode outline** - Distribute the Genesis Chain,
   Mara Veyr, Cryptographic Death, Identity Flood, and Hawking Court material
   across a six-episode first arc. Completed 2026-06-19.
+- [x] **Phase 5: Exhibit S-0 opening English draft** - Write the first
+  English-first prose opening candidate for episode 1 using Liora Sen's
+  third-person limited POV. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -86,6 +89,18 @@ Plans:
 
 - [x] 04-01: Add first arc six-episode outline and index it.
 
+### Phase 5: Exhibit S-0 opening English draft
+
+**Goal:** Test whether episode 1 can open with scene pressure, Liora's concrete
+job, and fiction boundaries instead of exposition.
+**Requirements:** [FIC-DRAFT-01, FIC-DRAFT-02, FIC-DRAFT-03]
+**Depends on:** Phase 4
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 05-01: Add Exhibit S-0 opening English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -97,3 +112,4 @@ Phases execute in numeric order.
 | 2. Cryptography notes integration | 1/1 | Complete | 2026-06-19 |
 | 3. Genesis Chain artifact scene packet | 1/1 | Complete | 2026-06-19 |
 | 4. First arc six-episode outline | 1/1 | Complete | 2026-06-19 |
+| 5. Exhibit S-0 opening English draft | 1/1 | Complete | 2026-06-19 |

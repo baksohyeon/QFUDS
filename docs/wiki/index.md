@@ -142,6 +142,9 @@ and
   - first-arc development outline distributing Mara Veyr, Genesis Chain,
     Cryptographic Death, Identity Flood, and Hawking Court across six episodes;
     fiction/provenance only.
+- [QFUDS SAGA Exhibit S-0 Opening English Draft](fiction/qfuds-saga/30_drafts/003_exhibit_s0_opening_english_draft.md)
+  - English-first opening draft for episode 1, following Liora Sen through the
+    Waiting City into the Mara Veyr continuity hearing; fiction/provenance only.
 
 ## Postmortems
 
