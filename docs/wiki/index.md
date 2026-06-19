@@ -88,7 +88,6 @@ and
 - [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/system/005_narrative_pov_theme_naming_ko.md)
   - narrative POV decision rationale, core theme, historical borrowing rules,
     and common/formal naming strata before the SAGA bible.
-
 ## Postmortems
 
 - [Wiki Postmortems](postmortem/README.md) - index for process-failure records.

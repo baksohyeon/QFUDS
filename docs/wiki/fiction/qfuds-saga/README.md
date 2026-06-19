@@ -38,7 +38,6 @@ last_updated: 2026-06-19
    - 3인칭 제한 시점의 decision rationale, 중심 주제, 역사 차용 규칙,
      common/formal name 이중 구조와 종교/제국/수도원/유목 naming strata를
      고정하는 SAGA bible 전 단계.
-
 ## 역할
 
 이 트랙의 목표는 QFUDS를 증명하는 것이 아니다.
