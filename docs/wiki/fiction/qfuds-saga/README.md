@@ -169,7 +169,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Bitcoin/Genesis Chain을 zero price, crown artifact, broken
       cryptography, black-hole restoration myth로 나누어 first arc 장면
       압력으로 바꾸는 development packet.
-17. [Fiction Catalog](../01_catalog/README.md)
+17. [QFUDS SAGA First Arc Six-Episode Outline](20_development/006_first_arc_six_episode_outline_ko.md)
+    - `The Broken Crown` 첫 arc를 여섯 episode로 나누어 Mara Veyr, Genesis
+      Chain, Cryptographic Death, Identity Flood, Hawking Court를 단계적으로
+      배치한 development outline.
+18. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

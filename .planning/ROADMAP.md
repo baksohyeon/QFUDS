@@ -22,6 +22,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
   Bitcoin-as-ancient-artifact, zero-price, broken-cryptography, and
   black-hole-reverse-computation material into a fiction/provenance-only scene
   development packet. Completed 2026-06-19.
+- [x] **Phase 4: First arc six-episode outline** - Distribute the Genesis Chain,
+  Mara Veyr, Cryptographic Death, Identity Flood, and Hawking Court material
+  across a six-episode first arc. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -71,6 +74,18 @@ Plans:
 
 - [x] 03-01: Add Genesis Chain artifact scene packet and index it.
 
+### Phase 4: First arc six-episode outline
+
+**Goal:** Convert the first-arc material into a six-episode development outline
+so the next prose draft can open with scene and pressure instead of exposition.
+**Requirements:** [FIC-ARC-01, FIC-ARC-02, FIC-ARC-03]
+**Depends on:** Phase 3
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 04-01: Add first arc six-episode outline and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -81,3 +96,4 @@ Phases execute in numeric order.
 | 1. Fiction IP GSD Harness | 1/1 | Complete   | 2026-06-19 |
 | 2. Cryptography notes integration | 1/1 | Complete | 2026-06-19 |
 | 3. Genesis Chain artifact scene packet | 1/1 | Complete | 2026-06-19 |
+| 4. First arc six-episode outline | 1/1 | Complete | 2026-06-19 |

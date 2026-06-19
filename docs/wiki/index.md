@@ -138,6 +138,10 @@ and
   - development packet turning Bitcoin/Genesis Chain into zero-price artifact,
     broken-crown exhibit, cryptographic-collapse theology, and black-hole
     restoration scene pressure; fiction/provenance only.
+- [QFUDS SAGA First Arc Six-Episode Outline](fiction/qfuds-saga/20_development/006_first_arc_six_episode_outline_ko.md)
+  - first-arc development outline distributing Mara Veyr, Genesis Chain,
+    Cryptographic Death, Identity Flood, and Hawking Court across six episodes;
+    fiction/provenance only.
 
 ## Postmortems
 
