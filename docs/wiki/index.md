@@ -145,6 +145,10 @@ and
 - [QFUDS SAGA Exhibit S-0 Opening English Draft](fiction/qfuds-saga/30_drafts/003_exhibit_s0_opening_english_draft.md)
   - English-first opening draft for episode 1, following Liora Sen through the
     Waiting City into the Mara Veyr continuity hearing; fiction/provenance only.
+- [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](fiction/qfuds-saga/30_drafts/004_exhibit_s0_hearing_continuation_english_draft.md)
+  - English-first continuation draft for episode 1, moving through the Mara
+    Veyr hearing, Broken Crown exhibit, continuity tests, and Last Archive
+    question correction; fiction/provenance only.
 
 ## Postmortems
 

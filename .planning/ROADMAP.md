@@ -28,6 +28,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 5: Exhibit S-0 opening English draft** - Write the first
   English-first prose opening candidate for episode 1 using Liora Sen's
   third-person limited POV. Completed 2026-06-19.
+- [x] **Phase 6: Exhibit S-0 hearing continuation draft** - Continue episode 1
+  through the Mara Veyr hearing, Broken Crown exhibit, continuity tests, and
+  Last Archive question correction. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -101,6 +104,18 @@ Plans:
 
 - [x] 05-01: Add Exhibit S-0 opening English draft and index it.
 
+### Phase 6: Exhibit S-0 hearing continuation draft
+
+**Goal:** Extend the episode 1 rough draft through the hearing's first major
+turn so the arc has a prose-tested hook, not only setup.
+**Requirements:** [FIC-DRAFT-04, FIC-DRAFT-05, FIC-DRAFT-06]
+**Depends on:** Phase 5
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 06-01: Add Exhibit S-0 hearing continuation draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -113,3 +128,4 @@ Phases execute in numeric order.
 | 3. Genesis Chain artifact scene packet | 1/1 | Complete | 2026-06-19 |
 | 4. First arc six-episode outline | 1/1 | Complete | 2026-06-19 |
 | 5. Exhibit S-0 opening English draft | 1/1 | Complete | 2026-06-19 |
+| 6. Exhibit S-0 hearing continuation draft | 1/1 | Complete | 2026-06-19 |

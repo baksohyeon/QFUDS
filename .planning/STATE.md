@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 current_phase: "none"
-status: Phases 1-5 complete; no active GSD phase
+status: Phases 1-6 complete; no active GSD phase
 last_updated: 2026-06-19
 progress:
-  total_phases: 5
-  completed_phases: 5
-  total_plans: 5
-  completed_plans: 5
+  total_phases: 6
+  completed_phases: 6
+  total_plans: 6
+  completed_plans: 6
   percent: 100
 ---
 
@@ -23,7 +23,7 @@ See: .planning/PROJECT.md
 
 **Milestone:** v1.0 milestone
 **Current phase:** none
-**Status:** Phases 1, 2, 3, 4, and 5 complete; next GSD phase not planned.
+**Status:** Phases 1, 2, 3, 4, 5, and 6 complete; next GSD phase not planned.
 
 ## Session Log
 
@@ -40,3 +40,5 @@ See: .planning/PROJECT.md
   `The Broken Crown`.
 - 2026-06-19: Completed Phase 5 by adding the `Exhibit S-0` opening English
   draft.
+- 2026-06-19: Completed Phase 6 by adding the `Exhibit S-0` hearing
+  continuation English draft.
