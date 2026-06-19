@@ -160,6 +160,10 @@ and
   - English-first Episode 3 draft that treats Bitcoin/Genesis Chain as future
     myth and a civilization-scale consent artifact, introducing
     `NO CONSENT BY ANALOGY`; fiction/provenance only.
+- [QFUDS SAGA Identity Flood English Draft](fiction/qfuds-saga/30_drafts/008_identity_flood_english_draft.md)
+  - English-first Episode 4 draft where Null-Key Cells flood the court with
+    plausible identity graphs and introduce `PLURALITY IS NOT CONSENT`;
+    fiction/provenance only.
 
 ## Postmortems
 

@@ -40,6 +40,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 9: The Last Hodler English draft** - Draft Episode 3 as public
   Genesis Chain myth, protest, deposition, and consent-language escalation.
   Completed 2026-06-19.
+- [x] **Phase 10: Identity Flood English draft** - Draft Episode 4 as a
+  Null-Key Cells identity-graph flood that breaks clean proof. Completed
+  2026-06-19.
 
 ## Phase Details
 
@@ -162,6 +165,18 @@ Plans:
 
 - [x] 09-01: Add The Last Hodler English draft and index it.
 
+### Phase 10: Identity Flood English draft
+
+**Goal:** Continue the first arc with Episode 4 by breaking clean identity proof
+through too many plausible selves.
+**Requirements:** [FIC-DRAFT-13, FIC-DRAFT-14, FIC-DRAFT-15]
+**Depends on:** Phase 9
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 10-01: Add Identity Flood English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -178,3 +193,4 @@ Phases execute in numeric order.
 | 7. Exhibit S-0 episode 1 revision pass | 1/1 | Complete | 2026-06-19 |
 | 8. The Dead Exchange English draft | 1/1 | Complete | 2026-06-19 |
 | 9. The Last Hodler English draft | 1/1 | Complete | 2026-06-19 |
+| 10. Identity Flood English draft | 1/1 | Complete | 2026-06-19 |
