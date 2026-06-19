@@ -31,7 +31,7 @@ cache, digitization, or availability claim. It translates existing QFUDS lineage
 motifs into fiction only.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
 Inherited workflow states include:
 
 ```text

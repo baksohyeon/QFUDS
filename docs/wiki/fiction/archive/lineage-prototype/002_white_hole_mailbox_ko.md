@@ -10,7 +10,7 @@ depends_on:
   - qfuds_fiction_saga_branch_map_ko
   - qfuds_fiction_saga_001_archive_refuses_the_answer_ko
 next_gate: fiction only; do not use as physical evidence or Level 2B admission
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # 제2화: 화이트홀 우편함
@@ -29,7 +29,7 @@ cache, digitization, or availability claim. It translates existing QFUDS lineage
 motifs into fiction only.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
 Inherited workflow states include:
 
 ```text

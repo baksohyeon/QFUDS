@@ -17,7 +17,7 @@ last_updated: 2026-06-19
 
 이 폴더는 QFUDS에서 파생된 별도 창작 트랙이다.
 
-기존 [QFUDS Fiction Saga](../../lineage/fiction/README.md)는 초기
+기존 [QFUDS Fiction Saga](../archive/lineage-prototype/README.md)는 초기
 프로토타입과 기원 기록으로 보존한다. 이 폴더는 이후 SAGA를 쓰기 위한
 창작 시스템, 세계관 선택, canon bible, episode plan을 관리한다.
 

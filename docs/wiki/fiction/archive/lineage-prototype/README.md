@@ -24,7 +24,7 @@ admission으로 읽지 않는다.
 
 이 폴더는 초기 프로토타입과 기원 기록으로 보존한다. 이후 SAGA 창작 시스템,
 세계관 선택, writers' room, MCP 후보 관리는
-[QFUDS SAGA](../../fiction/qfuds-saga/README.md)에서 진행한다.
+[QFUDS SAGA](../../qfuds-saga/README.md)에서 진행한다.
 
 세계관의 재료는 기존 provenance 문서에서 가져온다.
 
@@ -47,7 +47,7 @@ cache, digitization, or availability claim. It organizes fictional works derived
 from existing QFUDS lineage documents only.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
 Inherited workflow states include:
 
 ```text
@@ -60,7 +60,7 @@ inspected_no_numerical_product
 
 ## 읽는 순서
 
-0. [방정식은 입장권이다](../010_qfuds_closing_sf_story_ko.md)
+0. [방정식은 입장권이다](../../../lineage/010_qfuds_closing_sf_story_ko.md)
    - 원본 단편과 확장 단편 "암호문을 삼킨 우주".
    - 이 saga의 프롤로그처럼 읽어도 된다.
 0.5. [분기 지도](000_branch_map_ko.md)

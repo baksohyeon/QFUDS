@@ -25,6 +25,7 @@ cache description.
 ## Agent Workflow Index
 
 - [QFUDS Agent Workflows](workflows/README.md)
+- [Documentation Folder Routing Workflow](workflows/documentation-folder-routing-workflow.md)
 - [Wiki Maintenance Workflow](workflows/wiki-maintenance-workflow.md)
 - [Research Asset and Product Workflow](workflows/research-asset-product-workflow.md)
 

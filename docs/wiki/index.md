@@ -75,6 +75,12 @@ and
   tracks derived from provenance records.
 - [QFUDS SAGA](fiction/qfuds-saga/README.md) - active fiction-system track for
   the QFUDS-inspired SAGA; not research evidence.
+- [Fiction Archive](fiction/archive/README.md) - archived fiction prototypes
+  preserved for provenance, including the original lineage-hosted Laur
+  Observatory saga.
+- [QFUDS Fiction Saga Archive](fiction/archive/lineage-prototype/README.md)
+  - original Laur Observatory prototype with branch map and early episodes;
+    fiction/provenance only.
 - [QFUDS SAGA 창작 시스템](fiction/qfuds-saga/system/001_agentic_saga_system_ko.md)
   - AI writers' room, MCP candidates, and user-confirmation workflow.
 - [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/qfuds-saga/system/002_world_direction_matrix_ko.md)

@@ -41,8 +41,38 @@ actually changes.
 | `docs/wiki/glossary/` | stable vocabulary and repository terminology | project status, experiment results |
 | `docs/wiki/governance/` | admission rules, branch gates, missing-physics maps, consistency checks | raw research products or incident narratives |
 | `docs/wiki/lineage/` | idea genealogy, branch dependency maps, demotion/routing provenance | daily progress, external literature, asset products, incident retrospectives |
+| `docs/wiki/fiction/` | separate creative companion tracks derived from provenance, including active SAGA planning and archived prototypes | research evidence, roadmap status, physical-source claims |
 | `docs/wiki/postmortem/` | incident retrospectives, process failures, long-form checkpoints, handoff retrospectives | source products, roadmap status changes |
 | `docs/wiki/research/` | external literature records, cached assets, investigations, source/product recovery work | accepted physical-status claims |
+
+## Fiction Folder Roles
+
+Use these routes for QFUDS-inspired creative work. Fiction can preserve
+motivation, emotional continuity, public explanation, and speculative imagery,
+but it must not be promoted into a physical QFUDS source claim.
+
+| Path | Use for | Do not use for |
+| --- | --- | --- |
+| `docs/wiki/fiction/README.md` | landing page for all fiction companion tracks | detailed canon, source claims, roadmap status |
+| `docs/wiki/fiction/qfuds-saga/README.md` | active SAGA read order and track boundary | archived prototypes or old lineage routing |
+| `docs/wiki/fiction/qfuds-saga/system/` | agentic fiction-system specs: writers' room, MCP plan, world matrix, canon protocol, draft harness, bilingual protocol | raw prose-only drafts with no harness, research evidence, validation language |
+| `docs/wiki/fiction/archive/` | superseded or prototype fiction tracks preserved for provenance | active SAGA system decisions |
+| `docs/wiki/fiction/archive/lineage-prototype/` | original Laur Observatory prototype moved out of `docs/wiki/lineage/` | new active fiction work |
+
+For Codex and Claude Code, the routing rule is:
+
+```text
+creative workflow/system design -> docs/wiki/fiction/qfuds-saga/system/
+active SAGA prose draft with harness boundary -> docs/wiki/fiction/qfuds-saga/system/
+superseded fiction prototype -> docs/wiki/fiction/archive/
+idea genealogy that changes research branch classification -> docs/wiki/lineage/
+external source, PDF, paper, data, or product claim -> docs/wiki/research/
+```
+
+If a fiction document touches an external paper, web reference, PDF, code
+repository, MCP, or source/product availability claim, also apply
+[Research Asset and Product Workflow](research-asset-product-workflow.md) and
+record the workflow state token in the fiction document.
 
 ## Research Folder Roles
 
@@ -74,6 +104,7 @@ docs own.
 | Executed investigation result | investigation `conclusions/README.md`; chain read order | governance only if an admission rule itself changes |
 | Known-model distinction result | investigation conclusion closeout | lineage if branch classification changes; roadmap only if admission status changes |
 | Incident or process lesson | `docs/wiki/postmortem/README.md`; `docs/wiki/index.md` if useful | workflows only if a repeatable operating rule is created |
+| Fiction companion or SAGA harness record | `docs/wiki/fiction/README.md`; `docs/wiki/index.md` if useful | lineage only if the research branch genealogy changes |
 
 ## Status Boundary
 
