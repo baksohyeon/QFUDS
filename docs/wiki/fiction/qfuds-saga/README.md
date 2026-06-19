@@ -142,69 +142,73 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
    - 사용자 제공 hash/KDF/cryptographic-hash 개념 노트를 SAGA의 Cryptographic
      Death, Preimage Restoration, Genesis Chain, identity-flood attack,
      key/salt sovereignty 설정 기준서로 변환한 canon-candidate reference.
-10. [QFUDS SAGA Mara Veyr Prologue Research Harness](00_system/002_mara_veyr_prologue_research_harness_ko.md)
+10. [QFUDS SAGA First Arc Canon Consolidation](10_series_bible/008_first_arc_canon_consolidation_ko.md)
+    - `The Broken Crown` first arc rough draft set에서 생긴 field mark chain,
+      인물/세력 기능, science-fiction boundary, arc two hook, revision checklist를
+      정리한 series-bible bridge.
+11. [QFUDS SAGA Mara Veyr Prologue Research Harness](00_system/002_mara_veyr_prologue_research_harness_ko.md)
    - Mara Veyr 프롤로그를 쓰기 전, 소설 craft, COVID 이후 digital afterlife,
      right to be forgotten, AI reality editing, Bitcoin artifact, science-audit
      경계를 묶는 writer harness.
-11. [QFUDS SAGA Mara Veyr Prologue Draft](30_drafts/001_mara_veyr_prologue_draft_ko.md)
+12. [QFUDS SAGA Mara Veyr Prologue Draft](30_drafts/001_mara_veyr_prologue_draft_ko.md)
    - cryptographic death, Genesis Chain, Last Archive, The Broken Crown,
      Continuity Court, Mara Veyr 자기부정 복원체 사건을 실제 프롤로그 장면으로
      테스트한 초안.
-12. [QFUDS SAGA Mara Veyr Prologue English Revision](30_drafts/002_mara_veyr_prologue_english_revision_ko.md)
+13. [QFUDS SAGA Mara Veyr Prologue English Revision](30_drafts/002_mara_veyr_prologue_english_revision_ko.md)
     - 008 초안을 보존한 상태에서 영어 원문 우선으로 다시 쓴 tone revision.
       quiet catastrophe, Continuity Court, Genesis Chain, Last Archive의
       question-correction 기능을 실제 장면으로 테스트한다.
-13. [QFUDS SAGA Visual Exhibit Design](20_development/002_visual_exhibit_design_ko.md)
+14. [QFUDS SAGA Visual Exhibit Design](20_development/002_visual_exhibit_design_ko.md)
     - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
       metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
-14. [QFUDS SAGA Launch Package](20_development/003_saga_launch_package_ko.md)
+15. [QFUDS SAGA Launch Package](20_development/003_saga_launch_package_ko.md)
     - SAGA를 첫 작품 기획으로 옮기는 launch package. 핵심 질문, first arc,
       주인공 후보, 첫 episode hook, 세력 기능, technical kill-switch,
       non-canon 항목을 정리한다.
-15. [QFUDS SAGA Liora Sen First Episode Beat Sheet](20_development/004_liora_sen_first_episode_beat_sheet_ko.md)
+16. [QFUDS SAGA Liora Sen First Episode Beat Sheet](20_development/004_liora_sen_first_episode_beat_sheet_ko.md)
     - `Exhibit S-0` working title의 first episode beat sheet. Liora 중심
       장면 순서, 인물 압력, reveal order, technical guard, 다음 draft 후보를
       정리한다.
-16. [QFUDS SAGA Genesis Chain Artifact Scene Packet](20_development/005_genesis_chain_artifact_scene_packet_ko.md)
+17. [QFUDS SAGA Genesis Chain Artifact Scene Packet](20_development/005_genesis_chain_artifact_scene_packet_ko.md)
     - Bitcoin/Genesis Chain을 zero price, crown artifact, broken
       cryptography, black-hole restoration myth로 나누어 first arc 장면
       압력으로 바꾸는 development packet.
-17. [QFUDS SAGA First Arc Six-Episode Outline](20_development/006_first_arc_six_episode_outline_ko.md)
+18. [QFUDS SAGA First Arc Six-Episode Outline](20_development/006_first_arc_six_episode_outline_ko.md)
     - `The Broken Crown` 첫 arc를 여섯 episode로 나누어 Mara Veyr, Genesis
       Chain, Cryptographic Death, Identity Flood, Hawking Court를 단계적으로
       배치한 development outline.
-18. [QFUDS SAGA Exhibit S-0 Opening English Draft](30_drafts/003_exhibit_s0_opening_english_draft.md)
+19. [QFUDS SAGA Exhibit S-0 Opening English Draft](30_drafts/003_exhibit_s0_opening_english_draft.md)
     - `The Broken Crown` 1화 opening candidate. Liora Sen이 Waiting City와
       Court of Continuance를 통과하며 Mara Veyr hearing으로 들어가는
       English-first prose draft.
-19. [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](30_drafts/004_exhibit_s0_hearing_continuation_english_draft.md)
+20. [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](30_drafts/004_exhibit_s0_hearing_continuation_english_draft.md)
     - 003 opening을 이어 Mara Veyr hearing, Broken Crown exhibit,
       continuity tests, `RECOVERABLE / NOT CLAIMABLE` category, Last Archive
       question correction까지 진행한 English-first continuation draft.
-20. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
+21. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
     - 003 opening과 004 hearing continuation을 보존한 상태에서 하나의
       Episode 1 rough cut으로 압축한 revision pass.
-21. [QFUDS SAGA The Dead Exchange English Draft](30_drafts/006_the_dead_exchange_english_draft.md)
+22. [QFUDS SAGA The Dead Exchange English Draft](30_drafts/006_the_dead_exchange_english_draft.md)
     - Episode 2 English-first draft. Genesis Chain을 죽은 시장이 아니라
       살아 있는 상속/권력 장치로 보여 주고, `ACCESS != AUTHORITY` mark를
       도입한다.
-22. [QFUDS SAGA The Last Hodler English Draft](30_drafts/007_the_last_hodler_english_draft.md)
+23. [QFUDS SAGA The Last Hodler English Draft](30_drafts/007_the_last_hodler_english_draft.md)
     - Episode 3 English-first draft. Bitcoin/Genesis Chain을 현재 시장 예측이
       아니라 미래 신화와 `civilization-scale consent artifact`로 다루고,
       `NO CONSENT BY ANALOGY` mark를 도입한다.
-23. [QFUDS SAGA Identity Flood English Draft](30_drafts/008_identity_flood_english_draft.md)
+24. [QFUDS SAGA Identity Flood English Draft](30_drafts/008_identity_flood_english_draft.md)
     - Episode 4 English-first draft. Null-Key Cells의 identity graph flood로
       깨끗한 identity proof를 무너뜨리고, `PLURALITY IS NOT CONSENT` mark를
       도입한다.
-24. [QFUDS SAGA Hawking Court English Draft](30_drafts/009_hawking_court_english_draft.md)
+25. [QFUDS SAGA Hawking Court English Draft](30_drafts/009_hawking_court_english_draft.md)
     - Episode 5 English-first draft. Genesis Chain을 cosmic audit 문제로
       확장하되, black-hole/Hawking restoration과 QFUDS는 fiction premise로만
       두고 `PHYSICS IS NOT JURISDICTION` mark를 도입한다.
-25. [QFUDS SAGA The Broken Crown English Draft](30_drafts/010_the_broken_crown_english_draft.md)
+26. [QFUDS SAGA The Broken Crown English Draft](30_drafts/010_the_broken_crown_english_draft.md)
     - Episode 6 English-first first-arc finale draft. Mara의 sealed letter와
       field mark chain으로 첫 arc를 닫고, `who may author loss`를 다음 arc
       질문으로 연다.
-26. [Fiction Catalog](../01_catalog/README.md)
+27. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
@@ -221,8 +225,9 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 | 5. Hawking Court | [009](30_drafts/009_hawking_court_english_draft.md) |
 | 6. The Broken Crown | [010](30_drafts/010_the_broken_crown_english_draft.md) |
 
-다음 자연 작업은 전체 arc revision pass, series bible consolidation, 또는 arc two
-planning 중 하나다.
+다음 자연 작업은 전체 arc revision pass다. series bible consolidation은
+[008 First Arc Canon Consolidation](10_series_bible/008_first_arc_canon_consolidation_ko.md)
+으로 정리되었고, arc two planning은 revision 이후가 더 안전하다.
 
 ## 역할
 

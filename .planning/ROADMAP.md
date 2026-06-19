@@ -49,6 +49,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 12: The Broken Crown English draft** - Draft Episode 6 as the
   first-arc finale and mark the first arc rough draft set complete. Completed
   2026-06-19.
+- [x] **Phase 13: First arc canon consolidation** - Extract the reusable canon,
+  field mark chain, open hooks, and revision checklist from the first arc rough
+  draft set. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -207,6 +210,18 @@ Plans:
 
 - [x] 12-01: Add The Broken Crown English draft and index it.
 
+### Phase 13: First arc canon consolidation
+
+**Goal:** Consolidate first arc rough draft discoveries before full revision or
+arc two planning.
+**Requirements:** [FIC-CANON-01, FIC-CANON-02, FIC-CANON-03]
+**Depends on:** Phase 12
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 13-01: Add first arc canon consolidation and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -226,12 +241,10 @@ Phases execute in numeric order.
 | 10. Identity Flood English draft | 1/1 | Complete | 2026-06-19 |
 | 11. Hawking Court English draft | 1/1 | Complete | 2026-06-19 |
 | 12. The Broken Crown English draft | 1/1 | Complete | 2026-06-19 |
+| 13. First arc canon consolidation | 1/1 | Complete | 2026-06-19 |
 
 ## Milestone Status
 
-`The Broken Crown` first arc rough draft set is complete. Next work should choose
-between:
-
-- full arc revision pass across Episodes 1-6;
-- series bible consolidation from draft discoveries;
-- arc two planning from the `who may author loss` hook.
+`The Broken Crown` first arc rough draft set is complete, and draft discoveries
+have been consolidated into the series bible. Next work should run a full arc
+revision pass across Episodes 1-6 before arc two planning.

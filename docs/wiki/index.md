@@ -172,6 +172,10 @@ and
   - English-first Episode 6 first-arc finale draft that chains prior field
     marks into a ruling and opens the next arc with `who may author loss`;
     fiction/provenance only.
+- [QFUDS SAGA First Arc Canon Consolidation](fiction/qfuds-saga/10_series_bible/008_first_arc_canon_consolidation_ko.md)
+  - Series-bible bridge extracting the first arc field mark chain, character and
+    institution functions, fiction-only science boundaries, arc two hook, and
+    revision checklist.
 
 ## Postmortems
 
