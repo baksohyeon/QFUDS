@@ -440,7 +440,7 @@ prologue**를 추가하는 것이다.
 추천 파일:
 
 ```text
-docs/wiki/fiction/qfuds-saga/system/010_mara_veyr_prologue_english_revision_ko.md
+docs/wiki/fiction/qfuds-saga/30_drafts/010_mara_veyr_prologue_english_revision_ko.md
 ```
 
 이 파일은 실제 fiction prose여야 하며, 설명표보다 장면을 우선한다.

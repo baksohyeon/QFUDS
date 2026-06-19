@@ -54,16 +54,21 @@ but it must not be promoted into a physical QFUDS source claim.
 | Path | Use for | Do not use for |
 | --- | --- | --- |
 | `docs/wiki/fiction/README.md` | landing page for all fiction companion tracks | detailed canon, source claims, roadmap status |
-| `docs/wiki/fiction/qfuds-saga/README.md` | active SAGA read order and track boundary | archived prototypes or old lineage routing |
-| `docs/wiki/fiction/qfuds-saga/system/` | agentic fiction-system specs: writers' room, MCP plan, world matrix, canon protocol, draft harness, bilingual protocol | raw prose-only drafts with no harness, research evidence, validation language |
+| `docs/wiki/fiction/qfuds-saga/README.md` | active SAGA read order, publisher-style shelf map, and track boundary | archived prototypes or old lineage routing |
+| `docs/wiki/fiction/qfuds-saga/00_system/` | operating system for the writing room: agent harness, MCP plan, approval gates, workflow/provenance boundaries | world canon, prose drafts, research evidence, validation language |
+| `docs/wiki/fiction/qfuds-saga/10_bible/` | canon/world bible material: timeline, factions, institutions, naming, science-fiction premise boundaries, stable world facts | operating procedures, one-off brainstorms, raw prose drafts |
+| `docs/wiki/fiction/qfuds-saga/20_development/` | pitches, world-direction matrices, outlines, visual packages, exploratory design notes not yet promoted to canon | active operating rules, final prose, research evidence |
+| `docs/wiki/fiction/qfuds-saga/30_drafts/` | prose drafts, revisions, translations, scene tests with explicit harness/provenance boundary | canon bible updates unless promoted separately, raw prose without boundary |
 | `docs/wiki/fiction/archive/` | superseded or prototype fiction tracks preserved for provenance | active SAGA system decisions |
 | `docs/wiki/fiction/archive/lineage-prototype/` | original Laur Observatory prototype moved out of `docs/wiki/lineage/` | new active fiction work |
 
 For Codex and Claude Code, the routing rule is:
 
 ```text
-creative workflow/system design -> docs/wiki/fiction/qfuds-saga/system/
-active SAGA prose draft with harness boundary -> docs/wiki/fiction/qfuds-saga/system/
+creative workflow/system design -> docs/wiki/fiction/qfuds-saga/00_system/
+active SAGA world canon/bible item -> docs/wiki/fiction/qfuds-saga/10_bible/
+active SAGA pitch, outline, visual package, or exploratory design -> docs/wiki/fiction/qfuds-saga/20_development/
+active SAGA prose draft with harness boundary -> docs/wiki/fiction/qfuds-saga/30_drafts/
 superseded fiction prototype -> docs/wiki/fiction/archive/
 idea genealogy that changes research branch classification -> docs/wiki/lineage/
 external source, PDF, paper, data, or product claim -> docs/wiki/research/

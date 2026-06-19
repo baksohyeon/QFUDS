@@ -126,7 +126,7 @@ fiction 안에서는 다음을 허용한다.
 2. matrix를 더 확장해 다른 장르 구조를 추가한 뒤 다시 고른다.
 
 2026-06-19 후속 선택 장부:
-[QFUDS SAGA 장기 복원 문명사 타임라인](003_deep_time_restoration_timeline_ko.md)
+[QFUDS SAGA 장기 복원 문명사 타임라인](../10_bible/003_deep_time_restoration_timeline_ko.md)
 은 이 matrix를 "복원 문명사" 방향으로 구체화한다. 그 문서는 완전 복원,
 라스트 아카이브, 망각권, 알레테이아 베일, 라우어 관측소를 시간순 역사로 묶어
 SAGA bible 후보 backbone을 제안한다.

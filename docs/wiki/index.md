@@ -73,48 +73,48 @@ and
 
 - [Wiki Fiction](fiction/README.md) - index for separate fiction companion
   tracks derived from provenance records.
-- [QFUDS SAGA](fiction/qfuds-saga/README.md) - active fiction-system track for
-  the QFUDS-inspired SAGA; not research evidence.
+- [QFUDS SAGA](fiction/qfuds-saga/README.md) - active publisher-style fiction
+  track for the QFUDS-inspired SAGA; not research evidence.
 - [Fiction Archive](fiction/archive/README.md) - archived fiction prototypes
   preserved for provenance, including the original lineage-hosted Laur
   Observatory saga.
 - [QFUDS Fiction Saga Archive](fiction/archive/lineage-prototype/README.md)
   - original Laur Observatory prototype with branch map and early episodes;
     fiction/provenance only.
-- [QFUDS SAGA 창작 시스템](fiction/qfuds-saga/system/001_agentic_saga_system_ko.md)
+- [QFUDS SAGA 창작 시스템](fiction/qfuds-saga/00_system/001_agentic_saga_system_ko.md)
   - AI writers' room, MCP candidates, and user-confirmation workflow.
-- [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/qfuds-saga/system/002_world_direction_matrix_ko.md)
+- [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/qfuds-saga/20_development/002_world_direction_matrix_ko.md)
   - world-direction comparison for Nested Cosmology, closed-world revelation,
     deep-time empire, tactical philosophy SF, and it-from-bit mythos.
-- [QFUDS SAGA 장기 복원 문명사 타임라인](fiction/qfuds-saga/system/003_deep_time_restoration_timeline_ko.md)
+- [QFUDS SAGA 장기 복원 문명사 타임라인](fiction/qfuds-saga/10_bible/003_deep_time_restoration_timeline_ko.md)
   - deep-time restoration civilization timeline for the SAGA bible backbone.
-- [QFUDS SAGA 세력 문화 권력 생태계 장부](fiction/qfuds-saga/system/004_factions_cultures_power_ecology_ko.md)
+- [QFUDS SAGA 세력 문화 권력 생태계 장부](fiction/qfuds-saga/10_bible/004_factions_cultures_power_ecology_ko.md)
   - factions, communities, political power, religion-inspired language, and
     restoration-economy ecology for the SAGA bible backbone.
-- [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/system/005_narrative_pov_theme_naming_ko.md)
+- [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/10_bible/005_narrative_pov_theme_naming_ko.md)
   - narrative POV decision rationale, core theme, historical borrowing rules,
     and common/formal naming strata before the SAGA bible.
-- [QFUDS SAGA Bitcoin Genesis Chain and Restoration Myth](fiction/qfuds-saga/system/006_bitcoin_genesis_chain_and_restoration_myth_ko.md)
+- [QFUDS SAGA Bitcoin Genesis Chain and Restoration Myth](fiction/qfuds-saga/10_bible/006_bitcoin_genesis_chain_and_restoration_myth_ko.md)
   - Bitcoin as Genesis Chain artifact, `it from bit`, soft reality editing,
     cryptographic death, and black-hole/white-hole restoration myth boundaries.
-- [QFUDS SAGA Mara Veyr Prologue Research Harness](fiction/qfuds-saga/system/007_mara_veyr_prologue_research_harness_ko.md)
+- [QFUDS SAGA Mara Veyr Prologue Research Harness](fiction/qfuds-saga/00_system/007_mara_veyr_prologue_research_harness_ko.md)
   - writer harness for the Mara Veyr prologue, including scene craft,
     post-COVID digital afterlife context, erasure rights, AI reality editing,
     and science-audit boundaries.
-- [QFUDS SAGA Mara Veyr Prologue Draft](fiction/qfuds-saga/system/008_mara_veyr_prologue_draft_ko.md)
+- [QFUDS SAGA Mara Veyr Prologue Draft](fiction/qfuds-saga/30_drafts/008_mara_veyr_prologue_draft_ko.md)
   - first fiction-draft test for cryptographic death, Genesis Chain,
     The Broken Crown, Last Archive intervention, and the Mara Veyr continuity
     case.
-- [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](fiction/qfuds-saga/system/009_post_agi_civilization_history_bilingual_protocol_ko.md)
+- [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](fiction/qfuds-saga/10_bible/009_post_agi_civilization_history_bilingual_protocol_ko.md)
   - post-AGI civilization history, Marxian general-intellect lens,
     `It from bit(s)`/Bitcoin joke layer, and English-first fiction protocol.
-- [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/qfuds-saga/system/010_mara_veyr_prologue_english_revision_ko.md)
+- [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/qfuds-saga/30_drafts/010_mara_veyr_prologue_english_revision_ko.md)
   - English-first tone revision for the Mara Veyr prologue, with Korean
     translation and revision notes; fiction/provenance only.
-- [QFUDS SAGA Visual Exhibit Design](fiction/qfuds-saga/system/011_visual_exhibit_design_ko.md)
+- [QFUDS SAGA Visual Exhibit Design](fiction/qfuds-saga/20_development/011_visual_exhibit_design_ko.md)
   - visual-exhibit plan for reusing existing rough-tanh assets as fictional
     court/archive plates; not research evidence.
-- [QFUDS SAGA World Anchor and Verisimilitude](fiction/qfuds-saga/system/012_world_anchor_and_verisimilitude_ko.md)
+- [QFUDS SAGA World Anchor and Verisimilitude](fiction/qfuds-saga/10_bible/012_world_anchor_and_verisimilitude_ko.md)
   - world-anchor and plausibility spine for the far-future SAGA: modern AI era
     as archaeological layer, miracles as institutions, fiction/provenance only.
 

@@ -22,9 +22,9 @@ QFUDS support, validation, or Level 2B admission.
 
 ## Read Order
 
-1. [QFUDS SAGA](qfuds-saga/README.md) - active fiction-system track for the
-   QFUDS-inspired SAGA, including the agentic writing system and world-direction
-   matrix.
+1. [QFUDS SAGA](qfuds-saga/README.md) - active publisher-style fiction track for
+   the QFUDS-inspired SAGA, split into operating system, world bible,
+   development package, and prose drafts.
 2. [Fiction Archive](archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
@@ -33,7 +33,7 @@ QFUDS support, validation, or Level 2B admission.
 Fiction may preserve motivation, emotional continuity, and explanatory imagery.
 It must not promote a speculative image into a physical source claim.
 
-Active fiction-system work belongs under [QFUDS SAGA](qfuds-saga/README.md).
+Active fiction work belongs under [QFUDS SAGA](qfuds-saga/README.md).
 Superseded or prototype fiction belongs under [Fiction Archive](archive/README.md).
 
 Research-source handling remains governed by
