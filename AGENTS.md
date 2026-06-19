@@ -454,8 +454,9 @@ Repository enforcement lives in `scripts/agent_workflow_guard.py --staged`,
 Claude Code prompt hooks are reminders, not substitutes for the commit gate.
 
 For QFUDS-inspired fiction, agents must still follow the documentation-routing
-and wiki-maintenance workflows. Active SAGA work is managed like a small
-publisher's room: operating specs belong under
+and wiki-maintenance workflows, plus
+[Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
+Active SAGA work is managed like a small publisher's room: operating specs belong under
 `docs/wiki/fiction/qfuds-saga/00_system/`, series bible / 작품 설정 기준서
 material under `docs/wiki/fiction/qfuds-saga/10_series_bible/`,
 pitches/outlines/visual packages under

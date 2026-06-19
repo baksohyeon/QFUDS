@@ -1,0 +1,181 @@
+# Fiction IP Management Workflow
+
+Use this workflow whenever an agent creates, moves, classifies, or extends
+fiction material under `docs/wiki/fiction/`.
+
+This workflow is process-only. It does not create QFUDS evidence, roadmap
+status, QFUDS support, validation, or Level 2B admission.
+
+Workflow index: [QFUDS Agent Workflows](README.md).
+
+## Core Rule
+
+Manage fiction like an IP studio, not like loose one-off documents.
+
+Before writing or moving fiction, classify the idea by these layers:
+
+```text
+studio rule -> catalog entry -> universe/IP -> continuity branch -> work -> bible/design/draft/release
+```
+
+Do not decide by topic alone. Decide by ownership:
+
+- `studio`: how agents write, review, verify, and commit fiction.
+- `catalog`: what exists, what is active, reading order, status board.
+- `universe/IP`: shared fictional world, science-fiction premise, institutions,
+  timeline, recurring motifs.
+- `continuity`: canon, soft-canon, elseworld, prototype, retired, anthology
+  ordering, multiverse policy.
+- `work`: a specific series, novel, short story, webtoon-like run, anthology,
+  or elseworld branch.
+- `bible`: work-local reference sheet for continuity, cast, point of view,
+  tone, local rules, and canon constraints.
+- `story_design`: outline, arcs, beat sheet, scene list, reveal order.
+- `drafts`: prose, translations, revisions.
+- `release`: cleaned publication/export candidate if one exists.
+
+## Recommended Target Shape
+
+Use this target shape for new fiction work. Existing legacy paths may remain
+until migrated, but new major work should follow this model.
+
+```text
+docs/wiki/fiction/
+  00_studio/
+  01_catalog/
+  10_universes/
+    00_multiverse/
+    <universe-id>/
+      README.md
+      00_continuity/
+      10_world/
+      20_series/
+      30_shorts/
+      40_anthologies/
+      50_elseworlds/
+  90_archive/
+```
+
+Within each work:
+
+```text
+<work-id>/
+  README.md
+  00_bible/
+  10_story_design/
+  20_drafts/
+  30_revisions/
+  40_release/
+```
+
+## Classification Checklist
+
+Before creating a fiction document, answer:
+
+1. Is this a studio rule, catalog entry, universe/IP record, continuity record,
+   work record, story design note, prose draft, revision, or release candidate?
+2. Which universe/IP owns it?
+3. Is it canon, soft-canon, elseworld, prototype, retired, or unclassified?
+4. Does it inherit shared world rules, or does it introduce a local override?
+5. If it introduces a local override, is the override allowed by the continuity
+   policy?
+6. Is this for a series, novel, short, anthology, webtoon-like run, or
+   elseworld branch?
+7. Does it need a work README before any bible/design/draft is added?
+8. Does it touch external references, papers, PDFs, MCP outputs, assets, or
+   source/product claims?
+9. Does it accidentally phrase a fiction premise as QFUDS evidence?
+10. What validation and commit boundary will close this step?
+
+## Work README Contract
+
+Every work folder must have a README before drafts are added.
+
+The README must state:
+
+- universe/IP;
+- format: series, novel, short, anthology, webtoon-like run, or elseworld;
+- canon status;
+- inherited continuity/world/science-boundary documents;
+- local overrides;
+- bible/design/draft/release paths;
+- fiction/provenance boundary.
+
+Use [.agent/templates/fiction/work_readme_template.md](../templates/fiction/work_readme_template.md).
+
+## Bible Rule
+
+`bible` is allowed as a work-local production term, not as the main
+user-facing universe folder name.
+
+Use `00_bible/` inside a work when the document is a continuity reference for
+that work. A bible can include:
+
+- cast and relationships;
+- point of view and voice;
+- setting subset used by the work;
+- local timeline;
+- local motifs;
+- local science-fiction limits;
+- what the work inherits from the universe;
+- what the work overrides.
+
+Do not use `bible` for:
+
+- prose drafts;
+- loose brainstorms;
+- whole-repo fiction system rules;
+- research evidence;
+- external-source cache records.
+
+## Universe Inheritance Rule
+
+Do not make every work a new universe by default.
+
+Default behavior:
+
+```text
+new idea -> existing universe/IP -> work-local README -> inherited rules + local overrides
+```
+
+Create a new universe only when the idea changes the shared premise enough that
+inheritance would be misleading. Examples:
+
+- different physics premise;
+- incompatible timeline;
+- incompatible institutions or history;
+- different genre contract so strong that shared canon would confuse readers;
+- explicit multiverse branch that needs its own continuity policy.
+
+If a work borrows only some motifs from a universe, classify it as `elseworld`
+or create a new universe. Do not write "loosely QFUDS-ish" without a continuity
+classification.
+
+## External Source Boundary
+
+If fiction work touches external paper, web reference, PDF, code repository,
+MCP, asset, image, source, extraction, cache, or product-availability claims,
+also apply [Research Asset and Product Workflow](research-asset-product-workflow.md).
+
+Every resulting fiction document must record:
+
+- workflow marker/link;
+- most specific workflow state token;
+- a statement that the source is fiction craft/background only, not QFUDS
+  evidence.
+
+## Validation
+
+Before commit, run:
+
+```bash
+python3 scripts/validate_docs.py
+python3 scripts/research_consistency.py
+python3 scripts/agent_workflow_guard.py --staged
+make preflight
+sh scripts/git-hooks/pre-commit
+```
+
+For fiction restructuring, also run a local link/state smoke check over
+`docs/wiki/fiction/` when practical.
+

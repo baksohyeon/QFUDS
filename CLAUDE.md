@@ -47,6 +47,8 @@ own copy of project status.
 - Before moving, creating, or indexing documentation, read
   [Documentation Folder Routing Workflow](.agent/workflows/documentation-folder-routing-workflow.md)
   and [Wiki Maintenance Workflow](.agent/workflows/wiki-maintenance-workflow.md).
+  For fiction/IP work, also read
+  [Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
   For SAGA fiction, route operating specs to
   `docs/wiki/fiction/qfuds-saga/00_system/`, series bible / 작품 설정 기준서
   material to `docs/wiki/fiction/qfuds-saga/10_series_bible/`,

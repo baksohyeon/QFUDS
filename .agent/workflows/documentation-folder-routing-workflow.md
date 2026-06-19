@@ -53,7 +53,10 @@ but it must not be promoted into a physical QFUDS source claim.
 
 | Path | Use for | Do not use for |
 | --- | --- | --- |
-| `docs/wiki/fiction/README.md` | landing page for all fiction companion tracks | detailed canon, source claims, roadmap status |
+| `docs/wiki/fiction/README.md` | landing page for all fiction companion tracks and IP-studio routing | detailed canon, source claims, roadmap status |
+| `docs/wiki/fiction/00_studio/` | human-readable fiction studio system notes that mirror `.agent/workflows/fiction-ip-management-workflow.md` | operational authority that conflicts with `.agent/`, prose drafts |
+| `docs/wiki/fiction/01_catalog/` | reading order, project status, canon/continuity index when created | prose drafts, research evidence |
+| `docs/wiki/fiction/10_universes/` | future IP/universe containers with continuity, world, series, shorts, anthology, elseworld branches | loose one-off drafts without a work README |
 | `docs/wiki/fiction/qfuds-saga/README.md` | active SAGA read order, publisher-style shelf map, and track boundary | archived prototypes or old lineage routing |
 | `docs/wiki/fiction/qfuds-saga/00_system/` | operating system for the writing room: agent harness, MCP plan, approval gates, workflow/provenance boundaries | world canon, prose drafts, research evidence, validation language |
 | `docs/wiki/fiction/qfuds-saga/10_series_bible/` | series bible / 작품 설정 기준서: timeline, factions, institutions, naming, science-fiction premise boundaries, stable world facts | operating procedures, one-off brainstorms, raw prose drafts |
@@ -66,6 +69,9 @@ For Codex and Claude Code, the routing rule is:
 
 ```text
 creative workflow/system design -> docs/wiki/fiction/qfuds-saga/00_system/
+fiction IP/studio management design -> docs/wiki/fiction/00_studio/
+fiction catalog/status/read order -> docs/wiki/fiction/01_catalog/
+new universe/IP container -> docs/wiki/fiction/10_universes/<universe-id>/
 active SAGA series bible / canon reference item -> docs/wiki/fiction/qfuds-saga/10_series_bible/
 active SAGA pitch, outline, visual package, or exploratory design -> docs/wiki/fiction/qfuds-saga/20_development/
 active SAGA prose draft with harness boundary -> docs/wiki/fiction/qfuds-saga/30_drafts/

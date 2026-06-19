@@ -60,6 +60,11 @@ Codex와 Claude Code 기준의 운영 경로는
 [Documentation Folder Routing Workflow](../../../../.agent/workflows/documentation-folder-routing-workflow.md)
 가 정한다.
 
+전체 fiction/IP 운영 규칙은
+[Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)
+가 정한다. 이 SAGA 폴더는 장기적으로 `qfuds-verse` 같은 universe/IP 아래의
+series work로 이동할 수 있다. 이동은 사용자 확인 후 별도 migration으로만 한다.
+
 ## Workflow Boundary
 
 이 index는 SAGA 창작 트랙의 선반과 read order를 정한다. 새 외부 paper, web

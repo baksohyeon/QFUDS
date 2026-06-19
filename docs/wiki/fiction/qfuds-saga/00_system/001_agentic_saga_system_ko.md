@@ -23,6 +23,10 @@ QFUDS 본 연구와 분리한다. 여기서 만드는 세계관, 인물, 장면,
 결과가 아니다. 물리 증거가 아니다. QFUDS support, validation, Level 2B
 admission으로 읽지 않는다.
 
+전체 fiction/IP 운영 규칙은
+[Fiction IP Management Workflow](../../../../../.agent/workflows/fiction-ip-management-workflow.md)
+가 관리한다. 이 문서는 그중 `qfuds-saga` series track의 작가실 운영 규칙이다.
+
 SAGA의 창작 premise는 다음 문장으로 시작한다.
 
 ```text
