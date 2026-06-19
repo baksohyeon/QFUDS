@@ -91,7 +91,7 @@ asset_available_not_downloaded
 | --- | --- | --- |
 | right to be forgotten | "망각권이 중요하다" | Mara가 자기 이름이 새겨진 복원 명령서에 침을 뱉지 않고 조용히 뒤집어 놓음 |
 | cyber memorial ritual | "디지털 장례가 확산됐다" | 법정 방청석에 가족들이 holographic memorial veil을 쓰고 있음 |
-| AI reality editing | "AI가 현실을 편집했다" | 증거 화면 속 고대 spaghetti 영상이 웃기다가 갑자기 실제 장례 영상처럼 선명해짐 |
+| AI reality editing | "AI가 현실을 편집했다" | 법정 exhibit이 고대 밈 자체가 아니라 "안심할 만큼 가짜였던 실패"가 사라진 순간을 증거화함 |
 | Bitcoin artifact | "Bitcoin은 고대 artifact다" | 법정 서기가 Genesis Chain block hash를 성물처럼 봉인함 |
 | black-hole restoration | "호킹복사 역연산이 가능하다" | Elias의 손목에 event-horizon exposure burn이 남아 있음 |
 | white-hole return | "화이트홀은 return channel이다" | 금지 protocol 이름이 `Protocolum Regressus`로 봉인되어 있음 |
@@ -322,7 +322,7 @@ Mara의 현재 발화가 동시에 참이라는 첫 사례일 수 있다.
 
 | Beat | Image | Function |
 | --- | --- | --- |
-| 1 | 법정 screen에 고대 AI spaghetti 영상이 재생됨 | The Soft Editing을 웃기고 불길하게 도입 |
+| 1 | 법정 screen에 고대 AI benchmark archive card가 뜸 | The Soft Editing을 "밈"이 아니라 현실 신뢰 붕괴의 ritual origin으로 도입 |
 | 2 | 감사관이 "이것이 visual evidence collapse의 ritual origin"이라고 기록 | 현대 밈을 먼 미래 고대사로 전환 |
 | 3 | Bitcoin Genesis Chain hash가 법정 seal로 제시됨 | 불변 원장 신화 도입 |
 | 4 | Elias의 손목에 event-horizon burn이 보임 | black-hole restoration을 설명 없이 암시 |
@@ -365,7 +365,8 @@ courtroom ritual
 1. 프롤로그 POV를 Continuity Court auditor로 갈지.
 2. Mara의 첫 핵심 대사를 유지할지.
 3. Elias를 비극적 mad scientist로 둘지, 더 위험한 냉혈 인물로 둘지.
-4. The Soft Editing 프롤로그에 spaghetti meme 계열 이미지를 남길지.
+4. The Soft Editing 프롤로그를 특정 밈 재현이 아니라 "안심할 만큼 가짜였던
+   시대감의 붕괴"로 유지할지.
 5. Bitcoin을 `Bitcoin`으로 직접 부르고 `Genesis Chain`을 ritual name으로 둘지.
 6. Keyless Orders를 반AI 혁명으로 바로 등장시킬지, 소문/시위로만 둘지.
 7. 1부 tone을 courtroom SF로 시작할지, 복원 실험실 horror로 시작할지.
