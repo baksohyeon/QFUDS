@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 current_phase: "none"
-status: Phases 1-13 complete; first arc rough draft set and canon consolidation complete; no active GSD phase
+status: Phases 1-14 complete; first arc revision control pass complete; no active GSD phase
 last_updated: 2026-06-19
 progress:
-  total_phases: 13
-  completed_phases: 13
-  total_plans: 13
-  completed_plans: 13
+  total_phases: 14
+  completed_phases: 14
+  total_plans: 14
+  completed_plans: 14
   percent: 100
 ---
 
@@ -23,8 +23,9 @@ See: .planning/PROJECT.md
 
 **Milestone:** v1.0 milestone
 **Current phase:** none
-**Status:** Phases 1-13 complete. `The Broken Crown` first arc rough draft set
-and canon consolidation are complete; next GSD phase not planned.
+**Status:** Phases 1-14 complete. `The Broken Crown` first arc rough draft set,
+canon consolidation, and revision control pass are complete; next GSD phase not
+planned.
 
 ## Session Log
 
@@ -57,3 +58,5 @@ and canon consolidation are complete; next GSD phase not planned.
   English draft and marking the first arc rough draft set complete.
 - 2026-06-19: Completed Phase 13 by adding first arc canon consolidation for
   field marks, character functions, institution functions, and revision gates.
+- 2026-06-19: Completed Phase 14 by adding the first arc full revision pass and
+  setting the next rewrite loop to revised Episodes 1-2.

@@ -52,6 +52,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 13: First arc canon consolidation** - Extract the reusable canon,
   field mark chain, open hooks, and revision checklist from the first arc rough
   draft set. Completed 2026-06-19.
+- [x] **Phase 14: First arc full revision pass** - Convert first arc canon
+  consolidation into concrete rewrite rules and the next two-episode revision
+  loop. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -222,6 +225,18 @@ Plans:
 
 - [x] 13-01: Add first arc canon consolidation and index it.
 
+### Phase 14: First arc full revision pass
+
+**Goal:** Turn the first arc canon consolidation into concrete revision
+controls before rewriting episode prose.
+**Requirements:** [FIC-REVISION-04, FIC-REVISION-05, FIC-REVISION-06]
+**Depends on:** Phase 13
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 14-01: Add first arc full revision pass and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -242,9 +257,10 @@ Phases execute in numeric order.
 | 11. Hawking Court English draft | 1/1 | Complete | 2026-06-19 |
 | 12. The Broken Crown English draft | 1/1 | Complete | 2026-06-19 |
 | 13. First arc canon consolidation | 1/1 | Complete | 2026-06-19 |
+| 14. First arc full revision pass | 1/1 | Complete | 2026-06-19 |
 
 ## Milestone Status
 
-`The Broken Crown` first arc rough draft set is complete, and draft discoveries
-have been consolidated into the series bible. Next work should run a full arc
-revision pass across Episodes 1-6 before arc two planning.
+`The Broken Crown` first arc rough draft set is complete, draft discoveries
+have been consolidated into the series bible, and the full arc revision pass is
+defined. Next work should create revised Episodes 1-2 before arc two planning.

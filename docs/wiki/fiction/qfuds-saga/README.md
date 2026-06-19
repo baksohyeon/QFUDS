@@ -208,7 +208,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Episode 6 English-first first-arc finale draft. Mara의 sealed letter와
       field mark chain으로 첫 arc를 닫고, `who may author loss`를 다음 arc
       질문으로 연다.
-27. [Fiction Catalog](../01_catalog/README.md)
+27. [QFUDS SAGA First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
+    - 1-6화 rough draft를 직접 덮어쓰기 전, arc-level cut/addition,
+      episode-level revision matrix, field mark rules, continuity fixes,
+      다음 rewrite loop를 고정한 revision control pass.
+28. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
@@ -225,9 +229,9 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 | 5. Hawking Court | [009](30_drafts/009_hawking_court_english_draft.md) |
 | 6. The Broken Crown | [010](30_drafts/010_the_broken_crown_english_draft.md) |
 
-다음 자연 작업은 전체 arc revision pass다. series bible consolidation은
-[008 First Arc Canon Consolidation](10_series_bible/008_first_arc_canon_consolidation_ko.md)
-으로 정리되었고, arc two planning은 revision 이후가 더 안전하다.
+전체 arc revision control pass는
+[011 First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
+로 정리되었다. 다음 자연 작업은 revised Episodes 1-2 작성이다.
 
 ## 역할
 

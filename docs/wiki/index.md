@@ -176,6 +176,9 @@ and
   - Series-bible bridge extracting the first arc field mark chain, character and
     institution functions, fiction-only science boundaries, arc two hook, and
     revision checklist.
+- [QFUDS SAGA First Arc Full Revision Pass](fiction/qfuds-saga/30_drafts/011_first_arc_full_revision_pass.md)
+  - Revision control pass for Episodes 1-6, fixing arc-level cuts, required
+    additions, field mark rules, continuity fixes, and the next rewrite loop.
 
 ## Postmortems
 
