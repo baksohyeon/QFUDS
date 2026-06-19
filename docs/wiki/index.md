@@ -120,6 +120,10 @@ and
 - [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](fiction/qfuds-saga/10_series_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
   - post-AGI civilization history, Marxian general-intellect lens,
     `It from bit(s)`/Bitcoin joke layer, and English-first fiction protocol.
+- [QFUDS SAGA Cryptographic Death and Hash Covenant](fiction/qfuds-saga/10_series_bible/007_cryptographic_death_and_hash_covenant_ko.md)
+  - user-provided hash/KDF/cryptographic-hash notes translated into SAGA rules
+    for Cryptographic Death, Preimage Restoration, Genesis Chain, and
+    identity-flood attacks; fiction/provenance only.
 - [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/qfuds-saga/30_drafts/002_mara_veyr_prologue_english_revision_ko.md)
   - English-first tone revision for the Mara Veyr prologue, with Korean
     translation and revision notes; fiction/provenance only.

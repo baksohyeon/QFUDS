@@ -135,19 +135,23 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 8. [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](10_series_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
    - AI/AGI 이후 문명사, Marxian general intellect lens, cryptographic death,
      `It from bit(s)`/Bitcoin joke layer, 영어 원문 우선 작성 프로토콜.
-9. [QFUDS SAGA Mara Veyr Prologue Research Harness](00_system/002_mara_veyr_prologue_research_harness_ko.md)
+9. [QFUDS SAGA Cryptographic Death and Hash Covenant](10_series_bible/007_cryptographic_death_and_hash_covenant_ko.md)
+   - 사용자 제공 hash/KDF/cryptographic-hash 개념 노트를 SAGA의 Cryptographic
+     Death, Preimage Restoration, Genesis Chain, identity-flood attack,
+     key/salt sovereignty 설정 기준서로 변환한 canon-candidate reference.
+10. [QFUDS SAGA Mara Veyr Prologue Research Harness](00_system/002_mara_veyr_prologue_research_harness_ko.md)
    - Mara Veyr 프롤로그를 쓰기 전, 소설 craft, COVID 이후 digital afterlife,
      right to be forgotten, AI reality editing, Bitcoin artifact, science-audit
      경계를 묶는 writer harness.
-10. [QFUDS SAGA Mara Veyr Prologue Draft](30_drafts/001_mara_veyr_prologue_draft_ko.md)
+11. [QFUDS SAGA Mara Veyr Prologue Draft](30_drafts/001_mara_veyr_prologue_draft_ko.md)
    - cryptographic death, Genesis Chain, Last Archive, The Broken Crown,
      Continuity Court, Mara Veyr 자기부정 복원체 사건을 실제 프롤로그 장면으로
      테스트한 초안.
-11. [QFUDS SAGA Mara Veyr Prologue English Revision](30_drafts/002_mara_veyr_prologue_english_revision_ko.md)
+12. [QFUDS SAGA Mara Veyr Prologue English Revision](30_drafts/002_mara_veyr_prologue_english_revision_ko.md)
     - 008 초안을 보존한 상태에서 영어 원문 우선으로 다시 쓴 tone revision.
       quiet catastrophe, Continuity Court, Genesis Chain, Last Archive의
       question-correction 기능을 실제 장면으로 테스트한다.
-12. [QFUDS SAGA Visual Exhibit Design](20_development/002_visual_exhibit_design_ko.md)
+13. [QFUDS SAGA Visual Exhibit Design](20_development/002_visual_exhibit_design_ko.md)
     - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
       metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
 

@@ -15,6 +15,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 
 - [x] **Phase 1: Fiction IP GSD Harness** - Make GSD track the fiction IP
   workflow and the first safe execution phase. Completed 2026-06-19.
+- [x] **Phase 2: Integrate cryptography notes into QFUDS SAGA canon boundary** -
+  Convert user-provided hash/KDF/cryptographic-hash notes into a
+  fiction/provenance-only SAGA reference. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -39,6 +42,18 @@ Plans:
 
 - [x] 01-01: Create the fiction/IP GSD phase brief and acceptance checklist.
 
+### Phase 2: Integrate cryptography notes into QFUDS SAGA canon boundary
+
+**Goal:** Convert user-provided hash/KDF/cryptographic-hash notes into a
+fiction/provenance-only SAGA canon-boundary reference.
+**Requirements**: [FIC-CRYPTO-01, FIC-CRYPTO-02, FIC-CRYPTO-03]
+**Depends on:** Phase 1
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 02-01: Add cryptographic death and hash-covenant series reference.
+
 ## Progress
 
 **Execution Order:**
@@ -47,3 +62,4 @@ Phases execute in numeric order.
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Fiction IP GSD Harness | 1/1 | Complete   | 2026-06-19 |
+| 2. Cryptography notes integration | 1/1 | Complete | 2026-06-19 |
