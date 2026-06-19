@@ -184,7 +184,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 20. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
     - 003 opening과 004 hearing continuation을 보존한 상태에서 하나의
       Episode 1 rough cut으로 압축한 revision pass.
-21. [Fiction Catalog](../01_catalog/README.md)
+21. [QFUDS SAGA The Dead Exchange English Draft](30_drafts/006_the_dead_exchange_english_draft.md)
+    - Episode 2 English-first draft. Genesis Chain을 죽은 시장이 아니라
+      살아 있는 상속/권력 장치로 보여 주고, `ACCESS != AUTHORITY` mark를
+      도입한다.
+22. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

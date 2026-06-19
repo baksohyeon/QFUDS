@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 current_phase: "none"
-status: Phases 1-7 complete; no active GSD phase
+status: Phases 1-8 complete; no active GSD phase
 last_updated: 2026-06-19
 progress:
-  total_phases: 7
-  completed_phases: 7
-  total_plans: 7
-  completed_plans: 7
+  total_phases: 8
+  completed_phases: 8
+  total_plans: 8
+  completed_plans: 8
   percent: 100
 ---
 
@@ -23,7 +23,7 @@ See: .planning/PROJECT.md
 
 **Milestone:** v1.0 milestone
 **Current phase:** none
-**Status:** Phases 1, 2, 3, 4, 5, 6, and 7 complete; next GSD phase not planned.
+**Status:** Phases 1, 2, 3, 4, 5, 6, 7, and 8 complete; next GSD phase not planned.
 
 ## Session Log
 
@@ -44,3 +44,5 @@ See: .planning/PROJECT.md
   continuation English draft.
 - 2026-06-19: Completed Phase 7 by adding the `Exhibit S-0` episode 1 revision
   pass.
+- 2026-06-19: Completed Phase 8 by adding the `The Dead Exchange` Episode 2
+  English draft.

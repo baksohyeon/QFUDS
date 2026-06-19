@@ -152,6 +152,10 @@ and
 - [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](fiction/qfuds-saga/30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
   - English-first revision pass combining the Exhibit S-0 opening and hearing
     continuation into one episode 1 rough cut; fiction/provenance only.
+- [QFUDS SAGA The Dead Exchange English Draft](fiction/qfuds-saga/30_drafts/006_the_dead_exchange_english_draft.md)
+  - English-first Episode 2 draft that turns Genesis Chain into a dead-market
+    succession institution and introduces `ACCESS != AUTHORITY`;
+    fiction/provenance only.
 
 ## Postmortems
 

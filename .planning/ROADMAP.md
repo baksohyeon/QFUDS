@@ -34,6 +34,9 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 7: Exhibit S-0 episode 1 revision pass** - Combine the opening
   and hearing continuation into one cleaner episode 1 rough cut. Completed
   2026-06-19.
+- [x] **Phase 8: The Dead Exchange English draft** - Draft Episode 2 as a
+  Genesis Chain succession case where recovered access conflicts with living
+  authority. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -131,6 +134,18 @@ Plans:
 
 - [x] 07-01: Add Exhibit S-0 episode 1 revised English draft and index it.
 
+### Phase 8: The Dead Exchange English draft
+
+**Goal:** Continue the first arc with Episode 2 by turning Genesis Chain into a
+dead-market succession institution rather than exposition.
+**Requirements:** [FIC-DRAFT-07, FIC-DRAFT-08, FIC-DRAFT-09]
+**Depends on:** Phase 7
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 08-01: Add The Dead Exchange English draft and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -145,3 +160,4 @@ Phases execute in numeric order.
 | 5. Exhibit S-0 opening English draft | 1/1 | Complete | 2026-06-19 |
 | 6. Exhibit S-0 hearing continuation draft | 1/1 | Complete | 2026-06-19 |
 | 7. Exhibit S-0 episode 1 revision pass | 1/1 | Complete | 2026-06-19 |
+| 8. The Dead Exchange English draft | 1/1 | Complete | 2026-06-19 |
