@@ -77,6 +77,9 @@ agentic harness, workflow boundary, science-audit boundary, revision memo가 붙
 11. [QFUDS SAGA Visual Exhibit Design](system/011_visual_exhibit_design_ko.md)
     - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
       metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
+12. [QFUDS SAGA World Anchor and Verisimilitude](system/012_world_anchor_and_verisimilitude_ko.md)
+    - SAGA가 현대 2023-2026 AI 현실감 붕괴를 고대사로 삼는 우리 우주의 먼
+      미래라는 점, 그리고 기적을 제도/계급/절차로 바꾸는 핍진성 규칙.
 
 ## 역할
 

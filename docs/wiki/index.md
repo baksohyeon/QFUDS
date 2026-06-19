@@ -114,6 +114,9 @@ and
 - [QFUDS SAGA Visual Exhibit Design](fiction/qfuds-saga/system/011_visual_exhibit_design_ko.md)
   - visual-exhibit plan for reusing existing rough-tanh assets as fictional
     court/archive plates; not research evidence.
+- [QFUDS SAGA World Anchor and Verisimilitude](fiction/qfuds-saga/system/012_world_anchor_and_verisimilitude_ko.md)
+  - world-anchor and plausibility spine for the far-future SAGA: modern AI era
+    as archaeological layer, miracles as institutions, fiction/provenance only.
 
 ## Postmortems
 

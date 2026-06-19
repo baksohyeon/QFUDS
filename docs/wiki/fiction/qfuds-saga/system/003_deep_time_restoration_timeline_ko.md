@@ -34,6 +34,15 @@ last_updated: 2026-06-19
 이 문서는 fiction/provenance only다. QFUDS 연구 결과, 물리 증거, support,
 validation, Level 2B admission이 아니다.
 
+## World Anchor
+
+이 세계관은 별개의 이세계가 아니라 **우리 우주의 먼 미래**다. 독자의 현재는
+후대에 `The Soft Editing`이라고 불리는 고대 지층으로 남는다.
+
+자세한 시대 좌표와 핍진성 규칙은
+[QFUDS SAGA World Anchor and Verisimilitude](012_world_anchor_and_verisimilitude_ko.md)
+를 따른다.
+
 ## Influence Boundary
 
 이 문서는 장르 구조를 참고한다. 고유 설정, 인물, 명칭, 사건 전개를 복제하지

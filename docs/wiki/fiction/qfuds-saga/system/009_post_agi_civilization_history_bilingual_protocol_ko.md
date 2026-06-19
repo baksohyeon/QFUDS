@@ -36,6 +36,15 @@ Last Archive는 질문 자체를 바꾸었다.
 이 문서는 fiction/provenance only다. QFUDS 연구 결과, 물리 증거, support,
 validation, Level 2B admission이 아니다.
 
+## World Anchor
+
+SAGA의 기준 세계는 현대에서 이어지는 우리 우주의 먼 미래다. 2023-2026 AI
+현실감 붕괴는 현재 장면이 아니라 후대가 발굴하는 고대 지층이다.
+
+상세한 timeline/핍진성 규칙은
+[QFUDS SAGA World Anchor and Verisimilitude](012_world_anchor_and_verisimilitude_ko.md)
+를 따른다.
+
 ## Workflow Boundary
 
 이 문서는 외부 사상사/문학사 자료를 SAGA worldbuilding lens로만 사용한다. 새
