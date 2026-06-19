@@ -108,6 +108,9 @@ and
 - [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](fiction/qfuds-saga/system/009_post_agi_civilization_history_bilingual_protocol_ko.md)
   - post-AGI civilization history, Marxian general-intellect lens,
     `It from bit(s)`/Bitcoin joke layer, and English-first fiction protocol.
+- [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/qfuds-saga/system/010_mara_veyr_prologue_english_revision_ko.md)
+  - English-first tone revision for the Mara Veyr prologue, with Korean
+    translation and revision notes; fiction/provenance only.
 
 ## Postmortems
 

@@ -53,6 +53,10 @@ last_updated: 2026-06-19
 9. [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](system/009_post_agi_civilization_history_bilingual_protocol_ko.md)
    - AI/AGI 이후 문명사, Marxian general intellect lens, cryptographic death,
      `It from bit(s)`/Bitcoin joke layer, 영어 원문 우선 작성 프로토콜.
+10. [QFUDS SAGA Mara Veyr Prologue English Revision](system/010_mara_veyr_prologue_english_revision_ko.md)
+    - 008 초안을 보존한 상태에서 영어 원문 우선으로 다시 쓴 tone revision.
+      quiet catastrophe, Continuity Court, Genesis Chain, Last Archive의
+      question-correction 기능을 실제 장면으로 테스트한다.
 
 ## 역할
 
