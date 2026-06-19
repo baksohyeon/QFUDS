@@ -165,7 +165,11 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - `Exhibit S-0` working title의 first episode beat sheet. Liora 중심
       장면 순서, 인물 압력, reveal order, technical guard, 다음 draft 후보를
       정리한다.
-16. [Fiction Catalog](../01_catalog/README.md)
+16. [QFUDS SAGA Genesis Chain Artifact Scene Packet](20_development/005_genesis_chain_artifact_scene_packet_ko.md)
+    - Bitcoin/Genesis Chain을 zero price, crown artifact, broken
+      cryptography, black-hole restoration myth로 나누어 first arc 장면
+      압력으로 바꾸는 development packet.
+17. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 

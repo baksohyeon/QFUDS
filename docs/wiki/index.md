@@ -134,6 +134,10 @@ and
 - [QFUDS SAGA Visual Exhibit Design](fiction/qfuds-saga/20_development/002_visual_exhibit_design_ko.md)
   - visual-exhibit plan for reusing existing rough-tanh assets as fictional
     court/archive plates; not research evidence.
+- [QFUDS SAGA Genesis Chain Artifact Scene Packet](fiction/qfuds-saga/20_development/005_genesis_chain_artifact_scene_packet_ko.md)
+  - development packet turning Bitcoin/Genesis Chain into zero-price artifact,
+    broken-crown exhibit, cryptographic-collapse theology, and black-hole
+    restoration scene pressure; fiction/provenance only.
 
 ## Postmortems
 

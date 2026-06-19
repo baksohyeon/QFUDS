@@ -18,6 +18,10 @@ does not modify QFUDS research status, evidence, validation, or Level 2B gates.
 - [x] **Phase 2: Integrate cryptography notes into QFUDS SAGA canon boundary** -
   Convert user-provided hash/KDF/cryptographic-hash notes into a
   fiction/provenance-only SAGA reference. Completed 2026-06-19.
+- [x] **Phase 3: Genesis Chain artifact scene packet** - Convert the
+  Bitcoin-as-ancient-artifact, zero-price, broken-cryptography, and
+  black-hole-reverse-computation material into a fiction/provenance-only scene
+  development packet. Completed 2026-06-19.
 
 ## Phase Details
 
@@ -54,6 +58,19 @@ Plans:
 
 - [x] 02-01: Add cryptographic death and hash-covenant series reference.
 
+### Phase 3: Genesis Chain artifact scene packet
+
+**Goal:** Convert the Genesis Chain material into scene pressure for the first
+arc without turning Bitcoin, cryptography, black holes, white holes, or QFUDS
+into real-world prediction or research evidence.
+**Requirements:** [FIC-GENESIS-01, FIC-GENESIS-02, FIC-GENESIS-03]
+**Depends on:** Phase 2
+**Plans:** 1/1 plans complete
+
+Plans:
+
+- [x] 03-01: Add Genesis Chain artifact scene packet and index it.
+
 ## Progress
 
 **Execution Order:**
@@ -63,3 +80,4 @@ Phases execute in numeric order.
 |-------|----------------|--------|-----------|
 | 1. Fiction IP GSD Harness | 1/1 | Complete   | 2026-06-19 |
 | 2. Cryptography notes integration | 1/1 | Complete | 2026-06-19 |
+| 3. Genesis Chain artifact scene packet | 1/1 | Complete | 2026-06-19 |
