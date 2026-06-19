@@ -220,7 +220,15 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
     - Episode 2 v2 cut. Noor의 household privacy, maternal burial record,
       kinship graph cost를 먼저 제시하고, `ACCESS != AUTHORITY`를 living
       cost에 묶는다.
-30. [Fiction Catalog](../01_catalog/README.md)
+30. [QFUDS SAGA The Last Hodler Revised V2 English Draft](30_drafts/014_the_last_hodler_revised_v2_english_draft.md)
+    - Episode 3 v2 cut. 군중 rhetoric을 줄이고, Ione을 통해 Aletheia split을
+      앞당기며, Elias의 analogy transfer가 `NO CONSENT BY ANALOGY`로 막히는
+      과정을 더 직접적으로 보여준다.
+31. [QFUDS SAGA Identity Flood Revised V2 English Draft](30_drafts/015_identity_flood_revised_v2_english_draft.md)
+    - Episode 4 v2 cut. Null-Key Cells를 단순 공격자가 아니라 court appetite를
+      드러내는 애매한 고발자로 먼저 제시하고, `PLURALITY IS NOT CONSENT`를
+      proof overflow의 living cost에 묶는다.
+32. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
@@ -239,14 +247,16 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 
 전체 arc revision control pass는
 [011 First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
-로 정리되었다. Revised v2 pass는 현재 1-2화까지 진행되었다.
+로 정리되었다. Revised v2 pass는 현재 1-4화까지 진행되었다.
 
 | Revised pass | Draft |
 | --- | --- |
 | 1. Exhibit S-0 v2 | [012](30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md) |
 | 2. The Dead Exchange v2 | [013](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md) |
+| 3. The Last Hodler v2 | [014](30_drafts/014_the_last_hodler_revised_v2_english_draft.md) |
+| 4. Identity Flood v2 | [015](30_drafts/015_identity_flood_revised_v2_english_draft.md) |
 
-다음 자연 작업은 revised Episodes 3-4 작성이다.
+다음 자연 작업은 revised Episodes 5-6 작성이다.
 
 ## 역할
 

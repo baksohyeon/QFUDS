@@ -187,6 +187,14 @@ and
   - English-first Episode 2 v2 cut that gives Noor concrete household and
     burial-record cost before the legal argument and ties `ACCESS != AUTHORITY`
     to lived authority; fiction/provenance only.
+- [QFUDS SAGA The Last Hodler Revised V2 English Draft](fiction/qfuds-saga/30_drafts/014_the_last_hodler_revised_v2_english_draft.md)
+  - English-first Episode 3 v2 cut that shortens crowd rhetoric, seeds the
+    Aletheia split earlier, and makes analogy transfer visible before
+    `NO CONSENT BY ANALOGY`; fiction/provenance only.
+- [QFUDS SAGA Identity Flood Revised V2 English Draft](fiction/qfuds-saga/30_drafts/015_identity_flood_revised_v2_english_draft.md)
+  - English-first Episode 4 v2 cut that makes Null-Key Cells morally ambiguous,
+    reduces graph-count exposition, and ties `PLURALITY IS NOT CONSENT` to
+    lived proof overflow; fiction/provenance only.
 
 ## Postmortems
 
