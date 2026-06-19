@@ -38,7 +38,7 @@ This document touches external web references, AI-writing examples, MCPs,
 papers, PDFs, and code/tool concepts only as creative-system references.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow states:
 

@@ -40,7 +40,7 @@ only. It does not introduce a research asset, data product, numerical extraction
 or QFUDS evidence claim.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow states:
 

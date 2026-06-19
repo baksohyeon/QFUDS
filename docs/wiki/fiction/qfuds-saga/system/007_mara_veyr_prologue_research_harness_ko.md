@@ -41,7 +41,7 @@ source로만 사용한다. 새 연구 asset, numerical product, PDF digitization
 QFUDS evidence claim을 만들지 않는다.
 
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md)
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md)
 가 계속 지배한다.
 
 현재 workflow state:

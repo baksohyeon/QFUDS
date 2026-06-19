@@ -50,6 +50,10 @@ last_updated: 2026-06-19
    - cryptographic death, Genesis Chain, Last Archive, The Broken Crown,
      Continuity Court, Mara Veyr 자기부정 복원체 사건을 실제 프롤로그 장면으로
      테스트한 초안.
+9. [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](system/009_post_agi_civilization_history_bilingual_protocol_ko.md)
+   - AI/AGI 이후 문명사, Marxian general intellect lens, cryptographic death,
+     `It from bit`/Bitcoin joke layer, 영어 원문 우선 작성 프로토콜.
+
 ## 역할
 
 이 트랙의 목표는 QFUDS를 증명하는 것이 아니다.
