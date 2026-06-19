@@ -66,3 +66,5 @@ complete; next GSD phase not planned.
   and setting the next rewrite loop to revised Episodes 5-6.
 - 2026-06-19: Completed Phase 17 by adding revised v2 drafts for Episodes 5-6
   and closing the paired first arc revision loop.
+- 2026-06-19: Generated the v1.0 fiction handoff summary in
+  `.planning/reports/MILESTONE_SUMMARY-v1.0.md`.
