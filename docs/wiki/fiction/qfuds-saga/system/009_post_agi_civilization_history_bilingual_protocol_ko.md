@@ -59,6 +59,7 @@ asset_available_not_downloaded
 | --- | --- | --- | --- |
 | [Marx, Grundrisse: Fragment on Machines](https://www.marxists.org/archive/marx/works/1857/grundrisse/ch14.htm) | science, machinery, social knowledge, labour time, and the `general intellect` becoming productive force | `hit_not_cached` | AGI가 "사회적 지식"을 포획한 뒤, 노동보다 기록/접근/복원권이 권력이 되는 문명사 렌즈 |
 | [Marx and Engels, Communist Manifesto ch. 1](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm) | capitalism as constant revolutionizing of production and social relations | `hit_not_cached` | AGI 전후 세계를 "끝없는 최적화가 제도와 현실감을 갉아먹는 시대"로 설정 |
+| [Foschini, Where the "it from bit" come from?](https://arxiv.org/abs/1306.0545) | Wheeler의 1989 `it from bit` essay 맥락과 정보/물리/질문 구조 | `hit_not_cached` | `It from bit(s)`/Bitcoin 농담을 철학 motif의 변주로만 쓰고, 물리 증명처럼 쓰지 않기 위한 경계 |
 | [E. M. Forster, The Machine Stops](https://en.wikipedia.org/wiki/The_Machine_Stops) | 기술 의존, 고립, 기계가 생활세계 전체를 대체하는 디스토피아적 선례 | `hit_not_cached` | 직접 차용하지 않고 "기계가 멈추는 공포"를 "기계가 절대 잊지 않는 공포"로 반전 |
 | User-provided Sam Smith / spaghetti-era reflection | early AI as safely fake, then reality slowly becoming editable while humans meme and argue | `not searched` | The Soft Editing의 감정적 seed |
 | User-provided Asimov `The Last Question` preference | epoch-spanning question recursion and cosmic final answer structure | `not searched` | 직접 복제 금지. 질문을 "entropy can reverse?"에서 "should the reversed be returned?"로 변주 |
