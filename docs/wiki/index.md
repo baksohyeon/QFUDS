@@ -88,6 +88,9 @@ and
 - [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/system/005_narrative_pov_theme_naming_ko.md)
   - narrative POV decision rationale, core theme, historical borrowing rules,
     and common/formal naming strata before the SAGA bible.
+- [QFUDS SAGA Bitcoin Genesis Chain and Restoration Myth](fiction/qfuds-saga/system/006_bitcoin_genesis_chain_and_restoration_myth_ko.md)
+  - Bitcoin as Genesis Chain artifact, `it from bit`, soft reality editing,
+    cryptographic death, and black-hole/white-hole restoration myth boundaries.
 ## Postmortems
 
 - [Wiki Postmortems](postmortem/README.md) - index for process-failure records.
