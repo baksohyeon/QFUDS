@@ -58,6 +58,21 @@ English counterpart:
 - Source boundary: no new external source/product claim; research asset state is
   `not searched`.
 
+## Series Gate Applied
+
+`00_workroom/005`의 시리즈 프리플라이트를 1편에 역적용했다. 이 표가 없으면
+release 후보로 유지하지 않는다.
+
+| Gate | Episode 1 decision |
+| --- | --- |
+| Repeating cast sheet | Liora [012](../00_bible/012_character_liora_sen_ko.md); Mara/Elias/Pell/Last Archive [016](../00_bible/016_character_ensemble_voices_relationships_ko.md) |
+| POV person | Liora Sen 제한 3인칭. Mara의 내면은 직접 열지 않고 말·몸·선택으로만 노출 |
+| Causal link | Genesis Chain 접근권이 Mara 복원 청구로, Mara의 거부가 Liora의 임시 표식으로 이어짐 |
+| Escalation | 사적 배우자 청구가 복원 문명의 첫 공개 제도 언어(`RECOVERABLE / NOT CLAIMABLE`)로 상승 |
+| Central question | "복원 가능하면 청구 가능한가"를 열고, 1부의 `who may author loss` 질문으로 연결 |
+| Ensemble/serial thread | Pell은 패소해도 표식을 상품화할 위험을 얻고, Last Archive는 답 대신 질문을 고쳐 다음 편의 법적 균열을 만든다 |
+| Standalone ban | 사건은 지연될 뿐 해결되지 않는다. 독자는 2편에서 죽은 접근권과 산 권위의 충돌을 따라가야 한다 |
+
 ## Exhibit S-0
 
 마라 베이르는 사흘 전에 죽었다.
@@ -76,10 +91,11 @@ English counterpart:
 사람이었다. 산 사람들은 돌아온 이의 소매를 자꾸 만졌다. 정말 돌아왔는지
 확인하려는 것처럼.
 
-돌려받는 게 끝이 아니라는 게 진짜 문제였다. 돌아온 사람이 정말 그 사람인지, 법이
-그 사람으로 인정해 줄지는 또 다른 싸움이었다. 그 싸움을 판정하는 곳이 Court of
-Continuance, 연속성 법원이었고, Liora Sen은 거기서 아홉 해째 판정을 내리는
-감사관이었다. 아홉 해를 했는데도, '죽음'이라는 말은 아직 싫었다.
+Liora Sen은 그 손들을 지나쳐 출입 게이트의 물기를 털었다. 돌려받는 게 끝이
+아니라는 걸 그녀는 아홉 해째 배웠다. 돌아온 사람이 정말 그 사람인지, 법이 그
+사람으로 인정해 줄지는 또 다른 싸움이었다. 그 싸움을 판정하는 곳이 Court of
+Continuance, 연속성 법원이었고, Liora는 거기서 판정을 내리는 감사관이었다.
+아홉 해를 했는데도, '죽음'이라는 말은 아직 싫었다.
 
 법원은 더 깨끗한 말을 골라 썼다. 복원된 사람. 이탈한 연속성. 청구권을 지닌
 정체성. 자기 앞에 선 사람이 행성의 날씨와 병원 먼지와 조상 백업과 암시장 기도
@@ -155,7 +171,8 @@ Liora는 Mara Veyr의 파일을 닫고 제2심리실로 향했다.
 그는 애도색 회색을 입고 있었다. 파일 안의 누구도 최근에 죽지 않았으므로 정직한
 옷은 아니었다. 이름은 Pell Anson. 면허 있는 상속 중개인, 장부 가문
 2급 대리인, 그리고 절차를 좋아하는 척하는 남자였다. 충분히 일찍 도착하면
-절차 전체를 통째로 살 수 있다고 믿는 부류.
+절차 전체를 통째로 살 수 있다고 믿는 부류. 그런 사람들은 패소해도 빈손으로
+돌아가지 않았다. 절차의 약점을 사 갔다.
 
 "Sen 감사관. 직접 맡아 주셔서 감사드립니다."
 
@@ -446,6 +463,8 @@ Liora는 더 현명해지기 전에 정지 명령에 서명했다.
 
 흥미로운 얼굴이었다.
 
+Liora는 그가 판결이 아니라 상품명을 들었다는 걸 알았다.
+
 그게 더 걱정이었다.
 
 ## Continuity Notes
@@ -465,3 +484,6 @@ Liora는 더 현명해지기 전에 정지 명령에 서명했다.
   반전 누설 없이 캐논 행동을 복원 — "답하지 않고 질문을 고친다"(`THE QUESTION WAS
   MISSTATED`)로 떡밥 1/8 한 곳 심음(story 008). 기존 평서형 출력이 "긍정 진술 안 함"
   캐논과 충돌하던 점만 교정. 의미·플롯·순서·수치·인용 불변, 새 설명 삽입 없음.
+- Series gate retroactive pass: 1편 반복 인물 시트, Liora POV 선언, 단독 완결 금지,
+  Pell 상품화 스레드, 2편 Dead Exchange 연결을 명시하고 본문에 Pell의 후속 위험을
+  한 줄 더 심음.

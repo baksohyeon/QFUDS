@@ -7,6 +7,8 @@ fiction so they cannot reach a commit:
 
   - em dash (U+2014) in reader prose of drafts/release files (banned AI-tell)
   - sensitive gender/identity-politics terms anywhere in fiction (사상검증 scrub)
+  - staged Korean-primary/adaptation drafts from 019 onward must carry the
+    Series Gate Applied table before release-facing edits can land
 
 Soft checks (warn only, exit 0): recurring character without an ensemble entry.
 
@@ -28,6 +30,7 @@ META_HEADINGS = (
     "continuity notes", "안내", "canon", "writing rules", "scene seeds",
     "next use", "목적", "required reads", "institutions", "무엇", "진단",
 )
+SERIES_GATE = "## Series Gate Applied"
 
 
 def staged_fiction():
@@ -93,7 +96,27 @@ def check(files):
                 if EMDASH in ln:
                     errs.append("%s:%d: em dash(—) 본문 금지(AI-tell): %s"
                                 % (f, n, ln.strip()[:60]))
+        if "--staged" in sys.argv and needs_series_gate(f):
+            required = (SERIES_GATE, "| POV person |", "| Standalone ban |")
+            missing = [r for r in required if r not in text]
+            if missing:
+                errs.append("%s: Series Gate Applied 표 필수(누락: %s)"
+                            % (f, ", ".join(missing)))
     return errs
+
+
+def needs_series_gate(path):
+    if "/20_drafts/" not in path:
+        return False
+    name = path.rsplit("/", 1)[-1].lower()
+    prefix = name.split("_", 1)[0]
+    try:
+        number = int(prefix)
+    except ValueError:
+        return False
+    if number < 19:
+        return False
+    return ("korean" in name or "primary" in name or "adaptation" in name)
 
 
 def main():

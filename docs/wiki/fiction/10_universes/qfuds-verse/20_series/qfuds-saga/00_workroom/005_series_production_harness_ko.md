@@ -70,9 +70,28 @@ story bible, Narrative First throughline, September C. Fawkes(Swain), savethecat
 6. 새 기술·과학어가 ep1 비트코인 수준으로 **정확+평이**하게 grounding되나?
 7. 새로 심는 떡밥/회수하는 떡밥을 §떡밥 원장에 적었나?
 8. em dash 0(한국어·영어판 모두), 표식=mark, 민감 주제 0.
-9. **(덴마식 앙상블)** 이 편의 시점 인물이 선언됐나? 이 편이 단독 사건으로 끝나지
-   않고 연재 스레드(중심 질문·떡밥)를 전진시키나? 시점이 시리즈 전체에서
-   로테이션·교직되나? 단독 완결형이면 재설계.
+9. **(덴마식 앙상블 구조, 비모방)** 이 편의 시점 인물이 선언됐나? 이 편이
+   단독 사건으로 끝나지 않고 연재 스레드(중심 질문·떡밥)를 전진시키나? 시점이
+   시리즈 전체에서 로테이션·교직되나? 단독 완결형이면 재설계. 여기서 "덴마식"은
+   문체·캐릭터·고유 설정 모방이 아니라, 단편처럼 읽히는 편들이 더 큰 사가
+   구조로 연결되는 **추상 연재 구조 요건**만 뜻한다.
+
+## 기존 원고 retroactive gate
+
+이 게이트가 생기기 전에 작성된 원고도 예외가 아니다. 이미 개요가 잡힌 1편이라도
+release 후보로 유지하려면 아래를 역적용한다.
+
+1. draft의 `Harness Applied` 아래에 `Series Gate Applied` 표를 넣는다.
+2. 반복 인물은 [016 앙상블 바이블](../00_bible/016_character_ensemble_voices_relationships_ko.md)
+   또는 개별 시트로 Want/Need/Fear/Wound/Lie/관계기능이 확인돼야 한다.
+3. 1편이 단독 완결이 아니라 다음 편으로 넘어갈 연재 스레드를 실제 본문에 남겨야 한다.
+4. draft를 고치면 `40_release/002_first_arc_manuscript_ko.md` build를 동기화한다.
+5. [002 release gate](../30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)에
+   편별 적용 결과를 남긴다.
+
+기계 집행: `scripts/fiction_gate.py --staged`는 `20_drafts/019` 이후 한국어
+primary/adaptation draft를 staged 상태로 올릴 때 `## Series Gate Applied` 표가 없으면
+pre-commit을 실패시킨다. 즉 다음 편을 고치려면 먼저 이 게이트를 통과시켜야 한다.
 
 ## 시리즈 게이트 (릴리즈 차단 조건)
 
