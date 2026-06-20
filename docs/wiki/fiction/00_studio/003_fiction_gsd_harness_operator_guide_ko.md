@@ -275,4 +275,4 @@ gsd-tools --cwd <WORKTREE> phase-plan-index 1
 큰 구조 migration은 완료됐다. 현재 `qfuds-saga`는
 `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/` 아래의
 canonical series work다. 옛 top-level `qfuds-saga/`와 `archive/`는
-compatibility notice만 유지한다.
+migration 완료 후 삭제됐으며, 새 작업에서 재생성하지 않는다.

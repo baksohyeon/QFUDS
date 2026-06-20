@@ -227,7 +227,8 @@ series work로 이동 완료됐다.
 4. old archive를 `90_archive/`로 이동.
 5. 모든 README와 index를 재검증.
 
-기존 top-level `qfuds-saga/`와 `archive/`에는 compatibility notice만 남긴다.
+기존 top-level `qfuds-saga/`와 `archive/` 호환 폴더는 migration 완료 후
+삭제됐다. 새 작업은 canonical 경로에만 만들고, 옛 경로를 재생성하지 않는다.
 
 ## GSD 사용 경계
 

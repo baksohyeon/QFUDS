@@ -67,9 +67,9 @@ but it must not be promoted into a physical QFUDS source claim.
 | `docs/wiki/fiction/90_archive/` | superseded or prototype fiction tracks preserved for provenance | active SAGA system decisions |
 | `docs/wiki/fiction/90_archive/lineage-prototype/` | original Laur Observatory prototype moved out of `docs/wiki/lineage/` | new active fiction work |
 
-Compatibility notices may remain at `docs/wiki/fiction/qfuds-saga/README.md`
-and `docs/wiki/fiction/archive/README.md`, but active work must use the
-canonical routes above.
+The old top-level fiction compatibility folders were removed after migration:
+do not recreate `docs/wiki/fiction/qfuds-saga/` or
+`docs/wiki/fiction/archive/`. Active work must use the canonical routes above.
 
 For Codex and Claude Code, the routing rule is:
 

@@ -18,7 +18,7 @@ last_updated: 2026-06-20
 `qfuds-verse`는 QFUDS에서 파생된 fiction universe/IP 컨테이너다.
 
 이 scaffold는 QFUDS SAGA를 정식 series work로 포함한다. 기존
-`docs/wiki/fiction/qfuds-saga/`는 호환 안내문만 남기고,
+`docs/wiki/fiction/qfuds-saga/` 호환 폴더는 migration 완료 후 삭제됐고,
 canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 ## Classification

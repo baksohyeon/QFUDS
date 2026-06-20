@@ -39,7 +39,6 @@ last_updated: 2026-06-20
 | Universe scaffold | [../10_universes/qfuds-verse/](../10_universes/qfuds-verse/) | QFUDS-derived fiction universe/IP 컨테이너 | active prototype |
 | Active SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | QFUDS-inspired long-form SAGA 작업 선반 | active series work |
 | Archive | [../90_archive/](../90_archive/) | superseded prototype fiction | archived |
-| Compatibility notices | [../qfuds-saga/](../qfuds-saga/), [../archive/](../archive/) | old top-level entrypoints | moved notices only |
 
 ## Active Works
 
@@ -66,8 +65,8 @@ docs/wiki/fiction/
       50_elseworlds/
 ```
 
-기존 top-level `qfuds-saga/`와 `archive/`는 이동 완료됐다. 옛 경로에는 README
-호환 안내문만 남긴다.
+기존 top-level `qfuds-saga/`와 `archive/`는 이동 완료 후 삭제됐다. 새 작업은
+canonical 경로에만 만들고, 옛 경로를 재생성하지 않는다.
 
 ## Migration Decision Record
 
@@ -79,9 +78,9 @@ docs/wiki/fiction/
 4. Work format: long-form SAGA / series candidate
 5. Work README contract: 기존 SAGA README를 series work README로 승격한다.
 6. Existing shelf policy: 기존 `qfuds-saga/`는 canonical path로 이동하고,
-   old path에는 compatibility notice만 남긴다.
-7. Archive policy: `archive/`는 `90_archive/`로 이동하고, old path에는
-   compatibility notice만 남긴다.
+   old path는 삭제한다.
+7. Archive policy: `archive/`는 `90_archive/`로 이동하고, old path는
+   삭제한다.
 8. Internal shelf policy: SAGA 내부는 `00_workroom/`, `00_bible/`,
    `10_story_design/`, `20_drafts/`, `30_revisions/`, `40_release/`를 사용한다.
 

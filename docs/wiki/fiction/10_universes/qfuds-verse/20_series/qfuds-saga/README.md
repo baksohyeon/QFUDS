@@ -291,8 +291,8 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - 한국어 primary, 영어 counterpart, shared continuity check가 끝난 독자용
       release candidate와 export-ready 묶음본을 두는 선반.
 43. [Fiction Catalog](../../../../01_catalog/README.md)
-    - SAGA의 canonical series path, compatibility notice, archive routing,
-      next task candidates를 기록한다.
+    - SAGA의 canonical series path, old-path deletion policy, archive
+      routing, next task candidates를 기록한다.
 44. [QFUDS SAGA 이중언어 용어규율 글로서리](00_workroom/003_bilingual_term_discipline_glossary_ko.md)
     - 한국어 prose 본문에서 영어를 유지할 4범주(고유명사·제도 분위기어·암호물리
       용어·의도적 장치)와 한국어로 옮길 일반명사를 정한 집행 기준.

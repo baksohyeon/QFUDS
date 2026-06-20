@@ -1,0 +1,21 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          { "type": "command", "command": "bash .claude/hooks/no-emoji-check.sh" },
+          { "type": "command", "command": "bash .claude/hooks/no-bak-slang-check.sh" }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash .claude/hooks/remind-korean-style.sh" },
+          { "type": "command", "command": "bash .claude/hooks/remind-research-workflows.sh" }
+        ]
+      }
+    ]
+  }
+}
