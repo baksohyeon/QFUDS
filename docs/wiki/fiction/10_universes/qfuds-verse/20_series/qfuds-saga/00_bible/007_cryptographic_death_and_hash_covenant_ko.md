@@ -16,15 +16,20 @@ last_updated: 2026-06-20
 
 ## 목적
 
-이 문서는 사용자 제공 암호학 노트를 SAGA 설정으로 정리한다. 목표는
+이 문서는 작가 본인의 암호학 학습 노트를 SAGA 설정으로 정리한다. 목표는
 `Cryptographic Death`, `Preimage Restoration`, `Identity Flood`, Bitcoin
 Genesis Chain을 장면 설계에 쓸 수 있게 만드는 것이다.
 
 현실 보안 권고가 아니라 작품 설정 기준서다.
 
+**확장:** 대격변(The Hinge Era)의 난리·붕괴·전환점과, 사용자 학습 노트(해시맵·
+CHF 4계율·NCHF·KDF 계보·HashDoS/SipHash/djb·Bloom/Cuckoo/XOR 필터)의 상세 매핑은
+[013 Cryptographic Death 대격변과 암호 개념 상세 설정](013_cryptographic_death_era_and_crypto_concepts_ko.md)이
+보유한다. 이 문서(007)는 핵심 개념 기준, 013은 era 전개 + 용어 사전.
+
 ## Source Boundary
 
-이 문서는 사용자 제공 노트를 재분류한다. 새 외부 paper, web reference, PDF,
+이 문서는 작가 본인의 학습 노트를 재분류한다. 새 외부 paper, web reference, PDF,
 source bundle, cached asset, extraction product, source-product availability
 claim을 만들지 않는다.
 
