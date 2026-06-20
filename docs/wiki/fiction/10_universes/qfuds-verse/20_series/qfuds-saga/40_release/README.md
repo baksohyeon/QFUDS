@@ -16,8 +16,15 @@ last_updated: 2026-06-20
 이 폴더는 독자에게 보여 줄 수 있는 release candidate, bundled read order,
 export-ready manuscript를 둔다.
 
-현재 release candidate는 없다. 한국어 primary draft, 영어 독립 각색판,
-shared continuity check가 모두 끝난 뒤에만 이 폴더에 산출물을 둔다.
+현재 release candidate:
+
+- [1부 Release Candidate — The Broken Crown](001_first_arc_release_candidate_ko.md)
+  — 6편 한국어 정본 + 영어 counterpart. de-jargon(1차)·현장감 강화(2차) 퇴고와
+  편별 release 감사(ai-tell CLEAN, naturalness A, 필드 마크 무결성, validate)를
+  모두 통과한 읽기 순서 번들.
+
+새 산출물은 한국어 primary draft, 영어 독립 각색판, shared continuity check가
+모두 끝난 뒤에만 이 폴더에 둔다.
 
 ## Boundary
 

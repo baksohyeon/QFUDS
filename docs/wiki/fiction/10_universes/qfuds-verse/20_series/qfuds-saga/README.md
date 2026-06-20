@@ -363,6 +363,10 @@ Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어
 | 5. Hawking Court | [023](20_drafts/023_hawking_court_revised_v2_korean_adaptation.md) | [016](20_drafts/016_hawking_court_revised_v2_english_draft.md) |
 | 6. The Broken Crown | [024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](20_drafts/017_the_broken_crown_revised_v2_english_draft.md) |
 
+이 6편은 현장감·묘사 강화 퇴고([002 기준](30_revisions/002_first_arc_release_immersion_revision_plan_ko.md))와
+편별 release 감사(ai-tell CLEAN, naturalness A, 필드 마크 무결성)를 통과해
+[1부 Release Candidate](40_release/001_first_arc_release_candidate_ko.md)로 묶였다.
+
 ## Arc Two Korean Primary Start
 
 | Step | Output |
