@@ -41,8 +41,57 @@ actually changes.
 | `docs/wiki/glossary/` | stable vocabulary and repository terminology | project status, experiment results |
 | `docs/wiki/governance/` | admission rules, branch gates, missing-physics maps, consistency checks | raw research products or incident narratives |
 | `docs/wiki/lineage/` | idea genealogy, branch dependency maps, demotion/routing provenance | daily progress, external literature, asset products, incident retrospectives |
+| `docs/wiki/fiction/` | separate creative companion tracks derived from provenance, including active SAGA planning and archived prototypes | research evidence, roadmap status, physical-source claims |
 | `docs/wiki/postmortem/` | incident retrospectives, process failures, long-form checkpoints, handoff retrospectives | source products, roadmap status changes |
 | `docs/wiki/research/` | external literature records, cached assets, investigations, source/product recovery work | accepted physical-status claims |
+
+## Fiction Folder Roles
+
+Use these routes for QFUDS-inspired creative work. Fiction can preserve
+motivation, emotional continuity, public explanation, and speculative imagery,
+but it must not be promoted into a physical QFUDS source claim.
+
+| Path | Use for | Do not use for |
+| --- | --- | --- |
+| `docs/wiki/fiction/README.md` | landing page for all fiction companion tracks and IP-studio routing | detailed canon, source claims, roadmap status |
+| `docs/wiki/fiction/00_studio/` | human-readable fiction studio system notes that mirror `.agent/workflows/fiction-ip-management-workflow.md` | operational authority that conflicts with `.agent/`, prose drafts |
+| `docs/wiki/fiction/01_catalog/` | reading order, project status, canon/continuity index when created | prose drafts, research evidence |
+| `docs/wiki/fiction/10_universes/` | future IP/universe containers with continuity, world, series, shorts, anthology, elseworld branches | loose one-off drafts without a work README |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md` | active SAGA read order, publisher-style shelf map, and track boundary | archived prototypes or old lineage routing |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/` | operating system for the writing room: agent harness, MCP plan, approval gates, workflow/provenance boundaries | world canon, prose drafts, research evidence, validation language |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/` | series bible / 작품 설정 기준서: timeline, factions, institutions, naming, science-fiction premise boundaries, stable world facts | operating procedures, one-off brainstorms, raw prose drafts |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/` | pitches, world-direction matrices, outlines, visual packages, exploratory design notes not yet promoted to canon | active operating rules, final prose, research evidence |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/` | prose drafts, language counterparts, translations, scene tests with explicit harness/provenance boundary | canon/reference updates unless promoted separately, raw prose without boundary |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/` | release-facing revision plans, line-edit controls, continuity-fix passes | first-draft prose, stable bible facts, global workflow rules |
+| `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/` | release candidates, bundled read orders, export-ready manuscripts | rough drafts, private plans, unreviewed continuity changes |
+| `docs/wiki/fiction/90_archive/` | superseded or prototype fiction tracks preserved for provenance | active SAGA system decisions |
+| `docs/wiki/fiction/90_archive/lineage-prototype/` | original Laur Observatory prototype moved out of `docs/wiki/lineage/` | new active fiction work |
+
+Compatibility notices may remain at `docs/wiki/fiction/qfuds-saga/README.md`
+and `docs/wiki/fiction/archive/README.md`, but active work must use the
+canonical routes above.
+
+For Codex and Claude Code, the routing rule is:
+
+```text
+creative workflow/system design -> docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/
+fiction IP/studio management design -> docs/wiki/fiction/00_studio/
+fiction catalog/status/read order -> docs/wiki/fiction/01_catalog/
+new universe/IP container -> docs/wiki/fiction/10_universes/<universe-id>/
+active SAGA series bible / canon reference item -> docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/
+active SAGA pitch, outline, visual package, or exploratory design -> docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/
+active SAGA prose draft with harness boundary -> docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/
+active SAGA revision/release prep -> docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/
+active SAGA release candidate -> docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/
+superseded fiction prototype -> docs/wiki/fiction/90_archive/
+idea genealogy that changes research branch classification -> docs/wiki/lineage/
+external source, PDF, paper, data, or product claim -> docs/wiki/research/
+```
+
+If a fiction document touches an external paper, web reference, PDF, code
+repository, MCP, or source/product availability claim, also apply
+[Research Asset and Product Workflow](research-asset-product-workflow.md) and
+record the workflow state token in the fiction document.
 
 ## Research Folder Roles
 
@@ -74,6 +123,7 @@ docs own.
 | Executed investigation result | investigation `conclusions/README.md`; chain read order | governance only if an admission rule itself changes |
 | Known-model distinction result | investigation conclusion closeout | lineage if branch classification changes; roadmap only if admission status changes |
 | Incident or process lesson | `docs/wiki/postmortem/README.md`; `docs/wiki/index.md` if useful | workflows only if a repeatable operating rule is created |
+| Fiction companion or SAGA harness record | `docs/wiki/fiction/README.md`; `docs/wiki/index.md` if useful | lineage only if the research branch genealogy changes |
 
 ## Status Boundary
 

@@ -61,9 +61,13 @@ Short version:
   is a Korean fiction companion that preserves the original short story and
   adds the more SF-scale expansion "암호문을 삼킨 우주." It is not research
   evidence.
-- [QFUDS Fiction Saga](docs/wiki/lineage/fiction/README.md) is a Korean fiction
-  series folder with characters, relationships, and episode arcs. It is
-  worldbuilding/provenance, not research evidence.
+- [QFUDS Fiction Saga Archive](docs/wiki/fiction/archive/lineage-prototype/README.md)
+  preserves the original Korean fiction prototype with characters,
+  relationships, and episode arcs. It is worldbuilding/provenance, not research
+  evidence.
+- [QFUDS SAGA](docs/wiki/fiction/qfuds-saga/README.md) is the active fiction
+  system track for SAGA planning, canon, agentic writing workflow, and future
+  drafts.
 
 ## Start Here
 
@@ -78,7 +82,8 @@ Short version:
 | Where retained `Gamma(a)` stopped | [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) |
 | The simplest public story bridge | [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md) |
 | A short SF closing story | [lineage 010: 방정식은 입장권이다 / 암호문을 삼킨 우주](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md) |
-| A serialized SF saga | [QFUDS Fiction Saga](docs/wiki/lineage/fiction/README.md) |
+| A serialized SF saga archive | [QFUDS Fiction Saga Archive](docs/wiki/fiction/archive/lineage-prototype/README.md) |
+| The active SAGA fiction system | [QFUDS SAGA](docs/wiki/fiction/qfuds-saga/README.md) |
 | How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
@@ -993,7 +998,8 @@ History/source notes:
 - [008_gamma_to_academic_iv_bridge_result_ko.md](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md): Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
 - [009_qfuds_public_story_bridge_ko.md](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md): simplest Korean public story bridge for non-specialists; motivation only, not physical evidence
 - [010_qfuds_closing_sf_story_ko.md](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md): Korean fiction companion preserving the original short story and adding "암호문을 삼킨 우주"; motivation only, not physical evidence
-- [QFUDS Fiction Saga](docs/wiki/lineage/fiction/README.md): Korean serialized fiction folder with saga bible and episodes; motivation only, not physical evidence
+- [QFUDS Fiction Saga Archive](docs/wiki/fiction/archive/lineage-prototype/README.md): archived Korean serialized fiction prototype with saga bible and episodes; motivation only, not physical evidence
+- [QFUDS SAGA](docs/wiki/fiction/qfuds-saga/README.md): active fiction-system track for SAGA planning, canon, and future drafts; not research evidence
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules

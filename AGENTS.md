@@ -438,8 +438,8 @@ Future AI agents must behave as research assistants, not advocates.
 Repository-local workflows in [.agent/workflows/](.agent/workflows/) are
 operational SSOTs for repeatable agent procedures. Agents must check
 [QFUDS Agent Workflows](.agent/workflows/README.md) and follow every applicable
-workflow before making any research, literature, data-product, asset,
-extraction, coverage, or postmortem claim.
+workflow before making any documentation-routing, wiki-maintenance, research,
+literature, data-product, asset, extraction, coverage, or postmortem claim.
 
 For external literature, web, PDF, arXiv source, supplement, NASA/LAMBDA,
 BAO/DESI/eBOSS, Zenodo/OSF/Dataverse/GitHub, page-family, figure, table, code,
@@ -452,6 +452,24 @@ workflow marker/link and the most specific workflow state token, such as
 Repository enforcement lives in `scripts/agent_workflow_guard.py --staged`,
 `scripts/git-hooks/pre-commit`, and `make agent-workflow-guard`; Codex and
 Claude Code prompt hooks are reminders, not substitutes for the commit gate.
+
+For QFUDS-inspired fiction, agents must still follow the documentation-routing
+and wiki-maintenance workflows, plus
+[Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
+Active SAGA work is managed like a small publisher's room: operating specs belong under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/`,
+series bible / 작품 설정 기준서 material under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/`,
+pitches/outlines/visual packages under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/`,
+prose drafts with an explicit harness/provenance boundary under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/`,
+release-facing revision plans under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/`,
+and release candidates under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/`.
+Archived or superseded fiction belongs under `docs/wiki/fiction/90_archive/`.
+Fiction is never research evidence.
 
 Required behavior:
 
