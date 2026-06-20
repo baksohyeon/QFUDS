@@ -368,10 +368,16 @@ Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어
 | Step | Output |
 | --- | --- |
 | Arc Two plan | [007](10_story_design/007_arc_two_korean_primary_plan_ko.md) |
-| Episode 025 Korean primary | [025](20_drafts/025_who_may_author_loss_korean_primary.md) |
+| 세력 명칭 canon 확정 | [015](00_bible/015_factions_canon_naming_ko.md) |
+| Episode 025 Korean primary (`who may author loss`) | [025](20_drafts/025_who_may_author_loss_korean_primary.md) |
+| Episode 025 English counterpart | [026](20_drafts/026_who_may_author_loss_english_counterpart.md) |
+| Episode 027 Korean primary (`who may refuse`) | [027](20_drafts/027_who_may_refuse_korean_primary.md) |
 
-025는 사용자 승인 후 작성된 새 한국어 primary draft다. 영어 Anglophone counterpart는
-아직 작성하지 않았다.
+025·027은 사용자 승인 후 작성된 한국어 primary draft이며 AI-tell·자연스러움 감사를
+통과했다(둘 다 CLEAN/A급). 026은 025의 영어 Anglophone counterpart다. 027의 영어
+counterpart는 아직 작성하지 않았다. 세력 명칭은 [015](00_bible/015_factions_canon_naming_ko.md)에서
+candidate 상태를 걷어내고 canon으로 고정했다(Domus Clavium·Ordo Salis·Custodes
+Umbrae·Curia Continuum·Cellulae Sine Clave 등).
 
 ## Next Korean-Primary Prose Task Gate
 
@@ -387,10 +393,10 @@ Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어
 
 first-arc Korean line polish의 1차 pass(영어 코드스위칭 제거 de-jargon)는
 [30_revisions/001 퇴고 계획](30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)으로
-실행되었다. Arc Two planning과 025 한국어 primary draft도 사용자 승인 후
-작성되었다. 다음 자연스러운 작업은 025 영어 독립 각색판, Arc Two 026 한국어
-primary draft, 또는 019-024를 `40_release/` 후보로 올리기 위한 추가
-line edit/continuity 확정이다.
+실행되었다. Arc Two planning, 025·027 한국어 primary draft, 025 영어 counterpart(026),
+세력 명칭 canon(015)이 사용자 승인 후 작성·감사 완료되었다. 다음 자연스러운 작업은
+027 영어 독립 각색판, Arc Two 028 한국어 primary draft, 또는 019-024를 `40_release/`
+후보로 올리기 위한 추가 line edit/continuity 확정이다.
 
 ## 역할
 
