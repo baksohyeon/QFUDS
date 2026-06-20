@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_factions_cultures_power_ecology_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
 next_gate: user confirms POV/theme/naming before series reference canon
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # QFUDS SAGA 시점 주제 고유명사 규칙
@@ -38,9 +38,9 @@ common name: The Last Archive
 ritual/legal name: Archivum Novissimum
 ```
 
-한국어는 문서 해설과 번역용이다. 본문 canon은 영어, 프랑스어, 라틴어,
-그리스어, 페르시아/아랍 행정어풍, 산스크리트/팔리어풍, 튀르크/몽골 군영어풍을
-기능별로 섞는다.
+한국어는 active prose의 1차 본문 언어다. 다만 주요 고유명사와 field mark는
+영어, 프랑스어, 라틴어, 그리스어, 페르시아/아랍 행정어풍,
+산스크리트/팔리어풍, 튀르크/몽골 군영어풍을 기능별로 섞어 남길 수 있다.
 
 ## POV Decision Matrix
 
@@ -144,15 +144,15 @@ needs faction contrast     -> rotating 3rd-limited POV
 
 ## 고유명사 원칙
 
-한국어 문서는 설명용이다. 소설 본문에서 주요 고유명사는 영어, 프랑스어,
-라틴어 계열을 기본으로 둔다. 필요한 경우 그리스어, 페르시아어풍, 아랍어풍
-음운을 섞어 장기 문명사의 층을 만든다.
+한국어판은 active reader-facing prose다. 소설 본문에서 주요 고유명사는 영어,
+프랑스어, 라틴어 계열을 기본으로 둘 수 있고, 필요한 경우 그리스어,
+페르시아어풍, 아랍어풍 음운을 섞어 장기 문명사의 층을 만든다.
 
 원칙:
 
-- 기관명은 영어/프랑스어/라틴어풍으로 둔다.
-- 일상 별명은 짧은 영어 또는 프랑스어 별칭으로 둔다.
-- 한국어는 독자용 번역 또는 문서 해설에서만 쓴다.
+- 기관명은 영어/프랑스어/라틴어풍을 보존할 수 있다.
+- 일상 별명은 짧은 영어 또는 프랑스어 별칭을 보존할 수 있다.
+- 한국어 본문은 고유명사를 억지로 번역하지 않고 장면 안에서 의미가 드러나게 한다.
 - QFUDS 같은 연구 약어는 그대로 둔다.
 - 너무 노골적인 실제 종교/민족 명칭은 피한다.
 
@@ -215,7 +215,7 @@ needs faction contrast     -> rotating 3rd-limited POV
 
 ## 톤
 
-문체는 한국어 문서와 소설 본문을 분리한다.
+문체는 한국어 reference 문서와 한국어 소설 본문을 분리한다.
 
 문서 톤:
 

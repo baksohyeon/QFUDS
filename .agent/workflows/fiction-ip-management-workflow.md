@@ -108,6 +108,25 @@ If the user asks for a university, writing-program, workshop, literary-craft, or
 formal creative-writing benchmark, also apply
 [University Creative Writing Reference Matrix](../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md).
 
+## Bilingual Draft Sequence Rule
+
+For active SAGA prose, the default writing sequence is Korean-primary:
+
+```text
+Korean primary draft -> English Anglophone adaptation -> shared continuity check
+```
+
+The Korean version is the first reader-facing draft and must read as natural
+Korean fiction, not translationese. The English version is a same-story
+counterpart written for Anglophone rhythm, idiom, and genre expectations, not a
+literal translation. Existing English-first drafts may remain as provenance or
+source counterparts, but new active prose should follow the Korean-primary
+sequence unless the user explicitly asks otherwise.
+
+Shared continuity checks must keep plot events, field marks, character
+decisions, technical terms, and fiction/research boundaries aligned across both
+language versions.
+
 Do not cite web references as loose "materials consulted." If a source changes a
 workflow, template, checklist, or fiction-system document, the changed document
 must record the source URL, allowed claim, blocked claim, and workflow state.

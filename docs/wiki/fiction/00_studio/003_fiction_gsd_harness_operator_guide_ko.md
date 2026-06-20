@@ -10,7 +10,7 @@ depends_on:
   - fiction_gsd_planning_bridge_ko
   - wiki_fiction_index
 next_gate: use this guide before starting the next fiction GSD phase
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # Fiction GSD Harness Operator Guide
@@ -193,6 +193,21 @@ fiction은 QFUDS research가 아니다.
 새 용어나 약어를 추가하면
 [Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md)의
 용어 해설 방식과 맞춘다.
+
+### 8. Korean-primary prose sequence
+
+active SAGA prose는 기본적으로 아래 순서로 작성한다.
+
+```text
+1. 한국어 본문 초안
+2. 영어권 독자용 독립 각색판
+3. 양쪽 continuity / field mark / boundary 점검
+```
+
+한국어판은 독자가 먼저 읽는 본문으로 자연스럽게 쓴다. 영어판은 한국어판을
+직역하지 않고 같은 사건을 영미권 문체와 독서 리듬에 맞춰 다시 쓴다. 기존
+English-first 원고는 provenance로 보존하되, active read order에서는 한국어
+경로를 먼저 보여 준다.
 
 ## 다음 작업을 고르는 법
 

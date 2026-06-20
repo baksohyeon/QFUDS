@@ -9,8 +9,8 @@ depends_on:
   - qfuds_saga_mara_veyr_prologue_draft_ko
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
   - qfuds_saga_mara_veyr_prologue_research_harness_ko
-next_gate: user reviews English-first fiction tone before episode outline
-last_updated: 2026-06-19
+next_gate: legacy bilingual prologue; future prose uses Korean-primary workflow
+last_updated: 2026-06-20
 ---
 
 # QFUDS SAGA Mara Veyr Prologue English Revision

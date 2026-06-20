@@ -10,7 +10,7 @@ depends_on:
   - fiction_gsd_harness_operator_guide_ko
   - wiki_fiction_index
 next_gate: apply this checklist before creating a new work bible or prose draft
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # Creative Writing Craft Harness
@@ -26,6 +26,8 @@ craft 체크리스트다.
 - 약어와 업계 용어는 처음 나올 때 해설한다.
 - 설정, 과학, 세계관보다 인물의 욕망, 선택, 장면, 갈등을 먼저 본다.
 - 소설 본문을 쓰기 전에 어떤 문학적 장치를 쓰는지 기록한다.
+- active SAGA prose는 한국어 본문을 먼저 쓰고, 영어판은 영미권 독자용 독립
+  각색판으로 뒤따르게 한다.
 
 ## Workflow Boundary
 
@@ -62,6 +64,24 @@ hit_not_cached
 | `motif` | 반복 이미지/관념 | 작품 안에서 의미를 쌓는 반복 요소 |
 
 템플릿에는 가능하면 `TBD`만 남기지 말고 `TBD: 아직 정하지 않음`처럼 쓴다.
+
+## Bilingual Prose Gate
+
+SAGA 본문 작성 순서는 다음을 기본값으로 둔다.
+
+```text
+한국어 primary draft -> English Anglophone adaptation -> continuity check
+```
+
+점검 기준:
+
+| 항목 | 통과 기준 |
+| --- | --- |
+| 한국어 본문 | 직역투가 아니라 한국어 소설로 읽힌다 |
+| 영어 각색판 | 한국어판의 문장 순서를 따라 베끼지 않고 영미권 독자 리듬으로 재구성한다 |
+| 공유 사건 | plot event, field mark, 인물 선택, boundary가 양쪽에서 어긋나지 않는다 |
+| 기술어 | `hash`, `key`, `Bitcoin`, `QFUDS` 같은 기술/고유 용어는 필요하면 원어를 보존한다 |
+| 독자 경로 | README/read order는 한국어판을 먼저, 영어 counterpart를 다음에 둔다 |
 
 ## 문예창작 기본 축
 

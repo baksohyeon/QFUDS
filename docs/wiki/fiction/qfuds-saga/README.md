@@ -10,7 +10,7 @@ depends_on:
   - qfuds_fiction_saga_index_ko
   - qfuds_agentic_research_system_ko
 next_gate: choose world direction after user confirmation
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # QFUDS SAGA
@@ -118,7 +118,7 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 2. [QFUDS SAGA 세계관 방향 선택 매트릭스](20_development/001_world_direction_matrix_ko.md)
    - Nested Cosmology, closed-world revelation, deep-time empire, tactical
      philosophy SF, it-from-bit mythos 후보 비교.
-3. [QFUDS SAGA World Anchor and Verisimilitude](10_series_bible/001_world_anchor_and_verisimilitude_ko.md)
+3. [QFUDS SAGA 세계 기준점과 핍진성 규칙](10_series_bible/001_world_anchor_and_verisimilitude_ko.md)
    - SAGA가 현대 2023-2026 AI 현실감 붕괴를 고대사로 삼는 우리 우주의 먼
      미래라는 점, 그리고 기적을 제도/계급/절차로 바꾸는 핍진성 규칙.
 4. [QFUDS SAGA 장기 복원 문명사 타임라인](10_series_bible/002_deep_time_restoration_timeline_ko.md)
@@ -135,9 +135,10 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
    - Bitcoin을 Genesis Chain artifact로 사용하고, `it from bit`, 현실 편집,
      암호학 붕괴, 블랙홀/화이트홀 복원, Mara Veyr 사건을 연결하는 SAGA
      canon 후보.
-8. [QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol](10_series_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
+8. [QFUDS SAGA Post-AGI Civilization History and Korean-Primary Bilingual Protocol](10_series_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
    - AI/AGI 이후 문명사, Marxian general intellect lens, cryptographic death,
-     `It from bit(s)`/Bitcoin joke layer, 영어 원문 우선 작성 프로토콜.
+     `It from bit(s)`/Bitcoin joke layer, 한국어 본문 우선/영어 독립 각색
+     작성 프로토콜.
 9. [QFUDS SAGA Cryptographic Death and Hash Covenant](10_series_bible/007_cryptographic_death_and_hash_covenant_ko.md)
    - 사용자 제공 hash/KDF/cryptographic-hash 개념 노트를 SAGA의 Cryptographic
      Death, Preimage Restoration, Genesis Chain, identity-flood attack,
@@ -155,9 +156,8 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
      Continuity Court, Mara Veyr 자기부정 복원체 사건을 실제 프롤로그 장면으로
      테스트한 초안.
 13. [QFUDS SAGA Mara Veyr Prologue English Revision](30_drafts/002_mara_veyr_prologue_english_revision_ko.md)
-    - 008 초안을 보존한 상태에서 영어 원문 우선으로 다시 쓴 tone revision.
-      quiet catastrophe, Continuity Court, Genesis Chain, Last Archive의
-      question-correction 기능을 실제 장면으로 테스트한다.
+    - legacy English-first tone revision. 한국어 번역을 포함한 bilingual
+      provenance이며, 이후 active prose는 한국어 본문 우선 정책을 따른다.
 14. [QFUDS SAGA Visual Exhibit Design](20_development/002_visual_exhibit_design_ko.md)
     - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
       metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
@@ -180,32 +180,32 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 19. [QFUDS SAGA Exhibit S-0 Opening English Draft](30_drafts/003_exhibit_s0_opening_english_draft.md)
     - `The Broken Crown` 1화 opening candidate. Liora Sen이 Waiting City와
       Court of Continuance를 통과하며 Mara Veyr hearing으로 들어가는
-      English-first prose draft.
+      legacy English-first prose draft.
 20. [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](30_drafts/004_exhibit_s0_hearing_continuation_english_draft.md)
     - 003 opening을 이어 Mara Veyr hearing, Broken Crown exhibit,
       continuity tests, `RECOVERABLE / NOT CLAIMABLE` category, Last Archive
-      question correction까지 진행한 English-first continuation draft.
+      question correction까지 진행한 legacy English-first continuation draft.
 21. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](30_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
     - 003 opening과 004 hearing continuation을 보존한 상태에서 하나의
       Episode 1 rough cut으로 압축한 revision pass.
 22. [QFUDS SAGA The Dead Exchange English Draft](30_drafts/006_the_dead_exchange_english_draft.md)
-    - Episode 2 English-first draft. Genesis Chain을 죽은 시장이 아니라
+    - Episode 2 legacy English-first draft. Genesis Chain을 죽은 시장이 아니라
       살아 있는 상속/권력 장치로 보여 주고, `ACCESS != AUTHORITY` mark를
       도입한다.
 23. [QFUDS SAGA The Last Hodler English Draft](30_drafts/007_the_last_hodler_english_draft.md)
-    - Episode 3 English-first draft. Bitcoin/Genesis Chain을 현재 시장 예측이
+    - Episode 3 legacy English-first draft. Bitcoin/Genesis Chain을 현재 시장 예측이
       아니라 미래 신화와 `civilization-scale consent artifact`로 다루고,
       `NO CONSENT BY ANALOGY` mark를 도입한다.
 24. [QFUDS SAGA Identity Flood English Draft](30_drafts/008_identity_flood_english_draft.md)
-    - Episode 4 English-first draft. Null-Key Cells의 identity graph flood로
+    - Episode 4 legacy English-first draft. Null-Key Cells의 identity graph flood로
       깨끗한 identity proof를 무너뜨리고, `PLURALITY IS NOT CONSENT` mark를
       도입한다.
 25. [QFUDS SAGA Hawking Court English Draft](30_drafts/009_hawking_court_english_draft.md)
-    - Episode 5 English-first draft. Genesis Chain을 cosmic audit 문제로
+    - Episode 5 legacy English-first draft. Genesis Chain을 cosmic audit 문제로
       확장하되, black-hole/Hawking restoration과 QFUDS는 fiction premise로만
       두고 `PHYSICS IS NOT JURISDICTION` mark를 도입한다.
 26. [QFUDS SAGA The Broken Crown English Draft](30_drafts/010_the_broken_crown_english_draft.md)
-    - Episode 6 English-first first-arc finale draft. Mara의 sealed letter와
+    - Episode 6 legacy English-first first-arc finale draft. Mara의 sealed letter와
       field mark chain으로 첫 arc를 닫고, `who may author loss`를 다음 arc
       질문으로 연다.
 27. [QFUDS SAGA First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
@@ -213,36 +213,57 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
       episode-level revision matrix, field mark rules, continuity fixes,
       다음 rewrite loop를 고정한 revision control pass.
 28. [QFUDS SAGA Exhibit S-0 Episode 1 Revised V2 English Draft](30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md)
-    - Episode 1 v2 cut. Mara의 active refusal을 더 앞당기고, Genesis/Broken
+    - Episode 1 preserved English v2 counterpart. Mara의 active refusal을 더 앞당기고, Genesis/Broken
       Crown 설명을 chamber pressure 안으로 압축하며, `RECOVERABLE / NOT
       CLAIMABLE`을 provisional field mark로 유지한다.
 29. [QFUDS SAGA The Dead Exchange Revised V2 English Draft](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md)
-    - Episode 2 v2 cut. Noor의 household privacy, maternal burial record,
+    - Episode 2 preserved English v2 counterpart. Noor의 household privacy, maternal burial record,
       kinship graph cost를 먼저 제시하고, `ACCESS != AUTHORITY`를 living
       cost에 묶는다.
 30. [QFUDS SAGA The Last Hodler Revised V2 English Draft](30_drafts/014_the_last_hodler_revised_v2_english_draft.md)
-    - Episode 3 v2 cut. 군중 rhetoric을 줄이고, Ione을 통해 Aletheia split을
+    - Episode 3 preserved English v2 counterpart. 군중 rhetoric을 줄이고, Ione을 통해 Aletheia split을
       앞당기며, Elias의 analogy transfer가 `NO CONSENT BY ANALOGY`로 막히는
       과정을 더 직접적으로 보여준다.
 31. [QFUDS SAGA Identity Flood Revised V2 English Draft](30_drafts/015_identity_flood_revised_v2_english_draft.md)
-    - Episode 4 v2 cut. Null-Key Cells를 단순 공격자가 아니라 court appetite를
+    - Episode 4 preserved English v2 counterpart. Null-Key Cells를 단순 공격자가 아니라 court appetite를
       드러내는 애매한 고발자로 먼저 제시하고, `PLURALITY IS NOT CONSENT`를
       proof overflow의 living cost에 묶는다.
 32. [QFUDS SAGA Hawking Court Revised V2 English Draft](30_drafts/016_hawking_court_revised_v2_english_draft.md)
-    - Episode 5 v2 cut. H-1을 technical exhibit보다 먼저 mothers, graves,
+    - Episode 5 preserved English v2 counterpart. H-1을 technical exhibit보다 먼저 mothers, graves,
       testimony pressure로 무섭게 만들고, QFUDS-adjacent lattice를
       `REJECTED / USEFUL / UNSAFE AS TRUTH CLAIM`으로 제한한다.
 33. [QFUDS SAGA The Broken Crown Revised V2 English Draft](30_drafts/017_the_broken_crown_revised_v2_english_draft.md)
-    - Episode 6 v2 cut. city fracture 설명을 줄이고, field marks가 이미 권력
+    - Episode 6 preserved English v2 counterpart. city fracture 설명을 줄이고, field marks가 이미 권력
       문법으로 재사용되는 위험을 앞당기며, `who may author loss`로 arc two를
       연다.
-34. [Fiction Catalog](../01_catalog/README.md)
+34. [QFUDS SAGA First Arc Polish Read-Order Pass](30_drafts/018_first_arc_polish_read_order_pass.md)
+    - Phase 18 control checkpoint. 한국어 primary read order, 영어 v2 counterpart,
+      continuity issue, exposition cut, field mark misuse risk를 고정한다.
+35. [QFUDS SAGA Exhibit S-0 Episode 1 Korean Adaptation](30_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)
+    - Episode 1 한국어 primary adaptation. `RECOVERABLE / NOT CLAIMABLE`을
+      reader-facing 첫 장면 경로로 제시한다.
+36. [QFUDS SAGA The Dead Exchange Korean Adaptation](30_drafts/020_the_dead_exchange_revised_v2_korean_adaptation.md)
+    - Episode 2 한국어 primary adaptation. Noor의 living cost와
+      `ACCESS != AUTHORITY`를 한국어 본문으로 읽게 한다.
+37. [QFUDS SAGA The Last Hodler Korean Adaptation](30_drafts/021_the_last_hodler_revised_v2_korean_adaptation.md)
+    - Episode 3 한국어 primary adaptation. Elias의 analogy error와
+      `NO CONSENT BY ANALOGY`를 한국어 장면 압력으로 옮긴다.
+38. [QFUDS SAGA Identity Flood Korean Adaptation](30_drafts/022_identity_flood_revised_v2_korean_adaptation.md)
+    - Episode 4 한국어 primary adaptation. Null-Key Cells, witness rings,
+      `PLURALITY IS NOT CONSENT`를 한국어 독서 경로로 둔다.
+39. [QFUDS SAGA Hawking Court Korean Adaptation](30_drafts/023_hawking_court_revised_v2_korean_adaptation.md)
+    - Episode 5 한국어 primary adaptation. H-1, QFUDS-adjacent warning,
+      `PHYSICS IS NOT JURISDICTION`을 fiction boundary 안에 둔다.
+40. [QFUDS SAGA The Broken Crown Korean Adaptation](30_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md)
+    - Episode 6 한국어 primary adaptation. protected pending doctrine과
+      `who may author loss`로 첫 arc를 닫는다.
+41. [Fiction Catalog](../01_catalog/README.md)
     - SAGA가 아직 active prototype shelf에 있으며, `qfuds-verse` universe/work
       구조로 옮기려면 별도 migration gate를 통과해야 함을 기록한다.
 
 ## First Arc Rough Draft Set
 
-`The Broken Crown` first arc의 6개 rough draft가 모두 작성되었다.
+`The Broken Crown` first arc의 6개 legacy rough draft가 모두 작성되었다.
 
 | Episode | Draft |
 | --- | --- |
@@ -255,9 +276,9 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 
 전체 arc revision control pass는
 [011 First Arc Full Revision Pass](30_drafts/011_first_arc_full_revision_pass.md)
-로 정리되었다. Revised v2 pass는 현재 1-6화까지 진행되었다.
+로 정리되었다. Revised v2 English counterpart pass는 현재 1-6화까지 진행되었다.
 
-| Revised pass | Draft |
+| English counterpart | Draft |
 | --- | --- |
 | 1. Exhibit S-0 v2 | [012](30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md) |
 | 2. The Dead Exchange v2 | [013](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md) |
@@ -266,7 +287,21 @@ canon으로 승격하려면 `10_series_bible/`의 세계관/인물/제도 규칙
 | 5. Hawking Court v2 | [016](30_drafts/016_hawking_court_revised_v2_english_draft.md) |
 | 6. The Broken Crown v2 | [017](30_drafts/017_the_broken_crown_revised_v2_english_draft.md) |
 
-다음 자연 작업은 arc-level polish/read-order pass 또는 arc two planning이다.
+## Korean Primary First Arc Reading Path
+
+Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어 v2는 같은 사건을
+공유하는 preserved counterpart로 둔다.
+
+| Episode | Korean primary | English counterpart |
+| --- | --- | --- |
+| 1. Exhibit S-0 | [019](30_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](30_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md) |
+| 2. The Dead Exchange | [020](30_drafts/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](30_drafts/013_the_dead_exchange_revised_v2_english_draft.md) |
+| 3. The Last Hodler | [021](30_drafts/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](30_drafts/014_the_last_hodler_revised_v2_english_draft.md) |
+| 4. Identity Flood | [022](30_drafts/022_identity_flood_revised_v2_korean_adaptation.md) | [015](30_drafts/015_identity_flood_revised_v2_english_draft.md) |
+| 5. Hawking Court | [023](30_drafts/023_hawking_court_revised_v2_korean_adaptation.md) | [016](30_drafts/016_hawking_court_revised_v2_english_draft.md) |
+| 6. The Broken Crown | [024](30_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](30_drafts/017_the_broken_crown_revised_v2_english_draft.md) |
+
+다음 자연 작업은 arc two planning 또는 한국어판 line polish다.
 
 ## 역할
 

@@ -10,8 +10,8 @@ depends_on:
   - qfuds_saga_liora_sen_first_episode_beat_sheet_ko
   - qfuds_saga_genesis_chain_artifact_scene_packet_ko
   - qfuds_saga_cryptographic_death_and_hash_covenant_ko
-next_gate: choose episode 1 or episode 2 for English-first prose drafting
-last_updated: 2026-06-19
+next_gate: use Korean-primary prose before future English Anglophone adaptation
+last_updated: 2026-06-20
 ---
 
 # QFUDS SAGA First Arc Six-Episode Outline

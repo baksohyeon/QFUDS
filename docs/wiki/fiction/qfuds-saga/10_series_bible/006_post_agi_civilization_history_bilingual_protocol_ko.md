@@ -1,6 +1,6 @@
 ---
 doc_id: qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
-title: QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol
+title: QFUDS SAGA Post-AGI Civilization History and Korean-Primary Bilingual Protocol
 doc_type: guide
 stage: reference
 status: draft
@@ -9,11 +9,11 @@ depends_on:
   - qfuds_saga_mara_veyr_prologue_draft_ko
   - qfuds_saga_mara_veyr_prologue_research_harness_ko
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
-next_gate: user confirms English-first prose before next fiction draft
-last_updated: 2026-06-19
+next_gate: use Korean-primary prose before future English Anglophone adaptation
+last_updated: 2026-06-20
 ---
 
-# QFUDS SAGA Post-AGI Civilization History and Bilingual Protocol
+# QFUDS SAGA Post-AGI Civilization History and Korean-Primary Bilingual Protocol
 
 ## 목적
 
@@ -29,9 +29,15 @@ Post-AGI 문명이 암호학과 죽음의 자물쇠를 열었다.
 Last Archive는 질문 자체를 바꾸었다.
 ```
 
-앞으로 소설 본문은 **영어 원문을 먼저 쓰고, 한국어 번역/각색을 붙인다**.
-한국어는 기획, 주석, 독자용 해설에는 좋지만, 장편 SF의 고유명사/리듬/제국사
-질감은 영어 원문에서 먼저 잡는 편이 낫다.
+앞으로 active SAGA 소설 본문은 **한국어 본문을 먼저 쓰고, 영어권 독자용 독립
+각색판을 뒤에 붙인다**.
+
+한국어판은 독자가 먼저 읽는 본문이다. 영어판은 같은 사건과 canon을 공유하지만,
+영미권 언어 리듬, 관용, 장르 기대에 맞춘 sibling text로 쓴다. 두 버전은
+서로의 직역이 아니라 같은 story state를 공유하는 독립 문체판이다.
+
+기존 English-first v2 원고는 provenance와 source counterpart로 보존한다.
+이 문서는 2026-06-20 이후 active prose workflow를 한국어-primary로 바꾼다.
 
 이 문서는 fiction/provenance only다. QFUDS 연구 결과, 물리 증거, support,
 validation, Level 2B admission이 아니다.
@@ -360,42 +366,45 @@ They did not expect the bits to ask for the dead back.
 
 이 layer는 유머지만, 농담이 곧 불길한 예언이어야 한다.
 
-## English-First Fiction Protocol
+## Korean-Primary Bilingual Fiction Protocol
 
-앞으로 실제 소설 초안은 다음 형식을 따른다.
+앞으로 실제 소설 초안은 다음 순서를 따른다.
 
 ```text
-## Original English
+## Korean Primary Draft
 
 ...
 
-## Korean Translation
+## English Anglophone Adaptation
 
 ...
 
-## Revision Notes
+## Continuity Notes
 
 ...
 ```
 
 원칙:
 
-1. 고유명사, 제도명, 법정 문구, archive response는 영어를 canon으로 둔다.
-2. 한국어는 직역보다 문학적 번역을 우선한다.
-3. 한국어 문서 본문에서는 설명을 한국어로 하되, 실제 소설 장면은 영어 원문을
-   먼저 둔다.
-4. 영어 원문은 특정 작가의 문체를 모방하지 않는다.
+1. 한국어 본문은 직역투가 아니라 한국어 소설로 읽혀야 한다.
+2. 영어판은 한국어판의 literal translation이 아니라 영미권 독자용 독립 각색판이다.
+3. 고유명사, 제도명, 법정 문구, archive response, field mark는 필요하면 영어를
+   보존하고 한국어 서술로 뜻을 받친다.
+4. 영어 각색판은 특정 작가의 문체를 모방하지 않는다.
 5. Asimov식 장기 질문 구조는 기능만 차용한다. 문장, 플롯, 결말은 복제하지
    않는다.
 6. Marxian lens는 사회구조 분석용이다. 현실 정치 구호로 쓰지 않는다.
 7. QFUDS fiction premise를 현실 연구 evidence로 되돌려 쓰지 않는다.
+8. 두 언어판은 plot event, field mark, 인물 선택, fiction/research boundary를
+   공유해야 한다.
 
-## Rewrite Target For Mara Prologue
+## Legacy Note: Mara Prologue
 
-현재 008 초안은 한국어 프롤로그다. 다음 revision에서는 같은 장면을 영어 원문
-우선으로 다시 쓴다.
+현재 Mara prologue와 first-arc v2 원고 일부는 English-first 실험으로 남아 있다.
+그 파일들은 provenance로 보존한다. 이후 같은 사건을 다시 열 때는 한국어
+primary draft를 먼저 만들고, 영어판은 독립 각색판으로 둔다.
 
-새 시작 후보:
+기존 English-first 시작 후보:
 
 ```text
 ## Original English
@@ -414,7 +423,7 @@ costumes. A secret was no longer a wall; it was a delay purchased by a poorer
 century.
 ```
 
-한국어 번역 후보:
+기존 한국어 번역 후보:
 
 ```text
 ## Korean Translation
@@ -434,8 +443,8 @@ century.
 
 ## Next Task
 
-다음 작업은 008의 내용을 폐기하지 않고, 그 위에 **English-first revised
-prologue**를 추가하는 것이다.
+다음 prose 작업은 기존 내용을 폐기하지 않고, 한국어 primary draft를 먼저 만든
+뒤 영어권 독자용 각색판을 추가하는 것이다.
 
 추천 파일:
 
