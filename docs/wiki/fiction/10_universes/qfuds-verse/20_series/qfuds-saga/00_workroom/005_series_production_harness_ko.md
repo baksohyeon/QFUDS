@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
 next_gate: promote series gates to global .agent workflow + templates
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 시리즈 제작 하네스
@@ -51,7 +51,7 @@ story bible, Narrative First throughline, September C. Fawkes(Swain), savethecat
 | 인물 앙상블·목소리·관계 | 인물별 보이스 키, 관계도 | [016 캐릭터 바이블](../00_bible/016_character_ensemble_voices_relationships_ko.md) |
 | 세계·연표·세력 canon | 설정 정합 | [010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)·[011](../00_bible/011_chronology_restoration_admin_black_hole_seat_ko.md)·[015](../00_bible/015_factions_canon_naming_ko.md) |
 | 떡밥/회수 원장 | 심은 단서와 회수 지점 추적 | **신규 필요**(아래 §떡밥 원장) |
-| 연속성 원장 | 인물이 시점마다 아는 정보·타임라인 | **신규 필요**([연속성 감사 템플릿](../../../../../../.agent/templates/fiction/continuity_audit_template.md) 활용) |
+| 연속성 원장 | 인물이 시점마다 아는 정보·타임라인 | **신규 필요**([연속성 감사 템플릿](../../../../../../../../.agent/templates/fiction/continuity_audit_template.md) 활용) |
 | 릴리즈 게이트 | 구조·이해도·기술·보이스·리텐션 | [002 게이트](../30_revisions/002_first_arc_release_immersion_revision_plan_ko.md) |
 
 ## 집필 전 프리플라이트 (에피소드 N을 쓰기 전에)

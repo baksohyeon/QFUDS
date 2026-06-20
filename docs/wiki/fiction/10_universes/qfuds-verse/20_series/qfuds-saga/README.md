@@ -10,7 +10,7 @@ depends_on:
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
 next_gate: continue Korean-primary SAGA arc planning
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA
@@ -322,6 +322,10 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - Arc Two 첫 한국어 primary draft. `protected pending doctrine`이 상실 접수
       창구와 상품이 되는 순간을 열고, `UNRECOVERED IS NOT UNREAL`을 새 임시
       field mark로 제시한다.
+49. [QFUDS SAGA 1부 전역 템플릿 커버리지 감사](30_revisions/003_first_arc_template_coverage_audit_ko.md)
+    - `.agent/templates/fiction/` 기준으로 1부 바이블·하네스·release 시스템의
+      충족/누락을 점검하고, 2-6편 `Series Gate Applied` 후속 적용을 차단 조건으로
+      남긴다.
 
 ## First Arc Rough Draft Set
 
