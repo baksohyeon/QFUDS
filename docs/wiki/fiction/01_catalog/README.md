@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: continue qfuds-saga arc planning under canonical series path
+next_gate: continue qfuds-saga arc planning under normalized work shelves
 last_updated: 2026-06-20
 ---
 
@@ -82,13 +82,21 @@ docs/wiki/fiction/
    old path에는 compatibility notice만 남긴다.
 7. Archive policy: `archive/`는 `90_archive/`로 이동하고, old path에는
    compatibility notice만 남긴다.
+8. Internal shelf policy: SAGA 내부는 `00_workroom/`, `00_bible/`,
+   `10_story_design/`, `20_drafts/`, `30_revisions/`, `40_release/`를 사용한다.
 
 ## Workflow Boundary
 
 이 catalog는 새 외부 source, PDF, paper, MCP output, cached asset, extraction
 product, source/product availability claim을 만들지 않는다.
 
-Current workflow state:
+Current research asset workflow state:
+
+```text
+not searched
+```
+
+Extraction potential:
 
 ```text
 not_extractable
@@ -96,6 +104,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. Arc Two 또는 first-arc polish task를 canonical SAGA path 아래에서 시작.
+1. Arc Two 또는 first-arc polish task를 normalized SAGA shelf 아래에서 시작.
 2. Liora Sen `Exhibit S-0` beat sheet를 실제 prose draft로 확장할지 결정.
 3. Mara Veyr prologue와 Liora episode가 같은 continuity인지 분리할지 결정.

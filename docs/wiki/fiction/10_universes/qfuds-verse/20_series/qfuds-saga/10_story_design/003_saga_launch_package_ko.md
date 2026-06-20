@@ -212,4 +212,4 @@ an old person could become a claim.
 
 | Source | Used for | Workflow state |
 | --- | --- | --- |
-| Existing QFUDS SAGA fiction docs under `10_series_bible/`, `20_development/`, and `30_drafts/` | launch premise, first arc, factions, technical boundaries | `not searched` |
+| Existing QFUDS SAGA fiction docs under `00_bible/`, `10_story_design/`, and `20_drafts/` | launch premise, first arc, factions, technical boundaries | `not searched` |

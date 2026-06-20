@@ -45,6 +45,22 @@ fiction rather than a literal translation.
 English counterpart:
 [016 Hawking Court Revised V2 English Draft](016_hawking_court_revised_v2_english_draft.md).
 
+## Harness Applied
+
+- Craft harness:
+  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Narrative frame: mothers and graves before cosmic audit language, so the
+  exhibit remains a human jurisdiction problem before it becomes spectacle.
+- Scene goal/obstacle/turn/cost: prevent Exhibit H-1 and QFUDS-adjacent
+  forbidden lab language from becoming court authority; black-hole restoration
+  rhetoric tries to treat physics as permission; `PHYSICS IS NOT JURISDICTION`
+  blocks that move; the cost is that useful evidence must be classified as
+  unsafe as truth claim.
+- Bilingual gate: Korean primary reader path; English 016 is a preserved sibling
+  counterpart, not a literal source text.
+- Source boundary: no new external source/product claim; research asset state is
+  `not searched`.
+
 ## Hawking Court
 
 sealed exhibit은 어머니들보다 늦게 도착했다.

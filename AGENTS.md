@@ -457,13 +457,19 @@ For QFUDS-inspired fiction, agents must still follow the documentation-routing
 and wiki-maintenance workflows, plus
 [Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
 Active SAGA work is managed like a small publisher's room: operating specs belong under
-`docs/wiki/fiction/qfuds-saga/00_system/`, series bible / 작품 설정 기준서
-material under `docs/wiki/fiction/qfuds-saga/10_series_bible/`,
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/`,
+series bible / 작품 설정 기준서 material under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/`,
 pitches/outlines/visual packages under
-`docs/wiki/fiction/qfuds-saga/20_development/`, and prose drafts with an explicit
-harness/provenance boundary under
-`docs/wiki/fiction/qfuds-saga/30_drafts/`. Archived or superseded fiction
-belongs under `docs/wiki/fiction/archive/`. Fiction is never research evidence.
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/`,
+prose drafts with an explicit harness/provenance boundary under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/`,
+release-facing revision plans under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/`,
+and release candidates under
+`docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/`.
+Archived or superseded fiction belongs under `docs/wiki/fiction/90_archive/`.
+Fiction is never research evidence.
 
 Required behavior:
 

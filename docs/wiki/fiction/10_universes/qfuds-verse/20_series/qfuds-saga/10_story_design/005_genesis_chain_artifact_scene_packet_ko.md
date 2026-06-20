@@ -50,7 +50,7 @@ not searched
 | Layer | `work -> story_design` |
 | Universe/IP | QFUDS SAGA |
 | Continuity status | canon-candidate development packet |
-| Output shelf | `20_development/` |
+| Output shelf | `10_story_design/` |
 | Inherits from | Genesis Chain, Cryptographic Death, Liora first episode beat sheet |
 | Not allowed | investment thesis, real-world price prediction, real security advice, QFUDS evidence |
 
@@ -238,7 +238,7 @@ Stop if a draft does any of these:
 Recommended next output:
 
 ```text
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_development/006_first_arc_six_episode_outline_ko.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/006_first_arc_six_episode_outline_ko.md
 ```
 
 Reason: the material now has enough pressure to stop being a reference note. The

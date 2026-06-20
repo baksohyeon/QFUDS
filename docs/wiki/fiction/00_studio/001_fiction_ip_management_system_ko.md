@@ -177,6 +177,7 @@ docs/wiki/fiction/
 ```text
 <work-id>/
   README.md
+  00_workroom/
   00_bible/
   10_story_design/
   20_drafts/
@@ -197,9 +198,12 @@ docs/wiki/fiction/
 | `30_shorts/` | 단편 | future short |
 | `40_anthologies/` | 단편 모음집 | future anthology |
 | `50_elseworlds/` | What-if / 평행우주 / 실험 분기 | future elseworld |
+| `00_workroom/` | 작품별 운영 규칙, agent harness, approval gate | local writing room |
 | `00_bible/` | 작품별 내부 기준서 | cast, POV, local canon |
 | `10_story_design/` | 플롯, arc, scene list, reveal order | outline |
 | `20_drafts/` | 실제 원고 | prose draft |
+| `30_revisions/` | release-facing revision plan, line edit, continuity fix | revision pass |
+| `40_release/` | 독자용 release candidate, export 묶음 | release bundle |
 
 ## Bible Usage
 

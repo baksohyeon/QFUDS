@@ -285,7 +285,7 @@ court는 Mara가 그의 아내가 되는 것을 막았다.
 권장 next output:
 
 ```text
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_drafts/003_exhibit_s0_opening_english_draft.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/003_exhibit_s0_opening_english_draft.md
 ```
 
 이유: arc의 load distribution은 충분히 잡혔다. 다음으로 유용한 테스트는 prose다.

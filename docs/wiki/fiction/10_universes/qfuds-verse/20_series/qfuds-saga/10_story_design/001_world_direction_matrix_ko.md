@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_index_ko
-  - qfuds_public_story_bridge_ko
+  - qfuds_lineage_public_story_bridge_ko
 next_gate: user selects primary direction or hybrid before series reference
 last_updated: 2026-06-20
 ---
@@ -42,11 +42,16 @@ or QFUDS evidence claim.
 External-source handling remains governed by
 [Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
-Current workflow states:
+Current research asset workflow states:
 
 ```text
 hit_not_cached
 asset_available_not_downloaded
+```
+
+Extraction potential:
+
+```text
 not_extractable
 ```
 
@@ -126,7 +131,7 @@ fiction 안에서는 다음을 허용한다.
 2. matrix를 더 확장해 다른 장르 구조를 추가한 뒤 다시 고른다.
 
 2026-06-19 후속 선택 장부:
-[QFUDS SAGA 장기 복원 문명사 타임라인](../10_series_bible/002_deep_time_restoration_timeline_ko.md)
+[QFUDS SAGA 장기 복원 문명사 타임라인](../00_bible/002_deep_time_restoration_timeline_ko.md)
 은 이 matrix를 "복원 문명사" 방향으로 구체화한다. 그 문서는 완전 복원,
 라스트 아카이브, 망각권, 알레테이아 베일, 라우어 관측소를 시간순 역사로 묶어
 작품 설정 기준서 후보 backbone을 제안한다.

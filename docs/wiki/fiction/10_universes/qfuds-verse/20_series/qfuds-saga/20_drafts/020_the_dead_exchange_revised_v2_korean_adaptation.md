@@ -44,6 +44,21 @@ fiction rather than a literal translation.
 English counterpart:
 [013 The Dead Exchange Revised V2 English Draft](013_the_dead_exchange_revised_v2_english_draft.md).
 
+## Harness Applied
+
+- Craft harness:
+  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Narrative frame: Noor's household privacy and inheritance pressure before
+  institutional explanation.
+- Scene goal/obstacle/turn/cost: show the living cost of being named by a dead
+  exchange; Sarqel Trust and estate gravity force access to masquerade as
+  authority; `ACCESS != AUTHORITY` blocks that move; the cost is that Noor's
+  private life becomes public procedure.
+- Bilingual gate: Korean primary reader path; English 013 is a preserved sibling
+  counterpart, not a literal source text.
+- Source boundary: no new external source/product claim; research asset state is
+  `not searched`.
+
 ## The Dead Exchange
 
 Noor Aram에게는 도시 기록상 세 개의 이름이 있었다.

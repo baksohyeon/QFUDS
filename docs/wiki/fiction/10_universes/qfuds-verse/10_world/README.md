@@ -38,15 +38,21 @@ QFUDS가 맞다고 가정할 수 있지만, 그 가정은 소설 장치다.
 
 현재 세부 세계관은 canonical SAGA series work가 보유한다.
 
-- [QFUDS SAGA series bible](../20_series/qfuds-saga/10_series_bible/)
-- [QFUDS SAGA development notes](../20_series/qfuds-saga/20_development/)
-- [QFUDS SAGA drafts](../20_series/qfuds-saga/30_drafts/)
+- [QFUDS SAGA work bible](../20_series/qfuds-saga/00_bible/)
+- [QFUDS SAGA story design notes](../20_series/qfuds-saga/10_story_design/)
+- [QFUDS SAGA drafts](../20_series/qfuds-saga/20_drafts/)
 
 ## Workflow Boundary
 
 새 외부 자료나 source/product claim을 만들지 않는다.
 
-Current workflow state:
+Current research asset workflow state:
+
+```text
+not searched
+```
+
+Extraction potential:
 
 ```text
 not_extractable

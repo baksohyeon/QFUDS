@@ -45,6 +45,22 @@ fiction rather than a literal translation.
 English counterpart:
 [015 Identity Flood Revised V2 English Draft](015_identity_flood_revised_v2_english_draft.md).
 
+## Harness Applied
+
+- Craft harness:
+  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Narrative frame: procedural sabotage as moral audit, with proof itself turned
+  into pressure.
+- Scene goal/obstacle/turn/cost: preserve consent boundaries after the Null-Key
+  Cells flood the docket with plausible identity traces; plurality tempts the
+  court to confuse volume with permission; `PLURALITY IS NOT CONSENT` blocks the
+  shortcut; the cost is that clean identity proof is no longer emotionally or
+  politically available.
+- Bilingual gate: Korean primary reader path; English 015 is a preserved sibling
+  counterpart, not a literal source text.
+- Source boundary: no new external source/product claim; research asset state is
+  `not searched`.
+
 ## Identity Flood
 
 Null-Key Cells는 manifesto를 보내지 않았다.

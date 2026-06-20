@@ -189,8 +189,8 @@ not searched
 
 | Option | Output |
 | --- | --- |
-| A | `30_drafts/003_exhibit_s0_opening_english_draft.md` |
-| B | `20_development/005_first_arc_six_episode_outline_ko.md` |
+| A | `20_drafts/003_exhibit_s0_opening_english_draft.md` |
+| B | `10_story_design/006_first_arc_six_episode_outline_ko.md` |
 
 추천은 A다. beat order가 잡혔으므로 이제 짧은 영어 opening draft로 장면성을
 검증할 수 있다.

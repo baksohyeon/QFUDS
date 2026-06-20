@@ -148,10 +148,14 @@ Do not decide by topic alone. Decide by ownership:
   ordering, multiverse policy.
 - `work`: a specific series, novel, short story, webtoon-like run, anthology,
   or elseworld branch.
+- `workroom`: work-local operating specs, harness notes, approval gates, and
+  repeatable review rules that are narrower than global studio policy.
 - `bible`: work-local reference sheet for continuity, cast, point of view,
   tone, local rules, and canon constraints.
 - `story_design`: outline, arcs, beat sheet, scene list, reveal order.
-- `drafts`: prose, translations, revisions.
+- `drafts`: prose drafts, language counterparts, and scene tests.
+- `revisions`: line-edit plans, continuity-fix passes, and release-prep
+  revision controls.
 - `release`: cleaned publication/export candidate if one exists.
 
 ## Recommended Target Shape
@@ -181,6 +185,7 @@ Within each work:
 ```text
 <work-id>/
   README.md
+  00_workroom/
   00_bible/
   10_story_design/
   20_drafts/
@@ -193,7 +198,8 @@ Within each work:
 Before creating a fiction document, answer:
 
 1. Is this a studio rule, catalog entry, universe/IP record, continuity record,
-   work record, story design note, prose draft, revision, or release candidate?
+   work record, workroom note, bible note, story design note, prose draft,
+   revision, or release candidate?
 2. Which universe/IP owns it?
 3. Is it canon, soft-canon, elseworld, prototype, retired, or unclassified?
 4. Does it inherit shared world rules, or does it introduce a local override?
@@ -237,10 +243,35 @@ The README must state:
 - authoring baseline date;
 - inherited continuity/world/science-boundary documents;
 - local overrides;
-- bible/design/draft/release paths;
+- workroom/bible/design/draft/revision/release paths;
 - local boundary exceptions, if any.
 
 Use [.agent/templates/fiction/work_readme_template.md](../templates/fiction/work_readme_template.md).
+
+## Workroom Rule
+
+Use `00_workroom/` inside a work when the document is local operating procedure:
+agent harness notes, approval gates, sub-agent role definitions, local workflow
+exceptions, or repeatable review rules for that work only.
+
+Do not put universe-wide studio rules in a workroom. Global fiction/IP rules
+belong in `.agent/workflows/` and human-readable summaries belong under
+`docs/wiki/fiction/00_studio/`.
+
+## Harness Applied Block
+
+Every active prose draft, release-facing revision plan, or release candidate
+must include a compact `Harness Applied` block near the boundary/intent section.
+The block records:
+
+- craft harness link;
+- narrative frame;
+- scene or revision goal/obstacle/turn/cost;
+- Korean-primary / English Anglophone sibling-text gate;
+- external-source or research-asset workflow boundary.
+
+Legacy drafts may omit this block when preserved unchanged for provenance, but
+any new revision of those drafts must add it before the draft is promoted.
 
 ## Bible Rule
 

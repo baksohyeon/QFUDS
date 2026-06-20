@@ -449,7 +449,7 @@ century.
 추천 파일:
 
 ```text
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_drafts/002_mara_veyr_prologue_english_revision_ko.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/002_mara_veyr_prologue_english_revision_ko.md
 ```
 
 이 파일은 실제 fiction prose여야 하며, 설명표보다 장면을 우선한다.

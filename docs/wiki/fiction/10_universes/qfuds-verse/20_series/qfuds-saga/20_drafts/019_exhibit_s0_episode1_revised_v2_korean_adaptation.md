@@ -43,6 +43,21 @@ fiction rather than a literal translation.
 English counterpart:
 [012 Exhibit S-0 Episode 1 Revised V2 English Draft](012_exhibit_s0_episode1_revised_v2_english_draft.md).
 
+## Harness Applied
+
+- Craft harness:
+  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Narrative frame: Liora limited POV inside an institutional hearing under
+  public pressure.
+- Scene goal/obstacle/turn/cost: keep Mara Veyr's continuity hearing from
+  becoming a property claim; Genesis Chain language keeps pulling the case
+  toward ownership; `RECOVERABLE / NOT CLAIMABLE` becomes the first field mark;
+  the cost is that court language can now be copied by power.
+- Bilingual gate: Korean primary reader path; English 012 is a preserved sibling
+  counterpart, not a literal source text.
+- Source boundary: no new external source/product claim; research asset state is
+  `not searched`.
+
 ## Exhibit S-0
 
 정오가 되기 전에 Waiting City는 조용해지는 법을 잃었다.

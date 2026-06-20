@@ -50,11 +50,18 @@ own copy of project status.
   For fiction/IP work, also read
   [Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
   For SAGA fiction, route operating specs to
-  `docs/wiki/fiction/qfuds-saga/00_system/`, series bible / 작품 설정 기준서
-  material to `docs/wiki/fiction/qfuds-saga/10_series_bible/`,
-  pitches/outlines/visual packages to `docs/wiki/fiction/qfuds-saga/20_development/`,
-  prose drafts with harness boundaries to `docs/wiki/fiction/qfuds-saga/30_drafts/`,
-  and archived prototypes to `docs/wiki/fiction/archive/`.
+  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/`,
+  series bible / 작품 설정 기준서 material to
+  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/`,
+  pitches/outlines/visual packages to
+  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/`,
+  prose drafts with harness boundaries to
+  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/`,
+  release-facing revision plans to
+  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/`,
+  release candidates to
+  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/`,
+  and archived prototypes to `docs/wiki/fiction/90_archive/`.
 - Do not duplicate roadmap, decision-log, theory, or experiment content here.
 - When this file disagrees with [AGENTS.md](AGENTS.md) or the roadmap, those win and this
   file must be corrected.

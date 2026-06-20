@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-  - qfuds_agentic_research_system_ko
+  - qfuds_lineage_agentic_research_system_ko
   - qfuds_fiction_saga_index_ko
 next_gate: user-confirmed world-direction matrix before story drafting
 last_updated: 2026-06-20
@@ -44,11 +44,16 @@ papers, PDFs, and code/tool concepts only as creative-system references.
 External-source handling remains governed by
 [Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
-Current workflow states:
+Current research asset workflow states:
 
 ```text
 hit_not_cached
 asset_available_not_downloaded
+```
+
+Extraction potential:
+
+```text
 not_extractable
 ```
 

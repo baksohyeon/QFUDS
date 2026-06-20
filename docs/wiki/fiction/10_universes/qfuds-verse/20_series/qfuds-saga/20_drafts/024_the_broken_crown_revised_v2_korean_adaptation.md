@@ -45,6 +45,21 @@ fiction rather than a literal translation.
 English counterpart:
 [017 The Broken Crown Revised V2 English Draft](017_the_broken_crown_revised_v2_english_draft.md).
 
+## Harness Applied
+
+- Craft harness:
+  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Narrative frame: first-arc closure under institutional reuse of every field
+  mark Liora created.
+- Scene goal/obstacle/turn/cost: close Mara Veyr's case without letting the
+  court author her loss; every faction now knows how to weaponize the marks;
+  protected pending status keeps the final question open; the cost is that
+  `who may author loss` becomes the next arc's political problem.
+- Bilingual gate: Korean primary reader path; English 017 is a preserved sibling
+  counterpart, not a literal source text.
+- Source boundary: no new external source/product claim; research asset state is
+  `not searched`.
+
 ## The Broken Crown
 
 court가 다시 열릴 때쯤, 도시의 모든 권력은 Liora Sen의 mark들을 배워 버렸다.

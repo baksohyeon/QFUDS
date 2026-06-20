@@ -9,7 +9,7 @@ depends_on:
   - fiction_catalog_index_ko
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: continue qfuds-saga arc planning under canonical series path
+next_gate: continue qfuds-saga arc planning under normalized work shelves
 last_updated: 2026-06-20
 ---
 
@@ -54,7 +54,7 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 - Core science-fiction premise: 정보는 완전히 사라지지 않을 수 있고, 먼
   미래 문명은 그 잔상을 복원하려 한다.
 - Institutions: [10_world/](10_world/)에서 관리한다.
-- Factions: `20_series/qfuds-saga/10_series_bible/`에서 개발 중이다.
+- Factions: `20_series/qfuds-saga/00_bible/`에서 개발 중이다.
 - Technology limits: 기술어는 보존한다. `hash`, `KDF`, `key`, `salt`,
   `collision`, `entropy`, `Hawking radiation`, `AGI`, `QFUDS`는 근거 없이
   별칭으로 바꾸지 않는다.
@@ -74,7 +74,13 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 이 scaffold는 새 외부 source, PDF, paper, MCP output, cached asset, extraction
 product, source/product availability claim을 만들지 않는다.
 
-Current workflow state:
+Current research asset workflow state:
+
+```text
+not searched
+```
+
+Extraction potential:
 
 ```text
 not_extractable
@@ -82,5 +88,5 @@ not_extractable
 
 ## Next Gate
 
-다음 작업은 canonical `20_series/qfuds-saga/` 아래에서 Arc Two 또는 first-arc
-polish task를 시작하는 것이다.
+다음 작업은 canonical `20_series/qfuds-saga/` 아래의 normalized work shelves에서
+Arc Two 또는 first-arc polish task를 시작하는 것이다.

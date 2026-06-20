@@ -34,7 +34,13 @@ External-source handling remains governed by
 whenever archived fiction touches an external paper, web reference, PDF, MCP,
 code repository, or source/product availability claim.
 
-Current workflow state:
+Current research asset workflow state:
+
+```text
+not searched
+```
+
+Extraction potential:
 
 ```text
 not_extractable

@@ -46,6 +46,21 @@ fiction rather than a literal translation.
 English counterpart:
 [014 The Last Hodler Revised V2 English Draft](014_the_last_hodler_revised_v2_english_draft.md).
 
+## Harness Applied
+
+- Craft harness:
+  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Narrative frame: courthouse crowd pressure, Aletheia split, and Liora's
+  refusal to let market myth become consent doctrine.
+- Scene goal/obstacle/turn/cost: stop Genesis Chain analogy from overriding
+  personal consent; public myth and the Last Hodler story invite shortcut
+  reasoning; `NO CONSENT BY ANALOGY` rejects that transfer; the cost is that
+  allies split over whether delay is justice or cowardice.
+- Bilingual gate: Korean primary reader path; English 014 is a preserved sibling
+  counterpart, not a literal source text.
+- Source boundary: no new external source/product claim; research asset state is
+  `not searched`.
+
 ## The Last Hodler
 
 Waiting City는 한꺼번에 폭동을 배우지 않았다.
