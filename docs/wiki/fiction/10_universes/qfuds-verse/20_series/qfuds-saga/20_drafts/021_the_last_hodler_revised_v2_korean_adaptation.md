@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_the_last_hodler_revised_v2_english_draft
   - qfuds_saga_the_dead_exchange_revised_v2_korean_adaptation
 next_gate: read episode 4 Korean adaptation
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA The Last Hodler Revised V2 Korean Adaptation
@@ -60,6 +60,21 @@ English counterpart:
   counterpart, not a literal source text.
 - Source boundary: no new external source/product claim; research asset state is
   `not searched`.
+
+## Series Gate Applied
+
+`00_workroom/005`의 시리즈 프리플라이트를 3편에 역적용했다. 이 표가 없으면
+release 후보로 유지하지 않는다.
+
+| Gate | Episode 3 decision |
+| --- | --- |
+| Repeating cast sheet | Elias/Ione/Mara/Last Archive [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| POV person | Liora Sen 제한 3인칭(광장 폭동을 내려다본다) |
+| Causal link | 1-2편의 판정이 거리로 새어 나와 장부 신도와 망각 수도회의 충돌이 된다 |
+| Escalation | 법정 안 사건이 도시 광장의 군중·신앙 갈등으로 확장 |
+| Central question | 비트코인을 문명 규모의 동의 유물로 두고 "유추로 동의를 대신할 수 있는가"를 `NO CONSENT BY ANALOGY`로 막는다 |
+| Ensemble/serial thread | Elias의 공개 호소가 Mara 사건의 위협으로 남고 Ione의 분열이 더 벌어진다 |
+| Standalone ban | 군중은 해산돼도 "기억=가격" 논쟁이 미결로 남아 4편의 범람을 부른다 |
 
 ## The Last Hodler
 

@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_the_broken_crown_revised_v2_english_draft
   - qfuds_saga_hawking_court_revised_v2_korean_adaptation
 next_gate: arc two planning around who may author loss
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA The Broken Crown Revised V2 Korean Adaptation
@@ -59,6 +59,21 @@ English counterpart:
   counterpart, not a literal source text.
 - Source boundary: no new external source/product claim; research asset state is
   `not searched`.
+
+## Series Gate Applied
+
+`00_workroom/005`의 시리즈 프리플라이트를 6편(1부 피날레)에 역적용했다. 이 표가
+없으면 release 후보로 유지하지 않는다.
+
+| Gate | Episode 6 decision |
+| --- | --- |
+| Repeating cast sheet | Mara/Elias/Noor/Ione/Tamas [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| POV person | Liora Sen 제한 3인칭 |
+| Causal link | 1-5편의 표식 사슬이 권력의 문법이 되고, Mara가 그 문법 자체를 거부한다 |
+| Escalation | 누적된 제도 압력이 Mara의 편지와 최종 거부로 정점에 이른다 |
+| Central question | 1부 질문을 닫으며 `who may author loss`를 2부로 넘긴다 |
+| Ensemble/serial thread | 비트코인 회고로 주제를 회수하고 Last Archive=합의 반전축을 한 겹 더 암시 |
+| Standalone ban | 1부 매듭이되 `INCOMPLETE MERCY`로 2부를 강제 개방 |
 
 ## The Broken Crown
 

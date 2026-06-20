@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_the_dead_exchange_revised_v2_english_draft
   - qfuds_saga_exhibit_s0_episode1_revised_v2_korean_adaptation
 next_gate: read episode 3 Korean adaptation
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA The Dead Exchange Revised V2 Korean Adaptation
@@ -58,6 +58,21 @@ English counterpart:
   counterpart, not a literal source text.
 - Source boundary: no new external source/product claim; research asset state is
   `not searched`.
+
+## Series Gate Applied
+
+`00_workroom/005`의 시리즈 프리플라이트를 2편에 역적용했다. 이 표가 없으면
+release 후보로 유지하지 않는다.
+
+| Gate | Episode 2 decision |
+| --- | --- |
+| Repeating cast sheet | Noor/Pell/Ione/Last Archive [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| POV person | Noor Aram 제한 3인칭(세 이름의 상속 회피자) |
+| Causal link | 1편의 `RECOVERABLE / NOT CLAIMABLE` 이후, 권력이 죽은 접근권으로 산 사람을 끌어당긴다(Sarqel Trust가 Noor를 상속인으로 지목) |
+| Escalation | 사적 배우자 청구(1편)가 가문·신탁 차원의 상속 강제로 커진다 |
+| Central question | "접근권이 권위를 만드는가"를 열어 `ACCESS != AUTHORITY`로 막고 1부 질문을 넓힌다 |
+| Ensemble/serial thread | Noor의 거부가 2부 dead-key 상속 위험으로 이어지고 Ione의 Aletheia 분열이 처음 비친다 |
+| Standalone ban | 정지될 뿐 끝나지 않는다. 봉인된 어머니 기록이 후속 편의 압력으로 남는다 |
 
 ## The Dead Exchange
 

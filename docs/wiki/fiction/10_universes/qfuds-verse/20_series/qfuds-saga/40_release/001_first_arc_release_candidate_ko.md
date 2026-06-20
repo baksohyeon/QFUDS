@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_release_index_ko
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
 next_gate: apply series gate retroactively to episodes 2-6; reader review of first-arc bundle
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 1부 Release Candidate — The Broken Crown
@@ -60,8 +60,8 @@ not searched
 ## 통과한 퇴고 게이트
 
 이 번들의 6편은 두 차례 퇴고와 release 감사를 통과했다. 이후 추가된
-`00_workroom/005` 시리즈 프리플라이트는 1편에 먼저 역적용됐고, 2-6편은 같은 방식의
-후속 적용 대상이다.
+`00_workroom/005` 시리즈 프리플라이트는 1편에 먼저 역적용됐고, 이어 2-6편에도
+같은 방식으로 `Series Gate Applied` 표가 적용 완료됐다.
 
 - 1차: de-jargon·자연 한국어 line edit
   ([001 퇴고 계획](../30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)).
@@ -75,9 +75,8 @@ not searched
   - 필드 마크 무결성: 6편 ```text``` 블록 전부 byte-identical(HEAD 대조).
   - 영어성 토큰 density: 강화 전후 불변(새 영어 일반명사 0).
   - `validate_docs.py`: 통과.
-- 신규 시리즈 게이트:
-  - 1편: 반복 인물 시트·POV 선언·단독 완결 금지·Pell 후속 위험 스레드 적용 완료.
-  - 2-6편: 후속 retroactive pass 필요.
+- 신규 시리즈 게이트: 1-6편 전부 `Series Gate Applied` 표 적용 완료(반복 인물
+  시트·POV 선언·인과/상승·중심질문·단독 완결 금지·연재 스레드).
 
 ## release 경계
 

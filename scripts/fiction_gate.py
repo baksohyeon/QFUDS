@@ -29,6 +29,7 @@ META_HEADINGS = (
     "boundary", "adaptation intent", "harness applied", "source boundary",
     "continuity notes", "안내", "canon", "writing rules", "scene seeds",
     "next use", "목적", "required reads", "institutions", "무엇", "진단",
+    "series gate",
 )
 SERIES_GATE = "## Series Gate Applied"
 

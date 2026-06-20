@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_hawking_court_revised_v2_english_draft
   - qfuds_saga_identity_flood_revised_v2_korean_adaptation
 next_gate: read episode 6 Korean adaptation
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Hawking Court Revised V2 Korean Adaptation
@@ -60,6 +60,21 @@ English counterpart:
   counterpart, not a literal source text.
 - Source boundary: no new external source/product claim; research asset state is
   `not searched`.
+
+## Series Gate Applied
+
+`00_workroom/005`의 시리즈 프리플라이트를 5편에 역적용했다. 이 표가 없으면
+release 후보로 유지하지 않는다.
+
+| Gate | Episode 5 decision |
+| --- | --- |
+| Repeating cast sheet | Mara/Noor/Ione + 어머니 셋 [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| POV person | Liora Sen 제한 3인칭(인간·어머니를 우주 증거보다 먼저 둔다) |
+| Causal link | 4편의 범람·증거 정치가 우주 규모 증거(H-1) 채택 다툼으로 비화한다 |
+| Escalation | 도시 제도 갈등이 블랙홀·물리 관할권 다툼으로 최대화 |
+| Central question | "물리가 관할권보다 먼저인가"로 `PHYSICS IS NOT JURISDICTION`을 연다 |
+| Ensemble/serial thread | QFUDS 떡밥과 Aletheia 분열이 깊어지고 어머니들의 침묵이 6편 정서로 이어진다 |
+| Standalone ban | 채택은 제한될 뿐, 사건은 6편 피날레 판결로 넘어간다 |
 
 ## Hawking Court
 
