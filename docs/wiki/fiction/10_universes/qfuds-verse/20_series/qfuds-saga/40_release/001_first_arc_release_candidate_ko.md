@@ -16,10 +16,14 @@ last_updated: 2026-06-20
 
 ## 무엇인가
 
-`The Broken Crown` 1부 6편의 **독자용 release 후보 번들**이다. 한국어 정본을
-첫 읽기 경로로 두고, 영어 독립 각색판을 같은 사건의 보존 counterpart로 둔다.
-이 번들은 de-jargon 퇴고(1차)와 현장감·묘사 강화 퇴고(2차)를 모두 통과한
+`The Broken Crown` 1부 6편의 **독자용 release 후보 기록(메타데이터)**이다. 한국어
+정본을 첫 읽기 경로로 두고, 영어 독립 각색판을 같은 사건의 보존 counterpart로
+둔다. 이 문서는 de-jargon 퇴고(1차)와 현장감·묘사 강화 퇴고(2차)를 모두 통과한
 상태를 가리킨다.
+
+실제 독자용 조립 원고는 [002 1부 Release 원고](002_first_arc_manuscript_ko.md)에
+있다 — `20_drafts/019`–`024`에서 본문만 조립한 산출물(build)이며, draft 수정 시
+재생성한다. 즉 **편집 정본(SSOT)은 drafts, 완성 읽기본은 40_release**다.
 
 ## Boundary
 

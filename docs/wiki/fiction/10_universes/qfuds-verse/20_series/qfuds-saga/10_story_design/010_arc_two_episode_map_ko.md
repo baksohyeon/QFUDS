@@ -58,13 +58,15 @@ last_updated: 2026-06-20
 - **Last Archive** — 답 주는 신이 아니라 질문 교정자. 정체(합의의 신격화)는 반전축
   속도로만 노출.
 
-## 작가 결정 필요 지점 (canon 고정 전)
+## 작가 승인 (2026-06-20)
 
-1. **arc 길이** — 6편 제안(1부와 대칭). 더 짧게(4편)/길게 갈지.
-2. **ep3~6 방향** — 위 계단/질문이 맞는지, 바꿀 축이 있는지.
-3. **field mark 후보** — `A RECORD IS NOT A VERDICT` / `A PROXY IS NOT A WILL` 등
-   채택·교체.
-4. **Sera Venn 승격** — 단발 사건 인물 → 시리즈 반복 인물 여부.
+작가 승인으로 다음이 확정됐다(momentum 아님).
 
-위 4개가 승인되면 ep3(028) 한국어 정본부터 [GSD brief](../00_workroom/004_arc_two_gsd_phase_brief_ko.md)
-실행 계약대로 집필한다.
+1. **arc 길이** — 6편 구조 확정(1부와 대칭).
+2. **ep3~6 방향** — 위 계단/질문 채택.
+3. **field mark** — ep3 `A RECORD IS NOT A VERDICT` 채택. ep4~6 mark는 해당 ep
+   집필 시 확정.
+4. **Sera Venn** — 시리즈 반복 인물로 승격.
+
+ep3(028) 한국어 정본부터 [GSD brief](../00_workroom/004_arc_two_gsd_phase_brief_ko.md)
+실행 계약대로 집필한다. ep4~6의 세부 turn/cost는 해당 ep 집필 직전 확정한다.
