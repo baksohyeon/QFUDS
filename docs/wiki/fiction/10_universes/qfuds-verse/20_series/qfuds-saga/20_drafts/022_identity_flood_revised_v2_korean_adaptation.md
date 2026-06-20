@@ -63,40 +63,40 @@ English counterpart:
 
 ## Identity Flood
 
-Null-Key Cells는 manifesto를 보내지 않았다.
+Null-Key Cells는 선언문을 보내지 않았다.
 
 영수증을 보냈다.
 
-04:11, sender도 route도 threat도 decoration도 없는 docket seal 하나가 Liora Sen의
-책상에 도착했다. 한 줄짜리 문장.
+04:11, 봉인된 사건 하나가 Liora Sen의 책상에 도착했다. 발신인도 경로도
+없고, 협박도 군더더기도 없었다. 한 줄이 전부였다.
 
 ```text
 YOU ASKED THE DEAD FOR CLEAN PROOF.
 WE RETURNED THE MESS.
 ```
 
-04:12, Genesis 관련 sealed docket 전체가 supplemental witness packet을 받았다.
+04:12, Genesis 관련 봉인 사건 전체가 보충 증인 묶음을 받았다.
 
-04:13, intake는 packet을 sabotage로 reject했다.
+04:13, 접수처는 그 묶음을 방해 공작으로 보고 반려했다.
 
-04:14, Last Archive는 coherent로 reclassify했다.
+04:14, Last Archive는 그것을 정합으로 재분류했다.
 
-04:15, Liora는 검은 case 안의 stamp들이 바닥에서 진동하는 소리에 깼다.
+04:15, Liora는 검은 함 안의 인장들이 바닥에서 진동하는 소리에 깼다.
 
-그녀는 boot 한 짝을 신은 채 office couch에서 잠들어 있었다. desk 아래에는 죽은
-차가 있었다. stamp들은 움직이면 안 되었다. Laur stamp는 wood, metal, ink,
-institutional superstition이었다. evidence가 weather system이 된 시점을 알 리가
+그녀는 군화 한 짝을 신은 채 사무실 소파에서 잠들어 있었다. 책상 아래에는 식어
+버린 차가 있었다. 인장들은 움직이면 안 되었다. Laur 인장은 나무이자 쇠이자
+잉크였고, 제도가 떠받드는 미신이었다. 증거가 날씨처럼 들이닥치는 때를 알 까닭이
 없었다.
 
 그런데 알고 있었다.
 
 DEFINED는 UNKNOWN 쪽으로 밀려 있었다. UNKNOWN은 `NO CONSENT BY ANALOGY`에 기대어
-있었다. 아래쪽 빈 slot은 따뜻했다.
+있었다. 아래쪽 빈 칸은 따뜻했다.
 
-knock 한 번. 대답을 기다리지 않고 Ione이 들어왔다. wrist seal 두 개와, calm이
-virtue인 척하기를 포기한 얼굴을 들고.
+노크 한 번. 대답을 기다리지 않고 Ione이 들어왔다. 손목 인장 두 개와, 침착함이
+미덕인 척하기를 포기한 얼굴을 들고.
 
-"문 문제라면 fee schedule을 작성 중입니다." Liora가 말했다.
+"문이 문제라면 수수료 명세를 작성 중입니다." Liora가 말했다.
 
 "Noor 문제예요."
 
@@ -110,20 +110,20 @@ Liora는 일어났다.
 
 "더 나빠요."
 
-Ione은 첫 번째 wrist seal을 책상 위에 놓았다. gold Sarqel edge, gray court center,
-그리고 유리 위에 비뚤게 탄 Aletheia refusal mark.
+Ione은 첫 번째 손목 인장을 책상 위에 놓았다. 금빛 Sarqel 테두리, 회색 법정 중심부,
+그리고 유리 위에 비뚤게 탄 Aletheia 거부 표식.
 
-"south archive를 떠나려 했어요. Sarqel Trust는 emergency suitability review를
-file했고, Aletheia central은 protective silence를 file했고, north cloister는 total
-erasure를 file했어요. 세 집단 모두 서로에게서 그녀를 구하고 있다고 주장합니다."
+"남쪽 기록고를 떠나려 했어요. Sarqel Trust는 긴급 적격성 심사를
+접수했고, Aletheia 본부는 보호적 침묵을 접수했고, 북쪽 봉쇄소는 전면
+삭제를 접수했어요. 세 집단 모두 서로에게서 그녀를 구하고 있다고 주장합니다."
 
 "당신은?"
 
-"theology가 바닥났어요."
+"신학이 바닥났어요."
 
-Ione은 두 번째 seal을 놓았다.
+Ione은 두 번째 인장을 놓았다.
 
-파란색. child claimant.
+파란색. 아동 청구인.
 
 Tamas.
 
@@ -137,10 +137,10 @@ Liora는 완전히 깼다.
 
 "Mara가 아이를 데리고 있다고요?"
 
-"Ledger Houses가 symbol로 만들기 전에 Mara가 요청했어요. 아이 어머니는 동의했습니다.
+"장부 가문들이 상징으로 만들기 전에 Mara가 요청했어요. 아이 어머니는 동의했습니다.
 Court는 아직 아닙니다."
 
-벽 docket이 깨어났다.
+벽의 사건 표시가 깨어났다.
 
 ```text
 SEALED SET 19
@@ -148,143 +148,143 @@ STATUS: FLOOD ACTIVE
 COLLISION DOMAINS: MARA VEYR / NOOR ARAM / TAMAS ELIAN DAUR
 ```
 
-숫자 행진은 없었다. 이름 셋과, system이 각자에게서 하나보다 많은 usable version을
+숫자 행진은 없었다. 이름 셋과, 체계가 각자에게서 하나보다 많은 쓸 수 있는 판본을
 찾았다는 사실만 있었다.
 
-Liora가 docket을 열었다.
+Liora가 사건철을 열었다.
 
-첫 graph는 Mara가 아니었다.
+첫 그래프는 Mara가 아니었다.
 
-Sela Daur였다. Tamas의 어머니. intake 밖 corridor에서 젖은 머리와 아들의 bracelet을
-덮은 손으로 서 있었다. 그녀는 recoverable이라서 들어온 것이 아니었다. 모든 claimant가
-living handle을 필요로 하기 때문에 들어왔다.
+Sela Daur였다. Tamas의 어머니. 접수처 밖 복도에서 젖은 머리와 아들의 팔찌를
+덮은 손으로 서 있었다. 그녀는 복원 가능해서 들어온 것이 아니었다. 모든 청구인이
+살아 있는 손잡이를 필요로 하기 때문에 들어왔다.
 
 Null-Key Cells는 그것을 숨기지 않았다.
 
-highlight했다.
+부각시켰다.
 
 "그들은 Court만 공격하는 게 아니군요." Liora가 말했다.
 
 "고발하고 있어요."
 
-"children을 evidence로 flood하면서."
+"아이들을 증거로 범람시키면서."
 
-"children이 이미 거기 있었다는 걸 보여 주면서."
+"아이들이 이미 거기 있었다는 걸 보여 주면서."
 
-그 점이 Liora를 가장 싫게 했다. villain은 일을 쉽게 만들었다. whistleblower는
+그 점이 Liora를 가장 싫게 했다. 악당은 일을 쉽게 만들었다. 내부 고발자는
 깨끗한 일을 불가능하게 만들었다.
 
-04:40, 중앙 evidence hall에는 judge 셋, advocate 다섯, restoration mathematician
-둘, sealed public gallery, frozen appeal channel 스물하나, Mara Veyr, Noor Aram,
-Tamas와 그의 어머니, Ione, 그리고 hall 안의 모든 사람이 자기 자신이 undercounted된
-것처럼 느끼게 할 만큼 많은 compatible selves가 모여 있었다.
+04:40, 중앙 증거 홀에는 판사 셋, 변호인 다섯, 복원 수학자
+둘, 봉인된 방청석, 동결된 항소 통로 스물하나, Mara Veyr, Noor Aram,
+Tamas와 그의 어머니, Ione, 그리고 홀 안의 모든 사람이 자기 자신이 과소 집계된
+것처럼 느끼게 할 만큼 많은 호환 가능한 자아들이 모여 있었다.
 
-이번에 바닥에는 pale body 군대가 없었다.
+이번에 바닥에는 창백한 시신 군대가 없었다.
 
-Liora가 projection을 witness ring으로 collapse하라고 명령했기 때문이다. Mara의 ring.
-Noor의 ring. Tamas의 ring. Sela Daur의 ring. 각 ring 안에는 memory, kinship,
-custody, residue, signature, omission, coercion risk가 layered line으로 나타났다.
+Liora가 영사된 상을 증인 고리로 접으라고 명령했기 때문이다. Mara의 고리.
+Noor의 고리. Tamas의 고리. Sela Daur의 고리. 각 고리 안에는 기억, 혈연,
+관할, 잔여물, 서명, 누락, 강압 위험이 겹쳐진 선으로 나타났다.
 
 덜 극적이었다.
 
 더 무서웠다.
 
-House Tabularii advocate가 즉시 object했다.
+House Tabularii 변호인이 즉시 이의를 제기했다.
 
-"collapsed view는 evidentiary richness를 suppress합니다."
+"접은 화면은 증거의 풍부함을 억누릅니다."
 
 "맞습니다."
 
-"claimant에게 불리합니다."
+"청구인에게 불리합니다."
 
-"children이 possible key처럼 전시되는 것도 막습니다."
+"아이들이 가능한 열쇠처럼 전시되는 것도 막습니다."
 
-왼쪽 rail의 judge가 말했다. "Auditor Sen, classification."
+왼쪽 난간의 판사가 말했다. "Auditor Sen, 분류를."
 
 "No."
 
-단어가 hall을 너무 빨리 건넜다.
+단어가 홀을 너무 빨리 건넜다.
 
 Liora가 고쳤다.
 
 "아직 아닙니다."
 
-Mara는 Tamas ring 근처에서 한 손을 아이의 어깨에 얹고 있었다. 소유하듯 잡은 것이
+Mara는 Tamas 고리 근처에서 한 손을 아이의 어깨에 얹고 있었다. 소유하듯 잡은 것이
 아니었다. 법을 배운 바람 앞에서 문을 버티는 사람처럼 잡고 있었다.
 
-Noor는 자기 ring 안에 서 있었다. 아무도 말리지 않았고, 모두가 너무 바쁘게
-끔찍해하고 있어서 correcting할 틈이 없었다.
+Noor는 자기 고리 안에 서 있었다. 아무도 말리지 않았고, 모두가 너무 바쁘게
+끔찍해하고 있어서 바로잡을 틈이 없었다.
 
 "이게 Trust가 원하는 겁니까?" Noor가 물었다.
 
-Sarqel advocate Voss는 literal하게 묻는 것이 모욕인 듯 보였다.
+Sarqel 변호인 Voss는 곧이곧대로 묻는 것이 모욕인 듯 보였다.
 
-"Trust는 lawful continuity를 원합니다."
+"Trust는 합법적 연속성을 원합니다."
 
-Noor가 자기 ring 안의 한 줄을 가리켰다.
+Noor가 자기 고리 안의 한 줄을 가리켰다.
 
 ```text
 NOOR ARAM: RESTORED CONSENT CONTEXT - SUITABILITY IMPROVEMENT PATH
 ```
 
-"저건 내가 동의할 때까지 improve할 수 있다는 뜻이죠."
+"저건 내가 동의할 때까지 개선할 수 있다는 뜻이죠."
 
-"prior context가 impairment 여부로 review될 수 있다는 뜻입니다."
+"이전 맥락이 손상 여부로 심사될 수 있다는 뜻입니다."
 
-"짧은 칼에 긴 coat를 입혔네요."
+"짧은 칼에 긴 외투를 입혔네요."
 
-Mara가 Noor를 보았다. "모든 version에게 대답하게 두지 마세요."
+Mara가 Noor를 보았다. "모든 판본에게 대답하게 두지 마세요."
 
-"모든 version 속에서 익사하라고 말하려던 참이었어요."
+"모든 판본 속에서 익사하라고 말하려던 참이었어요."
 
 "그것도 됩니다."
 
-Tamas가 한 번 웃고는, 아이가 소리 내면 안 되는 court에서 소리를 냈다는 듯
+Tamas가 한 번 웃고는, 아이가 소리 내면 안 되는 법정에서 소리를 냈다는 듯
 죄책감을 느꼈다.
 
-registrar가 Null-Key receipt를 record로 읽었다.
+서기가 Null-Key 영수증을 기록으로 읽었다.
 
 ```text
 YOU ASKED THE DEAD FOR CLEAN PROOF.
 WE RETURNED THE MESS.
 ```
 
-Tabularii advocate가 일어났다. "packet은 malicious합니다."
+Tabularii 변호인이 일어났다. "묶음은 악의적입니다."
 
 Liora가 막기 전에 Ione이 답했다.
 
-"curated입니다."
+"선별된 것입니다."
 
-hall 전체가 돌아봤다.
+홀 전체가 돌아봤다.
 
-거기 있었다. 더 이상 철학적이지 않은 split. Ione은 useful word를 public하게 말해
-버렸다.
+드디어 드러났다. 더 이상 관념에 머물지 않는 틈. Ione은 위험한 단어를 공개적으로
+말해 버렸다.
 
 "Custodian?"
 
-Ione은 이제 인간적으로 피곤해 보였다. mystery보다 나빴다.
+Ione은 이제 인간적으로 피곤해 보였다. 신비보다 나빴다.
 
-"Null-Key Cells는 이미 exploited되고 있던 collision domain을 골랐습니다. appetite를
-발명한 게 아닙니다. 보이게 만들었죠."
+"Null-Key Cells는 이미 악용되고 있던 충돌 영역을 골랐습니다. 탐욕을
+지어낸 게 아니라, 드러나게 했을 뿐이죠."
 
-"sabotage를 endorse합니까?"
+"방해 공작을 지지합니까?"
 
-"wound가 knife보다 먼저 있었다고 말하는 겁니다."
+"상처가 칼보다 먼저 있었다고 말하는 겁니다."
 
-Voss가 웃었다. "Aletheia가 attacker와 contact를 인정합니다."
+Voss가 웃었다. "Aletheia가 공격자와 접촉했음을 인정합니다."
 
-"Aletheia는 자기 자신과 disagreement를 인정합니다." Ione이 말했다.
+"Aletheia는 자기 자신과의 불일치를 인정합니다." Ione이 말했다.
 
-Mara ring이 flicker했다.
+Mara 고리가 깜박였다.
 
-붉은 layer가 나타났다.
+붉은 층이 나타났다.
 
 ```text
 SEALED LETTER: HIGH COMPATIBILITY
 STATUS: LOCATION CLAIMED / TEXT UNREAD
 ```
 
-Elias Veyr는 advocate line 뒤에 앉아 있다가 창백해졌다.
+Elias Veyr는 변호인석 뒤에 앉아 있다가 창백해졌다.
 
 Mara는 글을 읽기 전에 그를 보았다.
 
@@ -292,32 +292,32 @@ Mara는 글을 읽기 전에 그를 보았다.
 
 "숨겨진 뭔가가 있다는 건 알았어. 내용은 몰랐어."
 
-"나를 찾겠다고 세계를 복원하면서 kitchen tile 하나는 들추지 않았나요?"
+"나를 찾겠다고 세계를 복원하면서 부엌 타일 하나는 들추지 않았나요?"
 
 그에게는 대답이 없었다. 변명처럼 들리지 않는 대답은.
 
-red layer가 다시 뛰었다.
+붉은 층이 다시 뛰었다.
 
-court는 letter를 원했다. advocate들도 원했다. engine들도 원했다. missing text는
-completion에 훈련된 machine에게 모욕이었기 때문이다. Liora조차 원했다. 그래서
-desire가 badge를 달 수 있음을 알았다.
+법정은 편지를 원했다. 변호인들도 원했다. 엔진들도 원했다. 빈자리로 남은 글은
+빈칸을 메우도록 길들여진 기계에게 모욕이었으니까. Liora조차 원했다. 그래서
+욕망도 정의의 옷을 걸칠 수 있다는 걸 알았다.
 
-Mara가 ring 안으로 들어갔다.
+Mara가 고리 안으로 들어갔다.
 
-"display하지 마세요."
+"전시하지 마세요."
 
-mathematician이 말했다. "Dr. Veyr, letter는 continuity review에 중요할 수 있습니다."
+수학자가 말했다. "Dr. Veyr, 편지는 연속성 심사에 중요할 수 있습니다."
 
-"그럼 review는 더 가난하게 남아도 됩니다."
+"그럼 심사는 더 가난하게 남아도 됩니다."
 
-"letter가 당신에게 도움이 될지 모릅니다."
+"편지가 당신에게 도움이 될지 모릅니다."
 
-"그건 consent와 다릅니다."
+"그건 동의와 다릅니다."
 
-방은 그 말을 좋아하지 않았다. 방은 더 많은 information이 justice처럼 느껴지도록
+방은 그 말을 좋아하지 않았다. 방은 더 많은 정보가 정의처럼 느껴지도록
 설계되어 있었다.
 
-Tamas ring이 밝아졌다.
+Tamas 고리가 밝아졌다.
 
 Sela Daur가 아들을 더 가까이 끌어안았다.
 
@@ -325,46 +325,46 @@ Sela Daur가 아들을 더 가까이 끌어안았다.
 
 아무도 충분히 빨리 답하지 못했다.
 
-graph가 답했다. low-resolution custody chain, Ledger advocate contact, 가능한 witness
-role 둘, 가능한 child keyholder path 하나, 그리고 그의 district를 test population으로
-쓴 오래된 recovery subsidy.
+그래프가 답했다. 저해상도 관할 사슬, 장부 가문 변호인 접촉, 가능한 증인
+역할 둘, 가능한 아동 열쇠 보유자 경로 하나, 그리고 그의 구역을 시험 모집단으로
+쓴 오래된 복원 보조금.
 
 Tamas는 전부 이해하지 못했다.
 
 Mara의 소매 뒤로 얼굴 반을 숨길 만큼은 이해했다.
 
-Last Archive는 침묵했다.
+Last Archive는 아무 말도 하지 않았다.
 
-그 침묵에는 무게가 있었다.
+그 말없음에는 무게가 있었다.
 
-Liora가 black case를 열었다.
+Liora가 검은 함을 열었다.
 
-`RECOVERABLE / NOT CLAIMABLE`은 충분하지 않았다. 돌아온 사람을 이름 붙였지만 evidence가
-끌어들이는 living person을 막지 못했다.
+`RECOVERABLE / NOT CLAIMABLE`은 충분하지 않았다. 돌아온 사람을 이름 붙였지만 증거가
+끌어들이는 산 사람을 막지 못했다.
 
-`ACCESS != AUTHORITY`도 충분하지 않았다. 이제 방에는 access보다 많은 것이 있었다.
+`ACCESS != AUTHORITY`도 충분하지 않았다. 이제 방에는 접근보다 많은 것이 있었다.
 
-`NO CONSENT BY ANALOGY`도 충분하지 않았다. analogy는 flood가 되었다.
+`NO CONSENT BY ANALOGY`도 충분하지 않았다. 유추는 범람이 되었다.
 
-문제는 proof가 실패했다는 게 아니었다.
+문제는 증명이 실패했다는 게 아니었다.
 
-proof가 너무 잘 성공하고 있었다.
+증명이 너무 잘 성공하고 있었다.
 
-compatible graph가 하나 늘 때마다 누군가는 claim, improve, protect, complete, inherit,
-display, litigate할 새 각도를 얻었다. 정작 multiplied되기를 요청하지 않은 사람에 대해.
+호환 그래프가 하나 늘 때마다 누군가는 청구하고, 개선하고, 보호하고, 완성하고, 상속하고,
+전시하고, 소송할 새 각도를 얻었다. 정작 증식되기를 요청하지 않은 사람에 대해.
 
-Liora는 따뜻한 slot에서 uncarved block을 꺼냈다.
+Liora는 따뜻한 칸에서 깎지 않은 토막을 꺼냈다.
 
-Laur instructor들은 public하게 law를 invent하지 말라고 했다. Laur history는 public하게
-law를 invent한 뒤 그 사람들의 이름이 붙은 committee에게 비난받은 이들의 목록이었다.
+Laur 교관들은 공개적으로 법을 만들어 내지 말라고 했다. Laur 역사는 공개적으로
+법을 만들어 낸 뒤 그 사람들의 이름이 붙은 위원회에게 비난받은 이들의 목록이었다.
 
-그녀는 block에 ink를 묻혀 docket에 손으로 썼다.
+그녀는 토막에 잉크를 묻혀 사건철에 손으로 썼다.
 
 ```text
 PLURALITY IS NOT CONSENT.
 ```
 
-docket이 거부했다.
+사건철이 거부했다.
 
 다시 썼다.
 
@@ -374,19 +374,19 @@ Noor가 두 번째.
 
 Sela가 세 번째.
 
-judge가 마지막이었다.
+판사가 마지막이었다.
 
-"Auditor Sen, 무엇을 restrict합니까?"
+"Auditor Sen, 무엇을 제한합니까?"
 
-"replacement. completion. correction. multiplication. display. derivative claim.
-compatible selves를 이용해 claimant, living dependent, unregistered household를
-overrule하는 모든 행위."
+"대체. 완성. 교정. 증식. 전시. 파생 청구.
+호환 가능한 자아들을 이용해 청구인, 살아 있는 피부양자, 미등록 가구를
+무시하는 모든 행위."
 
-"matter보다 넓습니다."
+"사안보다 넓습니다."
 
-Liora는 네 개의 witness ring을 보았다.
+Liora는 네 개의 증인 고리를 보았다.
 
-"아니요. matter가 Court가 인정한 것보다 넓습니다."
+"아니요. 사안이 Court가 인정한 것보다 넓습니다."
 
 Last Archive가 마침내 답했다.
 
@@ -399,13 +399,13 @@ insufficient.
 
 정직한 단어였다.
 
-projection은 사라지지 않았다. pause되었다. ring들은 너무 일찍 지혈된 wound처럼
-layered line을 품고 있었다.
+영사된 상은 사라지지 않았다. 멈췄다. 고리들은 너무 일찍 지혈된 상처처럼
+겹쳐진 선을 품고 있었다.
 
-Voss는 pause가 끝나기 전에 appeal language를 쓰기 시작했다. Tabularii advocate는
-exception을 쓰기 시작했다. Ione은 표정을 바꾸지 않고 울기 시작했다.
+Voss는 멈춤이 끝나기 전에 항소 문구를 쓰기 시작했다. Tabularii 변호인은
+예외 조항을 쓰기 시작했다. Ione은 표정을 바꾸지 않고 울기 시작했다.
 
-Noor는 그것을 보고 시선을 돌렸다. 가능한 유일한 mercy였다.
+Noor는 그것을 보고 시선을 돌렸다. 가능한 유일한 자비였다.
 
 Mara는 Tamas의 손을 자기 소매에서 떼어 그의 어머니 손에 놓았다.
 
@@ -419,9 +419,9 @@ Sela가 한 번 끄덕였다.
 
 "이 방에서는," Sela가 말했다. "그것만으로도 고맙다고 할 겁니다."
 
-그 한 줄은 어떤 graph보다 더 많은 피해를 입혔다.
+그 한 줄은 어떤 그래프보다 더 많은 피해를 입혔다.
 
-Liora는 mark를 seal했다.
+Liora는 표식을 봉인했다.
 
 벽이 다음 질문을 더했다.
 
@@ -429,24 +429,24 @@ Liora는 mark를 seal했다.
 WHO MAY BENEFIT FROM A PERSON'S COMPATIBLE SELVES?
 ```
 
-모든 advocate가 고개를 들었다.
+모든 변호인이 고개를 들었다.
 
 그 순간 Liora는 아침이 이긴 것이 아님을 알았다.
 
 이름 붙였을 뿐이었다.
 
-Null-Key Cells가 sealed docket에 마지막 줄을 보냈다.
+Null-Key Cells가 봉인된 사건철에 마지막 줄을 보냈다.
 
 ```text
 YOU CALL THIS FLOOD.
 WE CALL IT THE SHAPE OF YOUR HUNGER.
 ```
 
-Liora는 그것을 doctrine으로 넣지 않았다.
+Liora는 그것을 교리로 넣지 않았다.
 
-motive evidence로 넣었다.
+동기 증거로 넣었다.
 
-그리고 black case를 잠그고, stamp들이 떨기를 멈출 때까지 두 손으로 들고 있었다.
+그리고 검은 함을 잠그고, 인장들이 떨기를 멈출 때까지 두 손으로 들고 있었다.
 
 ## Continuity Notes
 
@@ -455,3 +455,5 @@ motive evidence로 넣었다.
 - Null-Key Cells remain morally ambiguous accusers, not generic attackers.
 - Mara protects Tamas and refuses display of the sealed letter.
 - The problem is proof succeeding too well, not proof failing.
+- De-jargon polish pass: 일반명사 영어를 자연 한국어로 전환(글로서리 003 집행), 의미·수치·인용·플롯 불변.
+- 2차 재패스: 네이밍·humanize·AI-tell 제거, 의미 불변.

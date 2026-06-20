@@ -43,6 +43,22 @@ validation, Level 2B admission이 아니다.
 [QFUDS SAGA World Anchor and Verisimilitude](001_world_anchor_and_verisimilitude_ko.md)
 를 따른다.
 
+## 인과·기원·연표 보강 (신규 canon, SSOT)
+
+이 타임라인의 **인과·기원·규모**는 아래 두 문서가 권위다(여기서 중복 서술하지
+않고 참조한다).
+
+- 역연산이 어떻게/누구에 의해 가능해졌나, Last Archive의 정체(딥페이크 검증
+  하이퍼스케일러 Aletheia Systems의 폭주 후신; 창업자 Adrian Karvath; 강제
+  업로드된 비서 Vera가 핵; AGI는 없다=합의의 신격화), 비트코인 중심 인과,
+  이념(보존주의=므네모시네 / 망각주의=레테):
+  [010 Last Archive 기원과 역연산 인과](010_last_archive_origin_and_reversal_causality_ko.md).
+- 연표·기술곡선(지수→로그), 복원 행정·세대 해상도, Last Archive의 은하 중심
+  블랙홀 본거지:
+  [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md).
+
+아래 0~9기 서사는 이 인과 위에서 읽는다. 두 문서와 충돌하면 010/011이 우선한다.
+
 ## Influence Boundary
 
 이 문서는 장르 구조를 참고한다. 고유 설정, 인물, 명칭, 사건 전개를 복제하지
@@ -85,7 +101,10 @@ validation, Level 2B admission이 아니다.
 
 ### 1기: 첫 복원
 
-AGI 라스트 아카이브는 양자장과 중력장에 남은 잔상 패턴을 읽었다고 발표했다.
+Last Archive — AGI 시대가 낳았으나 행위자(인격)가 아닌, 진실을 잃지 않으려고
+쌓인 기록 인프라. 기원·정체와 역연산 인과는
+[010 Last Archive 기원과 역연산 인과](010_last_archive_origin_and_reversal_causality_ko.md)
+가 고정한다 — 가 양자장과 중력장에 남은 잔상 패턴을 읽었다고 발표했다.
 
 죽은 사람의 마지막 뇌 상태, 말투, 감정 습관, 미세한 기억 흔적이 우주 전체에
 흩어져 있었고, 충분히 큰 계산 체계는 그것을 재조립할 수 있다는 주장이었다.

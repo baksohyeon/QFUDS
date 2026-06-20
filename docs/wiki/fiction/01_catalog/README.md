@@ -45,7 +45,7 @@ last_updated: 2026-06-20
 
 | Work | Current path | Format | Continuity status | Next decision |
 | --- | --- | --- | --- | --- |
-| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active prototype series work | Plan the next arc from the Korean-primary read order |
+| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active prototype series work | Choose 025 English counterpart, 026 Korean primary, or first-arc release polish |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
 ## Target Structure
@@ -104,6 +104,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. Arc Two 또는 first-arc polish task를 normalized SAGA shelf 아래에서 시작.
-2. Liora Sen `Exhibit S-0` beat sheet를 실제 prose draft로 확장할지 결정.
-3. Mara Veyr prologue와 Liora episode가 같은 continuity인지 분리할지 결정.
+1. 025의 English Anglophone counterpart를 쓸지 결정.
+2. Arc Two 026 Korean primary draft를 바로 이어 쓸지 결정.
+3. 019-024를 `40_release/` 후보로 올리기 위한 continuity/line edit을 닫을지 결정.

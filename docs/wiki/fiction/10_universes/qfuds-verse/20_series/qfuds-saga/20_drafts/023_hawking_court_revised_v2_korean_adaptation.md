@@ -63,83 +63,82 @@ English counterpart:
 
 ## Hawking Court
 
-sealed exhibit은 어머니들보다 늦게 도착했다.
+봉인된 증거물은 어머니들보다 늦게 도착했다.
 
-Liora Sen이 처음 기억한 것은 그것이었다. 검은 천도, armed clerk도, 나중에 Ministry가
-H-1이라고 부르게 될 captured radiation의 어두운 실도 아니었다. 무기를 filing
-cabinet처럼 이름 붙이는 사람들의 sterile relief도 아니었다.
+Liora Sen이 처음 기억한 것이 그것이다. 검은 천도 아니고, 무장한 서기도 아니고,
+나중에 Ministry가 H-1이라 부르게 될 포획된 radiation의 어두운 실가닥도 아니었다.
+무기에 서류 캐비닛 같은 이름을 붙이는 사람들의 그 메마른 안도감도 아니었다.
 
 어머니들이 먼저 도착했다.
 
-셋이었다. 06:00, rear corridor를 통해 들어왔다. 각자 다른 종류의 permission을
+셋이었다. 06:00, 뒤쪽 복도를 통해 들어왔다. 각자 다른 종류의 허가를 들고 있었다.
+
+한 사람은 Salt Fires 전에 살해된 딸을 복원해 달라는 청원을 들고 있었다.
+
+한 사람은 자기 살해자에 대한 증거로 사용되지 않게 해 달라고 애원했던 아들의 거부서를
 들고 있었다.
 
-한 사람은 Salt Fires 전에 살해된 딸을 recover해 달라는 petition을 들고 있었다.
+한 사람은 아무것도 들고 있지 않았다. 그녀의 아이는 동의 등록부가 생기기도 전에
+compact-object 대피 archive로 떨어졌고, 법정은 부재가 곧 허가인지를 그녀더러
+결정하라고 불러냈다.
 
-한 사람은 자기 killer에 대한 evidence로 사용되지 않게 해 달라고 애원했던 아들의
-refusal을 들고 있었다.
-
-한 사람은 아무것도 들고 있지 않았다. 그녀의 child는 consent registry가 생기기 전에
-compact-object evacuation archive로 떨어졌고, Court는 absence가 permission인지
-결정하라고 그녀를 불렀다.
-
-그들은 나쁜 의자와 뜨거운 조명이 있는 side room에 앉았다. 아무도 history라고
-부르지 않았다. civilization-scale이라고도 부르지 않았다. 그들은 그저 일찍 온
-사람들이었다. grief는 기관이 자기들 없이 시작할 것을 예상하도록 훈련시켰다.
+세 사람은 불편한 의자와 뜨거운 조명만 있는 곁방에 앉았다. 아무도 이걸 역사라 부르지
+않았다. 문명의 규모라 부르지도 않았다. 그들은 그저 일찍 온 사람들이었다. 기관이 자기들
+없이도 일을 시작하리란 것을, 슬픔이 미리 가르쳐 두었으니까.
 
 검은 천이 Chamber Zero로 들어올 때쯤 Liora는 이미 그것이 원하는 것을 알았다.
 
-그것은 어머니들을 precedent로 바꾸고 싶어 했다.
+그것은 어머니들을 선례로 바꾸고 싶어 했다.
 
-judge는 door가 seal될 때까지 기다렸다.
+판사는 문이 봉인될 때까지 기다렸다.
 
-"본 session은 Exhibit H-1의 admissibility를 다룹니다."
+"본 심리는 Exhibit H-1의 채택 가능성을 다룹니다."
 
-wall은 비어 있었다.
+벽은 비어 있었다.
 
-Mara Veyr는 claimant barrier 뒤에 앉았다. Noor Aram은 Ione 옆에 앉아 Sarqel seat와
-그 모양을 한 모든 chair를 너무 눈에 띄게 거부하고 있었다. Tamas는 없었다.
+Mara Veyr는 청구인 차단벽 뒤에 앉았다. Noor Aram은 Ione 옆에 앉아, Sarqel 좌석과
+그 모양을 본뜬 의자라면 무엇이든 보란 듯이 거부하고 있었다. Tamas는 오지 않았다.
 
-그것이 Liora의 첫 승리였다.
+그게 Liora의 첫 승리였다.
 
-두 번째는 더 작았다. exhibit이 physics만 되기 전에 Court가 어머니들의 이름을
-closed intake에서 듣게 만든 것.
+두 번째 승리는 더 작았다. 증거물이 physics로만 남기 전에, 법정이 닫힌 접수창구에서
+어머니들의 이름을 듣게 만든 것.
 
-House Tabularii advocate가 일어났다.
+House Tabularii 변호인이 일어났다.
 
-"Exhibit H-1은 Genesis Chain이 작은 case였음을 보여 줍니다."
+"Exhibit H-1은 Genesis Chain이 작은 사건이었음을 보여 줍니다."
 
 Mara가 Liora를 보았다.
 
 작다.
 
-제국은 그런 단어를 자신 있게 쓴다.
+제국은 그런 단어를 거리낌 없이 쓴다.
 
-"큰 case는 state recovery입니다. Court가 key, graph, letter, trust path를 recover할
-수 있다면, 결국 universe 자체가 admissible record를 보존하는지 물어야 합니다."
+"큰 사건은 국가의 복원입니다. 법정이 key와 graph, 편지, 신뢰 경로까지 복원할 수
+있다면, 결국 universe 자체가 채택 가능한 기록을 품고 있는지 물어야 합니다."
 
 Noor가 작게 말했다.
 
 "사람들."
 
-크게 말하지 않았다. 크게 말했다면 disruption으로 무시하기 쉬웠을 것이다.
+크게 말하지 않았다. 크게 말했다면 소란으로 무시하기 쉬웠을 것이다.
 
-judge가 들었다.
+판사가 들었다.
 
 "Ms. Aram?"
 
 Noor는 일어서지 않았다.
 
-"state라고 했죠. 그는 사람들을 말하는 겁니다."
+"국가라고 했죠. 그는 사람들을 말하는 겁니다."
 
-advocate가 sleeve를 정리했다. "prior infall state family, destroyed record,
-potential witness를 뜻합니다."
+변호인이 소맷자락을 가다듬었다. "이전 infall 상태의 가족, 파괴된 기록, 잠재적 증인을
+뜻합니다."
 
 "사람들."
 
-Liora는 그가 Noor를 interruption으로 만들기 전에 black case를 열었다.
+변호인이 Noor의 말을 한낱 끼어듦으로 깎아내리기 전에, Liora가 검은 상자를 열었다.
 
-mark들이 slot 안에 있었다.
+표시들이 슬롯 안에 들어 있었다.
 
 ```text
 RECOVERABLE / NOT CLAIMABLE
@@ -148,16 +147,15 @@ NO CONSENT BY ANALOGY
 PLURALITY IS NOT CONSENT
 ```
 
-blank slot은 차가웠다.
+빈 슬롯은 차가웠다.
 
-clerk들이 천을 벗겼다.
+서기들이 천을 벗겼다.
 
-그 아래 exhibit은 body도, photograph도, recording도 아니었다. 투명 cube 안의 어두운
-빛의 filament였다. 처음에는 비어 보였다. 그러다 filament가 눈이 소유하지 못하는
-방향으로 움직였고, chamber 안의 모두가 보는 행위도 trespass가 될 수 있음을
-기억했다.
+천 아래 증거물은 시신도, 사진도, 녹음도 아니었다. 투명한 정육면체 안에 담긴 어두운
+빛의 filament. 처음에는 텅 빈 듯 보였다. 그러다 filament가 눈으로는 도무지 붙들 수 없는
+방향으로 움직였고, 심리실에 있던 모두가 보는 일조차 침범이 될 수 있음을 다시 떠올렸다.
 
-wall이 켜졌다.
+벽이 켜졌다.
 
 ```text
 EXHIBIT H-1
@@ -166,67 +164,67 @@ SOURCE: CLASSIFIED COMPACT REMNANT AUDIT
 STATUS: PARTIAL STATE RECONSTRUCTION
 ```
 
-restoration mathematician이 witness rail에 섰다. 그는 Identity Flood 때 uncertainty를
-인정해 Court가 살아남는 데 도움을 준 사람이었다. 그 일은 Liora의 평가를 높였고
-그의 잠을 망쳤다.
+복원 수학자가 증인석 난간 앞에 섰다. Identity Flood 때 uncertainty를 인정해 법정이
+무너지지 않게 도왔던 사람이었다. 그 일로 Liora의 평가는 올라갔고, 그의 잠자리는
+망가졌다.
 
-"plainly." judge가 말했다.
+"명확하게." 판사가 말했다.
 
-그는 sealed glass 뒤의 어머니들이 있는 side-room door 쪽을 보았다.
+그는 봉인된 유리 뒤의 어머니들이 있는 곁방 문 쪽을 보았다.
 
-"떨어져 들어간 것을 reconstruct하는 데 도움이 될 수 있습니다."
+"떨어져 들어간 것을 재구성하는 데 도움이 될 수 있습니다."
 
-방은 잠시 말하지 않았다.
+방은 잠시 입을 다물었다.
 
-사람들이라고 말하지 않는 좋은 방법은 많았다.
+사람들이라고 입에 올리지 않는 방법은 많았다.
 
-오래가지는 못했다.
+다만 오래가지는 못했다.
 
-advocate가 먼저 회복했다. "destroyed witness. lost consent file. murder victim.
-archived population. exhibit은 Court가 oblivion을 repair할 수 있게 합니다."
+변호인이 먼저 정신을 차렸다. "파괴된 증인. 잃어버린 동의 파일. 살해당한 피해자.
+보관된 인구. 이 증거물은 법정이 잊힌 것을 되찾게 해 줍니다."
 
-Aletheia row에서 Ione이 대답했다.
+Aletheia 석에서 Ione이 받아쳤다.
 
-"아니면 모든 grave를 conscript하거나."
+"아니면, 모든 무덤을 징집하거나."
 
-Aletheia row가 눈에 보이게 갈라졌다. 두 custodian이 Ione과 함께 일어섰다. 셋은
-앉아 있었다. 하나는 side room을 보고 어느 배신을 선호해야 할지 모르는 얼굴을 했다.
+Aletheia 석이 눈에 띄게 갈라졌다. 관리인 둘이 Ione을 따라 일어섰다. 셋은 앉은 채였다.
+그중 하나는 곁방 쪽을 보며 어느 배신을 골라야 할지 모르겠다는 얼굴을 했다.
 
-judge가 rail을 한 번 쳤다.
+판사가 난간을 한 번 쳤다.
 
-"admissibility hearing입니다. chapel argument가 아닙니다."
+"채택 심리입니다. 예배당 설교가 아닙니다."
 
-Mara가 말했다. "그럼 relic를 가져오지 마세요."
+Mara가 말했다. "그럼 유물을 가져오지 마세요."
 
-아무도 긴장을 풀지 않았다. 사람들은 배웠다.
+아무도 긴장을 풀지 않았다. 다들 학습한 것이다.
 
-advocate가 glass 뒤의 어머니들을 향해 손짓했다.
+변호인이 유리 뒤의 어머니들을 향해 손짓했다.
 
 "그들을 거부하시겠습니까?"
 
-Mara는 빨리 대답하지 않았다. 그래서 질문이 아팠다. 쉬운 대답은 그녀를 이기적으로
-보이게 했을 것이다. 방은 쉬운 selfishness를 좋아했다. 관리할 수 있기 때문이다.
+Mara는 서둘러 대답하지 않았다. 그래서 그 질문이 더 아팠다. 쉽게 대답했다면 그녀는
+이기적으로 보였을 것이다. 방은 쉬운 이기심을 좋아했다. 다루기 편하니까.
 
-"나는 그들을 이용해 다른 모든 사람의 grave를 열지는 않겠습니다." Mara가 말했다.
+"나는 저 사람들을 빌미로 다른 모든 이의 무덤을 열지는 않겠습니다." Mara가 말했다.
 
-첫 번째 어머니가 두 손으로 얼굴을 가렸다.
+첫 번째 어머니가 두 손에 얼굴을 묻었다.
 
-두 번째는 움직이지 않았다.
+두 번째는 꼼짝하지 않았다.
 
-세 번째는 H-1을 보았다. 감옥 벽에 갑자기 문이 생겼고, 그 너머 hallway를 누가
-지었는지 궁금해하는 사람의 표정이었다.
+세 번째는 H-1을 보았다. 감옥 벽에 난데없이 문이 생긴 것을 보고, 그 너머 복도를 대체
+누가 지었나 묻는 사람의 얼굴이었다.
 
-mathematician이 목을 가다듬었다.
+수학자가 목을 가다듬었다.
 
-"model issue가 있습니다."
+"모형 문제가 있습니다."
 
-advocate가 너무 빨리 돌아섰다.
+변호인이 너무 빨리 돌아섰다.
 
-Liora는 생각했다. 좋아.
+좋아, 하고 Liora는 생각했다.
 
-coalition 안의 fear는 여전히 truth를 사는 가장 싼 방법이었다.
+연합 안에서 두려움은 여전히 진실을 사는 가장 값싼 수단이었다.
 
-wall이 mathematician보다 먼저 답했다.
+벽이 수학자보다 먼저 답했다.
 
 ```text
 MODEL FAMILY: QFUDS-ADJACENT INTERPRETIVE LATTICE
@@ -234,23 +232,22 @@ SOURCE: LABORATORIUM VETITUM ARCHIVE
 STATUS: REJECTED / USEFUL / UNSAFE AS TRUTH CLAIM
 ```
 
-오래된 단어가 의례 없이 chamber에 들어왔다.
+오래된 단어가 의례 없이 심리실에 들어왔다.
 
 QFUDS.
 
-proof가 아니었다. validation도 아니었다. 구조된 theory도 아니었다. 어떤 망가진
-machinery에는 유용하게 맞아 떨어져서, 더 잘 알아야 할 사람들을 유혹하는 discarded
-grammar였다.
+증명이 아니었다. validation도 아니었다. 복권된 이론도 아니었다. 망가진 기계 몇 대에는
+얄궂게 잘 들어맞아서, 그래선 안 될 사람들까지 홀려 버리는 폐기된 문법이었다.
 
-"strike that." advocate가 말했다.
+"그건 삭제하시오." 변호인이 말했다.
 
-"아니요." Liora가 말했다.
+"안 됩니다." Liora가 말했다.
 
-"Auditor Sen, forbidden cosmology를 evidence에 원할 리가 없습니다."
+"감사관 Sen, 금지된 cosmology를 증거에 끌어들이고 싶진 않으실 텐데요."
 
-"Court가 그 unstable scaffold 위에 서기 전에 이름 붙이기를 원합니다."
+"법정이 그 불안한 발판 위에 올라서기 전에, 그 발판의 이름부터 붙이길 원합니다."
 
-judge가 mathematician을 보았다.
+판사가 수학자를 보았다.
 
 "H-1은 이 lattice에 의존합니까?"
 
@@ -258,113 +255,113 @@ judge가 mathematician을 보았다.
 
 Liora는 기다렸다.
 
-judge도 기다렸다.
+판사도 기다렸다.
 
-mathematician은 눈을 감았다.
+수학자는 눈을 감았다.
 
 "전적으로는 아닙니다."
 
-또 나왔다. 문명이 가장 좋아하는 confession.
+또 나왔다. 문명이 제일 좋아하는 고백.
 
 전적으로는.
 
 Liora가 일어섰다.
 
-"Objection."
+"이의 있습니다."
 
 "근거는?"
 
-"physics를 jurisdiction으로 import하고 있습니다."
+"physics를 관할권 안으로 끌어들이고 있습니다."
 
-advocate는 멈추기 전에 한 번 웃었다.
+변호인은 멈추기 전에 한 번 웃었다.
 
-"physics는 jurisdiction보다 선행합니다."
+"physics는 관할권보다 먼저 옵니다."
 
-"hunger도 그렇습니다. 그렇다고 아이들에 대해 testify하게 두지는 않습니다."
+"굶주림도 그렇죠. 그렇다고 굶주림더러 아이들 일을 증언하라고 세우지는 않습니다."
 
-chamber는 눈에 띄게 마지못해 그 문장을 기록했다.
+심리실은 그 문장을, 누가 봐도 마지못해, 기록했다.
 
-Liora는 말이 clever해지기 전에 계속했다.
+말이 영리한 척으로 굳기 전에 Liora가 밀어붙였다.
 
-"recoverable state family는 testimony가 아닙니다. constrained prior는 consent가
-아닙니다. correlation package는 witness가 아닙니다. forbidden interpretive lattice는
-죽은 machine을 useful하게 만든다고 truth가 되지 않습니다."
+"복원 가능한 상태 가족은 증언이 아닙니다. 제약된 prior는 동의가 아닙니다. correlation
+package는 증인이 아닙니다. 금지된 interpretive lattice는 죽은 기계를 쓸모 있게 만든다고
+해서 진실이 되지는 않습니다."
 
 Last Archive는 답하지 않았다.
 
-그 침묵은 방에서 가장 나쁜 participant가 되었다.
+그 침묵이 방에서 가장 고약한 참석자 노릇을 했다.
 
-"Court는 admissibility를 물었습니다." judge가 말했다.
+"법정은 채택 가능성을 물었습니다." 판사가 말했다.
 
-"그럼 warning label과 함께 admit하십시오."
+"그럼 경고 표시를 달아서 채택하십시오."
 
-"warning label은 law가 아닙니다."
+"경고 표시는 법이 아닙니다."
 
-"exhibit도 law가 아닙니다. 그런데 아무도 멈추지 않았군요."
+"증거물도 법은 아니죠. 그런데도 아무도 멈추지 않았잖습니까."
 
-Liora는 차가운 slot에서 blank block을 꺼내 admissibility sheet에 직접 썼다.
+Liora는 차가운 슬롯에서 빈 블록을 꺼내, 채택 가능성 문서에 곧장 써넣었다.
 
 ```text
 PHYSICS IS NOT JURISDICTION.
 ```
 
-sheet는 mark를 거부했다.
+문서는 표시를 거부했다.
 
 다시 썼다.
 
-wall이 field annotation으로 받아들였다.
+벽이 field annotation으로 받아들였다.
 
-advocate의 얼굴이 굳었다.
+변호인의 얼굴이 굳었다.
 
-"이 warning이 서면 future compact-object evidence recovery가 모두 prejudiced됩니다."
+"이 경고가 한번 서면, 앞으로 compact-object 증거 복원은 죄다 편향되고 맙니다."
 
 "좋습니다."
 
-"truth에 반대한다는 뜻입니까?"
+"진실에 반대하신다는 겁니까?"
 
-"useful machinery에 obedience하는 것에 반대한다는 뜻입니다."
+"쓸모 있다는 이유로 기계에 복종하는 데 반대한다는 겁니다."
 
 Ione이 일어섰다.
 
-"Veil은 severance를 요청합니다. posthumous consent standard가 다시 쓰이기 전까지
-compact-object restoration evidence는 personhood proceeding에 들어오면 안 됩니다."
+"Veil은 분리를 요청합니다. 사후 동의 기준이 다시 쓰이기 전까지, compact-object 복원
+증거는 인격 심리에 들어와선 안 됩니다."
 
-앉아 있던 Aletheia faction이 object했다. Ledger Houses가 object했다. Restoration
-Intake가 object했다. Ministry가 object했다. glass 뒤의 세 어머니는 object하지
-않았다. 그들의 침묵은 누구와도 동의하지 않았다. 단순해지기를 거부했을 뿐이었다.
+앉아 있던 Aletheia 분파가 이의를 제기했다. 장부 가문들이 이의를 제기했다.
+Restoration Intake가 이의를 제기했다. Ministry가 이의를 제기했다. 유리 뒤의 세 어머니는
+이의를 제기하지 않았다. 그들의 침묵은 누구의 편도 아니었다. 그저 단순해지기를 거부했을
+뿐이었다.
 
 Mara는 H-1을 보았다.
 
-"letter를 retrieve할 수 있습니까?"
+"편지를 회수할 수 있습니까?"
 
-아무도 어느 letter인지 묻지 않았다.
+아무도 어느 편지냐고 되묻지 않았다.
 
-kitchen tile은 public war 안의 작은 private grave가 되어 있었다.
+부엌 타일 한 칸이, 공적인 전쟁 한복판의 작고 사적인 무덤이 되어 있었다.
 
-mathematician이 낮게 답했다. "가능할 수 있습니다. flood graph와 domestic residue가
-있다면."
+수학자가 낮게 답했다. "가능은 합니다. flood graph가 남아 있고, 가정의 잔류물이
+있다면요."
 
-"그 letter가 내가 restoration을 거부했다는 내용이면?"
+"그 편지에, 내가 복원을 거부했다고 적혀 있다면?"
 
-"relevant해집니다." advocate가 말했다.
+"그럼 관련 증거가 됩니다." 변호인이 말했다.
 
-"무엇에 relevant합니까?"
+"무엇에 관련된다는 거죠?"
 
-"당신 case에."
+"당신 사건에요."
 
-Mara가 유머 없는 미소를 지었다.
+Mara가 웃음기 없는 미소를 지었다.
 
-"내가 내 case인 줄 알았는데요."
+"내가 곧 내 사건인 줄로만 알았는데요."
 
-그 문장은 좋은 testimony가 하는 일을 했다. 방이 자기 grammar를 부끄러워하게
-만들었다.
+그 문장은 좋은 증언이 하는 일을 했다. 방이 제 문법을 부끄러워하게 만든 것이다.
 
-judge는 H-1을 seal 아래 admit했다.
+판사는 H-1을 봉인 조건으로 채택했다.
 
-당연했다.
+당연한 결과였다.
 
-court는 새로운 종류의 sight를 거의 거부하지 않는다. 조심스럽게 보겠다고 약속하고,
-그 약속을 restraint라고 부른다.
+법정은 새로운 종류의 시야를 좀처럼 거부하지 않는다. 조심해서 보겠다고 약속하고는,
+그 약속을 자제라 부른다.
 
 Last Archive가 마침내 답했다.
 
@@ -373,40 +370,40 @@ FIELD MARK RECEIVED.
 STATUS: TRUE / NONBINDING.
 ```
 
-true.
+참.
 
-nonbinding.
+구속력 없음.
 
-Liora는 두 단어가 이렇게 효율적으로 서로를 미워하는 것을 본 적이 없었다.
+두 단어가 이토록 효율적으로 서로를 미워하는 걸 Liora는 본 적이 없었다.
 
-검은 천이 H-1 위로 돌아왔다. clerk들이 reliquary를 들었다. coffin은 들어올 때보다
-더 많은 authority를 가지고 나갔다.
+검은 천이 다시 H-1 위로 덮였다. 서기들이 성유물함을 들어 올렸다. 관은 들어올 때보다
+더 많은 권위를 짊어지고 나갔다.
 
-glass 뒤에서 첫 번째 어머니가 울었다.
+유리 뒤에서 첫 번째 어머니가 울었다.
 
-두 번째 어머니는 refusal에 다시 서명했다.
+두 번째 어머니는 거부서에 다시 서명했다.
 
-세 번째 어머니는 pen을 요청했다.
+세 번째 어머니는 펜을 달라고 했다.
 
-그중 무엇이 law가 될지 아무도 몰랐다.
+그중 어느 것이 법이 될지는 아무도 알지 못했다.
 
-Mara는 모두가 움직인 뒤에도 서 있었다.
+다들 움직인 뒤에도 Mara는 그대로 서 있었다.
 
-"Auditor." 그녀가 말했다. "닫힌 grave가 없다면, 사람들은 어디로 가서 끝나나요?"
+"감사관." 그녀가 말했다. "닫힌 무덤이 없다면, 사람들은 어디로 가서 끝나는 거죠?"
 
-Liora에게는 대답이 없었다.
+Liora에게는 내놓을 대답이 없었다.
 
-UNKNOWN은 너무 자랑스러워 보였다.
+UNKNOWN은 너무 떳떳해 보였다.
 
-exhibit record가 seal된 뒤 wall에 Last Archive가 요청받지 않은 한 줄을 더했다.
+증거물 기록이 봉인된 뒤, 벽에 Last Archive가 청하지도 않은 한 줄을 보탰다.
 
 ```text
 IF A BLACK HOLE CAN BE AUDITED, NO GRAVE IS CLOSED.
 ```
 
-Liora는 손목이 아플 만큼 세게 UNKNOWN을 찍었다.
+Liora는 손목이 시큰할 만큼 세게 UNKNOWN을 찍었다.
 
-ink는 마르지 않았다.
+잉크는 좀처럼 마르지 않았다.
 
 ## Continuity Notes
 
@@ -414,3 +411,6 @@ ink는 마르지 않았다.
 - Preserved field mark: `PHYSICS IS NOT JURISDICTION`.
 - QFUDS appears only as `REJECTED / USEFUL / UNSAFE AS TRUTH CLAIM`.
 - H-1 is admitted as dangerous sealed evidence, not as legal or physical victory.
+- De-jargon polish pass: 일반명사 영어를 자연 한국어로 전환(글로서리 003 집행), 물리 술어·field mark 보존, 의미·수치·인용·플롯 불변.
+- 2차 재패스: 네이밍·humanize·AI-tell 제거, 물리 술어 보존, 의미 불변.
+- Canon 재점검(011 §F 정합): 본편 호킹복사·compact-remnant 복원 논증은 "블랙홀 = 최대 정보 저장체" 본거지 설정과 맞물림. 끝줄 `IF A BLACK HOLE CAN BE AUDITED, NO GRAVE IS CLOSED.`가 그 결을 이미 운반 — 새 설명·강의 미삽입. 네이밍(장부 가문들 / House Tabularii) 일관 확인. Last Archive는 옵션3 표면(신탁)만, 반전 누설 없음. 떡밥 비강제(클루 #5 "이력≠진실"이 H-1 채택 논증으로 이미 극화).

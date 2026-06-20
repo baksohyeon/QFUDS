@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: continue qfuds-saga arc planning under normalized work shelves
+next_gate: choose qfuds-saga 025 English counterpart, 026 Korean primary, or release polish
 last_updated: 2026-06-20
 ---
 
@@ -19,7 +19,7 @@ last_updated: 2026-06-20
 
 | Series | Current path | Status | Rule |
 | --- | --- | --- | --- |
-| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | Korean-primary read order를 기준으로 다음 arc를 계획한다 |
+| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | 025 이후 English counterpart, 026 Korean primary, release polish 중 하나를 고른다 |
 
 ## Migration Record
 

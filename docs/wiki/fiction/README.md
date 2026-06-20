@@ -34,16 +34,21 @@ status.
 4. [창작 문예 하네스](00_studio/004_creative_writing_craft_harness_ko.md)
    - Korean-friendly fiction craft checklist for premise, character, conflict,
    scene, POV, worldbuilding, dialogue, theme, revision, and jargon handling.
+   - 동반 도구: [핍진성·개연성 장면 감사 체크리스트](00_studio/006_prose_verisimilitude_audit_checklist_ko.md)
+     — 세계 기준점 문서의 핍진성 5규칙을 장면 단위 예/아니오 점검으로 승격.
 5. [대학 문예창작 참고 매트릭스](00_studio/005_university_creative_writing_reference_matrix_ko.md)
    - source-state-aware reference matrix for university/workshop/science-writing
    benchmarks used by the fiction harness.
+   - 후속: [창작 기법·정치이론 자료조사](00_studio/007_craft_and_political_theory_research_ko.md)
+     — 비약 없는 노출(incluing/테드 창), 비트코인 붕괴 5단 사다리, 세계규칙 실증 앵커.
 6. [Fiction Catalog](01_catalog/README.md)
    - active shelf, work list, migration record, and next fiction task candidates.
 7. [QFUDS Verse](10_universes/qfuds-verse/README.md)
    - universe/IP scaffold for future QFUDS-derived fiction works.
 8. [QFUDS SAGA](10_universes/qfuds-verse/20_series/qfuds-saga/README.md)
    - active publisher-style fiction track for the QFUDS-inspired SAGA, split
-   into operating system, series bible, development package, and prose drafts.
+   into workroom, work bible, story design, drafts, revisions, and release
+   shelves.
 9. [Fiction Archive](90_archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 

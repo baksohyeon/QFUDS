@@ -293,6 +293,35 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 43. [Fiction Catalog](../../../../01_catalog/README.md)
     - SAGA의 canonical series path, compatibility notice, archive routing,
       next task candidates를 기록한다.
+44. [QFUDS SAGA 이중언어 용어규율 글로서리](00_workroom/003_bilingual_term_discipline_glossary_ko.md)
+    - 한국어 prose 본문에서 영어를 유지할 4범주(고유명사·제도 분위기어·암호물리
+      용어·의도적 장치)와 한국어로 옮길 일반명사를 정한 집행 기준.
+45. [QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획](30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)
+    - 019-024 한국어 정본을 자연 한국어로 다듬은 line-edit pass의 통제 문서와
+      검증 게이트(토큰 density, naturalness/content-fidelity 감사).
+46. [QFUDS SAGA 독자 접근성과 실제 세계 앵커](00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
+    - 비트코인 붕괴를 중·고생도 비약 없이 이해할 5단 사다리, `Last Archive`/
+      `Ledger House` 갑툭튀 방지 닻, 세계 규칙의 실제 정치·경제 앵커(인클로저·
+      mortmain·GDPR·감시자본주의·회사 화폐), 용어 한국어 표기 정책.
+    - 짝 문서: [Last Archive 기원과 역연산 인과·이념사](00_bible/010_last_archive_origin_and_reversal_causality_ko.md)
+      — Aletheia Systems/창업자 Adrian Karvath(아이언맨·머스크형 매드 사이언티스트,
+      동력핵 the Arc)의 폭주 후신이 Last Archive·Laur·Aletheia Veil이 됨; 강제
+      업로드된 비서 Vera가 핵; 비트코인 중심 인과(C2PA·블록체인 공증→포획→역산);
+      AGI는 없다(합의의 신격화, SSOT 없음); 죽음의 평등.
+    - 짝 문서: [연표·복원 행정·블랙홀 본거지](00_bible/011_chronology_restoration_admin_black_hole_seat_ko.md)
+      — 지수→로그 기술곡선과 deep-time 연표, 복원 행정 절차·세대 해상도(낙인·계급),
+      Last Archive의 은하 중심 블랙홀 본거지(홀로그래피=최대 정보 저장).
+    - 짝 문서: [Last Archive 반전 설계](10_story_design/008_last_archive_reveal_architecture_ko.md)
+      — 옵션 3(합의의 신격화)을 반전으로 터뜨리는 3막 속임·떡밥 9개·페어플레이.
+    - 짝 문서: [형식·throughline·진행 상태](10_story_design/009_format_throughline_and_progress_ko.md)
+      — 덴마식 단편→대하 사가 형식, 시리즈 관통 질문, 1부 6편 드래프트 완료 현황.
+47. [QFUDS SAGA Arc Two Korean-Primary Plan](10_story_design/007_arc_two_korean_primary_plan_ko.md)
+    - `who may author loss` 이후 2부를 열기 위한 최소 설계. 보호 미결 교리가
+      시장, 신청서, 계급 경계가 되는 위험을 025의 장면 목표로 고정한다.
+48. [QFUDS SAGA Who May Author Loss Korean Primary](20_drafts/025_who_may_author_loss_korean_primary.md)
+    - Arc Two 첫 한국어 primary draft. `protected pending doctrine`이 상실 접수
+      창구와 상품이 되는 순간을 열고, `UNRECOVERED IS NOT UNREAL`을 새 임시
+      field mark로 제시한다.
 
 ## First Arc Rough Draft Set
 
@@ -334,19 +363,34 @@ Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어
 | 5. Hawking Court | [023](20_drafts/023_hawking_court_revised_v2_korean_adaptation.md) | [016](20_drafts/016_hawking_court_revised_v2_english_draft.md) |
 | 6. The Broken Crown | [024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](20_drafts/017_the_broken_crown_revised_v2_english_draft.md) |
 
+## Arc Two Korean Primary Start
+
+| Step | Output |
+| --- | --- |
+| Arc Two plan | [007](10_story_design/007_arc_two_korean_primary_plan_ko.md) |
+| Episode 025 Korean primary | [025](20_drafts/025_who_may_author_loss_korean_primary.md) |
+
+025는 사용자 승인 후 작성된 새 한국어 primary draft다. 영어 Anglophone counterpart는
+아직 작성하지 않았다.
+
 ## Next Korean-Primary Prose Task Gate
 
-다음 한국어 prose 작업은 자동으로 시작하지 않는다. 먼저 아래 둘 중 하나를
+다음 한국어 prose 작업은 자동으로 시작하지 않는다. 먼저 아래 중 하나를
 명시적으로 고른다.
 
 | Gate | Output shelf | When to choose |
 | --- | --- | --- |
 | Arc Two planning | `10_story_design/` | `who may author loss` 이후의 사건, 인물, field mark를 아직 설계해야 할 때 |
 | First-arc Korean line polish | `30_revisions/` | 019-024 한국어 primary adaptation을 release 후보로 다듬을 때 |
-| New Korean primary scene | `20_drafts/025_*_korean_primary.md` | 사용자가 새 장면 또는 새 episode 작성을 명시적으로 승인했을 때 |
+| English Anglophone counterpart for 025 | `20_drafts/026_*_english_adaptation.md` 또는 별도 번호 | 025의 사건을 영미권 독자 리듬으로 독립 각색할 때 |
+| New Korean primary scene | `20_drafts/026_*_korean_primary.md` | Arc Two 다음 episode를 한국어로 바로 이어 쓸 때 |
 
-현재 자연스러운 다음 작업은 Arc Two planning 또는 first-arc Korean line polish다.
-새 `025` prose draft는 별도 승인 없이는 만들지 않는다.
+first-arc Korean line polish의 1차 pass(영어 코드스위칭 제거 de-jargon)는
+[30_revisions/001 퇴고 계획](30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)으로
+실행되었다. Arc Two planning과 025 한국어 primary draft도 사용자 승인 후
+작성되었다. 다음 자연스러운 작업은 025 영어 독립 각색판, Arc Two 026 한국어
+primary draft, 또는 019-024를 `40_release/` 후보로 올리기 위한 추가
+line edit/continuity 확정이다.
 
 ## 역할
 

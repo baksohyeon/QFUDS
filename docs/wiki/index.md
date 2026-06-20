@@ -82,6 +82,12 @@ and
 - [Fiction GSD 하네스 운영 가이드](fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
   - step-by-step guide for starting fiction/IP tasks through workflow
     classification, GSD phase checks, validation, and commit boundaries.
+- [Fiction Prose 핍진성·개연성 장면 감사 체크리스트](fiction/00_studio/006_prose_verisimilitude_audit_checklist_ko.md)
+  - scene-level verisimilitude, causality, style, and AI-tell checklist for
+    SAGA prose revision.
+- [Fiction 창작 기법·정치이론 자료조사](fiction/00_studio/007_craft_and_political_theory_research_ko.md)
+  - craft and political-theory reference for non-jumpy exposition, Bitcoin
+    accessibility, and world-rule anchors; fiction/provenance only.
 - [Fiction Catalog](fiction/01_catalog/README.md)
   - active fiction shelf, work list, migration record, and next task candidates.
 - [QFUDS Verse](fiction/10_universes/qfuds-verse/README.md)
@@ -135,9 +141,15 @@ and
   - user-provided hash/KDF/cryptographic-hash notes translated into SAGA rules
     for Cryptographic Death, Preimage Restoration, Genesis Chain, and
     identity-flood attacks; fiction/provenance only.
+- [QFUDS SAGA 독자 접근성과 실제 세계 앵커](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
+  - reader-accessibility rules for Bitcoin/Genesis Chain, first-use anchors for
+    SAGA institutions, and real-world political/economic structure anchors.
 - [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/002_mara_veyr_prologue_english_revision_ko.md)
   - legacy English-first tone revision for the Mara Veyr prologue, with Korean
     translation and revision notes; fiction/provenance only.
+- [QFUDS SAGA 이중언어 용어규율 글로서리](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/003_bilingual_term_discipline_glossary_ko.md)
+  - prose-facing term discipline for when Korean primary text keeps English
+    proper nouns, technical terms, and field marks.
 - [QFUDS SAGA 시각 전시물 설계](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/002_visual_exhibit_design_ko.md)
   - visual-exhibit plan for reusing existing rough-tanh assets as fictional
     court/archive plates; not research evidence.
@@ -149,6 +161,9 @@ and
   - first-arc development outline distributing Mara Veyr, Genesis Chain,
     Cryptographic Death, Identity Flood, and Hawking Court across six episodes;
     fiction/provenance only.
+- [QFUDS SAGA Arc Two Korean-Primary Plan](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/007_arc_two_korean_primary_plan_ko.md)
+  - concise Arc Two plan for turning `who may author loss` into the next
+    Korean-primary prose loop; fiction/provenance only.
 - [QFUDS SAGA Exhibit S-0 Opening English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/003_exhibit_s0_opening_english_draft.md)
   - legacy English-first opening draft for episode 1, following Liora Sen through the
     Waiting City into the Mara Veyr continuity hearing; fiction/provenance only.
@@ -214,6 +229,8 @@ and
   - Phase 18 control document setting Korean primary read order, English
     counterpart status, continuity checks, exposition cuts, and field mark
     misuse risks.
+- [QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)
+  - release-facing plan for natural Korean line polish across 019-024.
 - [QFUDS SAGA Exhibit S-0 Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)
   - Korean primary Episode 1 adaptation preserving `RECOVERABLE / NOT
     CLAIMABLE`; fiction/provenance only.
@@ -232,6 +249,9 @@ and
 - [QFUDS SAGA The Broken Crown Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md)
   - Korean primary Episode 6 adaptation closing the first arc with `who may
     author loss`; fiction/provenance only.
+- [QFUDS SAGA Who May Author Loss Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/025_who_may_author_loss_korean_primary.md)
+  - Arc Two opening Korean-primary draft introducing `UNRECOVERED IS NOT
+    UNREAL`; fiction/provenance only.
 
 ## Postmortems
 
