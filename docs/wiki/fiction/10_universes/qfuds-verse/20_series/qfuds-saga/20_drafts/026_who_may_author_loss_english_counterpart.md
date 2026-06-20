@@ -117,15 +117,15 @@ The people who know half sell the fastest.
 The young seller saw the collar of her coat and swallowed his grin.
 
 "Just what it says. So that when a dead person comes back, they aren't dragged
-off over a debt—"
+off over a debt."
 
 "Who guarantees that?"
 
-"The Court—"
+"The Court."
 
 "The Court has never issued such a product."
 
-"But yesterday—"
+"But yesterday."
 
 He swallowed the rest. He had seen the black case in Liora's hand. Inside it
 were the real seals. Heavy ones. The kind that were only ever any use set down
@@ -193,7 +193,7 @@ form.
 The clerk spoke in a low voice.
 
 "The square is dangerous. Since the ruling yesterday, requests have come in all
-at once — restoration cancellations, restoration bans, inheritance blocks,
+at once: restoration cancellations, restoration bans, inheritance blocks,
 spousal-claim prevention, refusals of posthumous testimony. People want a mark
 that says they've filed something."
 
@@ -251,7 +251,7 @@ For the unrecovered there was not even a blank.
 
 "Close it."
 
-"Auditor authority doesn't cover administrative forms—"
+"Auditor authority doesn't cover administrative forms."
 
 Liora looked at him.
 
@@ -271,7 +271,7 @@ Then, from the third line, a woman made a sound.
 It was not a scream. A scream does not wait its turn. This was the sound of
 someone who had waited too long and was sparing her own throat.
 
-"They get filed and we don't — why?"
+"They get filed and we don't. Why?"
 
 A guard moved in front of her. The woman was short, in a wet gray coat. She held
 a dented lunchbox in both arms. An old mine number was scratched into it. One
@@ -349,7 +349,7 @@ had gone white keeping an old lunchbox from slipping out of her hands.
 
 The clerk cut in.
 
-"In that case the death-record correction counter—"
+"In that case the death-record correction counter."
 
 Without looking at him, Sera said:
 
@@ -459,7 +459,7 @@ She opened the case.
 
 The clerk said, quietly:
 
-"Auditor Sen, a new mark without a review process—"
+"Auditor Sen, a new mark without a review process."
 
 "This isn't a mark."
 
