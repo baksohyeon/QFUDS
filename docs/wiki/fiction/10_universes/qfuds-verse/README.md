@@ -9,24 +9,25 @@ depends_on:
   - fiction_catalog_index_ko
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: create qfuds-saga work README after user confirmation
-last_updated: 2026-06-19
+next_gate: continue qfuds-saga arc planning under canonical series path
+last_updated: 2026-06-20
 ---
 
 # QFUDS Verse
 
 `qfuds-verse`는 QFUDS에서 파생된 fiction universe/IP 컨테이너다.
 
-이번 scaffold는 상위 세계관 선반만 만든다. 기존
-`docs/wiki/fiction/qfuds-saga/`는 이동하지 않는다.
+이 scaffold는 QFUDS SAGA를 정식 series work로 포함한다. 기존
+`docs/wiki/fiction/qfuds-saga/`는 호환 안내문만 남기고,
+canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 ## Classification
 
 - Universe/IP id: `qfuds-verse`
 - Parent continuity: `none`
 - Status: `active prototype`
-- Authoring baseline date: `2026-06-19`
-- Time baseline notes: 실제 작성 시점은 2026-06-19다. 작중 연표는 아직
+- Authoring baseline date: `2026-06-20`
+- Time baseline notes: 실제 작성 시점은 2026-06-20이다. 작중 연표는 아직
   확정하지 않는다.
 
 ## Premise
@@ -53,7 +54,7 @@ last_updated: 2026-06-19
 - Core science-fiction premise: 정보는 완전히 사라지지 않을 수 있고, 먼
   미래 문명은 그 잔상을 복원하려 한다.
 - Institutions: [10_world/](10_world/)에서 관리한다.
-- Factions: 아직 `qfuds-saga` prototype 문서에서만 개발 중이다.
+- Factions: `20_series/qfuds-saga/10_series_bible/`에서 개발 중이다.
 - Technology limits: 기술어는 보존한다. `hash`, `KDF`, `key`, `salt`,
   `collision`, `entropy`, `Hawking radiation`, `AGI`, `QFUDS`는 근거 없이
   별칭으로 바꾸지 않는다.
@@ -65,8 +66,8 @@ last_updated: 2026-06-19
 
 | Work | Format | Canon status | Path |
 | --- | --- | --- | --- |
-| QFUDS SAGA | series candidate | active prototype, not migrated | [../../qfuds-saga/](../../qfuds-saga/) |
-| Laur Observatory prototype | short prototype sequence | archived prototype | [../../archive/lineage-prototype/](../../archive/lineage-prototype/) |
+| QFUDS SAGA | series candidate | active prototype series work | [20_series/qfuds-saga/](20_series/qfuds-saga/) |
+| Laur Observatory prototype | short prototype sequence | archived prototype | [../../90_archive/lineage-prototype/](../../90_archive/lineage-prototype/) |
 
 ## Workflow Boundary
 
@@ -81,5 +82,5 @@ not_extractable
 
 ## Next Gate
 
-다음 작업은 `qfuds-saga` work README 초안이다. 그 전까지 기존
-`qfuds-saga/` 폴더는 현재 위치에 둔다.
+다음 작업은 canonical `20_series/qfuds-saga/` 아래에서 Arc Two 또는 first-arc
+polish task를 시작하는 것이다.

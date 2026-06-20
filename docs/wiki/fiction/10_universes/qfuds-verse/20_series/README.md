@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: create qfuds-saga work README after user confirmation
-last_updated: 2026-06-19
+next_gate: continue qfuds-saga arc planning
+last_updated: 2026-06-20
 ---
 
 # QFUDS Verse Series
@@ -19,15 +19,13 @@ last_updated: 2026-06-19
 
 | Series | Current path | Status | Rule |
 | --- | --- | --- | --- |
-| QFUDS SAGA | [../../../qfuds-saga/](../../../qfuds-saga/) | active prototype, not migrated | 다음 loop에서 work README를 먼저 만든다 |
+| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | Korean-primary read order를 기준으로 다음 arc를 계획한다 |
 
-## Migration Rule
+## Migration Record
 
-이번 scaffold에서는 series 파일을 이동하지 않는다.
-
-`qfuds-saga`를 이 폴더 아래로 옮기려면 먼저 work README가 필요하다. README는
-format, canon status, narrative frame, inherited world rules, local override를
-고정해야 한다.
+기존 top-level `qfuds-saga/`는 이 폴더 아래로 이동 완료됐다. 기존 SAGA README는
+work README 역할을 맡고, format, canon status, narrative frame, inherited
+world rules, local override는 후속 SAGA 내부 문서에서 더 세분화한다.
 
 ## Workflow Boundary
 

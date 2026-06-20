@@ -1,44 +1,23 @@
 ---
-doc_id: wiki_fiction_archive_index
-title: Wiki Fiction Archive
+doc_id: wiki_fiction_archive_moved_notice
+title: Wiki Fiction Archive Moved Notice
 doc_type: index
 stage: reference
 status: provenance
 evidence_role: provenance
 depends_on:
   - wiki_fiction_index
-next_gate: none; archived fiction provenance only
-last_updated: 2026-06-19
+  - wiki_fiction_archive_index
+next_gate: none; compatibility notice only
+last_updated: 2026-06-20
 ---
 
-# Wiki Fiction Archive
+# Wiki Fiction Archive Moved Notice
 
-This folder preserves superseded or prototype fiction tracks.
+`docs/wiki/fiction/archive/`는 더 이상 canonical archive 위치가 아니다.
 
-Archived fiction is kept for provenance and continuity. It is not active SAGA
-canon unless a later fiction-system document explicitly promotes an element
-back into the active track.
+현재 fiction archive의 정식 위치는
+[90_archive](../90_archive/README.md)이다.
 
-## Read Order
-
-1. [Lineage Prototype Saga](lineage-prototype/README.md) - the first Laur
-   Observatory fiction companion that originally lived under `docs/wiki/lineage/`.
-
-## Boundary
-
-Archive material remains fiction/provenance only. It is not research evidence,
-QFUDS support, validation, or Level 2B admission.
-
-External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md)
-whenever archived fiction touches an external paper, web reference, PDF, MCP,
-code repository, or source/product availability claim.
-
-Current workflow state:
-
-```text
-not_extractable
-```
-
-This archive index does not introduce a new external asset, cached source,
-extraction claim, or source/product availability claim.
+이 문서는 오래된 최상위 링크를 위한 호환 안내문이다. 새 archive provenance는
+`docs/wiki/fiction/90_archive/` 아래에 둔다.

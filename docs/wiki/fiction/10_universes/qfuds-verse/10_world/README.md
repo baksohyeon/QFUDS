@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: promote stable qfuds-saga world rules after work README
-last_updated: 2026-06-19
+next_gate: promote stable qfuds-saga world rules after canon decision
+last_updated: 2026-06-20
 ---
 
 # QFUDS Verse World
@@ -36,11 +36,11 @@ QFUDS가 맞다고 가정할 수 있지만, 그 가정은 소설 장치다.
 
 ## Current Sources Of World Detail
 
-현재 세부 세계관은 아직 기존 SAGA shelf가 보유한다.
+현재 세부 세계관은 canonical SAGA series work가 보유한다.
 
-- [QFUDS SAGA series bible](../../../qfuds-saga/10_series_bible/)
-- [QFUDS SAGA development notes](../../../qfuds-saga/20_development/)
-- [QFUDS SAGA drafts](../../../qfuds-saga/30_drafts/)
+- [QFUDS SAGA series bible](../20_series/qfuds-saga/10_series_bible/)
+- [QFUDS SAGA development notes](../20_series/qfuds-saga/20_development/)
+- [QFUDS SAGA drafts](../20_series/qfuds-saga/30_drafts/)
 
 ## Workflow Boundary
 

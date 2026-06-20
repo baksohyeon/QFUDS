@@ -1,6 +1,6 @@
 ---
 doc_id: fiction_university_creative_writing_reference_matrix_ko
-title: University Creative Writing Reference Matrix
+title: 대학 문예창작 참고 매트릭스
 doc_type: guide
 stage: reference
 status: draft
@@ -10,10 +10,10 @@ depends_on:
   - fiction_ip_management_system_ko
   - wiki_fiction_index
 next_gate: use this matrix only after source state is recorded
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
-# University Creative Writing Reference Matrix
+# 대학 문예창작 참고 매트릭스
 
 ## 목적
 

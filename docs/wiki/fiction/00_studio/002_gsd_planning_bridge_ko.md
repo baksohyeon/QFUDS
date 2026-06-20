@@ -1,6 +1,6 @@
 ---
 doc_id: fiction_gsd_planning_bridge_ko
-title: Fiction GSD Planning Bridge
+title: Fiction GSD 계획 브리지
 doc_type: guide
 stage: reference
 status: draft
@@ -9,10 +9,10 @@ depends_on:
   - fiction_ip_management_system_ko
   - wiki_fiction_index
 next_gate: use this bridge when starting a fiction/IP GSD phase
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
-# Fiction GSD Planning Bridge
+# Fiction GSD 계획 브리지
 
 ## 목적
 
@@ -47,8 +47,8 @@ no_asset_found
 
 GSD는 작업 단위를 닫는 데 쓴다.
 
-- `qfuds-saga`를 `qfuds-verse` 아래로 migration할지 검토.
-- `01_catalog/`와 `10_universes/` scaffold를 만드는 phase.
+- `qfuds-saga`를 `qfuds-verse` 아래 canonical series work로 유지하는 phase.
+- `01_catalog/`와 `10_universes/` scaffold를 보강하는 phase.
 - 새 단편/장편/웹툰식 run의 README, bible, story design, draft를 순서대로
   만드는 phase.
 - 여러 문서를 건드리는 restructuring.
@@ -95,13 +95,14 @@ fiction/IP GSD phase는 최소한 아래 항목을 가져야 한다.
 
 ## 다음 후보 phase
 
-가장 자연스러운 다음 GSD phase는 **Fiction IP Studio Scaffold**다.
+가장 자연스러운 다음 GSD phase는 **QFUDS SAGA Arc Planning**이다.
 
 목표:
 
-- `docs/wiki/fiction/01_catalog/` scaffold 생성.
-- `docs/wiki/fiction/10_universes/qfuds-verse/` scaffold 생성.
-- 현재 `qfuds-saga/`는 이동하지 않고, 이동 후보로만 분류.
-- 사용자 확인 전에는 전체 migration을 하지 않음.
+- `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/`에서
+  다음 arc 또는 first-arc polish를 계획.
+- Korean-primary read order를 유지.
+- archive provenance와 research evidence boundary를 유지.
 
-이 phase는 계획/스캐폴드 작업이지 원고 작성 작업이 아니다.
+이 phase는 계획/스캐폴드 작업일 수도 있고, 승인되면 원고 작성 작업으로
+이어질 수도 있다.

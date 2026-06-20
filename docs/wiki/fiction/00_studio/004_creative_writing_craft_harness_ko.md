@@ -1,6 +1,6 @@
 ---
 doc_id: fiction_creative_writing_craft_harness_ko
-title: Creative Writing Craft Harness
+title: 창작 문예 하네스
 doc_type: guide
 stage: reference
 status: draft
@@ -13,7 +13,7 @@ next_gate: apply this checklist before creating a new work bible or prose draft
 last_updated: 2026-06-20
 ---
 
-# Creative Writing Craft Harness
+# 창작 문예 하네스
 
 ## 목적
 

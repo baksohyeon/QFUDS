@@ -9,13 +9,13 @@ depends_on:
   - wiki_fiction_index
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: create universe/work scaffold only after user confirmation
-last_updated: 2026-06-19
+next_gate: continue qfuds-saga arc planning under canonical series path
+last_updated: 2026-06-20
 ---
 
 # Fiction Catalog
 
-이 폴더는 `docs/wiki/fiction/`의 작품 목록, active shelf, migration 후보를
+이 폴더는 `docs/wiki/fiction/`의 작품 목록, active shelf, migration 결정을
 관리한다.
 
 운영 규칙은
@@ -24,7 +24,7 @@ last_updated: 2026-06-19
 
 ## Authoring Baseline
 
-- 기준일: 2026-06-19
+- 기준일: 2026-06-20
 - 기준 역할: 실제 작성 시점과 repo 구조를 판단하는 기준
 - 작중 canon 여부: 아님
 
@@ -37,15 +37,16 @@ last_updated: 2026-06-19
 | --- | --- | --- | --- |
 | Studio system | [../00_studio/](../00_studio/) | fiction/IP 관리, GSD bridge, craft harness | active |
 | Universe scaffold | [../10_universes/qfuds-verse/](../10_universes/qfuds-verse/) | QFUDS-derived fiction universe/IP 컨테이너 | active prototype |
-| Active SAGA | [../qfuds-saga/](../qfuds-saga/) | QFUDS-inspired long-form SAGA 작업 선반 | active prototype |
-| Archive | [../archive/](../archive/) | superseded prototype fiction | archived |
+| Active SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | QFUDS-inspired long-form SAGA 작업 선반 | active series work |
+| Archive | [../90_archive/](../90_archive/) | superseded prototype fiction | archived |
+| Compatibility notices | [../qfuds-saga/](../qfuds-saga/), [../archive/](../archive/) | old top-level entrypoints | moved notices only |
 
 ## Active Works
 
 | Work | Current path | Format | Continuity status | Next decision |
 | --- | --- | --- | --- | --- |
-| QFUDS SAGA | [../qfuds-saga/](../qfuds-saga/) | long-form SAGA / series candidate | active prototype, not migrated | Create work README before any move under `qfuds-verse` |
-| Laur Observatory prototype | [../archive/lineage-prototype/](../archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
+| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active prototype series work | Plan the next arc from the Korean-primary read order |
+| Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
 ## Target Structure
 
@@ -65,20 +66,22 @@ docs/wiki/fiction/
       50_elseworlds/
 ```
 
-현재 `qfuds-saga/`는 바로 이동하지 않는다. 이동은 별도 migration task로만 한다.
+기존 top-level `qfuds-saga/`와 `archive/`는 이동 완료됐다. 옛 경로에는 README
+호환 안내문만 남긴다.
 
-## Migration Gate
+## Migration Decision Record
 
-`qfuds-verse` scaffold는 생성됐다. `qfuds-saga/`를 IP 구조로 옮기려면 먼저
-아래를 결정한다.
+`qfuds-verse` scaffold와 기존 SAGA/archive 이동에 대한 결정은 아래와 같다.
 
 1. Universe/IP id: `qfuds-verse`
-2. Continuity policy: canon, soft-canon, elseworld, prototype 기준
-3. Work id: 예: `qfuds-saga`
-4. Work format: series, novel, short, anthology, webtoon-like run 중 무엇인지
-5. README contract: universe README와 work README를 먼저 만들지 여부
-6. Existing shelf policy: 기존 `qfuds-saga/`를 이동할지, compatibility link를 남길지
-7. Archive policy: `archive/`를 `90_archive/`로 바꿀지 여부
+2. Continuity policy: `active prototype`이며 canon은 아직 닫지 않는다.
+3. Work id: `qfuds-saga`
+4. Work format: long-form SAGA / series candidate
+5. Work README contract: 기존 SAGA README를 series work README로 승격한다.
+6. Existing shelf policy: 기존 `qfuds-saga/`는 canonical path로 이동하고,
+   old path에는 compatibility notice만 남긴다.
+7. Archive policy: `archive/`는 `90_archive/`로 이동하고, old path에는
+   compatibility notice만 남긴다.
 
 ## Workflow Boundary
 
@@ -93,6 +96,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. `qfuds-saga` work README 초안을 만들지 사용자 확인.
+1. Arc Two 또는 first-arc polish task를 canonical SAGA path 아래에서 시작.
 2. Liora Sen `Exhibit S-0` beat sheet를 실제 prose draft로 확장할지 결정.
 3. Mara Veyr prologue와 Liora episode가 같은 continuity인지 분리할지 결정.

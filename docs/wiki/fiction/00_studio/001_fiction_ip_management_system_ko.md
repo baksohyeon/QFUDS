@@ -1,6 +1,6 @@
 ---
 doc_id: fiction_ip_management_system_ko
-title: Fiction IP Management System
+title: Fiction IP 관리 시스템
 doc_type: guide
 stage: reference
 status: draft
@@ -8,11 +8,11 @@ evidence_role: provenance
 depends_on:
   - wiki_fiction_index
   - qfuds_saga_index_ko
-next_gate: migrate active fiction folders only after user confirmation
+next_gate: continue fiction work under canonical qfuds-verse series path
 last_updated: 2026-06-20
 ---
 
-# Fiction IP Management System
+# Fiction IP 관리 시스템
 
 ## 목적
 
@@ -210,17 +210,20 @@ docs/wiki/fiction/
 
 독자에게 보이는 세계관 설명은 `10_world/`나 작품 README가 맡는다.
 
-## Migration Boundary
+## Migration Record
 
-현재 `qfuds-saga/`는 active prototype track이다. 바로 전체 migration하지 않는다.
+기존 `qfuds-saga/`는 active prototype track에서 `qfuds-verse`의 canonical
+series work로 이동 완료됐다.
 
-다음 migration은 사용자 확인 후 별도 커밋으로 수행한다.
+적용된 구조는 다음과 같다.
 
 1. `docs/wiki/fiction/01_catalog/` 생성.
 2. `docs/wiki/fiction/10_universes/qfuds-verse/` 생성.
-3. 기존 `qfuds-saga/`를 `qfuds-verse/20_series/qfuds-saga/`로 이동할지 결정.
-4. old archive를 `90_archive/`로 이동할지 결정.
+3. 기존 `qfuds-saga/`를 `10_universes/qfuds-verse/20_series/qfuds-saga/`로 이동.
+4. old archive를 `90_archive/`로 이동.
 5. 모든 README와 index를 재검증.
+
+기존 top-level `qfuds-saga/`와 `archive/`에는 compatibility notice만 남긴다.
 
 ## GSD 사용 경계
 
