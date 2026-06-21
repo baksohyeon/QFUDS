@@ -260,7 +260,8 @@ and
 - [QFUDS SAGA 1부 여는 사건 The Broken Crown](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)
   - pre-reboot first-arc opening prototype; provenance only.
 - [QFUDS SAGA 1부 Book 1 Reboot Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/029_first_arc_book1_reboot_korean_primary.md)
-  - active first-arc reboot manuscript SSOT. Prologue drafted; Chapter 1-6 pending.
+  - active first-arc reboot manuscript SSOT. Prologue and Chapter 1 drafted;
+    Chapter 2-6 pending.
 - [QFUDS SAGA 1부 Book 1 GSD Phase Brief](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md)
   - GSD gate for completing 029 as a SAGA-grade Korean-primary Book 1, then
     moving through English adaptation, continuity, user pre-release review, and release.

@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_scene_cards_ko
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
-next_gate: expand 029 prologue to SAGA-grade 6000+ Korean characters, then draft Chapter 1 Exhibit S-0
+next_gate: draft Chapter 2 The Dead Exchange inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -243,8 +243,8 @@ sh scripts/git-hooks/pre-commit
   - Phase brief + Prologue expansion can land together.
   - After that, each chapter draft should land in its own commit or tight pair of
     chapter + continuity notes.
-- Next phase: expand 029 Prologue to at least 6,000 Korean characters, then write
-  Chapter 1 `Exhibit S-0`.
+- Next phase: draft Chapter 2 `The Dead Exchange` in 029, preserving
+  `ACCESS != AUTHORITY` and the dead-key market/custody genealogy pressure.
 - User confirmation needed:
   - Not needed for each drafting sprint unless a new canon decision appears.
   - Required before `40_release/001_` active release promotion.
