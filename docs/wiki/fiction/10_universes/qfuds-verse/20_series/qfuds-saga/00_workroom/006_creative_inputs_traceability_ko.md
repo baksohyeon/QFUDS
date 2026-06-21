@@ -49,6 +49,7 @@ last_updated: 2026-06-21
 | **기준 작성권 사상축**(기준을 쓰는 자가 세계를 쓴다; Exit/Voice; 절반쯤 맞는 적대자; 권력의 선택적 해석) | bible [022](../00_bible/022_authorship_of_the_standard_theme_axis_ko.md) | who may author loss의 일반화. 민감한 사회 적용은 레포 제외, 추상 원리만 캐논화하고 인물은 라벨 없는 자율 주체로 |
 | **5대 극적 질문**(사본 거부·거수기 거부·마지막 반박권·자기복원 거부권·상실의 저자) | story_design [015](../10_story_design/015_five_core_dramatic_questions_spine_ko.md) | 022 중심 + 021·020·010·002·016에서 끌어온 주제 SSOT. origin=1부/Mara=2부 재구조의 토대. 각 질문의 캐논 답·반대 세력·극화 인물·아크 배치 |
 | **소버린 AI·오픈/봉쇄 축**(데이터 주권, 자국 모델, 오픈소스 vs 폐쇄·수출통제, 모델 통제권) | story_design [014](../10_story_design/014_sovereign_ai_open_closed_axis_brainstorm_ko.md) | 비트코인 개방/포획(017)·기준 작성권(022)·기계어 분절(020 §5.7)을 묶는 상위 프레임. brainstorm 단계, 선택 씨앗만 bible 승격. 현실 기술정책은 추상 역학으로만, 실명 finger-pointing 제외 |
+| **외부 AI 소설·웹소설 시스템 참고**(AI-Novel-Writing-Assistant, InkOS, Creative Writing Skills, fiction-forge, Novel-OS, Vela, Knowrite 등) | workroom [008](008_external_ai_writing_systems_gap_audit_ko.md) | 외부 앱 설치가 아니라 구조 패턴만 감사. QFUDS에는 production board, chapter intent card, chronicler pass, review wave, style packet, truth-state ledger를 로컬 하네스로 흡수하는 방향 |
 
 ## 한 줄 요약
 

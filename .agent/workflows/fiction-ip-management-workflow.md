@@ -108,6 +108,25 @@ If the user asks for a university, writing-program, workshop, literary-craft, or
 formal creative-writing benchmark, also apply
 [University Creative Writing Reference Matrix](../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md).
 
+## Agentic Production Rule
+
+For active long-form fiction work, apply
+[Agentic Fiction Production Workflow](agentic-fiction-production-workflow.md)
+after classification and before drafting or revising.
+
+That workflow does not decide canon or routing. It records execution state:
+production board, chapter intent card, review wave, chronicler pass, style
+packet, and truth-state ledger.
+
+Use it when work touches:
+
+- a chapter, episode, or major scene;
+- a multi-step writing sprint;
+- prose revision after critique;
+- reader-sim or retention feedback;
+- continuity recovery after drafting;
+- final polish where `humanize` could otherwise hide structural problems.
+
 ## Bilingual Draft Sequence Rule
 
 For active SAGA prose, the default writing sequence is Korean-primary:

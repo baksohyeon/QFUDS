@@ -9,6 +9,7 @@ depends_on:
   - qfuds_saga_agentic_saga_system_ko
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
+  - qfuds_saga_production_board_ko
 next_gate: promote series gates to global .agent workflow + templates
 last_updated: 2026-06-21
 ---
@@ -58,6 +59,12 @@ story bible, Narrative First throughline, September C. Fawkes(Swain), savethecat
 
 에피소드를 새로 쓰기 전 반드시 확인한다. 이걸 건너뛰어서 1부가 무너졌다.
 
+실행 순서는 전역
+[Agentic Fiction Production Workflow](../../../../../../../../.agent/workflows/agentic-fiction-production-workflow.md)를
+따른다. SAGA 로컬 상태는 [009 production board](009_saga_production_board_ko.md)가,
+장/대형 장면의 최소 계약은 [010 chapter intent card](010_chapter_intent_card_template_ko.md)가
+보유한다.
+
 0. **(집행)** 이 편에 나오는 모든 반복 인물이
    [character_sheet_template](../../../../../../../../.agent/templates/fiction/character_sheet_template.md)로
    채워진 시트(또는 [016 앙상블 바이블](../00_bible/016_character_ensemble_voices_relationships_ko.md)
@@ -75,6 +82,33 @@ story bible, Narrative First throughline, September C. Fawkes(Swain), savethecat
    시리즈 전체에서 로테이션·교직되나? 단독 완결형이면 재설계. 여기서 "덴마식"은
    문체·캐릭터·고유 설정 모방이 아니라, 단편처럼 읽히는 편들이 더 큰 사가
    구조로 연결되는 **추상 연재 구조 요건**만 뜻한다.
+10. **(의도 카드)** 이 편의 desire/threat/forced choice/cost/turn/handoff가
+    [010](010_chapter_intent_card_template_ko.md)에 있나? 없으면 설정 설명으로 미끄러질
+    위험이므로 먼저 카드를 채운다.
+
+## 집필 후 회수 패스
+
+draft나 큰 revision이 끝나면 바로 polish로 가지 않는다. 먼저 아래 순서로 회수한다.
+
+```text
+critic / reader-sim -> continuity -> chronicler -> verification
+```
+
+| Pass | 목적 | 기록 위치 |
+| --- | --- | --- |
+| critic / reader-sim | 흥미 이탈, 수동 주인공, 설명 과다, 장면 목표 부재 탐지 | production board 또는 revision note |
+| continuity | 인물 지식 상태, chronology, field mark, technical term 정합 | continuity audit / draft notes |
+| chronicler | 새 canon 후보, 인물 상태 변화, 열린/닫힌 떡밥, glossary 후보 회수 | [chronicler template](../../../../../../../../.agent/templates/fiction/chronicler_pass_template.md) 또는 workroom note |
+| verification | `fiction_gate`, docs validation, workflow guard | commit 전 검증 로그 |
+
+Review wave는 다음 순서만 허용한다.
+
+```text
+foundation scan -> high-severity fix -> re-scan -> continuity fix -> voice polish -> release gate
+```
+
+high-severity 구조 문제가 남아 있으면 humanize나 문장 polish를 하지 않는다. humanize는
+AI 탐지 회피가 아니라 최종 자연스러움 보정에만 쓴다.
 
 ## 기존 원고 retroactive gate
 

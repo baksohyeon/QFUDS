@@ -11,10 +11,15 @@ depends_on:
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
   - qfuds_saga_bilingual_term_discipline_glossary_ko
 next_gate: 025/027 Korean primary + 026 English counterpart written; next write 027 English counterpart or 028 Korean primary
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Arc Two Korean-Primary Plan
+
+> **번호 체계 주의(011 §10).** origin=1부 신설로 이 문서는 새 체계에서 **3부**(누가
+> 상실을 쓸 수 있는가)에 해당한다. 본문의 "1부/2부/Arc Two" 표기는 origin 신설 이전
+> 표기이며, 물리적 재번호·이동은 1부 origin 원고 단계에서 manuscript와 함께 일괄
+> cascade한다. 번호 SSOT는 [011 §10](011_saga_arc_map_multiarc_ko.md).
 
 ## Purpose
 

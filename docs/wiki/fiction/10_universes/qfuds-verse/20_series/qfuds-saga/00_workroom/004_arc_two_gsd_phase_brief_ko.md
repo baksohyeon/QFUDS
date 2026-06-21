@@ -9,10 +9,15 @@ depends_on:
   - qfuds_saga_arc_two_korean_primary_plan_ko
   - qfuds_saga_who_may_refuse_korean_primary
 next_gate: approve arc-two episode map, then write 028 Korean primary
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 2부 GSD Phase Brief
+
+> **번호 체계 주의(011 §10).** origin=1부 신설로 이 brief가 다루는 `who may author
+> loss` 아크는 새 체계에서 **3부**에 해당한다. 제목·본문의 "2부" 표기는 origin 신설
+> 이전 표기이며, 물리적 재번호·이동은 1부 origin 원고 단계에서 manuscript와 함께
+> 일괄 cascade한다. 번호 SSOT는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md).
 
 이 문서는 [Fiction IP Management Workflow](../../../../../../../../.agent/workflows/fiction-ip-management-workflow.md)의
 GSD Planning Integration 규칙에 따라, 2부를 **다단계 writing sprint**로 실행하기

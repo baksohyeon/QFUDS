@@ -10,7 +10,9 @@ fiction so they cannot reach a commit:
   - staged Korean-primary/adaptation drafts from 019 onward must carry the
     Series Gate Applied table before release-facing edits can land
 
-Soft checks (warn only, exit 0): recurring character without an ensemble entry.
+Soft checks (warn only, exit 0): recurring character without an ensemble entry;
+active staged drafts missing the agentic production markers introduced after the
+Series Gate.
 
 Usage:
   python3 scripts/fiction_gate.py            # check all fiction docs
@@ -77,6 +79,7 @@ def reader_prose(text):
 
 def check(files):
     errs = []
+    warns = []
     for f in files:
         try:
             text = pathlib.Path(f).read_text(encoding="utf-8")
@@ -107,7 +110,12 @@ def check(files):
             if missing:
                 errs.append("%s: Series Gate Applied 표 필수(누락: %s)"
                             % (f, ", ".join(missing)))
-    return errs
+        if "--staged" in sys.argv and not is_archive and is_active_draft(f):
+            missing_soft = missing_agentic_markers(text)
+            if missing_soft:
+                warns.append("%s: agentic fiction production marker 권장(누락: %s)"
+                             % (f, ", ".join(missing_soft)))
+    return errs, warns
 
 
 def needs_series_gate(path):
@@ -124,12 +132,40 @@ def needs_series_gate(path):
     return ("korean" in name or "primary" in name or "adaptation" in name)
 
 
+def is_active_draft(path):
+    if "/20_drafts/" not in path or "/_versions/" in path:
+        return False
+    name = path.rsplit("/", 1)[-1].lower()
+    return ("korean" in name or "primary" in name or "adaptation" in name
+            or "manuscript" in name or "english" in name)
+
+
+def missing_agentic_markers(text):
+    markers = {
+        "Chapter Intent": ("Chapter Intent", "Intent Card", "chapter intent",
+                           "intent card", "의도 카드"),
+        "Review Wave": ("Review Wave", "review wave", "foundation scan",
+                        "re-scan", "리뷰 웨이브"),
+        "Chronicler": ("Chronicler", "chronicler", "canon delta",
+                       "회수 패스", "chronicler pass"),
+    }
+    missing = []
+    for label, needles in markers.items():
+        if not any(needle in text for needle in needles):
+            missing.append(label)
+    return missing
+
+
 def main():
     files = staged_fiction() if "--staged" in sys.argv else all_fiction()
     if not files:
         print("fiction_gate: no fiction files to check")
         return 0
-    errs = check(files)
+    errs, warns = check(files)
+    if warns:
+        print("fiction_gate: 경고(커밋 차단 아님):")
+        for w in warns:
+            print("  " + w)
     if errs:
         print("fiction_gate: 위반 발견 — 커밋 차단:")
         for e in errs:

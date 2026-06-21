@@ -29,6 +29,7 @@ cache description.
 - [Wiki Maintenance Workflow](workflows/wiki-maintenance-workflow.md)
 - [Research Asset and Product Workflow](workflows/research-asset-product-workflow.md)
 - [Fiction IP Management Workflow](workflows/fiction-ip-management-workflow.md)
+- [Agentic Fiction Production Workflow](workflows/agentic-fiction-production-workflow.md)
 - [Fiction Templates](templates/fiction/README.md)
 
 ## Routing Rule

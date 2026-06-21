@@ -23,6 +23,7 @@ the authority and reduce the `docs/` copy to a link or descriptive cache index.
 | [Research Asset Digitization Workflow](research-asset-digitization-workflow.md) | Converting a cached asset under `docs/wiki/research/assets/` into Markdown: [PageIndex](https://github.com/VectifyAI/PageIndex) structure/full-text extraction, [MarkItDown](https://github.com/microsoft/markitdown) conversion of data releases, and high-resolution figure extraction/mapping. |
 | [Research Investigation Result Routing Workflow](research-investigation-result-routing-workflow.md) | A research investigation creates, changes, judges, or routes an asset-level product and needs the correct split between `assets/`, `plans/`, `conclusions/`, and indexes. |
 | [Fiction IP Management Workflow](fiction-ip-management-workflow.md) | Creating, moving, classifying, or extending fiction material as studio/catalog/universe/continuity/work/bible/design/draft/release records. |
+| [Agentic Fiction Production Workflow](agentic-fiction-production-workflow.md) | Planning, drafting, critiquing, revising, or verifying active fiction work with production boards, chapter intent cards, review waves, chronicler passes, style packets, and truth-state ledgers. |
 
 ## Required Routing
 
@@ -43,6 +44,11 @@ For fiction work, apply
 [Fiction IP Management Workflow](fiction-ip-management-workflow.md) before
 creating a universe, work folder, bible, story design note, prose draft,
 revision, release candidate, or archive/multiverse branch.
+
+For active fiction production, also apply
+[Agentic Fiction Production Workflow](agentic-fiction-production-workflow.md)
+before drafting, revising, critiquing, or promoting a chapter, episode, or
+series sprint.
 
 For any extraction or digitization that creates an asset-level product, apply
 [Research Investigation Result Routing Workflow](research-investigation-result-routing-workflow.md)

@@ -15,6 +15,11 @@ last_updated: 2026-06-21
 
 # QFUDS SAGA 2부 에피소드 맵
 
+> **번호 체계 주의(011 §10).** origin=1부 신설로 이 문서가 다루는 `who may author
+> loss` 아크는 새 체계에서 **3부**에 해당한다. 제목·본문의 "2부" 표기는 origin 신설
+> 이전 표기이며, 물리적 재번호·이동은 1부 origin 원고 단계에서 manuscript와 함께
+> 일괄 cascade한다. 번호 SSOT는 [011 §10](011_saga_arc_map_multiarc_ko.md).
+
 ## 목적
 
 2부(`who may author loss`)를 에피소드 단위로 배치한다. ep1·ep2는 작성·감사 완료
