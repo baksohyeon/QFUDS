@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
   - qfuds_saga_world_anchor_and_verisimilitude_ko
   - fiction_craft_and_political_theory_research_ko
-next_gate: weave grounded bitcoin foundation into first-arc opening
+next_gate: weave grounded bitcoin foundation into 028 + first-arc R6 without metaphor replacing technical terms
 last_updated: 2026-06-21
 ---
 
@@ -20,11 +20,15 @@ last_updated: 2026-06-21
 비트코인을 **실제 개념 그대로** SAGA의 메인 메타포로 쓴다. 이 세계는 "현대 기준
 비트코인 개념을 초월한 먼 미래"이므로, 비트코인은 비유가 아니라 그 세계의 **실제
 고대사**다. 독자(중·고생 수준)가 사전 지식 없이도 따라오게, 실제 비트코인의
-역사·경제·기술을 백그라운드로 충분히 깔고, 거기서 단방향 암호 → 열역학적
-비가역성 → 역연산 → 복원으로 **비약 없이** 잇는다.
+역사·경제·기술을 백그라운드로 충분히 깔고, 거기서 단방향 암호 → 유니터리/정보
+보존 → 역연산 → 복원으로 **비약 없이** 잇는다. 엔트로피는 다리가 아니라 비용과
+주제다.
 
 핵심 결함 진단: 기존 prose는 비트코인을 배경 지식 있는 독자 기준으로 흘려,
-자물쇠/사진 비유가 맥락 없이 떠 뜬금없었다. 이 문서가 그 토대를 깐다.
+자물쇠/사진 비유가 맥락 없이 떠 뜬금없었다. 이 문서가 그 토대를 깐다. 단,
+비유는 발판일 뿐이다. 본문에서는 `hash`, `signature`, `public key`, `private key`,
+`ECDSA`, `SHA-256`, `Shor`, `unitarity`, `Page curve`, `island`, `entropy` 같은
+기술어를 보존하고 바로 풀어쓴다.
 
 ## Workflow Boundary
 
@@ -43,12 +47,23 @@ not_extractable
 ```
 
 출처(접근 상태): 비트코인 창시·기술 = bitcoin.org how-it-works, 백서, Wikipedia
-Bitcoin/Genesis block (hit_not_cached). 2026 맥락 = Wikipedia "U.S. Strategic
-Bitcoin Reserve", CoinDesk(2026-05-06) (hit_not_cached). 비가역성 다리 = Wikipedia
-"Landauer's principle", Bennett reversible-computation notes (hit_not_cached).
+Bitcoin/Genesis block (hit_not_cached). 2024 제도권 편입 = SEC spot bitcoin ETP
+승인 statement(2024-01-10, hit_not_cached). 2025-2026 전략자산 맥락 =
+White House Executive Order / Federal Register EO 14233, Strategic Bitcoin
+Reserve(2025-03-06, hit_not_cached). 비가역성 다리 = Wikipedia "Landauer's
+principle", Bennett reversible-computation notes (hit_not_cached).
 일부 craft 출처는 inaccessible(403). 캐시 자산 없음(reference 읽기, not_extractable).
 세부 craft·이론 목록은
 [007 craft·정치이론 자료조사](../../../../../00_studio/007_craft_and_political_theory_research_ko.md)에.
+
+최신 제도권 사실 spot-check(2026-06-21):
+
+| Source URL | Allowed fiction claim | Blocked claim | Workflow state |
+| --- | --- | --- | --- |
+| https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/ | 2025-03-06 행정명령이 Strategic Bitcoin Reserve 정책을 세움 | 현재 가격·투자 판단·정파 선전 | `hit_not_cached`, `not_extractable` |
+| https://www.federalregister.gov/documents/2025/03/11/2025-03992/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile | EO 14233 원문 확인용 | 보유량 실시간 확정·미래 매입 예측 | `hit_not_cached`, `not_extractable` |
+| https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023 | 2024-01-10 spot bitcoin ETP listing/trading 승인 | SEC가 Bitcoin을 보증했다는 주장 | `hit_not_cached`, `not_extractable` |
+| https://bitcoin.org/bitcoin.pdf | Bitcoin whitepaper의 P2P cash, signature, proof-of-work 기본 구조 | Bitcoin 투자 가치 주장 | `hit_not_cached`, `not_extractable` |
 
 ## 1. 비트코인이 무엇이었나 — 실제 토대 (중·고생용)
 
@@ -71,15 +86,16 @@ Bitcoin Reserve", CoinDesk(2026-05-06) (hit_not_cached). 비가역성 다리 = W
   불가능하다.
 - **경제적 가치**: 발행 상한 2,100만 개. 더 못 찍는 희소성 때문에 "디지털 금"
   이라 불렸다.
-- **2026 현실 맥락**: 미국은 비트코인을 국가 전략 자산("디지털 금")으로 비축하기
-  시작했고, 금·외환과 나란히 두려는 패권 싸움이 벌어졌다(전략비축 행정명령,
-  보유 수십만 BTC, 100만 BTC 법안 논쟁). 비트코인은 변두리 실험에서 국가의
-  준비자산 후보로 올라섰다. — SAGA에서는 이것이 "돈으로서 비트코인의 마지막 장"이
-  된다.
+- **2026 현실 맥락**: 미국은 Strategic Bitcoin Reserve를 행정명령으로 만들었고
+  몰수 BTC를 reserve asset으로 보유하는 구조를 세웠다. 2024 spot bitcoin ETP
+  승인 이후 비트코인은 변두리 실험만이 아니라 제도권 투자·국가 전략·패권 논쟁의
+  대상이 되었다. — SAGA에서는 이것이 "돈의 마지막 장"이 아니라, 탈중앙 신뢰가
+  국가와 자본에 포획되는 오래 지속되는 이념전쟁의 시작이다.
 
 ## 1.5. 아주 천천히 (초등학생도 이해하는 버전)
 
-작가·독자 모두 이 순서로 기억한다. 비유는 **공책·자물쇠·열쇠** 하나로 끝까지 간다.
+작가·독자 모두 이 순서로 기억한다. 비유는 **공책·자물쇠·열쇠**를 발판으로만 쓴다.
+비유가 기술어를 대체하면 실패다. 첫 설명 뒤에는 반드시 정확한 용어를 붙인다.
 
 **① 은행 없는 돈.** 원래 돈은 은행이 지킨다. 은행은 공책에 "철수 100, 영희 50"을
 적어 두고, 우리는 은행을 믿는다. 비트코인은 말했다 — "은행 믿지 말고, 그 공책을
@@ -99,12 +115,13 @@ Bitcoin Reserve", CoinDesk(2026-05-06) (hit_not_cached). 비가역성 다리 = W
 때까지** 걸린다. 이게 "**단방향**". → 그래서 아무도 네 도장을 흉내 못 내고, **너만**
 네 돈을 쓴다. 비트코인의 안전은 전부 이 "거꾸로 못 간다" 하나에 걸려 있다.
 
-**④ 사건 — 거꾸로 가는 기계.** 어느 날 엄청난 기계(현실: **양자컴퓨터**)가 거꾸로
+**④ 사건 — 거꾸로 가는 기계.** 어느 날 엄청난 기계(현실 앵커: **양자컴퓨터**,
+SAGA에서는 더 큰 역연산 문명)가 거꾸로
 가는 법을 배운다. 공개된 자물쇠만 보고 **열쇠를 몇 분 만에 깎는다.** 이제 누구나
 남의 도장을 찍는다 → 누구나 남의 돈을 쓴다. 특히 **열쇠를 잃은 사람, 죽은 사람**의
 돈까지(자물쇠가 공책에 공개돼 있으니까). 수천 년 잠겨 있던 죽은 자들의 **지갑이
-한꺼번에 다 열린다.** → 내 돈을 나만 가질 수 없으면 그건 돈이 아니다. **비트코인은
-'돈'으로 끝난다.**
+한꺼번에 다 열린다.** → 내 돈을 나만 가질 수 없으면 기존 소유 체제는 무너진다.
+하지만 비트코인의 이념·전략자산성·성유물성은 여기서 끝나지 않는다.
 
 **⑤ 안 깨진 것(네가 맞게 짚은 부분).** **공책(장부) 자체는 안 깨졌다.** 옛 페이지를
 지우거나 위조할 수 없다. 공책은 **도둑질을 그대로 다 적었을 뿐.** → 정확히는
@@ -114,8 +131,8 @@ Bitcoin Reserve", CoinDesk(2026-05-06) (hit_not_cached). 비가역성 다리 = W
 **⑥ 소설로 가는 다리 — 더 큰 자물쇠 = 죽음.** "거꾸로 가는 힘"을 더 밀면 가장 큰
 자물쇠도 열린다 — **죽음**. 죽음도 단방향이었다(한 번 죽으면 못 돌아옴, 정보가
 흩어짐). 거꾸로 가는 문명은 흩어진 정보를 **도로 긁어모아** 죽은 사람을 **복원**한다.
-같은 마법, 더 큰 자물쇠. → 그래서 **비트코인의 죽음은 경고탄**이다. "절대 못 깬다"던
-첫 자물쇠가 깨진 날. 다음은 죽음의 자물쇠.
+같은 구조, 더 큰 단방향성. → 그래서 **비트코인 소유 체제의 붕괴는 경고탄**이다.
+"절대 못 깬다"던 첫 문명 규모 단방향성이 깨진 날. 다음은 죽음의 단방향성.
 
 ### 정확한 용어 (작가용 메모)
 
@@ -145,10 +162,10 @@ Bitcoin Reserve", CoinDesk(2026-05-06) (hit_not_cached). 비가역성 다리 = W
 (해시도, 서명도, 장부도, 그리고 죽음도 — 되돌릴 수 없다는 같은 믿음 위에 있었다.)
 
 역연산 문명이 그 "되돌릴 수 없다"를 깬다.
-→ 가장 먼저, 비트코인의 단방향 암호가 무너진다 (비트코인이 돈으로 죽는다).
+→ 가장 먼저, 비트코인의 단방향 암호가 무너진다 (소유 체제와 기존 통화 기능이 붕괴한다).
 → 같은 원리로, 물리적 비가역성(정보 손실, 죽음)도 협상 대상이 된다 (복원).
 
-그래서 비트코인의 죽음은 세계의 서곡이다.
+그래서 비트코인 소유 체제의 붕괴는 세계의 서곡이다.
 가장 먼저 "되돌릴 수 없다"고 선언했던 자물쇠가, 가장 먼저 열렸다.
 ```
 
@@ -178,7 +195,8 @@ Research Asset and Product Workflow 적용. 아래는 창작 reference로 확인
    "harvest now, break later." 단 SHA-256 해시는 Grover로 제곱근만큼만 빨라져
    **장부·불변성은 살아남는다**. 2022 Sussex 추정 13~300M 큐비트. 출처:
    Chainalysis, River Learn, IACR eprint 2021/967. 방향: **서명(소유)은 무너지고
-   장부(기록)는 산다** = 비트코인이 돈으로 죽고 유물로 남는다.
+   장부(기록)는 산다** = 기존 custody/ownership regime은 죽고, 원장은 권력·신화·
+   이념전쟁의 artifact로 남는다.
 4. **정보 보존/유니터리(물리 다리).** 2019~2020 replica wormhole·quantum extremal
    surface·island formula가 호킹복사 엔트로피의 **유니터리 Page curve**를 재현 →
    "정보는 사라지지 않는다(유니터리 증발)"가 주류 견해가 됨. 실제(비-AdS)
@@ -202,8 +220,8 @@ prose에서 한꺼번에 풀지 말고 incluing으로 나눠 흘린다.
 ① 비트코인은 은행을 못 믿어 만든, 사람 대신 계산이 보증하는 돈이었다.
 ② 그 보증의 핵심은 "되돌릴 수 없음" — 지문(hash)도 서명도 거꾸로 못 푼다.
 ③ 먼 미래, 누군가 계산을 거꾸로 푸는 법을 찾아냈다.
-④ 그날 비트코인은 돈으로 죽었다. 잠긴 원장이 한꺼번에 열렸으니까.
-⑤ 그러나 같은 기술은 더 큰 자물쇠도 열었다 — 죽음이라는 자물쇠.
+④ 그날 비트코인의 낡은 소유 체제는 무너졌다. 잠긴 지갑이 한꺼번에 열렸으니까.
+⑤ 그러나 같은 역연산 문명은 더 큰 단방향성도 열었다 — 죽음이라는 단방향성.
 ```
 
 닻(구체물): 제네시스 블록의 신문 헤드라인, 낡은 하드월렛, 갈라진 검은 장치
@@ -261,4 +279,5 @@ prose에 출처명을 드러내지 않고 구조만 녹인다.
 
 ## Next Use
 
-이 토대를 첫 arc 오프닝(019, 001) 퇴고가 집행한다.
+이 토대를 first-arc opening [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)
+및 019-024 R6 퇴고가 집행한다.

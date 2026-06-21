@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_mara_veyr_prologue_research_harness_ko
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
 next_gate: use Korean-primary prose before future English Anglophone adaptation
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜
@@ -74,7 +74,7 @@ asset_available_not_downloaded
 | --- | --- | --- | --- |
 | [Marx, Grundrisse: Fragment on Machines](https://www.marxists.org/archive/marx/works/1857/grundrisse/ch14.htm) | science, machinery, social knowledge, labour time, and the `general intellect` becoming productive force | `hit_not_cached` | AGI가 "사회적 지식"을 포획한 뒤, 노동보다 기록/접근/복원권이 권력이 되는 문명사 렌즈 |
 | [Marx and Engels, Communist Manifesto ch. 1](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm) | capitalism as constant revolutionizing of production and social relations | `hit_not_cached` | AGI 전후 세계를 "끝없는 최적화가 제도와 현실감을 갉아먹는 시대"로 설정 |
-| [Foschini, Where the "it from bit" come from?](https://arxiv.org/abs/1306.0545) | Wheeler의 1989 `it from bit` essay 맥락과 정보/물리/질문 구조 | `hit_not_cached` | `It from bit(s)`/Bitcoin 농담을 철학 motif의 변주로만 쓰고, 물리 증명처럼 쓰지 않기 위한 경계 |
+| [Foschini, Where the "it from bit" come from?](https://arxiv.org/abs/1306.0545) | Wheeler의 1989 `it from bit` essay 맥락과 정보/물리/질문 구조 | `hit_not_cached` | `It from bit(s)`/Bitcoin 아이러니를 철학 motif의 변주로만 쓰고, 물리 증명처럼 쓰지 않기 위한 경계 |
 | [E. M. Forster, The Machine Stops](https://en.wikipedia.org/wiki/The_Machine_Stops) | 기술 의존, 고립, 기계가 생활세계 전체를 대체하는 디스토피아적 선례 | `hit_not_cached` | 직접 차용하지 않고 "기계가 멈추는 공포"를 "기계가 절대 잊지 않는 공포"로 반전 |
 | User-provided Sam Smith / spaghetti-era reflection | early AI as safely fake, then reality slowly becoming editable while humans meme and argue | `not searched` | The Soft Editing의 감정적 seed |
 | User-provided Asimov `The Last Question` preference | epoch-spanning question recursion and cosmic final answer structure | `not searched` | 직접 복제 금지. 질문을 "entropy can reverse?"에서 "should the reversed be returned?"로 변주 |
@@ -314,16 +314,17 @@ the harder it became to be free.
 자유로워지는 일은 더 어려워졌다.
 ```
 
-## It From Bit(s) / Bitcoin Joke Layer
+## It From Bit(s) / Bitcoin Irony Layer
 
 `it from bit`는 너무 엄숙하게만 쓰면 죽는다. SAGA에서는 이 문장을 먼 미래
-학자와 법정 서기들이 반쯤 농담처럼 굴려야 한다. 특히 `It from bits`는
-Wheeler식 원문을 살짝 망가뜨린 서기들의 농담으로 둔다. 철학자는 단수 `bit`를
-말했지만, 기록관들은 Bitcoin과 broken key가 남긴 복수의 `bits`를 보며 웃는다.
+학자와 법정 서기들이 무섭고 건조한 아이러니로 굴린다. 특히 `It from bits`는
+Wheeler식 원문을 살짝 비튼 서기들의 법정 shorthand다. 철학자는 단수 `bit`를
+말했지만, 기록관들은 Bitcoin과 broken key가 남긴 복수의 `bits`에서 문명의
+시작과 붕괴를 동시에 본다.
 
 고대 인류는 물질보다 정보가 먼저일지도 모른다는 철학을 남겼다. 동시에 그들은
-Bitcoin이라는 기괴하게 진지한 장난을 만들었다. 숫자와 전기와 합의로 돈을
-만들고, 그것을 다시 신뢰와 권위와 기억으로 바꾸려 했다.
+Bitcoin이라는 기괴할 만큼 진지한 제도 실험을 만들었다. 숫자와 전기와 합의로
+돈을 만들고, 그것을 다시 신뢰와 권위와 기억으로 바꾸려 했다.
 
 후대 기록관들은 이 흐름을 이렇게 요약한다.
 
@@ -341,12 +342,12 @@ Persons from broken keys.
 사람은 깨진 key에서.
 ```
 
-이 농담은 가벼워 보이지만 세계관의 핵심을 찌른다.
+이 아이러니는 가벼운 농담이 아니라 세계관의 핵심을 찌른다.
 
-| Joke | Hidden meaning |
+| Phrase | Hidden meaning |
 | --- | --- |
 | `It from bit` | 현실이 정보와 관측에서 생긴다는 철학적 seed |
-| `It from bits` | 고대 암호 원장, 잔여 데이터, broken keys를 비꼬는 후대 농담 |
+| `It from bits` | 고대 암호 원장, 잔여 데이터, broken keys를 비트는 후대 shorthand |
 | `Trust from Bitcoin` | 중앙 권위 없는 신뢰를 bit로 만들려던 고대 실험 |
 | `Persons from broken keys` | 암호학이 죽은 뒤, 사람의 identity도 복원 가능한 key problem이 됨 |
 
@@ -364,7 +365,7 @@ They did not expect the bits to ask for the dead back.
 그들은 그 bit들이 죽은 자를 돌려 달라고 요구하게 될 줄은 몰랐다.
 ```
 
-이 layer는 유머지만, 농담이 곧 불길한 예언이어야 한다.
+이 layer는 건조한 유머를 가질 수 있지만, 핵심 기능은 불길한 예언이다.
 
 ## Korean-Primary Bilingual Fiction Protocol
 
@@ -400,9 +401,9 @@ They did not expect the bits to ask for the dead back.
 
 ## Legacy Note: Mara Prologue
 
-현재 Mara prologue와 first-arc v2 원고 일부는 English-first 실험으로 남아 있다.
-그 파일들은 provenance로 보존한다. 이후 같은 사건을 다시 열 때는 한국어
-primary draft를 먼저 만들고, 영어판은 독립 각색판으로 둔다.
+현재 Mara prologue legacy와 first-arc v2 English 원고는 English-first 실험으로
+남아 있다. 그 파일들은 provenance/source counterpart로 보존한다. 이후 같은 사건을
+다시 열 때는 한국어 primary draft를 먼저 만들고, 영어판은 독립 각색판으로 둔다.
 
 기존 English-first 시작 후보:
 
@@ -446,10 +447,11 @@ century.
 다음 prose 작업은 기존 내용을 폐기하지 않고, 한국어 primary draft를 먼저 만든
 뒤 영어권 독자용 각색판을 추가하는 것이다.
 
-추천 파일:
+active first-arc opening/source 파일:
 
 ```text
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/002_mara_veyr_prologue_english_revision_ko.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
 ```
 
 이 파일은 실제 fiction prose여야 하며, 설명표보다 장면을 우선한다.

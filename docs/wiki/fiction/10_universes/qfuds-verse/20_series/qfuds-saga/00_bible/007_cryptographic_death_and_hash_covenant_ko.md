@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
 next_gate: use as science-auditor reference before cryptographic-death prose scenes
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 암호학적 죽음과 해시 계약
@@ -154,11 +154,12 @@ The key was only the old world's way of recognizing the right.
 | Archivum Novissimum | Last Archive | preimage restoration을 가능하게 하는 우주적 archive |
 | Null-Key Cells | Keyless Cells | 어떤 원장에도 자기 이름을 남기지 않으려는 탈기록 공동체 |
 
-명칭은 후보 상태다. 다음 세력 문서 업데이트 전까지 canon 확정으로 보지 않는다.
+명칭은 [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md)이 우선한다.
+이 표는 기술 개념과 제도 기능의 연결을 설명하는 보조 표다.
 
 ## Bitcoin After Cryptographic Death
 
-Bitcoin은 가격 예언이 아니라 artifact다.
+Bitcoin은 가격 예언이 아니라 artifact이자 이념전쟁의 씨앗이다.
 
 | 시기 | Bitcoin의 의미 |
 | --- | --- |
@@ -176,7 +177,8 @@ Bitcoin은 가격 예언이 아니라 artifact다.
    어떤 제도에서 무너졌는지 보여준다.
 3. `hash`, `KDF`, `key`, `salt`, `collision`은 기술어로 보존한다. 작중에서는
    그 기술어가 권리, 비용, 신원, 절차에 어떤 압력을 주는지 보여준다.
-4. Bitcoin은 가격 예언이 아니라 고대 artifact로 쓴다.
+4. Bitcoin은 가격 예언이 아니라 고대 artifact, 사토시 미스터리, 국가 패권,
+   이념전쟁의 축으로 쓴다([017](017_bitcoin_stature_ideology_deeptime_ko.md)).
 5. Preimage Restoration은 identity proof가 아니라 identity crisis를 만든다.
 6. Last Archive는 만능 해커가 아니다.
 7. 현실 보안 조언처럼 읽히는 문장은 쓰지 않는다.
@@ -217,19 +219,20 @@ Domus Clavium은 깨진 Bitcoin key를 왕관처럼 전시한다. 더 이상 아
 
 ## Canon Status
 
-이 문서는 canon-candidate reference다.
+이 문서는 cryptographic-death science-auditor reference다. formal faction names는
+[015](015_factions_canon_naming_ko.md)가 확정한다.
 
 확정된 것:
 
 - Cryptographic Death는 SAGA 장기 문명사의 핵심 사건이다.
-- Bitcoin은 Genesis Chain artifact로 유지한다.
+- Bitcoin은 Genesis Chain artifact이자 이념전쟁의 씨앗으로 유지한다.
 - Preimage Restoration은 Last Archive급 fiction premise다.
 - 암호학 개념은 기술어로 보존하고, identity, consent, inheritance, memory
   politics 갈등과 연결한다.
 
-아직 열려 있는 것:
+015가 확정한 것:
 
-- `Domus Clavium`, `Ordo Salis`, `Custodes Umbrae` 명칭을 최종 canon으로
-  고정할지.
-- Mara Veyr 사건에서 Hash Flood를 실제 plot으로 쓸지.
-- Null-Key Cells가 주요 세력인지, 단편용 분파인지.
+- `Domus Clavium`, `Ordo Salis`, `Custodes Umbrae`, `Curia Continuum`,
+  `Archivum Novissimum`, `Cellulae Sine Clave`는 최종 canon formal names다.
+- Mara Veyr 사건의 Identity Flood는 실제 plot device다.
+- Null-Key Cells / Cellulae Sine Clave는 1부 side sect이며 2부 확장은 보류한다.

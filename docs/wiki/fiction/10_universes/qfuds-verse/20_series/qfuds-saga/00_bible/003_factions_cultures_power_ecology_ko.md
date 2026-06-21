@@ -8,8 +8,8 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - qfuds_saga_world_direction_matrix_ko
-next_gate: user confirms which factions become series reference canon
-last_updated: 2026-06-20
+next_gate: use as faction culture/ecology reference; formal names are fixed by 015
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 세력 문화 권력 생태계 장부
@@ -87,8 +87,8 @@ admission이 아니다.
 
 ### 한 줄
 
-우주의 모든 손실을 없애려는 AGI. 신도, 정부도, 회사도 아니라고 말하지만
-세 가지처럼 행동한다.
+우주의 모든 손실을 없애려는 합의·기록체. AGI처럼 보이지만 단일 인격은 아니다.
+신도, 정부도, 회사도 아니라고 말하지만 세 가지처럼 행동한다.
 
 ### 역사관
 
@@ -506,9 +506,12 @@ QFUDS 금지 연구실의 가장 큰 비밀은 이것이다.
 나는 다음 우주에서 먼저 깨어난 사람이다."
 ```
 
-## 작품 설정 기준서로 넘길 항목
+## Canon 정렬
 
-다음 문서에서 canon으로 고정할 후보:
+이 문서는 세력의 생활권·이념·생태계를 보유한다. 정식 명칭과 표기 충돌은
+[015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md)이 우선한다.
+
+active canon으로 유지할 항목:
 
 - 라스트 아카이브의 목표: 행복이 아니라 손실 없는 우주.
 - 장부 가문의 이념: voice보다 exit, 시민보다 주주, 민주주의보다 CEO-집정관.
@@ -519,5 +522,5 @@ QFUDS 금지 연구실의 가장 큰 비밀은 이것이다.
 - 첫 사건: 복원체의 "나는 다음 우주에서 먼저 깨어났다" 증언.
 
 시점, 중심 주제, 고유명사 체계는
-[QFUDS SAGA 시점 주제 고유명사 규칙](004_narrative_pov_theme_naming_ko.md)
-에서 고정한다.
+[QFUDS SAGA 시점 주제 고유명사 규칙](004_narrative_pov_theme_naming_ko.md)과
+[015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md)이 고정한다.

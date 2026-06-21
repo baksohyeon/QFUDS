@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: apply template coverage audit findings to episodes 2-6
+next_gate: apply bible drift alignment before first-arc R6 rewrite
 last_updated: 2026-06-21
 ---
 
@@ -32,6 +32,9 @@ control, continuity fix pass를 둔다.
 3. [1부 전역 템플릿 커버리지 감사](003_first_arc_template_coverage_audit_ko.md)
    - `.agent/templates/fiction/`와 fiction IP workflow 기준으로 1부 바이블 시스템의
      충족/누락/후속 차단 조건을 대조한 감사 기록.
+4. [Series Bible Drift Alignment Audit](008_series_bible_drift_alignment_audit_ko.md)
+   - 001-020 bible 전체를 점검해 후보/승인 전/영어 rough/Bitcoin dead-relic drift를
+     최신 active canon(015·017·018·028 story order)에 맞춘 감사 기록.
 
 ## Boundary
 

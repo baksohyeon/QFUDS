@@ -12,8 +12,10 @@ depends_on:
   - qfuds_saga_identity_flood_english_draft
   - qfuds_saga_hawking_court_english_draft
   - qfuds_saga_the_broken_crown_english_draft
-next_gate: use this consolidation before full arc revision pass or arc two planning
-last_updated: 2026-06-20
+  - qfuds_saga_first_arc_opening_broken_crown_event_korean_primary
+  - qfuds_saga_world_compendium_codex_ko
+next_gate: align R6 first-arc rewrite with 028 + 019-024 story order
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 첫 Arc Canon 정리
@@ -21,7 +23,8 @@ last_updated: 2026-06-20
 ## 목적
 
 이 문서는 `The Broken Crown` first arc rough draft 6개에서 새로 생긴 설정,
-인물 기능, 제도 규칙, 미해결 hook을 series bible 관점으로 정리한다.
+인물 기능, 제도 규칙, 미해결 hook을 series bible 관점으로 정리한 bridge다.
+현행 독자 경로는 028 opening + 019-024 한국어 primary story order다.
 
 목표는 초안을 정사로 무조건 승격하는 것이 아니다. 다음 revision pass에서
 무엇을 보존하고, 무엇을 보류하고, 무엇을 다시 설계해야 하는지 구분하는 것이다.
@@ -221,10 +224,12 @@ Before revising Episodes 1-6, check:
 
 ## Decision
 
-This consolidation is accepted as a draft series-bible bridge, not final canon.
+This consolidation is accepted as a series-bible bridge. 현행 read order와
+연속 장편 구조는 [20_drafts README](../20_drafts/README.md)와
+[007 integration outline](../30_revisions/007_first_arc_integration_outline_ko.md)이 우선한다.
 
 Use it as the control document for:
 
-- first arc full revision pass;
+- first arc R6 continuous-Book-1 revision pass;
 - character/faction reference updates;
 - arc two planning.

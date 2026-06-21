@@ -9,8 +9,8 @@ depends_on:
   - qfuds_saga_liora_sen_first_episode_beat_sheet_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_format_throughline_and_progress_ko
-next_gate: thread Liora's wound/lie into first arc; user confirms invented wound
-last_updated: 2026-06-20
+next_gate: thread Liora's wound/lie into first-arc R6 and keep 019 in close POV
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 주인공 시트 — Liora Sen
@@ -23,7 +23,8 @@ Liora에 적용. fiction/provenance only. 새 외부 source claim 없음.
 - 이름: Liora Sen (공개명). 시리즈 반복 POV.
 - 역할: 라우어 관측소(Aletheia Systems 검증·감사 부문의 먼 후신) 감사관. 복원
   주장이 정직한지 감사한다.
-- 첫 등장: 프롤로그(001) / 에피소드 1(019).
+- 첫 등장: active story path 기준 028 opening의 후속 주인공, 에피소드 1(019)의
+  반복 POV. Legacy Mara prologue 001은 provenance다.
 - 한 줄 본질: **모름(unknown)을 지키려는 사람.** 답을 못 견디는 세계에서, 답하지
   않을 자리를 지킨다.
 

@@ -8,16 +8,16 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_factions_cultures_power_ecology_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
-next_gate: user confirms POV/theme/naming before series reference canon
-last_updated: 2026-06-20
+next_gate: apply as active POV/theme/naming defaults; 015 overrides faction formal names
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 시점 주제 고유명사 규칙
 
 ## 목적
 
-이 문서는 작품 설정 기준서 작성 전에 시점, 중심 주제, 고유명사 체계, 역사 차용
-규칙을 고정한다.
+이 문서는 시점, 중심 주제, 고유명사 체계, 역사 차용 규칙의 active 기본값을
+고정한다. 세력 formal name은 [015](015_factions_canon_naming_ko.md)가 우선한다.
 
 이 문서는 fiction/provenance only다. QFUDS 연구 결과, 물리 증거, support,
 validation, Level 2B admission이 아니다.

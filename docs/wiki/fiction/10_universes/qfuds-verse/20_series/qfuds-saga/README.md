@@ -187,15 +187,15 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 7. [QFUDS SAGA Bitcoin Genesis Chain과 복원 신화](00_bible/005_bitcoin_genesis_chain_and_restoration_myth_ko.md)
    - Bitcoin을 Genesis Chain artifact로 사용하고, `it from bit`, 현실 편집,
      암호학 붕괴, 블랙홀/화이트홀 복원, Mara Veyr 사건을 연결하는 SAGA
-     canon 후보.
+     기원 신화. 최신 비트코인 위상·이념전쟁 적용은 017이 우선한다.
 8. [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](00_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
    - AI/AGI 이후 문명사, Marxian general intellect lens, cryptographic death,
-     `It from bit(s)`/Bitcoin joke layer, 한국어 본문 우선/영어 독립 각색
+     `It from bit(s)`/Bitcoin irony layer, 한국어 본문 우선/영어 독립 각색
      작성 프로토콜.
 9. [QFUDS SAGA 암호학적 죽음과 해시 계약](00_bible/007_cryptographic_death_and_hash_covenant_ko.md)
    - 사용자 제공 hash/KDF/cryptographic-hash 개념 노트를 SAGA의 Cryptographic
      Death, Preimage Restoration, Genesis Chain, identity-flood attack,
-     key/salt sovereignty 설정 기준서로 변환한 canon-candidate reference.
+     key/salt sovereignty 설정 기준서로 변환한 science-auditor reference.
 10. [QFUDS SAGA 첫 Arc Canon 정리](00_bible/008_first_arc_canon_consolidation_ko.md)
     - `The Broken Crown` first arc rough draft set에서 생긴 field mark chain,
       인물/세력 기능, science-fiction boundary, arc two hook, revision checklist를
@@ -352,8 +352,11 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - `.agent/templates/fiction/` 기준으로 1부 바이블·하네스·release 시스템의
       충족/누락을 점검하고, 2-6편 `Series Gate Applied` 후속 적용을 차단 조건으로
       남긴다.
+50. [QFUDS SAGA Series Bible Drift Alignment Audit](30_revisions/008_series_bible_drift_alignment_audit_ko.md)
+    - 001-020 bible 전체를 점검해 오래된 후보/승인 전/영어 rough/Bitcoin dead-relic
+      drift를 015·017·018·028 story-order 기준으로 정렬한 감사 기록.
 
-## First Arc Rough Draft Set
+## First Arc Provenance Draft Set
 
 `The Broken Crown` first arc의 6개 legacy rough draft가 모두 작성되었다.
 

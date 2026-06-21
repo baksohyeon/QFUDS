@@ -8,8 +8,8 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_world_direction_matrix_ko
   - qfuds_saga_agentic_system_ko
-next_gate: user confirms whether this timeline becomes the series reference backbone
-last_updated: 2026-06-20
+next_gate: use as the active deep-time backbone; 010/011/017/018 override local duplicates
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 장기 복원 문명사 타임라인
@@ -17,7 +17,7 @@ last_updated: 2026-06-20
 ## 목적
 
 이 문서는 QFUDS SAGA를 "설정표"에서 "역사"로 바꾸기 위한 장기 문명사
-초안이다.
+기준선이다. 세부 기원·물리·비트코인 위상은 이후 보강 문서가 우선한다.
 
 핵심은 장르 태그가 아니다. 누가 무엇을 원하고, 무엇을 숨기고, 무엇 때문에
 처벌받고, 무엇을 사랑하다가 망가지는지를 먼저 둔다.
@@ -50,7 +50,7 @@ validation, Level 2B admission이 아니다.
 
 - 역연산이 어떻게/누구에 의해 가능해졌나, Last Archive의 정체(딥페이크 검증
   하이퍼스케일러 Aletheia Systems의 폭주 후신; 창업자 Adrian Karvath; 강제
-  업로드된 비서 Vera가 핵; AGI는 없다=합의의 신격화), 비트코인 중심 인과,
+  업로드된 비서 Vera가 핵; 단일 인격 AGI가 아니라 합의의 신격화), 비트코인 중심 인과,
   이념(보존주의=므네모시네 / 망각주의=레테):
   [010 Last Archive 기원과 역연산 인과](010_last_archive_origin_and_reversal_causality_ko.md).
 - 연표·기술곡선(지수→로그), 복원 행정·세대 해상도, Last Archive의 은하 중심
@@ -382,12 +382,13 @@ phase B: residual pressure of the saved.
 
 ## 다음 게이트
 
-이 타임라인이 마음에 들면 다음 작업은 작품 설정 기준서 보강이다.
+이 타임라인은 1부 R6 재창간의 active deep-time backbone이다. 세부 설정은 다음
+문서들이 우선한다.
 
-다음 문서에서 고정할 항목:
-
-- 라스트 아카이브의 정체와 말투.
-- 알레테이아 베일 내부 계율과 분열.
+- Last Archive 기원·말투·역연산 인과: [010](010_last_archive_origin_and_reversal_causality_ko.md).
+- 연표·복원 행정·블랙홀 본거지: [011](011_chronology_restoration_admin_black_hole_seat_ko.md).
+- 비트코인 위상·사토시 미스터리·이념전쟁: [017](017_bitcoin_stature_ideology_deeptime_ko.md).
+- 독자용 deep-lore 색인: [018](018_world_compendium_codex_ko.md).
 - 라우어 관측소의 일상, 식사, 복장, 승진, 처벌, 의례.
 - 첫 주인공 3명과 그들이 숨기는 것.
 - 시즌 1의 5개 episode arc.

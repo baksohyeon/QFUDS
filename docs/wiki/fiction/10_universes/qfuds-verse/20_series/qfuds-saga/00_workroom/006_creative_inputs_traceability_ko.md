@@ -33,8 +33,11 @@ last_updated: 2026-06-21
 | **차용 IP 경계**(Portal/아이언맨 아크/NRx/그리스신화) | bible [010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md) Influence Boundary, [013](../00_bible/013_cryptographic_death_era_and_crypto_concepts_ko.md) PART C | 구조만 차용, 고유명 복제 금지 |
 | **민감 주제 배제 + 여성=기본 인간주체** | `scripts/fiction_gate.py`(차단) + 메모리(레포 밖) | 레포·작중 민감 주제 0, 인물은 자율 주체 |
 | **em dash 금지 / 기술 정확+평이 / 독자 이해도 / 리텐션** | [30_revisions/002](../30_revisions/002_first_arc_release_immersion_revision_plan_ko.md) 게이트, `fiction_gate`, 워크플로우 | 커밋 차단·release 조건 |
+| **물리·암호·Bitcoin 용어 직접 사용**(장황한 비유보다 정확한 개념 설명) | bible [009](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)·[017](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md), workflow technical grounding rule | `hash`, `signature`, `ECDSA`, `SHA-256`, `Shor`, `unitarity`, `Page curve`, `island`, `entropy`, `QFUDS`를 비유로 숨기지 않고 장면 안에서 풀어쓴다 |
+| **단편집이 아니라 SAGA**(해리포터·듄처럼 과몰입 가능한 연속 장편) | bible [018](../00_bible/018_world_compendium_codex_ko.md), revision [007](../30_revisions/007_first_arc_integration_outline_ko.md), drafts [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)+[019-024](../20_drafts/README.md) | 1부 R6는 Mara 사건을 중심축으로 한 연속 Book 1. 각 편은 독립 단편처럼 닫지 않는다 |
+| **Bitcoin을 가볍게 넘기지 말 것**(사토시·국가 패권·투자자산성·0원 가능성·이념전쟁) | bible [017](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md), [009](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md), [005](../00_bible/005_bitcoin_genesis_chain_and_restoration_myth_ko.md) | Bitcoin은 고대 유물이면서도 deep-time 이념전쟁의 씨앗. 투자 조언은 금지하지만 현실 위상은 정확히 적시 |
 | **간지/실로비크/COD 취향** | 메모리(레포 밖, 취향 신호) | 인물 디자인 참고 |
-| **실제 프로즈** | `20_drafts`(019-024 1부·025/027 2부·001 프롤로그) -> `40_release/002`(조립 원고) | 독자가 읽는 글 |
+| **실제 프로즈** | `20_drafts`(028 opening + 019-024 1부, 025/027 2부, 001/002 legacy prologue) -> `40_release/002`(조립 원고) | 독자가 읽는 글 |
 
 ## 한 줄 요약
 
