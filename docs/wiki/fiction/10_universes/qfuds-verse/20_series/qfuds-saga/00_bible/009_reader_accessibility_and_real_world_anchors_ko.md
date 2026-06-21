@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_world_anchor_and_verisimilitude_ko
   - fiction_craft_and_political_theory_research_ko
 next_gate: weave grounded bitcoin foundation into first-arc opening
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 비트코인 메인 메타포 토대와 독자 접근성
@@ -153,6 +153,46 @@ Bitcoin Reserve", CoinDesk(2026-05-06) (hit_not_cached). 비가역성 다리 = W
 ```
 
 이 다리가 있어야 "왜 비트코인 얘기에서 엔트로피·복원이 나오는가"가 비약이 아니다.
+
+## 2.5. 검증 출처와 정확한 기술 사슬 (2026-06 확인)
+
+Research Asset and Product Workflow 적용. 아래는 창작 reference로 확인한 실제
+사실이다. fiction/provenance only, QFUDS 증거 아님. 모든 항목 state
+`hit_not_cached`, extraction `not_extractable`(reference 읽기, 캐시 자산 없음).
+기술·역사 내용은 이 대장에서만 끌어 쓴다(작가 요구: 확실한 레퍼런스·납득 가능한
+역사·맥락·방향).
+
+1. **비트코인 탄생(2009-01-03).** 제네시스 블록 코인베이스에 "The Times
+   03/Jan/2009 Chancellor on brink of second bailout for banks"를 새김. 구제금융
+   받는 은행에 대한 불신에서 태어남. 출처: Bitcoin Wiki "Genesis block"
+   (en.bitcoin.it/wiki/Genesis_block). 방향: 비트코인 = "권위 대신 기록을
+   믿는다"의 시초이자 반-SSOT.
+2. **딥페이크 시대 상징(2023-03-23).** Reddit user chaindrop가 ModelScope
+   text-to-video로 만든 "Will Smith eating spaghetti"가 바이럴 → AI 영상 품질의
+   비공식 벤치마크가 됨(2024-02 Will Smith 본인 패러디). 출처: Wikipedia "Will
+   Smith Eating Spaghetti test". 방향: 현실이 편집 가능해진 전환의 평범하고도
+   absurd한 상징. 프로즈는 실명 대신 묘사로(010 §9 밈 규칙).
+3. **양자 위협(Shor/ECDSA).** Shor 알고리즘은 이산로그를 다항시간에 풀어
+   **공개키에서 개인키를 역산**한다. 비트코인 서명(ECDSA, secp256k1)이 깨진다.
+   위험 대상 = 공개키가 노출된 주소(재사용 주소·옛 P2PK, 사토시 코인 포함).
+   "harvest now, break later." 단 SHA-256 해시는 Grover로 제곱근만큼만 빨라져
+   **장부·불변성은 살아남는다**. 2022 Sussex 추정 13~300M 큐비트. 출처:
+   Chainalysis, River Learn, IACR eprint 2021/967. 방향: **서명(소유)은 무너지고
+   장부(기록)는 산다** = 비트코인이 돈으로 죽고 유물로 남는다.
+4. **정보 보존/유니터리(물리 다리).** 2019~2020 replica wormhole·quantum extremal
+   surface·island formula가 호킹복사 엔트로피의 **유니터리 Page curve**를 재현 →
+   "정보는 사라지지 않는다(유니터리 증발)"가 주류 견해가 됨. 실제(비-AdS)
+   블랙홀의 미시 메커니즘은 미해결. 출처: Wikipedia "Black hole information
+   paradox", Page curve 리뷰. 방향: **죽음은 정보의 삭제가 아니라 분산**.
+   충분히 읽어 역연산하면 마지막 상태를 재구성. **도약은 원리(정보 보존)가
+   아니라 공학(그 해상도로 우주를 읽는 것)**이다.
+
+**다리 교정(중요).** 비트코인 → 복원의 다리는 **유니터리(가역성·정보 보존)**다.
+"되돌릴 수 없다"고 믿은 단방향(암호든 죽음이든)이, 사실은 정보 보존 위에서
+원리상 가역임이 드러나는 것이 사슬의 핵심이다. **엔트로피는 다리가 아니라
+비용·주제**다 — 복원은 손실 재구성이라 반복하면 흐려지고, 그래서 죽음은 결국
+평등하다(010 §4). 프로즈에서 이 두 역할(다리=유니터리, 비용=엔트로피)을 섞지
+않는다. 이 항이 §2의 열역학 다리 서술보다 우선한다.
 
 ## 3. 독자용 노출 순서 (현실 앵커 5단)
 
