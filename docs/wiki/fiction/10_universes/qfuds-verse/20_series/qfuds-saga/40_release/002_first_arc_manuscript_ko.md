@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_release_candidate_ko
 next_gate: regenerate on any 019-024 edit; reader review
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 1부 Release 원고 — The Broken Crown
@@ -2327,3 +2327,4 @@ Liora는 거의 웃을 뻔했다.
 Archive는 그녀를 바로잡지 않았다.
 
 그것도 걱정이었다.
+
