@@ -150,6 +150,8 @@ to reload long craft documents on every pass, but it cannot override them.
 It should preserve:
 
 - Korean-primary prose for active SAGA drafts;
+- Korean-first drafting for Korean-primary prose, with no English/Chinese
+  intermediate logline translation;
 - technical terms with plain-language handles;
 - person-under-pressure before concept explanation;
 - distinct character voice;
@@ -157,6 +159,8 @@ It should preserve:
   as `엔진:`, `핵심은 A가 아니라 B`, or `사건의 주어는 X`.
 
 Use [.agent/templates/fiction/style_packet_template.md](../templates/fiction/style_packet_template.md).
+For Korean-primary prose, also apply
+[Korean Fiction Prose Naturalness Harness](../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md).
 
 ## Truth-State Ledger
 

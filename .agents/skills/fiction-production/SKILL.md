@@ -12,9 +12,11 @@ Before changing fiction files, read:
 1. `docs/05_next_steps/000_roadmap.md` for current research posture.
 2. `.agent/workflows/fiction-ip-management-workflow.md` for routing and boundary.
 3. `.agent/workflows/agentic-fiction-production-workflow.md` for production order.
-4. The relevant work README and workroom production board.
-5. The chapter intent card, if the task touches prose or a chapter/episode plan.
-6. Relevant bible, story_design, draft, and revision docs.
+4. `docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md`
+   for Korean-primary prose or polish.
+5. The relevant work README and workroom production board.
+6. The chapter intent card, if the task touches prose or a chapter/episode plan.
+7. Relevant bible, story_design, draft, and revision docs.
 
 ## Execution Modes
 
@@ -33,6 +35,8 @@ Name the active mode before making decisions:
 - Do not install external AI writing tools or MCP servers as part of this skill.
 - Do not copy external prompts or code from inspiration repositories.
 - Korean-primary active SAGA prose comes before English adaptation unless the user explicitly overrides it.
+- Think and draft Korean prose in Korean. Do not generate an English or Chinese
+  logline first and translate it back into Korean.
 - Preserve technical terms when they carry meaning; explain them in-scene.
 - `humanize` is final polish only. Do not use it for AI detector evasion or to hide weak structure.
 - Do not canonize by momentum. Proposed canon changes go through a chronicler pass and the appropriate bible/story_design/revision destination.

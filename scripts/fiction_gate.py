@@ -31,6 +31,13 @@ AI_META_HOOK = re.compile(
     r"^\s*엔진\s*:|주어는\s+.+?가\s+아니라|사건의\s+주어는|한\s+사람의\s+손가락",
     re.I,
 )
+KOREAN_PROSE_AI_TELL = re.compile(
+    r"단순히\s+.{1,30}(넘어|아니라)|"
+    r"그것은\s+.{1,30}(언어|증명|선언|질문|대답)(이었|였|이다)|"
+    r"세계는\s+.{1,40}\s+위에\s+서\s+있었|"
+    r"문명은\s+.{1,40}\s+위에\s+서\s+있었",
+    re.I,
+)
 META_HEADINGS = (
     "boundary", "adaptation intent", "harness applied", "source boundary",
     "continuity notes", "안내", "canon", "writing rules", "scene seeds",
@@ -96,8 +103,14 @@ def check(files):
             if (AI_META_HOOK.search(ln)
                     and "AI식 훅" not in ln
                     and "기획서용 훅 포장문" not in ln
-                    and not f.endswith("006_prose_verisimilitude_audit_checklist_ko.md")):
+                    and not f.endswith("006_prose_verisimilitude_audit_checklist_ko.md")
+                    and not f.endswith("009_korean_fiction_prose_naturalness_harness_ko.md")):
                 warns.append("%s:%d: AI식 훅 포장문 주의(직접 선택/비용 문장으로 교체): %s"
+                             % (f, n, ln.strip()[:80]))
+            if (KOREAN_PROSE_AI_TELL.search(ln)
+                    and not f.endswith("006_prose_verisimilitude_audit_checklist_ko.md")
+                    and not f.endswith("009_korean_fiction_prose_naturalness_harness_ko.md")):
+                warns.append("%s:%d: 한국어 AI-tell 문장 주의(낭독/조사/동작문 패스 필요): %s"
                              % (f, n, ln.strip()[:80]))
         name = f.rsplit("/", 1)[-1].lower()
         # _versions/ 는 동결된 판본 스냅샷·레거시 보관소다. 활성 산문 규칙(em dash,
