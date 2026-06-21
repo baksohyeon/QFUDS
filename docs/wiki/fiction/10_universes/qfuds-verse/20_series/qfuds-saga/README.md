@@ -36,7 +36,7 @@ last_updated: 2026-06-21
 
 | 상태 | 파일 | 설명 |
 | --- | --- | --- |
-| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. 프롤로그 + Ch1~4 작성됨, Ch5~6 남음 |
+| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. 프롤로그 + Ch1~5 작성됨, Ch6 남음 |
 | pre-reboot prototype | [028](20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md) + [019](20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](20_drafts/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md) | provenance/readable prototype |
 
 | 순서 | 편 | 한국어 prototype |

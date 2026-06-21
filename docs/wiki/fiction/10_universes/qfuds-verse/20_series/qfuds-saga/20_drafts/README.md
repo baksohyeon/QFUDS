@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: write Chapter 5 Hawking Court inside 029 first-arc reboot manuscript
+next_gate: write Chapter 6 final human hearing inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -22,7 +22,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. canon 상태: 초안(설정 �
 
 | 묶음 | 파일 | 상태 |
 | --- | --- | --- |
-| **1부 active 원고(SSOT)** | [029 Book 1 Reboot](029_first_arc_book1_reboot_korean_primary.md) | 프롤로그 + Ch1~4 작성됨, 다음 Ch5 |
+| **1부 active 원고(SSOT)** | [029 Book 1 Reboot](029_first_arc_book1_reboot_korean_primary.md) | 프롤로그 + Ch1~5 작성됨, 다음 Ch6 |
 | 2부 초안 | [025](025_who_may_author_loss_korean_primary.md)·[027](027_who_may_refuse_korean_primary.md)(KR), [026](026_who_may_author_loss_english_counterpart.md)(EN) | 진행 중 |
 | Mara 프롤로그(legacy) | [001](001_mara_veyr_prologue_draft_ko.md)·[002](002_mara_veyr_prologue_english_revision_ko.md) | 초기 실험, 보존 |
 | 판본 스냅샷·prototype·legacy | [_versions/](_versions/README.md) | 아래 참조 |
