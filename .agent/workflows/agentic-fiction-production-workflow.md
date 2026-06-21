@@ -153,7 +153,8 @@ It should preserve:
 - technical terms with plain-language handles;
 - person-under-pressure before concept explanation;
 - distinct character voice;
-- no decorative grandiosity, AI-tell, or translationese.
+- no decorative grandiosity, AI-tell, translationese, or meta-hook slogans such
+  as `엔진:`, `핵심은 A가 아니라 B`, or `사건의 주어는 X`.
 
 Use [.agent/templates/fiction/style_packet_template.md](../templates/fiction/style_packet_template.md).
 

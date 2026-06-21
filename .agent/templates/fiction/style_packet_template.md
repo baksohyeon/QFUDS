@@ -15,6 +15,8 @@
 - Put a person under pressure before explaining the concept.
 - Dialogue must expose different wants, fears, and power positions.
 - Avoid decorative grandiosity, AI-tell abstractions, translationese, and premature emotional closure.
+- Avoid meta-hook slogans such as `엔진:`, `핵심은 A가 아니라 B`, `사건의 주어는 X`, or
+  `한 사람의 손가락`.
 - Use `humanize` only as final polish after structure and continuity pass.
 
 ## Local Voice Notes

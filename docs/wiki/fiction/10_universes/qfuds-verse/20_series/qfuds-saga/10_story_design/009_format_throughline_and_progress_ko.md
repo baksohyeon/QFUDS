@@ -54,8 +54,8 @@ workflow state `hit_not_cached`.)
 무엇이 진실이었는지 정하는 것은 — 지성인가, 합의인가?
 ```
 
-엔진: 사건이 쌓일수록 Last Archive의 정체(합의의 신격화, Vera, SSOT 없음)가
-드러난다. 반전 배치는
+사건이 쌓일수록 Last Archive의 정체(합의의 신격화, Vera, SSOT 없음)가 드러난다.
+반전 배치는
 [008 반전 설계](008_last_archive_reveal_architecture_ko.md). Vera ↔ Mara **Veyr**의
 핏줄 연결이 그 반전의 개인적 열쇠다(010 §2).
 

@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - fiction_creative_writing_craft_harness_ko
 next_gate: apply per scene during first-arc revision pass
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # Fiction Prose 핍진성·개연성 장면 감사 체크리스트
@@ -91,6 +91,8 @@ AI가 쓴 한국어 prose에서 반복되는 클리셰. 한 번 정도는 괜찮
 - [ ] `~의 ~다` 단정 구문을 남발하지 않았는가? (예: "그것은 침묵의 언어다")
 - [ ] `~가 아니라 ~다`(not A but B) 패턴이 한 글에 몇 번 이상 반복되지 않는가?
 - [ ] `단순히 ~을 넘어` 패턴을 쓰지 않았는가?
+- [ ] `엔진:`, `핵심은 A가 아니라 B`, `사건의 주어는 X`, `한 사람의 손가락에 올린다`
+  같은 기획서용 훅 포장문을 산문이나 기준 문장으로 남기지 않았는가?
 - [ ] **본론에 비해 결론이 거창한** 태도(작은 장면 끝에 우주적 선언)를 붙이지
   않았는가?
 

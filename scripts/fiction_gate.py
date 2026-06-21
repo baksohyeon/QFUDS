@@ -27,6 +27,10 @@ FICTION_ROOT = "docs/wiki/fiction"
 PROSE_DIRS = ("/20_drafts/", "/40_release/")
 EMDASH = "—"
 SENSITIVE = re.compile(r"젠더|가부장|페미니|성별|모계|우생|gender|feminis|patriarch", re.I)
+AI_META_HOOK = re.compile(
+    r"^\s*엔진\s*:|주어는\s+.+?가\s+아니라|사건의\s+주어는|한\s+사람의\s+손가락",
+    re.I,
+)
 META_HEADINGS = (
     "boundary", "adaptation intent", "harness applied", "source boundary",
     "continuity notes", "안내", "canon", "writing rules", "scene seeds",
@@ -89,6 +93,12 @@ def check(files):
             if SENSITIVE.search(ln):
                 errs.append("%s:%d: 민감(젠더/페미니즘 등) 용어 금지: %s"
                             % (f, n, ln.strip()[:60]))
+            if (AI_META_HOOK.search(ln)
+                    and "AI식 훅" not in ln
+                    and "기획서용 훅 포장문" not in ln
+                    and not f.endswith("006_prose_verisimilitude_audit_checklist_ko.md")):
+                warns.append("%s:%d: AI식 훅 포장문 주의(직접 선택/비용 문장으로 교체): %s"
+                             % (f, n, ln.strip()[:80]))
         name = f.rsplit("/", 1)[-1].lower()
         # _versions/ 는 동결된 판본 스냅샷·레거시 보관소다. 활성 산문 규칙(em dash,
         # Series Gate)을 적용하지 않는다(과거 세대는 그대로 보존). 민감어 검사는 유지.
