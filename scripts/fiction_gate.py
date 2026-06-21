@@ -87,9 +87,13 @@ def check(files):
                 errs.append("%s:%d: 민감(젠더/페미니즘 등) 용어 금지: %s"
                             % (f, n, ln.strip()[:60]))
         name = f.rsplit("/", 1)[-1].lower()
+        # _versions/ 는 동결된 판본 스냅샷·레거시 보관소다. 활성 산문 규칙(em dash,
+        # Series Gate)을 적용하지 않는다(과거 세대는 그대로 보존). 민감어 검사는 유지.
+        is_archive = "/_versions/" in f
         # em dash is a banned AI-tell in BOTH Korean and English prose; check
         # episode story files (KR or EN counterpart) but not control/index docs.
-        is_story = (any(d in f for d in PROSE_DIRS)
+        is_story = (not is_archive
+                    and any(d in f for d in PROSE_DIRS)
                     and ("korean" in name or "manuscript" in name
                          or "english" in name))
         if is_story:
@@ -97,7 +101,7 @@ def check(files):
                 if EMDASH in ln:
                     errs.append("%s:%d: em dash(—) 본문 금지(AI-tell): %s"
                                 % (f, n, ln.strip()[:60]))
-        if "--staged" in sys.argv and needs_series_gate(f):
+        if "--staged" in sys.argv and not is_archive and needs_series_gate(f):
             required = (SERIES_GATE, "| POV person |", "| Standalone ban |")
             missing = [r for r in required if r not in text]
             if missing:

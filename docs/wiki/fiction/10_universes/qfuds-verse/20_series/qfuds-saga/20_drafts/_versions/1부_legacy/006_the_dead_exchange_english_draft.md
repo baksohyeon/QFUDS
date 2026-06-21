@@ -29,7 +29,7 @@ digitization, or product-availability claim. It uses existing SAGA development
 documents and the prior episode 1 draft as fiction context.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

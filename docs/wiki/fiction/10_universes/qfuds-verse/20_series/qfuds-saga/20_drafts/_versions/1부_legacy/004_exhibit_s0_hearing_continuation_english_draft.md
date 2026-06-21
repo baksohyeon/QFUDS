@@ -30,7 +30,7 @@ English-first draft using already recorded SAGA fiction-system and development
 documents.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

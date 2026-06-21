@@ -34,7 +34,7 @@ digitization, or product-availability claim. It uses the existing first arc
 drafts and the first arc canon consolidation.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

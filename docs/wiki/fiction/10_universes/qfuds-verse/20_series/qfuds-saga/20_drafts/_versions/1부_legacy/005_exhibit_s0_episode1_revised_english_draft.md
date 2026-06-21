@@ -32,7 +32,7 @@ previous English-first drafts:
 - [004 Exhibit S-0 Hearing Continuation English Draft](004_exhibit_s0_hearing_continuation_english_draft.md)
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

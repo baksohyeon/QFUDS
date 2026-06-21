@@ -230,38 +230,38 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - `The Broken Crown` 첫 arc를 여섯 episode로 나누어 Mara Veyr, Genesis
       Chain, Cryptographic Death, Identity Flood, Hawking Court를 단계적으로
       배치한 development outline.
-19. [QFUDS SAGA Exhibit S-0 Opening English Draft](20_drafts/003_exhibit_s0_opening_english_draft.md)
+19. [QFUDS SAGA Exhibit S-0 Opening English Draft](20_drafts/_versions/1부_legacy/003_exhibit_s0_opening_english_draft.md)
     - `The Broken Crown` 1화 opening candidate. Liora Sen이 Waiting City와
       Court of Continuance를 통과하며 Mara Veyr hearing으로 들어가는
       legacy English-first prose draft.
-20. [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](20_drafts/004_exhibit_s0_hearing_continuation_english_draft.md)
+20. [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](20_drafts/_versions/1부_legacy/004_exhibit_s0_hearing_continuation_english_draft.md)
     - 003 opening을 이어 Mara Veyr hearing, Broken Crown exhibit,
       continuity tests, `RECOVERABLE / NOT CLAIMABLE` category, Last Archive
       question correction까지 진행한 legacy English-first continuation draft.
-21. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](20_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
+21. [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](20_drafts/_versions/1부_legacy/005_exhibit_s0_episode1_revised_english_draft.md)
     - 003 opening과 004 hearing continuation을 보존한 상태에서 하나의
       Episode 1 rough cut으로 압축한 revision pass.
-22. [QFUDS SAGA The Dead Exchange English Draft](20_drafts/006_the_dead_exchange_english_draft.md)
+22. [QFUDS SAGA The Dead Exchange English Draft](20_drafts/_versions/1부_legacy/006_the_dead_exchange_english_draft.md)
     - Episode 2 legacy English-first draft. Genesis Chain을 죽은 시장이 아니라
       살아 있는 상속/권력 장치로 보여 주고, `ACCESS != AUTHORITY` mark를
       도입한다.
-23. [QFUDS SAGA The Last Hodler English Draft](20_drafts/007_the_last_hodler_english_draft.md)
+23. [QFUDS SAGA The Last Hodler English Draft](20_drafts/_versions/1부_legacy/007_the_last_hodler_english_draft.md)
     - Episode 3 legacy English-first draft. Bitcoin/Genesis Chain을 현재 시장 예측이
       아니라 미래 신화와 `civilization-scale consent artifact`로 다루고,
       `NO CONSENT BY ANALOGY` mark를 도입한다.
-24. [QFUDS SAGA Identity Flood English Draft](20_drafts/008_identity_flood_english_draft.md)
+24. [QFUDS SAGA Identity Flood English Draft](20_drafts/_versions/1부_legacy/008_identity_flood_english_draft.md)
     - Episode 4 legacy English-first draft. Null-Key Cells의 identity graph flood로
       깨끗한 identity proof를 무너뜨리고, `PLURALITY IS NOT CONSENT` mark를
       도입한다.
-25. [QFUDS SAGA Hawking Court English Draft](20_drafts/009_hawking_court_english_draft.md)
+25. [QFUDS SAGA Hawking Court English Draft](20_drafts/_versions/1부_legacy/009_hawking_court_english_draft.md)
     - Episode 5 legacy English-first draft. Genesis Chain을 cosmic audit 문제로
       확장하되, black-hole/Hawking restoration과 QFUDS는 fiction premise로만
       두고 `PHYSICS IS NOT JURISDICTION` mark를 도입한다.
-26. [QFUDS SAGA The Broken Crown English Draft](20_drafts/010_the_broken_crown_english_draft.md)
+26. [QFUDS SAGA The Broken Crown English Draft](20_drafts/_versions/1부_legacy/010_the_broken_crown_english_draft.md)
     - Episode 6 legacy English-first first-arc finale draft. Mara의 sealed letter와
       field mark chain으로 첫 arc를 닫고, `who may author loss`를 다음 arc
       질문으로 연다.
-27. [QFUDS SAGA First Arc Full Revision Pass](20_drafts/011_first_arc_full_revision_pass.md)
+27. [QFUDS SAGA First Arc Full Revision Pass](20_drafts/_versions/1부_legacy/011_first_arc_full_revision_pass.md)
     - 1-6화 rough draft를 직접 덮어쓰기 전, arc-level cut/addition,
       episode-level revision matrix, field mark rules, continuity fixes,
       다음 rewrite loop를 고정한 revision control pass.
@@ -289,7 +289,7 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - Episode 6 preserved English v2 counterpart. city fracture 설명을 줄이고, field marks가 이미 권력
       문법으로 재사용되는 위험을 앞당기며, `who may author loss`로 arc two를
       연다.
-34. [QFUDS SAGA First Arc Polish Read-Order Pass](20_drafts/018_first_arc_polish_read_order_pass.md)
+34. [QFUDS SAGA First Arc Polish Read-Order Pass](20_drafts/_versions/1부_legacy/018_first_arc_polish_read_order_pass.md)
     - Phase 18 control checkpoint. 한국어 primary read order, 영어 v2 counterpart,
       continuity issue, exposition cut, field mark misuse risk를 고정한다.
 35. [QFUDS SAGA Exhibit S-0 Episode 1 Korean Adaptation](20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)
@@ -359,15 +359,15 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 
 | Episode | Draft |
 | --- | --- |
-| 1. Exhibit S-0 | [005](20_drafts/005_exhibit_s0_episode1_revised_english_draft.md) |
-| 2. The Dead Exchange | [006](20_drafts/006_the_dead_exchange_english_draft.md) |
-| 3. The Last Hodler | [007](20_drafts/007_the_last_hodler_english_draft.md) |
-| 4. Identity Flood | [008](20_drafts/008_identity_flood_english_draft.md) |
-| 5. Hawking Court | [009](20_drafts/009_hawking_court_english_draft.md) |
-| 6. The Broken Crown | [010](20_drafts/010_the_broken_crown_english_draft.md) |
+| 1. Exhibit S-0 | [005](20_drafts/_versions/1부_legacy/005_exhibit_s0_episode1_revised_english_draft.md) |
+| 2. The Dead Exchange | [006](20_drafts/_versions/1부_legacy/006_the_dead_exchange_english_draft.md) |
+| 3. The Last Hodler | [007](20_drafts/_versions/1부_legacy/007_the_last_hodler_english_draft.md) |
+| 4. Identity Flood | [008](20_drafts/_versions/1부_legacy/008_identity_flood_english_draft.md) |
+| 5. Hawking Court | [009](20_drafts/_versions/1부_legacy/009_hawking_court_english_draft.md) |
+| 6. The Broken Crown | [010](20_drafts/_versions/1부_legacy/010_the_broken_crown_english_draft.md) |
 
 전체 arc revision control pass는
-[011 First Arc Full Revision Pass](20_drafts/011_first_arc_full_revision_pass.md)
+[011 First Arc Full Revision Pass](20_drafts/_versions/1부_legacy/011_first_arc_full_revision_pass.md)
 로 정리되었다. Revised v2 English counterpart pass는 현재 1-6화까지 진행되었다.
 
 | English counterpart | Draft |
