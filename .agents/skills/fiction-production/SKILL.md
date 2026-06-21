@@ -14,9 +14,11 @@ Before changing fiction files, read:
 3. `.agent/workflows/agentic-fiction-production-workflow.md` for production order.
 4. `docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md`
    for Korean-primary prose or polish.
-5. The relevant work README and workroom production board.
-6. The chapter intent card, if the task touches prose or a chapter/episode plan.
-7. Relevant bible, story_design, draft, and revision docs.
+5. `docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md`
+   for scenes that depend on technical, legal, institutional, or world-historical concepts.
+6. The relevant work README and workroom production board.
+7. The chapter intent card, if the task touches prose or a chapter/episode plan.
+8. Relevant bible, story_design, draft, and revision docs.
 
 ## Execution Modes
 
@@ -47,6 +49,7 @@ For prose or major outline work, leave behind:
 
 - updated production board state;
 - chapter intent card or explicit note that an existing card was reused;
+- reader onboarding note when the scene depends on unfamiliar concepts;
 - review wave result for substantial revisions;
 - chronicler pass after drafting or revision;
 - validation commands run and any residual risk.

@@ -67,6 +67,7 @@ For active series prose or major outline work, use this order:
 ```text
 production board
 -> chapter intent card
+-> reader onboarding pass
 -> writer pass
 -> critic / reader-sim pass
 -> continuity pass
@@ -107,6 +108,15 @@ card. It must answer:
 - what pressure hands off to the next unit.
 
 Use [.agent/templates/fiction/chapter_intent_card_template.md](../templates/fiction/chapter_intent_card_template.md).
+
+## Reader Onboarding Pass
+
+Before drafting a scene that depends on technical, legal, institutional, or
+world-historical concepts, apply
+[Fiction Reader Onboarding Harness](../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md).
+
+The pass does not ban technical explanation. It requires every explanation to
+connect to a visible loss, choice, cost, or action in the scene.
 
 ## Review Wave Protocol
 

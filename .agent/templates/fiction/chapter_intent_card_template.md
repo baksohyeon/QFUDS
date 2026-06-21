@@ -44,3 +44,9 @@
 - Concrete object/institution carrying exposition:
 - Character pressure before concept explanation:
 - Terms that must remain technically accurate:
+
+## Reader Onboarding
+
+| Concept | Minimum definition for this unit | Scene object | Loss / choice it explains |
+| --- | --- | --- | --- |
+| TBD | TBD | TBD | TBD |
