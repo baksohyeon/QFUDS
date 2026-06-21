@@ -100,9 +100,12 @@ last_updated: 2026-06-21
 - **Pell Anson(장부 가문 중개인)과 Voss(Sarqel Trust 변호인)는 서로 다른 인물이다.**
   통합하지 않는다(이전 메모의 "Voss→Pell 교정" 지시는 오류였다 — 둘은 다른 세력의
   다른 캐릭터다). Pell은 1부 `Pell Anson`, 후속 `Pell`로 표기 통일.
-- 장부 가문 이름: 프로즈는 `장부 가문`/`House Tabularii`를 쓰고, bible
-  [015](015_factions_canon_naming_ko.md)는 `Domus Clavium`으로 적었다. **정합
-  필요(미해결)** — 독자가 보는 프로즈 이름으로 통일할지 결정 대기.
+- 장부 가문 이름(정합 확정): bible [004](004_narrative_pov_theme_naming_ko.md)의
+  통용명/공식명 이중 구조를 적용한다. **통용명 = `장부 가문`(한국어 프로즈) /
+  `the Ledger House`(영어 통용)**, **공식 캐논명 = `Domus Clavium`**(bible
+  [015](015_factions_canon_naming_ko.md), 의례·법정 정식 호칭에만). 프로즈 본문은
+  통용명을 쓴다. 드리프트였던 `House Tabularii`는 더 쓰지 않는다(기존 영어 드래프트
+  등장 시 `the Ledger House` 또는 `Domus Clavium`으로 교체).
 - 영어 일반명사(`mark`, `evidence` 등)는 본문에서 한국어로 옮긴다. `mark`는
   "표식"으로 통일. 고유명사·필드 마크·기술어만 영어 유지.
 - 민감한 정체성·정치 주제는 인물 설정에 끌어들이지 않는다(작가 지시).

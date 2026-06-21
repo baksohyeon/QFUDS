@@ -40,6 +40,7 @@ not searched
 
 | # | Episode | 한국어 정본 | 영어 counterpart | 필드 마크 |
 | --- | --- | --- | --- | --- |
+| 0 | 프롤로그: The Broken Crown 사건 | [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) | (예정) | (세계관 여는 사건) |
 | 1 | Exhibit S-0 | [019](../20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](../20_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md) | `RECOVERABLE / NOT CLAIMABLE` |
 | 2 | The Dead Exchange | [020](../20_drafts/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](../20_drafts/013_the_dead_exchange_revised_v2_english_draft.md) | `ACCESS != AUTHORITY` |
 | 3 | The Last Hodler | [021](../20_drafts/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](../20_drafts/014_the_last_hodler_revised_v2_english_draft.md) | `NO CONSENT BY ANALOGY` |
@@ -49,6 +50,14 @@ not searched
 
 프롤로그를 먼저 읽고 싶다면
 [Mara Veyr 프롤로그](../20_drafts/001_mara_veyr_prologue_draft_ko.md)를 1화 앞에 둔다.
+
+## 판본 변천사 (changelog)
+
+판본별 변천사·회고·피드백·리텐션 결과는
+[20_drafts/_versions 변천사 로그](../20_drafts/_versions/README.md)가 보유한다.
+요약: v0 조립 → v1 de-jargon → v2 현장감 → v3 구조(cold-open) → v4 격언·의식 →
+v5 구조 재구성(극화 프롤로그 선공개·유니터리 다리·검증 출처). 현재 v5,
+리텐션 라운드 4 대기.
 
 ## 관통선
 
