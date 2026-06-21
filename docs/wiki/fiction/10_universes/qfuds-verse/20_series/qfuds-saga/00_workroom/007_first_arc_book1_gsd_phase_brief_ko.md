@@ -68,8 +68,34 @@ Gate rules:
   partial claim inside the story.
 - The prose must answer "왜 이게 문제인가" inside the scene, not in a later
   appendix.
-- Elementary-reader test: after any technical paragraph, a reader should be able
+- Plain-reader test: after any technical paragraph, a reader should be able
   to say who owns what, who can move what, who is harmed, and what changes next.
+- Object-level clarity pass: each chapter must contain at least one concrete
+  explanation that a general reader can retell without the technical noun.
+  Examples: locked notebook for legal title vs access, returned person vs
+  returned toy for consent, old box with a name tag for dead-key authority.
+- Future-prophecy realism pass: every far-future institution must feel grown
+  from a visible 2020s seed: AI-generated evidence, platform/cloud control,
+  data-center power and cooling, chip/export politics, digital-asset property,
+  estate access, market pricing of uncertainty.
+- Transitional-case rule: do not imply Mara/Noor are the first cases ever.
+  Restoration disputes, dead-key claims, and estate-access fights are already
+  common in the transition. Mara S-0 is important because continuity, damaged
+  consent, spouse claim, Genesis-derived access, and market/state interest
+  converge into the first public precedent-grade case.
+- Exposition containment gate: world-system explanations must be carried by an
+  in-scene carrier such as an Aletheia training screen, evidence context packet,
+  court notice, market quote board, witness action, or character decision. A
+  pure lecture block fails even if the facts are correct.
+- Chronology clarity gate: future-historical framing must be explicitly marked
+  as future-historical. Do not imply Sael already lives inside the Continuity
+  Court era if the prologue event predates Mara by a long interval.
+- Legal-label clarity gate: `S-0` must be disambiguated whenever first used in a
+  chapter. Mara is the person, Broken Crown is the exhibit, Station S-0 is a
+  hearing area, and S-0 is the public precedent docket/case label.
+- First-use institutional anchor: if Last Archive speaks in a scene, add a
+  one-line in-scene court function before or immediately after the signal so the
+  reader knows why everyone freezes without revealing Vera/VERA.
 
 ## IP Classification
 
@@ -148,6 +174,18 @@ Reader-comprehension correction:
   revise before continuing.
 - If the chapter reads like abstract SF philosophy before it explains the modern
   systems being extrapolated, revise before continuing.
+- Applied correction in 029: Prologue-Chapter 2 now includes an explicit
+  "what this world is" ladder: restoration law asks continuity, claim, and
+  consent; Aletheia arose because editable evidence made verification expensive;
+  Bitcoin split legal title from private-key signing control; Broken Crown turns
+  that split into restoration; Mara and Noor show why access, memory, and names
+  still cannot create consent. The pass adds object-level analogies and anchors
+  the far future in 2020s AI/evidence/infrastructure realities. It also clarifies
+  that S-0 is a public precedent-grade convergence case, not the first dispute
+  of its kind. Follow-up revision moved broad explanations into scene carriers,
+  clarified the Sael/Mara chronology, separated S-0 docket/station/person/exhibit
+  labels, added the key-recovery -> record-recovery -> restoration bridge, and
+  anchored Last Archive before its first direct intervention.
 
 ## Tone Rules
 
@@ -164,6 +202,9 @@ Reader-comprehension correction:
   AI-philosophy sentence.
 - The reader should feel a large world pressing on a specific person, not read a
   wiki lecture.
+- Scene first, summary second. A market board, court notice, training packet,
+  physical object, or character choice should appear before any paragraph that
+  generalizes the setting.
 
 ## Technical Grounding
 
