@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: draft B2 after B1 first polish review and keep cascade drift ledger current
+next_gate: review completed 029 Ch6 pass and reconcile 029/030 queue before physical cascade
 last_updated: 2026-06-21
 ---
 
@@ -40,12 +40,12 @@ install external tools: no
 
 | Field | Value |
 | --- | --- |
-| Active unit | 1부 origin draft / 030 B1 콜드오픈 |
-| Phase | `draft` |
-| Owner mode | `writer` + `critic` + `continuity` |
-| Status | `in_progress`; B1 drafted and first polish pass applied |
-| Failure reason | cascade drift가 물리 폴더/라벨과 신규 arc map 사이에 남아 있음 |
-| Next action | B1 reader/onboarding check를 닫고 B2(사엘, 같은 지갑을 사건으로 받는다) 산문 진입 |
+| Active unit | 병렬 작업: 029 Mara/Book 1 Ch6 completion on `codex/complete-029-book1`; 030 origin draft remains separate active origin asset |
+| Phase | `draft` -> `review` |
+| Owner mode | `writer` + `reader-sim` + `continuity` |
+| Status | `in_progress`; 029 Ch6 drafted, review/chronicler/verification pending |
+| Failure reason | 029는 canonical 2부 Mara 자산이지만 물리 경로는 legacy `1부/`; 030 병렬 수정도 존재 |
+| Next action | 029 Ch6 자연스러움/continuity pass, then commit branch; do not physical-cascade in this pass |
 | Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011` |
 | Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md` |
 | Approval needed | no for continued B2 drafting; yes before physical cascade |
@@ -56,6 +56,7 @@ install external tools: no
 | --- | --- | --- | --- | --- | --- |
 | 1부 origin B1 | draft | [017 B1](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | B1 AI-tell/온보딩/후킹 패스 반영 | pending | `in_progress` |
 | 1부 origin B2 | draft | [017 B2](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | none | none | `ready_next` |
+| 2부 Mara / 029 Ch6 | draft/review | [013 Ch6](../10_story_design/013_first_arc_scene_cards_ko.md) | Ch6 writer pass complete on `codex/complete-029-book1` | Continuity Notes updated in 029 | `review_pending` |
 | 2부 Mara repositioning | plan | 011에서 구조 이동됨 | none | none | `hold` until 030 B1-B7 stabilizes |
 | 3부 author-loss assets | plan | 025-027 자산 보존 | none | none | `hold` until physical cascade |
 
@@ -107,3 +108,4 @@ brief.
 | --- | --- | --- | --- |
 | 2026-06-21 | external AI writing systems gap audit | local patterns selected; install rejected | create templates and warn-first gate |
 | 2026-06-21 | 011 restructuring review | origin=1부, Mara=2부, existing 025-027=3부 asset direction accepted as structure | choose 1부 POV before origin outline |
+| 2026-06-21 | 029 Ch6 writer/chronicler pass | final human hearing drafted; `who may author loss` field mark and protected pending hook added | run prose/continuity review and validation before commit |
