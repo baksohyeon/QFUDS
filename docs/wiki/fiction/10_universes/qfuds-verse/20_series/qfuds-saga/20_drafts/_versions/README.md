@@ -13,7 +13,7 @@ last_updated: 2026-06-21
 
 # QFUDS SAGA 1부 판본 변천사·회고 로그
 
-이 폴더는 1부의 판본 스냅샷과 그 변천사를 보관한다. 현행 정본은 상위 `20_drafts/`에
+이 폴더는 1부의 판본 스냅샷과 그 변천사를 보관한다. 현행 읽기 prototype은 상위 `20_drafts/`에
 있고(019-024 + 프롤로그 028), 여기엔 과거 판본 스냅샷과 각 판본의 회고·피드백·개선을
 적는다. 패스가 매뉴스크립트를 바꿀 때마다 행 하나와(필요 시) 스냅샷을 추가한다.
 
@@ -27,6 +27,7 @@ last_updated: 2026-06-21
 | v3 구조 패스 | 필드마크 의식 변주, QFUDS 실체, 영어 밀도↓, ep1 cold-open + 비트코인 정확·평이 | "뭐야 어쩌라고"(도입 난해), "비트코인 정확히" → cold-open·실제 개념 | [30_revisions/004], 스냅샷 `1부_v3_pre_R4/` |
 | v4 격언·의식 | 격언 절반, 닫는 의식 변주, ep1 비트코인 압축, ep6 저자 해설 삭제 | em dash 금지(한·영), 격언 균질화 지적 | [30_revisions/005] |
 | v5 구조 재구성(진행) | 극화 프롤로그(028) 선공개, 유니터리 다리 교정, 검증 출처(009 §2.5), ep1 사다리 제거, ep2~6 무대·시점 다변화 + 떡밥 드립 | "받아들여라 식·조현병 같다"(세계관 미납득), "소설가 흉내로 뭉개지 마라" → 극화·검증 출처·기술적 정확 | [30_revisions/006] |
+| outline-first reboot decision | R6 in-place prose patching 중단. 세계관은 유지하고 1부 원고는 outline/scene-card gate 뒤 백지에서 재작성 | "아웃라인이 없어서 망하는 듯" → prose보다 Book 1 cause/effect chain 우선 | [10_story_design/012](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md), [10_story_design/013](../../10_story_design/013_first_arc_scene_cards_ko.md) |
 
 ## 리텐션 테스트 기록
 

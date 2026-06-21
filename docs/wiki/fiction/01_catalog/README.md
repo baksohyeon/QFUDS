@@ -9,8 +9,8 @@ depends_on:
   - wiki_fiction_index
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: continue qfuds-saga arc planning under normalized work shelves
-last_updated: 2026-06-20
+next_gate: review qfuds-saga 013 scene cards before first-arc prose rewrite
+last_updated: 2026-06-21
 ---
 
 # Fiction Catalog
@@ -44,7 +44,7 @@ last_updated: 2026-06-20
 
 | Work | Current path | Format | Continuity status | Next decision |
 | --- | --- | --- | --- | --- |
-| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active prototype series work | Choose 025 English counterpart, 026 Korean primary, or first-arc release polish |
+| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active prototype series work | Review 013 scene cards before first-arc prose rewrite |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
 ## Target Structure
@@ -103,6 +103,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. 025의 English Anglophone counterpart를 쓸지 결정.
-2. Arc Two 026 Korean primary draft를 바로 이어 쓸지 결정.
-3. 019-024를 `40_release/` 후보로 올리기 위한 continuity/line edit을 닫을지 결정.
+1. QFUDS SAGA 1부 [013 scene cards](../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)를 검토·보강한다.
+2. 013이 통과되기 전에는 028+019-024 prose rewrite나 `40_release/001_` active release를 만들지 않는다.
+3. 013 통과 후 1부 백지 원고 rewrite와 이후 Arc Two/English counterpart 우선순위를 다시 결정한다.

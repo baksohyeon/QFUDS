@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
-next_gate: continue Korean-primary SAGA arc planning
+next_gate: review and revise 10_story_design/013 scene cards before new first-arc prose
 last_updated: 2026-06-21
 ---
 
@@ -20,21 +20,23 @@ last_updated: 2026-06-21
 - **qfuds-verse** = 세계(IP). **qfuds-saga** = 그 세계에서 쓰는 첫 장편 소설(작품).
   비유: qfuds-verse가 마블 유니버스라면, qfuds-saga는 그 안의 영화 한 편.
 - 경로: `10_universes/qfuds-verse`(세계) 아래 `20_series/qfuds-saga`(작품).
-- **무엇을 보나:** 이야기 읽기는 `40_release/002` 원고. 설정 이해는 `00_bible/`.
-  전체 목차는 이 README 아래 "먼저 읽을 것".
+- **무엇을 보나:** 현재 읽기용 prototype은 아래 `20_drafts/028` + `019`-`024`.
+  새 1부 집필 기준은 `10_story_design/012` 아웃라인과 `013` scene cards. 설정
+  이해는 `00_bible/`. 전체 목차는 이 README 아래 "먼저 읽을 것".
 - **서랍(폴더) 역할:** 00_workroom 운영규칙 · 00_bible 설정집 · 10_story_design 기획 ·
-  20_drafts 원고 초안 · 30_revisions 퇴고 · 40_release 완성본.
+  20_drafts 원고 초안 · 30_revisions 퇴고 · 40_release release manifest/export.
 
-## 읽기 경로 (현행 스토리 순서)
+## 읽기 경로 (현재 prototype 스토리 순서)
 
-지금 읽을 1부는 이 순서다. 아래 긴 "먼저 읽을 것" 목록은 과거 세대까지 포함한
-전체 색인이니, 그냥 읽고 싶으면 이 표만 보면 된다.
+지금 읽을 수 있는 1부 prototype은 이 순서다. 단, 다음 1부 rewrite는 이 본문을
+문장 단위로 고치는 방식이 아니라 [012 통합 아웃라인](10_story_design/012_first_arc_book1_outline_reboot_ko.md)
+과 후속 scene cards를 통과한 뒤 백지 원고로 다시 쓴다.
 
-| 순서 | 편 | 한국어 정본 |
+| 순서 | 편 | 한국어 prototype |
 | --- | --- | --- |
 | 프롤로그 | The Broken Crown 사건 | [028](20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) |
 | 1~6 | Exhibit S-0 … Broken Crown | [019](20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)–[024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) |
-| 묶음 읽기본 | 조립 원고 | [40_release/002](40_release/002_first_arc_manuscript_ko.md) |
+| release 상태 | active release 없음 | [40_release](40_release/README.md) |
 
 - **드래프트가 왜 이렇게 많은지** + 현행/레거시 구분: [20_drafts 지도](20_drafts/README.md).
 - **세계관 납득 사슬·검증 출처**: [bible 009 §2.5](00_bible/009_reader_accessibility_and_real_world_anchors_ko.md).
@@ -55,13 +57,13 @@ series work다.
 - `10_story_design/`: pitch, 방향 매트릭스, outline, visual package, 실험적 설계.
 - `20_drafts/`: 실제 prose draft, 한국어/영어 counterpart, scene test.
 - `30_revisions/`: release-facing revision plan, line edit, continuity fix.
-- `40_release/`: 독자용 release candidate, bundled read order, export-ready 원고.
+- `40_release/`: active release manifest/export. 현재는 pre-reboot provenance만 보존.
 - `../../../../90_archive/`: 더 이상 active가 아닌 prototype.
 
 소설 본문은 `20_drafts/`에 둔다. 세계관 설정은 `00_bible/`에 둔다.
 작업 방법과 검수 규칙은 `00_workroom/`에 둔다. 아직 canon이 아닌 기획안과
 시각/구조 실험은 `10_story_design/`에 둔다. release 후보로 가기 전 revision
-control은 `30_revisions/`에 두고, 독자에게 보여 줄 묶음본은 `40_release/`에 둔다.
+control은 `30_revisions/`에 두고, 통과된 release manifest/export는 `40_release/`에 둔다.
 
 ## What Is `00_bible`?
 
@@ -314,8 +316,8 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - 첫 arc 한국어 polish, line edit, continuity-fix pass처럼 release-facing
       control이 필요한 작업을 두는 선반.
 42. [QFUDS SAGA Release Shelf](40_release/README.md)
-    - 한국어 primary, 영어 counterpart, shared continuity check가 끝난 독자용
-      release candidate와 export-ready 묶음본을 두는 선반.
+    - active release manifest/export를 두는 선반. 현재 1부는 reboot 전이므로
+      `900_` provenance manifest만 보존하고 본문 중복 build는 두지 않는다.
 43. [Fiction Catalog](../../../../01_catalog/README.md)
     - SAGA의 canonical series path, old-path deletion policy, archive
       routing, next task candidates를 기록한다.
@@ -355,6 +357,12 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 50. [QFUDS SAGA Series Bible Drift Alignment Audit](30_revisions/008_series_bible_drift_alignment_audit_ko.md)
     - 001-020 bible 전체를 점검해 오래된 후보/승인 전/영어 rough/Bitcoin dead-relic
       drift를 015·017·018·028 story-order 기준으로 정렬한 감사 기록.
+51. [QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인](10_story_design/012_first_arc_book1_outline_reboot_ko.md)
+    - 흩어져 있던 beat 문서(004·005·006·008·009·011)와 bible grounding을 Book 1
+      cause/effect chain, 정보 공개 장부, 인물 arc, 장별 목적표로 통합한 active outline SSOT.
+52. [QFUDS SAGA 1부 Book 1 씬 카드](10_story_design/013_first_arc_scene_cards_ko.md)
+    - 012 outline을 장면별 `POV`, `want`, `obstacle`, `turn`, `cost`, 기술어 노출,
+      정보 공개, 다음 hook으로 쪼갠 prose 직전 차단 게이트.
 
 ## First Arc Provenance Draft Set
 
@@ -384,8 +392,8 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 
 ## Korean Primary First Arc Reading Path
 
-Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어 v2는 같은 사건을
-공유하는 preserved counterpart로 둔다.
+Phase 18부터 first-reader path는 한국어판을 먼저 둔다. 현재 1부 한국어판은
+pre-reboot prototype이며, 영어 v2는 같은 사건을 공유하는 preserved counterpart로 둔다.
 
 | Episode | Korean primary | English counterpart |
 | --- | --- | --- |
@@ -397,8 +405,9 @@ Phase 18부터 active first-reader path는 한국어판을 먼저 둔다. 영어
 | 6. The Broken Crown | [024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](20_drafts/017_the_broken_crown_revised_v2_english_draft.md) |
 
 이 6편은 현장감·묘사 강화 퇴고([002 기준](30_revisions/002_first_arc_release_immersion_revision_plan_ko.md))와
-편별 release 감사(ai-tell CLEAN, naturalness A, 필드 마크 무결성)를 통과해
-[1부 Release Candidate](40_release/001_first_arc_release_candidate_ko.md)로 묶였다.
+편별 release 감사(ai-tell CLEAN, naturalness A, 필드 마크 무결성)를 통과했던
+pre-reboot 상태로, 현재는 [900 release manifest](40_release/900_pre_reboot_first_arc_release_manifest_ko.md)에
+provenance만 보존한다.
 
 ## Arc Two Korean Primary Start
 
@@ -418,22 +427,26 @@ Umbrae·Curia Continuum·Cellulae Sine Clave 등).
 
 ## Next Korean-Primary Prose Task Gate
 
-다음 한국어 prose 작업은 자동으로 시작하지 않는다. 먼저 아래 중 하나를
-명시적으로 고른다.
+다음 한국어 prose 작업은 자동으로 시작하지 않는다. 1부는 먼저 outline-first reboot
+상태로 전환한다. 새 산문을 쓰기 전 기본 gate는
+[10_story_design/013_first_arc_scene_cards_ko.md](10_story_design/013_first_arc_scene_cards_ko.md)
+검토·보강이다.
 
 | Gate | Output shelf | When to choose |
 | --- | --- | --- |
+| First-arc Book 1 scene cards | [013](10_story_design/013_first_arc_scene_cards_ko.md) | 028+019-024를 백지 원고로 다시 쓰기 전 검토·보강 |
 | Arc Two planning | `10_story_design/` | `who may author loss` 이후의 사건, 인물, field mark를 아직 설계해야 할 때 |
-| First-arc Korean line polish | `30_revisions/` | 019-024 한국어 primary adaptation을 release 후보로 다듬을 때 |
+| First-arc Korean line polish | `30_revisions/` | 기존 019-024 prototype을 보존용으로만 미세 정리할 때. 새 정본 rewrite 용도 아님 |
 | English Anglophone counterpart for 025 | `20_drafts/026_*_english_adaptation.md` 또는 별도 번호 | 025의 사건을 영미권 독자 리듬으로 독립 각색할 때 |
 | New Korean primary scene | `20_drafts/026_*_korean_primary.md` | Arc Two 다음 episode를 한국어로 바로 이어 쓸 때 |
 
 first-arc Korean line polish의 1차 pass(영어 코드스위칭 제거 de-jargon)는
 [30_revisions/001 퇴고 계획](30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)으로
 실행되었다. Arc Two planning, 025·027 한국어 primary draft, 025 영어 counterpart(026),
-세력 명칭 canon(015)이 사용자 승인 후 작성·감사 완료되었다. 다음 자연스러운 작업은
-027 영어 독립 각색판, Arc Two 028 한국어 primary draft, 또는 019-024를 `40_release/`
-후보로 올리기 위한 추가 line edit/continuity 확정이다.
+세력 명칭 canon(015)이 사용자 승인 후 작성·감사 완료되었다. 하지만 1부는 prose
+patching 대신 백지 재설계로 전환했다. 다음 자연스러운 작업은 027 영어 독립 각색판이나
+Arc Two 확장이 아니라, 1부 `013` scene cards를 먼저 검토·보강해 012의 outline이
+실제 장면 단위로 작동하는지 검증하는 것이다.
 
 ## 역할
 

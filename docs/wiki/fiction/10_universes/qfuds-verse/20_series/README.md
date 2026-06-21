@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: choose qfuds-saga 025 English counterpart, 026 Korean primary, or release polish
-last_updated: 2026-06-20
+next_gate: review qfuds-saga 013 scene cards before first-arc prose rewrite
+last_updated: 2026-06-21
 ---
 
 # QFUDS Verse Series
@@ -19,7 +19,7 @@ last_updated: 2026-06-20
 
 | Series | Current path | Status | Rule |
 | --- | --- | --- | --- |
-| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | 025 이후 English counterpart, 026 Korean primary, release polish 중 하나를 고른다 |
+| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | 1부 [013 scene cards](qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)를 먼저 검토·보강한다 |
 
 ## Migration Record
 

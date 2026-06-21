@@ -32,10 +32,11 @@ last_updated: 2026-06-21
        ├ 10_story_design 기획·아웃라인·반전 설계
        ├ 20_drafts      편집 가능한 원본 원고(SSOT)
        ├ 30_revisions   퇴고·release 통제 계획
-       └ 40_release     조립된 완성 원고(빌드 산출물)
+       └ 40_release     통과된 release manifest/export
 ```
 
-핵심 한 줄: **20_drafts가 원본, 40_release는 그걸 묶은 빌드다.** 소스/빌드 관계다.
+핵심 한 줄: **20_drafts가 원본이고, 40_release는 release가 통과됐을 때만 manifest/export를 둔다.**
+수기 조립 원고를 계속 유지하지 않는다.
 
 ## 1. 에이전트 관점 (무엇이 자동으로 막히나)
 
@@ -59,7 +60,8 @@ last_updated: 2026-06-21
 
 작가는 "내가 준 생각이 어디 들어갔고, 무엇을 보면 되는지"만 알면 된다.
 
-- **읽고 싶다** -> `40_release/002` 조립 원고.
+- **읽고 싶다** -> 각 SAGA README의 current reading path를 본다. reboot 중이면
+  `20_drafts`의 prototype 읽기 순서가 우선이다.
 - **설정을 알고 싶다** -> `00_bible/`(010 인과 스파인, 016 인물부터).
 - **기획·전개를 보고 싶다** -> `10_story_design/`.
 - **내 아이디어가 어디 갔나** -> `00_workroom/006` 추적 원장.
@@ -71,10 +73,12 @@ README 라우팅 표를 본다.
 
 ## 3. 독자 관점 (완성본만 본다)
 
-독자에게 보이는 것은 `40_release`뿐이다. 나머지 서랍은 작업장이라 보이지 않는다.
+독자에게 보이는 것은 통과된 `40_release` 산출물뿐이다. release가 아직 없거나
+reboot 중이면 독자용 active release가 없다고 표시하고, prototype은 작업장 경로로
+분리한다.
 
-- `40_release/001`은 release 기록(무엇이 어떤 감사를 통과했는지의 명세).
-- `40_release/002`는 실제로 읽는 조립 원고다.
+- `40_release/001`-`099`는 active release manifest/export로 예약한다.
+- `40_release/900`-`999`는 archived/provenance release metadata로만 쓴다.
 - 독자 체감 품질은 **리텐션 테스트**로 측정한다. 다양한 독자 페르소나가 "흥미가
   유지되는 동안만" 읽고 이탈 지점을 보고하며, 공통 이탈 원인을 고친 뒤 다시
   돌린다. 이 테스트 통과가 release의 조건이다(release 게이트).
@@ -83,10 +87,11 @@ README 라우팅 표를 본다.
 
 여러 세션·여러 에이전트가 같은 작품을 건드릴 때의 규칙.
 
-- **원본은 하나다.** 원고를 고칠 때는 항상 `20_drafts`를 고친다. `40_release/002`는
-  직접 고치지 않는다. 그건 `20_drafts`에서 다시 조립한다.
-- **빌드 재생성.** 드래프트가 바뀌면 `40_release/002`를 재조립한다(메타 섹션 제외하고
-  편을 이어 붙이는 조립 규칙). 재조립 없이 빌드만 고치면 다음 재생성 때 사라진다.
+- **원본은 하나다.** 원고를 고칠 때는 항상 `20_drafts`를 고친다. release shelf의
+  export 산출물은 직접 고치지 않는다.
+- **release 생성.** 드래프트가 release gate를 통과했을 때만 `40_release`에
+  manifest/export를 만든다. generated manuscript가 필요하면 source hash와 생성 절차를
+  함께 남긴다.
 - **canon 충돌은 bible이 기준.** 드래프트가 설정과 어긋나면 bible(`00_bible`)을
   기준으로 맞추거나, bible을 의도적으로 갱신한다. 어느 쪽인지 명시한다.
 - **추적성.** 작가 입력의 출처는 `00_workroom/006`이 보관한다. 새 입력이 들어오면

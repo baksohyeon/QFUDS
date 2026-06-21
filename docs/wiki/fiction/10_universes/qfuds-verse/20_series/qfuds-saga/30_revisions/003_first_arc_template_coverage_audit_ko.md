@@ -74,7 +74,7 @@ not searched
 | --- | --- | --- | --- | --- |
 | Timeline / era placement | deep-time restoration civilization, Continuity Court era | 019-024가 Waiting City, Continuity Court, Genesis Chain afterlife를 사용 | yes | 없음 |
 | Factions & institutions | Bureau Laurien/Laur, Continuity Court, Ledger Houses, Aletheia, Last Archive | 1부 전체에서 반복 등장 | yes | 세력명은 [015](../00_bible/015_factions_canon_naming_ko.md) 유지 |
-| Naming / proper nouns | 고유명·필드 마크는 영어 유지, 일반명사는 한국어 우선 | 019-024 Korean primary와 40_release build가 이 규칙을 따름 | yes | 신규 용어 추가 시 glossary 갱신 |
+| Naming / proper nouns | 고유명·필드 마크는 영어 유지, 일반명사는 한국어 우선 | 019-024 Korean primary와 pre-reboot release manifest가 이 규칙을 기록 | yes | 신규 용어 추가 시 glossary 갱신 |
 | Technology limits & forbidden claims | Bitcoin/QFUDS/black-hole terms are fiction premise only | release boundary와 draft boundary가 연구 evidence 금지 명시 | yes | 유지 |
 | Character knowledge state | Liora limited POV, Last Archive no direct inner POV | 1편은 명시 완료, 2-6편은 implied 상태 | partial | 2-6편 `Series Gate Applied`에 POV person 기록 |
 | POV / narrative frame | 기본 3인칭 제한, 필요 시 rotating focalizers | 1부는 Liora 중심으로 고정 | yes | 2부부터 POV 로테이션 후보는 [016]과 [010 episode map](../10_story_design/010_arc_two_episode_map_ko.md) 확인 |

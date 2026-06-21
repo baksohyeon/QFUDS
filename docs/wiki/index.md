@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # Wiki Content Index
@@ -98,8 +98,8 @@ and
   - release-facing revision plans, continuity-fix passes, and line-edit
     controls for SAGA drafts.
 - [QFUDS SAGA Release Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
-  - release candidates and export-ready reader bundles; currently empty until
-    continuity checks pass.
+  - active release manifest/export shelf; current first arc has only pre-reboot
+    provenance until scene-card and continuity gates pass.
 - [Fiction Archive](fiction/90_archive/README.md) - archived fiction prototypes
   preserved for provenance, including the original lineage-hosted Laur
   Observatory saga.

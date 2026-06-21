@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: apply bible drift alignment before first-arc R6 rewrite
+next_gate: review 10_story_design/013 scene cards before first-arc prose rewrite
 last_updated: 2026-06-21
 ---
 
