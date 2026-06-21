@@ -9,8 +9,8 @@ depends_on:
   - qfuds_saga_first_arc_dejargon_polish_revision_plan_ko
   - qfuds_saga_prose_verisimilitude_audit_checklist_ko
   - qfuds_saga_bilingual_term_discipline_glossary_ko
-  - qfuds_saga_first_arc_book1_reboot_korean_primary
-next_gate: apply these release gates to 029 after the Book 1 reboot draft is complete
+  - qfuds_saga_first_arc_origin_scene_cards_ko
+next_gate: apply these release gates to 030 origin draft after B1-B7 and cascade stabilize
 last_updated: 2026-06-21
 ---
 
@@ -21,13 +21,13 @@ last_updated: 2026-06-21
 이 문서는 원래 1부 한국어 prototype 6편
 ([019](../20_drafts/1부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](../20_drafts/1부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md))을
 `40_release/` 후보로 올리기 위한 **강화 퇴고** 기준이었다. 이후 1부는
-[012 outline](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
-[013 scene-card gate](../10_story_design/013_first_arc_scene_cards_ko.md)를 거쳐
-[029 active reboot manuscript](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)로
-백지 재작성 경로가 바뀌었다.
+[016 origin outline](../10_story_design/016_first_arc_origin_outline_ko.md)과
+[017 origin scene cards](../10_story_design/017_first_arc_origin_scene_cards_ko.md)를 거쳐
+[030 origin manuscript](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)로
+신규 1부 origin 경로가 바뀌었다.
 
-따라서 이 문서는 더 이상 019-024 in-place 승격 명령이 아니다. 029 전체 한국어
-primary draft가 완성된 뒤 적용할 **release-facing gate 기준**으로 보존한다. 1차
+따라서 이 문서는 더 이상 019-024 in-place 승격 명령이 아니다. 030 전체 한국어
+primary draft와 physical cascade가 안정화된 뒤 적용할 **release-facing gate 기준**으로 보존한다. 1차
 de-jargon pass 기록은 [001 퇴고 계획](001_first_arc_dejargon_polish_revision_plan_ko.md)이
 provenance로 보유한다.
 

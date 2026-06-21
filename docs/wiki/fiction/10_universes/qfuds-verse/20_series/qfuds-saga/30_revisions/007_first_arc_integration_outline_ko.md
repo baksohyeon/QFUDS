@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_world_compendium_codex_ko
   - qfuds_saga_first_arc_six_episode_outline_ko
-next_gate: superseded by 012 outline, 013 scene cards, and 029 active reboot manuscript
+next_gate: superseded by 016 origin outline, 017 scene cards, 030 origin draft, and 011 §10 cascade ledger
 last_updated: 2026-06-21
 ---
 
@@ -21,10 +21,11 @@ last_updated: 2026-06-21
 
 1부(프롤로그 028 + 6편 019-024)를 **편별 정밀 통합 스펙**으로 묶었던 provenance
 문서다. 이것은 소설 산문이 아니라 설계 스펙이며, 현재 active first-arc 경로는
-[012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md),
-[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md),
-[029 active reboot manuscript](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)로
-이동했다. 이 문서는 029가 상속한 이전 통합 판단을 보존한다.
+[016 origin 아웃라인](../10_story_design/016_first_arc_origin_outline_ko.md),
+[017 origin scene cards](../10_story_design/017_first_arc_origin_scene_cards_ko.md),
+[030 origin draft](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)로
+이동했다. 029는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md) 기준
+canonical 2부 Mara 자산으로 보존한다. 이 문서는 이전 통합 판단의 provenance다.
 
 각 편마다 다섯 면을 정밀하게 적시한다.
 
@@ -488,7 +489,6 @@ arc를 연다.
 ## Next Use
 
 이 문서를 active execution plan으로 사용하지 않는다. 다음 산문 작업은
-[029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서 Chapter 1
-`Exhibit S-0`를 이어 쓰는 것이다. 40_release 재조립은 029 전체 한국어 primary,
-영어 독립 각색판, shared continuity check, release-facing revision gate 이후에만
-검토한다.
+[030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)에서 B2를 이어 쓰는
+것이다. 40_release 재조립은 030 전체 한국어 primary, 영어 독립 각색판, shared
+continuity check, physical cascade, release-facing revision gate 이후에만 검토한다.

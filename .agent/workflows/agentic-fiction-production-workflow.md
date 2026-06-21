@@ -127,6 +127,17 @@ technical explanation is allowed, but it must quickly attach to a deadline,
 button, loss, cost, system warning, audit note, seal protocol, court exhibit, or
 fieldmark.
 
+First-scene priority: in an opening or hook scene, reader retention beats
+explanation. Even when a concept passes the three-step gate, the scene fails if
+the first beat does not make the reader feel the danger before learning the
+mechanism. Lead with visceral, present-day-legible stakes (someone is already
+losing, now), then teach the public-key / signature / Q-Day rule from inside that
+dread. Deliver exposition as diegesis, not author-to-reader tutorial: the
+character reads a screen, warning, feed, or form. Avoid childish analogies and
+contrived declaratives. The tone guard table in
+[010 §톤 가드](../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
+is mandatory for onboarding scenes.
+
 ## Review Wave Protocol
 
 Do not polish while unresolved foundation issues remain.
@@ -199,6 +210,16 @@ Forbidden uses:
 - changing plot facts to sound more human;
 - smoothing away technical terms that carry meaning;
 - replacing Korean-primary prose with translationese.
+
+Detector is auxiliary, not the gate. The `ai-tell-detector` taxonomy is tuned
+for essays, columns, and reports. It reliably catches translationese and
+over-tidy rhythm, but it can miss fiction-specific failures: tutorialized
+exposition, childish onboarding analogies, and weak first-scene hooking. Do not
+treat a low detector score as a pass. A human reviewer must enforce the guards in
+[010 §톤 가드](../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
+and the AI-failure-signal table in
+[009](../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
+directly, especially on opening scenes.
 
 ## Verification
 

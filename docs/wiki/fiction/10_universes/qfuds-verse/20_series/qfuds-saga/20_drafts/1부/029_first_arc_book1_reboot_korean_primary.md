@@ -13,11 +13,21 @@ depends_on:
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
-next_gate: write Chapter 6 final human hearing (who may author loss) inside this manuscript
+next_gate: hold Ch6 until cascade decision; this manuscript is canonical 2부 Mara asset under 011 §10
 last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 1부 Book 1 Reboot Korean Primary
+
+## Cascade Drift Banner
+
+물리 경로는 아직 `20_drafts/1부/`이지만, [011 §10](../../10_story_design/011_saga_arc_map_multiarc_ko.md)
+기준 이 원고는 신규 구조의 **2부 Mara 자산**이다. 신규 **1부 origin**은
+[030 origin Sael draft](030_origin_arc_sael_korean_primary.md)가 담당한다.
+
+이 파일은 physical cascade 전까지 현 위치에 보존한다. 지금은 Ch6를 이어 쓰지 않는다.
+029를 2부 Mara 원고로 재배치할지, 일부를 split/archive할지는 origin B1~B7 초안
+안정화 뒤 별도 cascade pass에서 결정한다.
 
 ## Boundary
 

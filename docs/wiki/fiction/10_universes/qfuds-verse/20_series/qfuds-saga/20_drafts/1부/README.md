@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_drafts_index_ko
-next_gate: write Chapter 6 final human hearing inside 029 reboot manuscript
+next_gate: continue 030 B2 after B1 review; hold 029 until physical cascade decision
 last_updated: 2026-06-21
 ---
 
@@ -20,12 +20,17 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **1부 (Book 1)**. canon
 
 | 파일 | 역할 | 상태 |
 | --- | --- | --- |
-| [029 Reboot](029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT | 프롤로그 + Ch1~5 작성, 다음 Ch6 |
+| [030 origin (사엘)](030_origin_arc_sael_korean_primary.md) | **신규 1부 origin** 한국어 primary 원고 SSOT (016/017/019 설계) | B1 콜드오픈 작성, 다음 B2 |
+| [029 Reboot](029_first_arc_book1_reboot_korean_primary.md) | 기존 Mara reboot 원고. 011 §10에서 **2부**로 재배치 예정 | 프롤로그 + Ch1~5 작성 (origin 재설계로 동결) |
 
-1부 산문은 029 안에서 순서대로 쓴다. 구조 SSOT는
-[012 아웃라인](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·
-[013 scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md), 분량·검수
-차단은 [007 GSD brief](../../00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md).
+번호 cascade 보류(011 §10, 작가 결정): origin=신규 1부 / 029=신규 2부. 폴더 라벨·
+재배치와 029 서술 라벨 갱신은 별도 cascade 단계에서 일괄 처리한다.
+
+신규 1부 산문은 030 안에서 B1~B7 순서로 쓴다. 구조 SSOT는
+[016 origin 아웃라인](../../10_story_design/016_first_arc_origin_outline_ko.md)·
+[017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md),
+실행 시트는 [019 사엘 시트](../../10_story_design/019_sael_origin_execution_sheet_ko.md).
+(029 계열 구조 SSOT 012·013은 Mara 원고용으로 보존.)
 
 ## 판본·prototype
 
