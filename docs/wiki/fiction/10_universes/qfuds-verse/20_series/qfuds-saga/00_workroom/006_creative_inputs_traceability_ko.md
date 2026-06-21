@@ -44,9 +44,10 @@ last_updated: 2026-06-21
 | **AGI와 LLM 자율 인격 철학 논쟁** | bible [009 §0.7](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md), source bucket [009 §0.7.1](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md), outline [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md), scene cards [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 능력·자율성, 의식·도덕적 지위, 법적 인격·책임을 분리해 Last Archive/VERA/Mara 판례의 거울 논쟁으로 사용. Model welfare, self-report, authorship/inventorship, A-corp/legal-identity 논쟁은 009의 자료조사 에셋 버킷에서만 가져온다 |
 | **GSD 활용 + release 직전 사용자 확인** | workroom [007](007_first_arc_book1_gsd_phase_brief_ko.md), active manuscript [029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md), release shelf [40_release](../40_release/README.md) | 장별 집필은 자동 진행 가능. `40_release/001_` active release 승격은 사용자 pre-release review와 확인 전 금지 |
 | **간지/실로비크/COD 취향** | 메모리(레포 밖, 취향 신호) | 인물 디자인 참고 |
-| **실제 프로즈** | `20_drafts`(029 active 1부 reboot manuscript, 028 opening + 019-024 1부 prototype, 025/027 2부, 001/002 legacy prologue) | 029가 새 1부 한국어 primary 원고 SSOT. 기존 prototype은 읽기/비교용 provenance. `40_release`에는 active build가 없음 |
+| **실제 프로즈** | `20_drafts`(부 단위 폴더: [1부/029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md) active, [2부/](../20_drafts/2부/README.md) 025-027, 직전 prototype은 1부/_versions, 죽은 1세대는 90_archive/qfuds-saga_1부_legacy) | 029가 새 1부 한국어 primary 원고 SSOT. 원고는 부(arc) 폴더로 관리(번호=stable ID). `40_release`에는 active build가 없음 |
 
 | **기준 작성권 사상축**(기준을 쓰는 자가 세계를 쓴다; Exit/Voice; 절반쯤 맞는 적대자; 권력의 선택적 해석) | bible [022](../00_bible/022_authorship_of_the_standard_theme_axis_ko.md) | who may author loss의 일반화. 민감한 사회 적용은 레포 제외, 추상 원리만 캐논화하고 인물은 라벨 없는 자율 주체로 |
+| **소버린 AI·오픈/봉쇄 축**(데이터 주권, 자국 모델, 오픈소스 vs 폐쇄·수출통제, 모델 통제권) | story_design [014](../10_story_design/014_sovereign_ai_open_closed_axis_brainstorm_ko.md) | 비트코인 개방/포획(017)·기준 작성권(022)·기계어 분절(020 §5.7)을 묶는 상위 프레임. brainstorm 단계, 선택 씨앗만 bible 승격. 현실 기술정책은 추상 역학으로만, 실명 finger-pointing 제외 |
 
 ## 한 줄 요약
 
