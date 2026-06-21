@@ -27,7 +27,7 @@ SSOT 정리 원칙에 따라 기존 조립 원고 파일은 삭제했다.
 `20_drafts/028`과 `20_drafts/019`-`024`이며, 새 1부 정본은
 [012 outline](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
 [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과해
-[029 active reboot manuscript](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서
+[029 active reboot manuscript](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)에서
 작성 중이다.
 
 ## Boundary
@@ -45,18 +45,18 @@ not searched
 
 | # | Episode | 한국어 prototype source | 영어 counterpart | 필드 마크 |
 | --- | --- | --- | --- | --- |
-| 0 | 프롤로그: The Broken Crown 사건 | [028](../20_drafts/1부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md) | (예정) | (세계관 여는 사건) |
-| 1 | Exhibit S-0 | [019](../20_drafts/1부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](../20_drafts/1부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md) | `RECOVERABLE / NOT CLAIMABLE` |
-| 2 | The Dead Exchange | [020](../20_drafts/1부/_versions/1부_prototype/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](../20_drafts/1부/_versions/1부_prototype/013_the_dead_exchange_revised_v2_english_draft.md) | `ACCESS != AUTHORITY` |
-| 3 | The Last Hodler | [021](../20_drafts/1부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](../20_drafts/1부/_versions/1부_prototype/014_the_last_hodler_revised_v2_english_draft.md) | `NO CONSENT BY ANALOGY` |
-| 4 | Identity Flood | [022](../20_drafts/1부/_versions/1부_prototype/022_identity_flood_revised_v2_korean_adaptation.md) | [015](../20_drafts/1부/_versions/1부_prototype/015_identity_flood_revised_v2_english_draft.md) | `PLURALITY IS NOT CONSENT` |
-| 5 | Hawking Court | [023](../20_drafts/1부/_versions/1부_prototype/023_hawking_court_revised_v2_korean_adaptation.md) | [016](../20_drafts/1부/_versions/1부_prototype/016_hawking_court_revised_v2_english_draft.md) | `PHYSICS IS NOT JURISDICTION` |
-| 6 | The Broken Crown | [024](../20_drafts/1부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](../20_drafts/1부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md) | `who may author loss` (arc-two hook) |
+| 0 | 프롤로그: The Broken Crown 사건 | [028](../20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md) | (예정) | (세계관 여는 사건) |
+| 1 | Exhibit S-0 | [019](../20_drafts/2부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](../20_drafts/2부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md) | `RECOVERABLE / NOT CLAIMABLE` |
+| 2 | The Dead Exchange | [020](../20_drafts/2부/_versions/1부_prototype/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](../20_drafts/2부/_versions/1부_prototype/013_the_dead_exchange_revised_v2_english_draft.md) | `ACCESS != AUTHORITY` |
+| 3 | The Last Hodler | [021](../20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](../20_drafts/2부/_versions/1부_prototype/014_the_last_hodler_revised_v2_english_draft.md) | `NO CONSENT BY ANALOGY` |
+| 4 | Identity Flood | [022](../20_drafts/2부/_versions/1부_prototype/022_identity_flood_revised_v2_korean_adaptation.md) | [015](../20_drafts/2부/_versions/1부_prototype/015_identity_flood_revised_v2_english_draft.md) | `PLURALITY IS NOT CONSENT` |
+| 5 | Hawking Court | [023](../20_drafts/2부/_versions/1부_prototype/023_hawking_court_revised_v2_korean_adaptation.md) | [016](../20_drafts/2부/_versions/1부_prototype/016_hawking_court_revised_v2_english_draft.md) | `PHYSICS IS NOT JURISDICTION` |
+| 6 | The Broken Crown | [024](../20_drafts/2부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](../20_drafts/2부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md) | `who may author loss` (arc-two hook) |
 
 ## 판본 변천사 (changelog)
 
 판본별 변천사·회고·피드백·리텐션 결과는
-[20_drafts/_versions 변천사 로그](../20_drafts/1부/_versions/README.md)가 보유한다.
+[20_drafts/_versions 변천사 로그](../20_drafts/2부/_versions/README.md)가 보유한다.
 요약: v0 조립 → v1 de-jargon → v2 현장감 → v3 구조(cold-open) → v4 격언·의식 →
 v5 구조 재구성(극화 프롤로그 선공개·유니터리 다리·검증 출처) →
 outline-first reboot decision. 현재 active release는 없다.
@@ -66,7 +66,7 @@ outline-first reboot decision. 현재 active release는 없다.
 표면 질문은 "완전 복원이 가능해도 죽을 권리·잊힐 권리는 남는가"이고, 시리즈
 반전축은 "진실의 단일 출처(SSOT)는 존재하는가 — 정하는 것은 지성인가 합의인가"다.
 1부는 필드 마크 사슬로 그 질문을 한 겹씩 쌓아 `who may author loss`로 닫고
-[2부](../20_drafts/2부/025_who_may_author_loss_korean_primary.md)로 넘긴다.
+[3부](../20_drafts/3부/025_who_may_author_loss_korean_primary.md)로 넘긴다.
 
 ## Pre-Reboot 통과 게이트
 

@@ -108,7 +108,7 @@ roadmap
 | active production entry | SAGA README와 workroom production board |
 | active prose source | `20_drafts/` |
 | release status | active release 없음. release gate 이후 `40_release/` 사용 |
-| old prototype | `90_archive/` 또는 `20_drafts/1부/_versions/`에서 보존 |
+| old prototype | `90_archive/` 또는 `20_drafts/2부/_versions/`에서 보존 |
 | README 역할 | navigation과 shelf contract. 실행 권위 아님 |
 
 ## 건드리면 위험한 것

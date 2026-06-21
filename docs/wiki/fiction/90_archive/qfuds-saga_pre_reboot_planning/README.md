@@ -28,6 +28,6 @@ last_updated: 2026-06-21
 
 ## 왜 여기인가
 
-읽기 가능한 직전 prototype 산문은 `20_drafts/1부/_versions/`(계보 보존), 죽은 1세대
+읽기 가능한 직전 prototype 산문은 `20_drafts/2부/_versions/`(계보 보존), 죽은 1세대
 산문은 `90_archive/qfuds-saga_1부_legacy/`. 이 폴더는 그와 별개로 **reboot 이전의
 기획·퇴고 문서**를 모은다. 내부 상호 링크는 보관 시점 동결 상태다.

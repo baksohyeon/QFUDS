@@ -1,42 +1,45 @@
 ---
 doc_id: qfuds_saga_drafts_book2_index_ko
-title: QFUDS SAGA 2부 원고 지도
+title: QFUDS SAGA 2부 Mara 원고 지도
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_drafts_index_ko
-next_gate: preserve 025-027 as canonical 3부 author-loss assets until physical cascade
+next_gate: 029 Prologue~Ch6 초고 완성 + cross-arc 정합. release-facing revision 게이트
 last_updated: 2026-06-21
 ---
 
-# QFUDS SAGA 2부 원고 지도
+# QFUDS SAGA 2부 Mara 원고 지도
 
-universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **2부**. canon 상태:
+universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **2부 Mara**. canon 상태:
 초안(설정 승격은 `00_bible`). fiction/provenance only, QFUDS 연구 증거 아님.
 
-## Cascade Drift Banner
+## Cascade 완료 (2026-06-21)
 
-물리 경로는 아직 `20_drafts/2부/`이지만, [011 §10](../../10_story_design/011_saga_arc_map_multiarc_ko.md)
-기준 이 폴더의 025-027은 신규 구조의 **3부 author-loss 자산**이다. `arc_two`
-doc_id와 파일명은 stable ID이므로 지금 바꾸지 않는다.
-
-origin B1~B7 초안이 안정화될 때까지 025-027은 이 위치에 보존한다. physical
-cascade 때 폴더 라벨, 본문 서술 라벨, 링크를 일괄 갱신한다.
+번호 physical cascade를 실행했다(011 §10). 기존 Mara reboot(029)와 그 prototype
+계보(`_versions/`)가 legacy `1부/`에서 이 **2부** 폴더로 이동했다. 1부 origin(030)이
+세운 선례 `복원 가능한 것은 청구 가능하다`가 029 Mara 청구의 upstream 근거다
+(030 B7 → 029 cross-arc handoff).
 
 ## 현행
 
 | 파일 | 역할 | 상태 |
 | --- | --- | --- |
-| [025 who may author loss](025_who_may_author_loss_korean_primary.md) | canonical 3부 author-loss ep1 한국어 primary 초안 | 보존 |
-| [027 who may refuse](027_who_may_refuse_korean_primary.md) | canonical 3부 author-loss ep2 한국어 primary 초안 | 보존 |
-| [026 counterpart](026_who_may_author_loss_english_counterpart.md) | canonical 3부 author-loss ep1 영어 counterpart | 보존 |
+| [029 Mara reboot](029_first_arc_book1_reboot_korean_primary.md) | **2부 Mara** 한국어 primary 원고 (Prologue~Ch6) | 초고 완성 + cross-arc 연속성 노트 |
 
-2부 구조·맵은 [10_story_design/010 arc-two episode map](../../10_story_design/010_arc_two_episode_map_ko.md)·
-[007 arc-two plan](../../10_story_design/007_arc_two_korean_primary_plan_ko.md), GSD는
-[00_workroom/004 arc-two brief](../../00_workroom/004_arc_two_gsd_phase_brief_ko.md).
-1부 관통선 `who may author loss`를 2부 본편으로 확장한다.
+2부 Mara 구조 SSOT는 [012 outline](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·
+[013 scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md). 1부 origin은
+[../1부/030](../1부/030_origin_arc_sael_korean_primary.md), 3부 author-loss는
+[../3부/](../3부/README.md)에 있다.
+
+## 판본·prototype
+
+Mara 직전 세대(읽기 가능)와 과거 스냅샷은 [_versions/](_versions/README.md)에 있다:
+prototype(프롤로그 028 + 한국어 019-024 + 영어 v2 012-017), v3 스냅샷. 029의
+프롤로그가 028을 흡수했다. 죽은 1세대(003-011·018·001·002)는 시리즈 밖
+[90_archive/qfuds-saga_1부_legacy/](../../../../../../90_archive/qfuds-saga_1부_legacy/README.md).
 
 ## 상속 규칙 / 로컬 오버라이드
 

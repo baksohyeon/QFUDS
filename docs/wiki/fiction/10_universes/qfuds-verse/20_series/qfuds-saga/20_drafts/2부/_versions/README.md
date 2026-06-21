@@ -1,6 +1,6 @@
 ---
 doc_id: qfuds_saga_drafts_versions_index_ko
-title: QFUDS SAGA 1부 판본 변천사·회고 로그
+title: QFUDS SAGA 2부 Mara 판본 변천사·회고 로그
 doc_type: index
 stage: reference
 status: draft
@@ -11,9 +11,10 @@ next_gate: append a row + snapshot each time a pass changes the manuscript
 last_updated: 2026-06-21
 ---
 
-# QFUDS SAGA 1부 판본 변천사·회고 로그
+# QFUDS SAGA 2부 Mara 판본 변천사·회고 로그
 
-이 폴더는 1부의 판본 스냅샷과 그 변천사를 보관한다. 현행 정본은 상위 `1부/029`이며,
+이 폴더는 2부 Mara(029)의 판본 스냅샷과 그 변천사를 보관한다(cascade 전 "1부"
+라벨이었던 first-arc 계보). 현행 정본은 상위 `2부/029`이며,
 여기엔 직전 prototype(`1부_prototype/`: 프롤로그 028 + 한국어 019-024 + 영어 v2
 012-017), v3 스냅샷(`1부_v3_pre_R4/`), 그리고 각 판본의 회고·피드백·개선을 적는다.
 죽은 1세대(003-011·018·001·002)는 시리즈 밖 `90_archive/qfuds-saga_1부_legacy/`로

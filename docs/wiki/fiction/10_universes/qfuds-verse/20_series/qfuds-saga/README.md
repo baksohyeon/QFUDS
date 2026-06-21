@@ -67,8 +67,9 @@ release candidate -> 40_release
 | Shelf | 역할 |
 | --- | --- |
 | [20_drafts](20_drafts/README.md) | active prose drafts, Korean-primary manuscripts, counterparts, prototypes |
-| [20_drafts/1부](20_drafts/1부/README.md) | 1부 draft map. origin arc 번호 정리 전까지 별도 pass에서만 수정 |
-| [20_drafts/2부](20_drafts/2부/README.md) | 기존 025-027 자산. 번호 cascade 전까지 보존 |
+| [20_drafts/1부](20_drafts/1부/README.md) | 1부 origin (030 사엘). cascade 완료 |
+| [20_drafts/2부](20_drafts/2부/README.md) | 2부 Mara (029). cascade 완료 |
+| [20_drafts/3부](20_drafts/3부/README.md) | 3부 author-loss (025-027). cascade 완료 |
 | [30_revisions](30_revisions/README.md) | release-facing revision plans and audits |
 | [40_release](40_release/README.md) | release manifest/export shelf. active release는 gate 통과 후 생성 |
 

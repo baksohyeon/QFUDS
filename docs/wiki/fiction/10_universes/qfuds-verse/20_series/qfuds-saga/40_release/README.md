@@ -21,7 +21,7 @@ last_updated: 2026-06-21
 [030 active origin manuscript](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)에서
 작성 중이다. 030 전체 한국어 primary, 영어 독립 각색판, shared continuity check,
 physical cascade, release-facing revision gate, 사용자 pre-release review/확인 전까지
-release build를 만들지 않는다. [029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)는
+release build를 만들지 않는다. [029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)는
 011 §10 기준 canonical 2부 Mara 자산으로 보존한다.
 
 현재 보존 문서:

@@ -19,15 +19,15 @@ last_updated: 2026-06-21
 
 # QFUDS SAGA 1부 Book 1 Reboot Korean Primary
 
-## Cascade Drift Banner
+## Cascade Banner
 
-물리 경로는 아직 `20_drafts/1부/`이지만, [011 §10](../../10_story_design/011_saga_arc_map_multiarc_ko.md)
-기준 이 원고는 신규 구조의 **2부 Mara 자산**이다. 신규 **1부 origin**은
-[030 origin Sael draft](030_origin_arc_sael_korean_primary.md)가 담당한다.
+번호 physical cascade 완료(011 §10, 2026-06-21). 이 원고는 신규 구조의 **2부 Mara
+자산**이며, 물리 경로도 이제 `20_drafts/2부/`다. 신규 **1부 origin**은
+[030 origin Sael draft](../1부/030_origin_arc_sael_korean_primary.md)가 담당한다.
 
-이 파일은 physical cascade 전까지 현 위치에 보존한다. Ch6는 029를 2부 Mara 완결
-자산으로 닫기 위해 작성한다. 029를 실제 2부 폴더로 재배치할지, 일부를 split/archive할지는
-origin B1~B7 초안 안정화 뒤 별도 cascade pass에서 결정한다.
+이 파일은 2부 Mara 완결 자산이다. Ch6가 029를 닫고, 1부 origin(030)의 선례
+`복원 가능한 것은 청구 가능하다`가 이 원고 Mara 청구의 upstream 근거다(cross-arc
+handoff는 Continuity Notes에 기록). 파일명·doc_id는 stable ID라 유지한다.
 
 ## Boundary
 
@@ -3226,7 +3226,7 @@ PENDING / NOT VOID
   문법이 비용·신탁·대행 시장으로 포획될 위험을 남긴다. 이는 기존 author-loss 자산
   025-027이 신규 구조의 3부로 밀리는 이유와 연결된다.
 - Cross-arc handoff(1부 origin → 2부 Mara, 2026-06-21): 신규 1부 origin
-  [030](030_origin_arc_sael_korean_primary.md) B1~B7 초고가 완성되어, 사엘의 B4
+  [030](../1부/030_origin_arc_sael_korean_primary.md) B1~B7 초고가 완성되어, 사엘의 B4
   오비준이 세운 선례 문장 `복원 가능한 것은 청구 가능하다`가 이 029 Mara 청구의
   upstream 근거로 정합된다. 030 B7에서 첫 사람-복원 청구의 근거 칸에 그 문장이 그대로
   인용되고 대상으로 `마라 베이르`가 호명된다. 029의 `Ledger state unaltered /

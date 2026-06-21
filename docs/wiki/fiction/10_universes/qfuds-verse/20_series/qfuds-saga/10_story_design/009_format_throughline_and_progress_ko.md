@@ -62,9 +62,9 @@ workflow state `hit_not_cached`.)
 ## 현재 진행 상태 (2026-06-21 기준)
 
 - **outline-first reboot로 전환됨.** 기존 6편 prototype(한국어 019-024 + 영어
-  012-017 + 프롤로그 028)은 in-place 퇴고를 중단하고 `20_drafts/1부/_versions/`로
+  012-017 + 프롤로그 028)은 in-place 퇴고를 중단하고 `20_drafts/2부/_versions/`로
   보존. 죽은 1세대는 `90_archive/qfuds-saga_1부_legacy/`.
-- **1부 active 원고 = [029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)**:
+- **1부 active 원고 = [029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)**:
   프롤로그 + Ch1~5 작성됨(① Exhibit S-0 ② Dead Exchange ③ Last Hodler ④ Identity
   Flood ⑤ Hawking Court), 다음은 Ch6 final human hearing. 구조 SSOT는
   [012 아웃라인](012_first_arc_book1_outline_reboot_ko.md)·[013 scene cards](013_first_arc_scene_cards_ko.md).

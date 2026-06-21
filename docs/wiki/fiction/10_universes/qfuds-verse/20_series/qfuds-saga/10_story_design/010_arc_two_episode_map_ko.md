@@ -44,8 +44,8 @@ last_updated: 2026-06-21
 
 | ep | 파일 | 질문 | 핵심 turn / cost | field mark | 상태 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [025](../20_drafts/2부/025_who_may_author_loss_korean_primary.md) | 누가 상실을 쓸 수 있는가 | 보호가 접수창구·상품이 됨; 복원 불가자는 빈칸도 없음 | `UNRECOVERED IS NOT UNREAL` | 완료(A) |
-| 2 | [027](../20_drafts/2부/027_who_may_refuse_korean_primary.md) | 누가 거부할 수 있는가 | 거부 등록부가 자격 문턱이 됨; Liora의 마크가 청구 손잡이로 변질 | `REFUSAL IS NOT A PRIVILEGE` | 완료(A) |
+| 1 | [025](../20_drafts/3부/025_who_may_author_loss_korean_primary.md) | 누가 상실을 쓸 수 있는가 | 보호가 접수창구·상품이 됨; 복원 불가자는 빈칸도 없음 | `UNRECOVERED IS NOT UNREAL` | 완료(A) |
+| 2 | [027](../20_drafts/3부/027_who_may_refuse_korean_primary.md) | 누가 거부할 수 있는가 | 거부 등록부가 자격 문턱이 됨; Liora의 마크가 청구 손잡이로 변질 | `REFUSAL IS NOT A PRIVILEGE` | 완료(A) |
 | 3 | `028`(예정) | 누가 기억될 수 있는가 | 식별 불가가 채권의 먹이가 됨; Sera 사건이 선례 다툼으로; 기록이 담보가 됨 | `A RECORD IS NOT A VERDICT`(제안) | proposed |
 | 4 | 예정 | 누가 대신 말할 수 있는가 | 대리권 정치; Aletheia 분열(Ione) 폭발; 죽은 자·불복원자를 누가 대표하나 | `A PROXY IS NOT A WILL`(제안) | proposed |
 | 5 | 예정 | 누가 선례가 될 수 있는가 | Mara 복귀("나를 선례로 만들지 말라") vs 선례가 필요한 제도; Liora가 Mara 보호와 Sera 보호 사이에서 선택 강요 | 제안 | proposed |

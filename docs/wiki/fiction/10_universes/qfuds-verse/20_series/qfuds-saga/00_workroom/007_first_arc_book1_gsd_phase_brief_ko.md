@@ -36,7 +36,7 @@ origin 원고는 [030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)�
 ## Objective
 
 1부 Book 1을 단편집이 아니라 장편 SAGA의 첫 권으로 완성한다. active manuscript는
-[029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md) 하나다. 012 outline과
+[029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md) 하나다. 012 outline과
 013 scene cards를 기준으로 한국어 primary draft를 먼저 완성하고, 내부 gate를 통과한
 뒤 영어 Anglophone independent adaptation, shared continuity check, 사용자
 pre-release 확인, polish, `40_release/001_` 승격 순서로 진행한다.
@@ -255,7 +255,7 @@ be lost.
 - [012 Book 1 outline](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)
 - [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)
 - [030 active origin manuscript](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)
-- [029 Mara reboot asset](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md) (canonical 2부 after 011 §10)
+- [029 Mara reboot asset](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md) (canonical 2부 after 011 §10)
 - [Reader accessibility and real-world anchors](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
 - [Last Archive origin and reversal causality](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)
 - [Bitcoin stature / ideology / deep-time](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md)

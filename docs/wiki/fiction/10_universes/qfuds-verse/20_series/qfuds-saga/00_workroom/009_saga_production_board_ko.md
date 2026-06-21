@@ -40,15 +40,15 @@ install external tools: no
 
 | Field | Value |
 | --- | --- |
-| Active unit | first-arc 완결 sprint on `complete-first-arc-novel`: 030 origin(1부) B1~B7 초고 완성; 029(2부 Mara)는 closing pass(continuity/AI-tell/reader-sim) 대상 |
-| Phase | `draft` -> `review` |
+| Active unit | first-arc 완결 sprint on `main`: 030 origin(1부) B1~B7 완성+윤문, 029(2부 Mara) 완성+cross-arc, 번호 cascade 완료 |
+| Phase | `draft` -> `review` (release 게이트 잔여) |
 | Owner mode | `writer` + `continuity` + `reader-sim` + `polish` |
-| Status | `in_progress`; 030 B1~B7 drafted(2026-06-21), 029 Prologue~Ch6 drafted; 030↔029 continuity·harness·AI-tell pass 진행 중 |
-| Failure reason | 번호 cascade 미실행(물리 경로 legacy `1부/`), release-facing reader-retention 게이트 미실행 |
-| Next action | 030↔029 handoff continuity 확인 → 029 harness/AI-tell 스캔 → validation(validate_docs/research_consistency/fiction_gate) → commit + origin push |
+| Status | `in_progress`; 030 B1~B7 reader-retention(9 persona)+ai-tell-detector 패스 반영 윤문 완료, 029 cross-arc 정합, physical cascade(1부/2부/3부) 완료 |
+| Failure reason | 없음(초고 완결). 잔여=release-facing reader-retention 정식 게이트(40_release 승격), 영어 각색판 |
+| Next action | bulk commit to `main` + origin push. 이후 release 승격 시 9 persona 정식 retention 게이트 |
 | Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011`, `10_story_design/013` |
-| Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md`(B1~B7), `20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md`(closing pass) |
-| Approval needed | no for closing passes on existing drafts; yes before physical cascade / release promotion |
+| Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md`(B1~B7+윤문), `20_drafts/2부/029_...md`(cross-arc), `20_drafts/{1,2,3}부/` cascade |
+| Approval needed | no(초고/cascade); yes before release promotion |
 
 ## Unit Queue
 
@@ -69,21 +69,21 @@ install external tools: no
 | External-system overfit | `.agent`, workroom | medium | science_auditor / critic | keep external repos inspiration-only; no install or prompt/code copy |
 | Humanize misuse | prose polish | medium | style_editor | polish only after structure/continuity pass; no AI-detector evasion framing |
 
-## Cascade Drift Ledger
+## Cascade Ledger (완료)
 
-번호 SSOT는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)이다. 현재
-`20_drafts/`의 물리 폴더명은 legacy 상태로 남겨 두고, origin 초안이 안정화된 뒤
-한 번에 physical cascade를 실행한다.
+번호 SSOT는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)이다. 번호
+physical cascade를 2026-06-21에 실행 완료했다. 물리 폴더는 canonical 부 번호와 일치한다.
 
-| Asset | Current physical path | Canonical role after 011 | Current action |
+| Asset | Physical path (cascade 후) | Canonical role (011) | Status |
 | --- | --- | --- | --- |
-| 030 origin Sael draft | `20_drafts/1부/030_origin_arc_sael_korean_primary.md` | 신규 1부 origin | keep in current folder until cascade |
-| 029 Mara reboot | `20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md` | 2부 Mara asset | freeze/relabel later; do not continue Ch6 now |
-| 025-027 author-loss drafts | `20_drafts/2부/` | 3부 author-loss assets | preserve/relabel later |
-| draft READMEs | `20_drafts/README.md`, `1부/README.md`, `2부/README.md` | temporary navigation over legacy paths | banner now, cascade later |
+| 030 origin Sael draft | `20_drafts/1부/030_origin_arc_sael_korean_primary.md` | 1부 origin | done (제자리) |
+| 029 Mara reboot | `20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md` | 2부 Mara | done (1부→2부 이동) |
+| 025-027 author-loss drafts | `20_drafts/3부/` | 3부 author-loss | done (2부→3부 이동) |
+| Mara prototypes | `20_drafts/2부/_versions/` | 2부 Mara 계보 | done (1부→2부 이동) |
+| draft READMEs | `20_drafts/README.md`, `1부/`, `2부/`(신설), `3부/` | 부 번호 일치 네비게이션 | done (doc_id book1/2/3 정합) |
 
-Deletion policy: no delete or archive movement before physical cascade, link/gate verification,
-and at least two stable commits after the new paths are accepted.
+stable ID 보존: 원고 파일명(029·030·025-027)과 `arc_two` doc_id·파일명(007·010·004)은
+바꾸지 않았다. 폴더 위치와 README·배너 서술 라벨만 갱신했다.
 
 ## Execution Loop
 
@@ -111,3 +111,6 @@ brief.
 | 2026-06-21 | 029 Ch6 writer/chronicler pass | final human hearing drafted; `who may author loss` field mark and protected pending hook added | run prose/continuity review and validation before commit |
 | 2026-06-21 | 030 origin B3~B7 writer pass (`complete-first-arc-novel`) | 역연산→경첩→큐/경보→구조→사다리 drafted; 닫는 mark `THE LOCK WAS THE CROWN`; Mara handoff에서 029로 연결 | 030↔029 continuity + 029 AI-tell/harness scan + validation before commit |
 | 2026-06-21 | 030 B3~B7 harness self-check | em dash 0, 박- embed-verb 0, Karvath 미등장/Vera 그림자 1회/Last Archive 미노출 노출예산 준수 | 029 동일 스캔 |
+| 2026-06-21 | 030 reader-retention 9 persona 게이트 (중2/고2/일반/웹소설속독/순문학/문외한/안티AI/Chiang/SF) | 전원 완독·다음 편 진행=예; 공통 약점=B5b·B6 늘어짐, B3 인과 누락, AI-tell 경구 클러스터 | 윤문 패스 → 재검증 |
+| 2026-06-21 | 030 B3~B7 deep AI-tell (ai-tell-detector ×2) + 윤문 16건 | 1차 S1 4건/S2 7건 → 윤문 → 재검증 "새 S1 없음", 안티AI "사람이 쓴 것처럼=예", 순문학 전 지적 개선 | release 시 정식 retention 게이트 |
+| 2026-06-21 | 번호 physical cascade (011 §10) | 029 1부→2부, 025-027 2부→3부, _versions 동반 이동; 백링크·README(book1/2/3)·배너 일괄 갱신; validate_docs PASS | stable ID(파일명·arc_two doc_id) 보존 확인 |
