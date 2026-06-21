@@ -103,6 +103,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. QFUDS SAGA 1부 [029 active reboot manuscript](../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서 Chapter 1 `Exhibit S-0`를 이어 쓴다.
+1. QFUDS SAGA 1부 [029 active reboot manuscript](../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서 [007 GSD phase brief](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md)의 hard floor를 지키며 Chapter 1 `Exhibit S-0`를 이어 쓴다.
 2. [013 scene cards](../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)는 first draft entry 기준으로 통과했지만 release gate는 아니다.
 3. `40_release/001_` active release는 029 전체 한국어 primary, 영어 독립 각색판, shared continuity check, release-facing revision gate 이후에만 만든다.

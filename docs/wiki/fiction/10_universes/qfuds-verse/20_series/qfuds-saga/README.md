@@ -36,7 +36,7 @@ last_updated: 2026-06-21
 
 | 상태 | 파일 | 설명 |
 | --- | --- | --- |
-| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. Prologue drafted, Chapter 1-6 pending |
+| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. Prologue drafted past GSD hard floor, Chapter 1-6 pending |
 | pre-reboot prototype | [028](20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) + [019](20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | provenance/readable prototype |
 
 | 순서 | 편 | 한국어 prototype |
@@ -48,6 +48,7 @@ last_updated: 2026-06-21
 - **드래프트가 왜 이렇게 많은지** + 현행/레거시 구분: [20_drafts 지도](20_drafts/README.md).
 - **세계관 납득 사슬·검증 출처**: [bible 009 §2.5](00_bible/009_reader_accessibility_and_real_world_anchors_ko.md).
 - **내 아이디어가 어디 갔나**: [작가 아이디어 추적 원장](00_workroom/006_creative_inputs_traceability_ko.md).
+- **GSD 집필/승격 게이트**: [1부 Book 1 GSD Phase Brief](00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md).
 - **판본 변천사·회고**: [_versions 로그](20_drafts/_versions/README.md).
 
 이 폴더는 QFUDS에서 파생된 별도 창작 트랙이자 `qfuds-verse`의 canonical
@@ -373,6 +374,10 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 53. [QFUDS SAGA 1부 Book 1 Reboot Korean Primary](20_drafts/029_first_arc_book1_reboot_korean_primary.md)
     - 012 outline과 013 scene-card gate를 통과한 active Korean-primary manuscript
       SSOT. 기존 028+019-024를 문장 단위로 고치지 않고 Prologue부터 백지 재작성한다.
+54. [QFUDS SAGA 1부 Book 1 GSD Phase Brief](00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md)
+    - 029를 장편 SAGA 원고로 완성하기 위한 GSD brief. 프롤로그/각 장 최소 분량,
+      한국어 primary 우선, 영어 독립 각색판, shared continuity, 사용자 pre-release
+      확인 후 `40_release/001_` 승격 조건을 고정한다.
 
 ## First Arc Provenance Draft Set
 

@@ -32,6 +32,17 @@ fiction/provenance only. QFUDS 연구 증거, Bitcoin 투자 판단, 법률·암
 - Vera/VERA와 Last Archive의 핵심 정체는 Book 1에서 완전 공개하지 않는다.
 - Bitcoin은 고대 유물이 아니라 deep-time 이념전쟁의 씨앗이다. Satoshi mystery,
   Genesis block, ECDSA, SHA-256, signature/key 개념을 정확히 장면 안에 둔다.
+- 현대 독자가 아는 시스템에서 출발한다. 민주주의/법원, 미중 AI·chip 경쟁,
+  이란/호르무즈 에너지 병목, 테크 플랫폼/데이터센터 인프라, Bitcoin 제도권 편입,
+  자본주의/글로벌 공급망을 쉬운 장면 감각으로 깔기 전에는 추상 철학으로 넘어가지
+  않는다.
+- AI는 자본주의적 인프라 독점, 기술 엘리트 네트워크, 민주주의/자유 긴장, 환경
+  비용, 노동 재분류, 시민 사유의 외주화로 장면 압력을 만든다. "똑똑한 기계"가
+  아니라 누가 chip, cloud, 전력, 냉각수, 검증 seal, 책임 노동을 통제하는지로
+  보여 준다.
+- AGI/LLM 인격 논쟁은 능력·자율성, 의식·도덕적 지위, 법적 인격·책임을 분리한다.
+  Last Archive가 사람처럼 말하거나 질문을 고쳐도 곧장 사람이라는 뜻은 아니다.
+  그러나 도구라고 부르는 것만으로 책임과 고통 가능성 문제가 사라지지도 않는다.
 - 물리 용어는 비유로 숨기지 않는다. Hawking radiation, Page curve, island,
   unitarity, entropy, QFUDS forbidden lattice를 정확한 용어로 노출하되 fiction
   premise 경계를 유지한다.
@@ -78,7 +89,7 @@ institutions to build original character appeal.
 
 | Scene | POV | Want | Obstacle | Turn | Cost | Technical exposure | Information revealed | Hook |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| P0.1 Aletheia 검증 데스크 | Sael | Genesis-derived key 의뢰를 평범한 진본 검증으로 처리한다 | signature route는 보이지만 ownership claim이 무너진다 | Convergence Engine이 답을 내지 않고 질문을 바꾼다 | Sael의 일상적 냉소가 깨진다 | Bitcoin, Genesis block, ECDSA, public/private key, SHA-256 | Aletheia Systems는 진본 검증 제국이다 | 한 방향 함수 다음의 금기는 죽음이다 |
+| P0.1 Aletheia 검증 데스크 | Sael | Genesis-derived custody route 의뢰를 평범한 진본 검증으로 처리한다 | 법적 상속 claim은 있지만 private key signing control은 닫혀 있다 | Convergence Engine이 답을 내지 않고 서명권 장벽을 거꾸로 연다 | Sael의 일상적 냉소가 깨진다 | 현대 온보딩 ladder, AI infrastructure regime, Bitcoin, Genesis block, ECDSA, public/private key, SHA-256, legal title vs technical control | Aletheia Systems는 AI/증거/법원/인프라 위기에서 자란 진본 검증 제국이다 | 한 방향 함수 다음의 금기는 죽음이다 |
 | P0.2 Karvath/Arc 기록실 | Sael | anomaly를 조용히 상부로 넘긴다 | Karvath lineage는 이 사건을 단순 오류가 아니라 제국의 기원으로 분류한다 | "열쇠 복원"이 "사람 복원"의 선례가 된다 | Sael은 자기가 신화 첫 문장을 적고 있음을 안다 | the Arc, Convergence Engine, verification lineage | Adrian Karvath는 배경 장식이 아니라 원죄다 | Aletheia가 죽음을 다음 query class로 본다 |
 | P0.3 죽은 아버지 생각 | Sael | 업무를 끝내고 개인의 상실로 돌아간다 | 시스템은 개인적 상실을 기술 문제로 번역한다 | Sael이 처음으로 "되돌릴 수 없음"의 붕괴를 두려워한다 | 독자는 기술 사건을 가족 사건으로 받아들인다 | irreversibility, recoverability | 복원 문명은 Bitcoin에서 출발해 죽음으로 간다 | Mara Veyr 사건으로 점프 |
 
@@ -125,7 +136,7 @@ institutions to build original character appeal.
 | 5.1 Hawking Court 개정 | Liora | 물리 증언의 범위를 좁힌다 | 법원은 science에 권리 판단까지 떠넘긴다 | 질문이 "가능한가"에서 "누가 허락했는가"로 갈라진다 | Liora는 지식의 권위가 책임을 대신할 수 없음을 안다 | Hawking Court, scope boundary | physics hearing은 판결이 아니라 실패의 장이다 | expert testimony |
 | 5.2 정보 보존 증언 | H-1 expert | recoverability의 모델을 설명한다 | 설명 가능한 것과 허가된 것은 다르다 | unitarity는 Mara를 설명하지만 Mara를 소유하지 않는다 | 과학의 승리가 법의 패배가 된다 | Hawking radiation, Page curve, island, unitarity | 정보 보존은 관할권이 아니다 | QFUDS forbidden lattice |
 | 5.3 금지된 QFUDS 격자 | Liora | speculative map을 evidence로 오용하지 않게 막는다 | 각 세력은 금지 이론을 자기 편 판결로 끌어오려 한다 | QFUDS는 작중 해석 격자로 남고 증거가 되지 않는다 | 독자는 세계의 미스터리를 얻지만 연구 주장은 얻지 않는다 | QFUDS forbidden lattice, entropy as cost/theme | 작중 물리는 완전한 법이 아니다 | Last Archive fault beat |
-| 5.4 Archive의 인간적인 오류 | Ione | Last Archive를 신탁처럼 쓰지 않게 한다 | Archive가 질문을 고치며 인간적인 흔적을 보인다 | Vera/VERA의 그림자가 생기지만 정체는 공개되지 않는다 | Aletheia의 신앙이 흔들린다 | query correction, SSOT absence | Last Archive는 전지적 AGI가 아닐 수 있다 | final human hearing |
+| 5.4 Archive의 인간적인 오류 | Ione | Last Archive를 신탁처럼 쓰지 않게 한다 | Archive가 질문을 고치며 인간적인 흔적을 보인다 | Vera/VERA의 그림자가 생기지만 정체는 공개되지 않는다 | Aletheia의 신앙이 흔들린다 | query correction, SSOT absence, AGI autonomy, model welfare, legal personhood split | Last Archive는 전지적 AGI가 아닐 수 있고, 도구/증인/피해자 경계가 흔들린다 | final human hearing |
 
 ### Chapter 6: The Broken Crown
 
@@ -147,6 +158,12 @@ prose draft로 넘어가기 전 아래를 모두 통과해야 한다.
 - Vera/VERA는 직접 정체 공개 없이 fault beat로만 남는다.
 - Bitcoin은 Chapter 3에만 몰리지 않고 prologue, Chapter 2, Chapter 3에 기능별로
   분산되어 있다.
+- 첫 hard concept 노출 전마다 현대 독자용 앵커가 붙어 있다. "왜 문제인가"를
+  독자가 다음 문단까지 기다리지 않아도 된다.
+- AI 관련 장면은 최소 하나의 물질적·제도적 비용을 드러낸다: 전력, 물, 냉각,
+  chip/export control, cloud lock-in, 검증 노동, 시민 판단 외주화, 반독점 위험.
+- AGI/LLM personhood는 Chapter 5에서 명시적으로 삼분한다: capability/autonomy,
+  consciousness or moral status, legal personhood/accountability.
 - Hawking radiation, Page curve, island, unitarity, QFUDS는 Chapter 5에서 직접
   다루되 research evidence로 쓰지 않는다.
 - Mara는 사건의 대상이 아니라 Book 1의 결정권자로 남는다.

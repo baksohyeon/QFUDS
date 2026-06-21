@@ -20,7 +20,8 @@ last_updated: 2026-06-21
 [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과해
 [029 active reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서
 작성 중이다. 029 전체 한국어 primary, 영어 독립 각색판, shared continuity check,
-release-facing revision gate 전까지 release build를 만들지 않는다.
+release-facing revision gate, 사용자 pre-release review/확인 전까지 release build를
+만들지 않는다.
 
 현재 보존 문서:
 
@@ -42,7 +43,7 @@ release-facing revision gate 전까지 release build를 만들지 않는다.
   생성 절차와 source hash를 함께 기록한 뒤 release 산출물로 만든다.
 
 새 산출물은 한국어 primary draft, 영어 독립 각색판, shared continuity check가
-모두 끝난 뒤에만 이 폴더에 둔다.
+모두 끝나고 사용자 확인을 받은 뒤에만 이 폴더에 둔다.
 
 ## Boundary
 

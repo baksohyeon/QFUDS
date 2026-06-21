@@ -30,10 +30,12 @@ prototype은 아래 "현행 읽기본"뿐이고, 나머지는 이전 세대·영
 
 | 상태 | 파일 | 현재 범위 |
 | --- | --- | --- |
-| active draft | [029 First Arc Book 1 Reboot Korean Primary](029_first_arc_book1_reboot_korean_primary.md) | Prologue drafted. Chapter 1-6 pending inside the same manuscript |
+| active draft | [029 First Arc Book 1 Reboot Korean Primary](029_first_arc_book1_reboot_korean_primary.md) | Prologue drafted past GSD hard floor. Chapter 1-6 pending inside the same manuscript |
 
 이 파일이 앞으로 1부 한국어 primary prose의 작업 원본이다. release는 아니다.
-기존 prototype을 문장 단위로 고치지 않는다.
+기존 prototype을 문장 단위로 고치지 않는다. 분량/검수 기준은
+[007 GSD phase brief](../00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md)가
+차단 조건으로 보유한다.
 
 ## 현행 prototype 읽기본 (스토리 순서)
 

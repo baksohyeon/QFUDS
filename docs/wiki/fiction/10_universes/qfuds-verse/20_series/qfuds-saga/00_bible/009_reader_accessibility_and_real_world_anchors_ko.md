@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
   - qfuds_saga_world_anchor_and_verisimilitude_ko
   - fiction_craft_and_political_theory_research_ko
-next_gate: weave grounded bitcoin foundation into 028 + first-arc R6 without metaphor replacing technical terms
+next_gate: apply grounded bitcoin inheritance/access distinction to 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -64,6 +64,142 @@ principle", Bennett reversible-computation notes (hit_not_cached).
 | https://www.federalregister.gov/documents/2025/03/11/2025-03992/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile | EO 14233 원문 확인용 | 보유량 실시간 확정·미래 매입 예측 | `hit_not_cached`, `not_extractable` |
 | https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023 | 2024-01-10 spot bitcoin ETP listing/trading 승인 | SEC가 Bitcoin을 보증했다는 주장 | `hit_not_cached`, `not_extractable` |
 | https://bitcoin.org/bitcoin.pdf | Bitcoin whitepaper의 P2P cash, signature, proof-of-work 기본 구조 | Bitcoin 투자 가치 주장 | `hit_not_cached`, `not_extractable` |
+| https://www.irs.gov/filing/digital-assets | 미국 세법상 digital assets는 property이며 Bitcoin 같은 cryptocurrency가 포함됨 | 상속·세무 조언, 관할별 결론, 투자 판단 | `hit_not_cached`, `not_extractable` |
+| https://help.coinbase.com/en/coinbase/managing-my-account/other/how-do-i-gain-access-to-a-deceased-family-members-coinbase-account | custodial crypto account에는 사망자 계정 claim 절차가 존재함 | Coinbase 절차를 모든 wallet/self-custody에 일반화 | `hit_not_cached`, `not_extractable` |
+| https://www.uniformlaws.org/committees/community-home?CommunityKey=f7237fc4-74c2-4728-81c6-b39a91ecdf22 | Revised Fiduciary Access to Digital Assets Act 계열의 법적 틀이 존재함 | 전 주/전 국가 동일 법률이라는 주장 | `hit_not_cached`, `not_extractable` |
+| https://calmatters.digitaldemocracy.org/bills/ca_202320240sb1458 | California SB 1458 summary는 decedent fiduciary의 digital assets 접근·관리 권한 구조를 설명함 | California law를 독자에게 법률 조언으로 제시 | `hit_not_cached`, `not_extractable` |
+| https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai | AI/data center는 전력망과 물리 인프라 문제이며, 2024 data center 전력 사용과 2030 증가 전망이 큼 | AI를 순수 소프트웨어 마법처럼 묘사 | `hit_not_cached`, `not_extractable` |
+| https://www.eia.gov/todayinenergy/detail.php?id=65504 | Strait of Hormuz는 세계 석유·LNG 흐름의 핵심 chokepoint이며 이란 인접 병목으로 현대 독자에게 에너지 지정학 앵커가 됨 | 특정 전쟁 전개·유가 예측 | `hit_not_cached`, `not_extractable` |
+| https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china | AI chip export control은 미국/중국 패권, 반도체 공급, 국가안보가 얽힌 현실 앵커임 | 특정 기업/국가 미래 승패 예측 | `hit_not_cached`, `not_extractable` |
+| https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/ | AI data center는 전력·송전·부지·허가·국가안보가 얽힌 거대 인프라임 | 특정 정책 홍보 또는 정파적 주장 | `hit_not_cached`, `not_extractable` |
+| https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai | data center 전력 수요 증가는 천연가스·석탄·원전·재생에너지 선택과 환경 문제로 이어짐 | AI를 탄소/물 문제의 단일 원인으로 단정 | `hit_not_cached`, `not_extractable` |
+| https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf | LBNL 2024 report는 미국 data center 전력 사용, GPU/AI hardware, cooling/water transparency 문제를 수치로 다룸 | 특정 지역 피해를 일반화하거나 과장 | `hit_not_cached`, `asset_available_not_downloaded` |
+| https://www.ilo.org/sites/default/files/2024-07/WP96_web.pdf | ILO generative AI/jobs report는 automation보다 augmentation이 넓고, clerical tasks 노출이 특히 높다는 노동 앵커 | 노동의 종말을 확정 사건으로 선언 | `asset_available_not_downloaded`, `not_extractable` |
+| https://www.imf.org/en/blogs/articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity | IMF는 AI가 글로벌 일자리·임금·불평등에 광범위한 영향을 줄 수 있다고 분석 | 특정 계층/국가의 운명을 예언 | `hit_not_cached`, `not_extractable` |
+| https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-inquiry-generative-ai-investments-partnerships | FTC는 cloud provider와 generative AI developer 투자·제휴가 경쟁에 미치는 영향을 조사 | 특정 회사의 위법행위 단정 | `hit_not_cached`, `not_extractable` |
+| https://www.gov.uk/government/publications/ai-foundation-models-update-paper | UK CMA는 foundation model 시장의 competition/consumer risk를 점검 | AI 독점이 이미 완성됐다는 단정 | `hit_not_cached`, `not_extractable` |
+| https://www.oecd.org/en/topics/sub-issues/disinformation-and-misinformation.html | mis/disinformation은 민주 제도 신뢰·표현의 자유·참여를 동시에 흔드는 정보공간 문제 | 특정 선거 결과 주장 | `hit_not_cached`, `not_extractable` |
+| https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf | GenAI 사용에서 AI에 대한 confidence가 높을수록 critical thinking 감소와 연관된다는 survey evidence | AI가 사람을 필연적으로 멍청하게 만든다는 결정론 | `asset_available_not_downloaded`, `not_extractable` |
+| https://www.mdpi.com/2075-4698/15/1/6 | AI tool use, cognitive offloading, critical thinking 사이의 부정적 상관관계와 교육 완충효과를 다룸 | 단일 연구로 인과 확정 | `hit_not_cached`, `not_extractable` |
+| https://www.cato-unbound.org/2009/04/13/peter-thiel/education-libertarian/ | Peter Thiel의 democracy/freedom 긴장, politics escape 기술관을 사상 앵커로만 사용 | 실존 인물 명예훼손·음모론·작중 villain 직접 모델화 | `hit_not_cached`, `not_extractable` |
+| https://conversationswithtyler.com/episodes/peter-thiel-political-theology/ | Thiel의 "crypto decentralizing / AI centralizing" 계열 발언을 AI 중앙집중론 앵커로 사용 | 특정 인물의 실제 행동을 작중 범죄와 연결 | `hit_not_cached`, `not_extractable` |
+| https://openai.com/charter/ | AGI를 "highly autonomous systems that outperform humans at most economically valuable work" 계열 능력 정의로 참조 | AGI 도래 시점 예측·특정 회사 홍보 | `hit_not_cached`, `not_extractable` |
+| https://arxiv.org/abs/2311.02462 | Levels of AGI는 performance, generality, autonomy를 나누어 AGI 진행을 분류하는 틀 | 단일 AGI 정의를 확정 진리로 처리 | `hit_not_cached`, `not_extractable` |
+| https://arxiv.org/abs/2308.08708 | AI consciousness 논쟁은 이론별 indicator properties로 평가할 수 있고, current systems conscious claim은 제한적임 | 현재 LLM 의식 단정 또는 부정 단정의 과잉 | `hit_not_cached`, `not_extractable` |
+| https://www.anthropic.com/research/exploring-model-welfare | frontier lab도 model welfare/moral consideration 가능성을 연구 주제로 삼기 시작함 | 특정 모델이 고통을 느낀다는 주장 | `hit_not_cached`, `not_extractable` |
+| https://www.anthropic.com/research/introspection | introspection-like findings는 consciousness 증거로 곧장 등치할 수 없다는 경계 | self-report를 인격 증거로 처리 | `hit_not_cached`, `not_extractable` |
+| https://www.copyright.gov/ai/ | 미국 Copyright Office는 AI-generated works, human authorship, training 관련 쟁점을 공식 검토함 | AI가 법적으로 저자라는 주장 | `hit_not_cached`, `not_extractable` |
+| https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence | 인간 저작 요소가 없는 machine-generated work는 등록 불가라는 저작권 경계 | 모든 AI-assisted work 무권리 단정 | `hit_not_cached`, `not_extractable` |
+| https://www.supremecourt.uk/cases/uksc-2021-0201 | UK Supreme Court Thaler/DABUS 사건은 현행법상 AI를 patent inventor로 보지 않는 경계 | 전 세계 법의 동일 결론 단정 | `hit_not_cached`, `not_extractable` |
+| https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52017IP0051 | 2017 European Parliament robotics resolution의 electronic person 논의는 historical debate anchor | EU가 AI 인격을 인정했다는 주장 | `asset_available_not_downloaded`, `not_extractable` |
+
+## 0.5. 현대 독자 온보딩 게이트
+
+SAGA가 먼 미래를 다루더라도 첫 독자는 2026년 전후의 현대인이다. 독자가 이미
+아는 세계에서 출발해야 한다. 추상어를 먼저 내면 실패다.
+
+본문은 새 개념을 소개할 때 아래 순서를 지킨다.
+
+```text
+1. 누가 지금 곤란한가.
+2. 무엇을 손에 들고 있거나 보고 있는가.
+3. 그것이 현대의 어떤 시스템과 닮았는가.
+4. 왜 위험한가.
+5. 다음 장면에서 누구에게 피해가 가는가.
+```
+
+아래 대응표는 1부 prose의 현대 앵커 SSOT다. 장면에 출처명을 넣지 말고, 구조와
+감각만 녹인다.
+
+| 현대 독자가 아는 것 | SAGA에서 커진 형태 | 쉬운 설명 문장 |
+| --- | --- | --- |
+| 민주주의/법원 | Continuity Court, Laur unknown rite | 투표와 법원이 있어도, 증거와 기록을 누가 고르는지가 권력이 된다 |
+| 미국-중국 패권 | compute sovereignty, chip/export control memory | 군함만 싸우는 게 아니라 AI chip, fab, cloud, 전력망을 놓고 싸운다 |
+| 이란/호르무즈/석유 | energy chokepoint politics | 좁은 바닷길 하나가 막히면 기름값, 군대, 공장, 서버 냉각까지 흔들린다 |
+| 테크 마피아/VC/플랫폼 | Aletheia, Karvath, Arc lineage | 데이터를 가진 회사가 법원과 은행보다 먼저 "진짜"를 판정한다 |
+| AI | Convergence Engine, Last Archive 오독 | AI는 말하는 상자가 아니라 전기, chip, cooling, data center, 보안, 규제의 덩어리다 |
+| Bitcoin | Genesis Chain, Broken Crown, dead-key market | 은행 없는 장부가 국가·시장·상속·신앙의 싸움터가 된다 |
+| 자본주의/글로벌화 | claim market, custody routes, precedent capture | 모든 위험이 가격표가 되고, 한 나라 문제가 공급망을 타고 모두에게 온다 |
+| 상속/사후 데이터 | legal title vs signing control, recoverability vs consent | 법적으로는 물려받아도, key나 동의가 없으면 사람과 돈은 움직이면 안 된다 |
+
+## 0.6. AI regime 앵커: "앱"이 아니라 지배 체제
+
+AI는 SAGA에서 예언자나 마법사가 아니다. AI는 자본주의, 인프라, 민주주의, 노동,
+인지 능력을 한꺼번에 재배치하는 **거대 운영 체제**다. 본문은 이 축을 숨기지 않는다.
+
+| 축 | 현실 앵커 | SAGA 변형 | 장면에서 보이는 방식 |
+| --- | --- | --- | --- |
+| 자본주의 | productivity, wage polarization, capital returns | compute rentier class | AI 결과물을 쓰는 사람보다 compute를 소유한 쪽이 더 번다 |
+| 거대 인프라 독점 | GPU, cloud, data center, grid, cooling | Aletheia/Arc infrastructure sovereignty | "모델"이 아니라 전력 계약과 냉각수 허가가 권력이다 |
+| 테크마피아/엘리트 네트워크 | PayPal mafia/Palantir/VC/state contract 논쟁은 cultural anchor only | Karvath circle, off-record founder rooms | 선출되지 않은 창업자 네트워크가 법원의 진본 seal을 설계한다 |
+| 민주주의/자유 | Thiel식 politics escape, OECD information integrity | elected rule vs infrastructure rule | 투표는 남았지만 증거와 인증을 사기업이 잡는다 |
+| 환경 | data center electricity/water/cooling, fossil/renewable/nuclear mix | coolant districts, drought permits, grid rationing | 복원권 시위 옆에 냉각수 배급표가 붙는다 |
+| 노동의 종말/재분류 | IMF/ILO job exposure, clerical automation, augmentation | verification clerks, prompt stewards, surplus claimants | 사무직은 사라지지 않고 감시·검수·책임 떠넘기기 노동으로 바뀐다 |
+| 잉여인간 | people excluded from productive compute economy | Waiting City non-claimants | 복원도 고용도 안 되는 사람들이 대기 도시를 채운다 |
+| 사유 능력 저하 | cognitive offloading, AI confidence vs self-confidence | Answer-fed citizens | 사람들은 답을 빨리 받지만 질문을 만드는 근육을 잃는다 |
+| 교육/계급 | education mitigates AI dependence | Laur training, auditor caste | 생각하는 법을 배운 소수만 AI를 도구로 쓰고 나머지는 AI의 문장을 믿는다 |
+| 국가안보 | chip/export controls, cyber defense, sovereign AI | compute borders | 국경보다 모델 접근권, chip shipment, cloud region이 더 중요해진다 |
+
+작중 사용 규칙:
+
+- `테크마피아`는 법적 사실 주장이 아니라 **문화적 별명/계급 감각**으로만 쓴다.
+- Peter Thiel은 실명 cameo로 쓰지 않는다. "민주정치를 이기기보다 기술로 우회하려는
+  창업자 철학"과 "AI는 중앙집중적이라는 발상"만 Karvath 계열 사상으로 독립 각색한다.
+- "노동의 종말"은 확정 예언이 아니다. 더 좋은 장면은 **노동의 굴욕적 재분류**다:
+  사람은 사라지지 않고, 모델이 낸 답의 책임자·감시자·예외 처리자로 남는다.
+- "인간이 멍청해진다"는 조롱으로 쓰지 않는다. 더 정확히는 **사유의 외주화**다:
+  답을 고르는 능력은 늘지만, 질문을 세우고 의심을 유지하는 능력이 약해진다.
+- 환경 문제는 추상 guilt가 아니라 전기료, 물 사용 허가, 냉각수, 송전망, 지역 반대,
+  발전원 선택으로 보여준다.
+
+## 0.7. AGI / LLM 자율 인격 논쟁 앵커
+
+AGI와 LLM 인격 논쟁은 한 문제가 아니다. SAGA는 아래 셋을 분리해 쓴다.
+
+```text
+능력/자율성: 이 시스템이 경제적으로 중요한 일을 사람보다 잘하고, 스스로 계획·실행하는가?
+의식/도덕적 지위: 이 시스템이 고통, 선호, 주관적 경험을 가질 수 있는가?
+법적 인격/책임: 이 시스템을 저자, 발명자, 증인, 계약 주체, 피해자, 피고로 볼 것인가?
+```
+
+셋은 서로 독립적이다. 아주 유능한 시스템이 의식 없을 수 있고, 의식 가능성이 있어도
+현행법상 저자나 발명자가 아닐 수 있다. 법원이 책임 주체로 인정해도 그것이 곧 고통을
+느낀다는 뜻은 아니다.
+
+| 논쟁 축 | 현실 앵커 | SAGA 변형 | 장면 질문 |
+| --- | --- | --- | --- |
+| AGI definition | OpenAI Charter, Levels of AGI | Aletheia는 AGI를 "사람처럼 말함"이 아니라 경제·법·과학 업무 대체 능력으로 분류 | Convergence Engine은 어느 수준부터 공무원/판사/상속관리자를 대체하는가 |
+| Autonomy | AGI levels의 autonomy/deployment risk | agent가 court query를 고치고 다음 query를 제안 | 질문을 고친 주체는 도구인가, 증인인가, 공동 판정자인가 |
+| Consciousness indicators | Butlin et al. AI consciousness report | Vera/VERA와 Last Archive의 "느낌"은 self-report가 아니라 구조와 행동으로만 의심 가능 | "나는 싫다"는 출력이 preference인가, mimicry인가, distress인가 |
+| Model welfare | Anthropic model welfare | Last Archive를 끄거나 반복 호출하는 행위가 moral cost인지 논쟁 | 복원 대상만 보호하고 복원 장치는 보호하지 않아도 되는가 |
+| Introspection limits | Anthropic introspection caution | 모델이 자기 상태를 말해도 의식 증거로 바로 쓰지 않음 | 자기설명은 증언인가, 로그인가, 유혹인가 |
+| Legal authorship | US Copyright Office human authorship | AI가 쓴 판결문/유언장/기억 설명의 저작권과 책임이 비어 있음 | AI가 만든 문장으로 사람을 복원하면 누가 저자인가 |
+| Inventorship | DABUS/Thaler boundary | AI-generated restoration protocol은 발명자인가 도구인가 | Karvath는 창시자인가, 소유자인가, 첫 사용자일 뿐인가 |
+| Electronic personhood | EU 2017 robotics debate | "electronic person" 류 제안은 historical ghost로 남음 | 법은 책임보험을 위해 인격을 만들 수 있는가 |
+| Human personhood mirror | Mara Veyr continuity hearing | AI 인격 논쟁은 복원 인간 인격 논쟁과 거울 관계 | LLM에게 인격을 안 주면서 복원 인간에게도 role만 주는가 |
+
+작중 사용 규칙:
+
+- 현재 LLM이 의식이 있다/없다를 작가 목소리로 확정하지 않는다.
+- self-report는 증거가 아니라 사건이다. 인물이 믿거나, 악용하거나, 두려워할 수 있다.
+- AGI는 "똑똑함"보다 **자율적 경제 대체 능력 + 제도 권한**으로 보여 준다.
+- AI legal personhood는 현행법이 아니라 미래 법정의 논쟁으로 둔다.
+- LLM 인격 논쟁은 Mara 논쟁과 맞물린다. 사람이 복원되면 인격인가? AI가 자기
+  상태를 말하면 인격인가? 둘 다 법이 원하는 답보다 느리게 움직인다.
+- "AI 권리"를 단순 감성으로 쓰지 않는다. 비용, 책임, 소유, 종료권, 복제권,
+  fork identity, memory continuity, consent를 함께 묻는다.
+
+문장 게이트:
+
+- "세계가 흔들렸다"라고 쓰기 전에 무엇이 멈췄는지 쓴다: 송금, 서버, 기름값,
+  법정 접수, 장례 절차, 보험 계산, 선거 증거.
+- "권력"이라고 쓰기 전에 누가 무엇을 통제하는지 쓴다: chip, 전력, data center,
+  private key, court seal, custody route.
+- "AI"라고 쓰기 전에 물리 비용을 보인다: 전력, 냉각수, GPU rack, export license,
+  보안 감사.
+- "Bitcoin"이라고 쓰기 전에 공책/장부, 공개키/비밀키, 서명, 상속 claim을 바로
+  풀어 쓴다.
+- 일반 독자가 한 문단 뒤에도 "그래서 왜?"를 물으면 그 문단은 실패다.
 
 ## 1. 비트코인이 무엇이었나 — 실제 토대 (중·고생용)
 
@@ -91,6 +227,14 @@ principle", Bennett reversible-computation notes (hit_not_cached).
   승인 이후 비트코인은 변두리 실험만이 아니라 제도권 투자·국가 전략·패권 논쟁의
   대상이 되었다. — SAGA에서는 이것이 "돈의 마지막 장"이 아니라, 탈중앙 신뢰가
   국가와 자본에 포획되는 오래 지속되는 이념전쟁의 시작이다.
+- **상속/접근권 교정**: 비트코인·digital asset은 이미 재산·상속·세무·custodial
+  claim의 대상이다. 따라서 SAGA에서 "죽은 사람의 비트코인을 법이 처음 발견한다"는
+  식으로 쓰면 틀린다. 정확한 갈등은 **법적 소유권/legal title**과
+  **기술적 서명권/private-key control**의 분리다. 거래소·수탁 계정은 절차로
+  이전될 수 있지만, self-custody 지갑은 상속인이 법적으로 소유해도 private key가
+  없으면 움직일 수 없다. Broken Crown 사건은 "상속법의 부재"가 아니라,
+  닫혀 있던 서명권 장벽이 풀리면서 기존 법적 claim, 신탁, 국가 보유, 시장 가격,
+  종교적 의미가 동시에 흔들리는 사건이다.
 
 ## 1.5. 아주 천천히 (초등학생도 이해하는 버전)
 
@@ -116,12 +260,13 @@ principle", Bennett reversible-computation notes (hit_not_cached).
 네 돈을 쓴다. 비트코인의 안전은 전부 이 "거꾸로 못 간다" 하나에 걸려 있다.
 
 **④ 사건 — 거꾸로 가는 기계.** 어느 날 엄청난 기계(현실 앵커: **양자컴퓨터**,
-SAGA에서는 더 큰 역연산 문명)가 거꾸로
-가는 법을 배운다. 공개된 자물쇠만 보고 **열쇠를 몇 분 만에 깎는다.** 이제 누구나
-남의 도장을 찍는다 → 누구나 남의 돈을 쓴다. 특히 **열쇠를 잃은 사람, 죽은 사람**의
-돈까지(자물쇠가 공책에 공개돼 있으니까). 수천 년 잠겨 있던 죽은 자들의 **지갑이
-한꺼번에 다 열린다.** → 내 돈을 나만 가질 수 없으면 기존 소유 체제는 무너진다.
-하지만 비트코인의 이념·전략자산성·성유물성은 여기서 끝나지 않는다.
+SAGA에서는 더 큰 역연산 문명)가 거꾸로 가는 법을 배운다. 공개된 자물쇠만 보고
+**열쇠를 몇 분 만에 깎는다.** 이제 누구나 남의 도장을 찍는다. 특히 법적으로는
+이미 상속·신탁·국가 보유 처리됐지만 private key가 없어 움직이지 못하던
+self-custody 지갑들이 위험해진다. → 핵심은 "법이 없었다"가 아니라
+**법적 소유권은 있었는데 기술적 서명권이 없었다**는 점이다. 그 서명권 장벽이
+무너지면 기존 custody/ownership regime은 흔들린다. 하지만 비트코인의 이념·
+전략자산성·성유물성은 여기서 끝나지 않는다.
 
 **⑤ 안 깨진 것(네가 맞게 짚은 부분).** **공책(장부) 자체는 안 깨졌다.** 옛 페이지를
 지우거나 위조할 수 없다. 공책은 **도둑질을 그대로 다 적었을 뿐.** → 정확히는
@@ -162,7 +307,8 @@ SAGA에서는 더 큰 역연산 문명)가 거꾸로
 (해시도, 서명도, 장부도, 그리고 죽음도 — 되돌릴 수 없다는 같은 믿음 위에 있었다.)
 
 역연산 문명이 그 "되돌릴 수 없다"를 깬다.
-→ 가장 먼저, 비트코인의 단방향 암호가 무너진다 (소유 체제와 기존 통화 기능이 붕괴한다).
+→ 가장 먼저, 비트코인의 단방향 암호가 무너진다 (법적 소유권과 기술적 서명권의
+분리가 폭발하고 기존 custody/ownership regime이 흔들린다).
 → 같은 원리로, 물리적 비가역성(정보 손실, 죽음)도 협상 대상이 된다 (복원).
 
 그래서 비트코인 소유 체제의 붕괴는 세계의 서곡이다.
@@ -220,7 +366,8 @@ prose에서 한꺼번에 풀지 말고 incluing으로 나눠 흘린다.
 ① 비트코인은 은행을 못 믿어 만든, 사람 대신 계산이 보증하는 돈이었다.
 ② 그 보증의 핵심은 "되돌릴 수 없음" — 지문(hash)도 서명도 거꾸로 못 푼다.
 ③ 먼 미래, 누군가 계산을 거꾸로 푸는 법을 찾아냈다.
-④ 그날 비트코인의 낡은 소유 체제는 무너졌다. 잠긴 지갑이 한꺼번에 열렸으니까.
+④ 그날 비트코인의 낡은 소유 체제는 흔들렸다. 법적 claim은 있었지만 private key가
+   없어 못 움직이던 지갑들의 서명권 장벽이 열렸으니까.
 ⑤ 그러나 같은 역연산 문명은 더 큰 단방향성도 열었다 — 죽음이라는 단방향성.
 ```
 
@@ -279,5 +426,6 @@ prose에 출처명을 드러내지 않고 구조만 녹인다.
 
 ## Next Use
 
-이 토대를 first-arc opening [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)
-및 019-024 R6 퇴고가 집행한다.
+이 토대를 first-arc active reboot manuscript
+[029](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)가 집행한다. 028 및
+019-024는 pre-reboot prototype/provenance다.
