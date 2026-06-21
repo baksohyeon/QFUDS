@@ -17,7 +17,10 @@ case "$FILE_PATH" in
   *.claude/hooks/*) exit 0 ;;
   *.codex/hooks/*) exit 0 ;;
   *.agent/korean-persona.md) exit 0 ;;
+  *feedback_korean_no_bak_slang.md) exit 0 ;;
   *MEMORY.md) exit 0 ;;
+  *docs/wiki/postmortem/temp/*) exit 0 ;;
+  *docs/wiki/postmortem/*) exit 0 ;;
 esac
 
 # 검사 대상 파일 확장자 (한국어 마크다운만)
@@ -35,14 +38,20 @@ CONTENT=$(echo "$INPUT" | jq -r '
 
 [ -z "$CONTENT" ] && exit 0
 
-# Detect "박-" slang patterns
-# - 박는다 / 박는 (현재형)
-# - 박았다 / 박았 / 박았어 (과거형)
-# - 박혔어 / 박혔다 (과거 수동)
-# - 박은 (관형사형)
-# - 박힌 / 박혀 (수동 관형형/연결형)
-# - 박둔 / 박아두 (보존형)
-MATCHES=$(echo "$CONTENT" | grep -oE "박[는아혔어은힌둔]|박혀|박힌|박아두" || true)
+# Detect "박-" slang patterns (동사 박다/박히다 활용 + 처박-/들이박- 류 복합).
+# 핵심: "박" 이 어절 첫 음절일 때만 슬랭 → `(^|[^가-힣])박` 로 앞 한 글자를
+#   "줄 시작 또는 비-한글" 로 강제. 이게 lookbehind 를 순수 ERE 로 흉내낸 것.
+# → 도박/압박/박사/대박/반박/수박/호박 등 "박" 이 명사 안에 들어있는 단어는 전부 제외.
+#   (예: 도박은 / 압박은 / 도박이다 = 명사+조사, 오탐 방지)
+# 순수 grep -oE 만 사용 → macOS BSD grep · Linux/WSL · Windows Git Bash(GNU grep) 모두 동작.
+#   (lookbehind/lookahead 가 필요 없어 perl·python·grep -P 의존성 없음.)
+# 활용형: 박다/고/지/는(다)/아(서/야/도/라/두/놓/진/졌/버)/어(서/야/도)/은/을/음/
+#         으(면/니/려/며/세/러)/았(다/어/고/던/지/네/으)/겠/둔/혀(...)/혔(...)/히(...)/힌/힘.
+# 알려진 한계: 박음질(재봉)·박음 명사형은 미세 오탐 가능 — 이 프로젝트(색조) 에선 거의 안 나옴.
+# 긴 어미를 앞에 둬 leftmost-longest 안정화 (박는다>박는, 박았다>박았).
+BAK_RE='(^|[^가-힣])(내리|들이|뒤|되|처|쳐)?박(는다|는|다|고|지|네|나|아서|아야|아도|아라|아두|아놓|아진|아졌|아버|아|어서|어야|어도|어|은|을|음|으면|으니|으려|으며|으세|으러|았다|았어|았고|았던|았지|았네|았으|았|겠|둔|혀서|혀요|혀있|혀버|혀두|혀놓|혀도|혀야|혀|혔다|혔어|혔고|혔던|혔지|혔|히다|히고|히면|히니|히는|히어|히었|히게|히며|히|힌|힘)'
+# grep -oE 매치는 앞 비-한글 1글자를 포함 → sed 로 떼어내고 dedup.
+MATCHES=$(printf '%s' "$CONTENT" | grep -oE "$BAK_RE" | sed -E 's/^[^가-힣]+//' || true)
 MATCHES=$(echo "$MATCHES" | sort -u | head -5 | tr '\n' ',' | sed 's/,$//')
 
 if [ -n "$MATCHES" ]; then
