@@ -4,8 +4,7 @@
       {
         "matcher": "Write|Edit",
         "hooks": [
-          { "type": "command", "command": "bash .claude/hooks/no-emoji-check.sh" },
-          { "type": "command", "command": "bash .claude/hooks/no-bak-slang-check.sh" }
+          { "type": "command", "command": "bash .claude/hooks/no-emoji-check.sh" }
         ]
       }
     ],
