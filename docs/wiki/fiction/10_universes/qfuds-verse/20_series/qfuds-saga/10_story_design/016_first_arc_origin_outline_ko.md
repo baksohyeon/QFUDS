@@ -158,7 +158,7 @@ THE LOCK WAS THE CROWN
   "균열을 사들이는 자"라는 평판, UI/프로토콜/검증 절차에 남은 Karvath의 손자국,
   짧은 기록 영상이나 인용문.
 - **직접 POV 금지. 직접 대면은 기본값에서 제외(C 폐기).** B(사엘↔Karvath 대면)는
-  확정하지 않고 **optional pressure beat**로만 남긴다 — 필요하면 scene-card 단계에서
+  확정하지 않고 **optional pressure beat**로만 남긴다. 필요하면 scene-card 단계에서
   "대면 없이도 Karvath의 압력이 느껴지는 장면"으로 대체한다. 1부에서 Karvath를 2차
   POV로 열면 사엘의 원죄가 약해지고 Vera 반전 노출 예산이 깨진다.
 
