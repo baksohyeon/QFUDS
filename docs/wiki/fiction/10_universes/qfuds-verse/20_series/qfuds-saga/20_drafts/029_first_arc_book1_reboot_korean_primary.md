@@ -13,7 +13,7 @@ depends_on:
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
-next_gate: write Chapter 3 The Last Hodler inside this manuscript
+next_gate: write Chapter 4 Identity Flood inside this manuscript
 last_updated: 2026-06-21
 ---
 
@@ -93,11 +93,12 @@ not_extractable
 - Prologue: drafted and expanded past the GSD hard floor in this file.
 - Chapter 1: drafted in this file.
 - Chapter 2: drafted in this file.
+- Chapter 3: drafted in this file.
 - Reader-comprehension revision pass: Prologue-Chapter 2 received an explicit
   world-onboarding and causal-clarity pass after user feedback that the setting
   remained hard to understand. Second pass lowered key concepts to object-level
   analogies and clearer 2020s-to-far-future extrapolation.
-- Chapter 3-6: scene cards approved, prose not yet drafted in this reboot manuscript.
+- Chapter 4-6: scene cards approved, prose not yet drafted in this reboot manuscript.
 - Release: 없음. `40_release/001_` manifest는 전체 한국어 원고, 영어 독립 각색판,
   shared continuity check, release-facing revision gate가 끝난 뒤에만 만든다.
 
@@ -1451,6 +1452,457 @@ Noor는 소매로 금색 인장을 덮었다. 이번에도 늦었다. 그래도 
 
 Noor는 벽을 등지고 서서, 어느 의자에도 앉지 않았다.
 
+## Chapter 3: The Last Hodler
+
+Elias Veyr는 기다림을 잘하는 사람이었다.
+
+그 말은 젊을 때는 칭찬이었다. 그는 결혼식 전날에도 조용히 기다렸다. Mara가 실험실
+비상 호출을 받고 세 시간 늦게 도착했을 때, 그는 식은 차를 새로 데웠다. Salt Fires
+뒤에는 칭찬이 아니게 되었다. 기다림은 방이 되었고, 방은 창고가 되었고, 창고는
+증거가 되었다. Mara의 컵, Mara가 마지막으로 읽던 낡은 논문, 벽에 남은 화상 자국,
+그녀가 싫어하던 향의 세제, 그리고 Broken Crown. Elias는 버리지 않았다. 버리지 않는
+것이 사랑이라고 믿었다.
+
+그 믿음은 너무 오래 혼자 있었고, 그래서 모양이 굳었다.
+
+Waiting City 북쪽에는 원래 거래소였던 강당이 있었다. 벽에는 아직 오래된 가격
+표시선이 남아 있었다. 한때 사람들은 그곳에서 Bitcoin ETF 상장 기록, 국가 전략
+준비자산 발표, 몰수 지갑 경매, 가격 붕괴, 가격 회복, 다시 붕괴를 보았다. 지금은
+의자들이 반원형으로 놓였고, 강당 이름은 바뀌어 있었다.
+
+```text
+THE LAST HODLER HALL
+PUBLIC MEMORY COLLOQUIUM
+SPEAKER: ELIAS VEYR
+TOPIC: WAITING AS CONTINUITY
+```
+
+Elias는 이름이 마음에 들지 않았다. Last Hodler는 원래 사람 이름이 아니었다. 아주
+오래전 Bitcoin 시장에서 마지막까지 팔지 않는 사람들을 조롱하거나 칭송하던 말이었다.
+가격이 내려도 팔지 않는 사람. 국가가 금지해도 팔지 않는 사람. 가족이 미쳤다고 해도
+seed phrase를 숨기고 죽는 사람. 그 시대에는 그 말이 농담과 신앙 사이에 있었다.
+먼 미래에는 농담이 빠지고 신앙만 남았다.
+
+강당 앞줄에는 세 부류가 나뉘어 앉았다.
+
+토대파는 검은 천에 흰 장부선을 수놓은 옷을 입었다. 그들은 Bitcoin이 국가보다 오래
+간 최초의 공적 기억이라고 말했다. 은행도 왕도 사라져도 ledger는 남는다고 믿었다.
+그들에게 잃어버린 비밀키는 비극이 아니라 성벽이었다. 누구도 대신 열 수 없기 때문에
+자유가 보존된다고 했다.
+
+허무파는 아무 표시도 달지 않았다. 그것이 표시였다. 그들은 Bitcoin이 인간이 만든
+가장 비싼 폐허라고 말했다. 법적으로는 내 것인데 서명할 수 없어 못 쓰는 재산, 죽은
+사람의 이름으로 산 사람을 묶는 장치, 자유라는 이름으로 방치된 고장. 그들에게
+Broken Crown은 기적이 아니라 고장의 영수증이었다.
+
+패권파는 가장 조용했다. 그들은 국가와 장부 가문의 대리인이었고, 옷에 아무 문장을
+쓰지 않았다. 대신 누가 어느 문장을 살지 기록했다. ETF, 전략 준비자산, 몰수 주소,
+상속 신탁, 공익관리. 그들에게 Bitcoin은 반항이 아니라 오래 살아남은 인프라였다.
+인프라는 통제하거나 임대해야 했다.
+
+Elias는 세 부류를 모두 보았다. 모두 Mara를 다른 말로 부를 준비가 되어 있었다.
+토대파는 그녀를 돌아온 원장이라고 부르고 싶어 했다. 허무파는 모든 복원의 실패
+증거라고 부르고 싶어 했다. 패권파는 아직 말을 아꼈다. 말이 아껴질 때가 가장
+비쌌다.
+
+그는 준비한 원고를 펼치지 않았다.
+
+강당 뒤쪽 기록판에는 Mara의 표식과 Noor의 표식이 나란히 떠 있었다.
+
+```text
+RECOVERABLE / NOT CLAIMABLE
+ACCESS != AUTHORITY
+```
+
+두 문장은 Elias에게 문이 아니라 벽처럼 보였다. 돌아올 수 있지만 청구할 수 없음.
+접근은 권위가 아님. 말은 정확했다. 정확한 말이 늘 자비로운 것은 아니었다.
+
+"Satoshi Nakamoto는 얼굴을 남기지 않았습니다." Elias가 말했다.
+
+강당이 조용해졌다. 그 이름은 어느 시대에도 방을 조용하게 만들었다. 너무 많이
+쓰였고, 너무 적게 알려졌기 때문이다.
+
+"우리가 가진 것은 이름, 논문, genesis block, 초기 거래, 그리고 아무도 끝내 열지 못한
+침묵입니다. 그런데도 문명은 그 침묵 위에 장부를 세웠습니다. 왜입니까?"
+
+토대파 쪽에서 누군가 작게 말했다. "신뢰하지 않기 위해."
+
+Elias는 고개를 끄덕였다.
+
+"맞습니다. 믿지 않아도 되게 하려고. 그러나 그 장부는 이상한 방식으로 믿음을
+만들었습니다. 모두가 같은 것을 보게 되면, 사람은 그 보이는 것을 기억이라고 부릅니다.
+Bitcoin은 가격표가 아니었습니다. 가격은 오르고 내렸습니다. 법은 바뀌었습니다. 국가는
+금지했다가 샀고, ETF는 투기를 제도 안으로 들였고, 전략 준비자산은 반항을 국고
+문장으로 바꿨습니다. 그런데도 사람들은 장부를 보았습니다. 이 주소에서 저 주소로,
+이 서명에서 저 서명으로, 이 기다림에서 다음 기다림으로."
+
+그는 손을 폈다. 손바닥에는 화상 흉터가 남아 있었다. Salt Fires 때 Mara를 찾으러
+들어갔다가 생긴 흉터였다. 누군가는 그것을 사랑의 증거라고 불렀다. Elias는 그 말을
+막지 않았다. 막지 않은 말은 언젠가 자기 것이 된다.
+
+"저는 Mara Veyr를 기다렸습니다."
+
+방송 렌즈들이 일제히 움직였다.
+
+"저는 그녀를 샀다고 말하지 않습니다. 저는 그녀를 소유한다고 말하지 않습니다. 하지만
+제가 보관한 것이 아무것도 아니라고 말하는 법원에도 동의할 수 없습니다. 저는 그녀의
+컵을 보관했습니다. 그녀의 마지막 연구 기록을 보관했습니다. 그녀의 consent file이
+불타기 전 사본을 찾기 위해 비용을 냈습니다. Broken Crown을 숨기지 않았습니다.
+복원이 가능해졌을 때, 저는 가장 먼저 문을 두드렸습니다."
+
+허무파 쪽에서 웃음이 나왔다.
+
+"문을 두드린 사람이 집주인은 아닙니다." 누군가 말했다.
+
+Elias는 그쪽을 보지 않았다.
+
+"맞습니다. 하지만 문이 아직 집인지 무덤인지도 모를 때, 그 앞에서 떠나지 않은 사람의
+증언은 버릴 수 없습니다."
+
+그는 그 문장을 너무 오래 품고 있었다. 말하고 나자 자기 안에서 무엇인가 잠깐
+가벼워졌다. 그 가벼움이 위험하다는 걸 그는 알지 못했다.
+
+패권파 쪽 기록관 하나가 손목 화면에 문장을 받아 적었다.
+
+```text
+WAITING CLAIM / NOT PROPERTY CLAIM
+```
+
+Elias는 보았다. 이미 말이 팔리고 있었다. 그래도 멈추지 않았다.
+
+"장부는 사라진 사람의 의지가 아닙니다. 하지만 장부는 기다림을 보존합니다. private
+key가 없으면 움직일 수 없다는 약속도, 잃어버린 key가 돌아왔을 때 생기는 책임도
+보존합니다. 저는 Mara의 의지를 대신 쓰고 싶지 않습니다. 다만 묻고 싶습니다. 사랑이
+수천 년 동안 손상 없이 보관한 기억은 법 앞에서 정말 아무것도 아닙니까?"
+
+그 질문은 대답을 기다리지 않았다. 강당은 이미 대답하고 있었다. 토대파는 박수쳤다.
+허무파는 야유했다. 패권파는 둘 다 기록했다. Elias는 그 모든 소리를 Mara의 이름으로
+착각하지 않으려 애썼지만, 오래된 습관은 빠르게 돌아왔다. 누군가 자기를 듣고 있으면,
+그는 Mara도 듣고 있을 거라고 생각했다.
+
+Mara는 듣고 있었다.
+
+법원은 공개 강연을 막지 못했다. 표현은 아직 범죄가 아니었고, 슬픔은 아직 압수할 수
+없는 물건이었다. 대신 Liora Sen은 강당 feed를 제2심리실 벽면에 띄웠다. Mara는 의자에
+앉아 있었고, Elias는 화면 속에서 그녀를 기다림의 증거로 만들고 있었다.
+
+"끄시겠습니까?" 서기가 물었다.
+
+Mara는 고개를 저었다.
+
+"사람이 내 이름을 어떻게 쓰는지 봐야 해요."
+
+Liora는 그 대답을 기록하지 않았다. 기록하면 문장이 곧 증거가 되고, 증거는 곧 누군가의
+손에 들어간다. 그녀는 가끔 기록하지 않는 것도 절차라고 생각했다.
+
+강당 바깥은 이미 법원보다 빨랐다.
+
+Waiting City의 거리마다 다른 화면이 떠 있었다. 토대파의 화면에는 Elias의 손 흉터가
+확대되어 있었다.
+
+```text
+HE WAITED.
+THE LEDGER REMEMBERED.
+WHY MAY THE COURT FORGET?
+```
+
+허무파의 화면은 같은 장면을 반대로 잘랐다.
+
+```text
+NO KEY, NO CLAIM.
+NO CONSENT, NO RETURN.
+LOVE IS NOT SIGNATURE.
+```
+
+패권파의 화면에는 표어가 없었다. 대신 시장 호가가 있었다.
+
+```text
+MEMORY-CONTINUITY CLAIM BUNDLE
+REFERENCE: VEYR / LAST HODLER SPEECH
+SETTLEMENT WINDOW: PENDING
+```
+
+Liora는 법원 복도 창문에서 그 화면들을 보았다. 비가 오고 있었다. 비는 화면 빛을
+흐리게 만들었지만 지우지는 못했다. 법원의 문장은 늘 느렸다. 거리의 문장은 젖어도
+빨랐다.
+
+"막을 수 있습니까?" 서기가 물었다.
+
+"무엇을?"
+
+"강연을요. 상품화를요. 세력이 Mara Veyr를 표어로 쓰는 것을요."
+
+Liora는 대답하기 전에 창문에 비친 자신의 얼굴을 보았다. 법원 배지, 피로한 눈,
+주머니 속의 빈 도장. 그녀는 절차를 믿지 않아서 이 일을 하는 사람이 아니었다.
+절차를 너무 오래 보았기 때문에, 절차가 언제 사람을 놓치는지 알게 된 사람이었다.
+
+"막는다는 말은 보통 늦었다는 뜻이야." 그녀가 말했다. "지금 할 수 있는 건, 다음
+문장이 덜 망가지게 쓰는 것뿐이지."
+
+그 다음 문장은 Mara가 썼다.
+
+증언실은 강당보다 작았다. 유리도, 조명도, 법원 seal도 있었지만, 방의 중심은
+Mara의 목소리였다. Liora는 이번 증언을 공개하지 않으려 했다. Pell은 이의를 냈고,
+Elias는 공개를 원했고, 토대파는 역사적 권리를 주장했고, 허무파는 공개 심판을
+요구했다. Mara는 모두를 들은 뒤 짧게 말했다.
+
+"내가 말할 때만 공개하세요."
+
+그래서 첫 문장만 공개되었다.
+
+"나는 Elias Veyr를 기억합니다."
+
+그 문장은 거리로 나가기도 전에 수천 개의 알림으로 쪼개졌다. Elias는 증언실
+맞은편에 앉아 있었다. 화면이 아니라 같은 방이었다. 그는 그 한 문장을 듣고 숨을
+멈췄다.
+
+Mara는 그를 보았다.
+
+"당신이 Salt Fires 전날 내 장갑을 싫어했던 것도 기억합니다. 손가락 끝이 두꺼워서
+기계를 못 만진다고 했죠. 내가 화를 냈고, 당신은 미안하다고 했고, 다음 날 더 얇은
+장갑을 사 왔어요. 틀린 크기였지만."
+
+Elias의 입가가 떨렸다.
+
+"Mara."
+
+"말하지 마세요. 아직 내 문장입니다."
+
+방 안의 공기가 바뀌었다. Liora는 그 변화를 좋아했다. 누가 말하는지 분명해지는
+순간이었다.
+
+Mara는 계속했다.
+
+"나는 당신이 나를 기다렸다는 걸 압니다. 내가 돌아올 수 있다고 믿었고, 비용을 냈고,
+증거를 보관했고, 법원에 청원했다는 것도 압니다. 나는 당신의 사랑을 모욕하지
+않겠습니다."
+
+Elias는 그 말에 무너질 뻔했다. 사랑을 모욕하지 않겠다는 말은, 그가 몇 천 번 혼자
+연습한 용서의 첫 문장과 닮아 있었다.
+
+"하지만 사랑을 모욕하지 않는 것과, 사랑에게 권리를 주는 것은 다릅니다."
+
+그는 눈을 들었다.
+
+"나는 네 남편이었어."
+
+"그랬어요."
+
+"너도 기억하잖아."
+
+"기억합니다."
+
+"그럼 어떻게 그게 아무것도 아니야?"
+
+Mara는 한참 대답하지 않았다. 그 침묵은 이전의 침묵과 달랐다. 방어가 아니라 선택에
+가까웠다.
+
+"아무것도 아니라고 하지 않았어요. 당신은 자꾸 같은 실수를 합니다. 아무것도 아니면
+권리가 될 수 없다고 믿어요. 하지만 세상에는 아무것도 아니지 않으면서, 청구권도 아닌
+것들이 있습니다."
+
+Elias는 이해하려고 애썼다. 정말로 애썼다. 그 점이 더 잔인했다. 악의가 있으면
+잘라내면 된다. 사랑이 범주를 잘못 잡으면, 잘라낸 뒤에도 피가 남는다.
+
+Mara는 손을 내려다보았다. 복원된 피부. 기억하는 손. 그 손은 Elias의 얼굴을 만진 적이
+있었다. 그 사실은 지워지지 않았다. 그러나 지워지지 않는 사실이 현재의 명령이 되지는
+않았다.
+
+"내 기억은 내가 겪은 일의 흔적입니다. 당신의 기다림은 당신이 겪은 일의 흔적입니다.
+둘 다 진짜예요. 하지만 두 흔적을 겹친다고 해서 내 동의가 만들어지지는 않습니다."
+
+Liora는 기록관을 보았다. 기록관은 이미 쓰고 있었다.
+
+Elias가 말했다. "나는 너를 버리지 않았어."
+
+"알아요."
+
+"나는 네가 돌아올 자리도 버리지 않았어."
+
+"그 자리가 아직 나의 자리인지 묻지 않고 보관했죠."
+
+"그럼 나는 뭘 했어야 했는데?"
+
+그 질문은 작았다. 강당의 Elias가 아니라, 식은 차를 새로 데우던 젊은 Elias의 목소리와
+닮아 있었다. Mara의 얼굴이 처음으로 조금 아파 보였다.
+
+"모르겠어요." 그녀가 말했다. "하지만 모르는 것을 권리라고 부르면 안 됩니다."
+
+Liora는 그 문장에서 손을 멈췄다.
+
+Pell이 없었다면 방은 거기서 잠깐 사람의 방으로 남았을지도 모른다. 그러나 Pell은
+관측석 끝에 앉아 있었고, 그의 침묵은 늘 너무 정중했다. 정중한 침묵은 종종 가장
+빠른 기록 장치였다.
+
+"감사관." Pell이 말했다. "증언의 범위를 명확히 해야 합니다. Ms. Veyr가 기억과
+감정을 인정한다면, 청구인은 최소한 analogical standing을 주장할 수 있습니다."
+
+"사람 말로." Liora가 말했다.
+
+Pell은 미소를 거의 보이지 않았다.
+
+"완전한 동의 파일은 없지만, 기억, 관계, 장기 보관, 배우자 의무, 복원 비용이 모두
+같은 방향을 가리킵니다. 법은 때로 직접 증거가 없을 때 유사한 증거들의 방향을 봅니다."
+
+Mara가 그를 보았다.
+
+"유사한 증거라."
+
+Pell은 고개를 숙였다. "비하가 아닙니다."
+
+"비하는 아니죠. 더 유용한 말이니까."
+
+Liora는 빈 도장을 꺼내지 않았다. 이번에는 빈칸을 보존하는 문제가 아니었다. 너무
+많은 것이 같은 방향으로 달려가고 있었다. 그 달림을 멈출 문장이 필요했다.
+
+"기록합니다." Liora가 말했다. "Mara Veyr는 Elias Veyr에 대한 기억, 과거 배우자 관계,
+청구인의 장기 보관 행위, Broken Crown 관련 접근 경로의 존재를 인정합니다."
+
+Elias가 고개를 들었다.
+
+"그러나," Liora가 이어 말했다.
+
+그 한 단어가 방을 잘랐다.
+
+"그 인정은 복원 동의, 반환 동의, 배우자 청구 수락, 기억 사용 허가, 또는 analogical
+standing을 만들지 않습니다. 유사성은 동의가 아닙니다. 기다림은 서명이 아닙니다.
+기억은 귀환 명령이 아닙니다."
+
+기록판이 잠깐 비었다.
+
+Mara는 눈을 감았다. Elias는 눈을 감지 못했다.
+
+검은 사각형 안에 새 field mark가 떴다.
+
+```text
+NO CONSENT BY ANALOGY
+```
+
+거리의 화면들이 그 문장을 받기까지 세 호흡도 걸리지 않았다.
+
+첫 호흡에 토대파가 분노했다. 그들에게 유사성은 장부의 오래된 힘이었다. 한 거래가
+다음 거래와 이어지고, 한 블록이 다음 블록과 이어지고, 하나의 주소가 다른 주소를
+가리키며 신뢰를 만들었다. 유사성이 동의가 아니라면, 그들의 오래된 세계도 법원 앞에서
+말을 잃는 것처럼 보였다.
+
+둘째 호흡에 허무파가 환호했다. 그러나 그 환호도 Mara의 것이 아니었다. 그들은 그녀의
+거부를 모든 복원 반대의 깃발로 쓰고 싶어 했다.
+
+셋째 호흡에 패권파가 상품명을 바꿨다.
+
+```text
+ANALOGY FAILURE RISK
+CONSENT-GAP HEDGE
+NO-CONSENT PRECEDENT OPTIONS
+```
+
+Ione은 그 세 호흡을 Aletheia 관측석에서 보았다.
+
+그녀의 단말에는 아직 봉인되지 않은 내부 queue가 열려 있었다. 법원 표식이 나가면
+늘 청구가 늘었다. 보통은 가족, 신탁, 보험사, 국가 대리인 몇십 건이었다. 이번에는
+숫자가 이상했다.
+
+```text
+NEW INTAKE:
+MARA-COMPATIBLE MEMORY GRAPH SUBMISSIONS
+COUNT: 127
+SOURCE CLUSTERS: 9
+```
+
+Ione은 처음에 오류라고 생각했다.
+
+숫자가 다시 바뀌었다.
+
+```text
+COUNT: 804
+SOURCE CLUSTERS: 31
+```
+
+그녀는 손목의 파란 매듭을 눌렀다. 매듭은 아무 기능도 없었다. 그래서 눌렀다. 기능이
+없는 것을 하나쯤 몸에 두지 않으면, Aletheia 안에서 사람은 금방 모든 것을 기능으로
+보게 된다.
+
+제출물 첫 건은 조잡했다. Mara의 공개 기억 조각, Elias의 강연, 오래된 결혼 기록,
+Salt Fires 피해자 명단을 엮은 graph였다. 기계적으로는 compatible이라고 부를 수
+있었다. 사람이라면 부끄러워서 내지 않았을 물건이었다.
+
+열 번째부터는 달랐다. 누군가가 더 좋은 자료를 갖고 있었다. 공개되지 않은 치료 기록
+형식, 오래된 연구소 출입 패턴, Mara의 손 움직임을 복원한 motion trace. Ione은
+허가되지 않은 저장소 냄새를 맡았다. Aletheia 내부거나, 법원 내부거나, 시장이 산
+하청 archive였다.
+
+백 번째 이후부터는 이름이 사라졌다.
+
+```text
+SUBMITTER: NULL-KEY
+SUBMITTER: NULL-KEY
+SUBMITTER: NULL-KEY
+```
+
+Ione은 Liora에게 경고를 보내려 했다. 연결은 열려 있었지만, 메시지가 나가기 전에
+queue가 먼저 밀려왔다.
+
+```text
+COUNT: 4,922
+SOURCE CLUSTERS: 211
+COURT INTAKE LOAD: 71%
+```
+
+유사성은 동의가 아니라고 법원이 말했다. 그러자 군중은 유사성을 더 많이 들고 왔다.
+마치 양이 질을 대신할 수 있다는 듯이. 한 graph가 사람을 만들지 못하면 천 개를 내고,
+천 개가 부족하면 만 개를 내면 된다는 듯이.
+
+Ione은 그 논리를 알고 있었다. 오래전 network 공격 기록에서 본 적이 있었다. 문 하나를
+부수지 못하면, 너무 많은 손님을 보내 문지기가 숨을 못 쉬게 한다. 증거도 그렇게 할
+수 있었다. 거짓 하나는 반박할 수 있다. 반쯤 맞는 것 만 개는 사람을 묶어 둔다.
+
+증언실 안에서는 아직 아무도 숫자를 보지 못했다.
+
+Mara는 field mark를 읽고 있었다. `NO CONSENT BY ANALOGY`. 그녀는 안도하지 않았다.
+문장이 맞아도, 맞는 문장이 사람을 보호하는 데 얼마나 오래 걸리는지 이미 배웠기
+때문이다.
+
+Elias는 그녀를 보고 있었다. 그는 패배한 사람처럼 보이지 않았다. 더 위험하게도,
+무엇을 잃었는지 아직 모르는 사람처럼 보였다.
+
+"나는 비유로 널 사랑한 게 아니야." 그가 말했다.
+
+Mara는 대답했다.
+
+"알아요. 그래서 더 어렵죠."
+
+그때 법원 천장의 낮은 알림음이 울렸다. Last Archive의 필드음은 아니었다. 훨씬
+천박하고, 행정적이고, 다급한 소리였다. 접수 시스템 과부하.
+
+벽면 기록판에 새 문장이 떴다.
+
+```text
+COMPATIBLE-SELF SUBMISSIONS EXCEED REVIEW WINDOW
+IDENTITY GRAPH FLOOD DETECTED
+HEARING CONTINUITY AT RISK
+```
+
+Liora는 Ione을 보았다.
+
+Ione의 얼굴은 이미 창백했다.
+
+"몇 건입니까?" Liora가 물었다.
+
+Ione은 대답하기 전에 숫자가 한 번 더 뛰는 것을 보았다.
+
+```text
+COUNT: 12,406
+COURT INTAKE LOAD: 94%
+```
+
+"충분히 많습니다." Ione이 말했다.
+
+"무엇을 하기에?"
+
+Ione은 화면에서 눈을 떼지 못했다.
+
+"사람 하나를 지우기에요."
+
 ## Continuity Notes
 
 - Prologue는 Aletheia Systems, Adrian Karvath, the Arc, Convergence Engine을
@@ -1472,6 +1924,15 @@ Noor는 벽을 등지고 서서, 어느 의자에도 앉지 않았다.
 - Chapter 2의 사건 상태: Noor는 Sarqel 좌석을 거부하고 어머니 매장 기록 공개를
   막는다. 그러나 Pell/장부 가문 desk가 표식 이름을 즉시 시장 상품으로 읽고,
   Elias 지지자들이 Mara/Noor 표식을 public myth로 묶기 시작한다.
+- Chapter 3는 Elias의 Last Hodler public myth를 통해 기다림을 사랑과 권리의 증거로
+  만들려는 시도를 보여 준다. Bitcoin 삼분파는 토대파/허무파/패권파로 분리되어
+  같은 Mara 사건을 서로 다른 신앙, 반증, 상품으로 읽는다.
+- Chapter 3의 사건 상태: Mara는 Elias에 대한 기억과 과거 사랑을 인정하지만, 기억,
+  기다림, 장기 보관, Broken Crown 접근 경로가 복원 동의나 반환 동의를 만들 수
+  없다고 증언한다. Liora는 `NO CONSENT BY ANALOGY`를 field mark로 남긴다.
+- Chapter 3의 damage/hook: field mark가 나오자 대중과 시장은 유사성을 더 많이
+  제출해 법을 압박하려 한다. Ione은 Mara-compatible memory graph 폭주와 Null-Key
+  submitter cluster를 보고 Chapter 4 `Identity Flood`로 넘어간다.
 - Reader-comprehension revision pass는 Prologue 앞에 복원 문명의 세 질문, Sael의
   교육 화면과 Genesis 맥락 패킷, Chapter 1의 연속성 법원 기능, Broken Crown의 역할,
   Chapter 2의 호가판/시장 인과와 이름-파일 위험 설명을 추가했다. Second pass는 잠긴
@@ -1487,5 +1948,5 @@ Noor는 벽을 등지고 서서, 어느 의자에도 앉지 않았다.
   hearing area, and Broken Crown is the exhibit. Last Archive receives a
   first-use court-function anchor before intervention. Key recovery now bridges
   through deleted/edited record recovery before human restoration.
-- Chapter 3는 Elias와 대중 신화 층으로 이동해 `NO CONSENT BY ANALOGY`를 다음
-  field mark로 세운다.
+- Chapter 4는 compatible graph flood와 court intake overload로 시작해
+  `PLURALITY IS NOT CONSENT`를 다음 field mark로 세운다.

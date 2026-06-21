@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_scene_cards_ko
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
-next_gate: draft Chapter 3 The Last Hodler inside 029 first-arc reboot manuscript
+next_gate: draft Chapter 4 Identity Flood inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -285,8 +285,9 @@ sh scripts/git-hooks/pre-commit
   - Phase brief + Prologue expansion can land together.
   - After that, each chapter draft should land in its own commit or tight pair of
     chapter + continuity notes.
-- Next phase: draft Chapter 3 `The Last Hodler` in 029, preserving
-  `NO CONSENT BY ANALOGY` and the Bitcoin public myth / Elias pressure layer.
+- Next phase: draft Chapter 4 `Identity Flood` in 029, preserving
+  `PLURALITY IS NOT CONSENT`, compatible-self submission overload, Null-Key
+  pressure, and the H-1 sealed report hook.
 - User confirmation needed:
   - Not needed for each drafting sprint unless a new canon decision appears.
   - Required before `40_release/001_` active release promotion.
