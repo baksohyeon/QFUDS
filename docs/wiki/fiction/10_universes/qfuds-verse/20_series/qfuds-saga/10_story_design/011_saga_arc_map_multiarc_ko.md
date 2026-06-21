@@ -11,7 +11,12 @@ depends_on:
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_last_archive_reveal_architecture_ko
+  - qfuds_saga_cryptographic_death_era_and_crypto_concepts_ko
+  - qfuds_saga_first_arc_book1_outline_reboot_ko
+  - qfuds_saga_first_arc_scene_cards_ko
+  - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_arc_two_korean_primary_plan_ko
+  - qfuds_saga_arc_two_episode_map_ko
 next_gate: 1부 POV(사엘 능동화 vs 새 POV)를 작가가 확정하면 1부 origin 아웃라인을 별도 문서로 분기한다
 last_updated: 2026-06-21
 ---
@@ -26,7 +31,9 @@ last_updated: 2026-06-21
 를 배치한다. 정밀 아웃라인이며 소설 산문이 아니다.
 
 이번 개정의 핵심: **origin(The Broken Crown / 기준 작성권의 탄생)을 1부로 분리**하고
-나머지를 한 칸씩 뒤로 민다. Mara=2부, who-may-author-loss=3부.
+나머지를 한 칸씩 뒤로 민다. **Mara=2부, 기존 author-loss 원고 자산(025-027)=3부.**
+`who may author loss`는 **부 제목이 아니라 사가 전체 최상위 테마 SSOT**다(015). 부
+번호가 어떻게 밀리든 이 테마는 모든 부를 관통한다.
 
 ## 0. 재편 요약 (현재 → 새 구조)
 
