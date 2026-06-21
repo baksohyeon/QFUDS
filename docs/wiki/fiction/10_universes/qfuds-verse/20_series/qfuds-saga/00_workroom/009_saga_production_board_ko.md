@@ -114,3 +114,5 @@ brief.
 | 2026-06-21 | 030 reader-retention 9 persona 게이트 (중2/고2/일반/웹소설속독/순문학/문외한/안티AI/Chiang/SF) | 전원 완독·다음 편 진행=예; 공통 약점=B5b·B6 늘어짐, B3 인과 누락, AI-tell 경구 클러스터 | 윤문 패스 → 재검증 |
 | 2026-06-21 | 030 B3~B7 deep AI-tell (ai-tell-detector ×2) + 윤문 16건 | 1차 S1 4건/S2 7건 → 윤문 → 재검증 "새 S1 없음", 안티AI "사람이 쓴 것처럼=예", 순문학 전 지적 개선 | release 시 정식 retention 게이트 |
 | 2026-06-21 | 번호 physical cascade (011 §10) | 029 1부→2부, 025-027 2부→3부, _versions 동반 이동; 백링크·README(book1/2/3)·배너 일괄 갱신; validate_docs PASS | stable ID(파일명·arc_two doc_id) 보존 확인 |
+| 2026-06-21 | 029 reader-retention 6 persona (일반/웹소설속독/순문학/문외한/안티AI/SF) + ai-tell-detector ×2 | 전원 완독·진행=예; 강점 Ch1·Ch4·Ch6; 공통 약점=프롤로그 세계사 infodump, "X아니라Y" 안티테제 30+회·격언 마무리·Ch6 6연 anaphora | 피드백 통합 → [30_revisions/009] |
+| 2026-06-21 | 029 윤문 패스 13건 + 재검증 | 프롤로그 ~42→16줄 압축, Ch6 6연→3항, 격언/삼분/anaphora de-tell; 안티AI 재독 "프롤로그·Ch6 개선"; em dash 0·박- 0 | 인물 대사 안티테제·Ch5 강의는 release 게이트 잔여 |
