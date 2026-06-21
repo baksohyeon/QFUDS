@@ -98,7 +98,8 @@ not_extractable
   world-onboarding and causal-clarity pass after user feedback that the setting
   remained hard to understand. Second pass lowered key concepts to object-level
   analogies and clearer 2020s-to-far-future extrapolation.
-- Chapter 4-6: scene cards approved, prose not yet drafted in this reboot manuscript.
+- Chapter 4: drafted in this file.
+- Chapter 5-6: scene cards approved, prose not yet drafted in this reboot manuscript.
 - Release: 없음. `40_release/001_` manifest는 전체 한국어 원고, 영어 독립 각색판,
   shared continuity check, release-facing revision gate가 끝난 뒤에만 만든다.
 

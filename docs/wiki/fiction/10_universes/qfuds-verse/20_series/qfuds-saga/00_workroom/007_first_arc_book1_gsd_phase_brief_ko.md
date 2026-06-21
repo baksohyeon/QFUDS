@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_scene_cards_ko
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
-next_gate: draft Chapter 4 Identity Flood inside 029 first-arc reboot manuscript
+next_gate: draft Chapter 5 Hawking Court inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 

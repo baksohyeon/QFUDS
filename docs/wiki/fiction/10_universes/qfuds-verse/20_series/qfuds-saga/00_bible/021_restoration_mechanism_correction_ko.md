@@ -123,3 +123,6 @@ Research Asset and Product Workflow 적용. 창작 reference로 확인. state
   불가" 가드레일을 더해 보강한다(이 문서가 우선한다).
 - **029 reboot, 012 outline, 013 scene cards**: 이 정정을 따른다(ch4 이후 집필과
   기존 장 정합 점검에 적용).
+- **005, 002, 007, 011 (older bible)**: "완전 역연산/되살림" 표현이 아직 이 정정을
+  상속하지 않는다. 복원=사본 전제로 정합 대상이다(005 표제와 line 158, 002 line 151의
+  문구 처분은 작가 판단 항목).
