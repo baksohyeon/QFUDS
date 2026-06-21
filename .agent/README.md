@@ -25,11 +25,15 @@ cache description.
 ## Agent Workflow Index
 
 - [QFUDS Agent Workflows](workflows/README.md)
+- [Documentation Folder Routing Workflow](workflows/documentation-folder-routing-workflow.md)
 - [Wiki Maintenance Workflow](workflows/wiki-maintenance-workflow.md)
 - [Research Asset and Product Workflow](workflows/research-asset-product-workflow.md)
+- [Fiction IP Management Workflow](workflows/fiction-ip-management-workflow.md)
+- [Agentic Fiction Production Workflow](workflows/agentic-fiction-production-workflow.md)
+- [Fiction Templates](templates/fiction/README.md)
 
 ## Routing Rule
 
 Before making any research, literature, data-product, asset, extraction,
-coverage, or postmortem claim, read the relevant workflow under
+coverage, fiction-IP, or postmortem claim, read the relevant workflow under
 [workflows/](workflows/README.md).

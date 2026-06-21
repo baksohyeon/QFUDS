@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-19
+last_updated: 2026-06-21
 ---
 
 # Wiki Content Index
@@ -73,21 +73,47 @@ and
 
 - [Wiki Fiction](fiction/README.md) - index for separate fiction companion
   tracks derived from provenance records.
-- [QFUDS SAGA](fiction/qfuds-saga/README.md) - active fiction-system track for
-  the QFUDS-inspired SAGA; not research evidence.
-- [QFUDS SAGA 창작 시스템](fiction/qfuds-saga/system/001_agentic_saga_system_ko.md)
-  - AI writers' room, MCP candidates, and user-confirmation workflow.
-- [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/qfuds-saga/system/002_world_direction_matrix_ko.md)
-  - world-direction comparison for Nested Cosmology, closed-world revelation,
-    deep-time empire, tactical philosophy SF, and it-from-bit mythos.
-- [QFUDS SAGA 장기 복원 문명사 타임라인](fiction/qfuds-saga/system/003_deep_time_restoration_timeline_ko.md)
-  - deep-time restoration civilization timeline for the SAGA bible backbone.
-- [QFUDS SAGA 세력 문화 권력 생태계 장부](fiction/qfuds-saga/system/004_factions_cultures_power_ecology_ko.md)
-  - factions, communities, political power, religion-inspired language, and
-    restoration-economy ecology for the SAGA bible backbone.
-- [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/qfuds-saga/system/005_narrative_pov_theme_naming_ko.md)
-  - narrative POV decision rationale, core theme, historical borrowing rules,
-    and common/formal naming strata before the SAGA bible.
+- [Fiction IP 관리 시스템](fiction/00_studio/001_fiction_ip_management_system_ko.md)
+  - fiction studio/IP management guide for universes, continuity, works,
+    bibles, story design, drafts, releases, and archives.
+- [Fiction GSD 계획 브리지](fiction/00_studio/002_gsd_planning_bridge_ko.md)
+  - bridge document for using GSD planning as execution management without
+    replacing fiction/IP classification.
+- [Fiction GSD 하네스 운영 가이드](fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
+  - step-by-step guide for starting fiction/IP tasks through workflow
+    classification, GSD phase checks, validation, and commit boundaries.
+- [Fiction Agentic Workflow Guide](fiction/00_studio/011_fiction_agentic_workflow_guide_ko.md)
+  - short operational entry guide for active fiction production, README roles,
+    agent workflows, harnesses, hooks, and gates.
+- [한국어 소설 문장 자연스러움 하네스](fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
+  - Korean-primary prose naturalness, translationese, AI-tell, and polish
+    harness.
+- [Fiction Reader Onboarding Harness](fiction/00_studio/010_reader_onboarding_harness_ko.md)
+  - technical/legal/institutional concept onboarding rules for fiction scenes.
+- [Fiction Catalog](fiction/01_catalog/README.md)
+  - active fiction shelf, work list, migration record, and next task candidates.
+- [QFUDS Verse](fiction/10_universes/qfuds-verse/README.md)
+  - universe/IP scaffold for QFUDS-derived fiction works.
+- [QFUDS SAGA](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) - active publisher-style fiction
+  track for the QFUDS-inspired SAGA; not research evidence.
+- [QFUDS SAGA Production Board](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)
+  - current execution state for active SAGA production.
+- [QFUDS SAGA Draft Map](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
+  - current active drafts, prototype versions, and archive split.
+- [QFUDS SAGA Revision Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md)
+  - release-facing revision plans, continuity-fix passes, and line-edit
+    controls for SAGA drafts.
+- [QFUDS SAGA Release Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
+  - active release manifest/export shelf. Current first arc has 029 as the active
+    reboot draft, while release remains blocked until continuity, counterpart,
+    and release gates pass.
+- [Fiction Archive](fiction/90_archive/README.md) - archived fiction prototypes
+  preserved for provenance, including the original lineage-hosted Laur
+  Observatory saga.
+- [QFUDS Fiction Saga Archive](fiction/90_archive/lineage-prototype/README.md)
+  - original Laur Observatory prototype with branch map and early episodes;
+    fiction/provenance only.
+
 ## Postmortems
 
 - [Wiki Postmortems](postmortem/README.md) - index for process-failure records.
