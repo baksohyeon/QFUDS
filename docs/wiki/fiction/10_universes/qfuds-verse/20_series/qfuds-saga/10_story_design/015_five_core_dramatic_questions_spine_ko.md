@@ -20,7 +20,7 @@ last_updated: 2026-06-21
 ## 이 문서의 역할 (주제 SSOT)
 
 origin=1부 / Mara=2부 재구조화에 앞서, **사가 전체가 답해 가는 5개 극적 질문**을 한
-장에 못박는다. 아크 번호가 어떻게 밀리든 이 5개는 안 흔들린다. 새 설정을 만들지
+장에 고정한다. 아크 번호가 어떻게 밀리든 이 5개는 안 흔들린다. 새 설정을 만들지
 않고 기존 캐논([022 기준 작성권](../00_bible/022_authorship_of_the_standard_theme_axis_ko.md)
 중심 + [021](../00_bible/021_restoration_mechanism_correction_ko.md)·[020](../00_bible/020_ai_automation_human_in_the_loop_ssot_ko.md)·[010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)·[002](../00_bible/002_deep_time_restoration_timeline_ko.md)·[016](../00_bible/016_character_ensemble_voices_relationships_ko.md))에서
 끌어와 정리한 것이다. 아크 맵([011](011_saga_arc_map_multiarc_ko.md))과 아웃라인은
