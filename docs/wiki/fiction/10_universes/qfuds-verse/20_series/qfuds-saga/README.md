@@ -15,6 +15,16 @@ last_updated: 2026-06-21
 
 # QFUDS SAGA
 
+## 여기서 시작 (5초 요약)
+
+- **qfuds-verse** = 세계(IP). **qfuds-saga** = 그 세계에서 쓰는 첫 장편 소설(작품).
+  비유: qfuds-verse가 마블 유니버스라면, qfuds-saga는 그 안의 영화 한 편.
+- 경로: `10_universes/qfuds-verse`(세계) 아래 `20_series/qfuds-saga`(작품).
+- **무엇을 보나:** 이야기 읽기는 `40_release/002` 원고. 설정 이해는 `00_bible/`.
+  전체 목차는 이 README 아래 "먼저 읽을 것".
+- **서랍(폴더) 역할:** 00_workroom 운영규칙 · 00_bible 설정집 · 10_story_design 기획 ·
+  20_drafts 원고 초안 · 30_revisions 퇴고 · 40_release 완성본.
+
 이 폴더는 QFUDS에서 파생된 별도 창작 트랙이자 `qfuds-verse`의 canonical
 series work다.
 

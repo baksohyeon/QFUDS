@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_canon_consolidation_ko
   - qfuds_saga_factions_canon_naming_ko
 next_gate: differentiate dialogue per this sheet across 1부 (R2 voice pass)
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 앙상블 캐릭터 보이스·관계 바이블
@@ -97,9 +97,12 @@ last_updated: 2026-06-20
 
 ## Canon 정합 메모
 
-- 중개인 이름은 **Pell**로 통일한다(1부 `Pell Anson`, 후속 `Pell`). 다른 표기
-  (예: Voss)가 초고에 남아 있으면 Pell로 교정한다. 장부 가문 = House of Keys /
-  Domus Clavium([015](015_factions_canon_naming_ko.md)).
+- **Pell Anson(장부 가문 중개인)과 Voss(Sarqel Trust 변호인)는 서로 다른 인물이다.**
+  통합하지 않는다(이전 메모의 "Voss→Pell 교정" 지시는 오류였다 — 둘은 다른 세력의
+  다른 캐릭터다). Pell은 1부 `Pell Anson`, 후속 `Pell`로 표기 통일.
+- 장부 가문 이름: 프로즈는 `장부 가문`/`House Tabularii`를 쓰고, bible
+  [015](015_factions_canon_naming_ko.md)는 `Domus Clavium`으로 적었다. **정합
+  필요(미해결)** — 독자가 보는 프로즈 이름으로 통일할지 결정 대기.
 - 영어 일반명사(`mark`, `evidence` 등)는 본문에서 한국어로 옮긴다. `mark`는
   "표식"으로 통일. 고유명사·필드 마크·기술어만 영어 유지.
 - 민감한 정체성·정치 주제는 인물 설정에 끌어들이지 않는다(작가 지시).
