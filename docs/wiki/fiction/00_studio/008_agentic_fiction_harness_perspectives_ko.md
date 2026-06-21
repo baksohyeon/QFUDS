@@ -8,11 +8,20 @@ evidence_role: provenance
 depends_on:
   - fiction_ip_management_system_ko
   - fiction_gsd_harness_operator_guide_ko
-next_gate: keep in sync with fiction-ip-management-workflow updates
+next_gate: reference only; active fiction work starts at 011_fiction_agentic_workflow_guide_ko
 last_updated: 2026-06-21
 ---
 
 # 에이전틱 픽션 하네스 4관점 정리
+
+## 운영 상태
+
+이 문서는 agentic fiction harness를 에이전트·작가·독자·협업 관점으로 풀어쓴 해설
+문서다. active fiction 작업의 시작점은
+[Fiction Agentic Workflow Guide](011_fiction_agentic_workflow_guide_ko.md)다.
+
+작가가 오늘 무엇을 쓸지 정하려면 이 문서를 읽기보다 SAGA README와 production board를
+먼저 확인한다. 이 문서는 왜 그런 구조를 쓰는지 설명이 필요할 때만 본다.
 
 이 문서는 QFUDS 픽션 제작 시스템을 네 관점에서 설명한다. 같은 하네스를
 **에이전트·작가·독자·협업**이 각각 어떻게 보는지 분리해 두면, 새 세션이나

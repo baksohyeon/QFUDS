@@ -9,11 +9,21 @@ depends_on:
   - fiction_ip_management_system_ko
   - fiction_gsd_planning_bridge_ko
   - wiki_fiction_index
-next_gate: use this guide before starting the next fiction GSD phase
-last_updated: 2026-06-20
+next_gate: reference only; active fiction work starts at 011_fiction_agentic_workflow_guide_ko
+last_updated: 2026-06-21
 ---
 
 # Fiction GSD 하네스 운영 가이드
+
+## 운영 상태
+
+이 문서는 GSD phase를 실제로 열거나 점검해야 할 때 보는 상세 참고 문서다. active
+fiction 작업의 시작점은
+[Fiction Agentic Workflow Guide](011_fiction_agentic_workflow_guide_ko.md)다.
+
+작가가 오늘 무엇을 쓸지 정하려면 이 문서가 아니라 SAGA README와 production board를
+먼저 본다. 이 문서는 GSD, phase brief, validation, commit boundary가 필요한
+작업에서만 연다.
 
 ## 목적
 

@@ -33,6 +33,10 @@ last_updated: 2026-06-21
 
 ## Current Shelves
 
+이 catalog는 active work 목록과 shelf 상태만 관리한다. 오늘 무엇을 할지는
+[SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)가
+정한다.
+
 | Shelf | Path | Role | Status |
 | --- | --- | --- | --- |
 | Studio system | [../00_studio/](../00_studio/) | fiction/IP 관리, GSD bridge, craft harness | active |
@@ -47,42 +51,14 @@ last_updated: 2026-06-21
 | QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active series work | Check the SAGA README, production board, and latest story_design/draft map before choosing the next unit |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
-## Target Structure
-
-새 major fiction work는 장기적으로 아래 구조를 따른다.
-
-```text
-docs/wiki/fiction/
-  01_catalog/
-  10_universes/
-    <universe-id>/
-      README.md
-      00_continuity/
-      10_world/
-      20_series/
-      30_shorts/
-      40_anthologies/
-      50_elseworlds/
-```
-
-기존 top-level `qfuds-saga/`와 `archive/`는 이동 완료 후 삭제됐다. 새 작업은
-canonical 경로에만 만들고, 옛 경로를 재생성하지 않는다.
-
 ## Migration Decision Record
 
-`qfuds-verse` scaffold와 기존 SAGA/archive 이동에 대한 결정은 아래와 같다.
+`qfuds-saga`와 legacy archive는 canonical fiction 구조로 이동 완료됐다. 새 작업은
+canonical 경로에만 만들고, 옛 top-level `qfuds-saga/` 또는 `archive/` 경로를
+재생성하지 않는다.
 
-1. Universe/IP id: `qfuds-verse`
-2. Continuity policy: `active prototype`이며 canon은 아직 닫지 않는다.
-3. Work id: `qfuds-saga`
-4. Work format: long-form SAGA / series candidate
-5. Work README contract: 기존 SAGA README를 series work README로 승격한다.
-6. Existing shelf policy: 기존 `qfuds-saga/`는 canonical path로 이동하고,
-   old path는 삭제한다.
-7. Archive policy: `archive/`는 `90_archive/`로 이동하고, old path는
-   삭제한다.
-8. Internal shelf policy: SAGA 내부는 `00_workroom/`, `00_bible/`,
-   `10_story_design/`, `20_drafts/`, `30_revisions/`, `40_release/`를 사용한다.
+SAGA 내부 shelf는 `00_workroom/`, `00_bible/`, `10_story_design/`, `20_drafts/`,
+`30_revisions/`, `40_release/`를 사용한다.
 
 ## Workflow Boundary
 
@@ -106,10 +82,9 @@ not_extractable
 1. 작업 시작 전 [Fiction Agentic Workflow Guide](../00_studio/011_fiction_agentic_workflow_guide_ko.md)를 읽고,
    [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)의
    현재 unit을 확인한다.
-2. 원고 작업은 [SAGA README](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md)와
-   [20_drafts 지도](../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)가
-   가리키는 active draft에서만 시작한다.
-3. arc 번호 cascade가 걸린 draft README는 011/016/017 계열 story design과 사용자 승인 후
+2. 원고 작업은 [SAGA README](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md)와 production board가
+   가리키는 active unit에서만 시작한다.
+3. arc 번호 cascade가 걸린 draft README는 story design과 사용자 승인 후
    별도 pass로 정리한다.
 4. `40_release/001_` active release는 한국어 primary, 영어 독립 각색판, shared continuity
    check, release-facing revision gate 이후에만 만든다.

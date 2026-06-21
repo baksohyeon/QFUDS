@@ -11,7 +11,7 @@ depends_on:
   - fiction_gsd_harness_operator_guide_ko
   - fiction_korean_fiction_prose_naturalness_harness_ko
   - fiction_reader_onboarding_harness_ko
-next_gate: use as the short entry guide before active fiction production work
+next_gate: use as the single operating hub before active fiction production work
 last_updated: 2026-06-21
 ---
 
@@ -19,9 +19,21 @@ last_updated: 2026-06-21
 
 ## 역할
 
-이 문서는 fiction 작업을 시작할 때 읽는 짧은 운영 지도다. 기존 README, workflow,
-GSD brief, craft harness를 대체하지 않는다. 각 문서가 맡는 일을 한 화면에 정리해
-작가와 에이전트가 같은 순서로 움직이게 한다.
+이 문서는 fiction 작업을 시작할 때 읽는 단일 운영 허브다. 기존 README, workflow,
+GSD brief, craft harness를 대체하지 않는다. 대신 작가와 에이전트가 매번 어디서
+시작하고 무엇을 확인해야 하는지 한 화면에 고정한다.
+
+작가 입장에서는 이 문서를 지나치게 오래 읽으면 실패다. 여기서 할 일은 하나다.
+
+```text
+011에서 시작점을 확인한다
+-> SAGA production board에서 오늘 작업을 본다
+-> 필요한 canon/story_design/draft만 연다
+-> 009/010 품질 하네스로 원고 진입 전 결함을 막는다
+```
+
+README는 길 안내판이다. 실제 운영 허브는 이 문서이고, 오늘 작업판은 production
+board다.
 
 Boundary:
 
@@ -40,8 +52,9 @@ external source claim: no
 | 라우팅 권위 | [Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md) | fiction 문서가 어느 shelf에 속하는지 결정 |
 | 실행 권위 | [Agentic Fiction Production Workflow](../../../../.agent/workflows/agentic-fiction-production-workflow.md) | production board, intent card, review wave, chronicler pass 순서 결정 |
 | agent skill | [fiction-production skill](../../../../.agents/skills/fiction-production/SKILL.md) | 다음 세션 에이전트의 필수 읽기 순서 |
-| 사람이 보는 입구 | [Wiki Fiction](../README.md) | fiction 전체 shelf navigation |
+| 사람이 보는 입구 | [Wiki Fiction](../README.md) | fiction 전체 shelf map |
 | active work 입구 | [QFUDS SAGA](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md) | 현재 SAGA 작업 선반과 읽기 경로 |
+| 오늘 작업판 | [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md) | active unit, next action, risks |
 
 충돌하면 `.agent/workflows/`가 이긴다. README는 사람이 보는 지도이고, 실행 권위가
 아니다.
@@ -59,6 +72,9 @@ roadmap
 -> production board
 -> relevant intent card / story design / bible / draft
 ```
+
+문서 정리나 navigation 작업처럼 원고를 건드리지 않는 경우에도 같은 원칙을 따른다.
+단, production board 상태 자체를 바꿀 필요가 없으면 링크만 확인하고 넘어간다.
 
 원고나 큰 outline 작업이면 아래도 적용한다.
 
