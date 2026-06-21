@@ -44,7 +44,7 @@ story_design 008이 보유한다. 이 문서는 그 빅이벤트를 독자에게
 | Ensemble/serial thread | 엔진은 후일 Last Archive가 되는 떡밥(미노출), 사엘의 죽은 아버지는 복원 욕망의 씨앗, 마지막 문단이 Exhibit S-0(Mara)로 직결 |
 | Standalone ban | 이 사건은 도시의 기원일 뿐 해결이 아니다. 독자는 다음 편에서 그 도시로 돌려보내진 Mara를 따라가야 한다 |
 
-## The Broken Crown
+## 프롤로그: The Broken Crown
 
 검증실은 언제나 추웠다. 진짜를 다루는 방은 추워야 한다고, 아주 오래전 누군가
 정해 두었고, 그 뒤로 아무도 그 규칙을 고치지 않았다.
