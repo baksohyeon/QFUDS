@@ -47,7 +47,7 @@ story bible, Narrative First throughline, September C. Fawkes(Swain), savethecat
 | 레이어 | 무엇 | 현 위치 / 상태 |
 | --- | --- | --- |
 | 전제·중심 질문·throughline | 시리즈를 관통하는 단일 질문 | [009 진행/throughline](../10_story_design/009_format_throughline_and_progress_ko.md) |
-| 아크 맵·상승 사다리 | 부/편별 판돈이 어떻게 커지나 | 1부 [006](../10_story_design/006_first_arc_six_episode_outline_ko.md), 2부 [010](../10_story_design/010_arc_two_episode_map_ko.md) |
+| 아크 맵·상승 사다리 | 부/편별 판돈이 어떻게 커지나 | 1부 [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md), 2부 [010](../10_story_design/010_arc_two_episode_map_ko.md), 다부작 [011](../10_story_design/011_saga_arc_map_multiarc_ko.md) |
 | 인물 앙상블·목소리·관계 | 인물별 보이스 키, 관계도 | [016 캐릭터 바이블](../00_bible/016_character_ensemble_voices_relationships_ko.md) |
 | 세계·연표·세력 canon | 설정 정합 | [010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)·[011](../00_bible/011_chronology_restoration_admin_black_hole_seat_ko.md)·[015](../00_bible/015_factions_canon_naming_ko.md) |
 | 떡밥/회수 원장 | 심은 단서와 회수 지점 추적 | **신규 필요**(아래 §떡밥 원장) |

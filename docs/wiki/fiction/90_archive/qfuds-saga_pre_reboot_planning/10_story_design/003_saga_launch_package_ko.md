@@ -12,7 +12,7 @@ depends_on:
   - qfuds_saga_narrative_pov_theme_naming_ko
   - qfuds_saga_cryptographic_death_and_hash_covenant_ko
 next_gate: user chooses first arc and protagonist before prose expansion
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 출범 패키지
@@ -31,7 +31,7 @@ launch package다.
 기존 repo fiction 문서와 기존 research-boundary 문서만 통합했다.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Workflow state:
 

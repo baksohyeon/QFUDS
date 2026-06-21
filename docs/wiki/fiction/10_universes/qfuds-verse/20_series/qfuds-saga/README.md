@@ -179,7 +179,7 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 
 1. [QFUDS SAGA 창작 시스템](00_workroom/001_agentic_saga_system_ko.md)
    - AI writers' room, MCP 후보, 사용자 승인 게이트, 연구/창작 경계.
-2. [QFUDS SAGA 세계관 방향 선택 매트릭스](10_story_design/001_world_direction_matrix_ko.md)
+2. [QFUDS SAGA 세계관 방향 선택 매트릭스](../../../../90_archive/qfuds-saga_pre_reboot_planning/10_story_design/001_world_direction_matrix_ko.md) (reboot 이전 기획·아카이브)
    - Nested Cosmology, closed-world revelation, deep-time empire, tactical
      philosophy SF, it-from-bit mythos 후보 비교.
 3. [QFUDS SAGA 세계 기준점과 핍진성 규칙](00_bible/001_world_anchor_and_verisimilitude_ko.md)
@@ -211,7 +211,7 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - `The Broken Crown` first arc rough draft set에서 생긴 field mark chain,
       인물/세력 기능, science-fiction boundary, arc two hook, revision checklist를
       정리한 series-bible bridge.
-11. [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
+11. [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](../../../../90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md) (reboot 이전 기획·아카이브)
    - Mara Veyr 프롤로그를 쓰기 전, 소설 craft, COVID 이후 digital afterlife,
      right to be forgotten, AI reality editing, Bitcoin artifact, science-audit
      경계를 묶는 writer harness.
@@ -225,19 +225,19 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 14. [QFUDS SAGA 시각 전시물 설계](10_story_design/002_visual_exhibit_design_ko.md)
     - 기존 rough-tanh PNG/SVG asset을 court exhibit, archive plate, visual
       metaphor로 쓰는 후보와 caption 규칙. fiction/provenance only.
-15. [QFUDS SAGA 출범 패키지](10_story_design/003_saga_launch_package_ko.md)
+15. [QFUDS SAGA 출범 패키지](../../../../90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md) (reboot 이전 기획·아카이브)
     - SAGA를 첫 작품 기획으로 옮기는 launch package. 핵심 질문, first arc,
       주인공 후보, 첫 episode hook, 세력 기능, technical kill-switch,
       non-canon 항목을 정리한다.
-16. [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
+16. [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](../../../../90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md) (reboot 이전 기획·아카이브)
     - `Exhibit S-0` working title의 first episode beat sheet. Liora 중심
       장면 순서, 인물 압력, reveal order, technical guard, 다음 draft 후보를
       정리한다.
-17. [QFUDS SAGA Genesis Chain 유물 장면 패킷](10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
+17. [QFUDS SAGA Genesis Chain 유물 장면 패킷](../../../../90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md) (reboot 이전 기획·아카이브)
     - Bitcoin/Genesis Chain을 zero price, crown artifact, broken
       cryptography, black-hole restoration myth로 나누어 first arc 장면
       압력으로 바꾸는 development packet.
-18. [QFUDS SAGA 첫 Arc 6화 Outline](10_story_design/006_first_arc_six_episode_outline_ko.md)
+18. [QFUDS SAGA 첫 Arc 6화 Outline](../../../../90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md) (reboot 이전 기획·아카이브)
     - `The Broken Crown` 첫 arc를 여섯 episode로 나누어 Mara Veyr, Genesis
       Chain, Cryptographic Death, Identity Flood, Hawking Court를 단계적으로
       배치한 development outline.
@@ -343,17 +343,17 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
       authorship/inventorship, A-corp 논쟁의 allowed/blocked claim과 workflow
       state를 관리한다.
     - 짝 문서: [Last Archive 기원과 역연산 인과·이념사](00_bible/010_last_archive_origin_and_reversal_causality_ko.md)
-      — Aletheia Systems/창업자 Adrian Karvath(아이언맨·머스크형 매드 사이언티스트,
+      - Aletheia Systems/창업자 Adrian Karvath(아이언맨·머스크형 매드 사이언티스트,
       동력핵 the Arc)의 폭주 후신이 Last Archive·Laur·Aletheia Veil이 됨; 강제
       업로드된 비서 Vera가 핵; 비트코인 중심 인과(C2PA·블록체인 공증→포획→역산);
       AGI는 없다(합의의 신격화, SSOT 없음); 죽음의 평등.
     - 짝 문서: [연표·복원 행정·블랙홀 본거지](00_bible/011_chronology_restoration_admin_black_hole_seat_ko.md)
-      — 지수→로그 기술곡선과 deep-time 연표, 복원 행정 절차·세대 해상도(낙인·계급),
+      - 지수→로그 기술곡선과 deep-time 연표, 복원 행정 절차·세대 해상도(낙인·계급),
       Last Archive의 은하 중심 블랙홀 본거지(홀로그래피=최대 정보 저장).
     - 짝 문서: [Last Archive 반전 설계](10_story_design/008_last_archive_reveal_architecture_ko.md)
-      — 옵션 3(합의의 신격화)을 반전으로 터뜨리는 3막 속임·떡밥 9개·페어플레이.
+      - 옵션 3(합의의 신격화)을 반전으로 터뜨리는 3막 속임·떡밥 9개·페어플레이.
     - 짝 문서: [형식·throughline·진행 상태](10_story_design/009_format_throughline_and_progress_ko.md)
-      — 덴마식 단편→대하 사가 형식, 시리즈 관통 질문, 1부 6편 드래프트 완료 현황.
+      - 덴마식 단편→대하 사가 형식, 시리즈 관통 질문, 029 reboot 진행 현황(프롤로그+Ch1~5).
 47. [QFUDS SAGA Arc Two Korean-Primary Plan](10_story_design/007_arc_two_korean_primary_plan_ko.md)
     - `who may author loss` 이후 2부를 열기 위한 최소 설계. 보호 미결 교리가
       시장, 신청서, 계급 경계가 되는 위험을 025의 장면 목표로 고정한다.

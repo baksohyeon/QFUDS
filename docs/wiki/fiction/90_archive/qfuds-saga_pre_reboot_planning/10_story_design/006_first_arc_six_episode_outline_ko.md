@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_genesis_chain_artifact_scene_packet_ko
   - qfuds_saga_cryptographic_death_and_hash_covenant_ko
 next_gate: use Korean-primary prose before future English Anglophone adaptation
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 첫 Arc 6화 Outline
@@ -38,7 +38,7 @@ Mara Veyr, Hawking restoration, QFUDS는 모두 fiction/provenance 소재다.
 기존 SAGA 문서와 사용자 제공 소재만 사용한다.
 
 외부 source 처리는 계속
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)가
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)가
 관장한다.
 
 Workflow state:

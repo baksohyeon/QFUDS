@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_cryptographic_death_and_hash_covenant_ko
   - qfuds_saga_liora_sen_first_episode_beat_sheet_ko
 next_gate: user chooses whether this packet feeds the first episode or first arc outline
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Genesis Chain 유물 장면 패킷
@@ -35,7 +35,7 @@ artifact로 읽힌다.
 사용자 제공 소재와 기존 SAGA 문서만 정리한다.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Workflow state:
 

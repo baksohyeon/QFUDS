@@ -41,7 +41,7 @@ source로만 사용한다. 새 연구 asset, numerical product, PDF digitization
 QFUDS evidence claim을 만들지 않는다.
 
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)
 가 계속 지배한다.
 
 현재 workflow state:
@@ -374,7 +374,7 @@ courtroom ritual
 ## Next Executable Task
 
 사용자가 위 checklist를 승인하면 다음 작업은
-[QFUDS SAGA Mara Veyr Prologue Draft](../../../../../90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)
+[QFUDS SAGA Mara Veyr Prologue Draft](../../qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)
 작성이다.
 
 그 문서는 설명 문서가 아니라 실제 소설 장면이어야 한다. 첫 문단 안에 장면,

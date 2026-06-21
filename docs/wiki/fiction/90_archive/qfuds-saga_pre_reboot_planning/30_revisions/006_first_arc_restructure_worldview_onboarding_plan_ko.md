@@ -21,7 +21,7 @@ last_updated: 2026-06-21
 없다.** 프로즈가 자기 설정을 독자가 이미 안다고 가정해(예: "Genesis 표정"),
 "엥 비트코인? 깨졌다고? 갑자기 부활?"이 납득되지 않는다. 핍진성 결함이다.
 
-논리 사슬 자체는 [bible 009](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)에
+논리 사슬 자체는 [bible 009](../../../10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)에
 이미 정본으로 있다(§1.5 사다리, §2 단방향→비가역성 다리, §3 노출 5단,
 해시≠서명 정확 구분). **문제는 그 정본이 페이지로 전달되지 않은 것.** 이 계획은
 009를 1부 전 편에 집행한다.

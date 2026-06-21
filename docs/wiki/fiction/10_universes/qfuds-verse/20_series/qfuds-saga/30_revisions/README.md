@@ -35,7 +35,16 @@ control, continuity fix pass를 둔다.
      충족/누락/후속 차단 조건을 대조한 감사 기록.
 4. [Series Bible Drift Alignment Audit](008_series_bible_drift_alignment_audit_ko.md)
    - 001-020 bible 전체를 점검해 후보/승인 전/영어 rough/Bitcoin dead-relic drift를
-     최신 active canon(015·017·018·028 story order)에 맞춘 감사 기록.
+     최신 active canon(015·017·018 story order)에 맞춘 감사 기록.
+5. [1부 통합 아웃라인(provenance)](007_first_arc_integration_outline_ko.md)
+   - in-place 통합 시도 기록. 012/013/029 reboot로 대체됨(provenance 보존).
+
+## 아카이브됨 (reboot로 중단)
+
+R3/R4/R6 in-place 퇴고 계획(004 구조 패스, 005 격언·의식 패스, 006 세계관 온보딩
+재구성)은 outline-first reboot로 경로가 중단되어
+[90_archive/qfuds-saga_pre_reboot_planning/30_revisions/](../../../../../90_archive/qfuds-saga_pre_reboot_planning/README.md)로
+보존했다. 현행 1부 작업은 [029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서 진행한다.
 
 ## Boundary
 

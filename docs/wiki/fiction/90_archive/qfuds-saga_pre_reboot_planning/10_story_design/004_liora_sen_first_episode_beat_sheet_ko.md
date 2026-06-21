@@ -10,7 +10,7 @@ depends_on:
   - fiction_creative_writing_craft_harness_ko
   - qfuds_saga_narrative_pov_theme_naming_ko
 next_gate: user approves first episode beat order before English prose draft
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Liora Sen 첫 Episode Beat Sheet
@@ -34,7 +34,7 @@ last_updated: 2026-06-20
 기존 repo fiction 문서와 launch package만 사용했다.
 
 External-source handling remains governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Workflow state:
 
@@ -200,4 +200,4 @@ not searched
 | Source | Used for | Workflow state |
 | --- | --- | --- |
 | [QFUDS SAGA Launch Package](003_saga_launch_package_ko.md) | first episode protagonist, hook, faction pressure, technical guard | `not searched` |
-| [창작 문예 하네스](../../../../../00_studio/004_creative_writing_craft_harness_ko.md) | beat, scene purpose, character want, obstacle, turn, cost | `not searched` |
+| [창작 문예 하네스](../../../00_studio/004_creative_writing_craft_harness_ko.md) | beat, scene purpose, character want, obstacle, turn, cost | `not searched` |

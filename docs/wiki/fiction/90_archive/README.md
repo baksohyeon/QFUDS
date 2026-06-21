@@ -25,6 +25,9 @@ back into the active track.
    Observatory fiction companion that originally lived under `docs/wiki/lineage/`.
 2. [QFUDS SAGA 1부 1세대 아카이브](qfuds-saga_1부_legacy/README.md) - the dead
    first-generation 1부 drafts (001-011, 018) superseded by the 029 reboot.
+3. [QFUDS SAGA reboot 이전 기획 아카이브](qfuds-saga_pre_reboot_planning/README.md) -
+   pre-reboot planning/revision docs (story_design 001·003-006, 30_revisions
+   004-006, workroom 002) absorbed by the 012/013/029 reboot.
 
 ## Boundary
 

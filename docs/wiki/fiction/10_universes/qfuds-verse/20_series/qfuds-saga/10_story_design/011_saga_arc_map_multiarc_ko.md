@@ -26,8 +26,10 @@ last_updated: 2026-06-21
 이미 보유한 정본을 다시 적지 않고, 흩어진 아크 골격을 하나의 관통선 아래로
 정렬·통합한다.
 
-상위 골격만 정한다. 에피소드 단위 정본은 각 하위 문서가 보유한다. Arc 1 에피소드
-구조는 [006 첫 Arc 6화 Outline](006_first_arc_six_episode_outline_ko.md), Arc 2
+상위 골격만 정한다. 에피소드 단위 정본은 각 하위 문서가 보유한다. Arc 1 구조는
+[012 Book 1 reboot 아웃라인](012_first_arc_book1_outline_reboot_ko.md)과
+[013 scene cards](013_first_arc_scene_cards_ko.md)가 보유한다(reboot 이전 6화
+아웃라인 006은 90_archive로 보존). Arc 2
 계약·맵은 [007 Arc Two Korean-Primary Plan](007_arc_two_korean_primary_plan_ko.md)과
 [010 2부 에피소드 맵](010_arc_two_episode_map_ko.md)이 보유한다. 본 문서는 그
 위에 Arc 3 이후까지 잇는 단일 뼈대를 얹는다.
@@ -98,7 +100,7 @@ not_extractable
 
 | 아크 | 표면 질문(축약) | 닫는 필드 마크 | 정본 위치 | 상태 |
 | --- | --- | --- | --- | --- |
-| Arc 1 | 복원 가능하면 청구 가능한가 | `who may author loss` | 006, 008 첫 arc canon | 6편 드래프트 완료 |
+| Arc 1 | 복원 가능하면 청구 가능한가 | `who may author loss` | 012·013, 008 | 029 프롤로그+Ch1~5, Ch6 남음 |
 | Arc 2 | 누가 상실을 쓸 수 있는가 | ep6에서 확정(제안 단계) | 007, 010 | ep1·2 완료, ep3~6 proposed |
 | Arc 3(후보) | 누가 기원을 소유하는가 | 집필 시 확정 | 본 문서 §5 | 후보 |
 | Arc 4(후보) | 누가 답하는 자인가 | 집필 시 확정 | 본 문서 §6 | 후보 |
