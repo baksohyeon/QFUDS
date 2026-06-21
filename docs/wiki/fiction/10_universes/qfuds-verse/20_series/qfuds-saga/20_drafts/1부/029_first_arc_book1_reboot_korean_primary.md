@@ -3225,3 +3225,16 @@ PENDING / NOT VOID
   아니라 Liora의 내부 감사 경고다. 029는 Mara를 반환하지 않는 데 성공하지만, 자비의
   문법이 비용·신탁·대행 시장으로 포획될 위험을 남긴다. 이는 기존 author-loss 자산
   025-027이 신규 구조의 3부로 밀리는 이유와 연결된다.
+- Cross-arc handoff(1부 origin → 2부 Mara, 2026-06-21): 신규 1부 origin
+  [030](030_origin_arc_sael_korean_primary.md) B1~B7 초고가 완성되어, 사엘의 B4
+  오비준이 세운 선례 문장 `복원 가능한 것은 청구 가능하다`가 이 029 Mara 청구의
+  upstream 근거로 정합된다. 030 B7에서 첫 사람-복원 청구의 근거 칸에 그 문장이 그대로
+  인용되고 대상으로 `마라 베이르`가 호명된다. 029의 `Ledger state unaltered /
+  exclusive signing control collapsed`·`ACCESS != AUTHORITY`는 030의 독점 서명권
+  붕괴(B3)·도장이 구조가 됨(B6)과 같은 인과선이다. 029 Prologue(Sael/Broken Crown,
+  Genesis route)는 provenance로 보존하고, 능동 origin 기능은 030이 담당한다(011 §10,
+  029 Cascade Drift Banner). 물리 폴더 cascade와 029의 2부 재배치는 이 closing pass가
+  아니라 별도 cascade pass가 보유한다(no prose rewrite this pass).
+- Release 잔여 게이트(완결 초고 이후): 번호 physical cascade, release-facing reader
+  retention 페르소나 게이트(fiction-ip-management-workflow §Reader Retention Test),
+  영어 Anglophone 각색판. 이번 sprint 범위는 1부+2부 한국어 primary 초고 완결까지.

@@ -40,23 +40,23 @@ install external tools: no
 
 | Field | Value |
 | --- | --- |
-| Active unit | 병렬 작업: 029 Mara/Book 1 Ch6 completion on `codex/complete-029-book1`; 030 origin draft remains separate active origin asset |
+| Active unit | first-arc 완결 sprint on `complete-first-arc-novel`: 030 origin(1부) B1~B7 초고 완성; 029(2부 Mara)는 closing pass(continuity/AI-tell/reader-sim) 대상 |
 | Phase | `draft` -> `review` |
-| Owner mode | `writer` + `reader-sim` + `continuity` |
-| Status | `in_progress`; 029 Ch6 drafted, review/chronicler/verification pending |
-| Failure reason | 029는 canonical 2부 Mara 자산이지만 물리 경로는 legacy `1부/`; 030 병렬 수정도 존재 |
-| Next action | 029 Ch6 자연스러움/continuity pass, then commit branch; do not physical-cascade in this pass |
-| Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011` |
-| Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md` |
-| Approval needed | no for continued B2 drafting; yes before physical cascade |
+| Owner mode | `writer` + `continuity` + `reader-sim` + `polish` |
+| Status | `in_progress`; 030 B1~B7 drafted(2026-06-21), 029 Prologue~Ch6 drafted; 030↔029 continuity·harness·AI-tell pass 진행 중 |
+| Failure reason | 번호 cascade 미실행(물리 경로 legacy `1부/`), release-facing reader-retention 게이트 미실행 |
+| Next action | 030↔029 handoff continuity 확인 → 029 harness/AI-tell 스캔 → validation(validate_docs/research_consistency/fiction_gate) → commit + origin push |
+| Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011`, `10_story_design/013` |
+| Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md`(B1~B7), `20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md`(closing pass) |
+| Approval needed | no for closing passes on existing drafts; yes before physical cascade / release promotion |
 
 ## Unit Queue
 
 | Unit | Phase | Intent card | Last review wave | Chronicler pass | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1부 origin B1 | draft | [017 B1](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | B1 AI-tell/온보딩/후킹 패스 반영 | pending | `in_progress` |
-| 1부 origin B2 | draft | [017 B2](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | none | none | `ready_next` |
-| 2부 Mara / 029 Ch6 | draft/review | [013 Ch6](../10_story_design/013_first_arc_scene_cards_ko.md) | Ch6 writer pass complete on `codex/complete-029-book1` | Continuity Notes updated in 029 | `review_pending` |
+| 1부 origin B1~B2 | draft | [017 B1·B2](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | AI-tell/온보딩/후킹/stakes 패스 반영 | pending | `drafted` |
+| 1부 origin B3~B7 | draft | [017 B3~B7](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | writer pass on `complete-first-arc-novel`(2026-06-21); em dash 0·박- 0·노출예산 self-check 통과 | pending | `drafted` |
+| 2부 Mara / 029 전체 | draft/review | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | Prologue~Ch6 writer pass; closing(continuity/AI-tell) 진행 | Continuity Notes in 029 | `closing_pass` |
 | 2부 Mara repositioning | plan | 011에서 구조 이동됨 | none | none | `hold` until 030 B1-B7 stabilizes |
 | 3부 author-loss assets | plan | 025-027 자산 보존 | none | none | `hold` until physical cascade |
 
@@ -109,3 +109,5 @@ brief.
 | 2026-06-21 | external AI writing systems gap audit | local patterns selected; install rejected | create templates and warn-first gate |
 | 2026-06-21 | 011 restructuring review | origin=1부, Mara=2부, existing 025-027=3부 asset direction accepted as structure | choose 1부 POV before origin outline |
 | 2026-06-21 | 029 Ch6 writer/chronicler pass | final human hearing drafted; `who may author loss` field mark and protected pending hook added | run prose/continuity review and validation before commit |
+| 2026-06-21 | 030 origin B3~B7 writer pass (`complete-first-arc-novel`) | 역연산→경첩→큐/경보→구조→사다리 drafted; 닫는 mark `THE LOCK WAS THE CROWN`; Mara handoff에서 029로 연결 | 030↔029 continuity + 029 AI-tell/harness scan + validation before commit |
+| 2026-06-21 | 030 B3~B7 harness self-check | em dash 0, 박- embed-verb 0, Karvath 미등장/Vera 그림자 1회/Last Archive 미노출 노출예산 준수 | 029 동일 스캔 |
