@@ -98,8 +98,9 @@ and
   - release-facing revision plans, continuity-fix passes, and line-edit
     controls for SAGA drafts.
 - [QFUDS SAGA Release Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
-  - active release manifest/export shelf; current first arc has only pre-reboot
-    provenance until scene-card and continuity gates pass.
+  - active release manifest/export shelf. Current first arc has 029 as the active
+    reboot draft, while release remains blocked until continuity, counterpart,
+    and release gates pass.
 - [Fiction Archive](fiction/90_archive/README.md) - archived fiction prototypes
   preserved for provenance, including the original lineage-hosted Laur
   Observatory saga.
@@ -225,7 +226,7 @@ and
   - preserved English Episode 6 v2 counterpart that shortens the city-fracture opening,
     makes pending doctrine dangerous earlier, and opens arc two with
     `who may author loss`; fiction/provenance only.
-- [QFUDS SAGA First Arc Polish Read-Order Pass](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/018_first_arc_polish_read_order_pass.md)
+- [QFUDS SAGA First Arc Polish Read-Order Pass](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_legacy/018_first_arc_polish_read_order_pass.md)
   - Phase 18 control document setting Korean primary read order, English
     counterpart status, continuity checks, exposition cuts, and field mark
     misuse risks.
@@ -252,6 +253,14 @@ and
 - [QFUDS SAGA Who May Author Loss Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/025_who_may_author_loss_korean_primary.md)
   - Arc Two opening Korean-primary draft introducing `UNRECOVERED IS NOT
     UNREAL`; fiction/provenance only.
+- [QFUDS SAGA Who May Author Loss English Counterpart](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/026_who_may_author_loss_english_counterpart.md)
+  - Arc Two English Anglophone counterpart for 025; fiction/provenance only.
+- [QFUDS SAGA Who May Refuse Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/027_who_may_refuse_korean_primary.md)
+  - Arc Two Korean-primary continuation draft; fiction/provenance only.
+- [QFUDS SAGA 1부 여는 사건 The Broken Crown](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)
+  - pre-reboot first-arc opening prototype; provenance only.
+- [QFUDS SAGA 1부 Book 1 Reboot Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/029_first_arc_book1_reboot_korean_primary.md)
+  - active first-arc reboot manuscript SSOT. Prologue drafted; Chapter 1-6 pending.
 
 ## Postmortems
 

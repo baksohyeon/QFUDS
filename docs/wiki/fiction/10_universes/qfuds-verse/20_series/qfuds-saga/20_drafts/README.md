@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: do not rewrite 028 or 019-024 until 10_story_design/013 scene cards pass review
+next_gate: continue Chapter 1 Exhibit S-0 inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -24,9 +24,21 @@ prototype은 아래 "현행 읽기본"뿐이고, 나머지는 이전 세대·영
 통제문서다.** 다음 정본 rewrite는 이 파일들을 문장 단위로 고치지 않고
 `10_story_design/012`와 후속 scene cards 뒤에 백지 원고로 다시 쓴다.
 
-## 현행 읽기본 (스토리 순서)
+## Active 1부 Reboot Manuscript
 
-읽기 순서. 이것만 보면 된다.
+새 1부 정본 작업은 단일 원고 SSOT로 진행한다.
+
+| 상태 | 파일 | 현재 범위 |
+| --- | --- | --- |
+| active draft | [029 First Arc Book 1 Reboot Korean Primary](029_first_arc_book1_reboot_korean_primary.md) | Prologue drafted. Chapter 1-6 pending inside the same manuscript |
+
+이 파일이 앞으로 1부 한국어 primary prose의 작업 원본이다. release는 아니다.
+기존 prototype을 문장 단위로 고치지 않는다.
+
+## 현행 prototype 읽기본 (스토리 순서)
+
+029가 전체 1부를 대체하기 전까지, 이미 읽을 수 있는 pre-reboot prototype은 아래
+순서다. provenance 용도이며 새 정본 작업 원본은 아니다.
 
 | 순서 | 편 | 파일 |
 | --- | --- | --- |
@@ -43,11 +55,13 @@ prototype은 아래 "현행 읽기본"뿐이고, 나머지는 이전 세대·영
 
 ## 1부 백지 재설계 게이트
 
-1부의 다음 산문 작업은 직접 rewrite가 아니다. 먼저
-[012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)을 기준으로
-[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 검토·보강한다. 각 장면의 `POV`, `want`, `obstacle`,
-`turn`, `cost`, `technical terms exposed`, `information revealed`, `hook into next
-scene`이 통과된 뒤에만 028+019-024를 새 manuscript로 다시 쓴다.
+1부 산문 재작성 게이트는 통과했다.
+[012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
+[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)가 새 원고의
+구조 SSOT다. 각 장면의 `POV`, `want`, `obstacle`, `turn`, `cost`,
+`technical terms exposed`, `information revealed`, `hook into next scene`은 013에
+고정돼 있고, 실제 prose는 [029](029_first_arc_book1_reboot_korean_primary.md) 안에서
+순서대로 작성한다.
 
 ## 나머지는 무엇인가 (역할별)
 
@@ -56,6 +70,7 @@ scene`이 통과된 뒤에만 028+019-024를 새 manuscript로 다시 쓴다.
 | 1부 영어 카운터파트 | 012-017 | 같은 사건의 영어 독립 각색(보존) |
 | 1부 이전 세대(영어 rough) | 003-010 | 1세대 초안. 정본에 의해 대체됨 |
 | 1부 통제문서 | 011, 018 | revision/read-order 통제 기록 |
+| 1부 active reboot | 029 | 012·013을 통과한 새 한국어 primary 원고 SSOT |
 | Mara 프롤로그(legacy) | 001, 002 | 초기 프롤로그 실험 |
 | 판본 스냅샷·회고 | [_versions/](_versions/README.md) | v0~v4 변천사와 회고·피드백 로그 |
 

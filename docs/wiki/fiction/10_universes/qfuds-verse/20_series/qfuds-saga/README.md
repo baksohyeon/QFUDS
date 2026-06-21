@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
-next_gate: review and revise 10_story_design/013 scene cards before new first-arc prose
+next_gate: continue Chapter 1 Exhibit S-0 inside 20_drafts/029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -20,17 +20,24 @@ last_updated: 2026-06-21
 - **qfuds-verse** = 세계(IP). **qfuds-saga** = 그 세계에서 쓰는 첫 장편 소설(작품).
   비유: qfuds-verse가 마블 유니버스라면, qfuds-saga는 그 안의 영화 한 편.
 - 경로: `10_universes/qfuds-verse`(세계) 아래 `20_series/qfuds-saga`(작품).
-- **무엇을 보나:** 현재 읽기용 prototype은 아래 `20_drafts/028` + `019`-`024`.
-  새 1부 집필 기준은 `10_story_design/012` 아웃라인과 `013` scene cards. 설정
-  이해는 `00_bible/`. 전체 목차는 이 README 아래 "먼저 읽을 것".
+- **무엇을 보나:** 새 active 1부 원고는 `20_drafts/029`. 아직 전체 1부가
+  완성되기 전이라 기존 읽기용 prototype `20_drafts/028` + `019`-`024`도
+  provenance로 남긴다. 새 집필 기준은 `10_story_design/012` 아웃라인과 `013`
+  scene cards. 설정 이해는 `00_bible/`. 전체 목차는 이 README 아래 "먼저 읽을 것".
 - **서랍(폴더) 역할:** 00_workroom 운영규칙 · 00_bible 설정집 · 10_story_design 기획 ·
   20_drafts 원고 초안 · 30_revisions 퇴고 · 40_release release manifest/export.
 
-## 읽기 경로 (현재 prototype 스토리 순서)
+## 읽기 경로
 
-지금 읽을 수 있는 1부 prototype은 이 순서다. 단, 다음 1부 rewrite는 이 본문을
-문장 단위로 고치는 방식이 아니라 [012 통합 아웃라인](10_story_design/012_first_arc_book1_outline_reboot_ko.md)
-과 후속 scene cards를 통과한 뒤 백지 원고로 다시 쓴다.
+새 1부 정본 작업은 [029 active reboot manuscript](20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서
+진행한다. [012 통합 아웃라인](10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
+[013 scene cards](10_story_design/013_first_arc_scene_cards_ko.md)는 first draft entry
+기준으로 통과했으며, 기존 prototype 본문을 문장 단위로 고치지 않는다.
+
+| 상태 | 파일 | 설명 |
+| --- | --- | --- |
+| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. Prologue drafted, Chapter 1-6 pending |
+| pre-reboot prototype | [028](20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) + [019](20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | provenance/readable prototype |
 
 | 순서 | 편 | 한국어 prototype |
 | --- | --- | --- |
@@ -316,8 +323,8 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - 첫 arc 한국어 polish, line edit, continuity-fix pass처럼 release-facing
       control이 필요한 작업을 두는 선반.
 42. [QFUDS SAGA Release Shelf](40_release/README.md)
-    - active release manifest/export를 두는 선반. 현재 1부는 reboot 전이므로
-      `900_` provenance manifest만 보존하고 본문 중복 build는 두지 않는다.
+    - active release manifest/export를 두는 선반. 현재 1부는 029 reboot draft
+      진행 중이므로 `900_` provenance manifest만 보존하고 본문 중복 build는 두지 않는다.
 43. [Fiction Catalog](../../../../01_catalog/README.md)
     - SAGA의 canonical series path, old-path deletion policy, archive
       routing, next task candidates를 기록한다.
@@ -352,8 +359,8 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
       field mark로 제시한다.
 49. [QFUDS SAGA 1부 전역 템플릿 커버리지 감사](30_revisions/003_first_arc_template_coverage_audit_ko.md)
     - `.agent/templates/fiction/` 기준으로 1부 바이블·하네스·release 시스템의
-      충족/누락을 점검하고, 2-6편 `Series Gate Applied` 후속 적용을 차단 조건으로
-      남긴다.
+      충족/누락을 점검한다. pre-reboot prototype의 series gate 비대칭은 닫혔고,
+      현재 active check 대상은 029다.
 50. [QFUDS SAGA Series Bible Drift Alignment Audit](30_revisions/008_series_bible_drift_alignment_audit_ko.md)
     - 001-020 bible 전체를 점검해 오래된 후보/승인 전/영어 rough/Bitcoin dead-relic
       drift를 015·017·018·028 story-order 기준으로 정렬한 감사 기록.
@@ -363,6 +370,9 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 52. [QFUDS SAGA 1부 Book 1 씬 카드](10_story_design/013_first_arc_scene_cards_ko.md)
     - 012 outline을 장면별 `POV`, `want`, `obstacle`, `turn`, `cost`, 기술어 노출,
       정보 공개, 다음 hook으로 쪼갠 prose 직전 차단 게이트.
+53. [QFUDS SAGA 1부 Book 1 Reboot Korean Primary](20_drafts/029_first_arc_book1_reboot_korean_primary.md)
+    - 012 outline과 013 scene-card gate를 통과한 active Korean-primary manuscript
+      SSOT. 기존 028+019-024를 문장 단위로 고치지 않고 Prologue부터 백지 재작성한다.
 
 ## First Arc Provenance Draft Set
 
@@ -394,6 +404,12 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
 
 Phase 18부터 first-reader path는 한국어판을 먼저 둔다. 현재 1부 한국어판은
 pre-reboot prototype이며, 영어 v2는 같은 사건을 공유하는 preserved counterpart로 둔다.
+새 정본 작업은 [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) 한 파일에서
+진행한다.
+
+| Active reboot | Korean primary manuscript | English counterpart |
+| --- | --- | --- |
+| Book 1 | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | not started. Korean draft first, then Anglophone independent adaptation |
 
 | Episode | Korean primary | English counterpart |
 | --- | --- | --- |
@@ -427,14 +443,14 @@ Umbrae·Curia Continuum·Cellulae Sine Clave 등).
 
 ## Next Korean-Primary Prose Task Gate
 
-다음 한국어 prose 작업은 자동으로 시작하지 않는다. 1부는 먼저 outline-first reboot
-상태로 전환한다. 새 산문을 쓰기 전 기본 gate는
-[10_story_design/013_first_arc_scene_cards_ko.md](10_story_design/013_first_arc_scene_cards_ko.md)
-검토·보강이다.
+다음 한국어 prose 작업은 [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md)
+안에서 Chapter 1 `Exhibit S-0`를 이어 쓰는 것이다. 1부는 outline-first reboot
+상태로 전환됐고, [013 scene cards](10_story_design/013_first_arc_scene_cards_ko.md)는
+first draft entry 기준으로 통과했다.
 
 | Gate | Output shelf | When to choose |
 | --- | --- | --- |
-| First-arc Book 1 scene cards | [013](10_story_design/013_first_arc_scene_cards_ko.md) | 028+019-024를 백지 원고로 다시 쓰기 전 검토·보강 |
+| First-arc Book 1 manuscript | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 013을 통과한 새 1부 한국어 primary 원고를 이어 쓸 때 |
 | Arc Two planning | `10_story_design/` | `who may author loss` 이후의 사건, 인물, field mark를 아직 설계해야 할 때 |
 | First-arc Korean line polish | `30_revisions/` | 기존 019-024 prototype을 보존용으로만 미세 정리할 때. 새 정본 rewrite 용도 아님 |
 | English Anglophone counterpart for 025 | `20_drafts/026_*_english_adaptation.md` 또는 별도 번호 | 025의 사건을 영미권 독자 리듬으로 독립 각색할 때 |
@@ -445,8 +461,7 @@ first-arc Korean line polish의 1차 pass(영어 코드스위칭 제거 de-jargo
 실행되었다. Arc Two planning, 025·027 한국어 primary draft, 025 영어 counterpart(026),
 세력 명칭 canon(015)이 사용자 승인 후 작성·감사 완료되었다. 하지만 1부는 prose
 patching 대신 백지 재설계로 전환했다. 다음 자연스러운 작업은 027 영어 독립 각색판이나
-Arc Two 확장이 아니라, 1부 `013` scene cards를 먼저 검토·보강해 012의 outline이
-실제 장면 단위로 작동하는지 검증하는 것이다.
+Arc Two 확장이 아니라, 029에서 Chapter 1 `Exhibit S-0`를 이어 쓰는 것이다.
 
 ## 역할
 

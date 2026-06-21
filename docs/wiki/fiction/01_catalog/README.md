@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: review qfuds-saga 013 scene cards before first-arc prose rewrite
+next_gate: continue qfuds-saga 029 first-arc Book 1 Korean-primary reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -44,7 +44,7 @@ last_updated: 2026-06-21
 
 | Work | Current path | Format | Continuity status | Next decision |
 | --- | --- | --- | --- | --- |
-| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active prototype series work | Review 013 scene cards before first-arc prose rewrite |
+| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active reboot manuscript in progress | Continue 029 Chapter 1 after scene-card gate pass |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
 ## Target Structure
@@ -103,6 +103,6 @@ not_extractable
 
 ## Next Task Candidates
 
-1. QFUDS SAGA 1부 [013 scene cards](../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)를 검토·보강한다.
-2. 013이 통과되기 전에는 028+019-024 prose rewrite나 `40_release/001_` active release를 만들지 않는다.
-3. 013 통과 후 1부 백지 원고 rewrite와 이후 Arc Two/English counterpart 우선순위를 다시 결정한다.
+1. QFUDS SAGA 1부 [029 active reboot manuscript](../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서 Chapter 1 `Exhibit S-0`를 이어 쓴다.
+2. [013 scene cards](../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)는 first draft entry 기준으로 통과했지만 release gate는 아니다.
+3. `40_release/001_` active release는 029 전체 한국어 primary, 영어 독립 각색판, shared continuity check, release-facing revision gate 이후에만 만든다.

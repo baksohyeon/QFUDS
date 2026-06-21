@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: create 001 active release manifest only after first-arc reboot prose passes scene-card and continuity gates
+next_gate: create 001 active release manifest only after 029 reboot prose passes continuity, counterpart, and release gates
 last_updated: 2026-06-21
 ---
 
@@ -17,8 +17,10 @@ last_updated: 2026-06-21
 현재 active release는 없다.
 
 다음 1부 정본은 [012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
-[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과한 뒤
-`20_drafts/`에서 백지 원고로 다시 쓴다. 그 전까지 release build를 만들지 않는다.
+[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과해
+[029 active reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서
+작성 중이다. 029 전체 한국어 primary, 영어 독립 각색판, shared continuity check,
+release-facing revision gate 전까지 release build를 만들지 않는다.
 
 현재 보존 문서:
 

@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
   - qfuds_saga_first_arc_book1_outline_reboot_ko
   - qfuds_saga_first_arc_scene_cards_ko
-next_gate: no active release until first-arc reboot prose passes 013 scene-card and continuity gates
+next_gate: no active release until 029 reboot prose passes continuity, counterpart, and release gates
 last_updated: 2026-06-21
 ---
 
@@ -26,8 +26,9 @@ SSOT 정리 원칙에 따라 기존 조립 원고 파일은 삭제했다.
 본문 중복본을 release shelf에 두지 않는다. 현재 읽을 수 있는 prototype source는
 `20_drafts/028`과 `20_drafts/019`-`024`이며, 새 1부 정본은
 [012 outline](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
-[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과한 뒤
-백지 원고로 다시 쓴다.
+[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과해
+[029 active reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서
+작성 중이다.
 
 ## Boundary
 
@@ -91,5 +92,5 @@ outline-first reboot decision. 현재 active release는 없다.
 ## release 경계
 
 이 문서는 release 후보가 아니라 archived manifest다. 실제 active release는
-1부 reboot prose가 013 scene-card gate, continuity check, Korean-primary/English
-counterpart check를 통과한 뒤 `001_` prefix로 새로 만든다.
+1부 reboot prose 029가 continuity check, Korean-primary/English counterpart check,
+release-facing revision gate를 통과한 뒤 `001_` prefix로 새로 만든다.

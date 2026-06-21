@@ -28,22 +28,23 @@ last_updated: 2026-06-21
 | **철학 사유 노트**(맥락 유지: 무아·리쾨르·과정철학·루만·니체·사이버네틱스) | bible [014](../00_bible/014_authorial_lenses_compression_ssot_soft_editing_ko.md) §5 | 작품 사상 톤, SSOT=태도, Liora 시점 |
 | **캐릭터 설정** | bible [012](../00_bible/012_character_liora_sen_ko.md)(Liora 풀시트)·[016](../00_bible/016_character_ensemble_voices_relationships_ko.md)(앙상블·목소리·관계) | 인물별 대사 차별화, 관계도 |
 | **대중적 캐릭터 아키타입·팬덤 hook** | outline [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md) Popular Archetype Layer + scene-card [013](../10_story_design/013_first_arc_scene_cards_ko.md) Character Archetype Gate | Liora=competence lead, Mara=sovereign survivor, Elias=tragic romantic, Noor=trickster heir, Ione=quiet rebel, Pell=market villain 등. 외부 IP 복제 없이 행동·비용으로 매력 구현 |
-| **beats / 기획 / 아웃라인** | 기획 [004](../10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)·[005](../10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)·[006](../10_story_design/006_first_arc_six_episode_outline_ko.md)·[012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·[013](../10_story_design/013_first_arc_scene_cards_ko.md)·[010](../10_story_design/010_arc_two_episode_map_ko.md) | 012가 1부 Book 1의 active outline SSOT. 013이 prose 직전 scene-card gate. 004·005·006·008·009·011에 흩어진 beat를 cause/effect chain, 정보 공개 장부, 인물 arc로 통합 |
+| **beats / 기획 / 아웃라인** | 기획 [004](../10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)·[005](../10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)·[006](../10_story_design/006_first_arc_six_episode_outline_ko.md)·[012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·[013](../10_story_design/013_first_arc_scene_cards_ko.md)·[010](../10_story_design/010_arc_two_episode_map_ko.md) | 012가 1부 Book 1의 active outline SSOT. 013은 first draft entry 기준으로 통과한 scene-card gate. 004·005·006·008·009·011에 흩어진 beat를 cause/effect chain, 정보 공개 장부, 인물 arc로 통합 |
 | **반전 설계**(독자 속이기, 아시모프식, 떡밥) | 기획 [008](../10_story_design/008_last_archive_reveal_architecture_ko.md) | Last Archive=합의 반전, 떡밥 배치 |
 | **덴마식 에피소드 앙상블 포맷** | 기획 [009](../10_story_design/009_format_throughline_and_progress_ko.md) + workroom [005](005_series_production_harness_ko.md) | 시리즈 throughline, 집필 전 프리플라이트 |
 | **차용 IP 경계**(Portal/아이언맨 아크/NRx/그리스신화) | bible [010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md) Influence Boundary, [013](../00_bible/013_cryptographic_death_era_and_crypto_concepts_ko.md) PART C | 구조만 차용, 고유명 복제 금지 |
 | **민감 주제 배제 + 여성=기본 인간주체** | `scripts/fiction_gate.py`(차단) + 메모리(레포 밖) | 레포·작중 민감 주제 0, 인물은 자율 주체 |
 | **em dash 금지 / 기술 정확+평이 / 독자 이해도 / 리텐션** | [30_revisions/002](../30_revisions/002_first_arc_release_immersion_revision_plan_ko.md) 게이트, `fiction_gate`, 워크플로우 | 커밋 차단·release 조건 |
 | **물리·암호·Bitcoin 용어 직접 사용**(장황한 비유보다 정확한 개념 설명) | bible [009](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)·[017](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md), workflow technical grounding rule | `hash`, `signature`, `ECDSA`, `SHA-256`, `Shor`, `unitarity`, `Page curve`, `island`, `entropy`, `QFUDS`를 비유로 숨기지 않고 장면 안에서 풀어쓴다 |
-| **단편집이 아니라 SAGA**(해리포터·듄처럼 과몰입 가능한 연속 장편) | bible [018](../00_bible/018_world_compendium_codex_ko.md), outline [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md), scene-card gate [013](../10_story_design/013_first_arc_scene_cards_ko.md), current prototype [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)+[019-024](../20_drafts/README.md) | prose patching은 중단. 1부는 Mara 사건을 중심축으로 한 연속 Book 1로 scene cards 검토 후 백지 재작성 |
+| **단편집이 아니라 SAGA**(해리포터·듄처럼 과몰입 가능한 연속 장편) | bible [018](../00_bible/018_world_compendium_codex_ko.md), outline [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md), scene-card gate [013](../10_story_design/013_first_arc_scene_cards_ko.md), active manuscript [029](../20_drafts/029_first_arc_book1_reboot_korean_primary.md), current prototype [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)+[019-024](../20_drafts/README.md) | prose patching은 중단. 1부는 Mara 사건을 중심축으로 한 연속 Book 1로 029에서 백지 재작성 중 |
 | **Bitcoin을 가볍게 넘기지 말 것**(사토시·국가 패권·투자자산성·0원 가능성·이념전쟁) | bible [017](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md), [009](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md), [005](../00_bible/005_bitcoin_genesis_chain_and_restoration_myth_ko.md) | Bitcoin은 고대 유물이면서도 deep-time 이념전쟁의 씨앗. 투자 조언은 금지하지만 현실 위상은 정확히 적시 |
 | **간지/실로비크/COD 취향** | 메모리(레포 밖, 취향 신호) | 인물 디자인 참고 |
-| **실제 프로즈** | `20_drafts`(028 opening + 019-024 1부 prototype, 025/027 2부, 001/002 legacy prologue) | 현재 독자가 읽을 수 있는 글. `40_release`에는 active build를 두지 않으며, 다음 1부 정본은 012·013 gate 뒤 백지 재작성 |
+| **실제 프로즈** | `20_drafts`(029 active 1부 reboot manuscript, 028 opening + 019-024 1부 prototype, 025/027 2부, 001/002 legacy prologue) | 029가 새 1부 한국어 primary 원고 SSOT. 기존 prototype은 읽기/비교용 provenance. `40_release`에는 active build가 없음 |
 
 ## 한 줄 요약
 
 - **읽고 싶다** -> 현재 prototype은 `20_drafts/README`의 읽기 순서.
-- **새로 쓰려면** -> `10_story_design/012` 확인 후 `013` scene cards 검토부터.
+- **새로 쓰려면** -> `20_drafts/029`에서 Chapter 1부터 이어 쓴다. 구조 기준은
+  통과된 `10_story_design/012`와 `013`.
 - **설정 알고 싶다** -> `00_bible/`(010 인과 스파인, 016 인물부터).
 - **기획·전개 보고 싶다** -> `10_story_design/`.
 - **내 아이디어 어디 갔나** -> 이 표.

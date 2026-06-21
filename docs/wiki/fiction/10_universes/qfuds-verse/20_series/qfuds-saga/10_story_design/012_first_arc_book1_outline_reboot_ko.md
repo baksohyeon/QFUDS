@@ -3,7 +3,7 @@ doc_id: qfuds_saga_first_arc_book1_outline_reboot_ko
 title: QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인
 doc_type: guide
 stage: reference
-status: draft
+status: completed
 evidence_role: provenance
 depends_on:
   - qfuds_saga_liora_sen_first_episode_beat_sheet_ko
@@ -14,7 +14,7 @@ depends_on:
   - qfuds_saga_world_compendium_codex_ko
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_character_depth_sheets_ko
-next_gate: revise 013 scene cards before writing new prose
+next_gate: draft 20_drafts/029 first-arc Book 1 Korean-primary reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -208,9 +208,12 @@ hook into next scene
 
 ## Next Output
 
-Use [013 First Arc Scene Cards](013_first_arc_scene_cards_ko.md) as the next
-working gate. Only after those scene cards pass should 028 and 019-024 be
-rewritten from a blank manuscript.
+Scene-card gate [013](013_first_arc_scene_cards_ko.md)는 2026-06-21에 first draft
+entry 기준으로 통과했다. 다음 active output은
+[029 First Arc Book 1 Reboot Korean Primary](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)다.
+
+기존 028과 019-024는 prototype/provenance로 보존한다. 새 1부 원고는 그 문장을
+고치는 방식이 아니라 012 outline과 013 scene cards를 기준으로 백지에서 다시 쓴다.
 
 ## Source Boundary
 

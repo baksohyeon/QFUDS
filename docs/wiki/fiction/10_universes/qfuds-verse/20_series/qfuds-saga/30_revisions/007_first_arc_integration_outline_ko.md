@@ -3,7 +3,7 @@ doc_id: qfuds_saga_first_arc_integration_outline_ko
 title: QFUDS SAGA 1부 편별 통합 아웃라인
 doc_type: guide
 stage: reference
-status: draft
+status: provenance
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_restructure_worldview_onboarding_plan_ko
@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_world_compendium_codex_ko
   - qfuds_saga_first_arc_six_episode_outline_ko
-next_gate: 다음 퇴고가 이 스펙을 프로즈로 집행한다(프롤로그 028 + 019-024)
+next_gate: superseded by 012 outline, 013 scene cards, and 029 active reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -19,10 +19,12 @@ last_updated: 2026-06-21
 
 ## 목적
 
-1부(프롤로그 028 + 6편 019-024)를 **편별 정밀 통합 스펙**으로 묶는다. 이것은
-소설 산문이 아니라 설계 스펙이다. 다음 퇴고가 이 스펙대로 프로즈를 옮긴다(작가
-지시: 아웃라인을 먼저 정확히, 퇴고는 나중). 흩어진 정본을 한 편 단위로 합치되,
-세부 정본은 각 출처가 보유하고 여기서는 편별 통합만 한다.
+1부(프롤로그 028 + 6편 019-024)를 **편별 정밀 통합 스펙**으로 묶었던 provenance
+문서다. 이것은 소설 산문이 아니라 설계 스펙이며, 현재 active first-arc 경로는
+[012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md),
+[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md),
+[029 active reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)로
+이동했다. 이 문서는 029가 상속한 이전 통합 판단을 보존한다.
 
 각 편마다 다섯 면을 정밀하게 적시한다.
 
@@ -89,7 +91,7 @@ not_extractable
 | bible 009 §2.5 | 유니터리(다리)·엔트로피(비용·주제) 구분, 해시(SHA-256)≠서명(ECDSA), 호킹복사 |
 | 10_story_design 006 | 6편 겉사건·숨은엔진·끝의 전환·장면 spine·컷라인·세력 이동·기술 가드 |
 | 30_revisions 006 | 시점·무대 다변화, 사슬 전달 스케줄, 의식 변주, 떡밥 배치 |
-| 40_release 002 | 현재 프로즈 상태(프롤로그+1~6편 조립), 3줄 요약, 인물·세력 한눈에, 읽는 법 |
+| pre-reboot release provenance | 당시 프로즈 상태(프롤로그+1~6편 조립), 3줄 요약, 인물·세력 한눈에, 읽는 법 |
 
 ## 1부 통합 척추 (편이 쌓는 사슬)
 
@@ -484,6 +486,8 @@ arc를 연다.
 
 ## Next Use
 
-다음 퇴고가 이 스펙을 프로즈로 집행한다. 순서: 프롤로그 028 → 1편 019 → 2~6편
-020-024. 편마다 fiction_gate 통과 후 매뉴스크립트(40_release 002) 재조립, 6편
-완성 후 리텐션 라운드.
+이 문서를 active execution plan으로 사용하지 않는다. 다음 산문 작업은
+[029](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서 Chapter 1
+`Exhibit S-0`를 이어 쓰는 것이다. 40_release 재조립은 029 전체 한국어 primary,
+영어 독립 각색판, shared continuity check, release-facing revision gate 이후에만
+검토한다.
