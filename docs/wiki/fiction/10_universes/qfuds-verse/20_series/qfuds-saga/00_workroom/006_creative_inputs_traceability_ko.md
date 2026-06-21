@@ -46,6 +46,8 @@ last_updated: 2026-06-21
 | **간지/실로비크/COD 취향** | 메모리(레포 밖, 취향 신호) | 인물 디자인 참고 |
 | **실제 프로즈** | `20_drafts`(029 active 1부 reboot manuscript, 028 opening + 019-024 1부 prototype, 025/027 2부, 001/002 legacy prologue) | 029가 새 1부 한국어 primary 원고 SSOT. 기존 prototype은 읽기/비교용 provenance. `40_release`에는 active build가 없음 |
 
+| **기준 작성권 사상축**(기준을 쓰는 자가 세계를 쓴다; Exit/Voice; 절반쯤 맞는 적대자; 권력의 선택적 해석) | bible [022](../00_bible/022_authorship_of_the_standard_theme_axis_ko.md) | who may author loss의 일반화. 민감한 사회 적용은 레포 제외, 추상 원리만 캐논화하고 인물은 라벨 없는 자율 주체로 |
+
 ## 한 줄 요약
 
 - **읽고 싶다** -> 현재 prototype은 `20_drafts/README`의 읽기 순서.
