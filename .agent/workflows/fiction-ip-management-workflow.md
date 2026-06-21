@@ -363,6 +363,24 @@ Every fiction-related GSD phase must state:
 Use [.agent/templates/fiction/gsd_phase_brief_template.md](../templates/fiction/gsd_phase_brief_template.md)
 when drafting a GSD phase for fiction work.
 
+## Reader Retention Test (Release Gate)
+
+Before any fiction work (short or series) is promoted to release, run a reader
+retention test. This is a formal gate, not optional polish: prose can pass
+AI-tell and naturalness audits and still lose readers (this happened on the
+QFUDS SAGA first arc).
+
+- Spawn several reader-persona subagents with distinct profiles (예: 중학생,
+  고등학생, 대학생~직장인 일반, 웹소설 속독, 까다로운 순문학, 기술 문외한,
+  안티-AI 냉소가, Ted Chiang식 정밀·절제, SF 애호가). 다양성이 핵심이다.
+- 각 페르소나는 release 원고를 읽고, 흥미가 진짜로 끊기는 지점에서 멈춘다.
+  보고: 이탈 지점(장면·줄)과 트리거, 편별 몰입 점수, 다음 편 진행 여부,
+  끝까지 끌고 간 훅.
+- 집계해 공통 이탈 지점을 고치고, 페르소나가 목표 리텐션(사실상 끝까지)에
+  도달할 때까지 반복한다. 통과 전에는 release 금지.
+- 실행 결과와 판정을 작품의 revision plan에 기록한다(예: saga
+  `30_revisions/002`, `00_workroom/005`).
+
 ## External Source Boundary
 
 If fiction work touches external paper, web reference, PDF, code repository,
@@ -383,6 +401,7 @@ Before commit, run:
 python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py
 python3 scripts/agent_workflow_guard.py --staged
+python3 scripts/fiction_gate.py --staged
 make preflight
 sh scripts/git-hooks/pre-commit
 ```
