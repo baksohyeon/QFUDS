@@ -110,8 +110,17 @@ PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss
 상세 형식·관통선: [009 형식·throughline](../10_story_design/009_format_throughline_and_progress_ko.md),
 [008 반전 설계](../10_story_design/008_last_archive_reveal_architecture_ko.md).
 
-## 9. 차용 경계
+## 9. 차용 원칙 (2단)
 
-장르 구조·에너지만 차용하고 고유명·캐릭터·사건은 복제하지 않는다(폐쇄 시설 기업
-AI, 딥타임 은하 제국 SF, 천재-억만장자, 그리스 신화). 상세:
-[010 Influence Boundary](010_last_archive_origin_and_reversal_causality_ko.md).
+이 세계는 우리 우주의 먼 미래다. 그래서 차용은 두 갈래로 다르게 다룬다.
+
+- **실제 현실(역사·기술·인물·사건·밈): 그대로 차용한다.** 비트코인, 사토시,
+  사이퍼펑크, 국가 전략 비축, 딥페이크, 실존 밈(예: 윌 스미스 스파게티 영상)은 이
+  세계의 진짜 고대사다. 실명까지 정확히 적시해 "진짜 우리 미래에 있을 법한" 감각을
+  만든다(작가 지시: 현대 그대로 차용 OK). 이것이 핍진성의 핵심 장치다.
+- **타인의 창작 IP(허구): 구조·에너지만 차용.** 고유명·캐릭터·사건은 복제하지
+  않는다(폐쇄 시설 기업 AI, 딥타임 은하 제국 SF, 천재-억만장자, 그리스 신화). 상세:
+  [010 Influence Boundary](010_last_archive_origin_and_reversal_causality_ko.md).
+
+경계: 실존 인물 명예훼손·허위 사실 금지, 실제 정파 주장 그대로 복제 금지, 금지된
+민감한 사회·정치 주제 금지. 그 외 실제 현실은 직접 닻으로 쓴다.
