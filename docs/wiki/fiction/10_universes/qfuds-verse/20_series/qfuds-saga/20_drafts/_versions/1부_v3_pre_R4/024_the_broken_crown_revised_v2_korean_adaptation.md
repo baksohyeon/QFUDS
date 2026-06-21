@@ -1,5 +1,5 @@
 ---
-doc_id: qfuds_saga_the_broken_crown_revised_v2_korean_adaptation
+doc_id: qfuds_saga_the_broken_crown_revised_v2_korean_adaptation_v3snapshot
 title: QFUDS SAGA The Broken Crown Revised V2 Korean Adaptation
 doc_type: reference
 stage: reference
@@ -432,6 +432,16 @@ Liora는 검은 상자를 닫았다.
 봉인 아래 H-1.
 
 벽의 필드 마크들. 이미 주석으로 둘러싸인.
+
+Bitcoin은 화폐로서는 틀렸고, 그래서 화폐로는 죽었다.
+
+기억으로서는 옳았다. 한번 새긴 것은 되돌릴 수 없다는 약속, 그 약속만은 살아남았다.
+
+그것이 이 사슬의 첫 자물쇠였고, 첫 시체이기도 했다.
+
+그리고 그 약속이 무엇까지 허락하는지에 대해서는 틀렸다. 지울 수 없는 기록이
+곧 죽은 사람을 다시 붙잡아 올 권한은 아니었다. 오늘 Mara가 거부한 것이 바로
+그 비약이었다.
 
 검은 유리가 Liora의 얼굴을 조각조각 되비췄다.
 
