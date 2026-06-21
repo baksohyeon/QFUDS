@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
 next_gate: use as the hinge-era reference + crypto-to-setting dictionary for scenes
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Cryptographic Death 대격변과 암호 개념 상세 설정
@@ -423,4 +423,5 @@ SSOT를 향한 굶주림)이다. **죽일 적이 없다는 것** — Last Archiv
 문명사의 경첩. 비트코인=Genesis Chain artifact. 암호 개념은 기술어 보존 + 제도 매핑.
 
 열림: djb-유래 "설계자" 고유명, 필터 false-positive 비극을 1부/2부 중 어디서 plot으로
-쓸지, Domus Clavium/Ordo Salis/Custodes Umbrae 최종 명칭 확정.
+쓸지. (장부 가문·Ordo Salis·Custodes Umbrae 최종 명칭은 015 §명칭 충돌 해소에서
+Domus Clavium 등으로 이미 확정됨.)

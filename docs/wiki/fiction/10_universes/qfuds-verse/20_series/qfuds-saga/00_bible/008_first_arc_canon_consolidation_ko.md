@@ -126,7 +126,7 @@ Tamas는 moral center지만 plot device처럼 쓰지 않는다.
 | Court of Continuance | restoration civilization의 grammar factory | keep |
 | Observatoire de Laur / Bureau Laurien | unknown과 non-circularity의 감사기관 | keep |
 | Aletheia Veil | 복원될 권리와 복원되지 않을 권리 사이에서 분열 | keep and deepen |
-| Ledger Houses / Domus Tabularii | access, inheritance, exit-only power의 귀족체 | keep |
+| Ledger Houses / Domus Clavium | access, inheritance, exit-only power의 귀족체 | keep |
 | Dead Exchange | dead market after price; custody genealogy court | keep |
 | Genesis Chain / Broken Crown | money after price, memory artifact, consent danger | keep |
 | Null-Key Cells | identity flood를 일으킨 탈기록/반원장 세력 | keep as ambiguous |

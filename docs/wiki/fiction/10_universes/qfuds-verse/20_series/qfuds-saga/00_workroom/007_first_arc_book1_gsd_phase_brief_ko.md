@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_scene_cards_ko
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
-next_gate: draft Chapter 5 Hawking Court inside 029 first-arc reboot manuscript
+next_gate: draft Chapter 6 final human hearing inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -285,9 +285,9 @@ sh scripts/git-hooks/pre-commit
   - Phase brief + Prologue expansion can land together.
   - After that, each chapter draft should land in its own commit or tight pair of
     chapter + continuity notes.
-- Next phase: draft Chapter 4 `Identity Flood` in 029, preserving
-  `PLURALITY IS NOT CONSENT`, compatible-self submission overload, Null-Key
-  pressure, and the H-1 sealed report hook.
+- Next phase: draft Chapter 6 final human hearing (`who may author loss`) in 029.
+  Prologue + Chapters 1-5 are drafted; Chapter 5 set `PHYSICS IS NOT JURISDICTION`
+  and the two physically-admissible Mara copies that force the final human hearing.
 - User confirmation needed:
   - Not needed for each drafting sprint unless a new canon decision appears.
   - Required before `40_release/001_` active release promotion.

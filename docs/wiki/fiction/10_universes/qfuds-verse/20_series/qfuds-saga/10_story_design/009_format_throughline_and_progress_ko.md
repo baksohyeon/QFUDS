@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_last_archive_reveal_architecture_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
 next_gate: build Liora protagonist sheet, then propagate foundation into first arc
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태
@@ -59,16 +59,17 @@ workflow state `hit_not_cached`.)
 [008 반전 설계](008_last_archive_reveal_architecture_ko.md). Vera ↔ Mara **Veyr**의
 핏줄 연결이 그 반전의 개인적 열쇠다(010 §2).
 
-## 현재 진행 상태 (2026-06-20 기준)
+## 현재 진행 상태 (2026-06-21 기준)
 
-- **1부(첫 arc) 6편 드래프트 완료** — 프롤로그(Mara Veyr 심리) + ① Exhibit S-0
-  ② Dead Exchange ③ Last Hodler ④ Identity Flood ⑤ Hawking Court ⑥ Broken Crown.
-  한국어 정본(019-024) + 영어판(012-017) 둘 다. 읽기 순서는 시리즈 README.
-- **세계관 토대 재정비 중**: 009(비트코인 접근성)·010(인과 척추)·011(연표·복원
-  행정·블랙홀)·008(반전 설계).
-- **다음 단계**: (1) 주인공 Liora 캐릭터 시트, (2) 토대를 1부에 propagation(002
-  타임라인·003 세력·프롤로그·오프닝·전 에피소드 재점검), (3) release 다듬기,
-  (4) 2부 설계(`who may author loss`).
+- **outline-first reboot로 전환됨.** 기존 6편 prototype(한국어 019-024 + 영어
+  012-017 + 프롤로그 028)은 in-place 퇴고를 중단하고 `20_drafts/1부/_versions/`로
+  보존. 죽은 1세대는 `90_archive/qfuds-saga_1부_legacy/`.
+- **1부 active 원고 = [029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)**:
+  프롤로그 + Ch1~5 작성됨(① Exhibit S-0 ② Dead Exchange ③ Last Hodler ④ Identity
+  Flood ⑤ Hawking Court), 다음은 Ch6 final human hearing. 구조 SSOT는
+  [012 아웃라인](012_first_arc_book1_outline_reboot_ko.md)·[013 scene cards](013_first_arc_scene_cards_ko.md).
+- **다음 단계**: (1) Ch6 집필로 1부 완성, (2) 1부 통합 퇴고/리텐션, (3) release
+  다듬기(사용자 게이트), (4) 2부 설계(`who may author loss`, 010·007).
 
 ## 주인공 — Liora Sen (척추는 별도 시트로)
 

@@ -183,7 +183,7 @@ needs faction contrast     -> rotating 3rd-limited POV
 | 라우어 관측소 | Observatoire de Laur | Bureau Laurien | 프랑스식 관측소/감사 관료제 |
 | 연속성 법원 | Court of Continuance | Curia Continuationis | 로마법/교회법/판례 |
 | 복원청 | Ministry of Restoration | Diwan al-Restitution | 제국 행정, 장부, 복원 허가 |
-| 원장 가문 | Ledger Houses | Domus Tabularii | 로마 archive, 상업 귀족, 불변원장 |
+| 원장 가문 | Ledger Houses | Domus Clavium | key 소유 귀족, 상업 귀족, 불변원장 (015 확정) |
 | 원장 성채 | Ledger Keeps | Castra Tabularii | 성채, 군영, 데이터 봉건제 |
 | 알레테이아 베일 | Aletheia Veil | Velum Aletheiae / Custodes Velati | 계승, 결사, 수도회 |
 | 망각권 연맹 | League of Oblivion | Sangha Oblivionis | 해탈, 잊힐 권리, 수도원 |
