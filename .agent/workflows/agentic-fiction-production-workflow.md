@@ -115,8 +115,17 @@ Before drafting a scene that depends on technical, legal, institutional, or
 world-historical concepts, apply
 [Fiction Reader Onboarding Harness](../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md).
 
-The pass does not ban technical explanation. It requires every explanation to
-connect to a visible loss, choice, cost, or action in the scene.
+The pass does not ban technical explanation. It requires each load-bearing
+concept to pass:
+
+```text
+accurate technical explanation -> simple analogy -> visible loss / choice pressure
+```
+
+For QFUDS SAGA, the default mode is technothriller plus in-world documents:
+technical explanation is allowed, but it must quickly attach to a deadline,
+button, loss, cost, system warning, audit note, seal protocol, court exhibit, or
+fieldmark.
 
 ## Review Wave Protocol
 

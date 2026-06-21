@@ -47,6 +47,11 @@
 
 ## Reader Onboarding
 
-| Concept | Minimum definition for this unit | Scene object | Loss / choice it explains |
-| --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD |
+| Field | Answer |
+| --- | --- |
+| Onboarding mode | tutorial / problem-first / short-lecture / analogy-support / in-world-document / repeated-exposure / expert-dialogue / mixed |
+| Why this mode fits | TBD |
+
+| Concept | Accurate technical note | Simple analogy | Scene object / document | Loss / choice pressure |
+| --- | --- | --- | --- | --- |
+| TBD | TBD | TBD | TBD | TBD |
