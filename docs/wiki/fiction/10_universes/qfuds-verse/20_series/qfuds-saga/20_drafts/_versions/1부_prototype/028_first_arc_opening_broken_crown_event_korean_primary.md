@@ -20,7 +20,7 @@ last_updated: 2026-06-21
 fiction/provenance only. QFUDS 연구 증거 아님. 세계 사실은 bible 010이, 반전 배치는
 story_design 008이 보유한다. 이 문서는 그 빅이벤트를 독자에게 처음 보여주는 극화된
 오프닝 초안이다. 기술·역사 내용(비트코인 제네시스·딥페이크 시대·Shor/ECDSA·정보
-보존)은 [009 §2.5 검증 출처 대장](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)에서만
+보존)은 [009 §2.5 검증 출처 대장](../../../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)에서만
 끌어 쓴다. workflow state: `hit_not_cached`, extraction `not_extractable`.
 
 ## Adaptation Intent
@@ -36,7 +36,7 @@ story_design 008이 보유한다. 이 문서는 그 빅이벤트를 독자에게
 
 | Gate | Opening event decision |
 | --- | --- |
-| Repeating cast sheet | 사엘은 이 사건 한정 목격자(단발). 예고되는 Mara Veyr [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); 엔진의 정체(Last Archive) 미노출 [010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md) |
+| Repeating cast sheet | 사엘은 이 사건 한정 목격자(단발). 예고되는 Mara Veyr [016](../../../00_bible/016_character_ensemble_voices_relationships_ko.md); 엔진의 정체(Last Archive) 미노출 [010](../../../00_bible/010_last_archive_origin_and_reversal_causality_ko.md) |
 | POV person | 사엘 제한 3인칭. 엔진의 정체·내면은 시점 밖에 둔다(008 1막 보존) |
 | Causal link | 키 검증 의뢰가 엔진의 역연산으로, 비트코인 소유 붕괴가 "가장 큰 자물쇠=죽음" 인식으로 이어지고, 그 인식이 Waiting City와 Mara로 이어진다 |
 | Escalation | 개인 키 한 쌍의 진위 확인이 "되돌릴 수 없는 것이 있다"는 문명 전제의 붕괴로 상승 |

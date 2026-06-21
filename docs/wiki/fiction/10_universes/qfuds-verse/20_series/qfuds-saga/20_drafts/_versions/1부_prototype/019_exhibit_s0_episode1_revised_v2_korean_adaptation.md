@@ -26,7 +26,7 @@ existing SAGA setting as fiction/provenance material only.
 This adaptation does not introduce a new external web, PDF, table, cache,
 digitization, or product-availability claim. External-source handling remains
 governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 
@@ -46,7 +46,7 @@ English counterpart:
 ## Harness Applied
 
 - Craft harness:
-  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+  [Creative Writing Craft Harness](../../../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
 - Narrative frame: Liora limited POV inside an institutional hearing under
   public pressure.
 - Scene goal/obstacle/turn/cost: keep Mara Veyr's continuity hearing from
@@ -65,7 +65,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 1 decision |
 | --- | --- |
-| Repeating cast sheet | Liora [012](../00_bible/012_character_liora_sen_ko.md); Mara/Elias/Pell/Last Archive [016](../00_bible/016_character_ensemble_voices_relationships_ko.md) |
+| Repeating cast sheet | Liora [012](../../../00_bible/012_character_liora_sen_ko.md); Mara/Elias/Pell/Last Archive [016](../../../00_bible/016_character_ensemble_voices_relationships_ko.md) |
 | POV person | Liora Sen 제한 3인칭. Mara의 내면은 직접 열지 않고 말·몸·선택으로만 노출 |
 | Causal link | Genesis Chain 접근권이 Mara 복원 청구로, Mara의 거부가 Liora의 임시 표식으로 이어짐 |
 | Escalation | 사적 배우자 청구가 복원 문명의 첫 공개 제도 언어(`RECOVERABLE / NOT CLAIMABLE`)로 상승 |

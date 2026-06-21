@@ -28,7 +28,7 @@ and the Last Archive are SAGA fiction premises.
 This adaptation does not introduce a new external web, PDF, table, cache,
 digitization, or product-availability claim. External-source handling remains
 governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 
@@ -48,7 +48,7 @@ English counterpart:
 ## Harness Applied
 
 - Craft harness:
-  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+  [Creative Writing Craft Harness](../../../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
 - Narrative frame: procedural sabotage as moral audit, with proof itself turned
   into pressure.
 - Scene goal/obstacle/turn/cost: preserve consent boundaries after the Null-Key
@@ -68,7 +68,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 4 decision |
 | --- | --- |
-| Repeating cast sheet | Noor/Ione/Mara/Tamas/Null-Key Cells [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Noor/Ione/Mara/Tamas/Null-Key Cells [016](../../../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../../../00_bible/012_character_liora_sen_ko.md) |
 | POV person | Liora Sen 제한 3인칭 |
 | Causal link | 1-3편이 깨끗한 증명을 요구하자, Null-Key Cells가 "지저분함"으로 응수해 절차를 마비시킨다 |
 | Escalation | 단일 사건들이 다중 신원 범람으로 상승하고, 아이가 열쇠처럼 전시될 위험까지 간다 |

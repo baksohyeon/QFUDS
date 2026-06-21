@@ -29,7 +29,7 @@ premises.
 This draft does not introduce a new external web, PDF, table, cache,
 digitization, or product-availability claim. External-source handling remains
 governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

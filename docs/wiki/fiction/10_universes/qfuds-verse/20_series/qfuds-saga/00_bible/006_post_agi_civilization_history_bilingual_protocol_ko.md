@@ -450,8 +450,8 @@ century.
 active first-arc opening/source 파일:
 
 ```text
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md
+docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
 ```
 
 이 파일은 실제 fiction prose여야 하며, 설명표보다 장면을 우선한다.

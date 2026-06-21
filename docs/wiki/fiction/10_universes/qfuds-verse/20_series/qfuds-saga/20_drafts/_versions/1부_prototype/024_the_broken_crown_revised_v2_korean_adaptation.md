@@ -28,7 +28,7 @@ language are SAGA fiction premises.
 This adaptation does not introduce a new external web, PDF, table, cache,
 digitization, or product-availability claim. External-source handling remains
 governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 
@@ -48,7 +48,7 @@ English counterpart:
 ## Harness Applied
 
 - Craft harness:
-  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+  [Creative Writing Craft Harness](../../../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
 - Narrative frame: first-arc closure under institutional reuse of every field
   mark Liora created.
 - Scene goal/obstacle/turn/cost: close Mara Veyr's case without letting the
@@ -67,7 +67,7 @@ English counterpart:
 
 | Gate | Episode 6 decision |
 | --- | --- |
-| Repeating cast sheet | Mara/Elias/Noor/Ione/Tamas [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Mara/Elias/Noor/Ione/Tamas [016](../../../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../../../00_bible/012_character_liora_sen_ko.md) |
 | POV person | Liora Sen 제한 3인칭 |
 | Causal link | 1-5편의 표식 사슬이 권력의 문법이 되고, Mara가 그 문법 자체를 거부한다 |
 | Escalation | 누적된 제도 압력이 Mara의 편지와 최종 거부로 정점에 이른다 |

@@ -45,13 +45,13 @@ not searched
 
 | # | Episode | 한국어 prototype source | 영어 counterpart | 필드 마크 |
 | --- | --- | --- | --- | --- |
-| 0 | 프롤로그: The Broken Crown 사건 | [028](../20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) | (예정) | (세계관 여는 사건) |
-| 1 | Exhibit S-0 | [019](../20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](../20_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md) | `RECOVERABLE / NOT CLAIMABLE` |
-| 2 | The Dead Exchange | [020](../20_drafts/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](../20_drafts/013_the_dead_exchange_revised_v2_english_draft.md) | `ACCESS != AUTHORITY` |
-| 3 | The Last Hodler | [021](../20_drafts/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](../20_drafts/014_the_last_hodler_revised_v2_english_draft.md) | `NO CONSENT BY ANALOGY` |
-| 4 | Identity Flood | [022](../20_drafts/022_identity_flood_revised_v2_korean_adaptation.md) | [015](../20_drafts/015_identity_flood_revised_v2_english_draft.md) | `PLURALITY IS NOT CONSENT` |
-| 5 | Hawking Court | [023](../20_drafts/023_hawking_court_revised_v2_korean_adaptation.md) | [016](../20_drafts/016_hawking_court_revised_v2_english_draft.md) | `PHYSICS IS NOT JURISDICTION` |
-| 6 | The Broken Crown | [024](../20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](../20_drafts/017_the_broken_crown_revised_v2_english_draft.md) | `who may author loss` (arc-two hook) |
+| 0 | 프롤로그: The Broken Crown 사건 | [028](../20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md) | (예정) | (세계관 여는 사건) |
+| 1 | Exhibit S-0 | [019](../20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](../20_drafts/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md) | `RECOVERABLE / NOT CLAIMABLE` |
+| 2 | The Dead Exchange | [020](../20_drafts/_versions/1부_prototype/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](../20_drafts/_versions/1부_prototype/013_the_dead_exchange_revised_v2_english_draft.md) | `ACCESS != AUTHORITY` |
+| 3 | The Last Hodler | [021](../20_drafts/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](../20_drafts/_versions/1부_prototype/014_the_last_hodler_revised_v2_english_draft.md) | `NO CONSENT BY ANALOGY` |
+| 4 | Identity Flood | [022](../20_drafts/_versions/1부_prototype/022_identity_flood_revised_v2_korean_adaptation.md) | [015](../20_drafts/_versions/1부_prototype/015_identity_flood_revised_v2_english_draft.md) | `PLURALITY IS NOT CONSENT` |
+| 5 | Hawking Court | [023](../20_drafts/_versions/1부_prototype/023_hawking_court_revised_v2_korean_adaptation.md) | [016](../20_drafts/_versions/1부_prototype/016_hawking_court_revised_v2_english_draft.md) | `PHYSICS IS NOT JURISDICTION` |
+| 6 | The Broken Crown | [024](../20_drafts/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](../20_drafts/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md) | `who may author loss` (arc-two hook) |
 
 ## 판본 변천사 (changelog)
 

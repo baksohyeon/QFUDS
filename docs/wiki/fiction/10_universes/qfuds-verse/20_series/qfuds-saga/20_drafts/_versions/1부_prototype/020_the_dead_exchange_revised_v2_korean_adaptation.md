@@ -27,7 +27,7 @@ existing SAGA setting as fiction/provenance material only.
 This adaptation does not introduce a new external web, PDF, table, cache,
 digitization, or product-availability claim. External-source handling remains
 governed by
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 
@@ -47,7 +47,7 @@ English counterpart:
 ## Harness Applied
 
 - Craft harness:
-  [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+  [Creative Writing Craft Harness](../../../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
 - Narrative frame: Noor's household privacy and inheritance pressure before
   institutional explanation.
 - Scene goal/obstacle/turn/cost: show the living cost of being named by a dead
@@ -66,7 +66,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 2 decision |
 | --- | --- |
-| Repeating cast sheet | Noor/Pell/Ione/Last Archive [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Noor/Pell/Ione/Last Archive [016](../../../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../../../00_bible/012_character_liora_sen_ko.md) |
 | POV person | Noor Aram 제한 3인칭(세 이름의 상속 회피자) |
 | Causal link | 1편의 `RECOVERABLE / NOT CLAIMABLE` 이후, 권력이 죽은 접근권으로 산 사람을 끌어당긴다(Sarqel Trust가 Noor를 상속인으로 지목) |
 | Escalation | 사적 배우자 청구(1편)가 가문·신탁 차원의 상속 강제로 커진다 |
