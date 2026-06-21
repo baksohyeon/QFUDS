@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
-next_gate: write Chapter 6 final human hearing inside 20_drafts/1부/029 first-arc reboot manuscript
+next_gate: check the production board and latest story_design map before choosing the next active unit
 last_updated: 2026-06-21
 ---
 
@@ -20,6 +20,9 @@ last_updated: 2026-06-21
 - **qfuds-verse** = 세계(IP). **qfuds-saga** = 그 세계에서 쓰는 첫 장편 소설(작품).
   비유: qfuds-verse가 마블 유니버스라면, qfuds-saga는 그 안의 영화 한 편.
 - 경로: `10_universes/qfuds-verse`(세계) 아래 `20_series/qfuds-saga`(작품).
+- **작업을 시작하려면:** 먼저
+  [Fiction Agentic Workflow Guide](../../../../00_studio/011_fiction_agentic_workflow_guide_ko.md)와
+  [production board](00_workroom/009_saga_production_board_ko.md)를 확인한다.
 - **무엇을 보나:** 원고는 부(arc) 단위 폴더로 관리한다. 새 active 1부 원고는
   `20_drafts/1부/029`, 2부 초안은 `20_drafts/2부/`. 직전 읽기용 prototype은
   `20_drafts/1부/_versions/`, 죽은 1세대는 `90_archive/qfuds-saga_1부_legacy/`.
@@ -47,6 +50,9 @@ last_updated: 2026-06-21
 | release 상태 | active release 없음 | [40_release](40_release/README.md) |
 
 - **드래프트가 왜 이렇게 많은지** + 현행/레거시 구분: [20_drafts 지도](20_drafts/README.md).
+- **작업 순서·agentic harness**:
+  [Fiction Agentic Workflow Guide](../../../../00_studio/011_fiction_agentic_workflow_guide_ko.md),
+  [SAGA production board](00_workroom/009_saga_production_board_ko.md).
 - **세계관 납득 사슬·검증 출처**: [bible 009 §2.5](00_bible/009_reader_accessibility_and_real_world_anchors_ko.md).
 - **내 아이디어가 어디 갔나**: [작가 아이디어 추적 원장](00_workroom/006_creative_inputs_traceability_ko.md).
 - **GSD 집필/승격 게이트**: [1부 Book 1 GSD Phase Brief](00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md).
@@ -108,6 +114,11 @@ canonical series work다.
 
 현재 active shelf와 migration record는
 [Fiction Catalog](../../../../01_catalog/README.md)에서 관리한다.
+
+작업 실행 순서는
+[Fiction Agentic Workflow Guide](../../../../00_studio/011_fiction_agentic_workflow_guide_ko.md)와
+[Agentic Fiction Production Workflow](../../../../../../../.agent/workflows/agentic-fiction-production-workflow.md)가
+정한다. 이 README는 사람이 보는 SAGA shelf 지도이며, 실행 authority가 아니다.
 
 ## Workflow Boundary
 

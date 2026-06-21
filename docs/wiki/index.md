@@ -82,18 +82,24 @@ and
 - [Fiction GSD 하네스 운영 가이드](fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
   - step-by-step guide for starting fiction/IP tasks through workflow
     classification, GSD phase checks, validation, and commit boundaries.
-- [Fiction Prose 핍진성·개연성 장면 감사 체크리스트](fiction/00_studio/006_prose_verisimilitude_audit_checklist_ko.md)
-  - scene-level verisimilitude, causality, style, and AI-tell checklist for
-    SAGA prose revision.
-- [Fiction 창작 기법·정치이론 자료조사](fiction/00_studio/007_craft_and_political_theory_research_ko.md)
-  - craft and political-theory reference for non-jumpy exposition, Bitcoin
-    accessibility, and world-rule anchors; fiction/provenance only.
+- [Fiction Agentic Workflow Guide](fiction/00_studio/011_fiction_agentic_workflow_guide_ko.md)
+  - short operational entry guide for active fiction production, README roles,
+    agent workflows, harnesses, hooks, and gates.
+- [한국어 소설 문장 자연스러움 하네스](fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
+  - Korean-primary prose naturalness, translationese, AI-tell, and polish
+    harness.
+- [Fiction Reader Onboarding Harness](fiction/00_studio/010_reader_onboarding_harness_ko.md)
+  - technical/legal/institutional concept onboarding rules for fiction scenes.
 - [Fiction Catalog](fiction/01_catalog/README.md)
   - active fiction shelf, work list, migration record, and next task candidates.
 - [QFUDS Verse](fiction/10_universes/qfuds-verse/README.md)
   - universe/IP scaffold for QFUDS-derived fiction works.
 - [QFUDS SAGA](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) - active publisher-style fiction
   track for the QFUDS-inspired SAGA; not research evidence.
+- [QFUDS SAGA Production Board](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)
+  - current execution state for active SAGA production.
+- [QFUDS SAGA Draft Map](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
+  - current active drafts, prototype versions, and archive split.
 - [QFUDS SAGA Revision Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md)
   - release-facing revision plans, continuity-fix passes, and line-edit
     controls for SAGA drafts.
@@ -107,164 +113,6 @@ and
 - [QFUDS Fiction Saga Archive](fiction/90_archive/lineage-prototype/README.md)
   - original Laur Observatory prototype with branch map and early episodes;
     fiction/provenance only.
-- [QFUDS SAGA 창작 시스템](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/001_agentic_saga_system_ko.md)
-  - AI writers' room, MCP candidates, and user-confirmation workflow.
-- [QFUDS SAGA 세계관 방향 선택 매트릭스](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/001_world_direction_matrix_ko.md)
-  - world-direction comparison for Nested Cosmology, closed-world revelation,
-    deep-time empire, tactical philosophy SF, and it-from-bit mythos.
-- [QFUDS SAGA 세계 기준점과 핍진성 규칙](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/001_world_anchor_and_verisimilitude_ko.md)
-  - 한국어 world-anchor and plausibility spine for the far-future SAGA: modern AI
-    era as archaeological layer, miracles as institutions, fiction/provenance
-    only.
-- [QFUDS SAGA 장기 복원 문명사 타임라인](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/002_deep_time_restoration_timeline_ko.md)
-  - deep-time restoration civilization timeline for the series reference.
-- [QFUDS SAGA 세력 문화 권력 생태계 장부](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/003_factions_cultures_power_ecology_ko.md)
-  - factions, communities, political power, religion-inspired language, and
-    restoration-economy ecology for the series reference.
-- [QFUDS SAGA 시점 주제 고유명사 규칙](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/004_narrative_pov_theme_naming_ko.md)
-  - narrative POV decision rationale, core theme, historical borrowing rules,
-    and common/formal naming strata for the series reference.
-- [QFUDS SAGA Bitcoin Genesis Chain과 복원 신화](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/005_bitcoin_genesis_chain_and_restoration_myth_ko.md)
-  - Bitcoin as Genesis Chain artifact, `it from bit`, soft reality editing,
-    cryptographic death, and black-hole/white-hole restoration myth boundaries.
-- [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
-  - writer harness for the Mara Veyr prologue, including scene craft,
-    post-COVID digital afterlife context, erasure rights, AI reality editing,
-    and science-audit boundaries.
-- [QFUDS SAGA Mara Veyr 프롤로그 초안](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/001_mara_veyr_prologue_draft_ko.md)
-  - first fiction-draft test for cryptographic death, Genesis Chain,
-    The Broken Crown, Last Archive intervention, and the Mara Veyr continuity
-    case.
-- [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
-  - post-AGI civilization history, Marxian general-intellect lens,
-    `It from bit(s)`/Bitcoin joke layer, and Korean-primary fiction protocol.
-- [QFUDS SAGA 암호학적 죽음과 해시 계약](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/007_cryptographic_death_and_hash_covenant_ko.md)
-  - user-provided hash/KDF/cryptographic-hash notes translated into SAGA rules
-    for Cryptographic Death, Preimage Restoration, Genesis Chain, and
-    identity-flood attacks; fiction/provenance only.
-- [QFUDS SAGA 독자 접근성과 실제 세계 앵커](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
-  - reader-accessibility rules for Bitcoin/Genesis Chain, first-use anchors for
-    SAGA institutions, and real-world political/economic structure anchors.
-- [QFUDS SAGA Mara Veyr Prologue English Revision](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/002_mara_veyr_prologue_english_revision_ko.md)
-  - legacy English-first tone revision for the Mara Veyr prologue, with Korean
-    translation and revision notes; fiction/provenance only.
-- [QFUDS SAGA 이중언어 용어규율 글로서리](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/003_bilingual_term_discipline_glossary_ko.md)
-  - prose-facing term discipline for when Korean primary text keeps English
-    proper nouns, technical terms, and field marks.
-- [QFUDS SAGA 시각 전시물 설계](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/002_visual_exhibit_design_ko.md)
-  - visual-exhibit plan for reusing existing rough-tanh assets as fictional
-    court/archive plates; not research evidence.
-- [QFUDS SAGA Genesis Chain 유물 장면 패킷](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
-  - development packet turning Bitcoin/Genesis Chain into zero-price artifact,
-    broken-crown exhibit, cryptographic-collapse theology, and black-hole
-    restoration scene pressure; fiction/provenance only.
-- [QFUDS SAGA 첫 Arc 6화 Outline](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/006_first_arc_six_episode_outline_ko.md)
-  - first-arc development outline distributing Mara Veyr, Genesis Chain,
-    Cryptographic Death, Identity Flood, and Hawking Court across six episodes;
-    fiction/provenance only.
-- [QFUDS SAGA Arc Two Korean-Primary Plan](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/007_arc_two_korean_primary_plan_ko.md)
-  - concise Arc Two plan for turning `who may author loss` into the next
-    Korean-primary prose loop; fiction/provenance only.
-- [QFUDS SAGA Exhibit S-0 Opening English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/003_exhibit_s0_opening_english_draft.md)
-  - legacy English-first opening draft for episode 1, following Liora Sen through the
-    Waiting City into the Mara Veyr continuity hearing; fiction/provenance only.
-- [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/004_exhibit_s0_hearing_continuation_english_draft.md)
-  - legacy English-first continuation draft for episode 1, moving through the Mara
-    Veyr hearing, Broken Crown exhibit, continuity tests, and Last Archive
-    question correction; fiction/provenance only.
-- [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/005_exhibit_s0_episode1_revised_english_draft.md)
-  - legacy English-first revision pass combining the Exhibit S-0 opening and hearing
-    continuation into one episode 1 rough cut; fiction/provenance only.
-- [QFUDS SAGA The Dead Exchange English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/006_the_dead_exchange_english_draft.md)
-  - legacy English-first Episode 2 draft that turns Genesis Chain into a dead-market
-    succession institution and introduces `ACCESS != AUTHORITY`;
-    fiction/provenance only.
-- [QFUDS SAGA The Last Hodler English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/007_the_last_hodler_english_draft.md)
-  - legacy English-first Episode 3 draft that treats Bitcoin/Genesis Chain as future
-    myth and a civilization-scale consent artifact, introducing
-    `NO CONSENT BY ANALOGY`; fiction/provenance only.
-- [QFUDS SAGA Identity Flood English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/008_identity_flood_english_draft.md)
-  - legacy English-first Episode 4 draft where Null-Key Cells flood the court with
-    plausible identity graphs and introduce `PLURALITY IS NOT CONSENT`;
-    fiction/provenance only.
-- [QFUDS SAGA Hawking Court English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/009_hawking_court_english_draft.md)
-  - legacy English-first Episode 5 draft that expands Genesis Chain into sealed cosmic
-    audit pressure while keeping Hawking restoration and QFUDS as fiction
-    premises; fiction/provenance only.
-- [QFUDS SAGA The Broken Crown English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/010_the_broken_crown_english_draft.md)
-  - legacy English-first Episode 6 first-arc finale draft that chains prior field
-    marks into a ruling and opens the next arc with `who may author loss`;
-    fiction/provenance only.
-- [QFUDS SAGA 첫 Arc Canon 정리](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/008_first_arc_canon_consolidation_ko.md)
-  - Series-bible bridge extracting the first arc field mark chain, character and
-    institution functions, fiction-only science boundaries, arc two hook, and
-    revision checklist.
-- [QFUDS SAGA First Arc Full Revision Pass](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/011_first_arc_full_revision_pass.md)
-  - Revision control pass for Episodes 1-6, fixing arc-level cuts, required
-    additions, field mark rules, continuity fixes, and the next rewrite loop.
-- [QFUDS SAGA Exhibit S-0 Episode 1 Revised V2 English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/012_exhibit_s0_episode1_revised_v2_english_draft.md)
-  - preserved English Episode 1 v2 counterpart that moves Mara's active refusal earlier,
-    tightens the Genesis/Broken Crown setup, and keeps `RECOVERABLE / NOT
-    CLAIMABLE` provisional; fiction/provenance only.
-- [QFUDS SAGA The Dead Exchange Revised V2 English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/013_the_dead_exchange_revised_v2_english_draft.md)
-  - preserved English Episode 2 v2 counterpart that gives Noor concrete household and
-    burial-record cost before the legal argument and ties `ACCESS != AUTHORITY`
-    to lived authority; fiction/provenance only.
-- [QFUDS SAGA The Last Hodler Revised V2 English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/014_the_last_hodler_revised_v2_english_draft.md)
-  - preserved English Episode 3 v2 counterpart that shortens crowd rhetoric, seeds the
-    Aletheia split earlier, and makes analogy transfer visible before
-    `NO CONSENT BY ANALOGY`; fiction/provenance only.
-- [QFUDS SAGA Identity Flood Revised V2 English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/015_identity_flood_revised_v2_english_draft.md)
-  - preserved English Episode 4 v2 counterpart that makes Null-Key Cells morally ambiguous,
-    reduces graph-count exposition, and ties `PLURALITY IS NOT CONSENT` to
-    lived proof overflow; fiction/provenance only.
-- [QFUDS SAGA Hawking Court Revised V2 English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/016_hawking_court_revised_v2_english_draft.md)
-  - preserved English Episode 5 v2 counterpart that makes H-1 frightening through human
-    stakes before terminology and keeps QFUDS-adjacent language rejected/useful
-    but unsafe as truth claim; fiction/provenance only.
-- [QFUDS SAGA The Broken Crown Revised V2 English Draft](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/017_the_broken_crown_revised_v2_english_draft.md)
-  - preserved English Episode 6 v2 counterpart that shortens the city-fracture opening,
-    makes pending doctrine dangerous earlier, and opens arc two with
-    `who may author loss`; fiction/provenance only.
-- [QFUDS SAGA First Arc Polish Read-Order Pass](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_legacy/018_first_arc_polish_read_order_pass.md)
-  - Phase 18 control document setting Korean primary read order, English
-    counterpart status, continuity checks, exposition cuts, and field mark
-    misuse risks.
-- [QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)
-  - release-facing plan for natural Korean line polish across 019-024.
-- [QFUDS SAGA Exhibit S-0 Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)
-  - Korean primary Episode 1 adaptation preserving `RECOVERABLE / NOT
-    CLAIMABLE`; fiction/provenance only.
-- [QFUDS SAGA The Dead Exchange Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/020_the_dead_exchange_revised_v2_korean_adaptation.md)
-  - Korean primary Episode 2 adaptation preserving `ACCESS != AUTHORITY`;
-    fiction/provenance only.
-- [QFUDS SAGA The Last Hodler Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/021_the_last_hodler_revised_v2_korean_adaptation.md)
-  - Korean primary Episode 3 adaptation preserving `NO CONSENT BY ANALOGY`;
-    fiction/provenance only.
-- [QFUDS SAGA Identity Flood Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/022_identity_flood_revised_v2_korean_adaptation.md)
-  - Korean primary Episode 4 adaptation preserving `PLURALITY IS NOT CONSENT`;
-    fiction/provenance only.
-- [QFUDS SAGA Hawking Court Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/023_hawking_court_revised_v2_korean_adaptation.md)
-  - Korean primary Episode 5 adaptation preserving `PHYSICS IS NOT
-    JURISDICTION`; fiction/provenance only.
-- [QFUDS SAGA The Broken Crown Korean Adaptation](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md)
-  - Korean primary Episode 6 adaptation closing the first arc with `who may
-    author loss`; fiction/provenance only.
-- [QFUDS SAGA Who May Author Loss Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/025_who_may_author_loss_korean_primary.md)
-  - Arc Two opening Korean-primary draft introducing `UNRECOVERED IS NOT
-    UNREAL`; fiction/provenance only.
-- [QFUDS SAGA Who May Author Loss English Counterpart](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/026_who_may_author_loss_english_counterpart.md)
-  - Arc Two English Anglophone counterpart for 025; fiction/provenance only.
-- [QFUDS SAGA Who May Refuse Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/027_who_may_refuse_korean_primary.md)
-  - Arc Two Korean-primary continuation draft; fiction/provenance only.
-- [QFUDS SAGA 1부 여는 사건 The Broken Crown](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md)
-  - pre-reboot first-arc opening prototype; provenance only.
-- [QFUDS SAGA 1부 Book 1 Reboot Korean Primary](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/029_first_arc_book1_reboot_korean_primary.md)
-  - active first-arc reboot manuscript SSOT. Prologue and Chapters 1-2 drafted;
-    Chapters 3-6 pending.
-- [QFUDS SAGA 1부 Book 1 GSD Phase Brief](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md)
-  - GSD gate for completing 029 as a SAGA-grade Korean-primary Book 1, then
-    moving through English adaptation, continuity, user pre-release review, and release.
 
 ## Postmortems
 

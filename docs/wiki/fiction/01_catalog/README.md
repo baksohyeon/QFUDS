@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: continue qfuds-saga 029 first-arc Book 1 Korean-primary reboot manuscript
+next_gate: use the SAGA README and production board before choosing the next active drafting or design unit
 last_updated: 2026-06-21
 ---
 
@@ -44,7 +44,7 @@ last_updated: 2026-06-21
 
 | Work | Current path | Format | Continuity status | Next decision |
 | --- | --- | --- | --- | --- |
-| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active reboot manuscript in progress | Continue 029 Chapter 3 after Prologue + Chapters 1-2 draft pass |
+| QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active series work | Check the SAGA README, production board, and latest story_design/draft map before choosing the next unit |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
 
 ## Target Structure
@@ -103,6 +103,13 @@ not_extractable
 
 ## Next Task Candidates
 
-1. QFUDS SAGA 1부 [029 active reboot manuscript](../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서 [007 GSD phase brief](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md)의 hard floor를 지키며 Chapter 3 `The Last Hodler`를 이어 쓴다.
-2. [013 scene cards](../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)는 first draft entry 기준으로 통과했지만 release gate는 아니다.
-3. `40_release/001_` active release는 029 전체 한국어 primary, 영어 독립 각색판, shared continuity check, release-facing revision gate 이후에만 만든다.
+1. 작업 시작 전 [Fiction Agentic Workflow Guide](../00_studio/011_fiction_agentic_workflow_guide_ko.md)를 읽고,
+   [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)의
+   현재 unit을 확인한다.
+2. 원고 작업은 [SAGA README](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md)와
+   [20_drafts 지도](../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)가
+   가리키는 active draft에서만 시작한다.
+3. arc 번호 cascade가 걸린 draft README는 011/016/017 계열 story design과 사용자 승인 후
+   별도 pass로 정리한다.
+4. `40_release/001_` active release는 한국어 primary, 영어 독립 각색판, shared continuity
+   check, release-facing revision gate 이후에만 만든다.

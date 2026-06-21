@@ -9,7 +9,7 @@ depends_on:
   - roadmap
   - wiki_lineage_index
 next_gate: none; fiction companion routing only
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # Wiki Fiction
@@ -41,15 +41,22 @@ status.
    benchmarks used by the fiction harness.
    - 후속: [창작 기법·정치이론 자료조사](00_studio/007_craft_and_political_theory_research_ko.md)
      — 비약 없는 노출(incluing/테드 창), 비트코인 붕괴 5단 사다리, 세계규칙 실증 앵커.
-6. [Fiction Catalog](01_catalog/README.md)
+6. [Fiction Agentic Workflow Guide](00_studio/011_fiction_agentic_workflow_guide_ko.md)
+   - short entry guide for the current agentic fiction workflow: what to read
+   first, which README is navigation, which workflow is authority, and which
+   gates are dangerous to touch.
+   - active prose companions:
+     [한국어 소설 문장 자연스러움 하네스](00_studio/009_korean_fiction_prose_naturalness_harness_ko.md),
+     [Reader Onboarding Harness](00_studio/010_reader_onboarding_harness_ko.md).
+7. [Fiction Catalog](01_catalog/README.md)
    - active shelf, work list, migration record, and next fiction task candidates.
-7. [QFUDS Verse](10_universes/qfuds-verse/README.md)
+8. [QFUDS Verse](10_universes/qfuds-verse/README.md)
    - universe/IP scaffold for future QFUDS-derived fiction works.
-8. [QFUDS SAGA](10_universes/qfuds-verse/20_series/qfuds-saga/README.md)
+9. [QFUDS SAGA](10_universes/qfuds-verse/20_series/qfuds-saga/README.md)
    - active publisher-style fiction track for the QFUDS-inspired SAGA, split
    into workroom, work bible, story design, drafts, revisions, and release
    shelves.
-9. [Fiction Archive](90_archive/README.md) - archived prototype fiction tracks,
+10. [Fiction Archive](90_archive/README.md) - archived prototype fiction tracks,
    including the original lineage-hosted Laur Observatory saga.
 
 ## Boundary
@@ -59,6 +66,8 @@ It must not promote a speculative image into a physical source claim.
 
 Active fiction-IP system notes belong under
 [Fiction IP 관리 시스템](00_studio/001_fiction_ip_management_system_ko.md).
+The short operational entry guide is
+[Fiction Agentic Workflow Guide](00_studio/011_fiction_agentic_workflow_guide_ko.md).
 The current work list and migration record live in
 [Fiction Catalog](01_catalog/README.md). Current active fiction work belongs
 under [QFUDS SAGA](10_universes/qfuds-verse/20_series/qfuds-saga/README.md).

@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: review qfuds-saga 013 scene cards before first-arc prose rewrite
+next_gate: use qfuds-saga README and production board before choosing the next active unit
 last_updated: 2026-06-21
 ---
 
@@ -19,7 +19,7 @@ last_updated: 2026-06-21
 
 | Series | Current path | Status | Rule |
 | --- | --- | --- | --- |
-| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | 1부 [013 scene cards](qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)를 먼저 검토·보강한다 |
+| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | [SAGA README](qfuds-saga/README.md)와 [production board](qfuds-saga/00_workroom/009_saga_production_board_ko.md)를 먼저 확인한다 |
 
 ## Migration Record
 
