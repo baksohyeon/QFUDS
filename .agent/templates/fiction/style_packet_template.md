@@ -11,8 +11,8 @@
 ## Active Style Rules
 
 - Korean-primary prose first for active SAGA drafts unless explicitly overridden.
-- Think and draft Korean prose in Korean. Do not route active Korean prose
-  through English or Chinese loglines and translate back.
+- Draft Korean-primary prose as Korean sentences first. Do not write from a
+  translated logline or foreign-language noun stack.
 - Technical terms remain visible when they carry meaning; give plain-language handles in-scene.
 - Put a person under pressure before explaining the concept.
 - Dialogue must expose different wants, fears, and power positions.

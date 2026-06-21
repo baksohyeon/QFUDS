@@ -150,8 +150,8 @@ to reload long craft documents on every pass, but it cannot override them.
 It should preserve:
 
 - Korean-primary prose for active SAGA drafts;
-- Korean-first drafting for Korean-primary prose, with no English/Chinese
-  intermediate logline translation;
+- Korean-first drafting for Korean-primary prose, with no translated logline or
+  foreign-language noun-stack intermediate;
 - technical terms with plain-language handles;
 - person-under-pressure before concept explanation;
 - distinct character voice;

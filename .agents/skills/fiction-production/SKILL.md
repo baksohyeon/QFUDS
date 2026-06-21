@@ -35,8 +35,8 @@ Name the active mode before making decisions:
 - Do not install external AI writing tools or MCP servers as part of this skill.
 - Do not copy external prompts or code from inspiration repositories.
 - Korean-primary active SAGA prose comes before English adaptation unless the user explicitly overrides it.
-- Think and draft Korean prose in Korean. Do not generate an English or Chinese
-  logline first and translate it back into Korean.
+- Draft Korean prose as Korean sentences first. Do not generate a translated
+  logline or foreign-language noun stack and then render it into Korean.
 - Preserve technical terms when they carry meaning; explain them in-scene.
 - `humanize` is final polish only. Do not use it for AI detector evasion or to hide weak structure.
 - Do not canonize by momentum. Proposed canon changes go through a chronicler pass and the appropriate bible/story_design/revision destination.
