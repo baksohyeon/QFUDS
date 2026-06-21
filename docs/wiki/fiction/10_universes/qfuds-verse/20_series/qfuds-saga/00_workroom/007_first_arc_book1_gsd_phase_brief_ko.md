@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_scene_cards_ko
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
-next_gate: draft Chapter 2 The Dead Exchange inside 029 first-arc reboot manuscript
+next_gate: draft Chapter 3 The Last Hodler inside 029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -113,7 +113,8 @@ Forbidden outputs:
 ## Source Boundary
 
 이 brief는 새 외부 source table을 직접 보유하지 않는다. Bitcoin/digital-asset
-상속·세무·custodial account·fiduciary access에 관한 현실 앵커와 workflow state는
+상속·세무·custodial account·fiduciary access, AI infrastructure, AGI, LLM
+autonomy/personhood/model-welfare 논쟁에 관한 현실 앵커와 workflow state는
 [009 reader accessibility and real-world anchors](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)가
 SSOT다. 이 brief와 029는 그 교정만 상속한다.
 
@@ -243,8 +244,8 @@ sh scripts/git-hooks/pre-commit
   - Phase brief + Prologue expansion can land together.
   - After that, each chapter draft should land in its own commit or tight pair of
     chapter + continuity notes.
-- Next phase: draft Chapter 2 `The Dead Exchange` in 029, preserving
-  `ACCESS != AUTHORITY` and the dead-key market/custody genealogy pressure.
+- Next phase: draft Chapter 3 `The Last Hodler` in 029, preserving
+  `NO CONSENT BY ANALOGY` and the Bitcoin public myth / Elias pressure layer.
 - User confirmation needed:
   - Not needed for each drafting sprint unless a new canon decision appears.
   - Required before `40_release/001_` active release promotion.

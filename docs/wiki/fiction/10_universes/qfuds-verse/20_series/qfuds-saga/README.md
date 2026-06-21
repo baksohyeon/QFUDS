@@ -9,7 +9,7 @@ depends_on:
   - wiki_fiction_index
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
-next_gate: continue Chapter 2 The Dead Exchange inside 20_drafts/029 first-arc reboot manuscript
+next_gate: continue Chapter 3 The Last Hodler inside 20_drafts/029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -36,7 +36,7 @@ last_updated: 2026-06-21
 
 | 상태 | 파일 | 설명 |
 | --- | --- | --- |
-| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. Prologue and Chapter 1 drafted past GSD hard floors, Chapter 2-6 pending |
+| active reboot draft | [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md) | 1부 Book 1 한국어 primary 원고 SSOT. Prologue and Chapters 1-2 drafted past GSD hard floors, Chapters 3-6 pending |
 | pre-reboot prototype | [028](20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) + [019](20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) | provenance/readable prototype |
 
 | 순서 | 편 | 한국어 prototype |
@@ -336,9 +336,11 @@ legacy provenance draft를 둔다. 아직 독자용 release 후보가 아닌 실
     - 019-024 한국어 정본을 자연 한국어로 다듬은 line-edit pass의 통제 문서와
       검증 게이트(토큰 density, naturalness/content-fidelity 감사).
 46. [QFUDS SAGA 독자 접근성과 실제 세계 앵커](00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
-    - 비트코인 붕괴를 중·고생도 비약 없이 이해할 5단 사다리, `Last Archive`/
-      `Ledger House` 갑툭튀 방지 닻, 세계 규칙의 실제 정치·경제 앵커(인클로저·
-      mortmain·GDPR·감시자본주의·회사 화폐), 용어 한국어 표기 정책.
+    - 비트코인·AI·AGI·LLM 인격 논쟁을 중·고생도 비약 없이 이해할 현실 앵커
+      source pack. Bitcoin legal title/private-key control, AI infrastructure,
+      AGI capability/autonomy, model welfare, self-report, legal personhood,
+      authorship/inventorship, A-corp 논쟁의 allowed/blocked claim과 workflow
+      state를 관리한다.
     - 짝 문서: [Last Archive 기원과 역연산 인과·이념사](00_bible/010_last_archive_origin_and_reversal_causality_ko.md)
       — Aletheia Systems/창업자 Adrian Karvath(아이언맨·머스크형 매드 사이언티스트,
       동력핵 the Arc)의 폭주 후신이 Last Archive·Laur·Aletheia Veil이 됨; 강제
@@ -449,7 +451,7 @@ Umbrae·Curia Continuum·Cellulae Sine Clave 등).
 ## Next Korean-Primary Prose Task Gate
 
 다음 한국어 prose 작업은 [029](20_drafts/029_first_arc_book1_reboot_korean_primary.md)
-안에서 Chapter 2 `The Dead Exchange`를 이어 쓰는 것이다. 1부는 outline-first reboot
+안에서 Chapter 3 `The Last Hodler`를 이어 쓰는 것이다. 1부는 outline-first reboot
 상태로 전환됐고, [013 scene cards](10_story_design/013_first_arc_scene_cards_ko.md)는
 first draft entry 기준으로 통과했다.
 
@@ -466,7 +468,7 @@ first-arc Korean line polish의 1차 pass(영어 코드스위칭 제거 de-jargo
 실행되었다. Arc Two planning, 025·027 한국어 primary draft, 025 영어 counterpart(026),
 세력 명칭 canon(015)이 사용자 승인 후 작성·감사 완료되었다. 하지만 1부는 prose
 patching 대신 백지 재설계로 전환했다. 다음 자연스러운 작업은 027 영어 독립 각색판이나
-Arc Two 확장이 아니라, 029에서 Chapter 2 `The Dead Exchange`를 이어 쓰는 것이다.
+Arc Two 확장이 아니라, 029에서 Chapter 3 `The Last Hodler`를 이어 쓰는 것이다.
 
 ## 역할
 
