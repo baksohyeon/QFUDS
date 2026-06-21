@@ -25,6 +25,22 @@ last_updated: 2026-06-21
 - **서랍(폴더) 역할:** 00_workroom 운영규칙 · 00_bible 설정집 · 10_story_design 기획 ·
   20_drafts 원고 초안 · 30_revisions 퇴고 · 40_release 완성본.
 
+## 읽기 경로 (현행 스토리 순서)
+
+지금 읽을 1부는 이 순서다. 아래 긴 "먼저 읽을 것" 목록은 과거 세대까지 포함한
+전체 색인이니, 그냥 읽고 싶으면 이 표만 보면 된다.
+
+| 순서 | 편 | 한국어 정본 |
+| --- | --- | --- |
+| 프롤로그 | The Broken Crown 사건 | [028](20_drafts/028_first_arc_opening_broken_crown_event_korean_primary.md) |
+| 1~6 | Exhibit S-0 … Broken Crown | [019](20_drafts/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)–[024](20_drafts/024_the_broken_crown_revised_v2_korean_adaptation.md) |
+| 묶음 읽기본 | 조립 원고 | [40_release/002](40_release/002_first_arc_manuscript_ko.md) |
+
+- **드래프트가 왜 이렇게 많은지** + 현행/레거시 구분: [20_drafts 지도](20_drafts/README.md).
+- **세계관 납득 사슬·검증 출처**: [bible 009 §2.5](00_bible/009_reader_accessibility_and_real_world_anchors_ko.md).
+- **내 아이디어가 어디 갔나**: [작가 아이디어 추적 원장](00_workroom/006_creative_inputs_traceability_ko.md).
+- **판본 변천사·회고**: [_versions 로그](20_drafts/_versions/README.md).
+
 이 폴더는 QFUDS에서 파생된 별도 창작 트랙이자 `qfuds-verse`의 canonical
 series work다.
 
