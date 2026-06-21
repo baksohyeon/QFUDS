@@ -76,6 +76,12 @@ QFUDS)은 입증되지 않은 금지·논쟁 이론이다. 상세·정정:
 [017](017_bitcoin_stature_ideology_deeptime_ko.md),
 [005](005_bitcoin_genesis_chain_and_restoration_myth_ko.md).
 
+**It from bit(s).** 현실이 정보·관측에서 나온다는 Wheeler의 `it from bit` 철학을,
+먼 미래 학자·법정 서기가 건조한 아이러니로 굴린다. `It from bits`는 옛 암호 원장·
+잔여 데이터·깨진 키를 비트는 후대 shorthand다. 철학 motif로만 쓰고 물리 증명으로
+쓰지 않는다(복원=사본 전제, 021과 일관). 상세:
+[006 It From Bit(s) Layer](006_post_agi_civilization_history_bilingual_protocol_ko.md).
+
 ## 6. 필드마크 정전 (작중 판례 법문)
 
 법원이 한 편에 하나씩 남기는 영문 판례 문구의 사슬:
