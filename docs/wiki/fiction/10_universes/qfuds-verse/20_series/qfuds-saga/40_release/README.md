@@ -18,7 +18,7 @@ last_updated: 2026-06-21
 
 다음 1부 정본은 [012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
 [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과해
-[029 active reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서
+[029 active reboot manuscript](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서
 작성 중이다. 029 전체 한국어 primary, 영어 독립 각색판, shared continuity check,
 release-facing revision gate, 사용자 pre-release review/확인 전까지 release build를
 만들지 않는다.

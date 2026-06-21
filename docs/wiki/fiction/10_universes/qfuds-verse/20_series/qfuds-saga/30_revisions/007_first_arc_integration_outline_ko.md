@@ -23,7 +23,7 @@ last_updated: 2026-06-21
 문서다. 이것은 소설 산문이 아니라 설계 스펙이며, 현재 active first-arc 경로는
 [012 통합 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md),
 [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md),
-[029 active reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)로
+[029 active reboot manuscript](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)로
 이동했다. 이 문서는 029가 상속한 이전 통합 판단을 보존한다.
 
 각 편마다 다섯 면을 정밀하게 적시한다.
@@ -487,7 +487,7 @@ arc를 연다.
 ## Next Use
 
 이 문서를 active execution plan으로 사용하지 않는다. 다음 산문 작업은
-[029](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서 Chapter 1
+[029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서 Chapter 1
 `Exhibit S-0`를 이어 쓰는 것이다. 40_release 재조립은 029 전체 한국어 primary,
 영어 독립 각색판, shared continuity check, release-facing revision gate 이후에만
 검토한다.

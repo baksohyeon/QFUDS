@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - wiki_fiction_index
 next_gate: none; archived fiction provenance only
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # Wiki Fiction Archive
@@ -23,6 +23,8 @@ back into the active track.
 
 1. [Lineage Prototype Saga](lineage-prototype/README.md) - the first Laur
    Observatory fiction companion that originally lived under `docs/wiki/lineage/`.
+2. [QFUDS SAGA 1부 1세대 아카이브](qfuds-saga_1부_legacy/README.md) - the dead
+   first-generation 1부 drafts (001-011, 018) superseded by the 029 reboot.
 
 ## Boundary
 

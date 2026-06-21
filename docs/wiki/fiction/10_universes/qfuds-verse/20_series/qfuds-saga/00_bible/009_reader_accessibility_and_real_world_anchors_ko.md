@@ -458,5 +458,5 @@ prose에 출처명을 드러내지 않고 구조만 녹인다.
 ## Next Use
 
 이 토대를 first-arc active reboot manuscript
-[029](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)가 집행한다. 028 및
+[029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)가 집행한다. 028 및
 019-024는 pre-reboot prototype/provenance다.

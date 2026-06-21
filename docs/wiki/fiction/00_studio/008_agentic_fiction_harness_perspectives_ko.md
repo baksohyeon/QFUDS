@@ -19,7 +19,7 @@ last_updated: 2026-06-21
 새 사람이 자기 위치에서 무엇을 보고 무엇을 해야 하는지 바로 안다.
 
 전체 규칙의 단일 출처는
-[Fiction IP Management Workflow](../../../.agent/workflows/fiction-ip-management-workflow.md)
+[Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)
 이고, 이 문서는 그 규칙을 관점별로 풀어 쓴 안내서다. 충돌하면 워크플로우가 이긴다.
 
 ## 0. 한 장의 그림

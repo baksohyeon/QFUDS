@@ -237,7 +237,7 @@ hook into next scene
 
 Scene-card gate [013](013_first_arc_scene_cards_ko.md)는 2026-06-21에 first draft
 entry 기준으로 통과했다. 다음 active output은
-[029 First Arc Book 1 Reboot Korean Primary](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)다.
+[029 First Arc Book 1 Reboot Korean Primary](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)다.
 
 기존 028과 019-024는 prototype/provenance로 보존한다. 새 1부 원고는 그 문장을
 고치는 방식이 아니라 012 outline과 013 scene cards를 기준으로 백지에서 다시 쓴다.

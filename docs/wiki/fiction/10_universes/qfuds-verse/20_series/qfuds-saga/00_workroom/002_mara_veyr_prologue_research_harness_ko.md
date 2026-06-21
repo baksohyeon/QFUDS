@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - concept_origin
 next_gate: user approves the prologue beat sheet before scene draft
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA Mara Veyr 프롤로그 연구 하네스
@@ -374,7 +374,7 @@ courtroom ritual
 ## Next Executable Task
 
 사용자가 위 checklist를 승인하면 다음 작업은
-[QFUDS SAGA Mara Veyr Prologue Draft](../20_drafts/001_mara_veyr_prologue_draft_ko.md)
+[QFUDS SAGA Mara Veyr Prologue Draft](../../../../../90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)
 작성이다.
 
 그 문서는 설명 문서가 아니라 실제 소설 장면이어야 한다. 첫 문단 안에 장면,

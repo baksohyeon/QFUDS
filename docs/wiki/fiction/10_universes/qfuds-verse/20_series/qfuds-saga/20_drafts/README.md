@@ -7,7 +7,7 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: write Chapter 6 final human hearing inside 029 first-arc reboot manuscript
+next_gate: write Chapter 6 final human hearing inside 1부/029 first-arc reboot manuscript
 last_updated: 2026-06-21
 ---
 
@@ -16,32 +16,36 @@ last_updated: 2026-06-21
 universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. canon 상태: 초안(설정 승격은
 `00_bible`). fiction/provenance only, QFUDS 연구 증거 아님.
 
-## 한눈에 (지금 뭐가 현행인가)
+## 한눈에 (부/arc 단위로 본다)
 
-이 폴더는 **현행 작업물만** 둔다. 폐기된 이전 세대는 `_versions/`로 옮겼다.
+원고는 **부(arc) 단위 서브폴더**로 관리한다. 평면 번호가 아니라 폴더가 "몇 부인지"를
+말한다(마블 타이틀이 volume/arc로 나뉘듯). 번호는 한 번 부여하면 바꾸지 않는
+**stable ID**다. 폐기된 1세대는 시리즈 밖 `90_archive/`로 보낸다.
 
-| 묶음 | 파일 | 상태 |
-| --- | --- | --- |
-| **1부 active 원고(SSOT)** | [029 Book 1 Reboot](029_first_arc_book1_reboot_korean_primary.md) | 프롤로그 + Ch1~5 작성됨, 다음 Ch6 |
-| 2부 초안 | [025](025_who_may_author_loss_korean_primary.md)·[027](027_who_may_refuse_korean_primary.md)(KR), [026](026_who_may_author_loss_english_counterpart.md)(EN) | 진행 중 |
-| Mara 프롤로그(legacy) | [001](001_mara_veyr_prologue_draft_ko.md)·[002](002_mara_veyr_prologue_english_revision_ko.md) | 초기 실험, 보존 |
-| 판본 스냅샷·prototype·legacy | [_versions/](_versions/README.md) | 아래 참조 |
+| 부(arc) | 폴더 | 현행 | 상태 |
+| --- | --- | --- | --- |
+| **1부 Book 1** | [1부/](1부/README.md) | [029 Reboot](1부/029_first_arc_book1_reboot_korean_primary.md) | 프롤로그 + Ch1~5, 다음 Ch6 |
+| **2부** | [2부/](2부/README.md) | [025](2부/025_who_may_author_loss_korean_primary.md)·[027](2부/027_who_may_refuse_korean_primary.md)(KR), [026](2부/026_who_may_author_loss_english_counterpart.md)(EN) | 초안 진행 |
 
-1부 산문은 029 안에서 순서대로 쓴다. 기존 원고를 문장 단위로 고치지 않는다. 분량·
-검수 차단 조건은 [007 GSD brief](../00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md),
-구조 SSOT는 [012 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·
+각 부 폴더 안에 그 부의 현행 원고와 `_versions/`(그 부의 폐기·스냅샷 판본)가 들어
+있다. 1부의 직전 prototype(읽기 가능)과 v3 스냅샷은
+[1부/_versions/](1부/_versions/README.md)에 있다.
+
+## 폐기된 1세대는 어디에
+
+1부 1세대 영어 rough(003-010) + 통제문서(011·018) + 초기 Mara 프롤로그(001·002)는
+시리즈 밖 아카이브
+[90_archive/qfuds-saga_1부_legacy/](../../../../../90_archive/qfuds-saga_1부_legacy/README.md)로
+옮겼다. 읽기 가능한 직전 세대(prototype)와 죽은 1세대(legacy)를 구분한다: 전자는
+부 폴더 안 `_versions/`(계보 보존), 후자는 `90_archive/`(시리즈 밖 폐기).
+
+## 집필 기준 (상속)
+
+1부 산문은 [1부/029](1부/029_first_arc_book1_reboot_korean_primary.md) 안에서 순서대로
+쓴다. 기존 원고를 문장 단위로 고치지 않는다. 분량·검수 차단 조건은
+[007 GSD brief](../00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md), 구조 SSOT는
+[012 아웃라인](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·
 [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)가 보유한다.
-
-## 폐기된 이전 세대는 어디에 (_versions)
-
-029(reboot)가 1부 정본이 되면서, 이전 세대는 전부 `_versions/`로 옮겼다. 폴더만
-봐도 "지금 원고 = 029"가 명확하게.
-
-| 묶음 | 위치 | 역할 |
-| --- | --- | --- |
-| 1부 prototype: 프롤로그 028 + 한국어 019-024 + 영어 v2 012-017 | [_versions/1부_prototype/](_versions/1부_prototype/) | 029 이전의 읽기 가능한 prototype(보존). 029의 프롤로그가 028을 흡수 |
-| 1부 1세대 영어 rough(003-010) + 통제문서(011·018) | [_versions/1부_legacy/](_versions/1부_legacy/) | 1세대 초안·기록 |
-| 판본 변천사·회고 로그 + v3 스냅샷 | [_versions/README](_versions/README.md) | v0~v5 변천사 |
 
 ## 규칙 (상속)
 

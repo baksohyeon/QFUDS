@@ -189,10 +189,10 @@ prose draft로 넘어가기 전 아래를 모두 통과해야 한다.
 
 Authorized next output:
 
-- 새 active manuscript: [029 First Arc Book 1 Reboot Korean Primary](../20_drafts/029_first_arc_book1_reboot_korean_primary.md).
-- 기존 [028](../20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)과
-  [019](../20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-
-  [024](../20_drafts/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md)는
+- 새 active manuscript: [029 First Arc Book 1 Reboot Korean Primary](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md).
+- 기존 [028](../20_drafts/1부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)과
+  [019](../20_drafts/1부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-
+  [024](../20_drafts/1부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md)는
   prototype/provenance로 보존한다. 문장 단위 patching의 active 경로가 아니다.
 
 Not yet passed:

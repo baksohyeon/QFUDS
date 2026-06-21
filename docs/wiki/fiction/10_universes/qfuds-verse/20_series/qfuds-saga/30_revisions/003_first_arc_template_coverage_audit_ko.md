@@ -51,7 +51,7 @@ prototype 기준의 비대칭은 retro pass로 닫혔다.
 - `scripts/fiction_gate.py --staged`가 019 이후 한국어 primary/adaptation draft에
   이 표를 요구하므로, 새 029 원고도 같은 차단 규칙을 상속한다.
 - active first-arc 작업은 019-024 in-place가 아니라
-  [029 reboot manuscript](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)다.
+  [029 reboot manuscript](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)다.
 
 ## 템플릿 커버리지 매트릭스
 
@@ -93,7 +93,7 @@ prototype 기준의 비대칭은 retro pass로 닫혔다.
 
 1부 시스템은 전역 템플릿의 큰 축을 갖췄고, pre-reboot prototype의 series gate
 비대칭은 닫혔다. 다만 현재 active first-arc는 release 후보가 아니라
-[029](../20_drafts/029_first_arc_book1_reboot_korean_primary.md)에서 다시 쓰는
+[029](../20_drafts/1부/029_first_arc_book1_reboot_korean_primary.md)에서 다시 쓰는
 Book 1 draft다.
 
 따라서 다음 작업 우선순위는 새 문서 발명이 아니라 029 Chapter 1 `Exhibit S-0`를

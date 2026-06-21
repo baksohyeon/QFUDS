@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_polish_read_order_pass
   - fiction_prose_verisimilitude_audit_checklist_ko
 next_gate: apply to 019-024, then audit with naturalness/content-fidelity agents
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획
@@ -41,7 +41,7 @@ workflow state: `not searched`.
 
 잔존 영어가 고유명사가 아니라 일반명사(queue, rumor, screen, banner, relic,
 invoice, access, authority, petition, residence 등). 프롤로그
-[001](../20_drafts/001_mara_veyr_prologue_draft_ko.md)은 규칙을 지키는 기준 모델.
+[001](../../../../../90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)은 규칙을 지키는 기준 모델.
 
 ## 집행 기준
 
