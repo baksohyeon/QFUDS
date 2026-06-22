@@ -22,20 +22,20 @@ Language: English | [Korean](docs/00_project/qfuds_ko.md)
 
 ## At a Glance
 
-QFUDS is an early-stage cosmology research program, not a confirmed theory. It
-asks whether dark matter and dark energy can be modeled as two effective
-macroscopic phases of a common quantum-spacetime foam sector.
+QFUDS is an early-stage cosmology research program, not a confirmed theory. The
+question is simple enough to state, but hard to test: could dark matter and dark
+energy be two large-scale faces of the same quantum-spacetime foam sector?
 
-The most important artifact in this repository is the **agentic research
-harness**: the workflow, cache, parser-routing, adversarial review, and gate
-system that made the speculative search auditable. Read
-[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md) for that
-system. The physics documents are the payload the harness was used to inspect,
-stress, and demote when needed.
+The most important artifact here is the **agentic research harness**: the
+workflow, cache, parser routing, adversarial review, and gate system that made
+this speculative search auditable. The best entry point is
+[lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md). The physics
+documents are the material that harness inspected, stressed, and demoted when
+the evidence required it.
 
-The goal of this repository is not to defend QFUDS. The goal is to make the idea
-explicit enough to test, compare, narrow, or reject. Current project status lives
-only in the [Roadmap](docs/05_next_steps/000_roadmap.md).
+This repository is not here to defend QFUDS. It is here to make the idea clear
+enough to test, compare, narrow, or reject. Current status lives only in the
+[Roadmap](docs/05_next_steps/000_roadmap.md).
 
 Short version:
 
@@ -58,10 +58,10 @@ Short version:
 - [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md)
   is the simplest Korean public story bridge for non-specialists: black holes,
   vacuum energy, `Gamma(a)`, and why story is not evidence.
-- [docs/wiki/fiction/](docs/wiki/fiction/) is a separate hobby track for a
-  fiction-writer agent harness: worldbuilding managed like IP, continuity
-  routing, review workflows, and draft governance. The fiction outputs
-  themselves are not the point here and are not research evidence.
+- [docs/wiki/fiction/](docs/wiki/fiction/) is a separate hobby track: a
+  fiction-writer harness for IP-style worldbuilding, continuity, review
+  workflows, and draft governance. The point is the writing system, not the
+  fiction output. It is not research evidence.
 
 ## Start Here
 
@@ -91,40 +91,39 @@ Roadmap
 -> docs/README.md
 ```
 
-Use [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) only as
-the formal compressed archive of the rough branch. It is not the clearest
-introduction; 003 and 004 are the practical reads.
+Use [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) as the
+formal archive of the rough branch. It is useful, but not the clearest
+introduction. Start with 003 and 004.
 
 ## What This Actually Shows
 
 The strongest result here is not that QFUDS became a confirmed theory. It did
-not. The useful result is that a broad intuition was forced into explicit tests,
-and the repository records where it survived, where it reduced to known IV/IDE
-language, and where it hit modern cosmology's open problems.
+not. The useful result is smaller and more concrete: a broad intuition was forced
+into explicit tests, and the repository records where it survived, where it
+collapsed into known IV/IDE language, and where it ran into open problems in
+modern cosmology.
 
-The practical reading path is therefore simple: read the agentic research harness
-first, then the validated thread in 003, then the rough push in 004. Treat 005 as
-a formal archive, not the entry point. The fiction area is a separate hobby
-experiment in agentic writing workflows and IP-style worldbuilding; it is not a
+So the reading path is straightforward: start with the agentic research harness,
+then read the validated thread in 003, then the rough push in 004. Treat 005 as a
+formal archive, not the front door. The fiction area is a separate hobby
+experiment in agentic writing workflows and IP-style worldbuilding. It is not a
 research result.
 
 ## How To Read This Repository: Harness First, Then Two Research Phases
 
-This project has three different layers, and it matters which one you are
-reading. They were produced for different jobs and do not carry the same
-evidential weight.
+This project has three layers. Each one does a different job, so the claims do
+not carry the same evidential weight.
 
 **Layer 0: the research harness (the core artifact).** This is the agentic
 operating system: workflow SSOT, parser routing, asset cache states, adversarial
 review, postmortems, and deterministic gates. It is documented in
 [lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md), with
-executable workflow rules in [.agent/workflows](.agent/workflows/README.md). If
-you are trying to understand what is actually reusable here, start with this
-layer.
+executable workflow rules in [.agent/workflows](.agent/workflows/README.md).
+Start here if you want the reusable part of the repository.
 
-**Phase 1: the rigorous thread (the real experiments).** This is the part that was
-put through explicit kill-gates: define a rule, test it, and reject the versions
-that fail. Claims in this layer are backed by numbered experiments in
+**Phase 1: the rigorous thread (the real experiments).** This is the part that
+went through explicit kill-gates: define a rule, test it, and reject the
+versions that fail. Claims in this layer are backed by numbered experiments in
 [docs/03_experiments/](docs/03_experiments/). The plain-language account ends at
 [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md), and it
 corresponds to the `Gamma(a)` story below under
@@ -145,19 +144,19 @@ The [Where This Stands](#where-this-stands-what-pushing-the-idea-to-the-wall-fou
 section is the honest report of how far that rough push reached. Read it as an
 organized exploration by a non-specialist, not as proof.
 
-In one line: **lineage 006 is the reusable harness; Phase 1 is what survived real
-tests up to 003; Phase 2 is what happened when I pushed a failing idea to its
-visible limits. The representative record is 004; 005 is an optional thesis-style
-compression.**
+In one line: **lineage 006 is the reusable harness; Phase 1 is the tested thread
+through 003; Phase 2 is what happened when I pushed a failing idea to its visible
+limits. The representative record is 004; 005 is an optional thesis-style
+archive.**
 
 ## Core Artifact: Agentic Research Harness
 
-The physics is only the payload. The core artifact is the system used to
-produce and check the work. The repository used a consistent feedback loop. I did not
-assume the AI was right; I assumed it could be wrong, could overstate results,
-and could confuse "not in cache" with "does not exist." So the repository split
-literature, assets, status, validation, and retrospectives into separate layers
-and made each pass check the others. The workflow record is in
+The physics is only the payload. The core artifact is the system used to produce
+and check the work. I did not assume the AI was right. I assumed it could be
+wrong, overstate results, or confuse "not in cache" with "does not exist." So
+the repository split literature, assets, status, validation, and retrospectives
+into separate layers, then made each pass check the others. The
+workflow record is in
 [lineage 006](docs/wiki/lineage/006_agentic_research_system_ko.md); executable
 workflow rules live in [.agent/workflows](.agent/workflows/README.md); incident
 records are in the [postmortems folder](docs/wiki/postmortem/).
