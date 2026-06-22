@@ -6,6 +6,7 @@ Language: English | [Korean](docs/00_project/qfuds_ko.md)
 
 - [At a Glance](#at-a-glance)
 - [Start Here](#start-here)
+- [What This Actually Shows](#what-this-actually-shows)
 - [How To Read This Repository](#how-to-read-this-repository-harness-first-then-two-research-phases)
 - [Core Artifact](#core-artifact-agentic-research-harness)
 - [Longer Overview](#longer-overview-what-if-dark-matter-dark-energy-and-information-circulation-could-be-tied-together)
@@ -57,17 +58,10 @@ Short version:
 - [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md)
   is the simplest Korean public story bridge for non-specialists: black holes,
   vacuum energy, `Gamma(a)`, and why story is not evidence.
-- [lineage 010](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md)
-  is a Korean fiction companion that preserves the original short story and
-  adds the more SF-scale expansion "암호문을 삼킨 우주." It is not research
-  evidence.
-- [QFUDS Fiction Saga Archive](docs/wiki/fiction/90_archive/lineage-prototype/README.md)
-  preserves the original Korean fiction prototype with characters,
-  relationships, and episode arcs. It is worldbuilding/provenance, not research
-  evidence.
-- [QFUDS SAGA](docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) is the active fiction
-  system track for SAGA planning, canon, agentic writing workflow, and future
-  drafts.
+- [docs/wiki/fiction/](docs/wiki/fiction/) is a separate hobby track for a
+  fiction-writer agent harness: worldbuilding managed like IP, continuity
+  routing, review workflows, and draft governance. The fiction outputs
+  themselves are not the point here and are not research evidence.
 
 ## Start Here
 
@@ -77,13 +71,11 @@ Short version:
 | Current status, blockers, and active gates | [Roadmap](docs/05_next_steps/000_roadmap.md) |
 | The tested plain-language research thread | [lineage 003](docs/wiki/lineage/003_research_flow_plain_language_ko.md) |
 | The representative rough Season 2 exploration | [lineage 004](docs/wiki/lineage/004_rough_tanh_numerical_sketch_ko.md) |
-| The formal thesis-style archive | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
+| Optional formal archive, not the first read | [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) |
 | The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
 | Where retained `Gamma(a)` stopped | [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) |
 | The simplest public story bridge | [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md) |
-| A short SF closing story | [lineage 010: 방정식은 입장권이다 / 암호문을 삼킨 우주](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md) |
-| A serialized SF saga archive | [QFUDS Fiction Saga Archive](docs/wiki/fiction/90_archive/lineage-prototype/README.md) |
-| The active SAGA fiction system | [QFUDS SAGA](docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) |
+| A hobby fiction-writer harness | [docs/wiki/fiction/](docs/wiki/fiction/) |
 | How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
@@ -92,15 +84,29 @@ Recommended order:
 ```text
 lineage 006
 Roadmap
--> lineage 009
 -> lineage 003
--> lineage 008
 -> lineage 004
+-> lineage 009
+-> lineage 008
 -> docs/README.md
 ```
 
-Use [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) only if
-you want the formal compressed version of the rough branch.
+Use [lineage 005](docs/wiki/lineage/005_rough_tanh_thesis_report_ko.md) only as
+the formal compressed archive of the rough branch. It is not the clearest
+introduction; 003 and 004 are the practical reads.
+
+## What This Actually Shows
+
+The strongest result here is not that QFUDS became a confirmed theory. It did
+not. The useful result is that a broad intuition was forced into explicit tests,
+and the repository records where it survived, where it reduced to known IV/IDE
+language, and where it hit modern cosmology's open problems.
+
+The practical reading path is therefore simple: read the agentic research harness
+first, then the validated thread in 003, then the rough push in 004. Treat 005 as
+a formal archive, not the entry point. The fiction area is a separate hobby
+experiment in agentic writing workflows and IP-style worldbuilding; it is not a
+research result.
 
 ## How To Read This Repository: Harness First, Then Two Research Phases
 
@@ -997,9 +1003,7 @@ History/source notes:
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
 - [008_gamma_to_academic_iv_bridge_result_ko.md](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md): Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
 - [009_qfuds_public_story_bridge_ko.md](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md): simplest Korean public story bridge for non-specialists; motivation only, not physical evidence
-- [010_qfuds_closing_sf_story_ko.md](docs/wiki/lineage/010_qfuds_closing_sf_story_ko.md): Korean fiction companion preserving the original short story and adding "암호문을 삼킨 우주"; motivation only, not physical evidence
-- [QFUDS Fiction Saga Archive](docs/wiki/fiction/90_archive/lineage-prototype/README.md): archived Korean serialized fiction prototype with saga bible and episodes; motivation only, not physical evidence
-- [QFUDS SAGA](docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md): active fiction-system track for SAGA planning, canon, and future drafts; not research evidence
+- [docs/wiki/fiction/](docs/wiki/fiction/): separate hobby fiction-writer harness for IP-style worldbuilding, continuity routing, review workflows, and draft governance; not research evidence
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules
