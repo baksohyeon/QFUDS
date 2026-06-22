@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: create 012 retention gate run artifact pinned to c158d31 before any 40_release promotion
+next_gate: 1부(033)·2부(034) 풀길이 초고 + retention/comprehension 게이트(015/016) 완료. 다음=2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트
 last_updated: 2026-06-23
 ---
 
@@ -40,25 +40,27 @@ install external tools: no
 
 | Field | Value |
 | --- | --- |
-| Active unit | 010 release-facing revision wave: 030 origin(1부) + 029 Mara(2부) prose/onboarding pass |
-| Phase | `verify` passed -> `release_gate_blocked` |
-| Owner mode | `writer` + `continuity` + `reader-sim` + `polish` |
-| Status | `validated`; 010 revision wave applied to 030/029; release promotion still blocked |
-| Failure reason | 없음(초고 완결). 잔여=012 정식 retention gate run artifact, 영어 각색판 |
-| Next action | create `012_first_second_arc_retention_gate_run_20260622_c158d31_ko.md` from [011 formal retention gate protocol](../30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md); no `40_release` manifest before artifact-backed decision |
-| Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011`, `10_story_design/013` |
-| Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md`(B1~B7+윤문), `20_drafts/2부/029_...md`(cross-arc), `20_drafts/{1,2,3}부/` cascade |
-| Approval needed | no(초고/cascade); yes before release promotion |
+| Active unit | 033 origin(1부)·034 Mara(2부) 풀길이 소설 초고 + retention/comprehension 게이트(015/016) |
+| Phase | `verify` passed -> `gated`(retention+comprehension) |
+| Owner mode | `writer` + `continuity` + `reader-sim` + `comprehension` + `polish` |
+| Status | 두 권 풀길이 초고 완결; comprehension 통과(ran_passed), retention 통과(ran_passed_with_risks); release 정식 게이트는 미실행 |
+| Failure reason | 없음(두 권 초고 완결). 잔여=2부 S2 polish, 3부 풀길이 미착수, 영어 각색 2화+ |
+| Next action | 2부 거푸집 후렴 등 S2 polish(RET-2B-001~005, [30_revisions/016]) 또는 3부 author-loss 풀길이 착수; `40_release` 승격 전 정식 게이트 |
+| Source files | `30_revisions/015`, `30_revisions/016`, `10_story_design/011`, `00_bible/023`, `30_revisions/011` |
+| Output files | `20_drafts/1부/033_origin_sael_full_novel_korean_primary.md`, `20_drafts/2부/034_mara_full_novel_korean_primary.md`; 보조 `20_drafts/1부/031`(콘티), `32`(영어 각색) |
+| Approval needed | no(초고/게이트); yes before release promotion |
 
 ## Unit Queue
 
 | Unit | Phase | Intent card | Last review wave | Chronicler pass | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1부 origin B1~B2 | review/verify | [017 B1·B2](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | AI-tell/온보딩/후킹/stakes 패스 반영 | pending | `drafted` |
-| 1부 origin B3~B7 | verified | [017 B3~B7](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | 010 release-facing wave: B3 로그화, B5b~B7 경구 제거 | 010 notes in 030 | `validated` |
-| 2부 Mara / 029 전체 | verified | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 010 release-facing wave: 프롤로그 압축, Ch3 반복 완화, Ch5 QFUDS boundary, Ch6 반복 완화 | Continuity Notes in 029 + 010 notes | `validated` |
-| 2부 Mara repositioning | plan | 011에서 구조 이동됨 | none | none | `hold` until 030 B1-B7 stabilizes |
-| 3부 author-loss assets | plan | 025-027 자산 보존 | none | none | `hold` until physical cascade |
+| 1부 origin 풀길이(033) | verified/gated | [015 retention+comprehension](../30_revisions/015_origin_sael_fullnovel_retention_comprehension_gate_20260622_c91e9be_ko.md) | 8장 ~45K 초고; retention ran_passed_with_risks + comprehension ran_passed | 015 게이트 in 033 | `validated` |
+| 2부 Mara 풀길이(034) | verified/gated | [016 retention+comprehension](../30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md) | 6장 ~65K 초고; 독립 온보딩 성공; S2 polish 잔여(RET-2B-001~005) | 016 게이트 in 034 | `validated` |
+| 1부 콘티 텔링(031) | verified/gated | [014 retention](../30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md) | 웹소설 콘티; ran_passed; 033 풀길이의 blueprint로 보존 | 014 notes in 031 | `blueprint` |
+| 영어 각색(032) | draft | Anglophone Episode 1 | 영어 각색 1화 draft | none | `drafted` |
+| 030 origin 프로토타입 | provenance | [017](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | flat 프로토타입; 033으로 대체, provenance 보존 | 010 notes in 030 | `archived-provenance` |
+| 029 Mara 캐논 원천 | provenance | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 2부 reboot 캐논 원천; 034의 source, 원천 보존 | Continuity Notes in 029 | `archived-provenance` |
+| 3부 author-loss 풀길이 | plan | 025-027 자산 보존 | none | none | `hold` until 풀길이 착수 |
 
 ## Active Risks
 
