@@ -9,8 +9,8 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: review completed 029 Ch6 pass and reconcile 029/030 queue before physical cascade
-last_updated: 2026-06-21
+next_gate: formal 9-persona retention gate before any 40_release promotion
+last_updated: 2026-06-22
 ---
 
 # QFUDS SAGA Production Board
@@ -40,12 +40,12 @@ install external tools: no
 
 | Field | Value |
 | --- | --- |
-| Active unit | first-arc 완결 sprint on `main`: 030 origin(1부) B1~B7 완성+윤문, 029(2부 Mara) 완성+cross-arc, 번호 cascade 완료 |
-| Phase | `draft` -> `review` (release 게이트 잔여) |
+| Active unit | 010 release-facing revision wave: 030 origin(1부) + 029 Mara(2부) prose/onboarding pass |
+| Phase | `verify` passed -> `release_gate_blocked` |
 | Owner mode | `writer` + `continuity` + `reader-sim` + `polish` |
-| Status | `in_progress`; 030 B1~B7 reader-retention(9 persona)+ai-tell-detector 패스 반영 윤문 완료, 029 cross-arc 정합, physical cascade(1부/2부/3부) 완료 |
+| Status | `validated`; 010 revision wave applied to 030/029; release promotion still blocked |
 | Failure reason | 없음(초고 완결). 잔여=release-facing reader-retention 정식 게이트(40_release 승격), 영어 각색판 |
-| Next action | bulk commit to `main` + origin push. 이후 release 승격 시 9 persona 정식 retention 게이트 |
+| Next action | formal 9-persona retention gate before any `40_release` manifest |
 | Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011`, `10_story_design/013` |
 | Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md`(B1~B7+윤문), `20_drafts/2부/029_...md`(cross-arc), `20_drafts/{1,2,3}부/` cascade |
 | Approval needed | no(초고/cascade); yes before release promotion |
@@ -54,9 +54,9 @@ install external tools: no
 
 | Unit | Phase | Intent card | Last review wave | Chronicler pass | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1부 origin B1~B2 | draft | [017 B1·B2](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | AI-tell/온보딩/후킹/stakes 패스 반영 | pending | `drafted` |
-| 1부 origin B3~B7 | draft | [017 B3~B7](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | writer pass on `complete-first-arc-novel`(2026-06-21); em dash 0·박- 0·노출예산 self-check 통과 | pending | `drafted` |
-| 2부 Mara / 029 전체 | draft/review | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | Prologue~Ch6 writer pass; closing(continuity/AI-tell) 진행 | Continuity Notes in 029 | `closing_pass` |
+| 1부 origin B1~B2 | review/verify | [017 B1·B2](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | AI-tell/온보딩/후킹/stakes 패스 반영 | pending | `drafted` |
+| 1부 origin B3~B7 | verified | [017 B3~B7](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | 010 release-facing wave: B3 로그화, B5b~B7 경구 제거 | 010 notes in 030 | `validated` |
+| 2부 Mara / 029 전체 | verified | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 010 release-facing wave: 프롤로그 압축, Ch3 반복 완화, Ch5 QFUDS boundary, Ch6 반복 완화 | Continuity Notes in 029 + 010 notes | `validated` |
 | 2부 Mara repositioning | plan | 011에서 구조 이동됨 | none | none | `hold` until 030 B1-B7 stabilizes |
 | 3부 author-loss assets | plan | 025-027 자산 보존 | none | none | `hold` until physical cascade |
 
@@ -64,8 +64,8 @@ install external tools: no
 
 | Risk | Scope | Severity | Owner mode | Next action |
 | --- | --- | --- | --- | --- |
-| Origin protagonist becomes observer | 1부 origin | release-blocking | showrunner / critic | protagonist must choose, fail, ratify, or stay silent in a way that opens the standard-authoring regime |
-| Number cascade confusion | 011, 025-027, 007, 010 | high | continuity | update labels only after origin outline locks; stable file IDs can remain |
+| Release promotion without formal retention gate | 030/029 | release-blocking | reader-sim / critic | keep `40_release` empty until formal 9-persona retention gate passes |
+| Number cascade confusion | 011, 025-027, 007, 010 | medium | continuity | stable IDs remain; verify labels only when touching affected docs |
 | External-system overfit | `.agent`, workroom | medium | science_auditor / critic | keep external repos inspiration-only; no install or prompt/code copy |
 | Humanize misuse | prose polish | medium | style_editor | polish only after structure/continuity pass; no AI-detector evasion framing |
 
@@ -116,3 +116,4 @@ brief.
 | 2026-06-21 | 번호 physical cascade (011 §10) | 029 1부→2부, 025-027 2부→3부, _versions 동반 이동; 백링크·README(book1/2/3)·배너 일괄 갱신; validate_docs PASS | stable ID(파일명·arc_two doc_id) 보존 확인 |
 | 2026-06-21 | 029 reader-retention 6 persona (일반/웹소설속독/순문학/문외한/안티AI/SF) + ai-tell-detector ×2 | 전원 완독·진행=예; 강점 Ch1·Ch4·Ch6; 공통 약점=프롤로그 세계사 infodump, "X아니라Y" 안티테제 30+회·격언 마무리·Ch6 6연 anaphora | 피드백 통합 → [30_revisions/009] |
 | 2026-06-21 | 029 윤문 패스 13건 + 재검증 | 프롤로그 ~42→16줄 압축, Ch6 6연→3항, 격언/삼분/anaphora de-tell; 안티AI 재독 "프롤로그·Ch6 개선"; em dash 0·박- 0 | 인물 대사 안티테제·Ch5 강의는 release 게이트 잔여 |
+| 2026-06-22 | 010 release-facing revision wave + validation | 030 B3~B7 경구형 문장 로그/화면 중심으로 낮춤; 029 프롤로그·Ch3·Ch5·Ch6 압축; `validate_docs`, `research_consistency`, full `fiction_gate`, staged workflow/fiction gates, pre-commit all PASS | formal 9-persona retention gate before release promotion |
