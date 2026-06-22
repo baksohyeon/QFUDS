@@ -4,3 +4,6 @@ __pycache__/
 
 # git worktrees (never commit)
 .claude/worktrees/
+
+# humanize-korean skill scratch space
+_workspace/
