@@ -400,6 +400,55 @@ QFUDS SAGA first arc).
 - 실행 결과와 판정을 작품의 revision plan에 기록한다(예: saga
   `30_revisions/002`, `00_workroom/005`).
 
+### Required Retention Gate Artifact
+
+A retention gate without a written artifact is invalid. Do not record
+"9-persona pass", "all completed", or "release gate passed" unless the work has
+a revision document based on
+[reader_retention_gate_template.md](../templates/fiction/reader_retention_gate_template.md).
+The run artifact must use `doc_type: gate`. A protocol or planning document may
+use `doc_type: guide`, but it cannot itself count as the completed retention
+gate.
+
+The artifact must include:
+
+- gate id, source draft files, baseline commit/date, per-file blob hash, and
+  target release shelf;
+- persona roster and why each persona exists;
+- reading units pinned as `baseline commit:path#Lx-Ly`;
+- one result sheet per persona, including exact baseline stop source ref, stop
+  trigger, immersion score, clarity score, next-unit intent, strongest hook, and
+  weakest moment;
+- cross-persona evidence matrix;
+- issue ledger with severity, evidence personas, baseline source ref, proposed fix,
+  owner mode, and status;
+- revision mapping from issue id to changed files and fix commit/blob;
+- pass/fail decision using only these states:
+
+```text
+not_run | invalid_no_artifact | ran_failed | ran_passed_with_risks | ran_passed
+```
+
+Release promotion is blocked when the gate state is `not_run`,
+`invalid_no_artifact`, or `ran_failed`.
+
+Pass requires:
+
+- every persona result sheet exists;
+- no release-blocking `S0` issue remains open;
+- every repeated `S1` issue is fixed or explicitly deferred with rationale;
+- every applied fix links to a revision wave and changed files;
+- every feedback item is tied to the reviewed git baseline, not the moving
+  current file;
+- the production board records the gate id, decision, and residual risks.
+
+Retention gate run artifacts are immutable. If the draft changes after a run,
+create a new run document for the new baseline and link the older run through
+`depends_on`. Do not overwrite prior persona feedback.
+
+Do not store raw private reasoning or long hidden deliberation. Store concise
+reader-facing observations, evidence references, and actionable issue records.
+
 ## External Source Boundary
 
 If fiction work touches external paper, web reference, PDF, code repository,

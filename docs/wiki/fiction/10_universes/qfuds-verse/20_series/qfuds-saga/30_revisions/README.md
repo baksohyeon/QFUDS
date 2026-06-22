@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: apply revision gates to 030 origin draft after B1-B7 stabilizes; keep 029 as canonical 2부 Mara asset until cascade
-last_updated: 2026-06-21
+next_gate: create 012 retention gate run artifact pinned to c158d31 before any 40_release promotion
+last_updated: 2026-06-22
 ---
 
 # QFUDS SAGA Revision Shelf
@@ -45,6 +45,10 @@ origin revision 대상은 [030](../20_drafts/1부/030_origin_arc_sael_korean_pri
      최신 active canon(015·017·018 story order)에 맞춘 감사 기록.
 5. [1부 통합 아웃라인(provenance)](007_first_arc_integration_outline_ko.md)
    - in-place 통합 시도 기록. 012/013/029 reboot로 대체됨(provenance 보존).
+6. [1부·2부 정식 reader retention gate protocol](011_first_second_arc_formal_retention_gate_protocol_ko.md)
+   - `030`/`029`를 release shelf로 올리기 전 필요한 9-persona gate 산출물 계약.
+     persona sheet, evidence matrix, issue ledger, revision mapping이 없으면 gate는 무효다.
+     실제 실행 결과는 baseline commit과 blob hash를 고정한 별도 run artifact(`012_...`)로 남긴다.
 
 ## 아카이브됨 (reboot로 중단)
 

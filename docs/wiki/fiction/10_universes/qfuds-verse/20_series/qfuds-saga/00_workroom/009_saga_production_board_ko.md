@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: formal 9-persona retention gate before any 40_release promotion
+next_gate: create 012 retention gate run artifact pinned to c158d31 before any 40_release promotion
 last_updated: 2026-06-22
 ---
 
@@ -44,8 +44,8 @@ install external tools: no
 | Phase | `verify` passed -> `release_gate_blocked` |
 | Owner mode | `writer` + `continuity` + `reader-sim` + `polish` |
 | Status | `validated`; 010 revision wave applied to 030/029; release promotion still blocked |
-| Failure reason | 없음(초고 완결). 잔여=release-facing reader-retention 정식 게이트(40_release 승격), 영어 각색판 |
-| Next action | formal 9-persona retention gate before any `40_release` manifest |
+| Failure reason | 없음(초고 완결). 잔여=012 정식 retention gate run artifact, 영어 각색판 |
+| Next action | create `012_first_second_arc_retention_gate_run_20260622_c158d31_ko.md` from [011 formal retention gate protocol](../30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md); no `40_release` manifest before artifact-backed decision |
 | Source files | `10_story_design/016`, `10_story_design/017`, `10_story_design/019`, `10_story_design/018`, `10_story_design/011`, `10_story_design/013` |
 | Output files | `20_drafts/1부/030_origin_arc_sael_korean_primary.md`(B1~B7+윤문), `20_drafts/2부/029_...md`(cross-arc), `20_drafts/{1,2,3}부/` cascade |
 | Approval needed | no(초고/cascade); yes before release promotion |
@@ -64,7 +64,7 @@ install external tools: no
 
 | Risk | Scope | Severity | Owner mode | Next action |
 | --- | --- | --- | --- | --- |
-| Release promotion without formal retention gate | 030/029 | release-blocking | reader-sim / critic | keep `40_release` empty until formal 9-persona retention gate passes |
+| Release promotion without artifact-backed retention gate | 030/029 | release-blocking | reader-sim / critic | keep `40_release` empty until a `012` run artifact has persona sheets, source refs, issue ledger, decision |
 | Number cascade confusion | 011, 025-027, 007, 010 | medium | continuity | stable IDs remain; verify labels only when touching affected docs |
 | External-system overfit | `.agent`, workroom | medium | science_auditor / critic | keep external repos inspiration-only; no install or prompt/code copy |
 | Humanize misuse | prose polish | medium | style_editor | polish only after structure/continuity pass; no AI-detector evasion framing |
@@ -117,3 +117,4 @@ brief.
 | 2026-06-21 | 029 reader-retention 6 persona (일반/웹소설속독/순문학/문외한/안티AI/SF) + ai-tell-detector ×2 | 전원 완독·진행=예; 강점 Ch1·Ch4·Ch6; 공통 약점=프롤로그 세계사 infodump, "X아니라Y" 안티테제 30+회·격언 마무리·Ch6 6연 anaphora | 피드백 통합 → [30_revisions/009] |
 | 2026-06-21 | 029 윤문 패스 13건 + 재검증 | 프롤로그 ~42→16줄 압축, Ch6 6연→3항, 격언/삼분/anaphora de-tell; 안티AI 재독 "프롤로그·Ch6 개선"; em dash 0·박- 0 | 인물 대사 안티테제·Ch5 강의는 release 게이트 잔여 |
 | 2026-06-22 | 010 release-facing revision wave + validation | 030 B3~B7 경구형 문장 로그/화면 중심으로 낮춤; 029 프롤로그·Ch3·Ch5·Ch6 압축; `validate_docs`, `research_consistency`, full `fiction_gate`, staged workflow/fiction gates, pre-commit all PASS | formal 9-persona retention gate before release promotion |
+| 2026-06-22 | retention gate artifact hardening | workflow/template/011 protocol added; prior chat-only or summary-only retention claims are not release gates | fill 011 persona sheets and issue ledger before any release promotion |

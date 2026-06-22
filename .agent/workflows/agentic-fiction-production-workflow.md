@@ -157,6 +157,36 @@ Rules:
 
 Use [.agent/templates/fiction/review_wave_protocol_template.md](../templates/fiction/review_wave_protocol_template.md).
 
+## Reader Retention Gate Artifact
+
+Release-facing retention is not a chat-only check. Before a draft can be
+promoted to a release shelf, create or update a retention gate document using
+[reader_retention_gate_template.md](../templates/fiction/reader_retention_gate_template.md).
+Actual run artifacts under `docs/` use `doc_type: gate`; protocol documents use
+`doc_type: guide` and do not satisfy the release gate by themselves.
+
+Minimum required output:
+
+- source baseline table with `git rev-parse HEAD` and `git rev-parse HEAD:<path>`
+  blob hashes;
+- reading units pinned as `baseline commit:path#Lx-Ly`;
+- persona result sheets;
+- cross-persona evidence matrix;
+- issue ledger with severity and baseline source ref;
+- revision mapping from issue id to changed files and fix commit/blob;
+- explicit gate state:
+
+```text
+not_run | invalid_no_artifact | ran_failed | ran_passed_with_risks | ran_passed
+```
+
+If this artifact is missing, the correct gate state is `invalid_no_artifact`.
+The production board must not summarize the gate as passed until the artifact
+exists.
+
+Retention feedback is append-only. A later revision does not overwrite an older
+gate run; it creates a new gate run artifact tied to the new git baseline.
+
 ## Chronicler Pass
 
 After a draft or major revision, recover the state that future agents need:
