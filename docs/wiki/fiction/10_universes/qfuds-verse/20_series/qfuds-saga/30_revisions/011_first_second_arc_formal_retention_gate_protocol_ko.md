@@ -180,21 +180,51 @@ Severity:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | RET-011-001 | TBD | TBD | TBD | TBD | TBD | TBD | open |
 
+## Comprehension Test (이해 차원)
+
+리텐션(끝까지 읽힘)과 이해(세계가 머리에 잡힘)는 다른 축이다. AI persona는 폭넓은
+배경지식으로 사람이 못 잡는 세계도 메워 "완독"할 수 있다. 따라서 완독만으로 이해를
+통과시키지 않는다. 각 persona는 reading 직후, **본문에서 읽은 것만으로**(외부 지식·
+bible 참조 금지) 아래 5문항에 답한다.
+
+| Q | 묻는 것 | 통과 기준 |
+| --- | --- | --- |
+| C1 | 주인공이 누구이고 무슨 일을 하는가 | 직업·위치를 한 줄로 댈 수 있음 |
+| C2 | 무대(회사·기관·세계)는 무엇인가 | "검증 회사 / 위조가 완벽해진 시대" 수준으로 댈 수 있음 |
+| C3 | 무엇이 무너졌나(핵심 사건) | "한 방향 암호가 거꾸로 풀려 소유·죽음이 흔들린다"를 댈 수 있음 |
+| C4 | 주인공이 무엇을 했고 왜 문제인가 | "선의의 도장 → 선례 → 재앙"을 댈 수 있음 |
+| C5 | 장르 오인 점검 | 천사·종교·순수 판타지로 오해하지 않고 SF로 인지 |
+
+각 문항 판정: `can_explain | partial | cannot`.
+
+판정 규칙:
+
+- 한 문항이라도 3+ persona가 `cannot` → **이해 S1**(release-blocking). 본문에 방향
+  앵커를 보강하기 전 통과 금지.
+- C5 오인(천사/종교/판타지)이 2+ persona → **이해 S1**.
+- 이해 S1은 리텐션 pass와 무관하게 별도로 막는다.
+
+근거: 031 1~3차 retention 게이트가 `ran_passed`였으나 실제 작가가 주인공·회사·세계관을
+이해하지 못한 사례. 완독이 곧 이해가 아님을 이 차원이 잡는다. 평이 오리엔테이션은
+[023 세계관·인물 한눈에](../10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md).
+
 ## Decision Rule
 
 Pass requires:
 
 - every persona result sheet exists;
 - no `S0` issue remains open;
-- every `S1` issue is fixed or explicitly deferred with rationale;
+- every `S1` issue (retention **및 comprehension**) is fixed or explicitly deferred with rationale;
+- comprehension test가 채워지고, 위 판정 규칙을 통과;
 - every applied fix links to a revision wave and changed files;
 - every feedback item links to a baseline source ref;
-- production board records this gate id, decision, and residual risks.
+- production board records this gate id, retention decision, **comprehension decision**, and residual risks.
 
-Decision:
+Decision (두 축을 모두 기록):
 
 ```text
-not_run
+retention: not_run | invalid_no_artifact | ran_failed | ran_passed_with_risks | ran_passed
+comprehension: not_run | ran_failed | ran_passed_with_risks | ran_passed
 ```
 
 ## Revision Mapping
