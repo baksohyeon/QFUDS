@@ -11,7 +11,7 @@ depends_on:
   - agentic_fiction_harness_perspectives_ko
   - qfuds_saga_five_core_dramatic_questions_spine_ko
 next_gate: convert selected gaps into local production board, chapter intent card, and review-wave templates
-last_updated: 2026-06-21
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 외부 AI 글쓰기 시스템 갭 감사
@@ -34,6 +34,8 @@ QFUDS에는 이미 강한 서랍·게이트·캐논 체계가 있다.
 - 외부 README의 구조 패턴만 요약한다. 코드, 프롬프트, 문구를 복제하지 않는다.
 - 외부 프로젝트의 품질, 보안, 라이선스 적합성을 보증하지 않는다.
 - 설치·연동은 별도 보안 검토 전 금지한다.
+- **갱신(2026-06-30):** adoption 규칙 해제 후 story-skills(MIT)는 검토를 거쳐
+  채택했다(아래 "story-skills 채택" 절). 위 비설치 원칙은 그 외 미채택 레포에만 유지한다.
 
 Research Asset and Product Workflow:
 
@@ -349,3 +351,49 @@ foundation scan -> high-severity fix -> re-scan -> continuity fix -> voice polis
 그래서 보강 방향은 앱 도입이 아니라 **작업 상태판 + 장면 의도 카드 + 회수 패스**다.
 이 세 가지가 들어가면 외부 도구들이 자랑하는 장편 생산 안정성의 핵심만 QFUDS 방식으로
 흡수할 수 있다.
+
+## story-skills 채택 (2026-06-30, adoption 규칙 해제 후)
+
+위 "보류" 판단은 inspiration-only 시절 결론이다. 2026-06-30 외부 도구 adoption 규칙이
+픽션 한정 해제되어(IP 워크플로우 External Tool and Code Adoption), 비교 평가 후
+**story-skills를 결정론적 연속성 엔진 용도로 채택**한다.
+
+비교 결과(후보 4종, 전부 MIT): story-skills / howells-fiction / Claude-Book / Crucible.
+선정 사유 — Claude Code 플러그인 + 마크다운/YAML 철학 일치 + **결정론적 continuity CLI**
+(deaths·promises·questions·casts·durable state) + 의존성 0. Claude-Book은 GPU·로컬 LLM
+인프라 과중, Crucible은 데스크톱 앱이라 탈락.
+
+채택 기록(adoption 규칙 필수 항목):
+
+| 항목 | 값 |
+| --- | --- |
+| source | https://github.com/danjdewhurst/story-skills |
+| license | MIT |
+| 고정 commit | `c482d48f4eb9b488f033a77a51f9fae55cc0d75f` |
+| 도입 방식 | git submodule `tools/story-skills/` (프로젝트 동행, 업데이트 가능) |
+| allowed claim | 픽션 연속성 QA 도구로 사용; CLI를 원고에 실행 |
+| blocked claim | QFUDS 연구 증거·이론·결과에 반입 금지; 픽션 전제를 연구 주장화 금지 |
+| workflow state | `asset_cached` (submodule로 고정) |
+| boundary | fiction/provenance only |
+
+사용법(원고 연속성 QA):
+
+```bash
+node tools/story-skills/bin/story.js import <draft.md> --title <T> --dir /tmp/<T>
+node tools/story-skills/bin/story.js continuity /tmp/<T>
+node tools/story-skills/bin/story.js report /tmp/<T>
+```
+
+한계(정직): `import`는 챕터 heading 규칙이 달라 긴 원고를 일부만 분할하고, 엔진의
+완전한 값을 내려면 인물(death/status)·promise·question·scene cast를 채워야 한다. 즉
+"import하면 즉시 검사 완료"가 아니라 **work별 1회 셋업 후 결정론적 검사가 공짜**가 된다.
+
+역할 분담:
+
+- **story-skills CLI** = 범용 연속성(죽은 인물·복선 회수 순서·안 쏜 떡밥·장면 캐스트·상태).
+- **`scripts/fiction_continuity.py`** = QFUDS 전용 딥타임 시대(부) 정합 — story-skills가
+  모르는 1부(21c)↔2부(4기) 규칙 전담. 두 도구는 보완 관계로 둘 다 유지한다.
+
+story-skills의 7개 writing 스킬은 자체 폴더 구조(characters/·plot/)에 묶여 QFUDS
+거버넌스(00_bible/20_drafts)와 충돌하므로 `.claude/skills`로 자동 로드하지 않는다.
+submodule 안에 참고용으로 둔다.

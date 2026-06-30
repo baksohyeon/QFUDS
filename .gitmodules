@@ -1,0 +1,3 @@
+[submodule "tools/story-skills"]
+	path = tools/story-skills
+	url = https://github.com/danjdewhurst/story-skills
