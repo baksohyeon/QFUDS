@@ -1,45 +1,50 @@
 ---
 doc_id: qfuds_saga_drafts_book1_index_ko
-title: QFUDS SAGA 1부 origin 원고 지도
+title: QFUDS SAGA 1부 「오르페우스」 원고 지도
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_drafts_index_ko
-next_gate: 033 origin 풀길이 초고 완성 + 게이트 통과. release-facing reader-retention 게이트 후 release 빌드
+next_gate: 035 오르페우스 풀길이 초고 작성 중. 초고 완성 후 retention/comprehension 게이트
 last_updated: 2026-06-30
 ---
 
-# QFUDS SAGA 1부 origin 원고 지도
+# QFUDS SAGA 1부 「오르페우스」 원고 지도
 
-universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **1부 origin (사엘)**. canon 상태:
+universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **1부 「오르페우스」**. canon 상태:
 초안(설정 승격은 `00_bible`). fiction/provenance only, QFUDS 연구 증거 아님.
 
-## Cascade 완료 (2026-06-21)
+## 새 1부 신설 (2026-06-30)
 
-번호 physical cascade를 실행했다(011 §10). 이 폴더는 이제 **1부 origin**만 보유한다.
-기존 Mara reboot(029)와 그 prototype 계보(`_versions/`)는 **2부**로 이동했고,
-author-loss(025-027)는 **3부**로 이동했다.
+2026-06-30 구조 정리에서 새 1부 「오르페우스」가 신설됐다. 기존 1부였던 사엘 origin
+(030·031·032·033)은 [../1.5부/](../1.5부/README.md)로 강등됐다. 1부와 1.5부는 같은
+21세기 붕괴기를 다른 인물로 본다. 시대 좌표 SSOT는
+[../../00_bible/024 캐릭터 지도](../../00_bible/024_character_map_and_timeline_coordinates_ko.md).
 
-## 현행 — 지금 읽을 1부 책
+## 현행 — 지금 쓰는 1부 책
 
 | 파일 | 역할 | 상태 |
 | --- | --- | --- |
-| ★ [033 사엘 풀길이 소설](033_origin_sael_full_novel_korean_primary.md) | **1부 origin 현행 책** — 한국어 primary 풀길이 소설 (8장 ~45K) | 풀길이 초고 완성 + retention/comprehension 게이트 통과 (validated) |
+| (현행) [035 오르페우스 풀길이 소설](035_orpheus_full_novel_korean_primary.md) | **1부 「오르페우스」 현행 책** — 한국어 primary 풀길이 소설. 주인공 오웬(원본), 어머니 리브(복원 사본) | 작성 중 (별도 진행) |
 
-## 이 폴더의 옛 버전·콘티 (참고용, 지우지 않음)
+035 파일([035 오르페우스](035_orpheus_full_novel_korean_primary.md))은 별도로 작성 중이다. 이 README는
+가리키기만 하며 035 본문은 여기서 만들지 않는다.
 
-| 파일 | 정체 | 왜 남겨두나 |
-| --- | --- | --- |
-| [030 origin (사엘)](030_origin_arc_sael_korean_primary.md) | 옛 **프로토타입** (flat). 033이 대체 | 계보·원천 보존 (provenance) |
-| [031 웹소설 콘티](031_origin_sael_webnovel_storyboard_ko.md) | 웹소설 콘티 텔링. 033의 설계도(blueprint) | 구조 청사진 보존 |
-| [032 영어 콘티](032_origin_sael_webnovel_storyboard_en.md) | 영어 각색 1화 draft | 영어판 출발점 |
+## 줄거리 좌표
 
-신규 1부 산문은 **033** 안에서 쓴다. 구조 SSOT는
-[016 origin 아웃라인](../../10_story_design/016_first_arc_origin_outline_ko.md)·
-[017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md),
-실행 시트는 [019 사엘 시트](../../10_story_design/019_sael_origin_execution_sheet_ko.md).
+- 주인공: **오웬 (Owen)** — 원본. 죽은 어머니를 잃지 않으려 한다.
+- 어머니: **리브 (Liv)** — 복원 사본. 오웬이 붙든 게 어머니인지, 어머니를 잃지
+  않으려는 자기 자신인지가 1부의 중심 긴장이다.
+- 시대: 21세기 Q-Day 직후 붕괴기.
+
+인물 시대 좌표는 [../../00_bible/024](../../00_bible/024_character_map_and_timeline_coordinates_ko.md)가
+SSOT다. 새 1부는 마라·엘리아스(2부)를 선행참조하지 않는다(1.5부 사엘 origin이 그 시딩을 맡는다).
+
+## 다른 부
+
+1.5부 사엘 origin은 [../1.5부/](../1.5부/README.md),
 2부 Mara 현행 책은 [../2부/034](../2부/034_mara_full_novel_korean_primary.md),
 3부 author-loss 소재는 [../3부/](../3부/README.md)에 있다.
 

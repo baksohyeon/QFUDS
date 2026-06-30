@@ -25,7 +25,8 @@ ID이므로 바꾸지 않는다(007·010·004). 본 README는 새 3부 라벨로
 ## 현행 — 3부 소재 (풀길이 본편 미착수)
 
 3부는 아직 풀길이로 안 썼다. 아래 세 파일은 본편 진입 때 쓸 **소재 초안**이다.
-1부 현행 책은 [../1부/033](../1부/033_origin_sael_full_novel_korean_primary.md),
+1부 「오르페우스」(035, 작성 중)는 [../1부/](../1부/README.md), 1.5부 사엘 origin 현행 책은
+[../1.5부/033](../1.5부/033_origin_sael_full_novel_korean_primary.md),
 2부 현행 책은 [../2부/034](../2부/034_mara_full_novel_korean_primary.md).
 
 | 파일 | 역할 | 상태 |

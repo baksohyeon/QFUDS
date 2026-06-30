@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
 next_gate: reference only; 029 is canonical 2부 Mara asset under 011 §10 and active origin drafting continues in 030
-last_updated: 2026-06-21
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 1부 Book 1 GSD Phase Brief
@@ -19,8 +19,9 @@ last_updated: 2026-06-21
 ## Cascade Drift Status
 
 이 brief는 029를 1부 Book 1로 완성하려던 legacy completion sprint다. [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)
-이후 신규 구조에서는 029가 **2부 Mara 자산**으로 이동 예정이고, active 신규 1부
-origin 원고는 [030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)이다.
+이후 신규 구조에서는 029가 **2부 Mara 자산**으로 이동 예정이고, active 사엘
+origin 원고는 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)이다(2026-06-30에
+1부→1.5부 강등; 새 1부는 「오르페우스」 035).
 
 따라서 이 문서는 physical cascade 전까지 provenance/reference로 보존한다. 지금은
 029 Chapter 6를 이어 쓰지 않는다.
@@ -254,7 +255,7 @@ be lost.
 - [QFUDS SAGA README](../README.md)
 - [012 Book 1 outline](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)
 - [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)
-- [030 active origin manuscript](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)
+- [030 active origin manuscript](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md) (1.5부 사엘 origin; 1부→1.5부 강등 2026-06-30)
 - [029 Mara reboot asset](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md) (canonical 2부 after 011 §10)
 - [Reader accessibility and real-world anchors](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
 - [Last Archive origin and reversal causality](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)

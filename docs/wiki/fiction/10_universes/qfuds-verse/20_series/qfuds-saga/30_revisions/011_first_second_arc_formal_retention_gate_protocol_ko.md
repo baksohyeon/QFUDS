@@ -10,14 +10,14 @@ depends_on:
   - qfuds_saga_revisions_reader_feedback_ai_tell_consolidation_ko
   - qfuds_saga_production_board_ko
 next_gate: create 012 retention gate run artifact with doc_type gate before any 40_release promotion
-last_updated: 2026-06-22
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 1부·2부 정식 reader retention gate protocol
 
 ## 역할 / 경계
 
-이 문서는 1부 origin([030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md))과
+이 문서는 사엘 origin([030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등; 아래 baseline-pinned 소스 경로는 당시 커밋 기준이라 그대로 둠)과
 2부 Mara([029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))를
 `40_release/`로 올리기 전에 필요한 **정식 9-persona retention gate 산출물 계약**이다.
 이 문서 자체는 실행 결과가 아니라 protocol이다. 실제 실행 결과는 새 run artifact로

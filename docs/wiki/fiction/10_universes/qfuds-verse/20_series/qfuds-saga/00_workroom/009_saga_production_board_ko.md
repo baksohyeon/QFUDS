@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: 1부(033)·2부(034) 풀길이 초고 + retention/comprehension 게이트(015/016) 완료. 다음=2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트
+next_gate: 1.5부(033)·2부(034) 풀길이 초고 + retention/comprehension 게이트(015/016) 완료. 다음=새 1부 오르페우스(035) 작성 / 2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트
 last_updated: 2026-06-30
 ---
 
@@ -40,23 +40,24 @@ install external tools: fiction 한정 허용 (보안 점검 + repo/vault 스코
 
 | Field | Value |
 | --- | --- |
-| Active unit | 033 origin(1부)·034 Mara(2부) 풀길이 소설 초고 + retention/comprehension 게이트(015/016) |
+| Active unit | 033 origin(1.5부)·034 Mara(2부) 풀길이 소설 초고 + retention/comprehension 게이트(015/016); 새 1부 035 오르페우스(오웬·리브) 별도 작성 중 |
 | Phase | `verify` passed -> `gated`(retention+comprehension) |
 | Owner mode | `writer` + `continuity` + `reader-sim` + `comprehension` + `polish` |
 | Status | 두 권 풀길이 초고 완결; comprehension 통과(ran_passed), retention 통과(ran_passed_with_risks); release 정식 게이트는 미실행 |
 | Failure reason | 없음(두 권 초고 완결). 잔여=2부 S2 polish, 3부 풀길이 미착수, 영어 각색 2화+ |
 | Next action | 2부 거푸집 후렴 등 S2 polish(RET-2B-001~005, [30_revisions/016]) 또는 3부 author-loss 풀길이 착수; `40_release` 승격 전 정식 게이트 |
 | Source files | `30_revisions/015`, `30_revisions/016`, `10_story_design/011`, `00_bible/023`, `30_revisions/011` |
-| Output files | `20_drafts/1부/033_origin_sael_full_novel_korean_primary.md`, `20_drafts/2부/034_mara_full_novel_korean_primary.md`; 보조 `20_drafts/1부/031`(콘티), `32`(영어 각색) |
+| Output files | `20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md`, `20_drafts/2부/034_mara_full_novel_korean_primary.md`; 보조 `20_drafts/1.5부/031`(콘티), `32`(영어 각색); 새 1부 `20_drafts/1부/035_orpheus_full_novel_korean_primary.md`(작성 중, 별도) |
 | Approval needed | no(초고/게이트); yes before release promotion |
 
 ## Unit Queue
 
 | Unit | Phase | Intent card | Last review wave | Chronicler pass | Status |
 | --- | --- | --- | --- | --- | --- |
-| 1부 origin 풀길이(033) | verified/gated | [015 retention+comprehension](../30_revisions/015_origin_sael_fullnovel_retention_comprehension_gate_20260622_c91e9be_ko.md) | 8장 ~45K 초고; retention ran_passed_with_risks + comprehension ran_passed | 015 게이트 in 033 | `validated` |
+| 1.5부 사엘 origin 풀길이(033) | verified/gated | [015 retention+comprehension](../30_revisions/015_origin_sael_fullnovel_retention_comprehension_gate_20260622_c91e9be_ko.md) | 8장 ~45K 초고; retention ran_passed_with_risks + comprehension ran_passed | 015 게이트 in 033 | `validated` |
+| 1부 「오르페우스」 풀길이(035) | draft | 오웬·리브 (작성 중) | 별도 작성 중 | none | `drafting` (별도) |
 | 2부 Mara 풀길이(034) | verified/gated | [016 retention+comprehension](../30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md) | 6장 ~65K 초고; 독립 온보딩 성공; S2 polish 잔여(RET-2B-001~005) | 016 게이트 in 034 | `validated` |
-| 1부 콘티 텔링(031) | verified/gated | [014 retention](../30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md) | 웹소설 콘티; ran_passed; 033 풀길이의 blueprint로 보존 | 014 notes in 031 | `blueprint` |
+| 1.5부 콘티 텔링(031) | verified/gated | [014 retention](../30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md) | 웹소설 콘티; ran_passed; 033 풀길이의 blueprint로 보존 | 014 notes in 031 | `blueprint` |
 | 영어 각색(032) | draft | Anglophone Episode 1 | 영어 각색 1화 draft | none | `drafted` |
 | 030 origin 프로토타입 | provenance | [017](../10_story_design/017_first_arc_origin_scene_cards_ko.md) | flat 프로토타입; 033으로 대체, provenance 보존 | 010 notes in 030 | `archived-provenance` |
 | 029 Mara 캐논 원천 | provenance | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 2부 reboot 캐논 원천; 034의 source, 원천 보존 | Continuity Notes in 029 | `archived-provenance` |
@@ -78,7 +79,7 @@ physical cascade를 2026-06-21에 실행 완료했다. 물리 폴더는 canonica
 
 | Asset | Physical path (cascade 후) | Canonical role (011) | Status |
 | --- | --- | --- | --- |
-| 030 origin Sael draft | `20_drafts/1부/030_origin_arc_sael_korean_primary.md` | 1부 origin | done (제자리) |
+| 030 origin Sael draft | `20_drafts/1.5부/030_origin_arc_sael_korean_primary.md` | 1.5부 사엘 origin | done (1부→1.5부 강등 2026-06-30) |
 | 029 Mara reboot | `20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md` | 2부 Mara | done (1부→2부 이동) |
 | 025-027 author-loss drafts | `20_drafts/3부/` | 3부 author-loss | done (2부→3부 이동) |
 | Mara prototypes | `20_drafts/2부/_versions/` | 2부 Mara 계보 | done (1부→2부 이동) |
@@ -127,3 +128,4 @@ brief.
 | 2026-06-22~23 | 034 2부 마라 풀길이 소설(6장 본문 ~65K) 신설 + retention+comprehension 게이트 (RG-034-a41bcb9, 7 persona) | retention **ran_passed_with_risks** + comprehension **ran_passed** — 7/7 완독·S0 0; 이해 C1~C4 전원 can_explain, C5 오분류 0, **전원 "1부 미독자도 따라옴"**(독립 온보딩 성공), P3 6장 물리 '확' 이해. 잔여 S1=거푸집 후렴 반복(RET-2B-001), S2=6장 물리댐/길이·QFUDS 한 줄 설명·3장 추상·분기 논리 | [30_revisions/016](../30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md); 1부(033)+2부(034) 풀길이 두 권 완성 |
 | 2026-06-30 | 외부 도구/코드 adoption 규칙 픽션 한정 해제(user decision); fiction-production 스킬·IP 워크플로우·이 board 정합 | inspiration-only/no-copy → 라이선스+출처 기록 하에 adoption 허용으로 변경. 연구 증거 경계는 불변 | 외부 도구 채택 시 source/license/allowed·blocked claim·workflow state를 변경 문서에 기록 |
 | 2026-06-30 | continuity 엔진 파일럿(2부 마라 034 기준): `fiction_continuity.py` 전체 실행 + intent-mark suppression 신설 | 직전 8개 플래그(1부 030~033이 2부 마라·엘리아스 선행 참조)는 전부 **의도된 딥타임 시딩**으로 판정 → 024 `## 의도된 교차 등장` 허용목록에 (인물·부·파일번호)로 등록 → 엔진 **PASS**(9인물/9원고, strict 0). 민감도 회귀 테스트: 미등록 파일/인물의 교차는 여전히 플래그. 034 단독 0 플래그(2부 정합). validate_docs·research_consistency PASS | 침묵=신뢰 상태 확보. 새 1부 챕터가 2부 인물을 의도 참조하면 024 허용목록에 파일번호 추가; 의도 아니면 그대로 두고 수정 |
+| 2026-06-30 | 1.5부 강등 + 새 1부 오르페우스 착수: 사엘 origin(030·031·032·033·README)을 `20_drafts/1부/`→`20_drafts/1.5부/`로 git mv; 새 1부 「오르페우스」(주인공 오웬·어머니 리브, 035 별도 작성) 자리 신설; continuity 엔진 `ARC_DIRS`/`ARC_ORDER`에 1.5부 삽입; 024 인물 표에 오웬·리브 추가 + 사엘 시대 1부→1.5부, 교차 허용목록 마라·엘리아스 1부→1.5부 | validate_docs PASS, fiction_continuity PASS (11인물/4원고 등록 후 시대 불일치 0). 035는 미생성(별도 작성 중)이라 엔진 미검사 | 035 초고 완성 후 retention/comprehension 게이트; 1부가 2부 인물 의도 참조 시 024 허용목록에 035 파일번호 추가 |

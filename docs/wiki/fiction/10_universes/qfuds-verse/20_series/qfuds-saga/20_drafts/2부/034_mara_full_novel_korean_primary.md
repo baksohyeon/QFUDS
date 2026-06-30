@@ -21,7 +21,7 @@ last_updated: 2026-06-22
 
 이 문서는 2부 마라의 **풀길이 소설본**이다.
 [029 2부 reboot](029_first_arc_book1_reboot_korean_primary.md)을 캐논 원천(프롤로그~Ch6)으로,
-[033 1부 origin 풀길이](../1부/033_origin_sael_full_novel_korean_primary.md)의 보이스와 결을
+[033 1.5부 사엘 origin 풀길이](../1.5부/033_origin_sael_full_novel_korean_primary.md)의 보이스와 결을
 모델로 삼아, 세계가 **설명이 아니라 체험으로 도착하도록** 분량을 제대로 준다. 029의
 이해 우선 온보딩은 유지하되, 각 비트를 여러 장면의 챕터로 펼친다. 캐논은 029/023에서
 상속하고 새 설정을 만들지 않는다.

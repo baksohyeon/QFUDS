@@ -8,14 +8,14 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_revisions_index_ko
 next_gate: 029 윤문 패스 적용 후 재검증, release 승격 시 정식 9-persona retention 게이트
-last_updated: 2026-06-21
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 1부·2부 독자 피드백 + AI-tell 통합 정리 및 개선 계획
 
 ## 역할 / 경계
 
-이 문서는 1부 origin([030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md))과
+이 문서는 사엘 origin([030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등)과
 2부 Mara([029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))에 대해
 실행한 reader-persona 이탈 테스트와 `ai-tell-detector` 패스 결과를 **페르소나별로**
 통합하고, 그 피드백을 반영한 윤문·퇴고 개선 계획과 적용 상태를 한 장에 모은다.

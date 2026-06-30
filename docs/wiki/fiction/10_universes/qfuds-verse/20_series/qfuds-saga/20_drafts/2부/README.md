@@ -19,9 +19,10 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **2부 Mara**. canon 상
 ## Cascade 완료 (2026-06-21)
 
 번호 physical cascade를 실행했다(011 §10). 기존 Mara reboot(029)와 그 prototype
-계보(`_versions/`)가 legacy `1부/`에서 이 **2부** 폴더로 이동했다. 1부 origin(030)이
+계보(`_versions/`)가 legacy `1부/`에서 이 **2부** 폴더로 이동했다. 1.5부 사엘 origin(030)이
 세운 선례 `복원 가능한 것은 청구 가능하다`가 029 Mara 청구의 upstream 근거다
-(030 B7 → 029 cross-arc handoff).
+(030 B7 → 029 cross-arc handoff). (사엘 origin은 2026-06-30에 1부→1.5부로 강등됐고,
+새 1부는 「오르페우스」다.)
 
 ## 현행 — 지금 읽을 2부 책
 
@@ -41,8 +42,9 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **2부 Mara**. canon 상
 시리즈 밖 [90_archive/qfuds-saga_1부_legacy/](../../../../../../90_archive/qfuds-saga_1부_legacy/README.md).
 
 2부 Mara 구조 SSOT는 [012 outline](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·
-[013 scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md). 1부 origin 현행 책은
-[../1부/033](../1부/033_origin_sael_full_novel_korean_primary.md), 3부 author-loss 소재는
+[013 scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md). 1부 「오르페우스」(035)는
+[../1부/](../1부/README.md), 1.5부 사엘 origin 현행 책은
+[../1.5부/033](../1.5부/033_origin_sael_full_novel_korean_primary.md), 3부 author-loss 소재는
 [../3부/](../3부/README.md)에 있다.
 
 ## 상속 규칙 / 로컬 오버라이드

@@ -14,15 +14,16 @@ Single source of truth: the canon character map
 
 It parses the roster (character -> arc/era) from the `## 인물 표` table and scans
 prose drafts under `20_drafts/<부>/`. In this deep-time SAGA the arcs are
-millennia apart (1부 = 21c, 2부 = far-future 4기), so a character bound to one
-arc appearing in another arc's prose is only valid as a copy/restoration and
-must be deliberate. Such cross-era appearances are flagged for review.
+millennia apart (1부 = 21c 오르페우스, 1.5부 = 21c 사엘 origin,
+2부 = far-future 4기), so a character bound to one arc appearing in another
+arc's prose is only valid as a copy/restoration and must be deliberate. Such
+cross-era appearances are flagged for review.
 
 Characters whose era cell says `전 시대` or `기원` (e.g. Last Archive, Vera,
 Karvath) are background/all-era and exempt.
 
 Deliberate deep-time seeding (a future-arc character intentionally appearing in
-an earlier draft, e.g. the 1부 origin seeding 2부's Mara) is registered in 024's
+an earlier draft, e.g. the 1.5부 사엘 origin seeding 2부's Mara) is registered in 024's
 `## 의도된 교차 등장` allowlist (character + draft-arc + optional file numbers)
 and suppressed. Cross-era appearances that are NOT registered there still flag,
 so the engine stays sensitive to real drift.
@@ -44,8 +45,8 @@ SAGA = FICTION_ROOT + "/10_universes/qfuds-verse/20_series/qfuds-saga"
 CHAR_MAP = SAGA + "/00_bible/024_character_map_and_timeline_coordinates_ko.md"
 DRAFT_ROOT = SAGA + "/20_drafts"
 
-ARC_DIRS = ("1부", "2부", "3부")
-ARC_ORDER = {"1부": 0, "2부": 1, "3부": 2}  # deep-time chronological order
+ARC_DIRS = ("1부", "1.5부", "2부", "3부")
+ARC_ORDER = {"1부": 0, "1.5부": 1, "2부": 2, "3부": 3}  # deep-time chronological order
 EXEMPT_TOKENS = ("전 시대", "전시대", "기원")  # background / all-era characters
 META_HEADINGS = (
     "boundary", "harness applied", "source boundary", "continuity notes",

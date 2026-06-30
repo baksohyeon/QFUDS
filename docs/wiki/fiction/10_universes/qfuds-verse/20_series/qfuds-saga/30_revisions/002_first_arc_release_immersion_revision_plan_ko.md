@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_bilingual_term_discipline_glossary_ko
   - qfuds_saga_first_arc_origin_scene_cards_ko
 next_gate: apply these release gates to 030 origin draft after B1-B7 and cascade stabilize
-last_updated: 2026-06-21
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 1부 Release 승격 — 현장감·묘사 강화 퇴고 기준
@@ -23,8 +23,8 @@ last_updated: 2026-06-21
 `40_release/` 후보로 올리기 위한 **강화 퇴고** 기준이었다. 이후 1부는
 [016 origin outline](../10_story_design/016_first_arc_origin_outline_ko.md)과
 [017 origin scene cards](../10_story_design/017_first_arc_origin_scene_cards_ko.md)를 거쳐
-[030 origin manuscript](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)로
-신규 1부 origin 경로가 바뀌었다.
+[030 origin manuscript](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)로
+사엘 origin 경로가 바뀌었다(2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035).
 
 따라서 이 문서는 더 이상 019-024 in-place 승격 명령이 아니다. 030 전체 한국어
 primary draft와 physical cascade가 안정화된 뒤 적용할 **release-facing gate 기준**으로 보존한다. 1차

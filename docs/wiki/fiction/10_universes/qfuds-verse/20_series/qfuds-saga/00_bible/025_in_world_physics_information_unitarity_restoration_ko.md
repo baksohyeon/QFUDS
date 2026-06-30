@@ -46,7 +46,7 @@ workflow: Research Asset and Product Workflow / state=hit_not_cached
 - 공개키→개인키 역산은 **실용적** 불가였다(고전적으로 천문학적 연산). 근본적으로
   불가능했던 적은 없다.
 - 양자컴퓨터(쇼어 알고리즘)가 그 역을 **가능**으로 뒤집는다. 상세는
-  [033 부록](../20_drafts/1부/033_origin_sael_full_novel_korean_primary.md#부록--과학기술-노트).
+  [033 부록](../20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md#부록--과학기술-노트).
 - 캐논 한 줄: *"거꾸로 가는 길이 없었던 게 아니라, 그 길을 들을 귀가 여태 없었을
   뿐이었다."* (033 1장) — 1부의 역산이 2부의 복원과 같은 명제임을 잇는 고리.
 
@@ -70,7 +70,7 @@ workflow: Research Asset and Product Workflow / state=hit_not_cached
 - 블랙홀 정보역설 주류(2024~25): 페이지 곡선 복원·섬 공식으로 **유니터리 보존**이
   주류 —
   [Quantum extremal surfaces / island review (2025)](https://www.ijsr.net/archive/v14i4/SR25422122918.pdf).
-- 쇼어 알고리즘·ECDLP·양자 위협 추정치는 [033 부록](../20_drafts/1부/033_origin_sael_full_novel_korean_primary.md#부록--과학기술-노트)에 출처와 함께 정리.
+- 쇼어 알고리즘·ECDLP·양자 위협 추정치는 [033 부록](../20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md#부록--과학기술-노트)에 출처와 함께 정리.
 
 ## 적용 규칙
 

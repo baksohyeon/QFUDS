@@ -21,8 +21,9 @@ control, continuity fix pass를 둔다.
 
 ## Cascade Drift Note
 
-번호 SSOT는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)이다. 신규 1부
-origin revision 대상은 [030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)이고,
+번호 SSOT는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)이다. 사엘
+origin revision 대상은 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)이고
+(2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035),
 [029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)는 physical cascade
 전까지 현 위치에 보존되는 canonical 2부 Mara 자산이다.
 
@@ -60,8 +61,8 @@ origin revision 대상은 [030](../20_drafts/1부/030_origin_arc_sael_korean_pri
 R3/R4/R6 in-place 퇴고 계획(004 구조 패스, 005 격언·의식 패스, 006 세계관 온보딩
 재구성)은 outline-first reboot로 경로가 중단되어
 [90_archive/qfuds-saga_pre_reboot_planning/30_revisions/](../../../../../90_archive/qfuds-saga_pre_reboot_planning/README.md)로
-보존했다. 현행 1부 origin 작업은
-[030](../20_drafts/1부/030_origin_arc_sael_korean_primary.md)에서 진행한다.
+보존했다. 현행 사엘 origin(1.5부) 작업은
+[030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)에서 진행한다.
 
 ## Boundary
 

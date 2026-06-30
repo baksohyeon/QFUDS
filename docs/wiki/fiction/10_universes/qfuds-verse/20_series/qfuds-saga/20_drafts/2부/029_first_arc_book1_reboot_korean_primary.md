@@ -22,10 +22,11 @@ last_updated: 2026-06-22
 ## Cascade Banner
 
 번호 physical cascade 완료(011 §10, 2026-06-21). 이 원고는 신규 구조의 **2부 Mara
-자산**이며, 물리 경로도 이제 `20_drafts/2부/`다. 신규 **1부 origin**은
-[030 origin Sael draft](../1부/030_origin_arc_sael_korean_primary.md)가 담당한다.
+자산**이며, 물리 경로도 이제 `20_drafts/2부/`다. **1.5부 사엘 origin**은
+[030 origin Sael draft](../1.5부/030_origin_arc_sael_korean_primary.md)가 담당한다
+(2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035).
 
-이 파일은 2부 Mara 완결 자산이다. Ch6가 029를 닫고, 1부 origin(030)의 선례
+이 파일은 2부 Mara 완결 자산이다. Ch6가 029를 닫고, 1.5부 사엘 origin(030)의 선례
 `복원 가능한 것은 청구 가능하다`가 이 원고 Mara 청구의 upstream 근거다(cross-arc
 handoff는 Continuity Notes에 기록). 파일명·doc_id는 stable ID라 유지한다.
 
@@ -3176,8 +3177,8 @@ PENDING / NOT VOID
   아니라 Liora의 내부 감사 경고다. 029는 Mara를 반환하지 않는 데 성공하지만, 자비의
   문법이 비용·신탁·대행 시장으로 포획될 위험을 남긴다. 이는 기존 author-loss 자산
   025-027이 신규 구조의 3부로 밀리는 이유와 연결된다.
-- Cross-arc handoff(1부 origin → 2부 Mara, 2026-06-21): 신규 1부 origin
-  [030](../1부/030_origin_arc_sael_korean_primary.md) B1~B7 초고가 완성되어, 사엘의 B4
+- Cross-arc handoff(사엘 origin → 2부 Mara, 2026-06-21; origin은 2026-06-30 1부→1.5부 강등):
+  사엘 origin [030](../1.5부/030_origin_arc_sael_korean_primary.md) B1~B7 초고가 완성되어, 사엘의 B4
   오비준이 세운 선례 문장 `복원 가능한 것은 청구 가능하다`가 이 029 Mara 청구의
   upstream 근거로 정합된다. 030 B7에서 첫 사람-복원 청구의 근거 칸에 그 문장이 그대로
   인용되고 대상으로 `마라 베이르`가 호명된다. 029의 `Ledger state unaltered /

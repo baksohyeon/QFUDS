@@ -18,7 +18,7 @@ depends_on:
   - qfuds_saga_arc_two_korean_primary_plan_ko
   - qfuds_saga_arc_two_episode_map_ko
 next_gate: 1부 POV(사엘 능동화 vs 새 POV)를 작가가 확정하면 1부 origin 아웃라인을 별도 문서로 분기한다
-last_updated: 2026-06-21
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 다부작 아크 지도
@@ -34,6 +34,14 @@ last_updated: 2026-06-21
 나머지를 한 칸씩 뒤로 민다. **Mara=2부, 기존 author-loss 원고 자산(025-027)=3부.**
 `who may author loss`는 **부 제목이 아니라 사가 전체 최상위 테마 SSOT**다(015). 부
 번호가 어떻게 밀리든 이 테마는 모든 부를 관통한다.
+
+> **갱신 (2026-06-30):** 이 문서가 "1부 origin"으로 부르는 사엘 책(030·031·032·033)은
+> 2026-06-30 구조 정리에서 **1.5부 사엘 origin**으로 강등됐고, 새 **1부 「오르페우스」**
+> (주인공 오웬·어머니 리브, 035 별도 작성 중)가 신설됐다. 본 문서의 "1부" 서술은
+> 대부분 강등 전 라벨이며, 인물 시대 좌표의 SSOT는
+> [024 캐릭터 지도](../00_bible/024_character_map_and_timeline_coordinates_ko.md)다.
+> 부 구조: **1부=오르페우스(21c) / 1.5부=사엘 origin(21c) / 2부=마라(4기) / 3부=author-loss**.
+> 충돌 시 024가 우선한다.
 
 ## 0. 재편 요약 (현재 → 새 구조)
 
