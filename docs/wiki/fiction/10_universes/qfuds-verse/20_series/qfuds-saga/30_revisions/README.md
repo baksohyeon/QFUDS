@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
 next_gate: create 012 retention gate run artifact pinned to c158d31 before any 40_release promotion
-last_updated: 2026-06-22
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA Revision Shelf
@@ -49,6 +49,11 @@ origin revision 대상은 [030](../20_drafts/1부/030_origin_arc_sael_korean_pri
    - `030`/`029`를 release shelf로 올리기 전 필요한 9-persona gate 산출물 계약.
      persona sheet, evidence matrix, issue ledger, revision mapping이 없으면 gate는 무효다.
      실제 실행 결과는 baseline commit과 blob hash를 고정한 별도 run artifact(`012_...`)로 남긴다.
+7. [034 마라 '순서' 토템 + 두 읽기 복선 설계 (B-i)](017_mara_order_totem_two_readings_seed_design_ko.md)
+   - 6장 α 분기(RET-2B-005)를 1~5장에 복선으로 예고하는 캐릭터 장치 설계. 마라의
+     생전 신념(올바른 순서는 하나)을 토템으로 삼아, 그 반사가 사본에게 새어나오게
+     하고 6장에서 정산한다. in-world 형이상학(it-from-bit 풍미)은 픽션 전용, QFUDS
+     연구 주장 아님. 본문 반영은 사용자 검토 후, RET-2B-001/002 polish보다 먼저.
 
 ## 아카이브됨 (reboot로 중단)
 
