@@ -202,8 +202,16 @@ def draft_arc(path):
 
 def name_hits(line, entry):
     for t in entry["tokens"]["kr"]:
-        if t in line:
-            return t
+        # Left-boundary match only: a KR name token counts as a hit when the
+        # character before it is not Hangul (line start, space, punctuation).
+        # Korean particles attach on the RIGHT, so '누어가'/'누어를' still match,
+        # but '누어' inside '나누어'(divide) does not. Avoids substring aliasing.
+        idx = line.find(t)
+        while idx != -1:
+            before = line[idx - 1] if idx > 0 else ""
+            if not _is_hangul(before):
+                return t
+            idx = line.find(t, idx + 1)
     for t in entry["tokens"]["en"]:
         if re.search(r"\b%s\b" % re.escape(t), line):
             return t
