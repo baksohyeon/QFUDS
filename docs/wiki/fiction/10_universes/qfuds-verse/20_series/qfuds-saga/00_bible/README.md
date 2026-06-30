@@ -56,6 +56,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 
 | 문서 | 역할 |
 | --- | --- |
+| [024 캐릭터 지도와 타임라인 좌표](024_character_map_and_timeline_coordinates_ko.md) | **인물을 시대 좌표 위에 모은 지도.** 누가 어느 부/시대에, 원본·사본, 관계, 미정 항목 |
 | [012 주인공 시트 — Liora Sen](012_character_liora_sen_ko.md) | 리오라 센 캐릭터 시트 |
 | [016 앙상블 보이스·관계 바이블](016_character_ensemble_voices_relationships_ko.md) | 앙상블 캐릭터 보이스·관계 |
 | [019 입체 캐릭터 시트](019_character_depth_sheets_ko.md) | 주요 인물 입체 시트 |

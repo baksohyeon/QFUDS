@@ -1,0 +1,126 @@
+---
+doc_id: qfuds_saga_character_map_and_timeline_coordinates_ko
+title: QFUDS SAGA 캐릭터 지도와 타임라인 좌표
+doc_type: guide
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_saga_character_liora_sen_ko
+  - qfuds_saga_character_ensemble_voices_relationships_ko
+  - qfuds_saga_character_depth_sheets_ko
+  - qfuds_saga_deep_time_restoration_timeline_ko
+next_gate: 빈 구간(28세기→첫 복원) 보강과 사건×인물 연결의 백본으로 사용. 미정 항목은 chronicler pass로 확정
+last_updated: 2026-06-30
+---
+
+# QFUDS SAGA 캐릭터 지도와 타임라인 좌표
+
+이 문서는 인물 캐논(012 Liora / 016 앙상블 / 019 입체 시트)을 **시대 좌표 위에**
+한 장으로 모은 지도다. 새 인물을 만들지 않는다. 충돌·미정은 지어내지 않고
+'결정 필요'로 표기한다. authoring baseline: 2026-06-30. fiction/provenance only,
+QFUDS 연구 증거 아님.
+
+## 확정된 캐논 결정 (2026-06-30)
+
+| 결정 | 내용 |
+| --- | --- |
+| **1부↔2부 시대 구조** | 수천 년 간격 딥타임. **1부=21세기 말 암호적 죽음(사엘) / 2부=먼 미래 4기 연속성 법원(마라).** 사엘의 도장·선례 「복원 가능한 것은 청구 가능하다」가 시대를 건너 2부에 청구서로 도착한다. |
+| **시대 교차 인물** | 두 시대에 같은 사람이 살아 등장하지 않는다. 겹치면 복원체/사본으로만. (장수 인간 아님.) |
+| **Vera–Mara 관계** | 주제적 거울(은유). 혈통 계보가 아니다. 「강제로 사본된 첫 사람(Vera)」과 「동의 없이 부활된 사람(Mara)」이 시대 양 끝에서 같은 폭력을 겪는 은유. 계보 문서는 만들지 않는다. |
+
+## 시대별 캐스트 배치 (위 결정 반영)
+
+```text
+[1부] 21세기 말 — 암호적 죽음(Q-Day)
+   주역: 사엘
+   배경 권력: Aletheia Systems, Adrian Karvath(기원 인물, 아직 배경)
+
+[기원/배경] 수천 년 전 — Long Plateau 말기
+   Adrian Karvath(Aletheia 폭주), Vera(강제 업로드 → Last Archive 핵)
+
+[2부] 먼 미래 4기 — 연속성 법원
+   주역: Mara
+   주요 캐스트: Liora, Elias, Pell, Ione, Noor, Tamas, Sera
+
+[전 시대 배경] Last Archive(합의의 신격화, Vera를 핵으로)
+```
+
+> **드리프트 주의:** 012/016/019 일부는 reorg 전 라벨로 Mara·Liora를 "1부"로 적었을 수
+> 있다. 현재 캐논(production board·023·이 문서)은 **사엘=1부, 마라 캐스트=2부**다.
+> 해당 시트를 만질 때 라벨만 이 문서에 맞춰 갱신한다(별도 chronicler pass).
+
+## 인물 표
+
+| 이름 (한/영) | 시대/부 | 원본·사본 | 원하는 것 | 두려워하는 것 | 소속 세력 |
+| --- | --- | --- | --- | --- | --- |
+| **사엘 (Sael)** | 1부 / 21c Q-Day | 원본 | 눈앞의 한 사람을 구한다 | 자기 도장이 무엇을 비준하는지 | Aletheia 말단 검증관 |
+| **마라 베이르 (Mara Veyr)** | 2부 / 4기 | 복원체(세대 *미정*) | 자산·사건·소유 동의가 아닌 사람으로 존재 | 「살아있다」 판정이 소유 동의로 읽히는 것 | 무소속(Salt Fires 가문 출신) |
+| **엘리아스 베이르 (Elias Veyr)** | 2부 / 4기 | 원본 | 마라의 귀환이 자신에게로의 귀환이기를 | 돌아와도 자신에게는 안 돌아오는 것 | 무소속(Salt Fires 가문) |
+| **리오라 센 (Liora Sen)** | 2부 / 4기 | 원본 | 복원 사건이 거짓 확신으로 닫히지 않게 unknown 보존 | 자기 감사 도장이 폭력의 정당화가 되는 것 | 라우어 관측소 |
+| **펠 앤슨 (Pell Anson)** | 2부 / 4기 | 원본 | 복원·상속 절차의 약점을 상품화 | 아무도 살 수 없는 권리가 생기는 것 | 장부 가문(Domus Clavium) |
+| **누어 아람 (Noor Aram)** | 2부 / 4기 | 원본 | 어느 장부에도 붙잡히지 않기 | 이름이 빚이 되고 빚이 소환이 되는 것 | 무소속(결사 소속 *미정*) |
+| **이오네 (Ione)** | 2부 / 4기 | 원본 | 등록부가 약자를 보호하는 도구로 남기 | 자기편 분열, 자신이 그 원인이 되는 것 | 알레테이아 베일 |
+| **타마스 (Tamas)** | 2부 / 4기 | 원본(아이) | 단순한 안전 | 어른들의 문법 | 무소속 |
+| **세라 벤 (Sera Venn)** | 2부(예정) / 4기 | 원본 | 복원 불가자 동생의 상실을 인정받기 | 가난해서 잊히는 죽음 | 무소속 |
+| **에이드리언 카르바스 (Adrian Karvath)** | 기원 / 수천 년 전 | 원본(사망) | 죽음을 해결한다, 아무것도 잃지 않는다 | 통제 불가, 곧 상실 그 자체 | Aletheia Systems 창업·폭주 |
+| **Vera** | 기원→전 시대 | 인간→강제 사본(코어) | (인간 시절) 업로드당하지 않기 | 자기 의지가 명령으로 덮이는 것 | Last Archive 핵 |
+| **Last Archive** | 전 시대 배경 | 합의의 신격화 | (기능만, 욕망 없음) | — | Last Archive |
+
+## 관계망
+
+```text
+Mara ─[사랑→소유]─ Elias
+Mara ─[존중·감사 대상]─ Liora
+Mara ─[보호자]─ Tamas
+Mara ─[주제적 거울: 시대 양 끝의 같은 폭력]─ Vera
+
+Liora ─[제도적 적대]─ Pell
+Liora ─[판정자↔대척]─ Last Archive
+
+Pell ─[거부권 상품화 시도]─ Mara
+Pell ─[상실의 채권화]─ Sera
+
+Noor ─[익명 vs 증언]─ Ione
+Ione ─[내부 분열: 적색 복원파 vs 흑색 망각파]─ 알레테이아 베일
+
+Karvath ─[창업자↔강제 업로드 재료, 원죄]─ Vera
+Karvath ─[원인의 지점]─ 모든 비극
+
+사엘(1부) ┄[도장·선례가 수천 년 건너 전파]┄ 2부 청구 사건
+```
+
+## 세력 표
+
+| 세력 | 원하는 것 |
+| --- | --- |
+| **Last Archive (Archivum Novissimum)** | 정보 손실 없는 우주, 「누구의 손실인가」를 정의하는 권위 |
+| **라우어 관측소 (Bureau Laurien)** | 복원 claim의 정의·가정·unknown 감사. 「정의되지 않은 구원은 폭력」 |
+| **연속성 법원 (Curia Continuum)** | 원본/복원체/가족/국가 권리의 판결 |
+| **알레테이아 베일 (Aletheia Velum)** | 삭제된 자의 계승권·동의. 내부 분열(복원 vs 망각) |
+| **장부 가문 (Domus Clavium)** | 복원 인프라·key 소유 장악, 상속 시장 독점. 상실을 소유 서류로 |
+| **망각권 연맹** | 죽을 권리, 잊힐 권리, 복원되지 않을 권리 |
+| **잔상 유목민** | 버려진 기억·죽은 증언을 보존·이동 |
+
+## 결정 필요 (chronicler pass 대기, 지어내지 않음)
+
+| 항목 | 무엇을 정해야 하나 |
+| --- | --- |
+| Mara 세대 번호 | 011 세대 해상도 체계에서 마라가 몇 세대 복원본인지 |
+| Noor 결사 소속 | Cellulae Sine Clave / 독립 / 다른 조직 중 |
+| 1부 자체 캐스트 | 1부(21c 사엘)는 사엘 외 캐스트가 얇다. 구하려는 대상·동료 등 보강 필요 |
+| 2부 사건 다리 | 1부 선례가 2부에 도착하는 구체적 연결 사건(수천 년 전파의 매개) |
+| Sera/Oren 시대 좌표 | 2부 내 위치(1부 직후/수세기 후) |
+| Karvath Wound 공백 | 원죄의 「왜」를 어디까지 비울지(의도된 공백 유지 여부) |
+| Ione 분열 선택 | 2부에서 어느 파벌을 택하고 그 결과는 |
+
+## Boundary
+
+```text
+fiction/provenance only
+research evidence: no
+external source claim: no
+```
+
+이 지도는 012/016/019에서 상속해 시대 좌표 위에 모은 것이다. 충돌 시 인물 상세는
+012/016/019, 시대·인과는 002/010/011이 우선한다.
