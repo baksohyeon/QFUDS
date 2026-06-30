@@ -461,6 +461,25 @@ Every resulting fiction document must record:
 - most specific workflow state token;
 - a short local boundary statement for how the source is used.
 
+### External Tool and Code Adoption (fiction only)
+
+Rule relaxed 2026-06-30 (user decision). The earlier "inspiration-only; no
+install or prompt/code copy" prohibition is lifted **for fiction work only**.
+External AI writing tools, MCP servers, prompts, and code may be adopted or
+adapted for fiction, under these conditions:
+
+- check and respect the source license before copying; record the license;
+- record source URL, license, allowed claim, blocked claim, and workflow state
+  in the changed fiction document (this rule + Research Asset and Product
+  Workflow);
+- vet MCP servers/tools for security (prompt injection, excess permissions) and
+  scope them to the fiction repo/vault before installing;
+- adopt on the fiction side only — never copy external material into QFUDS
+  research evidence, theory, or results. The research/fiction boundary is not
+  lifted;
+- prefer adapting external material to this project's structure (shelves,
+  Korean-primary, gates) over replacing the governance wholesale.
+
 ## Validation
 
 Before commit, run:

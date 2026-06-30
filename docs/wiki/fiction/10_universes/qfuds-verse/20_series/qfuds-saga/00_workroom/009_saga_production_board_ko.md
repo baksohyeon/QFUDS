@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
 next_gate: 1부(033)·2부(034) 풀길이 초고 + retention/comprehension 게이트(015/016) 완료. 다음=2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트
-last_updated: 2026-06-23
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA Production Board
@@ -31,9 +31,9 @@ Boundary:
 ```text
 fiction/provenance only
 research evidence: no
-external AI writing systems: architecture inspiration only
+external AI writing systems: adoption/adaptation allowed (license + source 기록; 2026-06-30 해제)
 workflow state: hit_not_cached
-install external tools: no
+install external tools: fiction 한정 허용 (보안 점검 + repo/vault 스코프)
 ```
 
 ## Current State
@@ -68,7 +68,7 @@ install external tools: no
 | --- | --- | --- | --- | --- |
 | Release promotion without artifact-backed retention gate | 030/029 | release-blocking | reader-sim / critic | keep `40_release` empty until a `012` run artifact has persona sheets, source refs, issue ledger, decision |
 | Number cascade confusion | 011, 025-027, 007, 010 | medium | continuity | stable IDs remain; verify labels only when touching affected docs |
-| External-system overfit | `.agent`, workroom | medium | science_auditor / critic | keep external repos inspiration-only; no install or prompt/code copy |
+| External-system adoption (rule relaxed 2026-06-30) | fiction only | medium | critic / continuity | 픽션 한정 adoption/adaptation 허용; 라이선스 확인 + source/license/claim 기록 필수; QFUDS 연구 증거엔 절대 반입 금지 |
 | Humanize misuse | prose polish | medium | style_editor | polish only after structure/continuity pass; no AI-detector evasion framing |
 
 ## Cascade Ledger (완료)
@@ -125,3 +125,4 @@ brief.
 | 2026-06-22 | 031 polish wave 2 후 최종 확인 retention 게이트 (RG-031-20260622-b5f0edf, 동일 7 persona) | **ran_passed** — 7/7 완독, S0 0, open S1 0; RET-008/010 closed·improved, 잔여는 전부 S2/S3 backlog(RET-009 U6 제도어·013 무판정 용어·014 단문 리듬·015 손 모티프·011 한자말) | [30_revisions/014](../30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md); 1부 origin 텔링 리텐션 통과. 다음=영어 Anglophone 각색판 |
 | 2026-06-22 | 033 origin 풀길이 소설(8장 ~45K) 신설 + retention+comprehension 게이트 (RG-033-c91e9be, 7 persona) | retention **ran_passed_with_risks** + comprehension **ran_passed** — 7/7 완독·S0 0; 이해 C1~C4 전원 can_explain, C5 오분류 0(작가 '이해 안 됨' 지적 해소, 특히 기술문외한 P3 '확 나아짐'). 잔여 S1=중반 5~7장 반복(RET-016, deferred), S2=거푸집(RET-017)·1장 도입 정서동원(RET-018)·비유 반복(RET-019) | [30_revisions/015](../30_revisions/015_origin_sael_fullnovel_retention_comprehension_gate_20260622_c91e9be_ko.md); 콘티(031)는 blueprint·030은 flat 프로토타입으로 보존 |
 | 2026-06-22~23 | 034 2부 마라 풀길이 소설(6장 본문 ~65K) 신설 + retention+comprehension 게이트 (RG-034-a41bcb9, 7 persona) | retention **ran_passed_with_risks** + comprehension **ran_passed** — 7/7 완독·S0 0; 이해 C1~C4 전원 can_explain, C5 오분류 0, **전원 "1부 미독자도 따라옴"**(독립 온보딩 성공), P3 6장 물리 '확' 이해. 잔여 S1=거푸집 후렴 반복(RET-2B-001), S2=6장 물리댐/길이·QFUDS 한 줄 설명·3장 추상·분기 논리 | [30_revisions/016](../30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md); 1부(033)+2부(034) 풀길이 두 권 완성 |
+| 2026-06-30 | 외부 도구/코드 adoption 규칙 픽션 한정 해제(user decision); fiction-production 스킬·IP 워크플로우·이 board 정합 | inspiration-only/no-copy → 라이선스+출처 기록 하에 adoption 허용으로 변경. 연구 증거 경계는 불변 | 외부 도구 채택 시 source/license/allowed·blocked claim·workflow state를 변경 문서에 기록 |

@@ -36,9 +36,20 @@ Name the active mode before making decisions:
 
 ## Non-Negotiables
 
-- Fiction is not QFUDS research evidence.
-- Do not install external AI writing tools or MCP servers as part of this skill.
-- Do not copy external prompts or code from inspiration repositories.
+- Fiction is not QFUDS research evidence. (This boundary is NOT lifted.)
+- External AI writing tools, MCP servers, prompts, and code MAY be adopted or
+  adapted for fiction work (rule relaxed 2026-06-30, user decision), under these
+  conditions:
+  - check and respect the source license before copying; record it;
+  - record source URL, license, allowed claim, blocked claim, and workflow state
+    in the changed fiction document (IP workflow source rule + Research Asset and
+    Product Workflow);
+  - vet MCP servers/tools for security (prompt injection, excess permissions)
+    and scope them to the fiction repo/vault before installing;
+  - fiction side only — never copy external material into QFUDS research
+    evidence, theory, or results;
+  - prefer adapting to this project's structure (shelves, Korean-primary, gates)
+    over replacing the governance wholesale.
 - Korean-primary active SAGA prose comes before English adaptation unless the user explicitly overrides it.
 - Draft Korean prose as Korean sentences first. Do not generate a translated
   logline or foreign-language noun stack and then render it into Korean.
