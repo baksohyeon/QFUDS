@@ -21,6 +21,12 @@ must be deliberate. Such cross-era appearances are flagged for review.
 Characters whose era cell says `전 시대` or `기원` (e.g. Last Archive, Vera,
 Karvath) are background/all-era and exempt.
 
+Deliberate deep-time seeding (a future-arc character intentionally appearing in
+an earlier draft, e.g. the 1부 origin seeding 2부's Mara) is registered in 024's
+`## 의도된 교차 등장` allowlist (character + draft-arc + optional file numbers)
+and suppressed. Cross-era appearances that are NOT registered there still flag,
+so the engine stays sensitive to real drift.
+
 Warn-only by default (exit 0). `--strict` makes cross-era appearances block (1).
 
 Usage:
@@ -83,6 +89,64 @@ def parse_roster(text):
             "display": display,
         })
     return roster
+
+
+def parse_crossover_allow(text):
+    """Return [{'name': str, 'arc': '1부'|..., 'files': set()}] parsed from the
+    `## 의도된 교차 등장` table in 024. Each row registers a DELIBERATE cross-era
+    appearance (deep-time seeding / handoff) that should be suppressed.
+
+    `name` is the canonical display string (matches the roster `## 인물 표` name
+    cell). `arc` is the draft arc the character is allowed to appear in. `files`
+    is the set of leading file-number tokens scoping the allowance; an empty set
+    means the whole arc.
+    """
+    allow = []
+    in_table = False
+    for line in text.splitlines():
+        s = line.strip()
+        if s.startswith("## "):
+            in_table = s.startswith("## 의도된 교차 등장")
+            continue
+        if not in_table or not s.startswith("|"):
+            continue
+        cells = [c.strip() for c in s.strip("|").split("|")]
+        if len(cells) < 2:
+            continue
+        name_cell, arc_cell = cells[0], cells[1]
+        if name_cell.startswith("---") or "인물" in name_cell:
+            continue  # header / separator
+        name = name_cell.replace("**", "").strip()
+        if not name:
+            continue
+        arc = None
+        for a in ARC_DIRS:
+            if a in arc_cell:
+                arc = a
+                break
+        if arc is None:
+            continue
+        files = set()
+        if len(cells) >= 3:
+            files = set(re.findall(r"\d+", cells[2]))
+        allow.append({"name": name, "arc": arc, "files": files})
+    return allow
+
+
+def is_allowed(entry, arc, path, allow):
+    """True if (character, draft-arc, file) is a registered deliberate crossover."""
+    num = file_num(path)
+    for a in allow:
+        if a["name"] == entry["display"] and a["arc"] == arc:
+            if not a["files"] or (num is not None and num in a["files"]):
+                return True
+    return False
+
+
+def file_num(path):
+    """Leading file-number token of a draft filename, e.g. '030' -> '030'."""
+    m = re.match(r"(\d+)", pathlib.Path(path).name)
+    return m.group(1) if m else None
 
 
 def name_tokens(display):
@@ -163,7 +227,7 @@ def all_drafts():
     return sorted(paths)
 
 
-def check(drafts, roster):
+def check(drafts, roster, allow):
     flags = []
     bound = [e for e in roster if e["arc"] and not e["exempt"]]
     for f in drafts:
@@ -181,6 +245,10 @@ def check(drafts, roster):
             # anomaly (foreknowledge/teaser/drift). A later draft naming an
             # earlier-arc character is a normal historical reference, not a hit.
             if ARC_ORDER.get(entry["arc"], 0) <= ARC_ORDER.get(arc, 0):
+                continue
+            # Deliberate deep-time seeding registered in 024's allowlist is not
+            # a continuity break; unregistered crossovers still flag below.
+            if is_allowed(entry, arc, f, allow):
                 continue
             for n, ln in reader_prose(text):
                 if "](../" in ln or "](docs/" in ln:
@@ -206,11 +274,12 @@ def main():
     if not roster:
         print("fiction_continuity: 024에서 인물 표를 파싱하지 못함")
         return 0
+    allow = parse_crossover_allow(map_text)
     drafts = staged_drafts() if "--staged" in sys.argv else all_drafts()
     if not drafts:
         print("fiction_continuity: 검사할 원고 없음")
         return 0
-    flags = check(drafts, roster)
+    flags = check(drafts, roster, allow)
     if flags:
         print("fiction_continuity: 시대 정합 리뷰 플래그(%d):" % len(flags))
         for fl in flags:
