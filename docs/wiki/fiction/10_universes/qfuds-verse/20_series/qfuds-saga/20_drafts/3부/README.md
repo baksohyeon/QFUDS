@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_drafts_index_ko
-next_gate: 025-027 author-loss 자산 보존. 1부·2부 안정화 후 3부 본편 진입
-last_updated: 2026-06-21
+next_gate: 025-027 author-loss 소재 보존. 1부(033)·2부(034) 풀길이 완성됨; 3부 풀길이 본편 미착수
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 3부 author-loss 원고 지도
@@ -22,13 +22,17 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **3부 author-loss**. ca
 legacy `2부/`에서 이 **3부** 폴더로 이동했다. `arc_two` doc_id와 파일명은 stable
 ID이므로 바꾸지 않는다(007·010·004). 본 README는 새 3부 라벨로 갱신했다.
 
-## 현행
+## 현행 — 3부 소재 (풀길이 본편 미착수)
+
+3부는 아직 풀길이로 안 썼다. 아래 세 파일은 본편 진입 때 쓸 **소재 초안**이다.
+1부 현행 책은 [../1부/033](../1부/033_origin_sael_full_novel_korean_primary.md),
+2부 현행 책은 [../2부/034](../2부/034_mara_full_novel_korean_primary.md).
 
 | 파일 | 역할 | 상태 |
 | --- | --- | --- |
-| [025 who may author loss](025_who_may_author_loss_korean_primary.md) | 3부 author-loss ep1 한국어 primary 초안 | 보존 |
-| [027 who may refuse](027_who_may_refuse_korean_primary.md) | 3부 author-loss ep2 한국어 primary 초안 | 보존 |
-| [026 counterpart](026_who_may_author_loss_english_counterpart.md) | 3부 author-loss ep1 영어 counterpart | 보존 |
+| [025 who may author loss](025_who_may_author_loss_korean_primary.md) | 3부 author-loss ep1 한국어 primary 초안 | 소재 보존 |
+| [027 who may refuse](027_who_may_refuse_korean_primary.md) | 3부 author-loss ep2 한국어 primary 초안 | 소재 보존 |
+| [026 counterpart](026_who_may_author_loss_english_counterpart.md) | 3부 author-loss ep1 영어 counterpart | 소재 보존 |
 
 3부 구조·맵은 [10_story_design/010 arc-two episode map](../../10_story_design/010_arc_two_episode_map_ko.md)·
 [007 arc-two plan](../../10_story_design/007_arc_two_korean_primary_plan_ko.md), GSD는

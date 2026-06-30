@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_drafts_index_ko
-next_gate: 030 origin B1~B7 초고 완성. release-facing reader-retention 게이트 후 release 빌드
-last_updated: 2026-06-21
+next_gate: 033 origin 풀길이 초고 완성 + 게이트 통과. release-facing reader-retention 게이트 후 release 빌드
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA 1부 origin 원고 지도
@@ -22,18 +22,26 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **1부 origin (사엘)**
 기존 Mara reboot(029)와 그 prototype 계보(`_versions/`)는 **2부**로 이동했고,
 author-loss(025-027)는 **3부**로 이동했다.
 
-## 현행
+## 현행 — 지금 읽을 1부 책
 
 | 파일 | 역할 | 상태 |
 | --- | --- | --- |
-| [030 origin (사엘)](030_origin_arc_sael_korean_primary.md) | **1부 origin** 한국어 primary 원고 SSOT (016/017/019 설계) | B1~B7 초고 완성 + reader-retention/AI-tell 윤문 패스 반영 |
+| ★ [033 사엘 풀길이 소설](033_origin_sael_full_novel_korean_primary.md) | **1부 origin 현행 책** — 한국어 primary 풀길이 소설 (8장 ~45K) | 풀길이 초고 완성 + retention/comprehension 게이트 통과 (validated) |
 
-신규 1부 산문은 030 안에서 B1~B7 순서로 쓴다. 구조 SSOT는
+## 이 폴더의 옛 버전·콘티 (참고용, 지우지 않음)
+
+| 파일 | 정체 | 왜 남겨두나 |
+| --- | --- | --- |
+| [030 origin (사엘)](030_origin_arc_sael_korean_primary.md) | 옛 **프로토타입** (flat). 033이 대체 | 계보·원천 보존 (provenance) |
+| [031 웹소설 콘티](031_origin_sael_webnovel_storyboard_ko.md) | 웹소설 콘티 텔링. 033의 설계도(blueprint) | 구조 청사진 보존 |
+| [032 영어 콘티](032_origin_sael_webnovel_storyboard_en.md) | 영어 각색 1화 draft | 영어판 출발점 |
+
+신규 1부 산문은 **033** 안에서 쓴다. 구조 SSOT는
 [016 origin 아웃라인](../../10_story_design/016_first_arc_origin_outline_ko.md)·
 [017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md),
 실행 시트는 [019 사엘 시트](../../10_story_design/019_sael_origin_execution_sheet_ko.md).
-2부 Mara 원고는 [../2부/029](../2부/029_first_arc_book1_reboot_korean_primary.md),
-3부 author-loss 원고는 [../3부/](../3부/README.md)에 있다.
+2부 Mara 현행 책은 [../2부/034](../2부/034_mara_full_novel_korean_primary.md),
+3부 author-loss 소재는 [../3부/](../3부/README.md)에 있다.
 
 ## 상속 규칙 / 로컬 오버라이드
 
