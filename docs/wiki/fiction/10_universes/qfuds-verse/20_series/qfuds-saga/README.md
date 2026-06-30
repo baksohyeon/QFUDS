@@ -10,7 +10,7 @@ depends_on:
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
 next_gate: check 011 guide and production board before choosing the next active unit
-last_updated: 2026-06-21
+last_updated: 2026-06-30
 ---
 
 # QFUDS SAGA
@@ -33,6 +33,7 @@ only이며 QFUDS 연구 증거, roadmap status, Level 2B claim이 아니다.
 
 | 목적 | 열 문서 |
 | --- | --- |
+| **"이게 무슨 이야기냐"가 안 잡힐 때 (가장 쉬운 한 장)** | [023 세계관·인물 한눈에](10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md) |
 | 오늘 active unit 확인 | [SAGA production board](00_workroom/009_saga_production_board_ko.md) |
 | 전체 arc 구조 확인 | [011 saga arc map](10_story_design/011_saga_arc_map_multiarc_ko.md) |
 | 극적 질문 spine 확인 | [015 five core dramatic questions](10_story_design/015_five_core_dramatic_questions_spine_ko.md) |

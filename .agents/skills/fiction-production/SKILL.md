@@ -16,7 +16,10 @@ Before changing fiction files, read:
    for Korean-primary prose or polish.
 5. `docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md`
    for scenes that depend on technical, legal, institutional, or world-historical concepts.
-6. The relevant work README and workroom production board.
+6. The relevant work README and workroom production board. When you need the
+   story itself (premise, world rules, cast, the five dramatic questions, or the
+   restoration mechanism), read the SAGA reader orientation first:
+   `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md`.
 7. The chapter intent card, if the task touches prose or a chapter/episode plan.
 8. Relevant bible, story_design, draft, and revision docs.
 
