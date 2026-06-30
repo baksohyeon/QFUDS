@@ -51,6 +51,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | [003 세력·문화·권력·생태계 장부](003_factions_cultures_power_ecology_ko.md) | 세력·문화·권력 관계 장부 |
 | [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md) | 세력 이름 canon |
 | [020 AI·자동화·인간 확인 루프·아날로그 법정](020_ai_automation_human_in_the_loop_ssot_ko.md) | "왜 기계가 안 하고 사람이 도장을 찍나"의 제도 근거 |
+| [026 Q-Day 여파 타임라인과 세계 설정](026_qday_aftermath_timeline_and_world_ko.md) | 002가 비운 'Q-Day 직후~Long Plateau' 구간을 채우는 여파 타임라인+세계 설정(7인 패널 종합) |
 
 ## 인물
 
