@@ -7,3 +7,6 @@ __pycache__/
 
 # humanize-korean skill scratch space
 _workspace/
+
+# Obsidian vault settings (local UI state)
+.obsidian/
