@@ -155,8 +155,9 @@ archive 점유권으로 값이 매겨진다.
 
 ## 4. 다음 웨이브
 
-웨이브 5(예정)=언어 심화(계급어·종교어·군사어 실제 어휘·문체 샘플) + 기술 인프라
-세부(검증 파이프라인·복원 설비의 작중 묘사). 각 웨이브는 030~033을 baseline으로 증분.
+웨이브 5([034](034_world_expansion_wave5_language_tech_infra_ko.md))=언어 심화 + 기술
+인프라 세부. 웨이브 6([035](035_world_expansion_wave6_ecology_education_media_index_ko.md))=
+생태·교육·미디어 + 전 웨이브 크로스 인덱스(capstone). 각 웨이브는 baseline으로 증분.
 
 ## Boundary
 

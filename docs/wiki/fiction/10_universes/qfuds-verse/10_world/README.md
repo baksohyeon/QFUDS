@@ -45,6 +45,8 @@ universe 전체 공유 세계 자료다. 후보이며 안정되면 series bible 
 | [031 세계 확장 웨이브 2](031_world_expansion_wave2_factions_relationships_ko.md) | 세력 내부 인물·파벌 심화 + 가문 간 관계망 (candidate) |
 | [032 세계 확장 웨이브 3](032_world_expansion_wave3_geography_event_chains_ko.md) | 지리 상세·궤도 역학 + 사건 연쇄 인과 (candidate) |
 | [033 세계 확장 웨이브 4](033_world_expansion_wave4_economy_rites_calendar_ko.md) | 경제·통화 세부 + 의례·달력 (candidate) |
+| [034 세계 확장 웨이브 5](034_world_expansion_wave5_language_tech_infra_ko.md) | 언어 심화 + 기술 인프라 세부 (candidate) |
+| [035 세계 확장 웨이브 6 capstone](035_world_expansion_wave6_ecology_education_media_index_ko.md) | 생태·교육·미디어 + 전 웨이브 크로스 인덱스 (candidate) |
 
 ## Shared World Canon (SSOT) — 이 선반이 보유
 
