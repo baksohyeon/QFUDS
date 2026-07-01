@@ -59,7 +59,7 @@ ep3(028)부터 한국어 정본 + 영어 counterpart를 편별로 쌓아 release
 
 Allowed outputs:
 
-- 2부 episode map(`10_story_design/010`) — ep1·ep2 통합 + ep3~ **proposed**.
+- 2부 episode map(`10_story_design/010`) — ep1·ep2 통합 + ep3- **proposed**.
 - ep3(028)+ 한국어 정본 prose, 영어 Anglophone counterpart.
 - 편별 continuity / field-mark chain 정합.
 - release 준비물(arc 완성 후).
@@ -68,7 +68,7 @@ Forbidden outputs:
 
 - Research evidence / roadmap status 변경.
 - work README 없는 draft (work README는 이미 존재).
-- continuity 분류 없는 canon 변경 (ep3~는 proposed 표기 유지).
+- continuity 분류 없는 canon 변경 (ep3-는 proposed 표기 유지).
 - Research Asset and Product Workflow state 없는 외부 source claim.
 - 과학·기술어의 무근거 개명.
 - narrative frame 결정 없는 장면.

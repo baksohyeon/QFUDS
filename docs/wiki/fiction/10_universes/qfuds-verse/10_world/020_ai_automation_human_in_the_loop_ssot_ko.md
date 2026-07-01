@@ -117,7 +117,7 @@ AI와 자동화는 도처에 있다. 그러나 이 문명의 헌법적 원칙은
 
 - **근거(실제 연구, 2단 차용).** 프런티어 AI는 처음 보는 인공 언어를 zero-shot으로
   읽고 쓰고 그 언어로 코드를 실행한다. 사람 가독성이 약 15%로 떨어진 글리프 코드도
-  AI는 97~100% 사용한다. 또 토크나이저 사각지대(보이지 않는 유니코드)를 은닉
+  AI는 97-100% 사용한다. 또 토크나이저 사각지대(보이지 않는 유니코드)를 은닉
   채널로 써서, 수신 모델은 100% 복원하는데 감시자는 0%만 본다. 출처: GLOSSOPETRAE
   기술보고서(@elder_plinius, GitHub elder-plinius/GLOSSOPETRAE, 2026-06; 비peer-review
   창작 reference). Research Asset and Product Workflow state `hit_not_cached`,

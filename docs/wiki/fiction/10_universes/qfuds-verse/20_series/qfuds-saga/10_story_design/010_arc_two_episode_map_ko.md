@@ -23,7 +23,7 @@ last_updated: 2026-06-21
 ## 목적
 
 2부(`who may author loss`)를 에피소드 단위로 배치한다. ep1·ep2는 작성·감사 완료
-상태이고, ep3~ep6은 **제안(proposed)**이다 — momentum으로 canon 고정하지 않으며
+상태이고, ep3-ep6은 **제안(proposed)**이다 — momentum으로 canon 고정하지 않으며
 작가 승인 후 확정한다. 실행 계약은
 [2부 GSD Phase Brief](../00_workroom/004_arc_two_gsd_phase_brief_ko.md).
 
@@ -68,10 +68,10 @@ last_updated: 2026-06-21
 작가 승인으로 다음이 확정됐다(momentum 아님).
 
 1. **arc 길이** — 6편 구조 확정(1부와 대칭).
-2. **ep3~6 방향** — 위 계단/질문 채택.
-3. **field mark** — ep3 `A RECORD IS NOT A VERDICT` 채택. ep4~6 mark는 해당 ep
+2. **ep3-6 방향** — 위 계단/질문 채택.
+3. **field mark** — ep3 `A RECORD IS NOT A VERDICT` 채택. ep4-6 mark는 해당 ep
    집필 시 확정.
 4. **Sera Venn** — 시리즈 반복 인물로 승격.
 
 ep3(028) 한국어 정본부터 [GSD brief](../00_workroom/004_arc_two_gsd_phase_brief_ko.md)
-실행 계약대로 집필한다. ep4~6의 세부 turn/cost는 해당 ep 집필 직전 확정한다.
+실행 계약대로 집필한다. ep4-6의 세부 turn/cost는 해당 ep 집필 직전 확정한다.

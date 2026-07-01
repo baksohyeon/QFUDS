@@ -370,11 +370,11 @@ Research Asset and Product Workflow 적용. 아래는 창작 reference로 확인
    **공개키에서 개인키를 역산**한다. 비트코인 서명(ECDSA, secp256k1)이 깨진다.
    위험 대상 = 공개키가 노출된 주소(재사용 주소·옛 P2PK, 사토시 코인 포함).
    "harvest now, break later." 단 SHA-256 해시는 Grover로 제곱근만큼만 빨라져
-   **장부·불변성은 살아남는다**. 2022 Sussex 추정 13~300M 큐비트. 출처:
+   **장부·불변성은 살아남는다**. 2022 Sussex 추정 13-300M 큐비트. 출처:
    Chainalysis, River Learn, IACR eprint 2021/967. 방향: **서명(소유)은 무너지고
    장부(기록)는 산다** = 기존 custody/ownership regime은 죽고, 원장은 권력·신화·
    이념전쟁의 artifact로 남는다.
-4. **정보 보존/유니터리(물리 다리).** 2019~2020 replica wormhole·quantum extremal
+4. **정보 보존/유니터리(물리 다리).** 2019-2020 replica wormhole·quantum extremal
    surface·island formula가 호킹복사 엔트로피의 **유니터리 Page curve**를 재현 →
    "정보는 사라지지 않는다(유니터리 증발)"가 주류 견해가 됨. 실제(비-AdS)
    블랙홀의 미시 메커니즘은 미해결. 출처: Wikipedia "Black hole information

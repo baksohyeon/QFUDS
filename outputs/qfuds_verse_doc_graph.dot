@@ -59,6 +59,7 @@ digraph qfuds_verse {
   "qfuds_saga_real_world_and_physics_research_anchors_ko" [fillcolor="#b07aa1", label="qfuds_saga_real_world_and_physics_research_anchors_ko"];
   "qfuds_saga_truth_state_ledger_ko" [fillcolor="#b07aa1", label="qfuds_saga_truth_state_ledger_ko"];
   "qfuds_saga_chronicler_pass_plan_ko" [fillcolor="#b07aa1", label="qfuds_saga_chronicler_pass_plan_ko"];
+  "qfuds_saga_final_chronicler_report_ko" [fillcolor="#b07aa1", label="qfuds_saga_final_chronicler_report_ko"];
   "qfuds_saga_workroom_index_ko" [fillcolor="#b07aa1", label="qfuds_saga_workroom_index_ko"];
   "qfuds_saga_visual_exhibit_design_ko" [fillcolor="#f28e2b", label="qfuds_saga_visual_exhibit_design_ko"];
   "qfuds_saga_arc_two_korean_primary_plan_ko" [fillcolor="#f28e2b", label="qfuds_saga_arc_two_korean_primary_plan_ko"];
@@ -82,6 +83,7 @@ digraph qfuds_verse {
   "qfuds_saga_near_future_recenter_direction_ko" [fillcolor="#f28e2b", label="qfuds_saga_near_future_recenter_direction_ko"];
   "qfuds_saga_machine_narrator_voice_and_setup_payoff_treatment_ko" [fillcolor="#f28e2b", label="qfuds_saga_machine_narrator_voice_and_setup_payoff_treatment_ko"];
   "qfuds_saga_near_future_prelude_forecast_ko" [fillcolor="#f28e2b", label="qfuds_saga_near_future_prelude_forecast_ko"];
+  "qfuds_saga_register_morph_opening_and_ending_options_ko" [fillcolor="#f28e2b", label="qfuds_saga_register_morph_opening_and_ending_options_ko"];
   "qfuds_saga_story_design_index_ko" [fillcolor="#f28e2b", label="qfuds_saga_story_design_index_ko"];
   "qfuds_saga_drafts_jua_full_novel_korean_primary" [fillcolor="#9c755f", label="qfuds_saga_drafts_jua_full_novel_korean_primary"];
   "qfuds_saga_drafts_origin_sael_korean_primary" [fillcolor="#9c755f", label="qfuds_saga_drafts_origin_sael_korean_primary"];
@@ -330,6 +332,11 @@ digraph qfuds_verse {
   "qfuds_saga_chronicler_pass_plan_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
   "qfuds_saga_chronicler_pass_plan_ko" -> "qfuds_saga_restoration_mechanism_correction_ko";
   "qfuds_saga_chronicler_pass_plan_ko" -> "qfuds_saga_character_map_and_timeline_coordinates_ko";
+  "qfuds_saga_final_chronicler_report_ko" -> "qfuds_verse_worldbuilding_architecture_ko";
+  "qfuds_saga_final_chronicler_report_ko" -> "qfuds_verse_canon_drift_and_tech_debt_report_ko";
+  "qfuds_saga_final_chronicler_report_ko" -> "qfuds_saga_chronicler_pass_plan_ko";
+  "qfuds_saga_final_chronicler_report_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
+  "qfuds_saga_final_chronicler_report_ko" -> "qfuds_saga_character_map_and_timeline_coordinates_ko";
   "qfuds_saga_workroom_index_ko" -> "qfuds_saga_index_ko";
   "qfuds_saga_visual_exhibit_design_ko" -> "qfuds_saga_mara_veyr_prologue_english_revision_ko" [style=dashed, color=red];
   "qfuds_saga_visual_exhibit_design_ko" -> "qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko";
@@ -428,6 +435,11 @@ digraph qfuds_verse {
   "qfuds_saga_near_future_prelude_forecast_ko" -> "qfuds_saga_real_world_and_physics_research_anchors_ko";
   "qfuds_saga_near_future_prelude_forecast_ko" -> "qfuds_saga_qday_aftermath_timeline_and_world_ko";
   "qfuds_saga_near_future_prelude_forecast_ko" -> "qfuds_saga_near_future_recenter_direction_ko";
+  "qfuds_saga_register_morph_opening_and_ending_options_ko" -> "qfuds_saga_last_archive_reveal_architecture_ko";
+  "qfuds_saga_register_morph_opening_and_ending_options_ko" -> "qfuds_saga_deep_time_restoration_timeline_ko";
+  "qfuds_saga_register_morph_opening_and_ending_options_ko" -> "qfuds_verse_far_future_native_lexicon_return_death_ko";
+  "qfuds_saga_register_morph_opening_and_ending_options_ko" -> "qfuds_saga_machine_narrator_voice_and_setup_payoff_treatment_ko";
+  "qfuds_saga_register_morph_opening_and_ending_options_ko" -> "qfuds_saga_five_core_dramatic_questions_spine_ko";
   "qfuds_saga_story_design_index_ko" -> "qfuds_saga_index_ko";
   "qfuds_saga_drafts_jua_full_novel_korean_primary" -> "qfuds_saga_near_future_recenter_direction_ko";
   "qfuds_saga_drafts_jua_full_novel_korean_primary" -> "qfuds_saga_in_world_physics_information_unitarity_restoration_ko";

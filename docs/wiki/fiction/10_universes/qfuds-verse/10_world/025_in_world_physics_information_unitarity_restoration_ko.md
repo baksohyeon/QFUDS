@@ -59,7 +59,7 @@ workflow: Research Asset and Product Workflow / state=hit_not_cached
   되지 않는다(노클로닝 위반 아님). 정보는 형태를 바꿔 분산될 뿐 삭제되지 않는다.
 - 마라의 **'둘로 갈라짐'**(034 6장): 같은 한 벌 기록을 *두 순서로 읽어* 둘이 된
   것. 다대일(정보 소실)이 아니라 한 기록의 두 읽기다. 그래서 물리는 "어느 쪽이
-  진짜냐"에 답할 수 없다 — 미리 존재하는 원본이 없기 때문. (달 대사, 034 L2601~2641)
+  진짜냐"에 답할 수 없다 — 미리 존재하는 원본이 없기 때문. (달 대사, 034 L2601-2641)
 
 ## real-science 닻 (검증 2026-06-30)
 
@@ -67,7 +67,7 @@ workflow: Research Asset and Product Workflow / state=hit_not_cached
 
 - 유니터리성·노클로닝·양자 텔레포테이션: 원본 파괴 + 고전 2비트 + 유니터리 보정,
   복제 아님 — [No-cloning / Quantum teleportation, Wikipedia](https://en.wikipedia.org/wiki/Quantum_teleportation).
-- 블랙홀 정보역설 주류(2024~25): 페이지 곡선 복원·섬 공식으로 **유니터리 보존**이
+- 블랙홀 정보역설 주류(2024-25): 페이지 곡선 복원·섬 공식으로 **유니터리 보존**이
   주류 —
   [Quantum extremal surfaces / island review (2025)](https://www.ijsr.net/archive/v14i4/SR25422122918.pdf).
 - 쇼어 알고리즘·ECDLP·양자 위협 추정치는 [033 부록](../20_series/qfuds-saga/20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md#부록--과학기술-노트)에 출처와 함께 정리.

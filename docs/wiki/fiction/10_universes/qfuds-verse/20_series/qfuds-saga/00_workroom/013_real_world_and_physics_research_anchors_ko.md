@@ -37,7 +37,7 @@ workflow: Research Asset and Product Workflow 적용
 
 ---
 
-## PART A. 근미래 실세계 앵커 (2020s~2090s 예측 근거)
+## PART A. 근미래 실세계 앵커 (2020s-2090s 예측 근거)
 
 ### A1. 휴머노이드 로봇·자동화 역량 (state=hit_not_cached)
 
@@ -45,22 +45,22 @@ workflow: Research Asset and Product Workflow 적용
   약 466만, 신규 설치 54.2만(4년 연속 50만+). 아시아 74%. 중국 단독 약 202.7만 대·29.5만 설치
   (세계 54%). 이건 "자동화는 이미 어디에나"의 단단한 닻이다.
 - **휴머노이드는 '배치됐으나 좁고 불안정'**(논쟁 지대): Figure/BMW Spartanburg 파일럿(단일
-  작업, 자체발표 약 1,250시간·부품 9만+), Tesla Optimus의 "2025년 1만 대"는 미달, ~2hr 배터리,
+  작업, 자체발표 약 1,250시간·부품 9만+), Tesla Optimus의 "2025년 1만 대"는 미달, 약 2hr 배터리,
   MTBF 미공개, 손재주·일반화 한계. Rodney Brooks는 영상학습 손재주를 "순전한 환상"이라 비판;
   낙관론은 "완벽보다 유용성 먼저"로 반박.
-- **2035 전망의 자릿수 불일치**(논쟁): Goldman ~$38B/1.4M대, Morgan Stanley ~$5T(2050),
-  2차 집계는 $9B~$251B. 방향은 합의, **규모·시점은 크게 불일치.**
+- **2035 전망의 자릿수 불일치**(논쟁): Goldman - $38B/1.4M대, Morgan Stanley - $5T(2050),
+  2차 집계는 $9B-$251B. 방향은 합의, **규모·시점은 크게 불일치.**
 
 | 출처 | URL | 시점 | 핵심 | contested |
 | --- | --- | --- | --- | --- |
 | IFR World Robotics 2025 | ifr.org/ifr-press-releases | 2025-09 | 466만 운영, 54.2만 설치 | N |
 | Figure AI "Production at BMW" | figure.ai/news/production-at-bmw | 2025 | 파일럿 자체발표 수치 | Y(자체) |
 | Rodney Brooks blog | rodneybrooks.com/why-todays-humanoids-wont-learn-dexterity | 2025-09 | 손재주 회의 | Y(회의) |
-| Goldman Sachs Research | goldmansachs.com/insights | 2024-25 | ~$38B/1.4M대(2035) | Y(전망) |
-| Morgan Stanley | morganstanley.com/insights | 2025 | ~$5T(2050) | Y(전망) |
+| Goldman Sachs Research | goldmansachs.com/insights | 2024-25 | 약 $38B/1.4M대(2035) | Y(전망) |
+| Morgan Stanley | morganstanley.com/insights | 2025 | 약 $5T(2050) | Y(전망) |
 
 **픽션 매핑:** 역량 A/B/C 분기(제한적/젠야타급/롤백)의 근거. "배치됐으나 좁고 불안정"이
-2020s~2030s 기본값, "범용 대체"는 2040s+ back-loaded·논쟁 전망으로 그린다.
+2020s-2030s 기본값, "범용 대체"는 2040s+ back-loaded·논쟁 전망으로 그린다.
 
 ### A2. 자동화 노동경제 ("노동의 종말"은 논쟁) (state=hit_not_cached)
 
@@ -71,7 +71,7 @@ workflow: Research Asset and Product Workflow 적용
   대체보다 보강, 사무직 최다 노출, 최고노출은 세계고용 3.3%. WEF FoJ 2025: 2030까지 순 +78M
   (창출 170M − 대체 92M, 단 이건 전망).
 - 경제학 양극: Autor(재도입 효과, 낙관) vs Acemoglu(생산성 미미+불평등, 회의). **둘 다 "노동의
-  종말"을 예측하지 않는다.** Stanford "Canaries"(2025): 최다노출 직군 22~25세 고용 13% 상대감소
+  종말"을 예측하지 않는다.** Stanford "Canaries"(2025): 최다노출 직군 22-25세 고용 13% 상대감소
   (초입 사다리 효과, 좁고 초기).
 
 | 출처 | URL | 시점 | 핵심 | contested |
@@ -89,18 +89,18 @@ workflow: Research Asset and Product Workflow 적용
 
 ### A3. AI 역량 예측 + 컴퓨트·반도체 지정학 (state=hit_not_cached)
 
-- 스케일링(Epoch/Stanford HAI): 훈련 컴퓨트 연 약 4.4x(약 5~6개월 배가), 비용 약 8개월 배가
+- 스케일링(Epoch/Stanford HAI): 훈련 컴퓨트 연 약 4.4x(약 5-6개월 배가), 비용 약 8개월 배가
   (최대 훈련 2027년 $1B+ 전망), METR 과업 시간지평 약 7개월 배가(최근 약 4개월 가속은 논쟁).
 - 전문가 타임라인 **스프레드가 핵심**: 대규모 서베이 HLMI 10% 2027/50% 2047, 전직종 자동화
   50% 2116; 근단기 낙관(일부 2026-27) vs 회의(Marcus 등). 정의 불일치가 격차를 키움.
-- 칩 지정학(논쟁·정파 민감): TSMC 최첨단 약 90%+, 수출통제(2022~2025 강화), "sovereign AI" 부상.
+- 칩 지정학(논쟁·정파 민감): TSMC 최첨단 약 90%+, 수출통제(2022-2025 강화), "sovereign AI" 부상.
   효과성은 CSIS도 양론 병기(지연 vs 우회). 벤더(Nvidia) GPU 수치는 벤더 출처로 표시.
 
 | 출처 | URL | 시점 | 핵심 | contested |
 | --- | --- | --- | --- | --- |
-| Epoch AI Trends | epoch.ai/trends | 2024-25 | 컴퓨트 ~4.4x/년 | N |
-| Stanford HAI AI Index 2025 | hai.stanford.edu/ai-index/2025 | 2025-04 | 컴퓨트 ~5개월 배가 | N |
-| METR Long Tasks | metr.org/blog/2025-03-19 | 2025-03 | 시간지평 ~7개월 배가 | Y(방법) |
+| Epoch AI Trends | epoch.ai/trends | 2024-25 | 컴퓨트 - 4.4x/년 | N |
+| Stanford HAI AI Index 2025 | hai.stanford.edu/ai-index/2025 | 2025-04 | 컴퓨트 - 5개월 배가 | N |
+| METR Long Tasks | metr.org/blog/2025-03-19 | 2025-03 | 시간지평 - 7개월 배가 | Y(방법) |
 | AI Impacts 서베이 | arxiv.org/abs/2401.02843 | 2024 | HLMI 50% 2047 | Y(스프레드) |
 | CSIS 수출통제 | csis.org | 2024-25 | ≥2세대 격차 목표 | Y(정파) |
 | Brookings TSMC | brookings.edu | 2025 | 최첨단 90%+ | Y(지정) |
@@ -110,8 +110,8 @@ workflow: Research Asset and Product Workflow 적용
 
 ### A4. 에너지·데이터센터 + 인구·이주 + UBI (state=hit_not_cached)
 
-- 에너지(IEA Energy and AI 2025): 데이터센터 전력 약 2024년 415~485 TWh → 2030 약 945 TWh
-  (세계 약 3%), 2035 시나리오 700~1,700 TWh(자릿수 불확실), 계획 프로젝트 약 20%가 전력망
+- 에너지(IEA Energy and AI 2025): 데이터센터 전력 약 2024년 415-485 TWh → 2030 약 945 TWh
+  (세계 약 3%), 2035 시나리오 700-1,700 TWh(자릿수 불확실), 계획 프로젝트 약 20%가 전력망
   병목 위험. **병목이 최공격적 시나리오를 낮춘다.**
 - 인구(UN WPP 2024): 세계 인구 2080년대 중반 약 103억 정점 후 감소, 합계출산율 약 2.3(237개국
   중 55%가 대체수준 2.1 미만), 65세+ 2070년대 말 약 22억. 이주가 약 50개국의 감소를 상쇄.
@@ -121,7 +121,7 @@ workflow: Research Asset and Product Workflow 적용
 
 | 출처 | URL | 시점 | 핵심 | contested |
 | --- | --- | --- | --- | --- |
-| IEA Energy and AI | iea.org/reports/energy-and-ai | 2025-04 | DC 전력 ~945 TWh(2030) | N(전망 범위) |
+| IEA Energy and AI | iea.org/reports/energy-and-ai | 2025-04 | DC 전력 - 945 TWh(2030) | N(전망 범위) |
 | UN WPP 2024 | population.un.org/wpp | 2024-07 | 정점 103억(2080s), 출산율 2.3 | N |
 | VATT Finland UBI | vatt.fi | 2020-05 | 고용 미미·웰빙↑ | Y(인과) |
 | Stanford SEED (CalMatters) | calmatters.org | 2023-04 | 최종 고용효과 비유의 | Y |
@@ -134,9 +134,9 @@ workflow: Research Asset and Product Workflow 적용
 ### A5. 양자 위협·PQC + 딥페이크·검증경제 (Q-Day 근거) (state=hit_not_cached)
 
 - PQC(문서화된 정책): NIST FIPS 203/204/205(ML-KEM/ML-DSA/SLH-DSA, 2024-08 확정), NSA CNSA
-  2.0 마감 2027~2035, HNDL("지금 수집·나중 복호")은 널리 수용. **CRQC 도래 시점은 극도로
-  불확실**(약 2030~2035 무게, 10~30년 이견). "Q-Day"는 일정이 아니라 명명.
-- 딥페이크·출처증명: C2PA(2021~, 서명된 provenance) 표준이 소셜 재압축에 **벗겨짐**(RAND도
+  2.0 마감 2027-2035, HNDL("지금 수집·나중 복호")은 널리 수용. **CRQC 도래 시점은 극도로
+  불확실**(약 2030-2035 무게, 10-30년 이견). "Q-Day"는 일정이 아니라 명명.
+- 딥페이크·출처증명: C2PA(2021-, 서명된 provenance) 표준이 소셜 재압축에 **벗겨짐**(RAND도
   "개방 생태계에선 비현실적"). 딥페이크 급증(Sumsub 2년 약 40배, Entrust "5분마다 1건" 등
   벤더별 방법 상이=directional). **Arup $25M 딥페이크 CFO 영상 사기(2024)** = 단단한 실사건 닻.
 - 검증경제: Truepic 등 "진본성 서비스"가 유료 신뢰 층으로 판매 → 진본성 有/無 계급의 실모델.
@@ -144,8 +144,8 @@ workflow: Research Asset and Product Workflow 적용
 | 출처 | URL | 시점 | 핵심 | contested |
 | --- | --- | --- | --- | --- |
 | NIST PQC (CSA) | cloudsecurityalliance.org | 2024-08 | FIPS 203/204/205 확정 | N |
-| NSA CNSA 2.0 (QuSecure) | qusecure.com | 2024-26 | 2027~2035 마감 | N(정책) |
-| Palo Alto "What is Q-Day" | paloaltonetworks.com/cyberpedia/what-is-q-day | - | CRQC 약 5~15년, 무게 2030-35 | Y(시점) |
+| NSA CNSA 2.0 (QuSecure) | qusecure.com | 2024-26 | 2027-2035 마감 | N(정책) |
+| Palo Alto "What is Q-Day" | paloaltonetworks.com/cyberpedia/what-is-q-day | - | CRQC 약 5-15년, 무게 2030-35 | Y(시점) |
 | C2PA / RAND | c2pa.org; truescreen.io | 2021-25 | 소셜서 provenance 벗겨짐 | N |
 | CNN Arup 딥페이크 | cnn.com/2024/05/16 | 2024-05 | $25M 딥페이크 사기 | N |
 
@@ -218,7 +218,7 @@ alphaXiv MCP로 원문 열람; repo 자산 번들 저장은 안 함.
 
 **픽션 매핑(경계 절대):** White Hole Equilibrium·화이트홀-블랙홀 정보 순환·DM↔DE 상호작용·
 구조형성=정보증가는 **작중 사변**으로만. 실세계에선 (a) 바운스 유니터리성 미증명, (b) 우주상수
-"평형"은 미해결 위기이지 풀린 균형 아님, (c) 화이트홀 잔해 DM은 제약됨, (d) IDE의 "z≈1~2 왜"는
+"평형"은 미해결 위기이지 풀린 균형 아님, (c) 화이트홀 잔해 DM은 제약됨, (d) IDE의 "z≈1-2 왜"는
 열린 질문. 이 넷은 극적 긴장의 정당한 소재이되, **QFUDS 물리 support로 승격 금지**(roadmap·
 status 불변). Population III 최초별 → 금속 시딩 → 구조 형성 = 국소 복잡도(정보) 증가는 표준
 천체물리이나, "그것이 DM↔DE 상호작용의 원인"은 사용자도 명시한 미검증 후보 가설이다.

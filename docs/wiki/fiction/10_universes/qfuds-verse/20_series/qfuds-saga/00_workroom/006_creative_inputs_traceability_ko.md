@@ -51,7 +51,7 @@ Mara 자산**으로 보존한다. 025-027은 canonical **3부 author-loss 자산
 | **AI 기계 전용 언어·은닉 채널**(GLOSSOPETRAE) = 인간 확인 루프의 적 | bible [020 §5.7](../../../10_world/020_ai_automation_human_in_the_loop_ssot_ko.md) | 기계가 못 읽는 언어로 결정하면 인간 비준이 거수기로 전락. 필드마크=읽을 수 있어야 비준 원칙. 부정파 음모론 연료 |
 | **AI를 자본주의·거대 인프라·민주주의·노동·인지 문제까지 확장** | bible [009](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md), outline [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md), scene cards [013](../10_story_design/013_first_arc_scene_cards_ko.md) | AI는 챗봇/마법이 아니라 chip, cloud, data center, 전력·물·냉각, 반독점, 정보공간, 노동 재분류, 사유의 외주화로 장면 압력을 만든다 |
 | **AGI와 LLM 자율 인격 철학 논쟁** | bible [009 §0.7](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md), source bucket [009 §0.7.1](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md), outline [012](../10_story_design/012_first_arc_book1_outline_reboot_ko.md), scene cards [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 능력·자율성, 의식·도덕적 지위, 법적 인격·책임을 분리해 Last Archive/VERA/Mara 판례의 거울 논쟁으로 사용. Model welfare, self-report, authorship/inventorship, A-corp/legal-identity 논쟁은 009의 자료조사 에셋 버킷에서만 가져온다 |
-| **GSD 활용 + release 직전 사용자 확인** | production board [009](009_saga_production_board_ko.md), origin manuscript [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), release shelf [40_release](../40_release/README.md) | 장별 집필은 030 B1~B7 기준으로 진행 가능. `40_release/001_` active release 승격은 사용자 pre-release review와 확인 전 금지 |
+| **GSD 활용 + release 직전 사용자 확인** | production board [009](009_saga_production_board_ko.md), origin manuscript [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), release shelf [40_release](../40_release/README.md) | 장별 집필은 030 B1-B7 기준으로 진행 가능. `40_release/001_` active release 승격은 사용자 pre-release review와 확인 전 금지 |
 | **간지/실로비크/COD 취향** | 메모리(레포 밖, 취향 신호) | 인물 디자인 참고 |
 | **실제 프로즈** | `20_drafts`([1.5부/030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md) 사엘 origin, [1부/](../20_drafts/1부/README.md) 새 1부 「오르페우스」(035, 작성 중), [2부/029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md) 2부 Mara, [3부/](../20_drafts/3부/README.md) 3부 author-loss 025-027) | 번호 SSOT는 011 §10. 원고 번호·`arc_two` doc_id는 stable ID로 보존. 2026-06-21 cascade, 2026-06-30 사엘 origin 1부→1.5부 강등 |
 
@@ -67,13 +67,13 @@ in-world 사변 substrate로만 쓰고 QFUDS 연구 status·roadmap을 건드리
 
 | 작가가 준 것 | 담긴 문서 | 무엇에 적용 |
 | --- | --- | --- |
-| **근미래 세계관**(휴머노이드 로봇 → 노동의 종말 → 14 전문가 서브에이전트 예측, 현실적) | workroom [012](012_near_future_forecast_panel_method_ko.md) 방법, story_design 027 프렐류드(산출), anchors [013](013_real_world_and_physics_research_anchors_ko.md) | 2020s~2090s 활주로를 예측으로 채워 0부·026 Q-Day로 연결. 역량 A/B/C 분기 + patchwork |
+| **근미래 세계관**(휴머노이드 로봇 → 노동의 종말 → 14 전문가 서브에이전트 예측, 현실적) | workroom [012](012_near_future_forecast_panel_method_ko.md) 방법, story_design 027 프렐류드(산출), anchors [013](013_real_world_and_physics_research_anchors_ko.md) | 2020s-2090s 활주로를 예측으로 채워 0부·026 Q-Day로 연결. 역량 A/B/C 분기 + patchwork |
 | **"찝찝": 휴머노이드 어디까지?**(젠야타급 vs 제한적, 듄 버틀레리안 회피) | 012 §3 역량 분기, 013 A1 | 불확실성 자체를 엔진으로. A 제한적/B 젠야타급/C 롤백을 patchwork 지리에 배치 |
 | **새 고유명·조직·인물·대립구도 대량 브레인스토밍**(굵직/중요/국지/나비효과) | story_design 027(생성형 worldgen 산출) | candidate 대량 생성(030/031 방식), 기존 캐논으로 수렴, 6체크 승격 |
 | **신빙성 있는 외부 리서치**(중립 톤, 정치색 배제) | anchors [013](013_real_world_and_physics_research_anchors_ko.md) PART A | IFR·IMF·ILO·OECD·IEA·UN·NIST·C2PA·Arup 등. 범위·복수추정·contested 병기 |
 | **물리 사유**(정보 보존=유니터리≠실용복원, 창발 시공간·ER=EPR, 텔레포테이션=재구성, 시간화살=초기조건, 로런츠 근본 vs 창발, 우주상수 10^120) | anchors [013](013_real_world_and_physics_research_anchors_ko.md) PART B, bible [025](../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md), [006 It-from-bit](../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md) | in-world 물리 substrate. 복원=사본·유니터리 근거 강화. 주류/사변 격리 |
 | **White Hole Equilibrium 우주론**(화이트홀=우주, 블랙홀·진공떨림 평형, DM↔DE, 구조형성=정보증가) | anchors [013](013_real_world_and_physics_research_anchors_ko.md) B3(경계), literature/ 교차참조(barrau_2021·croker_2024·buchert_2007·figueruelo_2026) | 먼 미래 물리 substrate 후보로만. 바운스 유니터리 미증명·CC 미해결·화이트홀 잔해 DM 제약은 극적 긴장 소재. **QFUDS support 승격 금지** |
-| **DM↔DE interaction / DESI z≈1~2 "왜 그 시기"** | 이미 `docs/wiki/research/literature/`(실제 QFUDS 리서치) + 013 B3 | 사용자도 명시한 미검증 후보 가설. 픽션은 작중 사변으로만, roadmap·status 불변 |
+| **DM↔DE interaction / DESI z≈1-2 "왜 그 시기"** | 이미 `docs/wiki/research/literature/`(실제 QFUDS 리서치) + 013 B3 | 사용자도 명시한 미검증 후보 가설. 픽션은 작중 사변으로만, roadmap·status 불변 |
 | **성리학 이기론**(이=불변 원리/4단, 기=가변 기질/7정, 이황 이기호발 vs 기대승 기발이승일도, 이이) | **승격 완료:** [10_world/037 이기 이념 축](../../../10_world/037_yi_gi_ideology_axis_ko.md). 물림: [023](../00_bible/023_ideological_incoherence_triad_ko.md) 삼각·[026 §3.3](../../../10_world/026_qday_aftermath_timeline_and_world_ko.md) 진자·[025](../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md) 물리 | 이(理)=원본 실재·보존주의(므네모시네), 기(氣)=원본 부재·기질뿐·망각주의(레테). 이기호발 vs 기발이승일도 = "원본이 따로 발동하나 vs 읽기 하나뿐인가"가 025 "미리 존재하는 원본 없음"(마라의 두 읽기)과 정합. 새 세력 없이 기존 세력 성향으로 배분. 실존 학파 비대응(구조만 차용) |
 | **LLM = 압축된 인류·다중인격, alignment=어느 목소리에 행동권** | anchors 013 B, bible [009 §0.7](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md), [020](../../../10_world/020_ai_automation_human_in_the_loop_ssot_ko.md) | Aletheia 압축기·검증제국 기원 텍스처. 인간 확인 루프(어느 목소리가 비준하나)와 호응 |
 | **"역할몰입이 어른"·"믿기로 결심해 진짜가 됨"** | 주제 substrate: bible [022](../00_bible/022_authorship_of_the_standard_theme_axis_ko.md), [014](../00_bible/014_authorial_lenses_compression_ssot_soft_editing_ko.md) | 믿어지려는 욕망이 세력·계급의 뿌리. 정체성=합의로 유지되는 서사엔진 |
@@ -81,7 +81,7 @@ in-world 사변 substrate로만 쓰고 QFUDS 연구 status·roadmap을 건드리
 ## 한 줄 요약
 
 - **읽고 싶다** -> 현재 prototype과 legacy 경로는 `20_drafts/README`의 cascade banner를 따른다.
-- **새로 쓰려면(사엘 origin)** -> `20_drafts/1.5부/030`에서 B1~B7 순서로 이어 쓴다.
+- **새로 쓰려면(사엘 origin)** -> `20_drafts/1.5부/030`에서 B1-B7 순서로 이어 쓴다.
   구조 기준은 `10_story_design/016`, `017`, `019`. 새 1부 「오르페우스」(035)는
   `20_drafts/1부/`에서 별도 진행.
 - **설정 알고 싶다** -> `00_bible/`(010 인과 스파인, 016 인물부터).

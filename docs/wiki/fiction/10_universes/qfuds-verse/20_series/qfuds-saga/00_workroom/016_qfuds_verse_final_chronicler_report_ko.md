@@ -45,7 +45,7 @@ external source claim: no
 | class | 수 | 선반 |
 | --- | --- | --- |
 | canon | 32 | 00_continuity 6 · 10_world 16 · 00_bible 10 |
-| candidate | 10 | 10_world 8(030~035·037·038) · story_design 2(027·014) |
+| candidate | 10 | 10_world 8(030-035·037·038) · story_design 2(027·014) |
 | design | 20 | 10_story_design |
 | provenance | 24 | 00_workroom 15 · 40_release 2 · README·root 등 |
 | draft | 36 | 20_drafts |
@@ -95,7 +95,7 @@ in-scope 81(감사 고정 범위)의 문서별 path·doc_id·type·status·class
 
 | 클러스터 | 성격 | 판정 |
 | --- | --- | --- |
-| 캐릭터 012·016·019·024 | 012=Liora, 016=Voice·관계, 019=Arc, 024=좌표 SSOT | 의도된 layering. 019 Core Drive 20~30% 반복만 참조화(901 DRIFT-013) |
+| 캐릭터 012·016·019·024 | 012=Liora, 016=Voice·관계, 019=Arc, 024=좌표 SSOT | 의도된 layering. 019 Core Drive 20-30% 반복만 참조화(901 DRIFT-013) |
 | 026 ↔ 028 | 028이 026 부속(14도메인) | 중복 아님(부속) |
 | 008 9단서 ↔ 026 §4 떡밥 지도 | 반전 배치 vs 화자 회수 지도 | 상보(014 Ledger가 통합) |
 | 002 ↔ 036 | 002 딥타임 골격 ↔ 036 심층시간 확장 레이어 | 상보(036이 021>002 우선 선언) |
@@ -106,9 +106,9 @@ in-scope 81(감사 고정 범위)의 문서별 path·doc_id·type·status·class
 | # | 충돌 | 근거 위치 | 판정 |
 | --- | --- | --- | --- |
 | C1 | 시대 좌표 SSOT 본문이 "사엘(1부)" 표기 | `00_bible/024_..:108` "사엘(1부) ┄ 2부 청구 사건" | 현행 매핑 사엘=1.5부와 어긋남. SSOT 자체 라벨이라 **P1 최우선**. 단 포괄 의미인지 오기인지 **검증 필요** |
-| C2 | legacy "Arc Two" 부 라벨 | `00_bible/008_..:182~239` Arc Two Hook, `story_design/007_..:3·17·53` title·본문, `story_design/012_..:94`, `013_..:148` | 011 §remap과 정합하나 표기 legacy. P1 Chronicler Pass |
+| C2 | legacy "Arc Two" 부 라벨 | `00_bible/008_..:182-239` Arc Two Hook, `story_design/007_..:3·17·53` title·본문, `story_design/012_..:94`, `013_..:148` | 011 §remap과 정합하나 표기 legacy. P1 Chronicler Pass |
 | C3 | 폐기 어근 잔존 지명 | `00_bible/004_..:187` `Castra Tabularii`(원장 성채) | 015가 Domus Clavium 단일화. 지명 의도인지 **검증 필요**(P1) |
-| C4 | "복원=부활" 현대 gloss | `002_..:24~`, `005_..:24~` 배너, `021 §5` | **해소됨**: 038 원어 층 + 배너(901 D2). 충돌 아님 |
+| C4 | "복원=부활" 현대 gloss | `002_..:24-`, `005_..:24-` 배너, `021 §5` | **해소됨**: 038 원어 층 + 배너(901 D2). 충돌 아님 |
 
 물리·의미 충돌 시 025 > 021 > 026 > 003 > 015가 항상 이긴다(§2).
 
@@ -208,7 +208,7 @@ SSOT 대비 드리프트만 탐지(리라이트·승격 없음). 근거 경로·
 
 ### 9.3 분류 요약
 - **P0(릴리스 블로커): 0건.** 활성 산문·캐논은 현행 SSOT와 충돌 없음.
-- **P1: 경미.** AUD-2(3부 주석 Arc Two) + §5 C1~C3(in-scope, Chronicler Pass 대상).
+- **P1: 경미.** AUD-2(3부 주석 Arc Two) + §5 C1-C3(in-scope, Chronicler Pass 대상).
 - **P2: AUD-1**(프로토타입 House Tabularii)·§6(b)(c). 무해 legacy/provenance.
 - **archive-only: AUD-4.** 조치 불요(라벨로 완화됨).
 

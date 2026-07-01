@@ -42,7 +42,7 @@ fiction/provenance only, QFUDS 연구 증거 아님.
 | [024 새 1부 「오르페우스」 설계](024_new_book1_orpheus_design_ko.md) | 사별·복원 사본·돌아봄 축의 새 1부 설계 |
 | [025 사가 방향 전환 근미래 리센터](025_near_future_recenter_direction_ko.md) | 근미래 grounded SF로 무게중심 이동 |
 | [026 기계 화자 트리트먼트](026_machine_narrator_voice_and_setup_payoff_treatment_ko.md) | 기계 화자 보이스·복선·시대건너뛰기 구조 |
-| [027 근미래 프렐류드 대사전](027_near_future_prelude_forecast_ko.md) | 2020s~2090s 활주로 예측(로봇→노동 재분류→Q-Day), 신규 조직·인물·다층 타임라인 (candidate) |
+| [027 근미래 프렐류드 대사전](027_near_future_prelude_forecast_ko.md) | 2020s-2090s 활주로 예측(로봇→노동 재분류→Q-Day), 신규 조직·인물·다층 타임라인 (candidate) |
 | [028 레지스터 전환 오프닝·결말 옵션](028_register_morph_opening_and_ending_options_ko.md) | 판타지→하드SF 장르 지각 전환 오프닝 형식화 + 결말 3옵션(미정) (candidate/brainstorm) |
 
 ## 1.5부 사엘 origin

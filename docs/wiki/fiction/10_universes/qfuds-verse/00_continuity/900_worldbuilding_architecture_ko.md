@@ -49,9 +49,9 @@ external source claim: no
 | 문서 | 역할 | status |
 | --- | --- | --- |
 | [000 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) | 충돌 시 어느 문서가 이기나(제작 권위 루트) | draft |
-| [002 장기 복원 문명사 타임라인](002_deep_time_restoration_timeline_ko.md) | 0~9기 딥타임 연대기(연표 SSOT) | draft |
+| [002 장기 복원 문명사 타임라인](002_deep_time_restoration_timeline_ko.md) | 0-9기 딥타임 연대기(연표 SSOT) | draft |
 | [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 | draft |
-| [036 먼 미래 심층시간 연대기](036_far_future_deep_time_chronicle_ko.md) | 002 5~9기를 물리 시계에 건 심층시간 확장 | draft |
+| [036 먼 미래 심층시간 연대기](036_far_future_deep_time_chronicle_ko.md) | 002 5-9기를 물리 시계에 건 심층시간 확장 | draft |
 | [README 연속성 인덱스](README.md) | 선반 정책·SSOT 안내 | draft |
 
 ### 1.2 `10_world` · 공유 세계 캐논 (25, 038 포함)
@@ -155,7 +155,7 @@ external source claim: no
 | [024 새 1부 오르페우스 설계](024_new_book1_orpheus_design_ko.md) | 사별·복원 사본 축 1부 설계 | draft |
 | [025 근미래 리센터 방향](025_near_future_recenter_direction_ko.md) | 근미래 grounded SF 무게중심 | draft |
 | [026 기계 화자 트리트먼트](026_machine_narrator_voice_and_setup_payoff_treatment_ko.md) | 기계 화자 보이스·구조 | draft |
-| [027 근미래 프렐류드 대사전](027_near_future_prelude_forecast_ko.md) | 2020s~2090s 예측(candidate) | draft |
+| [027 근미래 프렐류드 대사전](027_near_future_prelude_forecast_ko.md) | 2020s-2090s 예측(candidate) | draft |
 | [README story_design 인덱스](README.md) | 선반 지도 | draft |
 
 ### 1.6 `40_release` + 루트 (4)
@@ -194,11 +194,11 @@ SSOT는 [024 캐릭터 지도](../20_series/qfuds-saga/00_bible/024_character_ma
 | `00_continuity` | 캐논 권위·연표 SSOT | 000 권위, 002 딥타임, 011 복원행정, 036 먼미래 |
 | `10_world` (물리·암호) | 정보·유니터리·복원·암호 붕괴 | 025·021·010·013·007·005·017·001·018 |
 | `10_world` (세력·제도) | 세력·문명사·이념·제도 | 003·037·015·006·020·026·028·009 |
-| `10_world` (확장) | universe 공유 대사전(candidate) | 030~035 웨이브 |
+| `10_world` (확장) | universe 공유 대사전(candidate) | 030-035 웨이브 |
 | `00_bible` (캐릭터) | 인물 SSOT | 012·016·019·024 |
 | `00_bible` (주제) | 사상·주제·화자 축 | 004·014·022·023·027 |
 | `00_workroom` | 생산 도구·방법·게이트 | 009 보드·005 하네스·011·012·013 |
-| `10_story_design` | 아웃라인·리빌·씬 카드 | 011 아크지도·015 질문·016~022 origin |
+| `10_story_design` | 아웃라인·리빌·씬 카드 | 011 아크지도·015 질문·016-022 origin |
 | `40_release` | 릴리스 매니페스트 | 900 |
 
 원칙: 세계 사실은 `10_world`/`00_bible`, 브레인스토밍은 `10_story_design`, 생산 절차는
@@ -317,7 +317,7 @@ graph TD
 3. **세력·제도:** 003 세력 → 015 명칭 → 020 인간 확인 루프 → 026·028 Q-Day 여파 →
    037 이기 형이상학 축.
 4. **series bible:** 004 규칙 → 012·016·019·024 캐릭터 → 022·023·014·027 주제·화자.
-5. **story_design:** 011 아크 지도 → 015 질문 스파인 → 016~022 origin → 024~027 근미래 축.
+5. **story_design:** 011 아크 지도 → 015 질문 스파인 → 016-022 origin → 024-027 근미래 축.
 
 ## 6. 용어 글로서리 정규화 포인터
 

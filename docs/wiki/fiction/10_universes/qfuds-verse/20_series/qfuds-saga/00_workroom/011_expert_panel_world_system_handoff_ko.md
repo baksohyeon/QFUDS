@@ -42,7 +42,7 @@ workflow: Fiction IP Management + Agentic Fiction Production
 이 작업은 **기존 캐논을 14도메인 렌즈로 재절개(re-slice)하는 확장 레이어**로 잡는다.
 
 - 026 Q-Day 여파 타임라인은 이미 **7인 패널**(거시경제·비교정치·국제관계·군사안보·
-  문화미디어·죽음철학·장기지속)이 설계하고 현실성 검수(#1~#14)가 인프라·의료·난민·
+  문화미디어·죽음철학·장기지속)이 설계하고 현실성 검수(#1-#14)가 인프라·의료·난민·
   연금·핵동역학까지 2차효과로 채운 정합 레이어다. 14도메인 대부분은 이 7렌즈와
   14개 검수 항목의 **더 촘촘한 재절개**이지 신규 전제가 아니다.
 - 작가가 "가장 중요한 추가 축"으로 지목한 **정보·기록·검증 체계**는 이미 캐논의
@@ -62,7 +62,7 @@ workflow: Fiction IP Management + Agentic Fiction Production
 | --- | --- | --- |
 | 1 | [021 복원 메커니즘 정정](../../../10_world/021_restoration_mechanism_correction_ko.md) | 복원=사본(부활 아님). 열역학 제2법칙 절대 |
 | 2 | [026 Q-Day 여파 타임라인·세계](../../../10_world/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 인과 사슬·세계 설정의 정합 레이어(7패널 종합) |
-| 2 | [002 딥타임 복원 타임라인](../../../00_continuity/002_deep_time_restoration_timeline_ko.md) | 0~9기 시대 골격. Q-Day 직후 구간은 026이 채움 |
+| 2 | [002 딥타임 복원 타임라인](../../../00_continuity/002_deep_time_restoration_timeline_ko.md) | 0-9기 시대 골격. Q-Day 직후 구간은 026이 채움 |
 | 2 | [011 아크 지도](../10_story_design/011_saga_arc_map_multiarc_ko.md) | 연표·복원 행정·해상도 계급 |
 | 3 | [007 암호학적 죽음과 해시 성약](../../../10_world/007_cryptographic_death_and_hash_covenant_ko.md) | Hash Covenant·Preimage Restoration·기관 기능 |
 | 3 | [013 대격변·암호 개념 상세](../../../10_world/013_cryptographic_death_era_and_crypto_concepts_ko.md) | era 전개 + 용어 사전. warlord 트로프 금지(D1) |

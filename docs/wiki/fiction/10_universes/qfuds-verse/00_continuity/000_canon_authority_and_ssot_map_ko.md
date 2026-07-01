@@ -40,7 +40,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | 세력·기관 고유명(라틴명 등) | [015](../10_world/015_factions_canon_naming_ko.md) | 장부 가문 = **Domus Clavium**(Tabularii/Registri 폐기) |
 | 인과·기원(무엇이 진짜였나) | [010](../10_world/010_last_archive_origin_and_reversal_causality_ko.md) | 002·006 AGI-Archive 모순은 010이 해소 |
 | 연표·복원 행정 | [011](011_chronology_restoration_admin_black_hole_seat_ko.md) | |
-| 심층시간(5~9기, 수만~수억 년) | [002](002_deep_time_restoration_timeline_ko.md) 골격 SSOT + [036](036_far_future_deep_time_chronicle_ko.md) 확장 레이어 | 036은 002를 물리 시계에 건 확장. 충돌 시 021>002/011/025>036 |
+| 심층시간(5-9기, 수만-수억 년) | [002](002_deep_time_restoration_timeline_ko.md) 골격 SSOT + [036](036_far_future_deep_time_chronicle_ko.md) 확장 레이어 | 036은 002를 물리 시계에 건 확장. 충돌 시 021>002/011/025>036 |
 | Q-Day 여파 세계-체계 | [026](../10_world/026_qday_aftermath_timeline_and_world_ko.md) | 부속 14도메인 매트릭스·인과 인덱스=[028](../10_world/028_qday_world_system_14domain_matrix_ko.md)(026이 SSOT) |
 | 세력 생태·권력 | [003](../10_world/003_factions_cultures_power_ecology_ko.md) | 명칭은 015 우선 |
 | 비트코인 위상·이념 | [017](../10_world/017_bitcoin_stature_ideology_deeptime_ko.md) | 신화 소재=005, 암호 개념=013 |
