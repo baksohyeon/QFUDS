@@ -44,8 +44,8 @@ external source claim: no
 ### 1.1 로컬 정독 루프에서 추가된 드리프트 (루프 2~4, 2026-07-01)
 
 정독 진행률: 00_continuity 완료 · 10_world 완료 · 00_bible 완료 · 00_workroom 완료 ·
-**남은 범위 = 10_story_design, 40_release**(루프 5). 루프 2~4가 아래를 추가 확인했고,
-D1~D5와 겹치는 항목은 위 표에서 상태로 반영했다.
+10_story_design **전반부(002~018) 완료, 후반부(019~027) 진행 중** · 40_release 남음(루프 5).
+루프 2~5가 아래를 추가 확인했고, D1~D5와 겹치는 항목은 위 표에서 상태로 반영했다.
 
 | # | 드리프트 | 관련 문서 | 처리 |
 | --- | --- | --- | --- |
@@ -60,7 +60,10 @@ D1~D5와 겹치는 항목은 위 표에서 상태로 반영했다.
 | DRIFT-013 | 019 Arc Sheet가 012·016 Core Drive 일부 반복(중복률 20~30%) | 012·016·019 | D3/DRIFT-010 정련. 019는 Arc 변화가 본령이므로 반복 Core Drive는 "012·019 참조"로 축약 가능(의도된 layering 훼손 없이) |
 | DRIFT-014 | workroom 일부가 legacy 번호 체계 유지 | 004·006·007 | 004 "2부"=새 체계 3부, 007 029=legacy sprint. workroom은 provenance라 삭제 대신 "legacy/reference" 라벨 유지, 실제 실행은 production board(009) 기준 |
 | DRIFT-015 | 운영 선반이 release/revision 링크 다수 참조 | 003·004·005·007 | 30_revisions·20_drafts는 범위 밖이나 workroom이 자주 참조. 링크는 허용, 완독 범위에선 참조만 기록(release 판단 별 루프) |
-| DRIFT-016 | **Truth-State Ledger가 빈 모듈(TBD)** | 008 | 008이 필요 모듈로 명시했으나 표가 TBD. 다음 리팩터 상위(§6 P1). 장별 "인물이 아는 것 / 독자가 아는 것 / 세계가 확정한 것 / 열린 모순" 표 실제 문서화 필요 |
+| DRIFT-016 | Truth-State Ledger가 빈 모듈(TBD) | 008 | **해소 착수(2026-07-01).** workroom 014로 초안 작성: 부 단위 원장 + 1.5부 B1~B7 비트 + 떡밥 회수 원장 + 5대 질문 축. 남은 부(0부 세부·2부 마라·3부)는 story_design 완독 뒤 채움 |
+| DRIFT-017 | 10_story_design 내부 번호 체계 혼재 | 007·009·010·011·012·016 | 새 구조는 024 기준인데 일부 제목·본문이 legacy "1부/2부/Arc Two" 유지. 실행 기준=011 §10+024. stable ID 정책상 제목 보류 가능하나 상단 경고 유지. Chronicler Pass 대상 |
+| DRIFT-018 | 012/013 Mara reboot vs 016/017 Sael origin 병렬성 | 012·013·016·017 | 둘 다 "1부" 계열로 보이나 현 구조에선 사엘=1.5부/별도 origin, Mara=2부 자산. README·009 board에서 진입 경로 계속 강제 |
+| DRIFT-019 | story_design brainstorm의 승격 위험 | 014·027 | 014 sovereign-AI 축·027 프렐류드는 brainstorm/candidate. 선택된 씨앗만 bible 승격. candidate/brainstorm 라벨 유지(DRIFT-005와 동류) |
 
 ## 2. Deprecated / 구프레임
 
@@ -129,7 +132,7 @@ canon으로 올리고 이 원장에 기록한다.
   | Chronicler Pass | 개념 있음·미집행 | §6 P1(본문 라벨 이관) |
   | Review Wave Protocol | 부분 | 005 하네스 |
   | QFUDS Style Packet | 부분 | 003 글로서리·스타일 가드 |
-  | **Truth-State Ledger** | **빈 모듈(TBD)** | 미작성(DRIFT-016) |
+  | **Truth-State Ledger** | **초안 작성됨** | workroom 014(2026-07-01, DRIFT-016 해소착수) |
 
 - **Migration compatibility layer(최대 부채, DRIFT-011):** 리센터는 본문을 이관한 게 아니라
   다수 문서(008·012·016·019 등) 상단 20줄 disclaimer로 옛 구조를 막아 두었다. 배너는 안전판

@@ -39,6 +39,9 @@ authoring baseline: 2026-06-30. fiction/provenance only, QFUDS 연구 증거 아
 | [009 Production Board](009_saga_production_board_ko.md) | **오늘 작업판.** 상태·다음 행동·검증 로그 |
 | [010 Chapter Intent Card Template](010_chapter_intent_card_template_ko.md) | 챕터/장면 진입 의도 카드 양식 |
 | [011 전문가 패널 세계-체계 인계 브리프](011_expert_panel_world_system_handoff_ko.md) | 14도메인 확장 프레이밍·게이트·읽기 순서 (provenance; 스펙은 bible 028로 승격) |
+| [012 근미래 예측 패널 방법](012_near_future_forecast_panel_method_ko.md) | 근미래 예측 멀티에이전트 방법·역량 분기 규칙 |
+| [013 실세계·물리 리서치 앵커 대장](013_real_world_and_physics_research_anchors_ko.md) | 핍진성 닻(실세계·물리 중립 리서치 앵커) |
+| [014 Truth-State Ledger](014_truth_state_ledger_ko.md) | 장별 인물·독자·세계 지식 상태 원장 (008 6모듈 중 빈 모듈 채움) |
 
 ## Boundary
 
