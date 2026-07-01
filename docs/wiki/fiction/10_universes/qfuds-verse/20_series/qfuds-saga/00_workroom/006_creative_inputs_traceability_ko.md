@@ -60,6 +60,24 @@ Mara 자산**으로 보존한다. 025-027은 canonical **3부 author-loss 자산
 | **소버린 AI·오픈/봉쇄 축**(데이터 주권, 자국 모델, 오픈소스 vs 폐쇄·수출통제, 모델 통제권) | story_design [014](../10_story_design/014_sovereign_ai_open_closed_axis_brainstorm_ko.md) | 비트코인 개방/포획(017)·기준 작성권(022)·기계어 분절(020 §5.7)을 묶는 상위 프레임. brainstorm 단계, 선택 씨앗만 bible 승격. 현실 기술정책은 추상 역학으로만, 실명 finger-pointing 제외 |
 | **외부 AI 소설·웹소설 시스템 참고**(AI-Novel-Writing-Assistant, InkOS, Creative Writing Skills, fiction-forge, Novel-OS, Vela, Knowrite 등) | workroom [008](008_external_ai_writing_systems_gap_audit_ko.md) | 외부 앱 설치가 아니라 구조 패턴만 감사. QFUDS에는 production board, chapter intent card, chronicler pass, review wave, style packet, truth-state ledger를 로컬 하네스로 흡수하는 방향 |
 
+## 2026-07-01 근미래 확장·리서치·물리 사유 덤프
+
+작가가 한꺼번에 던진 근미래·물리·철학 레퍼런스를 어디에 넣었는지 추적한다. 물리 사유는
+in-world 사변 substrate로만 쓰고 QFUDS 연구 status·roadmap을 건드리지 않는다(경계 절대).
+
+| 작가가 준 것 | 담긴 문서 | 무엇에 적용 |
+| --- | --- | --- |
+| **근미래 세계관**(휴머노이드 로봇 → 노동의 종말 → 14 전문가 서브에이전트 예측, 현실적) | workroom [012](012_near_future_forecast_panel_method_ko.md) 방법, story_design 027 프렐류드(산출), anchors [013](013_real_world_and_physics_research_anchors_ko.md) | 2020s~2090s 활주로를 예측으로 채워 0부·026 Q-Day로 연결. 역량 A/B/C 분기 + patchwork |
+| **"찝찝": 휴머노이드 어디까지?**(젠야타급 vs 제한적, 듄 버틀레리안 회피) | 012 §3 역량 분기, 013 A1 | 불확실성 자체를 엔진으로. A 제한적/B 젠야타급/C 롤백을 patchwork 지리에 배치 |
+| **새 고유명·조직·인물·대립구도 대량 브레인스토밍**(굵직/중요/국지/나비효과) | story_design 027(생성형 worldgen 산출) | candidate 대량 생성(030/031 방식), 기존 캐논으로 수렴, 6체크 승격 |
+| **신빙성 있는 외부 리서치**(중립 톤, 정치색 배제) | anchors [013](013_real_world_and_physics_research_anchors_ko.md) PART A | IFR·IMF·ILO·OECD·IEA·UN·NIST·C2PA·Arup 등. 범위·복수추정·contested 병기 |
+| **물리 사유**(정보 보존=유니터리≠실용복원, 창발 시공간·ER=EPR, 텔레포테이션=재구성, 시간화살=초기조건, 로런츠 근본 vs 창발, 우주상수 10^120) | anchors [013](013_real_world_and_physics_research_anchors_ko.md) PART B, bible [025](../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md), [006 It-from-bit](../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md) | in-world 물리 substrate. 복원=사본·유니터리 근거 강화. 주류/사변 격리 |
+| **White Hole Equilibrium 우주론**(화이트홀=우주, 블랙홀·진공떨림 평형, DM↔DE, 구조형성=정보증가) | anchors [013](013_real_world_and_physics_research_anchors_ko.md) B3(경계), literature/ 교차참조(barrau_2021·croker_2024·buchert_2007·figueruelo_2026) | 먼 미래 물리 substrate 후보로만. 바운스 유니터리 미증명·CC 미해결·화이트홀 잔해 DM 제약은 극적 긴장 소재. **QFUDS support 승격 금지** |
+| **DM↔DE interaction / DESI z≈1~2 "왜 그 시기"** | 이미 `docs/wiki/research/literature/`(실제 QFUDS 리서치) + 013 B3 | 사용자도 명시한 미검증 후보 가설. 픽션은 작중 사변으로만, roadmap·status 불변 |
+| **성리학 이기론**(이=불변 원리/4단, 기=가변 기질/7정, 이황 이기호발 vs 기대승 기발이승일도, 이이) | 이념 층 매핑 후보: bible [023](../00_bible/023_ideological_incoherence_triad_ko.md) 삼각·[026 §3.3](../../../10_world/026_qday_aftermath_timeline_and_world_ko.md) 므네모시네/레테 진자 | 이(理)=진짜·원본·보존주의, 기(氣)=사본·해상도·변화·망각주의. "원본이 따로 발동하나 vs 읽기 하나뿐인가"가 025 "미리 존재하는 원본 없음"과 호응. 동양철학 분파로 승격 검토(candidate) |
+| **LLM = 압축된 인류·다중인격, alignment=어느 목소리에 행동권** | anchors 013 B, bible [009 §0.7](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md), [020](../../../10_world/020_ai_automation_human_in_the_loop_ssot_ko.md) | Aletheia 압축기·검증제국 기원 텍스처. 인간 확인 루프(어느 목소리가 비준하나)와 호응 |
+| **"역할몰입이 어른"·"믿기로 결심해 진짜가 됨"** | 주제 substrate: bible [022](../00_bible/022_authorship_of_the_standard_theme_axis_ko.md), [014](../00_bible/014_authorial_lenses_compression_ssot_soft_editing_ko.md) | 믿어지려는 욕망이 세력·계급의 뿌리. 정체성=합의로 유지되는 서사엔진 |
+
 ## 한 줄 요약
 
 - **읽고 싶다** -> 현재 prototype과 legacy 경로는 `20_drafts/README`의 cascade banner를 따른다.
