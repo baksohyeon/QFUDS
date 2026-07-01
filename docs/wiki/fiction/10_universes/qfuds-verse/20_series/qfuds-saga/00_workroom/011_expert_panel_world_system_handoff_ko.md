@@ -24,7 +24,7 @@ last_updated: 2026-07-01
 
 > **승격 완료(2026-07-01, 경로 A):** 실제 14도메인 상세 스펙과 인과 매트릭스는 사용자
 > 승인으로 bible로 승격됐다 →
-> [028 Q-Day 여파 14도메인 매트릭스](../00_bible/028_qday_world_system_14domain_matrix_ko.md)
+> [028 Q-Day 여파 14도메인 매트릭스](../../../10_world/028_qday_world_system_14domain_matrix_ko.md)
 > (026 부속, 026이 SSOT). 이 브리프(011)는 이제 **작업 provenance**로 보존한다.
 > 프레이밍·게이트·읽기 순서를 맡는다.
 
@@ -60,16 +60,16 @@ workflow: Fiction IP Management + Agentic Fiction Production
 
 | 우선순위 | 문서 | 무엇을 고정하나 |
 | --- | --- | --- |
-| 1 | [021 복원 메커니즘 정정](../00_bible/021_restoration_mechanism_correction_ko.md) | 복원=사본(부활 아님). 열역학 제2법칙 절대 |
-| 2 | [026 Q-Day 여파 타임라인·세계](../00_bible/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 인과 사슬·세계 설정의 정합 레이어(7패널 종합) |
-| 2 | [002 딥타임 복원 타임라인](../00_bible/002_deep_time_restoration_timeline_ko.md) | 0~9기 시대 골격. Q-Day 직후 구간은 026이 채움 |
+| 1 | [021 복원 메커니즘 정정](../../../10_world/021_restoration_mechanism_correction_ko.md) | 복원=사본(부활 아님). 열역학 제2법칙 절대 |
+| 2 | [026 Q-Day 여파 타임라인·세계](../../../10_world/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 인과 사슬·세계 설정의 정합 레이어(7패널 종합) |
+| 2 | [002 딥타임 복원 타임라인](../../../00_continuity/002_deep_time_restoration_timeline_ko.md) | 0~9기 시대 골격. Q-Day 직후 구간은 026이 채움 |
 | 2 | [011 아크 지도](../10_story_design/011_saga_arc_map_multiarc_ko.md) | 연표·복원 행정·해상도 계급 |
-| 3 | [007 암호학적 죽음과 해시 성약](../00_bible/007_cryptographic_death_and_hash_covenant_ko.md) | Hash Covenant·Preimage Restoration·기관 기능 |
-| 3 | [013 대격변·암호 개념 상세](../00_bible/013_cryptographic_death_era_and_crypto_concepts_ko.md) | era 전개 + 용어 사전. warlord 트로프 금지(D1) |
-| 3 | [003 세력·문화·권력·생태](../00_bible/003_factions_cultures_power_ecology_ko.md) | 8세력 생활권·이념·생태계 |
-| 3 | [015 세력 명칭 Canon 확정](../00_bible/015_factions_canon_naming_ko.md) | 고유명사 SSOT |
+| 3 | [007 암호학적 죽음과 해시 성약](../../../10_world/007_cryptographic_death_and_hash_covenant_ko.md) | Hash Covenant·Preimage Restoration·기관 기능 |
+| 3 | [013 대격변·암호 개념 상세](../../../10_world/013_cryptographic_death_era_and_crypto_concepts_ko.md) | era 전개 + 용어 사전. warlord 트로프 금지(D1) |
+| 3 | [003 세력·문화·권력·생태](../../../10_world/003_factions_cultures_power_ecology_ko.md) | 8세력 생활권·이념·생태계 |
+| 3 | [015 세력 명칭 Canon 확정](../../../10_world/015_factions_canon_naming_ko.md) | 고유명사 SSOT |
 | 4 | [024 캐릭터 지도·시대 좌표](../00_bible/024_character_map_and_timeline_coordinates_ko.md) | 시대 좌표 SSOT. 인물 생성 금지 |
-| 4 | [025 in-world 물리](../00_bible/025_in_world_physics_information_unitarity_restoration_ko.md) | "진짜 복원"은 금지·미입증·논쟁 이론 |
+| 4 | [025 in-world 물리](../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md) | "진짜 복원"은 금지·미입증·논쟁 이론 |
 
 ## 하드 제약 (Harness + 026 §0 상속, 위반 금지)
 

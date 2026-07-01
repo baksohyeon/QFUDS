@@ -21,8 +21,8 @@ last_updated: 2026-06-30
 이 문서는 새 1부 **「오르페우스」**의 풀길이 소설본이다. 현 1부(사엘)는 1.5부로
 내리고, 그 자리에 **세계를 설명 전에 느끼게 하는 인간 입구**를 둔다. 설계는
 [10_story_design/024 오르페우스 설계](../../10_story_design/024_new_book1_orpheus_design_ko.md),
-세계 여파는 [00_bible/026 Q-Day 여파](../../00_bible/026_qday_aftermath_timeline_and_world_ko.md),
-소설 내부 물리는 [00_bible/025](../../00_bible/025_in_world_physics_information_unitarity_restoration_ko.md)에서 상속한다.
+세계 여파는 [00_bible/026 Q-Day 여파](../../../../10_world/026_qday_aftermath_timeline_and_world_ko.md),
+소설 내부 물리는 [00_bible/025](../../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md)에서 상속한다.
 
 fiction/provenance only. QFUDS 연구 증거, 투자·법률·암호·물리 조언이 아니다. 실제
 지정학·시장 차용은 핍진성을 위한 픽션이며 예측·주장이 아니다. 새 외부 source claim 없음.

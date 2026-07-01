@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_first_arc_book1_reboot_korean_primary
   - qfuds_saga_series_production_harness_ko
 next_gate: reference only; 029 is canonical 2부 Mara asset under 011 §10 and active origin drafting continues in 030
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 1부 Book 1 GSD Phase Brief
@@ -151,7 +151,7 @@ Forbidden outputs:
 이 brief는 새 외부 source table을 직접 보유하지 않는다. Bitcoin/digital-asset
 상속·세무·custodial account·fiduciary access, AI infrastructure, AGI, LLM
 autonomy/personhood/model-welfare 논쟁에 관한 현실 앵커와 workflow state는
-[009 reader accessibility and real-world anchors](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)가
+[009 reader accessibility and real-world anchors](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md)가
 SSOT다. 이 brief와 029는 그 교정만 상속한다.
 
 ## SAGA-Grade Draft Standard
@@ -257,9 +257,9 @@ be lost.
 - [013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)
 - [030 active origin manuscript](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md) (1.5부 사엘 origin; 1부→1.5부 강등 2026-06-30)
 - [029 Mara reboot asset](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md) (canonical 2부 after 011 §10)
-- [Reader accessibility and real-world anchors](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
-- [Last Archive origin and reversal causality](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)
-- [Bitcoin stature / ideology / deep-time](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md)
+- [Reader accessibility and real-world anchors](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md)
+- [Last Archive origin and reversal causality](../../../10_world/010_last_archive_origin_and_reversal_causality_ko.md)
+- [Bitcoin stature / ideology / deep-time](../../../10_world/017_bitcoin_stature_ideology_deeptime_ko.md)
 - [Character ensemble voices](../00_bible/016_character_ensemble_voices_relationships_ko.md)
 
 ## Acceptance Criteria

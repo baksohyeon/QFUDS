@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - qfuds_saga_world_direction_matrix_ko
 next_gate: use as faction culture/ecology reference; formal names are fixed by 015
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 세력 문화 권력 생태계 장부
@@ -522,5 +522,5 @@ active canon으로 유지할 항목:
 - 첫 사건: 복원체의 "나는 다음 우주에서 먼저 깨어났다" 증언.
 
 시점, 중심 주제, 고유명사 체계는
-[QFUDS SAGA 시점 주제 고유명사 규칙](004_narrative_pov_theme_naming_ko.md)과
+[QFUDS SAGA 시점 주제 고유명사 규칙](../20_series/qfuds-saga/00_bible/004_narrative_pov_theme_naming_ko.md)과
 [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md)이 고정한다.

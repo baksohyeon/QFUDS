@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_world_anchor_and_verisimilitude_ko
 next_gate: thread the deliberate human-in-the-loop + analog court into prose as design, not antique residue
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA AI·자동화·인간 확인 루프·아날로그 법정

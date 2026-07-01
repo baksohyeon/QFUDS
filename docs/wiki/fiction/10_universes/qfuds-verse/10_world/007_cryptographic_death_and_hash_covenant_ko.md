@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
 next_gate: use as science-auditor reference before cryptographic-death prose scenes
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 암호학적 죽음과 해시 계약
@@ -34,7 +34,7 @@ source bundle, cached asset, extraction product, source-product availability
 claim을 만들지 않는다.
 
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)
 가 계속 지배한다.
 
 현재 workflow state:

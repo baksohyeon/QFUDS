@@ -24,7 +24,7 @@ last_updated: 2026-07-01
 충돌하면 026이 우선하고, 도메인 상세는 각 권위 bible(021·002·011·007·013·003·015·
 024·025)이 우선한다.
 
-작업 provenance는 [워크룸 011 인계 브리프](../00_workroom/011_expert_panel_world_system_handoff_ko.md)가
+작업 provenance는 [워크룸 011 인계 브리프](../20_series/qfuds-saga/00_workroom/011_expert_panel_world_system_handoff_ko.md)가
 보유한다. 각 도메인은 "무엇이 무너졌나"보다 **"무너진 뒤 무엇이 새 권력이 되었나"**를
 축으로 기존 캐논 세력·개념어에만 물린다.
 

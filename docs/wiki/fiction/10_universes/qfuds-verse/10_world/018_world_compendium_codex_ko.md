@@ -31,7 +31,7 @@ bible을 한곳에서 훑고, 더 깊이는 각 항목의 링크로 들어간다
 
 지구(딥페이크로 현실이 죽은 시대, The Soft Editing) → 달(첫 궤도 산업·데이터 단지)
 → 화성(부자 먼저 이주, 계급의 고착) → 은하(수천 년 확산). 계급은 우주로 퍼지며
-굳었다. 상세: [002 타임라인](002_deep_time_restoration_timeline_ko.md),
+굳었다. 상세: [002 타임라인](../00_continuity/002_deep_time_restoration_timeline_ko.md),
 [010 §1 문명 규모](010_last_archive_origin_and_reversal_causality_ko.md).
 
 ## 2. 복원은 어떻게 작동하나
@@ -97,7 +97,7 @@ AI와 자동화는 도처에 있다(Last Archive=궁극의 계산체, 복원 엔
 법원이 한 편에 하나씩 남기는 영문 판례 문구의 사슬:
 RECOVERABLE / NOT CLAIMABLE → ACCESS != AUTHORITY → NO CONSENT BY ANALOGY →
 PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss.
-상세: [008 첫 arc canon](008_first_arc_canon_consolidation_ko.md).
+상세: [008 첫 arc canon](../20_series/qfuds-saga/00_bible/008_first_arc_canon_consolidation_ko.md).
 
 ## 7. 핵심 인물
 
@@ -112,8 +112,8 @@ PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss
 | Ione | Aletheia Veil의 양심 |
 | Pell Anson | 장부 가문 중개인 |
 
-상세: [012 Liora](012_character_liora_sen_ko.md),
-[016 앙상블](016_character_ensemble_voices_relationships_ko.md).
+상세: [012 Liora](../20_series/qfuds-saga/00_bible/012_character_liora_sen_ko.md),
+[016 앙상블](../20_series/qfuds-saga/00_bible/016_character_ensemble_voices_relationships_ko.md).
 
 ## 8. SAGA 아크 지도
 
@@ -128,8 +128,8 @@ PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss
   비트코인 삼분파의 패권 전쟁, Vera↔Mara 거울의 회수. 관통 질문: "무엇이 진짜였는지
   정하는 권력은 누구의 것인가."
 
-상세 형식·관통선: [009 형식·throughline](../10_story_design/009_format_throughline_and_progress_ko.md),
-[008 반전 설계](../10_story_design/008_last_archive_reveal_architecture_ko.md).
+상세 형식·관통선: [009 형식·throughline](../20_series/qfuds-saga/10_story_design/009_format_throughline_and_progress_ko.md),
+[008 반전 설계](../20_series/qfuds-saga/10_story_design/008_last_archive_reveal_architecture_ko.md).
 
 ## 9. 차용 원칙 (2단)
 

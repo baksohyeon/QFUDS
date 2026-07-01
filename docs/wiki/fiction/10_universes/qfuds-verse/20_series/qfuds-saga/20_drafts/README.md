@@ -79,6 +79,6 @@ Mara 직전 세대(prototype, v3 스냅샷)는 2부로 함께 이동해
 ## 규칙 (상속)
 
 em dash 0(한·영), "박-" 슬랭 동사 금지, 민감 주제 0, 표식=mark, 기술·역사는
-[009 §2.5 검증 대장](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)
+[009 §2.5 검증 대장](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md)
 기준. 현재 active release build는 없으며, release 상태는
 [40_release](../40_release/README.md)가 관리한다.

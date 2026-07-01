@@ -65,7 +65,7 @@ not_extractable
 ## Harness Applied
 
 - Korean-primary sequence:
-  [한국어 우선 이중언어 프로토콜](../../00_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md).
+  [한국어 우선 이중언어 프로토콜](../../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md).
 - Book outline SSOT:
   [012 first-arc Book 1 outline](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md).
 - GSD phase brief:

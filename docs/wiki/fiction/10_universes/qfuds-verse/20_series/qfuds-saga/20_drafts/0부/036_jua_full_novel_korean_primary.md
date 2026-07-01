@@ -24,7 +24,7 @@ last_updated: 2026-06-30
 보존(안 지움).
 
 fiction/provenance only. QFUDS 연구 증거 아님. 실제 2026 차용 OK(018 §9), 현직
-정치인·당파 고정 금지. 소설 내부 물리는 [00_bible/025](../../00_bible/025_in_world_physics_information_unitarity_restoration_ko.md).
+정치인·당파 고정 금지. 소설 내부 물리는 [00_bible/025](../../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md).
 
 ## Harness Applied
 

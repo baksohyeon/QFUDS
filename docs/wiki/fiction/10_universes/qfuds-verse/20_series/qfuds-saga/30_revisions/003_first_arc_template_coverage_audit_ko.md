@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
 next_gate: apply template coverage checks to 029 first-arc reboot manuscript as chapters are drafted
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 1부 전역 템플릿 커버리지 감사
@@ -74,7 +74,7 @@ prototype 기준의 비대칭은 retro pass로 닫혔다.
 | Dimension | Bible says | Draft/release shows | Match? | Action |
 | --- | --- | --- | --- | --- |
 | Timeline / era placement | deep-time restoration civilization, Continuity Court era | 019-024가 Waiting City, Continuity Court, Genesis Chain afterlife를 사용 | yes | 없음 |
-| Factions & institutions | Bureau Laurien/Laur, Continuity Court, Ledger Houses, Aletheia, Last Archive | 1부 전체에서 반복 등장 | yes | 세력명은 [015](../00_bible/015_factions_canon_naming_ko.md) 유지 |
+| Factions & institutions | Bureau Laurien/Laur, Continuity Court, Ledger Houses, Aletheia, Last Archive | 1부 전체에서 반복 등장 | yes | 세력명은 [015](../../../10_world/015_factions_canon_naming_ko.md) 유지 |
 | Naming / proper nouns | 고유명·필드 마크는 영어 유지, 일반명사는 한국어 우선 | 019-024 Korean primary와 pre-reboot release manifest가 이 규칙을 기록 | yes | 신규 용어 추가 시 glossary 갱신 |
 | Technology limits & forbidden claims | Bitcoin/QFUDS/black-hole terms are fiction premise only | release boundary와 draft boundary가 연구 evidence 금지 명시 | yes | 유지 |
 | Character knowledge state | Liora limited POV, Last Archive no direct inner POV | prototype 1-6편과 029 prologue gate에 명시 | yes for current scope | 029 Chapter 1 이후 장별 continuity ledger에서 재점검 |

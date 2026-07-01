@@ -88,7 +88,7 @@ last_updated: 2026-07-01
 
 - **유지·재조정**: [024 character map](../00_bible/024_character_map_and_timeline_coordinates_ko.md),
   [011 arc map](011_saga_arc_map_multiarc_ko.md),
-  [026 Q-Day 여파](../00_bible/026_qday_aftermath_timeline_and_world_ko.md)는 폐기하지
+  [026 Q-Day 여파](../../../10_world/026_qday_aftermath_timeline_and_world_ko.md)는 폐기하지
   않는다. 다만 "먼 미래가 중심"이라는 전제를 "근미래가 무대, 먼 미래는 도달점"으로
   점진적으로 재조정한다. 한 번에 재작성하지 않고, 0부·1부 진행하며 충돌 지점만 손본다.
 - **034 보존**: 게이트 통과분(65K)은 그대로. 위치·무게만 최종 악장으로.

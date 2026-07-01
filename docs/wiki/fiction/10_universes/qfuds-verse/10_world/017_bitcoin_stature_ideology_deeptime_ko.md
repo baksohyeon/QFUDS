@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko
 next_gate: thread the ideology war + Satoshi mystery + validity debate into prose as faction conflict, not a dismissed relic
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 비트코인 위상·이념전쟁·심층시간 유효성

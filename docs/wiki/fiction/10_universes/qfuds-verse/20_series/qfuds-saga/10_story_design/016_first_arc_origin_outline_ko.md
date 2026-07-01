@@ -13,7 +13,7 @@ depends_on:
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - qfuds_saga_last_archive_reveal_architecture_ko
 next_gate: 작가가 사엘 원죄 형태(§4)와 콜드오픈(§5)을 승인하면 1부 비트를 scene-card로 분기
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 1부 origin 아웃라인
@@ -23,8 +23,8 @@ last_updated: 2026-06-21
 1부(origin) 실행 아웃라인이다. 주제 SSOT는
 [015 5대 극적 질문 스파인](015_five_core_dramatic_questions_spine_ko.md), 부 배치는
 [011 아크 맵](011_saga_arc_map_multiarc_ko.md), origin 역사 사실은
-[bible 013 PART A(Hinge Era)](../00_bible/013_cryptographic_death_era_and_crypto_concepts_ko.md)·
-[017 §1](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md)이 보유한다. 본 문서는
+[bible 013 PART A(Hinge Era)](../../../10_world/013_cryptographic_death_era_and_crypto_concepts_ko.md)·
+[017 §1](../../../10_world/017_bitcoin_stature_ideology_deeptime_ko.md)이 보유한다. 본 문서는
 그 위에 1부를 **스릴러로** 짜는 비트 설계다.
 
 boundary: fiction/provenance only, QFUDS 연구 증거 아님. 산문 원고가 아니다. 새 외부

@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
 next_gate: use as the hinge-era reference + crypto-to-setting dictionary for scenes
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA Cryptographic Death 대격변과 암호 개념 상세 설정
@@ -35,7 +35,7 @@ last_updated: 2026-06-21
 이 문서는 **작가 본인의 암호학 학습 노트**(해시 함수·해시맵·KDF·HashDoS·필터;
 외부 신규 source claim이 아니라 작가의 연구 기반)를 SAGA 설정으로 재분류한다. 현실 보안 권고가 아니다. 새 외부 product claim을 만들지 않는다.
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)가
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)가
 지배한다. (현실 비트코인·양자위협 출처는 009에 `hit_not_cached`로 기록됨.)
 
 PART C 정치·권력 구조는 현실의 반동·탈출(exit) 정치사상 계열(neocameralism·patchwork·

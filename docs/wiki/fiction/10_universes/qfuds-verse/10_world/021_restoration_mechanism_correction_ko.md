@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
   - qfuds_saga_ai_automation_human_in_the_loop_ssot_ko
 next_gate: align 010 §3, 009 §2.5, 018, prologue 028, reboot 029/012/013 to this model
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 복원 메커니즘 정정 (정보 역산 + 인공 신체)

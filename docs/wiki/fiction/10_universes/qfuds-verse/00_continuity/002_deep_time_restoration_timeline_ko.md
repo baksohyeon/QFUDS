@@ -23,7 +23,7 @@ last_updated: 2026-07-01
 
 > **캐논 앵커(021 우선).** 이 문서가 "완전 복원·역연산·흩어진 미시정보 재조립"
 > 으로 서술하는 대목은 **작중 권력이 주장하는 금지·논쟁 이론(microstate readout)**
-> 으로 읽는다. 실제 작동 캐논은 [021 복원=사본](021_restoration_mechanism_correction_ko.md):
+> 으로 읽는다. 실제 작동 캐논은 [021 복원=사본](../10_world/021_restoration_mechanism_correction_ko.md):
 > 죽음은 열역학적으로 비가역이며, 복원은 부활이 아니라 죽은 자의 데이터를 재구성해
 > 인공 신체에 올린 **사본**이다. 충돌 시 021이 우선한다. (본문 1기 서술의 전면
 > 재작성은 작가 판단으로 보류 — 021 §5.)
@@ -49,7 +49,7 @@ validation, Level 2B admission이 아니다.
 후대에 `The Soft Editing`이라고 불리는 고대 지층으로 남는다.
 
 자세한 시대 좌표와 핍진성 규칙은
-[QFUDS SAGA World Anchor and Verisimilitude](001_world_anchor_and_verisimilitude_ko.md)
+[QFUDS SAGA World Anchor and Verisimilitude](../10_world/001_world_anchor_and_verisimilitude_ko.md)
 를 따른다.
 
 ## 인과·기원·연표 보강 (신규 canon, SSOT)
@@ -61,7 +61,7 @@ validation, Level 2B admission이 아니다.
   하이퍼스케일러 Aletheia Systems의 폭주 후신; 창업자 Adrian Karvath; 강제
   업로드된 비서 Vera가 핵; 단일 인격 AGI가 아니라 합의의 신격화), 비트코인 중심 인과,
   이념(보존주의=므네모시네 / 망각주의=레테):
-  [010 Last Archive 기원과 역연산 인과](010_last_archive_origin_and_reversal_causality_ko.md).
+  [010 Last Archive 기원과 역연산 인과](../10_world/010_last_archive_origin_and_reversal_causality_ko.md).
 - 연표·기술곡선(지수→로그), 복원 행정·세대 해상도, Last Archive의 은하 중심
   블랙홀 본거지:
   [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md).
@@ -161,7 +161,7 @@ validation, Level 2B admission이 아니다.
 
 Last Archive — AGI 시대가 낳았으나 행위자(인격)가 아닌, 진실을 잃지 않으려고
 쌓인 기록 인프라. 기원·정체와 역연산 인과는
-[010 Last Archive 기원과 역연산 인과](010_last_archive_origin_and_reversal_causality_ko.md)
+[010 Last Archive 기원과 역연산 인과](../10_world/010_last_archive_origin_and_reversal_causality_ko.md)
 가 고정한다 — 가 양자장과 중력장에 남은 잔상 패턴을 읽었다고 발표했다.
 
 죽은 사람의 마지막 뇌 상태, 말투, 감정 습관, 미세한 기억 흔적이 우주 전체에
@@ -443,14 +443,14 @@ phase B: residual pressure of the saved.
 이 타임라인은 1부 R6 재창간의 active deep-time backbone이다. 세부 설정은 다음
 문서들이 우선한다.
 
-- Last Archive 기원·말투·역연산 인과: [010](010_last_archive_origin_and_reversal_causality_ko.md).
+- Last Archive 기원·말투·역연산 인과: [010](../10_world/010_last_archive_origin_and_reversal_causality_ko.md).
 - 연표·복원 행정·블랙홀 본거지: [011](011_chronology_restoration_admin_black_hole_seat_ko.md).
-- 비트코인 위상·사토시 미스터리·이념전쟁: [017](017_bitcoin_stature_ideology_deeptime_ko.md).
-- 독자용 deep-lore 색인: [018](018_world_compendium_codex_ko.md).
+- 비트코인 위상·사토시 미스터리·이념전쟁: [017](../10_world/017_bitcoin_stature_ideology_deeptime_ko.md).
+- 독자용 deep-lore 색인: [018](../10_world/018_world_compendium_codex_ko.md).
 - 라우어 관측소의 일상, 식사, 복장, 승진, 처벌, 의례.
 - 첫 주인공 3명과 그들이 숨기는 것.
 - 시즌 1의 5개 episode arc.
 
 세력과 공동체 생태계 확장은
-[QFUDS SAGA 세력 문화 권력 생태계 장부](003_factions_cultures_power_ecology_ko.md)
+[QFUDS SAGA 세력 문화 권력 생태계 장부](../10_world/003_factions_cultures_power_ecology_ko.md)
 에서 이어진다.
