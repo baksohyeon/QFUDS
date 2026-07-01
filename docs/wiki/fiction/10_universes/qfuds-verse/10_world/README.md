@@ -41,7 +41,8 @@ universe 전체 공유 세계 자료다. 후보이며 안정되면 series bible 
 
 | 문서 | 역할 |
 | --- | --- |
-| [001 세계 확장 웨이브 1](030_world_expansion_wave1_names_places_events_ko.md) | 고유명사·지명·세력·인물·사건·어휘 대량 생성 (candidate; 015·024·003·026·028 승격 대기) |
+| [030 세계 확장 웨이브 1](030_world_expansion_wave1_names_places_events_ko.md) | 명명법·고유명사·지명·세력·인물·사건·어휘 대량 생성 (candidate) |
+| [031 세계 확장 웨이브 2](031_world_expansion_wave2_factions_relationships_ko.md) | 세력 내부 인물·파벌 심화 + 가문 간 관계망 (candidate) |
 
 ## Shared World Canon (SSOT) — 이 선반이 보유
 
