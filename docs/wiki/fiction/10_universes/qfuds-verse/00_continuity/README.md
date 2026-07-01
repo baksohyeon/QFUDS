@@ -25,6 +25,7 @@ last_updated: 2026-07-01
 | [000 캐논 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) | 충돌 시 어느 문서가 이기나(제작 권위 지도) |
 | [002 장기 복원 문명사 타임라인](002_deep_time_restoration_timeline_ko.md) | 0~9기 딥타임 연대기(연표 SSOT) |
 | [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
+| [036 먼 미래 심층시간 연대기](036_far_future_deep_time_chronicle_ko.md) | 002 5~9기를 수만~수억 년 물리 시계에 건 심층시간 확장(스파이스=검증 기록). 002 SSOT 위 레이어 |
 
 ## Current Policy
 
