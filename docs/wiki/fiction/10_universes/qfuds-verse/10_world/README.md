@@ -73,6 +73,7 @@ work가 보유한다.
 | 문서 | 역할 |
 | --- | --- |
 | [003 세력·문화·권력·생태계](003_factions_cultures_power_ecology_ko.md) | 세력 생활권·이념·생태계 장부 |
+| [037 이기(理氣) 이념 축](037_yi_gi_ideology_axis_ko.md) | 보존/망각 진자를 '원본 실재 vs 원본 부재'로 심화(이/기, 025 물리와 물림) |
 | [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md) | 세력 이름 canon(명칭 SSOT) |
 | [006 Post-AGI 문명사·이중언어 프로토콜](006_post_agi_civilization_history_bilingual_protocol_ko.md) | AGI 이후 문명사 + 한국어 우선 규약 |
 | [020 AI·자동화·인간 확인 루프·아날로그 법정](020_ai_automation_human_in_the_loop_ssot_ko.md) | "왜 기계가 아니라 사람이 도장을 찍나"의 제도 근거 |
