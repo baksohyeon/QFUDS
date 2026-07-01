@@ -37,9 +37,10 @@ external source claim: no
 - INCLUDE: `qfuds-verse/README.md`, `00_continuity/**`, `10_world/**`,
   `20_series/qfuds-saga/{00_bible, 00_workroom, 10_story_design, 40_release, README}`.
 - EXCLUDE: `20_drafts/**`, `30_revisions/**`, `90_archive/**` (원고·개정·아카이브).
-- 총 **80개 문서** (연속성 5, 세계 24, bible 11, workroom 13, story_design 23,
+- 감사 기준 **80개 문서** (연속성 5, 세계 24, bible 11, workroom 13, story_design 23,
   release 2, universe/series 루트 2). 감사 기준일 2026-07-01, 프론트매터 `depends_on`
-  그래프 직접 산출.
+  그래프 직접 산출. 이후 정합 작업으로 [038 원어 층](038_far_future_native_lexicon_return_death_ko.md)이
+  추가돼 현재 세계 선반 25, 총 81.
 
 ## 1. 문서 인덱스 (선반별)
 
@@ -53,7 +54,7 @@ external source claim: no
 | [036 먼 미래 심층시간 연대기](036_far_future_deep_time_chronicle_ko.md) | 002 5~9기를 물리 시계에 건 심층시간 확장 | draft |
 | [README 연속성 인덱스](README.md) | 선반 정책·SSOT 안내 | draft |
 
-### 1.2 `10_world` · 공유 세계 캐논 (24)
+### 1.2 `10_world` · 공유 세계 캐논 (25, 038 포함)
 
 물리·암호 축:
 
@@ -75,6 +76,7 @@ external source claim: no
 | --- | --- | --- |
 | [003 세력·문화·권력·생태계](003_factions_cultures_power_ecology_ko.md) | 세력 생활권·이념·생태계 장부 | draft |
 | [037 이기(理氣) 이념 축](037_yi_gi_ideology_axis_ko.md) | 원본 실재 vs 부재 형이상학 축(candidate) | draft |
+| [038 먼 미래 원어 층](038_far_future_native_lexicon_return_death_ko.md) | 부활·복원 현대 gloss를 in-world 원어로 분리(candidate) | draft |
 | [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md) | 세력 이름 canon(명칭 SSOT) | draft |
 | [006 Post-AGI 문명사·이중언어 규약](006_post_agi_civilization_history_bilingual_protocol_ko.md) | AGI 이후 문명사·한국어 우선 | draft |
 | [020 AI·자동화·인간 확인 루프](020_ai_automation_human_in_the_loop_ssot_ko.md) | 왜 사람이 도장을 찍나(제도 근거) | draft |

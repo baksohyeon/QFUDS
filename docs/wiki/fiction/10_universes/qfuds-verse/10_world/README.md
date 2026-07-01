@@ -65,6 +65,7 @@ work가 보유한다.
 | [010 Last Archive 기원·역연산 인과](010_last_archive_origin_and_reversal_causality_ko.md) | Last Archive 기원과 인과 구조 |
 | [021 복원 메커니즘 정정](021_restoration_mechanism_correction_ko.md) | **복원=손실적 사본, 부활 아님(엔트로피 역전 불가)** |
 | [025 in-world 정보·유니터리·복원 물리](025_in_world_physics_information_unitarity_restoration_ko.md) | 작중 정보 보존·복원의 물리 근거 |
+| [038 먼 미래 원어 층(부활·복원·되돌림 명칭)](038_far_future_native_lexicon_return_death_ko.md) | "부활/복원" 현대 gloss를 in-world 원어(재현·N세대 귀환·해상·원리 재확인·새로 씀)로 분리 |
 | [017 비트코인 위상·이념전쟁·심층시간](017_bitcoin_stature_ideology_deeptime_ko.md) | 비트코인 이념전쟁·장기시간 유효성 |
 | [018 세계관 컴펜디움](018_world_compendium_codex_ko.md) | 세계 설정 종합 코덱스 |
 
