@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
 next_gate: 오늘 작업은 009 production board가 정한다. 이 README는 선반 지도만 맡는다
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 00_workroom 지도
@@ -38,6 +38,8 @@ authoring baseline: 2026-06-30. fiction/provenance only, QFUDS 연구 증거 아
 | [008 외부 AI 글쓰기 시스템 갭 감사](008_external_ai_writing_systems_gap_audit_ko.md) | 외부 시스템 비교·도입 판단 (inspiration only) |
 | [009 Production Board](009_saga_production_board_ko.md) | **오늘 작업판.** 상태·다음 행동·검증 로그 |
 | [010 Chapter Intent Card Template](010_chapter_intent_card_template_ko.md) | 챕터/장면 진입 의도 카드 양식 |
+| [011 전문가 패널 세계-체계 인계 브리프](011_expert_panel_world_system_handoff_ko.md) | 14도메인 확장 프레이밍·게이트·읽기 순서 (candidate) |
+| [012 14도메인 세계-체계 스펙](012_expert_panel_world_system_spec_ko.md) | 충돌 분류 + 도메인 스펙 + 인과 매트릭스 (candidate) |
 
 ## Boundary
 
