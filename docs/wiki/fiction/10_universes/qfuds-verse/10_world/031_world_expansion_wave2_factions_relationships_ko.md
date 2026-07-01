@@ -189,8 +189,9 @@ Ordo Circuli·Statio Sigillorum·Schola Reprehensio)에 감사관을 넣는다.
 
 ## 4. 다음 웨이브
 
-웨이브 3=지리 상세(도시 구획·궤도 역학·이동 경로) + 사건 연쇄 인과(가문 정치가
-낳는 구체 사건). 각 웨이브는 030·031을 baseline으로 증분한다.
+웨이브 3([032](032_world_expansion_wave3_geography_event_chains_ko.md))=지리 상세(도시
+구획·궤도 역학·이동 경로) + 사건 연쇄 인과(가문 정치가 낳는 구체 사건). 각 웨이브는
+030·031을 baseline으로 증분한다.
 
 ## Boundary
 

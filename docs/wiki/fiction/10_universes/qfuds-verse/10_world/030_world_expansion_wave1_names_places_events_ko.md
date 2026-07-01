@@ -329,7 +329,7 @@ external source claim: no
 세력 명칭(015), 024가 '결정 필요'로 비워둔 갭(누어 소속 등), 충돌명 개명(베라 다체).
 
 **다음 웨이브:** 웨이브 2([031](031_world_expansion_wave2_factions_relationships_ko.md))=각
-세력 내부 인물·파벌 심화 + 가문 간 관계망. 웨이브 3=지리 상세(도시 구획·궤도 역학) +
+세력 내부 인물·파벌 심화 + 가문 간 관계망. 웨이브 3([032](032_world_expansion_wave3_geography_event_chains_ko.md))=지리 상세(도시 구획·궤도 역학) +
 사건 연쇄 인과. 각 웨이브는 이 문서를 baseline으로 증분한다.
 
 ## Boundary

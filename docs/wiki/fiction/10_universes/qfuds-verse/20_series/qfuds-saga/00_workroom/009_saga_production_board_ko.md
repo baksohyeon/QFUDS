@@ -64,7 +64,7 @@ install external tools: fiction 한정 허용 (보안 점검 + repo/vault 스코
 | 029 Mara 캐논 원천 | provenance | [013](../10_story_design/013_first_arc_scene_cards_ko.md) | 2부 reboot 캐논 원천; 034의 source, 원천 보존 | Continuity Notes in 029 | `archived-provenance` |
 | 3부 author-loss 풀길이 | plan | 025-027 자산 보존 | none | none | `hold` until 풀길이 착수 |
 | 14도메인 세계-체계 확장(011→028) | done | [011 인계 브리프](011_expert_panel_world_system_handoff_ko.md) | canon-guardian 충돌 분류 완료(028 §1, hard-conflict 0) | 028 §4 원장 | `promoted` → [bible 028](../../../10_world/028_qday_world_system_14domain_matrix_ko.md)(026 부속). 011은 provenance |
-| 세계 확장 웨이브 1·2(universe 10_world/030·031) | brainstorm | [030 웨이브1](../../../10_world/030_world_expansion_wave1_names_places_events_ko.md) · [031 웨이브2](../../../10_world/031_world_expansion_wave2_factions_relationships_ko.md) | 015/024 충돌 대조 완료(기존명 재배정 0; 4기 캐스트 배치는 제안) | 030 §7·031 §3 원장 | `candidate` @ universe 공유 세계; 이름=015·인물=024·세력=003·사건=026/028 웨이브별 승격 대기 |
+| 세계 확장 웨이브 1·2·3(universe 10_world/030·031·032) | brainstorm | [030 웨이브1](../../../10_world/030_world_expansion_wave1_names_places_events_ko.md) · [031 웨이브2](../../../10_world/031_world_expansion_wave2_factions_relationships_ko.md) · [032 웨이브3](../../../10_world/032_world_expansion_wave3_geography_event_chains_ko.md) | 015/024 충돌 대조 완료(기존명 재배정 0; 4기 캐스트 배치·사건 사슬은 제안) | 030 §7 6체크·전부 보류 | `candidate` @ universe 공유 세계; **전부 보류** = 원고 수요 때 개별 승격(030 §7) |
 
 ## Active Risks
 
