@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_the_broken_crown_revised_v2_korean_adaptation
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
   - qfuds_saga_bilingual_term_discipline_glossary_ko
-next_gate: decide English Anglophone counterpart or episode 026 Korean primary
+next_gate: write English counterpart (026) then advance to next KR primary 027 (who may refuse)
 last_updated: 2026-06-20
 ---
 

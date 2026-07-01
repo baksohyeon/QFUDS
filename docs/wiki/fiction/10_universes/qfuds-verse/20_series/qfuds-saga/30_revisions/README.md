@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
-next_gate: create 012 retention gate run artifact pinned to c158d31 before any 40_release promotion
-last_updated: 2026-06-30
+next_gate: 012 retention gate run artifact를 1308777에 고정해 40_release 승격 전에 남긴다
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA Revision Shelf
@@ -21,7 +21,8 @@ control, continuity fix pass를 둔다.
 
 ## Cascade Drift Note
 
-번호 SSOT는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)이다. 사엘
+캐릭터·시대좌표 SSOT는 024이고, 아크 번호는
+[011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)을 따른다(충돌 시 024 우선). 사엘
 origin revision 대상은 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)이고
 (2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035),
 [029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)는 physical cascade
@@ -55,6 +56,10 @@ origin revision 대상은 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_p
      생전 신념(올바른 순서는 하나)을 토템으로 삼아, 그 반사가 사본에게 새어나오게
      하고 6장에서 정산한다. in-world 형이상학(it-from-bit 풍미)은 픽션 전용, QFUDS
      연구 주장 아님. 본문 반영은 사용자 검토 후, RET-2B-001/002 polish보다 먼저.
+8. [전문서 정합 감사 (2026-07-01)](018_saga_consistency_audit_2026_07_01_ko.md)
+   - 사가 전 115문서를 폴더별 병렬 리더 + 편집자 종합 + 완결성 검수로 점검한 기록.
+     현행 캐논 SSOT 지도, 안전 배치 픽스 적용분(링크 오타·em dash·인덱스·드리프트 배너),
+     사용자 게이트 대기 항목(036 리네임·본문 재라벨·status 강등·011 지위·005 외부참조)을 담았다.
 
 ## 아카이브됨 (reboot로 중단)
 

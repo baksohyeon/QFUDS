@@ -18,12 +18,14 @@ depends_on:
   - qfuds_saga_arc_two_korean_primary_plan_ko
   - qfuds_saga_arc_two_episode_map_ko
 next_gate: 1부 POV(사엘 능동화 vs 새 POV)를 작가가 확정하면 1부 origin 아웃라인을 별도 문서로 분기한다
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 다부작 아크 지도
 
 ## 목적
+
+> 아래 본문의 1부/2부 라벨은 024 재편 이전 표기이며, 충돌 시 024가 우선한다.
 
 이 문서는 QFUDS SAGA의 **상위 아크 실행 계획서**다. 주제 SSOT는
 [015 5대 극적 질문 스파인](015_five_core_dramatic_questions_spine_ko.md)이 보유하고,
@@ -41,6 +43,7 @@ last_updated: 2026-06-30
 > 대부분 강등 전 라벨이며, 인물 시대 좌표의 SSOT는
 > [024 캐릭터 지도](../00_bible/024_character_map_and_timeline_coordinates_ko.md)다.
 > 부 구조: **1부=오르페우스(21c) / 1.5부=사엘 origin(21c) / 2부=마라(4기) / 3부=author-loss**.
+> 무게중심 SSOT=025(근미래 grounded가 축, 먼 미래는 도달점).
 > 충돌 시 024가 우선한다.
 
 ## 0. 재편 요약 (현재 → 새 구조)

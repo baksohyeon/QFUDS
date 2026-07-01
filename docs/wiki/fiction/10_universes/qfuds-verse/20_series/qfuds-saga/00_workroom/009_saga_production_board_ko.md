@@ -9,8 +9,8 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: 1.5부(033)·2부(034) 풀길이 초고 + retention/comprehension 게이트(015/016) 완료. 다음=새 1부 오르페우스(035) 작성 / 2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트
-last_updated: 2026-06-30
+next_gate: "025 근미래 리센터로 관통선(씨앗-제도-신) 재정렬. 다음=0부 캐스(036) 착수 / 새 1부 오르페우스(035) 작성 / 1.5부(033)·2부(034) 풀길이 유지 / 2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트"
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA Production Board
@@ -40,12 +40,12 @@ install external tools: fiction 한정 허용 (보안 점검 + repo/vault 스코
 
 | Field | Value |
 | --- | --- |
-| Active unit | 033 origin(1.5부)·034 Mara(2부) 풀길이 소설 초고 + retention/comprehension 게이트(015/016); 새 1부 035 오르페우스(오웬·리브) 별도 작성 중 |
+| Active unit | 025 근미래 리센터로 관통선(씨앗:제도:신) 재정렬; 0부 캐스(036) 착수 예정; 033 origin(1.5부)·034 Mara(2부) 풀길이 소설 초고 + retention/comprehension 게이트(015/016) 유지; 새 1부 035 오르페우스(오웬·리브) 별도 작성 중 |
 | Phase | `verify` passed -> `gated`(retention+comprehension) |
 | Owner mode | `writer` + `continuity` + `reader-sim` + `comprehension` + `polish` |
 | Status | 두 권 풀길이 초고 완결; comprehension 통과(ran_passed), retention 통과(ran_passed_with_risks); release 정식 게이트는 미실행 |
 | Failure reason | 없음(두 권 초고 완결). 잔여=2부 S2 polish, 3부 풀길이 미착수, 영어 각색 2화+ |
-| Next action | 2부 거푸집 후렴 등 S2 polish(RET-2B-001~005, [30_revisions/016]) 또는 3부 author-loss 풀길이 착수; `40_release` 승격 전 정식 게이트 |
+| Next action | 025 근미래 리센터로 씨앗:제도:신 관통선 정렬 후 0부 캐스(036) 착수; 병행으로 2부 S2 polish(RET-2B-001~005, [30_revisions/016]) 또는 3부 author-loss 풀길이; `40_release` 승격 전 정식 게이트 |
 | Source files | `30_revisions/015`, `30_revisions/016`, `10_story_design/011`, `00_bible/023`, `30_revisions/011` |
 | Output files | `20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md`, `20_drafts/2부/034_mara_full_novel_korean_primary.md`; 보조 `20_drafts/1.5부/031`(콘티), `32`(영어 각색); 새 1부 `20_drafts/1부/035_orpheus_full_novel_korean_primary.md`(작성 중, 별도) |
 | Approval needed | no(초고/게이트); yes before release promotion |
@@ -54,6 +54,7 @@ install external tools: fiction 한정 허용 (보안 점검 + repo/vault 스코
 
 | Unit | Phase | Intent card | Last review wave | Chronicler pass | Status |
 | --- | --- | --- | --- | --- | --- |
+| 0부 캐스(036) | plan | 025 근미래 리센터: 씨앗(제도의 씨앗) | 미착수; 025 자산으로 씨앗:제도:신 관통선의 출발점 정렬 | none | `hold` until 036 착수 |
 | 1.5부 사엘 origin 풀길이(033) | verified/gated | [015 retention+comprehension](../30_revisions/015_origin_sael_fullnovel_retention_comprehension_gate_20260622_c91e9be_ko.md) | 8장 ~45K 초고; retention ran_passed_with_risks + comprehension ran_passed | 015 게이트 in 033 | `validated` |
 | 1부 「오르페우스」 풀길이(035) | draft | 오웬·리브 (작성 중) | 별도 작성 중 | none | `drafting` (별도) |
 | 2부 Mara 풀길이(034) | verified/gated | [016 retention+comprehension](../30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md) | 6장 ~65K 초고; 독립 온보딩 성공; S2 polish 잔여(RET-2B-001~005) | 016 게이트 in 034 | `validated` |

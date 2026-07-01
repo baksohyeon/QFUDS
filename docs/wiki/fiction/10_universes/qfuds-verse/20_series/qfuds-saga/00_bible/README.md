@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
 next_gate: canon 권위는 000이 정한다. 설정 충돌 시 000 → 해당 주제 문서 순으로 확인
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 00_bible 지도
@@ -40,6 +40,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | [021 복원 메커니즘 정정 (정보 역산 + 인공 신체)](021_restoration_mechanism_correction_ko.md) | **치명적 결함 교정.** 복원=손실적 데이터 재구성 사본, 부활 아님 |
 | [017 비트코인 위상·이념전쟁·심층시간](017_bitcoin_stature_ideology_deeptime_ko.md) | 비트코인 이념전쟁과 장기시간 유효성 |
 | [018 세계관 컴펜디움](018_world_compendium_codex_ko.md) | 세계 설정 종합 코덱스 |
+| [025 in-world 정보·유니터리·복원 물리](025_in_world_physics_information_unitarity_restoration_ko.md) | 작중 정보 보존·유니터리 진화·복원의 물리 근거 |
 
 ## 연표·문명사·제도
 
@@ -52,6 +53,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md) | 세력 이름 canon |
 | [020 AI·자동화·인간 확인 루프·아날로그 법정](020_ai_automation_human_in_the_loop_ssot_ko.md) | "왜 기계가 안 하고 사람이 도장을 찍나"의 제도 근거 |
 | [026 Q-Day 여파 타임라인과 세계 설정](026_qday_aftermath_timeline_and_world_ko.md) | 002가 비운 'Q-Day 직후~Long Plateau' 구간을 채우는 여파 타임라인+세계 설정(7인 패널 종합) |
+| [027 AI 발전사 냉소 화자 관통선](027_machine_childhood_ai_history_narrator_throughline_ko.md) | AI 발전사를 냉소적 화자 시점으로 꿰는 관통선 정본 |
 
 ## 인물
 
@@ -61,6 +63,8 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | [012 주인공 시트 — Liora Sen](012_character_liora_sen_ko.md) | 리오라 센 캐릭터 시트 |
 | [016 앙상블 보이스·관계 바이블](016_character_ensemble_voices_relationships_ko.md) | 앙상블 캐릭터 보이스·관계 |
 | [019 입체 캐릭터 시트](019_character_depth_sheets_ko.md) | 주요 인물 입체 시트 |
+
+> 부 구조·시대좌표는 024를 우선한다(앤솔로지, 0부 캐스 → 1.5부 사엘 → 2부 마라).
 
 ## 시점·주제·서술 규칙
 

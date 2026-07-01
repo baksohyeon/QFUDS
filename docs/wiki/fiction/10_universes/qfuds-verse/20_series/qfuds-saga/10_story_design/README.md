@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
 next_gate: 이야기를 처음 잡으면 023부터. 구조 작업은 011 arc map과 015 질문 스파인 기준
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 10_story_design 지도
@@ -39,8 +39,13 @@ fiction/provenance only, QFUDS 연구 증거 아님.
 | [014 소버린 AI·오픈/봉쇄 축 브레인스토밍](014_sovereign_ai_open_closed_axis_brainstorm_ko.md) | 오픈/봉쇄 이념 축 발상 |
 | [008 Last Archive 반전 설계와 떡밥 배치](008_last_archive_reveal_architecture_ko.md) | 후반 반전·복선 배치 |
 | [021 1부 독자 정보 공개 사다리](021_first_arc_reader_reveal_ladder_ko.md) | 1부에서 독자에게 정보를 푸는 순서 |
+| [024 새 1부 「오르페우스」 설계](024_new_book1_orpheus_design_ko.md) | 사별·복원 사본·돌아봄 축의 새 1부 설계 |
+| [025 사가 방향 전환 근미래 리센터](025_near_future_recenter_direction_ko.md) | 근미래 grounded SF로 무게중심 이동 |
+| [026 기계 화자 트리트먼트](026_machine_narrator_voice_and_setup_payoff_treatment_ko.md) | 기계 화자 보이스·복선·시대건너뛰기 구조 |
 
-## 1부 origin (사엘)
+## 1.5부 사엘 origin
+
+진입 경로: 1부 본편은 오르페우스(035 오르페우스 산문 원고, `20_drafts/1부`), 0부는 캐스(036 주아 산문 원고, `20_drafts/0부`)로 들어간다. 아래는 사엘 계열 설계 선반이다.
 
 | 문서 | 역할 |
 | --- | --- |

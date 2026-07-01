@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_character_depth_sheets_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
 next_gate: 빈 구간(28세기→첫 복원) 보강과 사건×인물 연결의 백본으로 사용. 미정 항목은 chronicler pass로 확정
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 캐릭터 지도와 타임라인 좌표
@@ -50,7 +50,7 @@ QFUDS 연구 증거 아님.
 ```
 
 > **드리프트 주의:** 012/016/019 일부는 reorg 전 라벨로 Mara·Liora를 "1부"로 적었을 수
-> 있다. 현재 캐논(production board·023·이 문서)은 **사엘=1부, 마라 캐스트=2부**다.
+> 있다. 현재 캐논(production board·023·이 문서)은 **사엘=1.5부, 마라 캐스트=2부**다.
 > 해당 시트를 만질 때 라벨만 이 문서에 맞춰 갱신한다(별도 chronicler pass).
 
 ## 인물 표

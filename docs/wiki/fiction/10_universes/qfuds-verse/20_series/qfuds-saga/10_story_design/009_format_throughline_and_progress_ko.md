@@ -9,10 +9,12 @@ depends_on:
   - qfuds_saga_last_archive_reveal_architecture_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
 next_gate: build Liora protagonist sheet, then propagate foundation into first arc
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태
+
+> **드리프트 주의 (2026-07-01 리센터):** 부 구조·시대좌표·무게중심의 현행 SSOT는 024(캐릭터·시대좌표)·025(근미래 리센터)·027(관통선)이다. 현행 매핑 = 0부 캐스(036, 씨앗) / 1부 오르페우스(035, 오웬) / 1.5부 사엘(033, 제도) / 2부 마라(034, 신). 아래 본문의 "사엘=1부"·"마라/Liora=1부"·"먼 미래가 무대" 등은 리센터 이전 라벨이며 위 SSOT가 우선한다.
 
 ## 목적
 

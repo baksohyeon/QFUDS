@@ -1,6 +1,6 @@
 ---
 doc_id: qfuds_saga_drafts_jua_full_novel_korean_primary
-title: QFUDS SAGA 캐스 풀길이 소설 (한국어 primary, 단일 주인공)
+title: QFUDS SAGA 캐스 풀길이 소설 (한국어 primary)
 doc_type: reference
 stage: reference
 status: draft
@@ -8,16 +8,18 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_near_future_recenter_direction_ko
   - qfuds_saga_in_world_physics_information_unitarity_restoration_ko
+  - qfuds_saga_character_map_and_timeline_coordinates_ko
+  - qfuds_saga_machine_childhood_ai_history_narrator_throughline_ko
 next_gate: 보이스 확정 후 5비트 따라 풀길이. 구조 통합(캐스 단일화)은 새 세션에서 정리
 last_updated: 2026-06-30
 ---
 
-# QFUDS SAGA 캐스 풀길이 소설 (한국어 primary, 단일 주인공)
+# QFUDS SAGA 캐스 풀길이 소설 (한국어 primary)
 
 ## Boundary
 
 [025 방향 전환](../../10_story_design/025_near_future_recenter_direction_ko.md) 결정에 따른
-**단일 주인공(캐스) 한 편의 소설.** 앤솔로지(부마다 다른 주인공) 폐기. 옛 주인공
+**캐스 한 편의 소설.** 앤솔로지의 현재편(씨앗, 0부, 캐스). 옛 주인공
 (오웬 035 / 사엘 033 / 마라 034)의 핵심 주제는 캐스 아크로 흡수하거나 별도 작품으로
 보존(안 지움).
 

@@ -10,7 +10,7 @@ depends_on:
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
 next_gate: check 011 guide and production board before choosing the next active unit
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA
@@ -37,7 +37,7 @@ only이며 QFUDS 연구 증거, roadmap status, Level 2B claim이 아니다.
 | 오늘 active unit 확인 | [SAGA production board](00_workroom/009_saga_production_board_ko.md) |
 | 전체 arc 구조 확인 | [011 saga arc map](10_story_design/011_saga_arc_map_multiarc_ko.md) |
 | 극적 질문 spine 확인 | [015 five core dramatic questions](10_story_design/015_five_core_dramatic_questions_spine_ko.md) |
-| 1부 origin 구조 확인 | [016 origin outline](10_story_design/016_first_arc_origin_outline_ko.md), [017 origin scene cards](10_story_design/017_first_arc_origin_scene_cards_ko.md) |
+| 1.5부 사엘 origin 구조 확인 | [016 origin outline](10_story_design/016_first_arc_origin_outline_ko.md), [017 origin scene cards](10_story_design/017_first_arc_origin_scene_cards_ko.md) |
 | 암호 개념 독자 온보딩 확인 | [018 crypto onboarding check](10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md) |
 | 사엘 실행 시트 확인 | [019 Sael execution sheet](10_story_design/019_sael_origin_execution_sheet_ko.md) |
 
@@ -50,6 +50,10 @@ arc 번호 cascade는 별도 승인 전까지 고치지 않는다.
 | --- | --- |
 | [00_bible](00_bible/) | 작품 설정 기준서. 세계 사실, 인물, 제도, 과학 경계 |
 | [00_bible/000 canon authority map](00_bible/000_canon_authority_and_ssot_map_ko.md) | bible/story_design/draft 사이의 authority 확인 |
+| [00_bible/024 character map and timeline coordinates](00_bible/024_character_map_and_timeline_coordinates_ko.md) | 시대좌표. 인물 지도와 딥타임 구조 (캐논 진입점) |
+| [00_bible/025 near-future recenter](00_bible/025_in_world_physics_information_unitarity_restoration_ko.md) | 근미래 리센터. 인월드 물리 복원 기준 (캐논 진입점) |
+| [00_bible/026 Q-Day aftermath](00_bible/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 여파. 여파 타임라인과 세계 (캐논 진입점) |
+| [00_bible/027 AI history throughline](00_bible/027_machine_childhood_ai_history_narrator_throughline_ko.md) | AI발전사 관통선. 기계 화자 throughline (캐논 진입점) |
 | [00_workroom](00_workroom/) | SAGA-local 운영 규칙, GSD brief, production board, traceability |
 | [10_story_design](10_story_design/) | outline, arc map, reveal plan, scene cards |
 
@@ -68,9 +72,10 @@ release candidate -> 40_release
 | Shelf | 역할 |
 | --- | --- |
 | [20_drafts](20_drafts/README.md) | active prose drafts, Korean-primary manuscripts, counterparts, prototypes |
-| [20_drafts/1부](20_drafts/1부/README.md) | 1부 origin (030 사엘). cascade 완료 |
-| [20_drafts/2부](20_drafts/2부/README.md) | 2부 Mara (029). cascade 완료 |
-| [20_drafts/3부](20_drafts/3부/README.md) | 3부 author-loss (025-027). cascade 완료 |
+| 0부 캐스 (씨앗) | 0부 캐스 origin (036, 씨앗) |
+| 1부 오르페우스 (오웬) | 1부 오르페우스 origin (035, 오웬) |
+| 1.5부 사엘 (제도) | 1.5부 사엘 origin (033, 제도). 현행 사엘 자산은 033 (030은 폐기 프로토타입) |
+| [20_drafts/2부](20_drafts/2부/README.md) | 2부 마라 (034, 신) |
 | [30_revisions](30_revisions/README.md) | release-facing revision plans and audits |
 | [40_release](40_release/README.md) | release manifest/export shelf. active release는 gate 통과 후 생성 |
 

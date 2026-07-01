@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_the_broken_crown_revised_v2_korean_adaptation
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
   - qfuds_saga_bilingual_term_discipline_glossary_ko
-next_gate: decide whether episode 026 Korean primary (arc-two ep 2) precedes or follows further English work
+next_gate: this is EN counterpart (026) of KR primary 025; next KR primary is 027 (who may refuse)
 last_updated: 2026-06-20
 ---
 

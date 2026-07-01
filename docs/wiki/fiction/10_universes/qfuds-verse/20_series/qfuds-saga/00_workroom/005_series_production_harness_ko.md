@@ -6,12 +6,12 @@ stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
-  - qfuds_saga_agentic_saga_system_ko
+  - qfuds_saga_agentic_system_ko
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
   - qfuds_saga_production_board_ko
 next_gate: promote series gates to global .agent workflow + templates
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 시리즈 제작 하네스
