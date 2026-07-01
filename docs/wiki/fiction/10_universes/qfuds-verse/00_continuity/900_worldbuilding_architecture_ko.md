@@ -228,6 +228,12 @@ SSOT는 [024 캐릭터 지도](../20_series/qfuds-saga/00_bible/024_character_ma
 019  →  Arc 변화 (시간에 따른 입체화)
 ```
 
+서사 구조 정정(025·026): 025가 **단일 주인공 결정을 철회**하고 "앤솔로지 유지 + 기계
+We-화자 관통선"으로 정정했다. 백본은 인물이 아니라 **기계 We-화자**이며, 부가 바뀌어도
+화자는 같다(026). 부 계단 = 0부 캐스 도입 → 1부 오르페우스(씨앗) → 1.5부 사엘(제도) →
+2부 마라(신) → 3부 author-loss. 화자 지식 상태·후렴 궤적은
+[workroom 014 Truth-State Ledger](../20_series/qfuds-saga/00_workroom/014_truth_state_ledger_ko.md)가 추적한다.
+
 ### 3.3 생산·집행 층 (canon이 아니라 작가실 운영)
 
 캐논 3층(§3.1) 밑에 캐논이 아닌 **운영 선반**이 깔린다. `00_workroom`은 GSD brief·production

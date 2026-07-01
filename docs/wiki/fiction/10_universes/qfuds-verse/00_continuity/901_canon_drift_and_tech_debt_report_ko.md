@@ -43,9 +43,10 @@ external source claim: no
 
 ### 1.1 로컬 정독 루프에서 추가된 드리프트 (루프 2~4, 2026-07-01)
 
-정독 진행률: 00_continuity 완료 · 10_world 완료 · 00_bible 완료 · 00_workroom 완료 ·
-10_story_design **전반부(002~018) 완료, 후반부(019~027) 진행 중** · 40_release 남음(루프 5).
-루프 2~5가 아래를 추가 확인했고, D1~D5와 겹치는 항목은 위 표에서 상태로 반영했다.
+정독 진행률: **고정 범위 완독 완료** (00_continuity · 10_world · 00_bible · 00_workroom ·
+10_story_design 완료, 40_release는 README+900 매니페스트로 인덱스 완료). drafts/revisions/
+archive는 고정 범위 밖(확장 여부는 사용자 결정). 루프 2~5가 아래를 추가 확인했고, D1~D5와
+겹치는 항목은 위 표에서 상태로 반영했다.
 
 | # | 드리프트 | 관련 문서 | 처리 |
 | --- | --- | --- | --- |
@@ -64,6 +65,9 @@ external source claim: no
 | DRIFT-017 | 10_story_design 내부 번호 체계 혼재 | 007·009·010·011·012·016 | 새 구조는 024 기준인데 일부 제목·본문이 legacy "1부/2부/Arc Two" 유지. 실행 기준=011 §10+024. stable ID 정책상 제목 보류 가능하나 상단 경고 유지. Chronicler Pass 대상 |
 | DRIFT-018 | 012/013 Mara reboot vs 016/017 Sael origin 병렬성 | 012·013·016·017 | 둘 다 "1부" 계열로 보이나 현 구조에선 사엘=1.5부/별도 origin, Mara=2부 자산. README·009 board에서 진입 경로 계속 강제 |
 | DRIFT-019 | story_design brainstorm의 승격 위험 | 014·027 | 014 sovereign-AI 축·027 프렐류드는 brainstorm/candidate. 선택된 씨앗만 bible 승격. candidate/brainstorm 라벨 유지(DRIFT-005와 동류) |
+| DRIFT-020 | 새 1부 체계와 기존 사엘 origin 체계 병존 | 016~023·024·025 | 016~023은 사엘 origin 중심 설계, 024·025가 오르페우스/캐스/사엘로 재중심화. 폐기 말고 "1.5부 사엘 origin 실행 패키지"로 라벨 고정 |
+| DRIFT-021 | 027 candidate 과잉밀도 | 027 | 신규 조직·인물·사건 대량 생성. 상단 candidate 경고 유지, 030~035와 같은 6체크 승격 게이트(DRIFT-005 동류) |
+| DRIFT-022 | 023 "복제품" 쉬운 표현 | 023 | 독자 오리엔테이션에서만 허용. canon 문서는 "사본/재구성체" 사용(025·021 정밀 구분). 038 원어 층과도 정합 |
 
 ## 2. Deprecated / 구프레임
 
