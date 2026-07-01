@@ -228,6 +228,22 @@ SSOT는 [024 캐릭터 지도](../20_series/qfuds-saga/00_bible/024_character_ma
 019  →  Arc 변화 (시간에 따른 입체화)
 ```
 
+### 3.3 생산·집행 층 (canon이 아니라 작가실 운영)
+
+캐논 3층(§3.1) 밑에 캐논이 아닌 **운영 선반**이 깔린다. `00_workroom`은 GSD brief·production
+board·traceability·하네스를 두고, 안정 세계 사실은 `00_bible`로 올린다. 핵심 진단(005·008):
+실패 원인은 도구 부재가 아니라 **미집행**이며, 008이 필요 집행 모듈 6개(Production Board·
+Chapter Intent Card·Chronicler Pass·Review Wave Protocol·QFUDS Style Packet·Truth-State
+Ledger)를 지정한다. 모듈별 상태는 [901 §5](901_canon_drift_and_tech_debt_report_ko.md)가 보유
+(현재 유일한 빈 모듈 = Truth-State Ledger).
+
+| 운영 선반 | 소유 | 성격 |
+| --- | --- | --- |
+| `00_workroom` | 방법·게이트·provenance | 집행층(canon 아님) |
+| `10_story_design` | 아웃라인·리빌·씬 카드 | 설계층 |
+| `40_release` | 릴리스 매니페스트 | 릴리스층 |
+| `20_drafts`·`30_revisions`·`90_archive` | 산문·개정·아카이브 | **감사 범위 밖** |
+
 ## 4. Dependency & Impact Graph (수정 시 영향)
 
 핵심 캐논 척추의 의존 관계(화살표 = "A는 B를 근거로 선다", 즉 B를 고치면 A가 흔들린다).
