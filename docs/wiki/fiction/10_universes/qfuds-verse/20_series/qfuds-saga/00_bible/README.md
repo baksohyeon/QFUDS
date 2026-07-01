@@ -54,6 +54,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | [020 AI·자동화·인간 확인 루프·아날로그 법정](020_ai_automation_human_in_the_loop_ssot_ko.md) | "왜 기계가 안 하고 사람이 도장을 찍나"의 제도 근거 |
 | [026 Q-Day 여파 타임라인과 세계 설정](026_qday_aftermath_timeline_and_world_ko.md) | 002가 비운 'Q-Day 직후~Long Plateau' 구간을 채우는 여파 타임라인+세계 설정(7인 패널 종합) |
 | [027 AI 발전사 냉소 화자 관통선](027_machine_childhood_ai_history_narrator_throughline_ko.md) | AI 발전사를 냉소적 화자 시점으로 꿰는 관통선 정본 |
+| [028 Q-Day 여파 14도메인 매트릭스](028_qday_world_system_14domain_matrix_ko.md) | 026의 부속 14도메인 인덱스·인과 매트릭스(026이 SSOT) |
 
 ## 인물
 

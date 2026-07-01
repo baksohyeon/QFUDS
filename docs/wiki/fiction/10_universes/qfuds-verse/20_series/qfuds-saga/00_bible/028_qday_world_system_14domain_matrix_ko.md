@@ -1,27 +1,32 @@
 ---
-doc_id: qfuds_saga_expert_panel_world_system_spec_ko
-title: QFUDS SAGA 14도메인 세계-체계 스펙과 인과 매트릭스
+doc_id: qfuds_saga_qday_world_system_14domain_matrix_ko
+title: QFUDS SAGA Q-Day 여파 14도메인 세계-체계 매트릭스 (026 부속)
 doc_type: guide
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
-  - qfuds_saga_expert_panel_world_system_handoff_ko
   - qfuds_saga_qday_aftermath_timeline_and_world_ko
   - qfuds_saga_cryptographic_death_and_hash_covenant_ko
   - qfuds_saga_factions_cultures_power_ecology_ko
-next_gate: candidate 유지. §1 충돌 분류에서 hard-conflict 0 확인 후 worldbuilder 상세 작성. 00_bible 승격은 사용자 승인 뒤에만
+  - qfuds_saga_expert_panel_world_system_handoff_ko
+next_gate: 026이 SSOT. 이 문서는 026의 부속 14도메인 인덱스·인과 매트릭스. 도메인 상세 충돌 시 026 및 각 권위 bible이 우선
 last_updated: 2026-07-01
 ---
 
-# QFUDS SAGA 14도메인 세계-체계 스펙과 인과 매트릭스
+# QFUDS SAGA Q-Day 여파 14도메인 세계-체계 매트릭스 (026 부속)
 
 ## 이 문서의 자리
 
-[011 인계 브리프](011_expert_panel_world_system_handoff_ko.md)가 정한 하드 제약 위에서,
-Q-Day 이후 문명 재편을 14개 도메인 패널로 재절개한 **후보 세계-체계 스펙**이다.
-canon이 아니다. 각 도메인은 "무엇이 무너졌나"보다 **"무너진 뒤 무엇이 새 권력이
-되었나"**를 축으로 기존 캐논 세력·개념어에만 물린다.
+[026 Q-Day 여파 타임라인·세계](026_qday_aftermath_timeline_and_world_ko.md)의 **부속
+14도메인 매트릭스**다. 026이 Q-Day 여파 세계-체계의 SSOT이고, 이 문서는 그 위에
+얹은 도메인 인덱스와 인과 매트릭스다(승격 경로 A, 2026-07-01 사용자 승인). 026과
+충돌하면 026이 우선하고, 도메인 상세는 각 권위 bible(021·002·011·007·013·003·015·
+024·025)이 우선한다.
+
+작업 provenance는 [워크룸 011 인계 브리프](../00_workroom/011_expert_panel_world_system_handoff_ko.md)가
+보유한다. 각 도메인은 "무엇이 무너졌나"보다 **"무너진 뒤 무엇이 새 권력이 되었나"**를
+축으로 기존 캐논 세력·개념어에만 물린다.
 
 패널은 세계 안의 기관이 아니라 **작가실 생산 도구**다(011 하드 제약 8항). 이 문서는
 세계 설정 검토 렌즈일 뿐, 새 고유명사·새 사건·새 인물을 만들지 않는다.
@@ -30,7 +35,7 @@ canon이 아니다. 각 도메인은 "무엇이 무너졌나"보다 **"무너진
 fiction/provenance only
 research evidence: no
 external source claim: no
-캐논 상태: candidate (00_workroom). 00_bible 승격은 사용자 승인 게이트 뒤에만
+캐논 상태: canon 부속 (00_bible). 026이 SSOT, 이 문서는 부속 매트릭스
 ```
 
 ---
@@ -317,7 +322,7 @@ external source claim: no
 
 | 항목 | 상태 | 처리 |
 | --- | --- | --- |
-| 14도메인 패널 자체 | candidate (00_workroom) | 00_bible 승격은 사용자 승인 뒤에만 |
+| 14도메인 패널 자체 | canon 부속 (00_bible, 026 SSOT) | 2026-07-01 경로 A로 승격. 026이 우선 |
 | 도메인 하위 전문 분야(보험 모델·조세 등) | 형식만 제안 | 신규 제도·법전·무기 설정 발명 안 함 |
 | 5기 관측 전쟁 발발 경로 | 제안(026 D 계승) | "진짜 복원"은 논쟁 이론으로 격리(025) |
 | 핵 교환 실제 발생 여부 | 미정·패널 결정(026) | 미발생을 정합 권장안으로 유지 |
@@ -325,18 +330,16 @@ external source claim: no
 | 패널명 세계관화(Council 등) | 비채택 | 작가실 도구로만. in-world 기관 승격 별도 게이트 |
 | craft 도메인 13·14 | 생산측 렌즈 | in-world canon 후보 아님 |
 
-## 5. 026 정합 레이어와의 관계 (승격 시 결정 사항)
+## 5. 026과의 관계 (승격 경로 A, 확정)
 
-이 문서는 026을 **대체하지 않는다.** 026이 7렌즈 종합 정합 레이어라면, 012는 그 위에
-14도메인 재절개 + 인과 매트릭스를 얹은 **후보 확장**이다. 00_bible 승격이 승인되면 다음
-중 하나를 사용자와 결정한다.
+이 문서는 026을 **대체하지 않는다.** 026이 7렌즈 종합 정합 레이어(SSOT)라면, 이 문서는
+그 위에 14도메인 재절개 + 인과 매트릭스를 얹은 **부속 인덱스**다. 2026-07-01 사용자
+승인으로 승격 경로 A(026 SSOT 유지, 이 문서는 도메인 매트릭스)를 확정했다.
 
-- (A) 012를 026의 부속 매트릭스로 병합(026이 SSOT 유지, 012는 도메인 인덱스).
-- (B) 012를 독립 bible 문서로 승격(026과 상호 참조, 충돌 우선순위는 026 §0 유지).
-- (C) craft 도메인(13·14)만 00_studio 생산 도구로 분리 배치.
-
-권장: 하드-conflict 0이고 대부분 확인·확장이므로 **(A) 병합**이 중복을 줄인다. 최종은
-사용자 승인 게이트에서 정한다.
+- 도메인 상세가 026과 갈리면 **026이 우선**한다(그리고 각 권위 bible: 021·002·011 등).
+- 이 문서는 **인과 매트릭스와 도메인 인덱스**를 맡는다. 새 캐논 사실을 단독으로 만들지
+  않는다.
+- craft 도메인(13·14)은 세계 설정이 아니라 생산측 렌즈이므로 in-world canon이 아니다.
 
 ## Boundary
 
@@ -346,7 +349,6 @@ research evidence: no
 external source claim: no
 ```
 
-이 문서는 026·007·003 위에 얹은 14도메인 세계-체계 후보 스펙이다. 새 캐논을 만들지
-않으며, 미정은 미정으로, 후보는 후보로 표시한다. 충돌 시 도메인 상세는 각 권위 bible
-(021·026·002·011·007·013·003·015·024·025)이 우선한다. 00_bible 승격은 사용자 승인
-게이트 뒤에만 한다.
+이 문서는 026·007·003 위에 얹은 14도메인 세계-체계 매트릭스다(026 부속, 026이 SSOT).
+새 캐논 사실을 단독으로 만들지 않으며, 미정은 미정으로 표시한다. 충돌 시 도메인 상세는
+각 권위 bible(021·026·002·011·007·013·003·015·024·025)이 우선한다.

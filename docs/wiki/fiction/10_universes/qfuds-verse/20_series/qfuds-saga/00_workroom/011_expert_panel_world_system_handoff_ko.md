@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_qday_aftermath_timeline_and_world_ko
   - qfuds_saga_cryptographic_death_and_hash_covenant_ko
   - qfuds_saga_factions_cultures_power_ecology_ko
-next_gate: 012 14도메인 세계-체계 스펙을 후보로 유지. 00_bible 승격은 사용자 승인 후에만. 다음=승인 시 026 정합 레이어로 병합 여부 결정
+next_gate: 승격 완료(2026-07-01, 경로 A). 스펙은 bible 028로 승격됨. 이 브리프는 작업 provenance로 보존
 last_updated: 2026-07-01
 ---
 
@@ -19,20 +19,21 @@ last_updated: 2026-07-01
 ## 이 문서의 자리
 
 이 문서는 "Q-Day 이후 문명 재편을 14개 도메인 패널로 세분화하자"는 작가 입력을
-저장소 규칙에 맞춰 **후보(candidate) 인계 브리프**로 정리한 것이다. canon이 아니다.
-다음 에이전트가 같은 규칙을 다시 발견하느라 시간을 쓰지 않도록, 무엇을 읽고 어떤
-순서로 실행하며 어디서 멈춰야 하는지를 한 장에 모은다.
+저장소 규칙에 맞춰 정리한 **작업 인계 브리프**다. 무엇을 읽고 어떤 순서로 실행하며
+어디서 멈춰야 하는지를 한 장에 모은다.
 
-실제 14도메인 상세 스펙과 인과 매트릭스는
-[012 14도메인 세계-체계 스펙](012_expert_panel_world_system_spec_ko.md)이 보유한다.
-이 브리프(011)는 프레이밍·게이트·읽기 순서를 맡고, 012는 스펙을 맡는다.
+> **승격 완료(2026-07-01, 경로 A):** 실제 14도메인 상세 스펙과 인과 매트릭스는 사용자
+> 승인으로 bible로 승격됐다 →
+> [028 Q-Day 여파 14도메인 매트릭스](../00_bible/028_qday_world_system_14domain_matrix_ko.md)
+> (026 부속, 026이 SSOT). 이 브리프(011)는 이제 **작업 provenance**로 보존한다.
+> 프레이밍·게이트·읽기 순서를 맡는다.
 
 ```text
 fiction/provenance only
 research evidence: no
 external source claim: no
 workflow: Fiction IP Management + Agentic Fiction Production
-캐논 상태: candidate (00_workroom). 00_bible 승격은 사용자 승인 게이트 뒤에만
+캐논 상태: 스펙은 028로 승격(canon 부속). 이 브리프(011)는 provenance
 ```
 
 ## 핵심 판정: 이건 "새 세계 짓기"가 아니라 "기존 캐논 위 확장"이다
@@ -102,10 +103,10 @@ work-local 역할은 실행 모드로 매핑한다(agentic-fiction-production-wo
 ```text
 production board (009) 열기·유닛 등록
   -> canon-guardian(continuity 모드): 14도메인이 026·007·003과 충돌하는지 분류
-  -> 충돌 없으면 worldbuilder(continuity+chronicler 모드): 14도메인 상세 스펙 + 인과 매트릭스 작성 (012)
+  -> 충돌 없으면 worldbuilder(continuity+chronicler 모드): 14도메인 상세 스펙 + 인과 매트릭스 작성
   -> chronicler 패스: 미정·후보·충돌 표시 정리
   -> verification: validate_docs / research_consistency / fiction_gate --staged
-  -> 00_bible 승격은 사용자 승인 게이트 뒤에만
+  -> 00_bible 승격은 사용자 승인 게이트 뒤에만 (완료: 2026-07-01, 경로 A → bible 028)
 ```
 
 | work-local 역할 | 이 작업에서 수행하는 모드 |
@@ -119,9 +120,9 @@ production board (009) 열기·유닛 등록
 
 | 게이트 | 상태 | 통과 조건 |
 | --- | --- | --- |
-| candidate 등록 | 통과 | 011·012를 00_workroom에 후보로 둠 |
-| canon 충돌 분류 | 012 §1에서 수행 | 하드 제약 8항 위반 0, 충돌 표에 hard-conflict 0 |
-| 00_bible 승격 | **보류** | 사용자 명시 승인 필수. 승격 시 026 정합 레이어 병합 여부 결정 |
+| candidate 등록 | 통과 | 011·스펙을 00_workroom에 후보로 둠 |
+| canon 충돌 분류 | 통과 | 028 §1에서 수행. 하드 제약 8항 위반 0, 충돌 표에 hard-conflict 0 |
+| 00_bible 승격 | **통과(2026-07-01)** | 사용자 승인, 경로 A. 스펙 → bible 028(026 부속, 026 SSOT) |
 | release-facing 반영 | 미해당 | 이 작업은 세계 설정 레이어이며 prose 게이트 대상 아님 |
 
 ## 검증 체인

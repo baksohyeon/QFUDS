@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_restoration_mechanism_correction_ko
   - qfuds_saga_factions_canon_naming_ko
 next_gate: update the authority row whenever a new domain-owning bible is added
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 캐논 권위·SSOT 지도
@@ -37,6 +37,7 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | 세력·기관 고유명(라틴명 등) | [015](015_factions_canon_naming_ko.md) | 장부 가문 = **Domus Clavium**(Tabularii/Registri 폐기) |
 | 인과·기원(무엇이 진짜였나) | [010](010_last_archive_origin_and_reversal_causality_ko.md) | 002·006 AGI-Archive 모순은 010이 해소 |
 | 연표·복원 행정 | [011](011_chronology_restoration_admin_black_hole_seat_ko.md) | |
+| Q-Day 여파 세계-체계 | [026](026_qday_aftermath_timeline_and_world_ko.md) | 부속 14도메인 매트릭스·인과 인덱스=[028](028_qday_world_system_14domain_matrix_ko.md)(026이 SSOT) |
 | 세력 생태·권력 | [003](003_factions_cultures_power_ecology_ko.md) | 명칭은 015 우선 |
 | 비트코인 위상·이념 | [017](017_bitcoin_stature_ideology_deeptime_ko.md) | 신화 소재=005, 암호 개념=013 |
 | 인간 확인 루프·AI 텍스처 | [020](020_ai_automation_human_in_the_loop_ssot_ko.md) | |
