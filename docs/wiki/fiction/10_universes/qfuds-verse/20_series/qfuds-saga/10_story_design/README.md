@@ -64,6 +64,10 @@ fiction/provenance only, QFUDS 연구 증거 아님.
 | [007 Arc Two Korean-Primary Plan](007_arc_two_korean_primary_plan_ko.md) | 2부 한국어 우선 집필 계획 |
 | [010 2부 에피소드 맵](010_arc_two_episode_map_ko.md) | 2부 에피소드 단위 맵 |
 
+> 세계 밀도 대사전(고유명사·지명·세력·인물·사건·어휘)은 universe 공유 세계로 올라갔다:
+> [qfuds-verse/10_world/030 세계 확장 웨이브 1](../../../10_world/030_world_expansion_wave1_names_places_events_ko.md).
+> 시리즈는 플롯·캐스트만, 공유 세계 대사전은 universe 레벨에 둔다.
+
 ## 보조
 
 | 문서 | 역할 |

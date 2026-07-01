@@ -13,7 +13,7 @@ depends_on:
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
   - fiction_reader_onboarding_harness_ko
 next_gate: revise B1-B7 cards only if this check finds a release-blocking onboarding gap
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 암호 개념 독자 온보딩 점검
@@ -27,9 +27,9 @@ last_updated: 2026-06-21
 
 - [016 origin outline](016_first_arc_origin_outline_ko.md)
 - [017 origin scene cards](017_first_arc_origin_scene_cards_ko.md)
-- [013 Cryptographic Death 상세 설정](../00_bible/013_cryptographic_death_era_and_crypto_concepts_ko.md)
-- [007 Hash Covenant](../00_bible/007_cryptographic_death_and_hash_covenant_ko.md)
-- [017 Bitcoin 위상](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md)
+- [013 Cryptographic Death 상세 설정](../../../10_world/013_cryptographic_death_era_and_crypto_concepts_ko.md)
+- [007 Hash Covenant](../../../10_world/007_cryptographic_death_and_hash_covenant_ko.md)
+- [017 Bitcoin 위상](../../../10_world/017_bitcoin_stature_ideology_deeptime_ko.md)
 - [Reader Onboarding Harness](../../../../../00_studio/010_reader_onboarding_harness_ko.md)
 
 Boundary:

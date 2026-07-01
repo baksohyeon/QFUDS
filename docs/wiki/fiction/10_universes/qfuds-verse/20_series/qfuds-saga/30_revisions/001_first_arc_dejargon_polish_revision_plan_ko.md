@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_polish_read_order_pass
   - fiction_prose_verisimilitude_audit_checklist_ko
 next_gate: apply to 019-024, then audit with naturalness/content-fidelity agents
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획
@@ -25,7 +25,7 @@ workflow state: `not searched`.
 
 한국어 정본 v2 각색본(019-024)이 prose 본문에서 영어 일반명사를 과도하게
 유지한다. 이는 canon 규칙
-[bible 006](../00_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
+[bible 006](../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md)
 §389-393("한국어 본문은 직역투가 아니라 한국어 소설로 읽혀야 한다")을 위반한다.
 
 퇴고 전 영어성 토큰 density(측정):

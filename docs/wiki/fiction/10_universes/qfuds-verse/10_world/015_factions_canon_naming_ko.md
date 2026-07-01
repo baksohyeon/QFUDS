@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_canon_consolidation_ko
   - qfuds_saga_factions_cultures_power_ecology_ko
 next_gate: thread fixed faction names into arc-two prose (026/027)
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 세력 명칭 Canon 확정
@@ -19,7 +19,7 @@ last_updated: 2026-06-20
 
 이 문서는 세력·제도 명칭을 **확정 canon**으로 고정한다.
 [007 Hash Covenant](007_cryptographic_death_and_hash_covenant_ko.md)가 "후보
-상태"로 남긴 Latin 제도명, [008 첫 Arc 정리](008_first_arc_canon_consolidation_ko.md)가
+상태"로 남긴 Latin 제도명, [008 첫 Arc 정리](../20_series/qfuds-saga/00_bible/008_first_arc_canon_consolidation_ko.md)가
 초안에서 끌어온 제도, [003 세력 장부](003_factions_cultures_power_ecology_ko.md)의
 세력을 한 표로 합쳐 정사 명칭을 정한다.
 
@@ -40,7 +40,7 @@ name(English) + 한국어 기능 명칭. 표기가 흩어졌던 곳은 여기서
 extraction product, source-product availability claim을 만들지 않는다.
 
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)가
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)가
 계속 지배한다.
 
 현재 workflow state:

@@ -13,48 +13,37 @@ last_updated: 2026-07-01
 
 # QFUDS SAGA 00_bible 지도
 
-작품 설정 기준서(canon)가 사는 선반이다. 세계 사실, 인물, 제도, 과학 경계가 여기
-있다. 운영 절차나 산문 원고는 두지 않는다. authoring baseline: 2026-06-30.
-universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS 연구
-증거 아님.
+이 시리즈(qfuds-saga) **전용** 설정 기준서가 사는 선반이다. 인물·시점·주제·첫 Arc·
+AI사 관통선이 여기 있다. **공유 세계 캐논(세력·물리·역사·명칭·Q-Day 여파)은 universe
+레벨 [`../../../10_world`](../../../10_world/)·[`../../../00_continuity`](../../../00_continuity/)로
+이동했다**(2026-07-01 재레벨링). 운영 절차나 산문 원고는 두지 않는다. authoring
+baseline: 2026-06-30. universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance
+only, QFUDS 연구 증거 아님.
 
 ## 먼저 여기
 
 | 상황 | 문서 |
 | --- | --- |
-| 설정 권위가 어디 있나 (어느 문서가 이기나) | [000 캐논 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) |
+| 설정 권위가 어디 있나 (어느 문서가 이기나) | [000 캐논 권위·SSOT 지도](../../../00_continuity/000_canon_authority_and_ssot_map_ko.md) |
 | 첫 Arc 설정을 한 번에 | [008 첫 Arc Canon 정리](008_first_arc_canon_consolidation_ko.md) |
-| "복원이 물리적으로 불가능하지 않나" 의문 | [021 복원 메커니즘 정정](021_restoration_mechanism_correction_ko.md) (필독: 복원=사본, 엔트로피 역전 불가) |
+| "복원이 물리적으로 불가능하지 않나" 의문 | [021 복원 메커니즘 정정](../../../10_world/021_restoration_mechanism_correction_ko.md) (필독: 복원=사본, 엔트로피 역전 불가) |
 
 > 이야기 자체가 처음이면 bible보다 [story_design 023 세계관·인물 한눈에](../10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md)를 먼저 본다.
 
-## 세계 규칙·물리·암호
+## 공유 세계·연속성은 universe 레벨로 이동 (2026-07-01 재레벨링)
+
+세계 규칙·물리·암호·세력·명칭·역사·Q-Day 여파는 이제 series bible이 아니라 universe
+공유 세계에 산다. 여러 작품이 이 세계를 상속한다. 여기서는 포인터만 둔다.
+
+- 공유 세계 캐논: [../../../10_world/](../../../10_world/) (001 세계앵커·003 세력·005 비트코인신화·006 문명사·007 암호적죽음·009 독자접근성·010 라스트아카이브·013 암호개념·015 명칭·017 비트코인이념·018 컴펜디움·020 인간확인루프·021 복원물리·025 물리·026 Q-Day·028 매트릭스)
+- 연속성·권위·연표: [../../../00_continuity/](../../../00_continuity/) (000 권위 지도·002 딥타임 연표·011 복원 행정)
+
+## 이 선반(series bible)에 사는 것: 첫 Arc·AI사 관통선
 
 | 문서 | 역할 |
 | --- | --- |
-| [001 세계 기준점과 핍진성 규칙](001_world_anchor_and_verisimilitude_ko.md) | 이 세계가 지키는 현실 앵커와 그럴듯함의 경계 |
-| [005 Bitcoin Genesis Chain과 복원 신화](005_bitcoin_genesis_chain_and_restoration_myth_ko.md) | 비트코인의 위상과 복원 신화의 기원 |
-| [007 암호학적 죽음과 해시 계약](007_cryptographic_death_and_hash_covenant_ko.md) | 일방향 함수 붕괴(Q-Day)와 그 위에 선 약속들 |
-| [013 Cryptographic Death 대격변과 암호 개념](013_cryptographic_death_era_and_crypto_concepts_ko.md) | 암호 개념 상세 설정 |
-| [010 Last Archive 기원·역연산 인과·죽음의 평등](010_last_archive_origin_and_reversal_causality_ko.md) | Last Archive의 기원과 인과 구조 |
-| [021 복원 메커니즘 정정 (정보 역산 + 인공 신체)](021_restoration_mechanism_correction_ko.md) | **치명적 결함 교정.** 복원=손실적 데이터 재구성 사본, 부활 아님 |
-| [017 비트코인 위상·이념전쟁·심층시간](017_bitcoin_stature_ideology_deeptime_ko.md) | 비트코인 이념전쟁과 장기시간 유효성 |
-| [018 세계관 컴펜디움](018_world_compendium_codex_ko.md) | 세계 설정 종합 코덱스 |
-| [025 in-world 정보·유니터리·복원 물리](025_in_world_physics_information_unitarity_restoration_ko.md) | 작중 정보 보존·유니터리 진화·복원의 물리 근거 |
-
-## 연표·문명사·제도
-
-| 문서 | 역할 |
-| --- | --- |
-| [002 장기 복원 문명사 타임라인](002_deep_time_restoration_timeline_ko.md) | 복원 문명의 장기 연대기 |
-| [006 Post-AGI 문명사와 이중언어 프로토콜](006_post_agi_civilization_history_bilingual_protocol_ko.md) | AGI 이후 문명사 + 한국어 우선 이중언어 규약 |
-| [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
-| [003 세력·문화·권력·생태계 장부](003_factions_cultures_power_ecology_ko.md) | 세력·문화·권력 관계 장부 |
-| [015 세력 명칭 Canon 확정](015_factions_canon_naming_ko.md) | 세력 이름 canon |
-| [020 AI·자동화·인간 확인 루프·아날로그 법정](020_ai_automation_human_in_the_loop_ssot_ko.md) | "왜 기계가 안 하고 사람이 도장을 찍나"의 제도 근거 |
-| [026 Q-Day 여파 타임라인과 세계 설정](026_qday_aftermath_timeline_and_world_ko.md) | 002가 비운 'Q-Day 직후~Long Plateau' 구간을 채우는 여파 타임라인+세계 설정(7인 패널 종합) |
-| [027 AI 발전사 냉소 화자 관통선](027_machine_childhood_ai_history_narrator_throughline_ko.md) | AI 발전사를 냉소적 화자 시점으로 꿰는 관통선 정본 |
-| [028 Q-Day 여파 14도메인 매트릭스](028_qday_world_system_14domain_matrix_ko.md) | 026의 부속 14도메인 인덱스·인과 매트릭스(026이 SSOT) |
+| [008 첫 Arc Canon 정리](008_first_arc_canon_consolidation_ko.md) | 첫 Arc 설정을 한 번에 |
+| [027 AI 발전사 냉소 화자 관통선](027_machine_childhood_ai_history_narrator_throughline_ko.md) | 실제 AI 발전사를 사가 서두 관통선으로 꿰는 정본 |
 
 ## 인물
 
@@ -72,7 +61,6 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | 문서 | 역할 |
 | --- | --- |
 | [004 시점·주제·고유명사 규칙](004_narrative_pov_theme_naming_ko.md) | 서술 시점·주제·고유명사 규약 |
-| [009 비트코인 메타포 토대와 독자 접근성](009_reader_accessibility_and_real_world_anchors_ko.md) | 비트코인 메인 메타포와 독자 접근성·검증 대장 |
 | [014 작가 사유 렌즈 — 압축·SSOT·Soft Editing](014_authorial_lenses_compression_ssot_soft_editing_ko.md) | 압축·SSOT·동기화 + soft editing 텍스처 |
 | [022 기준 작성권 사상축](022_authorship_of_the_standard_theme_axis_ko.md) | 핵심 주제: 기준을 쓰는 자가 세계를 쓴다 |
 | [023 이념 비일관성 삼각](023_ideological_incoherence_triad_ko.md) | 세 양립 불가 신앙(보존/허무/패권) |

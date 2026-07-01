@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
   - qfuds_saga_mara_veyr_prologue_english_revision_ko
 next_gate: use this as the series reference chronology spine unless superseded
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 세계 기준점과 핍진성 규칙
@@ -24,7 +24,7 @@ admission이 아니다. 새 외부 source, asset, data product, product-availabi
 claim을 만들지 않는다.
 
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)
 가 계속 지배한다.
 
 현재 workflow state:

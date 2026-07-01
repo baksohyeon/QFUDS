@@ -49,10 +49,10 @@ arc 번호 cascade는 별도 승인 전까지 고치지 않는다.
 | Shelf | 역할 |
 | --- | --- |
 | [00_bible](00_bible/) | 작품 설정 기준서. 세계 사실, 인물, 제도, 과학 경계 |
-| [00_bible/000 canon authority map](00_bible/000_canon_authority_and_ssot_map_ko.md) | bible/story_design/draft 사이의 authority 확인 |
+| [00_bible/000 canon authority map](../../00_continuity/000_canon_authority_and_ssot_map_ko.md) | bible/story_design/draft 사이의 authority 확인 |
 | [00_bible/024 character map and timeline coordinates](00_bible/024_character_map_and_timeline_coordinates_ko.md) | 시대좌표. 인물 지도와 딥타임 구조 (캐논 진입점) |
-| [00_bible/025 near-future recenter](00_bible/025_in_world_physics_information_unitarity_restoration_ko.md) | 근미래 리센터. 인월드 물리 복원 기준 (캐논 진입점) |
-| [00_bible/026 Q-Day aftermath](00_bible/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 여파. 여파 타임라인과 세계 (캐논 진입점) |
+| [00_bible/025 near-future recenter](../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md) | 근미래 리센터. 인월드 물리 복원 기준 (캐논 진입점) |
+| [00_bible/026 Q-Day aftermath](../../10_world/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 여파. 여파 타임라인과 세계 (캐논 진입점) |
 | [00_bible/027 AI history throughline](00_bible/027_machine_childhood_ai_history_narrator_throughline_ko.md) | AI발전사 관통선. 기계 화자 throughline (캐논 진입점) |
 | [00_workroom](00_workroom/) | SAGA-local 운영 규칙, GSD brief, production board, traceability |
 | [10_story_design](10_story_design/) | outline, arc map, reveal plan, scene cards |

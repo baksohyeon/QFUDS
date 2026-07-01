@@ -12,7 +12,7 @@ depends_on:
   - qfuds_saga_world_compendium_codex_ko
   - qfuds_saga_first_arc_six_episode_outline_ko
 next_gate: superseded by 016 origin outline, 017 scene cards, 030 origin draft, and 011 §10 cascade ledger
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 1부 편별 통합 아웃라인
@@ -66,9 +66,9 @@ but/therefore(그래서·그러나)로 인과 연결되고, 끝마다 훅으로 
 fiction/provenance only. QFUDS 연구 증거 아님, 투자·가격 예측 아님. 세계 사실은
 bible이, 반전 배치는 story_design 008이, 구조 골격은 30_revisions 006이 보유한다.
 기술·역사 내용(비트코인 제네시스·딥페이크 시대·Shor/ECDSA·정보 보존·호킹복사)은
-[009 §2.5 검증 출처 대장](../00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)에서만
+[009 §2.5 검증 출처 대장](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md)에서만
 끌어 쓴다. 삼분파·사토시 미스터리·유효성 논쟁의 차용 규칙은
-[017](../00_bible/017_bitcoin_stature_ideology_deeptime_ko.md)이 지배한다.
+[017](../../../10_world/017_bitcoin_stature_ideology_deeptime_ko.md)이 지배한다.
 
 Research Asset and Product Workflow 적용. 새 웹 검색·논문·PDF·asset cache·extraction
 claim을 쓰지 않았다. 기존 SAGA 문서만 사용한다.

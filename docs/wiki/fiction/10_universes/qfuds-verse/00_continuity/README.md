@@ -7,13 +7,24 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: create work-level continuity under qfuds-saga if canon closes
-last_updated: 2026-06-20
+next_gate: 권위 지도(000)·딥타임 연표(002)·복원 행정 연표(011)를 여기서 관리. 시대 좌표 SSOT는 series 024
+last_updated: 2026-07-01
 ---
 
 # QFUDS Verse Continuity
 
-이 폴더는 `qfuds-verse`의 continuity policy를 둔다.
+이 폴더는 `qfuds-verse`의 continuity policy와 캐논 권위·연표 SSOT를 둔다.
+
+## Continuity 문서 (SSOT)
+
+2026-07-01 재레벨링으로 series bible에서 승격. 시대 좌표(인물별) SSOT는 series
+[024 캐릭터 지도](../20_series/qfuds-saga/00_bible/024_character_map_and_timeline_coordinates_ko.md)가 유지한다.
+
+| 문서 | 역할 |
+| --- | --- |
+| [000 캐논 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) | 충돌 시 어느 문서가 이기나(제작 권위 지도) |
+| [002 장기 복원 문명사 타임라인](002_deep_time_restoration_timeline_ko.md) | 0~9기 딥타임 연대기(연표 SSOT) |
+| [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
 
 ## Current Policy
 

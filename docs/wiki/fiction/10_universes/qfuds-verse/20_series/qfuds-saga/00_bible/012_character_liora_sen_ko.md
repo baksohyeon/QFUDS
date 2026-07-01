@@ -84,4 +84,4 @@ Liora에 적용. fiction/provenance only. 새 외부 source claim 없음.
 Wound는 프로테실라오스/라오다메이아 신화(밀랍 인형 = 손실 복사본)의 구조를 차용한
 **확정** 설정이다(고유명·줄거리 비복제). 프롤로그의 Remote Mourning 어머니 배경은
 인물 텍스처로 유지한다. 신화 차용 기록은
-[010 Influence Boundary](010_last_archive_origin_and_reversal_causality_ko.md).
+[010 Influence Boundary](../../../10_world/010_last_archive_origin_and_reversal_causality_ko.md).

@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_arc_two_korean_primary_plan_ko
   - qfuds_saga_who_may_refuse_korean_primary
 next_gate: approve arc-two episode map, then write 028 Korean primary
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 2부 GSD Phase Brief
@@ -104,8 +104,8 @@ Forbidden outputs:
 - 작품 index: [QFUDS SAGA README](../README.md)
 - Arc 설계: [Arc Two Plan](../10_story_design/007_arc_two_korean_primary_plan_ko.md),
   [반전 설계](../10_story_design/008_last_archive_reveal_architecture_ko.md)
-- bible: [인과 척추](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md),
-  [세력 canon](../00_bible/015_factions_canon_naming_ko.md),
+- bible: [인과 척추](../../../10_world/010_last_archive_origin_and_reversal_causality_ko.md),
+  [세력 canon](../../../10_world/015_factions_canon_naming_ko.md),
   [Liora 시트](../00_bible/012_character_liora_sen_ko.md)
 
 ## Acceptance Criteria

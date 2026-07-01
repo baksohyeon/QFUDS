@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
 next_gate: thread Act-1 deception + planted clues into prologue and first arc
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA Last Archive 반전 설계와 떡밥 배치
@@ -23,7 +23,7 @@ last_updated: 2026-06-20
 
 fiction/provenance only. 새 외부 source claim 없음. workflow state: `not searched`.
 세계 사실(무엇이 진짜인가)은
-[bible 010](../00_bible/010_last_archive_origin_and_reversal_causality_ko.md)이
+[bible 010](../../../10_world/010_last_archive_origin_and_reversal_causality_ko.md)이
 보유한다. 이 문서는 그것을 **언제·어떻게 독자에게 드러내는가**만 정한다.
 
 ## Influence Boundary

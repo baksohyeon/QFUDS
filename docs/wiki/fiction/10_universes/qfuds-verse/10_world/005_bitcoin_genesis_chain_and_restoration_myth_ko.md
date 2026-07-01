@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - concept_origin
 next_gate: use with 009/017; do not reduce Bitcoin to a dismissed dead relic
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA Bitcoin Genesis Chain과 복원 신화
@@ -41,12 +41,12 @@ validation, Level 2B admission이 아니다.
 ## Workflow Boundary
 
 이 문서는 사용자 제공 모티프와 기존
-[Concept Origin](../../../../../../../01_origin/concept_origin.md)을 창작 설정으로
+[Concept Origin](../../../../../01_origin/concept_origin.md)을 창작 설정으로
 정리한다. 새 외부 웹, PDF, 논문, 데이터 제품, cache, digitization,
 availability claim을 만들지 않는다.
 
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)
 가 계속 지배한다.
 
 현재 workflow state:

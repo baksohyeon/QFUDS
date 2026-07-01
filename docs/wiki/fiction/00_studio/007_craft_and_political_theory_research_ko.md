@@ -9,7 +9,7 @@ depends_on:
   - fiction_university_creative_writing_reference_matrix_ko
   - fiction_prose_verisimilitude_audit_checklist_ko
 next_gate: apply incluing ladder + theory anchors to first-arc opening revision
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # Fiction 창작 기법·정치이론 자료조사 (비약 없는 노출 + 세계규칙 실증 앵커)
@@ -105,5 +105,5 @@ Wikipedia Company scrip(partial).
 ## Next Use
 
 이 자료는
-[비트코인 독자 접근성 + 실제 이론 앵커 bible](../10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/009_reader_accessibility_and_real_world_anchors_ko.md)과
+[비트코인 독자 접근성 + 실제 이론 앵커 bible](../10_universes/qfuds-verse/10_world/009_reader_accessibility_and_real_world_anchors_ko.md)과
 첫 arc 오프닝 퇴고가 집행한다.

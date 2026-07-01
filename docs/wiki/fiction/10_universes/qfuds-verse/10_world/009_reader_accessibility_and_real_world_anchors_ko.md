@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_world_anchor_and_verisimilitude_ko
   - fiction_craft_and_political_theory_research_ko
 next_gate: apply grounded bitcoin and AGI/LLM personhood anchors to 029 first-arc reboot manuscript
-last_updated: 2026-06-21
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 비트코인 메인 메타포 토대와 독자 접근성
@@ -35,7 +35,7 @@ last_updated: 2026-06-21
 이 문서는 외부 웹 출처를 fiction/창작 reference로만 인용한다. QFUDS support,
 validation, physical-source claim, Bitcoin 투자/가격 예측을 만들지 않는다.
 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../../../../../.agent/workflows/research-asset-product-workflow.md)가
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md)가
 지배한다.
 
 현재 research asset workflow state / extraction potential:
@@ -56,7 +56,7 @@ Reserve(2025-03-06, hit_not_cached). 비가역성 다리 = Wikipedia "Landauer's
 principle", Bennett reversible-computation notes (hit_not_cached).
 일부 craft 출처는 inaccessible(403). 캐시 자산 없음(reference 읽기, not_extractable).
 세부 craft·이론 목록은
-[007 craft·정치이론 자료조사](../../../../../00_studio/007_craft_and_political_theory_research_ko.md)에.
+[007 craft·정치이론 자료조사](../../../00_studio/007_craft_and_political_theory_research_ko.md)에.
 
 최신 제도권 사실 spot-check(2026-06-21):
 
@@ -458,5 +458,5 @@ prose에 출처명을 드러내지 않고 구조만 녹인다.
 ## Next Use
 
 이 토대를 first-arc active reboot manuscript
-[029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)가 집행한다. 028 및
+[029](../20_series/qfuds-saga/20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)가 집행한다. 028 및
 019-024는 pre-reboot prototype/provenance다.

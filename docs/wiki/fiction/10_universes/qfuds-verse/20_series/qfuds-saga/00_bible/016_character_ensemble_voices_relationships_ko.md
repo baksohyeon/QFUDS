@@ -105,7 +105,7 @@ last_updated: 2026-07-01
 - 장부 가문 이름(정합 확정): bible [004](004_narrative_pov_theme_naming_ko.md)의
   통용명/공식명 이중 구조를 적용한다. **통용명 = `장부 가문`(한국어 프로즈) /
   `the Ledger House`(영어 통용)**, **공식 캐논명 = `Domus Clavium`**(bible
-  [015](015_factions_canon_naming_ko.md), 의례·법정 정식 호칭에만). 프로즈 본문은
+  [015](../../../10_world/015_factions_canon_naming_ko.md), 의례·법정 정식 호칭에만). 프로즈 본문은
   통용명을 쓴다. 드리프트였던 `House Tabularii`는 더 쓰지 않는다(기존 영어 드래프트
   등장 시 `the Ledger House` 또는 `Domus Clavium`으로 교체).
 - 영어 일반명사(`mark`, `evidence` 등)는 본문에서 한국어로 옮긴다. `mark`는

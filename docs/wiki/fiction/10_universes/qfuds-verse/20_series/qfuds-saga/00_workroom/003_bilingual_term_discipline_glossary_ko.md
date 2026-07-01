@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_agentic_system_ko
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
 next_gate: apply to first-arc Korean adaptations 019-024 dejargon polish
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # QFUDS SAGA 이중언어 용어규율 글로서리
@@ -22,7 +22,7 @@ last_updated: 2026-06-20
 
 이 문서는 운영 스펙이다. 세계관 canon이 아니라, prose를 다듬을 때 적용하는
 작가실 규율이다. canon 출처는
-[bible 006](../00_bible/006_post_agi_civilization_history_bilingual_protocol_ko.md)
+[bible 006](../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md)
 §Korean-Primary Bilingual Fiction Protocol이다.
 
 ## 적용 경계

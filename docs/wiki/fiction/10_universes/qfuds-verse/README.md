@@ -10,7 +10,7 @@ depends_on:
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
 next_gate: continue qfuds-saga arc planning under normalized work shelves
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # QFUDS Verse
@@ -53,8 +53,13 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 - Core science-fiction premise: 정보는 완전히 사라지지 않을 수 있고, 먼
   미래 문명은 그 잔상을 복원하려 한다.
-- Institutions: [10_world/](10_world/)에서 관리한다.
-- Factions: `20_series/qfuds-saga/00_bible/`에서 개발 중이다.
+- Institutions: [10_world/](10_world/)에서 관리한다. 공유 세계 캐논(세력 003·명칭 015·
+  물리 021/025·암호 전제 007/013·역사 005/006/017·Q-Day 026/028 등)은 이제 여기(`10_world`)에
+  산다. 듄급 세계 밀도 대사전은 [10_world/030](10_world/030_world_expansion_wave1_names_places_events_ko.md)
+  candidate register에서 웨이브로 확장한다.
+- Factions: SSOT는 `10_world/`(003 세력·015 명칭)이 보유하고, 하위 가문·분파 확장은
+  10_world/030에서 후보로 짓는다.
+- Continuity: 캐논 권위 지도(000)·딥타임 연표(002)·복원 행정 연표(011)는 [00_continuity/](00_continuity/)에 있다.
 - Technology limits: 기술어는 보존한다. `hash`, `KDF`, `key`, `salt`,
   `collision`, `entropy`, `Hawking radiation`, `AGI`, `QFUDS`는 근거 없이
   별칭으로 바꾸지 않는다.
