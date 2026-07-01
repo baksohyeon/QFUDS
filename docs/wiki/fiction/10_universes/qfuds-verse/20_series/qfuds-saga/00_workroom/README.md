@@ -42,6 +42,8 @@ authoring baseline: 2026-06-30. fiction/provenance only, QFUDS 연구 증거 아
 | [012 근미래 예측 패널 방법](012_near_future_forecast_panel_method_ko.md) | 근미래 예측 멀티에이전트 방법·역량 분기 규칙 |
 | [013 실세계·물리 리서치 앵커 대장](013_real_world_and_physics_research_anchors_ko.md) | 핍진성 닻(실세계·물리 중립 리서치 앵커) |
 | [014 Truth-State Ledger](014_truth_state_ledger_ko.md) | 장별 인물·독자·세계 지식 상태 원장 (008 6모듈 중 빈 모듈 채움) |
+| [015 Chronicler Pass 계획](015_chronicler_pass_plan_ko.md) | 전문 감사 위 단계별 편집(마이그레이션) 실행 플랜 |
+| [016 최종 통합 Chronicler Report](016_qfuds_verse_final_chronicler_report_ko.md) | 전 범위 감사·의존성 그래프·draft 드리프트 addendum·P0/P1/P2 로드맵 |
 
 ## Boundary
 
