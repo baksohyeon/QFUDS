@@ -27,6 +27,13 @@ last_updated: 2026-07-01
 | [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
 | [036 먼 미래 심층시간 연대기](036_far_future_deep_time_chronicle_ko.md) | 002 5~9기를 수만~수억 년 물리 시계에 건 심층시간 확장(스파이스=검증 기록). 002 SSOT 위 레이어 |
 
+## 감사·메타 리포트 (900번대, 읽기 전용 산출물)
+
+| 문서 | 역할 |
+| --- | --- |
+| [900 월드빌딩 아키텍처 지도](900_worldbuilding_architecture_ko.md) | in-scope 80문서 인덱스·권위 트리·도메인 소유·의존/영향 그래프 |
+| [901 Canon Drift·Tech Debt 리포트](901_canon_drift_and_tech_debt_report_ko.md) | 드리프트 원장·중복 병합 후보·candidate 백로그·리팩터 P0/P1/P2 |
+
 ## Current Policy
 
 | Layer | Status | Rule |
