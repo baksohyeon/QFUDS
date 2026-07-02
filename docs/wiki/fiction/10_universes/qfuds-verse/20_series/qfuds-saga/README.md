@@ -10,7 +10,7 @@ depends_on:
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
 next_gate: check 011 guide and production board before choosing the next active unit
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA
@@ -20,6 +20,10 @@ last_updated: 2026-07-01
 이 README는 SAGA 작업 선반의 짧은 입구다. 실행 절차는
 [Fiction Agentic Workflow Guide](../../../../00_studio/011_fiction_agentic_workflow_guide_ko.md)가,
 오늘 작업은 [SAGA production board](00_workroom/009_saga_production_board_ko.md)가 정한다.
+
+**전체를 한 장으로 쭉 보고 싶을 때 →
+[000 SAGA 백과사전](000_saga_encyclopedia_ko.md)** (모든 문서의 요약·상태·다음 할 일을
+자동 조립. 문서가 바뀌면 `python3 scripts/build_saga_digest.py` 재실행으로 갱신).
 
 ```text
 작업 시작 순서:
