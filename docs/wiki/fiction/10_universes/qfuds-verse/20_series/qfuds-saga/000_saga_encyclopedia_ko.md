@@ -41,16 +41,16 @@ last_updated: 2026-07-02
 | --- | --- | --- |
 | 2026-07-02 | [QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태](10_story_design/009_format_throughline_and_progress_ko.md) | `10_story_design` |
 | 2026-07-02 | [QFUDS SAGA 세계관·인물 한눈에 (독자·작가 오리엔테이션)](10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md) | `10_story_design` |
+| 2026-07-02 | [QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](10_story_design/027_near_future_prelude_forecast_ko.md) | `10_story_design` |
 | 2026-07-02 | [QFUDS SAGA 시점 주제 고유명사 규칙](00_bible/004_narrative_pov_theme_naming_ko.md) | `00_bible` |
 | 2026-07-02 | [QFUDS SAGA 이념 비일관성 삼각 (세 양립 불가 신앙)](00_bible/023_ideological_incoherence_triad_ko.md) | `00_bible` |
 | 2026-07-02 | [QFUDS SAGA 캐릭터 지도와 타임라인 좌표](00_bible/024_character_map_and_timeline_coordinates_ko.md) | `00_bible` |
+| 2026-07-02 | [QFUDS SAGA Production Board](00_workroom/009_saga_production_board_ko.md) | `00_workroom` |
 | 2026-07-01 | [QFUDS SAGA Last Archive 반전 설계와 떡밥 배치](10_story_design/008_last_archive_reveal_architecture_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 다부작 아크 지도](10_story_design/011_saga_arc_map_multiarc_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 5대 극적 질문 스파인](10_story_design/015_five_core_dramatic_questions_spine_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 1부 origin 아웃라인](10_story_design/016_first_arc_origin_outline_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 암호 개념 독자 온보딩 점검](10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md) | `10_story_design` |
-| 2026-07-01 | [사가 방향 전환 — 근미래 grounded SF로 무게중심 이동](10_story_design/025_near_future_recenter_direction_ko.md) | `10_story_design` |
-| 2026-07-01 | [기계 화자 보이스·복선·시대건너뛰기 구조 트리트먼트 (서사·보이스 렌즈)](10_story_design/026_machine_narrator_voice_and_setup_payoff_treatment_ko.md) | `10_story_design` |
 
 ## 3. 작업 큐 — 각 문서의 다음 할 일 (next_gate)
 
@@ -462,7 +462,7 @@ last_updated: 2026-07-02
 다음: 0부 프롤로그층 착수. 화자 문법·복선 회수 지도를 draft 집필의 연출 SSOT로 사용. 사실 앵커는 027이 우선
 
 #### [QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](10_story_design/027_near_future_prelude_forecast_ko.md)
-`draft` · 2026-07-01 · guide
+`draft` · 2026-07-02 · guide
 
 > 002 §2·011·026이 이름만 두고 비워 둔 **2020s-2090s "지수 성장기" 활주로**를, 근미래 예측 패널([workroom 012](../00_workroom/012_near_future_forecast_panel_method_ko.md))로 채운 대사전이다. 15개 전문가 렌즈가 오늘의 실제 앵커에서 2020s→2090s를 예측·생성하고, 교차압력 합성·캐논가드·현실성·인간욕망 검증을 거쳐 다층 타임라인(굵직/중요/국지/나비효과)과 신규 조직·인물·대립구도로 엮었다. 0부(20…
 
@@ -714,7 +714,7 @@ last_updated: 2026-07-02
 다음: convert selected gaps into local production board, chapter intent card, and review-wave templates
 
 #### [QFUDS SAGA Production Board](00_workroom/009_saga_production_board_ko.md)
-`draft` · 2026-07-01 · guide
+`draft` · 2026-07-02 · guide
 
 > 이 문서는 QFUDS SAGA의 현재 집필 실행 상태판이다. canon 문서가 아니다. 장편 생산 상태, 막힌 이유, 다음 행동, 검증 로그를 한 장에 모아 다음 에이전트가 같은 규칙을 다시 발견하느라 시간을 쓰지 않게 한다.
 
