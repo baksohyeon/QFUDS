@@ -17,6 +17,20 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
+# Subtrees under docs/ that are not QFUDS documentation and therefore are exempt
+# from the frontmatter schema and markdown-link hygiene. Currently this covers
+# Claude plugin sources (SKILL.md files use the plugin frontmatter `name`/
+# `description`, not the docs schema).
+EXCLUDED_DOC_PREFIXES = (
+    "docs/wiki/fiction/saga-fiction-studio/",
+)
+
+
+def is_excluded_doc(path: Path) -> bool:
+    rel = path.relative_to(ROOT).as_posix()
+    return rel.startswith(EXCLUDED_DOC_PREFIXES)
+
+
 REQUIRED_FIELDS = [
     "doc_id",
     "title",
@@ -340,6 +354,8 @@ def main() -> int:
     errors: list[str] = []
     doc_ids: dict[str, Path] = {}
     for path in sorted(DOCS.rglob("*.md")):
+        if is_excluded_doc(path):
+            continue
         errors.extend(validate_doc(path))
         try:
             frontmatter, _ = parse_frontmatter(path)

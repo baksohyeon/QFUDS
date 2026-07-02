@@ -1,0 +1,9 @@
+{
+  "name": "saga-fiction-studio",
+  "version": "0.1.0",
+  "description": "Web-novel / SAGA fiction production skills for the QFUDS repo: canon safety, scene drafting with a reader-onboarding harness, continuity and chronicler passes, reader-retention gating, note routing, and showrunner orchestration. Skills reference the repo's .agent/workflows and .agent/templates/fiction as the single source of truth.",
+  "author": {
+    "name": "Dorito"
+  },
+  "keywords": ["fiction", "web-novel", "saga", "qfuds", "canon", "continuity", "retention", "writing"]
+}
