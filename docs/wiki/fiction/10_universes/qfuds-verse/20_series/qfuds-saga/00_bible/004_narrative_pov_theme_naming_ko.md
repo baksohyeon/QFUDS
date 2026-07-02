@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_factions_cultures_power_ecology_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
 next_gate: apply as active POV/theme/naming defaults; 015 overrides faction formal names
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA 시점 주제 고유명사 규칙
@@ -184,7 +184,7 @@ needs faction contrast     -> rotating 3rd-limited POV
 | 연속성 법원 | Court of Continuance | Curia Continuationis | 로마법/교회법/판례 |
 | 복원청 | Ministry of Restoration | Diwan al-Restitution | 제국 행정, 장부, 복원 허가 |
 | 원장 가문 | Ledger Houses | Domus Clavium | key 소유 귀족, 상업 귀족, 불변원장 (015 확정) |
-| 원장 성채 | Ledger Keeps | Castra Tabularii | 성채, 군영, 데이터 봉건제 |
+| 원장 성채 | Ledger Keeps | Castra Tabularii | 성채, 군영, 데이터 봉건제 (지명. 폐기된 세력명 Domus Tabularii와 별개; 세력=Domus Clavium) |
 | 알레테이아 베일 | Aletheia Veil | Velum Aletheiae / Custodes Velati | 계승, 결사, 수도회 |
 | 망각권 연맹 | League of Oblivion | Sangha Oblivionis | 해탈, 잊힐 권리, 수도원 |
 | 망각 수도원 | Oblivion Cloister | Cloister Anatta | 무아, 집착의 중단 |

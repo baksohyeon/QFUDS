@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_character_depth_sheets_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
 next_gate: 빈 구간(28세기→첫 복원) 보강과 사건×인물 연결의 백본으로 사용. 미정 항목은 chronicler pass로 확정
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA 캐릭터 지도와 타임라인 좌표
@@ -105,7 +105,7 @@ Ione ─[내부 분열: 적색 복원파 vs 흑색 망각파]─ 알레테이아
 Karvath ─[창업자↔강제 업로드 재료, 원죄]─ Vera
 Karvath ─[원인의 지점]─ 모든 비극
 
-사엘(1부) ┄[도장·선례가 수천 년 건너 전파]┄ 2부 청구 사건
+사엘(1.5부) ┄[도장·선례가 수천 년 건너 전파]┄ 2부 청구 사건
 ```
 
 ## 세력 표
