@@ -26,6 +26,14 @@ DOC_ID = "qfuds_saga_encyclopedia_ko"
 TITLE = "QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)"
 SUMMARY_MAX = 280
 
+# A doc self-declaring pre-reboot / pre-recenter labels via a drift banner.
+# Flag it so the digest never presents its stale body as current.
+STALE_MARKERS = ("드리프트 주의", "리센터 이전", "리부트 이전", "reboot 이전")
+STALE_NOTE = (
+    "**주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. "
+    "현행 매핑은 024·025·027 SSOT가 우선."
+)
+
 # Shelf order + human role. Drives section ordering top-to-bottom.
 SHELVES: list[tuple[str, str]] = [
     ("20_drafts", "실제 원고 (부/arc별). 지금 읽고 고치는 소설"),
@@ -112,6 +120,7 @@ def collect() -> dict[str, list[dict]]:
                 "next_gate": fm.get("next_gate", ""),
                 "doc_type": fm.get("doc_type", ""),
                 "summary": first_summary(body),
+                "stale": any(mark in body for mark in STALE_MARKERS),
             }
         )
     return by_shelf
@@ -161,6 +170,14 @@ def render(by_shelf: dict[str, list[dict]]) -> str:
         "[20_drafts 지도](20_drafts/README.md)가 최종 기준(SSOT)이다."
     )
     out.append("")
+    stale_docs = [d for d in all_docs if d["stale"]]
+    if stale_docs:
+        links = " · ".join(f"[{d['title'].split('(')[0].strip()}]({d['rel']})" for d in stale_docs)
+        out.append(
+            f"**리센터 이전 라벨 포함 {len(stale_docs)}개** (본문에 옛 부 번호 잔존, "
+            f"상단 SSOT 우선): {links}"
+        )
+        out.append("")
 
     # --- 선반 지도 ---
     out.append("## 1. 선반 지도 — 폴더가 곧 성숙 단계")
@@ -229,6 +246,9 @@ def render(by_shelf: dict[str, list[dict]]) -> str:
                 meta += f" · {d['doc_type']}"
             out.append(meta)
             out.append("")
+            if d["stale"]:
+                out.append(STALE_NOTE)
+                out.append("")
             if d["summary"]:
                 out.append(f"> {d['summary']}")
                 out.append("")

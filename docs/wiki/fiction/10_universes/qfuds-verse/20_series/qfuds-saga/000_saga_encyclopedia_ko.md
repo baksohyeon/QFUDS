@@ -18,6 +18,8 @@ last_updated: 2026-07-02
 
 수록 문서 94개 · 최신 갱신 기준 2026-07-02 · 완성/작성중 같은 판단은 [20_drafts 지도](20_drafts/README.md)가 최종 기준(SSOT)이다.
 
+**리센터 이전 라벨 포함 5개** (본문에 옛 부 번호 잔존, 상단 SSOT 우선): [QFUDS SAGA 첫 Arc Canon 정리](00_bible/008_first_arc_canon_consolidation_ko.md) · [QFUDS SAGA 주인공 시트 — Liora Sen](00_bible/012_character_liora_sen_ko.md) · [QFUDS SAGA 앙상블 캐릭터 보이스·관계 바이블](00_bible/016_character_ensemble_voices_relationships_ko.md) · [QFUDS SAGA 입체 캐릭터 시트](00_bible/019_character_depth_sheets_ko.md) · [QFUDS SAGA Truth-State Ledger](00_workroom/014_truth_state_ledger_ko.md)
+
 ## 1. 선반 지도 — 폴더가 곧 성숙 단계
 
 아이디어 → 설계 → 원고 → 교정 → 출간 순으로 익어간다.
@@ -37,16 +39,16 @@ last_updated: 2026-07-02
 
 | 갱신일 | 문서 | 선반 |
 | --- | --- | --- |
+| 2026-07-02 | [QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태](10_story_design/009_format_throughline_and_progress_ko.md) | `10_story_design` |
+| 2026-07-02 | [QFUDS SAGA 세계관·인물 한눈에 (독자·작가 오리엔테이션)](10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md) | `10_story_design` |
 | 2026-07-02 | [QFUDS SAGA 시점 주제 고유명사 규칙](00_bible/004_narrative_pov_theme_naming_ko.md) | `00_bible` |
 | 2026-07-02 | [QFUDS SAGA 이념 비일관성 삼각 (세 양립 불가 신앙)](00_bible/023_ideological_incoherence_triad_ko.md) | `00_bible` |
 | 2026-07-02 | [QFUDS SAGA 캐릭터 지도와 타임라인 좌표](00_bible/024_character_map_and_timeline_coordinates_ko.md) | `00_bible` |
 | 2026-07-01 | [QFUDS SAGA Last Archive 반전 설계와 떡밥 배치](10_story_design/008_last_archive_reveal_architecture_ko.md) | `10_story_design` |
-| 2026-07-01 | [QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태](10_story_design/009_format_throughline_and_progress_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 다부작 아크 지도](10_story_design/011_saga_arc_map_multiarc_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 5대 극적 질문 스파인](10_story_design/015_five_core_dramatic_questions_spine_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 1부 origin 아웃라인](10_story_design/016_first_arc_origin_outline_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 암호 개념 독자 온보딩 점검](10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md) | `10_story_design` |
-| 2026-07-01 | [QFUDS SAGA 세계관·인물 한눈에 (독자·작가 오리엔테이션)](10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md) | `10_story_design` |
 | 2026-07-01 | [사가 방향 전환 — 근미래 grounded SF로 무게중심 이동](10_story_design/025_near_future_recenter_direction_ko.md) | `10_story_design` |
 | 2026-07-01 | [기계 화자 보이스·복선·시대건너뛰기 구조 트리트먼트 (서사·보이스 렌즈)](10_story_design/026_machine_narrator_voice_and_setup_payoff_treatment_ko.md) | `10_story_design` |
 
@@ -334,7 +336,7 @@ last_updated: 2026-07-02
 다음: thread Act-1 deception + planted clues into prologue and first arc
 
 #### [QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태](10_story_design/009_format_throughline_and_progress_ko.md)
-`draft` · 2026-07-01 · guide
+`draft` · 2026-07-02 · guide
 
 > "단편인가 장편인가", "시리즈를 관통하는 드라마가 뭔가", "지금 어디까지 왔나"를 고정한다.
 
@@ -432,7 +434,7 @@ last_updated: 2026-07-02
 다음: master outline 승인 → B1 압축(030↔카드 정렬) → B2 산문 진입
 
 #### [QFUDS SAGA 세계관·인물 한눈에 (독자·작가 오리엔테이션)](10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md)
-`draft` · 2026-07-01 · guide
+`draft` · 2026-07-02 · guide
 
 > 이 문서는 "이게 대체 무슨 이야기냐"를 **가장 쉬운 말로** 한 장에 정리한 것이다. 캐논을 새로 만들지 않는다. 016/015/005 등 기존 설정에서 상속해 평이하게 옮긴 것뿐이다. 원고가 어려울 때 작가·독자가 돌아와 방향을 잡는 용도다.
 
@@ -485,12 +487,16 @@ last_updated: 2026-07-02
 #### [QFUDS SAGA 첫 Arc Canon 정리](00_bible/008_first_arc_canon_consolidation_ko.md)
 `draft` · 2026-07-01 · guide
 
+**주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
+
 > 이 문서는 `The Broken Crown` first arc rough draft 6개에서 새로 생긴 설정, 인물 기능, 제도 규칙, 미해결 hook을 series bible 관점으로 정리한 bridge다. 현행 독자 경로는 028 opening + 019-024 한국어 primary story order다.
 
 다음: align R6 first-arc rewrite with 028 + 019-024 story order
 
 #### [QFUDS SAGA 주인공 시트 — Liora Sen](00_bible/012_character_liora_sen_ko.md)
 `draft` · 2026-07-01 · guide
+
+**주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
 > [캐릭터 시트 템플릿](../../../../../../../../.agent/templates/fiction/character_sheet_template.md)을 Liora에 적용. fiction/provenance only. 새 외부 source claim 없음.
 
@@ -506,12 +512,16 @@ last_updated: 2026-07-02
 #### [QFUDS SAGA 앙상블 캐릭터 보이스·관계 바이블](00_bible/016_character_ensemble_voices_relationships_ko.md)
 `draft` · 2026-07-01 · guide
 
+**주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
+
 > 리텐션 테스트에서 독자들이 "모든 인물이 같은 한 명(작가)처럼 말한다"고 지적했다. 원인은 인물별 **목소리·배경·욕망**이 따로 설계되지 않아 대사가 전부 같은 격언 핑퐁으로 균질화된 것. 이 문서가 각 인물을 **대사 태그 없이도 누가 말하는지 알 수 있게** 차별화한다. Liora 상세는 [012 Liora 시트](012_character_liora_sen_ko.md)가 보유하고, 이 문서는 앙상블 전체의 보이스·관계를 잡는다.
 
 다음: differentiate dialogue per this sheet across 1부 (R2 voice pass)
 
 #### [QFUDS SAGA 입체 캐릭터 시트](00_bible/019_character_depth_sheets_ko.md)
 `draft` · 2026-07-01 · guide
+
+**주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
 > [012 Liora 시트](012_character_liora_sen_ko.md)는 주인공 한 명을, [016 앙상블 바이블](016_character_ensemble_voices_relationships_ko.md)은 전원의 보이스·관계 지도를, [010 기원](../../../10_world/010_last_archive_origin_and_reversal_causality_ko.md)은 Karvath·Vera의 출생과 Vera-Mara 거울을 보유한다. 이 문서는 그 셋이 이미 가진 설정을…
 
@@ -740,6 +750,8 @@ last_updated: 2026-07-02
 
 #### [QFUDS SAGA Truth-State Ledger (인물·독자·세계 지식 상태 원장)](00_workroom/014_truth_state_ledger_ko.md)
 `draft` · 2026-07-01 · guide
+
+**주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
 > 008 갭 감사가 지정한 필요 집행 모듈 6개 중 유일하게 비어 있던 모듈(빈 표, TBD)을 채운
 

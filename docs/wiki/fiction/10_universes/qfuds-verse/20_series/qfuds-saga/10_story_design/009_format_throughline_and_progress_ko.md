@@ -9,12 +9,12 @@ depends_on:
   - qfuds_saga_last_archive_reveal_architecture_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
 next_gate: build Liora protagonist sheet, then propagate foundation into first arc
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태
 
-> **드리프트 주의 (2026-07-01 리센터):** 부 구조·시대좌표·무게중심의 현행 SSOT는 024(캐릭터·시대좌표)·025(근미래 리센터)·027(관통선)이다. 현행 매핑 = 0부 캐스(036, 씨앗) / 1부 오르페우스(035, 오웬) / 1.5부 사엘(033, 제도) / 2부 마라(034, 신). 아래 본문의 "사엘=1부"·"마라/Liora=1부"·"먼 미래가 무대" 등은 리센터 이전 라벨이며 위 SSOT가 우선한다.
+> **현행 부 매핑:** 0부 캐스(036, 씨앗) / 1부 오르페우스(035, 오웬) / 1.5부 사엘(033, 제도) / 2부 마라(034, 신) / 3부 author-of-loss. 부 구조·시대좌표·무게중심 SSOT는 024·025·027. 이 문서는 형식·throughline만 고정하며, 시리즈 전체 POV·진행 상태는 아래에서 SSOT로 이관했다.
 
 ## 목적
 
@@ -35,7 +35,7 @@ workflow state `hit_not_cached`.)
 - **시작은 단편처럼, 끝은 사가처럼.** 각 에피소드는 독립된 법정 사건(복원 분쟁)으로
   단독으로 읽힌다. 그러나 사건이 쌓이며 같은 세계·같은 비밀(Last Archive 반전)으로
   수렴한다.
-- 1부 = 6개 법정 사건. 감사관 Liora Sen의 반복 POV가 사건들을 꿴다.
+- 2부 마라(034) = 6개 법정 사건. 감사관 Liora Sen의 반복 POV가 사건들을 꿴다.
 - 톤: 다크 제도 SF(법정·관료·복원 자본) + 휴머니즘 코어(동의·잊힐 권리·죽음의 평등).
 - 길이: 단편 연작으로 출발해 필요 시 아크가 길어지는 것을 허용(덴마처럼). 처음부터
   장편 한 덩어리로 설계하지 않는다.
@@ -61,21 +61,17 @@ workflow state `hit_not_cached`.)
 [008 반전 설계](008_last_archive_reveal_architecture_ko.md). Vera ↔ Mara **Veyr**의
 핏줄 연결이 그 반전의 개인적 열쇠다(010 §2).
 
-## 현재 진행 상태 (2026-06-21 기준)
+## 현재 진행 상태
 
-- **outline-first reboot로 전환됨.** 기존 6편 prototype(한국어 019-024 + 영어
-  012-017 + 프롤로그 028)은 in-place 퇴고를 중단하고 `20_drafts/2부/_versions/`로
-  보존. 죽은 1세대는 `90_archive/qfuds-saga_1부_legacy/`.
-- **1부 active 원고 = [029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)**:
-  프롤로그 + Ch1-5 작성됨(① Exhibit S-0 ② Dead Exchange ③ Last Hodler ④ Identity
-  Flood ⑤ Hawking Court), 다음은 Ch6 final human hearing. 구조 SSOT는
-  [012 아웃라인](012_first_arc_book1_outline_reboot_ko.md)·[013 scene cards](013_first_arc_scene_cards_ko.md).
-- **다음 단계**: (1) Ch6 집필로 1부 완성, (2) 1부 통합 퇴고/리텐션, (3) release
-  다듬기(사용자 게이트), (4) 2부 설계(`who may author loss`, 010·007).
+라이브 진행 상태·active 원고는
+[SAGA production board](../00_workroom/009_saga_production_board_ko.md)·[20_drafts 지도](../20_drafts/README.md)·[000 백과사전](../000_saga_encyclopedia_ko.md)이
+정한다. 이 문서는 형식·throughline만 고정한다. (참고: 029는 현행 2부 마라의 원천
+초고이며, 현행 풀길이는 034다.)
 
 ## 주인공 — Liora Sen (척추는 별도 시트로)
 
-Liora = 라우어 관측소(옛 검증·감사 부문의 후신) 감사관, 시리즈 반복 POV. 그녀의
+Liora = 라우어 관측소(옛 검증·감사 부문의 후신) 감사관, 2부 마라 아크의 반복 POV
+(다주인공 구조에서 시리즈 전체 POV 여부는 재확정 대상). 그녀의
 직업적 강박(정의되지 않은 것을 보존하라)이 곧 Last Archive의 강박(손실을 못
 견딘다)과 거울이자 대척이다 — 그녀는 "모름(unknown)"을 지키려 하고, Archive는
 "모름"을 못 견뎌 메우려 한다. 전체 want/need/wound/거짓말/아크는
