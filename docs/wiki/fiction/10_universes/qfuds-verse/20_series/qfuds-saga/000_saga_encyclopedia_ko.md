@@ -46,11 +46,11 @@ last_updated: 2026-07-02
 | 2026-07-02 | [QFUDS SAGA 이념 비일관성 삼각 (세 양립 불가 신앙)](00_bible/023_ideological_incoherence_triad_ko.md) | `00_bible` |
 | 2026-07-02 | [QFUDS SAGA 캐릭터 지도와 타임라인 좌표](00_bible/024_character_map_and_timeline_coordinates_ko.md) | `00_bible` |
 | 2026-07-02 | [QFUDS SAGA Production Board](00_workroom/009_saga_production_board_ko.md) | `00_workroom` |
+| 2026-07-02 | [QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)](00_workroom/013_real_world_and_physics_research_anchors_ko.md) | `00_workroom` |
 | 2026-07-01 | [QFUDS SAGA Last Archive 반전 설계와 떡밥 배치](10_story_design/008_last_archive_reveal_architecture_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 다부작 아크 지도](10_story_design/011_saga_arc_map_multiarc_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 5대 극적 질문 스파인](10_story_design/015_five_core_dramatic_questions_spine_ko.md) | `10_story_design` |
 | 2026-07-01 | [QFUDS SAGA 1부 origin 아웃라인](10_story_design/016_first_arc_origin_outline_ko.md) | `10_story_design` |
-| 2026-07-01 | [QFUDS SAGA 암호 개념 독자 온보딩 점검](10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md) | `10_story_design` |
 
 ## 3. 작업 큐 — 각 문서의 다음 할 일 (next_gate)
 
@@ -742,7 +742,7 @@ last_updated: 2026-07-02
 다음: 이 방법으로 예측 실행 → story_design 027 근미래 프렐류드 산출. 캐논 승격은 사용자 게이트
 
 #### [QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)](00_workroom/013_real_world_and_physics_research_anchors_ko.md)
-`draft` · 2026-07-01 · guide
+`draft` · 2026-07-02 · guide
 
 > 근미래 예측 세계관(로봇→노동→Q-Day)과 in-world 물리·먼 미래 우주론 substrate의 **핍진성 닻**을 신뢰 출처에서 긁어와 중립 톤으로 정리한 대장이다. 08개 리서치 렌즈(근미래 5 + 물리 3)의 결과다. 픽션은 이 자료를 "그럴듯함"의 근거로만 인용하고, 실제 예측·투자·정치 주장으로 쓰지 않는다.
 

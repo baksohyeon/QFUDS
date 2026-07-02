@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - research_cache_index
 next_gate: none; repository asset-cache routing only
-last_updated: 2026-06-18
+last_updated: 2026-07-02
 ---
 
 # Research Assets
@@ -58,3 +58,7 @@ Current product-family caches include:
   cached arXiv PDF/source assets for Source-X IV/geodesic-CDM same-family extraction.
 - [Wang 2015 Dark Matter Vacuum Interaction](wang_2015_dark_matter_vacuum_interaction/README.md) -
   cached arXiv PDF/source assets for Source-X historical IV/vacuum convention extraction.
+- [Gidney 2025 RSA Factoring with Under a Million Noisy Qubits](gidney_2025_rsa_factoring_noisy_qubits/README.md) -
+  cached arXiv PDF for the QFUDS SAGA fiction near-future verisimilitude anchor
+  (Q-Day acceleration context). Fiction/provenance anchor only; not QFUDS physics
+  evidence.

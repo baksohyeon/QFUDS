@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_near_future_forecast_panel_method_ko
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
 next_gate: 근미래 프렐류드(story_design 027)와 in-world 물리(025)의 핍진성 닻으로 인용. 픽션 전용, QFUDS 증거 아님
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)
@@ -29,6 +29,9 @@ workflow: Research Asset and Product Workflow 적용
   - 근미래 5종: state=hit_not_cached (WebSearch 스니펫 확인, 여러 원문은 자동 fetch 403, repo 캐시 안 함)
   - 물리 3종: state=hit_not_cached (alphaXiv MCP로 원문 열람, repo 자산 번들 저장은 안 함)
   - 이미 literature/에 있는 물리 논문은 중복 생성 없이 교차참조
+  - 2026-07-02 갱신(§A6): 신규 WebSearch 스니펫은 state=hit_not_cached. 단 Gidney 2025
+    (arXiv:2505.15917)만 PDF 정식 캐싱 = state=asset_cached, 매니페스트
+    [research/assets/gidney_2025_rsa_factoring_noisy_qubits](../../../../../../research/assets/gidney_2025_rsa_factoring_noisy_qubits/README.md)
 스타일: em dash 0, "박-" 슬랭 금지, 중립 톤(정치색 배제, 범위·복수추정 병기, contested 플래그)
 ```
 
@@ -152,6 +155,52 @@ workflow: Research Asset and Product Workflow 적용
 **픽션 매핑:** Q-Day(양자가 서명 붕괴)와 검증경제(Aletheia)의 직접 근거. C2PA 취약성 = "The
 Soft Editing"(위조 완벽화)의 현실 메커니즘. Arup 사건 = 근미래 딥페이크 재난의 단단한 닻.
 단, 작중 Q-Day 날짜는 극적 허구이며 실제 CRQC 시점 예측이 아님을 유지한다.
+
+### A6. 2026-07-02 갱신: 인식 위기는 이미 현재진행형 (state=asset_cached / hit_not_cached)
+
+A5의 딥페이크·Q-Day 닻은 2025년 데이터였다. 2026-07-02 WebSearch 재확인 결과,
+2026년 상반기 현재 세 영역(전쟁·금융·사법신원)이 모두 이미 라이브다. 근미래 인식 위기는
+예측이 아니라 현재 상태이며, 픽션의 단일 파국 기둥은 이 기준선 위에 놓는다. 아래는 신뢰
+출처 중립 인용이고, 정파색이 갈리는 지점은 contested로 표시한다. 벤더 자체 수치도 그렇게
+표시한다.
+
+- **전쟁 위조(라이브):** 2026-02-28 미국·이스라엘의 대이란 군사행동 이후 AI 가짜 홍수.
+  텔아비브 피격 가짜 영상, "네타냐후 사망·AI 딥페이크 등장" 허위, 조작 사상자, 게임 영상의
+  실전 둔갑. 생성은 수 분, 검증은 느린 수동. 이 비대칭이 핵심이다.
+- **금융 위조(라이브):** 딥페이크 사기 누적 약 $2.19B(2025년에만 약 $1.65B). 투자 사기
+  (유명인 딥페이크) 약 52%, CEO 사칭 송금 약 25%. 딥페이크 시도 12개월 새 약 +94%.
+  GenAI 사기 2027년 연 약 $40B 전망(전망치).
+- **사법·신원(라이브):** Mendones v. Cushman & Wakefield(2025-09)에서 딥페이크 영상 증거로
+  소송 종료 제재. 판사들이 증거 추정을 가중 검증 쪽으로 이동. 신원확인 시도의 약 58%가
+  딥페이크에 뚫림(벤더 방법 상이, directional).
+- **법제화:** EU AI Act 50조 AI 생성·조작 콘텐츠 표시 의무가 2026-08-02 발효. 미국 Digital
+  Authenticity and Provenance Act(2025). C2PA는 소셜 재압축에 벗겨지며 "역사는 증명하나
+  진실은 증명 못 함"으로 구조적 불충분.
+- **Q-Day 가속(contested):** Gidney 2025가 RSA-2048을 100만 미만 노이지 큐빗·1주 미만으로
+  추정(2019년 2천만 큐빗에서 하향). Cloudflare가 완전 PQC 목표를 2029로 당김. 전 IBM
+  수석과학자는 3-4년(개인 견해). 주류 무게는 여전히 2030년대 이후이고, 작동하는 코드깨기
+  기계는 아직 없다. 실질 위협은 HNDL(수집 후 복호)이며 그래서 지금 PQC 이주가 진행된다.
+
+| 출처 | URL | 시점 | 핵심 | contested |
+| --- | --- | --- | --- | --- |
+| Euronews Iran AI fakes | euronews.com/next/2026/03/30 | 2026-03 | 대이란전 딥페이크 홍수 | N(사건) |
+| OECD.AI incident | oecd.ai/en/incidents/2026-03-04-c056 | 2026-03 | 중동분쟁 딥페이크 | N(사건) |
+| Surfshark deepfake fraud | surfshark.com/research/chart/deepfake-fraud-countries | 2026 | 누적 약 $2.19B | Y(집계) |
+| Fortune AI fraud 2026 | fortune.com/2026/01/13 | 2026-01 | $12.5B 사기, 기업 60% 증가 | Y(전망) |
+| Thomson Reuters courts | thomsonreuters.com/en-us/posts/ai-in-courts | 2026 | 증거 추정 가중검증 이동 | N |
+| Kennedys 86% fake | kennedyslaw.com/en/thought-leadership 2026 | 2026 | 신원확인 약 58% 뚫림 | Y(벤더) |
+| EyeSift C2PA / EU AI Act 50 | eyesift.com/ai-image-detection-2026-c2pa | 2026 | 50조 2026-08 발효 | N(정책) |
+| Gidney 2025 (asset_cached) | arxiv.org/abs/2505.15917 | 2025-05 | RSA-2048 <1M 큐빗 | Y(이론 추정) |
+| The Quantum Insider | thequantuminsider.com/2026/03/31 | 2026-03 | Q-Day 타임라인 재작성 | Y(시점) |
+| Benzinga ex-IBM | benzinga.com/Opinion/26/07/60224860 | 2026-07 | Q-Day 3-4년 | Y(개인) |
+
+**픽션 매핑:** 인식 위기는 이미 현재진행형(COVID 비유의 MERS 국면, 사회가 흡수·정상화
+중)이다. 그래서 근미래 아크의 단일 파국 기둥(039 위기 1 계열)은 "현재 기준선을 넘는" 임계
+사건으로 설계한다. 가짜가 흐리는 수준(현재)이 아니라 실제 방아쇠를 당기는 수준(픽션)이다.
+EU AI Act 8월 발효는 작중 검증 의무 제도의 현실 씨앗으로 쓴다. Q-Day는 039의 먼 미래·
+소프트·contested 유지가 2026 가속에도 여전히 정당하다(작동 기계 미존재, 주류 2030s+, 시점
+극불확실). 두-위기 분리는 불변이다. Gidney 2025 원문은 정식 캐싱했고(state=asset_cached),
+나머지 2026 스니펫은 hit_not_cached다.
 
 ---
 

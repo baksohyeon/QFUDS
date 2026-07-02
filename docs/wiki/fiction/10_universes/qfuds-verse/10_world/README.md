@@ -67,6 +67,7 @@ work가 보유한다.
 | [025 in-world 정보·유니터리·복원 물리](025_in_world_physics_information_unitarity_restoration_ko.md) | 작중 정보 보존·복원의 물리 근거 |
 | [038 먼 미래 원어 층(부활·복원·되돌림 명칭)](038_far_future_native_lexicon_return_death_ko.md) | "부활/복원" 현대 gloss를 in-world 원어(재현·N세대 귀환·해상·원리 재확인·새로 씀)로 분리 |
 | [039 Q-Day 타임라인 스파인(두 위기 분리)](039_qday_two_crisis_timeline_spine_ko.md) | 인식 위기(근미래)와 Q-Day(먼 미래·소프트)를 분리, 암호=최후 앵커 논리 (candidate) |
+| [040 딥타임 파국 척추(단일 파국 기둥 사슬)](040_deeptime_catastrophe_pillar_spine_ko.md) | 039 위 레이어. 파국 기둥(굵직/phase) vs 누적 나비효과(level) 분리, 기둥 1=사법·신원 도미노→020 검증노동 (candidate) |
 | [017 비트코인 위상·이념전쟁·심층시간](017_bitcoin_stature_ideology_deeptime_ko.md) | 비트코인 이념전쟁·장기시간 유효성 |
 | [018 세계관 컴펜디움](018_world_compendium_codex_ko.md) | 세계 설정 종합 코덱스 |
 
