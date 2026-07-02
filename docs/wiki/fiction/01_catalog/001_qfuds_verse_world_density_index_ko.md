@@ -10,7 +10,7 @@ depends_on:
   - qfuds_verse_world_expansion_wave6_ecology_education_media_index_ko
   - qfuds_verse_far_future_deep_time_chronicle_ko
 next_gate: 세계 밀도 한 장 지도(catalog). 035 웨이브 크로스 인덱스(030~035)를 036(심층시간)·14도메인 커버리지·인벤토리·상태로 감싼 상위 색인. 캐논화는 원고 수요 때 030 §7 6체크
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS Verse 세계 밀도 마스터 인덱스 (030~036 + 도메인 커버리지)
@@ -18,8 +18,9 @@ last_updated: 2026-07-01
 ## 이 문서의 자리
 
 `qfuds-verse` 세계 밀도가 어디에 얼마나 쌓였는지 **한 장에서 잡는 카탈로그 색인**이다.
-[Fiction Catalog](README.md)의 canon/continuity 색인 역할이며, 현재 유일 활성 유니버스인
-qfuds-verse의 세계 밀도 상태판이다.
+[Fiction Catalog](README.md)의 canon/continuity 색인 역할이며, 핵심 활성 유니버스인
+qfuds-verse의 세계 밀도 상태판이다. (형제 유니버스 `vector-sandbox`는 별도이며 이
+밀도 색인 범위에 들지 않는다.)
 
 웨이브 전용 크로스 인덱스(030~035)는
 [035 capstone §4](../10_universes/qfuds-verse/10_world/035_world_expansion_wave6_ecology_education_media_index_ko.md)가
