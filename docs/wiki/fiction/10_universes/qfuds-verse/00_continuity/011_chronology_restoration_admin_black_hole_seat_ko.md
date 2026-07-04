@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
 next_gate: thread chronology + generation-resolution + black-hole seat into prose
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA 연표·기술곡선·복원 행정·블랙홀 본거지
@@ -48,7 +48,8 @@ The Long Plateau ── 테라포밍 성공, 느린 은하 확산. 발전은 완
 | 2008 | 비트코인 — 탈중앙 신뢰(반-SSOT)의 씨앗 |
 | 2020s (post-COVID) | The Soft Editing 시작(딥페이크+AR) |
 | 2020s–2090s | 지수 성장기. AGI 주장(Karvath/Aletheia Systems), AR 포화, 오프라인 사유지화 |
-| 21세기 말경 | Cryptographic Death — 양자가 비트코인 암호를 깸 |
+| 21세기 말경 | 인식 위기 정점(검증 대공황). 검증경제가 판정권으로 굳고 암호는 최후 앵커로 버팀 (1.5부 사엘, Q-Day 이전) |
+| 인식 위기 이후(소프트) | Q-Day — 양자가 옛 암호 바닥(제네시스 체인·옛 서명)을 소급 붕괴 → 이후 딥타임·복원 시대 (039 스파인) |
 | 22–24세기 | 달·화성 진출(테라포밍 전). **곡선이 지수→로그로 꺾임** |
 | 24–28세기 | The Long Plateau. 테라포밍 성공, 느린 은하 확산 |
 | 약 수천 년 뒤 | 첫 복원 → 복원 자본 → 연속성 법원(**본편**) |

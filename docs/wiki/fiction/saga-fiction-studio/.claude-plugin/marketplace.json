@@ -1,0 +1,21 @@
+{
+  "name": "saga-fiction-studio",
+  "description": "Web-novel / SAGA fiction production skills for the QFUDS repo",
+  "owner": {
+    "name": "Dorito"
+  },
+  "plugins": [
+    {
+      "name": "saga-fiction-studio",
+      "source": {
+        "source": "directory",
+        "path": "."
+      },
+      "description": "Canon safety, scene drafting, continuity/chronicler passes, reader-retention gating, note routing, and showrunner orchestration for QFUDS SAGA fiction.",
+      "author": {
+        "name": "Dorito"
+      },
+      "keywords": ["fiction", "web-novel", "saga", "qfuds", "canon", "continuity", "retention", "writing"]
+    }
+  ]
+}

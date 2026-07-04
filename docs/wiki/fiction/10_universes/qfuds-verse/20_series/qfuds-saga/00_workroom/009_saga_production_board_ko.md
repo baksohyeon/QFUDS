@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_series_production_harness_ko
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
 next_gate: "025 근미래 리센터로 관통선(씨앗-제도-신) 재정렬. 다음=0부 캐스(036) 착수 / 새 1부 오르페우스(035) 작성 / 1.5부(033)·2부(034) 풀길이 유지 / 2부 S2 polish / 3부 author-loss 풀길이 / release 정식 게이트"
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA Production Board
@@ -136,3 +136,4 @@ brief.
 | 2026-07-01 | 14도메인 세계-체계 스펙 00_bible 승격(경로 A, 사용자 승인): 012 스펙을 `00_bible/028_qday_world_system_14domain_matrix_ko.md`로 git mv, 프레이밍을 candidate→canon 부속(026 SSOT)으로 정정. 026에 부속 매트릭스 참조 추가, 000 권위 지도에 Q-Day 여파 세계-체계 행 추가, bible/workroom README·board 정합. 011은 워크룸 provenance로 보존 | 새 고유명사·인물·사건 0 유지. 026이 도메인 상세 우선. validate_docs·fiction_gate 재실행 |
 | 2026-07-01 | 14도메인 세계-체계 확장 인계·스펙 신설(011·012): 작가 입력(전문가 패널 세분화)을 후보 인계 브리프(011)+14도메인 스펙(012)으로 저장. canon-guardian 충돌 분류(012 §1) 결과 hard-conflict 0, 14개 중 6개 확인(CONFIRMS)·2개 가드레일·2개 craft. "정보·기록·검증"은 신규 축이 아니라 기존 스파이스(검증경제/Aletheia) 재확인 | 새 고유명사·인물·사건 0(026 §0 하드 제약 준수). 00_bible 승격은 사용자 승인 게이트 대기; 권장=026 부속 매트릭스 병합(012 §5 경로 A) |
 | 2026-06-30 | 1.5부 강등 + 새 1부 오르페우스 착수: 사엘 origin(030·031·032·033·README)을 `20_drafts/1부/`→`20_drafts/1.5부/`로 git mv; 새 1부 「오르페우스」(주인공 오웬·어머니 리브, 035 별도 작성) 자리 신설; continuity 엔진 `ARC_DIRS`/`ARC_ORDER`에 1.5부 삽입; 024 인물 표에 오웬·리브 추가 + 사엘 시대 1부→1.5부, 교차 허용목록 마라·엘리아스 1부→1.5부 | validate_docs PASS, fiction_continuity PASS (11인물/4원고 등록 후 시대 불일치 0). 035는 미생성(별도 작성 중)이라 엔진 미검사 | 035 초고 완성 후 retention/comprehension 게이트; 1부가 2부 인물 의도 참조 시 024 허용목록에 035 파일번호 추가 |
+| 2026-07-02 | 039 Q-Day 두 위기 스파인 candidate→canon 승격(사용자 승인). 앵커 소프트 재정렬: 002/011(연도 척추: 21세기말=인식 위기 정점, Q-Day=인식위기 이후 먼 미래), 026(부 좌표: 0/1/1.5부=근미래 인식위기 Q-Day 이전, 2부=Q-Day 이후 먼 미래), 027(2090s=인식 위기 정점, 394/398 파열 시점 정정 + 상단 읽기 규칙) | validate_docs PASS. 두 위기 분리(딥페이크 인식위기 근미래 ↔ 양자 암호붕괴 Q-Day 먼 미래), 암호=최후 앵커→그마저 붕괴 논리 확정. 하드 연도 없음 | **잔여**: 027 §7-§10의 Q-Day-2090s 시점 표현 전면 정합은 chronicler pass 대상. 다음=035 오르페우스 ch2-8(이 2단 척추를 본문에서 전달) |

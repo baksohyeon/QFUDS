@@ -10,7 +10,7 @@ depends_on:
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
 next_gate: use the SAGA README and production board before choosing the next active drafting or design unit
-last_updated: 2026-06-21
+last_updated: 2026-07-02
 ---
 
 # Fiction Catalog
@@ -42,6 +42,8 @@ last_updated: 2026-06-21
 | Studio system | [../00_studio/](../00_studio/) | fiction/IP 관리, GSD bridge, craft harness | active |
 | Universe scaffold | [../10_universes/qfuds-verse/](../10_universes/qfuds-verse/) | QFUDS-derived fiction universe/IP 컨테이너 | active prototype |
 | Active SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | QFUDS-inspired long-form SAGA 작업 선반 | active series work |
+| Universe scaffold | [../10_universes/vector-sandbox/](../10_universes/vector-sandbox/) | 벡터 인간 시뮬레이션 샌드박스 universe (qfuds-verse 형제, 캐논 상속 없음) | active prototype |
+| Anthology | [../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/](../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/) | Feathersmcgraw Coda — terminally-online 메타픽션 단편집 | active prototype |
 | Archive | [../90_archive/](../90_archive/) | superseded prototype fiction | archived |
 
 ## Active Works
@@ -50,6 +52,7 @@ last_updated: 2026-06-21
 | --- | --- | --- | --- | --- |
 | QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active series work | Check the SAGA README, production board, and latest story_design/draft map before choosing the next unit |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
+| Feathersmcgraw Coda | [../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/](../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/) | anthology (vector-sandbox) | active prototype anthology | 001 「아직도 스파게티를 먹는다」 first-pass 퇴고 후 리텐션 게이트 |
 
 ## Migration Decision Record
 

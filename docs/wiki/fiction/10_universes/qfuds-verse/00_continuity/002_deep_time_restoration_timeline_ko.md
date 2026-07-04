@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_world_direction_matrix_ko
   - qfuds_saga_agentic_system_ko
 next_gate: use as the active deep-time backbone; 010/011/017/018 override local duplicates
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # QFUDS SAGA 장기 복원 문명사 타임라인
@@ -102,10 +102,15 @@ validation, Level 2B admission이 아니다.
 
 - **2008** — 비트코인. 중앙 권력 없는 신뢰(반-SSOT)의 씨앗.
 - **2020년대(post-COVID)** — The Soft Editing 시작. 딥페이크+AR로 위조가 완벽해짐.
-- **2020s–2090s** — 지수 성장기. AGI 주장(Adrian Karvath / Aletheia Systems), AR 포화,
-  오프라인 사유지화.
-- **21세기 말경** — Cryptographic Death. 양자가 비트코인 암호를 깸 → 소유·신원 붕괴.
-  *(1부 사엘 origin이 꽂히는 지점)*
+- **2020s–2090s** — 지수 성장기 + 인식 위기(The Soft Editing) 심화. AGI 주장(Adrian
+  Karvath / Aletheia Systems), AR 포화, 오프라인 사유지화. 위조가 완벽해질수록 암호
+  서명·불변 원장이 **최후의 진실 앵커**로 밀려 올라간다.
+- **21세기 말경** — 인식 위기 정점(검증 대공황). 검증경제가 판정권으로 굳고, 암호는
+  아직 최후 앵커로 버틴다. *(1.5부 사엘 origin이 꽂히는 지점 · Q-Day 이전)*
+- **인식 위기 이후(소프트, 하드 연도 없음)** — Q-Day. 양자가 옛 암호 바닥(제네시스
+  체인·옛 서명)을 소급 붕괴시켜 소유·신원·역사의 진짜성이 무너진다 → 복원 시대의 씨앗.
+  이후 딥타임(Long Plateau·첫 복원)이 이어진다
+  ([039 Q-Day 스파인](../10_world/039_qday_two_crisis_timeline_spine_ko.md)).
 - **22–24세기** — 달·화성 진출(테라포밍 전). 기술 곡선이 지수→로그로 꺾임.
 - **24–28세기** — The Long Plateau. 테라포밍 성공, 느린 은하 확산, 권력 고착.
 
@@ -138,8 +143,8 @@ validation, Level 2B admission이 아니다.
   **3기** 알레테이아 베일 → **4기** 연속성 법원(첫 자기부정 복원체 *= 2부 마라 모티프*) →
   **5기** 관측 전쟁(QFUDS 금지) → **6기** 망각권 혁명 → **7기** 라우어 관측소(네 도장) →
   **8기** 계승자 분열(동의의 우선) → **9기** 마지막 백업.
-- **본편(연속성 법원 시대)** = 4기 언저리. 1부는 21세기 말 Cryptographic Death,
-  2부는 4기 자기부정 복원체 사건의 계보에 놓인다.
+- **본편(연속성 법원 시대)** = 4기 언저리. 0·1·1.5부는 근미래 인식 위기 시대(Q-Day
+  이전), 2부는 Q-Day(먼 미래) 이후 4기 자기부정 복원체 사건의 계보에 놓인다.
 
 ## 공인 역사
 

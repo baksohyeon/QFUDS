@@ -118,10 +118,20 @@ def file_text(path: Path, staged: bool) -> str:
     return (ROOT / path).read_text(encoding="utf-8")
 
 
+# Subtrees under docs/ that are Claude plugin sources, not QFUDS research docs,
+# and therefore exempt from the external-research workflow guard.
+EXCLUDED_PREFIXES = (
+    "docs/wiki/fiction/saga-fiction-studio/",
+)
+
+
 def is_checked_markdown(path: Path) -> bool:
     if path.suffix.lower() != ".md":
         return False
-    if not path.as_posix().startswith("docs/"):
+    posix = path.as_posix()
+    if not posix.startswith("docs/"):
+        return False
+    if posix.startswith(EXCLUDED_PREFIXES):
         return False
     return True
 
