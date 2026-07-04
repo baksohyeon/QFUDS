@@ -71,7 +71,7 @@ last_updated: 2026-07-04
 | `qfuds_saga_ideological_incoherence_triad_ko` | core | 세 양립 불가 신앙의 긴장을 둔다. | 세력을 단순 선악이 아닌 서로 다른 믿음으로 읽는다. |
 | `qfuds_saga_character_map_and_timeline_coordinates_ko` | core | 인물과 시대 좌표를 정리한다. | 캐스, 오웬, 사엘, 마라의 역할을 분리한다. |
 | `qfuds_saga_machine_childhood_ai_history_narrator_throughline_ko` | support | AI 발전사와 기계 화자 관통선을 둔다. | 기계 화자와 역사 회고를 다룰 때 참고한다. |
-| `qfuds_saga_first_arc_reader_orientation_world_and_cast_ko` | core | 독자와 작가가 세계와 인물을 처음 잡는 오리엔테이션이다. | `fiction_v2` 이전의 가장 가까운 입문 문서로 본다. |
+| `qfuds_saga_first_arc_reader_orientation_world_and_cast_ko` | core | 세계와 인물을 처음 잡는 오리엔테이션이다. | `fiction_v2` 이전의 가장 가까운 입문 문서로 본다. |
 | `qfuds_saga_new_book1_orpheus_design_ko` | core | 새 1부 오르페우스, 사별, 복원 사본, 돌아봄을 설계한다. | 오웬 축을 애도와 검증의 이야기로 읽는다. |
 | `qfuds_saga_near_future_recenter_direction_ko` | core | 근미래 grounded SF로 무게중심을 옮긴다. | 캐스와 근미래 인식 위기를 앞쪽에 둔다. |
 | `qfuds_saga_near_future_prelude_forecast_ko` | candidate | 2020s-2090s 근미래 프렐류드 재료가 많다. | 현재는 소재 후보로만 읽는다. |
@@ -109,16 +109,16 @@ last_updated: 2026-07-04
 | 숫자 없는 개인 plugin 폴더 | ignore_for_reader | 작가 개인 플러그인 용도다. | 세계관 독해 소스로 쓰지 않는다. |
 | raw graph/output files | ignore_for_reader | 감사 보조 산출물이다. | 필요하면 chronicler report를 통해 간접 확인한다. |
 
-## 외부 독자 신호
+## 오라클 가이드 처리 원칙
 
-nyann님의 X 대화는 canon source가 아니다. reader reaction과 해석 신호로만 쓴다.
+`fiction_v2`가 하는 일은 원본 문서 안에 흩어진 질문을 하나의 이해 경로로 묶는 것이다.
 
-이번 리더에서 반영한 외부 신호는 다음 정도다.
+오라클 문제는 이 리더에서 다음 뜻으로 고정한다.
 
-- workflow state: `hit_not_cached`
-- image state: `manual_inspected_not_cached`
-- use: “오라클 문제로 읽힌다”, “checksum 의례가 먹힌다”, “망각권과 Last Archive가 하나의 질문으로 읽힌다”는 독자 반응의 증거
-- non-use: 세부 설정을 canon으로 승격하지 않음
+- 원래 뜻: 검증 시스템 안의 기록은 확인할 수 있지만, 바깥 현실 데이터는 누가 보증하는가.
+- QFUDS Verse 확장: 문명 전체가 바깥 현실을 못 믿게 될 때, 현실, 신원, 소유, 죽음, 복원, 기억, 망각을 누가 보증하는가.
+- 사용: 새 설정을 추가할 때마다 “무엇을 보증하려고 생긴 설정인가”, “누가 권력을 얻는가”, “누가 손실을 입는가”를 확인한다.
+- 경계: `fiction_v2`는 새 정사가 아니라, 기존 설정을 이해하기 위한 해석 레이어다.
 
 ## 운영 규칙
 
