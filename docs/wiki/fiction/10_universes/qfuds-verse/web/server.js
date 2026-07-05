@@ -17,8 +17,9 @@ const path = require('node:path');
 const ROOT = __dirname;
 const PORT = process.env.PORT || 5000;
 const KEY = process.env.GEMINI_API_KEY || '';
-// Small, fast, free-tier friendly. Override via env if you like.
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+// Override via GEMINI_MODEL env. Note: model availability/quota is per-key —
+// if a model returns `limit: 0`, that key's project isn't provisioned for it.
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.5-flash';
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
