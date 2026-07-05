@@ -10,7 +10,7 @@ depends_on:
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
 next_gate: continue qfuds-saga arc planning under normalized work shelves
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse
@@ -25,7 +25,7 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 세계관을 3D 성좌 + 연대기/인물/체계/사전으로 훑고, 아카이브에 질의하고,
 시드를 모아 문서 승격 재료로 뽑는 자기완결 웹앱: **[`web/`](web/)**
-(배포: [`web/DEPLOY.md`](web/DEPLOY.md) — Dokku `git push dokku main`).
+(배포: [배포 가이드](web/DEPLOY.md), Dokku `git push dokku main`).
 데이터는 이 유니버스 문서(002 딥타임 연표·026/028 Q-Day·030–035 확장 웨이브·
 036/040 심층시간·037 이념축 등)에서 파생한다.
 

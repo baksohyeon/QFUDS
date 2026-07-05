@@ -1,4 +1,17 @@
-# QFUDS Verse Codex — 배포 가이드
+---
+doc_id: qfuds_verse_codex_web_deploy_ko
+title: QFUDS Verse Codex 배포 가이드
+doc_type: guide
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_verse_codex_web_readme_ko
+next_gate: Dokku 배포 절차 변경 시 이 가이드 갱신
+last_updated: 2026-07-06
+---
+
+# QFUDS Verse Codex 배포 가이드
 
 `docs/wiki/fiction/10_universes/qfuds-verse/web/` 의 자기완결 앱.
 성좌(3D)·연대기·인물·체계·사전 + 시드 보관함 + 아카이브 질의.

@@ -1,4 +1,17 @@
-# QFUDS Verse — 세계관 코덱스 (web)
+---
+doc_id: qfuds_verse_codex_web_readme_ko
+title: QFUDS Verse 세계관 코덱스 웹앱 (web)
+doc_type: index
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_verse_universe_index_ko
+next_gate: 코덱스 데이터가 유니버스 문서(002·026·028·030-040)와 어긋나지 않게 갱신 시 동기화
+last_updated: 2026-07-06
+---
+
+# QFUDS Verse 세계관 코덱스 웹앱 (web)
 
 QFUDS Verse 유니버스의 3D 딥타임 코덱스. 디자인 프로토타입(Claude Design,
 DCLogic/React 런타임)을 **의존성 없는 바닐라 JS 단일 페이지**로 실제 구현한 것.
