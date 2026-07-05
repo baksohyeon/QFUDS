@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
 next_gate: 오늘 작업은 009 production board가 정한다. 이 README는 선반 지도만 맡는다
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 00_workroom 지도
@@ -44,6 +44,7 @@ authoring baseline: 2026-06-30. fiction/provenance only, QFUDS 연구 증거 아
 | [014 Truth-State Ledger](014_truth_state_ledger_ko.md) | 장별 인물·독자·세계 지식 상태 원장 (008 6모듈 중 빈 모듈 채움) |
 | [015 Chronicler Pass 계획](015_chronicler_pass_plan_ko.md) | 전문 감사 위 단계별 편집(마이그레이션) 실행 플랜 |
 | [016 최종 통합 Chronicler Report](016_qfuds_verse_final_chronicler_report_ko.md) | 전 범위 감사·의존성 그래프·draft 드리프트 addendum·P0/P1/P2 로드맵 |
+| [017 Fable 세계관 캐논 감사 프롬프트](017_fable_worldview_canon_audit_prompt_ko.md) | Fable 1차 감사용 프롬프트. candidate 승격·Salt Fires 빈칸·드리프트 정리 전 사용자 승인 게이트 |
 
 ## Boundary
 
