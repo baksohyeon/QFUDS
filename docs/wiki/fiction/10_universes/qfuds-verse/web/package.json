@@ -1,0 +1,13 @@
+{
+  "name": "qfuds-verse-codex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QFUDS Verse — 3D deep-time worldview codex (static site + optional Gemini archive-query proxy)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
