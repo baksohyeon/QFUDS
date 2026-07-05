@@ -11,8 +11,8 @@ depends_on:
   - qfuds_verse_yi_gi_ideology_axis_ko
   - qfuds_saga_chronology_restoration_admin_black_hole_seat_ko
   - qfuds_verse_world_expansion_wave5_language_tech_infra_ko
-next_gate: "부활/복원" 현대 gloss를 in-world 원어 층으로 분리. 021 기전·025 원본 부재·037 이/기·011 세대와 물림. 005·002 옛 표기의 뿌리 정합
-last_updated: 2026-07-01
+next_gate: canon 승격 완료(2026-07-06). 남은 배선은 P1 chronicler pass에서 소비 문서(021·002·005) depends_on 편입
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse 먼 미래 원어 층 (부활·복원·되돌림의 in-world 명칭)
@@ -33,7 +33,7 @@ Q-Day와 복원 전쟁을 지나며 이 개념군을 **다른 관점·다른 명
 ```text
 fiction/provenance only
 research evidence: no
-캐논 상태: candidate 원어 층. 021 기전·025 물리·037 이기가 우선. 실존 종교·집단 비대응
+캐논 상태: canon 원어 층(2026-07-06 사용자 승인 승격). 021 기전·025 물리가 우선. 037 이기 축은 candidate 유지. 실존 종교·집단 비대응
 스타일: em dash 0, "박-" 슬랭 금지, 강의조 금지, 기술어 보존
 ```
 

@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_factions_cultures_power_ecology_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
 next_gate: apply as active POV/theme/naming defaults; 015 overrides faction formal names
-last_updated: 2026-07-02
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 시점 주제 고유명사 규칙
@@ -181,11 +181,11 @@ needs faction contrast     -> rotating 3rd-limited POV
 | --- | --- | --- | --- |
 | 라스트 아카이브 | The Last Archive | Archivum Novissimum | 최후의 것들, 종말론, 기록관 |
 | 라우어 관측소 | Observatoire de Laur | Bureau Laurien | 프랑스식 관측소/감사 관료제 |
-| 연속성 법원 | Court of Continuance | Curia Continuationis | 로마법/교회법/판례 |
+| 연속성 법원 | Court of Continuance | Curia Continuum | 로마법/교회법/판례 (015 확정; 옛 표기 Curia Continuationis 폐기) |
 | 복원청 | Ministry of Restoration | Diwan al-Restitution | 제국 행정, 장부, 복원 허가 |
 | 원장 가문 | Ledger Houses | Domus Clavium | key 소유 귀족, 상업 귀족, 불변원장 (015 확정) |
 | 원장 성채 | Ledger Keeps | Castra Tabularii | 성채, 군영, 데이터 봉건제 (지명. 폐기된 세력명 Domus Tabularii와 별개; 세력=Domus Clavium) |
-| 알레테이아 베일 | Aletheia Veil | Velum Aletheiae / Custodes Velati | 계승, 결사, 수도회 |
+| 알레테이아 베일 | Aletheia Veil | Aletheia Velum | 계승, 결사, 수도회 (015 확정; 옛 표기 Velum Aletheiae/Custodes Velati 폐기) |
 | 망각권 연맹 | League of Oblivion | Sangha Oblivionis | 해탈, 잊힐 권리, 수도원 |
 | 망각 수도원 | Oblivion Cloister | Cloister Anatta | 무아, 집착의 중단 |
 | 잔상 유목민 | Remnant Nomads | Ordu Remanentium | 초원 군영, oath, 이동 공동체 |

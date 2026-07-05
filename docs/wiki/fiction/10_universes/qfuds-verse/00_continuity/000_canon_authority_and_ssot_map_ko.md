@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_restoration_mechanism_correction_ko
   - qfuds_saga_factions_canon_naming_ko
 next_gate: update the authority row whenever a new domain-owning bible is added
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 캐논 권위·SSOT 지도
@@ -42,6 +42,8 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | 연표·복원 행정 | [011](011_chronology_restoration_admin_black_hole_seat_ko.md) | |
 | 심층시간(5-9기, 수만-수억 년) | [002](002_deep_time_restoration_timeline_ko.md) 골격 SSOT + [036](036_far_future_deep_time_chronicle_ko.md) 확장 레이어 | 036은 002를 물리 시계에 건 확장. 충돌 시 021>002/011/025>036 |
 | Q-Day 여파 세계-체계 | [026](../10_world/026_qday_aftermath_timeline_and_world_ko.md) | 부속 14도메인 매트릭스·인과 인덱스=[028](../10_world/028_qday_world_system_14domain_matrix_ko.md)(026이 SSOT) |
+| 시간 척추(두 위기 분리: 근미래 인식 위기 / 먼 미래 Q-Day) | [039](../10_world/039_qday_two_crisis_timeline_spine_ko.md) | 2026-07-02 승격 active 척추. 002·011·026·027·024 재정렬 완료. [040 파국 척추](../10_world/040_deeptime_catastrophe_pillar_spine_ko.md)는 그 위 candidate 레이어 |
+| 부활·복원 원어 층(현대 gloss 분리) | [038](../10_world/038_far_future_native_lexicon_return_death_ko.md) | 2026-07-06 canon 승격. 021·025가 상위 |
 | 세력 생태·권력 | [003](../10_world/003_factions_cultures_power_ecology_ko.md) | 명칭은 015 우선 |
 | 비트코인 위상·이념 | [017](../10_world/017_bitcoin_stature_ideology_deeptime_ko.md) | 신화 소재=005, 암호 개념=013 |
 | 인간 확인 루프·AI 텍스처 | [020](../10_world/020_ai_automation_human_in_the_loop_ssot_ko.md) | |

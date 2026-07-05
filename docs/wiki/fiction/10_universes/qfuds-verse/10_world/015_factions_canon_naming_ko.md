@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_canon_consolidation_ko
   - qfuds_saga_factions_cultures_power_ecology_ko
 next_gate: thread fixed faction names into arc-two prose (026/027)
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 세력 명칭 Canon 확정
@@ -104,6 +104,17 @@ Tabularii로 흩어져 표기됐다. **canon은 Domus Clavium(House of Keys)로 
 | --- | --- | --- |
 | Null-Key Cells | **Cellulae Sine Clave** | "key 없는 cell"의 직역 구조. clavis(key)를 부정해 탈기록 정체성을 명시 |
 | Aletheia Veil | **Aletheia Velum** | velum(veil)으로 003·010의 "베일" 표기와 Latin form을 정렬 |
+
+## 비세력 고유명 등록 (2026-07-06)
+
+세력이 아니라서 위 명칭표에 들어가지 않는 확정 고유명을 여기 등록한다.
+
+| 고유명 | 종류 | 정의 | SSOT |
+| --- | --- | --- | --- |
+| Salt Fires | 사건명(영문 유지, 라틴 별칭 없음) | 4기 내 참사 사건(하드 연도 없음). 마라 베이르가 죽고 몸이 소실된 사건. "Salt Fires 가문"은 그 생존자 계보의 통칭 | 정의는 [024](../20_series/qfuds-saga/00_bible/024_character_map_and_timeline_coordinates_ko.md) §Salt Fires |
+| 베이르 가문 (Veyr) | 가문(세력 아님) | Ordo Salis 평신도 계보(소금=공개 기록 수호). 옛 key 보관 계보 | 024 인물 표, 031 §1.4 |
+
+candidate 027의 Fabrica Salinarum(근미래 협동조합)은 이 등록과 별개이며 미채택 상태다.
 
 ## 007 미해결 질문 3개 — 확정
 

@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_factions_canon_naming_ko
   - qfuds_saga_character_map_and_timeline_coordinates_ko
 next_gate: universe 공유 세계 후보 register(웨이브 2). 인물=024·세력=003/015로 웨이브별 승격. 캐논화는 사용자 승인 게이트 뒤에만
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse 세계 확장 웨이브 2 (세력 내부 심화·인물·관계망)
@@ -108,6 +108,10 @@ Ordo Circuli·Statio Sigillorum·Schola Reprehensio)에 감사관을 넣는다.
 (Ordo Salis)와 이름이 공명한다. 배치 제안: 베이르 가문을 **Ordo Salis 평신도 계보**로
 연결(소금=공개 기록의 수호). 확정 시 024·015 등록.
 
+**확정(2026-07-06, 사용자 승인):** 베이르 가문=Ordo Salis 평신도 계보 승격. 탐 소르는
+024 인물 표에 등록됐고, Salt Fires 정의(4기 참사 사건 + 생존 계보 통칭)는 024가 보유한다.
+미라 움브라를 포함한 나머지 웨이브 2 후보는 계속 보류.
+
 | 인물(후보) | 소속 | 역할 |
 | --- | --- | --- |
 | 원로 소금사제 탐 소르(Tam Sorl) | Ordo Salis(Ordo Testium) | 공개 기록·witness chain 수호. 베이르 가문의 후견 |
@@ -178,7 +182,8 @@ Ordo Circuli·Statio Sigillorum·Schola Reprehensio)에 감사관을 넣는다.
 | 항목 | 상태 | 처리 |
 | --- | --- | --- |
 | 웨이브 2 인물 전체 | candidate | 024 등록 전 캐논 아님 |
-| 펠→Vadis, 베이르→Ordo Salis, 누어→Sine Nomine 배치 | 배치 제안 | 024 우선. 확정 시 등록 |
+| 베이르→Ordo Salis 평신도 계보 배치 | **확정·등록됨(2026-07-06)** | 024 인물 표·§Salt Fires 정의 반영. 탐 소르 승격 |
+| 펠→Vadis, 누어→Sine Nomine 배치 | 배치 제안 | 024 우선. 확정 시 등록 |
 | 베라 다체 이름 | 충돌 위험 | 캐논 Vera와 근접. 승격 시 개명 검토 |
 | 가문 혼인·부채 관계 | 후보 | 003 세력 생태로 승격 시 확정 |
 | 이오네 분열 결말 | 024 결정 필요 | 웨이브에서 지어내지 않음 |

@@ -16,8 +16,8 @@ depends_on:
   - qfuds_verse_world_expansion_wave1_names_places_events_ko
   - qfuds_verse_world_expansion_wave2_factions_relationships_ko
   - qfuds_verse_world_expansion_wave3_geography_event_chains_ko
-next_gate: 002 5-9기 골격을 물리 시계에 건 심층시간 연대기. 021(복원=사본)>002/011/025>이 문서. 후보 고유명(030/031/032)은 보류 텍스처로만 인용, 새 고유명 생성 안 함
-last_updated: 2026-07-01
+next_gate: 002 5-9기 골격을 물리 시계에 건 심층시간 연대기. 2026-07-06 정식 승격(002 골격의 canon 확장 레이어 확정). 021(복원=사본)>002/011/025>이 문서. 후보 고유명(030/031/032)은 보류 텍스처로만 인용, 새 고유명 생성 안 함
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse 먼 미래 심층시간 연대기 (수천 년-수억 년, 스파이스=검증 가능한 기록)

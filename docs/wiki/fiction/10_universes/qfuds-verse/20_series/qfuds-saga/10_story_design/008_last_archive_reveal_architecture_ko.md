@@ -8,8 +8,8 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_reader_accessibility_and_real_world_anchors_ko
-next_gate: thread Act-1 deception + planted clues into prologue and first arc
-last_updated: 2026-07-01
+next_gate: thread Act-1 deception + planted clues into prologue and first arc. 단서 9(Vera↔Veyr)는 계보 확정 없는 의도된 모호성(2026-07-06)
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA Last Archive 반전 설계와 떡밥 배치
@@ -67,8 +67,10 @@ fiction/provenance only. 새 외부 source claim 없음. workflow state: `not se
 8. **엔트로피 변주**(프롤로그): "되돌릴 수 있는가"가 아니라 "되돌린 걸 돌려줘도
    되는가"로 질문이 바뀜. → 회수: 그것은 답하는 자가 아니라 *거부하는 자*.
 9. **이름 Vera ↔ Veyr**: 주인공급 인물 **Mara Veyr**의 성이, 한 번 스치는 옛
-   이름 `Vera`와 닮았다. → 회수: Mara는 Last Archive의 핵이 된 Vera의 먼 후손.
-   동의 없이 복원당한 여자와 동의 없이 업로드당한 여자가 핏줄로 이어진다(010 §2).
+   이름 `Vera`와 닮았다. → 회수: 회수는 확정 답이 아니라 의심이다. 동의 없이
+   복원당한 여자와 동의 없이 업로드당한 여자가 같은 폭력을 시간의 양 끝에서 겪는
+   주제적 거울(024)임은 확정하되, 핏줄 여부는 끝까지 확정하지 않는다. 독자가
+   계보를 의심하게 만드는 의도된 모호성(2026-07-06 작가 결정. 계보 확정 서술 금지).
 
 ## 1막을 "전지적 AGI"로 보이게 하는 법
 

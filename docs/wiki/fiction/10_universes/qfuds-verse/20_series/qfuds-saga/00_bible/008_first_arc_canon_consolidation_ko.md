@@ -15,12 +15,12 @@ depends_on:
   - qfuds_saga_first_arc_opening_broken_crown_event_korean_primary
   - qfuds_saga_world_compendium_codex_ko
 next_gate: align R6 first-arc rewrite with 028 + 019-024 story order
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 첫 Arc Canon 정리
 
-> **드리프트 주의 (2026-07-01 리센터):** 부 구조·시대좌표·무게중심의 현행 SSOT는 024(캐릭터·시대좌표)·025(근미래 리센터)·027(관통선)이다. 현행 매핑 = 0부 캐스(036, 씨앗) / 1부 오르페우스(035, 오웬) / 1.5부 사엘(033, 제도) / 2부 마라(034, 신). 아래 본문의 "사엘=1부"·"마라/Liora=1부"·"먼 미래가 무대" 등은 리센터 이전 라벨이며 위 SSOT가 우선한다.
+> **드리프트 주의 (2026-07-01 리센터):** 부 구조·시대좌표·무게중심의 현행 SSOT는 024(캐릭터·시대좌표)·025(근미래 리센터)·027(관통선)이다. 현행 매핑 = 0부 캐스(036, 씨앗) / 1부 오르페우스(035, 오웬) / 1.5부 사엘(033, 제도) / 2부 마라(034, 신). 아래 본문의 "사엘=1부"·"마라/Liora=1부"·"먼 미래가 무대" 등은 리센터 이전 라벨이며 위 SSOT가 우선한다. (2026-07-06 chronicler pass: 본문 부 라벨을 024 기준으로 치환 완료). 구 Arc Two=현행 3부
 >
 > 이 자료는 현행 2부(4기)에 해당하며 무게중심은 025 근미래, 완전 복원 표현은 021·025의 '복원=사본'으로 읽는다.
 
@@ -108,10 +108,10 @@ Revision rule:
 
 | Character | First arc function | Keep | Open question |
 | --- | --- | --- | --- |
-| Liora Sen | Laur auditor, delay/unknown의 주인공 | primary POV 유지 | arc two에서 권력화된 자기 mark와 싸울 것인가 |
+| Liora Sen | Laur auditor, delay/unknown의 주인공 | primary POV 유지 | 3부에서 권력화된 자기 mark와 싸울 것인가 |
 | Mara Veyr | self-denying restored, loss claim의 중심 | original/copy보다 loss grammar 중심 | finale 이후 독립 agency를 더 강화해야 함 |
 | Elias Veyr | sincere violation, grief-as-archive rhetoric | 단순 villain 금지 | arc one 이후 퇴장/재등장 여부 |
-| Noor Aram | living heir conscripted by dead key | recurring 가능성 높음 | arc two POV 후보 여부 |
+| Noor Aram | living heir conscripted by dead key | recurring 가능성 높음 | 3부 POV 후보 여부 |
 | Ione | Aletheia custodian, refusal-chain carrier | keep | Veil split의 내부 정치 확장 |
 | Tamas | low-resolution child claimant, moral pressure | keep lightly | 과도한 상징화 주의 |
 
@@ -119,7 +119,7 @@ Revision rule:
 
 ```text
 Mara는 피해자 표식만으로 쓰면 약하다.
-Noor와 Ione은 arc two 확장 가능성이 크지만, first arc revision에서는 과잉 설명하지 않는다.
+Noor와 Ione은 3부 확장 가능성이 크지만, first arc revision에서는 과잉 설명하지 않는다.
 Tamas는 moral center지만 plot device처럼 쓰지 않는다.
 ```
 
@@ -179,7 +179,7 @@ The court learns a new way to protect people.
 Power immediately learns the same new grammar.
 ```
 
-## Arc Two Hook
+## 3부 Hook (구 Arc Two)
 
 The strongest next hook is:
 
@@ -187,7 +187,7 @@ The strongest next hook is:
 Who may author loss?
 ```
 
-Possible arc two directions:
+Possible 3부 directions:
 
 | Direction | Description | Risk |
 | --- | --- | --- |
@@ -201,7 +201,7 @@ Recommended next after this consolidation:
 
 ```text
 Full arc revision pass first.
-Then arc two planning.
+Then 3부 planning.
 ```
 
 Reason:
@@ -209,7 +209,7 @@ Reason:
 - first arc already has enough plot mass;
 - field mark chain needs line-level tightening;
 - character agency needs balancing before expanding the world;
-- arc two planning will be better after revision reveals what actually holds.
+- 3부 planning will be better after revision reveals what actually holds.
 
 ## Revision Checklist
 
@@ -236,4 +236,4 @@ Use it as the control document for:
 
 - first arc R6 continuous-Book-1 revision pass;
 - character/faction reference updates;
-- arc two planning.
+- 3부 planning.

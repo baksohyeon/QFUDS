@@ -9,8 +9,9 @@ depends_on:
   - qfuds_saga_narrative_pov_theme_naming_ko
   - qfuds_saga_deep_time_restoration_timeline_ko
   - concept_origin
+  - qfuds_verse_far_future_native_lexicon_return_death_ko
 next_gate: use with 009/017; do not reduce Bitcoin to a dismissed dead relic
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA Bitcoin Genesis Chain과 복원 신화

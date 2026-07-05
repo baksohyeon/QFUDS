@@ -8,8 +8,9 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_world_direction_matrix_ko
   - qfuds_saga_agentic_system_ko
+  - qfuds_verse_far_future_native_lexicon_return_death_ko
 next_gate: use as the active deep-time backbone; 010/011/017/018 override local duplicates
-last_updated: 2026-07-02
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 장기 복원 문명사 타임라인

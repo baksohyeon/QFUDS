@@ -9,8 +9,8 @@ depends_on:
   - qfuds_saga_deep_time_restoration_timeline_ko
   - qfuds_saga_last_archive_origin_and_reversal_causality_ko
   - qfuds_saga_bitcoin_stature_ideology_deeptime_ko
-next_gate: grow each entry as the saga expands; keep as the single geek-out reference
-last_updated: 2026-07-01
+next_gate: grow each entry as the saga expands; keep as the single geek-out reference. Vera–Veyr는 계보 확정 없는 주제적 거울(2026-07-06)
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 세계관 컴펜디움
@@ -106,7 +106,7 @@ PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss
 | Adrian Karvath | "할 수 있으니까 한다"의 매드 사이언티스트 창업자 |
 | Vera / VERA | 강제 업로드돼 Last Archive의 핵이 된 사람 |
 | Liora Sen | 연속성 법원 감사관. 동일성 판정자 |
-| Mara Veyr | 동의 없이 되살아나 거부하는 사람. Vera의 먼 후손 |
+| Mara Veyr | 동의 없이 되살아나 거부하는 사람. Vera와 이름이 공명하는 주제적 거울(계보 미확정, 의도된 모호성. 024) |
 | Elias Veyr | Mara를 되살린 남편 |
 | Noor Aram | 이름이 셋인 상속 회피자 |
 | Ione | Aletheia Veil의 양심 |
