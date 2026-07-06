@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # Wiki Content Index
@@ -96,7 +96,7 @@ and
   - universe/IP scaffold for QFUDS-derived fiction works.
 - [QFUDS SAGA](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) - active publisher-style fiction
   track for the QFUDS-inspired SAGA; not research evidence.
-- [QFUDS SAGA Production Board](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)
+- [QFUDS SAGA Production Board](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)
   - current execution state for active SAGA production.
 - [QFUDS SAGA Draft Map](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
   - current active drafts, prototype versions, and archive split.

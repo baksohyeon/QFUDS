@@ -33,8 +33,10 @@ digraph qfuds_verse {
   "qfuds_verse_yi_gi_ideology_axis_ko" [fillcolor="#4e79a7", label="qfuds_verse_yi_gi_ideology_axis_ko"];
   "qfuds_verse_far_future_native_lexicon_return_death_ko" [fillcolor="#4e79a7", label="qfuds_verse_far_future_native_lexicon_return_death_ko"];
   "qfuds_verse_qday_two_crisis_timeline_spine_ko" [fillcolor="#4e79a7", label="qfuds_verse_qday_two_crisis_timeline_spine_ko"];
+  "qfuds_verse_deeptime_catastrophe_pillar_spine_ko" [fillcolor="#4e79a7", label="qfuds_verse_deeptime_catastrophe_pillar_spine_ko"];
   "qfuds_verse_world_index_ko" [fillcolor="#4e79a7", label="qfuds_verse_world_index_ko"];
   "qfuds_verse_series_index_ko" [fillcolor="#bab0ac", label="qfuds_verse_series_index_ko"];
+  "qfuds_saga_encyclopedia_ko" [fillcolor="#bab0ac", label="qfuds_saga_encyclopedia_ko"];
   "qfuds_saga_narrative_pov_theme_naming_ko" [fillcolor="#59a14f", label="qfuds_saga_narrative_pov_theme_naming_ko"];
   "qfuds_saga_first_arc_canon_consolidation_ko" [fillcolor="#59a14f", label="qfuds_saga_first_arc_canon_consolidation_ko"];
   "qfuds_saga_character_liora_sen_ko" [fillcolor="#59a14f", label="qfuds_saga_character_liora_sen_ko"];
@@ -61,6 +63,8 @@ digraph qfuds_verse {
   "qfuds_saga_truth_state_ledger_ko" [fillcolor="#b07aa1", label="qfuds_saga_truth_state_ledger_ko"];
   "qfuds_saga_chronicler_pass_plan_ko" [fillcolor="#b07aa1", label="qfuds_saga_chronicler_pass_plan_ko"];
   "qfuds_saga_final_chronicler_report_ko" [fillcolor="#b07aa1", label="qfuds_saga_final_chronicler_report_ko"];
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" [fillcolor="#b07aa1", label="qfuds_saga_fable_worldview_canon_audit_prompt_ko"];
+  "qfuds_verse_shelf_renumber_map_ko" [fillcolor="#b07aa1", label="qfuds_verse_shelf_renumber_map_ko"];
   "qfuds_saga_workroom_index_ko" [fillcolor="#b07aa1", label="qfuds_saga_workroom_index_ko"];
   "qfuds_saga_visual_exhibit_design_ko" [fillcolor="#f28e2b", label="qfuds_saga_visual_exhibit_design_ko"];
   "qfuds_saga_arc_two_korean_primary_plan_ko" [fillcolor="#f28e2b", label="qfuds_saga_arc_two_korean_primary_plan_ko"];
@@ -142,11 +146,16 @@ digraph qfuds_verse {
   "qfuds_saga_release_index_ko" [fillcolor="#76b7b2", label="qfuds_saga_release_index_ko"];
   "qfuds_saga_index_ko" [fillcolor="#bab0ac", label="qfuds_saga_index_ko"];
   "qfuds_verse_universe_index_ko" [fillcolor="#bab0ac", label="qfuds_verse_universe_index_ko"];
+  "qfuds_verse_fiction_v2_reader_report_ko" [fillcolor="#bab0ac", label="qfuds_verse_fiction_v2_reader_report_ko"];
+  "qfuds_verse_fiction_v2_source_triage_ko" [fillcolor="#bab0ac", label="qfuds_verse_fiction_v2_source_triage_ko"];
+  "qfuds_verse_codex_web_deploy_ko" [fillcolor="#bab0ac", label="qfuds_verse_codex_web_deploy_ko"];
+  "qfuds_verse_codex_web_readme_ko" [fillcolor="#bab0ac", label="qfuds_verse_codex_web_readme_ko"];
   "qfuds_saga_canon_authority_and_ssot_map_ko" -> "qfuds_saga_world_compendium_codex_ko";
   "qfuds_saga_canon_authority_and_ssot_map_ko" -> "qfuds_saga_restoration_mechanism_correction_ko";
   "qfuds_saga_canon_authority_and_ssot_map_ko" -> "qfuds_saga_factions_canon_naming_ko";
   "qfuds_saga_deep_time_restoration_timeline_ko" -> "qfuds_saga_world_direction_matrix_ko" [style=dashed, color=red];
   "qfuds_saga_deep_time_restoration_timeline_ko" -> "qfuds_saga_agentic_system_ko";
+  "qfuds_saga_deep_time_restoration_timeline_ko" -> "qfuds_verse_far_future_native_lexicon_return_death_ko";
   "qfuds_saga_chronology_restoration_admin_black_hole_seat_ko" -> "qfuds_saga_last_archive_origin_and_reversal_causality_ko";
   "qfuds_saga_chronology_restoration_admin_black_hole_seat_ko" -> "qfuds_saga_deep_time_restoration_timeline_ko";
   "qfuds_verse_far_future_deep_time_chronicle_ko" -> "qfuds_verse_continuity_index_ko";
@@ -176,6 +185,7 @@ digraph qfuds_verse {
   "qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko" -> "qfuds_saga_narrative_pov_theme_naming_ko";
   "qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko" -> "qfuds_saga_deep_time_restoration_timeline_ko";
   "qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko" -> "concept_origin" [style=dashed, color=red];
+  "qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko" -> "qfuds_verse_far_future_native_lexicon_return_death_ko";
   "qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko" -> "qfuds_saga_mara_veyr_prologue_draft_ko" [style=dashed, color=red];
   "qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko" -> "qfuds_saga_mara_veyr_prologue_research_harness_ko" [style=dashed, color=red];
   "qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko" -> "qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko";
@@ -205,6 +215,7 @@ digraph qfuds_verse {
   "qfuds_saga_restoration_mechanism_correction_ko" -> "qfuds_saga_last_archive_origin_and_reversal_causality_ko";
   "qfuds_saga_restoration_mechanism_correction_ko" -> "qfuds_saga_reader_accessibility_and_real_world_anchors_ko";
   "qfuds_saga_restoration_mechanism_correction_ko" -> "qfuds_saga_ai_automation_human_in_the_loop_ssot_ko";
+  "qfuds_saga_restoration_mechanism_correction_ko" -> "qfuds_verse_far_future_native_lexicon_return_death_ko";
   "qfuds_saga_in_world_physics_information_unitarity_restoration_ko" -> "qfuds_saga_character_map_and_timeline_coordinates_ko";
   "qfuds_saga_in_world_physics_information_unitarity_restoration_ko" -> "qfuds_saga_revisions_mara_order_totem_two_readings_seed_design_ko";
   "qfuds_saga_qday_aftermath_timeline_and_world_ko" -> "qfuds_saga_deep_time_restoration_timeline_ko";
@@ -254,8 +265,13 @@ digraph qfuds_verse {
   "qfuds_verse_qday_two_crisis_timeline_spine_ko" -> "qfuds_saga_cryptographic_death_and_hash_covenant_ko";
   "qfuds_verse_qday_two_crisis_timeline_spine_ko" -> "qfuds_saga_bitcoin_stature_ideology_deeptime_ko";
   "qfuds_verse_qday_two_crisis_timeline_spine_ko" -> "qfuds_verse_far_future_native_lexicon_return_death_ko";
+  "qfuds_verse_deeptime_catastrophe_pillar_spine_ko" -> "qfuds_verse_qday_two_crisis_timeline_spine_ko";
+  "qfuds_verse_deeptime_catastrophe_pillar_spine_ko" -> "qfuds_saga_near_future_prelude_forecast_ko";
+  "qfuds_verse_deeptime_catastrophe_pillar_spine_ko" -> "qfuds_saga_real_world_and_physics_research_anchors_ko";
   "qfuds_verse_world_index_ko" -> "qfuds_verse_universe_index_ko";
   "qfuds_verse_series_index_ko" -> "qfuds_verse_universe_index_ko";
+  "qfuds_saga_encyclopedia_ko" -> "qfuds_saga_index_ko";
+  "qfuds_saga_encyclopedia_ko" -> "qfuds_saga_drafts_index_ko";
   "qfuds_saga_narrative_pov_theme_naming_ko" -> "qfuds_saga_factions_cultures_power_ecology_ko";
   "qfuds_saga_narrative_pov_theme_naming_ko" -> "qfuds_saga_deep_time_restoration_timeline_ko";
   "qfuds_saga_first_arc_canon_consolidation_ko" -> "qfuds_saga_exhibit_s0_episode1_revised_english_draft" [style=dashed, color=red];
@@ -289,6 +305,7 @@ digraph qfuds_verse {
   "qfuds_saga_character_map_and_timeline_coordinates_ko" -> "qfuds_saga_character_ensemble_voices_relationships_ko";
   "qfuds_saga_character_map_and_timeline_coordinates_ko" -> "qfuds_saga_character_depth_sheets_ko";
   "qfuds_saga_character_map_and_timeline_coordinates_ko" -> "qfuds_saga_deep_time_restoration_timeline_ko";
+  "qfuds_saga_character_map_and_timeline_coordinates_ko" -> "qfuds_verse_qday_two_crisis_timeline_spine_ko";
   "qfuds_saga_machine_childhood_ai_history_narrator_throughline_ko" -> "qfuds_saga_qday_aftermath_timeline_and_world_ko";
   "qfuds_saga_machine_childhood_ai_history_narrator_throughline_ko" -> "qfuds_saga_near_future_recenter_direction_ko";
   "qfuds_saga_machine_childhood_ai_history_narrator_throughline_ko" -> "qfuds_saga_character_map_and_timeline_coordinates_ko";
@@ -344,6 +361,14 @@ digraph qfuds_verse {
   "qfuds_saga_final_chronicler_report_ko" -> "qfuds_saga_chronicler_pass_plan_ko";
   "qfuds_saga_final_chronicler_report_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
   "qfuds_saga_final_chronicler_report_ko" -> "qfuds_saga_character_map_and_timeline_coordinates_ko";
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" -> "qfuds_saga_workroom_index_ko";
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" -> "qfuds_saga_production_board_ko";
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" -> "qfuds_saga_final_chronicler_report_ko";
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" -> "qfuds_verse_canon_drift_and_tech_debt_report_ko";
+  "qfuds_saga_fable_worldview_canon_audit_prompt_ko" -> "qfuds_verse_world_density_master_index_ko" [style=dashed, color=red];
+  "qfuds_verse_shelf_renumber_map_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
+  "qfuds_verse_shelf_renumber_map_ko" -> "qfuds_verse_canon_drift_and_tech_debt_report_ko";
   "qfuds_saga_workroom_index_ko" -> "qfuds_saga_index_ko";
   "qfuds_saga_visual_exhibit_design_ko" -> "qfuds_saga_mara_veyr_prologue_english_revision_ko" [style=dashed, color=red];
   "qfuds_saga_visual_exhibit_design_ko" -> "qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko";
@@ -619,4 +644,17 @@ digraph qfuds_verse {
   "qfuds_verse_universe_index_ko" -> "fiction_catalog_index_ko" [style=dashed, color=red];
   "qfuds_verse_universe_index_ko" -> "fiction_ip_management_system_ko" [style=dashed, color=red];
   "qfuds_verse_universe_index_ko" -> "qfuds_saga_index_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_final_chronicler_report_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_chronicler_pass_plan_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_first_arc_reader_orientation_world_and_cast_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_verse_qday_two_crisis_timeline_spine_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_qday_aftermath_timeline_and_world_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_restoration_mechanism_correction_ko";
+  "qfuds_verse_fiction_v2_reader_report_ko" -> "qfuds_saga_character_map_and_timeline_coordinates_ko";
+  "qfuds_verse_fiction_v2_source_triage_ko" -> "qfuds_saga_final_chronicler_report_ko";
+  "qfuds_verse_fiction_v2_source_triage_ko" -> "qfuds_saga_chronicler_pass_plan_ko";
+  "qfuds_verse_fiction_v2_source_triage_ko" -> "qfuds_saga_canon_authority_and_ssot_map_ko";
+  "qfuds_verse_codex_web_deploy_ko" -> "qfuds_verse_codex_web_readme_ko";
+  "qfuds_verse_codex_web_readme_ko" -> "qfuds_verse_universe_index_ko";
 }
