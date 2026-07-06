@@ -9,7 +9,7 @@ depends_on:
   - fiction_catalog_index_ko
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
-next_gate: continue qfuds-saga arc planning under normalized work shelves
+next_gate: continue qfuds-saga arc planning or SAGA-internal short-story cycle under normalized work shelves
 last_updated: 2026-07-06
 ---
 
@@ -102,4 +102,4 @@ not_extractable
 ## Next Gate
 
 다음 작업은 canonical `20_series/qfuds-saga/` 아래의 normalized work shelves에서
-Arc Two 또는 first-arc polish task를 시작하는 것이다.
+Arc Two, first-arc polish, 또는 SAGA 내부 short-story cycle task를 시작하는 것이다.

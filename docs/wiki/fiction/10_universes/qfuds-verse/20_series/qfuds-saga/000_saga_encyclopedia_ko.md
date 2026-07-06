@@ -16,7 +16,7 @@ last_updated: 2026-07-06
 
 > **자동 생성 파일.** 손으로 고치지 마세요. 원고·설계 문서가 바뀌면 `python3 scripts/build_saga_digest.py`를 다시 돌리면 이 한 장이 최신으로 갱신됩니다. 이 페이지는 SAGA 전체를 위에서 아래로 쭉 읽는 백과사전이고, 실제 편집은 각 원본 문서에서 합니다.
 
-수록 문서 96개 · 최신 갱신 기준 2026-07-06 · 완성/작성중 같은 판단은 [20_drafts 지도](20_drafts/README.md)가 최종 기준(SSOT)이다.
+수록 문서 100개 · 최신 갱신 기준 2026-07-06 · 완성/작성중 같은 판단은 [20_drafts 지도](20_drafts/README.md)가 최종 기준(SSOT)이다.
 
 **리센터 이전 라벨 포함 5개** (본문에 옛 부 번호 잔존, 상단 SSOT 우선): [QFUDS SAGA 첫 Arc Canon 정리](00_bible/202_first_arc_canon_consolidation_ko.md) · [QFUDS SAGA 주인공 시트 — Liora Sen](00_bible/203_character_liora_sen_ko.md) · [QFUDS SAGA 앙상블 캐릭터 보이스·관계 바이블](00_bible/205_character_ensemble_voices_relationships_ko.md) · [QFUDS SAGA 입체 캐릭터 시트](00_bible/206_character_depth_sheets_ko.md) · [QFUDS SAGA Truth-State Ledger](00_workroom/413_truth_state_ledger_ko.md)
 
@@ -26,10 +26,10 @@ last_updated: 2026-07-06
 
 | 선반 | 역할 | 문서 수 |
 | --- | --- | --- |
-| [`20_drafts`](20_drafts/) | 실제 원고 (부/arc별). 지금 읽고 고치는 소설 | 30 |
-| [`10_story_design`](10_story_design/) | 아이디어·아웃라인·arc 지도·씬카드 (확정 전 설계) | 23 |
+| [`20_drafts`](20_drafts/) | 실제 원고 (부/arc별). 지금 읽고 고치는 소설 | 31 |
+| [`10_story_design`](10_story_design/) | 아이디어·아웃라인·arc 지도·씬카드 (확정 전 설계) | 25 |
 | [`00_bible`](00_bible/) | 확정된 세계 사실·인물·제도·과학 경계 (설정 기준서) | 10 |
-| [`30_revisions`](30_revisions/) | 출간용 교정·게이트 기록 | 15 |
+| [`30_revisions`](30_revisions/) | 출간용 교정·게이트 기록 | 16 |
 | [`00_workroom`](00_workroom/) | 운영 규칙·GSD brief·오늘 작업 상태판 | 17 |
 | [`40_release`](40_release/) | 출간 후보·내보내기 (게이트 통과 후) | 1 |
 
@@ -39,6 +39,7 @@ last_updated: 2026-07-06
 
 | 갱신일 | 문서 | 선반 |
 | --- | --- | --- |
+| 2026-07-06 | ["QFUDS SAGA 단편 S1: 반려 버튼 (한국어 primary)"](20_drafts/단편집/001_reject_button_korean_primary.md) | `20_drafts` |
 | 2026-07-06 | [QFUDS SAGA 시각 전시물 설계](10_story_design/301_visual_exhibit_design_ko.md) | `10_story_design` |
 | 2026-07-06 | [QFUDS SAGA Arc Two Korean-Primary Plan](10_story_design/302_arc_two_korean_primary_plan_ko.md) | `10_story_design` |
 | 2026-07-06 | [QFUDS SAGA Last Archive 반전 설계와 떡밥 배치](10_story_design/303_last_archive_reveal_architecture_ko.md) | `10_story_design` |
@@ -50,7 +51,6 @@ last_updated: 2026-07-06
 | 2026-07-06 | [QFUDS SAGA 소버린 AI·오픈/봉쇄 축 브레인스토밍](10_story_design/309_sovereign_ai_open_closed_axis_brainstorm_ko.md) | `10_story_design` |
 | 2026-07-06 | [QFUDS SAGA 5대 극적 질문 스파인](10_story_design/310_five_core_dramatic_questions_spine_ko.md) | `10_story_design` |
 | 2026-07-06 | [QFUDS SAGA 1부 origin 아웃라인](10_story_design/311_first_arc_origin_outline_ko.md) | `10_story_design` |
-| 2026-07-06 | [QFUDS SAGA 1부 origin 씬 카드](10_story_design/312_first_arc_origin_scene_cards_ko.md) | `10_story_design` |
 
 ## 3. 작업 큐 — 각 문서의 다음 할 일 (next_gate)
 
@@ -69,6 +69,7 @@ last_updated: 2026-07-06
 - **[QFUDS SAGA Who May Author Loss Korean Primary](20_drafts/3부/025_who_may_author_loss_korean_primary.md)** — write English counterpart (026) then advance to next KR primary 027 (who may refuse)
 - **[QFUDS SAGA Who May Author Loss English Counterpart](20_drafts/3부/026_who_may_author_loss_english_counterpart.md)** — this is EN counterpart (026) of KR primary 025; next KR primary is 027 (who may refuse)
 - **[QFUDS SAGA Who May Refuse Korean Primary](20_drafts/3부/027_who_may_refuse_korean_primary.md)** — decide English Anglophone counterpart or episode 028 Korean primary
+- **["QFUDS SAGA 단편 S1: 반려 버튼 (한국어 primary)"](20_drafts/단편집/001_reject_button_korean_primary.md)** — critic, reader-sim, continuity, and chronicler pass before any canon consideration
 
 ### 10_story_design
 
@@ -95,6 +96,8 @@ last_updated: 2026-07-06
 - **[기계 화자 보이스·복선·시대건너뛰기 구조 트리트먼트 (서사·보이스 렌즈)](10_story_design/321_machine_narrator_voice_and_setup_payoff_treatment_ko.md)** — 0부 프롤로그층 착수. 화자 문법·복선 회수 지도를 draft 집필의 연출 SSOT로 사용. 사실 앵커는 210이 우선
 - **[QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](10_story_design/322_near_future_prelude_forecast_ko.md)** — 0부 앞 근미래 활주로 candidate 대사전. 캐논 승격은 원고 수요 때 117 §7 6체크. 115 Q-Day로 연결
 - **[QFUDS SAGA 레지스터 전환 오프닝(판타지→하드SF)과 결말 옵션 (candidate/brainstorm)](10_story_design/323_register_morph_opening_and_ending_options_ko.md)** — 결말은 미정(옵션만). 선택된 방향만 306 아크 지도·209 좌표로 승격. 오프닝 장치는 202 반전과 동기화
+- **[QFUDS SAGA 단편 연작 브리프](10_story_design/324_saga_short_story_cycle_brief_ko.md)** — review S1 draft and chronicler pass before any canon-candidate promotion
+- **[QFUDS SAGA 단편 S1 반려 버튼 Intent Card](10_story_design/325_short_s1_reject_button_intent_card_ko.md)** — draft Korean-primary story, then run continuity/chronicler pass before any canon promotion
 
 ## 4. 전체 문서 — 선반별 요약
 
@@ -312,6 +315,13 @@ last_updated: 2026-07-06
 
 다음: decide English Anglophone counterpart or episode 028 Korean primary
 
+#### ["QFUDS SAGA 단편 S1: 반려 버튼 (한국어 primary)"](20_drafts/단편집/001_reject_button_korean_primary.md)
+`draft` · 2026-07-06 · reference
+
+> fiction/provenance only research evidence: no canon status: draft only
+
+다음: critic, reader-sim, continuity, and chronicler pass before any canon consideration
+
 ### `10_story_design` — 아이디어·아웃라인·arc 지도·씬카드 (확정 전 설계)
 
 #### [QFUDS SAGA 시각 전시물 설계](10_story_design/301_visual_exhibit_design_ko.md)
@@ -474,6 +484,20 @@ last_updated: 2026-07-06
 > 작가 발상: "세계를 **빅뱅부터 판타지소설처럼** 소개했다가, 인과가 과학적으로 맞물리는
 
 다음: 결말은 미정(옵션만). 선택된 방향만 306 아크 지도·209 좌표로 승격. 오프닝 장치는 202 반전과 동기화
+
+#### [QFUDS SAGA 단편 연작 브리프](10_story_design/324_saga_short_story_cycle_brief_ko.md)
+`draft` · 2026-07-06 · guide
+
+> 이 문서는 별도 QFUDS Verse anthology가 아니다. **QFUDS SAGA 내부의 단편 연작 작업선**이다.
+
+다음: review S1 draft and chronicler pass before any canon-candidate promotion
+
+#### [QFUDS SAGA 단편 S1 반려 버튼 Intent Card](10_story_design/325_short_s1_reject_button_intent_card_ko.md)
+`draft` · 2026-07-06 · guide
+
+> fiction/provenance only research evidence: no canon status: draft only
+
+다음: draft Korean-primary story, then run continuity/chronicler pass before any canon promotion
 
 ### `00_bible` — 확정된 세계 사실·인물·제도·과학 경계 (설정 기준서)
 
@@ -661,6 +685,13 @@ last_updated: 2026-07-06
 > fiction/provenance only research evidence: no 이 문서는 사가 문서 정합 감사 기록이다. QFUDS 연구 증거·roadmap status 아님. workflow: 멀티에이전트 감사(7 폴더 리더 + 편집자 종합 + 완결성 검수), 발견·정리 기록.
 
 다음: "사용자 게이트 대기 항목(036 리네임 여부·본문 전면 재라벨·status 강등·011 번호 지위) 결정 후 2차 패스"
+
+#### [QFUDS SAGA 단편 S1 반려 버튼 Chronicler Pass](30_revisions/019_short_s1_reject_button_chronicler_pass_ko.md)
+`draft` · 2026-07-06 · guide
+
+> fiction/provenance only research evidence: no canon promotion: not yet
+
+다음: reader/continuity review before canon-candidate promotion
 
 ### `00_workroom` — 운영 규칙·GSD brief·오늘 작업 상태판
 

@@ -80,6 +80,7 @@ release candidate -> 40_release
 | 1부 오르페우스 (오웬) | 1부 오르페우스 origin (035, 오웬) |
 | 1.5부 사엘 (제도) | 1.5부 사엘 origin (033, 제도). 현행 사엘 자산은 033 (030은 폐기 프로토타입) |
 | [20_drafts/2부](20_drafts/2부/README.md) | 2부 마라 (034, 신) |
+| [20_drafts/단편집](20_drafts/단편집/README.md) | SAGA 내부 단편 연작. 독립 단편들이 쌓여 SAGA 연속성을 만든다 |
 | [30_revisions](30_revisions/README.md) | release-facing revision plans and audits |
 | [40_release](40_release/README.md) | release manifest/export shelf. active release는 gate 통과 후 생성 |
 
