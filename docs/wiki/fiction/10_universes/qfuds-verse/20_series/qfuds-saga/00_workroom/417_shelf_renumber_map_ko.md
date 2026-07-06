@@ -136,6 +136,17 @@ provenance 문서가 인용하는 과거 행 번호(line NNN)와 드리프트 ID
 | 016 | 415 |
 | 017 | 416 |
 
+## 이후 리네임 절차
+
+파일명을 바꿀 일이 생기면 손으로 하지 않는다.
+
+- 에이전트/CLI: `python3 scripts/rename_doc.py <old_path> <new_name> --dry-run`으로
+  영향 범위를 보고 실행한다. git mv + 전 저장소 링크·라벨 갱신 + 깨진 링크 검사까지 한
+  명령이다. 산문 속 맨 번호 인용은 자동 갱신되지 않으므로 번호 변경은 피한다(밴드에
+  여유 번호가 있다).
+- Obsidian: `docs/wiki`를 vault로 열면 리네임 시 링크가 자동 갱신된다(공유 설정
+  `.obsidian/app.json`: 마크다운 링크·상대 경로·자동 갱신 on).
+
 ## Boundary
 
 ```text

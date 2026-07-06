@@ -10,3 +10,8 @@ _workspace/
 
 # Obsidian vault settings (local UI state)
 .obsidian/
+
+# Obsidian: 공유 설정(app.json)만 추적, 나머지 로컬 상태는 제외
+!docs/wiki/.obsidian/
+docs/wiki/.obsidian/*
+!docs/wiki/.obsidian/app.json
