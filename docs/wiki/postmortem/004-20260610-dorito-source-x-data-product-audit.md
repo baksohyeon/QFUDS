@@ -24,7 +24,7 @@ created_at: 2026-06-10
 created_by: dorito
 updated_at: 2026-06-10
 updated_by: dorito
-last_updated: 2026-06-11
+last_updated: 2026-07-06
 last_verified_at: 2026-06-10
 last_verified_by: dorito
 audit_log:
@@ -128,7 +128,7 @@ Execute the approved plan.
 
 Authority:
 
-[040_black_hole_data_product_audit_plan.md](docs/wiki/research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md)
+[040_black_hole_data_product_audit_plan.md](../research/investigations/source_x/plans/040_black_hole_data_product_audit_plan.md)
 
 Follow the plan exactly.
 

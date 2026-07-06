@@ -9,7 +9,7 @@ depends_on:
   - lit_lacy_2024_smbh_accretion_coupling_constraints
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion or extract figure/table values if Lacy 2024 is reused as an accretion-history constraint
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # Lacy 2024 SMBH Accretion Coupling Assets
@@ -50,7 +50,7 @@ or `Q^nu`.
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 depends on this asset cache before treating Lacy 2024 as only a qualitative
 constraint.
 

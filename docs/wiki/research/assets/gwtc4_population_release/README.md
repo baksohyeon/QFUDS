@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: selected population-product extraction if an updated LVK merger-population proxy is needed
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # GWTC-4.0 Population Release Assets
@@ -49,7 +49,7 @@ do not directly provide a QFUDS-ready cosmic SMBH `rho_BH(a)` source history.
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 depends on this cache before using updated LVK merger-population products.
 
 ## Known Limitations

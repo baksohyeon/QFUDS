@@ -17,7 +17,7 @@ depends_on:
   - asset_chen_2026_figure5_numeric_digitization_provenance
   - roadmap
 next_gate: approved 047 shape comparison execution only
-last_updated: 2026-06-11
+last_updated: 2026-07-06
 ---
 
 # 2026-06-11 Chen-Gamma Shape Comparison Plan
@@ -25,7 +25,7 @@ last_updated: 2026-06-11
 ## Purpose
 
 This plan follows the
-[Research Investigation Result Routing Workflow](../../../../../.agent/workflows/research-investigation-result-routing-workflow.md)
+[Research Investigation Result Routing Workflow](../../../../../../.agent/workflows/research-investigation-result-routing-workflow.md)
 and the Source-X investigation routing conventions.
 
 The purpose is to determine how a future audit should compare the shape of the
@@ -217,7 +217,7 @@ docs/wiki/research/investigations/source_x/conclusions/047_chen_gamma_shape_comp
 ```
 
 That result must follow the
-[Research Investigation Result Routing Workflow](../../../../../.agent/workflows/research-investigation-result-routing-workflow.md).
+[Research Investigation Result Routing Workflow](../../../../../../.agent/workflows/research-investigation-result-routing-workflow.md).
 
 The result must report:
 

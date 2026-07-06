@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: selected HDF5 or contour recovery only if event-level PE samples become necessary
-last_updated: 2026-06-11
+last_updated: 2026-07-06
 ---
 
 # GWTC-3 Parameter-Estimation Release Manifest
@@ -39,7 +39,7 @@ The manifest does not by itself provide a QFUDS-ready `rho_BH(a)`,
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 uses this manifest to record that event-level PE products exist but were not
 downloaded.
 

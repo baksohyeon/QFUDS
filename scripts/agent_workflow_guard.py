@@ -165,10 +165,20 @@ def canonical_tool_reference_link_text(text: str) -> str:
     return " ".join(normalize_tool_reference_links(text).split())
 
 
-def staged_change_is_only_tool_reference_links(path: Path) -> bool:
+# Matches the ``](target)`` tail of an inline markdown link; used to neutralize
+# link *targets* so a pure relative-path edit compares equal on both sides.
+LINK_TARGET_RE = re.compile(r"\]\([^)]*\)")
+
+
+def mask_link_targets(text: str) -> str:
+    return LINK_TARGET_RE.sub("](#)", text)
+
+
+def staged_hunks(path: Path) -> list[tuple[list[str], list[str]]]:
+    """Return the staged diff's hunks as (removed_lines, added_lines) pairs."""
     diff = staged_diff(path)
     if not diff:
-        return False
+        return []
 
     hunks: list[tuple[list[str], list[str]]] = []
     removed: list[str] = []
@@ -195,11 +205,21 @@ def staged_change_is_only_tool_reference_links(path: Path) -> bool:
             flush()
 
     flush()
+    return hunks
 
+
+def staged_change_matches_after_normalize(
+    path: Path, normalize
+) -> bool:
+    """True if every non-``last_updated`` hunk is unchanged once ``normalize`` is
+    applied to both sides, and at least one hunk really changed. Shared shape for
+    the "this edit does not add a research claim" exemptions.
+    """
+    hunks = staged_hunks(path)
     if not hunks:
         return False
 
-    changed_any_tool_link = False
+    changed_any = False
     for removed_lines, added_lines in hunks:
         if not removed_lines or not added_lines:
             return False
@@ -207,14 +227,30 @@ def staged_change_is_only_tool_reference_links(path: Path) -> bool:
             continue
         removed_text = "\n".join(removed_lines)
         added_text = "\n".join(added_lines)
-        normalized_removed = canonical_tool_reference_link_text(removed_text)
-        normalized_added = canonical_tool_reference_link_text(added_text)
-        if normalized_removed != normalized_added:
+        if normalize(removed_text) != normalize(added_text):
             return False
         if removed_text != added_text:
-            changed_any_tool_link = True
+            changed_any = True
 
-    return changed_any_tool_link
+    return changed_any
+
+
+def staged_change_is_only_tool_reference_links(path: Path) -> bool:
+    return staged_change_matches_after_normalize(
+        path, canonical_tool_reference_link_text
+    )
+
+
+def staged_change_is_only_link_path_edits(path: Path) -> bool:
+    """True if the staged diff only rewrites link *targets*.
+
+    A relative-path correction (e.g. fixing ``../`` depth after a rename)
+    changes where an existing link points without introducing any new
+    external-research claim, so it must not trip the workflow gate. Mirrors the
+    tool-reference-link exemption: mask every ``](target)`` span and require the
+    lines to be otherwise identical.
+    """
+    return staged_change_matches_after_normalize(path, mask_link_targets)
 
 
 def is_navigation_index(text: str) -> bool:
@@ -266,7 +302,10 @@ def main() -> int:
     failures: list[tuple[Path, list[str]]] = []
     for path in paths:
         errors = check_file(path, staged=staged)
-        if errors and staged and staged_change_is_only_tool_reference_links(path):
+        if errors and staged and (
+            staged_change_is_only_tool_reference_links(path)
+            or staged_change_is_only_link_path_edits(path)
+        ):
             continue
         if errors:
             failures.append((path, errors))

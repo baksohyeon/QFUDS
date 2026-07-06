@@ -22,7 +22,7 @@ created_at: 2026-06-11
 created_by: dorito
 updated_at: 2026-06-11
 updated_by: dorito
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 last_verified_at: 2026-06-11
 last_verified_by: dorito
 audit_log:
@@ -56,7 +56,7 @@ code_refs:
 
 # Research asset digitization 자동화 시행착오 포스트모템
 
-[001-20260609-dorito-li-2025-data-cache](docs/wiki/postmortem/001-20260609-dorito-li-2025-data-cache.md) 회고 덕분에 "PDF를 못 읽었는데 문헌을 확인했다고 말하는 문제"는 빨리 잡았다. 이번 사건은 그 다음 단계였다. 여러 논문과 data-release asset(논문 본문이 아니라 데이터·표·코드·README 같은 공개 릴리스 묶음)을 한 번에 Markdown(LLM과 검색이 읽기 쉬운 구조화 텍스트), source text(원본에서 추출한 텍스트), figure PNG(논문 그림을 PNG 이미지로 렌더링한 파일), image reference(Markdown 안의 이미지 링크)까지 정리하려고 하면서, 처음에는 [MarkItDown](https://github.com/microsoft/markitdown)과 caption 추정에 기대다가 [PageIndex](https://github.com/VectifyAI/PageIndex), TeX source(논문 조판 원본), 고해상도 figure rendering(그림 PDF를 고해상도 이미지로 바꾸는 작업), coverage audit(빠진 본문·그림·링크가 없는지 세는 점검)로 절차를 다시 세운 사건이다. 동시에 흩어진 asset 폴더를 논문/릴리스 단위 구조로 다시 묶고, `.agent/workflows/`를 agent 절차의 SSOT(single source of truth, 단일 기준 문서)로 고정한 파일 구조 정리 사건이기도 하다.
+[001-20260609-dorito-li-2025-data-cache](001-20260609-dorito-li-2025-data-cache.md) 회고 덕분에 "PDF를 못 읽었는데 문헌을 확인했다고 말하는 문제"는 빨리 잡았다. 이번 사건은 그 다음 단계였다. 여러 논문과 data-release asset(논문 본문이 아니라 데이터·표·코드·README 같은 공개 릴리스 묶음)을 한 번에 Markdown(LLM과 검색이 읽기 쉬운 구조화 텍스트), source text(원본에서 추출한 텍스트), figure PNG(논문 그림을 PNG 이미지로 렌더링한 파일), image reference(Markdown 안의 이미지 링크)까지 정리하려고 하면서, 처음에는 [MarkItDown](https://github.com/microsoft/markitdown)과 caption 추정에 기대다가 [PageIndex](https://github.com/VectifyAI/PageIndex), TeX source(논문 조판 원본), 고해상도 figure rendering(그림 PDF를 고해상도 이미지로 바꾸는 작업), coverage audit(빠진 본문·그림·링크가 없는지 세는 점검)로 절차를 다시 세운 사건이다. 동시에 흩어진 asset 폴더를 논문/릴리스 단위 구조로 다시 묶고, `.agent/workflows/`를 agent 절차의 SSOT(single source of truth, 단일 기준 문서)로 고정한 파일 구조 정리 사건이기도 하다.
 
 이 문서는 새 실험이 아니다. roadmap status를 바꾸지 않고, Level 2B를 열지 않으며, 어떤 문헌 overlap도 QFUDS support로 승격하지 않는다. 산출물의 최대 의미는 `source_text_parse`와 figure-level inspection asset이다.
 

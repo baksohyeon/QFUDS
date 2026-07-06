@@ -9,7 +9,7 @@ depends_on:
   - lit_amendola_2024_gw_constraints_ccbh
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: code checkout or table extraction if CCBH constraint reproduction is needed
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # Amendola 2024 GW Constraint CCBH Assets
@@ -56,7 +56,7 @@ or `Q^nu`.
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 depends on this asset cache for distinguishing code-reproducible CCBH
 constraints from QFUDS-ready source products.
 

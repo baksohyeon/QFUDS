@@ -20,7 +20,7 @@ depends_on:
   - wiki_governance_004_missing_physics_map
   - roadmap
 next_gate: approved 048 known-model distinction audit execution only
-last_updated: 2026-06-11
+last_updated: 2026-07-06
 ---
 
 # 2026-06-11 Known-Model Distinction Audit Plan
@@ -28,7 +28,7 @@ last_updated: 2026-06-11
 ## Purpose
 
 This plan follows the
-[Research Investigation Result Routing Workflow](../../../../../.agent/workflows/research-investigation-result-routing-workflow.md)
+[Research Investigation Result Routing Workflow](../../../../../../.agent/workflows/research-investigation-result-routing-workflow.md)
 and the Source-X investigation routing conventions.
 
 The purpose is to define a future known-model distinction audit for the current
@@ -180,7 +180,7 @@ docs/wiki/research/investigations/source_x/conclusions/048_known_model_distincti
 ```
 
 That result must follow the
-[Research Investigation Result Routing Workflow](../../../../../.agent/workflows/research-investigation-result-routing-workflow.md).
+[Research Investigation Result Routing Workflow](../../../../../../.agent/workflows/research-investigation-result-routing-workflow.md).
 
 The result must report:
 

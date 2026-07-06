@@ -9,7 +9,7 @@ depends_on:
   - lit_croker_2024_desi_coupled_black_holes
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion, extract tables, or digitize figures if Croker 2024 is reused as a DESI CCBH comparator
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # Croker 2024 DESI Coupled Black-Hole Assets
@@ -50,7 +50,7 @@ or `Q^nu`.
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 depends on this asset cache for table/figure/source inspection.
 
 ## Known Limitations

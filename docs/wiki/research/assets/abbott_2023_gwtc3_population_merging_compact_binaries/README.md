@@ -9,7 +9,7 @@ depends_on:
   - lit_abbott_2023_gwtc3_population_merging_compact_binaries
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: selected population-product extraction if a merger-population proxy is needed
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # GWTC-3 Population Release Assets
@@ -49,7 +49,7 @@ or QFUDS normalization route.
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 depends on this cache for distinguishing LVK reproducible products from
 QFUDS-ready Lane A source histories.
 

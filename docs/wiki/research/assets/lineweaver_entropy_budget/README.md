@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - audit_2026_06_10_black_hole_data_product_audit
 next_gate: inspect Markdown conversion and extract table values before using the entropy inventory numerically
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # Lineweaver Entropy Budget Chapter Asset
@@ -41,7 +41,7 @@ This asset is not QFUDS evidence and does not define a redshift-dependent
 
 ## Dependent Audit
 
-[2026-06-10 Black-Hole Data Product Audit](../../../governance/source_x/conclusions/040_black_hole_data_product_audit.md)
+[2026-06-10 Black-Hole Data Product Audit](../../investigations/source_x/conclusions/040_black_hole_data_product_audit.md)
 depends on this asset cache before treating the entropy inventory as only a
 prose citation.
 
