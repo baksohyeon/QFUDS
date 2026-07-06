@@ -10,7 +10,7 @@ depends_on:
   - fiction_gsd_planning_bridge_ko
   - wiki_fiction_index
 next_gate: reference only; active fiction work starts at 011_fiction_agentic_workflow_guide_ko
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # Fiction GSD 하네스 운영 가이드
@@ -20,6 +20,11 @@ last_updated: 2026-06-21
 이 문서는 GSD phase를 실제로 열거나 점검해야 할 때 보는 상세 참고 문서다. active
 fiction 작업의 시작점은
 [Fiction Agentic Workflow Guide](011_fiction_agentic_workflow_guide_ko.md)다.
+
+이전 `001 Fiction IP 관리 시스템`과 `002 Fiction GSD 계획 브리지`의 고유 내용은
+이 문서로 통합됐다. 001·002는 이 문서를 가리키는 얇은 포인터로 남는다. 운영
+authority는 여전히
+[Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)다.
 
 작가가 오늘 무엇을 쓸지 정하려면 이 문서가 아니라 SAGA README와 production board를
 먼저 본다. 이 문서는 GSD, phase brief, validation, commit boundary가 필요한
@@ -286,3 +291,70 @@ gsd-tools --cwd <WORKTREE> phase-plan-index 1
 `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/` 아래의
 canonical series work다. 옛 top-level `qfuds-saga/`와 `archive/`는
 migration 완료 후 삭제됐으며, 새 작업에서 재생성하지 않는다.
+
+## 통합 참고: 폴더 구조·레이어·bible
+
+(구 `001`에서 통합. 상세 라우팅 authority는
+[Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md).)
+
+### 권장 구조
+
+새로운 대형 fiction 작업은 아래 구조를 목표로 한다.
+
+```text
+docs/wiki/fiction/
+  00_studio/
+  01_catalog/
+  10_universes/
+    00_multiverse/
+    <universe-id>/
+      README.md
+      00_continuity/
+      10_world/
+      20_series/
+      30_shorts/
+      40_anthologies/
+      50_elseworlds/
+  90_archive/
+```
+
+각 작품 폴더는 아래 구조를 따른다.
+
+```text
+<work-id>/
+  README.md
+  00_workroom/
+  00_bible/
+  10_story_design/
+  20_drafts/
+  30_revisions/
+  40_release/
+```
+
+### Layer Definitions
+
+| Layer | 역할 | 예시 |
+| --- | --- | --- |
+| `00_studio/` | agent, MCP, template, approval gate, 검수 규칙 | 이 문서 |
+| `01_catalog/` | 전체 작품 목록, reading order, status board | catalog |
+| `10_universes/` | 여러 IP/world container | `qfuds-verse`, future universes |
+| `00_continuity/` | canon, soft-canon, elseworld, prototype, retired 판정 | branch map |
+| `10_world/` | universe 공통 세계관, 과학 경계, 기관, 연표 | QFUDS fiction universe |
+| `20_series/` | 장편/SAGA/시즌제 작품 | `qfuds-saga` |
+| `30_shorts/` | 단편 | future short |
+| `40_anthologies/` | 단편 모음집 | future anthology |
+| `50_elseworlds/` | What-if / 평행우주 / 실험 분기 | future elseworld |
+| `00_workroom/` | 작품별 운영 규칙, agent harness, approval gate | local writing room |
+| `00_bible/` | 작품별 내부 기준서 | cast, POV, local canon |
+| `10_story_design/` | 플롯, arc, scene list, reveal order | outline |
+| `20_drafts/` | 실제 원고 | prose draft |
+| `30_revisions/` | release-facing revision plan, line edit, continuity fix | revision pass |
+| `40_release/` | 독자용 release candidate, export 묶음 | release bundle |
+
+### Bible Usage
+
+`bible`은 전체 fiction 폴더명으로 쓰지 않는다. 각 작품 안에서만 쓴다.
+
+이 repo에서 `00_bible/`은 "성경"이 아니라 작가실 내부 기준서다. 한 작품의
+캐릭터, 시점, 말투, local canon, 금기, 상속한 세계관, local override를 관리한다.
+독자에게 보이는 세계관 설명은 `10_world/`나 작품 README가 맡는다.

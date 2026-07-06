@@ -22,6 +22,19 @@ last_updated: 2026-07-06
 [Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)
 가 정한다. 이 catalog는 그 규칙을 사람이 보기 쉽게 적용한 상태판이다.
 
+## 이 폴더의 문서
+
+이 폴더에는 두 성격이 섞여 있다: 전체 fiction 상태판(README·002·003)과 qfuds-verse
+전용 세계 밀도 색인(001). `001`은 general fiction catalog가 아니라 qfuds-verse
+world/candidate density 색인이다.
+
+| 문서 | 역할 | 성격 |
+| --- | --- | --- |
+| README (이 문서) | 사람이 먼저 보는 catalog 시작점: shelf·work·migration 상태 | 상태판 |
+| [001 world density index](001_qfuds_verse_world_density_index_ko.md) | qfuds-verse 세계 밀도(117~122 candidate wave + 003 연표)를 한 장에 묶은 색인 | qfuds-verse 전용. canon 아님, candidate register |
+| [002 folder classification audit](002_fiction_folder_classification_audit_ko.md) | 폴더 단위 분류·정리 상태 ledger | cleanup ledger (계속 갱신) |
+| [003 content review audit](003_fiction_content_review_audit_ko.md) | 문서 단위 내용 검토·template 집행 상태 ledger | cleanup ledger (계속 갱신) |
+
 ## Authoring Baseline
 
 - 기준일: 2026-06-20
@@ -40,6 +53,9 @@ last_updated: 2026-07-06
 폴더 정리와 legacy/tool/archive 판단은
 [Fiction Folder Classification Audit](002_fiction_folder_classification_audit_ko.md)에
 기록한다.
+
+폴더별 문서 내용 검토와 template 집행 상태는
+[Fiction Content Review Audit](003_fiction_content_review_audit_ko.md)에 기록한다.
 
 | Shelf | Path | Role | Status |
 | --- | --- | --- | --- |
@@ -89,9 +105,11 @@ not_extractable
 1. 작업 시작 전 [Fiction Agentic Workflow Guide](../00_studio/011_fiction_agentic_workflow_guide_ko.md)를 읽고,
    [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)의
    현재 unit을 확인한다.
-2. 원고 작업은 [SAGA README](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md)와 production board가
+2. 폴더별 내용 검토는 [Fiction Content Review Audit](003_fiction_content_review_audit_ko.md)의
+   다음 검토 순서를 따른다.
+3. 원고 작업은 [SAGA README](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md)와 production board가
    가리키는 active unit에서만 시작한다.
-3. arc 번호 cascade가 걸린 draft README는 story design과 사용자 승인 후
+4. arc 번호 cascade가 걸린 draft README는 story design과 사용자 승인 후
    별도 pass로 정리한다.
-4. `40_release/001_` active release는 한국어 primary, 영어 독립 각색판, shared continuity
+5. `40_release/001_` active release는 한국어 primary, 영어 독립 각색판, shared continuity
    check, release-facing revision gate 이후에만 만든다.

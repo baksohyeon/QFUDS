@@ -131,6 +131,19 @@ roadmap
   archive README로 우회한다.
 - 번호 cascade가 걸린 문서는 arc map과 origin outline이 확정된 뒤 별도 pass로 고친다.
 
+## 왜 게이트로 강제하나 (관점 요약)
+
+(구 `008 4관점 해설`에서 통합.) 단편 한 편은 머릿속 규칙으로 됐지만, 시리즈로
+가자 세계관 구멍·균질한 인물 목소리·반복 구조·AI 티가 누적됐다. 원인은 도구가
+없어서가 아니라 도구가 강제되지 않아서였다. 그래서 규칙을 훅과 게이트로 옮겼다.
+
+| 관점 | 핵심 |
+| --- | --- |
+| 에이전트 | 하드 게이트 `scripts/fiction_gate.py --staged`(pre-commit, em dash·민감 주제 차단), 소프트 게이트 `.claude` PreToolUse/UserPromptSubmit 훅, 검증 에이전트(`ai-tell-detector`·`naturalness-reviewer`·`content-fidelity-auditor`), 집필 전 프리플라이트(`00_workroom/005`). 게이트가 막는 것은 결함이 아니라 설계다 |
+| 작가 | 읽기=SAGA README read path, 설정=`00_bible/`, 기획=`10_story_design/`, 내 아이디어 추적=`00_workroom/006`, 어디에 두나=README 라우팅 표 |
+| 독자 | 완성본(`40_release`)만 본다. 리텐션 테스트 통과가 release 조건 |
+| 협업 | 원본은 `20_drafts` 하나. `40_release`는 gate 통과 시 manifest/export만. canon 충돌은 `00_bible` 기준 |
+
 ## 검증
 
 문서 정리 후 최소 검증:

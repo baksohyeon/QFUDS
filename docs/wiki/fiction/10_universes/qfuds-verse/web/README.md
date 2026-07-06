@@ -54,3 +54,7 @@ DEPLOY.md           # 배포 절차 (Dokku / systemd / docker)
 세계관 문서가 바뀌면 `data/*.js` 를 갱신하면 된다. 각 항목의 `st`(상태) 뱃지와
 `nodes`/`links` 참조만 지키면 성좌·문서 뷰가 자동 반영된다. 출처 문서는 상위
 [README](../README.md) 참고.
+
+`data/*.js`의 doc-번호 provenance 참조가 재번호로 stale해지지 않도록 하는 가드
+설계는 [웹 데이터 provenance 가드 스펙](000_web_data_provenance_guard_spec_ko.md)
+참고.

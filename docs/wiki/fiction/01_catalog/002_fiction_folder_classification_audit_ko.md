@@ -94,16 +94,20 @@ external source claim: no
 | `qfuds-verse/README.md` | Start Here에 세계관 한 장 기준서 연결 |
 | `qfuds-saga/README.md` | SAGA 시작 표에 전체 세계관 진입 링크 추가 |
 | `10_universes/.DS_Store` | 추적되지 않는 macOS 산출물 제거 |
+| `00_studio/` + `.agent/templates/fiction/` | [003 content review audit](003_fiction_content_review_audit_ko.md)에 첫 내용 검토 기록 |
+| `00_studio/` 중복 가이드 통합 | 2026-07-06 001·002를 003으로, 008을 011로 통합(포인터 stub, doc_id 보존). README 유형 열 추가 |
 
 ## 다음 루프 후보
 
-1. `qfuds-verse/web/`을 active universe 산출물로 둘지, artifact/web shelf로 분리할지
+1. [003 content review audit](003_fiction_content_review_audit_ko.md)의 순서대로
+   `qfuds-verse/00_continuity/`, `qfuds-verse/10_world/`를 검토한다.
+2. `qfuds-verse/web/`을 active universe 산출물로 둘지, artifact/web shelf로 분리할지
    결정한다.
-2. `10_world/117-122` 같은 expansion wave 문서가 canon인지 candidate인지 각 문서
+3. `10_world/117-122` 같은 expansion wave 문서가 canon인지 candidate인지 각 문서
    frontmatter와 본문을 기준으로 표기한다.
-3. `20_drafts/` 부별 README와 production board가 같은 active unit을 가리키는지
+4. `20_drafts/` 부별 README와 production board가 같은 active unit을 가리키는지
    확인한다.
-4. archive 폴더의 read order가 active README와 상호 충돌하지 않는지 확인한다.
+5. archive 폴더의 read order가 active README와 상호 충돌하지 않는지 확인한다.
 
 ## 금지
 
