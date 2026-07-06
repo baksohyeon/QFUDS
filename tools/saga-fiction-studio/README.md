@@ -28,7 +28,7 @@ an IP studio, not loose documents. Every skill references the repo's
 ## Layout
 
 ```
-docs/wiki/fiction/saga-fiction-studio/
+tools/saga-fiction-studio/
   .claude-plugin/
     plugin.json
     marketplace.json

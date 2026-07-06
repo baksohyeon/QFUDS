@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_chronicler_pass_plan_ko
   - qfuds_saga_canon_authority_and_ssot_map_ko
 next_gate: update only when a source document changes class or the reader report stops matching current canon
-last_updated: 2026-07-04
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse fiction_v2 소스 분류 원장

@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - wiki_fiction_index
 next_gate: none; archived fiction provenance only
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # Wiki Fiction Archive
@@ -28,6 +28,11 @@ back into the active track.
 3. [QFUDS SAGA reboot 이전 기획 아카이브](qfuds-saga_pre_reboot_planning/README.md) -
    pre-reboot planning/revision docs (story_design 001·003-006, 30_revisions
    004-006, workroom 002) absorbed by the 012/013/029 reboot.
+4. [fiction_v2 legacy reader layer](fiction_v2_legacy/000_fiction_v2_reader_report_ko.md) -
+   superseded reader/report and HTML explorer layer. It was removed from the
+   active `qfuds-verse` shelf on 2026-07-06 because the new
+   [world canon orientation](../10_universes/qfuds-verse/000_world_canon_orientation_ko.md)
+   is now the first-read entry point.
 
 ## Boundary
 

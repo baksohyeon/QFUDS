@@ -15,7 +15,7 @@ depends_on:
   - qfuds_saga_restoration_mechanism_correction_ko
   - qfuds_saga_character_map_and_timeline_coordinates_ko
 next_gate: use this as the no-link author reader before any qfuds-verse cleanup or prose continuation
-last_updated: 2026-07-04
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse fiction_v2 세계관 리더

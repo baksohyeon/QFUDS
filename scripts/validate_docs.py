@@ -18,12 +18,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / "docs"
 
 # Subtrees under docs/ that are not QFUDS documentation and therefore are exempt
-# from the frontmatter schema and markdown-link hygiene. Currently this covers
-# Claude plugin sources (SKILL.md files use the plugin frontmatter `name`/
-# `description`, not the docs schema).
-EXCLUDED_DOC_PREFIXES = (
-    "docs/wiki/fiction/saga-fiction-studio/",
-)
+# from the frontmatter schema and markdown-link hygiene.
+EXCLUDED_DOC_PREFIXES: tuple[str, ...] = ()
 
 
 def is_excluded_doc(path: Path) -> bool:

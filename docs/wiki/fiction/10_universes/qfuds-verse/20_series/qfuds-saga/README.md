@@ -37,6 +37,7 @@ only이며 QFUDS 연구 증거, roadmap status, Level 2B claim이 아니다.
 
 | 목적 | 열 문서 |
 | --- | --- |
+| qfuds-verse 전체 세계관을 먼저 잡는다 | [000 세계관 한 장 기준서](../../000_world_canon_orientation_ko.md) |
 | **"이게 무슨 이야기냐"가 안 잡힐 때 (가장 쉬운 한 장)** | [318 세계관·인물 한눈에](10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md) |
 | 오늘 active unit 확인 | [SAGA production board](00_workroom/408_saga_production_board_ko.md) |
 | 전체 arc 구조 확인 | [306 saga arc map](10_story_design/306_saga_arc_map_multiarc_ko.md) |

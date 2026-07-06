@@ -21,6 +21,12 @@ last_updated: 2026-07-06
 `docs/wiki/fiction/qfuds-saga/` 호환 폴더는 migration 완료 후 삭제됐고,
 canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
+## Start Here
+
+세계관이 너무 흩어져 보이면 먼저
+[000 세계관 한 장 기준서](000_world_canon_orientation_ko.md)를 읽는다. 이 문서는
+새 캐논을 만들지 않고, 현재 세계관을 이해하기 위한 압축 입구만 제공한다.
+
 ## Codex (시각화 웹앱)
 
 세계관을 3D 성좌 + 연대기/인물/체계/사전으로 훑고, 아카이브에 질의하고,

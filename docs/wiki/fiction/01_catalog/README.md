@@ -37,6 +37,10 @@ last_updated: 2026-07-06
 [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)가
 정한다.
 
+폴더 정리와 legacy/tool/archive 판단은
+[Fiction Folder Classification Audit](002_fiction_folder_classification_audit_ko.md)에
+기록한다.
+
 | Shelf | Path | Role | Status |
 | --- | --- | --- | --- |
 | Studio system | [../00_studio/](../00_studio/) | fiction/IP 관리, GSD bridge, craft harness | active |
