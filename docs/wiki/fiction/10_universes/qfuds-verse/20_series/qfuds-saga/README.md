@@ -9,8 +9,8 @@ depends_on:
   - wiki_fiction_index
   - qfuds_fiction_saga_index_ko
   - qfuds_lineage_agentic_research_system_ko
-next_gate: check 011 guide and production board before choosing the next active unit
-last_updated: 2026-07-02
+next_gate: check 002 guide and production board before choosing the next active unit
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA
@@ -19,7 +19,7 @@ last_updated: 2026-07-02
 
 이 README는 SAGA 작업 선반의 짧은 입구다. 실행 절차는
 [Fiction Agentic Workflow Guide](../../../../00_studio/011_fiction_agentic_workflow_guide_ko.md)가,
-오늘 작업은 [SAGA production board](00_workroom/009_saga_production_board_ko.md)가 정한다.
+오늘 작업은 [SAGA production board](00_workroom/408_saga_production_board_ko.md)가 정한다.
 
 **전체를 한 장으로 쭉 보고 싶을 때 →
 [000 SAGA 백과사전](000_saga_encyclopedia_ko.md)** (모든 문서의 요약·상태·다음 할 일을
@@ -27,7 +27,7 @@ last_updated: 2026-07-02
 
 ```text
 작업 시작 순서:
-011 운영 허브 -> SAGA production board -> 필요한 story_design/bible/draft만 열기
+002 운영 허브 -> SAGA production board -> 필요한 story_design/bible/draft만 열기
 ```
 
 QFUDS SAGA는 `qfuds-verse` 안의 active long-form SAGA work다. fiction/provenance
@@ -37,13 +37,13 @@ only이며 QFUDS 연구 증거, roadmap status, Level 2B claim이 아니다.
 
 | 목적 | 열 문서 |
 | --- | --- |
-| **"이게 무슨 이야기냐"가 안 잡힐 때 (가장 쉬운 한 장)** | [023 세계관·인물 한눈에](10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md) |
-| 오늘 active unit 확인 | [SAGA production board](00_workroom/009_saga_production_board_ko.md) |
-| 전체 arc 구조 확인 | [011 saga arc map](10_story_design/011_saga_arc_map_multiarc_ko.md) |
-| 극적 질문 spine 확인 | [015 five core dramatic questions](10_story_design/015_five_core_dramatic_questions_spine_ko.md) |
-| 1.5부 사엘 origin 구조 확인 | [016 origin outline](10_story_design/016_first_arc_origin_outline_ko.md), [017 origin scene cards](10_story_design/017_first_arc_origin_scene_cards_ko.md) |
-| 암호 개념 독자 온보딩 확인 | [018 crypto onboarding check](10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md) |
-| 사엘 실행 시트 확인 | [019 Sael execution sheet](10_story_design/019_sael_origin_execution_sheet_ko.md) |
+| **"이게 무슨 이야기냐"가 안 잡힐 때 (가장 쉬운 한 장)** | [318 세계관·인물 한눈에](10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md) |
+| 오늘 active unit 확인 | [SAGA production board](00_workroom/408_saga_production_board_ko.md) |
+| 전체 arc 구조 확인 | [306 saga arc map](10_story_design/306_saga_arc_map_multiarc_ko.md) |
+| 극적 질문 spine 확인 | [310 five core dramatic questions](10_story_design/310_five_core_dramatic_questions_spine_ko.md) |
+| 1.5부 사엘 origin 구조 확인 | [311 origin outline](10_story_design/311_first_arc_origin_outline_ko.md), [312 origin scene cards](10_story_design/312_first_arc_origin_scene_cards_ko.md) |
+| 암호 개념 독자 온보딩 확인 | [313 crypto onboarding check](10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md) |
+| 사엘 실행 시트 확인 | [314 Sael execution sheet](10_story_design/314_sael_origin_execution_sheet_ko.md) |
 
 작업 상태가 서로 다르면 production board와 최신 story_design을 먼저 본다. draft README와
 arc 번호 cascade는 별도 승인 전까지 고치지 않는다.
@@ -54,10 +54,10 @@ arc 번호 cascade는 별도 승인 전까지 고치지 않는다.
 | --- | --- |
 | [00_bible](00_bible/) | 작품 설정 기준서. 세계 사실, 인물, 제도, 과학 경계 |
 | [00_bible/000 canon authority map](../../00_continuity/000_canon_authority_and_ssot_map_ko.md) | bible/story_design/draft 사이의 authority 확인 |
-| [00_bible/024 character map and timeline coordinates](00_bible/024_character_map_and_timeline_coordinates_ko.md) | 시대좌표. 인물 지도와 딥타임 구조 (캐논 진입점) |
-| [00_bible/025 near-future recenter](../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md) | 근미래 리센터. 인월드 물리 복원 기준 (캐논 진입점) |
-| [00_bible/026 Q-Day aftermath](../../10_world/026_qday_aftermath_timeline_and_world_ko.md) | Q-Day 여파. 여파 타임라인과 세계 (캐논 진입점) |
-| [00_bible/027 AI history throughline](00_bible/027_machine_childhood_ai_history_narrator_throughline_ko.md) | AI발전사 관통선. 기계 화자 throughline (캐논 진입점) |
+| [00_bible/209 character map and timeline coordinates](00_bible/209_character_map_and_timeline_coordinates_ko.md) | 시대좌표. 인물 지도와 딥타임 구조 (캐논 진입점) |
+| [00_bible/114 near-future recenter](../../10_world/114_in_world_physics_information_unitarity_restoration_ko.md) | 근미래 리센터. 인월드 물리 복원 기준 (캐논 진입점) |
+| [00_bible/115 Q-Day aftermath](../../10_world/115_qday_aftermath_timeline_and_world_ko.md) | Q-Day 여파. 여파 타임라인과 세계 (캐논 진입점) |
+| [00_bible/210 AI history throughline](00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md) | AI발전사 관통선. 기계 화자 throughline (캐논 진입점) |
 | [00_workroom](00_workroom/) | SAGA-local 운영 규칙, GSD brief, production board, traceability |
 | [10_story_design](10_story_design/) | outline, arc map, reveal plan, scene cards |
 
@@ -91,8 +91,8 @@ release candidate -> 40_release
 | --- | --- |
 | 한국어 문장 자연스러움, AI 말투 제거 | [009 Korean prose naturalness harness](../../../../00_studio/009_korean_fiction_prose_naturalness_harness_ko.md) |
 | 기술·제도·역사 개념 독자 온보딩 | [010 reader onboarding harness](../../../../00_studio/010_reader_onboarding_harness_ko.md) |
-| 장편 생산 게이트 | [005 series production harness](00_workroom/005_series_production_harness_ko.md) |
-| chapter/scene intent 작성 | [010 chapter intent card template](00_workroom/010_chapter_intent_card_template_ko.md) |
+| 장편 생산 게이트 | [404 series production harness](00_workroom/404_series_production_harness_ko.md) |
+| chapter/scene intent 작성 | [409 chapter intent card template](00_workroom/409_chapter_intent_card_template_ko.md) |
 
 ## Boundary
 

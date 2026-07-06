@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_polish_read_order_pass
   - fiction_prose_verisimilitude_audit_checklist_ko
 next_gate: apply to 019-024, then audit with naturalness/content-fidelity agents
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획
@@ -25,7 +25,7 @@ workflow state: `not searched`.
 
 한국어 정본 v2 각색본(019-024)이 prose 본문에서 영어 일반명사를 과도하게
 유지한다. 이는 canon 규칙
-[bible 006](../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md)
+[bible 104](../../../10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
 §389-393("한국어 본문은 직역투가 아니라 한국어 소설로 읽혀야 한다")을 위반한다.
 
 퇴고 전 영어성 토큰 density(측정):
@@ -45,7 +45,7 @@ invoice, access, authority, petition, residence 등). 프롤로그
 
 ## 집행 기준
 
-[이중언어 용어규율 글로서리](../00_workroom/003_bilingual_term_discipline_glossary_ko.md)의
+[이중언어 용어규율 글로서리](../00_workroom/402_bilingual_term_discipline_glossary_ko.md)의
 Keep 4범주(고유명사·제도 분위기어·기술어·의도적 장치)만 영어 유지, 나머지
 일반명사는 한국어. 제도 분위기어는 사용자 선택 "중간" 기준으로 Trust, Court,
 Ledger House 등 최소 집합만 유지.

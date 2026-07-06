@@ -38,9 +38,9 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **1.5부 사엘 origin**
 | [032 영어 콘티](032_origin_sael_webnovel_storyboard_en.md) | 영어 각색 1화 draft | 영어판 출발점 |
 
 신규 1.5부 산문은 **033** 안에서 쓴다. 구조 SSOT는
-[016 origin 아웃라인](../../10_story_design/016_first_arc_origin_outline_ko.md)·
-[017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md),
-실행 시트는 [019 사엘 시트](../../10_story_design/019_sael_origin_execution_sheet_ko.md).
+[311 origin 아웃라인](../../10_story_design/311_first_arc_origin_outline_ko.md)·
+[312 origin scene cards](../../10_story_design/312_first_arc_origin_scene_cards_ko.md),
+실행 시트는 [314 사엘 시트](../../10_story_design/314_sael_origin_execution_sheet_ko.md).
 새 1부 「오르페우스」는 [../1부/](../1부/README.md),
 2부 Mara 현행 책은 [../2부/034](../2부/034_mara_full_novel_korean_primary.md),
 3부 author-loss 소재는 [../3부/](../3부/README.md)에 있다.
@@ -48,5 +48,5 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **1.5부 사엘 origin**
 ## 상속 규칙 / 로컬 오버라이드
 
 상속: em dash 0(한·영), "박-" 슬랭 동사 금지, 민감 주제 0, 표식=mark, 이중언어
-용어규율([003](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md)).
+용어규율([402](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md)).
 로컬 오버라이드: 없음. 경계: fiction/provenance only, QFUDS 연구 증거 아님.

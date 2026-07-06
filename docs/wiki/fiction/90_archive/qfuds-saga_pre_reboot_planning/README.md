@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - wiki_fiction_archive_index
 next_gate: none; archived fiction planning provenance only
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA reboot 이전 기획 아카이브
@@ -20,7 +20,7 @@ last_updated: 2026-06-21
 
 - **10_story_design/**: 001 세계관 방향 매트릭스(방향 확정 완료), 003 출범 패키지,
   004 Liora 첫 화 beat sheet, 005 Genesis Chain 장면 패킷, 006 첫 Arc 6화
-  아웃라인 — 전부 [012 reboot 아웃라인](../../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/012_first_arc_book1_outline_reboot_ko.md)·[013 scene cards](../../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/013_first_arc_scene_cards_ko.md)로 흡수됨.
+  아웃라인 — 전부 [307 reboot 아웃라인](../../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)·[308 scene cards](../../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)로 흡수됨.
 - **30_revisions/**: 004 R3 구조 패스, 005 R4 격언·의식 패스, 006 R6 세계관
   온보딩 재구성 — 전부 in-place 퇴고 경로로, reboot(백지 재작성)로 중단됨.
 - **00_workroom/**: 002 Mara 프롤로그 연구 하네스 — 029 프롤로그가 백지

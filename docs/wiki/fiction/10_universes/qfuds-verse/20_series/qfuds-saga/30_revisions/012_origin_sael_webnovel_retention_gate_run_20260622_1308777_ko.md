@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_revisions_first_second_arc_formal_retention_gate_protocol_ko
   - qfuds_saga_drafts_origin_sael_webnovel_storyboard_ko
 next_gate: 차기 revision wave에서 S1(RET-001~003) 처리 후 새 baseline으로 재실행. release 승격 전 ran_passed 권장
-last_updated: 2026-06-22
+last_updated: 2026-07-06
 ---
 
 # 031 origin 웹소설 콘티 텔링 Retention Gate Run 2026-06-22 1308777
@@ -22,7 +22,7 @@ last_updated: 2026-06-22
 - Source draft(s): 031 origin 웹소설 콘티 텔링 (030의 자매 텔링)
 - Baseline commit/date: 1308777 / 2026-06-22
 - Gate owner mode: `reader-sim` + `critic` + `chronicler`
-- Production board: [009 production board](../00_workroom/009_saga_production_board_ko.md)
+- Production board: [408 production board](../00_workroom/408_saga_production_board_ko.md)
 - Revision shelf output: 이 문서(30_revisions/012)
 - Release target: 미정(1부 origin 텔링 draft). 이 run은 draft 진단용, release 승격은 별도
 

@@ -66,7 +66,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 2 decision |
 | --- | --- |
-| Repeating cast sheet | Noor/Pell/Ione/Last Archive [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Noor/Pell/Ione/Last Archive [205](../00_bible/205_character_ensemble_voices_relationships_ko.md); Liora [203](../00_bible/203_character_liora_sen_ko.md) |
 | POV person | Noor Aram 제한 3인칭(세 이름의 상속 회피자) |
 | Causal link | 1편의 `RECOVERABLE / NOT CLAIMABLE` 이후, 권력이 죽은 접근권으로 산 사람을 끌어당긴다(Sarqel Trust가 Noor를 상속인으로 지목) |
 | Escalation | 사적 배우자 청구(1편)가 가문·신탁 차원의 상속 강제로 커진다 |

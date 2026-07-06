@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: 권위 지도(000)·딥타임 연표(002)·복원 행정 연표(011)를 여기서 관리. 시대 좌표 SSOT는 series 024
-last_updated: 2026-07-01
+next_gate: 권위 지도(000)·딥타임 연표(001)·복원 행정 연표(002)를 여기서 관리. 시대 좌표 SSOT는 series 209
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse Continuity
@@ -18,14 +18,14 @@ last_updated: 2026-07-01
 ## Continuity 문서 (SSOT)
 
 2026-07-01 재레벨링으로 series bible에서 승격. 시대 좌표(인물별) SSOT는 series
-[024 캐릭터 지도](../20_series/qfuds-saga/00_bible/024_character_map_and_timeline_coordinates_ko.md)가 유지한다.
+[209 캐릭터 지도](../20_series/qfuds-saga/00_bible/209_character_map_and_timeline_coordinates_ko.md)가 유지한다.
 
 | 문서 | 역할 |
 | --- | --- |
 | [000 캐논 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) | 충돌 시 어느 문서가 이기나(제작 권위 지도) |
-| [002 장기 복원 문명사 타임라인](002_deep_time_restoration_timeline_ko.md) | 0-9기 딥타임 연대기(연표 SSOT) |
-| [011 연표·복원 행정·블랙홀 본거지](011_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
-| [036 먼 미래 심층시간 연대기](036_far_future_deep_time_chronicle_ko.md) | 002 5-9기를 수만-수억 년 물리 시계에 건 심층시간 확장(스파이스=검증 기록). 002 SSOT 위 레이어 |
+| [001 장기 복원 문명사 타임라인](001_deep_time_restoration_timeline_ko.md) | 0-9기 딥타임 연대기(연표 SSOT) |
+| [002 연표·복원 행정·블랙홀 본거지](002_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
+| [003 먼 미래 심층시간 연대기](003_far_future_deep_time_chronicle_ko.md) | 001 5-9기를 수만-수억 년 물리 시계에 건 심층시간 확장(스파이스=검증 기록). 001 SSOT 위 레이어 |
 
 ## 감사·메타 리포트 (900번대, 읽기 전용 산출물)
 
@@ -69,3 +69,7 @@ Extraction potential:
 ```text
 not_extractable
 ```
+
+## 번호 체계 (2026-07-06 재번호)
+
+선반별 밴드 번호를 쓴다(continuity 0xx / world 1xx / bible 2xx / story_design 3xx / workroom 4xx). 구→신 매핑은 [workroom 417](../20_series/qfuds-saga/00_workroom/417_shelf_renumber_map_ko.md)이 보유한다. 원고(20_drafts)·revisions·archive는 구번호 유지.

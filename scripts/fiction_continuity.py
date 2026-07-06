@@ -10,7 +10,7 @@ Adoption, fiction only, relaxed 2026-06-30): source recorded here, fiction side
 only, never into QFUDS research evidence.
 
 Single source of truth: the canon character map
-  docs/wiki/fiction/.../00_bible/024_character_map_and_timeline_coordinates_ko.md
+  docs/wiki/fiction/.../00_bible/209_character_map_and_timeline_coordinates_ko.md
 
 It parses the roster (character -> arc/era) from the `## 인물 표` table and scans
 prose drafts under `20_drafts/<부>/`. In this deep-time SAGA the arcs are
@@ -42,7 +42,7 @@ import pathlib
 
 FICTION_ROOT = "docs/wiki/fiction"
 SAGA = FICTION_ROOT + "/10_universes/qfuds-verse/20_series/qfuds-saga"
-CHAR_MAP = SAGA + "/00_bible/024_character_map_and_timeline_coordinates_ko.md"
+CHAR_MAP = SAGA + "/00_bible/209_character_map_and_timeline_coordinates_ko.md"
 DRAFT_ROOT = SAGA + "/20_drafts"
 
 ARC_DIRS = ("1부", "1.5부", "2부", "3부")

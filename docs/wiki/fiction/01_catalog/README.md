@@ -10,7 +10,7 @@ depends_on:
   - fiction_ip_management_system_ko
   - qfuds_saga_index_ko
 next_gate: use the SAGA README and production board before choosing the next active drafting or design unit
-last_updated: 2026-07-02
+last_updated: 2026-07-06
 ---
 
 # Fiction Catalog
@@ -34,7 +34,7 @@ last_updated: 2026-07-02
 ## Current Shelves
 
 이 catalog는 active work 목록과 shelf 상태만 관리한다. 오늘 무엇을 할지는
-[SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)가
+[SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)가
 정한다.
 
 | Shelf | Path | Role | Status |
@@ -52,7 +52,7 @@ last_updated: 2026-07-02
 | --- | --- | --- | --- | --- |
 | QFUDS SAGA | [../10_universes/qfuds-verse/20_series/qfuds-saga/](../10_universes/qfuds-verse/20_series/qfuds-saga/) | long-form SAGA / series candidate | active series work | Check the SAGA README, production board, and latest story_design/draft map before choosing the next unit |
 | Laur Observatory prototype | [../90_archive/lineage-prototype/](../90_archive/lineage-prototype/) | short prototype sequence | archived prototype | Keep archived unless a later work explicitly adapts it |
-| Feathersmcgraw Coda | [../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/](../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/) | anthology (vector-sandbox) | active prototype anthology | 001 「아직도 스파게티를 먹는다」 first-pass 퇴고 후 리텐션 게이트 |
+| Feathersmcgraw Coda | [../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/](../10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/) | anthology (vector-sandbox) | active prototype anthology | 101 「아직도 스파게티를 먹는다」 first-pass 퇴고 후 리텐션 게이트 |
 
 ## Migration Decision Record
 
@@ -83,7 +83,7 @@ not_extractable
 ## Next Task Candidates
 
 1. 작업 시작 전 [Fiction Agentic Workflow Guide](../00_studio/011_fiction_agentic_workflow_guide_ko.md)를 읽고,
-   [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md)의
+   [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)의
    현재 unit을 확인한다.
 2. 원고 작업은 [SAGA README](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md)와 production board가
    가리키는 active unit에서만 시작한다.

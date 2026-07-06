@@ -67,7 +67,7 @@ English counterpart:
 
 | Gate | Episode 6 decision |
 | --- | --- |
-| Repeating cast sheet | Mara/Elias/Noor/Ione/Tamas [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Mara/Elias/Noor/Ione/Tamas [205](../00_bible/205_character_ensemble_voices_relationships_ko.md); Liora [203](../00_bible/203_character_liora_sen_ko.md) |
 | POV person | Liora Sen 제한 3인칭 |
 | Causal link | 1-5편의 표식 사슬이 권력의 문법이 되고, Mara가 그 문법 자체를 거부한다 |
 | Escalation | 누적된 제도 압력이 Mara의 편지와 최종 거부로 정점에 이른다 |

@@ -11,7 +11,7 @@ depends_on:
   - qfuds_saga_first_arc_book1_outline_reboot_ko
   - qfuds_saga_first_arc_scene_cards_ko
 next_gate: no active release until 029 reboot prose passes continuity, counterpart, and release gates
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA Pre-Reboot 1부 Release Manifest
@@ -25,8 +25,8 @@ candidate가 아니다.
 SSOT 정리 원칙에 따라 기존 조립 원고 파일은 삭제했다.
 본문 중복본을 release shelf에 두지 않는다. 현재 읽을 수 있는 prototype source는
 `20_drafts/028`과 `20_drafts/019`-`024`이며, 새 1부 정본은
-[012 outline](../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
-[013 scene cards](../10_story_design/013_first_arc_scene_cards_ko.md)를 통과해
+[307 outline](../10_story_design/307_first_arc_book1_outline_reboot_ko.md)과
+[308 scene cards](../10_story_design/308_first_arc_scene_cards_ko.md)를 통과해
 [029 active reboot manuscript](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)에서
 작성 중이다.
 

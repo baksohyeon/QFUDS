@@ -45,7 +45,7 @@ not searched
 - Verisimilitude audit:
   [핍진성·개연성 장면 감사 체크리스트](../../../../../../00_studio/006_prose_verisimilitude_audit_checklist_ko.md).
 - Term discipline:
-  [이중언어 용어규율 글로서리](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md).
+  [이중언어 용어규율 글로서리](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md).
 - Narrative frame: Liora Sen limited POV, direct scene on the day after the
   first-arc ruling.
 - Scene goal/obstacle/turn/cost: Liora wants to stop her own field marks from

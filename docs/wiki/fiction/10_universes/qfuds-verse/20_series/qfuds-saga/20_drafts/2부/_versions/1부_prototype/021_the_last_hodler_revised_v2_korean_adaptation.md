@@ -68,7 +68,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 3 decision |
 | --- | --- |
-| Repeating cast sheet | Elias/Ione/Mara/Last Archive [016](../../../../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../../../../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Elias/Ione/Mara/Last Archive [205](../../../../00_bible/205_character_ensemble_voices_relationships_ko.md); Liora [203](../../../../00_bible/203_character_liora_sen_ko.md) |
 | POV person | Liora Sen 제한 3인칭(광장 폭동을 내려다본다) |
 | Causal link | 1-2편의 판정이 거리로 새어 나와 장부 신도와 망각 수도회의 충돌이 된다 |
 | Escalation | 법정 안 사건이 도시 광장의 군중·신앙 갈등으로 확장 |

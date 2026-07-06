@@ -644,7 +644,7 @@ THE LOCK WAS THE CROWN
 본문은 이야기 속도로 간다. 여기서는 본문에 나온 핵심 개념을 교과서급으로 푼다.
 아래는 **실제 과학**이며, 소설의 가설적 사건(Q-Day가 실제로 일어난 밤 등)과는
 구분한다. 사실 검증 2026-06-30. (이 우주의 형이상학 캐논은
-[00_bible/025 정보·유니터리·복원](../../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md).)
+[00_bible/025 정보·유니터리·복원](../../../../10_world/114_in_world_physics_information_unitarity_restoration_ko.md).)
 
 ### A1. Q-Day: 공개키 암호는 어떻게 깨지나 (쇼어 알고리즘)
 

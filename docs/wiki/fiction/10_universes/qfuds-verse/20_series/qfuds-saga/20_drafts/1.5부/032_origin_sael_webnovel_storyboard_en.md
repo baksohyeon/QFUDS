@@ -44,8 +44,8 @@ not_extractable
 
 - Inherited: em dash 0 (KO and EN), no sensitive-topic content (no political
   faction blame in the Q-Day background), field marks preserved in English.
-- Structure SSOT: [016 origin outline](../../10_story_design/016_first_arc_origin_outline_ko.md),
-  [017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md);
+- Structure SSOT: [311 origin outline](../../10_story_design/311_first_arc_origin_outline_ko.md),
+  [312 origin scene cards](../../10_story_design/312_first_arc_origin_scene_cards_ko.md);
   scene-for-scene parity with 031.
 - Onboarding: technothriller + in-world document (per 010/018). Keep crypto terms
   accurate (public key, private key, signature, ledger, one-wayness); ground each

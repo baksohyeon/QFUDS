@@ -52,11 +52,11 @@ not_extractable
 ## Harness Applied
 
 - 상속(1부 README): em dash 0(한·영), "박-" 슬랭 동사 금지, 민감 주제 0, 표식=mark,
-  이중언어 용어규율([003](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md)).
-- 구조 SSOT: [016 origin 아웃라인](../../10_story_design/016_first_arc_origin_outline_ko.md),
-  [017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md).
-- 실행 시트: [019 사엘 origin 실행 시트](../../10_story_design/019_sael_origin_execution_sheet_ko.md).
-- 온보딩 게이트: [018 crypto 개념 reader-onboarding 점검](../../10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md).
+  이중언어 용어규율([402](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md)).
+- 구조 SSOT: [311 origin 아웃라인](../../10_story_design/311_first_arc_origin_outline_ko.md),
+  [312 origin scene cards](../../10_story_design/312_first_arc_origin_scene_cards_ko.md).
+- 실행 시트: [314 사엘 origin 실행 시트](../../10_story_design/314_sael_origin_execution_sheet_ko.md).
+- 온보딩 게이트: [313 crypto 개념 reader-onboarding 점검](../../10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md).
 - 캐논 앵커 상속(029 프롤로그와 정합 유지): 검증실 십육 도(Karvath 계약 조항),
   Convergence Engine First Pass Intake Clerk(사엘 직함), Aletheia 검증대.
 - 노출 예산(016 §8): B1 Petitioner는 Aletheia/Karvath/Vera/Last Archive 정체를

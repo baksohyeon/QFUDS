@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_saga_index_ko
 next_gate: 012 retention gate run artifact를 1308777에 고정해 40_release 승격 전에 남긴다
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA Revision Shelf
@@ -22,7 +22,7 @@ control, continuity fix pass를 둔다.
 ## Cascade Drift Note
 
 캐릭터·시대좌표 SSOT는 024이고, 아크 번호는
-[011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md)을 따른다(충돌 시 024 우선). 사엘
+[306 §10](../10_story_design/306_saga_arc_map_multiarc_ko.md)을 따른다(충돌 시 024 우선). 사엘
 origin revision 대상은 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)이고
 (2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035),
 [029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)는 physical cascade
@@ -33,7 +33,7 @@ origin revision 대상은 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_p
 1. [1부 De-jargon·Polish 퇴고 계획](001_first_arc_dejargon_polish_revision_plan_ko.md)
    - 한국어 정본 019-024의 영어 코드스위칭을 자연 한국어로 전환하는 line-edit
      pass. 집행 기준은
-     [이중언어 용어규율 글로서리](../00_workroom/003_bilingual_term_discipline_glossary_ko.md).
+     [이중언어 용어규율 글로서리](../00_workroom/402_bilingual_term_discipline_glossary_ko.md).
      검증: naturalness/content-fidelity 에이전트 + 토큰 density 측정.
 2. [1부 Release 승격 현장감·묘사 강화 기준](002_first_arc_release_immersion_revision_plan_ko.md)
    - 원래 019-024 prototype release 후보용으로 만든 구조·이해도·기술정확·보이스·
@@ -51,7 +51,7 @@ origin revision 대상은 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_p
    - `030`/`029`를 release shelf로 올리기 전 필요한 9-persona gate 산출물 계약.
      persona sheet, evidence matrix, issue ledger, revision mapping이 없으면 gate는 무효다.
      실제 실행 결과는 baseline commit과 blob hash를 고정한 별도 run artifact(`012_...`)로 남긴다.
-7. [034 마라 '순서' 토템 + 두 읽기 복선 설계 (B-i)](017_mara_order_totem_two_readings_seed_design_ko.md)
+7. [017 마라 '순서' 토템 + 두 읽기 복선 설계 (B-i)](017_mara_order_totem_two_readings_seed_design_ko.md)
    - 6장 α 분기(RET-2B-005)를 1~5장에 복선으로 예고하는 캐릭터 장치 설계. 마라의
      생전 신념(올바른 순서는 하나)을 토템으로 삼아, 그 반사가 사본에게 새어나오게
      하고 6장에서 정산한다. in-world 형이상학(it-from-bit 풍미)은 픽션 전용, QFUDS

@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_revisions_first_second_arc_formal_retention_gate_protocol_ko
   - qfuds_saga_drafts_origin_sael_full_novel_korean_primary
 next_gate: 잔여 S1(중반 반복)·S2(거푸집) polish 후 release 추진 시 재실행. 다음 작업=2부 풀길이 또는 영어 각색
-last_updated: 2026-06-22
+last_updated: 2026-07-06
 ---
 
 # 033 origin 풀길이 소설 Retention + Comprehension Gate 2026-06-22 c91e9be
@@ -21,7 +21,7 @@ last_updated: 2026-06-22
 - Scope: 033 1~8장 전체(~45,100자). 작가의 "이해 안 됨" 지적 해소 검증
 - Baseline commit/date: c91e9be / 2026-06-22
 - Gate owner mode: `reader-sim` + `critic` + `chronicler`
-- Production board: [009](../00_workroom/009_saga_production_board_ko.md)
+- Production board: [408](../00_workroom/408_saga_production_board_ko.md)
 
 ## Boundary
 

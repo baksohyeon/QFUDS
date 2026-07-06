@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_revisions_first_second_arc_formal_retention_gate_protocol_ko
   - qfuds_saga_drafts_mara_full_novel_korean_primary
 next_gate: 거푸집 후렴(S1)·6장 물리댐/길이·QFUDS 한 줄 설명 polish 후 release 추진 시 재실행. 또는 3부
-last_updated: 2026-06-30
+last_updated: 2026-07-06
 ---
 
 # 034 2부 마라 풀길이 소설 Retention + Comprehension Gate 2026-06-23 a41bcb9
@@ -21,7 +21,7 @@ last_updated: 2026-06-30
 - Scope: 034 1~6장 전체(본문 ~65,200자)
 - Baseline commit/date: a41bcb9 / 2026-06-23
 - Gate owner mode: `reader-sim` + `critic` + `chronicler`
-- Production board: [009](../00_workroom/009_saga_production_board_ko.md)
+- Production board: [408](../00_workroom/408_saga_production_board_ko.md)
 
 ## Boundary
 

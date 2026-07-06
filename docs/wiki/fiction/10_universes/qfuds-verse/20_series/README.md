@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
 next_gate: use qfuds-saga README and production board before choosing the next active unit
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # QFUDS Verse Series
@@ -19,7 +19,7 @@ last_updated: 2026-06-21
 
 | Series | Current path | Status | Rule |
 | --- | --- | --- | --- |
-| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | [SAGA README](qfuds-saga/README.md)와 [production board](qfuds-saga/00_workroom/009_saga_production_board_ko.md)를 먼저 확인한다 |
+| QFUDS SAGA | [qfuds-saga/](qfuds-saga/) | active prototype series work | [SAGA README](qfuds-saga/README.md)와 [production board](qfuds-saga/00_workroom/408_saga_production_board_ko.md)를 먼저 확인한다 |
 
 ## Migration Record
 

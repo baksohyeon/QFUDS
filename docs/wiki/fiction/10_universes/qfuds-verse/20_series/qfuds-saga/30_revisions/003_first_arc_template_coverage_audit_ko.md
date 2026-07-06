@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_first_arc_release_immersion_revision_plan_ko
   - qfuds_saga_character_ensemble_voices_relationships_ko
 next_gate: apply template coverage checks to 029 first-arc reboot manuscript as chapters are drafted
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 1부 전역 템플릿 커버리지 감사
@@ -40,7 +40,7 @@ not searched
 - 1부 release/revision gate:
   [002 release gate](002_first_arc_release_immersion_revision_plan_ko.md)
 - 1부 series gate:
-  [005 series production harness](../00_workroom/005_series_production_harness_ko.md)
+  [404 series production harness](../00_workroom/404_series_production_harness_ko.md)
 
 ## 결론
 
@@ -60,10 +60,10 @@ prototype 기준의 비대칭은 retro pass로 닫혔다.
 | `universe_readme_template` | [qfuds-verse README](../../../README.md)가 universe/IP, continuity, world, works, boundary를 보유 | pass | 없음 |
 | `work_readme_template` | [SAGA README](../README.md)가 work shelves, inherited boundary, drafts/revisions/release, reading path를 보유 | pass | 없음 |
 | `work_bible_template` | 단일 파일이 아니라 `00_bible/001-016`으로 분산 구현됨. authoring baseline, timeline, local canon, technology limits, cast, POV, relationship, boundary가 각각 존재 | pass with split bible | README와 이 감사 문서가 crosswalk 역할을 유지 |
-| `character_sheet_template` | Liora는 [012](../00_bible/012_character_liora_sen_ko.md) full sheet. Mara/Elias/Pell/Last Archive/Noor/Ione은 [016](../00_bible/016_character_ensemble_voices_relationships_ko.md) 미니시트와 013 archetype gate를 상속 | pass for first draft entry | 029 장별 draft가 늘어날 때 인물별 Want/Need/Fear/Wound/Lie drift 재점검 |
+| `character_sheet_template` | Liora는 [203](../00_bible/203_character_liora_sen_ko.md) full sheet. Mara/Elias/Pell/Last Archive/Noor/Ione은 [205](../00_bible/205_character_ensemble_voices_relationships_ko.md) 미니시트와 013 archetype gate를 상속 | pass for first draft entry | 029 장별 draft가 늘어날 때 인물별 Want/Need/Fear/Wound/Lie drift 재점검 |
 | `continuity_audit_template` | field mark, bilingual, fidelity, release audit가 여러 문서에 분산돼 있었지만 이름 그대로의 1부 continuity audit은 없었음 | partial -> covered here | 이 문서를 1부 template coverage + continuity audit record로 둠 |
 | `session_brief_template` | 과거 1부 작업은 legacy `.planning` phase와 revision docs로 추적됨. 전역 session brief 형식은 별도 산출물로 남지 않음 | historical gap | 새 prose/revision session은 session brief 또는 GSD phase brief를 남겨야 함 |
-| `gsd_phase_brief_template` | 2부는 [004 Arc Two GSD phase brief](../00_workroom/004_arc_two_gsd_phase_brief_ko.md)가 있음. 1부는 legacy planning provenance | pass for future, legacy gap for first arc | 후속 2-6편 retro pass는 bounded phase brief 또는 이 audit을 근거로 실행 |
+| `gsd_phase_brief_template` | 2부는 [403 Arc Two GSD phase brief](../00_workroom/403_arc_two_gsd_phase_brief_ko.md)가 있음. 1부는 legacy planning provenance | pass for future, legacy gap for first arc | 후속 2-6편 retro pass는 bounded phase brief 또는 이 audit을 근거로 실행 |
 | `Harness Applied` workflow block | 019-024 모두 보유 | pass | 없음 |
 | bilingual sequence rule | Korean primary 019-024, English counterpart 012-017 경로 보유. 029는 한국어 primary 먼저 작성 중 | pass | 029 완료 후 영어 Anglophone adaptation 때 shared continuity 재확인 |
 | technical grounding rule | Bitcoin/Genesis, cryptographic death, Hawking/QFUDS boundary 문서가 있음 | pass | alias 추가 시 original term, loss risk, accurate anchor 기록 유지 |
@@ -74,11 +74,11 @@ prototype 기준의 비대칭은 retro pass로 닫혔다.
 | Dimension | Bible says | Draft/release shows | Match? | Action |
 | --- | --- | --- | --- | --- |
 | Timeline / era placement | deep-time restoration civilization, Continuity Court era | 019-024가 Waiting City, Continuity Court, Genesis Chain afterlife를 사용 | yes | 없음 |
-| Factions & institutions | Bureau Laurien/Laur, Continuity Court, Ledger Houses, Aletheia, Last Archive | 1부 전체에서 반복 등장 | yes | 세력명은 [015](../../../10_world/015_factions_canon_naming_ko.md) 유지 |
+| Factions & institutions | Bureau Laurien/Laur, Continuity Court, Ledger Houses, Aletheia, Last Archive | 1부 전체에서 반복 등장 | yes | 세력명은 [109](../../../10_world/109_factions_canon_naming_ko.md) 유지 |
 | Naming / proper nouns | 고유명·필드 마크는 영어 유지, 일반명사는 한국어 우선 | 019-024 Korean primary와 pre-reboot release manifest가 이 규칙을 기록 | yes | 신규 용어 추가 시 glossary 갱신 |
 | Technology limits & forbidden claims | Bitcoin/QFUDS/black-hole terms are fiction premise only | release boundary와 draft boundary가 연구 evidence 금지 명시 | yes | 유지 |
 | Character knowledge state | Liora limited POV, Last Archive no direct inner POV | prototype 1-6편과 029 prologue gate에 명시 | yes for current scope | 029 Chapter 1 이후 장별 continuity ledger에서 재점검 |
-| POV / narrative frame | 기본 3인칭 제한, 필요 시 rotating focalizers | 1부는 Liora 중심으로 고정 | yes | 2부부터 POV 로테이션 후보는 [016]과 [010 episode map](../10_story_design/010_arc_two_episode_map_ko.md) 확인 |
+| POV / narrative frame | 기본 3인칭 제한, 필요 시 rotating focalizers | 1부는 Liora 중심으로 고정 | yes | 2부부터 POV 로테이션 후보는 [016]과 [305 episode map](../10_story_design/305_arc_two_episode_map_ko.md) 확인 |
 
 ## 누락 / 리스크
 

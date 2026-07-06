@@ -65,7 +65,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 1 decision |
 | --- | --- |
-| Repeating cast sheet | Liora [012](../../../../00_bible/012_character_liora_sen_ko.md); Mara/Elias/Pell/Last Archive [016](../../../../00_bible/016_character_ensemble_voices_relationships_ko.md) |
+| Repeating cast sheet | Liora [203](../../../../00_bible/203_character_liora_sen_ko.md); Mara/Elias/Pell/Last Archive [205](../../../../00_bible/205_character_ensemble_voices_relationships_ko.md) |
 | POV person | Liora Sen 제한 3인칭. Mara의 내면은 직접 열지 않고 말·몸·선택으로만 노출 |
 | Causal link | Genesis Chain 접근권이 Mara 복원 청구로, Mara의 거부가 Liora의 임시 표식으로 이어짐 |
 | Escalation | 사적 배우자 청구가 복원 문명의 첫 공개 제도 언어(`RECOVERABLE / NOT CLAIMABLE`)로 상승 |

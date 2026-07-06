@@ -45,11 +45,11 @@ not_extractable
 
 - 상속(1부 README): em dash 0(한·영), "박-" 슬랭 동사 금지, 민감 주제 0(정치 진영
   제외), 표식=mark.
-- 구조 SSOT: [016 origin 아웃라인](../../10_story_design/016_first_arc_origin_outline_ko.md),
-  [017 origin scene cards](../../10_story_design/017_first_arc_origin_scene_cards_ko.md),
-  [019 사엘 실행 시트](../../10_story_design/019_sael_origin_execution_sheet_ko.md).
+- 구조 SSOT: [311 origin 아웃라인](../../10_story_design/311_first_arc_origin_outline_ko.md),
+  [312 origin scene cards](../../10_story_design/312_first_arc_origin_scene_cards_ko.md),
+  [314 사엘 실행 시트](../../10_story_design/314_sael_origin_execution_sheet_ko.md).
 - 온보딩 SSOT: [010 Reader Onboarding Harness](../../../../../../00_studio/010_reader_onboarding_harness_ko.md),
-  [018 암호 개념 온보딩 점검](../../10_story_design/018_crypto_concepts_reader_onboarding_check_ko.md).
+  [313 암호 개념 온보딩 점검](../../10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md).
 - 캐논 앵커: 검증실 십육 도, 가장 낮은 검증 자리(사엘), 같은 사건이 서류 한 장으로
   검증대에 오름. 030 prose와 사건 정합 유지.
 

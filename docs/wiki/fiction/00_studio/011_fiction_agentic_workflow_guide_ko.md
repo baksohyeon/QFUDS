@@ -12,7 +12,7 @@ depends_on:
   - fiction_korean_fiction_prose_naturalness_harness_ko
   - fiction_reader_onboarding_harness_ko
 next_gate: use as the single operating hub before active fiction production work
-last_updated: 2026-06-21
+last_updated: 2026-07-06
 ---
 
 # Fiction Agentic Workflow Guide
@@ -54,7 +54,7 @@ external source claim: no
 | agent skill | [fiction-production skill](../../../../.agents/skills/fiction-production/SKILL.md) | 다음 세션 에이전트의 필수 읽기 순서 |
 | 사람이 보는 입구 | [Wiki Fiction](../README.md) | fiction 전체 shelf map |
 | active work 입구 | [QFUDS SAGA](../10_universes/qfuds-verse/20_series/qfuds-saga/README.md) | 현재 SAGA 작업 선반과 읽기 경로 |
-| 오늘 작업판 | [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md) | active unit, next action, risks |
+| 오늘 작업판 | [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md) | active unit, next action, risks |
 
 충돌하면 `.agent/workflows/`가 이긴다. README는 사람이 보는 지도이고, 실행 권위가
 아니다.
@@ -82,8 +82,8 @@ roadmap
 | --- | --- |
 | 한국어 prose 또는 polish | [한국어 소설 문장 자연스러움 하네스](009_korean_fiction_prose_naturalness_harness_ko.md) |
 | 기술·법·제도·세계사 개념이 장면 압력인 경우 | [Reader Onboarding Harness](010_reader_onboarding_harness_ko.md) |
-| 장기 SAGA production | [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/009_saga_production_board_ko.md) |
-| 장면·챕터 진입 | [Chapter intent card template](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/010_chapter_intent_card_template_ko.md) |
+| 장기 SAGA production | [SAGA production board](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md) |
+| 장면·챕터 진입 | [Chapter intent card template](../10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/409_chapter_intent_card_template_ko.md) |
 
 ## Shelf 지도
 

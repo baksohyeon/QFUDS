@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_revisions_reader_feedback_ai_tell_consolidation_ko
   - qfuds_saga_production_board_ko
 next_gate: create 012 retention gate run artifact with doc_type gate before any 40_release promotion
-last_updated: 2026-06-30
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 1부·2부 정식 reader retention gate protocol
@@ -206,7 +206,7 @@ bible 참조 금지) 아래 5문항에 답한다.
 
 근거: 031 1~3차 retention 게이트가 `ran_passed`였으나 실제 작가가 주인공·회사·세계관을
 이해하지 못한 사례. 완독이 곧 이해가 아님을 이 차원이 잡는다. 평이 오리엔테이션은
-[023 세계관·인물 한눈에](../10_story_design/023_first_arc_reader_orientation_world_and_cast_ko.md).
+[318 세계관·인물 한눈에](../10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md).
 
 ## Decision Rule
 

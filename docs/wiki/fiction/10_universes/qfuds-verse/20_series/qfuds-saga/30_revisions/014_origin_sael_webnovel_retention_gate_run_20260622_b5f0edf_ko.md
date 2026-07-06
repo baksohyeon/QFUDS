@@ -9,7 +9,7 @@ depends_on:
   - qfuds_saga_revisions_origin_sael_webnovel_retention_gate_run_20260622_bdff1c7_ko
   - qfuds_saga_drafts_origin_sael_webnovel_storyboard_ko
 next_gate: ran_passed. 잔여 S2 backlog는 release-facing 최종 윤문에서 선택 처리. 다음 단계는 영어 Anglophone 각색판 + shared continuity check
-last_updated: 2026-06-22
+last_updated: 2026-07-06
 ---
 
 # 031 origin 웹소설 콘티 텔링 Retention Gate Run 3 (confirm) 2026-06-22 b5f0edf
@@ -21,7 +21,7 @@ last_updated: 2026-06-22
 - Scope: 031 회차1~7 전체 확인 실행. 2차([013]) 잔여 S2 polish 검증
 - Baseline commit/date: b5f0edf / 2026-06-22
 - Gate owner mode: `reader-sim` + `critic` + `chronicler`
-- Production board: [009](../00_workroom/009_saga_production_board_ko.md)
+- Production board: [408](../00_workroom/408_saga_production_board_ko.md)
 - Release target: 미정(draft 진단)
 
 ## Immutable Run Rule

@@ -12,7 +12,7 @@ depends_on:
   - qfuds_saga_world_compendium_codex_ko
   - qfuds_saga_first_arc_six_episode_outline_ko
 next_gate: superseded by 016 origin outline, 017 scene cards, 030 origin draft, and 011 §10 cascade ledger
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # QFUDS SAGA 1부 편별 통합 아웃라인
@@ -21,10 +21,10 @@ last_updated: 2026-07-01
 
 1부(프롤로그 028 + 6편 019-024)를 **편별 정밀 통합 스펙**으로 묶었던 provenance
 문서다. 이것은 소설 산문이 아니라 설계 스펙이며, 현재 active first-arc 경로는
-[016 origin 아웃라인](../10_story_design/016_first_arc_origin_outline_ko.md),
-[017 origin scene cards](../10_story_design/017_first_arc_origin_scene_cards_ko.md),
+[311 origin 아웃라인](../10_story_design/311_first_arc_origin_outline_ko.md),
+[312 origin scene cards](../10_story_design/312_first_arc_origin_scene_cards_ko.md),
 [030 origin draft](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)로
-이동했다(030은 2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035). 029는 [011 §10](../10_story_design/011_saga_arc_map_multiarc_ko.md) 기준
+이동했다(030은 2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035). 029는 [306 §10](../10_story_design/306_saga_arc_map_multiarc_ko.md) 기준
 canonical 2부 Mara 자산으로 보존한다. 이 문서는 이전 통합 판단의 provenance다.
 
 각 편마다 다섯 면을 정밀하게 적시한다.
@@ -66,9 +66,9 @@ but/therefore(그래서·그러나)로 인과 연결되고, 끝마다 훅으로 
 fiction/provenance only. QFUDS 연구 증거 아님, 투자·가격 예측 아님. 세계 사실은
 bible이, 반전 배치는 story_design 008이, 구조 골격은 30_revisions 006이 보유한다.
 기술·역사 내용(비트코인 제네시스·딥페이크 시대·Shor/ECDSA·정보 보존·호킹복사)은
-[009 §2.5 검증 출처 대장](../../../10_world/009_reader_accessibility_and_real_world_anchors_ko.md)에서만
+[106 §2.5 검증 출처 대장](../../../10_world/106_reader_accessibility_and_real_world_anchors_ko.md)에서만
 끌어 쓴다. 삼분파·사토시 미스터리·유효성 논쟁의 차용 규칙은
-[017](../../../10_world/017_bitcoin_stature_ideology_deeptime_ko.md)이 지배한다.
+[110](../../../10_world/110_bitcoin_stature_ideology_deeptime_ko.md)이 지배한다.
 
 Research Asset and Product Workflow 적용. 새 웹 검색·논문·PDF·asset cache·extraction
 claim을 쓰지 않았다. 기존 SAGA 문서만 사용한다.

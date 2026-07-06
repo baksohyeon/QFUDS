@@ -35,14 +35,14 @@ ID이므로 바꾸지 않는다(007·010·004). 본 README는 새 3부 라벨로
 | [027 who may refuse](027_who_may_refuse_korean_primary.md) | 3부 author-loss ep2 한국어 primary 초안 | 소재 보존 |
 | [026 counterpart](026_who_may_author_loss_english_counterpart.md) | 3부 author-loss ep1 영어 counterpart | 소재 보존 |
 
-3부 구조·맵은 [10_story_design/010 arc-two episode map](../../10_story_design/010_arc_two_episode_map_ko.md)·
-[007 arc-two plan](../../10_story_design/007_arc_two_korean_primary_plan_ko.md), GSD는
-[00_workroom/004 arc-two brief](../../00_workroom/004_arc_two_gsd_phase_brief_ko.md)
+3부 구조·맵은 [10_story_design/010 arc-two episode map](../../10_story_design/305_arc_two_episode_map_ko.md)·
+[302 arc-two plan](../../10_story_design/302_arc_two_korean_primary_plan_ko.md), GSD는
+[00_workroom/004 arc-two brief](../../00_workroom/403_arc_two_gsd_phase_brief_ko.md)
 (파일명·doc_id의 `arc_two`는 stable ID, 서술 라벨만 3부). 1부 origin 관통선
 `who may author loss`를 3부 본편으로 확장한다.
 
 ## 상속 규칙 / 로컬 오버라이드
 
 상속: em dash 0(한·영), "박-" 슬랭 동사 금지, 민감 주제 0, 표식=mark, 이중언어
-용어규율([003](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md)).
+용어규율([402](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md)).
 로컬 오버라이드: 없음. 경계: fiction/provenance only, QFUDS 연구 증거 아님.

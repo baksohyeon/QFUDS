@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - fiction_creative_writing_craft_harness_ko
 next_gate: apply per scene during first-arc revision pass
-last_updated: 2026-07-01
+last_updated: 2026-07-06
 ---
 
 # Fiction Prose 핍진성·개연성 장면 감사 체크리스트
@@ -19,7 +19,7 @@ last_updated: 2026-07-01
 체크리스트. SAGA 세계 기준점 문서의 산문형 5규칙을 "장면마다 예/아니오로
 답하는" 항목으로 승격한다.
 
-원천 규칙: [SAGA 세계 기준점과 핍진성 규칙](../10_universes/qfuds-verse/10_world/001_world_anchor_and_verisimilitude_ko.md)의
+원천 규칙: [SAGA 세계 기준점과 핍진성 규칙](../10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)의
 핍진성 5규칙. craft 일반 틀은
 [Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md).
 

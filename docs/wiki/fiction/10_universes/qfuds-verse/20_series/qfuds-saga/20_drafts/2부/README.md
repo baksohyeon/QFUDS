@@ -41,8 +41,8 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **2부 Mara**. canon 상
 잔재일 뿐, 내용은 전부 **2부 마라 계보**다. 죽은 1세대(003-011·018·001·002)는
 시리즈 밖 [90_archive/qfuds-saga_1부_legacy/](../../../../../../90_archive/qfuds-saga_1부_legacy/README.md).
 
-2부 Mara 구조 SSOT는 [012 outline](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md)·
-[013 scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md). 1부 「오르페우스」(035)는
+2부 Mara 구조 SSOT는 [307 outline](../../10_story_design/307_first_arc_book1_outline_reboot_ko.md)·
+[308 scene cards](../../10_story_design/308_first_arc_scene_cards_ko.md). 1부 「오르페우스」(035)는
 [../1부/](../1부/README.md), 1.5부 사엘 origin 현행 책은
 [../1.5부/033](../1.5부/033_origin_sael_full_novel_korean_primary.md), 3부 author-loss 소재는
 [../3부/](../3부/README.md)에 있다.
@@ -50,5 +50,5 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga` / 부: **2부 Mara**. canon 상
 ## 상속 규칙 / 로컬 오버라이드
 
 상속: em dash 0(한·영), "박-" 슬랭 동사 금지, 민감 주제 0, 표식=mark, 이중언어
-용어규율([003](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md)).
+용어규율([402](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md)).
 로컬 오버라이드: 없음. 경계: fiction/provenance only, QFUDS 연구 증거 아님.

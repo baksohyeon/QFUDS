@@ -68,7 +68,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 4 decision |
 | --- | --- |
-| Repeating cast sheet | Noor/Ione/Mara/Tamas/Null-Key Cells [016](../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Noor/Ione/Mara/Tamas/Null-Key Cells [205](../00_bible/205_character_ensemble_voices_relationships_ko.md); Liora [203](../00_bible/203_character_liora_sen_ko.md) |
 | POV person | Liora Sen 제한 3인칭 |
 | Causal link | 1-3편이 깨끗한 증명을 요구하자, Null-Key Cells가 "지저분함"으로 응수해 절차를 마비시킨다 |
 | Escalation | 단일 사건들이 다중 신원 범람으로 상승하고, 아이가 열쇠처럼 전시될 위험까지 간다 |

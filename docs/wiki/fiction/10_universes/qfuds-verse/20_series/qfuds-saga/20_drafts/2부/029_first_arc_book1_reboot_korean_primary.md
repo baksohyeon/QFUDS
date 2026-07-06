@@ -36,8 +36,8 @@ handoff는 Continuity Notes에 기록). 파일명·doc_id는 stable ID라 유지
 [028](_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)과
 [019](_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md)는
 prototype/provenance로 보존하고, 이 파일은 그 문장을 수선하지 않고
-[012 outline](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md)과
-[013 scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md)를 기준으로 새로 쓴다.
+[307 outline](../../10_story_design/307_first_arc_book1_outline_reboot_ko.md)과
+[308 scene cards](../../10_story_design/308_first_arc_scene_cards_ko.md)를 기준으로 새로 쓴다.
 
 fiction/provenance only. QFUDS 연구 증거, Bitcoin 투자 판단, 법률 조언, 암호 조언,
 black-hole physics claim, cosmology claim, Level 2B admission이 아니다. 작중의
@@ -65,20 +65,20 @@ not_extractable
 ## Harness Applied
 
 - Korean-primary sequence:
-  [한국어 우선 이중언어 프로토콜](../../../../10_world/006_post_agi_civilization_history_bilingual_protocol_ko.md).
+  [한국어 우선 이중언어 프로토콜](../../../../10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md).
 - Book outline SSOT:
-  [012 first-arc Book 1 outline](../../10_story_design/012_first_arc_book1_outline_reboot_ko.md).
+  [307 first-arc Book 1 outline](../../10_story_design/307_first_arc_book1_outline_reboot_ko.md).
 - GSD phase brief:
-  [007 first-arc Book 1 GSD phase brief](../../00_workroom/007_first_arc_book1_gsd_phase_brief_ko.md).
+  [406 first-arc Book 1 GSD phase brief](../../00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md).
 - Scene-card gate:
-  [013 first-arc scene cards](../../10_story_design/013_first_arc_scene_cards_ko.md).
+  [308 first-arc scene cards](../../10_story_design/308_first_arc_scene_cards_ko.md).
 - Series production preflight:
-  [005 series production harness](../../00_workroom/005_series_production_harness_ko.md).
+  [404 series production harness](../../00_workroom/404_series_production_harness_ko.md).
 - Craft/verisimilitude:
   [Creative Writing Craft Harness](../../../../../../00_studio/004_creative_writing_craft_harness_ko.md),
   [핍진성·개연성 장면 감사 체크리스트](../../../../../../00_studio/006_prose_verisimilitude_audit_checklist_ko.md).
 - Term discipline:
-  [이중언어 용어규율 글로서리](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md).
+  [이중언어 용어규율 글로서리](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md).
 - Bilingual gate: 먼저 한국어 primary draft를 쓴다. English Anglophone adaptation은
   이 원고의 장면 구조와 continuity가 닫힌 뒤 독립 각색판으로 작성한다.
 
@@ -89,7 +89,7 @@ not_extractable
 
 | Gate | Manuscript decision |
 | --- | --- |
-| Repeating cast sheet | Liora, Mara, Elias, Noor, Ione, Pell은 [016](../../00_bible/016_character_ensemble_voices_relationships_ko.md) ensemble sheet를 상속한다. Prologue witness Sael은 단발 목격자다 |
+| Repeating cast sheet | Liora, Mara, Elias, Noor, Ione, Pell은 [205](../../00_bible/205_character_ensemble_voices_relationships_ko.md) ensemble sheet를 상속한다. Prologue witness Sael은 단발 목격자다 |
 | POV person | Prologue는 Sael 제한 3인칭. Chapter 1은 Liora 제한 3인칭으로 전환한다 |
 | Causal link | Bitcoin/ECDSA 소유 붕괴가 죽음 복원 가능성으로 이어지고, 그 문명이 Mara Veyr S-0 hearing을 만든다 |
 | Escalation | 진본 검증 실패가 사적 상실, 복원 행정, 소유권 전쟁, Hawking Court까지 확대된다 |

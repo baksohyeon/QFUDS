@@ -68,7 +68,7 @@ release 후보로 유지하지 않는다.
 
 | Gate | Episode 5 decision |
 | --- | --- |
-| Repeating cast sheet | Mara/Noor/Ione + 어머니 셋 [016](../../../../00_bible/016_character_ensemble_voices_relationships_ko.md); Liora [012](../../../../00_bible/012_character_liora_sen_ko.md) |
+| Repeating cast sheet | Mara/Noor/Ione + 어머니 셋 [205](../../../../00_bible/205_character_ensemble_voices_relationships_ko.md); Liora [203](../../../../00_bible/203_character_liora_sen_ko.md) |
 | POV person | Liora Sen 제한 3인칭(인간·어머니를 우주 증거보다 먼저 둔다) |
 | Causal link | 4편의 범람·증거 정치가 우주 규모 증거(H-1) 채택 다툼으로 비화한다 |
 | Escalation | 도시 제도 갈등이 블랙홀·물리 관할권 다툼으로 최대화 |

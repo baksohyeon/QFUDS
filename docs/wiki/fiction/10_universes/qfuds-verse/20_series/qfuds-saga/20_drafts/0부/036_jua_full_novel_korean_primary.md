@@ -18,13 +18,13 @@ last_updated: 2026-06-30
 
 ## Boundary
 
-[025 방향 전환](../../10_story_design/025_near_future_recenter_direction_ko.md) 결정에 따른
+[320 방향 전환](../../10_story_design/320_near_future_recenter_direction_ko.md) 결정에 따른
 **캐스 한 편의 소설.** 앤솔로지의 현재편(씨앗, 0부, 캐스). 옛 주인공
 (오웬 035 / 사엘 033 / 마라 034)의 핵심 주제는 캐스 아크로 흡수하거나 별도 작품으로
 보존(안 지움).
 
 fiction/provenance only. QFUDS 연구 증거 아님. 실제 2026 차용 OK(018 §9), 현직
-정치인·당파 고정 금지. 소설 내부 물리는 [00_bible/025](../../../../10_world/025_in_world_physics_information_unitarity_restoration_ko.md).
+정치인·당파 고정 금지. 소설 내부 물리는 [00_bible/025](../../../../10_world/114_in_world_physics_information_unitarity_restoration_ko.md).
 
 ## Harness Applied
 

@@ -43,7 +43,7 @@ not searched
 - Verisimilitude audit:
   [핍진성·개연성 장면 감사 체크리스트](../../../../../../00_studio/006_prose_verisimilitude_audit_checklist_ko.md).
 - Term discipline:
-  [이중언어 용어규율 글로서리](../../00_workroom/003_bilingual_term_discipline_glossary_ko.md).
+  [이중언어 용어규율 글로서리](../../00_workroom/402_bilingual_term_discipline_glossary_ko.md).
 - Narrative frame: Liora Sen 제한 시점, 1부 판결 다음 날의 직접 장면.
 - Scene goal/obstacle/turn/cost: Liora는 자기 필드 마크가 상품과 접수 양식이 되는
   것을 막고 싶다; Court와 시장은 혼란을 줄인다는 명목으로 보호를 서비스로
