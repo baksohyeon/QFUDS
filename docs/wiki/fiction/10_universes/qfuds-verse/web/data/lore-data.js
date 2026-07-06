@@ -1,5 +1,5 @@
 // QFUDS Verse 세계관 코덱스 데이터
-// 출처: baksohyeon/QFUDS docs/wiki/fiction/10_universes/qfuds-verse (002, 007, 015, 018, 037, 038, 039)
+// 출처: baksohyeon/QFUDS docs/wiki/fiction/10_universes/qfuds-verse (continuity 001, world 105/109/111/123/124/125)
 // cat: era | faction | char | ideo | term
 // links: 판독 시 해금되는 인접 기록 (무방향 그래프)
 window.QFUDS_LORE = (function () {

@@ -1,5 +1,5 @@
 // QFUDS Verse 연대기·사전 데이터
-// 출처: 026(Q-Day 여파 타임라인), 036(심층시간 연대기), 040(파국 기둥), 030-035(세계 확장 웨이브), 011/013/020/021/025 교차 참조
+// 출처: world 115(Q-Day 여파 타임라인), continuity 003(심층시간 연대기), world 126(파국 기둥), world 117-122(세계 확장 웨이브), continuity 002 · world 108/112/113/114 교차 참조
 // status: canon(캐논) | dir(캐논 방향) | cand(후보·보류) | prop(제안) | tbd(미정)
 window.QFUDS_CHRONICLE = {
   chapters: [
