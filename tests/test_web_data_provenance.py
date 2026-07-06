@@ -1,0 +1,140 @@
+"""Regression tests for the web-data provenance guard.
+
+The fiction codex web app ships two hand-authored data files
+(``web/data/chronicle-data.js`` and ``lore-data.js``) whose prose carries
+doc-number provenance references. Shelf-band renumbering silently made those
+references stale. This guard makes such drift a test failure: every
+shelf-qualified token (``world 113``, ``draft 024``) must resolve to a doc that
+currently exists on that shelf.
+
+These tests lock in the number-expression expansion, the qualified-token
+detection (and the deliberate blindness to bare numbers/years), and the
+end-to-end "the real data files have no unresolved reference" guarantee.
+
+Run with: python3 -m unittest discover -s tests -p 'test_*.py'
+"""
+from __future__ import annotations
+
+import sys
+import unittest
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS_DIR = REPO_ROOT / "scripts"
+
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+import check_web_data_provenance as guard  # noqa: E402
+
+
+class ExpandNumbersTests(unittest.TestCase):
+    def test_single_number(self) -> None:
+        self.assertEqual(guard.expand_numbers("115"), [115])
+
+    def test_leading_zeros_are_normalized(self) -> None:
+        self.assertEqual(guard.expand_numbers("003"), [3])
+
+    def test_slash_list(self) -> None:
+        self.assertEqual(
+            guard.expand_numbers("108/112/113/114"), [108, 112, 113, 114]
+        )
+
+    def test_range_is_inclusive(self) -> None:
+        self.assertEqual(guard.expand_numbers("117-122"), [117, 118, 119, 120, 121, 122])
+
+    def test_mixed_list_and_range(self) -> None:
+        self.assertEqual(guard.expand_numbers("101/117-119"), [101, 117, 118, 119])
+
+
+class FindUnresolvedTests(unittest.TestCase):
+    TRUTH = {
+        "continuity": {1, 2, 3},
+        "world": {113, 117, 118, 119, 120, 121, 122, 126},
+        "bible": {201},
+        "story": {306},
+        "workroom": set(),
+        "draft": {24},
+        "prototype": {24},
+    }
+
+    def test_resolving_token_is_clean(self) -> None:
+        self.assertEqual(guard.find_unresolved("정본 기전 (world 113)", self.TRUTH), [])
+
+    def test_missing_number_is_flagged(self) -> None:
+        problems = guard.find_unresolved("(world 999)", self.TRUTH)
+        self.assertEqual(len(problems), 1)
+        self.assertEqual(problems[0].shelf, "world")
+        self.assertEqual(problems[0].number, 999)
+        self.assertEqual(problems[0].lineno, 1)
+
+    def test_bare_number_is_ignored(self) -> None:
+        # No shelf keyword -> not a provenance token. Years and legacy bare
+        # numbers must never trip the guard.
+        self.assertEqual(guard.find_unresolved("2008년, (039), (2020s)", self.TRUTH), [])
+
+    def test_invariant_draft_token_resolves(self) -> None:
+        self.assertEqual(guard.find_unresolved("SAGA 부 좌표(draft 024)", self.TRUTH), [])
+
+    def test_range_with_one_missing_member_is_flagged(self) -> None:
+        truth = {**self.TRUTH, "world": {117, 118, 119, 121, 122}}  # 120 missing
+        problems = guard.find_unresolved("world 117-122", truth)
+        self.assertEqual([p.number for p in problems], [120])
+
+    def test_slash_list_flags_only_the_missing(self) -> None:
+        truth = {**self.TRUTH, "world": {108, 114}}  # 112, 113 missing
+        problems = guard.find_unresolved("world 108/112/113/114", truth)
+        self.assertEqual(sorted(p.number for p in problems), [112, 113])
+
+    def test_lineno_is_reported_per_line(self) -> None:
+        text = "clean line\nsecond\nworld 999 here"
+        problems = guard.find_unresolved(text, self.TRUTH)
+        self.assertEqual(problems[0].lineno, 3)
+
+
+class BuildTruthMapTests(unittest.TestCase):
+    """The truth map must be derived from the actual shelf directories."""
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        cls.truth = guard.build_truth_map()
+
+    def test_all_shelf_keys_present(self) -> None:
+        for key in ("continuity", "world", "bible", "story", "workroom", "draft", "prototype"):
+            self.assertIn(key, self.truth)
+
+    def test_known_current_docs_are_present(self) -> None:
+        self.assertIn(3, self.truth["continuity"])   # 003_far_future_deep_time_chronicle
+        self.assertIn(113, self.truth["world"])       # 113_restoration_mechanism_correction
+        self.assertIn(126, self.truth["world"])       # 126_deeptime_catastrophe_pillar_spine
+        self.assertIn(201, self.truth["bible"])       # 201_narrative_pov_theme_naming
+        self.assertIn(306, self.truth["story"])       # 306_saga_arc_map_multiarc
+        self.assertIn(24, self.truth["draft"])        # 20_drafts/.../024_the_broken_crown
+
+    def test_renumbered_out_numbers_are_absent(self) -> None:
+        # Old world 021 was renumbered to 113; a bare-old 21 must not resolve.
+        self.assertNotIn(21, self.truth["world"])
+
+
+class RealDataFilesTests(unittest.TestCase):
+    """End-to-end lock: the shipped data files carry no unresolved reference."""
+
+    def test_data_files_have_no_unresolved_refs(self) -> None:
+        truth = guard.build_truth_map()
+        for path in guard.DATA_FILES:
+            with self.subTest(path=path.name):
+                text = path.read_text(encoding="utf-8")
+                problems = guard.find_unresolved(text, truth)
+                self.assertEqual(
+                    problems,
+                    [],
+                    msg="\n".join(
+                        f"{path.name}:{p.lineno} unresolved `{p.shelf} {p.token}` "
+                        f"(number {p.number} not on shelf {p.shelf})"
+                        for p in problems
+                    ),
+                )
+
+
+if __name__ == "__main__":
+    unittest.main()

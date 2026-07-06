@@ -19,6 +19,7 @@ python3 scripts/agent_workflow_guard.py --staged
 python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py
 python3 scripts/fiction_gate.py --staged
+python3 scripts/check_web_data_provenance.py
 python3 scripts/preflight_exp004.py
 git diff --check
 
