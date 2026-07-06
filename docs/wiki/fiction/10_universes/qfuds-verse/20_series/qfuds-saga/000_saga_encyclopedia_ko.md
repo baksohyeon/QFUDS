@@ -105,7 +105,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 캐스 풀길이 소설 (한국어 primary)](20_drafts/0부/036_jua_full_novel_korean_primary.md)
 `draft` · 2026-06-30 · reference
 
-> [320 방향 전환](../../10_story_design/320_near_future_recenter_direction_ko.md) 결정에 따른
+> [320 방향 전환](10_story_design/320_near_future_recenter_direction_ko.md) 결정에 따른
 
 다음: 보이스 확정 후 5비트 따라 풀길이. 구조 통합(캐스 단일화)은 새 세션에서 정리
 
@@ -119,42 +119,42 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA origin(1부) 사엘 · 웹소설 콘티 텔링(이해 우선)](20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)
 `draft` · 2026-06-22 · reference
 
-> 이 문서는 [030 사엘 origin primary 원고](030_origin_arc_sael_korean_primary.md)의
+> 이 문서는 [030 사엘 origin primary 원고](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)의
 
 다음: 회차1(하네싱 정합 온보딩) draft 완료(2026-06-22). 톤 승인 후 회차2~7 self-paced append. continuity(031↔030↔029)·AI-tell·reader-sim 후 revision 게이트
 
 #### [QFUDS SAGA origin (Book 1) Sael · Web-Serial Storyboard (English adaptation)](20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
 `draft` · 2026-06-22 · reference
 
-> This is the **Anglophone adaptation** of the Korean-primary web-serial telling [031](031_origin_sael_webnovel_storyboard_ko.md). Per the bilingual sequence it is a same-story counterpart written for English rhythm, idiom, and web-serial genre expectations, **not a literal transla…
+> This is the **Anglophone adaptation** of the Korean-primary web-serial telling [031](20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md). Per the bilingual sequence it is a same-story counterpart written for English rhythm, idiom, and web-serial genre expectations, **not a…
 
 다음: Episode 1 voice draft (2026-06-22). On voice approval, adapt Episodes 2-7 then run shared continuity check (EN vs 031 KO)
 
 #### [QFUDS SAGA origin(1.5부) 사엘 풀길이 소설 (한국어 primary)](20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md)
 `draft` · 2026-06-23 · reference
 
-> 이 문서는 1.5부 origin의 **풀길이 소설본**이다. [031 콘티 텔링](031_origin_sael_webnovel_storyboard_ko.md)을 뼈대(리텐션 통과한 설계도)로, [030 프로토타입](030_origin_arc_sael_korean_primary.md)을 참고로 삼아, 세계가 **설명이 아니라 체험으로 도착하도록** 분량을 제대로 준다. 031의 이해 우선 온보딩은 유지하되, 각 비트를 여러 장면의 챕터로 펼친다. 캐논은 016/017/030에서 상속하고 새 설정을…
+> 이 문서는 1.5부 origin의 **풀길이 소설본**이다. [031 콘티 텔링](20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)을 뼈대(리텐션 통과한 설계도)로, [030 프로토타입](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)을 참고로 삼아, 세계가 **설명이 아니라 체험으로 도착하도록** 분량을 제대로 준다. 031의 이해 우선 온보딩은 유지하되, 각 비트를 여러 장면의 챕터로 펼친다.…
 
 다음: 1장(B1) 풀길이 draft(2026-06-22). 결 승인 후 2~8장 집필, retention+comprehension 게이트
 
 #### [QFUDS SAGA 1부 「오르페우스」 풀길이 소설 (한국어 primary)](20_drafts/1부/035_orpheus_full_novel_korean_primary.md)
 `draft` · 2026-06-30 · reference
 
-> 이 문서는 새 1부 **「오르페우스」**의 풀길이 소설본이다. 현 1부(사엘)는 1.5부로 내리고, 그 자리에 **세계를 설명 전에 느끼게 하는 인간 입구**를 둔다. 설계는 [10_story_design/024 오르페우스 설계](../../10_story_design/319_new_book1_orpheus_design_ko.md), 세계 여파는 [00_bible/026 Q-Day 여파](../../../../10_world/115_qday_aftermath_timeline_and_world_ko…
+> 이 문서는 새 1부 **「오르페우스」**의 풀길이 소설본이다. 현 1부(사엘)는 1.5부로 내리고, 그 자리에 **세계를 설명 전에 느끼게 하는 인간 입구**를 둔다. 설계는 [10_story_design/024 오르페우스 설계](10_story_design/319_new_book1_orpheus_design_ko.md), 세계 여파는 [00_bible/026 Q-Day 여파](../../10_world/115_qday_aftermath_timeline_and_world_ko.md), 소설 내부…
 
 다음: 1장 draft(2026-06-30). 보이스 승인 후 2~8장 집필 + 과학 부록
 
 #### [QFUDS SAGA 1부 Book 1 Reboot Korean Primary](20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)
 `draft` · 2026-06-22 · reference
 
-> 번호 physical cascade 완료(011 §10, 2026-06-21). 이 원고는 신규 구조의 **2부 Mara 자산**이며, 물리 경로도 이제 `20_drafts/2부/`다. **1.5부 사엘 origin**은 [030 origin Sael draft](../1.5부/030_origin_arc_sael_korean_primary.md)가 담당한다 (2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035).
+> 번호 physical cascade 완료(011 §10, 2026-06-21). 이 원고는 신규 구조의 **2부 Mara 자산**이며, 물리 경로도 이제 `20_drafts/2부/`다. **1.5부 사엘 origin**은 [030 origin Sael draft](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)가 담당한다 (2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」 035).
 
 다음: run review/chronicler pass for completed Ch6; this manuscript is canonical 2부 Mara asset under 011 §10
 
 #### [QFUDS SAGA 2부 마라 풀길이 소설 (한국어 primary)](20_drafts/2부/034_mara_full_novel_korean_primary.md)
 `draft` · 2026-06-22 · reference
 
-> 이 문서는 2부 마라의 **풀길이 소설본**이다. [029 2부 reboot](029_first_arc_book1_reboot_korean_primary.md)을 캐논 원천(프롤로그~Ch6)으로, [033 1.5부 사엘 origin 풀길이](../1.5부/033_origin_sael_full_novel_korean_primary.md)의 보이스와 결을 모델로 삼아, 세계가 **설명이 아니라 체험으로 도착하도록** 분량을 제대로 준다. 029의 이해 우선 온보딩은 유지하되, 각 비트를 여러 장면의…
+> 이 문서는 2부 마라의 **풀길이 소설본**이다. [029 2부 reboot](20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md)을 캐논 원천(프롤로그~Ch6)으로, [033 1.5부 사엘 origin 풀길이](20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md)의 보이스와 결을 모델로 삼아, 세계가 **설명이 아니라 체험으로 도착하도록** 분량을 제대로 준다. 029의 이해 우선 온보딩은…
 
 다음: 1장(풀길이) draft(2026-06-22). 결 승인 후 2~6장 집필, retention+comprehension 게이트
 
@@ -245,7 +245,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 1부 여는 사건 The Broken Crown](20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)
 `draft` · 2026-06-21 · reference
 
-> fiction/provenance only. QFUDS 연구 증거 아님. 세계 사실은 bible 010이, 반전 배치는 story_design 008이 보유한다. 이 문서는 그 빅이벤트를 독자에게 처음 보여주는 극화된 오프닝 초안이다. 기술·역사 내용(비트코인 제네시스·딥페이크 시대·Shor/ECDSA·정보 보존)은 [106 §2.5 검증 출처 대장](../../../../../../10_world/106_reader_accessibility_and_real_world_anchors_ko.md)에…
+> fiction/provenance only. QFUDS 연구 증거 아님. 세계 사실은 bible 010이, 반전 배치는 story_design 008이 보유한다. 이 문서는 그 빅이벤트를 독자에게 처음 보여주는 극화된 오프닝 초안이다. 기술·역사 내용(비트코인 제네시스·딥페이크 시대·Shor/ECDSA·정보 보존)은 [106 §2.5 검증 출처 대장](../../10_world/106_reader_accessibility_and_real_world_anchors_ko.md)에서만 끌어 쓴다. wo…
 
 다음: user approves direction; then renumber arc (this becomes ep1, Exhibit S-0 becomes ep2) and propagate
 
@@ -345,14 +345,14 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 2부 에피소드 맵](10_story_design/305_arc_two_episode_map_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 2부(`who may author loss`)를 에피소드 단위로 배치한다. ep1·ep2는 작성·감사 완료 상태이고, ep3-ep6은 **제안(proposed)**이다 — momentum으로 canon 고정하지 않으며 작가 승인 후 확정한다. 실행 계약은 [2부 GSD Phase Brief](../00_workroom/403_arc_two_gsd_phase_brief_ko.md).
+> 2부(`who may author loss`)를 에피소드 단위로 배치한다. ep1·ep2는 작성·감사 완료 상태이고, ep3-ep6은 **제안(proposed)**이다 — momentum으로 canon 고정하지 않으며 작가 승인 후 확정한다. 실행 계약은 [2부 GSD Phase Brief](00_workroom/403_arc_two_gsd_phase_brief_ko.md).
 
 다음: user approves arc length + ep3-6 direction, then write 116 Korean primary
 
 #### [QFUDS SAGA 다부작 아크 지도](10_story_design/306_saga_arc_map_multiarc_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 QFUDS SAGA의 **상위 아크 실행 계획서**다. 주제 SSOT는 [310 5대 극적 질문 스파인](310_five_core_dramatic_questions_spine_ko.md)이 보유하고, 이 문서는 그 위에 부(arc) 골격을 얹어 "무엇을 어느 부에서 심고 터뜨리고 회수하는가" 를 배치한다. 정밀 아웃라인이며 소설 산문이 아니다.
+> 이 문서는 QFUDS SAGA의 **상위 아크 실행 계획서**다. 주제 SSOT는 [310 5대 극적 질문 스파인](10_story_design/310_five_core_dramatic_questions_spine_ko.md)이 보유하고, 이 문서는 그 위에 부(arc) 골격을 얹어 "무엇을 어느 부에서 심고 터뜨리고 회수하는가" 를 배치한다. 정밀 아웃라인이며 소설 산문이 아니다.
 
 다음: 1부 POV(사엘 능동화 vs 새 POV)를 작가가 확정하면 1부 origin 아웃라인을 별도 문서로 분기한다
 
@@ -380,21 +380,21 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 5대 극적 질문 스파인](10_story_design/310_five_core_dramatic_questions_spine_ko.md)
 `draft` · 2026-07-06 · guide
 
-> origin=1부 / Mara=2부 재구조화에 앞서, **사가 전체가 답해 가는 5개 극적 질문**을 한 장에 고정한다. 아크 번호가 어떻게 밀리든 이 5개는 안 흔들린다. 새 설정을 만들지 않고 기존 캐논([207 기준 작성권](../00_bible/207_authorship_of_the_standard_theme_axis_ko.md) 중심 + [113](../../../10_world/113_restoration_mechanism_correction_ko.md)·[112](../../../10…
+> origin=1부 / Mara=2부 재구조화에 앞서, **사가 전체가 답해 가는 5개 극적 질문**을 한 장에 고정한다. 아크 번호가 어떻게 밀리든 이 5개는 안 흔들린다. 새 설정을 만들지 않고 기존 캐논([207 기준 작성권](00_bible/207_authorship_of_the_standard_theme_axis_ko.md) 중심 + [113](../../10_world/113_restoration_mechanism_correction_ko.md)·…
 
 다음: rebuild the multiarc map (002) and outlines on top of this spine (origin=1부 / Mara=2부)
 
 #### [QFUDS SAGA 1부 origin 아웃라인](10_story_design/311_first_arc_origin_outline_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 1부(origin) 실행 아웃라인이다. 주제 SSOT는 [310 5대 극적 질문 스파인](310_five_core_dramatic_questions_spine_ko.md), 부 배치는 [306 아크 맵](306_saga_arc_map_multiarc_ko.md), origin 역사 사실은 [world 108 PART A(Hinge Era)](../../../10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)· [110 §1](../..…
+> 1부(origin) 실행 아웃라인이다. 주제 SSOT는 [310 5대 극적 질문 스파인](10_story_design/310_five_core_dramatic_questions_spine_ko.md), 부 배치는 [306 아크 맵](10_story_design/306_saga_arc_map_multiarc_ko.md), origin 역사 사실은…
 
 다음: 작가가 사엘 원죄 형태(§4)와 콜드오픈(§5)을 승인하면 1부 비트를 scene-card로 분기
 
 #### [QFUDS SAGA 1부 origin 씬 카드](10_story_design/312_first_arc_origin_scene_cards_ko.md)
 `draft` · 2026-07-06 · guide
 
-> [311 origin 아웃라인](311_first_arc_origin_outline_ko.md)의 B1-B7을 씬 카드 초안으로 분기한다. 산문이 아니다. 각 카드가 아래 10칸을 못 채우면 원고로 넘어가지 않는다.
+> [311 origin 아웃라인](10_story_design/311_first_arc_origin_outline_ko.md)의 B1-B7을 씬 카드 초안으로 분기한다. 산문이 아니다. 각 카드가 아래 10칸을 못 채우면 원고로 넘어가지 않는다.
 
 다음: 작가가 카드를 승인하면 306 §10 번호 cascade 후 1부 origin 원고로 들어간다
 
@@ -408,7 +408,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 사엘 원고 실행 시트](10_story_design/314_sael_origin_execution_sheet_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이건 **캐릭터 만들기가 아니라 원고 실행 계약서**다. [character_sheet_template](../../../../../../../../.agent/templates/fiction/character_sheet_template.md) 구조를 쓰되 **최소만** 채운다. 사엘은 멋있는 주인공이 아니라 **선택 비용이 분명한 원죄 참여자**로 고정한다.
+> 이건 **캐릭터 만들기가 아니라 원고 실행 계약서**다. [character_sheet_template](../../../../../../../.agent/templates/fiction/character_sheet_template.md) 구조를 쓰되 **최소만** 채운다. 사엘은 멋있는 주인공이 아니라 **선택 비용이 분명한 원죄 참여자**로 고정한다.
 
 다음: 사엘 시트 승인 후 312 B1 reader-onboarding 보강 → 1부 origin 원고 진입
 
@@ -464,7 +464,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](10_story_design/322_near_future_prelude_forecast_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 001 §2·002·115이 이름만 두고 비워 둔 **2020s-2090s "지수 성장기" 활주로**를, 근미래 예측 패널([workroom 411](../00_workroom/411_near_future_forecast_panel_method_ko.md))로 채운 대사전이다. 15개 전문가 렌즈가 오늘의 실제 앵커에서 2020s→2090s를 예측·생성하고, 교차압력 합성·캐논가드·현실성·인간욕망 검증을 거쳐 다층 타임라인(굵직/중요/국지/나비효과)과 신규 조직·인물·대립구도로 엮었다. 0부(20…
+> 001 §2·002·115이 이름만 두고 비워 둔 **2020s-2090s "지수 성장기" 활주로**를, 근미래 예측 패널([workroom 411](00_workroom/411_near_future_forecast_panel_method_ko.md))로 채운 대사전이다. 15개 전문가 렌즈가 오늘의 실제 앵커에서 2020s→2090s를 예측·생성하고, 교차압력 합성·캐논가드·현실성·인간욕망 검증을 거쳐 다층 타임라인(굵직/중요/국지/나비효과)과 신규 조직·인물·대립구도로 엮었다. 0부(2026…
 
 다음: 0부 앞 근미래 활주로 candidate 대사전. 캐논 승격은 원고 수요 때 117 §7 6체크. 115 Q-Day로 연결
 
@@ -480,7 +480,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 시점 주제 고유명사 규칙](00_bible/201_narrative_pov_theme_naming_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 시점, 중심 주제, 고유명사 체계, 역사 차용 규칙의 active 기본값을 고정한다. 세력 formal name은 [109](../../../10_world/109_factions_canon_naming_ko.md)가 우선한다.
+> 이 문서는 시점, 중심 주제, 고유명사 체계, 역사 차용 규칙의 active 기본값을 고정한다. 세력 formal name은 [109](../../10_world/109_factions_canon_naming_ko.md)가 우선한다.
 
 다음: apply as active POV/theme/naming defaults; 109 overrides faction formal names
 
@@ -498,7 +498,7 @@ last_updated: 2026-07-06
 
 **주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
-> [캐릭터 시트 템플릿](../../../../../../../../.agent/templates/fiction/character_sheet_template.md)을 Liora에 적용. fiction/provenance only. 새 외부 source claim 없음.
+> [캐릭터 시트 템플릿](../../../../../../../.agent/templates/fiction/character_sheet_template.md)을 Liora에 적용. fiction/provenance only. 새 외부 source claim 없음.
 
 다음: thread Liora's wound/lie into first-arc R6 and keep 206 in close POV
 
@@ -514,7 +514,7 @@ last_updated: 2026-07-06
 
 **주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
-> 리텐션 테스트에서 독자들이 "모든 인물이 같은 한 명(작가)처럼 말한다"고 지적했다. 원인은 인물별 **목소리·배경·욕망**이 따로 설계되지 않아 대사가 전부 같은 격언 핑퐁으로 균질화된 것. 이 문서가 각 인물을 **대사 태그 없이도 누가 말하는지 알 수 있게** 차별화한다. Liora 상세는 [203 Liora 시트](203_character_liora_sen_ko.md)가 보유하고, 이 문서는 앙상블 전체의 보이스·관계를 잡는다.
+> 리텐션 테스트에서 독자들이 "모든 인물이 같은 한 명(작가)처럼 말한다"고 지적했다. 원인은 인물별 **목소리·배경·욕망**이 따로 설계되지 않아 대사가 전부 같은 격언 핑퐁으로 균질화된 것. 이 문서가 각 인물을 **대사 태그 없이도 누가 말하는지 알 수 있게** 차별화한다. Liora 상세는 [203 Liora 시트](00_bible/203_character_liora_sen_ko.md)가 보유하고, 이 문서는 앙상블 전체의 보이스·관계를 잡는다.
 
 다음: differentiate dialogue per this sheet across 2부 (R2 voice pass)
 
@@ -523,7 +523,7 @@ last_updated: 2026-07-06
 
 **주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
-> [203 Liora 시트](203_character_liora_sen_ko.md)는 주인공 한 명을, [205 앙상블 바이블](205_character_ensemble_voices_relationships_ko.md)은 전원의 보이스·관계 지도를, [107 기원](../../../10_world/107_last_archive_origin_and_reversal_causality_ko.md)은 Karvath·Vera의 출생과 Vera-Mara 거울을 보유한다. 이 문서는 그 셋이 이미 가진 설정을…
+> [203 Liora 시트](00_bible/203_character_liora_sen_ko.md)는 주인공 한 명을, [205 앙상블 바이블](00_bible/205_character_ensemble_voices_relationships_ko.md)은 전원의 보이스·관계 지도를, [107 기원](../../10_world/107_last_archive_origin_and_reversal_causality_ko.md)은 Karvath·Vera의 출생과 Vera-Mara 거울을 보유한다. 이 문서는…
 
 다음: thread each arc turn into 2부 R6 beat sheets and prose
 
@@ -567,7 +567,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 1부 Release 승격 — 현장감·묘사 강화 퇴고 기준](30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 원래 1부 한국어 prototype 6편 ([019](../20_drafts/2부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](../20_drafts/2부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md))을
+> 이 문서는 원래 1부 한국어 prototype 6편 ([019](20_drafts/2부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md)-[024](20_drafts/2부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md))을
 
 다음: apply these release gates to 030 origin draft after B1-B7 and cascade stabilize
 
@@ -581,7 +581,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 1부 편별 통합 아웃라인](30_revisions/007_first_arc_integration_outline_ko.md)
 `provenance` · 2026-07-06 · guide
 
-> 1부(프롤로그 028 + 6편 019-024)를 **편별 정밀 통합 스펙**으로 묶었던 provenance 문서다. 이것은 소설 산문이 아니라 설계 스펙이며, 현재 active first-arc 경로는 [311 origin 아웃라인](../10_story_design/311_first_arc_origin_outline_ko.md), [312 origin scene cards](../10_story_design/312_first_arc_origin_scene_cards_ko.md), [030 ori…
+> 1부(프롤로그 028 + 6편 019-024)를 **편별 정밀 통합 스펙**으로 묶었던 provenance 문서다. 이것은 소설 산문이 아니라 설계 스펙이며, 현재 active first-arc 경로는 [311 origin 아웃라인](10_story_design/311_first_arc_origin_outline_ko.md), [312 origin scene cards](10_story_design/312_first_arc_origin_scene_cards_ko.md),…
 
 다음: superseded by 016 origin outline, 017 scene cards, 030 origin draft, and 011 §10 cascade ledger
 
@@ -595,21 +595,21 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 1부·2부 독자 피드백 + AI-tell 통합 정리 및 개선 계획](30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 사엘 origin([030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등)과 2부 Mara([029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))에 대해 실행한 reader-persona 이탈 테스트와 `ai-tell-detector` 패스 결과를 **페르소나별로** 통합하고, 그 피드백을 반영한 윤문·퇴고 개선 계획과 적…
+> 이 문서는 사엘 origin([030](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등)과 2부 Mara([029](20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))에 대해 실행한 reader-persona 이탈 테스트와 `ai-tell-detector` 패스 결과를 **페르소나별로** 통합하고, 그 피드백을 반영한 윤문·퇴고 개선 계획과 적용 상태를…
 
 다음: 029 윤문 패스 적용 후 재검증, release 승격 시 정식 9-persona retention 게이트
 
 #### [QFUDS SAGA 1부·2부 release-facing revision wave](30_revisions/010_first_second_arc_release_revision_wave_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 사엘 origin([030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등)과 2부 Mara([029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))에 대한 release-facing 전 단계 수정 파동이다. 원고 source는 `20_drafts/`이고, 이 문서는 수정 이유와 잔여 위험을 남기는 revision 기록이다.
+> 이 문서는 사엘 origin([030](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등)과 2부 Mara([029](20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))에 대한 release-facing 전 단계 수정 파동이다. 원고 source는 `20_drafts/`이고, 이 문서는 수정 이유와 잔여 위험을 남기는 revision 기록이다.
 
 다음: run staged fiction gate and keep release promotion blocked until formal 9-persona retention gate
 
 #### [QFUDS SAGA 1부·2부 정식 reader retention gate protocol](30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 사엘 origin([030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등; 아래 baseline-pinned 소스 경로는 당시 커밋 기준이라 그대로 둠)과 2부 Mara([029](../20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))를
+> 이 문서는 사엘 origin([030](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md), 2026-06-30 1부→1.5부 강등; 아래 baseline-pinned 소스 경로는 당시 커밋 기준이라 그대로 둠)과 2부 Mara([029](20_drafts/2부/029_first_arc_book1_reboot_korean_primary.md))를
 
 다음: create 012 retention gate run artifact with doc_type gate before any 40_release promotion
 
@@ -681,7 +681,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 2부 GSD Phase Brief](00_workroom/403_arc_two_gsd_phase_brief_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 문서는 [Fiction IP Management Workflow](../../../../../../../../.agent/workflows/fiction-ip-management-workflow.md)의 GSD Planning Integration 규칙에 따라, 2부를 **다단계 writing sprint**로 실행하기 위한 phase brief다. (단발 에피소드는 brief 없이 진행 가능하나, arc 단위 sprint는 brief를 둔다.)
+> 이 문서는 [Fiction IP Management Workflow](../../../../../../../.agent/workflows/fiction-ip-management-workflow.md)의 GSD Planning Integration 규칙에 따라, 2부를 **다단계 writing sprint**로 실행하기 위한 phase brief다. (단발 에피소드는 brief 없이 진행 가능하나, arc 단위 sprint는 brief를 둔다.)
 
 다음: approve arc-two episode map, then write 116 Korean primary
 
@@ -702,7 +702,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 1부 Book 1 GSD Phase Brief](00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md)
 `draft` · 2026-07-06 · guide
 
-> 이 brief는 029를 1부 Book 1로 완성하려던 legacy completion sprint다. [306 §10](../10_story_design/306_saga_arc_map_multiarc_ko.md) 이후 신규 구조에서는 029가 **2부 Mara 자산**으로 이동 예정이고, active 사엘 origin 원고는 [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)이다(2026-06-30에 1부→1.5부 강등; 새 1부는 「…
+> 이 brief는 029를 1부 Book 1로 완성하려던 legacy completion sprint다. [306 §10](10_story_design/306_saga_arc_map_multiarc_ko.md) 이후 신규 구조에서는 029가 **2부 Mara 자산**으로 이동 예정이고, active 사엘 origin 원고는 [030](20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)이다(2026-06-30에 1부→1.5부 강등; 새 1부는 「오르페우스」…
 
 다음: reference only; 029 is canonical 2부 Mara asset under 002 §10 and active origin drafting continues in 117
 
@@ -737,7 +737,7 @@ last_updated: 2026-07-06
 #### [QFUDS SAGA 근미래 예측 패널 방법 (휴머노이드 로봇 → 노동 재편 → Q-Day)](00_workroom/411_near_future_forecast_panel_method_ko.md)
 `draft` · 2026-07-06 · guide
 
-> [410 전문가 패널 세계-체계 인계](410_expert_panel_world_system_handoff_ko.md)의 자매다. 011/028의 14도메인이 **Q-Day 이후 인과 감사 렌즈**였다면, 이 문서는 같은 렌즈를 **Q-Day 이전 근미래(2020s-2090s) 예측용**으로 재조준한 작가실 생산 도구다. 목적은 001 §2·002·115이 이름만 두고 비워 둔 "지수 성장기" 활주로를 현실적 예측으로 채워 0부(카산드라)와 115 Q-Day에 잇는 것이다.
+> [410 전문가 패널 세계-체계 인계](00_workroom/410_expert_panel_world_system_handoff_ko.md)의 자매다. 011/028의 14도메인이 **Q-Day 이후 인과 감사 렌즈**였다면, 이 문서는 같은 렌즈를 **Q-Day 이전 근미래(2020s-2090s) 예측용**으로 재조준한 작가실 생산 도구다. 목적은 001 §2·002·115이 이름만 두고 비워 둔 "지수 성장기" 활주로를 현실적 예측으로 채워 0부(카산드라)와 115 Q-Day에 잇는 것이다.
 
 다음: 이 방법으로 예측 실행 → story_design 322 근미래 프렐류드 산출. 캐논 승격은 사용자 게이트
 
@@ -767,7 +767,7 @@ last_updated: 2026-07-06
 #### [QFUDS Verse 최종 통합 Chronicler Report (전 범위 감사·의존성 그래프·P0/P1/P2 로드맵)](00_workroom/415_qfuds_verse_final_chronicler_report_ko.md)
 `provenance` · 2026-07-06 · guide
 
-> 최종 리포트다. 앞선 산출물([900 아키텍처](../../../00_continuity/900_worldbuilding_architecture_ko.md)· [901 드리프트/부채](../../../00_continuity/901_canon_drift_and_tech_debt_report_ko.md)· [414 Chronicler Pass 계획](414_chronicler_pass_plan_ko.md)·[413 Truth-State Ledger](413_truth_state_ledger_ko.m…
+> 최종 리포트다. 앞선 산출물([900 아키텍처](../../00_continuity/900_worldbuilding_architecture_ko.md)· [901 드리프트/부채](../../00_continuity/901_canon_drift_and_tech_debt_report_ko.md)· [414 Chronicler Pass 계획](00_workroom/414_chronicler_pass_plan_ko.md)·…
 
 다음: P0 없음. P1 Chronicler Pass(414 5-Phase)부터 사용자 승인 하에. 그래프는 scripts/build_doc_graph.py 재생성
 

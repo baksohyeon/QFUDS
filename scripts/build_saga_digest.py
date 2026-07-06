@@ -15,6 +15,7 @@ Read-only over the docs tree except for the one generated output file.
 """
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
 
@@ -25,6 +26,11 @@ OUT = SAGA / "000_saga_encyclopedia_ko.md"
 DOC_ID = "qfuds_saga_encyclopedia_ko"
 TITLE = "QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)"
 SUMMARY_MAX = 280
+
+# Inline markdown link, used to rewrite excerpt links to SAGA-root-relative.
+LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+# Link targets that must never be treated as filesystem paths.
+NON_PATH_LINK_PREFIXES = ("http://", "https://", "mailto:", "#", "/")
 
 # A doc self-declaring pre-reboot / pre-recenter labels via a drift banner.
 # Flag it so the digest never presents its stale body as current.
@@ -60,7 +66,12 @@ def parse_frontmatter(path: Path) -> tuple[dict[str, str], str]:
 
 
 def first_summary(body: str) -> str:
-    """First real prose paragraph after the H1, skipping headings/quotes/tables."""
+    """First real prose paragraph after the H1, skipping headings/quotes/tables.
+
+    Returns the full paragraph (whitespace-collapsed, untruncated). Link
+    rewriting and length-limiting happen in ``finalize_summary`` once the
+    source doc's location is known.
+    """
     lines = body.splitlines()
     buf: list[str] = []
     for line in lines:
@@ -74,11 +85,50 @@ def first_summary(body: str) -> str:
                 break
             continue
         buf.append(s)
-    para = " ".join(buf)
-    para = re.sub(r"\s+", " ", para).strip()
-    if len(para) > SUMMARY_MAX:
-        para = para[:SUMMARY_MAX].rstrip() + "…"
-    return para
+    return re.sub(r"\s+", " ", " ".join(buf)).strip()
+
+
+def rewrite_link_target(target: str, source_dir: Path) -> str:
+    """Rewrite a source-doc-relative link target to be SAGA-root-relative.
+
+    The digest lives at the SAGA root, so a link written relative to a source
+    doc deeper in the tree would otherwise break. External links, in-page
+    anchors, and absolute paths pass through untouched.
+    """
+    stripped = target.strip()
+    if stripped.startswith(NON_PATH_LINK_PREFIXES):
+        return target
+    path_part, sep, anchor = stripped.partition("#")
+    if not path_part:
+        return target
+    target_abs = os.path.normpath(os.path.join(source_dir, path_part))
+    new_rel = Path(os.path.relpath(target_abs, SAGA)).as_posix()
+    return new_rel + sep + anchor
+
+
+def rewrite_summary_links(summary: str, source_rel: str) -> str:
+    source_dir = (SAGA / source_rel).parent
+
+    def repl(m: re.Match[str]) -> str:
+        return f"[{m.group(1)}]({rewrite_link_target(m.group(2), source_dir)})"
+
+    return LINK_RE.sub(repl, summary)
+
+
+def truncate_summary(summary: str, limit: int = SUMMARY_MAX) -> str:
+    """Cap length without ever cutting inside a ``[text](link)`` span."""
+    if len(summary) <= limit:
+        return summary
+    cut = limit
+    for m in LINK_RE.finditer(summary):
+        if m.start() < cut < m.end():
+            cut = m.start()
+            break
+    return summary[:cut].rstrip() + "…"
+
+
+def finalize_summary(body: str, source_rel: str) -> str:
+    return truncate_summary(rewrite_summary_links(first_summary(body), source_rel))
 
 
 def rel_from_saga(path: Path) -> str:
@@ -119,7 +169,7 @@ def collect() -> dict[str, list[dict]]:
                 "last_updated": fm.get("last_updated", "?"),
                 "next_gate": fm.get("next_gate", ""),
                 "doc_type": fm.get("doc_type", ""),
-                "summary": first_summary(body),
+                "summary": finalize_summary(body, rel),
                 "stale": any(mark in body for mark in STALE_MARKERS),
             }
         )
