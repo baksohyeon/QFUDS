@@ -13,7 +13,7 @@ depends_on:
   - literature_cache_index
   - roadmap
 next_gate: execute candidate-variable question audit before selecting xi
-last_updated: 2026-06-17
+last_updated: 2026-07-06
 ---
 
 # 2026-06-17 Foam-State Variable Literature Question Plan
@@ -46,7 +46,7 @@ It does not open Physical-QFUDS Level 2B.
 ## Workflow Application
 
 This plan follows the
-[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../../../.agent/workflows/research-asset-product-workflow.md).
 
 The web pass in this plan is a candidate-source scoping pass only. It does not
 claim that any external asset is QFUDS-ready, missing, unavailable, or

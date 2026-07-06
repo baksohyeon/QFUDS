@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - literature_cache_index
 next_gate: none; raw literature cache only
-last_updated: 2026-06-18
+last_updated: 2026-07-06
 record_type: literature_record
 paper_year: 2007
 availability_last_checked: 2026-06-18
@@ -21,7 +21,7 @@ used_by:
 ## Workflow Boundary
 
 This literature record follows the
-[Research Asset and Product Workflow](../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
 The source was `hit_not_cached` before this record. This record promotes it to
 a repository literature record; raw arXiv assets remain
 `asset_available_not_downloaded`.

@@ -12,7 +12,7 @@ depends_on:
   - audit_2026_06_18_candidate_equation_triage_closeout
   - roadmap
 next_gate: no physical branch from these routes; preserve as audit or comparator only
-last_updated: 2026-06-18
+last_updated: 2026-07-06
 ---
 
 # 2026-06-18 Candidate Equation Template Attempts
@@ -20,7 +20,7 @@ last_updated: 2026-06-18
 ## Purpose
 
 This document applies the
-[Candidate Equation Proposal Template](../../../baseline_reference/plans/010_candidate_equation_proposal_template.md)
+[Candidate Equation Proposal Template](../../baseline_reference/plans/010_candidate_equation_proposal_template.md)
 to the five routes preserved by the
 [Black-Hole Vacuum Foam Falsifiability Ledger](053_black_hole_vacuum_foam_falsifiability_ledger_ko.md).
 

@@ -527,7 +527,7 @@ extraction: not_extractable
 ```
 
 물리 앵커(블랙홀 정보·홀로그래피·Bekenstein/Landauer 한계·항성 진화·은하 공전·판 구조)의
-정확도 닻은 이미 [002 F](블랙홀 본거지)와 [114](정보·유니터리·복원 물리, real-science 닻)가
+정확도 닻은 이미 [002(블랙홀 본거지)](002_chronology_restoration_admin_black_hole_seat_ko.md)와 [114(정보·유니터리·복원 물리, real-science 닻)](../10_world/114_in_world_physics_information_unitarity_restoration_ko.md)가
 보유한다. 이 문서는 그 닻을 심층시간 척도로 늘려 쓸 뿐 새 물리 주장을 만들지 않는다.
 
 ## Boundary

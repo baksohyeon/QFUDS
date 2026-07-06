@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - fiction_catalog_index_ko
   - fiction_ip_management_system_ko
-last_updated: 2026-07-02
+last_updated: 2026-07-06
 next_gate: feathersmcgraw-coda 앤솔로지 001 draft를 리텐션 게이트 전 first-pass 퇴고로 올린다
 ---
 
@@ -32,7 +32,7 @@ Sandbox)는 `qfuds-verse`와 **형제 관계인 별도 fiction universe/IP**다.
 
 ## 왜 qfuds-verse가 아니라 새 universe인가
 
-[Fiction IP Management Workflow](../../../../.agent/workflows/fiction-ip-management-workflow.md)의
+[Fiction IP Management Workflow](../../../../../.agent/workflows/fiction-ip-management-workflow.md)의
 Universe Inheritance Rule 기준:
 
 - qfuds-verse = 먼 미래 하드SF 정보 복원 서사(블랙홀·Genesis Chain·암호적 죽음).
@@ -104,7 +104,7 @@ research asset workflow state: hit_not_cached
 
 외부 딥리서치 개념(cross-layer bleed, 0뷰 메트릭 침묵, 워터마크 의무, UX 파편화)은
 아이디어 레퍼런스로만 쓴다. 소스 인용이 워크플로·템플릿·시스템 문서를 바꾸는 경우에만
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md)에
+[Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md)에
 따라 URL·허용/차단 주장·상태 토큰을 별도 기록한다.
 
 ## Next Gate

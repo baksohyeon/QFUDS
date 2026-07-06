@@ -10,7 +10,7 @@ depends_on:
   - level_1_5_resolution_gate
   - perturbation_gate
 next_gate: link level mentions to this glossary when touching affected documents
-last_updated: 2026-06-10
+last_updated: 2026-07-06
 ---
 
 # Repository Levels Glossary
@@ -102,7 +102,7 @@ k-essence, scalar-field dark matter, or interacting dark energy models.
 From [docs/05_next_steps/000_roadmap.md](../../05_next_steps/000_roadmap.md):
 
 ```text
-| 0 | literature position | completed | [docs/02_theory/900_qfuds_research_report.md](../02_theory/900_qfuds_research_report.md) | Keep comparison current as model changes |
+| 0 | literature position | completed | [docs/02_theory/900_qfuds_research_report.md](../../02_theory/900_qfuds_research_report.md) | Keep comparison current as model changes |
 ```
 
 ### First Appearance
@@ -175,7 +175,7 @@ From [docs/00_project/research_program.md](../../00_project/research_program.md)
 From [docs/05_next_steps/000_roadmap.md](../../05_next_steps/000_roadmap.md):
 
 ```text
-| 1 | background validation | completed | [docs/04_results/000_result_000_lcdm_baseline.md](../04_results/000_result_000_lcdm_baseline.md), [docs/04_results/010_result_001_gamma_scan.md](../04_results/010_result_001_gamma_scan.md), [docs/04_results/020_result_002_entropy_information_gate.md](../04_results/020_result_002_entropy_information_gate.md), `outputs/`, `tests/test_gamma_v03.py` | Treat experiment 002 as provenance; audit only the retained collapse/information-production shape |
+| 1 | background validation | completed | [docs/04_results/000_result_000_lcdm_baseline.md](../../04_results/000_result_000_lcdm_baseline.md), [docs/04_results/010_result_001_gamma_scan.md](../../04_results/010_result_001_gamma_scan.md), [docs/04_results/020_result_002_entropy_information_gate.md](../../04_results/020_result_002_entropy_information_gate.md), `outputs/`, `tests/test_gamma_v03.py` | Treat experiment 002 as provenance; audit only the retained collapse/information-production shape |
 ```
 
 ### First Appearance
@@ -229,7 +229,7 @@ not current physical evidence.
 From [docs/05_next_steps/000_roadmap.md](../../05_next_steps/000_roadmap.md):
 
 ```text
-| 1.5 | retained phase-transfer physicality | completed for retained branch | [docs/02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](../02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md), [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md), [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../04_results/015_result_001_5_phase_transfer_physicality.md), `qfuds/gamma_laws.py` | Retained branch demoted to phenomenological interacting vacuum; future physical branches must pass the admission rule before reopening Level 1.5 or Level 2B |
+| 1.5 | retained phase-transfer physicality | completed for retained branch | [docs/02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md](../../02_theory/015_qfuds_level_1_5_equivalence_source_perturbation_audit.md), [docs/02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md](../../02_theory/015_qfuds_level_1_5_transfer_four_vector_derivation_attempt.md), [docs/04_results/015_result_001_5_phase_transfer_physicality.md](../../04_results/015_result_001_5_phase_transfer_physicality.md), `qfuds/gamma_laws.py` | Retained branch demoted to phenomenological interacting vacuum; future physical branches must pass the admission rule before reopening Level 1.5 or Level 2B |
 ```
 
 From [docs/05_next_steps/015_level_1_5_resolution_gate.md](../../05_next_steps/015_level_1_5_resolution_gate.md):
@@ -312,7 +312,7 @@ Gamma(a) remains a phenomenological interacting-vacuum transfer law.
 From [docs/05_next_steps/000_roadmap.md](../../05_next_steps/000_roadmap.md):
 
 ```text
-| 2A | phenomenological perturbation closure | completed | [docs/02_theory/030_qfuds_phenomenological_perturbations.md](../02_theory/030_qfuds_phenomenological_perturbations.md), [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../03_experiments/030_exp_003_phenomenological_perturbation_closure.md), [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../04_results/030_result_003_phenomenological_perturbation_closure.md), `outputs/exp003_stability_diagnostics.csv` | P2 failed at retained amplitude; P1 survives only as phenomenological interacting vacuum |
+| 2A | phenomenological perturbation closure | completed | [docs/02_theory/030_qfuds_phenomenological_perturbations.md](../../02_theory/030_qfuds_phenomenological_perturbations.md), [docs/03_experiments/030_exp_003_phenomenological_perturbation_closure.md](../../03_experiments/030_exp_003_phenomenological_perturbation_closure.md), [docs/04_results/030_result_003_phenomenological_perturbation_closure.md](../../04_results/030_result_003_phenomenological_perturbation_closure.md), `outputs/exp003_stability_diagnostics.csv` | P2 failed at retained amplitude; P1 survives only as phenomenological interacting vacuum |
 ```
 
 From [docs/02_theory/030_qfuds_phenomenological_perturbations.md](../../02_theory/030_qfuds_phenomenological_perturbations.md):
