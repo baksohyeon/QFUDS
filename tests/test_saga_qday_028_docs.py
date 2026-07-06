@@ -1,7 +1,10 @@
 """Regression tests for the QFUDS SAGA Q-Day 14-domain matrix promotion PR.
 
-This PR is documentation-only (Korean-language fiction wiki pages under
-docs/wiki/fiction/.../qfuds-saga/00_bible and 00_workroom). The repository's
+This PR is documentation-only (Korean-language fiction wiki pages). The docs
+were later relocated by the 2026-07-06 band renumber (the Q-Day canon moved to
+qfuds-verse/00_continuity and 10_world; workroom docs renumbered), so the path
+constants below track those current locations while the doc_ids stay. The
+repository's
 authoritative way of "testing" documentation is the frontmatter/link/gate
 scripts under scripts/ (validate_docs.py, fiction_gate.py). These tests exercise
 those scripts against exactly the files changed in this PR, plus assert on the
@@ -30,22 +33,29 @@ import validate_docs as vd  # noqa: E402
 import fiction_gate as fg  # noqa: E402
 
 
-SAGA_ROOT = "docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga"
+VERSE = "docs/wiki/fiction/10_universes/qfuds-verse"
+SAGA_ROOT = f"{VERSE}/20_series/qfuds-saga"
 BIBLE = f"{SAGA_ROOT}/00_bible"
 WORKROOM = f"{SAGA_ROOT}/00_workroom"
+# The 2026-07-06 band renumber relocated the Q-Day canon docs off the saga
+# bible shelf: 026 -> 10_world/115, 028 -> 10_world/116, the canon authority
+# map -> 00_continuity/000, and workroom 009 -> 408, 011 -> 410. The doc_ids
+# below are stable; only shelves and numeric prefixes changed.
+CONTINUITY = f"{VERSE}/00_continuity"
+WORLD = f"{VERSE}/10_world"
 
 CHANGED_FILES = [
-    f"{BIBLE}/000_canon_authority_and_ssot_map_ko.md",
-    f"{BIBLE}/026_qday_aftermath_timeline_and_world_ko.md",
-    f"{BIBLE}/028_qday_world_system_14domain_matrix_ko.md",
+    f"{CONTINUITY}/000_canon_authority_and_ssot_map_ko.md",
+    f"{WORLD}/115_qday_aftermath_timeline_and_world_ko.md",
+    f"{WORLD}/116_qday_world_system_14domain_matrix_ko.md",
     f"{BIBLE}/README.md",
-    f"{WORKROOM}/009_saga_production_board_ko.md",
-    f"{WORKROOM}/011_expert_panel_world_system_handoff_ko.md",
+    f"{WORKROOM}/408_saga_production_board_ko.md",
+    f"{WORKROOM}/410_expert_panel_world_system_handoff_ko.md",
     f"{WORKROOM}/README.md",
 ]
 
-NEW_DOC_028 = f"{BIBLE}/028_qday_world_system_14domain_matrix_ko.md"
-NEW_DOC_011 = f"{WORKROOM}/011_expert_panel_world_system_handoff_ko.md"
+NEW_DOC_028 = f"{WORLD}/116_qday_world_system_14domain_matrix_ko.md"
+NEW_DOC_011 = f"{WORKROOM}/410_expert_panel_world_system_handoff_ko.md"
 
 DOC_028_ID = "qfuds_saga_qday_world_system_14domain_matrix_ko"
 DOC_011_ID = "qfuds_saga_expert_panel_world_system_handoff_ko"
@@ -79,16 +89,16 @@ class ValidateDocsComplianceTests(unittest.TestCase):
                 errors = vd.validate_doc(_abspath(rel))
                 self.assertEqual(errors, [], f"{rel} failed validate_doc: {errors}")
 
-    def test_new_bible_doc_has_expected_frontmatter(self) -> None:
+    def test_new_world_spec_doc_has_expected_frontmatter(self) -> None:
         frontmatter, _ = vd.parse_frontmatter(_abspath(NEW_DOC_028))
         self.assertEqual(frontmatter["doc_id"], DOC_028_ID)
         self.assertEqual(frontmatter["doc_type"], "guide")
         self.assertEqual(frontmatter["stage"], "reference")
         self.assertEqual(frontmatter["status"], "draft")
         self.assertEqual(frontmatter["evidence_role"], "provenance")
-        self.assertEqual(frontmatter["last_updated"], "2026-07-01")
-        # 028 must defer authority to 026 (the SSOT) in its own next_gate note.
-        self.assertIn("026", frontmatter["next_gate"])
+        self.assertEqual(frontmatter["last_updated"], "2026-07-06")
+        # 116 must defer authority to 115 (the SSOT) in its own next_gate note.
+        self.assertIn("115", frontmatter["next_gate"])
 
     def test_new_workroom_brief_has_expected_frontmatter(self) -> None:
         frontmatter, _ = vd.parse_frontmatter(_abspath(NEW_DOC_011))
@@ -97,9 +107,9 @@ class ValidateDocsComplianceTests(unittest.TestCase):
         self.assertEqual(frontmatter["stage"], "reference")
         self.assertEqual(frontmatter["status"], "draft")
         self.assertEqual(frontmatter["evidence_role"], "provenance")
-        self.assertEqual(frontmatter["last_updated"], "2026-07-01")
-        # 011 is now provenance-only; its next_gate must record the promotion.
-        self.assertIn("028", frontmatter["next_gate"])
+        self.assertEqual(frontmatter["last_updated"], "2026-07-06")
+        # 410 is now provenance-only; its next_gate must record the promotion to 116.
+        self.assertIn("116", frontmatter["next_gate"])
 
     def test_h1_matches_title_for_new_files(self) -> None:
         for rel in (NEW_DOC_028, NEW_DOC_011):
@@ -136,11 +146,16 @@ class DocIdIntegrityTests(unittest.TestCase):
                 frontmatter, _ = vd.parse_frontmatter(_abspath(rel))
                 self.assertEqual(frontmatter["doc_id"], expected_id)
                 # Exactly one file in the whole docs tree should own this id.
-                owners = [
-                    p
-                    for p in vd.DOCS.rglob("*.md")
-                    if vd.parse_frontmatter(p)[0].get("doc_id") == expected_id
-                ]
+                # Skip files without frontmatter (e.g. auto-converted asset
+                # Markdown) the same way setUpClass does.
+                owners = []
+                for p in vd.DOCS.rglob("*.md"):
+                    try:
+                        fm, _ = vd.parse_frontmatter(p)
+                    except ValueError:
+                        continue
+                    if fm.get("doc_id") == expected_id:
+                        owners.append(p)
                 self.assertEqual(len(owners), 1, f"duplicate doc_id {expected_id}: {owners}")
 
     def test_028_depends_on_all_resolve_to_existing_doc_ids(self) -> None:
@@ -241,56 +256,58 @@ class ContentCommitmentTests(unittest.TestCase):
     """Assert the specific cross-file wiring this PR promises actually landed."""
 
     def test_authority_map_registers_qday_world_system_row(self) -> None:
-        text = _read(f"{BIBLE}/000_canon_authority_and_ssot_map_ko.md")
+        text = _read(f"{CONTINUITY}/000_canon_authority_and_ssot_map_ko.md")
         self.assertIn("Q-Day 여파 세계-체계", text)
         self.assertIn(
-            "[026](026_qday_aftermath_timeline_and_world_ko.md)", text
+            "[115](../10_world/115_qday_aftermath_timeline_and_world_ko.md)", text
         )
         self.assertIn(
-            "[028](028_qday_world_system_14domain_matrix_ko.md)", text
+            "[116](../10_world/116_qday_world_system_14domain_matrix_ko.md)", text
         )
-        self.assertIn("026이 SSOT", text)
+        self.assertIn("115이 SSOT", text)
 
-    def test_026_references_028_as_attachment_and_not_ssot_replacement(self) -> None:
-        text = _read(f"{BIBLE}/026_qday_aftermath_timeline_and_world_ko.md")
+    def test_115_references_116_as_attachment_and_not_ssot_replacement(self) -> None:
+        text = _read(f"{WORLD}/115_qday_aftermath_timeline_and_world_ko.md")
         self.assertIn("부속 매트릭스", text)
         self.assertIn(
-            "[028 Q-Day 여파 14도메인 매트릭스](028_qday_world_system_14domain_matrix_ko.md)",
+            "[116 Q-Day 여파 14도메인 매트릭스](116_qday_world_system_14domain_matrix_ko.md)",
             text,
         )
-        self.assertIn("026이 SSOT", text)
+        self.assertIn("115이 SSOT", text)
 
-    def test_bible_readme_lists_028(self) -> None:
+    def test_bible_readme_points_at_relocated_world_matrix(self) -> None:
+        # After the renumber the 14-domain matrix lives on the shared-world
+        # shelf; the saga bible README references it via the 10_world link.
         text = _read(f"{BIBLE}/README.md")
-        self.assertIn("[028 Q-Day 여파 14도메인 매트릭스]", text)
-        self.assertIn("028_qday_world_system_14domain_matrix_ko.md", text)
+        self.assertIn("116 매트릭스", text)
+        self.assertIn("../../../10_world/", text)
 
-    def test_workroom_readme_lists_011_and_marks_promotion(self) -> None:
+    def test_workroom_readme_lists_410_and_marks_promotion(self) -> None:
         text = _read(f"{WORKROOM}/README.md")
-        self.assertIn("011_expert_panel_world_system_handoff_ko.md", text)
-        self.assertIn("bible 028", text)
+        self.assertIn("410_expert_panel_world_system_handoff_ko.md", text)
+        self.assertIn("world 116", text)
 
     def test_production_board_marks_14domain_row_promoted(self) -> None:
-        text = _read(f"{WORKROOM}/009_saga_production_board_ko.md")
-        self.assertIn("14도메인 세계-체계 확장(011→028)", text)
+        text = _read(f"{WORKROOM}/408_saga_production_board_ko.md")
+        self.assertIn("14도메인 세계-체계 확장(410→116)", text)
         self.assertIn("`promoted`", text)
         self.assertIn(
-            "[bible 028](../00_bible/028_qday_world_system_14domain_matrix_ko.md)",
+            "[world 116](../../../10_world/116_qday_world_system_14domain_matrix_ko.md)",
             text,
         )
 
-    def test_028_declares_canon_attachment_status_not_candidate(self) -> None:
+    def test_116_declares_canon_attachment_status_not_candidate(self) -> None:
         text = _read(NEW_DOC_028)
         self.assertIn("캐논 상태: canon 부속 (00_bible)", text)
         self.assertNotIn("candidate", text.lower())
 
-    def test_011_declares_promotion_complete_and_provenance_status(self) -> None:
+    def test_410_declares_promotion_complete_and_provenance_status(self) -> None:
         text = _read(NEW_DOC_011)
         self.assertIn("승격 완료(2026-07-01, 경로 A)", text)
-        self.assertIn("이 브리프(011)는 이제 **작업 provenance**로 보존한다", text)
+        self.assertIn("**작업 provenance**로 보존한다", text)
 
     def test_no_new_proper_nouns_hard_constraint_statement_present(self) -> None:
-        """028 must explicitly restate the 'no new proper nouns/events/characters' guard."""
+        """116 must explicitly restate the 'no new proper nouns/events/characters' guard."""
         text = _read(NEW_DOC_028)
         self.assertIn("새 고유명사·새 사건·새 인물을 만들지 않는다", text)
 

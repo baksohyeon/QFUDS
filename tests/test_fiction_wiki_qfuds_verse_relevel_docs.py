@@ -70,12 +70,12 @@ CHANGED_DOCS: list[tuple[Path, str, str]] = [
         "QFUDS SAGA 캐논 권위·SSOT 지도",
     ),
     (
-        CONTINUITY_DIR / "002_deep_time_restoration_timeline_ko.md",
+        CONTINUITY_DIR / "001_deep_time_restoration_timeline_ko.md",
         "qfuds_saga_deep_time_restoration_timeline_ko",
         "QFUDS SAGA 장기 복원 문명사 타임라인",
     ),
     (
-        CONTINUITY_DIR / "011_chronology_restoration_admin_black_hole_seat_ko.md",
+        CONTINUITY_DIR / "002_chronology_restoration_admin_black_hole_seat_ko.md",
         "qfuds_saga_chronology_restoration_admin_black_hole_seat_ko",
         "QFUDS SAGA 연표·기술곡선·복원 행정·블랙홀 본거지",
     ),
@@ -85,97 +85,97 @@ CHANGED_DOCS: list[tuple[Path, str, str]] = [
         "QFUDS Verse Continuity",
     ),
     (
-        WORLD_DIR / "001_world_anchor_and_verisimilitude_ko.md",
+        WORLD_DIR / "101_world_anchor_and_verisimilitude_ko.md",
         "qfuds_saga_world_anchor_and_verisimilitude_ko",
         "QFUDS SAGA 세계 기준점과 핍진성 규칙",
     ),
     (
-        WORLD_DIR / "003_factions_cultures_power_ecology_ko.md",
+        WORLD_DIR / "102_factions_cultures_power_ecology_ko.md",
         "qfuds_saga_factions_cultures_power_ecology_ko",
         "QFUDS SAGA 세력 문화 권력 생태계 장부",
     ),
     (
-        WORLD_DIR / "005_bitcoin_genesis_chain_and_restoration_myth_ko.md",
+        WORLD_DIR / "103_bitcoin_genesis_chain_and_restoration_myth_ko.md",
         "qfuds_saga_bitcoin_genesis_chain_and_restoration_myth_ko",
         "QFUDS SAGA Bitcoin Genesis Chain과 복원 신화",
     ),
     (
-        WORLD_DIR / "006_post_agi_civilization_history_bilingual_protocol_ko.md",
+        WORLD_DIR / "104_post_agi_civilization_history_bilingual_protocol_ko.md",
         "qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko",
         "QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜",
     ),
     (
-        WORLD_DIR / "007_cryptographic_death_and_hash_covenant_ko.md",
+        WORLD_DIR / "105_cryptographic_death_and_hash_covenant_ko.md",
         "qfuds_saga_cryptographic_death_and_hash_covenant_ko",
         "QFUDS SAGA 암호학적 죽음과 해시 계약",
     ),
     (
-        WORLD_DIR / "009_reader_accessibility_and_real_world_anchors_ko.md",
+        WORLD_DIR / "106_reader_accessibility_and_real_world_anchors_ko.md",
         "qfuds_saga_reader_accessibility_and_real_world_anchors_ko",
         "QFUDS SAGA 비트코인 메인 메타포 토대와 독자 접근성",
     ),
     (
-        WORLD_DIR / "010_last_archive_origin_and_reversal_causality_ko.md",
+        WORLD_DIR / "107_last_archive_origin_and_reversal_causality_ko.md",
         "qfuds_saga_last_archive_origin_and_reversal_causality_ko",
         "QFUDS SAGA Last Archive 기원·역연산 인과·문명 규모·죽음의 평등",
     ),
     (
-        WORLD_DIR / "013_cryptographic_death_era_and_crypto_concepts_ko.md",
+        WORLD_DIR / "108_cryptographic_death_era_and_crypto_concepts_ko.md",
         "qfuds_saga_cryptographic_death_era_and_crypto_concepts_ko",
         "QFUDS SAGA Cryptographic Death 대격변과 암호 개념 상세 설정",
     ),
     (
-        WORLD_DIR / "015_factions_canon_naming_ko.md",
+        WORLD_DIR / "109_factions_canon_naming_ko.md",
         "qfuds_saga_factions_canon_naming_ko",
         "QFUDS SAGA 세력 명칭 Canon 확정",
     ),
     (
-        WORLD_DIR / "017_bitcoin_stature_ideology_deeptime_ko.md",
+        WORLD_DIR / "110_bitcoin_stature_ideology_deeptime_ko.md",
         "qfuds_saga_bitcoin_stature_ideology_deeptime_ko",
         "QFUDS SAGA 비트코인 위상·이념전쟁·심층시간 유효성",
     ),
     (
-        WORLD_DIR / "018_world_compendium_codex_ko.md",
+        WORLD_DIR / "111_world_compendium_codex_ko.md",
         "qfuds_saga_world_compendium_codex_ko",
         "QFUDS SAGA 세계관 컴펜디움",
     ),
     (
-        WORLD_DIR / "020_ai_automation_human_in_the_loop_ssot_ko.md",
+        WORLD_DIR / "112_ai_automation_human_in_the_loop_ssot_ko.md",
         "qfuds_saga_ai_automation_human_in_the_loop_ssot_ko",
         "QFUDS SAGA AI·자동화·인간 확인 루프·아날로그 법정",
     ),
     (
-        WORLD_DIR / "021_restoration_mechanism_correction_ko.md",
+        WORLD_DIR / "113_restoration_mechanism_correction_ko.md",
         "qfuds_saga_restoration_mechanism_correction_ko",
         "QFUDS SAGA 복원 메커니즘 정정 (정보 역산 + 인공 신체)",
     ),
     (
-        WORLD_DIR / "025_in_world_physics_information_unitarity_restoration_ko.md",
+        WORLD_DIR / "114_in_world_physics_information_unitarity_restoration_ko.md",
         "qfuds_saga_in_world_physics_information_unitarity_restoration_ko",
         "QFUDS SAGA in-world 물리 캐논 — 정보·유니터리·복원",
     ),
     (
-        WORLD_DIR / "026_qday_aftermath_timeline_and_world_ko.md",
+        WORLD_DIR / "115_qday_aftermath_timeline_and_world_ko.md",
         "qfuds_saga_qday_aftermath_timeline_and_world_ko",
         "QFUDS SAGA Q-Day 여파 타임라인과 세계 설정",
     ),
     (
-        WORLD_DIR / "028_qday_world_system_14domain_matrix_ko.md",
+        WORLD_DIR / "116_qday_world_system_14domain_matrix_ko.md",
         "qfuds_saga_qday_world_system_14domain_matrix_ko",
-        "QFUDS SAGA Q-Day 여파 14도메인 세계-체계 매트릭스 (026 부속)",
+        "QFUDS SAGA Q-Day 여파 14도메인 세계-체계 매트릭스 (115 부속)",
     ),
     (
-        WORLD_DIR / "030_world_expansion_wave1_names_places_events_ko.md",
+        WORLD_DIR / "117_world_expansion_wave1_names_places_events_ko.md",
         "qfuds_verse_world_expansion_wave1_names_places_events_ko",
         "QFUDS Verse 세계 확장 웨이브 1 (고유명사·지명·세력·인물·사건·어휘)",
     ),
     (
-        WORLD_DIR / "031_world_expansion_wave2_factions_relationships_ko.md",
+        WORLD_DIR / "118_world_expansion_wave2_factions_relationships_ko.md",
         "qfuds_verse_world_expansion_wave2_factions_relationships_ko",
         "QFUDS Verse 세계 확장 웨이브 2 (세력 내부 심화·인물·관계망)",
     ),
     (
-        WORLD_DIR / "032_world_expansion_wave3_geography_event_chains_ko.md",
+        WORLD_DIR / "119_world_expansion_wave3_geography_event_chains_ko.md",
         "qfuds_verse_world_expansion_wave3_geography_event_chains_ko",
         "QFUDS Verse 세계 확장 웨이브 3 (지리 상세·궤도 역학·사건 연쇄 인과)",
     ),
@@ -192,24 +192,24 @@ CHANGED_DOCS: list[tuple[Path, str, str]] = [
 # doc_id uniqueness would be violated.
 RENAMED_AWAY_BIBLE_FILENAMES = [
     "000_canon_authority_and_ssot_map_ko.md",
-    "001_world_anchor_and_verisimilitude_ko.md",
-    "002_deep_time_restoration_timeline_ko.md",
-    "003_factions_cultures_power_ecology_ko.md",
-    "005_bitcoin_genesis_chain_and_restoration_myth_ko.md",
-    "006_post_agi_civilization_history_bilingual_protocol_ko.md",
-    "007_cryptographic_death_and_hash_covenant_ko.md",
-    "009_reader_accessibility_and_real_world_anchors_ko.md",
-    "010_last_archive_origin_and_reversal_causality_ko.md",
-    "011_chronology_restoration_admin_black_hole_seat_ko.md",
-    "013_cryptographic_death_era_and_crypto_concepts_ko.md",
-    "015_factions_canon_naming_ko.md",
-    "017_bitcoin_stature_ideology_deeptime_ko.md",
-    "018_world_compendium_codex_ko.md",
-    "020_ai_automation_human_in_the_loop_ssot_ko.md",
-    "021_restoration_mechanism_correction_ko.md",
-    "025_in_world_physics_information_unitarity_restoration_ko.md",
-    "026_qday_aftermath_timeline_and_world_ko.md",
-    "028_qday_world_system_14domain_matrix_ko.md",
+    "101_world_anchor_and_verisimilitude_ko.md",
+    "001_deep_time_restoration_timeline_ko.md",
+    "102_factions_cultures_power_ecology_ko.md",
+    "103_bitcoin_genesis_chain_and_restoration_myth_ko.md",
+    "104_post_agi_civilization_history_bilingual_protocol_ko.md",
+    "105_cryptographic_death_and_hash_covenant_ko.md",
+    "106_reader_accessibility_and_real_world_anchors_ko.md",
+    "107_last_archive_origin_and_reversal_causality_ko.md",
+    "002_chronology_restoration_admin_black_hole_seat_ko.md",
+    "108_cryptographic_death_era_and_crypto_concepts_ko.md",
+    "109_factions_canon_naming_ko.md",
+    "110_bitcoin_stature_ideology_deeptime_ko.md",
+    "111_world_compendium_codex_ko.md",
+    "112_ai_automation_human_in_the_loop_ssot_ko.md",
+    "113_restoration_mechanism_correction_ko.md",
+    "114_in_world_physics_information_unitarity_restoration_ko.md",
+    "115_qday_aftermath_timeline_and_world_ko.md",
+    "116_qday_world_system_14domain_matrix_ko.md",
 ]
 
 LINK_TARGET_RE = re.compile(r"\[[^\]]*\]\((?P<target>[^)\s]+)\)")
@@ -278,11 +278,13 @@ class ChangedDocFrontmatterTests(unittest.TestCase):
                     f"H1 does not match frontmatter title in {path}",
                 )
 
-    def test_last_updated_bumped_to_relevel_date(self) -> None:
+    def test_last_updated_reflects_latest_shelf_renumber(self) -> None:
+        # Releveled on 2026-07-01, then band-renumbered on 2026-07-06
+        # (continuity 0xx / world 1xx), which bumped last_updated.
         for path, _doc_id, _title in CHANGED_DOCS:
             with self.subTest(path=path.relative_to(ROOT)):
                 frontmatter, _body = validate_docs.parse_frontmatter(path)
-                self.assertEqual(frontmatter.get("last_updated"), "2026-07-01")
+                self.assertEqual(frontmatter.get("last_updated"), "2026-07-06")
 
     def test_allowed_enum_values(self) -> None:
         for path, _doc_id, _title in CHANGED_DOCS:
@@ -399,9 +401,9 @@ class LinkResolutionTests(unittest.TestCase):
         _frontmatter, body = validate_docs.parse_frontmatter(path)
         targets = iter_markdown_link_targets(body)
         for expected in (
-            "../10_world/021_restoration_mechanism_correction_ko.md",
-            "../10_world/015_factions_canon_naming_ko.md",
-            "../10_world/010_last_archive_origin_and_reversal_causality_ko.md",
+            "../10_world/113_restoration_mechanism_correction_ko.md",
+            "../10_world/109_factions_canon_naming_ko.md",
+            "../10_world/107_last_archive_origin_and_reversal_causality_ko.md",
         ):
             with self.subTest(expected=expected):
                 self.assertIn(expected, targets)
@@ -413,16 +415,16 @@ class LinkResolutionTests(unittest.TestCase):
         _frontmatter, body = validate_docs.parse_frontmatter(path)
         targets = set(iter_markdown_link_targets(body))
         self.assertIn("000_canon_authority_and_ssot_map_ko.md", targets)
-        self.assertIn("002_deep_time_restoration_timeline_ko.md", targets)
-        self.assertIn("011_chronology_restoration_admin_black_hole_seat_ko.md", targets)
+        self.assertIn("001_deep_time_restoration_timeline_ko.md", targets)
+        self.assertIn("002_chronology_restoration_admin_black_hole_seat_ko.md", targets)
 
     def test_world_readme_links_to_expansion_waves_and_continuity(self) -> None:
         path = WORLD_DIR / "README.md"
         _frontmatter, body = validate_docs.parse_frontmatter(path)
         targets = set(iter_markdown_link_targets(body))
-        self.assertIn("030_world_expansion_wave1_names_places_events_ko.md", targets)
-        self.assertIn("031_world_expansion_wave2_factions_relationships_ko.md", targets)
-        self.assertIn("032_world_expansion_wave3_geography_event_chains_ko.md", targets)
+        self.assertIn("117_world_expansion_wave1_names_places_events_ko.md", targets)
+        self.assertIn("118_world_expansion_wave2_factions_relationships_ko.md", targets)
+        self.assertIn("119_world_expansion_wave3_geography_event_chains_ko.md", targets)
         self.assertIn("../00_continuity/", targets)
 
     def test_studio_docs_point_at_relocated_world_bible(self) -> None:
@@ -430,7 +432,7 @@ class LinkResolutionTests(unittest.TestCase):
         _frontmatter, body = validate_docs.parse_frontmatter(checklist)
         targets = " ".join(iter_markdown_link_targets(body))
         self.assertIn(
-            "10_universes/qfuds-verse/10_world/001_world_anchor_and_verisimilitude_ko.md",
+            "10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md",
             targets,
         )
 
@@ -438,7 +440,7 @@ class LinkResolutionTests(unittest.TestCase):
         _frontmatter, body = validate_docs.parse_frontmatter(research)
         targets = " ".join(iter_markdown_link_targets(body))
         self.assertIn(
-            "10_universes/qfuds-verse/10_world/009_reader_accessibility_and_real_world_anchors_ko.md",
+            "10_universes/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md",
             targets,
         )
 
