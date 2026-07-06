@@ -48,6 +48,15 @@ class MaskLinkTargetsTests(unittest.TestCase):
         after = "[a](one/new.md) and [b](two/new.md)"
         self.assertEqual(guard.mask_link_targets(before), guard.mask_link_targets(after))
 
+    def test_target_flipping_to_external_url_is_not_masked_equal(self) -> None:
+        # A link becoming an external URL adds an external-research claim, so it
+        # must NOT read as a cosmetic path edit.
+        before = "[ref](local/x.md)"
+        after = "[ref](https://arxiv.org/abs/2503.14739)"
+        self.assertNotEqual(
+            guard.mask_link_targets(before), guard.mask_link_targets(after)
+        )
+
     def test_line_without_links_is_unchanged(self) -> None:
         line = "plain prose with no markdown link"
         self.assertEqual(guard.mask_link_targets(line), line)

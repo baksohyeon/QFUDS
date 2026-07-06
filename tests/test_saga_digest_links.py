@@ -13,7 +13,6 @@ Run with: python3 -m unittest discover -s tests -p 'test_*.py'
 from __future__ import annotations
 
 import importlib.util
-import re
 import sys
 import unittest
 from pathlib import Path
@@ -27,7 +26,6 @@ if str(SCRIPTS_DIR) not in sys.path:
 import build_saga_digest as digest  # noqa: E402
 
 SAGA = digest.SAGA
-LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 
 
 class RewriteLinkTargetTests(unittest.TestCase):
@@ -80,9 +78,9 @@ class GeneratedDigestTests(unittest.TestCase):
     def test_no_broken_internal_links_in_regenerated_digest(self) -> None:
         rendered = digest.render(digest.collect())
         broken: list[str] = []
-        for _text, target in LINK_RE.findall(rendered):
+        for _text, target in digest.LINK_RE.findall(rendered):
             t = target.strip()
-            if t.startswith(("http://", "https://", "mailto:", "#")):
+            if t.startswith(digest.NON_PATH_LINK_PREFIXES):
                 continue
             path_part = t.split("#", 1)[0]
             if not path_part:

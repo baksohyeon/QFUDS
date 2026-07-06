@@ -130,7 +130,10 @@ class DocIdIntegrityTests(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls) -> None:
-        cls.doc_ids: dict[str, Path] = {}
+        # One tree walk builds doc_id -> [owning paths]; every test below is an
+        # O(1) lookup. Files without frontmatter (e.g. auto-converted asset
+        # Markdown) are skipped.
+        cls.doc_owners: dict[str, list[Path]] = {}
         for path in sorted(vd.DOCS.rglob("*.md")):
             try:
                 frontmatter, _ = vd.parse_frontmatter(path)
@@ -138,7 +141,7 @@ class DocIdIntegrityTests(unittest.TestCase):
                 continue
             doc_id = frontmatter.get("doc_id")
             if doc_id:
-                cls.doc_ids.setdefault(doc_id, path)
+                cls.doc_owners.setdefault(doc_id, []).append(path)
 
     def test_new_doc_ids_are_globally_unique(self) -> None:
         for rel, expected_id in ((NEW_DOC_028, DOC_028_ID), (NEW_DOC_011, DOC_011_ID)):
@@ -146,16 +149,7 @@ class DocIdIntegrityTests(unittest.TestCase):
                 frontmatter, _ = vd.parse_frontmatter(_abspath(rel))
                 self.assertEqual(frontmatter["doc_id"], expected_id)
                 # Exactly one file in the whole docs tree should own this id.
-                # Skip files without frontmatter (e.g. auto-converted asset
-                # Markdown) the same way setUpClass does.
-                owners = []
-                for p in vd.DOCS.rglob("*.md"):
-                    try:
-                        fm, _ = vd.parse_frontmatter(p)
-                    except ValueError:
-                        continue
-                    if fm.get("doc_id") == expected_id:
-                        owners.append(p)
+                owners = self.doc_owners.get(expected_id, [])
                 self.assertEqual(len(owners), 1, f"duplicate doc_id {expected_id}: {owners}")
 
     def test_028_depends_on_all_resolve_to_existing_doc_ids(self) -> None:
@@ -165,7 +159,7 @@ class DocIdIntegrityTests(unittest.TestCase):
         self.assertGreater(len(depends_on), 0)
         for dep_id in depends_on:
             with self.subTest(dep_id=dep_id):
-                self.assertIn(dep_id, self.doc_ids, f"unresolved depends_on: {dep_id}")
+                self.assertIn(dep_id, self.doc_owners, f"unresolved depends_on: {dep_id}")
 
     def test_011_depends_on_all_resolve_to_existing_doc_ids(self) -> None:
         raw_text = _read(NEW_DOC_011)
@@ -173,7 +167,7 @@ class DocIdIntegrityTests(unittest.TestCase):
         self.assertGreater(len(depends_on), 0)
         for dep_id in depends_on:
             with self.subTest(dep_id=dep_id):
-                self.assertIn(dep_id, self.doc_ids, f"unresolved depends_on: {dep_id}")
+                self.assertIn(dep_id, self.doc_owners, f"unresolved depends_on: {dep_id}")
 
     @staticmethod
     def _extract_depends_on(raw_text: str) -> list[str]:

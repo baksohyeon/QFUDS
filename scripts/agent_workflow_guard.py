@@ -8,6 +8,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from typing import Callable
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -165,13 +166,23 @@ def canonical_tool_reference_link_text(text: str) -> str:
     return " ".join(normalize_tool_reference_links(text).split())
 
 
-# Matches the ``](target)`` tail of an inline markdown link; used to neutralize
-# link *targets* so a pure relative-path edit compares equal on both sides.
-LINK_TARGET_RE = re.compile(r"\]\([^)]*\)")
+# Matches the ``](target)`` tail of an inline markdown link, capturing the
+# target; used to neutralize *internal* link targets so a pure relative-path
+# edit compares equal on both sides.
+LINK_TARGET_RE = re.compile(r"\]\(([^)]*)\)")
+# Prefixes that make a link target external. These are left literal when
+# masking so a target flipping to an external URL is NOT read as a cosmetic
+# path edit (that would add an external-research claim the gate must catch).
+EXTERNAL_LINK_PREFIXES = ("http://", "https://", "mailto:")
 
 
 def mask_link_targets(text: str) -> str:
-    return LINK_TARGET_RE.sub("](#)", text)
+    def neutralize(match: re.Match[str]) -> str:
+        if match.group(1).strip().startswith(EXTERNAL_LINK_PREFIXES):
+            return match.group(0)
+        return "](#)"
+
+    return LINK_TARGET_RE.sub(neutralize, text)
 
 
 def staged_hunks(path: Path) -> list[tuple[list[str], list[str]]]:
@@ -208,14 +219,12 @@ def staged_hunks(path: Path) -> list[tuple[list[str], list[str]]]:
     return hunks
 
 
-def staged_change_matches_after_normalize(
-    path: Path, normalize
+def hunks_match_after_normalize(
+    hunks: list[tuple[list[str], list[str]]], normalize: Callable[[str], str]
 ) -> bool:
     """True if every non-``last_updated`` hunk is unchanged once ``normalize`` is
-    applied to both sides, and at least one hunk really changed. Shared shape for
-    the "this edit does not add a research claim" exemptions.
+    applied to both sides, and at least one hunk really changed.
     """
-    hunks = staged_hunks(path)
     if not hunks:
         return False
 
@@ -235,22 +244,16 @@ def staged_change_matches_after_normalize(
     return changed_any
 
 
-def staged_change_is_only_tool_reference_links(path: Path) -> bool:
-    return staged_change_matches_after_normalize(
-        path, canonical_tool_reference_link_text
-    )
-
-
-def staged_change_is_only_link_path_edits(path: Path) -> bool:
-    """True if the staged diff only rewrites link *targets*.
-
-    A relative-path correction (e.g. fixing ``../`` depth after a rename)
-    changes where an existing link points without introducing any new
-    external-research claim, so it must not trip the workflow gate. Mirrors the
-    tool-reference-link exemption: mask every ``](target)`` span and require the
-    lines to be otherwise identical.
+def staged_change_adds_no_research_claim(path: Path) -> bool:
+    """True if the staged edit only rewrites tool-reference links or internal
+    link *targets* (plus ``last_updated``) — none of which adds an
+    external-research claim, so it must not trip the workflow gate. Parses the
+    staged diff once and tests both exemptions against it.
     """
-    return staged_change_matches_after_normalize(path, mask_link_targets)
+    hunks = staged_hunks(path)
+    return hunks_match_after_normalize(
+        hunks, canonical_tool_reference_link_text
+    ) or hunks_match_after_normalize(hunks, mask_link_targets)
 
 
 def is_navigation_index(text: str) -> bool:
@@ -302,10 +305,7 @@ def main() -> int:
     failures: list[tuple[Path, list[str]]] = []
     for path in paths:
         errors = check_file(path, staged=staged)
-        if errors and staged and (
-            staged_change_is_only_tool_reference_links(path)
-            or staged_change_is_only_link_path_edits(path)
-        ):
+        if errors and staged and staged_change_adds_no_research_claim(path):
             continue
         if errors:
             failures.append((path, errors))
