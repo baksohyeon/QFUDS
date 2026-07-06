@@ -149,9 +149,11 @@ depends_on 역배선(113·001·103)은 P1 chronicler pass 잔여 항목.
   다수 문서(202·203·205·206 등) 상단 20줄 disclaimer로 옛 구조를 막아 두었다. 배너는 안전판
   이지 이관 완료가 아니다. 이 상태가 "이관 끝"으로 오독되면 옛 라벨이 산문으로 새어 나간다.
   해소는 아래 **Chronicler Pass**(§6 P1): 배너를 걷고 본문 라벨을 209/114/210 기준으로 치환.
-- **status 신호 소실:** 80개 중 78개가 `status: draft` 고정(예외: story_design 203·108=completed,
+- **status 신호 소실:** 80개 중 다수가 `status: draft` 고정(예외: story_design 203·108=completed,
   release 900=provenance). 안정 문서까지 draft라 status가 진행도 신호로 무용하다. 안정 문서는
-  `reference`로 승격해 "아직 유동적인 것"과 구분하자(P2).
+  `reference`로 승격해 "아직 유동적인 것"과 구분하자(P2). **부분 해소(2026-07-06):**
+  206은 Core Drive 참조화 후 `status: reference`로 승격, archive 018은 `status: provenance`로
+  정정.
 - **고아 신규 캐논:** 003·123·210(story_design)이 어떤 문서의 `depends_on`에도 없다(README에만
   등록). 소비 문서로 배선되지 않은 미승격 후보다. 승격/배선 전까지 다른 문서가 이들을 근거로
   삼지 못한다(P1).
@@ -176,13 +178,16 @@ depends_on 역배선(113·001·103)은 P1 chronicler pass 잔여 항목.
 - **Truth-State Ledger 작성(DRIFT-205·202):** 202이 지정한 6모듈 중 유일한 빈 모듈. 장별
   "인물이 아는 것 / 독자가 아는 것 / 세계가 확정한 것 / 열린 모순" 표를 실제 문서화. 리빌
   설계(story_design 202·113)·인물 지식(209)과 물리므로 story_design 완독(루프 5) 뒤 착수 적기.
-- **캐릭터 layering 축약(D3·DRIFT-108):** 206가 반복하는 Core Drive를 "203·205 참조"로 축약
-  (중복률 20-30%). 병합이 아니라 참조화. 시대좌표·원본/사본 상태는 209로만 확정.
+- **캐릭터 layering 축약(D3·DRIFT-108):** **완료(2026-07-06).** 206가 반복하던
+  Core Drive 표를 203·205·209·107 참조로 축약했다. 병합이 아니라 참조화이며,
+  시대좌표·원본/사본 상태는 209로만 확정한다.
 - **고아 신규 캐논 배선:** 003·123·124·210을 소비 문서(003→001·002, 123→102·115·114,
   124→113·114·123·002, 210→115·bible-210)의 `depends_on`/인덱스에 배선.
 
 ### P2 (정비, 위생)
-- **status 위생:** 안정 문서 draft→reference 승격.
+- **status 위생:** 안정 문서 draft→reference 승격. **부분 완료(2026-07-06):**
+  206 `draft→reference`, archive 018 `draft→provenance`. 나머지 안정 문서는 별도
+  pass에서 범위 지정 후 처리.
 - **029 결번 문서화:** 범위 경계 아티팩트임을 000/README에 각주.
 - **웨이브 117-123 승격 게이트 정식화(§4):** candidate→canon 절차 명문화.
 

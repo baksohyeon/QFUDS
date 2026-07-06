@@ -3,7 +3,7 @@ doc_id: qfuds_saga_first_arc_polish_read_order_pass
 title: QFUDS SAGA First Arc Polish Read-Order Pass
 doc_type: reference
 stage: reference
-status: draft
+status: provenance
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_full_revision_pass
@@ -48,12 +48,12 @@ Use this order for first-time reading:
 
 | Episode | Korean primary adaptation | English counterpart |
 | --- | --- | --- |
-| 1. Exhibit S-0 | [019](019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](012_exhibit_s0_episode1_revised_v2_english_draft.md) |
-| 2. The Dead Exchange | [020](020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](013_the_dead_exchange_revised_v2_english_draft.md) |
-| 3. The Last Hodler | [021](021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](014_the_last_hodler_revised_v2_english_draft.md) |
-| 4. Identity Flood | [022](022_identity_flood_revised_v2_korean_adaptation.md) | [015](015_identity_flood_revised_v2_english_draft.md) |
-| 5. Hawking Court | [023](023_hawking_court_revised_v2_korean_adaptation.md) | [016](016_hawking_court_revised_v2_english_draft.md) |
-| 6. The Broken Crown | [024](024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](017_the_broken_crown_revised_v2_english_draft.md) |
+| 1. Exhibit S-0 | [019](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md) | [012](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md) |
+| 2. The Dead Exchange | [020](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/020_the_dead_exchange_revised_v2_korean_adaptation.md) | [013](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/013_the_dead_exchange_revised_v2_english_draft.md) |
+| 3. The Last Hodler | [021](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md) | [014](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/014_the_last_hodler_revised_v2_english_draft.md) |
+| 4. Identity Flood | [022](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/022_identity_flood_revised_v2_korean_adaptation.md) | [015](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/015_identity_flood_revised_v2_english_draft.md) |
+| 5. Hawking Court | [023](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/023_hawking_court_revised_v2_korean_adaptation.md) | [016](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/016_hawking_court_revised_v2_english_draft.md) |
+| 6. The Broken Crown | [024](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/024_the_broken_crown_revised_v2_korean_adaptation.md) | [017](../../10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md) |
 
 Older rough drafts remain provenance. They are not deleted or overwritten.
 

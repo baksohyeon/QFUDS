@@ -519,7 +519,7 @@ last_updated: 2026-07-06
 다음: differentiate dialogue per this sheet across 2부 (R2 voice pass)
 
 #### [QFUDS SAGA 입체 캐릭터 시트](00_bible/206_character_depth_sheets_ko.md)
-`draft` · 2026-07-06 · guide
+`reference` · 2026-07-06 · guide
 
 **주의 — 리센터 이전 라벨 포함:** 이 문서 본문은 옛 부 번호를 담을 수 있다. 현행 매핑은 024·025·027 SSOT가 우선.
 
