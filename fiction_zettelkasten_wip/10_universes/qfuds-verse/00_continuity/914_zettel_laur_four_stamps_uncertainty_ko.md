@@ -27,7 +27,7 @@ canon_state: continuity summary from 001
 
 ## Source Refs
 
-- [001 §7기 라우어 관측소](001_deep_time_restoration_timeline_ko.md#7기-라우어-관측소): 라우어 관측소와 네 도장 계보를 다룬다.
+- [001 §7기 라우어 관측소](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md#7기-라우어-관측소): 라우어 관측소와 네 도장 계보를 다룬다.
 - [불명확한 것은 unknown으로 남긴다](913_zettel_unknown_as_authorial_tool_ko.md): 추정으로 빈칸을 채우지 않는 운영 규칙이다.
 
 ## Context

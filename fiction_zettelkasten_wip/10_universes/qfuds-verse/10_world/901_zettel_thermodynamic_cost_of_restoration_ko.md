@@ -26,8 +26,8 @@ canon_state: canon summary of 113, not a new claim
 
 ## Source Refs
 
-- [113 §4.5](113_restoration_mechanism_correction_ko.md#45-열역학은-절대다-유니터리와-양립-검증): 제2법칙과 유니터리의 혼동을 금지한다.
-- [113 §4.6](113_restoration_mechanism_correction_ko.md#46-복원의-정확한-열역학): 복원은 전진 계산이며 막대한 엔트로피 비용을 만든다고 정리한다.
+- [113 §4.5](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md#45-열역학은-절대다-유니터리와-양립-검증): 제2법칙과 유니터리의 혼동을 금지한다.
+- [113 §4.6](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md#46-복원의-정확한-열역학): 복원은 전진 계산이며 막대한 엔트로피 비용을 만든다고 정리한다.
 
 ## Context
 
@@ -39,7 +39,7 @@ canon_state: canon summary of 113, not a new claim
 
 - [복원은 부활이 아니라 데이터 사본이다](900_zettel_restoration_is_copy_ko.md)
 - [불명확한 것은 unknown으로 남긴다](../00_continuity/913_zettel_unknown_as_authorial_tool_ko.md)
-- [QFUDS SAGA 복원 메커니즘 정정](113_restoration_mechanism_correction_ko.md)
+- [QFUDS SAGA 복원 메커니즘 정정](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md)
 
 ## Open Questions
 

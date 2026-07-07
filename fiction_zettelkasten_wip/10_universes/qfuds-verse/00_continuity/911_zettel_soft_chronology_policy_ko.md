@@ -27,8 +27,8 @@ Q-Day, 복원 시대 같은 소프트 시대 좌표를 우선한다.
 
 ## Source Refs
 
-- [125 이 문서의 자리](../10_world/125_qday_two_crisis_timeline_spine_ko.md#이-문서의-자리): 하드 연도 없이 두 위기를 분리하는 active 시간 척추라고 명시한다.
-- [000 도메인별 권위 문서](000_canon_authority_and_ssot_map_ko.md#도메인별-권위-문서-충돌-시-이-문서가-최종): 시간 척추와 연표 도메인의 권위를 구분한다.
+- [125 이 문서의 자리](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/125_qday_two_crisis_timeline_spine_ko.md#이-문서의-자리): 하드 연도 없이 두 위기를 분리하는 active 시간 척추라고 명시한다.
+- [000 도메인별 권위 문서](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md#도메인별-권위-문서-충돌-시-이-문서가-최종): 시간 척추와 연표 도메인의 권위를 구분한다.
 
 ## Context
 

@@ -27,8 +27,8 @@ canon_state: world-system summary from 115 under 113 constraint
 
 ## Source Refs
 
-- [115 §C](115_qday_aftermath_timeline_and_world_ko.md#c-중기---수십-년-검증복원의-산업화-테크노봉건-고착): 검증·복원 산업화와 해상도 계급의 씨앗을 다룬다.
-- [113 §4.6](113_restoration_mechanism_correction_ko.md#46-복원의-정확한-열역학): 재구성은 손실적이며 비용을 만든다고 둔다.
+- [115 §C](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md#c-중기---수십-년-검증복원의-산업화-테크노봉건-고착): 검증·복원 산업화와 해상도 계급의 씨앗을 다룬다.
+- [113 §4.6](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md#46-복원의-정확한-열역학): 재구성은 손실적이며 비용을 만든다고 둔다.
 
 ## Context
 

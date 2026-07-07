@@ -27,8 +27,8 @@ canon_state: canon summary from 112 and 318
 
 ## Source Refs
 
-- [318 왜 기계가 안 하고 사람이 도장을 찍나](../20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md#왜-기계가-안-하고-사람이-도장을-찍나-핍진성-핵심): 사람 도장이 안전장치이자 비극의 장치라고 설명한다.
-- [112 AI 자동화·인간 확인 루프 SSOT](112_ai_automation_human_in_the_loop_ssot_ko.md): 인간 확인 루프의 canon 기준 문서다.
+- [318 왜 기계가 안 하고 사람이 도장을 찍나](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md#왜-기계가-안-하고-사람이-도장을-찍나-핍진성-핵심): 사람 도장이 안전장치이자 비극의 장치라고 설명한다.
+- [112 AI 자동화·인간 확인 루프 SSOT](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/112_ai_automation_human_in_the_loop_ssot_ko.md): 인간 확인 루프의 canon 기준 문서다.
 
 ## Context
 

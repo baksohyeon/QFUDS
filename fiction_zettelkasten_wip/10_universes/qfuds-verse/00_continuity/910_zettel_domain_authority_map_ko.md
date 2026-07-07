@@ -26,8 +26,8 @@ QFUDS Verse의 canon은 하나의 거대 문서가 아니라 복원, 명칭, 인
 
 ## Source Refs
 
-- [000 캐논 권위·SSOT 지도 §도메인별 권위 문서](000_canon_authority_and_ssot_map_ko.md#도메인별-권위-문서-충돌-시-이-문서가-최종): 충돌 시 어느 문서가 이기는지 도메인별로 적는다.
-- [000 §전역 충돌 해소 규칙](000_canon_authority_and_ssot_map_ko.md#전역-충돌-해소-규칙): 명시적 우선 선언, 권위 표, last_updated, unknown 순서를 둔다.
+- [000 캐논 권위·SSOT 지도 §도메인별 권위 문서](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md#도메인별-권위-문서-충돌-시-이-문서가-최종): 충돌 시 어느 문서가 이기는지 도메인별로 적는다.
+- [000 §전역 충돌 해소 규칙](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md#전역-충돌-해소-규칙): 명시적 우선 선언, 권위 표, last_updated, unknown 순서를 둔다.
 
 ## Context
 
@@ -39,7 +39,7 @@ QFUDS Verse의 canon은 하나의 거대 문서가 아니라 복원, 명칭, 인
 
 - [하드 연도보다 소프트 시대 좌표가 우선한다](911_zettel_soft_chronology_policy_ko.md)
 - [불명확한 것은 unknown으로 남긴다](913_zettel_unknown_as_authorial_tool_ko.md)
-- [QFUDS SAGA 캐논 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md)
+- [QFUDS SAGA 캐논 권위·SSOT 지도](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md)
 
 ## Open Questions
 

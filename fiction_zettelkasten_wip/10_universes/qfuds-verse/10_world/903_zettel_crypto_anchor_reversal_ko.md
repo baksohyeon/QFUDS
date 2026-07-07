@@ -26,8 +26,8 @@ canon_state: active spine summary of 125
 
 ## Source Refs
 
-- [125 §3](125_qday_two_crisis_timeline_spine_ko.md#3-암호--최후-앵커-논리-왜-이-순서가-맞나): 암호가 먼저 최후 공증인이 되고 나중에 붕괴한다고 설명한다.
-- [318 핵심 용어](../20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md#핵심-용어-다섯-개-쉬운-풀이): 공개키·개인키·일방향 붕괴를 독자용 언어로 정리한다.
+- [125 §3](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/125_qday_two_crisis_timeline_spine_ko.md#3-암호--최후-앵커-논리-왜-이-순서가-맞나): 암호가 먼저 최후 공증인이 되고 나중에 붕괴한다고 설명한다.
+- [318 핵심 용어](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md#핵심-용어-다섯-개-쉬운-풀이): 공개키·개인키·일방향 붕괴를 독자용 언어로 정리한다.
 
 ## Context
 
@@ -39,7 +39,7 @@ canon_state: active spine summary of 125
 
 - [인식 위기와 Q-Day는 같은 사건이 아니다](902_zettel_two_crisis_spine_ko.md)
 - [사람의 도장은 안전장치이자 세탁 장치다](904_zettel_human_signature_as_safety_and_capture_ko.md)
-- [QFUDS SAGA 세계관·인물 한눈에](../20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md)
+- [QFUDS SAGA 세계관·인물 한눈에](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md)
 
 ## Open Questions
 

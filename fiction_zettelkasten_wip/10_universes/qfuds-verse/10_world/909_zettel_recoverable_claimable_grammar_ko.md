@@ -27,8 +27,8 @@ canon_state: source-linked story pressure from 115 and 310
 
 ## Source Refs
 
-- [115 §B](115_qday_aftermath_timeline_and_world_ko.md#b-단기---주---몇-년-90일-아수라장--검증경제의-굳음): 사엘의 잠정 도장이 선례화되는 사다리를 다룬다.
-- [310 Q1](../20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md#q1-mara는-왜-나는-돌아온-게-아니다라고-말하는가): Mara의 거부가 동일성과 청구권 문제로 이어진다.
+- [115 §B](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md#b-단기---주---몇-년-90일-아수라장--검증경제의-굳음): 사엘의 잠정 도장이 선례화되는 사다리를 다룬다.
+- [310 Q1](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md#q1-mara는-왜-나는-돌아온-게-아니다라고-말하는가): Mara의 거부가 동일성과 청구권 문제로 이어진다.
 
 ## Context
 

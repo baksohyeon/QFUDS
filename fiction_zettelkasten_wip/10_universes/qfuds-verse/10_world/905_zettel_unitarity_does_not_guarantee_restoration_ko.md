@@ -27,8 +27,8 @@ canon_state: boundary summary from 114 and 113
 
 ## Source Refs
 
-- [114 Boundary](114_in_world_physics_information_unitarity_restoration_ko.md#boundary-먼저-읽을-것): 정보 보존은 실제 복원을 보증하지 않으며 소설 내부 논리라고 명시한다.
-- [113 §0](113_restoration_mechanism_correction_ko.md#0-전제-정직한-물리--가장-중요): 실제 작동 캐논은 남은 데이터의 재구성 사본이라고 정한다.
+- [114 Boundary](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/114_in_world_physics_information_unitarity_restoration_ko.md#boundary-먼저-읽을-것): 정보 보존은 실제 복원을 보증하지 않으며 소설 내부 논리라고 명시한다.
+- [113 §0](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md#0-전제-정직한-물리--가장-중요): 실제 작동 캐논은 남은 데이터의 재구성 사본이라고 정한다.
 
 ## Context
 

@@ -27,8 +27,8 @@ canon_state: continuity guard from 000 and 003
 
 ## Source Refs
 
-- [000 도메인별 권위 문서](000_canon_authority_and_ssot_map_ko.md#도메인별-권위-문서-충돌-시-이-문서가-최종): 003은 001 위의 확장 레이어이며 충돌 시 상위 문서가 이긴다고 적는다.
-- [003 심층시간 연대기](003_far_future_deep_time_chronicle_ko.md): 5-9기와 수만-수억 년 규모의 확장 레이어를 둔다.
+- [000 도메인별 권위 문서](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md#도메인별-권위-문서-충돌-시-이-문서가-최종): 003은 001 위의 확장 레이어이며 충돌 시 상위 문서가 이긴다고 적는다.
+- [003 심층시간 연대기](../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md): 5-9기와 수만-수억 년 규모의 확장 레이어를 둔다.
 
 ## Context
 
@@ -39,7 +39,7 @@ canon_state: continuity guard from 000 and 003
 
 - [하드 연도보다 소프트 시대 좌표가 우선한다](911_zettel_soft_chronology_policy_ko.md)
 - [캐논 권위는 도메인별로 갈린다](910_zettel_domain_authority_map_ko.md)
-- [QFUDS Verse 세계 밀도 마스터 인덱스](../../../01_catalog/001_qfuds_verse_world_density_index_ko.md)
+- [QFUDS Verse 세계 밀도 마스터 인덱스](../../../../docs/wiki/fiction/01_catalog/001_qfuds_verse_world_density_index_ko.md)
 
 ## Open Questions
 
