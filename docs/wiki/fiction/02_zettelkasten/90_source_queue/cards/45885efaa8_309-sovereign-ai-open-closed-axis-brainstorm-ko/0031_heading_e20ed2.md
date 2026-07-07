@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 소버린 AI·오픈/봉쇄 축 브레인스토밍](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/309_sovereign_ai_open_closed_axis_brainstorm_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/309_sovereign_ai_open_closed_axis_brainstorm_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/309_sovereign_ai_open_closed_axis_brainstorm_ko.md)
-- Source line: `31`
+- Source line: [line 31](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/309_sovereign_ai_open_closed_axis_brainstorm_ko.md)
 - Heading level: `H2`
 - Source heading: `왜 억지가 아니라 빠진 조각인가 (기존 캐논과의 맞물림)`
 

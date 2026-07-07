@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Production Board](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)
-- Source line: `70`
+- Source line: [line 70](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)
 - Heading level: `H2`
 - Source heading: `Active Risks`
 

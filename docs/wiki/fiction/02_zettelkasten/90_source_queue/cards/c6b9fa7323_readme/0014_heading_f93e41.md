@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Studio 지도](../../../../../../../docs/wiki/fiction/00_studio/README.md)
 - Source path: [docs/wiki/fiction/00_studio/README.md](../../../../../../../docs/wiki/fiction/00_studio/README.md)
-- Source line: `14`
+- Source line: [line 14](../../../../../../../docs/wiki/fiction/00_studio/README.md)
 - Heading level: `H1`
 - Source heading: `Fiction Studio 지도`
 

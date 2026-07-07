@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [창작 문예 하네스](../../../../../../../docs/wiki/fiction/00_studio/004_creative_writing_craft_harness_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/004_creative_writing_craft_harness_ko.md](../../../../../../../docs/wiki/fiction/00_studio/004_creative_writing_craft_harness_ko.md)
-- Source line: `32`
+- Source line: [line 32](../../../../../../../docs/wiki/fiction/00_studio/004_creative_writing_craft_harness_ko.md)
 - Heading level: `H2`
 - Source heading: `Workflow Boundary`
 

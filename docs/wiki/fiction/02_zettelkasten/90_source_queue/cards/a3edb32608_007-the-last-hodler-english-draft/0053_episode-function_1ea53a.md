@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA The Last Hodler English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md)
-- Source line: `53`
+- Source line: [line 53](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Episode Function`
 

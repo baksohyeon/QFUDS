@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Reader Onboarding Harness](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
-- Source line: `110`
+- Source line: [line 110](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
 - Heading level: `H2`
 - Source heading: `설명해야 하는 것과 보여줘도 되는 것`
 

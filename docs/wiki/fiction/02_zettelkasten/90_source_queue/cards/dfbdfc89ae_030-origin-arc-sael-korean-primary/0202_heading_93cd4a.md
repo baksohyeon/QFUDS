@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA origin(신규 1부) 사엘 한국어 primary 원고](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/030_origin_arc_sael_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)
-- Source line: `202`
+- Source line: [line 202](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)
 - Heading level: `H2`
 - Source heading: `검증대: 같은 지갑이 사건이 되어`
 

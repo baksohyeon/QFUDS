@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Release Shelf](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
-- Source line: `49`
+- Source line: [line 49](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 월드빌딩 아키텍처 지도 (문서 인덱스·권위 트리·의존/영향 그래프)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md)
-- Source line: `312`
+- Source line: [line 312](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md)
 - Heading level: `H2`
 - Source heading: `5. 서사·캐논 레이어 순서 (읽는/짓는 순서)`
 

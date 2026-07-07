@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 00_bible 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
-- Source line: `23`
+- Source line: [line 23](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Heading level: `H2`
 - Source heading: `먼저 여기`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [기계 화자 보이스·복선·시대건너뛰기 구조 트리트먼트 (서사·보이스 렌즈)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/321_machine_narrator_voice_and_setup_payoff_treatment_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/321_machine_narrator_voice_and_setup_payoff_treatment_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/321_machine_narrator_voice_and_setup_payoff_treatment_ko.md)
-- Source line: `84`
+- Source line: [line 84](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/321_machine_narrator_voice_and_setup_payoff_treatment_ko.md)
 - Heading level: `H3`
 - Source heading: `2.2 문장 리듬 (강의조 금지, 115 §0 harness)`
 

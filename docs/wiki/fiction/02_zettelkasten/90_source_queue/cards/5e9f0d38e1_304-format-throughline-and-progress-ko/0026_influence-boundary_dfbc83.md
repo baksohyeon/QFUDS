@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 형식·시리즈 throughline·현재 진행 상태](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/304_format_throughline_and_progress_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/304_format_throughline_and_progress_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/304_format_throughline_and_progress_ko.md)
-- Source line: `26`
+- Source line: [line 26](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/304_format_throughline_and_progress_ko.md)
 - Heading level: `H2`
 - Source heading: `Influence Boundary`
 

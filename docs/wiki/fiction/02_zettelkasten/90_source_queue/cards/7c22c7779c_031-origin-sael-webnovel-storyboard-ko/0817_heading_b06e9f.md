@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA origin(1부) 사엘 · 웹소설 콘티 텔링(이해 우선)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)
-- Source line: `817`
+- Source line: [line 817](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)
 - Heading level: `H3`
 - Source heading: `산문`
 

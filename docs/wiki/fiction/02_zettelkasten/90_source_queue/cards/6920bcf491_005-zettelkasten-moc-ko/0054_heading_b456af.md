@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 제텔카스텐 MOC](../../../../../../../docs/wiki/fiction/01_catalog/005_zettelkasten_moc_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/005_zettelkasten_moc_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/005_zettelkasten_moc_ko.md)
-- Source line: `54`
+- Source line: [line 54](../../../../../../../docs/wiki/fiction/01_catalog/005_zettelkasten_moc_ko.md)
 - Heading level: `H2`
 - Source heading: `권위·불확실성`
 

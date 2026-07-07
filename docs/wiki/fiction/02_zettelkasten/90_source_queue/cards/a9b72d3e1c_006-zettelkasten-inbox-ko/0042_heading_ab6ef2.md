@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 제텔카스텐 아이디어 인박스](../../../../../../../docs/wiki/fiction/01_catalog/006_zettelkasten_inbox_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/006_zettelkasten_inbox_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/006_zettelkasten_inbox_ko.md)
-- Source line: `42`
+- Source line: [line 42](../../../../../../../docs/wiki/fiction/01_catalog/006_zettelkasten_inbox_ko.md)
 - Heading level: `H2`
 - Source heading: `상태값`
 

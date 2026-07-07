@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 선반별 밴드 재번호 매핑 (2026-07-06)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/417_shelf_renumber_map_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/417_shelf_renumber_map_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/417_shelf_renumber_map_ko.md)
-- Source line: `150`
+- Source line: [line 150](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/417_shelf_renumber_map_ko.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 창작 시스템](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/401_agentic_saga_system_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/401_agentic_saga_system_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/401_agentic_saga_system_ko.md)
-- Source line: `129`
+- Source line: [line 129](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/401_agentic_saga_system_ko.md)
 - Heading level: `H2`
 - Source heading: `Research Basis`
 

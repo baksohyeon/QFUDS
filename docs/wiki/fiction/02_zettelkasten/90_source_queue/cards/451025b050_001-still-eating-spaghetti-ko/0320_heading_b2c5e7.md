@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [아직도 스파게티를 먹는다](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/001_still_eating_spaghetti_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/001_still_eating_spaghetti_ko.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/001_still_eating_spaghetti_ko.md)
-- Source line: `320`
+- Source line: [line 320](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/001_still_eating_spaghetti_ko.md)
 - Heading level: `H2`
 - Source heading: `8. 경계·정책·학계`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
-- Source line: `36`
+- Source line: [line 36](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Heading level: `H2`
 - Source heading: `2. 최근 갱신 — 지금 뜨거운 곳`
 

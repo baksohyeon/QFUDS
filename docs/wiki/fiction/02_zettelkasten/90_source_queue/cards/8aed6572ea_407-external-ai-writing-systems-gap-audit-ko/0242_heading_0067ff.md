@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 외부 AI 글쓰기 시스템 갭 감사](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
-- Source line: `242`
+- Source line: [line 242](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
 - Heading level: `H2`
 - Source heading: `QFUDS에 실제로 부족한 6개 모듈`
 

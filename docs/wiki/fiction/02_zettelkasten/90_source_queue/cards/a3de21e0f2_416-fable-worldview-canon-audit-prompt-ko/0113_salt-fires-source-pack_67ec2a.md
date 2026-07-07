@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Fable 세계관 캐논 감사 프롬프트](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
-- Source line: `113`
+- Source line: [line 113](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
 - Heading level: `H1`
 - Source heading: `Salt Fires source pack`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Pre-Reboot 1부 Release Manifest](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/900_pre_reboot_first_arc_release_manifest_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/900_pre_reboot_first_arc_release_manifest_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/900_pre_reboot_first_arc_release_manifest_ko.md)
-- Source line: `44`
+- Source line: [line 44](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/900_pre_reboot_first_arc_release_manifest_ko.md)
 - Heading level: `H2`
 - Source heading: `Pre-Reboot Prototype Reading Order`
 

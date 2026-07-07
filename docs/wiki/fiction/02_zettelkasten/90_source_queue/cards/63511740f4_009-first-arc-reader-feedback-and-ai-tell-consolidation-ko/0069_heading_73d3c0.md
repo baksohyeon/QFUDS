@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부·2부 독자 피드백 + AI-tell 통합 정리 및 개선 계획](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
-- Source line: `69`
+- Source line: [line 69](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
 - Heading level: `H2`
 - Source heading: `Part B. 2부 Mara (029) — 라운드 1 (개선 계획 + 적용)`
 

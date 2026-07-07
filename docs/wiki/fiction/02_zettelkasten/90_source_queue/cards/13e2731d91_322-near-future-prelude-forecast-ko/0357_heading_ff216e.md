@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
-- Source line: `357`
+- Source line: [line 357](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
 - Heading level: `H3`
 - Source heading: `2050s-2060s (2050-2068): 출처 사슬과 판단 관문의 고착`
 

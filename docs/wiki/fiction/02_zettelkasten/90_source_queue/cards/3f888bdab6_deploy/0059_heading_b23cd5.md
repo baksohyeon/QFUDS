@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Codex 배포 가이드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
-- Source line: `59`
+- Source line: [line 59](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Heading level: `H3`
 - Source heading: `nginx location (homelab-portal 규칙 그대로)`
 

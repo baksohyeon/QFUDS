@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Folder Classification Audit](../../../../../../../docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md)
-- Source line: `87`
+- Source line: [line 87](../../../../../../../docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md)
 - Heading level: `H2`
 - Source heading: `이번 루프에서 처리한 것`
 

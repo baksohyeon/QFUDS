@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 최종 통합 Chronicler Report (전 범위 감사·의존성 그래프·P0/P1/P2 로드맵)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/415_qfuds_verse_final_chronicler_report_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/415_qfuds_verse_final_chronicler_report_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/415_qfuds_verse_final_chronicler_report_ko.md)
-- Source line: `187`
+- Source line: [line 187](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/415_qfuds_verse_final_chronicler_report_ko.md)
 - Heading level: `H3`
 - Source heading: `9.1 활성 산문은 대체로 SSOT 정합 (긍정 증거)`
 

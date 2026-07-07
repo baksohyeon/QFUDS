@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 암호학적 죽음과 해시 계약](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/105_cryptographic_death_and_hash_covenant_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/105_cryptographic_death_and_hash_covenant_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/105_cryptographic_death_and_hash_covenant_ko.md)
-- Source line: `215`
+- Source line: [line 215](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/105_cryptographic_death_and_hash_covenant_ko.md)
 - Heading level: `H3`
 - Source heading: `The Broken Crown`
 

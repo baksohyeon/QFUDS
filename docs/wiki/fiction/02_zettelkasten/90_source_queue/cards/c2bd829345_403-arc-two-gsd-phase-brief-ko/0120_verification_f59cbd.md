@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 2부 GSD Phase Brief](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
-- Source line: `120`
+- Source line: [line 120](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
 - Heading level: `H2`
 - Source heading: `Verification`
 

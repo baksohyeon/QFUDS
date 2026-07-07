@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Mara Veyr 프롤로그 English Revision](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md)
-- Source line: `41`
+- Source line: [line 41](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md)
 - Heading level: `H2`
 - Source heading: `Style Boundary`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Wiki Fiction](../../../../../../../docs/wiki/fiction/README.md)
 - Source path: [docs/wiki/fiction/README.md](../../../../../../../docs/wiki/fiction/README.md)
-- Source line: `23`
+- Source line: [line 23](../../../../../../../docs/wiki/fiction/README.md)
 - Heading level: `H2`
 - Source heading: `Start Here`
 

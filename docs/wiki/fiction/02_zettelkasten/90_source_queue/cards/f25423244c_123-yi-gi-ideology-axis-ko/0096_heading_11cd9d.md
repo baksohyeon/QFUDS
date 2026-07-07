@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 이기(理氣) 이념 축 (원본 실재 vs 기질뿐)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/123_yi_gi_ideology_axis_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/123_yi_gi_ideology_axis_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/123_yi_gi_ideology_axis_ko.md)
-- Source line: `96`
+- Source line: [line 96](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/123_yi_gi_ideology_axis_ko.md)
 - Heading level: `H2`
 - Source heading: `경계 (Influence Boundary)`
 

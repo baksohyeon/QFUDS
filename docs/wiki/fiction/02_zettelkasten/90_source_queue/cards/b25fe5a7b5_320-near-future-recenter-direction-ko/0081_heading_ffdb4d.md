@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [사가 방향 전환 — 근미래 grounded SF로 무게중심 이동](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/320_near_future_recenter_direction_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/320_near_future_recenter_direction_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/320_near_future_recenter_direction_ko.md)
-- Source line: `81`
+- Source line: [line 81](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/320_near_future_recenter_direction_ko.md)
 - Heading level: `H2`
 - Source heading: `핵심 픽스`
 

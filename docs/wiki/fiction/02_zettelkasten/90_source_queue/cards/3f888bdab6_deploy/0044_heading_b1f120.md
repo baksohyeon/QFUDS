@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Codex 배포 가이드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
-- Source line: `44`
+- Source line: [line 44](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Heading level: `H1`
 - Source heading: `2) (선택) 질의 켜기 — Gemini 키. 없으면 질의만 비활성, 나머지 전부 동작`
 

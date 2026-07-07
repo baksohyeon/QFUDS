@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [캐논 권위는 도메인별로 갈린다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/910_zettel_domain_authority_map_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/910_zettel_domain_authority_map_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/910_zettel_domain_authority_map_ko.md)
-- Source line: `44`
+- Source line: [line 44](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/910_zettel_domain_authority_map_ko.md)
 - Heading level: `H2`
 - Source heading: `Open Questions`
 

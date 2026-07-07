@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 세계관 컴펜디움](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/111_world_compendium_codex_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/111_world_compendium_codex_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/111_world_compendium_codex_ko.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/111_world_compendium_codex_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 세계관 컴펜디움`
 

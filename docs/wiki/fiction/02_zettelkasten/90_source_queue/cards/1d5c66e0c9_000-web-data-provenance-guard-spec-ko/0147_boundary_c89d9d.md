@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [웹 데이터 provenance 가드 — 설계 스펙 (2026-07-06)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/000_web_data_provenance_guard_spec_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/web/000_web_data_provenance_guard_spec_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/000_web_data_provenance_guard_spec_ko.md)
-- Source line: `147`
+- Source line: [line 147](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/000_web_data_provenance_guard_spec_ko.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

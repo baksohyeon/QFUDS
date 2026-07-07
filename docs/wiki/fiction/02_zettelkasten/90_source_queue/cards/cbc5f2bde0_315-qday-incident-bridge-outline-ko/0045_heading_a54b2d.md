@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Q-Day 사건 사슬 bridge 아웃라인 (B1↔B2)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/315_qday_incident_bridge_outline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/315_qday_incident_bridge_outline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/315_qday_incident_bridge_outline_ko.md)
-- Source line: `45`
+- Source line: [line 45](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/315_qday_incident_bridge_outline_ko.md)
 - Heading level: `H2`
 - Source heading: `3. 사건 발생 순서`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [기계의 회고 - 실제 AI 발전사를 사가 서두 관통선으로](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md)
-- Source line: `320`
+- Source line: [line 320](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md)
 - Heading level: `H2`
 - Source heading: `7. 현실 닻 출처 (2026-07-01 웹확인, state=hit_not_cached, 핍진성용 / 작중 사실·예측 아님)`
 

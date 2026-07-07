@@ -3,7 +3,7 @@
 
 The generated queue is intentionally conservative:
 - original fiction documents remain the source layer;
-- each H1-H3 heading becomes a queue card;
+- each H1-H6 heading becomes a queue card;
 - queue cards do not canonize, summarize, or rewrite the source;
 - authors process cards one by one into permanent notes later.
 """
@@ -26,7 +26,7 @@ CARD_ROOT = ZK_ROOT / "90_source_queue/cards"
 SOURCE_MAP_ROOT = ZK_ROOT / "90_source_queue/sources"
 INDEX_PATH = ZK_ROOT / "000_zettelkasten_system_index_ko.md"
 QUEUE_PATH = ZK_ROOT / "90_source_queue/000_queue_index_ko.md"
-MAX_HEADING_LEVEL = 3
+MAX_HEADING_LEVEL = 6
 TODAY = datetime.now(ZoneInfo("Asia/Seoul")).date().isoformat()
 
 
@@ -57,6 +57,16 @@ def stable_title(value: str, suffix: str) -> str:
     if value.endswith('"'):
         return f"{value} ({suffix})"
     return value
+
+
+def markdown_link_label(value: str) -> str:
+    value = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", value)
+    return value.replace("|", "\\|").replace("[", "(").replace("]", ")")
+
+
+def title_text(value: str) -> str:
+    value = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", value)
+    return value.replace("|", "/")
 
 
 def slug_ascii(value: str, fallback: str = "item") -> str:
@@ -165,7 +175,7 @@ def write_card(heading: Heading) -> None:
     if heading.parent_h2 and heading.parent_h2 != heading.title:
         parent_bits.append(f"- H2: {heading.parent_h2}")
     parent_text = "\n".join(parent_bits) if parent_bits else "- none"
-    title = stable_title(f"ZK Queue - {heading.title}", "queue")
+    title = stable_title(f"ZK Queue - {title_text(heading.title)}", "queue")
     body = f"""---
 doc_id: {heading.card_id}
 title: {yaml_quote(title)}
@@ -192,7 +202,7 @@ processing_state: queued
 
 - Source document: [{heading.source_title}]({rel_source_text})
 - Source path: [{heading.source.relative_to(ROOT).as_posix()}]({rel_source_text})
-- Source line: `{heading.line}`
+- Source line: [line {heading.line}]({rel_source_text})
 - Heading level: `H{heading.level}`
 - Source heading: `{heading.title}`
 
@@ -222,7 +232,7 @@ def write_source_map(source: Path, headings: list[Heading]) -> Path:
     source_doc_id = meta.get("doc_id") or f"source_{source_hash(source)}"
     source_title = meta.get("title") or source.stem
     map_id = f"zkqv_source_{source_hash(source)}"
-    title = stable_title(f"ZK Source Map - {source_title}", "source map")
+    title = stable_title(f"ZK Source Map - {title_text(source_title)}", "source map")
     source_slug = f"{source_hash(source)}_{slug_ascii(source.stem)}"
     map_path = SOURCE_MAP_ROOT / f"{source_slug}.md"
     rel_source = Path(
@@ -232,7 +242,9 @@ def write_source_map(source: Path, headings: list[Heading]) -> Path:
     rows = []
     for h in headings:
         rel_card = Path("../cards") / h.card_path.parent.name / h.card_path.name
-        rows.append(f"| H{h.level} | `{h.line}` | [{h.title}]({rel_card.as_posix()}) | queued |")
+        rows.append(
+            f"| H{h.level} | `{h.line}` | [{markdown_link_label(h.title)}]({rel_card.as_posix()}) | queued |"
+        )
     rows_text = "\n".join(rows) if rows else "| - | - | - | - |"
     body = f"""---
 doc_id: {map_id}
@@ -305,7 +317,7 @@ canon action: migration operating layer
 ## 목적
 
 이 선반은 `docs/wiki/fiction/` 전체를 제텔카스텐 방식으로 처리하기 위한 운영 층이다.
-원문 문서는 삭제하지 않고 source layer로 보존한다. 모든 H1-H3 heading은 queue card로
+원문 문서는 삭제하지 않고 source layer로 보존한다. 모든 H1-H6 heading은 queue card로
 분해되며, 작가나 에이전트가 하나씩 permanent zettel로 처리한다.
 
 ## 현재 생성 상태
@@ -313,7 +325,7 @@ canon action: migration operating layer
 | 항목 | 수 |
 | --- | ---: |
 | source markdown files | {len(by_source)} |
-| H1-H3 queue cards | {len(headings)} |
+| H1-H6 queue cards | {len(headings)} |
 | source maps | {len(source_maps)} |
 
 ## 선반

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [열역학은 복원의 적이 아니라 비용 구조다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/901_zettel_thermodynamic_cost_of_restoration_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/901_zettel_thermodynamic_cost_of_restoration_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/901_zettel_thermodynamic_cost_of_restoration_ko.md)
-- Source line: `48`
+- Source line: [line 48](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/901_zettel_thermodynamic_cost_of_restoration_ko.md)
 - Heading level: `H2`
 - Source heading: `Use Guard`
 

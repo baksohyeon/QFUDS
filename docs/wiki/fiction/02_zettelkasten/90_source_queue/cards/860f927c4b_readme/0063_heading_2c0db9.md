@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 20_drafts 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
-- Source line: `63`
+- Source line: [line 63](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
 - Heading level: `H2`
 - Source heading: `폐기된 1세대는 어디에`
 

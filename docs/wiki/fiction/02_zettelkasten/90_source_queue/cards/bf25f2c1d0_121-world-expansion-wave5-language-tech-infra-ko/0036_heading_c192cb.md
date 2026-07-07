@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 5 (언어 심화·기술 인프라 세부)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/121_world_expansion_wave5_language_tech_infra_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/121_world_expansion_wave5_language_tech_infra_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/121_world_expansion_wave5_language_tech_infra_ko.md)
-- Source line: `36`
+- Source line: [line 36](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/121_world_expansion_wave5_language_tech_infra_ko.md)
 - Heading level: `H2`
 - Source heading: `생성 규율 (웨이브 1-4 상속 + 언어/기술 특별 가드)`
 

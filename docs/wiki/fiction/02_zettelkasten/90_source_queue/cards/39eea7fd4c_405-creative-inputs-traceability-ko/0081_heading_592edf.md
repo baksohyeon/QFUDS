@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 작가 아이디어 추적 원장](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/405_creative_inputs_traceability_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/405_creative_inputs_traceability_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/405_creative_inputs_traceability_ko.md)
-- Source line: `81`
+- Source line: [line 81](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/405_creative_inputs_traceability_ko.md)
 - Heading level: `H2`
 - Source heading: `한 줄 요약`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 2부 마라 풀길이 소설 (한국어 primary)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/034_mara_full_novel_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/034_mara_full_novel_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/034_mara_full_novel_korean_primary.md)
-- Source line: `57`
+- Source line: [line 57](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/034_mara_full_novel_korean_primary.md)
 - Heading level: `H2`
 - Source heading: `Chapter Map (029 프롤로그~Ch6 → 풀길이 챕터)`
 

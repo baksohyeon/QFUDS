@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 장기 복원 문명사 타임라인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md)
-- Source line: `240`
+- Source line: [line 240](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md)
 - Heading level: `H3`
 - Source heading: `4기: 연속성 법원`
 

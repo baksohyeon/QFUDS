@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Last Archive 반전 설계와 떡밥 배치](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/303_last_archive_reveal_architecture_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/303_last_archive_reveal_architecture_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/303_last_archive_reveal_architecture_ko.md)
-- Source line: `83`
+- Source line: [line 83](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/303_last_archive_reveal_architecture_ko.md)
 - Heading level: `H2`
 - Source heading: `반전을 터뜨리는 법`
 

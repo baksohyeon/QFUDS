@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 밀도 마스터 인덱스 (117~003 + 도메인 커버리지)](../../../../../../../docs/wiki/fiction/01_catalog/001_qfuds_verse_world_density_index_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/001_qfuds_verse_world_density_index_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/001_qfuds_verse_world_density_index_ko.md)
-- Source line: `70`
+- Source line: [line 70](../../../../../../../docs/wiki/fiction/01_catalog/001_qfuds_verse_world_density_index_ko.md)
 - Heading level: `H2`
 - Source heading: `C. 구체 밀도 인벤토리`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Series](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/README.md)
-- Source line: `24`
+- Source line: [line 24](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/README.md)
 - Heading level: `H2`
 - Source heading: `Migration Record`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Series Bible Drift Alignment Audit](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/008_series_bible_drift_alignment_audit_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/008_series_bible_drift_alignment_audit_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/008_series_bible_drift_alignment_audit_ko.md)
-- Source line: `17`
+- Source line: [line 17](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/008_series_bible_drift_alignment_audit_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA Series Bible Drift Alignment Audit`
 

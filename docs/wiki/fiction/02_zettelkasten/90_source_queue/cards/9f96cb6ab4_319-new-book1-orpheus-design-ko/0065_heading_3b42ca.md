@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [새 1부 「오르페우스」 설계 — 사별·복원 사본·돌아봄](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/319_new_book1_orpheus_design_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/319_new_book1_orpheus_design_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/319_new_book1_orpheus_design_ko.md)
-- Source line: `65`
+- Source line: [line 65](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/319_new_book1_orpheus_design_ko.md)
 - Heading level: `H2`
 - Source heading: `8챕터 맵 (120과 평행 구조, 인간 우선)`
 

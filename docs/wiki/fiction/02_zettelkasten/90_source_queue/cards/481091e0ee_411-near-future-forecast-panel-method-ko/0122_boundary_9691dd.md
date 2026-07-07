@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 근미래 예측 패널 방법 (휴머노이드 로봇 → 노동 재편 → Q-Day)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/411_near_future_forecast_panel_method_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/411_near_future_forecast_panel_method_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/411_near_future_forecast_panel_method_ko.md)
-- Source line: `122`
+- Source line: [line 122](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/411_near_future_forecast_panel_method_ko.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

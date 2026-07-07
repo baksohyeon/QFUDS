@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Release Shelf](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
-- Source line: `14`
+- Source line: [line 14](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA Release Shelf`
 

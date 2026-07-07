@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 다부작 아크 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/306_saga_arc_map_multiarc_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/306_saga_arc_map_multiarc_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/306_saga_arc_map_multiarc_ko.md)
-- Source line: `113`
+- Source line: [line 113](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/306_saga_arc_map_multiarc_ko.md)
 - Heading level: `H2`
 - Source heading: `3. 부별 5대 질문 심기/터뜨리기/회수 (109 매핑)`
 

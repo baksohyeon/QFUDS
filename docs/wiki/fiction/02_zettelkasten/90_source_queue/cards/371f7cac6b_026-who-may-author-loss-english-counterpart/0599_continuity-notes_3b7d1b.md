@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Who May Author Loss English Counterpart](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
-- Source line: `599`
+- Source line: [line 599](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
 - Heading level: `H2`
 - Source heading: `Continuity Notes`
 

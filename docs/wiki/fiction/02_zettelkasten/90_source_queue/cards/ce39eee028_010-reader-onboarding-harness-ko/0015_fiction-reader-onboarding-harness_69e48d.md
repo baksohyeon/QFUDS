@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Reader Onboarding Harness](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
 - Heading level: `H1`
 - Source heading: `Fiction Reader Onboarding Harness`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Who May Author Loss Korean Primary](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/025_who_may_author_loss_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/025_who_may_author_loss_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/025_who_may_author_loss_korean_primary.md)
-- Source line: `56`
+- Source line: [line 56](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/025_who_may_author_loss_korean_primary.md)
 - Heading level: `H2`
 - Source heading: `Who May Author Loss`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 De-jargon·Polish 퇴고 계획](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/001_first_arc_dejargon_polish_revision_plan_ko.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

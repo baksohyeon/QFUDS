@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction GSD 하네스 운영 가이드](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
-- Source line: `280`
+- Source line: [line 280](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Heading level: `H2`
 - Source heading: `현재 판정`
 

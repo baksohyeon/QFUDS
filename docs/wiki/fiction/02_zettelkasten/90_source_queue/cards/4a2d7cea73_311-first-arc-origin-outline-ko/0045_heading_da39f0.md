@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 origin 아웃라인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md)
-- Source line: `45`
+- Source line: [line 45](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md)
 - Heading level: `H2`
 - Source heading: `2. 1부 핵심 선택`
 

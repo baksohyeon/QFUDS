@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 「오르페우스」 원고 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1부/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1부/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1부/README.md)
-- Source line: `45`
+- Source line: [line 45](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1부/README.md)
 - Heading level: `H2`
 - Source heading: `다른 부`
 

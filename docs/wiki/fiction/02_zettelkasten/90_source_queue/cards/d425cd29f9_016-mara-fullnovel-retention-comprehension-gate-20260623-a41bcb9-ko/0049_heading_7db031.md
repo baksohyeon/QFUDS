@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [034 2부 마라 풀길이 소설 Retention + Comprehension Gate 2026-06-23 a41bcb9](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md)
-- Source line: `49`
+- Source line: [line 49](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/016_mara_fullnovel_retention_comprehension_gate_20260623_a41bcb9_ko.md)
 - Heading level: `H2`
 - Source heading: `Comprehension (C1~C5, 본문만으로)`
 

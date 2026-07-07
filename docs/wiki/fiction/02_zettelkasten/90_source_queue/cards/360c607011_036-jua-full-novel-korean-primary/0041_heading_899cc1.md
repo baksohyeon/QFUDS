@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 캐스 풀길이 소설 (한국어 primary)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/0부/036_jua_full_novel_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/0부/036_jua_full_novel_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/0부/036_jua_full_novel_korean_primary.md)
-- Source line: `41`
+- Source line: [line 41](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/0부/036_jua_full_novel_korean_primary.md)
 - Heading level: `H2`
 - Source heading: `5비트 (한 사람, 한 줄기, 근미래)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 먼 미래 심층시간 연대기 (수천 년-수억 년, 스파이스=검증 가능한 기록)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
-- Source line: `374`
+- Source line: [line 374](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
 - Heading level: `H3`
 - Source heading: `4.8 잔상 유목민`
 

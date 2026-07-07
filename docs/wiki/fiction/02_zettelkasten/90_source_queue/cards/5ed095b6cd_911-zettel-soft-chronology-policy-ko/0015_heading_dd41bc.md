@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [하드 연도보다 소프트 시대 좌표가 우선한다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/911_zettel_soft_chronology_policy_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/911_zettel_soft_chronology_policy_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/911_zettel_soft_chronology_policy_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/911_zettel_soft_chronology_policy_ko.md)
 - Heading level: `H1`
 - Source heading: `하드 연도보다 소프트 시대 좌표가 우선한다`
 

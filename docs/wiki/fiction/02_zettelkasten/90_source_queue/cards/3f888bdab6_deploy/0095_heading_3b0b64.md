@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Codex 배포 가이드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
-- Source line: `95`
+- Source line: [line 95](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Heading level: `H1`
 - Source heading: `순수 정적(질의 없이)만 원하면 web/ 를 아무 정적 서버로 서빙해도 됩니다`
 

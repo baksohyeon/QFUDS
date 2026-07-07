@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA The Last Hodler English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md)
-- Source line: `770`
+- Source line: [line 770](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/007_the_last_hodler_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Self-Check`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [분기 지도](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md)
-- Source line: `14`
+- Source line: [line 14](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md)
 - Heading level: `H1`
 - Source heading: `분기 지도`
 

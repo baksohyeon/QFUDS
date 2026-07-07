@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
-- Source line: `137`
+- Source line: [line 137](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Heading level: `H3`
 - Source heading: `A5. 양자 위협·PQC + 딥페이크·검증경제 (Q-Day 근거) (state=hit_not_cached)`
 

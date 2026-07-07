@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Wiki Fiction Archive](../../../../../../../docs/wiki/fiction/90_archive/README.md)
 - Source path: [docs/wiki/fiction/90_archive/README.md](../../../../../../../docs/wiki/fiction/90_archive/README.md)
-- Source line: `37`
+- Source line: [line 37](../../../../../../../docs/wiki/fiction/90_archive/README.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [심층시간은 확장 레이어이며 상위 가드를 넘지 않는다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/912_zettel_deep_time_extension_guard_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/912_zettel_deep_time_extension_guard_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/912_zettel_deep_time_extension_guard_ko.md)
-- Source line: `44`
+- Source line: [line 44](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/912_zettel_deep_time_extension_guard_ko.md)
 - Heading level: `H2`
 - Source heading: `Open Questions`
 

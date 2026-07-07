@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 시각 전시물 설계](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/301_visual_exhibit_design_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/301_visual_exhibit_design_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/301_visual_exhibit_design_ko.md)
-- Source line: `90`
+- Source line: [line 90](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/301_visual_exhibit_design_ko.md)
 - Heading level: `H2`
 - Source heading: `Caption Style`
 

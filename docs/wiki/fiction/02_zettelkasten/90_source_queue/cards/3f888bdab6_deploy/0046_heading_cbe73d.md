@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Codex 배포 가이드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
-- Source line: `46`
+- Source line: [line 46](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Heading level: `H1`
 - Source heading: `모델 바꾸려면: ... config:set qfuds-fiction GEMINI_MODEL=gemini-3.5-flash`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Catalog](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
 - Source path: [docs/wiki/fiction/01_catalog/README.md](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
 - Heading level: `H1`
 - Source heading: `Fiction Catalog`
 

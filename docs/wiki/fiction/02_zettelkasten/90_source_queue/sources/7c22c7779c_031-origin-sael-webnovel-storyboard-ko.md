@@ -23,7 +23,7 @@ canon action: source map only
 
 - Source document: [QFUDS SAGA origin(1부) 사엘 · 웹소설 콘티 텔링(이해 우선)](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/031_origin_sael_webnovel_storyboard_ko.md)
-- Queue cards: `35`
+- Queue cards: `36`
 
 ## Heading Queue
 
@@ -34,6 +34,7 @@ canon action: source map only
 | H2 | `44` | [Harness Applied](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0044_harness-applied_4edede.md) | queued |
 | H2 | `56` | [텔링 모드 규약 (이 파일 전용)](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0056_heading_ba1867.md) | queued |
 | H3 | `58` | [기술용어 처리 (SF, 하네싱 정합)](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0058_heading_ef3d2c.md) | queued |
+| H4 | `75` | [회차1 용어 온보딩 표](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0075_heading_ab569c.md) | queued |
 | H3 | `84` | [형식·페이싱](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0084_heading_74b6bf.md) | queued |
 | H2 | `91` | [이해 사다리 / 회차 인덱스](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0091_heading_7acc77.md) | queued |
 | H2 | `105` | [회차 1 : 한 방향 문](../cards/7c22c7779c_031-origin-sael-webnovel-storyboard-ko/0105_heading_fb718b.md) | queued |

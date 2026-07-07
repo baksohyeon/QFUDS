@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [관찰자 창구 원본 아카이브 (raw provenance)](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md)
-- Source line: `245`
+- Source line: [line 245](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md)
 - Heading level: `H3`
 - Source heading: `현실 바탕과 설정 핵심`
 

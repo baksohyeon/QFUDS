@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
-- Source line: `114`
+- Source line: [line 114](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Heading level: `H3`
 - Source heading: `A4. 에너지·데이터센터 + 인구·이주 + UBI (state=hit_not_cached)`
 

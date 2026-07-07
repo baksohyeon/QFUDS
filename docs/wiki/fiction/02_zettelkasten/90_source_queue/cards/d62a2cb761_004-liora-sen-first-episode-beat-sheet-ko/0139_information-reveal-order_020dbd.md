@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
-- Source line: `139`
+- Source line: [line 139](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
 - Heading level: `H2`
 - Source heading: `Information Reveal Order`
 

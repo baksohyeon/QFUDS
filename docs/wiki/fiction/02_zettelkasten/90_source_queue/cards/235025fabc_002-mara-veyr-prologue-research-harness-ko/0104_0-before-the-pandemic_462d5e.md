@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
-- Source line: `104`
+- Source line: [line 104](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
 - Heading level: `H3`
 - Source heading: `0. Before The Pandemic`
 

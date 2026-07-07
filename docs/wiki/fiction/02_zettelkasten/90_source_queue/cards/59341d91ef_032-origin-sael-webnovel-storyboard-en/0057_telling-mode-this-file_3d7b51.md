@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA origin (Book 1) Sael · Web-Serial Storyboard (English adaptation)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
-- Source line: `57`
+- Source line: [line 57](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
 - Heading level: `H2`
 - Source heading: `Telling Mode (this file)`
 

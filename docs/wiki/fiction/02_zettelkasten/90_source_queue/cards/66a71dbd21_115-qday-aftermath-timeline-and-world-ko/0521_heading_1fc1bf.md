@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Q-Day 여파 타임라인과 세계 설정](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
-- Source line: `521`
+- Source line: [line 521](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
 - Heading level: `H2`
 - Source heading: `8. 현실 닻 출처 (2026-06, 핍진성 보정용 / 작중 사실·예측 아님)`
 

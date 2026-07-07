@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 여는 사건 The Broken Crown](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)
-- Source line: `47`
+- Source line: [line 47](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md)
 - Heading level: `H2`
 - Source heading: `프롤로그: The Broken Crown`
 

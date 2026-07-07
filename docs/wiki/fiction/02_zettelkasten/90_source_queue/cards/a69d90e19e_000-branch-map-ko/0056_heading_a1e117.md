@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [분기 지도](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md)
-- Source line: `56`
+- Source line: [line 56](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/000_branch_map_ko.md)
 - Heading level: `H2`
 - Source heading: `시즌 1 메인 분기`
 

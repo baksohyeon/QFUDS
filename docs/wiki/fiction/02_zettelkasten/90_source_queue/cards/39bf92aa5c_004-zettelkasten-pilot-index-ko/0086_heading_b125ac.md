@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 제텔카스텐 파일럿 인덱스](../../../../../../../docs/wiki/fiction/01_catalog/004_zettelkasten_pilot_index_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/004_zettelkasten_pilot_index_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/004_zettelkasten_pilot_index_ko.md)
-- Source line: `86`
+- Source line: [line 86](../../../../../../../docs/wiki/fiction/01_catalog/004_zettelkasten_pilot_index_ko.md)
 - Heading level: `H2`
 - Source heading: `다음 루프 후보`
 

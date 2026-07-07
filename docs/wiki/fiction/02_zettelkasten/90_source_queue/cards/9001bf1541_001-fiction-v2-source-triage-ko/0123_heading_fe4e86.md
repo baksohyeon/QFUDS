@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse fiction_v2 소스 분류 원장](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md)
-- Source line: `123`
+- Source line: [line 123](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md)
 - Heading level: `H2`
 - Source heading: `운영 규칙`
 

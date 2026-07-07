@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 세계관 방향 선택 매트릭스](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/001_world_direction_matrix_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/001_world_direction_matrix_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/001_world_direction_matrix_ko.md)
-- Source line: `86`
+- Source line: [line 86](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/001_world_direction_matrix_ko.md)
 - Heading level: `H2`
 - Source heading: `Core Premise Options`
 

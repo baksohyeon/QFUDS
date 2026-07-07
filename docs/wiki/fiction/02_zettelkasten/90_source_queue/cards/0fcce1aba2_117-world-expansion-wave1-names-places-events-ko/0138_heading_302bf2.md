@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 1 (고유명사·지명·세력·인물·사건·어휘)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)
-- Source line: `138`
+- Source line: [line 138](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)
 - Heading level: `H3`
 - Source heading: `2.6 잔상 유목민 부족·대상단`
 

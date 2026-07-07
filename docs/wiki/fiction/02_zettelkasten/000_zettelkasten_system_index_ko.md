@@ -22,7 +22,7 @@ canon action: migration operating layer
 ## 목적
 
 이 선반은 `docs/wiki/fiction/` 전체를 제텔카스텐 방식으로 처리하기 위한 운영 층이다.
-원문 문서는 삭제하지 않고 source layer로 보존한다. 모든 H1-H3 heading은 queue card로
+원문 문서는 삭제하지 않고 source layer로 보존한다. 모든 H1-H6 heading은 queue card로
 분해되며, 작가나 에이전트가 하나씩 permanent zettel로 처리한다.
 
 ## 현재 생성 상태
@@ -30,7 +30,7 @@ canon action: migration operating layer
 | 항목 | 수 |
 | --- | ---: |
 | source markdown files | 228 |
-| H1-H3 queue cards | 2564 |
+| H1-H6 queue cards | 2666 |
 | source maps | 228 |
 
 ## 선반

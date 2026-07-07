@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 캐릭터 지도와 타임라인 좌표](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/209_character_map_and_timeline_coordinates_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/209_character_map_and_timeline_coordinates_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/209_character_map_and_timeline_coordinates_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/209_character_map_and_timeline_coordinates_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 캐릭터 지도와 타임라인 좌표`
 

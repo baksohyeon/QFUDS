@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 2부 Mara 원고 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/README.md)
-- Source line: `50`
+- Source line: [line 50](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/README.md)
 - Heading level: `H2`
 - Source heading: `상속 규칙 / 로컬 오버라이드`
 

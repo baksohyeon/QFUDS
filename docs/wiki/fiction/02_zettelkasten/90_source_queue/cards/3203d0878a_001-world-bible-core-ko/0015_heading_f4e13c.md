@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [벡터 인간 시뮬레이션 샌드박스 세계 규칙](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/10_world/001_world_bible_core_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/10_world/001_world_bible_core_ko.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/10_world/001_world_bible_core_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/10_world/001_world_bible_core_ko.md)
 - Heading level: `H1`
 - Source heading: `벡터 인간 시뮬레이션 샌드박스 세계 규칙`
 

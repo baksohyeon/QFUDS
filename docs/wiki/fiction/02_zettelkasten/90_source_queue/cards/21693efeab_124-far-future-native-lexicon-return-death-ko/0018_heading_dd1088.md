@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 먼 미래 원어 층 (부활·복원·되돌림의 in-world 명칭)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/124_far_future_native_lexicon_return_death_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/124_far_future_native_lexicon_return_death_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/124_far_future_native_lexicon_return_death_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/124_far_future_native_lexicon_return_death_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS Verse 먼 미래 원어 층 (부활·복원·되돌림의 in-world 명칭)`
 

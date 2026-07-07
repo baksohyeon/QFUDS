@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
-- Source line: `107`
+- Source line: [line 107](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Heading level: `H3`
 - Source heading: ``20_drafts` — 실제 원고 (부/arc별). 지금 읽고 고치는 소설`
 

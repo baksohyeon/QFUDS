@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 기준 작성권 사상축](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
-- Source line: `51`
+- Source line: [line 51](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
 - Heading level: `H2`
 - Source heading: `3. 누가 죽음에서 빠져나가는가 (Exit / Voice)`
 

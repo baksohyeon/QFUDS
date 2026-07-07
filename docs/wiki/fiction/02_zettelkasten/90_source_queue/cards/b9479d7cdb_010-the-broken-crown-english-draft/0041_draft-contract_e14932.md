@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA The Broken Crown English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
-- Source line: `41`
+- Source line: [line 41](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Draft Contract`
 

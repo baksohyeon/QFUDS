@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 앙상블 캐릭터 보이스·관계 바이블](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/205_character_ensemble_voices_relationships_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/205_character_ensemble_voices_relationships_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/205_character_ensemble_voices_relationships_ko.md)
-- Source line: `100`
+- Source line: [line 100](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/205_character_ensemble_voices_relationships_ko.md)
 - Heading level: `H2`
 - Source heading: `Canon 정합 메모`
 

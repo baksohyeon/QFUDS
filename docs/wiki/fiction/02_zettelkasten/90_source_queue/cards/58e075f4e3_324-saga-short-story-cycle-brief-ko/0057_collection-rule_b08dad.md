@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 단편 연작 브리프](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/324_saga_short_story_cycle_brief_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/324_saga_short_story_cycle_brief_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/324_saga_short_story_cycle_brief_ko.md)
-- Source line: `57`
+- Source line: [line 57](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/324_saga_short_story_cycle_brief_ko.md)
 - Heading level: `H2`
 - Source heading: `Collection Rule`
 

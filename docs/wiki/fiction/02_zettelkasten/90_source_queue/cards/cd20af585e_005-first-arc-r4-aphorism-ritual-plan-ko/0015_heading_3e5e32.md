@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 R4 패스 계획](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/005_first_arc_r4_aphorism_ritual_plan_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/005_first_arc_r4_aphorism_ritual_plan_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/005_first_arc_r4_aphorism_ritual_plan_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/005_first_arc_r4_aphorism_ritual_plan_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 1부 R4 패스 계획`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 출범 패키지](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
-- Source line: `184`
+- Source line: [line 184](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
 - Heading level: `H2`
 - Source heading: `Non-Canon Until User Approval`
 

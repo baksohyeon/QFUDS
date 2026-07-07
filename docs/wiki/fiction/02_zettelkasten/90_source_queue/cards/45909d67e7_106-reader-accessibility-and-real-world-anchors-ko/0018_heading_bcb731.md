@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 비트코인 메인 메타포 토대와 독자 접근성](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md)
 - Heading level: `H2`
 - Source heading: `목적`
 

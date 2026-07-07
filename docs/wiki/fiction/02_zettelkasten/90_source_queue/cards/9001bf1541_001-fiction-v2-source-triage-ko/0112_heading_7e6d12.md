@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse fiction_v2 소스 분류 원장](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md)
-- Source line: `112`
+- Source line: [line 112](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/001_fiction_v2_source_triage_ko.md)
 - Heading level: `H2`
 - Source heading: `오라클 가이드 처리 원칙`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 5대 극적 질문 스파인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md)
-- Source line: `101`
+- Source line: [line 101](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md)
 - Heading level: `H2`
 - Source heading: `origin=1부 / Mara=2부 구조 배치`
 

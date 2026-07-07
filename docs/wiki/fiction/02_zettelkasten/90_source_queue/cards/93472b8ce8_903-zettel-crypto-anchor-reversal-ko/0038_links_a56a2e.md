@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [암호는 처음엔 구원이고 나중엔 재앙이다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/903_zettel_crypto_anchor_reversal_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/903_zettel_crypto_anchor_reversal_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/903_zettel_crypto_anchor_reversal_ko.md)
-- Source line: `38`
+- Source line: [line 38](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/903_zettel_crypto_anchor_reversal_ko.md)
 - Heading level: `H2`
 - Source heading: `Links`
 

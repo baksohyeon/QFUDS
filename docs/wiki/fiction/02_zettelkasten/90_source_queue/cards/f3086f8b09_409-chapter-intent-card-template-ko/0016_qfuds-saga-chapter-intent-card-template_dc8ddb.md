@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Chapter Intent Card Template](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/409_chapter_intent_card_template_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/409_chapter_intent_card_template_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/409_chapter_intent_card_template_ko.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/409_chapter_intent_card_template_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA Chapter Intent Card Template`
 

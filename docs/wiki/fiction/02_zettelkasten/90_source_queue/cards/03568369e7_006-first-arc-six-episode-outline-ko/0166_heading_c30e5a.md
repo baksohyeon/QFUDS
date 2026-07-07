@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 첫 Arc 6화 Outline](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
-- Source line: `166`
+- Source line: [line 166](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
 - Heading level: `H3`
 - Source heading: `기능`
 

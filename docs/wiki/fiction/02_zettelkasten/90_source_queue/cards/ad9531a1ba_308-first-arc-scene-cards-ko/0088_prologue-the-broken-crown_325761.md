@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 Book 1 씬 카드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
-- Source line: `88`
+- Source line: [line 88](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
 - Heading level: `H3`
 - Source heading: `Prologue: The Broken Crown`
 

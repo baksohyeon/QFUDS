@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Codex 배포 가이드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
-- Source line: `52`
+- Source line: [line 52](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/web/DEPLOY.md)
 - Heading level: `H1`
 - Source heading: `4) 컨테이너 포트(5000)를 호스트 포트로 매핑`
 

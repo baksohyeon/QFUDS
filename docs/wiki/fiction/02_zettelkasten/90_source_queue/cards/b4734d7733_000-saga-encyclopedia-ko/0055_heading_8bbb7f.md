@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
-- Source line: `55`
+- Source line: [line 55](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Heading level: `H2`
 - Source heading: `3. 작업 큐 — 각 문서의 다음 할 일 (next_gate)`
 

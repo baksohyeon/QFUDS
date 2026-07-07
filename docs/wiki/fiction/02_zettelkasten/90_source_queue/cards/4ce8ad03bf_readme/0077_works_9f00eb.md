@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [벡터 인간 시뮬레이션 샌드박스](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/README.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/README.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/README.md)
-- Source line: `77`
+- Source line: [line 77](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/README.md)
 - Heading level: `H2`
 - Source heading: `Works`
 

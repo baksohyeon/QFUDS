@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 시점 주제 고유명사 규칙](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/201_narrative_pov_theme_naming_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/201_narrative_pov_theme_naming_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/201_narrative_pov_theme_naming_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/201_narrative_pov_theme_naming_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 시점 주제 고유명사 규칙`
 

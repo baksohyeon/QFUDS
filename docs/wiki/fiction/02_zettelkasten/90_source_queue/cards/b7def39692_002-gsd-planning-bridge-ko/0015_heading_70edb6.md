@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction GSD 계획 브리지](../../../../../../../docs/wiki/fiction/00_studio/002_gsd_planning_bridge_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/002_gsd_planning_bridge_ko.md](../../../../../../../docs/wiki/fiction/00_studio/002_gsd_planning_bridge_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/00_studio/002_gsd_planning_bridge_ko.md)
 - Heading level: `H1`
 - Source heading: `Fiction GSD 계획 브리지`
 

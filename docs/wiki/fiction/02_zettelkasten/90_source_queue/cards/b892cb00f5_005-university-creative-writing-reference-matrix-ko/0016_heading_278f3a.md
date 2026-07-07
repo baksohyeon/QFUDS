@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [대학 문예창작 참고 매트릭스](../../../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md](../../../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
 - Heading level: `H1`
 - Source heading: `대학 문예창작 참고 매트릭스`
 

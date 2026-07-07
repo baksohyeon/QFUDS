@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 먼 미래 심층시간 연대기 (수천 년-수억 년, 스파이스=검증 가능한 기록)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
-- Source line: `66`
+- Source line: [line 66](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
 - Heading level: `H2`
 - Source heading: `1. 스파이스 명제: 왜 검증 가능한 기록이 스파이스인가`
 

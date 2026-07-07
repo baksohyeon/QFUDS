@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 첫 Arc Canon 정리](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/202_first_arc_canon_consolidation_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/202_first_arc_canon_consolidation_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/202_first_arc_canon_consolidation_ko.md)
-- Source line: `80`
+- Source line: [line 80](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/202_first_arc_canon_consolidation_ko.md)
 - Heading level: `H2`
 - Source heading: `Field Mark Chain`
 

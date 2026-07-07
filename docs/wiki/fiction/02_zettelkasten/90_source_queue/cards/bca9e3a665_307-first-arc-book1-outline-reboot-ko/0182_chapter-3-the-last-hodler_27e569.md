@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
-- Source line: `182`
+- Source line: [line 182](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
 - Heading level: `H3`
 - Source heading: `Chapter 3: The Last Hodler`
 

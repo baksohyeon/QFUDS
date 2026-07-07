@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 2부 Mara 판본 변천사·회고 로그](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md)
-- Source line: `45`
+- Source line: [line 45](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md)
 - Heading level: `H2`
 - Source heading: `표준 피드백 원칙 (누적, 모든 판본에 적용)`
 

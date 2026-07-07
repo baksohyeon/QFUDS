@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 사엘 원고 실행 시트](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/314_sael_origin_execution_sheet_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/314_sael_origin_execution_sheet_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/314_sael_origin_execution_sheet_ko.md)
-- Source line: `64`
+- Source line: [line 64](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/314_sael_origin_execution_sheet_ko.md)
 - Heading level: `H2`
 - Source heading: `Boundary / 승격 규칙`
 

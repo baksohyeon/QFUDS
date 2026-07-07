@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse World](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md)
-- Source line: `26`
+- Source line: [line 26](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md)
 - Heading level: `H2`
 - Source heading: `Technical Rule`
 

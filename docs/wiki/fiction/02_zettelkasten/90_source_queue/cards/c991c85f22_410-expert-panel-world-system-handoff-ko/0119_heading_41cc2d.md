@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 전문가 패널 세계-체계 확장 인계 브리프](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md)
-- Source line: `119`
+- Source line: [line 119](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md)
 - Heading level: `H2`
 - Source heading: `승인 게이트`
 

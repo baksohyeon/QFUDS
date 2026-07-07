@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Exhibit S-0 Episode 1 Revised English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/005_exhibit_s0_episode1_revised_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/005_exhibit_s0_episode1_revised_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/005_exhibit_s0_episode1_revised_english_draft.md)
-- Source line: `661`
+- Source line: [line 661](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/005_exhibit_s0_episode1_revised_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Self-Check`
 

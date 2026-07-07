@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 00_bible 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
-- Source line: `41`
+- Source line: [line 41](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Heading level: `H2`
 - Source heading: `이 선반(series bible)에 사는 것: 첫 Arc·AI사 관통선`
 

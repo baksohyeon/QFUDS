@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [기계의 회고 - 실제 AI 발전사를 사가 서두 관통선으로](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md)
-- Source line: `60`
+- Source line: [line 60](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/210_machine_childhood_ai_history_narrator_throughline_ko.md)
 - Heading level: `H2`
 - Source heading: `1. 편집자 선결 판정 (관통선의 못)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 R3 구조 패스 계획](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/004_first_arc_r3_structure_plan_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/004_first_arc_r3_structure_plan_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/004_first_arc_r3_structure_plan_ko.md)
-- Source line: `38`
+- Source line: [line 38](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/004_first_arc_r3_structure_plan_ko.md)
 - Heading level: `H2`
 - Source heading: `변주 레버 (편마다 다르게 고른다)`
 

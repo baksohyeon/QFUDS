@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction 창작 기법·정치이론 자료조사 (비약 없는 노출 + 세계규칙 실증 앵커)](../../../../../../../docs/wiki/fiction/00_studio/007_craft_and_political_theory_research_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/007_craft_and_political_theory_research_ko.md](../../../../../../../docs/wiki/fiction/00_studio/007_craft_and_political_theory_research_ko.md)
-- Source line: `25`
+- Source line: [line 25](../../../../../../../docs/wiki/fiction/00_studio/007_craft_and_political_theory_research_ko.md)
 - Heading level: `H2`
 - Source heading: `Workflow Boundary`
 

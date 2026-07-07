@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
-- Source line: `326`
+- Source line: [line 326](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Heading level: `H3`
 - Source heading: ``10_story_design` — 아이디어·아웃라인·arc 지도·씬카드 (확정 전 설계)`
 

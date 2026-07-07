@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [복원 가능한 것은 청구 가능하다는 폭력적 문법이다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/909_zettel_recoverable_claimable_grammar_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/909_zettel_recoverable_claimable_grammar_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/909_zettel_recoverable_claimable_grammar_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/909_zettel_recoverable_claimable_grammar_ko.md)
 - Heading level: `H1`
 - Source heading: `복원 가능한 것은 청구 가능하다는 폭력적 문법이다`
 

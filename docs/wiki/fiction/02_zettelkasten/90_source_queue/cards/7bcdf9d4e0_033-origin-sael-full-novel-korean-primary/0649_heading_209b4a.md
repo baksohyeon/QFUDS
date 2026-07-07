@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA origin(1.5부) 사엘 풀길이 소설 (한국어 primary)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md)
-- Source line: `649`
+- Source line: [line 649](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/033_origin_sael_full_novel_korean_primary.md)
 - Heading level: `H3`
 - Source heading: `A1. Q-Day: 공개키 암호는 어떻게 깨지나 (쇼어 알고리즘)`
 

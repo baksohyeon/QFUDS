@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Q-Day 타임라인 스파인 (두 위기 분리 · 인식 위기에서 먼 미래 Q-Day로)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/125_qday_two_crisis_timeline_spine_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/125_qday_two_crisis_timeline_spine_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/125_qday_two_crisis_timeline_spine_ko.md)
-- Source line: `19`
+- Source line: [line 19](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/125_qday_two_crisis_timeline_spine_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS Verse Q-Day 타임라인 스파인 (두 위기 분리 · 인식 위기에서 먼 미래 Q-Day로)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
-- Source line: `93`
+- Source line: [line 93](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Heading level: `H3`
 - Source heading: `A3. AI 역량 예측 + 컴퓨트·반도체 지정학 (state=hit_not_cached)`
 

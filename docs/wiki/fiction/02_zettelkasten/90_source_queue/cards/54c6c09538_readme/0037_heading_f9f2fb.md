@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 2부 Mara 판본 변천사·회고 로그](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md)
-- Source line: `37`
+- Source line: [line 37](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/README.md)
 - Heading level: `H2`
 - Source heading: `리텐션 테스트 기록`
 

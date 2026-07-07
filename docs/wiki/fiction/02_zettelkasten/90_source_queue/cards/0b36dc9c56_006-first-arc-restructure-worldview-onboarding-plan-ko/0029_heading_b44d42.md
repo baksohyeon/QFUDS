@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 구조 재구성 계획 (세계관 온보딩)](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/006_first_arc_restructure_worldview_onboarding_plan_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/006_first_arc_restructure_worldview_onboarding_plan_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/006_first_arc_restructure_worldview_onboarding_plan_ko.md)
-- Source line: `29`
+- Source line: [line 29](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/30_revisions/006_first_arc_restructure_worldview_onboarding_plan_ko.md)
 - Heading level: `H2`
 - Source heading: `보존 (5인 페르소나 전원 호평)`
 

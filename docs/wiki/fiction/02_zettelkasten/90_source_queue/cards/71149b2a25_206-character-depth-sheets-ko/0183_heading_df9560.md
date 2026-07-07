@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 입체 캐릭터 시트](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
-- Source line: `183`
+- Source line: [line 183](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
 - Heading level: `H3`
 - Source heading: `Arc (시간에 따른 변화)`
 

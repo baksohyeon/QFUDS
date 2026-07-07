@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부·2부 독자 피드백 + AI-tell 통합 정리 및 개선 계획](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
-- Source line: `85`
+- Source line: [line 85](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/009_first_arc_reader_feedback_and_ai_tell_consolidation_ko.md)
 - Heading level: `H3`
 - Source heading: `B-2. ai-tell-detector ×2 (프롤로그~Ch3 / Ch4~Ch6) 핵심`
 

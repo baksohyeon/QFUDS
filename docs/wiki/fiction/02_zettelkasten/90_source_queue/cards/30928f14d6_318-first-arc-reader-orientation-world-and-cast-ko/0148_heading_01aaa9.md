@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 세계관·인물 한눈에 (독자·작가 오리엔테이션)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md)
-- Source line: `148`
+- Source line: [line 148](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md)
 - Heading level: `H2`
 - Source heading: `부 지도 (한 줄씩)`
 

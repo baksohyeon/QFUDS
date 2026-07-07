@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 기준 작성권 사상축](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
-- Source line: `43`
+- Source line: [line 43](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
 - Heading level: `H2`
 - Source heading: `2. 권력은 사라지지 않고 이동·은닉한다`
 

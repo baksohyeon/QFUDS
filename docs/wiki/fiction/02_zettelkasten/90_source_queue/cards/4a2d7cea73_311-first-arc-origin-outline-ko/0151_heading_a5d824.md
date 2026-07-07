@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 origin 아웃라인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md)
-- Source line: `151`
+- Source line: [line 151](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/311_first_arc_origin_outline_ko.md)
 - Heading level: `H2`
 - Source heading: `7. 310 5대 질문 심기 매트릭스 (1부 내부)`
 

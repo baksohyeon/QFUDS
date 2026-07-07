@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Prose 핍진성·개연성 장면 감사 체크리스트](../../../../../../../docs/wiki/fiction/00_studio/006_prose_verisimilitude_audit_checklist_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/006_prose_verisimilitude_audit_checklist_ko.md](../../../../../../../docs/wiki/fiction/00_studio/006_prose_verisimilitude_audit_checklist_ko.md)
-- Source line: `40`
+- Source line: [line 40](../../../../../../../docs/wiki/fiction/00_studio/006_prose_verisimilitude_audit_checklist_ko.md)
 - Heading level: `H2`
 - Source heading: `2. 기술은 계급을 만드는가`
 

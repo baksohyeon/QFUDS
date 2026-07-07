@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 3 (지리 상세·궤도 역학·사건 연쇄 인과)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md)
-- Source line: `46`
+- Source line: [line 46](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md)
 - Heading level: `H2`
 - Source heading: `1. 지리 상세: 지형이 정치를 낳는다`
 

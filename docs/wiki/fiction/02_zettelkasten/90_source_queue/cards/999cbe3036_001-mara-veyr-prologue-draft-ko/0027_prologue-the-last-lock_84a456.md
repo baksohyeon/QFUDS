@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Mara Veyr 프롤로그 초안](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)
-- Source line: `27`
+- Source line: [line 27](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/001_mara_veyr_prologue_draft_ko.md)
 - Heading level: `H2`
 - Source heading: `Prologue: The Last Lock`
 

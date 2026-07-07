@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 5대 극적 질문 스파인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md)
-- Source line: `37`
+- Source line: [line 37](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/310_five_core_dramatic_questions_spine_ko.md)
 - Heading level: `H3`
 - Source heading: `Q1. Mara는 왜 "나는 돌아온 게 아니다"라고 말하는가`
 

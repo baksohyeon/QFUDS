@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [관찰자 창구 원본 아카이브 (raw provenance)](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md)
-- Source line: `220`
+- Source line: [line 220](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/000_raw_source_ko.md)
 - Heading level: `H3`
 - Source heading: `결말의 핵심`
 

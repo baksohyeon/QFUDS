@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부·2부 release-facing revision wave](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/010_first_second_arc_release_revision_wave_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/010_first_second_arc_release_revision_wave_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/010_first_second_arc_release_revision_wave_ko.md)
-- Source line: `68`
+- Source line: [line 68](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/010_first_second_arc_release_revision_wave_ko.md)
 - Heading level: `H2`
 - Source heading: `Chronicler Pass`
 

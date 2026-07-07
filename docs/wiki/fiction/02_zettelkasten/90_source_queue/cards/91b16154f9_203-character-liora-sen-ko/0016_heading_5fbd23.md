@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 주인공 시트 — Liora Sen](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/203_character_liora_sen_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/203_character_liora_sen_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/203_character_liora_sen_ko.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/203_character_liora_sen_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 주인공 시트 — Liora Sen`
 

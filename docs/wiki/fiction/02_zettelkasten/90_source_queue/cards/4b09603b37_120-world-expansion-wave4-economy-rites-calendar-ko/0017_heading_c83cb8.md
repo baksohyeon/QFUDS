@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 4 (경제·통화 세부·의례·달력)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/120_world_expansion_wave4_economy_rites_calendar_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/120_world_expansion_wave4_economy_rites_calendar_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/120_world_expansion_wave4_economy_rites_calendar_ko.md)
-- Source line: `17`
+- Source line: [line 17](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/120_world_expansion_wave4_economy_rites_calendar_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS Verse 세계 확장 웨이브 4 (경제·통화 세부·의례·달력)`
 

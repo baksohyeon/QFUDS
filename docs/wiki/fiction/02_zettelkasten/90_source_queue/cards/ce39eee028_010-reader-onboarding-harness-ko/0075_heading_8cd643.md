@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Reader Onboarding Harness](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
-- Source line: `75`
+- Source line: [line 75](../../../../../../../docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md)
 - Heading level: `H2`
 - Source heading: `톤 가드: 유치·작위·해설 금지`
 

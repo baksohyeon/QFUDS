@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 1 (고유명사·지명·세력·인물·사건·어휘)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)
-- Source line: `157`
+- Source line: [line 157](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)
 - Heading level: `H2`
 - Source heading: `3. 인물 (신규 후보, 빈 좌표에만 배치)`
 

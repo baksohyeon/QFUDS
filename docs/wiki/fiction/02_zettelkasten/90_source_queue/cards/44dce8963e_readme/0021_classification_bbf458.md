@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Feathersmcgraw Coda](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
-- Source line: `21`
+- Source line: [line 21](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
 - Heading level: `H2`
 - Source heading: `Classification`
 

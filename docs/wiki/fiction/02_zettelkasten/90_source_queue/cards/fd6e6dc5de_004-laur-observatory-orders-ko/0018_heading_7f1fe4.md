@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [제4화: 라우어 관측소의 네 학파](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/004_laur_observatory_orders_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/004_laur_observatory_orders_ko.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/004_laur_observatory_orders_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/004_laur_observatory_orders_ko.md)
 - Heading level: `H2`
 - Source heading: `먼저 읽을 것`
 

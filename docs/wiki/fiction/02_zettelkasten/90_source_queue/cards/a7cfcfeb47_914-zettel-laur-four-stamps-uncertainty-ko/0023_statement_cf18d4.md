@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [라우어의 네 도장은 불확실성 보존 장치다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md)
-- Source line: `23`
+- Source line: [line 23](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md)
 - Heading level: `H2`
 - Source heading: `Statement`
 

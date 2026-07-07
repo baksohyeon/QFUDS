@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 작가 사유 렌즈 — 압축·SSOT·동기화 + Soft Editing 텍스처](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/204_authorial_lenses_compression_ssot_soft_editing_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/204_authorial_lenses_compression_ssot_soft_editing_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/204_authorial_lenses_compression_ssot_soft_editing_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/204_authorial_lenses_compression_ssot_soft_editing_ko.md)
 - Heading level: `H2`
 - Source heading: `목적`
 

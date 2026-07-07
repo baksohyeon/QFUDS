@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 10_story_design 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/README.md)
-- Source line: `62`
+- Source line: [line 62](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/README.md)
 - Heading level: `H2`
 - Source heading: `2부 (Mara)`
 

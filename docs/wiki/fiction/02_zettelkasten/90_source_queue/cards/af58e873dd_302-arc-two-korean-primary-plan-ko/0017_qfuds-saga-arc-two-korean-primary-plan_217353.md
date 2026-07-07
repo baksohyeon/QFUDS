@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Arc Two Korean-Primary Plan](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
-- Source line: `17`
+- Source line: [line 17](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA Arc Two Korean-Primary Plan`
 

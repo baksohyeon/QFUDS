@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [제2화: 화이트홀 우편함](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/002_white_hole_mailbox_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/002_white_hole_mailbox_ko.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/002_white_hole_mailbox_ko.md)
-- Source line: `321`
+- Source line: [line 321](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/002_white_hole_mailbox_ko.md)
 - Heading level: `H2`
 - Source heading: `다음 선택`
 

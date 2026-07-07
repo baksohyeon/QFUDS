@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Fiction Saga](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/README.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/README.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/README.md)
-- Source line: `16`
+- Source line: [line 16](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/README.md)
 - Heading level: `H1`
 - Source heading: `QFUDS Fiction Saga`
 

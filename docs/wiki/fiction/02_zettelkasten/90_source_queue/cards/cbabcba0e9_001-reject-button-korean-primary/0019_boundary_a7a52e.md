@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 단편 S1: 반려 버튼 (한국어 primary)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/단편집/001_reject_button_korean_primary.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/단편집/001_reject_button_korean_primary.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/단편집/001_reject_button_korean_primary.md)
-- Source line: `19`
+- Source line: [line 19](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/단편집/001_reject_button_korean_primary.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

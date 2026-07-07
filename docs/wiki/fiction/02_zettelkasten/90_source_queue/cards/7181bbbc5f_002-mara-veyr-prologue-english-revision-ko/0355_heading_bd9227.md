@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Mara Veyr 프롤로그 English Revision](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md)
-- Source line: `355`
+- Source line: [line 355](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/002_mara_veyr_prologue_english_revision_ko.md)
 - Heading level: `H3`
 - Source heading: `프롤로그: 마지막 자물쇠`
 

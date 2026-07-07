@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 암호 개념 독자 온보딩 점검](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md)
-- Source line: `70`
+- Source line: [line 70](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md)
 - Heading level: `H2`
 - Source heading: `2. 독자가 몰라도 되는 것 / 반드시 알아야 하는 것`
 

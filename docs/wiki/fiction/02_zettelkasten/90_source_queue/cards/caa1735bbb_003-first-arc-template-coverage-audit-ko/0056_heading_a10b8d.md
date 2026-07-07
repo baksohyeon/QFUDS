@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 전역 템플릿 커버리지 감사](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/003_first_arc_template_coverage_audit_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/003_first_arc_template_coverage_audit_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/003_first_arc_template_coverage_audit_ko.md)
-- Source line: `56`
+- Source line: [line 56](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/003_first_arc_template_coverage_audit_ko.md)
 - Heading level: `H2`
 - Source heading: `템플릿 커버리지 매트릭스`
 

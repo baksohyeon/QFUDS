@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse fiction_v2 세계관 리더](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md)
-- Source line: `27`
+- Source line: [line 27](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md)
 - Heading level: `H2`
 - Source heading: `1. 이 세계관 한 문장`
 

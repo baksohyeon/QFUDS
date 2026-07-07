@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA AI·자동화·인간 확인 루프·아날로그 법정](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/112_ai_automation_human_in_the_loop_ssot_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/112_ai_automation_human_in_the_loop_ssot_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/112_ai_automation_human_in_the_loop_ssot_ko.md)
-- Source line: `76`
+- Source line: [line 76](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/112_ai_automation_human_in_the_loop_ssot_ko.md)
 - Heading level: `H2`
 - Source heading: `5.5. 합의자(감사관)는 어떻게 만들어지나`
 

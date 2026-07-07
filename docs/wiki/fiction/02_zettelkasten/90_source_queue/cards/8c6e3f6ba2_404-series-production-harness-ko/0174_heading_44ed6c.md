@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 시리즈 제작 하네스](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md)
-- Source line: `174`
+- Source line: [line 174](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md)
 - Heading level: `H2`
 - Source heading: `글로벌 승격 경로`
 

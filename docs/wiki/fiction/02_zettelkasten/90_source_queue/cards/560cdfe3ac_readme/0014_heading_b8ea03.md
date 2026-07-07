@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 1세대 아카이브](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/README.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/README.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/README.md)
-- Source line: `14`
+- Source line: [line 14](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/README.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 1부 1세대 아카이브`
 

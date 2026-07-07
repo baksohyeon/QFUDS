@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Last Archive 기원·역연산 인과·문명 규모·죽음의 평등](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/107_last_archive_origin_and_reversal_causality_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/107_last_archive_origin_and_reversal_causality_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/107_last_archive_origin_and_reversal_causality_ko.md)
-- Source line: `312`
+- Source line: [line 312](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/107_last_archive_origin_and_reversal_causality_ko.md)
 - Heading level: `H2`
 - Source heading: `9. 밈 풀어쓰기 규칙`
 

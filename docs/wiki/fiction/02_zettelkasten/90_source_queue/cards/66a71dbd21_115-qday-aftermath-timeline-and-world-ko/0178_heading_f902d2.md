@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Q-Day 여파 타임라인과 세계 설정](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
-- Source line: `178`
+- Source line: [line 178](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
 - Heading level: `H3`
 - Source heading: `B. 단기 - 주 - 몇 년 (90일 아수라장 → 검증경제의 굳음)`
 

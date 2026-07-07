@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
-- Source line: `17`
+- Source line: [line 17](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)`
 

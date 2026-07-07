@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Catalog](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
 - Source path: [docs/wiki/fiction/01_catalog/README.md](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
-- Source line: `103`
+- Source line: [line 103](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
 - Heading level: `H2`
 - Source heading: `Next Task Candidates`
 

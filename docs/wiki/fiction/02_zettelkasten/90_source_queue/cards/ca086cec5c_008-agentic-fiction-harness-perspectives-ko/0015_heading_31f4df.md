@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [에이전틱 픽션 하네스 4관점 정리](../../../../../../../docs/wiki/fiction/00_studio/008_agentic_fiction_harness_perspectives_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/008_agentic_fiction_harness_perspectives_ko.md](../../../../../../../docs/wiki/fiction/00_studio/008_agentic_fiction_harness_perspectives_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/00_studio/008_agentic_fiction_harness_perspectives_ko.md)
 - Heading level: `H1`
 - Source heading: `에이전틱 픽션 하네스 4관점 정리`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 세계 기준점과 핍진성 규칙](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

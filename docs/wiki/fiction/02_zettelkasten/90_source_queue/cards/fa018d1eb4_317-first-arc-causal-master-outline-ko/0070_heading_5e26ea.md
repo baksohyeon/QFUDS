@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 통합 causal master outline](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/317_first_arc_causal_master_outline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/317_first_arc_causal_master_outline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/317_first_arc_causal_master_outline_ko.md)
-- Source line: `70`
+- Source line: [line 70](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/317_first_arc_causal_master_outline_ko.md)
 - Heading level: `H2`
 - Source heading: `5. B2 파일 발생 인과`
 

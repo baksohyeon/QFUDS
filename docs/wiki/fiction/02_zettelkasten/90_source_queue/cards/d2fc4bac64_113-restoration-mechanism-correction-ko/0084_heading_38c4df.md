@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 복원 메커니즘 정정 (정보 역산 + 인공 신체)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md)
-- Source line: `84`
+- Source line: [line 84](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/113_restoration_mechanism_correction_ko.md)
 - Heading level: `H2`
 - Source heading: `4.5. 열역학은 절대다 (유니터리와 양립, 검증)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Q-Day 여파 타임라인과 세계 설정](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
-- Source line: `460`
+- Source line: [line 460](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/115_qday_aftermath_timeline_and_world_ko.md)
 - Heading level: `H2`
 - Source heading: `5. 패널 모순 조정 (더 현실적인 쪽으로, 이유 명시)`
 

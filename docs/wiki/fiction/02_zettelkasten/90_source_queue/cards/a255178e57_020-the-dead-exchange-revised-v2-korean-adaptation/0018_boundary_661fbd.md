@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA The Dead Exchange Revised V2 Korean Adaptation](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/020_the_dead_exchange_revised_v2_korean_adaptation.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/020_the_dead_exchange_revised_v2_korean_adaptation.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/020_the_dead_exchange_revised_v2_korean_adaptation.md)
-- Source line: `18`
+- Source line: [line 18](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/020_the_dead_exchange_revised_v2_korean_adaptation.md)
 - Heading level: `H2`
 - Source heading: `Boundary`
 

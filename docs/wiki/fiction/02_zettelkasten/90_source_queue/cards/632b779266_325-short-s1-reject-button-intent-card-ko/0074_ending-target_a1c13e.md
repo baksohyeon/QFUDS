@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 단편 S1 반려 버튼 Intent Card](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/325_short_s1_reject_button_intent_card_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/325_short_s1_reject_button_intent_card_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/325_short_s1_reject_button_intent_card_ko.md)
-- Source line: `74`
+- Source line: [line 74](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/325_short_s1_reject_button_intent_card_ko.md)
 - Heading level: `H2`
 - Source heading: `Ending Target`
 

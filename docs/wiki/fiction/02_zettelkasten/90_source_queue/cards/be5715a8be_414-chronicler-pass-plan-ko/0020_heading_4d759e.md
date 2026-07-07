@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Chronicler Pass 계획 (전문 감사·드리프트 원장·단계별 편집 플랜)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/414_chronicler_pass_plan_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/414_chronicler_pass_plan_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/414_chronicler_pass_plan_ko.md)
-- Source line: `20`
+- Source line: [line 20](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/414_chronicler_pass_plan_ko.md)
 - Heading level: `H2`
 - Source heading: `0. 이 문서의 자리 / 방법`
 

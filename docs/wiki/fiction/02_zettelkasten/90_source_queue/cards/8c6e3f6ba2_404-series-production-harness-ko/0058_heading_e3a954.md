@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 시리즈 제작 하네스](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md)
-- Source line: `58`
+- Source line: [line 58](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/404_series_production_harness_ko.md)
 - Heading level: `H2`
 - Source heading: `집필 전 프리플라이트 (에피소드 N을 쓰기 전에)`
 

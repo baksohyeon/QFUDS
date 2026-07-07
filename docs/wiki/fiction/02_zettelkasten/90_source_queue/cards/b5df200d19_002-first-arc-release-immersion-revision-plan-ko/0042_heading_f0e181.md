@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 Release 승격 — 현장감·묘사 강화 퇴고 기준](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
-- Source line: `42`
+- Source line: [line 42](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
 - Heading level: `H2`
 - Source heading: `강화 원칙 (무엇을 더하나)`
 

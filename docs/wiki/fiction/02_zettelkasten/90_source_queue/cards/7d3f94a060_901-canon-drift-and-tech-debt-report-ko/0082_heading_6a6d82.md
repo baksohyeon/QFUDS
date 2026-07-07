@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Canon Drift·Tech Debt 리포트 (드리프트 원장·중복·리팩터 우선순위)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/901_canon_drift_and_tech_debt_report_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/901_canon_drift_and_tech_debt_report_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/901_canon_drift_and_tech_debt_report_ko.md)
-- Source line: `82`
+- Source line: [line 82](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/901_canon_drift_and_tech_debt_report_ko.md)
 - Heading level: `H3`
 - Source heading: `2.1 전문 완독 감사(멀티에이전트, 12에이전트 · 80문서)가 확인한 추가 드리프트`
 

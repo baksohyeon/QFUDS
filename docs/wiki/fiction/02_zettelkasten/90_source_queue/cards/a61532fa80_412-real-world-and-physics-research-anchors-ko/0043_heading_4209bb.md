@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 실세계·물리 리서치 앵커 대장 (핍진성 닻)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
-- Source line: `43`
+- Source line: [line 43](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/412_real_world_and_physics_research_anchors_ko.md)
 - Heading level: `H2`
 - Source heading: `PART A. 근미래 실세계 앵커 (2020s-2090s 예측 근거)`
 

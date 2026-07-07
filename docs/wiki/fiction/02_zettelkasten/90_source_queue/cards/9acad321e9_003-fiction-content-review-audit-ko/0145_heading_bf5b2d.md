@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Content Review Audit](../../../../../../../docs/wiki/fiction/01_catalog/003_fiction_content_review_audit_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/003_fiction_content_review_audit_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/003_fiction_content_review_audit_ko.md)
-- Source line: `145`
+- Source line: [line 145](../../../../../../../docs/wiki/fiction/01_catalog/003_fiction_content_review_audit_ko.md)
 - Heading level: `H2`
 - Source heading: `지금은 하지 않을 것`
 

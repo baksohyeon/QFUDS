@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 이념 비일관성 삼각 (세 양립 불가 신앙)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/208_ideological_incoherence_triad_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/208_ideological_incoherence_triad_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/208_ideological_incoherence_triad_ko.md)
-- Source line: `91`
+- Source line: [line 91](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/208_ideological_incoherence_triad_ko.md)
 - Heading level: `H2`
 - Source heading: `인물·장면 사용 규칙`
 

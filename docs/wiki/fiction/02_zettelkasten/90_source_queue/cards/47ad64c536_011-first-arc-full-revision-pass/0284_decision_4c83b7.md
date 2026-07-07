@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA First Arc Full Revision Pass](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
-- Source line: `284`
+- Source line: [line 284](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
 - Heading level: `H2`
 - Source heading: `Decision`
 

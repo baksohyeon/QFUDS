@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [해상도 계급은 죽음의 계급화다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/906_zettel_resolution_class_after_death_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/906_zettel_resolution_class_after_death_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/906_zettel_resolution_class_after_death_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/906_zettel_resolution_class_after_death_ko.md)
 - Heading level: `H1`
 - Source heading: `해상도 계급은 죽음의 계급화다`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [031 origin 웹소설 콘티 텔링 Retention Gate Run 2026-06-22 1308777](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
-- Source line: `61`
+- Source line: [line 61](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
 - Heading level: `H2`
 - Source heading: `Reading Units`
 

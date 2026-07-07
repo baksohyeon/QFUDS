@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 근미래 프렐류드 대사전 (2020s-2090s 예측, candidate)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
-- Source line: `285`
+- Source line: [line 285](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/322_near_future_prelude_forecast_ko.md)
 - Heading level: `H3`
 - Source heading: `2020s (2026-2031): 위조의 완성과 대재분류의 시작`
 

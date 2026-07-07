@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 월드빌딩 아키텍처 지도 (문서 인덱스·권위 트리·의존/영향 그래프)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md)
-- Source line: `47`
+- Source line: [line 47](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/900_worldbuilding_architecture_ko.md)
 - Heading level: `H3`
 - Source heading: `1.1 `00_continuity` · 캐논 권위·연표 SSOT (5)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [복원은 부활이 아니라 데이터 사본이다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/900_zettel_restoration_is_copy_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/900_zettel_restoration_is_copy_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/900_zettel_restoration_is_copy_ko.md)
-- Source line: `32`
+- Source line: [line 32](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/900_zettel_restoration_is_copy_ko.md)
 - Heading level: `H2`
 - Source heading: `Context`
 

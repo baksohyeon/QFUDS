@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Q-Day 여파 14도메인 세계-체계 매트릭스 (115 부속)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md)
-- Source line: `280`
+- Source line: [line 280](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md)
 - Heading level: `H3`
 - Source heading: `3.2 진공을 채우는 재구성 사슬 (주 - 수십 년, 115 B·C)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA The Dead Exchange English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/006_the_dead_exchange_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/006_the_dead_exchange_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/006_the_dead_exchange_english_draft.md)
-- Source line: `61`
+- Source line: [line 61](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/006_the_dead_exchange_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Revised English Draft`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Hawking Court English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
-- Source line: `63`
+- Source line: [line 63](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
 - Heading level: `H3`
 - Source heading: `Hawking Court`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [유니터리는 실용적 복원을 보증하지 않는다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/905_zettel_unitarity_does_not_guarantee_restoration_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/905_zettel_unitarity_does_not_guarantee_restoration_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/905_zettel_unitarity_does_not_guarantee_restoration_ko.md)
-- Source line: `23`
+- Source line: [line 23](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/905_zettel_unitarity_does_not_guarantee_restoration_ko.md)
 - Heading level: `H2`
 - Source heading: `Statement`
 

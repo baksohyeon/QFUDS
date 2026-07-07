@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [제3화: 10 Mpc의 유혹](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
-- Source line: `469`
+- Source line: [line 469](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
 - Heading level: `H2`
 - Source heading: `다음 선택`
 

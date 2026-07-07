@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 독자 정보 공개 사다리 (reader reveal ladder)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/316_first_arc_reader_reveal_ladder_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/316_first_arc_reader_reveal_ladder_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/316_first_arc_reader_reveal_ladder_ko.md)
-- Source line: `97`
+- Source line: [line 97](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/316_first_arc_reader_reveal_ladder_ko.md)
 - Heading level: `H2`
 - Source heading: `9. 과밀 방지 규칙`
 

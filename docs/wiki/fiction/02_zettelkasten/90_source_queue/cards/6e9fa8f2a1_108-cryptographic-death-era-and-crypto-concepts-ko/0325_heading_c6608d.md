@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Cryptographic Death 대격변과 암호 개념 상세 설정](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)
-- Source line: `325`
+- Source line: [line 325](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)
 - Heading level: `H2`
 - Source heading: `D2. 핵심 아이러니 — 신은 노예다 (180도, 세 번)`
 

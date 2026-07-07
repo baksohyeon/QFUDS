@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Exhibit S-0 Episode 1 Revised V2 English Draft](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md)
-- Source line: `44`
+- Source line: [line 44](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/012_exhibit_s0_episode1_revised_v2_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Exhibit S-0`
 

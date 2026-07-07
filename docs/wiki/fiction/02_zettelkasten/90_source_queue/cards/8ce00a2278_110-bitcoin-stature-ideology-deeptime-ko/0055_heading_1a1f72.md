@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 비트코인 위상·이념전쟁·심층시간 유효성](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/110_bitcoin_stature_ideology_deeptime_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/110_bitcoin_stature_ideology_deeptime_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/110_bitcoin_stature_ideology_deeptime_ko.md)
-- Source line: `55`
+- Source line: [line 55](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/110_bitcoin_stature_ideology_deeptime_ko.md)
 - Heading level: `H2`
 - Source heading: `2. SAGA로의 차용 (심층시간 이념전쟁)`
 

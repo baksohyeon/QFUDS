@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 단편 S1 반려 버튼 Chronicler Pass](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/019_short_s1_reject_button_chronicler_pass_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/019_short_s1_reject_button_chronicler_pass_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/019_short_s1_reject_button_chronicler_pass_ko.md)
-- Source line: `84`
+- Source line: [line 84](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/019_short_s1_reject_button_chronicler_pass_ko.md)
 - Heading level: `H2`
 - Source heading: `Open Risks`
 

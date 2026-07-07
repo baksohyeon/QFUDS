@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 origin 씬 카드](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/312_first_arc_origin_scene_cards_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/312_first_arc_origin_scene_cards_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/312_first_arc_origin_scene_cards_ko.md)
-- Source line: `111`
+- Source line: [line 111](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/312_first_arc_origin_scene_cards_ko.md)
 - Heading level: `H2`
 - Source heading: `B2. 사엘, 같은 지갑을 사건으로 받는다`
 

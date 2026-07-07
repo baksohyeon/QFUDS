@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 세계 기준점과 핍진성 규칙](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
-- Source line: `130`
+- Source line: [line 130](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
 - Heading level: `H3`
 - Source heading: `2. 모든 기술은 class system을 만든다`
 

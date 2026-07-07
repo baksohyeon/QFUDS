@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Fiction Saga](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/README.md)
 - Source path: [docs/wiki/fiction/90_archive/lineage-prototype/README.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/README.md)
-- Source line: `168`
+- Source line: [line 168](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/README.md)
 - Heading level: `H3`
 - Source heading: `마야 진`
 

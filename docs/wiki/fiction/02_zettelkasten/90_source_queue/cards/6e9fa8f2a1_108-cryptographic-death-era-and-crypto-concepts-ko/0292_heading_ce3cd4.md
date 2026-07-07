@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Cryptographic Death 대격변과 암호 개념 상세 설정](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)
-- Source line: `292`
+- Source line: [line 292](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/108_cryptographic_death_era_and_crypto_concepts_ko.md)
 - Heading level: `H1`
 - Source heading: `PART D. 소유의 체제와 "우리는 물건이 아니다"`
 

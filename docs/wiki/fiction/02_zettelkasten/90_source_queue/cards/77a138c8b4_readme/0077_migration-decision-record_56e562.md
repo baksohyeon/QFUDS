@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Catalog](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
 - Source path: [docs/wiki/fiction/01_catalog/README.md](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
-- Source line: `77`
+- Source line: [line 77](../../../../../../../docs/wiki/fiction/01_catalog/README.md)
 - Heading level: `H2`
 - Source heading: `Migration Decision Record`
 

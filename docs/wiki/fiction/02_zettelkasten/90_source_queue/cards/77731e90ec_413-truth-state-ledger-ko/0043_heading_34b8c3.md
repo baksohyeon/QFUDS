@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Truth-State Ledger (인물·독자·세계 지식 상태 원장)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/413_truth_state_ledger_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/413_truth_state_ledger_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/413_truth_state_ledger_ko.md)
-- Source line: `43`
+- Source line: [line 43](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/413_truth_state_ledger_ko.md)
 - Heading level: `H2`
 - Source heading: `1. 사가 부 단위 원장 (부 = 209 기준)`
 

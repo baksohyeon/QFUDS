@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 암호 개념 독자 온보딩 점검](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md)
-- Source line: `184`
+- Source line: [line 184](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/313_crypto_concepts_reader_onboarding_check_ko.md)
 - Heading level: `H2`
 - Source heading: `7. 절대 넣지 말아야 할 설명 방식`
 

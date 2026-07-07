@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
-- Source line: `82`
+- Source line: [line 82](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
 - Heading level: `H2`
 - Source heading: `Why Marxian, Not Slogan Marxism`
 

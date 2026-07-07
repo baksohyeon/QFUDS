@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [031 origin 웹소설 콘티 텔링 Retention Gate Run 3 (confirm) 2026-06-22 b5f0edf](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md)
-- Source line: `78`
+- Source line: [line 78](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/014_origin_sael_webnovel_retention_gate_run_20260622_b5f0edf_ko.md)
 - Heading level: `H2`
 - Source heading: `Issue Ledger (3차 잔여 = 모두 S2/S3, release-blocking 아님)`
 

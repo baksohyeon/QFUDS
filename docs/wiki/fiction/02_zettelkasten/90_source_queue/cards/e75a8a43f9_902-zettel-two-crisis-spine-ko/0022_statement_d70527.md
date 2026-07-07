@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [인식 위기와 Q-Day는 같은 사건이 아니다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/902_zettel_two_crisis_spine_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/902_zettel_two_crisis_spine_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/902_zettel_two_crisis_spine_ko.md)
-- Source line: `22`
+- Source line: [line 22](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/902_zettel_two_crisis_spine_ko.md)
 - Heading level: `H2`
 - Source heading: `Statement`
 

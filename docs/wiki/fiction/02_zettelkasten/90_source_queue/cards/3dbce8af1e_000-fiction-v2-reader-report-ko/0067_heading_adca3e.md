@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse fiction_v2 세계관 리더](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md)
-- Source line: `67`
+- Source line: [line 67](../../../../../../../docs/wiki/fiction/90_archive/fiction_v2_legacy/000_fiction_v2_reader_report_ko.md)
 - Heading level: `H2`
 - Source heading: `4. 세계관 빌드업 질문 사슬`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 이중언어 용어규율 글로서리](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/402_bilingual_term_discipline_glossary_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/402_bilingual_term_discipline_glossary_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/402_bilingual_term_discipline_glossary_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/402_bilingual_term_discipline_glossary_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA 이중언어 용어규율 글로서리`
 

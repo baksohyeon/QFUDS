@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Q-Day 여파 14도메인 세계-체계 매트릭스 (115 부속)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md)
-- Source line: `251`
+- Source line: [line 251](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/116_qday_world_system_14domain_matrix_ko.md)
 - Heading level: `H3`
 - Source heading: `도메인 14 · 문화미디어·팬덤 (craft, 생산측)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [한국어 소설 문장 자연스러움 하네스](../../../../../../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md](../../../../../../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
-- Source line: `116`
+- Source line: [line 116](../../../../../../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
 - Heading level: `H3`
 - Source heading: `2. 명사구를 동사로 풀기`
 

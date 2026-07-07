@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [사람의 도장은 안전장치이자 세탁 장치다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/904_zettel_human_signature_as_safety_and_capture_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/904_zettel_human_signature_as_safety_and_capture_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/904_zettel_human_signature_as_safety_and_capture_ko.md)
-- Source line: `49`
+- Source line: [line 49](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/904_zettel_human_signature_as_safety_and_capture_ko.md)
 - Heading level: `H2`
 - Source heading: `Use Guard`
 

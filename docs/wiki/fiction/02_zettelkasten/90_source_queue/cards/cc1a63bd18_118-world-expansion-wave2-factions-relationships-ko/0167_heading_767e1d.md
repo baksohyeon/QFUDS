@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 2 (세력 내부 심화·인물·관계망)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/118_world_expansion_wave2_factions_relationships_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/118_world_expansion_wave2_factions_relationships_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/118_world_expansion_wave2_factions_relationships_ko.md)
-- Source line: `167`
+- Source line: [line 167](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/118_world_expansion_wave2_factions_relationships_ko.md)
 - Heading level: `H3`
 - Source heading: `2.3 부채·혼인·배신 후크 (인물 접점)`
 

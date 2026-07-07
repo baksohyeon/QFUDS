@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [뭐가 진짜인지 물어본 날 (raw 세션 로그)](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/002_reality_check_session_raw_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/002_reality_check_session_raw_ko.md](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/002_reality_check_session_raw_ko.md)
-- Source line: `30`
+- Source line: [line 30](../../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/20_drafts/002_reality_check_session_raw_ko.md)
 - Heading level: `H2`
 - Source heading: `Harness Applied`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부 편별 통합 아웃라인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md)
-- Source line: `86`
+- Source line: [line 86](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md)
 - Heading level: `H2`
 - Source heading: `정합 기준 (읽고 합친 정본)`
 

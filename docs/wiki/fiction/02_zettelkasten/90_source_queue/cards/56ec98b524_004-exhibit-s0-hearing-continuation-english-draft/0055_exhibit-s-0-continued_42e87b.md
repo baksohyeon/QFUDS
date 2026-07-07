@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Exhibit S-0 Hearing Continuation English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/004_exhibit_s0_hearing_continuation_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/004_exhibit_s0_hearing_continuation_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/004_exhibit_s0_hearing_continuation_english_draft.md)
-- Source line: `55`
+- Source line: [line 55](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/004_exhibit_s0_hearing_continuation_english_draft.md)
 - Heading level: `H3`
 - Source heading: `Exhibit S-0, continued`
 

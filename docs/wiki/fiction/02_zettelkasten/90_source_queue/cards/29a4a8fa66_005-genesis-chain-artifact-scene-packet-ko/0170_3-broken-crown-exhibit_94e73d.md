@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Genesis Chain 유물 장면 패킷](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
-- Source line: `170`
+- Source line: [line 170](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
 - Heading level: `H3`
 - Source heading: `3. Broken Crown Exhibit`
 

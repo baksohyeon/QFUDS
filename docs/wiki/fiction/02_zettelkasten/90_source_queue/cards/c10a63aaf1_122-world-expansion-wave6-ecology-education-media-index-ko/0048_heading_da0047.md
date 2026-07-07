@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 6 capstone (생태·교육·미디어·전 웨이브 인덱스)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md)
-- Source line: `48`
+- Source line: [line 48](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md)
 - Heading level: `H2`
 - Source heading: `2. 교육·세대 전승 (지식이 어떻게 물려지나)`
 

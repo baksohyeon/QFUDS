@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 1부·2부 정식 reader retention gate protocol](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md)
-- Source line: `58`
+- Source line: [line 58](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/011_first_second_arc_formal_retention_gate_protocol_ko.md)
 - Heading level: `H2`
 - Source heading: `왜 고쳤나`
 

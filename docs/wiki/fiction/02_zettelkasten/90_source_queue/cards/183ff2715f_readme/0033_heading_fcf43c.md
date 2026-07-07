@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 00_bible 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
-- Source line: `33`
+- Source line: [line 33](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Heading level: `H2`
 - Source heading: `공유 세계·연속성은 universe 레벨로 이동 (2026-07-01 재레벨링)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 장기 복원 문명사 타임라인](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md)
-- Source line: `118`
+- Source line: [line 118](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/001_deep_time_restoration_timeline_ko.md)
 - Heading level: `H3`
 - Source heading: `2. 빈 구간 보강 — The Long Plateau → 첫 복원 (신규 canon)`
 

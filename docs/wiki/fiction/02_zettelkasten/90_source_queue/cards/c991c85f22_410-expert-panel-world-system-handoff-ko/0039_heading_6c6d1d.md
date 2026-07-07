@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 전문가 패널 세계-체계 확장 인계 브리프](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md)
-- Source line: `39`
+- Source line: [line 39](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/410_expert_panel_world_system_handoff_ko.md)
 - Heading level: `H2`
 - Source heading: `핵심 판정: 이건 "새 세계 짓기"가 아니라 "기존 캐논 위 확장"이다`
 

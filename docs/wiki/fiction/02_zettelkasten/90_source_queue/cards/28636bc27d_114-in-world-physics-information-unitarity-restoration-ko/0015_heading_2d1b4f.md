@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA in-world 물리 캐논 — 정보·유니터리·복원](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/114_in_world_physics_information_unitarity_restoration_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/114_in_world_physics_information_unitarity_restoration_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/114_in_world_physics_information_unitarity_restoration_ko.md)
-- Source line: `15`
+- Source line: [line 15](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/114_in_world_physics_information_unitarity_restoration_ko.md)
 - Heading level: `H1`
 - Source heading: `QFUDS SAGA in-world 물리 캐논 — 정보·유니터리·복원`
 

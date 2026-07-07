@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Bitcoin Genesis Chain과 복원 신화](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/103_bitcoin_genesis_chain_and_restoration_myth_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/103_bitcoin_genesis_chain_and_restoration_myth_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/103_bitcoin_genesis_chain_and_restoration_myth_ko.md)
-- Source line: `352`
+- Source line: [line 352](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/103_bitcoin_genesis_chain_and_restoration_myth_ko.md)
 - Heading level: `H2`
 - Source heading: `Scientific Audit Rules`
 

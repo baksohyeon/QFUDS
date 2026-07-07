@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse Continuity](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
-- Source line: `57`
+- Source line: [line 57](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
 - Heading level: `H2`
 - Source heading: `Workflow Boundary`
 

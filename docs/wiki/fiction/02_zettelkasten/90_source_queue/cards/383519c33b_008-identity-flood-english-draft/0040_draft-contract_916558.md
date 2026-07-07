@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Identity Flood English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/008_identity_flood_english_draft.md)
 - Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/008_identity_flood_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/008_identity_flood_english_draft.md)
-- Source line: `40`
+- Source line: [line 40](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/008_identity_flood_english_draft.md)
 - Heading level: `H2`
 - Source heading: `Draft Contract`
 

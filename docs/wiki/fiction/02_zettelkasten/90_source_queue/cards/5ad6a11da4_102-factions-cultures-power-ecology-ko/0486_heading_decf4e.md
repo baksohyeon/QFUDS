@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 세력 문화 권력 생태계 장부](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/102_factions_cultures_power_ecology_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/102_factions_cultures_power_ecology_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/102_factions_cultures_power_ecology_ko.md)
-- Source line: `486`
+- Source line: [line 486](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/102_factions_cultures_power_ecology_ko.md)
 - Heading level: `H2`
 - Source heading: `권력 체계의 현재 균형`
 

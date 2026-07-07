@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse 세계 확장 웨이브 3 (지리 상세·궤도 역학·사건 연쇄 인과)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md)
-- Source line: `77`
+- Source line: [line 77](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md)
 - Heading level: `H3`
 - Source heading: `1.3 변경·유목 이동 경로·코어`
 

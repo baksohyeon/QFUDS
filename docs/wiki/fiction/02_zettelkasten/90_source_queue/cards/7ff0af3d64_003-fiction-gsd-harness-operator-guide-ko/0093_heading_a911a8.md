@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction GSD 하네스 운영 가이드](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
-- Source line: `93`
+- Source line: [line 93](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Heading level: `H2`
 - Source heading: `GSD 명령 기본형`
 

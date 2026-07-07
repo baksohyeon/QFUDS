@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA Arc Two Korean-Primary Plan](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
-- Source line: `77`
+- Source line: [line 77](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
 - Heading level: `H2`
 - Source heading: `Arc Two Spine`
 

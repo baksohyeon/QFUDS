@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Q-Day는 유동성 위기가 아니라 인증 위기다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/907_zettel_qday_as_authentication_crisis_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/907_zettel_qday_as_authentication_crisis_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/907_zettel_qday_as_authentication_crisis_ko.md)
-- Source line: `14`
+- Source line: [line 14](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/907_zettel_qday_as_authentication_crisis_ko.md)
 - Heading level: `H1`
 - Source heading: `Q-Day는 유동성 위기가 아니라 인증 위기다`
 

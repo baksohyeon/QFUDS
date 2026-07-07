@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 00_bible 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
-- Source line: `59`
+- Source line: [line 59](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/README.md)
 - Heading level: `H2`
 - Source heading: `시점·주제·서술 규칙`
 

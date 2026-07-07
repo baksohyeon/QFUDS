@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction GSD 하네스 운영 가이드](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
-- Source line: `122`
+- Source line: [line 122](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Heading level: `H3`
 - Source heading: `2. Tone / baseline`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 기준 작성권 사상축](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
-- Source line: `86`
+- Source line: [line 86](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/207_authorship_of_the_standard_theme_axis_ko.md)
 - Heading level: `H2`
 - Source heading: `6. 누구도 최종 기준이 못 되게 하는 마찰`
 

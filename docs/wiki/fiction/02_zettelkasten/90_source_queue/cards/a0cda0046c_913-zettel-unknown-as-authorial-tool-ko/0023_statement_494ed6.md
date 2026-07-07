@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [불명확한 것은 unknown으로 남긴다](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/913_zettel_unknown_as_authorial_tool_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/913_zettel_unknown_as_authorial_tool_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/913_zettel_unknown_as_authorial_tool_ko.md)
-- Source line: `23`
+- Source line: [line 23](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/913_zettel_unknown_as_authorial_tool_ko.md)
 - Heading level: `H2`
 - Source heading: `Statement`
 

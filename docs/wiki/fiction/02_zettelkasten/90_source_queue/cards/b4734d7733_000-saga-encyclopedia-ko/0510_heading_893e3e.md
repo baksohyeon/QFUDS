@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 백과사전 (자동 생성 · 한 장 요약)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
-- Source line: `510`
+- Source line: [line 510](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md)
 - Heading level: `H3`
 - Source heading: ``00_bible` — 확정된 세계 사실·인물·제도·과학 경계 (설정 기준서)`
 

@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [Fiction Folder Classification Audit](../../../../../../../docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md)
 - Source path: [docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md](../../../../../../../docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md)
-- Source line: `17`
+- Source line: [line 17](../../../../../../../docs/wiki/fiction/01_catalog/002_fiction_folder_classification_audit_ko.md)
 - Heading level: `H1`
 - Source heading: `Fiction Folder Classification Audit`
 

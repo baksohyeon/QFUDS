@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 캐논 권위·SSOT 지도](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md)
-- Source line: `21`
+- Source line: [line 21](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/000_canon_authority_and_ssot_map_ko.md)
 - Heading level: `H2`
 - Source heading: `왜 이 문서가 필요한가`
 

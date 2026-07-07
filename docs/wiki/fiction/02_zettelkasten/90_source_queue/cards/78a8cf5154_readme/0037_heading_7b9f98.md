@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS Verse World](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md)
-- Source line: `37`
+- Source line: [line 37](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/README.md)
 - Heading level: `H2`
 - Source heading: `World Expansion Register (universe 공유 세계)`
 

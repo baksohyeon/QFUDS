@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [한국어 소설 문장 자연스러움 하네스](../../../../../../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
 - Source path: [docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md](../../../../../../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
-- Source line: `99`
+- Source line: [line 99](../../../../../../../docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
 - Heading level: `H2`
 - Source heading: `한국어 문장 수술 규칙`
 

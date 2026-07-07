@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA 전문서 정합 감사 (2026-07-01)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/018_saga_consistency_audit_2026_07_01_ko.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/018_saga_consistency_audit_2026_07_01_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/018_saga_consistency_audit_2026_07_01_ko.md)
-- Source line: `27`
+- Source line: [line 27](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/018_saga_consistency_audit_2026_07_01_ko.md)
 - Heading level: `H2`
 - Source heading: `1. 감사 개요`
 

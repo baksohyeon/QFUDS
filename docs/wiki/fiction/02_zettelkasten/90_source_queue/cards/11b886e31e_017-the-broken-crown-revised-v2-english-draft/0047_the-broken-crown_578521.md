@@ -24,7 +24,7 @@ processing_state: queued
 
 - Source document: [QFUDS SAGA The Broken Crown Revised V2 English Draft](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md)
 - Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md)
-- Source line: `47`
+- Source line: [line 47](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/017_the_broken_crown_revised_v2_english_draft.md)
 - Heading level: `H2`
 - Source heading: `The Broken Crown`
 
