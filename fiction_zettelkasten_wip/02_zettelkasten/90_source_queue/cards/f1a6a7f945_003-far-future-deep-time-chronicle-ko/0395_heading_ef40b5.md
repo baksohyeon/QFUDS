@@ -1,0 +1,46 @@
+---
+doc_id: zkqv_ef40b55fc0e5
+title: ZK Queue - 4.10 비트코인 Genesis Chain의 심층시간 위상 (세 분파, 110)
+doc_type: reference
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_verse_far_future_deep_time_chronicle_ko
+next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+last_updated: 2026-07-07
+---
+
+# ZK Queue - 4.10 비트코인 Genesis Chain의 심층시간 위상 (세 분파, 110)
+
+```text
+fiction/provenance only
+research evidence: no
+canon action: none
+processing_state: queued
+```
+
+## Source
+
+- Source document: [QFUDS Verse 먼 미래 심층시간 연대기 (수천 년-수억 년, 스파이스=검증 가능한 기록)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
+- Source line: [line 395](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)
+- Heading level: `H3`
+- Source heading: `4.10 비트코인 Genesis Chain의 심층시간 위상 (세 분파, 110)`
+
+## Parent Context
+
+- H1: QFUDS Verse 먼 미래 심층시간 연대기 (수천 년-수억 년, 스파이스=검증 가능한 기록)
+- H2: 4. 심층시간 세력 진화 (듄 백과사전식 세력 항목)
+
+## Processing Contract
+
+This is a generated queue card. Do not treat it as a permanent zettel yet.
+
+To process it:
+
+1. Reopen the source document.
+2. Extract one atomic claim, rule, tension, or open question.
+3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
+4. Link the processed note back to this queue card and the source document.
+5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
