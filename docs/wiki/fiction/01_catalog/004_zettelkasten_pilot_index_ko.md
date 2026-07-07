@@ -65,6 +65,14 @@ not_extractable
 | 시간 | [하드 연도보다 소프트 시대 좌표가 우선한다](../10_universes/qfuds-verse/00_continuity/911_zettel_soft_chronology_policy_ko.md) | 연표 사용 가드 |
 | 심층시간 | [심층시간은 확장 레이어이며 상위 가드를 넘지 않는다](../10_universes/qfuds-verse/00_continuity/912_zettel_deep_time_extension_guard_ko.md) | 003 사용 규칙 |
 | 미정 | [불명확한 것은 unknown으로 남긴다](../10_universes/qfuds-verse/00_continuity/913_zettel_unknown_as_authorial_tool_ko.md) | 추정 방지 |
+| 지도 | [제텔카스텐 MOC](005_zettelkasten_moc_ko.md) | Obsidian 진입점 |
+| 인박스 | [제텔카스텐 아이디어 인박스](006_zettelkasten_inbox_ko.md) | 사용자 덤프 임시 보관 |
+| 물리 경계 | [유니터리는 실용적 복원을 보증하지 않는다](../10_universes/qfuds-verse/10_world/905_zettel_unitarity_does_not_guarantee_restoration_ko.md) | 작중 물리와 연구 주장 분리 |
+| 계급 | [해상도 계급은 죽음의 계급화다](../10_universes/qfuds-verse/10_world/906_zettel_resolution_class_after_death_ko.md) | 복원 충실도와 권력 |
+| Q-Day | [Q-Day는 유동성 위기가 아니라 인증 위기다](../10_universes/qfuds-verse/10_world/907_zettel_qday_as_authentication_crisis_ko.md) | 붕괴의 정확한 성격 |
+| 권력 | [검증주권은 진본 확정 독점이다](../10_universes/qfuds-verse/10_world/908_zettel_verification_sovereignty_ko.md) | Q-Day 이후 권력 이동 |
+| 복원 | [복원 가능한 것은 청구 가능하다는 폭력적 문법이다](../10_universes/qfuds-verse/10_world/909_zettel_recoverable_claimable_grammar_ko.md) | 사엘-마라 비극 엔진 |
+| 불확실성 | [라우어의 네 도장은 불확실성 보존 장치다](../10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md) | defined/assumed/unknown/circular_if_fitted |
 | 이야기 | [제텔 카드 스토리 씨앗 레지스터](../10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/326_zettelkasten_story_seed_register_ko.md) | 카드에서 장면 압력으로 연결 |
 
 ## 처리 규칙
@@ -77,7 +85,7 @@ not_extractable
 
 ## 다음 루프 후보
 
-1. 사용자 아이디어 inbox 문서 추가.
-2. 117-122 세계 밀도 웨이브에서 candidate 카드 20개 추출.
-3. 203-210 인물 bible에서 character-state 카드 추출.
-4. Obsidian MOC용 map 문서 분리.
+1. 117-122 세계 밀도 웨이브에서 candidate 카드 20개 추출.
+2. 203-210 인물 bible에서 character-state 카드 추출.
+3. 인박스에 사용자 덤프를 받아 `raw idea`와 `source-linked candidate`로 분리.
+4. MOC를 복원·검증권력·인물·세력·문체 장치별로 확장.
