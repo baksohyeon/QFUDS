@@ -61,6 +61,12 @@ canon action: navigation only
 | [불명확한 것은 unknown으로 남긴다](../10_universes/qfuds-verse/00_continuity/913_zettel_unknown_as_authorial_tool_ko.md) | 추정 금지 |
 | [라우어의 네 도장은 불확실성 보존 장치다](../10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md) | defined/assumed/unknown/circular_if_fitted |
 
+## 전시·증명 경계
+
+| 카드 | 쓰임 |
+| --- | --- |
+| [전시물은 증명이 아니라 물려받은 실패의 유물이다](../10_universes/qfuds-verse/10_world/915_zettel_exhibit_is_inherited_failure_not_proof_ko.md) | 시각 전시물의 fiction/provenance 가드 |
+
 ## 확장 규칙
 
 새 카드는 먼저 원문 source ref를 가져야 한다. 아이디어만 있는 항목은 inbox에 두고,
