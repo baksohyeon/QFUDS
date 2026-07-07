@@ -1,36 +1,37 @@
 ---
-doc_id: zkqv_source_ed16deda62
-title: ZK Source Map - QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜
+doc_id: srcidx_source_ed16deda62
+title: "Source Map - QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_post_agi_civilization_history_bilingual_protocol_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜
+# Source Map - QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
-- Queue cards: `24`
+- Source document: [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/104_post_agi_civilization_history_bilingual_protocol_ko.md)
+- Index cards: `24`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `16` | [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0016_heading_fc94d4.md) | queued |
-| H2 | `18` | [목적](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0018_heading_d0f679.md) | queued |
+| H1 | `16` | [QFUDS SAGA Post-AGI 문명사와 한국어 우선 이중언어 프로토콜](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0016_qfuds-saga-post-agi-문명사와-한국어-우선-이중언어-프로토콜_fc94d4.md) | queued |
+| H2 | `18` | [목적](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0018_목적_d0f679.md) | queued |
 | H2 | `45` | [World Anchor](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0045_world-anchor_4b9e37.md) | queued |
 | H2 | `54` | [Workflow Boundary](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0054_workflow-boundary_59e2bc.md) | queued |
 | H2 | `71` | [Research Basis](../cards/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko/0071_research-basis_c1642f.md) | queued |

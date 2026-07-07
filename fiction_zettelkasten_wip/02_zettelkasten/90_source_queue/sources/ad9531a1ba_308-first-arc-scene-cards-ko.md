@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_ad9531a1ba
-title: ZK Source Map - QFUDS SAGA 1부 Book 1 씬 카드
+doc_id: srcidx_source_ad9531a1ba
+title: "Source Map - QFUDS SAGA 1부 Book 1 씬 카드"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_scene_cards_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA 1부 Book 1 씬 카드
+# Source Map - QFUDS SAGA 1부 Book 1 씬 카드
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 1부 Book 1 씬 카드](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
-- Queue cards: `17`
+- Source document: [QFUDS SAGA 1부 Book 1 씬 카드](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/308_first_arc_scene_cards_ko.md)
+- Index cards: `17`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `15` | [QFUDS SAGA 1부 Book 1 씬 카드](../cards/ad9531a1ba_308-first-arc-scene-cards-ko/0015_heading_8e1a17.md) | queued |
+| H1 | `15` | [QFUDS SAGA 1부 Book 1 씬 카드](../cards/ad9531a1ba_308-first-arc-scene-cards-ko/0015_qfuds-saga-1부-book-1-씬-카드_8e1a17.md) | queued |
 | H2 | `17` | [Purpose](../cards/ad9531a1ba_308-first-arc-scene-cards-ko/0017_purpose_8a476a.md) | queued |
 | H2 | `27` | [Reboot Rules](../cards/ad9531a1ba_308-first-arc-scene-cards-ko/0027_reboot-rules_ab8928.md) | queued |
 | H2 | `53` | [Character Archetype Gate](../cards/ad9531a1ba_308-first-arc-scene-cards-ko/0053_character-archetype-gate_df5a5d.md) | queued |

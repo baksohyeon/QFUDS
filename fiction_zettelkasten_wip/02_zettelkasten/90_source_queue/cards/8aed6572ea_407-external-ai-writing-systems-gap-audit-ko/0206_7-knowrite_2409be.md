@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_2409bee0f45e
-title: ZK Queue - 7. Knowrite
+doc_id: srcidx_2409bee0f45e9056
+title: "Source Index - 7. Knowrite"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_external_ai_writing_systems_gap_audit_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - 7. Knowrite
+# Source Index - 7. Knowrite
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 외부 AI 글쓰기 시스템 갭 감사](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
-- Source line: [line 206](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
+- Source document: [QFUDS SAGA 외부 AI 글쓰기 시스템 갭 감사](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
+- Source line: [line 206](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/407_external_ai_writing_systems_gap_audit_ko.md)
 - Heading level: `H3`
 - Source heading: `7. Knowrite`
 
@@ -33,14 +34,38 @@ processing_state: queued
 - H1: QFUDS SAGA 외부 AI 글쓰기 시스템 갭 감사
 - H2: 외부 시스템별 패턴 감사
 
+## Captured Source
+
+> Knowrite는 multi-agent backend에 가깝다. README상 Writer, Editor, Humanizer,
+> Proofreader, Reader, Summarizer 같은 chapter pipeline, Fitness 평가, RAG memory,
+> Temporal Truth Database, Author Fingerprint, Prompt evolution, MCP endpoint를 가진다.
+>
+> QFUDS 대응:
+>
+> | 외부 패턴 | QFUDS에서 필요한 축소판 |
+> | --- | --- |
+> | Temporal Truth Database | 장별 truth-state ledger |
+> | Author Fingerprint | QFUDS prose style packet |
+> | Fitness assessment | release gate 점수표가 아니라 fail/pass 사유표 |
+> | Prompt evolution | 작업 후 프롬프트 교정 postmortem |
+> | RAG retrieval | repo 파일 직접 참조 + context packet |
+> | MCP endpoint | 지금은 불필요 |
+>
+> 채택 요약:
+>
+> ```text
+> Knowrite는 너무 무겁다.
+> 하지만 truth-state ledger와 chapter intent card는 QFUDS에 바로 필요하다.
+> ```
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

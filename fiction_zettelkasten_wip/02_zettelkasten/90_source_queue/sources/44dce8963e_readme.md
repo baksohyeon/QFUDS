@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_44dce8963e
-title: ZK Source Map - Feathersmcgraw Coda
+doc_id: srcidx_source_44dce8963e
+title: "Source Map - Feathersmcgraw Coda"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - feathersmcgraw_coda_work_index_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - Feathersmcgraw Coda
+# Source Map - Feathersmcgraw Coda
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [Feathersmcgraw Coda](../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
-- Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md](../../../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
-- Queue cards: `8`
+- Source document: [Feathersmcgraw Coda](../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
+- Source path: [docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md](../../../../docs/wiki/fiction/10_universes/vector-sandbox/40_anthologies/feathersmcgraw-coda/README.md)
+- Index cards: `8`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `15` | [Feathersmcgraw Coda](../cards/44dce8963e_readme/0015_feathersmcgraw-coda_243ed9.md) | queued |
 | H2 | `21` | [Classification](../cards/44dce8963e_readme/0021_classification_bbf458.md) | queued |

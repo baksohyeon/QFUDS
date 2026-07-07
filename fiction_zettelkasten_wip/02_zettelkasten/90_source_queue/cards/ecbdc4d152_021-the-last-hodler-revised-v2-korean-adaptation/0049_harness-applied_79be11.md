@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_79be112aaba7
-title: ZK Queue - Harness Applied
+doc_id: srcidx_79be112aaba7e325
+title: "Source Index - Harness Applied"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_the_last_hodler_revised_v2_korean_adaptation
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Harness Applied
+# Source Index - Harness Applied
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA The Last Hodler Revised V2 Korean Adaptation](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md)
-- Source line: [line 49](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md)
+- Source document: [QFUDS SAGA The Last Hodler Revised V2 Korean Adaptation](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md)
+- Source line: [line 49](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/021_the_last_hodler_revised_v2_korean_adaptation.md)
 - Heading level: `H2`
 - Source heading: `Harness Applied`
 
@@ -32,14 +33,29 @@ processing_state: queued
 
 - H1: QFUDS SAGA The Last Hodler Revised V2 Korean Adaptation
 
+## Captured Source
+
+> - Craft harness:
+>   [Creative Writing Craft Harness](../../../../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+> - Narrative frame: courthouse crowd pressure, Aletheia split, and Liora's
+>   refusal to let market myth become consent doctrine.
+> - Scene goal/obstacle/turn/cost: stop Genesis Chain analogy from overriding
+>   personal consent; public myth and the Last Hodler story invite shortcut
+>   reasoning; `NO CONSENT BY ANALOGY` rejects that transfer; the cost is that
+>   allies split over whether delay is justice or cowardice.
+> - Bilingual gate: Korean primary reader path; English 014 is a preserved sibling
+>   counterpart, not a literal source text.
+> - Source boundary: no new external source/product claim; research asset state is
+>   `not searched`.
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

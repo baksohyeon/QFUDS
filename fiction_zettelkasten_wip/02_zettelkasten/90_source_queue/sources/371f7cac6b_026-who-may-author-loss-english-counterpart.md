@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_371f7cac6b
-title: ZK Source Map - QFUDS SAGA Who May Author Loss English Counterpart
+doc_id: srcidx_source_371f7cac6b
+title: "Source Map - QFUDS SAGA Who May Author Loss English Counterpart"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_who_may_author_loss_english_counterpart
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Who May Author Loss English Counterpart
+# Source Map - QFUDS SAGA Who May Author Loss English Counterpart
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Who May Author Loss English Counterpart](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
-- Queue cards: `5`
+- Source document: [QFUDS SAGA Who May Author Loss English Counterpart](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/3부/026_who_may_author_loss_english_counterpart.md)
+- Index cards: `5`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `18` | [QFUDS SAGA Who May Author Loss English Counterpart](../cards/371f7cac6b_026-who-may-author-loss-english-counterpart/0018_qfuds-saga-who-may-author-loss-english-counterpart_de812e.md) | queued |
 | H2 | `20` | [Boundary](../cards/371f7cac6b_026-who-may-author-loss-english-counterpart/0020_boundary_9eddb3.md) | queued |

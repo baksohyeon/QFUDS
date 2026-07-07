@@ -1,0 +1,56 @@
+---
+doc_id: srcidx_b7626afeffb20277
+title: "Source Index - 2. 모든 기술은 class system을 만든다"
+doc_type: reference
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_saga_world_anchor_and_verisimilitude_ko
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
+last_updated: 2026-07-06
+---
+
+# Source Index - 2. 모든 기술은 class system을 만든다
+
+```text
+fiction/provenance only
+research evidence: no
+canon action: none
+layer: source index (not a permanent zettel)
+processing_state: queued
+```
+
+## Source
+
+- Source document: [QFUDS SAGA 세계 기준점과 핍진성 규칙](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
+- Source line: [line 130](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)
+- Heading level: `H3`
+- Source heading: `2. 모든 기술은 class system을 만든다`
+
+## Parent Context
+
+- H1: QFUDS SAGA 세계 기준점과 핍진성 규칙
+- H2: 핍진성 규칙
+
+## Captured Source
+
+> access가 불평등해야 세계가 설득력을 얻는다.
+>
+> High-resolution restoration은 비싸다. Low-resolution restoration은 굴욕적이다.
+> 어떤 사람은 legal right를 가진 채 돌아오고, 어떤 사람은 testimony로 돌아오고,
+> 어떤 사람은 training data로 돌아온다. 어떤 사람은 돌아오지 못하지만 여전히
+> 사용된다.
+
+## Processing Contract
+
+This is a generated source-index card, not a permanent zettel.
+
+To distill it:
+
+1. Reopen the source document for the full context.
+2. Extract one atomic claim, rule, tension, or open question.
+3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

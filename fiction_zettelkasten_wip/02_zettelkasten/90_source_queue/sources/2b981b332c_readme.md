@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_2b981b332c
-title: ZK Source Map - Wiki Fiction
+doc_id: srcidx_source_2b981b332c
+title: "Source Map - Wiki Fiction"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - wiki_fiction_index
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - Wiki Fiction
+# Source Map - Wiki Fiction
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [Wiki Fiction](../../../../../../docs/wiki/fiction/README.md)
-- Source path: [docs/wiki/fiction/README.md](../../../../../../docs/wiki/fiction/README.md)
-- Queue cards: `4`
+- Source document: [Wiki Fiction](../../../../docs/wiki/fiction/README.md)
+- Source path: [docs/wiki/fiction/README.md](../../../../docs/wiki/fiction/README.md)
+- Index cards: `4`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `15` | [Wiki Fiction](../cards/2b981b332c_readme/0015_wiki-fiction_7ff05a.md) | queued |
 | H2 | `23` | [Start Here](../cards/2b981b332c_readme/0023_start-here_90573a.md) | queued |

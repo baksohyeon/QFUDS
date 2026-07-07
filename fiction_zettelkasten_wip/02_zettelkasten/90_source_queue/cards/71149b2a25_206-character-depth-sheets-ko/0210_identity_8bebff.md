@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_8bebff1b79ce
-title: ZK Queue - Identity
+doc_id: srcidx_8bebff1b79ce09e7
+title: "Source Index - Identity"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_character_depth_sheets_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Identity
+# Source Index - Identity
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 입체 캐릭터 시트](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
-- Source line: [line 210](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
+- Source document: [QFUDS SAGA 입체 캐릭터 시트](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
+- Source line: [line 210](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/206_character_depth_sheets_ko.md)
 - Heading level: `H3`
 - Source heading: `Identity`
 
@@ -33,14 +34,20 @@ processing_state: queued
 - H1: QFUDS SAGA 입체 캐릭터 시트
 - H2: Ione
 
+## Captured Source
+
+> - 이름: Ione. Aletheia Veil의 양심, 베일 분열의 인간 얼굴. 손목에 파란 매듭.
+> - 역할: 등록부가 약자를 지킬지 삼킬지의 딜레마를 한 몸에 진 인물.
+> - 한 줄 본질: 양쪽을 동시에 보는 게 강점이자 마비인 사람.
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

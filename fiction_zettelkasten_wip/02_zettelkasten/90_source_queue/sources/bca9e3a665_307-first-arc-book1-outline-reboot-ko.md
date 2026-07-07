@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_bca9e3a665
-title: ZK Source Map - QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인
+doc_id: srcidx_source_bca9e3a665
+title: "Source Map - QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_book1_outline_reboot_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인
+# Source Map - QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
-- Queue cards: `21`
+- Source document: [QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/307_first_arc_book1_outline_reboot_ko.md)
+- Index cards: `21`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `21` | [QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인](../cards/bca9e3a665_307-first-arc-book1-outline-reboot-ko/0021_heading_20a2f7.md) | queued |
+| H1 | `21` | [QFUDS SAGA 1부 Book 1 백지 재설계 통합 아웃라인](../cards/bca9e3a665_307-first-arc-book1-outline-reboot-ko/0021_qfuds-saga-1부-book-1-백지-재설계-통합-아웃라인_20a2f7.md) | queued |
 | H2 | `23` | [Purpose](../cards/bca9e3a665_307-first-arc-book1-outline-reboot-ko/0023_purpose_8e6a07.md) | queued |
 | H2 | `32` | [Book Promise](../cards/bca9e3a665_307-first-arc-book1-outline-reboot-ko/0032_book-promise_3bb739.md) | queued |
 | H2 | `44` | [Core Design Decision](../cards/bca9e3a665_307-first-arc-book1-outline-reboot-ko/0044_core-design-decision_96d25f.md) | queued |

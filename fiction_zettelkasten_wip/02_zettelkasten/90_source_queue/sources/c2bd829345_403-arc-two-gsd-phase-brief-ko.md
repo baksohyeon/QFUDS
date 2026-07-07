@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_c2bd829345
-title: ZK Source Map - QFUDS SAGA 2부 GSD Phase Brief
+doc_id: srcidx_source_c2bd829345
+title: "Source Map - QFUDS SAGA 2부 GSD Phase Brief"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_arc_two_gsd_phase_brief_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA 2부 GSD Phase Brief
+# Source Map - QFUDS SAGA 2부 GSD Phase Brief
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 2부 GSD Phase Brief](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
-- Queue cards: `13`
+- Source document: [QFUDS SAGA 2부 GSD Phase Brief](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/403_arc_two_gsd_phase_brief_ko.md)
+- Index cards: `13`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `15` | [QFUDS SAGA 2부 GSD Phase Brief](../cards/c2bd829345_403-arc-two-gsd-phase-brief-ko/0015_heading_1d2164.md) | queued |
+| H1 | `15` | [QFUDS SAGA 2부 GSD Phase Brief](../cards/c2bd829345_403-arc-two-gsd-phase-brief-ko/0015_qfuds-saga-2부-gsd-phase-brief_1d2164.md) | queued |
 | H2 | `27` | [Phase](../cards/c2bd829345_403-arc-two-gsd-phase-brief-ko/0027_phase_07e5f7.md) | queued |
 | H2 | `35` | [Objective](../cards/c2bd829345_403-arc-two-gsd-phase-brief-ko/0035_objective_9631bf.md) | queued |
 | H2 | `42` | [Reader Support](../cards/c2bd829345_403-arc-two-gsd-phase-brief-ko/0042_reader-support_52adf9.md) | queued |

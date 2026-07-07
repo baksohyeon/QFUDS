@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_1a4a027eeaeb
-title: ZK Queue - Baseline
+doc_id: srcidx_1a4a027eeaebc57e
+title: "Source Index - Baseline"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_continuity_index_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Baseline
+# Source Index - Baseline
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS Verse Continuity](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
-- Source line: [line 51](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
+- Source document: [QFUDS Verse Continuity](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
+- Source line: [line 51](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/00_continuity/README.md)
 - Heading level: `H2`
 - Source heading: `Baseline`
 
@@ -32,14 +33,20 @@ processing_state: queued
 
 - H1: QFUDS Verse Continuity
 
+## Captured Source
+
+> - Authoring baseline date: `2026-06-20`
+> - In-world chronology: not fixed
+> - Era IDs: not fixed
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_47ad64c536
-title: ZK Source Map - QFUDS SAGA First Arc Full Revision Pass
+doc_id: srcidx_source_47ad64c536
+title: "Source Map - QFUDS SAGA First Arc Full Revision Pass"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_full_revision_pass
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA First Arc Full Revision Pass
+# Source Map - QFUDS SAGA First Arc Full Revision Pass
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA First Arc Full Revision Pass](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
-- Queue cards: `20`
+- Source document: [QFUDS SAGA First Arc Full Revision Pass](../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/011_first_arc_full_revision_pass.md)
+- Index cards: `20`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `20` | [QFUDS SAGA First Arc Full Revision Pass](../cards/47ad64c536_011-first-arc-full-revision-pass/0020_qfuds-saga-first-arc-full-revision-pass_212026.md) | queued |
 | H2 | `22` | [Boundary](../cards/47ad64c536_011-first-arc-full-revision-pass/0022_boundary_3c1c5e.md) | queued |

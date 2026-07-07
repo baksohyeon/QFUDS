@@ -1,0 +1,51 @@
+---
+doc_id: srcidx_2f898b8f4c8b80d9
+title: "Source Index - 5편: Hawking Court (023)"
+doc_type: reference
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_saga_first_arc_integration_outline_ko
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
+last_updated: 2026-07-06
+---
+
+# Source Index - 5편: Hawking Court (023)
+
+```text
+fiction/provenance only
+research evidence: no
+canon action: none
+layer: source index (not a permanent zettel)
+processing_state: queued
+```
+
+## Source
+
+- Source document: [QFUDS SAGA 1부 편별 통합 아웃라인](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md)
+- Source line: [line 355](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/007_first_arc_integration_outline_ko.md)
+- Heading level: `H2`
+- Source heading: `5편: Hawking Court (023)`
+
+## Parent Context
+
+- H1: QFUDS SAGA 1부 편별 통합 아웃라인
+
+## Captured Source
+
+> 겉 사건: 블랙홀 복원 protocol이 봉인 증거로 법정에 들어온다. 시점·무대: 물리·우주
+> 법정, Liora. 끝의 전환: Liora는 죽은 자가 증언하도록 강제될 수 있음을 본다.
+
+## Processing Contract
+
+This is a generated source-index card, not a permanent zettel.
+
+To distill it:
+
+1. Reopen the source document for the full context.
+2. Extract one atomic claim, rule, tension, or open question.
+3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_6ec7a711c1
-title: ZK Source Map - QFUDS SAGA Hawking Court English Draft
+doc_id: srcidx_source_6ec7a711c1
+title: "Source Map - QFUDS SAGA Hawking Court English Draft"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_hawking_court_english_draft
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Hawking Court English Draft
+# Source Map - QFUDS SAGA Hawking Court English Draft
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Hawking Court English Draft](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
-- Queue cards: `8`
+- Source document: [QFUDS SAGA Hawking Court English Draft](../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/009_hawking_court_english_draft.md)
+- Index cards: `8`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `16` | [QFUDS SAGA Hawking Court English Draft](../cards/6ec7a711c1_009-hawking-court-english-draft/0016_qfuds-saga-hawking-court-english-draft_2074bb.md) | queued |
 | H2 | `18` | [Boundary](../cards/6ec7a711c1_009-hawking-court-english-draft/0018_boundary_ee67e2.md) | queued |

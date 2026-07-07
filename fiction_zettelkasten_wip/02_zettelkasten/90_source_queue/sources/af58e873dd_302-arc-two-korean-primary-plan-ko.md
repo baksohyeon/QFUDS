@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_af58e873dd
-title: ZK Source Map - QFUDS SAGA Arc Two Korean-Primary Plan
+doc_id: srcidx_source_af58e873dd
+title: "Source Map - QFUDS SAGA Arc Two Korean-Primary Plan"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_arc_two_korean_primary_plan_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Arc Two Korean-Primary Plan
+# Source Map - QFUDS SAGA Arc Two Korean-Primary Plan
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Arc Two Korean-Primary Plan](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
-- Queue cards: `10`
+- Source document: [QFUDS SAGA Arc Two Korean-Primary Plan](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/302_arc_two_korean_primary_plan_ko.md)
+- Index cards: `10`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `17` | [QFUDS SAGA Arc Two Korean-Primary Plan](../cards/af58e873dd_302-arc-two-korean-primary-plan-ko/0017_qfuds-saga-arc-two-korean-primary-plan_217353.md) | queued |
 | H2 | `24` | [Purpose](../cards/af58e873dd_302-arc-two-korean-primary-plan-ko/0024_purpose_827c46.md) | queued |

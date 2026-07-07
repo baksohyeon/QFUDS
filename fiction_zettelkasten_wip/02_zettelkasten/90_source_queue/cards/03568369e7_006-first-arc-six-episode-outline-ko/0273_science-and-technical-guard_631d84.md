@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_631d847415ee
-title: ZK Queue - Science And Technical Guard
+doc_id: srcidx_631d847415eed290
+title: "Source Index - Science And Technical Guard"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_six_episode_outline_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Science And Technical Guard
+# Source Index - Science And Technical Guard
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 첫 Arc 6화 Outline](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
-- Source line: [line 273](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
+- Source document: [QFUDS SAGA 첫 Arc 6화 Outline](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
+- Source line: [line 273](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/006_first_arc_six_episode_outline_ko.md)
 - Heading level: `H2`
 - Source heading: `Science And Technical Guard`
 
@@ -32,14 +33,24 @@ processing_state: queued
 
 - H1: QFUDS SAGA 첫 Arc 6화 Outline
 
+## Captured Source
+
+> | Risk | Guard |
+> | --- | --- |
+> | Bitcoin이 market commentary가 됨 | dead/crown/restored chain artifact로 유지 |
+> | Cryptography가 magic hacking이 됨 | institutional cost와 identity ambiguity를 요구 |
+> | Hawking restoration이 physics claim이 됨 | sealed taboo, fiction premise, court argument로만 framing |
+> | QFUDS가 validation language가 됨 | fiction 내부의 forbidden/rejected interpretive model로 유지 |
+> | Mara가 철학적 소품이 됨 | 모든 episode에서 legal, emotional, bodily cost를 준다 |
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

@@ -1,21 +1,22 @@
 ---
-doc_id: qfuds_fiction_zettelkasten_source_queue_index_ko
-title: QFUDS Fiction 제텔카스텐 Source Queue
+doc_id: qfuds_fiction_source_queue_index_ko
+title: QFUDS Fiction Source Queue
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
-  - qfuds_fiction_zettelkasten_system_index_ko
-next_gate: choose a source map, process cards one by one, then update the relevant MOC
+  - qfuds_fiction_source_index_ko
+next_gate: choose a source map, distill cards one by one, then update the relevant MOC
 last_updated: 2026-07-07
 ---
 
-# QFUDS Fiction 제텔카스텐 Source Queue
+# QFUDS Fiction Source Queue
 
 ```text
 fiction/provenance only
 research evidence: no
+layer: source index (not a permanent zettel)
 canon action: source queue only
 ```
 
@@ -45,7 +46,6 @@ canon action: source queue only
 | [1973388b5a_006-the-dead-exchange-english-draft](sources/1973388b5a_006-the-dead-exchange-english-draft.md) | queued |
 | [1d5c66e0c9_000-web-data-provenance-guard-spec-ko](sources/1d5c66e0c9_000-web-data-provenance-guard-spec-ko.md) | queued |
 | [1dd97dc75a_007-craft-and-political-theory-research-ko](sources/1dd97dc75a_007-craft-and-political-theory-research-ko.md) | queued |
-| [1f7307611a_904-zettel-human-signature-as-safety-and-capture-ko](sources/1f7307611a_904-zettel-human-signature-as-safety-and-capture-ko.md) | queued |
 | [1fbd465aa5_000-raw-source-ko](sources/1fbd465aa5_000-raw-source-ko.md) | queued |
 | [212346683f_readme](sources/212346683f_readme.md) | queued |
 | [21693efeab_124-far-future-native-lexicon-return-death-ko](sources/21693efeab_124-far-future-native-lexicon-return-death-ko.md) | queued |
@@ -67,7 +67,6 @@ canon action: source queue only
 | [394c6624bf_017-mara-order-totem-two-readings-seed-design-ko](sources/394c6624bf_017-mara-order-totem-two-readings-seed-design-ko.md) | queued |
 | [397f3f1a3b_119-world-expansion-wave3-geography-event-chains-ko](sources/397f3f1a3b_119-world-expansion-wave3-geography-event-chains-ko.md) | queued |
 | [3994285967_001-archive-refuses-the-answer-ko](sources/3994285967_001-archive-refuses-the-answer-ko.md) | queued |
-| [39bf92aa5c_004-zettelkasten-pilot-index-ko](sources/39bf92aa5c_004-zettelkasten-pilot-index-ko.md) | queued |
 | [39d9995ccd_002-reality-check-session-raw-ko](sources/39d9995ccd_002-reality-check-session-raw-ko.md) | queued |
 | [39eea7fd4c_405-creative-inputs-traceability-ko](sources/39eea7fd4c_405-creative-inputs-traceability-ko.md) | queued |
 | [3dbce8af1e_000-fiction-v2-reader-report-ko](sources/3dbce8af1e_000-fiction-v2-reader-report-ko.md) | queued |
@@ -77,7 +76,6 @@ canon action: source queue only
 | [451025b050_001-still-eating-spaghetti-ko](sources/451025b050_001-still-eating-spaghetti-ko.md) | queued |
 | [45885efaa8_309-sovereign-ai-open-closed-axis-brainstorm-ko](sources/45885efaa8_309-sovereign-ai-open-closed-axis-brainstorm-ko.md) | queued |
 | [45909d67e7_106-reader-accessibility-and-real-world-anchors-ko](sources/45909d67e7_106-reader-accessibility-and-real-world-anchors-ko.md) | queued |
-| [45d6b55083_910-zettel-domain-authority-map-ko](sources/45d6b55083_910-zettel-domain-authority-map-ko.md) | queued |
 | [4718b7cc25_018-saga-consistency-audit-2026-07-01-ko](sources/4718b7cc25_018-saga-consistency-audit-2026-07-01-ko.md) | queued |
 | [47ad64c536_011-first-arc-full-revision-pass](sources/47ad64c536_011-first-arc-full-revision-pass.md) | queued |
 | [481091e0ee_411-near-future-forecast-panel-method-ko](sources/481091e0ee_411-near-future-forecast-panel-method-ko.md) | queued |
@@ -90,7 +88,6 @@ canon action: source queue only
 | [4e3f96609a_105-cryptographic-death-and-hash-covenant-ko](sources/4e3f96609a_105-cryptographic-death-and-hash-covenant-ko.md) | queued |
 | [51cde701d4_417-shelf-renumber-map-ko](sources/51cde701d4_417-shelf-renumber-map-ko.md) | queued |
 | [53719b5e92_204-authorial-lenses-compression-ssot-soft-editing-ko](sources/53719b5e92_204-authorial-lenses-compression-ssot-soft-editing-ko.md) | queued |
-| [548813030d_326-zettelkasten-story-seed-register-ko](sources/548813030d_326-zettelkasten-story-seed-register-ko.md) | queued |
 | [54c6c09538_readme](sources/54c6c09538_readme.md) | queued |
 | [560cdfe3ac_readme](sources/560cdfe3ac_readme.md) | queued |
 | [56cdab230f_readme](sources/56cdab230f_readme.md) | queued |
@@ -99,9 +96,7 @@ canon action: source queue only
 | [58e075f4e3_324-saga-short-story-cycle-brief-ko](sources/58e075f4e3_324-saga-short-story-cycle-brief-ko.md) | queued |
 | [59341d91ef_032-origin-sael-webnovel-storyboard-en](sources/59341d91ef_032-origin-sael-webnovel-storyboard-en.md) | queued |
 | [5ad6a11da4_102-factions-cultures-power-ecology-ko](sources/5ad6a11da4_102-factions-cultures-power-ecology-ko.md) | queued |
-| [5b09272acc_909-zettel-recoverable-claimable-grammar-ko](sources/5b09272acc_909-zettel-recoverable-claimable-grammar-ko.md) | queued |
 | [5e9f0d38e1_304-format-throughline-and-progress-ko](sources/5e9f0d38e1_304-format-throughline-and-progress-ko.md) | queued |
-| [5ed095b6cd_911-zettel-soft-chronology-policy-ko](sources/5ed095b6cd_911-zettel-soft-chronology-policy-ko.md) | queued |
 | [632b779266_325-short-s1-reject-button-intent-card-ko](sources/632b779266_325-short-s1-reject-button-intent-card-ko.md) | queued |
 | [63511740f4_009-first-arc-reader-feedback-and-ai-tell-consolidation-ko](sources/63511740f4_009-first-arc-reader-feedback-and-ai-tell-consolidation-ko.md) | queued |
 | [64a44480c9_305-arc-two-episode-map-ko](sources/64a44480c9_305-arc-two-episode-map-ko.md) | queued |
@@ -109,7 +104,6 @@ canon action: source queue only
 | [67e577ed49_205-character-ensemble-voices-relationships-ko](sources/67e577ed49_205-character-ensemble-voices-relationships-ko.md) | queued |
 | [68bd25292c_022-identity-flood-revised-v2-korean-adaptation](sources/68bd25292c_022-identity-flood-revised-v2-korean-adaptation.md) | queued |
 | [68bdd471b7_034-mara-full-novel-korean-primary](sources/68bdd471b7_034-mara-full-novel-korean-primary.md) | queued |
-| [6920bcf491_005-zettelkasten-moc-ko](sources/6920bcf491_005-zettelkasten-moc-ko.md) | queued |
 | [6adbf87f57_009-korean-fiction-prose-naturalness-harness-ko](sources/6adbf87f57_009-korean-fiction-prose-naturalness-harness-ko.md) | queued |
 | [6d398d247c_023-hawking-court-revised-v2-korean-adaptation](sources/6d398d247c_023-hawking-court-revised-v2-korean-adaptation.md) | queued |
 | [6e9fa8f2a1_108-cryptographic-death-era-and-crypto-concepts-ko](sources/6e9fa8f2a1_108-cryptographic-death-era-and-crypto-concepts-ko.md) | queued |
@@ -147,7 +141,6 @@ canon action: source queue only
 | [9001bf1541_001-fiction-v2-source-triage-ko](sources/9001bf1541_001-fiction-v2-source-triage-ko.md) | queued |
 | [903bcde780_207-authorship-of-the-standard-theme-axis-ko](sources/903bcde780_207-authorship-of-the-standard-theme-axis-ko.md) | queued |
 | [91b16154f9_203-character-liora-sen-ko](sources/91b16154f9_203-character-liora-sen-ko.md) | queued |
-| [93472b8ce8_903-zettel-crypto-anchor-reversal-ko](sources/93472b8ce8_903-zettel-crypto-anchor-reversal-ko.md) | queued |
 | [9667f9503d_314-sael-origin-execution-sheet-ko](sources/9667f9503d_314-sael-origin-execution-sheet-ko.md) | queued |
 | [9734af9fbb_023-hawking-court-revised-v2-korean-adaptation](sources/9734af9fbb_023-hawking-court-revised-v2-korean-adaptation.md) | queued |
 | [9747e788ad_012-exhibit-s0-episode1-revised-v2-english-draft](sources/9747e788ad_012-exhibit-s0-episode1-revised-v2-english-draft.md) | queued |
@@ -159,33 +152,25 @@ canon action: source queue only
 | [9f96cb6ab4_319-new-book1-orpheus-design-ko](sources/9f96cb6ab4_319-new-book1-orpheus-design-ko.md) | queued |
 | [9fb087c302_022-identity-flood-revised-v2-korean-adaptation](sources/9fb087c302_022-identity-flood-revised-v2-korean-adaptation.md) | queued |
 | [a011276d1e_018-first-arc-polish-read-order-pass](sources/a011276d1e_018-first-arc-polish-read-order-pass.md) | queued |
-| [a0cda0046c_913-zettel-unknown-as-authorial-tool-ko](sources/a0cda0046c_913-zettel-unknown-as-authorial-tool-ko.md) | queued |
 | [a255178e57_020-the-dead-exchange-revised-v2-korean-adaptation](sources/a255178e57_020-the-dead-exchange-revised-v2-korean-adaptation.md) | queued |
 | [a3de21e0f2_416-fable-worldview-canon-audit-prompt-ko](sources/a3de21e0f2_416-fable-worldview-canon-audit-prompt-ko.md) | queued |
 | [a3edb32608_007-the-last-hodler-english-draft](sources/a3edb32608_007-the-last-hodler-english-draft.md) | queued |
 | [a41cd2fee6_003-ten-mpc-temptation-ko](sources/a41cd2fee6_003-ten-mpc-temptation-ko.md) | queued |
 | [a61532fa80_412-real-world-and-physics-research-anchors-ko](sources/a61532fa80_412-real-world-and-physics-research-anchors-ko.md) | queued |
 | [a69d90e19e_000-branch-map-ko](sources/a69d90e19e_000-branch-map-ko.md) | queued |
-| [a7cfcfeb47_914-zettel-laur-four-stamps-uncertainty-ko](sources/a7cfcfeb47_914-zettel-laur-four-stamps-uncertainty-ko.md) | queued |
-| [a9b72d3e1c_006-zettelkasten-inbox-ko](sources/a9b72d3e1c_006-zettelkasten-inbox-ko.md) | queued |
 | [abd42fbeae_312-first-arc-origin-scene-cards-ko](sources/abd42fbeae_312-first-arc-origin-scene-cards-ko.md) | queued |
-| [acb2e072a4_907-zettel-qday-as-authentication-crisis-ko](sources/acb2e072a4_907-zettel-qday-as-authentication-crisis-ko.md) | queued |
 | [ad9531a1ba_308-first-arc-scene-cards-ko](sources/ad9531a1ba_308-first-arc-scene-cards-ko.md) | queued |
-| [ae669998cf_912-zettel-deep-time-extension-guard-ko](sources/ae669998cf_912-zettel-deep-time-extension-guard-ko.md) | queued |
 | [af58e873dd_302-arc-two-korean-primary-plan-ko](sources/af58e873dd_302-arc-two-korean-primary-plan-ko.md) | queued |
 | [b00118e189_readme](sources/b00118e189_readme.md) | queued |
 | [b0ffc9738f_007-first-arc-integration-outline-ko](sources/b0ffc9738f_007-first-arc-integration-outline-ko.md) | queued |
 | [b25fe5a7b5_320-near-future-recenter-direction-ko](sources/b25fe5a7b5_320-near-future-recenter-direction-ko.md) | queued |
-| [b41911f9a2_901-zettel-thermodynamic-cost-of-restoration-ko](sources/b41911f9a2_901-zettel-thermodynamic-cost-of-restoration-ko.md) | queued |
 | [b4734d7733_000-saga-encyclopedia-ko](sources/b4734d7733_000-saga-encyclopedia-ko.md) | queued |
 | [b484b7bc7f_001-world-direction-matrix-ko](sources/b484b7bc7f_001-world-direction-matrix-ko.md) | queued |
 | [b5ad12dbad_001-first-arc-dejargon-polish-revision-plan-ko](sources/b5ad12dbad_001-first-arc-dejargon-polish-revision-plan-ko.md) | queued |
 | [b5df200d19_002-first-arc-release-immersion-revision-plan-ko](sources/b5df200d19_002-first-arc-release-immersion-revision-plan-ko.md) | queued |
 | [b7def39692_002-gsd-planning-bridge-ko](sources/b7def39692_002-gsd-planning-bridge-ko.md) | queued |
-| [b88b8d1dd3_906-zettel-resolution-class-after-death-ko](sources/b88b8d1dd3_906-zettel-resolution-class-after-death-ko.md) | queued |
 | [b892cb00f5_005-university-creative-writing-reference-matrix-ko](sources/b892cb00f5_005-university-creative-writing-reference-matrix-ko.md) | queued |
 | [b90d14570c_029-first-arc-book1-reboot-korean-primary](sources/b90d14570c_029-first-arc-book1-reboot-korean-primary.md) | queued |
-| [b912e4efe0_908-zettel-verification-sovereignty-ko](sources/b912e4efe0_908-zettel-verification-sovereignty-ko.md) | queued |
 | [b9479d7cdb_010-the-broken-crown-english-draft](sources/b9479d7cdb_010-the-broken-crown-english-draft.md) | queued |
 | [bb8865fce9_323-register-morph-opening-and-ending-options-ko](sources/bb8865fce9_323-register-morph-opening-and-ending-options-ko.md) | queued |
 | [bc36aa02f7_011-fiction-agentic-workflow-guide-ko](sources/bc36aa02f7_011-fiction-agentic-workflow-guide-ko.md) | queued |
@@ -213,10 +198,8 @@ canon action: source queue only
 | [cbc5f2bde0_315-qday-incident-bridge-outline-ko](sources/cbc5f2bde0_315-qday-incident-bridge-outline-ko.md) | queued |
 | [cc1a63bd18_118-world-expansion-wave2-factions-relationships-ko](sources/cc1a63bd18_118-world-expansion-wave2-factions-relationships-ko.md) | queued |
 | [cd20af585e_005-first-arc-r4-aphorism-ritual-plan-ko](sources/cd20af585e_005-first-arc-r4-aphorism-ritual-plan-ko.md) | queued |
-| [cd97cfb541_905-zettel-unitarity-does-not-guarantee-restoration-ko](sources/cd97cfb541_905-zettel-unitarity-does-not-guarantee-restoration-ko.md) | queued |
 | [ce39eee028_010-reader-onboarding-harness-ko](sources/ce39eee028_010-reader-onboarding-harness-ko.md) | queued |
 | [d00c4e0014_401-agentic-saga-system-ko](sources/d00c4e0014_401-agentic-saga-system-ko.md) | queued |
-| [d012272f4b_900-zettel-restoration-is-copy-ko](sources/d012272f4b_900-zettel-restoration-is-copy-ko.md) | queued |
 | [d1a5ac079a_013-the-dead-exchange-revised-v2-english-draft](sources/d1a5ac079a_013-the-dead-exchange-revised-v2-english-draft.md) | queued |
 | [d2aea9428c_111-world-compendium-codex-ko](sources/d2aea9428c_111-world-compendium-codex-ko.md) | queued |
 | [d2fc4bac64_113-restoration-mechanism-correction-ko](sources/d2fc4bac64_113-restoration-mechanism-correction-ko.md) | queued |
@@ -234,7 +217,6 @@ canon action: source queue only
 | [dfbdfc89ae_030-origin-arc-sael-korean-primary](sources/dfbdfc89ae_030-origin-arc-sael-korean-primary.md) | queued |
 | [e4a80b7434_101-world-anchor-and-verisimilitude-ko](sources/e4a80b7434_101-world-anchor-and-verisimilitude-ko.md) | queued |
 | [e523e1efe1_005-exhibit-s0-episode1-revised-english-draft](sources/e523e1efe1_005-exhibit-s0-episode1-revised-english-draft.md) | queued |
-| [e75a8a43f9_902-zettel-two-crisis-spine-ko](sources/e75a8a43f9_902-zettel-two-crisis-spine-ko.md) | queued |
 | [ea3383ba75_004-creative-writing-craft-harness-ko](sources/ea3383ba75_004-creative-writing-craft-harness-ko.md) | queued |
 | [ecbdc4d152_021-the-last-hodler-revised-v2-korean-adaptation](sources/ecbdc4d152_021-the-last-hodler-revised-v2-korean-adaptation.md) | queued |
 | [ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko](sources/ed16deda62_104-post-agi-civilization-history-bilingual-protocol-ko.md) | queued |

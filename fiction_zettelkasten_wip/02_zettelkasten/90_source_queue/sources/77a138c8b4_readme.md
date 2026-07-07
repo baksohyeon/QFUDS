@@ -1,36 +1,37 @@
 ---
-doc_id: zkqv_source_77a138c8b4
-title: ZK Source Map - Fiction Catalog
+doc_id: srcidx_source_77a138c8b4
+title: "Source Map - Fiction Catalog"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - fiction_catalog_index_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - Fiction Catalog
+# Source Map - Fiction Catalog
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [Fiction Catalog](../../../../../../docs/wiki/fiction/01_catalog/README.md)
-- Source path: [docs/wiki/fiction/01_catalog/README.md](../../../../../../docs/wiki/fiction/01_catalog/README.md)
-- Queue cards: `8`
+- Source document: [Fiction Catalog](../../../../docs/wiki/fiction/01_catalog/README.md)
+- Source path: [docs/wiki/fiction/01_catalog/README.md](../../../../docs/wiki/fiction/01_catalog/README.md)
+- Index cards: `8`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `16` | [Fiction Catalog](../cards/77a138c8b4_readme/0016_fiction-catalog_da533f.md) | queued |
-| H2 | `25` | [이 폴더의 문서](../cards/77a138c8b4_readme/0025_heading_494899.md) | queued |
+| H2 | `25` | [이 폴더의 문서](../cards/77a138c8b4_readme/0025_이-폴더의-문서_494899.md) | queued |
 | H2 | `38` | [Authoring Baseline](../cards/77a138c8b4_readme/0038_authoring-baseline_cdaabd.md) | queued |
 | H2 | `47` | [Current Shelves](../cards/77a138c8b4_readme/0047_current-shelves_d066aa.md) | queued |
 | H2 | `69` | [Active Works](../cards/77a138c8b4_readme/0069_active-works_12bb02.md) | queued |

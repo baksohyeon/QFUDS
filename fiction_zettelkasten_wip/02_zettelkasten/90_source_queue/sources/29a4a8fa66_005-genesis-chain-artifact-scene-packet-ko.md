@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_29a4a8fa66
-title: ZK Source Map - QFUDS SAGA Genesis Chain 유물 장면 패킷
+doc_id: srcidx_source_29a4a8fa66
+title: "Source Map - QFUDS SAGA Genesis Chain 유물 장면 패킷"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_genesis_chain_artifact_scene_packet_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Genesis Chain 유물 장면 패킷
+# Source Map - QFUDS SAGA Genesis Chain 유물 장면 패킷
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Genesis Chain 유물 장면 패킷](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
-- Queue cards: `18`
+- Source document: [QFUDS SAGA Genesis Chain 유물 장면 패킷](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
+- Index cards: `18`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `16` | [QFUDS SAGA Genesis Chain 유물 장면 패킷](../cards/29a4a8fa66_005-genesis-chain-artifact-scene-packet-ko/0016_heading_f1e31c.md) | queued |
+| H1 | `16` | [QFUDS SAGA Genesis Chain 유물 장면 패킷](../cards/29a4a8fa66_005-genesis-chain-artifact-scene-packet-ko/0016_qfuds-saga-genesis-chain-유물-장면-패킷_f1e31c.md) | queued |
 | H2 | `18` | [Purpose](../cards/29a4a8fa66_005-genesis-chain-artifact-scene-packet-ko/0018_purpose_dd8f3d.md) | queued |
 | H2 | `32` | [Source Boundary](../cards/29a4a8fa66_005-genesis-chain-artifact-scene-packet-ko/0032_source-boundary_2c4754.md) | queued |
 | H2 | `46` | [Classification](../cards/29a4a8fa66_005-genesis-chain-artifact-scene-packet-ko/0046_classification_beb98f.md) | queued |

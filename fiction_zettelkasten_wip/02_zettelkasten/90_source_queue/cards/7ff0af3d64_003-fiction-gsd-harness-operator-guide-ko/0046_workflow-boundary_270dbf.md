@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_270dbfe94b8a
-title: ZK Queue - Workflow Boundary
+doc_id: srcidx_270dbfe94b8a025e
+title: "Source Index - Workflow Boundary"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - fiction_gsd_harness_operator_guide_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Workflow Boundary
+# Source Index - Workflow Boundary
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [Fiction GSD 하네스 운영 가이드](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
-- Source path: [docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
-- Source line: [line 46](../../../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
+- Source document: [Fiction GSD 하네스 운영 가이드](../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
+- Source path: [docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md](../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
+- Source line: [line 46](../../../../../docs/wiki/fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
 - Heading level: `H2`
 - Source heading: `Workflow Boundary`
 
@@ -32,14 +33,27 @@ processing_state: queued
 
 - H1: Fiction GSD 하네스 운영 가이드
 
+## Captured Source
+
+> This document introduces no external-source or source-product claim.
+>
+> External-source handling remains governed by
+> [Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+>
+> Current workflow state:
+>
+> ```text
+> no_asset_found
+> ```
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

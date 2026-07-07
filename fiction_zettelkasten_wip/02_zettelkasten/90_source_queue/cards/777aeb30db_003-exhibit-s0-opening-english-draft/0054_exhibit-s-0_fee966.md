@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_fee966983c6f
-title: ZK Queue - Exhibit S-0
+doc_id: srcidx_fee966983c6fbda0
+title: "Source Index - Exhibit S-0"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_exhibit_s0_opening_english_draft
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Exhibit S-0
+# Source Index - Exhibit S-0
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Exhibit S-0 Opening English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md)
-- Source line: [line 54](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md)
+- Source document: [QFUDS SAGA Exhibit S-0 Opening English Draft](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md)
+- Source line: [line 54](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/003_exhibit_s0_opening_english_draft.md)
 - Heading level: `H3`
 - Source heading: `Exhibit S-0`
 
@@ -33,14 +34,59 @@ processing_state: queued
 - H1: QFUDS SAGA Exhibit S-0 Opening English Draft
 - H2: Original English Draft
 
+## Captured Source
+
+> The boy in the third queue had three names and was trying not to cry.
+>
+> Liora Sen noticed him because he was doing it badly. Children who came to the
+> Waiting City learned early how grief was supposed to look: quiet, folded,
+> administrative. The boy had not learned. His face kept betraying him in small
+> illegal motions. A jaw tightened. A breath caught. His hands opened and closed
+> around the paper bracelet that marked him as a dependent claimant.
+>
+> The bracelet was blue.
+>
+> Low-resolution grief insurance.
+>
+> His mother knelt beside him and whispered the names again.
+>
+> "Public name."
+>
+> "Tamas."
+>
+> "Civic name."
+>
+> "Tamas Elian Daur."
+>
+> "Silent name."
+>
+> The boy looked past her, toward the white towers of the Court of Continuance.
+> They rose from the morning fog like instruments left standing after an
+> operation. Around them the Waiting City was already awake: memorial vendors
+> rolling carts of folded veils, petition clerks calling family numbers, monks
+> from the Oblivion Cloisters offering blank paper to anyone willing to sign
+> before hope made them foolish.
+>
+> "Silent name," his mother repeated.
+>
+> The boy shook his head.
+>
+> Good, Liora thought.
+>
+> She did not mean it kindly. Kindness was too large for the hour. She meant only
+> that the child still understood one of the few lessons the century had not
+> managed to ruin: a person should keep at least one door without a handle.
+>
+> _(excerpt truncated — open the source for the full text)_
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

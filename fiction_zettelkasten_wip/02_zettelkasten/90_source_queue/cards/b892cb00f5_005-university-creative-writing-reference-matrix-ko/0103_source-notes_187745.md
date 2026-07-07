@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_1877454e3077
-title: ZK Queue - Source Notes
+doc_id: srcidx_1877454e30774102
+title: "Source Index - Source Notes"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - fiction_university_creative_writing_reference_matrix_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Source Notes
+# Source Index - Source Notes
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [대학 문예창작 참고 매트릭스](../../../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
-- Source path: [docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md](../../../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
-- Source line: [line 103](../../../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
+- Source document: [대학 문예창작 참고 매트릭스](../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
+- Source path: [docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md](../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
+- Source line: [line 103](../../../../../docs/wiki/fiction/00_studio/005_university_creative_writing_reference_matrix_ko.md)
 - Heading level: `H2`
 - Source heading: `Source Notes`
 
@@ -32,14 +33,22 @@ processing_state: queued
 
 - H1: 대학 문예창작 참고 매트릭스
 
+## Captured Source
+
+> | Source | Used for | Workflow state |
+> | --- | --- | --- |
+> | `https://extension.harvard.edu/academics/programs/creative-writing-literature-masters-degree-program/` | negative check only; URL returned 404 during current verification | `searched_no_hit` |
+> | [MIT Course 21W Catalog](https://catalog.mit.edu/subjects/21w/) | science writing, workshop, critique, research-for-writers, audience, thesis/revision process | `asset_available_not_downloaded` |
+> | [SNU College of Humanities department page](https://humanities.snu.ac.kr/academics/department) | Korean humanities/literature reference layer and Korean-reader support | `hit_not_cached` |
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

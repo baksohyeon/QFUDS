@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_9bd9d5fa0321
-title: ZK Queue - First Episode Hook Insert
+doc_id: srcidx_9bd9d5fa0321f01e
+title: "Source Index - First Episode Hook Insert"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_genesis_chain_artifact_scene_packet_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - First Episode Hook Insert
+# Source Index - First Episode Hook Insert
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Genesis Chain 유물 장면 패킷](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
-- Source line: [line 206](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
+- Source document: [QFUDS SAGA Genesis Chain 유물 장면 패킷](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
+- Source line: [line 206](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/005_genesis_chain_artifact_scene_packet_ko.md)
 - Heading level: `H2`
 - Source heading: `First Episode Hook Insert`
 
@@ -32,14 +33,24 @@ processing_state: queued
 
 - H1: QFUDS SAGA Genesis Chain 유물 장면 패킷
 
+## Captured Source
+
+> `Exhibit S-0`에 바로 넣을 수 있는 추가 beat:
+>
+> | Insert point | Beat |
+> | --- | --- |
+> | After Genesis Chain precedent | Liora notices the court calls the recovered Bitcoin key "dead" but treats its authority as living. |
+> | Before Mara enters | A clerk wheels in the Broken Crown exhibit, and nobody in the room agrees whether it is evidence, relic, or warning. |
+> | After Mara refuses | The same language used for a dead key starts being applied to Mara: recovered, admissible, continuous, disputed. |
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

@@ -1,0 +1,62 @@
+---
+doc_id: srcidx_29fc2bdda82a4af7
+title: "Source Index - 검증 게이트 (release 승격 조건)"
+doc_type: reference
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_saga_first_arc_release_immersion_revision_plan_ko
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
+last_updated: 2026-07-06
+---
+
+# Source Index - 검증 게이트 (release 승격 조건)
+
+```text
+fiction/provenance only
+research evidence: no
+canon action: none
+layer: source index (not a permanent zettel)
+processing_state: queued
+```
+
+## Source
+
+- Source document: [QFUDS SAGA 1부 Release 승격 — 현장감·묘사 강화 퇴고 기준](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
+- Source line: [line 169](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/002_first_arc_release_immersion_revision_plan_ko.md)
+- Heading level: `H2`
+- Source heading: `검증 게이트 (release 승격 조건)`
+
+## Parent Context
+
+- H1: QFUDS SAGA 1부 Release 승격 — 현장감·묘사 강화 퇴고 기준
+
+## Captured Source
+
+> 각 편이 아래를 모두 통과해야 `40_release/` 후보가 된다.
+>
+> - **스토리 아키텍처 게이트(위), 구조 1순위.** 인과·상승·아크·중심질문·RUE.
+> - **시리즈 프리플라이트 표.** 기존 원고도 `Series Gate Applied` 또는 동등한
+>   편별 적용 기록이 있어야 한다.
+> - **독자 이해도 게이트(위), 최우선.** 첫 페이지 오리엔테이션 통과.
+> - **기술 정확성·평이성.** 과학/기술 서술이 실제 메커니즘대로 정확 + 초등학생 이해.
+> - **독자 페르소나 리텐션 테스트(아래) 통과.**
+> - `ai-tell-detector`: CLEAN(S1/S2 0). em dash 0 (한국어·영어판 모두 금지, 영미권에서도 AI-tell). 시각 장식 0.
+> - `naturalness-reviewer`: A급(과윤문 0).
+> - content-fidelity: 플롯·수치·인용·순서·필드 마크 불변.
+> - 영어성 토큰 density: de-jargon pass 수준 유지(증가 없음).
+> - `python3 scripts/validate_docs.py` 통과.
+
+## Processing Contract
+
+This is a generated source-index card, not a permanent zettel.
+
+To distill it:
+
+1. Reopen the source document for the full context.
+2. Extract one atomic claim, rule, tension, or open question.
+3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

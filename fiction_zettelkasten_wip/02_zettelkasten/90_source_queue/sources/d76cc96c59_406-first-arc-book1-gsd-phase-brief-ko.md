@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_d76cc96c59
-title: ZK Source Map - QFUDS SAGA 1부 Book 1 GSD Phase Brief
+doc_id: srcidx_source_d76cc96c59
+title: "Source Map - QFUDS SAGA 1부 Book 1 GSD Phase Brief"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_first_arc_book1_gsd_phase_brief_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA 1부 Book 1 GSD Phase Brief
+# Source Map - QFUDS SAGA 1부 Book 1 GSD Phase Brief
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 1부 Book 1 GSD Phase Brief](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md](../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md)
-- Queue cards: `17`
+- Source document: [QFUDS SAGA 1부 Book 1 GSD Phase Brief](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md](../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/406_first_arc_book1_gsd_phase_brief_ko.md)
+- Index cards: `17`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `17` | [QFUDS SAGA 1부 Book 1 GSD Phase Brief](../cards/d76cc96c59_406-first-arc-book1-gsd-phase-brief-ko/0017_heading_2c838b.md) | queued |
+| H1 | `17` | [QFUDS SAGA 1부 Book 1 GSD Phase Brief](../cards/d76cc96c59_406-first-arc-book1-gsd-phase-brief-ko/0017_qfuds-saga-1부-book-1-gsd-phase-brief_2c838b.md) | queued |
 | H2 | `19` | [Cascade Drift Status](../cards/d76cc96c59_406-first-arc-book1-gsd-phase-brief-ko/0019_cascade-drift-status_520c30.md) | queued |
 | H2 | `29` | [Phase](../cards/d76cc96c59_406-first-arc-book1-gsd-phase-brief-ko/0029_phase_e540a6.md) | queued |
 | H2 | `37` | [Objective](../cards/d76cc96c59_406-first-arc-book1-gsd-phase-brief-ko/0037_objective_d81a12.md) | queued |

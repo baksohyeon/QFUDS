@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_0ee7bfb94a35
-title: ZK Queue - First Arc Rough Draft Status
+doc_id: srcidx_0ee7bfb94a35a489
+title: "Source Index - First Arc Rough Draft Status"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_the_broken_crown_english_draft
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - First Arc Rough Draft Status
+# Source Index - First Arc Rough Draft Status
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA The Broken Crown English Draft](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
-- Source line: [line 533](../../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
+- Source document: [QFUDS SAGA The Broken Crown English Draft](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
+- Source line: [line 533](../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
 - Heading level: `H2`
 - Source heading: `First Arc Rough Draft Status`
 
@@ -32,14 +33,25 @@ processing_state: queued
 
 - H1: QFUDS SAGA The Broken Crown English Draft
 
+## Captured Source
+
+> | Episode | Draft file | Status |
+> | --- | --- | --- |
+> | 1. Exhibit S-0 | [005](005_exhibit_s0_episode1_revised_english_draft.md) | rough draft complete |
+> | 2. The Dead Exchange | [006](006_the_dead_exchange_english_draft.md) | rough draft complete |
+> | 3. The Last Hodler | [007](007_the_last_hodler_english_draft.md) | rough draft complete |
+> | 4. Identity Flood | [008](008_identity_flood_english_draft.md) | rough draft complete |
+> | 5. Hawking Court | [009](009_hawking_court_english_draft.md) | rough draft complete |
+> | 6. The Broken Crown | this document | rough draft complete |
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

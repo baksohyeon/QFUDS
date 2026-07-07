@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_217e0ed859f9
-title: ZK Queue - Promotion gate
+doc_id: srcidx_217e0ed859f9036b
+title: "Source Index - Promotion gate"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_fable_worldview_canon_audit_prompt_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Promotion gate
+# Source Index - Promotion gate
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Fable 세계관 캐논 감사 프롬프트](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
-- Source line: [line 131](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
+- Source document: [QFUDS SAGA Fable 세계관 캐논 감사 프롬프트](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
+- Source line: [line 131](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/416_fable_worldview_canon_audit_prompt_ko.md)
 - Heading level: `H1`
 - Source heading: `Promotion gate`
 
@@ -32,14 +33,27 @@ processing_state: queued
 
 - none
 
+## Captured Source
+
+> For every promotion candidate, check:
+> 1. authority: which SSOT wins if there is conflict.
+> 2. status: source shelf and current canon/candidate/provenance state.
+> 3. naming: no collision with 109 or existing names.
+> 4. physics: no contradiction with 114/021.
+> 5. timeline: no contradiction with 002/011/036/024/039.
+> 6. qday: no contradiction with 115/028.
+> 7. reader effect: why this must become canon now, not merely density.
+> 8. wiring: target SSOT, README, depends_on, index edits needed.
+> 9. hygiene: em dash 0, "박-" slang 0, no lecture texture, no real-group direct mapping.
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

@@ -1,36 +1,37 @@
 ---
-doc_id: zkqv_source_235025fabc
-title: ZK Source Map - QFUDS SAGA Mara Veyr 프롤로그 연구 하네스
+doc_id: srcidx_source_235025fabc
+title: "Source Map - QFUDS SAGA Mara Veyr 프롤로그 연구 하네스"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_mara_veyr_prologue_research_harness_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Mara Veyr 프롤로그 연구 하네스
+# Source Map - QFUDS SAGA Mara Veyr 프롤로그 연구 하네스
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
-- Queue cards: `27`
+- Source document: [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/00_workroom/002_mara_veyr_prologue_research_harness_ko.md)
+- Index cards: `27`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `17` | [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0017_heading_6da424.md) | queued |
-| H2 | `19` | [목적](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0019_heading_fa4821.md) | queued |
+| H1 | `17` | [QFUDS SAGA Mara Veyr 프롤로그 연구 하네스](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0017_qfuds-saga-mara-veyr-프롤로그-연구-하네스_6da424.md) | queued |
+| H2 | `19` | [목적](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0019_목적_fa4821.md) | queued |
 | H2 | `37` | [Workflow Boundary](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0037_workflow-boundary_52dbb5.md) | queued |
 | H2 | `58` | [Research Basis](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0058_research-basis_a80762.md) | queued |
 | H2 | `70` | [Novelist Rule](../cards/235025fabc_002-mara-veyr-prologue-research-harness-ko/0070_novelist-rule_83eb87.md) | queued |

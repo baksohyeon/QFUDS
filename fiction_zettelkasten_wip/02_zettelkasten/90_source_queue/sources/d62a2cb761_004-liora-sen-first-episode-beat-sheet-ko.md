@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_d62a2cb761
-title: ZK Source Map - QFUDS SAGA Liora Sen 첫 Episode Beat Sheet
+doc_id: srcidx_source_d62a2cb761
+title: "Source Map - QFUDS SAGA Liora Sen 첫 Episode Beat Sheet"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_liora_sen_first_episode_beat_sheet_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA Liora Sen 첫 Episode Beat Sheet
+# Source Map - QFUDS SAGA Liora Sen 첫 Episode Beat Sheet
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
-- Queue cards: `18`
+- Source document: [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/004_liora_sen_first_episode_beat_sheet_ko.md)
+- Index cards: `18`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `16` | [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](../cards/d62a2cb761_004-liora-sen-first-episode-beat-sheet-ko/0016_heading_69cdd2.md) | queued |
+| H1 | `16` | [QFUDS SAGA Liora Sen 첫 Episode Beat Sheet](../cards/d62a2cb761_004-liora-sen-first-episode-beat-sheet-ko/0016_qfuds-saga-liora-sen-첫-episode-beat-sheet_69cdd2.md) | queued |
 | H2 | `18` | [Purpose](../cards/d62a2cb761_004-liora-sen-first-episode-beat-sheet-ko/0018_purpose_2118c9.md) | queued |
 | H2 | `31` | [Source Boundary](../cards/d62a2cb761_004-liora-sen-first-episode-beat-sheet-ko/0031_source-boundary_34ee06.md) | queued |
 | H2 | `45` | [Episode Contract](../cards/d62a2cb761_004-liora-sen-first-episode-beat-sheet-ko/0045_episode-contract_2103dd.md) | queued |

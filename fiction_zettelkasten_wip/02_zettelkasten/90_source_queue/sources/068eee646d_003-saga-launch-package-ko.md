@@ -1,35 +1,36 @@
 ---
-doc_id: zkqv_source_068eee646d
-title: ZK Source Map - QFUDS SAGA 출범 패키지
+doc_id: srcidx_source_068eee646d
+title: "Source Map - QFUDS SAGA 출범 패키지"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_launch_package_ko
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA 출범 패키지
+# Source Map - QFUDS SAGA 출범 패키지
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA 출범 패키지](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
-- Queue cards: `18`
+- Source document: [QFUDS SAGA 출범 패키지](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_pre_reboot_planning/10_story_design/003_saga_launch_package_ko.md)
+- Index cards: `18`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
-| H1 | `18` | [QFUDS SAGA 출범 패키지](../cards/068eee646d_003-saga-launch-package-ko/0018_heading_6e5a73.md) | queued |
+| H1 | `18` | [QFUDS SAGA 출범 패키지](../cards/068eee646d_003-saga-launch-package-ko/0018_qfuds-saga-출범-패키지_6e5a73.md) | queued |
 | H2 | `20` | [Purpose](../cards/068eee646d_003-saga-launch-package-ko/0020_purpose_ce3ce8.md) | queued |
 | H2 | `28` | [Source Boundary](../cards/068eee646d_003-saga-launch-package-ko/0028_source-boundary_d8385b.md) | queued |
 | H2 | `42` | [Core Question](../cards/068eee646d_003-saga-launch-package-ko/0042_core-question_b35f20.md) | queued |

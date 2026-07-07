@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_f34c66409051
-title: ZK Queue - Workflow Boundary
+doc_id: srcidx_f34c664090511196
+title: "Source Index - Workflow Boundary"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_fiction_saga_003_ten_mpc_temptation_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Workflow Boundary
+# Source Index - Workflow Boundary
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [제3화: 10 Mpc의 유혹](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
-- Source path: [docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
-- Source line: [line 25](../../../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
+- Source document: [제3화: 10 Mpc의 유혹](../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
+- Source path: [docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md](../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
+- Source line: [line 25](../../../../../docs/wiki/fiction/90_archive/lineage-prototype/003_ten_mpc_temptation_ko.md)
 - Heading level: `H2`
 - Source heading: `Workflow Boundary`
 
@@ -32,14 +33,32 @@ processing_state: queued
 
 - H1: 제3화: 10 Mpc의 유혹
 
+## Captured Source
+
+> This fiction episode does not introduce a new external web, PDF, table, product,
+> cache, digitization, or availability claim. It translates existing QFUDS lineage
+> motifs into fiction only.
+>
+> External-source handling remains governed by
+> [Research Asset and Product Workflow](../../../../../.agent/workflows/research-asset-product-workflow.md).
+> Inherited workflow states include:
+>
+> ```text
+> asset_cached
+> asset_extracted_not_digitized
+> source_text_parse
+> manual_structured_extract
+> inspected_no_numerical_product
+> ```
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_e1524eec4169
-title: ZK Queue - Source Baseline
+doc_id: srcidx_e1524eec4169083a
+title: "Source Index - Source Baseline"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_revisions_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Source Baseline
+# Source Index - Source Baseline
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [031 origin 웹소설 콘티 텔링 Retention Gate Run 2026-06-22 1308777](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
-- Source line: [line 43](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
+- Source document: [031 origin 웹소설 콘티 텔링 Retention Gate Run 2026-06-22 1308777](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
+- Source line: [line 43](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/012_origin_sael_webnovel_retention_gate_run_20260622_1308777_ko.md)
 - Heading level: `H2`
 - Source heading: `Source Baseline`
 
@@ -32,14 +33,20 @@ processing_state: queued
 
 - H1: 031 origin 웹소설 콘티 텔링 Retention Gate Run 2026-06-22 1308777
 
+## Captured Source
+
+> | Source id | Path | Baseline commit | Blob hash | Notes |
+> | --- | --- | --- | --- | --- |
+> | S1 | 20_drafts/1부/031_origin_sael_webnovel_storyboard_ko.md | 1308777 | 83fcc975c0745605f1622e8dec0fa895f962b11b | 회차1~7 완본 |
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

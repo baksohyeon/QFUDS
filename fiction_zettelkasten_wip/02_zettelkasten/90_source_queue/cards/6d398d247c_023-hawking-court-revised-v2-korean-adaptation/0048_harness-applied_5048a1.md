@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_5048a123b046
-title: ZK Queue - Harness Applied
+doc_id: srcidx_5048a123b04601a2
+title: "Source Index - Harness Applied"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_hawking_court_revised_v2_korean_adaptation_v3snapshot
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Harness Applied
+# Source Index - Harness Applied
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA Hawking Court Revised V2 Korean Adaptation](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md)
-- Source line: [line 48](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md)
+- Source document: [QFUDS SAGA Hawking Court Revised V2 Korean Adaptation](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md)
+- Source line: [line 48](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_v3_pre_R4/023_hawking_court_revised_v2_korean_adaptation.md)
 - Heading level: `H2`
 - Source heading: `Harness Applied`
 
@@ -32,14 +33,30 @@ processing_state: queued
 
 - H1: QFUDS SAGA Hawking Court Revised V2 Korean Adaptation
 
+## Captured Source
+
+> - Craft harness:
+>   [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+> - Narrative frame: mothers and graves before cosmic audit language, so the
+>   exhibit remains a human jurisdiction problem before it becomes spectacle.
+> - Scene goal/obstacle/turn/cost: prevent Exhibit H-1 and QFUDS-adjacent
+>   forbidden lab language from becoming court authority; black-hole restoration
+>   rhetoric tries to treat physics as permission; `PHYSICS IS NOT JURISDICTION`
+>   blocks that move; the cost is that useful evidence must be classified as
+>   unsafe as truth claim.
+> - Bilingual gate: Korean primary reader path; English 016 is a preserved sibling
+>   counterpart, not a literal source text.
+> - Source boundary: no new external source/product claim; research asset state is
+>   `not searched`.
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

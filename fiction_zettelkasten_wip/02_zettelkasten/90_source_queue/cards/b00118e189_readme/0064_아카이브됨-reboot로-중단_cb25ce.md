@@ -1,0 +1,54 @@
+---
+doc_id: srcidx_cb25ce71abdf9b17
+title: "Source Index - 아카이브됨 (reboot로 중단)"
+doc_type: reference
+stage: reference
+status: draft
+evidence_role: provenance
+depends_on:
+  - qfuds_saga_revisions_index_ko
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
+last_updated: 2026-07-06
+---
+
+# Source Index - 아카이브됨 (reboot로 중단)
+
+```text
+fiction/provenance only
+research evidence: no
+canon action: none
+layer: source index (not a permanent zettel)
+processing_state: queued
+```
+
+## Source
+
+- Source document: [QFUDS SAGA Revision Shelf](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md)
+- Source line: [line 64](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md)
+- Heading level: `H2`
+- Source heading: `아카이브됨 (reboot로 중단)`
+
+## Parent Context
+
+- H1: QFUDS SAGA Revision Shelf
+
+## Captured Source
+
+> R3/R4/R6 in-place 퇴고 계획(004 구조 패스, 005 격언·의식 패스, 006 세계관 온보딩
+> 재구성)은 outline-first reboot로 경로가 중단되어
+> [90_archive/qfuds-saga_pre_reboot_planning/30_revisions/](../../../../../90_archive/qfuds-saga_pre_reboot_planning/README.md)로
+> 보존했다. 현행 사엘 origin(1.5부) 작업은
+> [030](../20_drafts/1.5부/030_origin_arc_sael_korean_primary.md)에서 진행한다.
+
+## Processing Contract
+
+This is a generated source-index card, not a permanent zettel.
+
+To distill it:
+
+1. Reopen the source document for the full context.
+2. Extract one atomic claim, rule, tension, or open question.
+3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

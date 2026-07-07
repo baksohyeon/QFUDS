@@ -1,33 +1,34 @@
 ---
-doc_id: zkqv_source_b9479d7cdb
-title: ZK Source Map - QFUDS SAGA The Broken Crown English Draft
+doc_id: srcidx_source_b9479d7cdb
+title: "Source Map - QFUDS SAGA The Broken Crown English Draft"
 doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_the_broken_crown_english_draft
-next_gate: process queued headings into permanent zettels or mark source-only
+next_gate: distill queued headings into permanent zettels or mark source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Source Map - QFUDS SAGA The Broken Crown English Draft
+# Source Map - QFUDS SAGA The Broken Crown English Draft
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: source map only
+layer: source index (not a permanent zettel)
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA The Broken Crown English Draft](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
-- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md](../../../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
-- Queue cards: `9`
+- Source document: [QFUDS SAGA The Broken Crown English Draft](../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
+- Source path: [docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md](../../../../docs/wiki/fiction/90_archive/qfuds-saga_1부_legacy/010_the_broken_crown_english_draft.md)
+- Index cards: `9`
 
-## Heading Queue
+## Heading Index
 
-| Level | Line | Queue Card | State |
+| Level | Line | Index Card | State |
 | --- | ---: | --- | --- |
 | H1 | `16` | [QFUDS SAGA The Broken Crown English Draft](../cards/b9479d7cdb_010-the-broken-crown-english-draft/0016_qfuds-saga-the-broken-crown-english-draft_01ff7a.md) | queued |
 | H2 | `18` | [Boundary](../cards/b9479d7cdb_010-the-broken-crown-english-draft/0018_boundary_4c00a4.md) | queued |

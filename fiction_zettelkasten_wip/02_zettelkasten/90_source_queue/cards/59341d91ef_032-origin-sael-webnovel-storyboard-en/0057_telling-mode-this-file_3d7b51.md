@@ -1,30 +1,31 @@
 ---
-doc_id: zkqv_3d7b512c6853
-title: ZK Queue - Telling Mode (this file)
+doc_id: srcidx_3d7b512c68536ef1
+title: "Source Index - Telling Mode (this file)"
 doc_type: reference
 stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_saga_drafts_origin_sael_webnovel_storyboard_en
-next_gate: process this queue card into an atomic permanent zettel or mark it as source-only
+next_gate: distill this source-index card into an atomic permanent zettel, or mark it source-only
 last_updated: 2026-07-07
 ---
 
-# ZK Queue - Telling Mode (this file)
+# Source Index - Telling Mode (this file)
 
 ```text
 fiction/provenance only
 research evidence: no
 canon action: none
+layer: source index (not a permanent zettel)
 processing_state: queued
 ```
 
 ## Source
 
-- Source document: [QFUDS SAGA origin (Book 1) Sael · Web-Serial Storyboard (English adaptation)](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
-- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
-- Source line: [line 57](../../../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
+- Source document: [QFUDS SAGA origin (Book 1) Sael · Web-Serial Storyboard (English adaptation)](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
+- Source path: [docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
+- Source line: [line 57](../../../../../docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/1.5부/032_origin_sael_webnovel_storyboard_en.md)
 - Heading level: `H2`
 - Source heading: `Telling Mode (this file)`
 
@@ -32,14 +33,21 @@ processing_state: queued
 
 - H1: QFUDS SAGA origin (Book 1) Sael · Web-Serial Storyboard (English adaptation)
 
+## Captured Source
+
+> - Unit = episode (= 031 회차). One new concept per episode; one turn + one hook.
+> - Each episode: meta note (production only) / Storyboard (panels) / Prose (lean,
+>   Anglophone) / Hook.
+> - Run a stop-slop pass on each episode before release.
+
 ## Processing Contract
 
-This is a generated queue card. Do not treat it as a permanent zettel yet.
+This is a generated source-index card, not a permanent zettel.
 
-To process it:
+To distill it:
 
-1. Reopen the source document.
+1. Reopen the source document for the full context.
 2. Extract one atomic claim, rule, tension, or open question.
 3. Mark canon state explicitly as `canon`, `candidate`, `soft_canon`, `archive`, or `unknown`.
-4. Link the processed note back to this queue card and the source document.
-5. If the source is only navigation or boilerplate, mark it `source-only` instead of inventing a note.
+4. Link the distilled zettel back to this card and to related zettels.
+5. If the source heading is only navigation or boilerplate, mark it `source-only` instead of inventing a note.

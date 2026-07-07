@@ -42,7 +42,7 @@ Explain only the minimum needed to use the note without reopening every source.
 
 ## Links
 
-- [[related zettel title]]
+- [related zettel title](relative/path.md)
 - [related repo doc](relative/path.md)
 
 ## Open Questions
@@ -61,4 +61,4 @@ through the domain authority document, story design, or chronicler pass.
 - Preserve source meaning. Do not upgrade candidate material to canon.
 - Use validator-allowed `doc_type` values only; `note` is not allowed under `docs/`.
 - The `title` field must exactly match the first H1.
-- Use Markdown links for repo paths.
+- Use Markdown links (`[label](relative/path.md)`) for repo paths. Do not use Obsidian `[[wikilinks]]`.
