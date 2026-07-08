@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_verse_zettelkasten_pilot_index_ko
 next_gate: expand only after source-linked cards pass validation and fidelity review
-last_updated: 2026-07-07
+last_updated: 2026-07-08
 ---
 
 # QFUDS Verse 제텔카스텐 MOC
@@ -53,6 +53,8 @@ canon action: navigation only
 | [복원 가능한 것은 청구 가능하다는 폭력적 문법이다](../10_universes/qfuds-verse/10_world/909_zettel_recoverable_claimable_grammar_ko.md) | 가능성에서 청구권으로 미끄러지는 규칙 |
 | [Q-Day 첫 패닉은 부호가 뒤집힌다](../10_universes/qfuds-verse/10_world/917_zettel_qday_panic_sign_flip_ko.md) | 먼저 움직이는 자가 진다(catch-22) |
 | [가장 안전한 자는 가장 가난한 자다](../10_universes/qfuds-verse/10_world/918_zettel_safest_is_poorest_ko.md) | 재난이 부의 사다리를 안 따른다 |
+| [명목 단위는 남고 실질 부는 소각된다](../10_universes/qfuds-verse/10_world/922_zettel_nominal_preserved_real_burned_ko.md) | 움직일 수 없는 부=묘비 |
+| [진위런의 종착은 실물이다](../10_universes/qfuds-verse/10_world/923_zettel_flight_to_physicality_possession_ko.md) | 점유가 다시 소유가 된다 |
 
 ## 권위·불확실성
 
@@ -65,6 +67,14 @@ canon action: navigation only
 | [라우어의 네 도장은 불확실성 보존 장치다](../10_universes/qfuds-verse/00_continuity/914_zettel_laur_four_stamps_uncertainty_ko.md) | defined/assumed/unknown/circular_if_fitted |
 | [상실의 저자는 누구인가](../10_universes/qfuds-verse/10_world/920_zettel_who_may_author_loss_top_theme_ko.md) | 사가 최상위 테마 |
 | [마지막 반박권은 한 손에 모이지 않는다](../10_universes/qfuds-verse/10_world/921_zettel_last_refutation_never_permanent_ko.md) | 마찰이 세계를 굴린다 |
+| [Last Archive는 지성이 아니라 합의의 신격화다](../10_universes/qfuds-verse/10_world/961_zettel_agi_is_artificial_general_agreement_ko.md) | AGI 아님, 반박 멈춘 합의 |
+
+## 세력·권력 구조
+
+| 카드 | 쓰임 |
+| --- | --- |
+| [삼권분립은 안정이 아니라 네 긴장 위의 임시 균형이다](../10_universes/qfuds-verse/10_world/948_zettel_three_powers_stand_on_four_tensions_ko.md) | 세력 균형의 불안정성 |
+| [exit는 떠날 수 있는 자에게만 있는 자유다](../10_universes/qfuds-verse/10_world/949_zettel_exit_is_freedom_only_for_those_who_can_leave_ko.md) | exit>voice의 계급성 |
 
 ## 전시·증명 경계
 
@@ -77,6 +87,8 @@ canon action: navigation only
 | 카드 | 쓰임 |
 | --- | --- |
 | [개념은 직접 쓰고 풀어 설명한다 — 비유로 숨기지 않는다](../10_universes/qfuds-verse/00_continuity/916_zettel_concept_first_no_metaphor_hiding_ko.md) | 용어 직접·비유 과잉 금지 |
+| [기본 시점은 3인칭 제한, 1인칭은 증거물로만 쓴다](../10_universes/qfuds-verse/00_continuity/974_zettel_third_limited_default_first_person_as_evidence_ko.md) | 시점 규칙 |
+| [고유명사는 통용명과 의례/법정명을 겹쳐 둔다](../10_universes/qfuds-verse/00_continuity/975_zettel_two_layer_naming_common_formal_ko.md) | 명명 규칙 |
 
 ## 확장 규칙
 
