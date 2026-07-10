@@ -26,7 +26,7 @@ last_updated: 2026-07-10
 
 이 문서는 외부 웹 출처를 craft/이론 reference로만 인용한다. QFUDS support,
 validation, physical-source claim을 만들지 않는다. 외부 자료 handling은
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md)가
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)가
 지배한다.
 
 현재 research asset workflow state:
@@ -105,5 +105,5 @@ Wikipedia Company scrip(partial).
 ## Next Use
 
 이 자료는
-[비트코인 독자 접근성 + 실제 이론 앵커 bible](../../docs/wiki/fiction/10_universes/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md)과
+[비트코인 독자 접근성 + 실제 이론 앵커 bible](../../fiction/worlds/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md)과
 첫 arc 오프닝 퇴고가 집행한다.

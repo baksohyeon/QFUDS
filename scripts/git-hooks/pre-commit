@@ -5,16 +5,6 @@ echo "pre-commit: running QFUDS documentation and regression checks"
 
 python3 scripts/update_frontmatter_last_updated.py --staged
 
-# Keep the SAGA encyclopedia (auto-generated single-page digest) fresh whenever
-# any SAGA doc changes, so it never drifts like a hand-maintained README. Runs
-# after the last_updated bump so it picks up freshly stamped dates.
-staged_saga=$(git diff --cached --name-only --diff-filter=ACMR)
-if printf '%s\n' "$staged_saga" | grep -qE '^docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/'; then
-  echo "pre-commit: SAGA docs changed -> regenerating 000_saga_encyclopedia_ko.md"
-  python3 scripts/build_saga_digest.py
-  git add docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/000_saga_encyclopedia_ko.md
-fi
-
 python3 scripts/agent_workflow_guard.py --staged
 python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py

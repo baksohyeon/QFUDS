@@ -10,7 +10,7 @@ depends_on:
   - qfuds_verse_world_expansion_wave6_ecology_education_media_index_ko
   - qfuds_verse_far_future_deep_time_chronicle_ko
 next_gate: 세계 밀도 한 장 지도(catalog). 122 웨이브 크로스 인덱스(117~122)를 003(심층시간)·14도메인 커버리지·인벤토리·상태로 감싼 상위 색인. 캐논화는 원고 수요 때 117 §7 6체크
-last_updated: 2026-07-06
+last_updated: 2026-07-10
 ---
 
 # QFUDS Verse 세계 밀도 마스터 인덱스 (117~003 + 도메인 커버리지)
@@ -18,14 +18,14 @@ last_updated: 2026-07-06
 ## 이 문서의 자리
 
 `qfuds-verse` 세계 밀도가 어디에 얼마나 쌓였는지 **한 장에서 잡는 카탈로그 색인**이다.
-[Fiction Catalog](README.md)의 canon/continuity 색인 역할이며, 핵심 활성 유니버스인
+Fiction Catalog의 canon/continuity 색인 역할이며, 핵심 활성 유니버스인
 qfuds-verse의 세계 밀도 상태판이다. (형제 유니버스 `vector-sandbox`는 별도이며 이
 밀도 색인 범위에 들지 않는다.)
 
 웨이브 전용 크로스 인덱스(117~122)는
-[122 capstone §4](../10_universes/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md)가
+[122 capstone §4](../../../../fiction/worlds/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md)가
 보유한다. 이 문서는 그 위에 (a) 심층시간 연대기
-[003](../10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)을 포함하고,
+[003](../../../../fiction/worlds/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md)을 포함하고,
 (b) 듄급 14도메인 커버리지 지도, (c) 구체 인벤토리, (d) 캐논/후보 상태를 더한다. 122를
 대체하지 않는다. 122는 웨이브 시리즈의 capstone, 이 문서는 밀도 전체의 카탈로그 색인이다.
 
@@ -43,13 +43,13 @@ external source claim: no
 
 | # | 문서 | 층 | 담은 밀도 | 상태 |
 | --- | --- | --- | --- | --- |
-| 117 | [웨이브1](../10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md) | 이름 | 명명법·고유명사·지명·세력 하위조직·인물·사건·어휘 | candidate 보류 |
-| 118 | [웨이브2](../10_universes/qfuds-verse/10_world/118_world_expansion_wave2_factions_relationships_ko.md) | 관계 | 세력 내부 인물·파벌·가문 관계망(동맹·부채·혼인·배신) | candidate 보류 |
-| 119 | [웨이브3](../10_universes/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md) | 공간 | 도시 구획·궤도 역학·이동 경로·사건 연쇄 인과 5종 | candidate 보류 |
-| 120 | [웨이브4](../10_universes/qfuds-verse/10_world/120_world_expansion_wave4_economy_rites_calendar_ko.md) | 경제·의례 | 통화 삼층·도장값·복원비용시장·실물도피·의례·달력 | candidate 보류 |
-| 121 | [웨이브5](../10_universes/qfuds-verse/10_world/121_world_expansion_wave5_language_tech_infra_ko.md) | 언어·기술 | 계급어/종교어/군사어/기록문체·검증 파이프라인·복원 설비 | candidate 보류 |
-| 122 | [웨이브6](../10_universes/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md) | 생태·교육 | 생태/기후/장기생존·세대전승·미디어(작품밖)·전 웨이브 색인 | candidate 보류(capstone) |
-| 003 | [심층시간 연대기](../10_universes/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md) | 시간 | 5~9기(수만~수억 년) 인과 연대기·세력 심층시간 진화·물리 시계 | continuity 확장 |
+| 117 | [웨이브1](../../../../fiction/worlds/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md) | 이름 | 명명법·고유명사·지명·세력 하위조직·인물·사건·어휘 | candidate 보류 |
+| 118 | [웨이브2](../../../../fiction/worlds/qfuds-verse/10_world/118_world_expansion_wave2_factions_relationships_ko.md) | 관계 | 세력 내부 인물·파벌·가문 관계망(동맹·부채·혼인·배신) | candidate 보류 |
+| 119 | [웨이브3](../../../../fiction/worlds/qfuds-verse/10_world/119_world_expansion_wave3_geography_event_chains_ko.md) | 공간 | 도시 구획·궤도 역학·이동 경로·사건 연쇄 인과 5종 | candidate 보류 |
+| 120 | [웨이브4](../../../../fiction/worlds/qfuds-verse/10_world/120_world_expansion_wave4_economy_rites_calendar_ko.md) | 경제·의례 | 통화 삼층·도장값·복원비용시장·실물도피·의례·달력 | candidate 보류 |
+| 121 | [웨이브5](../../../../fiction/worlds/qfuds-verse/10_world/121_world_expansion_wave5_language_tech_infra_ko.md) | 언어·기술 | 계급어/종교어/군사어/기록문체·검증 파이프라인·복원 설비 | candidate 보류 |
+| 122 | [웨이브6](../../../../fiction/worlds/qfuds-verse/10_world/122_world_expansion_wave6_ecology_education_media_index_ko.md) | 생태·교육 | 생태/기후/장기생존·세대전승·미디어(작품밖)·전 웨이브 색인 | candidate 보류(capstone) |
+| 003 | [심층시간 연대기](../../../../fiction/worlds/qfuds-verse/00_continuity/003_far_future_deep_time_chronicle_ko.md) | 시간 | 5~9기(수만~수억 년) 인과 연대기·세력 심층시간 진화·물리 시계 | continuity 확장 |
 
 - 117~122 = `10_world`(공유 세계 candidate). 003 = `00_continuity`(연표 확장).
 
@@ -108,7 +108,7 @@ Preimage 복원 설비 / 인프라 취약성 계보.
 
 - **캐논 아님:** 117~122 밀도는 전부 candidate, 전부 보류(사용자 2026-07-01). 원고(오르페우스·
   마라·캐스)가 이름을 당길 때
-  [117 §7 6체크](../10_universes/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)로
+  [117 §7 6체크](../../../../fiction/worlds/qfuds-verse/10_world/117_world_expansion_wave1_names_places_events_ko.md)로
   개별 승격.
 - **003만 예외:** continuity 연표 확장 레이어. 001 SSOT를 대체하지 않는다(그 위). 충돌 시
   113 > 001/002/114 > 036.

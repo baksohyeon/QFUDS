@@ -9,10 +9,13 @@ stale, and a by-hand fix pass missed several. This guard makes such drift a
 hard failure instead of a thing a human has to remember.
 
 It is a *referential-integrity* check, not retrieval: every shelf-qualified
-token (``world 113``, ``continuity 003``, ``draft 024``) must resolve to a doc
-that currently exists on that shelf. Bare numbers and years (``(2008)``,
-``(039)``) are deliberately ignored — they are ambiguous across shelves after
-renumbering, so provenance refs must be shelf-qualified to be checkable.
+token on a retained shelf (``world 113``, ``continuity 003``, ``bible 201``)
+must resolve to a doc that currently exists on that shelf. Tokens on closed
+SAGA shelves (``story``, ``workroom``, ``draft``, ``prototype``) are
+history-only references and are accepted as-is. Bare numbers and years
+(``(2008)``, ``(039)``) are deliberately ignored — they are ambiguous across
+shelves after renumbering, so provenance refs must be shelf-qualified to be
+checkable.
 
 Stack: Python standard library only (re, pathlib).
 
@@ -29,32 +32,53 @@ from pathlib import Path
 from typing import NamedTuple
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSE = ROOT / "docs/wiki/fiction/10_universes/qfuds-verse"
-SAGA = VERSE / "20_series/qfuds-saga"
+WORLDS = ROOT / "fiction/worlds/qfuds-verse"
+LEGACY_VERSE = ROOT / "docs/wiki/fiction/10_universes/qfuds-verse"
+LEGACY_SAGA = LEGACY_VERSE / "20_series/qfuds-saga"
 
-# Renumbered shelves: keyword -> directory holding NNN_*.md docs. The band
-# renumber gave each a unique range (continuity 0xx, world 1xx, bible 2xx,
-# story 3xx, workroom 4xx), so a shelf keyword plus number is unambiguous.
-SHELF_DIRS: dict[str, Path] = {
-    "continuity": VERSE / "00_continuity",
-    "world": VERSE / "10_world",
-    "bible": SAGA / "00_bible",
-    "story": SAGA / "10_story_design",
-    "workroom": SAGA / "00_workroom",
+# Retained shelves: keyword -> candidate directories, first existing wins.
+# The 2026-07-10 fiction separation moves these from the legacy wiki path to
+# the repository-root fiction vault; target, mid-migration (moved but not yet
+# renamed), and legacy paths are all accepted so the guard stays green at
+# every migration commit boundary.
+SHELF_DIR_CANDIDATES: dict[str, tuple[Path, ...]] = {
+    "continuity": (
+        WORLDS / "continuity",
+        WORLDS / "00_continuity",
+        LEGACY_VERSE / "00_continuity",
+    ),
+    "world": (
+        WORLDS / "world",
+        WORLDS / "10_world",
+        LEGACY_VERSE / "10_world",
+    ),
+    "bible": (
+        WORLDS / "series-bible",
+        WORLDS / "20_series/qfuds-saga/00_bible",
+        LEGACY_SAGA / "00_bible",
+    ),
 }
 
-# Invariant docs kept their old numbers by the renumber rule (drafts 029-036,
-# prototypes 015-028, plus revisions/archive/release). Both keywords resolve
-# against the union of numbered docs under 20_drafts.
-DRAFTS_DIR = SAGA / "20_drafts"
-INVARIANT_KEYS = ("draft", "prototype")
+# Closed shelves: the SAGA production track (story design, drafts, revisions,
+# release, workroom) ended on 2026-07-10 and lives in Git history only
+# (`git show bbbcb970:<path>`). Their tokens are historical references and
+# cannot be validated against the working tree.
+HISTORY_ONLY_KEYS = ("story", "workroom", "draft", "prototype")
 
-DATA_FILES: list[Path] = [
-    VERSE / "web/data/chronicle-data.js",
-    VERSE / "web/data/lore-data.js",
+DATA_FILE_CANDIDATES: list[tuple[Path, ...]] = [
+    (
+        ROOT / "tools/qfuds-verse-web/data/chronicle-data.js",
+        WORLDS / "web/data/chronicle-data.js",
+        LEGACY_VERSE / "web/data/chronicle-data.js",
+    ),
+    (
+        ROOT / "tools/qfuds-verse-web/data/lore-data.js",
+        WORLDS / "web/data/lore-data.js",
+        LEGACY_VERSE / "web/data/lore-data.js",
+    ),
 ]
 
-SHELF_KEYWORDS = tuple(SHELF_DIRS) + INVARIANT_KEYS
+SHELF_KEYWORDS = tuple(SHELF_DIR_CANDIDATES) + HISTORY_ONLY_KEYS
 
 # A shelf keyword followed by a number expression: a single number, a slash
 # list (108/112/113), an inclusive range (117-122), or a mix (101/117-119).
@@ -102,29 +126,59 @@ def numbers_in_dir(directory: Path, *, recursive: bool = False) -> set[int]:
     return numbers
 
 
-def build_truth_map() -> dict[str, set[int]]:
-    """Map each shelf keyword to the set of doc numbers that exist on it now."""
-    truth = {shelf: numbers_in_dir(path) for shelf, path in SHELF_DIRS.items()}
-    drafts = numbers_in_dir(DRAFTS_DIR, recursive=True)
-    for key in INVARIANT_KEYS:
-        truth[key] = drafts
+def resolve_shelf_dir(shelf: str) -> Path:
+    """Return the first existing candidate directory for a retained shelf.
+
+    Falls back to the first candidate (the target fiction-vault path) when
+    none exists yet, so error messages name the intended location.
+    """
+    candidates = SHELF_DIR_CANDIDATES[shelf]
+    for path in candidates:
+        if path.exists():
+            return path
+    return candidates[0]
+
+
+def resolve_data_files() -> list[Path]:
+    """Return the first existing candidate for each web data file."""
+    resolved: list[Path] = []
+    for candidates in DATA_FILE_CANDIDATES:
+        chosen = next((p for p in candidates if p.exists()), candidates[0])
+        resolved.append(chosen)
+    return resolved
+
+
+def build_truth_map() -> dict[str, "set[int] | None"]:
+    """Map each shelf keyword to its existing doc numbers.
+
+    Closed shelves map to ``None``: their references are history-only and are
+    never validated against the working tree.
+    """
+    truth: dict[str, set[int] | None] = {
+        shelf: numbers_in_dir(resolve_shelf_dir(shelf))
+        for shelf in SHELF_DIR_CANDIDATES
+    }
+    for key in HISTORY_ONLY_KEYS:
+        truth[key] = None
     return truth
 
 
-def find_unresolved(text: str, truth: dict[str, set[int]]) -> list[Problem]:
+def find_unresolved(text: str, truth: "dict[str, set[int] | None]") -> list[Problem]:
     """Return every shelf-qualified reference in ``text`` that does not resolve."""
     problems: list[Problem] = []
     for lineno, line in enumerate(text.splitlines(), start=1):
         for match in TOKEN_RE.finditer(line):
             shelf, nums = match.group(1), match.group(2)
             valid = truth.get(shelf, set())
+            if valid is None:
+                continue
             for number in expand_numbers(nums):
                 if number not in valid:
                     problems.append(Problem(lineno, shelf, nums, number))
     return problems
 
 
-def check_files(paths: list[Path], truth: dict[str, set[int]]) -> list[str]:
+def check_files(paths: list[Path], truth: "dict[str, set[int] | None]") -> list[str]:
     """Return human-readable error lines for all unresolved references."""
     errors: list[str] = []
     for path in paths:
@@ -143,18 +197,19 @@ def check_files(paths: list[Path], truth: dict[str, set[int]]) -> list[str]:
 
 def main() -> int:
     truth = build_truth_map()
-    errors = check_files(DATA_FILES, truth)
+    data_files = resolve_data_files()
+    errors = check_files(data_files, truth)
     if errors:
         print("web data provenance guard: FAILED")
         for error in errors:
             print(f"  {error}")
         print(
             "\nEvery provenance reference must be shelf-qualified and resolve to a "
-            "current doc.\nSee the shelf renumber map "
-            "(00_workroom/417_shelf_renumber_map_ko.md) for the old->new mapping."
+            "current doc on a retained shelf\n(continuity/world/bible). Closed "
+            "SAGA shelves are history-only: `git show bbbcb970:<path>`."
         )
         return 2
-    checked = ", ".join(p.name for p in DATA_FILES)
+    checked = ", ".join(p.name for p in data_files)
     print(f"web data provenance guard: passed ({checked})")
     return 0
 

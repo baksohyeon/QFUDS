@@ -52,10 +52,12 @@ class FindUnresolvedTests(unittest.TestCase):
         "continuity": {1, 2, 3},
         "world": {113, 117, 118, 119, 120, 121, 122, 126},
         "bible": {201},
-        "story": {306},
-        "workroom": set(),
-        "draft": {24},
-        "prototype": {24},
+        # Closed shelves (SAGA production ended 2026-07-10): history-only,
+        # tokens resolve against Git history instead of the working tree.
+        "story": None,
+        "workroom": None,
+        "draft": None,
+        "prototype": None,
     }
 
     def test_resolving_token_is_clean(self) -> None:
@@ -73,8 +75,13 @@ class FindUnresolvedTests(unittest.TestCase):
         # numbers must never trip the guard.
         self.assertEqual(guard.find_unresolved("2008년, (039), (2020s)", self.TRUTH), [])
 
-    def test_invariant_draft_token_resolves(self) -> None:
+    def test_history_only_draft_token_resolves(self) -> None:
         self.assertEqual(guard.find_unresolved("SAGA 부 좌표(draft 024)", self.TRUTH), [])
+
+    def test_history_only_story_token_resolves(self) -> None:
+        # story shelf was closed with the SAGA project; any story token is a
+        # historical reference and must not fail against the working tree.
+        self.assertEqual(guard.find_unresolved("(story 306, story 999)", self.TRUTH), [])
 
     def test_range_with_one_missing_member_is_flagged(self) -> None:
         truth = {**self.TRUTH, "world": {117, 118, 119, 121, 122}}  # 120 missing
@@ -108,12 +115,25 @@ class BuildTruthMapTests(unittest.TestCase):
         self.assertIn(113, self.truth["world"])       # 113_restoration_mechanism_correction
         self.assertIn(126, self.truth["world"])       # 126_deeptime_catastrophe_pillar_spine
         self.assertIn(201, self.truth["bible"])       # 201_narrative_pov_theme_naming
-        self.assertIn(306, self.truth["story"])       # 306_saga_arc_map_multiarc
-        self.assertIn(24, self.truth["draft"])        # 20_drafts/.../024_the_broken_crown
+
+    def test_closed_shelves_are_history_only(self) -> None:
+        # SAGA production shelves were removed from the active tree on
+        # 2026-07-10; their tokens resolve against Git history only.
+        for key in ("story", "workroom", "draft", "prototype"):
+            self.assertIsNone(self.truth[key])
 
     def test_renumbered_out_numbers_are_absent(self) -> None:
         # Old world 021 was renumbered to 113; a bare-old 21 must not resolve.
         self.assertNotIn(21, self.truth["world"])
+
+    def test_retained_shelf_dirs_resolve_somewhere(self) -> None:
+        # Each retained shelf must resolve to a real directory, whether it
+        # still sits at the legacy wiki path or already moved to fiction/.
+        for key in ("continuity", "world", "bible"):
+            self.assertTrue(
+                guard.resolve_shelf_dir(key).exists(),
+                msg=f"no existing directory found for shelf {key}",
+            )
 
 
 class RealDataFilesTests(unittest.TestCase):
@@ -121,7 +141,7 @@ class RealDataFilesTests(unittest.TestCase):
 
     def test_data_files_have_no_unresolved_refs(self) -> None:
         truth = guard.build_truth_map()
-        for path in guard.DATA_FILES:
+        for path in guard.resolve_data_files():
             with self.subTest(path=path.name):
                 text = path.read_text(encoding="utf-8")
                 problems = guard.find_unresolved(text, truth)

@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; content navigation only
-last_updated: 2026-07-06
+last_updated: 2026-07-10
 ---
 
 # Wiki Content Index
@@ -71,48 +71,16 @@ and
 
 ## Fiction
 
-- [Wiki Fiction](fiction/README.md) - index for separate fiction companion
-  tracks derived from provenance records.
-- [Fiction IP 관리 시스템](fiction/00_studio/001_fiction_ip_management_system_ko.md)
-  - fiction studio/IP management guide for universes, continuity, works,
-    bibles, story design, drafts, releases, and archives.
-- [Fiction GSD 계획 브리지](fiction/00_studio/002_gsd_planning_bridge_ko.md)
-  - bridge document for using GSD planning as execution management without
-    replacing fiction/IP classification.
-- [Fiction GSD 하네스 운영 가이드](fiction/00_studio/003_fiction_gsd_harness_operator_guide_ko.md)
-  - step-by-step guide for starting fiction/IP tasks through workflow
-    classification, GSD phase checks, validation, and commit boundaries.
-- [Fiction Agentic Workflow Guide](fiction/00_studio/011_fiction_agentic_workflow_guide_ko.md)
-  - short operational entry guide for active fiction production, README roles,
-    agent workflows, harnesses, hooks, and gates.
-- [한국어 소설 문장 자연스러움 하네스](fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md)
-  - Korean-primary prose naturalness, translationese, AI-tell, and polish
-    harness.
-- [Fiction Reader Onboarding Harness](fiction/00_studio/010_reader_onboarding_harness_ko.md)
-  - technical/legal/institutional concept onboarding rules for fiction scenes.
-- [Fiction Catalog](fiction/01_catalog/README.md)
-  - active fiction shelf, work list, migration record, and next task candidates.
-- [QFUDS Verse](fiction/10_universes/qfuds-verse/README.md)
-  - universe/IP scaffold for QFUDS-derived fiction works.
-- [QFUDS SAGA](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) - active publisher-style fiction
-  track for the QFUDS-inspired SAGA; not research evidence.
-- [QFUDS SAGA Production Board](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/408_saga_production_board_ko.md)
-  - current execution state for active SAGA production.
-- [QFUDS SAGA Draft Map](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/README.md)
-  - current active drafts, prototype versions, and archive split.
-- [QFUDS SAGA Revision Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/README.md)
-  - release-facing revision plans, continuity-fix passes, and line-edit
-    controls for SAGA drafts.
-- [QFUDS SAGA Release Shelf](fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/README.md)
-  - active release manifest/export shelf. Current first arc has 029 as the active
-    reboot draft, while release remains blocked until continuity, counterpart,
-    and release gates pass.
-- [Fiction Archive](fiction/90_archive/README.md) - archived fiction prototypes
-  preserved for provenance, including the original lineage-hosted Laur
-  Observatory saga.
-- [QFUDS Fiction Saga Archive](fiction/90_archive/lineage-prototype/README.md)
-  - original Laur Observatory prototype with branch map and early episodes;
-    fiction/provenance only.
+- [Fiction Vault](../../fiction/README.md) - repository-root fiction content
+  vault: inbox, knowledge, research, worlds, and projects. Fiction is never
+  research evidence.
+- [Creative Harness](../../creative_harness/README.md) - human-readable
+  craft and method references, separate from the content vault.
+- [QFUDS Verse](../../fiction/worlds/qfuds-verse/README.md)
+  - QFUDS-derived fiction universe reference (world, continuity, series bible).
+- The QFUDS SAGA production track (story design, drafts, revisions, release,
+  archive) was closed on 2026-07-10 and is recoverable from Git history only
+  (`git show bbbcb970:<path>`).
 
 ## Postmortems
 

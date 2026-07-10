@@ -5,7 +5,7 @@
 
 PYTHON ?= python3
 
-.PHONY: help validate research-audit agent-workflow-guard web-data-provenance preflight-exp004 result-figures preflight test install-git-hooks saga-digest
+.PHONY: help validate research-audit agent-workflow-guard web-data-provenance preflight-exp004 result-figures preflight test install-git-hooks
 
 help:
 	@echo "QFUDS make targets:"
@@ -17,7 +17,6 @@ help:
 	@echo "  make result-figures    - regenerate docs/04_results summary figures"
 	@echo "  make preflight         - full pre-milestone audit (all of the above)"
 	@echo "  make test              - run unittest regression tests under tests/"
-	@echo "  make saga-digest       - regenerate the single-page SAGA encyclopedia"
 	@echo "  make install-git-hooks - install local git pre-commit checks"
 
 validate:
@@ -41,9 +40,6 @@ result-figures:
 
 test:
 	$(PYTHON) -m unittest discover -s tests -p 'test_*.py'
-
-saga-digest:
-	$(PYTHON) scripts/build_saga_digest.py
 
 # Run before any major experiment milestone.
 preflight: validate research-audit agent-workflow-guard preflight-exp004

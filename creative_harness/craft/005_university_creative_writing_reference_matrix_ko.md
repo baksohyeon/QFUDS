@@ -29,7 +29,7 @@ last_updated: 2026-07-10
 ## Workflow Boundary
 
 External-source handling follows
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

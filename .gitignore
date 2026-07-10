@@ -15,3 +15,6 @@ _workspace/
 !docs/wiki/.obsidian/
 docs/wiki/.obsidian/*
 !docs/wiki/.obsidian/app.json
+
+# Orca worktree tooling (session-local)
+.orca/

@@ -34,7 +34,7 @@ craft 체크리스트다.
 This document uses external craft references as writing-background sources.
 
 Research-source handling follows
-[Research Asset and Product Workflow](../../../../.agent/workflows/research-asset-product-workflow.md).
+[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md).
 
 Current workflow state:
 

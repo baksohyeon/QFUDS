@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - roadmap
 next_gate: none; lineage is routing provenance only; 007-010 are public/provenance bridges, not physical evidence
-last_updated: 2026-06-20
+last_updated: 2026-07-10
 ---
 
 # Wiki Lineage
@@ -40,8 +40,14 @@ Do not use this folder for:
 8. [감마에서 멈춘 곳](008_gamma_to_academic_iv_bridge_result_ko.md) - retained `Gamma(a)`가 IV/IDE formalism으로 번역되는 지점과 physical derivation으로 승격하지 못하는 지점을 정리한 lineage 결과 문서
 9. [우주 거품 이야기](009_qfuds_public_story_bridge_ko.md) - 초등학생도 읽을 수 있게 QFUDS의 SF적 출발점, `Gamma(a)` 정지점, audit-harness 가치를 설명하는 public story bridge
 10. [방정식은 입장권이다](010_qfuds_closing_sf_story_ko.md) - 원본 단편과 확장 단편 "암호문을 삼킨 우주"로 QFUDS 여정을 fiction companion으로 닫음; 연구 결과나 물리 증거가 아님
-11. [QFUDS Fiction Saga Archive](../fiction/90_archive/lineage-prototype/README.md) - 라우어 관측소, 감사관, Gamma 신호를 중심으로 한 초기 SF 연재 프로토타입; fiction/provenance only
-12. [QFUDS SAGA](../fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md) - 이후 창작 시스템, 세계관 선택, SAGA bible을 관리하는 별도 fiction track; research evidence가 아님
+11. QFUDS Fiction Saga Archive - 라우어 관측소, 감사관, Gamma 신호를 중심으로 한
+    초기 SF 연재 프로토타입. 2026-07-10에 active tree에서 제거되어 Git 이력으로만
+    복구한다 (`git show bbbcb970:docs/wiki/fiction/90_archive/lineage-prototype/README.md`);
+    fiction/provenance only
+12. QFUDS SAGA - 이후 창작 시스템, 세계관 선택, SAGA bible을 관리하던 별도 fiction
+    track. production track은 2026-07-10에 종료되어 Git 이력으로만 남고, 세계관
+    참조는 [fiction vault](../../../fiction/README.md)로 이동했다; research
+    evidence가 아님
 
 The 006 document records the agent-based workflow that produced and checked
 the rough-tanh lineage. It is provenance and process analysis, not physical
@@ -56,11 +62,12 @@ The 010 document is a fiction companion. It closes the public-story branch as a
 readable short story while preserving the same boundary: fiction can motivate
 questions, but it cannot serve as QFUDS evidence.
 
-The [lineage prototype fiction archive](../fiction/90_archive/lineage-prototype/README.md)
-preserves the first companion prototype with recurring characters,
-relationships, and episode arcs. Active SAGA system work now routes through
-[QFUDS SAGA](../fiction/10_universes/qfuds-verse/20_series/qfuds-saga/README.md), a separate fiction track. Both
-locations are fiction/provenance only, not research evidence.
+The lineage prototype fiction archive preserved the first companion prototype
+with recurring characters, relationships, and episode arcs. The archive and the
+QFUDS SAGA production track were removed from the active tree on 2026-07-10 and
+remain recoverable from Git history only (`git show bbbcb970:<path>`). Durable
+world knowledge now lives in the [fiction vault](../../../fiction/README.md).
+Both are fiction/provenance only, not research evidence.
 
 The 007 document records the public-facing black-hole information bridge. It is
 origin narrative and audit-harness context only. It does not claim black-hole

@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - vector_sandbox_universe_index_ko
   - feathersmcgraw_coda_work_index_ko
-last_updated: 2026-07-06
+last_updated: 2026-07-10
 next_gate: first-pass 퇴고(스파게티 오프닝·메트릭 침묵·화자 클로징 여운) 후 리텐션 게이트
 ---
 
@@ -24,7 +24,7 @@ fiction/provenance only. QFUDS 연구 증거 아님. 실제 2020년대 인터넷
 
 ## Harness Applied
 
-- Craft harness: [Creative Writing Craft Harness](../../../../../00_studio/004_creative_writing_craft_harness_ko.md).
+- Craft harness: [Creative Writing Craft Harness](../../../../../../../../creative_harness/craft/004_creative_writing_craft_harness_ko.md).
 - 서사 프레임: 사후 아카이브 케이스파일 + 스레드 로그(원문/번역/주석 3단). 화자=
   아카이브 편집자·주석자. 시점=다수 목격자 댓글 + 마지막 개별 화자. 시제=사건
   이후 회고. 형식=복원된 케이스파일. 청자=같은 창구를 찾은 사람.
