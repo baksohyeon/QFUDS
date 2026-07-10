@@ -5,11 +5,8 @@ doc_type: index
 stage: reference
 status: draft
 evidence_role: provenance
-depends_on:
-  - fiction_catalog_index_ko
-  - fiction_ip_management_system_ko
-  - qfuds_saga_index_ko
-next_gate: continue qfuds-saga arc planning or SAGA-internal short-story cycle under normalized work shelves
+depends_on: []
+next_gate: none; world reference shelf only — SAGA production closed 2026-07-10, new works start under fiction/projects/
 last_updated: 2026-07-10
 ---
 
@@ -17,9 +14,10 @@ last_updated: 2026-07-10
 
 `qfuds-verse`는 QFUDS에서 파생된 fiction universe/IP 컨테이너다.
 
-이 scaffold는 QFUDS SAGA를 정식 series work로 포함한다. 기존
-`docs/wiki/fiction/qfuds-saga/` 호환 폴더는 migration 완료 후 삭제됐고,
-canonical 작업 위치는 `20_series/qfuds-saga/`이다.
+이 선반은 세계 지식(연속성·세계 캐논·시리즈 바이블)만 기억한다. QFUDS SAGA
+production track(설계·원고·리비전·릴리스·워크룸)은 2026-07-10에 종료됐고 Git
+이력(`git show bbbcb970:<path>`)으로만 열람한다. 새 작품은
+[fiction/projects/](../../projects/README.md)에서 시작하고 이 세계를 상속한다.
 
 ## Start Here
 
@@ -30,7 +28,7 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 ## Codex (시각화 웹앱)
 
 세계관을 3D 성좌 + 연대기/인물/체계/사전으로 훑고, 아카이브에 질의하고,
-시드를 모아 문서 승격 재료로 뽑는 자기완결 웹앱: **[`web/`](../../../tools/qfuds-verse-web/)**
+시드를 모아 문서 승격 재료로 뽑는 자기완결 웹앱: **[`tools/qfuds-verse-web/`](../../../tools/qfuds-verse-web/)**
 (배포: [배포 가이드](../../../tools/qfuds-verse-web/DEPLOY.md), Dokku `git push dokku main`).
 데이터는 이 유니버스 문서(001 딥타임 연표·115/116 Q-Day·117–122 확장 웨이브·
 003/126 심층시간·123 이념축 등)에서 파생한다.
@@ -85,7 +83,7 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 | Work | Format | Canon status | Path |
 | --- | --- | --- | --- |
-| QFUDS SAGA | series candidate | active prototype series work | 20_series/qfuds-saga/ |
+| QFUDS SAGA | series candidate | production closed 2026-07-10; series bible retained | [series-bible/](series-bible/README.md); production은 Git history only (`git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/`) |
 | Laur Observatory prototype | short prototype sequence | archived prototype | Git history only (`git show bbbcb970:docs/wiki/fiction/90_archive/lineage-prototype/README.md`) |
 
 ## Workflow Boundary
@@ -107,5 +105,6 @@ not_extractable
 
 ## Next Gate
 
-다음 작업은 canonical `20_series/qfuds-saga/` 아래의 normalized work shelves에서
-Arc Two, first-arc polish, 또는 SAGA 내부 short-story cycle task를 시작하는 것이다.
+없음. 이 선반은 세계 참조만 맡는다. 새 작품은 `fiction/projects/<work-id>/`에
+README와 수동 HOME.md를 만들고 이 세계의 continuity/world/series-bible을
+상속해 시작한다.

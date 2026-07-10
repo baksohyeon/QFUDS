@@ -449,8 +449,8 @@ track은 2026-07-10에 종료됐고, 아래 first-arc opening/source 파일은 G
 이력으로만 열람한다:
 
 ```text
-git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md
-git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
+git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md
+git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/2부/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
 ```
 
 당시 원칙(한국어 primary draft 먼저, 영어권 각색판은 그다음, 설명표보다

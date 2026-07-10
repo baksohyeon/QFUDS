@@ -23,7 +23,7 @@ last_updated: 2026-07-10
 프레임으로 뭉뚱그린 말이지, 먼 미래 in-world 문명이 실제로 쓰는 원어가 아니다. 그들은
 Q-Day와 복원 전쟁을 지나며 이 개념군을 **다른 관점·다른 명칭**으로 겪는다. 이 문서는
 그 원어 층을 세워, [113 복원=사본](113_restoration_mechanism_correction_ko.md)·[114 원본
-부재 물리](114_in_world_physics_information_unitarity_restoration_ko.md)·[123 이/기 축](123_yi_gi_ideology_axis_ko.md)·[](../continuity/002_chronology_restoration_admin_black_hole_seat_ko.md)와 물린다.
+부재 물리](114_in_world_physics_information_unitarity_restoration_ko.md)·[123 이/기 축](123_yi_gi_ideology_axis_ko.md)·[002 세대 번호](../continuity/002_chronology_restoration_admin_black_hole_seat_ko.md)와 물린다.
 
 핵심 통찰: **중립적인 단일 명칭은 없다.** 무엇이라 부르는가가 곧 무엇이 진짜였는지를
 쓰는 일이며(207 기준 작성권), 그래서 이름을 고르는 순간 형이상학(123 이학/기학)을 고른다.

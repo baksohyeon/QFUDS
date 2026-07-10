@@ -6,7 +6,7 @@ stage: reference
 status: draft
 evidence_role: provenance
 depends_on:
-  - qfuds_saga_index_ko
+  - qfuds_verse_universe_index_ko
 next_gate: canon 권위는 000이 정한다. 설정 충돌 시 000 → 해당 주제 문서 순으로 확인
 last_updated: 2026-07-10
 ---

@@ -40,3 +40,29 @@ Task 3: complete (user-performed Obsidian waves: continuity/world/series-bible r
 Task 3b: complete (inbox routing questions in fiction/README, world-note state rule provisional/accepted/retired in worlds/README, hand-curated HOME.md principle in projects/README)
 Task 4: complete (commit dc0162b, review Approved; Minor for final review: (1) fiction_gate is_active_draft keyword-matching exempts coda drafts from soft agentic-marker checks beyond what the README override licenses [pre-existing], (2) build_doc_graph LAYER_RULES bare-word fragments are collision-prone)
 Task 5: complete (commit 7e892af, review Approved; Important carried: .planning/** historical GSD logs keep bare pre-migration paths — final review to judge; the two fiction/worlds stray mentions fixed by coordinator [104 Next Task reframed as git-history record]; README:21 is already historical prose, README:89 already a git-show citation)
+Task 6: whole-branch review complete. Ran a 30-agent review workflow (6 read-only
+dimensions: content-integrity, structure/disposition, gates, routing,
+research-protection, plan-conformance; every finding challenged by 2
+adversarial verifiers). 12 findings raised, 10 confirmed, 2 refuted.
+Fixed at this boundary: restored the dropped link label "002 세대 번호" in
+world/124 (empty []() link introduced by the relink pass); rewrote the
+qfuds-verse README's stale canonical-SAGA routing (frontmatter depends_on/
+next_gate, intro, Works table row, Next Gate section, web/ label); repointed
+series-bible README depends_on to qfuds_verse_universe_index_ko; corrected the
+doc-104 git-show recovery paths (missing 2부/ segment — both now resolve);
+removed the stale committed HANDOFF.md (Git history retains it).
+Adjudicated as accepted (no fix before merge): 78 markdown-link failures under
+docs/wiki/research/assets markitdown caches are byte-identical pre-existing
+noise; .planning/** historical GSD logs keep bare pre-migration paths (dead
+execution history, same treatment as docs/superpowers/plans); fiction_gate
+coda soft-check exemption (pre-existing keyword design, re-judged not a
+blocker); build_doc_graph bare-word LAYER_RULES fragments (no current
+collision; fragility note only).
+Structure audit: all 618 base docs/wiki/fiction files accounted for (481
+moved/retained, 137 deliberately deleted, 0 lost); protected research scope
+(02_theory/03_experiments/04_results/05_next_steps/decision_log) diff vs
+bbbcb970 is empty; tools/story-skills pinned at c482d48 unchanged.
+Deviation record: remaining move waves (411/412, renames, density index,
+vector/coda, web) were performed manually by the user in the repository-root
+Obsidian vault after agent-driven UI automation proved unreliable; no git mv
+was used at any point.
