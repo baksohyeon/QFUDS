@@ -18,3 +18,4 @@ docs/wiki/.obsidian/*
 
 # Orca worktree tooling (session-local)
 .orca/
+scripts/orca-vm/.runtime/
