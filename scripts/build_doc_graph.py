@@ -24,20 +24,20 @@ import sqlite3
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSE = ROOT / "docs/wiki/fiction/10_universes/qfuds-verse"
+# 2026-07-10 fiction-vault migration: qfuds-verse moved from
+# docs/wiki/fiction/10_universes/qfuds-verse to fiction/worlds/qfuds-verse.
+VERSE = ROOT / "fiction/worlds/qfuds-verse"
 OUT = ROOT / "outputs"
 
-# Layer (shelf) detection, ordered most-specific first.
+# Layer (shelf) detection, ordered most-specific first. The SAGA production
+# shelves (00_workroom, 10_story_design, 20_drafts, 30_revisions, 40_release,
+# 90_archive) closed on 2026-07-10 and are Git-history-only
+# (`git show bbbcb970:<path>`); they no longer exist under VERSE, so those
+# rules are retired along with the paths they matched.
 LAYER_RULES = [
-    ("20_series/qfuds-saga/00_bible", "00_bible"),
-    ("20_series/qfuds-saga/00_workroom", "00_workroom"),
-    ("20_series/qfuds-saga/10_story_design", "10_story_design"),
-    ("20_series/qfuds-saga/20_drafts", "20_drafts"),
-    ("20_series/qfuds-saga/30_revisions", "30_revisions"),
-    ("20_series/qfuds-saga/40_release", "40_release"),
-    ("20_series/qfuds-saga/90_archive", "90_archive"),
-    ("00_continuity", "00_continuity"),
-    ("10_world", "10_world"),
+    ("series-bible", "00_bible"),
+    ("continuity", "00_continuity"),
+    ("world", "10_world"),
 ]
 
 # candidate doc_id fragments (registers, brainstorm, native lexicon, ideology axis)

@@ -126,14 +126,33 @@ class BuildTruthMapTests(unittest.TestCase):
         # Old world 021 was renumbered to 113; a bare-old 21 must not resolve.
         self.assertNotIn(21, self.truth["world"])
 
-    def test_retained_shelf_dirs_resolve_somewhere(self) -> None:
-        # Each retained shelf must resolve to a real directory, whether it
-        # still sits at the legacy wiki path or already moved to fiction/.
-        for key in ("continuity", "world", "bible"):
-            self.assertTrue(
-                guard.resolve_shelf_dir(key).exists(),
-                msg=f"no existing directory found for shelf {key}",
-            )
+    def test_retained_shelf_dirs_resolve_to_the_vault(self) -> None:
+        # The migration is complete: each retained shelf must resolve to its
+        # final fiction/worlds/qfuds-verse/* location, not a legacy fallback.
+        expected = {
+            "continuity": guard.WORLDS / "continuity",
+            "world": guard.WORLDS / "world",
+            "bible": guard.WORLDS / "series-bible",
+        }
+        for key, path in expected.items():
+            with self.subTest(shelf=key):
+                self.assertEqual(guard.resolve_shelf_dir(key), path)
+                self.assertTrue(path.exists(), msg=f"missing shelf dir for {key}")
+
+
+class ResolveDataFilesTests(unittest.TestCase):
+    """The migration is complete: data files resolve to their final tool path."""
+
+    def test_resolves_to_the_final_tool_location(self) -> None:
+        resolved = guard.resolve_data_files()
+        names = [str(p.relative_to(guard.ROOT)) for p in resolved]
+        self.assertEqual(
+            names,
+            [
+                "tools/qfuds-verse-web/data/chronicle-data.js",
+                "tools/qfuds-verse-web/data/lore-data.js",
+            ],
+        )
 
 
 class RealDataFilesTests(unittest.TestCase):

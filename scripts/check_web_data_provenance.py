@@ -33,30 +33,15 @@ from typing import NamedTuple
 
 ROOT = Path(__file__).resolve().parents[1]
 WORLDS = ROOT / "fiction/worlds/qfuds-verse"
-LEGACY_VERSE = ROOT / "docs/wiki/fiction/10_universes/qfuds-verse"
-LEGACY_SAGA = LEGACY_VERSE / "20_series/qfuds-saga"
 
-# Retained shelves: keyword -> candidate directories, first existing wins.
-# The 2026-07-10 fiction separation moves these from the legacy wiki path to
-# the repository-root fiction vault; target, mid-migration (moved but not yet
-# renamed), and legacy paths are all accepted so the guard stays green at
-# every migration commit boundary.
-SHELF_DIR_CANDIDATES: dict[str, tuple[Path, ...]] = {
-    "continuity": (
-        WORLDS / "continuity",
-        WORLDS / "00_continuity",
-        LEGACY_VERSE / "00_continuity",
-    ),
-    "world": (
-        WORLDS / "world",
-        WORLDS / "10_world",
-        LEGACY_VERSE / "10_world",
-    ),
-    "bible": (
-        WORLDS / "series-bible",
-        WORLDS / "20_series/qfuds-saga/00_bible",
-        LEGACY_SAGA / "00_bible",
-    ),
+# Retained shelves: keyword -> final directory. The 2026-07-10 fiction
+# separation moved these out of the legacy docs/wiki path into the
+# repository-root fiction vault; the migration is complete, so each shelf has
+# exactly one current location.
+SHELF_DIRS: dict[str, Path] = {
+    "continuity": WORLDS / "continuity",
+    "world": WORLDS / "world",
+    "bible": WORLDS / "series-bible",
 }
 
 # Closed shelves: the SAGA production track (story design, drafts, revisions,
@@ -65,20 +50,12 @@ SHELF_DIR_CANDIDATES: dict[str, tuple[Path, ...]] = {
 # cannot be validated against the working tree.
 HISTORY_ONLY_KEYS = ("story", "workroom", "draft", "prototype")
 
-DATA_FILE_CANDIDATES: list[tuple[Path, ...]] = [
-    (
-        ROOT / "tools/qfuds-verse-web/data/chronicle-data.js",
-        WORLDS / "web/data/chronicle-data.js",
-        LEGACY_VERSE / "web/data/chronicle-data.js",
-    ),
-    (
-        ROOT / "tools/qfuds-verse-web/data/lore-data.js",
-        WORLDS / "web/data/lore-data.js",
-        LEGACY_VERSE / "web/data/lore-data.js",
-    ),
+DATA_FILES: list[Path] = [
+    ROOT / "tools/qfuds-verse-web/data/chronicle-data.js",
+    ROOT / "tools/qfuds-verse-web/data/lore-data.js",
 ]
 
-SHELF_KEYWORDS = tuple(SHELF_DIR_CANDIDATES) + HISTORY_ONLY_KEYS
+SHELF_KEYWORDS = tuple(SHELF_DIRS) + HISTORY_ONLY_KEYS
 
 # A shelf keyword followed by a number expression: a single number, a slash
 # list (108/112/113), an inclusive range (117-122), or a mix (101/117-119).
@@ -127,25 +104,13 @@ def numbers_in_dir(directory: Path, *, recursive: bool = False) -> set[int]:
 
 
 def resolve_shelf_dir(shelf: str) -> Path:
-    """Return the first existing candidate directory for a retained shelf.
-
-    Falls back to the first candidate (the target fiction-vault path) when
-    none exists yet, so error messages name the intended location.
-    """
-    candidates = SHELF_DIR_CANDIDATES[shelf]
-    for path in candidates:
-        if path.exists():
-            return path
-    return candidates[0]
+    """Return the final directory for a retained shelf."""
+    return SHELF_DIRS[shelf]
 
 
 def resolve_data_files() -> list[Path]:
-    """Return the first existing candidate for each web data file."""
-    resolved: list[Path] = []
-    for candidates in DATA_FILE_CANDIDATES:
-        chosen = next((p for p in candidates if p.exists()), candidates[0])
-        resolved.append(chosen)
-    return resolved
+    """Return the final path for each web data file."""
+    return list(DATA_FILES)
 
 
 def build_truth_map() -> dict[str, "set[int] | None"]:
@@ -156,7 +121,7 @@ def build_truth_map() -> dict[str, "set[int] | None"]:
     """
     truth: dict[str, set[int] | None] = {
         shelf: numbers_in_dir(resolve_shelf_dir(shelf))
-        for shelf in SHELF_DIR_CANDIDATES
+        for shelf in SHELF_DIRS
     }
     for key in HISTORY_ONLY_KEYS:
         truth[key] = None

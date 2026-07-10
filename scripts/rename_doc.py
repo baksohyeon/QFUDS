@@ -8,20 +8,22 @@ What Obsidian does for GUI renames, this does for agent/CLI renames:
      (markdown links, scripts, html) so no reference breaks.
   3. If the 3-digit number prefix changed, update link labels that carry the
      old number (e.g. `[026 Q-Day 여파](026_...)` -> `[115 Q-Day 여파](115_...)`).
-  4. Scan docs/wiki for links that still point at the old basename (must be 0)
-     and report the repo-wide broken-link count for the touched names.
+  4. Scan docs/wiki, fiction/, and creative_harness/ for links that still
+     point at the old basename (must be 0) and report the repo-wide
+     broken-link count for the touched names.
 
 It does NOT touch bare-number prose citations ("충돌 시 025 > 021" 류).
 Those are semantic text, not machine-trackable references; if you change a
 doc's number, grep for the old number yourself. Shelf band policy
-(continuity 0xx / world 1xx / bible 2xx / story 3xx / workroom 4xx, mapping in
-qfuds-saga/00_workroom/417) exists so numbers should never need to change.
+(continuity 0xx / world 1xx / bible 2xx / story 3xx / workroom 4xx, mapping
+preserved in Git history at qfuds-saga/00_workroom/417 — see
+`git show bbbcb970:<path>`) exists so numbers should never need to change.
 
 Usage:
   python3 scripts/rename_doc.py <old_path> <new_basename_or_path> [--dry-run]
 
 Examples:
-  python3 scripts/rename_doc.py docs/wiki/fiction/.../NNN_old_slug_ko.md NNN_new_slug_ko.md --dry-run
+  python3 scripts/rename_doc.py fiction/worlds/qfuds-verse/.../NNN_old_slug_ko.md NNN_new_slug_ko.md --dry-run
 
 After a real run: python3 scripts/validate_docs.py && python3 scripts/fiction_gate.py
 """
@@ -33,7 +35,13 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 SCAN_GLOBS = ["docs/**/*.md", "docs/**/*.html", "docs/**/*.js",
+              "fiction/**/*.md", "creative_harness/**/*.md",
+              "tools/qfuds-verse-web/**/*.js",
               "scripts/**/*.py", ".agents/**/*.md", ".agent/**/*.md", "*.md"]
+# Roots scanned for broken-link fallout after a rename. The 2026-07-10
+# fiction-vault migration moved fiction content out of docs/wiki, so both
+# trees must be checked.
+LINK_CHECK_ROOTS = ("docs/wiki", "fiction", "creative_harness")
 LINK = re.compile(r"\]\(([^)#]+\.md)")
 TOKEN = re.compile(r"(?<![\d._/-])(\d{3})(?![\d._/-])")
 
@@ -48,6 +56,8 @@ def scan_targets():
 
 
 def broken_links(root: Path) -> int:
+    if not root.exists():
+        return 0
     n = 0
     for p in root.rglob("*.md"):
         try:
@@ -61,6 +71,11 @@ def broken_links(root: Path) -> int:
             if not (p.parent / target).exists():
                 n += 1
     return n
+
+
+def broken_links_total() -> int:
+    """Sum broken-link counts across every root that can host fiction docs."""
+    return sum(broken_links(REPO / root) for root in LINK_CHECK_ROOTS)
 
 
 def main() -> int:
@@ -84,7 +99,7 @@ def main() -> int:
     old_pref = old_name[:3] if re.match(r"\d{3}_", old_name) else None
     new_pref = new_name[:3] if re.match(r"\d{3}_", new_name) else None
 
-    baseline_broken = broken_links(REPO / "docs/wiki")
+    baseline_broken = broken_links_total()
 
     print(f"{'[dry-run] ' if dry else ''}git mv {old_path.relative_to(REPO)} -> {new_path.relative_to(REPO)}")
     if not dry:
@@ -119,15 +134,15 @@ def main() -> int:
 
     leftovers = [str(p.relative_to(REPO)) for p in scan_targets()
                  if old_name in (p.read_text(encoding="utf-8", errors="ignore"))]
-    after_broken = broken_links(REPO / "docs/wiki")
+    after_broken = broken_links_total()
     print(f"refs updated in {changed} file(s); old-name leftovers: {len(leftovers)}")
     for l in leftovers:
         print("  LEFTOVER:", l)
-    print(f"docs/wiki broken links: {baseline_broken} -> {after_broken}"
+    print(f"broken links ({', '.join(LINK_CHECK_ROOTS)}): {baseline_broken} -> {after_broken}"
           + (" (NEW BREAKAGE, investigate)" if after_broken > baseline_broken else ""))
     if old_pref != new_pref:
         print(f"note: number changed {old_pref}->{new_pref}. 산문 속 맨 번호 인용은 자동 갱신되지 않는다:")
-        print(f"  grep -rn '\\b{old_pref}\\b' docs/wiki/fiction --include='*.md'")
+        print(f"  grep -rn '\\b{old_pref}\\b' fiction --include='*.md'")
     print("next: python3 scripts/validate_docs.py && python3 scripts/fiction_gate.py")
     return 1 if (leftovers or after_broken > baseline_broken) else 0
 

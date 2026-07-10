@@ -23,8 +23,16 @@ import subprocess
 import sys
 import pathlib
 
-FICTION_ROOT = "docs/wiki/fiction"
-PROSE_DIRS = ("/20_drafts/", "/40_release/")
+# 2026-07-10 fiction-vault migration: content moved out of docs/wiki/fiction
+# into a repository-root vault. fiction/ holds the SAGA world/prose material;
+# creative_harness/ holds craft and method reference docs whose examples
+# quote the very AI-tell patterns this gate polices (see the exemptions
+# below), so it stays in scope for the warn-only checks.
+FICTION_ROOTS = ("fiction", "creative_harness")
+# SAGA production shelves (drafts/revisions/release) closed on 2026-07-10 and
+# are Git-history-only (`git show bbbcb970:<path>`). The only live prose-draft
+# shelf left in the working tree is a per-project drafts directory.
+PROSE_DIRS = ("/drafts/",)
 EMDASH = "—"
 SENSITIVE = re.compile(r"젠더|가부장|페미니|성별|모계|우생|gender|feminis|patriarch", re.I)
 AI_META_HOOK = re.compile(
@@ -51,11 +59,15 @@ def staged_fiction():
     out = subprocess.run(
         ["git", "diff", "--cached", "--name-only", "--diff-filter=ACMR"],
         capture_output=True, text=True).stdout.split()
-    return [f for f in out if f.startswith(FICTION_ROOT) and f.endswith(".md")]
+    return [f for f in out
+            if f.startswith(FICTION_ROOTS) and f.endswith(".md")]
 
 
 def all_fiction():
-    return [str(p) for p in pathlib.Path(FICTION_ROOT).rglob("*.md")]
+    found = []
+    for root in FICTION_ROOTS:
+        found.extend(str(p) for p in pathlib.Path(root).rglob("*.md"))
+    return found
 
 
 def reader_prose(text):
@@ -142,7 +154,7 @@ def check(files):
 
 
 def needs_series_gate(path):
-    if "/20_drafts/" not in path:
+    if "/drafts/" not in path:
         return False
     name = path.rsplit("/", 1)[-1].lower()
     prefix = name.split("_", 1)[0]
@@ -156,7 +168,7 @@ def needs_series_gate(path):
 
 
 def is_active_draft(path):
-    if "/20_drafts/" not in path or "/_versions/" in path:
+    if "/drafts/" not in path or "/_versions/" in path:
         return False
     name = path.rsplit("/", 1)[-1].lower()
     return ("korean" in name or "primary" in name or "adaptation" in name
