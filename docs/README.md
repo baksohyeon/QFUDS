@@ -9,7 +9,7 @@ depends_on:
   - project_overview
   - roadmap
 next_gate: retained branch demoted; keep Level 2B blocked
-last_updated: 2026-06-18
+last_updated: 2026-07-10
 ---
 
 # QFUDS Documentation Index
@@ -118,6 +118,10 @@ Current validation roadmap and blockers.
 - [020_three_branch_routing_plan_ko.md](05_next_steps/020_three_branch_routing_plan_ko.md) - Korean routing plan separating empirical kill-map work, exploratory candidate sandbox work, and idea-lineage provenance
 - [030_exp003_record_consistency_gate.md](05_next_steps/030_exp003_record_consistency_gate.md) - exp_003 record consistency gate
 - [900_roadmap_overview_ko.md](05_next_steps/900_roadmap_overview_ko.md) - Korean guide to roadmap trajectory and branch outcomes
+
+## Superpowers Plans
+
+- [Fiction knowledge and creative harness separation plan](superpowers/plans/2026-07-10-fiction-knowledge-harness-separation.md) - implementation coordination plan for fiction knowledge and creative harness separation
 
 ## Research Cache
 
