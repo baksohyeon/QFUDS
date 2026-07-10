@@ -12,16 +12,18 @@ Before changing fiction files, read:
 1. `docs/05_next_steps/000_roadmap.md` for current research posture.
 2. `.agent/workflows/fiction-ip-management-workflow.md` for routing and boundary.
 3. `.agent/workflows/agentic-fiction-production-workflow.md` for production order.
-4. `docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md`
+4. `creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md`
    for Korean-primary prose or polish.
-5. `docs/wiki/fiction/00_studio/010_reader_onboarding_harness_ko.md`
+5. `creative_harness/craft/010_reader_onboarding_harness_ko.md`
    for scenes that depend on technical, legal, institutional, or world-historical concepts.
-6. The relevant work README and workroom production board. When you need the
-   story itself (premise, world rules, cast, the five dramatic questions, or the
-   restoration mechanism), read the SAGA reader orientation first:
-   `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md`.
+6. The relevant work's `README.md` under `fiction/projects/<work-id>/`
+   (classification, inherited rules, local overrides, work bible, story
+   design, boundary). The QFUDS SAGA first-arc reader orientation closed
+   2026-07-10 and is Git history only
+   (`git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md`).
 7. The chapter intent card, if the task touches prose or a chapter/episode plan.
-8. Relevant bible, story_design, draft, and revision docs.
+8. The relevant universe series-bible (`fiction/worlds/<universe-id>/series-bible/`)
+   and the work's README sections and `drafts/`.
 
 ## Execution Modes
 

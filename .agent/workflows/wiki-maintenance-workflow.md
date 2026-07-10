@@ -73,8 +73,8 @@ Check for:
 
 - stale links or renamed paths;
 - orphan pages missing from `docs/wiki/index.md`;
-- fiction pages still parked under `docs/wiki/lineage/` instead of
-  `docs/wiki/fiction/` unless they are true idea-genealogy records;
+- fiction pages still parked under `docs/wiki/lineage/` instead of the
+  repository-root `fiction/` vault unless they are true idea-genealogy records;
 - pages that duplicate operational workflow rules from `.agent/`;
 - asset/product claims not backed by the research asset workflow;
 - status claims outside the roadmap;

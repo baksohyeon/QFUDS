@@ -7,9 +7,9 @@ Use them for new fiction universes and works before writing prose.
 
 | Template | Use when |
 | --- | --- |
-| [universe_readme_template.md](universe_readme_template.md) | Creating a new universe/IP under `docs/wiki/fiction/10_universes/`. |
-| [work_readme_template.md](work_readme_template.md) | Creating a new series, novel, short, anthology, webtoon-like run, or elseworld work. |
-| [work_bible_template.md](work_bible_template.md) | Creating a work-local `00_bible/` reference document. |
+| [universe_readme_template.md](universe_readme_template.md) | Creating a new universe/IP under `fiction/worlds/`. |
+| [work_readme_template.md](work_readme_template.md) | Creating a new series, novel, short, anthology, webtoon-like run, or elseworld work under `fiction/projects/<work-id>/`. |
+| [work_bible_template.md](work_bible_template.md) | Creating a work-local "Work Bible" section in a work's `README.md`, or a universe's `series-bible/` when the bible is shared across works. |
 | [character_sheet_template.md](character_sheet_template.md) | Profiling a character that carries a scene or arc (companion to the bible Cast table). |
 | [continuity_audit_template.md](continuity_audit_template.md) | Cross-checking a draft against the work bible before revision/release. |
 | [session_brief_template.md](session_brief_template.md) | Starting a writing/revision session with user approval gates and boundaries. |

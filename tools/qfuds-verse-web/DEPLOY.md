@@ -13,7 +13,7 @@ last_updated: 2026-07-10
 
 # QFUDS Verse Codex 배포 가이드
 
-`docs/wiki/fiction/10_universes/qfuds-verse/web/` 의 자기완결 앱.
+`tools/qfuds-verse-web/` 의 자기완결 앱.
 성좌(3D)·연대기·인물·체계·사전 + 시드 보관함 + 아카이브 질의.
 
 - **런타임**: 의존성 0개 Node 서버(`server.js`) — 정적 코덱스 서빙 + 선택적 `/api/query`(Gemini 프록시).
@@ -23,7 +23,7 @@ last_updated: 2026-07-10
 로컬 실행:
 
 ```bash
-cd docs/wiki/fiction/10_universes/qfuds-verse/web
+cd tools/qfuds-verse-web
 node server.js            # http://localhost:5000
 # 질의까지 테스트하려면:
 GEMINI_API_KEY=xxxxx node server.js
@@ -39,7 +39,7 @@ GEMINI_API_KEY=xxxxx node server.js
 ```bash
 # 1) 앱 생성 + 빌드 디렉터리 지정 (최초 1회)
 ssh dorito@100.117.91.34 sudo dokku apps:create qfuds-fiction
-ssh dorito@100.117.91.34 sudo dokku builder:set qfuds-fiction build-dir docs/wiki/fiction/10_universes/qfuds-verse/web
+ssh dorito@100.117.91.34 sudo dokku builder:set qfuds-fiction build-dir tools/qfuds-verse-web
 
 # 2) (선택) 질의 켜기 — Gemini 키. 없으면 질의만 비활성, 나머지 전부 동작
 ssh dorito@100.117.91.34 sudo dokku config:set qfuds-fiction GEMINI_API_KEY=xxxxx

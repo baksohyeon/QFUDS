@@ -1,7 +1,8 @@
 # Fiction IP Management Workflow
 
 Use this workflow whenever an agent creates, moves, classifies, or extends
-fiction material under `docs/wiki/fiction/`.
+fiction material under the repository-root [fiction/](../../fiction/README.md)
+vault.
 
 This workflow is process-only. It does not change research evidence or roadmap
 status.
@@ -179,38 +180,38 @@ Do not decide by topic alone. Decide by ownership:
 
 ## Recommended Target Shape
 
-Use this target shape for new fiction work. Existing legacy paths may remain
-until migrated, but new major work should follow this model.
+Use this target shape for new fiction work. It reflects the repository-root
+fiction vault adopted 2026-07-10; the earlier per-work
+studio/catalog/workroom/bible/story-design/revisions/release scaffold under
+`docs/wiki/fiction/` is Git history only (`git show bbbcb970:<old-path>`).
 
 ```text
-docs/wiki/fiction/
-  00_studio/
-  01_catalog/
-  10_universes/
-    00_multiverse/
+fiction/
+  inbox/
+  knowledge/
+  research/
+  worlds/
     <universe-id>/
       README.md
-      00_continuity/
-      10_world/
-      20_series/
-      30_shorts/
-      40_anthologies/
-      50_elseworlds/
-  90_archive/
+      continuity/
+      world/
+      series-bible/
+  projects/
+    <work-id>/
+      README.md
+      drafts/
 ```
 
-Within each work:
+Operational workflow/template/skill authority for fiction stays outside the
+vault: `.agent/workflows/`, `.agent/templates/fiction/`,
+`.agents/skills/fiction-production/`, and `tools/`. Human craft/method
+references stay in `creative_harness/` (`creative_harness/craft/`,
+`creative_harness/methods/`).
 
-```text
-<work-id>/
-  README.md
-  00_workroom/
-  00_bible/
-  10_story_design/
-  20_drafts/
-  30_revisions/
-  40_release/
-```
+Within a project, local operating notes, work bible, and story-design/reveal
+material live as sections in `README.md`; only prose drafts get their own
+`drafts/` subfolder. A shared universe bible lives once in
+`worlds/<universe-id>/series-bible/` rather than being duplicated per work.
 
 ## Classification Checklist
 
@@ -269,13 +270,16 @@ Use [.agent/templates/fiction/work_readme_template.md](../templates/fiction/work
 
 ## Workroom Rule
 
-Use `00_workroom/` inside a work when the document is local operating procedure:
-agent harness notes, approval gates, sub-agent role definitions, local workflow
-exceptions, or repeatable review rules for that work only.
+Record local operating procedure for a single work — agent harness notes,
+approval gates, sub-agent role definitions, local workflow exceptions, or
+repeatable review rules for that work only — as a section in the work's
+`README.md` under `fiction/projects/<work-id>/`. The dedicated `00_workroom/`
+subfolder was part of the closed SAGA production track (Git history only,
+`git show bbbcb970:<path>`); new work does not recreate it.
 
-Do not put universe-wide studio rules in a workroom. Global fiction/IP rules
-belong in `.agent/workflows/` and human-readable summaries belong under
-`docs/wiki/fiction/00_studio/`.
+Do not put universe-wide studio rules in a work's README. Global fiction/IP
+rules belong in `.agent/workflows/`; there is no separate human-readable
+mirror inside the fiction vault.
 
 ## Harness Applied Block
 
@@ -294,11 +298,13 @@ any new revision of those drafts must add it before the draft is promoted.
 
 ## Bible Rule
 
-`bible` is allowed as a work-local production term, not as the main
-user-facing universe folder name.
+`bible` is a continuity-reference term, not a folder every work needs.
 
-Use `00_bible/` inside a work when the document is a continuity reference for
-that work. A bible can include:
+Shared continuity for a universe lives in
+`fiction/worlds/<universe-id>/series-bible/` (the qfuds-verse universe keeps
+its bible there). A work with no shared-bible need records its own continuity
+reference as a "Work Bible" section in the work's `README.md` under
+`fiction/projects/<work-id>/`, covering:
 
 - cast and relationships;
 - point of view and voice;
@@ -316,6 +322,9 @@ Do not use `bible` for:
 - whole-repo fiction system rules;
 - research evidence;
 - external-source cache records.
+
+The per-work `00_bible/` subfolder was part of the closed SAGA production
+track (Git history only, `git show bbbcb970:<path>`).
 
 ## Universe Inheritance Rule
 
@@ -397,8 +406,9 @@ QFUDS SAGA first arc).
   끝까지 끌고 간 훅.
 - 집계해 공통 이탈 지점을 고치고, 페르소나가 목표 리텐션(사실상 끝까지)에
   도달할 때까지 반복한다. 통과 전에는 release 금지.
-- 실행 결과와 판정을 작품의 revision plan에 기록한다(예: saga
-  `30_revisions/002`, `00_workroom/005`).
+- 실행 결과와 판정을 작품 README(`fiction/projects/<work-id>/README.md`)의
+  해당 섹션에 기록한다. 과거 SAGA `30_revisions/`, `00_workroom/` 경로는
+  closed shelf로 Git 이력에서만 확인한다(`git show bbbcb970:<path>`).
 
 ### Required Retention Gate Artifact
 
@@ -494,4 +504,4 @@ sh scripts/git-hooks/pre-commit
 ```
 
 For fiction restructuring, also run a local link/state smoke check over
-`docs/wiki/fiction/` when practical.
+`fiction/` when practical.

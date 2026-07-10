@@ -2,7 +2,7 @@
 name: note-curator
 description: >
   Classify and route loose fiction notes, meeting memos, chat ideas, and brainstorms
-  into the SAGA folder structure. Use when capturing or sorting raw material.
+  into the fiction vault structure. Use when capturing or sorting raw material.
   Triggers: "이 메모 정리해줘", "이거 어디 넣어?", "아이디어 분류", "회의록 정리",
   "curate this note", "where does this go", "sort my inbox", "raw vs canon".
   Sorts each item into raw / candidate / canon / archive and routes it to the correct
@@ -27,11 +27,17 @@ rules), and `.agent/workflows/wiki-maintenance-workflow.md`.
 3. Classify by ownership layer: `studio | catalog | universe/IP | continuity | work |
    workroom | bible | story_design | drafts | revisions | release`. Decide by
    ownership, not topic.
-4. Route to the folder that owns it. For SAGA: operating specs -> `00_workroom/`;
-   series-bible / 설정 기준서 -> `00_bible/`; pitches/outlines/visual -> `10_story_design/`;
-   prose drafts -> `20_drafts/`; revision plans -> `30_revisions/`; release candidates
-   -> `40_release/`; archived prototypes -> `docs/wiki/fiction/90_archive/`.
-   Studio-wide rules belong in `.agent/workflows/`, human summaries in `00_studio/`.
+4. Route to the folder that owns it. Uncategorized raw material -> `fiction/inbox/`;
+   reusable cross-project ideas -> `fiction/knowledge/`; real-world reference
+   material -> `fiction/research/`; facts true in a fictional world (continuity/
+   world/series-bible) -> `fiction/worlds/<universe-id>/`; work-local operating
+   notes, work bible, story design, and boundary -> a section in
+   `fiction/projects/<work-id>/README.md`; prose drafts ->
+   `fiction/projects/<work-id>/drafts/`. The closed SAGA production track's
+   per-work workroom/bible/story-design/revisions/release/archive shelves are
+   Git history only (`git show bbbcb970:<path>`); do not recreate them.
+   Studio-wide rules belong only in `.agent/workflows/` — there is no separate
+   human-readable mirror inside the fiction vault.
 5. Stamp each new record with an authoring baseline date and, if it is a bible/scene
    plan, the narrative frame.
 ## Output

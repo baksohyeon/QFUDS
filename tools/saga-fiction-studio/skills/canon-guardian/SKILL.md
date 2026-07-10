@@ -2,8 +2,9 @@
 name: canon-guardian
 description: >
   Guard SAGA/web-novel canon before any edit. Use before creating, moving, editing,
-  or extending fiction material under docs/wiki/fiction/ — bible, world, timeline,
-  terms, character sheets, continuity records, or anything that could become canon.
+  or extending fiction material under the repository-root fiction/ vault — bible,
+  world, timeline, terms, character sheets, continuity records, or anything that
+  could become canon.
   Triggers: "정본 수정", "이거 캐논 맞아?", "설정 바꿔줘", "이 문서 옮겨줘", "add this to the bible",
   "edit canon", "is this canon", "update the timeline/world/character". Classifies the
   change, reads the related canon first, and reports conflict risk BEFORE editing.
@@ -16,8 +17,10 @@ SSOT (read the relevant one, do not restate it here):
 `.agent/workflows/fiction-ip-management-workflow.md` and
 `.agent/workflows/documentation-folder-routing-workflow.md`.
 ## When to run
-Run before any create/move/edit/extend on `docs/wiki/fiction/`, especially
-`00_bible/`, `10_world/`, `00_continuity/`, timeline, terms, or character docs.
+Run before any create/move/edit/extend on `fiction/`, especially
+`worlds/<universe-id>/series-bible/`, `worlds/<universe-id>/world/`,
+`worlds/<universe-id>/continuity/`, timeline, terms, or character docs, or a
+project's "Work Bible" section in `fiction/projects/<work-id>/README.md`.
 Short one-off notes that create no canon may skip this.
 ## Procedure
 1. Classify the change by ownership, not topic, using the layer ladder:
@@ -35,9 +38,12 @@ Short one-off notes that create no canon may skip this.
    `confirmed canon | candidate idea | interpretation | discarded/archive`.
    Never present a candidate as canon.
 5. Enforce routing: canon lives only in its owning folder; drafts never go in
-   `00_bible/`; universe-wide rules never go in a work `00_workroom/`. For SAGA use
-   the paths in the repo CLAUDE.md (`.../qfuds-saga/00_bible/`, `10_story_design/`,
-   `20_drafts/`, `30_revisions/`, `40_release/`, archive to `90_archive/`).
+   `series-bible/`; universe-wide rules never go in a project's "Work Bible"
+   section. Use `fiction/worlds/<universe-id>/series-bible/` for shared universe
+   canon and `fiction/projects/<work-id>/` (README sections + `drafts/`) for
+   work-local material; the closed SAGA production track's per-work
+   bible/story-design/drafts/revisions/release/archive shelves are Git history
+   only (`git show bbbcb970:<path>`).
 6. If a work folder has no README, block bible/design/draft additions until a work
    README exists (Work README Contract).
 7. Preserve load-bearing technical terms (hash, KDF, key, entropy, Page curve, AGI,

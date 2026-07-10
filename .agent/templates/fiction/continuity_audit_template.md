@@ -1,8 +1,10 @@
 # <Work / Arc> Continuity Audit
 
-Run before promoting a draft to `30_revisions/` or `40_release/`. Cross-checks a
-scene or episode against the work `00_bible/` so revisions do not silently break
-canon. Supports the
+Run before promoting a draft toward release. Cross-checks a scene or episode
+against the work's continuity reference (a work's "Work Bible" section in
+`fiction/projects/<work-id>/README.md`, or the universe's
+`fiction/worlds/<universe-id>/series-bible/`) so revisions do not silently
+break canon. Supports the
 [Fiction IP Management Workflow](../../workflows/fiction-ip-management-workflow.md).
 
 ## Scope

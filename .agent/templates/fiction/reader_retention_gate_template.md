@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - <retention_gate_protocol_or_previous_run_doc_id>
 next_gate: complete persona sheets, issue ledger, decision, and verification before release promotion
-last_updated: 2026-06-22
+last_updated: 2026-07-10
 ---
 
 # <Work> Retention Gate Run <YYYY-MM-DD> <baseline-shortsha>
@@ -48,10 +48,11 @@ This document is a gate run artifact, not a rolling scratchpad. Do not overwrite
 a completed gate run when the draft changes. Create a new gate document for each
 new baseline.
 
-Recommended naming:
+Recommended naming, as a dated note alongside the work's `README.md` under
+`fiction/projects/<work-id>/`:
 
 ```text
-30_revisions/<NNN>_<work>_retention_gate_run_<YYYYMMDD>_<baseline-shortsha>.md
+<work-id>_retention_gate_run_<YYYYMMDD>_<baseline-shortsha>.md
 ```
 
 If feedback is re-run after edits, record the previous run in `depends_on` and

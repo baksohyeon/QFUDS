@@ -58,10 +58,10 @@ Short version:
 - [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md)
   is the simplest Korean public story bridge for non-specialists: black holes,
   vacuum energy, `Gamma(a)`, and why story is not evidence.
-- [docs/wiki/fiction/](docs/wiki/fiction/) is a separate hobby track: a
-  fiction-writer harness for IP-style worldbuilding, continuity, review
-  workflows, and draft governance. The point is the writing system, not the
-  fiction output. It is not research evidence.
+- [fiction/](fiction/README.md) (with [creative_harness/](creative_harness/README.md))
+  is a separate hobby track: a fiction-writer vault for IP-style worldbuilding,
+  continuity, review workflows, and draft governance. The point is the writing
+  system, not the fiction output. It is not research evidence.
 
 ## Start Here
 
@@ -75,7 +75,7 @@ Short version:
 | The black-hole information origin bridge | [lineage 007](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md) |
 | Where retained `Gamma(a)` stopped | [lineage 008](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md) |
 | The simplest public story bridge | [lineage 009](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md) |
-| A hobby fiction-writer harness | [docs/wiki/fiction/](docs/wiki/fiction/) |
+| A hobby fiction-writer harness | [fiction/](fiction/README.md) and [creative_harness/](creative_harness/README.md) |
 | How the retained `Gamma(a)` maps to academic IV/IDE language | [Academic Derivation Bridge](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md) |
 | Korean overview | [qfuds_ko.md](docs/00_project/qfuds_ko.md) |
 
@@ -1002,7 +1002,7 @@ History/source notes:
 - [007_black_hole_information_public_bridge_ko.md](docs/wiki/lineage/007_black_hole_information_public_bridge_ko.md): provenance-only public bridge for the black-hole information origin story (Korean)
 - [008_gamma_to_academic_iv_bridge_result_ko.md](docs/wiki/lineage/008_gamma_to_academic_iv_bridge_result_ko.md): Korean lineage result for where retained `Gamma(a)` enters IV/IDE formalism and where it stops
 - [009_qfuds_public_story_bridge_ko.md](docs/wiki/lineage/009_qfuds_public_story_bridge_ko.md): simplest Korean public story bridge for non-specialists; motivation only, not physical evidence
-- [docs/wiki/fiction/](docs/wiki/fiction/): separate hobby fiction-writer harness for IP-style worldbuilding, continuity routing, review workflows, and draft governance; not research evidence
+- [fiction/](fiction/README.md) (with [creative_harness/](creative_harness/README.md)): separate hobby fiction-writer vault for IP-style worldbuilding, continuity routing, review workflows, and draft governance; not research evidence
 - [055_academic_derivation_bridge_ko.md](docs/wiki/research/investigations/source_x/conclusions/055_academic_derivation_bridge_ko.md): translates retained `Gamma(a)` into academic interacting-vacuum / interacting-dark-energy formalism without reopening Level 2B
 - [056_iv_ide_formalism_study_map_ko.md](docs/wiki/research/investigations/source_x/conclusions/056_iv_ide_formalism_study_map_ko.md): safe learning map for IV/IDE formalism after the brute-force `Gamma(a)` retrospective
 - [057_iv_ide_formalism_notes_ledger_ko.md](docs/wiki/research/investigations/source_x/conclusions/057_iv_ide_formalism_notes_ledger_ko.md): first IV/IDE formalism ledger for background `Q`, frame choice, perturbation closure, and solver stop rules

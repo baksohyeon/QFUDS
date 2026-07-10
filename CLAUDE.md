@@ -49,19 +49,15 @@ own copy of project status.
   and [Wiki Maintenance Workflow](.agent/workflows/wiki-maintenance-workflow.md).
   For fiction/IP work, also read
   [Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
-  For SAGA fiction, route operating specs to
-  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_workroom/`,
-  series bible / 작품 설정 기준서 material to
-  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/00_bible/`,
-  pitches/outlines/visual packages to
-  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/`,
-  prose drafts with harness boundaries to
-  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/`,
-  release-facing revision plans to
-  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/30_revisions/`,
-  release candidates to
-  `docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/40_release/`,
-  and archived prototypes to `docs/wiki/fiction/90_archive/`.
+  Fiction content lives in the repository-root [fiction/](fiction/README.md)
+  vault (`fiction/inbox/`, `fiction/knowledge/`, `fiction/research/`,
+  `fiction/worlds/`, `fiction/projects/`); human craft/method references live
+  in [creative_harness/](creative_harness/README.md) (`creative_harness/craft/`,
+  `creative_harness/methods/`). The QFUDS SAGA production track (story design,
+  drafts, revisions, release, and workroom material except research anchors
+  `411`/`412`, and the archive) closed 2026-07-10 and is Git history only
+  (`git show bbbcb970:<path>`), not a live routing target. Fiction is never
+  QFUDS research evidence.
 - Do not duplicate roadmap, decision-log, theory, or experiment content here.
 - When this file disagrees with [AGENTS.md](AGENTS.md) or the roadmap, those win and this
   file must be corrected.

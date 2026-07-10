@@ -20,7 +20,7 @@
 - Avoid meta-hook slogans such as `엔진:`, `핵심은 A가 아니라 B`, `사건의 주어는 X`, or
   `한 사람의 손가락`.
 - Use `humanize` only as final polish after structure and continuity pass.
-- Apply `docs/wiki/fiction/00_studio/009_korean_fiction_prose_naturalness_harness_ko.md`
+- Apply `creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md`
   before final Korean-primary prose polish.
 
 ## Local Voice Notes
