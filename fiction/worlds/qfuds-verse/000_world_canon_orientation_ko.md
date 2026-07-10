@@ -50,7 +50,7 @@ external source claim: no
 
 ## 현재 시간 척추
 
-하드 연도는 확정하지 않는다. 현재 기준은 [125 Q-Day 타임라인 스파인](10_world/125_qday_two_crisis_timeline_spine_ko.md)이다.
+하드 연도는 확정하지 않는다. 현재 기준은 [125 Q-Day 타임라인 스파인](world/125_qday_two_crisis_timeline_spine_ko.md)이다.
 
 | 층 | 핵심 사건 | 의미 |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ external source claim: no
 
 ## SAGA 현재 부 구조
 
-현행 시대 좌표는 [209 캐릭터 지도와 타임라인 좌표](20_series/qfuds-saga/00_bible/209_character_map_and_timeline_coordinates_ko.md)가 우선한다.
+현행 시대 좌표는 [209 캐릭터 지도와 타임라인 좌표](series-bible/209_character_map_and_timeline_coordinates_ko.md)가 우선한다.
 
 | 부 | 중심 인물 | 기능 |
 | --- | --- | --- |
@@ -122,8 +122,8 @@ external source claim: no
 
 1. 이 문서.
 2. QFUDS SAGA 세계관·인물 한눈에.
-3. [QFUDS SAGA 세계관 컴펜디움](10_world/111_world_compendium_codex_ko.md).
-4. [QFUDS SAGA 캐논 권위·SSOT 지도](00_continuity/000_canon_authority_and_ssot_map_ko.md).
+3. [QFUDS SAGA 세계관 컴펜디움](world/111_world_compendium_codex_ko.md).
+4. [QFUDS SAGA 캐논 권위·SSOT 지도](continuity/000_canon_authority_and_ssot_map_ko.md).
 
 ## 보류 상태
 
@@ -140,6 +140,6 @@ external source claim: no
 ## 사용 규칙
 
 이 문서는 이해용 첫 장이다. 충돌이 나면 이 문서가 아니라
-[캐논 권위·SSOT 지도](00_continuity/000_canon_authority_and_ssot_map_ko.md)와 각 도메인
+[캐논 권위·SSOT 지도](continuity/000_canon_authority_and_ssot_map_ko.md)와 각 도메인
 권위 문서가 이긴다. 새 설정을 추가하려면 바로 이 문서를 고치지 말고, 먼저 해당
 도메인의 bible, story design, 또는 chronicler pass에서 결정한다.

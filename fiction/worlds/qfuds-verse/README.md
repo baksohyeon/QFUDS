@@ -30,8 +30,8 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 ## Codex (시각화 웹앱)
 
 세계관을 3D 성좌 + 연대기/인물/체계/사전으로 훑고, 아카이브에 질의하고,
-시드를 모아 문서 승격 재료로 뽑는 자기완결 웹앱: **[`web/`](web/)**
-(배포: [배포 가이드](web/DEPLOY.md), Dokku `git push dokku main`).
+시드를 모아 문서 승격 재료로 뽑는 자기완결 웹앱: **[`web/`](../../../tools/qfuds-verse-web/)**
+(배포: [배포 가이드](../../../tools/qfuds-verse-web/DEPLOY.md), Dokku `git push dokku main`).
 데이터는 이 유니버스 문서(001 딥타임 연표·115/116 Q-Day·117–122 확장 웨이브·
 003/126 심층시간·123 이념축 등)에서 파생한다.
 
@@ -58,7 +58,7 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 ## Continuity
 
 - Canon policy: 현재는 `active prototype`. 정사는 아직 닫히지 않았다.
-- Master timeline: [00_continuity/](00_continuity/)에서 관리한다.
+- Master timeline: [00_continuity/](continuity/)에서 관리한다.
 - Branch map: 아직 없음.
 - Elseworld policy: 다른 물리 premise나 다른 결말을 쓰면 elseworld 후보로
   분리한다.
@@ -67,13 +67,13 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 - Core science-fiction premise: 정보는 완전히 사라지지 않을 수 있고, 먼
   미래 문명은 그 잔상을 복원하려 한다.
-- Institutions: [10_world/](10_world/)에서 관리한다. 공유 세계 캐논(세력 102·명칭 109·
+- Institutions: [10_world/](world/)에서 관리한다. 공유 세계 캐논(세력 102·명칭 109·
   물리 113/114·암호 전제 105/108·역사 103/104/110·Q-Day 115/116 등)은 이제 여기(`10_world`)에
-  산다. 듄급 세계 밀도 대사전은 [10_world/117](10_world/117_world_expansion_wave1_names_places_events_ko.md)
+  산다. 듄급 세계 밀도 대사전은 [10_world/117](world/117_world_expansion_wave1_names_places_events_ko.md)
   candidate register에서 웨이브로 확장한다.
 - Factions: SSOT는 `10_world/`(102 세력·109 명칭)이 보유하고, 하위 가문·분파 확장은
   10_world/117에서 후보로 짓는다.
-- Continuity: 캐논 권위 지도(000)·딥타임 연표(001)·복원 행정 연표(002)는 [00_continuity/](00_continuity/)에 있다.
+- Continuity: 캐논 권위 지도(000)·딥타임 연표(001)·복원 행정 연표(002)는 [00_continuity/](continuity/)에 있다.
 - Technology limits: 기술어는 보존한다. `hash`, `KDF`, `key`, `salt`,
   `collision`, `entropy`, `Hawking radiation`, `AGI`, `QFUDS`는 근거 없이
   별칭으로 바꾸지 않는다.
@@ -85,7 +85,7 @@ canonical 작업 위치는 `20_series/qfuds-saga/`이다.
 
 | Work | Format | Canon status | Path |
 | --- | --- | --- | --- |
-| QFUDS SAGA | series candidate | active prototype series work | [20_series/qfuds-saga/](20_series/qfuds-saga/) |
+| QFUDS SAGA | series candidate | active prototype series work | 20_series/qfuds-saga/ |
 | Laur Observatory prototype | short prototype sequence | archived prototype | Git history only (`git show bbbcb970:docs/wiki/fiction/90_archive/lineage-prototype/README.md`) |
 
 ## Workflow Boundary

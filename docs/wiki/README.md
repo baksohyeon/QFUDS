@@ -8,7 +8,7 @@ evidence_role: reference
 depends_on:
   - roadmap
 next_gate: none; wiki routing only
-last_updated: 2026-06-19
+last_updated: 2026-07-10
 ---
 
 # Wiki Index
@@ -35,8 +35,9 @@ workflow rules, including the
 - [governance/](governance/README.md): admission rules, branch gates, consistency checks, and
   missing-physics maps for the repository itself.
 - [lineage/](lineage/README.md): idea genealogy and branch dependency provenance.
-- [fiction/](fiction/README.md): separate fiction companion tracks derived from
-  provenance and public-story records; not research evidence.
+- fiction: moved on 2026-07-10 to the repository-root
+  [fiction vault](../../fiction/README.md) and
+  [creative_harness](../../creative_harness/README.md); not research evidence.
 - [postmortem/](postmortem/README.md): incident retrospectives and process failures.
 - [research/](research/README.md): external literature records, investigations, cached assets, and
   source/product recovery work.

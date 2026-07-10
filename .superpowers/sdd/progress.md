@@ -35,3 +35,5 @@ history-only). Gates at this boundary: link gate, validate_docs,
 research_consistency, fiction_gate, web-data guard, preflight, unittest all
 passing (51 tests; earlier SAGA-subject tests were removed with their
 subjects).
+Task 2: complete (commits e9ba7fa..c68b116, gates green: link/validate/consistency/fiction/provenance/preflight/51 tests, protected scope untouched)
+Task 3: complete (user-performed Obsidian waves: continuity/world/series-bible renames, 411->creative_harness/methods, 412->fiction/research, density index->worlds/qfuds-verse, web->tools/qfuds-verse-web with dotfiles, coda->fiction/projects with drafts/, vector-sandbox->fiction/worlds with world/; 32 link repoints + 3 de-links; old wiki fiction landing deleted; gates green)

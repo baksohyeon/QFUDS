@@ -105,5 +105,5 @@ Wikipedia Company scrip(partial).
 ## Next Use
 
 이 자료는
-[비트코인 독자 접근성 + 실제 이론 앵커 bible](../../fiction/worlds/qfuds-verse/10_world/106_reader_accessibility_and_real_world_anchors_ko.md)과
+[비트코인 독자 접근성 + 실제 이론 앵커 bible](../../fiction/worlds/qfuds-verse/world/106_reader_accessibility_and_real_world_anchors_ko.md)과
 첫 arc 오프닝 퇴고가 집행한다.

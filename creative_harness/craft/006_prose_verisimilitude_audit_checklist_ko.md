@@ -19,7 +19,7 @@ last_updated: 2026-07-10
 체크리스트. SAGA 세계 기준점 문서의 산문형 5규칙을 "장면마다 예/아니오로
 답하는" 항목으로 승격한다.
 
-원천 규칙: [SAGA 세계 기준점과 핍진성 규칙](../../fiction/worlds/qfuds-verse/10_world/101_world_anchor_and_verisimilitude_ko.md)의
+원천 규칙: [SAGA 세계 기준점과 핍진성 규칙](../../fiction/worlds/qfuds-verse/world/101_world_anchor_and_verisimilitude_ko.md)의
 핍진성 5규칙. craft 일반 틀은
 [Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md).
 
