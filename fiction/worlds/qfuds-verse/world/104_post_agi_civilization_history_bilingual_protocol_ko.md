@@ -442,16 +442,16 @@ century.
 불과했다.
 ```
 
-## Next Task
+## Next Task (역사 기록)
 
-다음 prose 작업은 기존 내용을 폐기하지 않고, 한국어 primary draft를 먼저 만든
-뒤 영어권 독자용 각색판을 추가하는 것이다.
-
-active first-arc opening/source 파일:
+이 절은 SAGA 제작이 살아 있던 시기의 다음-작업 기록이다. SAGA production
+track은 2026-07-10에 종료됐고, 아래 first-arc opening/source 파일은 Git
+이력으로만 열람한다:
 
 ```text
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md
-docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
+git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/028_first_arc_opening_broken_crown_event_korean_primary.md
+git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/20_drafts/_versions/1부_prototype/019_exhibit_s0_episode1_revised_v2_korean_adaptation.md
 ```
 
-이 파일은 실제 fiction prose여야 하며, 설명표보다 장면을 우선한다.
+당시 원칙(한국어 primary draft 먼저, 영어권 각색판은 그다음, 설명표보다
+장면 우선)은 새 작품에도 그대로 쓸 수 있다.
