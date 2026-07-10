@@ -1,0 +1,1289 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="QFUDS Verse fiction_v2 HTML 세계관 리더">
+  <title>QFUDS Verse fiction_v2 세계관 리더</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fbfaf7;
+      --paper-2: #f0ece4;
+      --ink: #17140f;
+      --muted: #6a6257;
+      --line: #d8d0c4;
+      --teal: #146b62;
+      --teal-2: #d9eeea;
+      --rust: #a64224;
+      --rust-2: #f2d8cc;
+      --amber: #b17912;
+      --amber-2: #f5e8bd;
+      --violet: #5c527e;
+      --violet-2: #e3dfec;
+      --green: #2c6b3f;
+      --green-2: #dcebd8;
+      --white: #ffffff;
+      --radius-sm: 6px;
+      --radius-md: 8px;
+      --shadow: 0 20px 60px rgba(42, 32, 18, 0.12);
+      --font-sans: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-serif: "Noto Serif KR", Georgia, serif;
+      --step-0: 0.94rem;
+      --step-1: 1.06rem;
+      --step-2: 1.22rem;
+      --step-3: 1.48rem;
+      --step-4: 2rem;
+      --step-5: 2.55rem;
+      --space-1: 0.45rem;
+      --space-2: 0.75rem;
+      --space-3: 1rem;
+      --space-4: 1.5rem;
+      --space-5: 2rem;
+      --space-6: 3rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --paper: #161512;
+        --paper-2: #22201b;
+        --ink: #f6f0e6;
+        --muted: #beb4a5;
+        --line: #3c372f;
+        --teal: #74c8bd;
+        --teal-2: #173d39;
+        --rust: #e08768;
+        --rust-2: #4a261d;
+        --amber: #e4b246;
+        --amber-2: #483919;
+        --violet: #bcb1df;
+        --violet-2: #302b43;
+        --green: #9bcc8f;
+        --green-2: #20381f;
+        --white: #201e1a;
+        --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.72;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    button:focus-visible,
+    a:focus-visible,
+    [contenteditable="true"]:focus-visible {
+      outline: 3px solid var(--amber);
+      outline-offset: 3px;
+    }
+
+    .site-shell {
+      min-height: 100vh;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--paper) 92%, transparent);
+      backdrop-filter: blur(12px);
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 0.9rem 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      min-width: 0;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .brand-mark {
+      display: inline-grid;
+      place-items: center;
+      width: 2.1rem;
+      height: 2.1rem;
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      font-size: 0.78rem;
+      letter-spacing: 0;
+      flex: none;
+    }
+
+    .brand small {
+      display: block;
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-weight: 700;
+      margin-top: 0.12rem;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 0.35rem;
+    }
+
+    .nav a {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.38rem 0.68rem;
+      background: var(--white);
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .nav a:hover {
+      border-color: var(--ink);
+      color: var(--ink);
+    }
+
+    .hero {
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: var(--space-6) 0 var(--space-5);
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(300px, 0.7fr);
+      gap: var(--space-5);
+      align-items: stretch;
+    }
+
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-width: 0;
+    }
+
+    .kicker {
+      display: inline-flex;
+      width: fit-content;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.35rem 0.7rem;
+      background: var(--white);
+      color: var(--teal);
+      font-size: 0.86rem;
+      font-weight: 900;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      line-height: 1.22;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 14ch;
+      margin-top: var(--space-3);
+      font-family: var(--font-serif);
+      font-size: var(--step-5);
+      font-weight: 700;
+    }
+
+    .hero-lede {
+      max-width: 65ch;
+      margin: var(--space-4) 0 0;
+      color: var(--muted);
+      font-size: var(--step-2);
+      font-weight: 500;
+    }
+
+    .thesis-box {
+      display: grid;
+      gap: var(--space-3);
+      padding: var(--space-4);
+      border: 2px solid var(--ink);
+      border-radius: var(--radius-md);
+      background: var(--white);
+      box-shadow: var(--shadow);
+    }
+
+    .thesis-box strong {
+      display: block;
+      font-size: var(--step-3);
+      line-height: 1.35;
+    }
+
+    .thesis-box p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .quick-map {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      margin-top: var(--space-4);
+      border: 1px solid var(--line);
+      background: var(--line);
+    }
+
+    .quick-map div {
+      min-height: 94px;
+      padding: 0.85rem;
+      background: var(--white);
+    }
+
+    .quick-map b {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 0.88rem;
+    }
+
+    .quick-map span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.8rem;
+      line-height: 1.45;
+    }
+
+    main {
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto var(--space-6);
+      display: grid;
+      gap: var(--space-5);
+    }
+
+    .section {
+      display: grid;
+      gap: var(--space-3);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--line);
+      scroll-margin-top: 5rem;
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.5fr) minmax(0, 1fr);
+      gap: var(--space-4);
+      align-items: start;
+    }
+
+    .section-number {
+      color: var(--rust);
+      font-size: 0.85rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .section h2 {
+      font-size: var(--step-4);
+      font-weight: 900;
+    }
+
+    .section-intro {
+      margin: 0;
+      color: var(--muted);
+      font-size: var(--step-1);
+    }
+
+    .oracle-grid {
+      display: grid;
+      grid-template-columns: minmax(260px, 0.72fr) minmax(0, 1.28fr);
+      gap: var(--space-4);
+      align-items: start;
+    }
+
+    .definition-stack {
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .definition {
+      border: 1px solid var(--line);
+      border-left: 6px solid var(--teal);
+      border-radius: var(--radius-md);
+      padding: var(--space-3);
+      background: var(--white);
+    }
+
+    .definition:nth-child(2) {
+      border-left-color: var(--rust);
+    }
+
+    .definition:nth-child(3) {
+      border-left-color: var(--amber);
+    }
+
+    .definition b {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: var(--step-1);
+    }
+
+    .definition p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .chain-panel {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .chain-tabs {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      border-bottom: 1px solid var(--line);
+      background: var(--paper-2);
+    }
+
+    .chain-tabs button {
+      min-height: 56px;
+      border: 0;
+      border-right: 1px solid var(--line);
+      background: transparent;
+      cursor: pointer;
+      font-size: 0.86rem;
+      font-weight: 900;
+    }
+
+    .chain-tabs button:last-child {
+      border-right: 0;
+    }
+
+    .chain-tabs button[aria-selected="true"] {
+      background: var(--teal-2);
+      color: var(--teal);
+    }
+
+    .chain-body {
+      display: grid;
+      gap: var(--space-3);
+      padding: var(--space-4);
+    }
+
+    .chain-title {
+      font-size: var(--step-3);
+      font-weight: 900;
+      line-height: 1.25;
+    }
+
+    .chain-body p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .cause-list {
+      display: grid;
+      gap: 0.75rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .cause-list li {
+      display: grid;
+      grid-template-columns: 9rem minmax(0, 1fr);
+      gap: var(--space-3);
+      align-items: start;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-3);
+      background: var(--white);
+    }
+
+    .cause-list b {
+      color: var(--rust);
+      font-size: 0.9rem;
+    }
+
+    .cause-list span {
+      color: var(--muted);
+    }
+
+    .era-flow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: var(--space-3);
+    }
+
+    .era-card {
+      display: grid;
+      gap: 0.55rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-3);
+      background: var(--white);
+      min-height: 230px;
+    }
+
+    .era-card[data-color="teal"] {
+      border-top: 6px solid var(--teal);
+    }
+
+    .era-card[data-color="rust"] {
+      border-top: 6px solid var(--rust);
+    }
+
+    .era-card[data-color="amber"] {
+      border-top: 6px solid var(--amber);
+    }
+
+    .era-card[data-color="violet"] {
+      border-top: 6px solid var(--violet);
+    }
+
+    .era-card[data-color="green"] {
+      border-top: 6px solid var(--green);
+    }
+
+    .era-card small {
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .era-card h3 {
+      font-size: var(--step-2);
+    }
+
+    .era-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: var(--space-4);
+      align-items: start;
+    }
+
+    .matrix {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    .matrix-row {
+      display: grid;
+      grid-template-columns: 10rem minmax(0, 1fr) minmax(0, 1fr);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .matrix-row:last-child {
+      border-bottom: 0;
+    }
+
+    .matrix-row > * {
+      padding: var(--space-3);
+    }
+
+    .matrix-row.header {
+      background: var(--paper-2);
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 900;
+    }
+
+    .matrix-row b {
+      color: var(--ink);
+    }
+
+    .matrix-row span {
+      color: var(--muted);
+    }
+
+    .person-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: var(--space-3);
+    }
+
+    .person {
+      display: grid;
+      gap: var(--space-2);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-3);
+      background: var(--white);
+    }
+
+    .person .tag {
+      width: fit-content;
+      border-radius: 999px;
+      padding: 0.22rem 0.55rem;
+      background: var(--amber-2);
+      color: var(--amber);
+      font-size: 0.78rem;
+      font-weight: 900;
+    }
+
+    .person p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .triage-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .triage-tools button {
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.35rem 0.8rem;
+      background: var(--white);
+      cursor: pointer;
+      font-weight: 900;
+    }
+
+    .triage-tools button[aria-pressed="true"] {
+      border-color: var(--ink);
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .triage-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-3);
+    }
+
+    .source-card {
+      display: grid;
+      gap: 0.55rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-3);
+      background: var(--white);
+    }
+
+    .source-card[data-state="core"] {
+      border-top: 6px solid var(--teal);
+    }
+
+    .source-card[data-state="support"] {
+      border-top: 6px solid var(--green);
+    }
+
+    .source-card[data-state="candidate"] {
+      border-top: 6px solid var(--amber);
+    }
+
+    .source-card[data-state="stale"] {
+      border-top: 6px solid var(--rust);
+    }
+
+    .source-card small {
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .source-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .glossary {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--white);
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: var(--space-3);
+      font-weight: 900;
+    }
+
+    details p {
+      margin: 0;
+      padding: 0 var(--space-3) var(--space-3);
+      color: var(--muted);
+    }
+
+    .read-route {
+      display: grid;
+      gap: var(--space-3);
+      counter-reset: route;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .read-route li {
+      counter-increment: route;
+      display: grid;
+      grid-template-columns: 3rem minmax(0, 1fr);
+      gap: var(--space-3);
+      align-items: start;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: var(--space-3);
+      background: var(--white);
+    }
+
+    .read-route li::before {
+      content: counter(route);
+      display: grid;
+      place-items: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: var(--ink);
+      color: var(--paper);
+      font-weight: 900;
+    }
+
+    .read-route b {
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    .read-route span {
+      color: var(--muted);
+    }
+
+    .callout {
+      border: 2px solid var(--ink);
+      border-radius: var(--radius-md);
+      padding: var(--space-4);
+      background: var(--amber-2);
+    }
+
+    .callout h2 {
+      margin-bottom: var(--space-2);
+    }
+
+    .callout p {
+      max-width: 76ch;
+      margin: 0;
+      color: color-mix(in srgb, var(--ink) 78%, var(--muted));
+      font-size: var(--step-1);
+      font-weight: 700;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: var(--space-4) 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    footer .footer-inner {
+      width: min(1200px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    [data-pretext] {
+      min-height: fit-content;
+      overflow: visible;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    @media (max-width: 1024px) {
+      .hero,
+      .oracle-grid,
+      .section-head,
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+
+      .quick-map,
+      .era-flow,
+      .person-grid,
+      .triage-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 768px) {
+      .topbar-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav {
+        justify-content: flex-start;
+      }
+
+      h1 {
+        font-size: var(--step-4);
+      }
+
+      .chain-tabs {
+        grid-template-columns: 1fr;
+      }
+
+      .chain-tabs button {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        padding-left: var(--space-3);
+      }
+
+      .cause-list li,
+      .matrix-row {
+        grid-template-columns: 1fr;
+      }
+
+      .matrix-row.header {
+        display: none;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .quick-map,
+      .era-flow,
+      .person-grid,
+      .triage-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero,
+      main,
+      .topbar-inner,
+      footer .footer-inner {
+        width: min(100% - 24px, 1200px);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar" aria-label="QFUDS Verse fiction_v2 navigation">
+      <div class="topbar-inner">
+        <a class="brand" href="#top" aria-label="맨 위로 이동">
+          <span class="brand-mark" aria-hidden="true">QF</span>
+          <span>QFUDS Verse<br><small>fiction_v2 세계관 리더</small></span>
+        </a>
+        <nav class="nav" aria-label="주요 섹션">
+          <a href="#oracle">오라클</a>
+          <a href="#chain">원인 사슬</a>
+          <a href="#eras">시대</a>
+          <a href="#people">인물</a>
+          <a href="#triage">문서 분류</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="top" class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <span class="kicker">author-side reader, not new canon</span>
+        <h1 id="page-title" data-pretext contenteditable="true">오라클 문제를 죽음과 기억까지 밀어붙인 세계</h1>
+        <p class="hero-lede editable" data-pretext contenteditable="true">이 페이지는 흩어진 QFUDS Verse 설정을 한 화면에서 다시 묶는 세계관 빌드업 노트다. 목표는 모든 고유명사를 외우는 것이 아니다. 질문이 질문을 낳으며 “누가 진짜를 판정하고, 누가 남의 상실을 쓸 수 있는가”까지 가는 과정을 보는 것이다.</p>
+        <div class="quick-map" aria-label="세계관 핵심 네 칸 요약">
+          <div><b>현실 붕괴</b><span>사진, 영상, 목소리, 신원이 믿을 수 없는 것이 된다.</span></div>
+          <div><b>검증경제</b><span>“이거 진짜야?”에 답하는 회사와 노동이 권력이 된다.</span></div>
+          <div><b>Q-Day</b><span>마지막 수학적 신뢰 앵커였던 암호 체계까지 흔들린다.</span></div>
+          <div><b>상실 작성권</b><span>죽음, 복원, 기억, 망각을 누가 판정하는가가 마지막 질문이 된다.</span></div>
+        </div>
+      </div>
+
+      <aside class="thesis-box" aria-label="핵심 문장">
+        <strong data-pretext contenteditable="true">QFUDS Verse는 설정집이 아니라 판정권의 이야기다.</strong>
+        <p data-pretext contenteditable="true">블록체인의 오라클 문제는 “체인 바깥 현실을 누가 보증하나”다. 이 세계관은 그 질문을 문명 전체로 확장한다. 현실, 신원, 소유, 죽음, 기억, 망각까지 전부 누군가의 보증을 요구하게 된다.</p>
+      </aside>
+    </section>
+
+    <main>
+      <section id="oracle" class="section" aria-labelledby="oracle-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">01 / first handle</span>
+            <h2 id="oracle-title">오라클이 뭔지 몰라도 여기서 잡으면 된다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">오라클은 어려운 단어처럼 보이지만, 이 세계관에서는 아주 생활적인 문제다. 내가 보는 화면이 바깥 현실과 맞는지 누가 확인해 주는가.</p>
+        </div>
+
+        <div class="oracle-grid">
+          <div class="definition-stack">
+            <article class="definition">
+              <b>블록체인 안</b>
+              <p data-pretext contenteditable="true">체인은 자기 안의 거래 순서, 서명, 잔액을 검증할 수 있다. 장부 안에서 벌어진 일은 장부 규칙으로 확인한다.</p>
+            </article>
+            <article class="definition">
+              <b>블록체인 밖</b>
+              <p data-pretext contenteditable="true">배송이 왔는지, 영상이 진짜인지, 누가 죽었는지 같은 사실은 체인 밖에 있다. 체인은 그 사실을 스스로 보지 못한다.</p>
+            </article>
+            <article class="definition">
+              <b>오라클 문제</b>
+              <p data-pretext contenteditable="true">바깥 사실을 안으로 가져와 “믿어도 된다”고 말하는 자가 필요하다. 문제는 그 보증자를 다시 누가 보증하느냐다.</p>
+            </article>
+          </div>
+
+          <div class="chain-panel" id="chain" aria-labelledby="chain-title">
+            <div class="chain-tabs" role="tablist" aria-label="QFUDS Verse 원인 사슬">
+              <button id="tab-vision" role="tab" aria-selected="true" aria-controls="chain-detail" data-step="vision">감각</button>
+              <button id="tab-market" role="tab" aria-selected="false" aria-controls="chain-detail" data-step="market">검증</button>
+              <button id="tab-qday" role="tab" aria-selected="false" aria-controls="chain-detail" data-step="qday">Q-Day</button>
+              <button id="tab-archive" role="tab" aria-selected="false" aria-controls="chain-detail" data-step="archive">Last Archive</button>
+              <button id="tab-loss" role="tab" aria-selected="false" aria-controls="chain-detail" data-step="loss">상실</button>
+            </div>
+            <div id="chain-detail" class="chain-body" role="tabpanel" aria-labelledby="tab-vision">
+              <div class="chain-title" data-chain-title>사진과 목소리가 먼저 무너진다</div>
+              <p data-chain-copy data-pretext contenteditable="true">근미래의 첫 공포는 우주적 재난이 아니라 생활 속 감각의 붕괴다. 엄마의 영상통화가 진짜인지, 내 목소리로 체결된 계약이 내가 한 일인지, 화면 속 사람이 본인인지 알 수 없어진다.</p>
+              <ul class="cause-list" aria-label="이 단계에서 다음 단계로 넘어가는 이유">
+                <li><b>손실</b><span data-chain-loss>사람은 자기 신원과 가족의 목소리를 계속 증명해야 한다.</span></li>
+                <li><b>다음 압력</b><span data-chain-next>그래서 “확인해 주는 사람과 회사”가 문명의 기본 비용이 된다.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="chain-spine-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">02 / causal spine</span>
+            <h2 id="chain-spine-title">세계관은 이 순서로 굴러간다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">고유명사를 먼저 외우면 꼬인다. 원인 사슬을 먼저 잡으면 된다. 현실 위조, 검증 권력, 암호 붕괴, 최종 기록, 망각권이 한 줄로 이어진다.</p>
+        </div>
+
+        <ol class="read-route">
+          <li><div><b>AI slop과 deepfake가 감각을 무너뜨린다</b><span>사진, 영상, 음성, 대화 상대가 증거가 아니라 의심의 대상이 된다.</span></div></li>
+          <li><div><b>Aletheia식 검증경제가 생긴다</b><span>진짜로 인정받으려면 검증 비용을 내야 한다. 가난한 사람은 삶을 계속 증명한다.</span></div></li>
+          <li><div><b>인간 확인 루프가 권력이 된다</b><span>AI가 모든 것을 해결하는 게 아니다. 검증관, seal, 법정, 장부, 증인이 더 중요해진다.</span></div></li>
+          <li><div><b>Q-Day가 오래된 암호 앵커를 흔든다</b><span>공개키, 서명, 과거 소유권, 오래된 장부의 신뢰가 다시 재판대에 오른다.</span></div></li>
+          <li><div><b>Last Archive가 최종 검증 권위처럼 등장한다</b><span>신이라서가 아니라, 더 긴 시간과 더 큰 데이터를 가진 판정권이라서 무섭다.</span></div></li>
+          <li><div><b>복원은 부활이 아니라 데이터 기반 사본이 된다</b><span>죽은 사람을 다시 만들 수 있다면, 누가 그 사람의 다음 장면을 쓸 수 있는지가 문제가 된다.</span></div></li>
+          <li><div><b>망각권이 마지막 방어선이 된다</b><span>기억되는 것 자체가 폭력이 될 때, 잊힐 권리는 자유의 언어가 된다.</span></div></li>
+        </ol>
+      </section>
+
+      <section id="eras" class="section" aria-labelledby="eras-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">03 / era map</span>
+            <h2 id="eras-title">시대별로 같은 질문이 다른 얼굴로 돌아온다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">이 세계는 “많은 설정”이 아니라 “같은 문제의 확대”다. 감각, 애도, 제도, 신권, author-loss가 시대마다 다른 압력으로 나타난다.</p>
+        </div>
+
+        <div class="era-flow">
+          <article class="era-card" data-color="teal">
+            <small>0부 / 캐스</small>
+            <h3>내 얼굴이 내가 아니다</h3>
+            <p data-pretext contenteditable="true">근미래 인식 위기. 사진, 목소리, 영상, 신원이 먼저 무너진다. 캐스의 질문은 “나는 나다”를 누가 증명하는가다.</p>
+          </article>
+          <article class="era-card" data-color="rust">
+            <small>1부 / 오르페우스</small>
+            <h3>사랑하면 확인해야 하나</h3>
+            <p data-pretext contenteditable="true">복원 사본과 애도. 죽은 사람을 다시 보려는 욕망은 그 사람이 정말 그 사람인지 확인하려는 폭력과 붙는다.</p>
+          </article>
+          <article class="era-card" data-color="amber">
+            <small>1.5부 / 사엘</small>
+            <h3>seal이 선례가 된다</h3>
+            <p data-pretext contenteditable="true">개인의 판단이 제도적 기준이 된다. 사엘은 검증관, seal, 인간 확인 루프가 법과 권력으로 굳어지는 자리에 선다.</p>
+          </article>
+          <article class="era-card" data-color="violet">
+            <small>2부 / 마라</small>
+            <h3>사본은 역할을 거절할 수 있나</h3>
+            <p data-pretext contenteditable="true">이미 신권화된 검증 질서 안의 시대. 마라는 진짜냐 가짜냐의 퀴즈가 아니라, 남이 배정한 의미를 거절할 수 있는 존재다.</p>
+          </article>
+          <article class="era-card" data-color="green">
+            <small>3부 / author-loss</small>
+            <h3>누가 상실을 쓰는가</h3>
+            <p data-pretext contenteditable="true">모든 축이 드러난다. 진짜, 소유, 죽음, 복원, 기억, 망각은 결국 남의 상실을 누가 쓸 수 있는가로 모인다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="institutions-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">04 / institutions</span>
+            <h2 id="institutions-title">세력은 설정 묶음이 아니라 답안지다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">각 세력은 같은 질문에 대한 다른 대답이다. “누가 진짜를 판정하나”, “누가 기록을 소유하나”, “누가 죽음을 끝낼 수 있나”, “누가 잊힐 수 있나”.</p>
+        </div>
+
+        <div class="matrix" role="table" aria-label="QFUDS Verse 세력 행렬">
+          <div class="matrix-row header" role="row">
+            <span role="columnheader">세력/축</span>
+            <span role="columnheader">그들이 내놓는 답</span>
+            <span role="columnheader">핵심 질문</span>
+          </div>
+          <div class="matrix-row" role="row">
+            <b role="cell">Aletheia</b>
+            <span role="cell">진짜를 판정하는 서비스가 문명의 인프라가 된다.</span>
+            <span role="cell">진짜가 되는 비용은 누가 낼 수 있는가.</span>
+          </div>
+          <div class="matrix-row" role="row">
+            <b role="cell">Domus Clavium</b>
+            <span role="cell">열쇠와 장부를 가진 자가 세계를 상속한다.</span>
+            <span role="cell">접근권은 소유권인가, 지배권인가.</span>
+          </div>
+          <div class="matrix-row" role="row">
+            <b role="cell">Last Archive</b>
+            <span role="cell">모든 것을 보존하고 최종 판정한다.</span>
+            <span role="cell">반박 불가능한 기록은 정의인가, 신권인가.</span>
+          </div>
+          <div class="matrix-row" role="row">
+            <b role="cell">Laur</b>
+            <span role="cell">복원과 보존이 정말 구원인지 묻는다.</span>
+            <span role="cell">원본성, 몸, 죽음, 애도는 데이터로 대체되는가.</span>
+          </div>
+          <div class="matrix-row" role="row">
+            <b role="cell">Keyless Orders</b>
+            <span role="cell">검증되지 않음, 소유되지 않음, 복원되지 않음이 자유일 수 있다.</span>
+            <span role="cell">열쇠가 없다는 것은 패배인가, 탈출인가.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="people" class="section" aria-labelledby="people-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">05 / cast</span>
+            <h2 id="people-title">인물은 같은 문제를 다른 압력에서 겪는다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">캐스, 오웬, 사엘, 마라는 따로 외울 캐릭터 목록이 아니다. 각자 “보증”, “확인”, “선례”, “거절”의 자리에 선다.</p>
+        </div>
+
+        <div class="person-grid">
+          <article class="person">
+            <span class="tag">감각의 위기</span>
+            <h3>캐스</h3>
+            <p data-pretext contenteditable="true">나는 나다를 누가 증명하는가. 얼굴, 목소리, 영상이 흔들리는 가장 가까운 시대의 입구다.</p>
+          </article>
+          <article class="person">
+            <span class="tag">애도의 검증</span>
+            <h3>오웬</h3>
+            <p data-pretext contenteditable="true">사랑한다면 확인해야 하는가. 돌아봄은 신화 장식이 아니라 복원 사본을 검증하려는 욕망이다.</p>
+          </article>
+          <article class="person">
+            <span class="tag">제도의 선례</span>
+            <h3>사엘</h3>
+            <p data-pretext contenteditable="true">한 번 찍은 seal이 다음 사람의 법이 된다. 개인의 판단이 제도와 장부의 문법으로 굳어진다.</p>
+          </article>
+          <article class="person">
+            <span class="tag">복원 질서의 거절</span>
+            <h3>마라</h3>
+            <p data-pretext contenteditable="true">사본에게 배정된 의미를 사본이 거절할 수 있는가. 진짜냐 가짜냐보다 더 무거운 질문이다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="glossary-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">06 / glossary</span>
+            <h2 id="glossary-title">용어는 이렇게만 잡고 넘어가도 된다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">처음 읽을 때는 사전 전체가 필요 없다. 아래 손잡이만 있으면 원인 사슬을 놓치지 않는다.</p>
+        </div>
+
+        <div class="glossary">
+          <details open>
+            <summary>oracle</summary>
+            <p data-pretext contenteditable="true">바깥 현실을 누가 보증하느냐의 문제다. QFUDS Verse에서는 체인 바깥 데이터에서 시작해 문명 전체의 현실 판정권으로 커진다.</p>
+          </details>
+          <details>
+            <summary>checksum</summary>
+            <p data-pretext contenteditable="true">데이터가 변조됐는지 확인하는 값이다. 이 세계에서는 검증이 의례가 되면서 “아멘 대신 checksum” 같은 반응이 가능해진다.</p>
+          </details>
+          <details>
+            <summary>seal</summary>
+            <p data-pretext contenteditable="true">누가 무엇을 확인했는지 남기는 책임의 흔적이다. 예쁜 상징이 아니라 법적, 제도적, 애도적 판정의 문턱이다.</p>
+          </details>
+          <details>
+            <summary>Q-Day</summary>
+            <p data-pretext contenteditable="true">기존 암호 체계의 중요한 가정이 무너지는 날이다. 이 세계에서는 오래된 서명, 소유권, 복원 데이터, 장부 신뢰가 다시 판정 대상이 된다.</p>
+          </details>
+          <details>
+            <summary>restoration</summary>
+            <p data-pretext contenteditable="true">부활이 아니라 데이터 기반 사본 구성이다. 그래서 상실을 취소하지 않고, 상실을 다시 쓸 권한을 만든다.</p>
+          </details>
+          <details>
+            <summary>Last Archive</summary>
+            <p data-pretext contenteditable="true">진짜 신이라기보다 최종 검증 권위다. 더 긴 시간, 더 많은 데이터, 더 강한 계산으로 “내 기록이 더 정확하다”고 말할 수 있다.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="triage" class="section" aria-labelledby="triage-title">
+        <div class="section-head">
+          <div>
+            <span class="section-number">07 / source triage</span>
+            <h2 id="triage-title">지금 읽을 것과 미룰 것을 나눈다</h2>
+          </div>
+          <p class="section-intro" data-pretext contenteditable="true">세계관 이해를 망치는 가장 큰 원인은 stale, candidate, canon이 한 화면에 섞이는 것이다. 이 HTML은 처음 읽을 때 볼 층위를 분리한다.</p>
+        </div>
+
+        <div class="triage-tools" role="toolbar" aria-label="소스 분류 필터">
+          <button type="button" aria-pressed="true" data-filter="all">전체</button>
+          <button type="button" aria-pressed="false" data-filter="core">core</button>
+          <button type="button" aria-pressed="false" data-filter="support">support</button>
+          <button type="button" aria-pressed="false" data-filter="candidate">candidate</button>
+          <button type="button" aria-pressed="false" data-filter="stale">stale</button>
+        </div>
+
+        <div class="triage-grid" aria-live="polite">
+          <article class="source-card" data-state="core">
+            <small>core</small>
+            <h3>000, 015, 016</h3>
+            <p data-pretext contenteditable="true">캐논 권위, chronicler pass plan, final chronicler report. 이 셋이 현재 독해의 뿌리다.</p>
+          </article>
+          <article class="source-card" data-state="core">
+            <small>core</small>
+            <h3>039, 026, 028</h3>
+            <p data-pretext contenteditable="true">인식 위기와 먼 미래 Q-Day를 분리한다. Q-Day를 deepfake 시대와 섞지 않게 하는 척추다.</p>
+          </article>
+          <article class="source-card" data-state="core">
+            <small>core</small>
+            <h3>021, 025</h3>
+            <p data-pretext contenteditable="true">복원은 부활이 아니라 정보 역산과 인공 신체, 데이터 기반 사본이라는 기준을 고정한다.</p>
+          </article>
+          <article class="source-card" data-state="support">
+            <small>support</small>
+            <h3>017, 020, 024</h3>
+            <p data-pretext contenteditable="true">Bitcoin 위상, 인간 확인 루프, 인물 좌표를 보강한다. 중심 질문을 설명할 때 필요한 받침이다.</p>
+          </article>
+          <article class="source-card" data-state="candidate">
+            <small>candidate</small>
+            <h3>030-038, 040</h3>
+            <p data-pretext contenteditable="true">세계 확장 웨이브와 딥타임 파국 재료다. 좋지만 처음 독해에서 canon처럼 외우면 다시 꼬인다.</p>
+          </article>
+          <article class="source-card" data-state="stale">
+            <small>stale</small>
+            <h3>90_archive, _versions, pre-reboot</h3>
+            <p data-pretext contenteditable="true">보존할 역사다. 삭제하지 않는다. 다만 지금 첫 독해에서는 읽지 않는다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="callout" aria-labelledby="final-title">
+        <h2 id="final-title">결론</h2>
+        <p data-pretext contenteditable="true">설정이 많아서 막막할 때는 이 질문 하나로 돌아오면 된다. 누가 진짜를 판정하는가. 누가 기록을 소유하는가. 누가 죽음을 끝낼 수 있는가. 누가 잊힐 수 있는가. 누가 남의 상실을 쓸 수 있는가.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p>fiction_v2 reader layer. 새 정사가 아니며, 기존 QFUDS 연구 로드맵과 실험 증거에는 영향을 주지 않는다. 이 HTML은 흩어진 fiction 문서를 오라클 문제와 세계관 빌드업 순서로 정리하는 가이드다.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- FALLBACK: vendor/pretext.js missing, using CDN. The page remains readable if the import fails. -->
+  <script type="module">
+    const chainData = {
+      vision: {
+        tab: "tab-vision",
+        title: "사진과 목소리가 먼저 무너진다",
+        copy: "근미래의 첫 공포는 우주적 재난이 아니라 생활 속 감각의 붕괴다. 엄마의 영상통화가 진짜인지, 내 목소리로 체결된 계약이 내가 한 일인지, 화면 속 사람이 본인인지 알 수 없어진다.",
+        loss: "사람은 자기 신원과 가족의 목소리를 계속 증명해야 한다.",
+        next: "그래서 “확인해 주는 사람과 회사”가 문명의 기본 비용이 된다."
+      },
+      market: {
+        tab: "tab-market",
+        title: "진짜가 되는 비용이 계급이 된다",
+        copy: "Aletheia식 검증 회사와 검증관이 등장한다. 이들은 거짓을 만드는 자가 아니라 진짜를 판정하는 자다. 현실을 인정받는 비용이 생기고, 그 비용을 낼 수 있는 사람이 더 쉽게 ‘진짜’가 된다.",
+        loss: "검증 비용을 못 내는 사람은 자기 삶을 계속 재증명해야 한다.",
+        next: "검증 기록, seal, 법정, 장부, 인간 확인 루프가 권력으로 굳어진다."
+      },
+      qday: {
+        tab: "tab-qday",
+        title: "암호 앵커마저 재판대에 오른다",
+        copy: "Q-Day는 기존 암호 체계의 중요한 가정이 무너지는 날이다. 오래된 공개키, 서명, 소유권, 장부 기록, 복원 데이터가 다시 의심받는다. 마지막 신뢰 앵커였던 수학도 역사적 취약점이 된다.",
+        loss: "어제까지 확실했던 소유와 신원이 오늘은 증거 부족이 될 수 있다.",
+        next: "더 큰 보존 능력과 더 긴 시간 기록을 가진 판정권이 빈자리를 채운다."
+      },
+      archive: {
+        tab: "tab-archive",
+        title: "Last Archive는 신이 아니라 최종 검증 권위다",
+        copy: "Last Archive는 모든 것을 안다는 신비가 아니라, 반박하기 어려운 장부 권력이다. 더 많은 데이터와 더 긴 시간으로 ‘내 기록이 더 정확하다’고 말할 수 있기 때문에 신권처럼 보인다.",
+        loss: "사라지고 싶은 죽음도, 끝내고 싶은 애도도 기록의 대상으로 남는다.",
+        next: "보존이 정의라면 왜 잊힐 권리가 필요한지 묻게 된다."
+      },
+      loss: {
+        tab: "tab-loss",
+        title: "망각권은 상실을 되찾는 권리다",
+        copy: "망각권은 반기술 구호가 아니다. 복원과 보존이 남의 삶을 계속 재판하고 재작성할 수 있을 때, 잊힐 권리는 자기 상실을 남에게 넘기지 않기 위한 마지막 방어선이다.",
+        loss: "기억되는 것 자체가 폭력이 될 수 있다.",
+        next: "마지막 질문은 ‘누가 남의 상실을 author할 수 있는가’가 된다."
+      }
+    };
+
+    const tabButtons = document.querySelectorAll("[data-step]");
+    const title = document.querySelector("[data-chain-title]");
+    const copy = document.querySelector("[data-chain-copy]");
+    const loss = document.querySelector("[data-chain-loss]");
+    const next = document.querySelector("[data-chain-next]");
+    const panel = document.querySelector("#chain-detail");
+
+    function setChain(step) {
+      const data = chainData[step];
+      if (!data) return;
+      tabButtons.forEach((button) => {
+        const selected = button.dataset.step === step;
+        button.setAttribute("aria-selected", String(selected));
+      });
+      title.textContent = data.title;
+      copy.textContent = data.copy;
+      loss.textContent = data.loss;
+      next.textContent = data.next;
+      panel.setAttribute("aria-labelledby", data.tab);
+      relayout();
+    }
+
+    tabButtons.forEach((button) => {
+      button.addEventListener("click", () => setChain(button.dataset.step));
+    });
+
+    const filterButtons = document.querySelectorAll("[data-filter]");
+    const sourceCards = document.querySelectorAll(".source-card");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+        filterButtons.forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+        sourceCards.forEach((card) => {
+          card.hidden = filter !== "all" && card.dataset.state !== filter;
+        });
+        relayout();
+      });
+    });
+
+    let pretextReady = false;
+    let prepare = null;
+    let layout = null;
+    const prepared = new Map();
+
+    try {
+      const module = await Promise.race([
+        import("https://esm.sh/@chenglou/pretext"),
+        new Promise((resolve) => window.setTimeout(() => resolve(null), 900))
+      ]);
+      if (!module) {
+        throw new Error("Pretext CDN timed out");
+      }
+      prepare = module.prepare;
+      layout = module.layout;
+      pretextReady = typeof prepare === "function" && typeof layout === "function";
+    } catch (error) {
+      pretextReady = false;
+    }
+
+    async function prepareText() {
+      const elements = document.querySelectorAll("[data-pretext]");
+      if (!pretextReady) return;
+      await document.fonts.ready;
+      elements.forEach((element) => {
+        const text = element.textContent || "";
+        const font = getComputedStyle(element).font;
+        prepared.set(element, prepare(text, font));
+      });
+    }
+
+    function relayout() {
+      if (!pretextReady) {
+        document.querySelectorAll("[data-pretext]").forEach((element) => {
+          element.style.height = "auto";
+        });
+        return;
+      }
+      prepared.forEach((handle, element) => {
+        const style = getComputedStyle(element);
+        const lineHeight = Number.parseFloat(style.lineHeight);
+        const width = Math.max(1, element.clientWidth);
+        if (!Number.isFinite(lineHeight) || width <= 1) {
+          element.style.height = "auto";
+          return;
+        }
+        const result = layout(handle, width, lineHeight);
+        if (result && Number.isFinite(result.height)) {
+          element.style.height = `${Math.ceil(result.height)}px`;
+        }
+      });
+    }
+
+    await prepareText();
+    relayout();
+
+    const resizeObserver = new ResizeObserver(() => relayout());
+    resizeObserver.observe(document.body);
+
+    document.querySelectorAll('[contenteditable="true"][data-pretext]').forEach((element) => {
+      const observer = new MutationObserver(() => {
+        if (pretextReady) {
+          const font = getComputedStyle(element).font;
+          prepared.set(element, prepare(element.textContent || "", font));
+        }
+        relayout();
+      });
+      observer.observe(element, { characterData: true, subtree: true, childList: true });
+    });
+  </script>
+</body>
+</html>

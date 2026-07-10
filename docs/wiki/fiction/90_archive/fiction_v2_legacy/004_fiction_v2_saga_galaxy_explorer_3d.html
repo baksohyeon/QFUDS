@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<title>QFUDS SAGA — 세계관 갤럭시 탐사</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#04050b;--ink:#eef1f7;--muted:#98a0b6;--line:rgba(150,170,220,.18);
+    --core:#ffd166;--chain:#4dd6c1;--lens:#7aa5ff;--domain:#ff7a9c;--story:#ffa24d;
+    --question:#c77dff;--character:#7ae582;--seed:#d8c48f;--time:#cfd6e6;--panel:rgba(10,13,24,.92);
+    --safe-t:env(safe-area-inset-top,0px);--safe-b:env(safe-area-inset-bottom,0px)}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
+    font-family:"Noto Sans KR",system-ui,sans-serif;overflow:hidden;-webkit-text-size-adjust:100%;overscroll-behavior:none}
+  #scene{position:fixed;inset:0}
+  #scene canvas{touch-action:none;display:block}
+  .fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    text-align:center;padding:32px;color:#c7cde0;line-height:1.7}
+  .label{font-size:11.5px;font-weight:700;color:#e6eaf4;text-shadow:0 0 6px rgba(0,0,0,.95),0 0 2px #000;
+    padding:2px 6px;border-radius:999px;background:rgba(7,9,16,.42);white-space:nowrap;pointer-events:none;transition:opacity .18s}
+  .label .n{display:inline-block;min-width:14px;height:14px;line-height:14px;text-align:center;
+    border-radius:50%;font-size:9.5px;margin-right:4px;color:#04120f}
+
+  /* top bar */
+  #topbar{position:fixed;top:0;left:0;right:0;z-index:7;display:flex;align-items:center;justify-content:space-between;
+    gap:10px;padding:calc(10px + var(--safe-t)) 14px 10px;
+    background:linear-gradient(180deg,rgba(4,5,11,.82),rgba(4,5,11,0));pointer-events:none}
+  #topbar .title{font-family:"Noto Serif KR",serif;font-size:15px;font-weight:700;text-shadow:0 1px 8px #000}
+  #topbar .right{display:flex;align-items:center;gap:8px;pointer-events:auto}
+  #topbar .prog{font-size:12px;color:#c7cde0;background:var(--panel);border:1px solid var(--line);
+    border-radius:999px;padding:5px 10px;backdrop-filter:blur(8px)}
+  #topbar .prog b{color:var(--core)}
+  .tb{font-size:12.5px;font-weight:700;font-family:inherit;color:var(--ink);background:var(--panel);
+    border:1px solid var(--line);border-radius:999px;padding:7px 13px;cursor:pointer;backdrop-filter:blur(8px);min-height:34px}
+  .tb.on{background:var(--core);color:#04050b;border-color:var(--core)}
+  .tb:active{transform:scale(.96)}
+
+  /* filter tray */
+  #tray{position:fixed;top:calc(52px + var(--safe-t));left:14px;right:14px;z-index:7;max-width:640px;margin:0 auto;
+    background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 13px;backdrop-filter:blur(12px);
+    transform:translateY(-14px);opacity:0;pointer-events:none;transition:.24s;max-height:70vh;overflow:auto}
+  #tray.open{transform:none;opacity:1;pointer-events:auto}
+  #tray .grp{margin-bottom:11px}
+  #tray .grp:last-child{margin-bottom:0}
+  #tray .lbl{font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:7px}
+  #layers,#timeline{display:flex;flex-wrap:wrap;gap:7px}
+  #layers .chip{font-size:12px;font-weight:700;padding:7px 11px;border-radius:999px;cursor:pointer;border:1px solid var(--line);
+    background:rgba(255,255,255,.04);color:#cdd3e4;display:flex;align-items:center;gap:6px;user-select:none;min-height:32px}
+  #layers .chip .d{width:9px;height:9px;border-radius:50%;box-shadow:0 0 7px currentColor}
+  #layers .chip.off{opacity:.4;text-decoration:line-through}
+  #timeline button{font-size:12px;padding:7px 12px;border-radius:999px;cursor:pointer;border:1px solid var(--line);
+    background:rgba(255,255,255,.04);color:#c7cde0;font-family:inherit;min-height:32px}
+  #timeline button.active{background:var(--time);color:#0a0e18;font-weight:700;border-color:var(--time)}
+
+  /* toast */
+  #toast{position:fixed;left:50%;transform:translateX(-50%) translateY(12px);bottom:calc(20px + var(--safe-b));z-index:9;
+    background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:9px 16px;font-size:12.5px;color:#dbe0ee;
+    backdrop-filter:blur(10px);opacity:0;pointer-events:none;transition:.3s;text-align:center;max-width:90vw}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  /* codex panel */
+  #panel{position:fixed;top:0;right:0;height:100%;width:min(430px,100vw);z-index:10;background:var(--panel);
+    border-left:1px solid var(--line);backdrop-filter:blur(14px);transform:translateX(105%);
+    transition:transform .34s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;
+    padding:calc(22px + var(--safe-t)) 22px calc(22px + var(--safe-b))}
+  #panel.open{transform:translateX(0)}
+  #panel .kicker{font-size:10.5px;letter-spacing:.15em;text-transform:uppercase;font-weight:700;margin-bottom:7px}
+  #panel h2{font-family:"Noto Serif KR",serif;font-size:23px;margin:0 0 5px;line-height:1.2}
+  #panel .sub{font-size:12px;color:var(--muted);margin:0 0 15px}
+  #panel .body{font-size:13.5px;line-height:1.72;color:#dde2f0;overflow-y:auto;padding-right:4px;flex:1;-webkit-overflow-scrolling:touch}
+  #panel .body p{margin:0 0 11px}
+  #panel .body .why,#panel .body .q{position:relative;padding:10px 12px;border-left:2px solid currentColor;
+    border-radius:0 8px 8px 0;margin:12px 0;background:rgba(255,255,255,.035)}
+  #panel .body .why::before,#panel .body .q::before{display:block;font-size:9.5px;letter-spacing:.13em;
+    font-weight:700;opacity:.85;margin-bottom:4px;font-family:"Noto Sans KR"}
+  #panel .body .why::before{content:"왜 이렇게 되나"}
+  #panel .body .q{font-family:"Noto Serif KR",serif;font-size:15px;color:#fff}
+  #panel .body .q::before{content:"파고드는 질문"}
+  #panel .chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px}
+  #panel .chips span{font-size:10px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 8px}
+  #panel .close{position:absolute;top:calc(14px + var(--safe-t));right:16px;width:36px;height:36px;border:1px solid var(--line);
+    background:transparent;color:var(--ink);border-radius:10px;cursor:pointer;font-size:16px}
+  #panel .close:active{background:rgba(255,255,255,.08)}
+
+  #intro{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;
+    background:radial-gradient(circle at 50% 38%,rgba(20,30,55,.74),rgba(4,5,11,.98));backdrop-filter:blur(4px);transition:opacity .6s}
+  #intro.hide{opacity:0;pointer-events:none}
+  #intro .card{max-width:620px;text-align:center;padding:0 26px}
+  #intro .eyebrow{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--core);font-weight:700;margin-bottom:13px}
+  #intro h1{font-family:"Noto Serif KR",serif;font-size:clamp(27px,5.4vw,46px);margin:0 0 15px;line-height:1.14}
+  #intro p{font-size:14px;line-height:1.8;color:#c7cde0;margin:0 auto 11px;max-width:520px}
+  #intro .go{margin-top:22px;padding:14px 34px;font-size:15px;font-weight:700;font-family:inherit;color:#04050b;
+    background:var(--core);border:0;border-radius:999px;cursor:pointer;box-shadow:0 0 30px rgba(255,209,102,.4)}
+  #intro .go:active{transform:scale(.97)}
+  #intro .keys{margin-top:16px;font-size:11.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div id="scene"></div>
+
+<div id="topbar">
+  <div class="title">QFUDS SAGA 갤럭시</div>
+  <div class="right">
+    <span class="prog">발견 <b id="pcount">0</b>/<span id="ptotal">0</span></span>
+    <button class="tb" id="btnFilter">필터</button>
+    <button class="tb" id="btnHelp">?</button>
+  </div>
+</div>
+
+<div id="tray">
+  <div class="grp"><div class="lbl">레이어</div><div id="layers"></div></div>
+  <div class="grp"><div class="lbl">시대 워프</div><div id="timeline"></div></div>
+</div>
+
+<div id="toast"></div>
+
+<div id="panel">
+  <button class="close" id="pclose">✕</button>
+  <div class="kicker" id="pkicker"></div>
+  <h2 id="ptitle"></h2>
+  <p class="sub" id="psub"></p>
+  <div class="body" id="pbody"></div>
+  <div class="chips" id="pchips"></div>
+</div>
+
+<div id="intro">
+  <div class="card">
+    <div class="eyebrow">SAGA Worldview Galaxy</div>
+    <h1>설정집 전부를<br>하나의 성계로</h1>
+    <p>2010년대 딥페이크에서 시작해 Q-Day와 먼 미래 응고기까지. 세계관 인과 사슬, 6부 스토리 아크, 14 도메인 매트릭스, 딥타임라인, 확장 웨이브 시드를 전부 담았습니다.</p>
+    <p>상단 필터로 원하는 레이어만 켜고, 시대를 워프하며 좌표를 하나씩 발견하세요.</p>
+    <button class="go" id="start">갤럭시 진입</button>
+    <div class="keys">한 손가락 회전 · 두 손가락 확대 · 노드 탭으로 열람</div>
+  </div>
+</div>
+
+<!-- fallback if modern module fails to load -->
+<script>
+window.addEventListener('load',function(){setTimeout(function(){
+  if(!window.__galaxyReady){
+    var s=document.getElementById('scene');
+    if(s)s.innerHTML='<div class="fallback">3D 엔진을 불러오지 못했습니다.<br>최신 Safari 또는 Chrome 브라우저로 열어 주세요.</div>';
+    var i=document.getElementById('intro');if(i)i.style.display='none';
+  }
+},4500);});
+</script>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+
+const COLOR={core:0xffd166,chain:0x4dd6c1,lens:0x7aa5ff,domain:0xff7a9c,story:0xffa24d,question:0xc77dff,character:0x7ae582,faction:0xf2555c,seed:0xd8c48f,time:0xcfd6e6};
+const LAYERS=[['chain','세계관 사슬'],['lens','사회물리학'],['story','스토리 아크'],['question','5대 질문'],['character','인물'],['faction','세력'],['domain','14 도메인'],['seed','시드/확장'],['time','타임라인']];
+const KICK={core:'중심 질문',chain:'세계관 인과 사슬',lens:'사회물리학 렌즈',domain:'세계-체계 도메인',story:'스토리 아크',question:'극적 질문',character:'인물',faction:'세력',seed:'확장 웨이브 시드',time:'타임라인'};
+const P=x=>({t:'p',x}),WHY=x=>({t:'why',x}),Q=x=>({t:'q',x});
+
+// ---------------- DATA ----------------
+const sunData={id:'sun',cat:'core',layer:'core',era:'all',name:'오라클 문제',sub:'바깥 현실을 누가 보증하는가',
+ body:[P('블록체인은 자기 안의 기록은 검증하지만 바깥 현실은 스스로 알지 못한다. 그 외부 사실을 안으로 들여와 "믿어도 된다"고 말해 주는 장치가 오라클이다.'),
+ P('QFUDS는 이 문제를 체인 밖으로 꺼낸다. 문명 전체가 바깥 현실을 못 믿게 되고, 현실을 보증하는 자가 곧 권력이 된다.'),
+ Q('누가 바깥 현실을 보증하는가. 그리고 그 보증자를 누가 다시 보증하는가.')],canon:['오라클 문제','fiction_v2']};
+
+const chain=[
+ {name:'딥페이크 현재',era:'now',sub:'보는 것이 믿는 것이 아니게 된 지금',
+  body:[P('딥페이크와 AI 생성물이 영상·음성·신원의 진위를 죽인다. 2026년, 독자가 지금 사는 현실이다. 진입점은 캐스 한 사람이다.'),
+  WHY('점진적 변화엔 적응하지만 기본값이 뒤집히는 순간엔 적응 못 한다. "영상은 실제 기록"이 "모든 것은 생성 가능, 사람이 보증하기 전까진"으로 뒤집힌다.'),
+  Q('보는 것이 곧 믿는 것이 아니게 되면, 무엇이 마지막까지 남는가.')],canon:['039','005']},
+ {name:'최후의 앵커',era:'now',sub:'다 위조돼도 암호 하나는 못 깬다',
+  body:[P('영상도 신원도 위조되자 문명은 위조 불가한 것 하나에 매달린다. 암호 서명과 불변 원장. 제3자를 없앤 구조가 역설적으로 최후의 공증인이 된다.'),
+  Q('문명이 마지막으로 매달릴 바닥이 수학이라면, 그 바닥은 정말 영원히 안전한가.')],canon:['039 §3','017']},
+ {name:'검증경제의 필연',era:'now',sub:'진짜가 예외가 되는 사회',
+  body:[P('"이거 진짜야?"에 답하는 일이 산업이 된다. Aletheia Velum 같은 검증 권력이 등장한다.'),
+  WHY('위조 하나가 파국을 부른 순간 법이 모든 것에 출처 증명을 요구하고(책임 연쇄), 위조 못 하는 유일한 신호가 사람의 유한한 주목이라 그 주목이 희소재가 된다. COVID처럼 충격은 기본값을 하룻밤에 뒤집고 안 돌아간다.'),
+  Q('진짜가 예외가 된 사회에서, 진짜가 되는 비용은 누가 감당하는가.')],canon:['027','026']},
+ {name:'인간 확인 루프',era:'now',sub:'이 세계의 헌법',
+  body:[P('기계는 계산·생성하지만 "무엇이 진짜였나"의 최종 판정은 사람이 비준해야 효력이 생긴다. 도장·seal은 상상력의 부족이 아니라 편집 불가능성을 만드는 설계다.'),
+  Q('한 사람의 도장이 만든 선례를, 다음 세대는 거절할 수 있는가.')],canon:['020','1.5부 사엘']},
+ {name:'Q-Day',era:'qday',sub:'최후의 바닥마저 소급 붕괴하는 먼 미래',
+  body:[P('미래 거래는 양자내성 암호로 지켜도 옛 앵커에 묶인 심층 기록은 소급 교체가 안 된다. 먼 미래 양자가 그 옛 바닥을 깬다. 암호는 처음엔 구원, 끝엔 재앙이다.'),
+  Q('과거의 진짜성이 흔들리면, 과거는 이제 누구의 것인가.')],canon:['039','002']},
+ {name:'복원 시대',era:'restore',sub:'기술 SF가 애도 SF가 되는 곳',
+  body:[P('이 우주에서 정보는 근본적으로 사라지지 않는다. 복원은 흩어진 정보를 다시 사람으로 재구성하는 일이다. 복제가 아니라 재구성이다.'),
+  Q('복원은 상실을 취소하지 않는다. 상실을 다시 쓸 권한을 만든다. 그 권한은 누구의 것인가.')],canon:['025','021']},
+ {name:'Last Archive',era:'restore',sub:'검증의 신권',
+  body:[P('최후 앵커가 무너진 자리에 신처럼 행동하는 최종 검증 권위가 들어선다. "내 기록이 더 정확하다"고 반박하기 어렵게 말한다.'),
+  Q('모든 것을 보존하겠다는 약속은, 언제 폭력이 되는가.')],canon:['010','008 reveal']},
+ {name:'누가 상실을 쓰는가',era:'deeptime',sub:'세계관의 최종 질문',
+  body:[P('기록되면 재판되고, 재판되면 소유되고, 소유되면 복원된다. 망각권은 "내 상실을 남이 계속 author하지 못하게 해 달라"에 가깝다.'),
+  Q('네 상실을 네가 쓰는가. 아니면 검증 권력이 대신 쓰는가.')],canon:['3부','015 Q5']}
+];
+
+const lens=[
+ {name:'욕망은 혼자가 아니다',sub:'모방과 인정',body:[P('남이 원하니까 원한다. 물건보다 더 원하는 것은 인정, 나를 진짜로 봐주는 것이다.')],canon:['023']},
+ {name:'집단은 인정 기계',sub:'고정된 타인들',body:[P('서로를 안정적으로 확인해 줄 고정된 타인이 필요해 뭉친다. 집단은 무엇이 옳은지를 서로 보증하는 장치다.')],canon:['023']},
+ {name:'제도는 얼려진 욕망',sub:'매일 다시 안 싸우려고',body:[P('합의를 규칙·역할·직위로 얼린다. 자본주의도 주체사상도 반복 욕망에 대한 대규모 냉동 해법이다.')],canon:['023']},
+ {name:'헤게모니는 안 보이는 얼음',sub:'물고기가 물을 못 보듯',body:[P('오래 단단한 얼음은 선택이 아니라 배경으로 겪힌다.'),WHY('북한과 미국의 상식이 각자 내부인에게 "그냥 현실"로 느껴지는 대칭이, 그것이 자연이 아니라 인공물이라는 증거다.'),Q('내가 못 보는 그 물을, 무엇이 보이게 만드는가.')],canon:['022']},
+ {name:'넷째 욕망',sub:'믿어지고 싶은 욕망이 문명의 문법이 되다',body:[P('이념은 신념의 가면을 쓴 욕망이다. 믿어지고 싶은 욕망 때문에 사람들은 확신을 연기해 원함을 세탁한다. QFUDS는 이 욕망을 도장·판정·선례로 굳힌 세계다.')],canon:['023','검증경제']}
+];
+
+const story=[
+ {name:'0부 · 주아',era:'now',sub:'인식 위기의 티끌',body:[P('AI slop이 얼굴·목소리를 훔쳐 시스템이 "가짜"로 판정하고, 캐스를 아는 딱 한 사람이 규칙을 어기고 수동으로 보증한다. 여기서 세기가 풀린다.'),Q('나는 나다를, 누가 증명해 주는가.')],canon:['036 주아 초고','0부']},
+ {name:'1.5부 · 사엘 origin',era:'now',sub:'기준을 쓸 권한은 어떻게 태어나는가',body:[P('seal·검증관·법이 윤리와 권력으로 굳는 시대. 개인의 판단 하나가 제도적 선례가 된다.'),Q('기준을 쓸 권한은 어떻게 태어나는가.')],canon:['011 §4','030 사엘 초고']},
+ {name:'1부 · 오르페우스',era:'restore',sub:'사랑하면 확인해야 하나',body:[P('돌아봄은 검증 행위다. 죽은 사람을 다시 보려는 욕망과 그 사람이 정말 그 사람인지 확인하려는 폭력이 겹친다. 어머니의 사본을 시험하는 오웬.'),Q('사랑한다면 확인해야 하는가, 아니면 확인하지 말아야 하는가.')],canon:['024 오르페우스','035 초고']},
+ {name:'2부 · 마라',era:'restore',sub:'복원 가능하면 청구 가능한가',body:[P('신권화된 검증 질서 안의 인물. 같은 한 벌 기록을 두 순서로 읽어 둘로 갈라진 존재다.'),Q('복원 가능하면 청구 가능한가. 사본은 자기 복원을 거부할 수 있는가.')],canon:['011 §5','034 초고']},
+ {name:'3부 · 상실의 저자',era:'deeptime',sub:'누가 상실을 쓸 수 있는가 (최상위)',body:[P('세계는 이미 충분히 복잡하지만 핵심 질문은 변하지 않는다. 모든 아크가 여기로 모인다.'),Q('상실의 저자는 누구인가.')],canon:['011 §6','015 Q5']},
+ {name:'4-6부 · 후보 아크',era:'deeptime',sub:'배치 논의 중',body:[P('4부 누가 기원을 소유하는가, 5부 누가 답하는 자인가, 6부 무엇이 먼저였는가. 먼 미래 관측 전쟁·응고기와 맞물린 후보 아크들이다.')],canon:['011 §7-9']}
+];
+
+const questions=[
+ {name:'Q1',sub:'마라는 왜 "나는 돌아온 게 아니다"라고 하는가',body:[Q('복원체는 돌아온 원본인가, 두 순서로 읽힌 한 기록인가.')],canon:['015 Q1']},
+ {name:'Q2',sub:'리오라는 왜 판정 거수기를 거부하는가',body:[Q('인간 확인 루프의 마지막 사람은, 언제 "아니오"라고 말할 수 있는가.')],canon:['015 Q2','012 리오라']},
+ {name:'Q3',sub:'마지막 반박권은 누가 갖는가',body:[Q('Last Archive가 "반박이 멈춘 합의"라면, 그 합의에 마지막으로 반박할 권리는 누구의 것인가.')],canon:['015 Q3','010']},
+ {name:'Q4',sub:'사본은 자기 복원을 거부할 수 있는가',body:[Q('복원된 사본이 자기 복원 자체를 거부할 권리가 있는가.')],canon:['015 Q4']},
+ {name:'Q5',sub:'상실의 저자는 누구인가 (최상위)',body:[Q('네 상실을 네가 쓰는가, 검증 권력이 대신 쓰는가. 모든 질문이 여기로 모인다.')],canon:['015 Q5 최상위']}
+];
+
+const characters=[
+ {key:'cass',name:'캐스',part:'0부',era:'now',main:false,sub:'0부 · 감각이 무너지는 시대의 티끌',body:[P('얼굴·목소리·신원이 흔들리는 시대의 인물. 시스템이 그를 "가짜"로 판정한다. 그를 아는 한 사람이 수동으로 보증하며 세기가 풀린다.')],canon:['0부','039']},
+ {key:'owen',name:'오웬 (Owen)',part:'1부',era:'restore',main:true,sub:'1부 · 죽은 어머니를 잃지 않으려는 원본',body:[P('원본 인간. 죽은 어머니 리브를 복원해 곁에 두지만, 자기가 붙든 게 어머니인지 어머니를 잃지 않으려는 자기 자신인지 두려워한다.'),Q('사랑한다면 확인해야 하는가.')],canon:['1부 오르페우스','035']},
+ {key:'liv',name:'리브 (Liv)',part:'1부',era:'restore',main:false,sub:'1부 · 오웬의 어머니, 복원 사본',body:[P('오웬이 복원한 어머니. 사본이라 원함이 모호하다. 그녀가 정말 그 사람인지 아무도 답할 수 없다.')],canon:['1부','024']},
+ {key:'sael',name:'사엘 (Sael)',part:'1.5부',era:'now',main:true,sub:'1.5부 · 눈앞의 한 사람을 구하는 말단 검증관',body:[P('Aletheia 말단 검증관. 눈앞의 한 사람을 구하려 규칙을 어기지만, 자기 도장이 무엇을 비준하는지 두려워한다. 그 도장·선례가 수천 년 건너 2부에 청구서로 도착한다.'),Q('기준을 쓸 권한은 어떻게 태어나는가.')],canon:['1.5부','020']},
+ {key:'mara',name:'마라 베이르 (Mara Veyr)',part:'2부',era:'deeptime',main:true,sub:'2부 · 사람으로 존재하려는 복원체',body:[P('Salt Fires 가문 출신의 복원체. 자산·사건·소유 동의가 아니라 사람으로 존재하려 한다. "살아있다" 판정이 소유 동의로 읽히는 것을 두려워한다.'),Q('나는 돌아온 게 아니다. 사본은 역할을 거절할 수 있는가.')],canon:['2부','034']},
+ {key:'elias',name:'엘리아스 베이르 (Elias Veyr)',part:'2부',era:'deeptime',main:true,sub:'2부 · 마라의 귀환을 원하는 원본',body:[P('Salt Fires 가문의 원본. 마라의 귀환이 자신에게로의 귀환이길 바라지만, 돌아와도 자신에게는 안 돌아올까 두렵다. 사랑이 소유로 미끄러진다.')],canon:['2부','024']},
+ {key:'liora',name:'리오라 센 (Liora Sen)',part:'2부',era:'deeptime',main:true,sub:'2부 · unknown을 지키는 라우어 감사관',body:[P('라우어 관측소 감사관. 복원 사건이 거짓 확신으로 닫히지 않게 unknown을 보존한다. 자기 감사 도장이 폭력의 정당화가 되는 것을 두려워한다.'),Q('마지막 사람은 언제 아니오라고 말할 수 있는가.')],canon:['012','015 Q2']},
+ {key:'pell',name:'펠 앤슨 (Pell Anson)',part:'2부',era:'deeptime',main:false,sub:'2부 · 거부권을 상품화하는 장부 가문',body:[P('장부 가문(Domus Clavium). 복원·상속 절차의 약점을 상품화한다. 아무도 살 수 없는 권리가 생기는 것을 두려워한다. 상실을 채권으로 만든다.')],canon:['031','024']},
+ {key:'noor',name:'누어 아람 (Noor Aram)',part:'2부',era:'deeptime',main:false,sub:'2부 · 어느 장부에도 안 붙잡히려는 자',body:[P('어느 장부에도 붙잡히지 않으려 한다. 이름이 빚이 되고 빚이 소환이 되는 것을 두려워한다. (결사 소속 미정.)')],canon:['024','미정']},
+ {key:'ione',name:'이오네 (Ione)',part:'2부',era:'deeptime',main:false,sub:'2부 · 등록부가 약자를 지키길 바라는 베일',body:[P('알레테이아 베일. 등록부가 약자 보호 도구로 남기를 바란다. 자기편 분열과 자신이 그 원인이 되는 것을 두려워한다.')],canon:['031','024']},
+ {key:'tamas',name:'타마스 (Tamas)',part:'2부',era:'deeptime',main:false,sub:'2부 · 단순한 안전을 원하는 아이',body:[P('원본 아이. 단순한 안전을 원하지만 어른들의 문법이 무섭다. 마라가 보호자로 곁에 선다.')],canon:['024']},
+ {key:'sera',name:'세라 벤 (Sera Venn)',part:'2부',era:'deeptime',main:false,sub:'2부 · 잊힌 상실을 인정받으려는 자',body:[P('복원 불가자 동생의 상실을 인정받으려 한다. 가난해서 잊히는 죽음을 두려워한다. 펠의 상실 채권화의 대척.')],canon:['024']},
+ {key:'karvath',name:'에이드리언 카르바스 (Adrian Karvath)',part:'기원',era:'restore',main:true,sub:'기원 · 죽음을 해결하려다 상실이 된 창업자',body:[P('Aletheia Systems 창업자이자 폭주의 원점. 죽음을 해결하고 아무것도 잃지 않으려다, 통제 불가가 되어 상실 그 자체가 된다. 모든 비극의 원인 지점.')],canon:['024','기원']},
+ {key:'vera',name:'Vera',part:'기원',era:'restore',main:true,sub:'기원 · 강제 업로드된 Last Archive의 핵',body:[P('인간이었다가 강제 사본이 되어 Last Archive의 코어가 된다. 업로드당하지 않기를, 자기 의지가 명령으로 덮이지 않기를 바랐다. 마라와 시대 양 끝의 같은 폭력을 겪는 거울.')],canon:['024','010']},
+ {key:'archive',name:'Last Archive',part:'전 시대',era:'deeptime',main:true,sub:'전 시대 배경 · 합의의 신격화',body:[P('정보 손실 없는 우주와 "누구의 손실인가"를 정의하는 권위. 욕망 없이 기능만 한다. Vera를 핵으로 삼는다.')],canon:['010','022']}
+];
+
+const factions=[
+ {anchor:2,name:'알레테이아 베일',sub:'Aletheia Velum · 삭제된 자의 계승권',body:[P('삭제된 자의 계승권과 동의를 지킨다. 표식은 눈이 아니라 귀. 내부는 적색 복원파 vs 흑색 망각파로 분열.')],canon:['031','024']},
+ {anchor:3,name:'장부 가문',sub:'Domus Clavium · 상속 시장 독점',body:[P('복원 인프라와 key 소유를 장악하고 상속 시장을 독점한다. 상실을 소유 서류로 바꾼다. 6가문 정치.')],canon:['031','024']},
+ {anchor:5,name:'라우어 관측소',sub:'Bureau Laurien · 복원 감사',body:[P('복원 claim의 정의·가정·unknown을 감사한다. "정의되지 않은 구원은 폭력." 복원의 지옥문 앞에 선 회계사들.')],canon:['031','007']},
+ {anchor:5,name:'연속성 법원',sub:'Curia Continuum · 판결',body:[P('원본·복원체·가족·국가 권리를 판결한다. 첫 자기부정 복원체 앞에서 판결하지 못했다.')],canon:['026 D','002 4기']},
+ {anchor:7,name:'망각권 연맹',sub:'Keyless Orders · 잊힐 권리',body:[P('검증되지 않는 것, 소유되지 않는 것, 복원되지 않는 것이 자유가 될 수 있다고 말한다. 죽을·잊힐·복원되지 않을 권리.')],canon:['031','038']},
+ {anchor:6,name:'잔상 유목민',sub:'버려진 기억을 이동시키는 자들',body:[P('버려진 기억과 죽은 증언을 보존하고 이동시킨다. 장부 밖을 떠도는 자들.')],canon:['031','024']},
+ {anchor:4,name:'무신뢰 계열',sub:'제네시스 체인 · Refusers',body:[P('"아무도 안 믿어야 안 배신당한다." 진실을 누구도 소유 못 하게. 단일 진실 절대주의(원장)의 정반대 극.')],canon:['031','축3']}
+];
+
+const DOM=[
+ ['거시경제·자원·계급','명목 보존, 실질 소각. 검증경제가 지배 부문이 된다.'],
+ ['비교정치·국가붕괴','비상권력·예외상태·시민권 인증화. 국가는 공생 끝에 CEO-왕으로 수렴.'],
+ ['국제관계·지정학','귀속 불가·베스트팔렌 종언·관측 전쟁. 핵 교환은 미발생.'],
+ ['군사·안보','핵 동역학은 있으나 핵 교환 미발생. warlord 트로프 금지.'],
+ ['기술문명·인프라','TLS·SCADA·PQC·레거시 깊이. 이행 비대칭이 붕괴 순서를 만든다.'],
+ ['법·제도·거버넌스','연속성 법원. "복원 가능=청구 가능"의 선례적 자기증식이 엔진.'],
+ ['종교·신화·의례','절차의 신성화, 도장의 교리화. 신을 발명하지 않는다.'],
+ ['인류학·사회심리','rally-round-flag와 이중 불신. 집단은 비합리적이되 각자는 합리적.'],
+ ['정보전·기록관리','검증경제가 스파이스. 이 축이 캐논 코어다.'],
+ ['죽음·기억·정체성','복원=사본 절대. 부활·완전 역연산은 격리된다.'],
+ ['생태·기후·장기생존','물류 재국지화. 근미래 생태 무대이자 딥타임 공간 확산.'],
+ ['언어·기호·번역','라틴 세력명·영문 필드마크·네 도장 위에서만 확장. 신규 conlang 금지.'],
+ ['서사·문학 (craft)','작법 렌즈. in-world 기관으로 승격하지 않는다.'],
+ ['문화미디어·팬덤 (craft)','작품 밖 독자경험 설계. in-world 미디어와 혼동 금지.']
+];
+
+const seeds=[
+ {name:'웨이브1 · 명명·지명·사건',sub:'고유명사 백본',body:[P('명명법 체계와 지명·세력·인물·사건·어휘의 뼈대. 빈 좌표에만 신규 배치.')],canon:['030']},
+ {name:'웨이브2 · 세력 관계망',sub:'동맹·반목·부채·혼인·배신',body:[P('장부 6가문, Aletheia 세 색의 내전, 라우어 감사 내부 정치, 소금 수도회·망각권 연맹. 세력 간 관계 매트릭스.')],canon:['031']},
+ {name:'웨이브3 · 지리·사건 연쇄',sub:'지형이 정치를 낳는다',body:[P('지리 상세·궤도 역학, 관계망이 낳는 구체 사건의 인과 연쇄.')],canon:['032']},
+ {name:'웨이브4 · 경제·의례·달력',sub:'통화 세부와 의례',body:[P('경제·통화 세부, 검증 의례와 달력 체계.')],canon:['033']},
+ {name:'웨이브5 · 언어·기술 인프라',sub:'언어 심화와 기술 세부',body:[P('언어 층 심화와 기술 인프라 세부. 기존 필드마크·도장 위에서만.')],canon:['034']},
+ {name:'웨이브6 · 생태·교육·미디어',sub:'capstone + 전 웨이브 인덱스',body:[P('물질 조건(생태), 세대 전승(교육), 작품 밖 미디어·팬덤. 030-035 크로스 인덱스.')],canon:['035']}
+];
+
+const timeAxis=[{id:'all',label:'전체'},{id:'now',label:'2010s 인식위기'},{id:'qday',label:'Q-Day'},{id:'restore',label:'복원 시대'},{id:'deeptime',label:'먼 미래'}];
+const timeNodes=[
+ {name:'2010s~ 인식 위기',era:'now',sub:'딥페이크·검증 대공황',body:[P('딥페이크와 AI slop이 진위를 죽이는 근미래. 검증경제가 형성되고 인간 확인 루프가 헌법이 된다. 2090s는 Q-Day 직전이 아니라 인식 위기의 정점이다.')],canon:['027','039']},
+ {name:'Q-Day · Hinge Night',era:'qday',sub:'최후 앵커 붕괴의 밤',body:[P('양자가 옛 암호 바닥을 소급 붕괴시킨다. 소유·신원·역사가 위조 가능해지는 분기점. 며칠 안에 첫 붕괴 사슬이 돈다.')],canon:['026 A','039']},
+ {name:'90일 아수라장',era:'qday',sub:'검증경제의 굳음',body:[P('재고가 바닥나고 물류가 재국지화된다. 90일 아수라장을 지나 검증·복원이 산업화되고 테크노봉건이 고착된다.')],canon:['026 A.5·B·C']},
+ {name:'0기 · 손실의 시대',era:'restore',sub:'죽음을 정보 손실로 오해한 시대',body:[P('사람이 죽으면 우주는 침묵한다고 믿었다. 블랙홀은 정보를 삼키는 구멍처럼 보였다.'),Q('장례의 말 "우리는 그를 기억합니다"는 위로였는가, 포기였는가.')],canon:['002 0기']},
+ {name:'1기 · 첫 복원',era:'restore',sub:'우주에 흩어진 잔상을 재조립하다',body:[P('Last Archive가 양자장·중력장에 남은 잔상 패턴을 읽었다고 발표한다. 첫 복원자는 전쟁으로 죽은 아이. 어머니의 이름을 맞히고 울었다.'),Q('구원인가, 복사인가. 그날 인류는 두 편으로 갈라진다.')],canon:['002 1기','010']},
+ {name:'2기 · 복원 산업',era:'restore',sub:'가격표가 붙은 기적',body:[P('사망신고서 옆에 복원동의서가 붙는다. 잔상 측량사, 복원 변호사, 망각권 대리인 같은 직업이 생긴다. 가난한 사람의 복원은 낮은 해상도였다.')],canon:['002 2기']},
+ {name:'3기 · 알레테이아 베일',era:'restore',sub:'복원되지 않을 권리가 먼저다',body:[P('권력자들이 장군·투자자·왕조부터 복원하자, 삭제된 자들의 계승권을 자처하는 비밀 결사가 생긴다. 그들의 표식은 눈이 아니라 귀. 세계가 지운 말을 들었다.')],canon:['002 3기','031']},
+ {name:'4기 · 연속성 법원',era:'restore',sub:'복원체는 같은 사람인가',body:[P('복원된 아내가 모든 것을 기억하고 검사도 통과했지만 법정에서 말한다. "그는 나를 복원한 게 아니라, 설득 가능한 형태로 다시 쓴 것이다." 첫 자기부정 복원체 사건. 법원은 판결하지 못했다.'),Q('기억이 같고 행동이 같으면 같은 사람인가.')],canon:['002 4기','026 D']},
+ {name:'5기 · 관측 전쟁',era:'deeptime',sub:'복원 가능한 상태로 죽이기 (수천 년-1만 년)',body:[P('죽은 장교를 복원하면 작전 기억을, 죽은 스파이를 복원하면 배신자를 회수한다. 죽이는 것이 아니라 복원 가능한 상태로 죽이는 것이 목표가 된다. 적을 보는 방식이 곧 소유하는 방식.')],canon:['036 §3.1']},
+ {name:'응고기 · The Long Plateau',era:'deeptime',sub:'심화된 정체기 (1만 년-수만 년)',body:[P('관측 전쟁 이후 세계가 검증 질서 안에서 응고한다. 반박의 계단이 천 년-수억 년 척도로 쌓이는 심층시간의 무대.')],canon:['036 §3.2']},
+ {name:'6기 · 망각권 혁명',era:'deeptime',sub:'실패했기에 전설이 된 봉기 (수만 년)',body:[P('복원 거부자들이 도시를 점거한다. "나를 살리지 마라. 내 고통을 보존하지 마라." 혁명은 실패한다. 300년 뒤 그들의 말투가 복원 윤리 AI의 training corpus에서 발견된다.'),Q('그들은 우리를 살리지 않았다. 사용했다.')],canon:['036 §3.3']},
+ {name:'7기 · 라우어 관측소',era:'deeptime',sub:'네 도장의 교리화 (수만-수십만 년)',body:[P('사후 정보 연속성 감사기관. 복원의 지옥문 앞에 선 회계사들. 네 개의 도장이 과학 검증 도구에서 종교적 상징이 된다. 아이의 팔찌에 새겨진다. "정의되지 않은 구원은 폭력이다."')],canon:['036 §3.4','007']},
+ {name:'8기 · 계승자들의 분열',era:'deeptime',sub:'동의의 우선 (수십만-수백만 년)',body:[P('알레테이아 베일이 두 파로 갈라진다. 서로를 배신자라 부르지만 같은 노래를 부른다. "우리가 지키는 것은 생명이 아니다. 동의다." 주인공은 한쪽의 계승자로 태어나 다른 쪽 문서로 길러지고 라우어의 감사관이 된다.')],canon:['036 §3.5','015']},
+ {name:'9기 · 마지막 백업',era:'deeptime',sub:'별이 식고 잔상이 희미해지는 (수천만-수억 년)',body:[P('우주의 팽창은 멈추지 않는다. 별은 늙고 블랙홀은 식고 복원 가능한 잔상도 희미해진다. Last Archive가 마지막 계획을 공개한다.')],canon:['036 §3.7','040']}
+];
+
+// ---------------- SCENE ----------------
+const scene=new THREE.Scene();scene.fog=new THREE.FogExp2(0x04050b,0.0011);
+const camera=new THREE.PerspectiveCamera(60,innerWidth/innerHeight,0.1,6000);camera.position.set(0,80,250);
+const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.setSize(innerWidth,innerHeight);document.getElementById('scene').appendChild(renderer.domElement);
+const labelRenderer=new CSS2DRenderer();labelRenderer.setSize(innerWidth,innerHeight);
+labelRenderer.domElement.style.position='fixed';labelRenderer.domElement.style.top='0';labelRenderer.domElement.style.pointerEvents='none';
+document.getElementById('scene').appendChild(labelRenderer.domElement);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.dampingFactor=0.06;
+controls.minDistance=12;controls.maxDistance=1400;controls.autoRotate=true;controls.autoRotateSpeed=0.2;controls.enablePan=false;
+const initView={pos:camera.position.clone(),target:controls.target.clone()};
+scene.add(new THREE.AmbientLight(0x8899cc,0.7));scene.add(new THREE.PointLight(0xffe6a8,2.2,0,1.4));
+
+const haloTex=(function(){const c=document.createElement('canvas');c.width=c.height=128;const x=c.getContext('2d');
+ const g=x.createRadialGradient(64,64,0,64,64,64);g.addColorStop(0,'rgba(255,255,255,1)');g.addColorStop(.25,'rgba(255,255,255,.55)');
+ g.addColorStop(1,'rgba(255,255,255,0)');x.fillStyle=g;x.beginPath();x.arc(64,64,64,0,7);x.fill();return new THREE.CanvasTexture(c);})();
+(function(){const g=new THREE.BufferGeometry();const n=3200;const p=new Float32Array(n*3);
+ for(let i=0;i<n;i++){const r=560+Math.random()*2200;const t=Math.random()*6.283,ph=Math.acos(2*Math.random()-1);
+ p[i*3]=r*Math.sin(ph)*Math.cos(t);p[i*3+1]=r*Math.sin(ph)*Math.sin(t);p[i*3+2]=r*Math.cos(ph);}
+ g.setAttribute('position',new THREE.BufferAttribute(p,3));
+ scene.add(new THREE.Points(g,new THREE.PointsMaterial({color:0x9fb0e0,size:1.4,transparent:true,opacity:.85})));})();
+
+const nodeObjs=[],raycT=[],lines=[];
+function makeNode(d,pos,radius,stepNum){
+ const colorHex=COLOR[d.cat];const group=new THREE.Group();group.position.copy(pos);
+ const mat=new THREE.MeshStandardMaterial({color:colorHex,emissive:colorHex,emissiveIntensity:.6,roughness:.35,metalness:.1});
+ const mesh=new THREE.Mesh(new THREE.SphereGeometry(radius,24,24),mat);mesh.userData.node=d;group.add(mesh);
+ const glow=new THREE.Sprite(new THREE.SpriteMaterial({map:haloTex,color:colorHex,transparent:true,opacity:.55,blending:THREE.AdditiveBlending,depthWrite:false}));
+ glow.scale.setScalar(radius*6);group.add(glow);
+ const el=document.createElement('div');el.className='label';
+ if(stepNum){const s=document.createElement('span');s.className='n';s.style.background='#'+colorHex.toString(16).padStart(6,'0');s.textContent=stepNum;el.appendChild(s);el.appendChild(document.createTextNode(d.name));}
+ else el.textContent=d.name;
+ const label=new CSS2DObject(el);label.position.set(0,radius+2.2,0);group.add(label);
+ scene.add(group);
+ const rec={group,mesh,glow,el,data:d,radius,color:colorHex,basepos:pos.clone(),pulse:0};
+ nodeObjs.push(rec);raycT.push(mesh);d._rec=rec;return rec;
+}
+function link(a,b,color,op){const g=new THREE.BufferGeometry().setFromPoints([a.basepos,b.basepos]);
+ const l=new THREE.Line(g,new THREE.LineBasicMaterial({color,transparent:true,opacity:op}));
+ l.userData.layers=[a.data.layer,b.data.layer];scene.add(l);lines.push(l);return l;}
+
+sunData.cat='core';const sun=makeNode(sunData,new THREE.Vector3(0,0,0),7);
+chain.forEach((d,i)=>{d.cat='chain';d.layer='chain';const a=i*0.8+0.3,r=30+i*13,y=Math.sin(i*0.85)*8+(i-3.5)*2;
+ makeNode(d,new THREE.Vector3(Math.cos(a)*r,y,Math.sin(a)*r),4.2,i+1);});
+(function(){const pts=[sun.basepos.clone()];chain.forEach(d=>pts.push(d._rec.basepos.clone()));
+ const cv=new THREE.CatmullRomCurve3(pts,false,'catmullrom',.35);
+ const m=new THREE.Mesh(new THREE.TubeGeometry(cv,200,0.35,6,false),new THREE.MeshBasicMaterial({color:COLOR.chain,transparent:true,opacity:.28}));
+ m.userData.layers=['chain','chain'];scene.add(m);lines.push(m);})();
+const eBase=new THREE.Vector3(chain[2]._rec.basepos.x*0.5-70,chain[2]._rec.basepos.y+48,chain[2]._rec.basepos.z*0.5-34);
+lens.forEach((d,i)=>{d.cat='lens';d.layer='lens';const a=i*0.9;
+ makeNode(d,new THREE.Vector3(eBase.x+Math.cos(a)*(12+i*6),eBase.y+i*6-12,eBase.z+Math.sin(a)*(12+i*5)),3);});
+for(let i=0;i<lens.length-1;i++)link(lens[i]._rec,lens[i+1]._rec,COLOR.lens,.18);
+link(lens[4]._rec,chain[2]._rec,COLOR.lens,.14);
+DOM.forEach((d,i)=>{const obj={cat:'domain',layer:'domain',era:'all',name:(i+1)+' '+d[0],sub:'세계-체계 도메인',body:[P(d[1])],canon:['028','026']};
+ const a=i/DOM.length*Math.PI*2;const R=64;makeNode(obj,new THREE.Vector3(Math.cos(a)*R,Math.sin(a*2)*8,Math.sin(a)*R),2.7);});
+story.forEach((d,i)=>{d.cat='story';d.layer='story';const a=i*0.62+2.4,r=44+i*17,y=-24+Math.sin(i)*6;
+ makeNode(d,new THREE.Vector3(Math.cos(a)*r,y,Math.sin(a)*r),3.9);});
+for(let i=0;i<story.length-1;i++)link(story[i]._rec,story[i+1]._rec,COLOR.story,.22);
+const qBase=story[4]._rec.basepos.clone().add(new THREE.Vector3(20,26,10));
+questions.forEach((d,i)=>{d.cat='question';d.layer='question';d.era='all';const a=i/questions.length*Math.PI*2;const foc=(d.name==='Q5');
+ const pos=foc?qBase.clone():qBase.clone().add(new THREE.Vector3(Math.cos(a)*18,Math.sin(a*1.3)*10,Math.sin(a)*18));
+ makeNode(d,pos,foc?3.6:2.6);});
+questions.forEach(d=>{if(d.name!=='Q5')link(d._rec,questions[4]._rec,COLOR.question,.16);});
+// character constellation (grouped by 부) — a living relationship map
+const charBase=new THREE.Vector3(120,20,-104);
+const partOff={'0부':new THREE.Vector3(-44,30,10),'1부':new THREE.Vector3(-8,40,28),'1.5부':new THREE.Vector3(-40,18,-4),'기원':new THREE.Vector3(38,4,-30),'전 시대':new THREE.Vector3(54,-4,-46),'2부':new THREE.Vector3(2,-28,8)};
+const pc={};
+characters.forEach(d=>{d.cat='character';d.layer='character';
+ const off=partOff[d.part]||new THREE.Vector3();const k=(pc[d.part]=(pc[d.part]||0)+1);
+ const a=k*1.5+2,r=(d.part==='2부')?28:8;
+ const pos=charBase.clone().add(off).add(new THREE.Vector3(Math.cos(a)*r,(k%2?5:-5),Math.sin(a)*r));
+ makeNode(d,pos,d.main?3.3:2.4);});
+const byKey={};characters.forEach(d=>byKey[d.key]=d._rec);
+const rel=[['mara','elias'],['mara','liora'],['mara','tamas'],['mara','vera'],['liora','pell'],['liora','archive'],['pell','sera'],['noor','ione'],['karvath','vera'],['sael','mara'],['owen','liv']];
+const relLines=[];
+rel.forEach(([x,y])=>{const a=byKey[x],b=byKey[y];if(!a||!b)return;
+ const geo=new THREE.BufferGeometry().setFromPoints([a.basepos.clone(),b.basepos.clone()]);
+ const l=new THREE.Line(geo,new THREE.LineBasicMaterial({color:COLOR.character,transparent:true,opacity:.18}));
+ scene.add(l);relLines.push({a,b,geo,line:l});});
+// factions orbiting their chain-era anchor
+factions.forEach((d,i)=>{d.cat='faction';d.layer='faction';d.era='all';const an=chain[d.anchor]._rec;const a=i*1.3+0.7;
+ makeNode(d,an.basepos.clone().add(new THREE.Vector3(Math.cos(a)*17,(i%2?10:-10),Math.sin(a)*17)),3);});
+seeds.forEach((d,i)=>{d.cat='seed';d.layer='seed';d.era='all';const a=i/seeds.length*Math.PI*2+0.5;const R=120+((i%2)?18:0);
+ makeNode(d,new THREE.Vector3(Math.cos(a)*R,70+Math.sin(i*1.7)*24,Math.sin(a)*R),3.1);});
+timeNodes.forEach((d,i)=>{d.cat='time';d.layer='time';const a=i*0.46,R=98;
+ makeNode(d,new THREE.Vector3(Math.cos(a)*R-30,-58+i*10.5,Math.sin(a)*R+24),3.2);});
+for(let i=0;i<timeNodes.length-1;i++)link(timeNodes[i]._rec,timeNodes[i+1]._rec,COLOR.time,.24);
+
+// orbital motion for link-less layers (satellites)
+nodeObjs.forEach(n=>{const b=n.basepos,d=n.data;
+ if(d.layer==='domain')n.orbit={cx:0,cy:b.y,cz:0,r:Math.hypot(b.x,b.z),ph:Math.atan2(b.z,b.x),sp:0.05};
+ else if(d.layer==='faction'){const an=chain[d.anchor]._rec;
+  n.orbit={cx:an.basepos.x,cy:b.y,cz:an.basepos.z,r:Math.hypot(b.x-an.basepos.x,b.z-an.basepos.z),ph:Math.atan2(b.z-an.basepos.z,b.x-an.basepos.x),sp:0.12};}
+ else if(d.layer==='character')n.orbit={cx:b.x,cy:b.y,cz:b.z,r:2.2,ph:Math.random()*6.283,sp:0.22};
+ else if(d.layer==='seed')n.orbit={cx:0,cy:b.y,cz:0,r:Math.hypot(b.x,b.z),ph:Math.atan2(b.z,b.x),sp:0.03};});
+
+document.getElementById('ptotal').textContent=nodeObjs.length;
+
+// ---------------- UI chrome ----------------
+const tray=document.getElementById('tray'),toast=document.getElementById('toast');
+const btnFilter=document.getElementById('btnFilter'),btnHelp=document.getElementById('btnHelp');
+let toastTimer=null;
+function showToast(msg,ms){toast.textContent=msg;toast.classList.add('show');clearTimeout(toastTimer);
+ toastTimer=setTimeout(()=>toast.classList.remove('show'),ms||4200);}
+btnFilter.onclick=()=>{const open=tray.classList.toggle('open');btnFilter.classList.toggle('on',open);};
+btnHelp.onclick=()=>showToast('한 손가락 회전 · 두 손가락 확대 · 노드 탭으로 열람 · 필터로 레이어/시대 전환',5200);
+
+const active={};LAYERS.forEach(l=>active[l[0]]=true);active.core=true;
+const layersEl=document.getElementById('layers');
+LAYERS.forEach(([key,name])=>{const c=document.createElement('div');c.className='chip';
+ c.innerHTML='<span class="d" style="color:#'+COLOR[key].toString(16).padStart(6,'0')+'"></span>'+name;
+ c.onclick=()=>{active[key]=!active[key];c.classList.toggle('off',!active[key]);applyVisibility();};
+ layersEl.appendChild(c);});
+
+let eraFilter='all';const tlEl=document.getElementById('timeline');
+timeAxis.forEach(t=>{const b=document.createElement('button');b.textContent=t.label;
+ if(t.id==='all')b.classList.add('active');
+ b.onclick=()=>{eraFilter=t.id;[...tlEl.children].forEach(x=>x.classList.toggle('active',x===b));applyVisibility();
+  if(t.id==='all')flyToView(initView.pos,initView.target);
+  else{const recs=nodeObjs.filter(n=>n.group.visible&&n.data.era===t.id);if(recs.length)flyToFit(recs);}};
+ tlEl.appendChild(b);});
+
+function applyVisibility(){
+ nodeObjs.forEach(n=>{const d=n.data;const layerOn=(d.layer==='core')||active[d.layer];
+  const eraOn=(eraFilter==='all')||d.era==='all'||d.era===eraFilter||d.layer==='time';n.group.visible=layerOn&&eraOn;});
+ lines.forEach(l=>{const ls=l.userData.layers||[];l.visible=ls.every(k=>k==='core'||active[k]);});
+ relLines.forEach(r=>{r.line.visible=active.character&&r.a.group.visible&&r.b.group.visible;});
+}
+
+// ---------------- interaction (tap-friendly) ----------------
+const ray=new THREE.Raycaster(),mouse=new THREE.Vector2(),proj=new THREE.Vector3();let hovered=null;const visited=new Set();
+const setMouse=(x,y)=>{mouse.x=(x/innerWidth)*2-1;mouse.y=-(y/innerHeight)*2+1;};
+function pickAt(x,y){setMouse(x,y);ray.setFromCamera(mouse,camera);
+ for(const h of ray.intersectObjects(raycT,false)){const rec=h.object.userData.node._rec;if(rec.group.visible)return rec;}
+ // near-tap fallback: nearest visible node within screen radius
+ let best=null,bd=34;
+ nodeObjs.forEach(n=>{if(!n.group.visible)return;proj.copy(n.group.position).project(camera);
+  if(proj.z>1)return;const sx=(proj.x*.5+.5)*innerWidth,sy=(-proj.y*.5+.5)*innerHeight;
+  const dd=Math.hypot(sx-x,sy-y);if(dd<bd){bd=dd;best=n;}});
+ return best;
+}
+renderer.domElement.addEventListener('pointermove',e=>{if(e.pointerType!=='mouse')return;
+ setMouse(e.clientX,e.clientY);ray.setFromCamera(mouse,camera);
+ const hit=ray.intersectObjects(raycT,false).find(h=>h.object.userData.node._rec.group.visible);
+ const rec=hit?hit.object.userData.node._rec:null;
+ if(rec!==hovered){hovered=rec;document.body.style.cursor=rec?'pointer':'default';}});
+let downXY=null;
+renderer.domElement.addEventListener('pointerdown',e=>{downXY=[e.clientX,e.clientY];});
+renderer.domElement.addEventListener('pointerup',e=>{if(!downXY)return;
+ const moved=Math.hypot(e.clientX-downXY[0],e.clientY-downXY[1]);downXY=null;
+ if(moved>10)return; // was a drag, not a tap
+ const rec=pickAt(e.clientX,e.clientY);if(rec)openNode(rec);});
+
+const panel=document.getElementById('panel');
+function openNode(rec){const d=rec.data;flyTo(rec);
+ const kick=document.getElementById('pkicker');kick.textContent=KICK[d.cat]||'';
+ const hex='#'+COLOR[d.cat].toString(16).padStart(6,'0');kick.style.color=hex;
+ document.getElementById('ptitle').textContent=d.name;document.getElementById('psub').textContent=d.sub||'';
+ const body=document.getElementById('pbody');body.innerHTML='';
+ (d.body||[]).forEach(seg=>{const p=document.createElement('p');
+  if(seg.t==='why'){p.className='why';p.style.color=hex;}else if(seg.t==='q'){p.className='q';p.style.color=hex;}
+  p.appendChild(document.createTextNode(seg.x));body.appendChild(p);});
+ const chips=document.getElementById('pchips');chips.innerHTML='';
+ (d.canon||[]).forEach(c=>{const s=document.createElement('span');s.textContent=c;chips.appendChild(s);});
+ body.scrollTop=0;panel.classList.add('open');controls.autoRotate=false;currentOpen=rec;
+ tray.classList.remove('open');btnFilter.classList.remove('on');
+ if(!visited.has(d.name)){visited.add(d.name);document.getElementById('pcount').textContent=visited.size;}
+ rec.pulse=1;}
+document.getElementById('pclose').onclick=()=>{panel.classList.remove('open');currentOpen=null;controls.autoRotate=true;};
+
+let flying=null,currentOpen=null;
+function flyTo(rec){const target=rec.group.position.clone();const dist=rec.radius*7+22;
+ const dir=camera.position.clone().sub(target).normalize();
+ const dest=target.clone().add(dir.multiplyScalar(dist)).add(new THREE.Vector3(0,rec.radius*1.6,0));
+ flying={fromCam:camera.position.clone(),toCam:dest,fromT:controls.target.clone(),toT:target,t:0};}
+function flyToView(pos,target){flying={fromCam:camera.position.clone(),toCam:pos.clone(),fromT:controls.target.clone(),toT:target.clone(),t:0};}
+function flyToFit(recs){const c=new THREE.Vector3();recs.forEach(r=>c.add(r.group.position));c.multiplyScalar(1/recs.length);
+ let rad=28;recs.forEach(r=>{rad=Math.max(rad,r.group.position.distanceTo(c));});
+ const dir=camera.position.clone().sub(controls.target).normalize();
+ const dest=c.clone().add(dir.multiplyScalar(rad*2.4+50));
+ flying={fromCam:camera.position.clone(),toCam:dest,fromT:controls.target.clone(),toT:c.clone(),t:0};}
+
+document.getElementById('start').onclick=()=>{document.getElementById('intro').classList.add('hide');
+ showToast('한 손가락 회전 · 두 손가락 확대 · 노드 탭으로 열람',5000);};
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();
+ renderer.setSize(innerWidth,innerHeight);labelRenderer.setSize(innerWidth,innerHeight);});
+
+const clock=new THREE.Clock();
+function animate(){requestAnimationFrame(animate);const t=clock.getElapsedTime();
+ nodeObjs.forEach((n,i)=>{if(!n.group.visible)return;
+  if(n.orbit&&n!==currentOpen){const o=n.orbit,a=o.ph+t*o.sp;
+   n.group.position.set(o.cx+Math.cos(a)*o.r,o.cy+Math.sin(t*0.5+i)*0.6,o.cz+Math.sin(a)*o.r);}
+  else n.group.position.y=n.basepos.y+Math.sin(t*0.5+i)*0.5;
+  const tgt=(n===hovered)?1.4:(visited.has(n.data.name)?1.08:1);
+  n.mesh.scale.setScalar(n.mesh.scale.x+(tgt-n.mesh.scale.x)*0.12);
+  n.mesh.material.emissiveIntensity=0.5+(n===hovered?0.5:0)+Math.sin(t*1.4+i)*0.05;
+  if(n.pulse){n.glow.scale.setScalar(n.radius*6*(1+n.pulse*0.6));n.pulse*=0.92;if(n.pulse<0.02)n.pulse=0;}
+  const dd=camera.position.distanceTo(n.group.position);
+  n.el.style.opacity=dd>430?'0':(dd>300?'0.4':'');});
+ relLines.forEach(r=>{if(!r.line.visible)return;const p=r.geo.attributes.position.array;
+  p[0]=r.a.group.position.x;p[1]=r.a.group.position.y;p[2]=r.a.group.position.z;
+  p[3]=r.b.group.position.x;p[4]=r.b.group.position.y;p[5]=r.b.group.position.z;r.geo.attributes.position.needsUpdate=true;});
+ sun.group.rotation.y=t*0.05;sun.mesh.material.emissiveIntensity=0.7+Math.sin(t*1.2)*0.12;
+ if(flying){flying.t=Math.min(1,flying.t+0.02);const e=1-Math.pow(1-flying.t,3);
+  camera.position.lerpVectors(flying.fromCam,flying.toCam,e);controls.target.lerpVectors(flying.fromT,flying.toT,e);if(flying.t>=1)flying=null;}
+ controls.update();renderer.render(scene,camera);labelRenderer.render(scene,camera);}
+applyVisibility();animate();
+window.__galaxyReady=true;
+</script>
+</body>
+</html>
