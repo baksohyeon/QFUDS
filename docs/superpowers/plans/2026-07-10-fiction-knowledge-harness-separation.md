@@ -199,7 +199,7 @@ and verify that unrelated content did not change.
 4. Tool wave:
    - QFUDS Verse `web/` -> `tools/qfuds-verse-web/`.
 5. Remove the superseded old fiction landing page after inbound links point to
-   the new `fiction/README.md`.
+   the new [fiction/README.md](../../fiction/README.md).
 
 Run the independent link gate after every wave. Any content changes beyond link
 destinations require explicit inspection and justification.
