@@ -56,7 +56,7 @@ Reserve(2025-03-06, hit_not_cached). 비가역성 다리 = Wikipedia "Landauer's
 principle", Bennett reversible-computation notes (hit_not_cached).
 일부 craft 출처는 inaccessible(403). 캐시 자산 없음(reference 읽기, not_extractable).
 세부 craft·이론 목록은
-[007 craft·정치이론 자료조사](../../../../creative_harness/craft/007_craft_and_political_theory_research_ko.md)에.
+[007 craft·정치이론 자료조사](../../../../creative_harness/craft/craft_and_political_theory_research.md)에.
 
 최신 제도권 사실 spot-check(2026-06-21):
 

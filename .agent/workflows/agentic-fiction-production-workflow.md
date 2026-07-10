@@ -113,7 +113,7 @@ Use [.agent/templates/fiction/chapter_intent_card_template.md](../templates/fict
 
 Before drafting a scene that depends on technical, legal, institutional, or
 world-historical concepts, apply
-[Fiction Reader Onboarding Harness](../../creative_harness/craft/010_reader_onboarding_harness_ko.md).
+[Fiction Reader Onboarding Harness](../../creative_harness/craft/reader_onboarding_harness.md).
 
 The pass does not ban technical explanation. It requires each load-bearing
 concept to pass:
@@ -135,7 +135,7 @@ losing, now), then teach the public-key / signature / Q-Day rule from inside tha
 dread. Deliver exposition as diegesis, not author-to-reader tutorial: the
 character reads a screen, warning, feed, or form. Avoid childish analogies and
 contrived declaratives. The tone guard table in
-[010 §톤 가드](../../creative_harness/craft/010_reader_onboarding_harness_ko.md)
+[010 §톤 가드](../../creative_harness/craft/reader_onboarding_harness.md)
 is mandatory for onboarding scenes.
 
 ## Review Wave Protocol
@@ -220,7 +220,7 @@ It should preserve:
 
 Use [.agent/templates/fiction/style_packet_template.md](../templates/fiction/style_packet_template.md).
 For Korean-primary prose, also apply
-[Korean Fiction Prose Naturalness Harness](../../creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md).
+[Korean Fiction Prose Naturalness Harness](../../creative_harness/craft/korean_fiction_prose_naturalness_harness.md).
 
 ## Truth-State Ledger
 
@@ -246,9 +246,9 @@ for essays, columns, and reports. It reliably catches translationese and
 over-tidy rhythm, but it can miss fiction-specific failures: tutorialized
 exposition, childish onboarding analogies, and weak first-scene hooking. Do not
 treat a low detector score as a pass. A human reviewer must enforce the guards in
-[010 §톤 가드](../../creative_harness/craft/010_reader_onboarding_harness_ko.md)
+[010 §톤 가드](../../creative_harness/craft/reader_onboarding_harness.md)
 and the AI-failure-signal table in
-[009](../../creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md)
+[009](../../creative_harness/craft/korean_fiction_prose_naturalness_harness.md)
 directly, especially on opening scenes.
 
 ## Verification

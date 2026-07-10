@@ -24,8 +24,8 @@ last_updated: 2026-07-10
 
 ## 이 문서의 자리
 
-[001 장기 복원 문명사 타임라인](001_deep_time_restoration_timeline_ko.md)이 0-9기
-골격(연표 SSOT)을 세우고, [002 연표·기술곡선·블랙홀 본거지](002_chronology_restoration_admin_black_hole_seat_ko.md)가
+[001 장기 복원 문명사 타임라인](deep_time_restoration_timeline.md)이 0-9기
+골격(연표 SSOT)을 세우고, [002 연표·기술곡선·블랙홀 본거지](chronology_restoration_admin_black_hole_seat.md)가
 기술 곡선(지수→로그→정체)과 복원 행정·세대 해상도·은하 중심 블랙홀 본거지를 세우고,
 [115 Q-Day 여파 타임라인](../world/115_qday_aftermath_timeline_and_world_ko.md)이
 Q-Day 직후부터 대략 천 년(4기 연속성 법원)까지를 사건 밀도로 채웠다.
@@ -527,7 +527,7 @@ extraction: not_extractable
 ```
 
 물리 앵커(블랙홀 정보·홀로그래피·Bekenstein/Landauer 한계·항성 진화·은하 공전·판 구조)의
-정확도 닻은 이미 [002(블랙홀 본거지)](002_chronology_restoration_admin_black_hole_seat_ko.md)와 [114(정보·유니터리·복원 물리, real-science 닻)](../world/114_in_world_physics_information_unitarity_restoration_ko.md)가
+정확도 닻은 이미 [002(블랙홀 본거지)](chronology_restoration_admin_black_hole_seat.md)와 [114(정보·유니터리·복원 물리, real-science 닻)](../world/114_in_world_physics_information_unitarity_restoration_ko.md)가
 보유한다. 이 문서는 그 닻을 심층시간 척도로 늘려 쓸 뿐 새 물리 주장을 만들지 않는다.
 
 ## Boundary

@@ -115,13 +115,13 @@ def check(files):
             if (AI_META_HOOK.search(ln)
                     and "AI식 훅" not in ln
                     and "기획서용 훅 포장문" not in ln
-                    and not f.endswith("006_prose_verisimilitude_audit_checklist_ko.md")
-                    and not f.endswith("009_korean_fiction_prose_naturalness_harness_ko.md")):
+                    and not f.endswith("prose_verisimilitude_audit_checklist.md")
+                    and not f.endswith("korean_fiction_prose_naturalness_harness.md")):
                 warns.append("%s:%d: AI식 훅 포장문 주의(직접 선택/비용 문장으로 교체): %s"
                              % (f, n, ln.strip()[:80]))
             if (KOREAN_PROSE_AI_TELL.search(ln)
-                    and not f.endswith("006_prose_verisimilitude_audit_checklist_ko.md")
-                    and not f.endswith("009_korean_fiction_prose_naturalness_harness_ko.md")):
+                    and not f.endswith("prose_verisimilitude_audit_checklist.md")
+                    and not f.endswith("korean_fiction_prose_naturalness_harness.md")):
                 warns.append("%s:%d: 한국어 AI-tell 문장 주의(낭독/조사/동작문 패스 필요): %s"
                              % (f, n, ln.strip()[:80]))
         name = f.rsplit("/", 1)[-1].lower()

@@ -21,7 +21,7 @@ last_updated: 2026-07-10
 
 원천 규칙: [SAGA 세계 기준점과 핍진성 규칙](../../fiction/worlds/qfuds-verse/world/101_world_anchor_and_verisimilitude_ko.md)의
 핍진성 5규칙. craft 일반 틀은
-[Creative Writing Craft Harness](004_creative_writing_craft_harness_ko.md).
+[Creative Writing Craft Harness](creative_writing_craft_harness.md).
 
 이 문서는 reference다. QFUDS 연구 증거가 아니다. 새 외부 source claim 없음.
 

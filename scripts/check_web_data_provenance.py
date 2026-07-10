@@ -9,13 +9,20 @@ stale, and a by-hand fix pass missed several. This guard makes such drift a
 hard failure instead of a thing a human has to remember.
 
 It is a *referential-integrity* check, not retrieval: every shelf-qualified
-token on a retained shelf (``world 113``, ``continuity 003``, ``bible 201``)
-must resolve to a doc that currently exists on that shelf. Tokens on closed
-SAGA shelves (``story``, ``workroom``, ``draft``, ``prototype``) are
-history-only references and are accepted as-is. Bare numbers and years
-(``(2008)``, ``(039)``) are deliberately ignored — they are ambiguous across
-shelves after renumbering, so provenance refs must be shelf-qualified to be
-checkable.
+token on a validated shelf (``world 113``) must resolve to a doc that
+currently exists on that shelf. Tokens on closed SAGA shelves (``story``,
+``workroom``, ``draft``, ``prototype``) are history-only references and are
+accepted as-is. Bare numbers and years (``(2008)``, ``(039)``) are
+deliberately ignored — they are ambiguous across shelves after renumbering,
+so provenance refs must be shelf-qualified to be checkable.
+
+Snapshot regime (2026-07-10): the vault rename dropped numeric prefixes from
+the continuity and series-bible shelves, and the web reader is a frozen
+pre-rename snapshot awaiting a hand-built rebuild. Until that rebuild,
+``continuity``/``bible`` tokens in the data files are snapshot references and
+are accepted without validation; only the world shelf (still numbered) stays
+validated. Reinstate full validation when the rebuilt reader ships new data
+files.
 
 Stack: Python standard library only (re, pathlib).
 
@@ -49,6 +56,11 @@ SHELF_DIRS: dict[str, Path] = {
 # (`git show bbbcb970:<path>`). Their tokens are historical references and
 # cannot be validated against the working tree.
 HISTORY_ONLY_KEYS = ("story", "workroom", "draft", "prototype")
+
+# Snapshot shelves: renamed to slug filenames on 2026-07-10, while the web
+# data still carries the pre-rename numeric tokens. The reader will be rebuilt
+# by hand later; until then these tokens are frozen snapshot references.
+SNAPSHOT_KEYS = ("continuity", "bible")
 
 DATA_FILES: list[Path] = [
     ROOT / "tools/qfuds-verse-web/data/chronicle-data.js",
@@ -123,7 +135,7 @@ def build_truth_map() -> dict[str, "set[int] | None"]:
         shelf: numbers_in_dir(resolve_shelf_dir(shelf))
         for shelf in SHELF_DIRS
     }
-    for key in HISTORY_ONLY_KEYS:
+    for key in HISTORY_ONLY_KEYS + SNAPSHOT_KEYS:
         truth[key] = None
     return truth
 
@@ -170,8 +182,9 @@ def main() -> int:
             print(f"  {error}")
         print(
             "\nEvery provenance reference must be shelf-qualified and resolve to a "
-            "current doc on a retained shelf\n(continuity/world/bible). Closed "
-            "SAGA shelves are history-only: `git show bbbcb970:<path>`."
+            "current doc on the validated world shelf.\ncontinuity/bible tokens are "
+            "frozen snapshot references until the web reader rebuild; closed SAGA "
+            "shelves are history-only: `git show bbbcb970:<path>`."
         )
         return 2
     checked = ", ".join(p.name for p in data_files)

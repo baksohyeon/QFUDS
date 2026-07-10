@@ -49,9 +49,12 @@ class ExpandNumbersTests(unittest.TestCase):
 
 class FindUnresolvedTests(unittest.TestCase):
     TRUTH = {
-        "continuity": {1, 2, 3},
         "world": {113, 117, 118, 119, 120, 121, 122, 126},
-        "bible": {201},
+        # Snapshot shelves (renamed to slug filenames 2026-07-10; web data is
+        # a frozen pre-rename snapshot until the reader rebuild): accepted
+        # without validation, same mechanism as history-only.
+        "continuity": None,
+        "bible": None,
         # Closed shelves (SAGA production ended 2026-07-10): history-only,
         # tokens resolve against Git history instead of the working tree.
         "story": None,
@@ -83,6 +86,12 @@ class FindUnresolvedTests(unittest.TestCase):
         # historical reference and must not fail against the working tree.
         self.assertEqual(guard.find_unresolved("(story 306, story 999)", self.TRUTH), [])
 
+    def test_snapshot_shelf_tokens_are_accepted(self) -> None:
+        # continuity/bible tokens are frozen snapshot references until the
+        # web reader rebuild; the old numeric form must not fail.
+        text = "심층시간(continuity 003), bible 201, continuity 001/002"
+        self.assertEqual(guard.find_unresolved(text, self.TRUTH), [])
+
     def test_range_with_one_missing_member_is_flagged(self) -> None:
         truth = {**self.TRUTH, "world": {117, 118, 119, 121, 122}}  # 120 missing
         problems = guard.find_unresolved("world 117-122", truth)
@@ -111,15 +120,19 @@ class BuildTruthMapTests(unittest.TestCase):
             self.assertIn(key, self.truth)
 
     def test_known_current_docs_are_present(self) -> None:
-        self.assertIn(3, self.truth["continuity"])   # 003_far_future_deep_time_chronicle
         self.assertIn(113, self.truth["world"])       # 113_restoration_mechanism_correction
         self.assertIn(126, self.truth["world"])       # 126_deeptime_catastrophe_pillar_spine
-        self.assertIn(201, self.truth["bible"])       # 201_narrative_pov_theme_naming
 
     def test_closed_shelves_are_history_only(self) -> None:
         # SAGA production shelves were removed from the active tree on
         # 2026-07-10; their tokens resolve against Git history only.
         for key in ("story", "workroom", "draft", "prototype"):
+            self.assertIsNone(self.truth[key])
+
+    def test_snapshot_shelves_are_unvalidated_until_rebuild(self) -> None:
+        # continuity/series-bible dropped numeric prefixes on 2026-07-10; the
+        # web data is a frozen snapshot until the hand-built reader rebuild.
+        for key in ("continuity", "bible"):
             self.assertIsNone(self.truth[key])
 
     def test_renumbered_out_numbers_are_absent(self) -> None:

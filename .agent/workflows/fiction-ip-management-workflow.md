@@ -99,7 +99,7 @@ inner story.
 
 Before creating or revising a work bible, story design, prose draft, or release
 candidate, apply
-[Creative Writing Craft Harness](../../creative_harness/craft/004_creative_writing_craft_harness_ko.md).
+[Creative Writing Craft Harness](../../creative_harness/craft/creative_writing_craft_harness.md).
 
 This adds Korean-readable explanations for English craft terms and checks
 premise, character, conflict, scene purpose, point of view, dialogue,
@@ -107,7 +107,7 @@ worldbuilding, theme, pacing, and revision.
 
 If the user asks for a university, writing-program, workshop, literary-craft, or
 formal creative-writing benchmark, also apply
-[University Creative Writing Reference Matrix](../../creative_harness/craft/005_university_creative_writing_reference_matrix_ko.md).
+[University Creative Writing Reference Matrix](../../creative_harness/craft/university_creative_writing_reference_matrix.md).
 
 ## Agentic Production Rule
 

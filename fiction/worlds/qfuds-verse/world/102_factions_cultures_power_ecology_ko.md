@@ -522,5 +522,5 @@ active canon으로 유지할 항목:
 - 첫 사건: 복원체의 "나는 다음 우주에서 먼저 깨어났다" 증언.
 
 시점, 중심 주제, 고유명사 체계는
-[QFUDS SAGA 시점 주제 고유명사 규칙](../series-bible/201_narrative_pov_theme_naming_ko.md)과
+[QFUDS SAGA 시점 주제 고유명사 규칙](../series-bible/narrative_pov_theme_naming.md)과
 [109 세력 명칭 Canon 확정](109_factions_canon_naming_ko.md)이 고정한다.

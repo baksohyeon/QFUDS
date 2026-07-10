@@ -31,7 +31,7 @@ bible을 한곳에서 훑고, 더 깊이는 각 항목의 링크로 들어간다
 
 지구(딥페이크로 현실이 죽은 시대, The Soft Editing) → 달(첫 궤도 산업·데이터 단지)
 → 화성(부자 먼저 이주, 계급의 고착) → 은하(수천 년 확산). 계급은 우주로 퍼지며
-굳었다. 상세: [001 타임라인](../continuity/001_deep_time_restoration_timeline_ko.md),
+굳었다. 상세: [001 타임라인](../continuity/deep_time_restoration_timeline.md),
 [107 §1 문명 규모](107_last_archive_origin_and_reversal_causality_ko.md).
 
 ## 2. 복원은 어떻게 작동하나
@@ -97,7 +97,7 @@ AI와 자동화는 도처에 있다(Last Archive=궁극의 계산체, 복원 엔
 법원이 한 편에 하나씩 남기는 영문 판례 문구의 사슬:
 RECOVERABLE / NOT CLAIMABLE → ACCESS != AUTHORITY → NO CONSENT BY ANALOGY →
 PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss.
-상세: [202 첫 arc canon](../series-bible/202_first_arc_canon_consolidation_ko.md).
+상세: [202 첫 arc canon](../series-bible/first_arc_canon_consolidation.md).
 
 ## 7. 핵심 인물
 
@@ -112,8 +112,8 @@ PLURALITY IS NOT CONSENT → PHYSICS IS NOT JURISDICTION → who may author loss
 | Ione | Aletheia Veil의 양심 |
 | Pell Anson | 장부 가문 중개인 |
 
-상세: [203 Liora](../series-bible/203_character_liora_sen_ko.md),
-[205 앙상블](../series-bible/205_character_ensemble_voices_relationships_ko.md).
+상세: [203 Liora](../series-bible/character_liora_sen.md),
+[205 앙상블](../series-bible/character_ensemble_voices_relationships.md).
 
 ## 8. SAGA 아크 지도
 

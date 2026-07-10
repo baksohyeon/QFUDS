@@ -18,21 +18,21 @@ last_updated: 2026-07-10
 ## Continuity 문서 (SSOT)
 
 2026-07-01 재레벨링으로 series bible에서 승격. 시대 좌표(인물별) SSOT는 series
-[209 캐릭터 지도](../series-bible/209_character_map_and_timeline_coordinates_ko.md)가 유지한다.
+[209 캐릭터 지도](../series-bible/character_map_and_timeline_coordinates.md)가 유지한다.
 
 | 문서 | 역할 |
 | --- | --- |
-| [000 캐논 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) | 충돌 시 어느 문서가 이기나(제작 권위 지도) |
-| [001 장기 복원 문명사 타임라인](001_deep_time_restoration_timeline_ko.md) | 0-9기 딥타임 연대기(연표 SSOT) |
-| [002 연표·복원 행정·블랙홀 본거지](002_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 |
-| [003 먼 미래 심층시간 연대기](003_far_future_deep_time_chronicle_ko.md) | 001 5-9기를 수만-수억 년 물리 시계에 건 심층시간 확장(스파이스=검증 기록). 001 SSOT 위 레이어 |
+| [000 캐논 권위·SSOT 지도](canon_authority_and_ssot_map.md) | 충돌 시 어느 문서가 이기나(제작 권위 지도) |
+| [001 장기 복원 문명사 타임라인](deep_time_restoration_timeline.md) | 0-9기 딥타임 연대기(연표 SSOT) |
+| [002 연표·복원 행정·블랙홀 본거지](chronology_restoration_admin_black_hole_seat.md) | 연표·기술곡선·복원 행정 구조 |
+| [003 먼 미래 심층시간 연대기](far_future_deep_time_chronicle.md) | 001 5-9기를 수만-수억 년 물리 시계에 건 심층시간 확장(스파이스=검증 기록). 001 SSOT 위 레이어 |
 
 ## 감사·메타 리포트 (900번대, 읽기 전용 산출물)
 
 | 문서 | 역할 |
 | --- | --- |
-| [900 월드빌딩 아키텍처 지도](900_worldbuilding_architecture_ko.md) | in-scope 80문서 인덱스·권위 트리·도메인 소유·의존/영향 그래프 |
-| [901 Canon Drift·Tech Debt 리포트](901_canon_drift_and_tech_debt_report_ko.md) | 드리프트 원장·중복 병합 후보·candidate 백로그·리팩터 P0/P1/P2 |
+| [900 월드빌딩 아키텍처 지도](worldbuilding_architecture.md) | in-scope 80문서 인덱스·권위 트리·도메인 소유·의존/영향 그래프 |
+| [901 Canon Drift·Tech Debt 리포트](canon_drift_and_tech_debt_report.md) | 드리프트 원장·중복 병합 후보·candidate 백로그·리팩터 P0/P1/P2 |
 
 ## Current Policy
 

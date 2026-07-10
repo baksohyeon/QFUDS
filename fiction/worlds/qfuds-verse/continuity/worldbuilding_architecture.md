@@ -21,7 +21,7 @@ last_updated: 2026-07-10
 `qfuds-verse`의 in-scope 문서 80개를 하나의 지도로 묶는 **읽기 전용 감사 산출물**이다.
 "어느 문서가 권위인가", "어느 선반이 무엇을 소유하나", "이 문서 하나 고치면 무엇이
 영향받나"를 즉시 답한다. 드리프트·기술부채·리팩터 우선순위는 자매 문서
-[901 Canon Drift·Tech Debt 리포트](901_canon_drift_and_tech_debt_report_ko.md)가 보유한다.
+[901 Canon Drift·Tech Debt 리포트](canon_drift_and_tech_debt_report.md)가 보유한다.
 
 이 문서는 새 고유명·캐논·인물을 만들지 않는다. 기존 문서 본문도 고치지 않는다. 실존
 종교·민족·집단을 가해자/피해자로 고정하지 않는다.
@@ -51,10 +51,10 @@ external source claim: no
 
 | 문서 | 역할 | status |
 | --- | --- | --- |
-| [000 권위·SSOT 지도](000_canon_authority_and_ssot_map_ko.md) | 충돌 시 어느 문서가 이기나(제작 권위 루트) | draft |
-| [001 장기 복원 문명사 타임라인](001_deep_time_restoration_timeline_ko.md) | 0-9기 딥타임 연대기(연표 SSOT) | draft |
-| [002 연표·복원 행정·블랙홀 본거지](002_chronology_restoration_admin_black_hole_seat_ko.md) | 연표·기술곡선·복원 행정 구조 | draft |
-| [003 먼 미래 심층시간 연대기](003_far_future_deep_time_chronicle_ko.md) | 001 5-9기를 물리 시계에 건 심층시간 확장 | draft |
+| [000 권위·SSOT 지도](canon_authority_and_ssot_map.md) | 충돌 시 어느 문서가 이기나(제작 권위 루트) | draft |
+| [001 장기 복원 문명사 타임라인](deep_time_restoration_timeline.md) | 0-9기 딥타임 연대기(연표 SSOT) | draft |
+| [002 연표·복원 행정·블랙홀 본거지](chronology_restoration_admin_black_hole_seat.md) | 연표·기술곡선·복원 행정 구조 | draft |
+| [003 먼 미래 심층시간 연대기](far_future_deep_time_chronicle.md) | 001 5-9기를 물리 시계에 건 심층시간 확장 | draft |
 | [README 연속성 인덱스](README.md) | 선반 정책·SSOT 안내 | draft |
 
 ### 1.2 `10_world` · 공유 세계 캐논 (25, 124 포함)
@@ -103,16 +103,16 @@ external source claim: no
 
 | 문서 | 역할 | status |
 | --- | --- | --- |
-| [201 시점·주제·고유명사 규칙](../series-bible/201_narrative_pov_theme_naming_ko.md) | 서사 규칙 SSOT | draft |
-| [202 첫 Arc Canon 정리](../series-bible/202_first_arc_canon_consolidation_ko.md) | 1부 원고에서 굳은 세계 사실 | draft |
-| [203 주인공 시트 Liora Sen](../series-bible/203_character_liora_sen_ko.md) | 주인공 캐릭터 SSOT | draft |
-| [204 작가 사유 렌즈·압축·SSOT](../series-bible/204_authorial_lenses_compression_ssot_soft_editing_ko.md) | 작가 렌즈(리쾨르·루만 구조 차용) | draft |
-| [205 앙상블 보이스·관계 바이블](../series-bible/205_character_ensemble_voices_relationships_ko.md) | 앙상블 인물 보이스·관계 | draft |
-| [206 입체 캐릭터 시트](../series-bible/206_character_depth_sheets_ko.md) | 인물 심층 시트 | draft |
-| [207 기준 작성권 사상축](../series-bible/207_authorship_of_the_standard_theme_axis_ko.md) | 무엇이 진짜였는지 정하는 권력 | draft |
-| [208 이념 비일관 삼각](../series-bible/208_ideological_incoherence_triad_ko.md) | 세 양립 불가 신앙 | draft |
-| [209 캐릭터 지도·타임라인 좌표](../series-bible/209_character_map_and_timeline_coordinates_ko.md) | 인물별 시대 좌표 SSOT | draft |
-| [210 기계 화자 관통선(AI 발전사)](../series-bible/210_machine_childhood_ai_history_narrator_throughline_ko.md) | 실제 AI사 관통선 | draft |
+| [201 시점·주제·고유명사 규칙](../series-bible/narrative_pov_theme_naming.md) | 서사 규칙 SSOT | draft |
+| [202 첫 Arc Canon 정리](../series-bible/first_arc_canon_consolidation.md) | 1부 원고에서 굳은 세계 사실 | draft |
+| [203 주인공 시트 Liora Sen](../series-bible/character_liora_sen.md) | 주인공 캐릭터 SSOT | draft |
+| [204 작가 사유 렌즈·압축·SSOT](../series-bible/authorial_lenses_compression_ssot_soft_editing.md) | 작가 렌즈(리쾨르·루만 구조 차용) | draft |
+| [205 앙상블 보이스·관계 바이블](../series-bible/character_ensemble_voices_relationships.md) | 앙상블 인물 보이스·관계 | draft |
+| [206 입체 캐릭터 시트](../series-bible/character_depth_sheets.md) | 인물 심층 시트 | draft |
+| [207 기준 작성권 사상축](../series-bible/authorship_of_the_standard_theme_axis.md) | 무엇이 진짜였는지 정하는 권력 | draft |
+| [208 이념 비일관 삼각](../series-bible/ideological_incoherence_triad.md) | 세 양립 불가 신앙 | draft |
+| [209 캐릭터 지도·타임라인 좌표](../series-bible/character_map_and_timeline_coordinates.md) | 인물별 시대 좌표 SSOT | draft |
+| [210 기계 화자 관통선(AI 발전사)](../series-bible/machine_childhood_ai_history_narrator_throughline.md) | 실제 AI사 관통선 | draft |
 | [README bible 인덱스](README.md) | 선반 지도 | draft |
 
 ### 1.4 `00_workroom` · 생산 도구 (13)
@@ -129,8 +129,8 @@ external source claim: no
 | 408 Production Board | 진행 보드·게이트 | draft |
 | 409 Chapter Intent Card 템플릿 | 챕터 의도 카드 | draft |
 | 410 전문가 패널 세계-체계 인계 | 패널 확장 인계 | draft |
-| [411 근미래 예측 패널 방법](../../../../creative_harness/methods/411_near_future_forecast_panel_method_ko.md) | 근미래 예측 방법 | draft |
-| [412 실세계·물리 리서치 앵커](../../../research/412_real_world_and_physics_research_anchors_ko.md) | 핍진성 리서치 앵커 대장 | draft |
+| [411 근미래 예측 패널 방법](../../../../creative_harness/methods/near_future_forecast_panel_method.md) | 근미래 예측 방법 | draft |
+| [412 실세계·물리 리서치 앵커](../../../research/real_world_and_physics_research_anchors.md) | 핍진성 리서치 앵커 대장 | draft |
 | [README workroom 인덱스](README.md) | 선반 지도 | draft |
 
 ### 1.5 `10_story_design` · 아웃라인·리빌 (23)
@@ -188,7 +188,7 @@ external source claim: no
 순으로 이긴다. 즉 기술어(검증·복원=사본·유니터리)는 이념 별칭으로 숨기지 않고 114가 최상위다.
 
 series bible SSOT 승격 타깃(world README): **109·209·102·115·116**. 시대 좌표(인물별)
-SSOT는 [209 캐릭터 지도](../series-bible/209_character_map_and_timeline_coordinates_ko.md)가 유지한다.
+SSOT는 [209 캐릭터 지도](../series-bible/character_map_and_timeline_coordinates.md)가 유지한다.
 
 ## 3. Domain Ownership Map (선반별 소유)
 
@@ -243,7 +243,7 @@ workroom 413 Truth-State Ledger가 추적한다.
 board·traceability·하네스를 두고, 안정 세계 사실은 `00_bible`로 올린다. 핵심 진단(404·407):
 실패 원인은 도구 부재가 아니라 **미집행**이며, 202이 필요 집행 모듈 6개(Production Board·
 Chapter Intent Card·Chronicler Pass·Review Wave Protocol·QFUDS Style Packet·Truth-State
-Ledger)를 지정한다. 모듈별 상태는 [901 §5](901_canon_drift_and_tech_debt_report_ko.md)가 보유
+Ledger)를 지정한다. 모듈별 상태는 [901 §5](canon_drift_and_tech_debt_report.md)가 보유
 (마지막 빈 모듈 Truth-State Ledger는 workroom 413로 초안 착수).
 
 | 운영 선반 | 소유 | 성격 |
@@ -341,10 +341,10 @@ graph TD
 - **근미래 축:** 114 리센터 · 209 오르페우스 · 321 기계 화자 · 322 프렐류드 · workroom 411·013.
 - **딥타임:** 001 → 002 → 003 · 110 심층시간.
 
-연속성·상위 참조: [000 권위 지도](000_canon_authority_and_ssot_map_ko.md) ·
+연속성·상위 참조: [000 권위 지도](canon_authority_and_ssot_map.md) ·
 [10_world README](../world/README.md) · [00_bible README](../series-bible/README.md) ·
 10_story_design README ·
-[901 드리프트·부채 리포트](901_canon_drift_and_tech_debt_report_ko.md).
+[901 드리프트·부채 리포트](canon_drift_and_tech_debt_report.md).
 
 ```text
 fiction/provenance only

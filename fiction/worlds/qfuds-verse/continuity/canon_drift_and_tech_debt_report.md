@@ -18,7 +18,7 @@ last_updated: 2026-07-10
 
 ## 무엇인가
 
-[900 아키텍처 지도](900_worldbuilding_architecture_ko.md)의 자매 문서. in-scope 80개
+[900 아키텍처 지도](worldbuilding_architecture.md)의 자매 문서. in-scope 80개
 문서에서 발견한 **캐논 드리프트·중복·기술부채**를 원장으로 남기고, 리팩터 우선순위를
 P0/P1/P2로 세운다. **읽기 전용 진단서**다. 여기서 본문을 고치지 않는다. 각 정정은
 사용자 승인 하에 별건으로 진행하며, 이 원장이 그 회귀 범위를 규정한다.
@@ -204,8 +204,8 @@ depends_on 역배선(113·001·103)은 P1 chronicler pass 잔여 항목.
 | 105 암호죽음 | 7 | 예(D2 대상) |
 | 102·108·209·106·205 | 7 | 부분 |
 
-근거·상위 참조: [900 아키텍처 지도](900_worldbuilding_architecture_ko.md) ·
-[000 권위 지도](000_canon_authority_and_ssot_map_ko.md) ·
+근거·상위 참조: [900 아키텍처 지도](worldbuilding_architecture.md) ·
+[000 권위 지도](canon_authority_and_ssot_map.md) ·
 [113 복원 정정](../world/113_restoration_mechanism_correction_ko.md) ·
 [114 in-world 물리](../world/114_in_world_physics_information_unitarity_restoration_ko.md).
 

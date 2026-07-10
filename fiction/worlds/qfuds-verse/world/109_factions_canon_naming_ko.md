@@ -19,7 +19,7 @@ last_updated: 2026-07-10
 
 이 문서는 세력·제도 명칭을 **확정 canon**으로 고정한다.
 [105 Hash Covenant](105_cryptographic_death_and_hash_covenant_ko.md)가 "후보
-상태"로 남긴 Latin 제도명, [202 첫 Arc 정리](../series-bible/202_first_arc_canon_consolidation_ko.md)가
+상태"로 남긴 Latin 제도명, [202 첫 Arc 정리](../series-bible/first_arc_canon_consolidation.md)가
 초안에서 끌어온 제도, [102 세력 장부](102_factions_cultures_power_ecology_ko.md)의
 세력을 한 표로 합쳐 정사 명칭을 정한다.
 
@@ -111,7 +111,7 @@ Tabularii로 흩어져 표기됐다. **canon은 Domus Clavium(House of Keys)로 
 
 | 고유명 | 종류 | 정의 | SSOT |
 | --- | --- | --- | --- |
-| Salt Fires | 사건명(영문 유지, 라틴 별칭 없음) | 4기 내 참사 사건(하드 연도 없음). 마라 베이르가 죽고 몸이 소실된 사건. "Salt Fires 가문"은 그 생존자 계보의 통칭 | 정의는 [209](../series-bible/209_character_map_and_timeline_coordinates_ko.md) §Salt Fires |
+| Salt Fires | 사건명(영문 유지, 라틴 별칭 없음) | 4기 내 참사 사건(하드 연도 없음). 마라 베이르가 죽고 몸이 소실된 사건. "Salt Fires 가문"은 그 생존자 계보의 통칭 | 정의는 [209](../series-bible/character_map_and_timeline_coordinates.md) §Salt Fires |
 | 베이르 가문 (Veyr) | 가문(세력 아님) | Ordo Salis 평신도 계보(소금=공개 기록 수호). 옛 key 보관 계보 | 209 인물 표, 118 §1.4 |
 
 candidate 210의 Fabrica Salinarum(근미래 협동조합)은 이 등록과 별개이며 미채택 상태다.

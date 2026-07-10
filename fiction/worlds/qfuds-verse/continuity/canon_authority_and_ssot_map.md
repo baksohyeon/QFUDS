@@ -39,17 +39,17 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | 복원 메커니즘(사본/열역학/역연산 금지) | [113](../world/113_restoration_mechanism_correction_ko.md) | 103·001의 "완전복원/역연산"은 작중 금지·논쟁 이론으로 강등 |
 | 세력·기관 고유명(라틴명 등) | [109](../world/109_factions_canon_naming_ko.md) | 장부 가문 = **Domus Clavium**(Tabularii/Registri 폐기) |
 | 인과·기원(무엇이 진짜였나) | [107](../world/107_last_archive_origin_and_reversal_causality_ko.md) | 001·104 AGI-Archive 모순은 107이 해소 |
-| 연표·복원 행정 | [002](002_chronology_restoration_admin_black_hole_seat_ko.md) | |
-| 심층시간(5-9기, 수만-수억 년) | [001](001_deep_time_restoration_timeline_ko.md) 골격 SSOT + [003](003_far_future_deep_time_chronicle_ko.md) 확장 레이어 | 003은 001를 물리 시계에 건 확장. 충돌 시 113>001/002/114>003 |
+| 연표·복원 행정 | [002](chronology_restoration_admin_black_hole_seat.md) | |
+| 심층시간(5-9기, 수만-수억 년) | [001](deep_time_restoration_timeline.md) 골격 SSOT + [003](far_future_deep_time_chronicle.md) 확장 레이어 | 003은 001를 물리 시계에 건 확장. 충돌 시 113>001/002/114>003 |
 | Q-Day 여파 세계-체계 | [115](../world/115_qday_aftermath_timeline_and_world_ko.md) | 부속 14도메인 매트릭스·인과 인덱스=[116](../world/116_qday_world_system_14domain_matrix_ko.md)(115이 SSOT) |
 | 시간 척추(두 위기 분리: 근미래 인식 위기 / 먼 미래 Q-Day) | [125](../world/125_qday_two_crisis_timeline_spine_ko.md) | 2026-07-02 승격 active 척추. 001·002·115·210·209 재정렬 완료. [126 파국 척추](../world/126_deeptime_catastrophe_pillar_spine_ko.md)는 그 위 candidate 레이어 |
 | 부활·복원 원어 층(현대 gloss 분리) | [124](../world/124_far_future_native_lexicon_return_death_ko.md) | 2026-07-06 canon 승격. 113·114가 상위 |
 | 세력 생태·권력 | [102](../world/102_factions_cultures_power_ecology_ko.md) | 명칭은 109 우선 |
 | 비트코인 위상·이념 | [110](../world/110_bitcoin_stature_ideology_deeptime_ko.md) | 신화 소재=103, 암호 개념=108 |
 | 인간 확인 루프·AI 텍스처 | [112](../world/112_ai_automation_human_in_the_loop_ssot_ko.md) | |
-| 주제축(기준 작성권) | [207](../series-bible/207_authorship_of_the_standard_theme_axis_ko.md) | |
+| 주제축(기준 작성권) | [207](../series-bible/authorship_of_the_standard_theme_axis.md) | |
 | 독자 접근성·실세계 검증 닻 | [106](../world/106_reader_accessibility_and_real_world_anchors_ko.md) | 기술·역사 정확성 대장 |
-| 인물 | [203](../series-bible/203_character_liora_sen_ko.md)(Liora) · [205](../series-bible/205_character_ensemble_voices_relationships_ko.md)(앙상블 보이스·관계) · [206](../series-bible/206_character_depth_sheets_ko.md)(입체 시트) | 205↔206 중복 정리 검토 대상 |
+| 인물 | [203](../series-bible/character_liora_sen.md)(Liora) · [205](../series-bible/character_ensemble_voices_relationships.md)(앙상블 보이스·관계) · [206](../series-bible/character_depth_sheets.md)(입체 시트) | 205↔206 중복 정리 검토 대상 |
 | 반전 노출 스케줄 | story_design/202 | "무엇이 진짜"는 107, "언제 드러내나"는 202 |
 | 이중언어 용어규율 | workroom/102 | |
 

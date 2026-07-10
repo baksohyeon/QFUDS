@@ -67,7 +67,7 @@ validation, Level 2B admission이 아니다.
   [107 Last Archive 기원과 역연산 인과](../world/107_last_archive_origin_and_reversal_causality_ko.md).
 - 연표·기술곡선(지수→로그), 복원 행정·세대 해상도, Last Archive의 은하 중심
   블랙홀 본거지:
-  [002 연표·복원 행정·블랙홀 본거지](002_chronology_restoration_admin_black_hole_seat_ko.md).
+  [002 연표·복원 행정·블랙홀 본거지](chronology_restoration_admin_black_hole_seat.md).
 
 아래 0-9기 서사는 이 인과 위에서 읽는다. 두 문서와 충돌하면 107/002이 우선한다.
 
@@ -96,7 +96,7 @@ validation, Level 2B admission이 아니다.
 ## 통합 연표: 하나의 연속 줄기
 
 이 절은 연도 척추(002)와 0-9기 문명사(아래 "공인 역사")를 **하나의 연속 줄기**로
-꿴 사건 색인이다. 연도·기술곡선의 SSOT는 [002](002_chronology_restoration_admin_black_hole_seat_ko.md)이며,
+꿴 사건 색인이다. 연도·기술곡선의 SSOT는 [002](chronology_restoration_admin_black_hole_seat.md)이며,
 0-9기 상세 서사는 아래 본문이 이어 받는다. 복원=사본 기준은 113이 우선한다.
 
 ### 1. 연도 척추 (002 상속 — 사건 inline)
@@ -452,7 +452,7 @@ phase B: residual pressure of the saved.
 문서들이 우선한다.
 
 - Last Archive 기원·말투·역연산 인과: [107](../world/107_last_archive_origin_and_reversal_causality_ko.md).
-- 연표·복원 행정·블랙홀 본거지: [002](002_chronology_restoration_admin_black_hole_seat_ko.md).
+- 연표·복원 행정·블랙홀 본거지: [002](chronology_restoration_admin_black_hole_seat.md).
 - 비트코인 위상·사토시 미스터리·이념전쟁: [110](../world/110_bitcoin_stature_ideology_deeptime_ko.md).
 - 독자용 deep-lore 색인: [111](../world/111_world_compendium_codex_ko.md).
 - 라우어 관측소의 일상, 식사, 복장, 승진, 처벌, 의례.

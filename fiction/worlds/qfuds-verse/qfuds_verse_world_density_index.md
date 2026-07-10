@@ -25,7 +25,7 @@ qfuds-verse의 세계 밀도 상태판이다. (형제 유니버스 `vector-sandb
 웨이브 전용 크로스 인덱스(117~122)는
 [122 capstone §4](../../../fiction/worlds/qfuds-verse/world/122_world_expansion_wave6_ecology_education_media_index_ko.md)가
 보유한다. 이 문서는 그 위에 (a) 심층시간 연대기
-[003](../../../fiction/worlds/qfuds-verse/continuity/003_far_future_deep_time_chronicle_ko.md)을 포함하고,
+[003](continuity/far_future_deep_time_chronicle.md)을 포함하고,
 (b) 듄급 14도메인 커버리지 지도, (c) 구체 인벤토리, (d) 캐논/후보 상태를 더한다. 122를
 대체하지 않는다. 122는 웨이브 시리즈의 capstone, 이 문서는 밀도 전체의 카탈로그 색인이다.
 
@@ -49,7 +49,7 @@ external source claim: no
 | 120 | [웨이브4](../../../fiction/worlds/qfuds-verse/world/120_world_expansion_wave4_economy_rites_calendar_ko.md) | 경제·의례 | 통화 삼층·도장값·복원비용시장·실물도피·의례·달력 | candidate 보류 |
 | 121 | [웨이브5](../../../fiction/worlds/qfuds-verse/world/121_world_expansion_wave5_language_tech_infra_ko.md) | 언어·기술 | 계급어/종교어/군사어/기록문체·검증 파이프라인·복원 설비 | candidate 보류 |
 | 122 | [웨이브6](../../../fiction/worlds/qfuds-verse/world/122_world_expansion_wave6_ecology_education_media_index_ko.md) | 생태·교육 | 생태/기후/장기생존·세대전승·미디어(작품밖)·전 웨이브 색인 | candidate 보류(capstone) |
-| 003 | [심층시간 연대기](../../../fiction/worlds/qfuds-verse/continuity/003_far_future_deep_time_chronicle_ko.md) | 시간 | 5~9기(수만~수억 년) 인과 연대기·세력 심층시간 진화·물리 시계 | continuity 확장 |
+| 003 | [심층시간 연대기](continuity/far_future_deep_time_chronicle.md) | 시간 | 5~9기(수만~수억 년) 인과 연대기·세력 심층시간 진화·물리 시계 | continuity 확장 |
 
 - 117~122 = `10_world`(공유 세계 candidate). 003 = `00_continuity`(연표 확장).
 

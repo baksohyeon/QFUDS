@@ -22,7 +22,7 @@ last_updated: 2026-07-10
 리텐션 테스트에서 독자들이 "모든 인물이 같은 한 명(작가)처럼 말한다"고 지적했다.
 원인은 인물별 **목소리·배경·욕망**이 따로 설계되지 않아 대사가 전부 같은 격언
 핑퐁으로 균질화된 것. 이 문서가 각 인물을 **대사 태그 없이도 누가 말하는지 알 수
-있게** 차별화한다. Liora 상세는 [203 Liora 시트](203_character_liora_sen_ko.md)가
+있게** 차별화한다. Liora 상세는 [203 Liora 시트](character_liora_sen.md)가
 보유하고, 이 문서는 앙상블 전체의 보이스·관계를 잡는다.
 
 ## 보이스 차별화 원칙 (R2 집행 기준)
@@ -50,7 +50,7 @@ last_updated: 2026-07-10
 ## 1편 집필 차단용 반복 인물 미니시트
 
 `00_workroom/103`의 "반복 인물 시트 없으면 집필 금지" 게이트를 1편에 역적용한
-최소 시트다. Liora의 전체 시트는 [203](203_character_liora_sen_ko.md)가 담당한다.
+최소 시트다. Liora의 전체 시트는 [203](character_liora_sen.md)가 담당한다.
 
 | 인물 | Want | Need | Fear | Wound / Lie | 압박 아래 선택 | 관계 기능 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -102,7 +102,7 @@ last_updated: 2026-07-10
 - **Pell Anson(장부 가문 중개인)과 Voss(Sarqel Trust 변호인)는 서로 다른 인물이다.**
   통합하지 않는다(이전 메모의 "Voss→Pell 교정" 지시는 오류였다 — 둘은 다른 세력의
   다른 캐릭터다). Pell은 2부 `Pell Anson`, 후속 `Pell`로 표기 통일.
-- 장부 가문 이름(정합 확정): bible [201](201_narrative_pov_theme_naming_ko.md)의
+- 장부 가문 이름(정합 확정): bible [201](narrative_pov_theme_naming.md)의
   통용명/공식명 이중 구조를 적용한다. **통용명 = `장부 가문`(한국어 프로즈) /
   `the Ledger House`(영어 통용)**, **공식 캐논명 = `Domus Clavium`**(bible
   [109](../world/109_factions_canon_naming_ko.md), 의례·법정 정식 호칭에만). 프로즈 본문은

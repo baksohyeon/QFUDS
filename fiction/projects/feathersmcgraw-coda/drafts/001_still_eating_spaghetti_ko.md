@@ -24,7 +24,7 @@ fiction/provenance only. QFUDS 연구 증거 아님. 실제 2020년대 인터넷
 
 ## Harness Applied
 
-- Craft harness: [Creative Writing Craft Harness](../../../../creative_harness/craft/004_creative_writing_craft_harness_ko.md).
+- Craft harness: [Creative Writing Craft Harness](../../../../creative_harness/craft/creative_writing_craft_harness.md).
 - 서사 프레임: 사후 아카이브 케이스파일 + 스레드 로그(원문/번역/주석 3단). 화자=
   아카이브 편집자·주석자. 시점=다수 목격자 댓글 + 마지막 개별 화자. 시제=사건
   이후 회고. 형식=복원된 케이스파일. 청자=같은 창구를 찾은 사람.

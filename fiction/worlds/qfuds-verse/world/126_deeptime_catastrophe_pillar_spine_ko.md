@@ -103,7 +103,7 @@ MERS 자리다. 아직 기둥이 아니다(개인 예외로 구원받는다).
 
 ## 4. 2026 접지 (현재 기준선)
 
-[412 workroom §A6](../../../research/412_real_world_and_physics_research_anchors_ko.md)
+[412 workroom §A6](../../../research/real_world_and_physics_research_anchors.md)
 요약: 전쟁·금융·사법신원 위조가 모두 현재진행형이다. EU AI Act 50조가 2026-08-02 발효하며, 이는
 작중 검증 의무 제도의 현실 씨앗으로 쓴다. Q-Day 가속(Gidney 2025, asset_cached)에도 125의 먼
 미래·소프트·contested 유지가 정당하다(작동하는 코드깨기 기계 미존재, 주류 무게 2030s 이후, 시점

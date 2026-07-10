@@ -65,7 +65,7 @@ elseworld가 아니라 독립 universe로 분리한다. 두 세계 사이의 유
 
 ## World
 
-- 핵심 세계 규칙은 [10_world/001 세계 규칙](world/001_world_bible_core_ko.md)에 있다
+- 핵심 세계 규칙은 [10_world/001 세계 규칙](world/world_bible_core.md)에 있다
   (레이어 존재론·창구·cross-layer bleed·메트릭 침묵·의례·명명·반응 매트릭스).
 - 기술어는 보존한다. `vector`, `embedding`, `cosine similarity`, `session`,
   `token`, `LLM`, `watermark`, `recommender`, `metric`은 근거 없이 사회·종교·시적
