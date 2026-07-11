@@ -16,7 +16,7 @@ SSOT: `.agent/workflows/fiction-ip-management-workflow.md` (Reader Retention Tes
 Required Retention Gate Artifact), `agentic-fiction-production-workflow.md` (Reader
 Retention Gate Artifact), and
 `.agent/templates/fiction/reader_retention_gate_template.md` +
-`reader_retention_gate` / reader onboarding harness (010).
+`reader_retention_gate` / `creative_harness/craft/reader_onboarding_harness.md`.
 ## Fast comprehension scan (always)
 Check the draft for: proper-noun overload; proposition/declarative overload;
 explanation placed before stakes; weak first-scene hook (mechanism taught before

@@ -443,7 +443,8 @@ literature, data-product, asset, extraction, coverage, or postmortem claim.
 
 For external literature, web, PDF, arXiv source, supplement, NASA/LAMBDA,
 BAO/DESI/eBOSS, Zenodo/OSF/Dataverse/GitHub, page-family, figure, table, code,
-asset, extraction, cache, or product-availability claims, agents must apply
+asset, extraction, cache, or product-availability claims used as QFUDS research
+evidence, agents must apply
 [Research Asset and Product Workflow](.agent/workflows/research-asset-product-workflow.md)
 before writing the claim. Any resulting research document must record both the
 workflow marker/link and the most specific workflow state token, such as
@@ -453,16 +454,22 @@ Repository enforcement lives in `scripts/agent_workflow_guard.py --staged`,
 `scripts/git-hooks/pre-commit`, and `make agent-workflow-guard`; Codex and
 Claude Code prompt hooks are reminders, not substitutes for the commit gate.
 
-For QFUDS-inspired fiction, agents must still follow the documentation-routing
-and wiki-maintenance workflows, plus
-[Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
+For fiction, agents must follow
+[Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md),
+the agentic production workflow when drafting or revising, and
+[Fiction Source Intake Workflow](.agent/workflows/fiction-source-intake-workflow.md)
+for fiction-only external sources. Documentation-routing and wiki-maintenance
+workflows apply only when their own `docs/` scopes are touched. A source used for
+both fiction and QFUDS research follows both source workflows without promoting the
+fiction record into research evidence.
 Fiction content lives in the repository-root `fiction/` vault: `fiction/inbox/`
 for unclassified raw material, `fiction/knowledge/` for cross-project reusable
 ideas, `fiction/research/` for real-world verisimilitude anchors,
 `fiction/worlds/<universe-id>/` for facts currently true in a fictional world
 (`continuity/`, `world/`, `series-bible/`), and `fiction/projects/<work-id>/`
 for a specific work's README (classification, inherited rules, local
-overrides, work bible, story design, boundary) and its `drafts/`. Human
+overrides, work bible, story design, boundary), `drafts/`, reviews, and release
+snapshots. Human
 craft/method references live in `creative_harness/` (`creative_harness/craft/`,
 `creative_harness/methods/`), separate from the content vault. The QFUDS SAGA
 production track (story design, drafts, revisions, release, and workroom

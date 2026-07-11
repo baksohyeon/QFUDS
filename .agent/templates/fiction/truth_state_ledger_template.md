@@ -17,5 +17,6 @@
 ## Rule
 
 If an entry changes canon, character memory, public record, institutional
-status, or reader-facing mystery state, record the affected bible, story design,
-draft, or revision document before continuing.
+status, or reader-facing mystery state, record the affected universe authority,
+work README, draft, or review artifact before continuing. A ledger records a
+proposal; it does not approve canon promotion.

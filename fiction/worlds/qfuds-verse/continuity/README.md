@@ -7,8 +7,8 @@ status: draft
 evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
-next_gate: 권위 지도(000)·딥타임 연표(001)·복원 행정 연표(002)를 여기서 관리. 시대 좌표 SSOT는 series 209
-last_updated: 2026-07-10
+next_gate: maintain the retained universe authority map; QFUDS SAGA production remains closed
+last_updated: 2026-07-11
 ---
 
 # QFUDS Verse Continuity
@@ -39,14 +39,16 @@ last_updated: 2026-07-10
 | Layer | Status | Rule |
 | --- | --- | --- |
 | Universe | active prototype | 상위 premise만 열린 상태 |
-| QFUDS SAGA | active prototype series work | 20_series/qfuds-saga를 참조 |
+| QFUDS SAGA | production closed 2026-07-10 | retained `series-bible/` is reference; production is Git history only |
 | Laur Observatory | archived prototype | 새 작품이 명시적으로 각색할 때만 재사용 |
 | Elseworld | not created | 다른 물리 premise가 필요할 때 만든다 |
 
 ## Canon Rule
 
-현재 정사는 닫히지 않았다. `20_series/qfuds-saga/`의 series bible 문서는 canon
-candidate로 읽고, universe-level canon으로 승격하려면 이 폴더에 별도 기록한다.
+현재 정사는 닫히지 않았다. 유지된 [`series-bible/`](../series-bible/README.md)은
+QFUDS SAGA의 과거 series reference로 읽는다. 새 작품이 내용을 상속하려면 해당
+project README에서 candidate를 명시하고, universe-level canon 승격은 이 폴더의
+권위 지도에 기록한다.
 
 ## Baseline
 
@@ -70,6 +72,7 @@ Extraction potential:
 not_extractable
 ```
 
-## 번호 체계 (2026-07-06 재번호)
+## Legacy Numbering
 
-선반별 밴드 번호를 쓴다(continuity 0xx / world 1xx / bible 2xx / story_design 3xx / workroom 4xx). 구→신 매핑은 workroom 417이 보유한다. 원고(20_drafts)·revisions·archive는 구번호 유지.
+과거 story design, workroom, draft, revision 번호 체계는 Git history에만 남는다.
+현재 active 경로와 승격 규칙으로 사용하지 않는다.

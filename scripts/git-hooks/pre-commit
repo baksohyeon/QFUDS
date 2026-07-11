@@ -13,16 +13,23 @@ python3 scripts/check_web_data_provenance.py
 python3 scripts/preflight_exp004.py
 git diff --check
 
-# Numerical regression tests re-validate the experiment suites against their
-# recorded outputs. They only matter when experiment code or the tests change.
-# Doc-only commits (the common case) skip them and stay fast.
-# Override with RUN_TESTS=1 to force the full suite.
 staged=$(git diff --cached --name-only --diff-filter=ACMR)
-if [ "${RUN_TESTS:-0}" = "1" ] || printf '%s\n' "$staged" | grep -qE '^(qfuds/|tests/)'; then
+
+# Fiction structure/gate tests have no numerical dependencies and run whenever
+# their control plane changes.
+if printf '%s\n' "$staged" | grep -qE '^(AGENTS\.md|CLAUDE\.md|fiction/|creative_harness/|\.agent/templates/fiction/|\.agent/workflows/.*fiction|\.agents/skills/fiction-production/|scripts/fiction_gate\.py|tests/test_fiction_)'; then
+  echo "pre-commit: fiction system changed -> running fiction contract tests"
+  python3 -m unittest -q tests.test_fiction_gate tests.test_fiction_structure
+fi
+
+# Numerical regression tests re-validate experiment suites. They require the
+# scientific environment and run only when numerical code or its own tests change.
+# Override with RUN_TESTS=1 to force the full suite.
+if [ "${RUN_TESTS:-0}" = "1" ] || printf '%s\n' "$staged" | grep -qE '^(qfuds/|tests/test_(exp|gamma|lineage))'; then
   echo "pre-commit: experiment code changed -> running regression suite"
   python3 -m unittest discover -s tests -p 'test_*.py'
 else
-  echo "pre-commit: no qfuds/ or tests/ changes -> skipping regression suite (RUN_TESTS=1 to force)"
+  echo "pre-commit: no numerical code/test changes -> skipping scientific regression suite (RUN_TESTS=1 to force)"
 fi
 
 echo "pre-commit: all checks passed"

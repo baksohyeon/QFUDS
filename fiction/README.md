@@ -5,13 +5,17 @@
 ## 구조
 
 - [Inbox](inbox/README.md): 아직 분류하지 않은 원재료
-- [Knowledge](knowledge/README.md): 작품을 넘어 재사용할 수 있는 생각
+- [Knowledge / Zettelkasten](knowledge/README.md): 작품을 넘어 재사용할 수 있는 생각, 구조 지도, story seed
 - [Research](research/README.md): 핍진성을 위한 현실 자료와 이해
 - [Worlds](worlds/README.md): 허구 세계에서 현재 참으로 채택한 사실
 - [Projects](projects/README.md): 특정 작품의 설계와 원고
 
-세계관은 세계 문서가 기억하고, 프로젝트는 작품의 순서와 작업 상태를
-관리한다. 지식 선반은 과거 원자화 큐를 복원하지 않는다.
+Zettelkasten은 생각을 발산하고, 세계 문서는 채택한 사실을 기억하며, 프로젝트는
+선택한 생각을 장면과 원고 순서로 수렴한다. 지식 선반은 자동 원자화 큐가 아니다.
+
+정리되지 않은 입력은 그대로 [Inbox](inbox/README.md)에 넣고 `brain dump로
+처리해줘`라고 지시할 수 있다. 에이전트는 raw→Zettel→seed→project 후보를 나누며,
+사용자의 중간 수정과 promotion 결정을 기다린다.
 
 ## Inbox 라우팅 질문
 
@@ -22,7 +26,7 @@ Inbox는 장기 저장소가 아니다. 각 항목을 다음 질문으로 판별
 2. 실제 세계에 대한 조사인가? → `research/`
 3. 특정 허구 세계에서 참인 사실인가? → `worlds/`
 4. 특정 작품의 플롯·인물·장면인가? → `projects/`
-5. 어디에도 해당하지 않는가? → 삭제
+5. 어디에도 해당하지 않는가? → 사용자가 삭제 또는 archive를 승인할 때까지 inbox 보존
 
 ## 경계
 

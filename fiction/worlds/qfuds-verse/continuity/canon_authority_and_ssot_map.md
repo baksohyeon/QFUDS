@@ -10,7 +10,7 @@ depends_on:
   - qfuds_saga_restoration_mechanism_correction_ko
   - qfuds_saga_factions_canon_naming_ko
 next_gate: update the authority row whenever a new domain-owning bible is added
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 ---
 
 # QFUDS SAGA 캐논 권위·SSOT 지도
@@ -23,9 +23,10 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 이 세계관은 캐논이 여러 문서에 분산돼, "충돌하면 어느 문서가 이기나"가 도메인별로
 흩어져 있었다(명칭은 109, 복원은 113, 인과는 107/002…). 신규 작업자가 현행 기준을
 역추적해야 했다. 이 문서가 **제작용 단일 권위 지도**다. 2026-07-01 재레벨링 이후 캐논은
-세 선반에 산다: **공유 세계 = `10_world`**, **연속성·권위·연표 = `00_continuity`(이 문서
-포함)**, **시리즈 전용(시점·주제·캐스트·아크) = `20_series/qfuds-saga/00_bible`**. 이
-권위 지도 자체는 이제 universe continuity에 있다.
+세 활성 경로에 산다: **공유 세계 = `world/`**, **연속성·권위·연표 =
+`continuity/`(이 문서 포함)**, **보존된 시리즈 전용 참조 = `series-bible/`**.
+QFUDS SAGA production track은 닫혔고, story design·workroom·draft·revision·release는
+Git history only다. 이 권위 지도 자체는 universe continuity에 있다.
 
 주의: 이건 **제작 거버넌스**다. 작중 주제인 "진짜 SSOT는 없다"(207 §1, 합의의
 신격화)와는 다른 층위다. 작품은 SSOT 부재를 그리되, 제작은 master 권위 지도를 둔다.
@@ -50,8 +51,8 @@ universe/IP: `qfuds-verse` / 작품 `qfuds-saga`. fiction/provenance only, QFUDS
 | 주제축(기준 작성권) | [207](../series-bible/authorship_of_the_standard_theme_axis.md) | |
 | 독자 접근성·실세계 검증 닻 | [106](../world/106_reader_accessibility_and_real_world_anchors_ko.md) | 기술·역사 정확성 대장 |
 | 인물 | [203](../series-bible/character_liora_sen.md)(Liora) · [205](../series-bible/character_ensemble_voices_relationships.md)(앙상블 보이스·관계) · [206](../series-bible/character_depth_sheets.md)(입체 시트) | 205↔206 중복 정리 검토 대상 |
-| 반전 노출 스케줄 | story_design/202 | "무엇이 진짜"는 107, "언제 드러내나"는 202 |
-| 이중언어 용어규율 | workroom/102 | |
+| 반전 노출 스케줄 | active authority 없음 | 과거 QFUDS SAGA story design은 `git show bbbcb970:<path>`로만 확인. 새 작품은 project README가 소유 |
+| 이중언어 용어규율 | active authority 없음 | 새 작품은 project README의 language/adaptation profile이 소유 |
 
 ## 전역 충돌 해소 규칙
 

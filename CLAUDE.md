@@ -38,16 +38,21 @@ own copy of project status.
 - Read the roadmap for status before making any status claim. Do not maintain,
   cache, or restate project status in this file.
 - Before any external literature, web, source, asset, extraction,
-  product-availability, NASA/LAMBDA, BAO, DESI/eBOSS, or cache claim, read
+  product-availability, NASA/LAMBDA, BAO, DESI/eBOSS, or cache claim used for
+  QFUDS research, read
   [.agent/workflows/README.md](.agent/workflows/README.md) and apply
   [Research Asset and Product Workflow](.agent/workflows/research-asset-product-workflow.md).
   Any resulting research document must record the workflow marker and a state
   token such as `hit_not_cached`, `asset_cached`, `no_asset_found`, or
   `inaccessible`.
+- For fiction-only sources, apply
+  [Fiction Source Intake Workflow](.agent/workflows/fiction-source-intake-workflow.md)
+  and keep records under `fiction/research/`. If one source serves both scopes,
+  apply both workflows separately.
 - Before moving, creating, or indexing documentation, read
   [Documentation Folder Routing Workflow](.agent/workflows/documentation-folder-routing-workflow.md)
   and [Wiki Maintenance Workflow](.agent/workflows/wiki-maintenance-workflow.md).
-  For fiction/IP work, also read
+  For fiction/IP work, read
   [Fiction IP Management Workflow](.agent/workflows/fiction-ip-management-workflow.md).
   Fiction content lives in the repository-root [fiction/](fiction/README.md)
   vault (`fiction/inbox/`, `fiction/knowledge/`, `fiction/research/`,

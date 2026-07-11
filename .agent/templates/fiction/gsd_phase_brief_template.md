@@ -13,16 +13,16 @@ What concrete fiction/IP work should this phase finish?
 
 ## Reader Support
 
-- English craft terms used:
-- Korean-friendly explanations added:
-- Bare `TBD` placeholders allowed? `yes | no`
+- Unfamiliar terms introduced:
+- Target-reader support:
+- Blocking placeholders:
 
 ## IP Classification
 
 - Universe/IP:
 - Continuity status:
 - Work id:
-- Work format: `series | novel | short | anthology | webtoon | elseworld`
+- Work format: `series | novel | novella | short | anthology | serial | other`
 - Target folder:
 - Time baseline notes:
 
@@ -37,17 +37,17 @@ Forbidden outputs:
 - Research evidence or roadmap status changes.
 - Draft prose without a work README.
 - Canon changes without continuity classification.
-- External-source claims without Research Asset and Product Workflow state.
+- External-source claims without Fiction Source Intake Workflow state.
 - Undocumented renaming of scientific or technical terms.
 - Scene or work package without a narrative-frame decision.
 
-## Tone Rules
+## Work-Local Style Rules
 
 - Do not repeat the full evidence disclaimer; state only local boundary
   exceptions or workflow state.
-- Keep reference prose clean and direct.
-- Explain `ancient`, `modern`, `post-COVID`, `pre-AGI`, and `future` relative
-  to the authoring baseline date.
+- Draft language and register:
+- Voice and form constraints:
+- Explain time labels relative to the work's chronology when ambiguity matters.
 - Do not write private user context into docs or story text unless explicitly
   authorized.
 
@@ -82,11 +82,10 @@ Forbidden outputs:
 ## Required Reads
 
 - `.agent/workflows/fiction-ip-management-workflow.md`
-- `.agent/workflows/documentation-folder-routing-workflow.md`
-- `.agent/workflows/wiki-maintenance-workflow.md`
+- `.agent/workflows/agentic-fiction-production-workflow.md`
 - Relevant universe README:
 - Relevant work README:
-- Relevant bible/design/draft docs:
+- Relevant world/design/draft docs:
 
 ## Acceptance Criteria
 
@@ -99,8 +98,9 @@ Run before commit:
 ```bash
 python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py
+python3 scripts/check_markdown_link_targets.py creative_harness .agent .agents fiction tools/saga-fiction-studio
 python3 scripts/agent_workflow_guard.py --staged
-make preflight
+python3 scripts/fiction_gate.py --staged
 sh scripts/git-hooks/pre-commit
 ```
 

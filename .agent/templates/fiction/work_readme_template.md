@@ -1,60 +1,91 @@
 # <Work Title>
 
+This README is the hand-maintained Project Home Note.
+
 ## Classification
 
-- Universe/IP: `<universe-id>`
+- Universe/IP: `<universe-id> | standalone`
 - Work id: `<work-id>`
-- Format: `series | novel | short | anthology | webtoon | elseworld`
-- Canon status: `canon | soft-canon | elseworld | prototype | retired`
-- Audience mode: `fun | literary SF | hard SF | adult SF | YA`
-- Language mode: `English-first | Korean-first | bilingual`
+- Form: `series | novel | novella | short | anthology | serial | other`
+- State: `seed | planning | drafting | revising | submission | released | retired`
+- Canon state: `unclassified | provisional | accepted | elseworld | retired`
+- Target reader:
+- Genre / subgenre contract:
+- Draft language:
+- Style profile: `inline below | <style-packet-path>`
+- Translation/adaptation policy: `none | describe`
 - Authoring baseline date: `YYYY-MM-DD`
-- Time baseline notes:
+- In-world chronology:
 
-## Inherits From
+## Source Ideas
 
-- Continuity:
-- World:
-- Science boundary:
-- Terms/naming:
-- Shared characters or factions:
+- Zettels:
+- Story seed:
+- Real-world research:
 
-## Local Overrides
-
-- POV:
-- Narrative frame:
-- Main cast:
-- Time period:
-- Location/realm:
-- Tone:
-- Special rules:
-- Ignored or simplified shared rules:
-- Style constraints: clean, direct, no unnecessary manifesto language.
-- Technical-term rule: preserve technical terms unless a documented fictional
-  alias has a story-world rationale.
-
-## Work Bible
-
-- Workroom:
-- Main bible:
-- Cast bible:
-- Timeline bible:
-
-## Story Design
+## Story Contract
 
 - Premise:
-- Narrative form:
-- Arc:
-- Plot outline:
-- Scene list:
+- Speculative difference:
+- Limit / cost / failure mode:
+- Most pressured character:
+- Central conflict:
+- Reader promise:
+- Ending hypothesis:
+- Central question:
 
-## Drafts
+## Inheritance And Overrides
+
+- Inherited world / continuity:
+- Local overrides:
+- Terms and science boundary:
+- Open canon conflicts:
+- Canon promotion authority/rule:
+
+## Narrative Frame
+
+- Who speaks:
+- Who sees / focalizer:
+- Telling time:
+- Form:
+- Implied audience:
+- Narrator motive:
+- Knowledge limits:
+- Distortion risk:
+
+## Current Design
+
+- Main cast and relationship pressure:
+- Plot / causal spine:
+- Scene list:
+- Promises and open questions:
+
+## Drafts And Reviews
 
 - Current draft:
-- Latest revision:
+- Current revision stage:
+- Latest revision plan:
+- Latest revision memo:
+- Latest continuity / retention evidence:
 - Release candidate:
+- Published snapshot, version, date, destination, baseline commit, blob:
 
-## Boundary
+## Style Profile
 
-State only local source or science-boundary exceptions. Do not repeat the full
-project disclaimer.
+- Narrative distance and register:
+- Sentence/rhythm tendencies:
+- Dialogue/voice rules:
+- Deliberate exceptions:
+- Target-language polish module:
+
+Use a separate style packet only when this section becomes too large or several
+drafting agents need the same compact reference.
+
+## Current Next Action
+
+One concrete action only.
+
+## External Source Boundary
+
+Record only sources that changed this work: URL, workflow state, allowed claim,
+blocked claim, license when copying, and local use.

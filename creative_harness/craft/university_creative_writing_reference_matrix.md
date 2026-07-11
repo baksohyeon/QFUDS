@@ -1,109 +1,86 @@
 ---
 doc_id: fiction_university_creative_writing_reference_matrix_ko
-title: 대학 문예창작 참고 매트릭스
-doc_type: guide
+title: 대학·SF 창작교육 참고 매트릭스
+doc_type: reference
 stage: reference
-status: draft
+status: completed
 evidence_role: reference
-depends_on:
-  - fiction_creative_writing_craft_harness_ko
-  - fiction_ip_management_system_ko
-  - wiki_fiction_index
-next_gate: use this matrix only after source state is recorded
-last_updated: 2026-07-10
+depends_on: []
+next_gate: refresh only when a source claim or teaching-method rule changes
+last_updated: 2026-07-11
 ---
 
-# 대학 문예창작 참고 매트릭스
+# 대학·SF 창작교육 참고 매트릭스
 
-## 목적
+## 용도와 경계
 
-이 문서는 대학식 문예창작 기준을 fiction harness에 가져올 때 쓰는 기준표다.
+이 문서는 범용 SF 창작 하네스의 교육법 출처 장부다. 대학명이나 유명 작가 이름을
+권위 장식으로 쓰지 않는다. 확인한 운영 원칙만 요약하며 과제 문구와 원문 표현은
+복제하지 않는다.
 
-핵심은 간단하다.
-
-- 웹 자료를 참고하면 source state를 먼저 남긴다.
-- 대학명을 장식으로 쓰지 않는다. 확인된 운영 원칙만 가져온다.
-- 문예창작 용어는 영어 기준을 유지하되, 한국어 풀이를 같이 둔다.
-- 출처가 불확실하면 fiction 규칙으로 승격하지 않는다.
-
-## Workflow Boundary
-
-External-source handling follows
-[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md).
-
-Current workflow state:
+Fiction Source Intake Workflow:
 
 ```text
-hit_not_cached
+official HTML directly inspected: hit_not_cached
+official PDF or downloadable syllabus inspected but not stored: asset_available_not_downloaded
+numerical product: not applicable
+allowed use: summarized craft-training design
+blocked use: QFUDS research evidence, universal best-method claim, source-fiction imitation
 ```
 
-This document uses official university web pages as reference hits. It does not
-cache page HTML or downloadable PDF assets.
+과거 강의계획서는 구체적인 수업 사례다. 2026년 현재 해당 대학 전체의 현행 정책을
+대표한다고 표현하지 않는다.
 
-## Source State Rule
+## 반복해서 확인된 교육 구조
 
-fiction 문서라도 외부 웹 자료를 근거로 harness를 바꾸면 아래 표를 남긴다.
+```text
+작품 읽기
+-> 작가의 선택과 효과 분석
+-> 제한된 단일 기술 실험
+-> 짧은 합평
+-> 완성 초고
+-> 구조적 합평
+-> 수정 계획
+-> 개작
+-> 수정 메모와 포트폴리오
+```
 
-| Required field | 뜻 |
-| --- | --- |
-| Source | 사용한 웹 페이지 또는 검색 대상 |
-| Claim allowed | 그 출처로 말할 수 있는 것 |
-| Claim blocked | 그 출처만으로 말하면 안 되는 것 |
-| Workflow state | `hit_not_cached`, `asset_available_not_downloaded`, `searched_no_hit` 등 |
-| Harness effect | 실제로 workflow, template, checklist에 반영할 항목 |
+## 출처 장부
 
-출처가 Source Notes에 없으면 문서 결론의 근거로 쓰지 않는다.
-
-## 대학 기준에서 뽑을 수 있는 축
-
-| Axis | 한국어 풀이 | Harness effect |
-| --- | --- | --- |
-| Workshop | 초안 제출, 비평, 수정 루프 | draft는 바로 release가 아니다. critique/revision 단계를 둔다. |
-| Close reading | 기존 작품을 작법 관점에서 읽기 | 좋은 문장을 베끼지 말고 장면 기능, 시점, 전환을 분석한다. |
-| Manuscript | 실제 원고 | 설정표만 쌓지 말고 장면/단편/챕터 원고를 만든다. |
-| Research for writers | 작가를 위한 조사 | 논문, 웹, 인터뷰, 기록물을 장면 재료로 바꾸되 source state를 남긴다. |
-| Audience | 독자와 매체 | SF 단편, SAGA, 웹연재, 에세이형 기록 중 무엇인지 먼저 정한다. |
-| Thesis / capstone | 장기 프로젝트 완성본 | 큰 fiction phase는 최종 산출물과 평가 기준을 둔다. |
-| Science writing | 과학을 일반 독자에게 쓰기 | 기술어는 유지하고, 필요한 만큼만 설명한다. |
-| Ethics | 비평, 출처, 재현의 책임 | 실존 집단/민감 이념을 직접 복제하지 않고 fictionalization 근거를 둔다. |
-
-## Reference Matrix
-
-| Reference | 확인한 내용 | Harness에 반영할 것 | 쓰면 안 되는 것 | Workflow state |
+| Source | 확인한 내용 | Harness effect | Claim blocked | State |
 | --- | --- | --- | --- | --- |
-| Harvard Extension School creative-writing program URL check | 요청 후보 URL은 2026-06-19 확인 시 404였다. | Harvard 기준은 아직 확정 규칙으로 쓰지 않는다. | Harvard program rule, thesis rule, admission rule을 현재 문서 근거로 주장하지 않는다. | `searched_no_hit` |
-| [MIT Course 21W Catalog](https://catalog.mit.edu/subjects/21w/) | creative writing, science writing, digital media 과목군이 있고, science writing seminar는 workshop, critique, research tools, ordinary readers, audience/publics를 강조한다. thesis 과목은 tutor, revision, oral presentation, committee discussion을 둔다. | science-fiction 작업은 workshop, research-for-writers, audience, revision, thesis-style closeout을 가진다. | MIT가 QFUDS SAGA의 과학성을 보증한다고 쓰지 않는다. | `asset_available_not_downloaded` |
-| [SNU College of Humanities department page](https://humanities.snu.ac.kr/academics/department) | 국어국문학과, 비교문학, 공연예술학 등 인문학 교육 단위와 한국어/문학 연구 맥락을 확인했다. | 한국어 독자용 용어 풀이, 문학/언어/비교문화 축을 별도 체크한다. | 이 페이지를 SNU 문예창작 커리큘럼 전체 근거로 쓰지 않는다. | `hit_not_cached` |
+| [MIT OCW, Writing Science Fiction syllabus](https://ocw.mit.edu/courses/21w-759-writing-science-fiction-spring-2016/pages/syllabus/) · [calendar](https://ocw.mit.edu/courses/21w-759-writing-science-fiction-spring-2016/pages/calendar/) | 작품 분석과 요소별 연습 뒤 workshop·rewrite. 세계 구축, 세계 속 인물, 사변 요소의 위치, 사회·경제 결과, 장편 구조를 연결한다. | SF 전제→인물→사회 결과→rewrite를 한 루프로 둔다. | 2016년 한 강좌를 유일한 SF 교육 표준으로 일반화하지 않는다. | `hit_not_cached` |
+| [Stanford, Reading as a Writer](https://continuingstudies.stanford.edu/courses/creative-writing/reading-as-a-writer/20254_CW-170) | 작품을 설계·문장 층위에서 분석해 묘사, 대화, POV, 이미지, 목소리의 효과를 읽는다. | mentor text를 분위기가 아니라 선택→효과로 분석한다. | Stanford가 특정 문체를 보증한다고 쓰지 않는다. | `hit_not_cached` |
+| [Open University, Creative writing and critical reading](https://www.open.edu/openlearn/history-the-arts/creative-writing-and-critical-reading/content-section-2) · [Portraying a character](https://www.open.edu/openlearn/history-the-arts/creative-writing/start-writing-fiction/content-section-1.4) | 영향받은 작품과 자기 작업을 연결하고, 인물을 요약·외양·반복 행동·발화로 비교한다. | 4-take characterization과 craft-lineage memo를 둔다. | 모든 인물을 같은 심리표로 설계해야 한다고 주장하지 않는다. | `hit_not_cached` |
+| [University of Utah ENGL 2250 syllabus](https://class-tools.app.utah.edu/syllabus/1254/11915/Hale%2C%20Core%20Intro%20CW%20Syllabus%2C%20Spring%2025%2C%20007.pdf) | scene, POV, world, withholding, dialogue, subtext 등 기술별 실습과 peer feedback을 배치한다. | 한 번에 한 기술만 시험하는 micro-lab을 둔다. | 한 강의의 주차 순서를 보편 커리큘럼으로 만들지 않는다. | `asset_available_not_downloaded` |
+| [Smith College creative writing syllabus](https://sites.smith.edu/eng125-03-f23/?page_id=16) | 같은 장면의 시점 변경, 압축, 첫 페이지 삭제, 순서 변경 같은 파괴적 개작 실험을 제시한다. | polish 전 `cut / halve / change POV / reorder` 실험을 사용한다. | 모든 수정에서 모든 실험을 의무화하지 않는다. | `hit_not_cached` |
+| [University of Washington ENGL 284](https://english.washington.edu/courses/2022/autumn/engl/284/b) | 짧은 craft exercise를 소그룹에서 낭독하고 특정 기술 선택을 논의한다. | micro-workshop과 manuscript workshop을 분리한다. | mini-workshop만으로 완성 원고 검증이 끝난다고 보지 않는다. | `hit_not_cached` |
+| [George Mason, A Note About Workshop](https://creativewriting.gmu.edu/graduate-program/mfa-handbook/a-note-about-workshop) | workshop은 상호 계약이며 비평은 작가가 아니라 제출된 글을 향한다. 운영 모델은 교수마다 다르다. | 작가 의도와 질문을 입력으로 받고, 텍스트 근거 중심으로 비평한다. | 작가는 반드시 침묵해야 한다거나 모든 의견을 반영해야 한다고 강제하지 않는다. | `hit_not_cached` |
+| [Clarion West, Workshop Methods](https://www.clarionwest.org/resources/workshop-methods/) · [Six-Week Workshop](https://www.clarionwest.org/programs/summerworkshop/) | author statement, guiding questions, 긍정적 관찰, 중립 질문, 균등한 발언, close reader를 활용한다. | 비평을 결함 사냥보다 의도와 독자 경험의 간극 관찰로 설계한다. | Milford 단일 모델을 유일한 전문 방식으로 만들지 않는다. | `hit_not_cached` |
+| [University of Minnesota, Revision Plans and Revision Memos](https://wac.umn.edu/tww-program/teaching-writing-blog/creating-revision-plans-and-revision-memos-moving-feedback) | 수정 전 계획과 수정 후 memo를 분리해 변경 이유, 미적용 의견, 남은 문제를 기록한다. | `workshop -> revision plan -> rewrite -> revision memo`를 강제한다. | 모든 피드백을 반영하는 것을 성공으로 정의하지 않는다. | `hit_not_cached` |
+| [University of Surrey, Creative Writing Workshop I](https://catalogue.surrey.ac.uk/2025-6/module/ELIM021) · [Southampton, Creative Skills Workshop](https://www.southampton.ac.uk/courses/2026-27/modules/engl6136) | 반복적 feedback·redrafting과 portfolio·critical commentary를 함께 평가한다. | 최종 원고와 수정 문제해결 증거를 함께 평가한다. | 대학 평가 비중을 그대로 모든 프로젝트에 복제하지 않는다. | `hit_not_cached` |
+| [University of Edinburgh, Writing Speculative Fiction](https://www.drps.ed.ac.uk/26-27/dpt/cxefie11510.htm) | premise, character, perspective, worldbuilding, multiple drafts와 작품의 진화에 대한 성찰을 함께 평가한다. | SF 전제를 작품이 조사하는 질문으로 기록하고 변화를 memo에 남긴다. | 모든 SF가 논문형 연구 질문이나 사회 비평을 가져야 한다고 강제하지 않는다. | `hit_not_cached` |
+| [SFWA critique glossary](https://sfwa.org/2009/06/17/being-a-glossary-of-terms-useful-in-critiquing-science-fiction/) | exposition lump, maid-and-butler dialogue, overhead, hook, countersinking, white room, rubber science 등 비평 언어를 정리한다. | 설명량보다 통합, 시점 정당성, 필요 시점, 독자가 이미 추론한 정보의 중복을 본다. | `show, don't tell`을 예외 없는 법칙으로 만들지 않는다. | `hit_not_cached` |
+| [Patricia C. Wrede, incluing definitions](https://pcwrede.com/pcw-wp/a-few-basic-definitions/) | incluing을 독자가 낯선 세계 정보를 알아차리게 하는 전달로 설명하고 AYKB 대화를 구분한다. | 필요한 정보를 문맥에서 복구하게 하는 단서 배치로 정의한다. | 용어의 최초 창안자를 단정하지 않는다. | `hit_not_cached` |
+| [SFWA, The Art of Story as Worldbuilding](https://sfwa.org/2019/10/16/the-art-of-story-as-worldbuilding/) | 세계는 인물·플롯과 교차할 때 드러나고, 설정은 생활·신체·선택을 강제한다. | 설정마다 인물 선택을 어떻게 제한·비싸게 하는지 묻는다. | 사전 세계 구축 자체가 무가치하다고 일반화하지 않는다. | `hit_not_cached` |
+| [Brandon Sanderson, Second Law](https://www.brandonsanderson.com/blogs/blog/sandersons-second-law) | 능력보다 한계, 비용, 약점이 갈등과 선택을 만든다는 개인 작업 원칙을 설명한다. | capability와 함께 limit·cost·vulnerability를 기록한다. | 모든 SF와 soft SF에 적용되는 보편 법칙으로 승격하지 않는다. | `hit_not_cached` |
+| [SFWA, Writing the Science Right](https://sfwa.org/2022/11/29/writing-the-science-right/) | 플롯 핵심 과학은 사전 검증하고, 비핵심 질감은 placeholder 뒤 필요한 질문만 조사한다. | `plot-critical`과 `texture-only` 검증을 나눈다. | 모든 기술 세부를 초고 전에 조사해야 한다고 강제하지 않는다. | `hit_not_cached` |
+| [SFWA, Diamond in the Rough](https://sfwa.org/2023/02/21/diamond-in-the-rough-how-to-shine-in-the-slush-pile/) | 단편 시작에서 setting, main character, propelling tension을 빠르게 제공하고 white room과 인물 없는 역사 소개를 경계한다. | 오프닝에서 anchor, pressure, direction, speculative effect를 검사한다. | 첫 문장에 모든 요소를 명시하라고 기계화하지 않는다. | `hit_not_cached` |
+| [SFWA, Cat Rambo revision process](https://sfwa.org/2017/01/05/know-done-revising/) | 구조·시점·연대·동기·약속을 먼저, 문단과 장면을 다음, 문장과 낭독을 마지막에 본다. | macro→scene→sentence 수정 순서를 둔다. | 개인적인 냉각 기간이나 출력 방식을 필수화하지 않는다. | `hit_not_cached` |
 
-## Harness Additions
+## 허용 주장
 
-대학 기준을 fiction workflow에 반영할 때는 아래 gate를 추가한다.
+- 여러 교육 사례에서 close reading, 기술별 실습, workshop, redrafting,
+  reflective commentary, portfolio가 반복된다.
+- SF 교육 사례는 세계관만이 아니라 인물, 사변 요소의 기능, 사회·경제 결과,
+  장편 구조와 rewrite를 함께 다룬다.
+- 범용 하네스에 비교 실험, 수정 계획, revision memo, 작가 의도 중심 workshop을
+  넣는 것은 확인한 교육 관행과 일치한다.
 
-| Gate | 질문 | 통과 조건 |
-| --- | --- | --- |
-| `craft_source_state` | 참고한 웹 자료가 Source Notes에 있는가? | URL, claim boundary, workflow state가 있다. |
-| `craft_term_glossary` | 영어 작법 용어가 한국어로 풀렸는가? | 첫 등장에 짧은 풀이가 있다. |
-| `craft_workshop_loop` | 초안이 비평/퇴고 루프를 갖는가? | draft, critique, revision 위치가 분리된다. |
-| `craft_scene_output` | 실제 장면 산출물이 있는가? | 설정표만 있지 않고 scene/beat/chapter 목표가 있다. |
-| `craft_research_use` | 조사 내용이 장면 기능으로 바뀌었는가? | 출처 요약이 아니라 인물, 갈등, 제도, 비용으로 연결된다. |
-| `craft_audience_fit` | 독자와 형식이 정해졌는가? | short, novel, SAGA, anthology, webtoon-like run 중 하나가 있다. |
-| `craft_closeout` | phase 종료 기준이 있는가? | release 후보 또는 다음 revision 조건이 있다. |
+## 금지 주장
 
-## 적용 규칙
-
-새 fiction 작업이 "대학식 문예창작 기준"을 요구하면 순서는 이렇다.
-
-1. 외부 source를 확인하고 Source Notes를 남긴다.
-2. 확인된 내용만 harness gate로 옮긴다.
-3. 출처가 불확실한 대학명은 참고 후보로만 둔다.
-4. 과학 SF 작업은 MIT식 science writing 축을 적용한다.
-5. 한국어 독자용 문서는 SNU 인문학 축처럼 언어/문학 맥락을 분리해서 점검한다.
-6. 장기 SAGA는 thesis/capstone처럼 phase closeout을 둔다.
-
-## Source Notes
-
-| Source | Used for | Workflow state |
-| --- | --- | --- |
-| `https://extension.harvard.edu/academics/programs/creative-writing-literature-masters-degree-program/` | negative check only; URL returned 404 during current verification | `searched_no_hit` |
-| [MIT Course 21W Catalog](https://catalog.mit.edu/subjects/21w/) | science writing, workshop, critique, research-for-writers, audience, thesis/revision process | `asset_available_not_downloaded` |
-| [SNU College of Humanities department page](https://humanities.snu.ac.kr/academics/department) | Korean humanities/literature reference layer and Korean-reader support | `hit_not_cached` |
+- 이 방법이 실험적으로 최선이거나 원고 품질 향상을 보장한다고 말하지 않는다.
+- 모든 대학, MFA, SF 작가가 같은 방법을 쓴다고 일반화하지 않는다.
+- 대학에서 쓴다는 이유만으로 특정 플롯 구조나 영미권 출판 취향을 강제하지 않는다.
+- 특정 작가의 문장, 이미지, 과제 문구를 복제하지 않는다.
+- 출처를 QFUDS 연구 증거, 작품 canon, 과학 정확성 증거로 사용하지 않는다.

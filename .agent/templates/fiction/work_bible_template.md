@@ -1,8 +1,13 @@
-# <Work Title> Bible
+# <Work Title> Bible Section
+
+> 기본 사용법: 이 템플릿을 별도 파일로 만들지 말고
+> `fiction/projects/<work-id>/README.md`의 `Work Bible` 절에 필요한 부분만
+> 복사한다. 여러 작품이 공유하는 설정만 `fiction/worlds/<universe-id>/`로
+> 승격한다.
 
 ## Purpose
 
-State what this bible controls for this work.
+State what this work-local section controls. Do not duplicate universe canon.
 
 ## Authoring Baseline
 

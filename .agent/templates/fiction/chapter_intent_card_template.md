@@ -1,57 +1,58 @@
-# Chapter Intent Card
+# Chapter / Major Unit Intent Card
 
 ## Metadata
 
 - Work id:
 - Unit:
-- Authoring baseline date:
-- Continuity status:
+- Production tier: `chapter | release`
+- Unit type: `dramatic | discovery | observational | relationship | connective-summary | in-world-document`
 - Source outline / scene card:
-- Production board:
+- Production board (release tier only):
 
-## Dramatic Contract
+## Unit Contract
 
 | Field | Answer |
 | --- | --- |
+| Reader promise / unit function | TBD |
 | POV / focalizer | TBD |
-| Desire | Who wants what in this unit? |
-| Threat | What becomes impossible if they fail now? |
-| Forced choice | What decision cannot be avoided? |
-| Cost of option A | TBD |
-| Cost of option B | TBD |
-| Turn | What changes by the end? |
-| Handoff pressure | What pulls the reader into the next unit? |
+| Starting state | TBD |
+| Required ending change | TBD |
+| Handoff pressure | TBD |
 
-## Five-Question Spine
+For dramatic units only:
 
-| Question | Plant / trigger / payoff / absent | How this unit handles it |
-| --- | --- | --- |
-| Q1 copy refusal | TBD | TBD |
-| Q2 rubber-stamp refusal | TBD | TBD |
-| Q3 last right of objection | TBD | TBD |
-| Q4 self-restoration refusal | TBD | TBD |
-| Q5 authoring loss | TBD | TBD |
+| Field | Answer |
+| --- | --- |
+| Current want | TBD |
+| Resistance | TBD |
+| Tactics / escalation | TBD |
+| Forced choice | TBD |
+| Cost | TBD |
 
-## Reveal Budget
+## SF Constraint
 
-| Show now | Hide now | Forbidden explanation |
+| Field | Answer |
+| --- | --- |
+| Speculative difference active here | TBD |
+| Capability | TBD |
+| Limit / cost / failure mode | TBD |
+| Character most pressured | TBD |
+| Choice or consequence unique to the difference | TBD |
+
+## Story Questions / Promises
+
+| Question or promise | Plant / trigger / transform / payoff / deny / absent | Handling |
 | --- | --- | --- |
 | TBD | TBD | TBD |
 
-## Grounding Contract
+## Reveal Budget
 
-- Plain-reader handle for new technical terms:
-- Concrete object/institution carrying exposition:
-- Character pressure before concept explanation:
-- Terms that must remain technically accurate:
+| Show now | Delay now | Forbidden explanation |
+| --- | --- | --- |
+| TBD | TBD | TBD |
 
 ## Reader Onboarding
 
-| Field | Answer |
-| --- | --- |
-| Onboarding mode | tutorial / problem-first / short-lecture / analogy-support / in-world-document / repeated-exposure / expert-dialogue / mixed |
-| Why this mode fits | TBD |
-
-| Concept | Accurate technical note | Simple analogy | Scene object / document | Loss / choice pressure |
+| Concept | Needed now? | Accurate minimum | Delivery strategy | Reader inference / misread risk |
 | --- | --- | --- | --- | --- |
-| TBD | TBD | TBD | TBD | TBD |
+| TBD | TBD | TBD | `direct-summary | problem-first | incluing | short-lecture | analogy | in-world-document | repeated-exposure | expert-dialogue | delay` | TBD |

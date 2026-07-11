@@ -1,215 +1,218 @@
 #!/usr/bin/env python3
-"""Fiction release/commit gate — mechanical enforcement the harness must apply.
+"""Deterministic fiction-system gate.
 
-The recurring failure was that standards lived in docs but nothing blocked bad
-output. This gate blocks (exit 1) on hard, deterministic violations in QFUDS
-fiction so they cannot reach a commit:
-
-  - em dash (U+2014) in reader prose of drafts/release files (banned AI-tell)
-  - sensitive gender/identity-politics terms anywhere in fiction (사상검증 scrub)
-  - staged Korean-primary/adaptation drafts from 019 onward must carry the
-    Series Gate Applied table before release-facing edits can land
-
-Soft checks (warn only, exit 0): recurring character without an ensemble entry;
-active staged drafts missing the agentic production markers introduced after the
-Series Gate.
-
-Usage:
-  python3 scripts/fiction_gate.py            # check all fiction docs
-  python3 scripts/fiction_gate.py --staged   # check only staged files (pre-commit)
+Hard checks cover mechanical contracts only. Literary taste, topics, punctuation,
+and character voice are not commit blockers. Those belong to work-local profiles
+and evidence-based review.
 """
+
+import pathlib
 import re
 import subprocess
 import sys
-import pathlib
 
-# 2026-07-10 fiction-vault migration: content moved out of docs/wiki/fiction
-# into a repository-root vault. fiction/ holds the SAGA world/prose material;
-# creative_harness/ holds craft and method reference docs whose examples
-# quote the very AI-tell patterns this gate polices (see the exemptions
-# below), so it stays in scope for the warn-only checks.
-FICTION_ROOTS = ("fiction", "creative_harness")
-# SAGA production shelves (drafts/revisions/release) closed on 2026-07-10 and
-# are Git-history-only (`git show bbbcb970:<path>`). The only live prose-draft
-# shelf left in the working tree is a per-project drafts directory.
-PROSE_DIRS = ("/drafts/",)
-EMDASH = "—"
-SENSITIVE = re.compile(r"젠더|가부장|페미니|성별|모계|우생|gender|feminis|patriarch", re.I)
-AI_META_HOOK = re.compile(
-    r"^\s*엔진\s*:|주어는\s+.+?가\s+아니라|사건의\s+주어는|한\s+사람의\s+손가락",
-    re.I,
+
+ROOTS = (
+    "AGENTS.md",
+    "CLAUDE.md",
+    "fiction",
+    "creative_harness",
+    ".agent/templates/fiction",
+    ".agent/workflows",
+    ".agents/skills/fiction-production",
+    "tools/saga-fiction-studio",
 )
-KOREAN_PROSE_AI_TELL = re.compile(
+
+KOREAN_AI_TELL = re.compile(
     r"단순히\s+.{1,30}(넘어|아니라)|"
     r"그것은\s+.{1,30}(언어|증명|선언|질문|대답)(이었|였|이다)|"
-    r"세계는\s+.{1,40}\s+위에\s+서\s+있었|"
-    r"문명은\s+.{1,40}\s+위에\s+서\s+있었",
+    r"결론적으로|시사하는\s+바가\s+크다|"
+    r"^(또한|따라서|그러므로|나아가)[,\s]",
     re.I,
 )
-META_HEADINGS = (
-    "boundary", "adaptation intent", "harness applied", "source boundary",
-    "continuity notes", "안내", "canon", "writing rules", "scene seeds",
-    "next use", "목적", "required reads", "institutions", "무엇", "진단",
-    "series gate",
+
+STALE_ACTIVE_PATH = re.compile(
+    r"creative_harness/craft/(009_korean_fiction_prose_naturalness_harness_ko|"
+    r"010_reader_onboarding_harness_ko)\.md"
 )
-SERIES_GATE = "## Series Gate Applied"
+
+PROJECT_HOME_FIELDS = (
+    "- Work id:",
+    "- Style profile:",
+    "- Canon promotion authority/rule:",
+    "- Current draft:",
+    "## Current Next Action",
+)
+
+ZETTEL_KINDS = {"idea", "question", "pattern", "principle", "technique", "observation"}
 
 
-def staged_fiction():
+def staged_markdown():
     out = subprocess.run(
         ["git", "diff", "--cached", "--name-only", "--diff-filter=ACMR"],
-        capture_output=True, text=True).stdout.split()
-    return [f for f in out
-            if f.startswith(FICTION_ROOTS) and f.endswith(".md")]
+        capture_output=True,
+        text=True,
+        check=False,
+    ).stdout.splitlines()
+    return [p for p in out if p.endswith(".md") and p.startswith(ROOTS)]
 
 
-def all_fiction():
+def all_markdown():
     found = []
-    for root in FICTION_ROOTS:
-        found.extend(str(p) for p in pathlib.Path(root).rglob("*.md"))
+    for root in ROOTS:
+        path = pathlib.Path(root)
+        if path.is_file() and path.suffix == ".md":
+            found.append(str(path))
+        elif path.exists():
+            found.extend(str(p) for p in path.rglob("*.md"))
     return found
 
 
-def reader_prose(text):
-    """Yield (lineno, line) for reader prose only.
+def project_root(path):
+    parts = pathlib.PurePosixPath(path).parts
+    try:
+        index = parts.index("projects")
+    except ValueError:
+        return None
+    if index == 0 or parts[index - 1] != "fiction" or len(parts) <= index + 1:
+        return None
+    return pathlib.Path(*parts[: index + 2])
 
-    Skips YAML frontmatter, fenced code blocks (field marks live here), and
-    metadata sections (Boundary / Harness / Continuity Notes / etc.).
-    """
-    lines = text.splitlines()
-    i = 0
-    if lines and lines[0].strip() == "---":
-        i = 1
-        while i < len(lines) and lines[i].strip() != "---":
-            i += 1
-        i += 1
-    in_code = False
-    skip = False
-    for n in range(i, len(lines)):
-        s = lines[n].strip()
-        if s.startswith("```"):
-            in_code = not in_code
-            continue
-        if in_code:
-            continue
-        if s.startswith("#"):
-            h = s.lstrip("#").strip().lower()
-            skip = any(m in h for m in META_HEADINGS)
-            continue
-        if not skip:
-            yield n + 1, lines[n]
+
+def parse_simple_frontmatter(text):
+    if not text.startswith("---\n"):
+        return None
+    end = text.find("\n---\n", 4)
+    if end < 0:
+        return None
+    values = {}
+    for line in text[4:end].splitlines():
+        match = re.match(r"^([A-Za-z0-9_-]+):\s*(.*)$", line)
+        if match:
+            values[match.group(1)] = match.group(2).strip()
+    return values
+
+
+def check_project_home(file_path, text, errors):
+    if not re.fullmatch(r"fiction/projects/[^/]+/README\.md", file_path):
+        return
+    for field in PROJECT_HOME_FIELDS:
+        if field not in text:
+            errors.append(f"{file_path}: project Home Note missing {field!r}")
+
+
+def check_zettel(file_path, text, errors):
+    if not file_path.startswith("fiction/knowledge/notes/") or file_path.endswith("/README.md"):
+        return
+    frontmatter = parse_simple_frontmatter(text)
+    if frontmatter is None:
+        errors.append(f"{file_path}: Zettel requires real top-of-file YAML frontmatter")
+        return
+    if frontmatter.get("type") != "zettel":
+        errors.append(f"{file_path}: Zettel frontmatter requires type: zettel")
+    if frontmatter.get("kind") not in ZETTEL_KINDS:
+        errors.append(f"{file_path}: Zettel kind must be one supported atomic-note kind")
+    for key in ("created", "source-ids", "related-notes", "related-projects"):
+        if key not in frontmatter:
+            errors.append(f"{file_path}: Zettel frontmatter missing {key}")
+
+
+def check_project_member(file_path, errors):
+    root = project_root(file_path)
+    if root is None or pathlib.PurePosixPath(file_path).name == "README.md":
+        return
+    if not (root / "README.md").exists():
+        errors.append(f"{file_path}: project artifact has no project Home Note at {root / 'README.md'}")
+
+
+def check_release(file_path, text, errors):
+    if "/release/candidates/" in file_path:
+        if not re.search(r"_[0-9a-f]{7,40}\.md$", file_path):
+            errors.append(f"{file_path}: release candidate filename must end with baseline short SHA")
+    if "/release/published/" not in file_path:
+        return
+    root = project_root(file_path)
+    if root is None:
+        return
+    home = root / "README.md"
+    home_text = home.read_text(encoding="utf-8") if home.exists() else ""
+    if not re.search(r"(?:State|Status):\s*`?released`?", home_text, re.I):
+        errors.append(f"{file_path}: published snapshot requires project state released")
+    review_root = root / "reviews"
+    if not any(review_root.glob("retention/*.md")):
+        errors.append(f"{file_path}: published snapshot requires a retention gate artifact")
+    if not any(review_root.glob("release/*.md")):
+        errors.append(f"{file_path}: published snapshot requires a release checklist artifact")
+
+
+def is_korean_prose(path):
+    name = pathlib.Path(path).name.lower()
+    return "/drafts/" in path and (
+        name.endswith("_ko.md")
+        or "korean" in name
+        or "한국어" in name
+    )
+
+
+def in_example_or_watchlist(path, line):
+    if path.endswith("korean_fiction_prose_naturalness_harness.md"):
+        return True
+    if path.endswith("prose_verisimilitude_audit_checklist.md"):
+        return True
+    return "failure signal" in line.lower() or "실패 신호" in line
 
 
 def check(files):
-    errs = []
-    warns = []
-    for f in files:
+    errors = []
+    warnings = []
+
+    for file_path in files:
+        path = pathlib.Path(file_path)
         try:
-            text = pathlib.Path(f).read_text(encoding="utf-8")
+            text = path.read_text(encoding="utf-8")
         except FileNotFoundError:
             continue
-        for n, ln in enumerate(text.splitlines(), 1):
-            if SENSITIVE.search(ln):
-                errs.append("%s:%d: 민감(젠더/페미니즘 등) 용어 금지: %s"
-                            % (f, n, ln.strip()[:60]))
-            if (AI_META_HOOK.search(ln)
-                    and "AI식 훅" not in ln
-                    and "기획서용 훅 포장문" not in ln
-                    and not f.endswith("prose_verisimilitude_audit_checklist.md")
-                    and not f.endswith("korean_fiction_prose_naturalness_harness.md")):
-                warns.append("%s:%d: AI식 훅 포장문 주의(직접 선택/비용 문장으로 교체): %s"
-                             % (f, n, ln.strip()[:80]))
-            if (KOREAN_PROSE_AI_TELL.search(ln)
-                    and not f.endswith("prose_verisimilitude_audit_checklist.md")
-                    and not f.endswith("korean_fiction_prose_naturalness_harness.md")):
-                warns.append("%s:%d: 한국어 AI-tell 문장 주의(낭독/조사/동작문 패스 필요): %s"
-                             % (f, n, ln.strip()[:80]))
-        name = f.rsplit("/", 1)[-1].lower()
-        # _versions/ 는 동결된 판본 스냅샷·레거시 보관소다. 활성 산문 규칙(em dash,
-        # Series Gate)을 적용하지 않는다(과거 세대는 그대로 보존). 민감어 검사는 유지.
-        is_archive = "/_versions/" in f
-        # em dash is a banned AI-tell in BOTH Korean and English prose; check
-        # episode story files (KR or EN counterpart) but not control/index docs.
-        is_story = (not is_archive
-                    and any(d in f for d in PROSE_DIRS)
-                    and ("korean" in name or "manuscript" in name
-                         or "english" in name))
-        if is_story:
-            for n, ln in reader_prose(text):
-                if EMDASH in ln:
-                    errs.append("%s:%d: em dash(—) 본문 금지(AI-tell): %s"
-                                % (f, n, ln.strip()[:60]))
-        if "--staged" in sys.argv and not is_archive and needs_series_gate(f):
-            required = (SERIES_GATE, "| POV person |", "| Standalone ban |")
-            missing = [r for r in required if r not in text]
-            if missing:
-                errs.append("%s: Series Gate Applied 표 필수(누락: %s)"
-                            % (f, ", ".join(missing)))
-        if "--staged" in sys.argv and not is_archive and is_active_draft(f):
-            missing_soft = missing_agentic_markers(text)
-            if missing_soft:
-                warns.append("%s: agentic fiction production marker 권장(누락: %s)"
-                             % (f, ", ".join(missing_soft)))
-    return errs, warns
 
+        if STALE_ACTIVE_PATH.search(text):
+            errors.append(f"{file_path}: removed numeric craft path referenced")
 
-def needs_series_gate(path):
-    if "/drafts/" not in path:
-        return False
-    name = path.rsplit("/", 1)[-1].lower()
-    prefix = name.split("_", 1)[0]
-    try:
-        number = int(prefix)
-    except ValueError:
-        return False
-    if number < 19:
-        return False
-    return ("korean" in name or "primary" in name or "adaptation" in name)
+        check_project_home(file_path, text, errors)
+        check_zettel(file_path, text, errors)
+        check_project_member(file_path, errors)
+        check_release(file_path, text, errors)
 
+        if is_korean_prose(file_path):
+            for number, line in enumerate(text.splitlines(), 1):
+                if KOREAN_AI_TELL.search(line) and not in_example_or_watchlist(file_path, line):
+                    warnings.append(
+                        f"{file_path}:{number}: Korean prose diagnostic; review span in context: "
+                        f"{line.strip()[:90]}"
+                    )
 
-def is_active_draft(path):
-    if "/drafts/" not in path or "/_versions/" in path:
-        return False
-    name = path.rsplit("/", 1)[-1].lower()
-    return ("korean" in name or "primary" in name or "adaptation" in name
-            or "manuscript" in name or "english" in name)
-
-
-def missing_agentic_markers(text):
-    markers = {
-        "Chapter Intent": ("Chapter Intent", "Intent Card", "chapter intent",
-                           "intent card", "의도 카드"),
-        "Review Wave": ("Review Wave", "review wave", "foundation scan",
-                        "re-scan", "리뷰 웨이브"),
-        "Chronicler": ("Chronicler", "chronicler", "canon delta",
-                       "회수 패스", "chronicler pass"),
-    }
-    missing = []
-    for label, needles in markers.items():
-        if not any(needle in text for needle in needles):
-            missing.append(label)
-    return missing
+    return errors, warnings
 
 
 def main():
-    files = staged_fiction() if "--staged" in sys.argv else all_fiction()
+    files = staged_markdown() if "--staged" in sys.argv else all_markdown()
     if not files:
-        print("fiction_gate: no fiction files to check")
+        print("fiction_gate: no matching Markdown files")
         return 0
-    errs, warns = check(files)
-    if warns:
-        print("fiction_gate: 경고(커밋 차단 아님):")
-        for w in warns:
-            print("  " + w)
-    if errs:
-        print("fiction_gate: 위반 발견 — 커밋 차단:")
-        for e in errs:
-            print("  " + e)
-        print("fiction_gate: em dash는 마침표/쉼표로, 민감 용어는 제거 후 다시 커밋.")
+
+    errors, warnings = check(files)
+    if warnings:
+        print("fiction_gate: warnings (work-profile review, not commit blockers):")
+        for warning in warnings:
+            print("  " + warning)
+
+    if errors:
+        print("fiction_gate: mechanical contract violations:")
+        for error in errors:
+            print("  " + error)
         return 1
-    print("fiction_gate: PASS (%d fiction file(s) checked)" % len(files))
+
+    print(f"fiction_gate: PASS ({len(files)} Markdown file(s) checked)")
     return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())

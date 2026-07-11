@@ -4,39 +4,45 @@
 
 - Work id:
 - Unit:
-- Authoring baseline date:
 - Target language:
+- Genre / subgenre contract:
 - Source style docs:
+- Current revision stage:
 
-## Active Style Rules
+## Work-Level Choices
 
-- Korean-primary prose first for active SAGA drafts unless explicitly overridden.
-- Draft Korean-primary prose as Korean sentences first. Do not write from a
-  translated logline or foreign-language noun stack.
-- Technical terms remain visible when they carry meaning; give plain-language handles in-scene.
-- Put a person under pressure before explaining the concept.
-- Dialogue must expose different wants, fears, and power positions.
-- Avoid decorative grandiosity, AI-tell abstractions, translationese, and premature emotional closure.
-- Avoid meta-hook slogans such as `엔진:`, `핵심은 A가 아니라 B`, `사건의 주어는 X`, or
-  `한 사람의 손가락`.
-- Use `humanize` only as final polish after structure and continuity pass.
-- Apply `creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md`
-  before final Korean-primary prose polish.
+- Draft directly in target language: `yes | no; explain exception`
+- POV and narrative distance:
+- Tense:
+- Register:
+- Sentence/rhythm tendencies to preserve:
+- Allowed typography and punctuation:
+- Deliberate repetitions, fragments, or nonstandard grammar:
+- Translation/adaptation policy, if any:
 
-## Local Voice Notes
+## Voice Evidence
 
-| Character / narrator | Voice pressure | Avoid |
-| --- | --- | --- |
-| TBD | TBD | TBD |
+| Character / narrator | Vocabulary | Syntax / rhythm | Evasion or pressure behavior | Must preserve |
+| --- | --- | --- | --- | --- |
+| TBD | TBD | TBD | TBD | TBD |
 
-## Word / Phrase Watchlist
+## Watchlist
 
-| Watch item | Reason | Preferred handling |
-| --- | --- | --- |
-| TBD | TBD | TBD |
+These are diagnostic signals, not universal bans.
 
-## Allowed Technical Terms
+| Span or pattern | Severity | Why it may fail here | Preserve when |
+| --- | --- | --- | --- |
+| TBD | `S1 | S2 | S3` | TBD | TBD |
 
-| Term | Plain handle | Must not lose |
-| --- | --- | --- |
-| TBD | TBD | TBD |
+## Technical / World Terms
+
+| Term | Reader handle | Accuracy requirement | First-use strategy |
+| --- | --- | --- | --- |
+| TBD | TBD | `plot-critical | texture-only` | TBD |
+
+## Polish Boundary
+
+- Structure, causality, POV, and continuity are stable: `yes | no`
+- Target-language module:
+- Preserve facts, names, numbers, direct quotations, and in-world document genre.
+- Stop if meaning changes or the line-edit diff exceeds 30% without user approval.

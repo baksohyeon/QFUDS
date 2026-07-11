@@ -1,131 +1,108 @@
 ---
-doc_id: qfuds_saga_near_future_forecast_panel_method_ko
-title: QFUDS SAGA 근미래 예측 패널 방법 (휴머노이드 로봇 → 노동 재편 → Q-Day)
+doc_id: fiction_near_future_forecast_panel_method_ko
+title: 근미래 SF 전망 패널 방법
 doc_type: guide
 stage: reference
-status: draft
-evidence_role: provenance
+status: completed
+evidence_role: reference
 depends_on:
-  - qfuds_saga_expert_panel_world_system_handoff_ko
-  - qfuds_saga_qday_world_system_14domain_matrix_ko
-  - qfuds_saga_production_board_ko
-next_gate: 이 방법으로 예측 실행 → story_design 322 근미래 프렐류드 산출. 캐논 승격은 사용자 게이트
-last_updated: 2026-07-10
+  - fiction_creative_writing_craft_harness_ko
+next_gate: use the method on a work-local question and record sources, scenarios, and story consequences
+last_updated: 2026-07-11
 ---
 
-# QFUDS SAGA 근미래 예측 패널 방법 (휴머노이드 로봇 → 노동 재편 → Q-Day)
+# 근미래 SF 전망 패널 방법
 
-## 이 문서의 자리
+## 목적
 
-410 전문가 패널 세계-체계 인계의 자매다.
-011/028의 14도메인이 **Q-Day 이후 인과 감사 렌즈**였다면, 이 문서는 같은 렌즈를 **Q-Day
-이전 근미래(2020s-2090s) 예측용**으로 재조준한 작가실 생산 도구다. 목적은 001 §2·002·115이
-이름만 두고 비워 둔 "지수 성장기" 활주로를 현실적 예측으로 채워 0부(카산드라)와 115 Q-Day에
-잇는 것이다.
+근미래 SF의 기술·노동·정치·생활 변화를 한 가지 예언으로 고정하지 않고, 여러
+전문 관점과 불확실성 분기로 검토한다. 산출물은 작품 후보이며 현실 예측, 투자 조언,
+연구 증거가 아니다.
 
-패널은 세계 안 기관이 아니라 **작가실 도구**다(002 하드제약 8, 116 도메인 13·14 선례).
+## 입력
 
-> **정정(2026-07-01, 사용자 지시):** 근미래 활주로는 **새 고유명·조직·인물·사건을 candidate로
-> 대량 생성**해 존나 상세히 채운다(웨이브 117/118/119 방식). 단 기존 캐논 세력([109])을
-> 대체·개명하지 않고 **그리로 수렴**시키며, 캐논 자동 승격은 금지하고 원고 수요 때 117 §7
-> 6체크로 개별 승격한다. 아래 본문의 "새 고유명사 생성 금지"류 문구는 이 정정으로 대체된다
-> (금지 대상은 "기존 캐논 이름 대체·개명"이지 "신규 candidate 생성"이 아니다).
+- work id와 target reader
+- 기준 연도와 전망 기간
+- 사변적 변화 하나
+- plot-critical 질문
+- 이미 채택한 world constraints
+- 만들 수 있는 것과 만들면 안 되는 것
 
-```text
-fiction/provenance only
-research evidence: no
-external source claim: no
-캐논 상태: 생산 방법(candidate). in-world 승격 아님. 산출 프렐류드도 candidate(사용자 게이트)
-스타일 가드: em dash 0, "박-" 슬랭 금지, mark 표기, warlord·신체호러 금지, 강의조 금지
-```
+## 렌즈 선택
 
-## 1. 예측 렌즈 구성
+질문에 필요한 렌즈만 고른다.
 
-기존 14도메인(116)을 근미래로 재조준하고, 근미래 특화 생산측 렌즈를 더한다. 렌즈는
-in-world 기관이 아니다.
+- 기술 역량과 물리적 병목
+- 노동, 계급, 돌봄
+- 경제, 자원, 에너지
+- 법, 제도, 거버넌스
+- 국제관계와 안보
+- 인구, 이주, 가족
+- 정보, 미디어, 기록
+- 생태와 기후
+- 종교, 의례, 의미
+- 언어, 교육, 일상
 
-**재사용(116):** 거시경제·자원·계급 / 비교정치·국가붕괴 / 국제관계·지정학 / 군사·안보 /
-기술문명·인프라 / 법·제도·거버넌스 / 종교·신화·의례 / 인류학·사회심리 / 정보전·기록 /
-죽음·기억·정체성 / 생태·기후 / 언어·기호 / 서사(생산측) / 문화미디어(생산측).
+렌즈 수를 늘리는 것이 목표가 아니다. 같은 원인을 다른 관점에서 압박해 빠진
+2차 효과를 찾는 것이 목표다.
 
-**신규 근미래 렌즈(생산측):**
+## 시나리오 규율
 
-| 렌즈 | 예측 질문 |
+최소 세 분기를 만든다.
+
+| Branch | 질문 |
 | --- | --- |
-| 로봇공학·자동화 역량 | 휴머노이드 손재주·자율성·비용이 어디까지 가나. 무엇이 아직 사람 몫인가 |
-| 노동경제·재분류 | 대량실업인가 재분류인가. 어떤 일이 판단·검증 노동으로 이동하나 |
-| 컴퓨트·반도체 지정학 | 누가 계산·칩을 쥐나. 주권 AI·수출통제가 권역을 어떻게 가르나 |
-| 에너지·전력 | 데이터센터·로봇의 전력 수요가 어디서 병목이 되나 |
-| 인구·이주·돌봄 | 저출생·고령화·이주가 자동화와 어떻게 맞물리나. 돌봄은 누가 하나 |
+| constrained | 기술·제도가 예상보다 느리거나 제한적이면 무엇이 남는가 |
+| broad adoption | 성능과 비용이 충분히 개선되면 무엇이 재분류되는가 |
+| backlash / rollback | 법, 문화, 사고, 전쟁, 자원 때문에 되돌리면 무엇이 보존되는가 |
 
-## 2. 예측 규율
-
-1. **오늘의 실제 앵커에서 출발한다.** 각 렌즈는 2026 현실(휴머노이드 프로그램, IMF/ILO
-   노동 데이터, PQC 일정 등)을 앵커로 삼고 2020s→2090s를 외삽한다. 실제 예측·투자 주장이
-   아니라 픽션 외삽이다(§보증).
-2. **캐논 씨앗에 착지한다.** 예측은 반드시 기존 캐논으로 흘러든다: 검증경제·Aletheia 기원
-   (115 §3.4·210), 인간 확인 루프(112), 복원=사본(113), 사엘 선례 씨앗, 0부 카산드라가
-   물려받는 세계, Q-Day 인정 공황.
-3. **노동은 재분류가 기본.** 대량실업 단일서사 금지. 자동화가 일을 검증·판단·확인 노동으로
-   밀어내고 그 판단 노동이 새 계급 관문이 된다(106·112·210). 붕괴·UBI는 patchwork의 변경
-   쪽에만.
-
-## 3. 역량 불확실성 분기 (핵심)
-
-휴머노이드 역량을 단일 미래로 고정하지 않는다. 세 분기로 예측하고 patchwork 지리에 배치한다.
-
-| 분기 | 역량 | 노동 귀결 |
-| --- | --- | --- |
-| A. 제한적 | 손재주·엣지케이스 한계 | 수공·돌봄·현장 노동이 피난처("농부·제조업" 부분적 진실) |
-| B. 젠야타급 범용 | 육체노동까지 대체 | 판단·검증·믿어지는 것 + 의도적 보존 인간 역할(112)만 해자 |
-| C. 버틀레리안 롤백 | 법·금기로 되돌림 | 노동을 경제가 아니라 법으로 보존(듄 참조) |
-
-**관통 명제:** 역량이 어떻든 희소재는 "검증된 진짜성 = 믿어지는 것"으로 수렴하고, 이것이
-Q-Day 인정 공황의 씨앗이 된다(115·105·210 착지).
-
-## 4. 멀티에이전트 오케스트레이션 스펙
-
-`Workflow` 도구로 실행한다(사용자 멀티에이전트 opt-in, 2026-07-01).
-
-- **Phase 1 예측 fan-out:** 렌즈별 에이전트가 2020s→2090s를 예측. 각자 실제 앵커 + 캐논
-  씨앗 근거로, 역량 A/B/C 분기별 결과를 구조화 스키마(시기·사건·인과·계급효과·캐논 착지)로
-  반환.
-- **Phase 2 교차압력 합성:** 도메인 예측을 하나의 인과 타임라인으로 병합(116 §3 교차압력
-  방식). patchwork(핵심권역=재분류 / 변경=붕괴+UBI 실패) + 역량 분기 시나리오로 정리.
-- **Phase 3 캐논 가드 + 적대 검증:** 하드제약 대조(신규 in-world 기관·고유명 0 / 복원=사본 /
-  인간 확인 루프 / 검증경제 관통 / warlord·신체호러 금지) + 현실성 주장 적대적 반증.
-- **Phase 4 철학 substrate 직조 + 집필:** 아래 substrate를 엮어 story_design 322 프렐류드로
-  서술.
-
-## 5. 철학 substrate (사용자 사유 레퍼런스, 기존 캐논과 정합)
-
-- 정체성 = 최종합치 서사엔진(204·114·002 세대 해상도) → 복원=손실 사본.
-- 진리 = 합의·동기화, intelligence != legitimacy → Last Archive = 합의의 신격화(107),
-  단일 초월 AGI 아님. 초월자는 '전지한 AI'가 아니라 '합의를 깨는 인간'(예수형)으로만.
-- LLM = 압축된 인류·다중인격 → Aletheia 압축기·검증제국 기원 텍스처.
-- "역할몰입이 어른" · "믿기로 결심해 진짜가 됨" → 믿어지려는 욕망이 세력·계급의 뿌리.
-- White Hole Equilibrium 우주론은 이번 범위 밖(먼 미래 물리 substrate 후보로만, 별도 결정).
-
-## 6. 거버넌스
-
-- 신규 in-world 고유명·기관·사건 생성 금지. 기존 세력([109])·개념에만 물린다.
-- 산출 프렐류드(story_design 322)는 candidate. 캐논 승격은 사용자 게이트(117 §7 6체크 준용).
-- 실행·게이트 상태는 408 production board에 기록한다.
-
-## 7. 외부 출처 보증
-
-실제 2026 앵커 참조에는
-[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md)를
-적용한다. 상태 토큰을 기록하고(현재 `not searched` 또는 실행 시 `hit_not_cached`),
-fiction/provenance 경계를 유지한다(QFUDS 연구 증거 아님, 실제 예측·투자 주장 아님).
-
-## Boundary
+각 분기는 다음을 반환한다.
 
 ```text
-fiction/provenance only
-research evidence: no
-external source claim: no
+time window
+-> enabling event
+-> causal mechanism
+-> winners / losers
+-> daily-life change
+-> institutional response
+-> contradiction or failure mode
+-> scene pressure
 ```
 
-이 문서는 근미래 예측을 위한 작가실 생산 방법이다. canon 아님. 산출물도 candidate이며 사용자
-게이트로만 승격한다. 충돌 시 기존 캐논(115·116·001·002·112·113·114·210·106·109)이 우선한다.
+## 멀티에이전트 사용
+
+사용자가 병렬 조사를 승인했을 때만 렌즈별 에이전트를 쓴다.
+
+1. Master가 질문, 기간, 출처 기준, 금지 주장을 고정한다.
+2. Research agents는 서로 겹치지 않는 렌즈와 1차 출처를 맡는다.
+3. Synthesis agent는 합의보다 인과 충돌과 불확실성을 먼저 찾는다.
+4. Story architect는 현실 전망을 인물의 비용, 선택, 장면으로 번역한다.
+5. Continuity agent는 기존 world constraints와 충돌을 분류한다.
+
+에이전트 합의는 canon이 아니다. 새 이름, 기관, 사건은 candidate이며 사용자가
+promote하기 전에는 world authority에 들어가지 않는다.
+
+## Source Boundary
+
+현실 앵커마다 Fiction Source Intake Workflow를 적용한다. 같은 자료를 QFUDS 연구
+주장에 쓸 때만 별도 Research Asset and Product Workflow를 실행한다.
+
+- URL, 발표 주체, 날짜, asset state
+- allowed claim과 blocked claim
+- 직접 관측, 기관 전망, 작가의 외삽을 구분
+- 서로 다른 시점의 수치를 한 현재 상태처럼 합치지 않음
+- `없다`는 주장은 실제 asset inspection 뒤에만 사용
+
+## Output
+
+| Item | Required content |
+| --- | --- |
+| Source ledger | URL, state, allowed/blocked claim |
+| Scenario table | constrained / broad adoption / rollback |
+| Cross-pressure map | 한 변화가 다른 영역에 만든 2차 효과 |
+| Story consequences | 인물, 일상, 제도, 비용, 선택 |
+| Candidate ledger | new names/events/rules and promotion blockers |
+| Unknowns | 현실 조사와 작가 결정이 더 필요한 지점 |
+
+설정 목록만 만들지 않는다. 사변 요소를 제거하면 사라지는 장면과 선택이 최소 하나
+있어야 한다.

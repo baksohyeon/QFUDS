@@ -8,21 +8,22 @@ evidence_role: provenance
 depends_on:
   - <retention_gate_protocol_or_previous_run_doc_id>
 next_gate: complete persona sheets, issue ledger, decision, and verification before release promotion
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 ---
 
 # <Work> Retention Gate Run <YYYY-MM-DD> <baseline-shortsha>
 
 ## Frontmatter Rules
 
-Use this frontmatter for actual retention gate **run artifacts** under `docs/`.
+Use this frontmatter for actual retention gate **run artifacts** under
+`fiction/projects/<work-id>/reviews/retention/`.
 Protocol/specification documents may use `doc_type: guide`, but a run that can
 block or permit release must use `doc_type: gate`.
 
 Field choices:
 
 - `doc_type: gate` because this artifact records a formal pass/fail gate.
-- `stage: reference` because fiction release gates are not QFUDS research levels.
+- `stage: reference` because fiction release gates do not change research status.
 - `status: in_progress` while sheets are being filled, `completed` after a
   final decision, or `blocked` if the run cannot finish.
 - `evidence_role: provenance` because fiction feedback is process provenance,
@@ -48,8 +49,7 @@ This document is a gate run artifact, not a rolling scratchpad. Do not overwrite
 a completed gate run when the draft changes. Create a new gate document for each
 new baseline.
 
-Recommended naming, as a dated note alongside the work's `README.md` under
-`fiction/projects/<work-id>/`:
+Recommended naming under `fiction/projects/<work-id>/reviews/retention/`:
 
 ```text
 <work-id>_retention_gate_run_<YYYYMMDD>_<baseline-shortsha>.md

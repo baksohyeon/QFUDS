@@ -12,20 +12,20 @@ and the Creative Writing Craft Harness.
 - First appearance (scene or draft):
 - One-line essence (no spoilers):
 
-## Core Drive (character design minimum)
+## Character Pressure
 
 | Axis | This character |
 | --- | --- |
-| Want (외적 목표) | TBD: not decided yet |
-| Need (진짜 필요) | TBD: not decided yet |
-| Fear | TBD: not decided yet |
-| Wound (과거 상처) | TBD: not decided yet |
-| Lie (스스로 믿는 거짓) | TBD: not decided yet |
+| Immediate pressure | TBD: not decided yet |
+| Longer desire or obligation | TBD: not decided yet |
+| Fear, aversion, or protected value | TBD: not decided yet |
 | Choice under pressure | TBD: not decided yet |
 | Contradiction (내적 모순) | TBD: not decided yet |
 | Relationship function | TBD: not decided yet |
 
-The Want should pull against the Need; the Lie should be what a key scene breaks.
+Optional model: add want/need, wound/lie, status, attachment, duty, or another
+work-local character framework only when it explains choices visible in the text.
+Trauma and transformation are not mandatory.
 
 ## Arc
 
@@ -40,8 +40,7 @@ The Want should pull against the Need; the Lie should be what a key scene breaks
 - Speech rhythm / register:
 - Words this character would never use:
 - Subtext habits (what they hide in dialogue):
-- Bilingual note: how the voice reads in Korean primary vs English adaptation
-  (same person, different rhythm — not a literal translation):
+- Translation/adaptation note, only if this work has multiple language versions:
 
 ## Knowledge State (continuity)
 
@@ -51,8 +50,8 @@ The Want should pull against the Need; the Lie should be what a key scene breaks
 
 ## Consistency Checks
 
-- [ ] Want/Need/Fear stay constant across scenes unless a turn changes them on-page.
-- [ ] Voice reads the same person in Korean and English versions.
+- [ ] Pressure, values, and choices remain legible unless the text changes them.
+- [ ] Voice remains recognizably this character in every version that exists.
 - [ ] No scene gives the character knowledge they could not have yet.
 - [ ] Choices are explained by motive + information, not plot convenience.
 

@@ -10,6 +10,9 @@ description: >
 user-invocable: true
 ---
 # Note Curator
+> Legacy QFUDS profile. For new generic SF work, use
+> `.agents/skills/fiction-production/SKILL.md` and the live fiction workflows.
+
 Turn loose input into correctly-layered records. Curation never promotes to canon by
 itself — it stages material for the canon gate.
 SSOT: `.agent/workflows/documentation-folder-routing-workflow.md`,

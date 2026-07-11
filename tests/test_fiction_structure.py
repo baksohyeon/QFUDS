@@ -5,7 +5,8 @@
 (the web reader). This locks in three invariants so a future edit cannot
 silently resurrect the old layout:
 
-  1. ``docs/wiki/fiction/`` stays gone.
+  1. ``docs/wiki/fiction/`` has no tracked active files. Empty local directories or
+     OS metadata do not make it an authority.
   2. No path under ``fiction/`` carries a prohibited SAGA production family
      segment (``10_story_design``, ``20_drafts``, ``30_revisions``,
      ``40_release``, ``90_archive``, ``00_workroom``, ``20_series``). That
@@ -18,6 +19,7 @@ Run with: python3 -m unittest discover -s tests -p 'test_*.py'
 from __future__ import annotations
 
 import unittest
+import subprocess
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -45,8 +47,15 @@ NEW_ROOTS = (
 
 
 class LegacyWikiFictionTests(unittest.TestCase):
-    def test_docs_wiki_fiction_does_not_exist(self) -> None:
-        self.assertFalse((REPO_ROOT / "docs/wiki/fiction").exists())
+    def test_docs_wiki_fiction_has_no_tracked_files(self) -> None:
+        tracked = subprocess.run(
+            ["git", "ls-files", "docs/wiki/fiction"],
+            cwd=REPO_ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        ).stdout.splitlines()
+        self.assertEqual(tracked, [])
 
 
 class ProhibitedSagaProductionFamiliesTests(unittest.TestCase):

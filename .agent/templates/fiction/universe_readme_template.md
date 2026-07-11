@@ -4,7 +4,8 @@
 
 - Universe/IP id: `<universe-id>`
 - Parent continuity: `none | <multiverse branch>`
-- Status: `active | prototype | retired`
+- Lifecycle state: `active | dormant | retired`
+- Canon state: `provisional | accepted | retired`
 - Authoring baseline date: `YYYY-MM-DD`
 - Time baseline notes:
 

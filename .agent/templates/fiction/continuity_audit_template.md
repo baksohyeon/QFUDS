@@ -24,13 +24,11 @@ break canon. Supports the
 | Character knowledge state | TBD: not decided yet | TBD: not decided yet | yes/no | TBD |
 | POV / narrative frame | TBD: not decided yet | TBD: not decided yet | yes/no | TBD |
 
-## Bilingual Continuity (if the work has KO + EN versions)
+## Multi-Version Continuity (only if multiple versions exist)
 
-- [ ] Same story state (events, outcomes, order) in both versions.
-- [ ] Proper nouns spelled identically across versions.
-- [ ] Deliberate English devices (field marks, archive responses) preserved in both.
-- [ ] Korean version reads as Korean prose, not a literal translation
-  (see the bilingual term-discipline glossary for the keep/translate line).
+- [ ] Story state, events, outcomes, and order match the declared adaptation policy.
+- [ ] Proper nouns and deliberate differences follow the work's style packet.
+- [ ] Each target-language version reads naturally in its own register.
 
 ## Meaning Preservation (revision safety)
 

@@ -1,193 +1,320 @@
 ---
 doc_id: fiction_creative_writing_craft_harness_ko
-title: 창작 문예 하네스
+title: SF 창작 문예 하네스
 doc_type: guide
 stage: reference
-status: draft
+status: in_progress
 evidence_role: reference
 depends_on:
-  - fiction_ip_management_system_ko
-  - fiction_gsd_harness_operator_guide_ko
-  - wiki_fiction_index
-next_gate: apply this checklist before creating a new work bible or prose draft
-last_updated: 2026-07-10
+  - fiction_university_creative_writing_reference_matrix_ko
+next_gate: apply the craft loop to one active story and record a revision memo
+last_updated: 2026-07-11
 ---
 
-# 창작 문예 하네스
+# SF 창작 문예 하네스
 
 ## 목적
 
-이 문서는 fiction 작업을 "설정표 작성"에서 "소설 쓰기"로 올리기 위한
-craft 체크리스트다.
-
-기준은 단순하다.
-
-- 영어권 창작 용어를 기준으로 삼되, 한국어 독자가 읽을 수 있게 바로 풀이한다.
-- 약어와 업계 용어는 처음 나올 때 해설한다.
-- 설정, 과학, 세계관보다 인물의 욕망, 선택, 장면, 갈등을 먼저 본다.
-- 소설 본문을 쓰기 전에 어떤 문학적 장치를 쓰는지 기록한다.
-- active SAGA prose는 한국어 본문을 먼저 쓰고, 영어판은 영미권 독자용 독립
-  각색판으로 뒤따르게 한다.
-
-## Workflow Boundary
-
-This document uses external craft references as writing-background sources.
-
-Research-source handling follows
-[Research Asset and Product Workflow](../../.agent/workflows/research-asset-product-workflow.md).
-
-Current workflow state:
+이 문서는 특정 세계관이나 QFUDS SAGA가 아니라 모든 SF 작품에 공통으로 쓰는
+작법 SSOT다. 세계관 문서를 많이 만드는 것이 아니라, 사변적 변화가 인물의 선택과
+결말을 실제로 바꾸는 원고를 만드는 것이 목표다.
 
 ```text
-hit_not_cached
+사변적 변화
+-> 제한·비용·취약점
+-> 그 결과를 가장 아프게 겪는 인물
+-> 되돌릴 수 없는 선택
+-> 독자가 장면 안에서 인과를 복구
+-> 결말이 선택의 비용을 지급
 ```
 
-## 바로 쓰는 용어 해설
+작품별 언어, 하위 장르, 독자, 문체, 금지어는 work README와 style packet이
+결정한다. 한국어 문장 규칙, 기술 개념 온보딩, 사회·제도 핍진성은 필요할 때만
+별도 모듈을 적용한다.
 
-| Term | 한국어 풀이 | 쓰는 이유 |
-| --- | --- | --- |
-| `TBD` | 아직 정하지 않음. `To Be Determined`의 약자 | 템플릿의 빈칸 표시 |
-| `POV` | 시점. `Point of View`의 약자 | 누가 보고 말하는지 정함 |
-| `focalizer` | 초점 인물/초점 주체 | 누가 "보는가"를 말함 |
-| `narrator` | 화자 | 누가 "말하는가"를 말함 |
-| `canon` | 정사 | 작품 세계에서 확정된 설정 |
-| `soft-canon` | 준정사 | 아직 바뀔 수 있지만 임시로 따르는 설정 |
-| `elseworld` | 별도 분기/평행 설정 | 본편 canon과 충돌해도 되는 실험작 |
-| `prototype` | 원형/실험 초안 | 나중에 버리거나 고칠 수 있는 초기 형태 |
-| `retired` | 폐기/보관 | active가 아니지만 기록으로 남기는 설정 |
-| `bible` | 작품 설정 기준서 | 인물, 세계관, 시점, 용어를 맞추는 내부 문서 |
-| `beat` | 장면 안의 작은 전환점 | 감정, 정보, 권력관계가 바뀌는 순간 |
-| `arc` | 변화 곡선 | 인물, 관계, 사건이 시간에 따라 변하는 흐름 |
-| `scene` | 장면 | 인물이 목표를 가지고 부딪히는 구체적 단위 |
-| `summary` | 요약 서술 | 장면으로 보여주지 않고 압축해서 넘기는 서술 |
-| `subtext` | 속뜻 | 대사 표면 아래의 진짜 욕망이나 압력 |
-| `motif` | 반복 이미지/관념 | 작품 안에서 의미를 쌓는 반복 요소 |
+## 이 하네스가 하지 않는 일
 
-템플릿에는 가능하면 `TBD`만 남기지 말고 `TBD: 아직 정하지 않음`처럼 쓴다.
+- 특정 플롯 구조, 인물 변화, 반전 결말을 모든 작품에 강제하지 않는다.
+- `show, don't tell`, 쉬운 비유, 액션 오프닝을 절대 규칙으로 만들지 않는다.
+- 단어 하나나 문장부호 하나를 모든 작품에서 금지해 문체를 대신 판정하지 않는다.
+- 과학 정확성과 독자에게 보여 줄 설명량을 같은 문제로 취급하지 않는다.
+- 세계관 설정량을 작품 품질로 계산하지 않는다.
+- 외부 작가의 표현, 이미지, 문장을 복제하지 않는다.
 
-## Bilingual Prose Gate
+## 출처 경계
 
-SAGA 본문 작성 순서는 다음을 기본값으로 둔다.
+외부 자료는 교육법과 비평 언어를 설계하는 참고 자료다. 작품의 사실이나 QFUDS
+연구 증거가 아니다. 자세한 출처, 허용 주장, 금지 주장은
+[대학 문예창작 참고 매트릭스](university_creative_writing_reference_matrix.md)에
+기록한다.
 
 ```text
-한국어 primary draft -> English Anglophone adaptation -> continuity check
+workflow: Fiction Source Intake Workflow
+state: hit_not_cached | asset_available_not_downloaded
+use: summarized teaching-method reference only
+copy: no course text, exercise wording, or source fiction copied
 ```
 
-점검 기준:
+## 작품 시작 계약
 
-| 항목 | 통과 기준 |
+본문 전에 작품 README 또는 story bible에 아래를 고정한다.
+
+| 항목 | 답해야 할 질문 |
 | --- | --- |
-| 한국어 본문 | 직역투가 아니라 한국어 소설로 읽힌다 |
-| 영어 각색판 | 한국어판의 문장 순서를 따라 베끼지 않고 영미권 독자 리듬으로 재구성한다 |
-| 공유 사건 | plot event, field mark, 인물 선택, boundary가 양쪽에서 어긋나지 않는다 |
-| 기술어 | `hash`, `key`, `Bitcoin`, `QFUDS` 같은 기술/고유 용어는 필요하면 원어를 보존한다 |
-| 독자 경로 | README/read order는 한국어판을 먼저, 영어 counterpart를 다음에 둔다 |
+| 형식 | 단편, 장편, 연작, 연재 중 무엇인가? |
+| 목표 독자 | 누구에게 어떤 읽기 경험을 약속하는가? |
+| 하위 장르 | hard SF, social SF, literary SF, horror, technothriller 등 어떤 계약을 우선하는가? |
+| 서사 프레임 | 누가 말하고, 누가 보며, 언제·왜·누구에게 말하는가? |
+| 중심 질문 | 작품이 조사하지만 설교로 미리 답하지 않을 질문은 무엇인가? |
+| 사변적 차이 | 경험 세계와 달라진 것은 무엇인가? |
+| 언어·문체 | 초고 언어, 시제, 시점 거리, 작품별 금지·허용은 무엇인가? |
+| 성공 조건 | 독자가 끝에서 무엇을 이해·느끼거나 다시 보게 되어야 하는가? |
 
-## 문예창작 기본 축
+`한국어-first`, `em dash 금지`, `반드시 1인칭` 같은 규칙은 여기서 작품별로
+선택한다. 전역 기본값으로 승격하지 않는다.
 
-| 축 | 질문 | 실패 신호 |
-| --- | --- | --- |
-| Premise / 전제 | 한 문장으로 무슨 이야기인가? | 설정 설명은 많은데 사건이 없다 |
-| Character / 인물 | 누가 무엇을 원하고 무엇을 두려워하는가? | 인물이 세계관 설명 도구다 |
-| Conflict / 갈등 | 무엇이 욕망을 막는가? | 모두가 설명만 하고 충돌하지 않는다 |
-| Stakes / 판돈 | 실패하면 무엇을 잃는가? | 사건이 커도 인물에게 의미가 없다 |
-| Plot / 플롯 | 원인과 결과가 이어지는가? | 사건이 나열된다 |
-| Structure / 구조 | 시작, 중간 전환, 끝의 압력이 있는가? | 어디서 읽어야 할지 모르겠다 |
-| Scene / 장면 | 지금 이 장면에서 바뀌는 것은 무엇인가? | 대사와 설명이 돌고 끝난다 |
-| POV / 시점 | 누가 보고, 누가 말하고, 무엇을 모르는가? | 카메라가 근거 없이 이동한다 |
-| Voice / 문체 목소리 | 이 문장은 누가 쓴 것처럼 들리는가? | 모든 인물과 문서가 같은 말투다 |
-| Dialogue / 대사 | 대사가 정보 전달 말고도 일을 하는가? | 모든 대사가 설정 설명이다 |
-| Setting / 배경 | 장소와 제도가 인물 선택을 바꾸는가? | 배경이 장식이다 |
-| Worldbuilding / 세계관 | 생활, 권력, 비용, 제약이 있는가? | 멋진 명칭만 있다 |
-| Theme / 주제 | 독자가 어떤 질문을 들고 나가는가? | 결론을 설교한다 |
-| Motif / 반복 장치 | 반복되는 이미지가 의미를 쌓는가? | 상징이 한 번 나오고 사라진다 |
-| Pacing / 속도 | 장면, 요약, 침묵의 비율이 맞는가? | 계속 설명하거나 계속 폭발한다 |
-| Revision / 퇴고 | 무엇을 자르고, 무엇을 더 선명하게 할 것인가? | 초안이 곧 완성본 취급된다 |
+## SF 인과 코어
 
-## 장면 작성 최소 조건
+### 1. 사변적 변화 gate
 
-장면은 다음을 가져야 한다.
+핵심 사변 요소마다 여섯 문장으로 답한다.
 
-| 항목 | 질문 |
+1. 경험 세계와 달라진 것은 무엇인가?
+2. 그 차이는 어떤 규칙으로 작동하는가?
+3. 무엇을 가능하게 하는가?
+4. 무엇을 불가능하게 하거나 비싸게 만드는가?
+5. 가장 직접적으로 압박받는 인물은 누구인가?
+6. 이 차이를 제거하면 핵심 선택과 결말도 사라지는가?
+
+6번이 `아니오`면 SF 요소가 장식일 가능성이 높다. 세계관을 더 설명하지 말고 전제와
+인물의 결합을 다시 설계한다.
+
+### 2. 제한·결과 ledger
+
+| 항목 | 기록 |
 | --- | --- |
-| Scene purpose | 이 장면이 작품에서 하는 일은 무엇인가? |
-| Character want | 장면 안에서 인물이 원하는 것은 무엇인가? |
-| Obstacle | 무엇이 그 욕망을 막는가? |
-| Pressure | 왜 지금 해야 하는가? |
-| Turn | 장면 끝에서 무엇이 바뀌는가? |
-| Cost | 바뀐 대가가 무엇인가? |
-| Reveal | 새 정보가 있다면 누가 알게 되는가? |
-| Cut line | 어디서 장면을 끝내야 긴장이 남는가? |
+| Capability | 무엇을 가능하게 하는가 |
+| Hard limit | 무엇은 끝내 못 하는가 |
+| Cost | 누가 시간, 몸, 돈, 관계, 권리를 치르는가 |
+| Vulnerability | 누가 어떻게 악용하거나 무력화할 수 있는가 |
+| Failure mode | 실패하면 실제로 무슨 일이 일어나는가 |
+| Winners / losers | 누가 이익을 얻고 누가 비용을 떠안는가 |
+| Daily habit | 평범한 일상 하나가 어떻게 달라지는가 |
+| Second-order effects | 법, 경제, 가족, 노동, 종교, 언어 중 무엇이 바뀌는가 |
+| Payoff | 결말에서 어떤 설정 요소를 갚는가 |
 
-장면이 이 표를 못 채우면 아직 본문으로 쓰지 않는다. 먼저 design note로 둔다.
+인물 행동과 사회적 결과를 하나도 바꾸지 않는 설정은 active bible이 아니라
+background parking lot으로 내린다.
 
-## 인물 설계 최소 조건
+### 3. 인물 결합 gate
 
-인물은 설정값보다 압력이 중요하다.
+- `Substitution`: 사변 요소를 평범한 현대 장치로 바꿔도 같은 선택과 결말인가?
+- `Maximum pressure`: 이 인물이 이 전제 때문에 가장 어려운 선택을 해야 하는가?
+- `Reciprocity`: 세계가 인물을 바꾸고, 인물의 선택도 세계의 의미를 드러내는가?
 
-| 항목 | 질문 |
+인물 시트의 `want / fear / wound / lie`를 다 채워도 이 세 질문을 통과하지 못하면
+장면의 주인공이 아직 아니다.
+
+## 장면 유형과 최소 기능
+
+모든 장면에 동일한 `욕망-장애-반전`을 강제하면 산문이 기계적으로 평평해진다.
+먼저 장면 유형을 고르고, 그 유형의 변화가 있는지 본다.
+
+| 유형 | 최소 기능 |
 | --- | --- |
-| Want | 겉으로 원하는 것 |
-| Need | 사실 필요한 것 |
-| Fear | 잃기 싫은 것 |
-| Wound | 과거의 손상 |
-| Lie | 스스로 믿는 잘못된 문장 |
-| Choice under pressure | 압박을 받으면 어떤 선택을 하는가 |
-| Contradiction | 말과 행동이 어긋나는 지점 |
-| Relationship function | 다른 인물을 어떻게 바꾸는가 |
+| 극적 장면 | 목표, 저항, 전술 변화, 상태 변화 |
+| 발견 장면 | 질문, 단서, 해석 변화, 새 위험 또는 새 가능성 |
+| 관찰 장면 | 구체적 감각, 관점의 편향, 전후 인식 차이 |
+| 관계 장면 | 표면 대화, 숨은 욕망, 권력 이동, 잔여 긴장 |
+| 연결 요약 | 시간 압축, 인과 유지, 다음 장면에 필요한 상태 전달 |
+| 인월드 문서 | 작성 주체, 목적, 누락·왜곡, 본편에 미치는 결과 |
 
-## 시점과 서술 형식
+장면마다 공통으로 묻는 것은 세 가지뿐이다.
 
-`1인칭`과 `3인칭`은 출발점일 뿐이다. work bible에는 아래를 기록한다.
+1. 이 단위가 없으면 작품에서 무엇이 사라지는가?
+2. 시작과 끝 사이에 독자·인물·관계·상황 중 무엇이 달라지는가?
+3. 다음 단위로 어떤 압력이나 질문을 넘기는가?
 
-| 항목 | 설명 |
+아무것도 달라지지 않으면 삭제, 병합, 요약 중 하나를 검토한다.
+
+## 독자 계약 gate
+
+첫 10%를 읽은 냉독자가 아래를 답할 수 있어야 한다.
+
+- 누구의 경험을 따라가는가?
+- 지금 무엇이 불안정한가?
+- 현실과 다른 최소 한 가지는 무엇인가?
+- 아직 몰라도 되는 mystery와 지금 모르면 장면이 무너지는 정보가 구분되는가?
+- 작품이 약속한 경험이 경이, 공포, 추리, 비극, 풍자 중 무엇인지 짐작되는가?
+
+`mystery != confusion`이다. 독자가 답을 궁금해하는 것과 문장·인과를 해독하지
+못하는 것을 같은 성공으로 기록하지 않는다.
+
+## 설명과 incluing gate
+
+`incluing`은 설명을 숨기는 기술이 아니다. 독자가 행동과 문맥에서 필요한 규칙을
+복구하도록 단서를 배치하는 기술이다.
+
+낯선 개념이 처음 중요해지는 장면마다 기록한다.
+
+| 질문 | 답 |
 | --- | --- |
-| Who speaks | 누가 말하는가. 예: 화자, 기록관, 회고록 작성자 |
-| Who sees | 누구의 인식으로 보는가. 예: Mara, 법정 기록, archive |
-| Telling time | 사건과 서술 시점의 거리 |
-| Form | 역사록, 회고록, 수필, 재판 기록, 편지, 직접 장면 |
-| Implied audience | 누구에게 말하는가 |
-| Motive | 왜 지금 말하는가 |
-| Knowledge limit | 무엇을 모르는가 |
-| Distortion risk | 무엇을 숨기거나 왜곡할 수 있는가 |
+| 지금 알아야 하는 최소 사실 | |
+| 전달 수단 | 행동, 대가, 오류, 감각, 대화, 직접 서술 중 무엇인가 |
+| POV 정당성 | 왜 이 인물이 지금 이것을 의식하는가 |
+| 삭제 시험 | 지우면 선택과 인과를 여전히 이해할 수 있는가 |
+| 오독 시험 | 지우면 독자가 어떤 잘못된 인과를 만들 수 있는가 |
 
-이 구분은 중요하다. 같은 사건도 "재판 기록"이면 증거와 절차가 중심이고,
-"회고록"이면 기억과 자기변명이 중심이다.
+직접 서술도 허용한다. 다만 같은 정보를 인물끼리 이미 아는데 독자 때문에 다시
+말하거나, 독자가 이미 추론한 사실을 해설로 한 번 더 닫으면 실패다.
 
-## 세계관 설계 최소 조건
+쉬운 비유는 선택 사항이다. 정확한 설명, 구체적 결과, 비교 가능한 사물이 더
+효과적이면 비유를 쓰지 않는다.
 
-세계관은 명칭보다 작동 방식이 중요하다.
+## 과학 정확성 gate
 
-| 항목 | 질문 |
+| 등급 | 처리 |
 | --- | --- |
-| Resource | 무엇이 부족한가? |
-| Cost | 원하는 것을 얻으려면 무엇을 지불해야 하는가? |
-| Institution | 누가 규칙을 집행하는가? |
-| Law / taboo | 무엇이 금지되어 있는가? |
-| Technology limit | 기술이 못 하는 것은 무엇인가? |
-| Social class | 누가 혜택을 받고 누가 밀려나는가? |
-| Ritual | 사람들이 제도를 어떻게 생활로 받아들이는가? |
-| Failure mode | 시스템이 무너지면 어떤 일이 생기는가? |
+| `plot-critical` | 틀리면 갈등·시간 제한·해결책·생존 가능성이 무너진다. 초고 전에 공식 기관, 논문, 전문가 수준까지 확인한다. |
+| `texture-only` | 인물 전문성이나 현장 질감을 만든다. 기능 placeholder로 초고를 쓴 뒤 구조가 고정되면 필요한 질문만 검증한다. |
 
-## SF 기술어 사용 규칙
+검증된 사실도 장면에 전부 설명할 필요는 없다. 정확성과 노출량을 따로 결정한다.
+외부 자료를 작품 문서에 사용할 때는 출처 URL, workflow state, 허용·금지 주장을
+남긴다.
 
-과학자가 쓴 SF처럼 보이려면 기술어를 지워서는 안 된다.
+## 대학식 훈련 루프
 
-예를 들어 `hash`, `KDF`, `key`, `salt`, `collision`은 먼저 정확한 기술어로
-둔다. 작중 사회가 이를 법이나 의례로 바꾸어 부른다면, 별칭은 아래 표를
-채운 뒤에만 쓴다.
+### 1. 작가처럼 읽기
 
-| Original term | Fictional alias | Rationale | Loss risk | Accurate anchor | Scene purpose |
+mentor text를 감상이나 분위기가 아니라 선택과 효과로 분석한다.
+
+| 선택 | 텍스트 효과 | 내 원고의 대응 문제 | 채택·거부 | 저작권 안전한 변환 |
+| --- | --- | --- | --- | --- |
+| 시점 거리, 정보 지연, 장면 진입, 문장 리듬, 대화 기능 중 하나 | | | | |
+
+`작가 X처럼 써라`는 지시를 만들지 않는다. 재현 가능한 기술 하나로 번역한다.
+
+### 2. 단일 기술 실험
+
+300~800자 분량으로 한 번에 하나만 시험한다.
+
+- 같은 장면을 다른 시점 거리로 쓰기
+- 한 인물을 요약, 외양, 반복 행동, 발화로 각각 보여 주기
+- 첫 문단 삭제하기
+- 장면을 절반으로 압축하기
+- 정보 단위를 행동 속 단서로 바꾸기
+- 핵심 기술의 능력을 줄이고 제한을 강화하기
+
+끝에 `빌린 기술 / 바꾼 점 / 본문에 남길지`를 세 문장으로 기록한다.
+
+### 3. 초고
+
+초고 단계에서는 작가가 고른 언어와 형식으로 끝까지 쓴다. 문장 감시 규칙을 너무
+많이 켜서 장면 생성 자체를 막지 않는다. 사실 검증 placeholder와 미해결 문제는
+명시적으로 남긴다.
+
+### 4. Workshop
+
+`micro-workshop`과 `manuscript workshop`을 구분한다.
+
+- micro: 짧은 기술 실험을 소리 내 읽고 해당 기술의 효과만 본다.
+- manuscript: 완성된 단위의 구조, 인물, 독자 계약, SF 인과를 본다.
+
+작가 입력:
+
+- 100자 이내 intent
+- 목표 독자
+- 1~3개 질문
+- 의도적으로 건드리지 않으려는 선택
+- 현재 revision stage
+
+비평 출력:
+
+```text
+관찰 -> 독자 효과 -> 정확한 근거 위치 -> 질문 -> 선택적 제안
+```
+
+비평자는 작가의 성격이나 숨은 의도를 진단하지 않는다. 상충 피드백은 다수결이
+아니라 작품 계약과 텍스트 증거로 판정한다.
+
+### 5. Revision plan
+
+합평 직후 문장을 고치지 않는다. 먼저 수정 계획을 만든다.
+
+| 문제 | 근거 위치 | 변경 범위 | 기대 효과 | 새 위험 | 검증법 |
 | --- | --- | --- | --- | --- | --- |
-| `hash` | TBD: 아직 정하지 않음 | TBD: 아직 정하지 않음 | TBD: 아직 정하지 않음 | TBD: 아직 정하지 않음 | TBD: 아직 정하지 않음 |
 
-## Source Notes
+수정 순서:
 
-| Source | Used for | Workflow state |
-| --- | --- | --- |
-| [Oregon State, "What is a Frame Story?"](https://liberalarts.oregonstate.edu/wlf/what-frame-story) | frame narrative questions: why told, audience, relation between frame and inner story | `hit_not_cached` |
-| [Focalisation overview](https://en.wikipedia.org/wiki/Focalisation) | separating who speaks from who sees | `hit_not_cached` |
-| [Narration overview](https://en.wikipedia.org/wiki/Narration) | narrator, point of view, tense, unreliable narration | `hit_not_cached` |
-| [Creative writing overview](https://en.wikipedia.org/wiki/Creative_writing) | common craft categories: character, conflict, dialogue, genre, narration, pace, plot, scene, setting, style, theme, voice | `hit_not_cached` |
-| [Narrative overview](https://en.wikipedia.org/wiki/Narrative) | character, conflict, plot, setting, theme as narrative elements | `hit_not_cached` |
-| [Dialogue in writing overview](https://en.wikipedia.org/wiki/Dialogue_in_writing) | dialogue as character presentation and scene work | `hit_not_cached` |
+1. 전제와 독자 계약
+2. 인과, 연대, POV 지식 상태
+3. 장면 기능, 선택, 비용
+4. 설명과 온보딩
+5. 문단, 리듬, 장면 진입·퇴장
+6. 문장 자연스러움과 낭독
+7. continuity / chronicler 회수
+
+### 6. Revision memo
+
+수정 뒤 아래를 기록한다.
+
+- 받은 의견 요약
+- 실제로 바꾼 것과 이유
+- 적용하지 않은 의견과 이유
+- 새로 생긴 문제
+- 아직 남은 문제
+- 다음 독자에게 받고 싶은 피드백
+
+`피드백 반영 완료` 같은 포괄 문구는 허용하지 않는다. 계획, diff, memo가 서로
+대응해야 한다.
+
+## 오프닝 gate
+
+단편 첫 페이지 또는 장편 첫 장에서 본다.
+
+- 독자가 발을 디딜 POV anchor가 있는가?
+- 장소가 인물의 몸이나 행동에 저항하는가?
+- 현재 욕망, 임무, 불편 중 하나가 있는가?
+- 다음 문단이나 장면을 읽게 하는 압력이 있는가?
+- 사변적 차이가 설명문이 아니라 장면 효과로 한 번은 작동하는가?
+- 역사나 설정으로 시작했다면 현재 선택을 즉시 바꾸는가?
+
+액션 시작은 필수가 아니다. 방향과 압력이 필수다.
+
+## 결말 gate
+
+- `climax`: 핵심 선택 또는 되돌릴 수 없는 사건
+- `consequence`: 그 선택이 인물과 세계에 만든 실제 비용
+- `afterimage`: 첫머리의 약속·이미지·질문이 달라진 의미로 돌아오는가
+
+반전은 선택 사항이다. 반전이 있다면 앞선 단서가 다른 기능도 하면서 충분히
+심어졌는지 본다. 열린 결말도 중심 질문에 대한 작품의 태도는 남겨야 한다.
+
+## 평가 rubric
+
+| 영역 | 배점 |
+| --- | ---: |
+| 구조·인과 | 25 |
+| 장면·인물·POV 통제 | 20 |
+| 문장·리듬·정확성 | 20 |
+| SF 장르 약속과 세계 결과 | 15 |
+| 수정 문제해결 증거 | 15 |
+| 제출 완결성 | 5 |
+
+문장 자연스러움은 100점 전체의 대리 지표가 아니다. 구조가 실패한 원고를 매끈하게
+다듬어도 통과하지 않는다.
+
+## 작품 closeout
+
+장편 또는 연작을 닫을 때는 다음 packet을 남긴다.
+
+- 원고와 작품 의도
+- 중심 질문과 독자 계약
+- mentor corpus와 craft lineage map
+- 주요 revision plan / memo
+- continuity와 미회수 약속
+- 잔여 위험
+- 냉독자가 제기한 가장 강한 반론과 작가의 선택
+
+완결은 모든 독자가 동의하는 상태가 아니다. 작품의 선택이 의도적이고, 텍스트로
+실행되며, 반론과 잔여 위험을 설명할 수 있는 상태다.

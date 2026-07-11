@@ -12,7 +12,7 @@
 
 | Fact or change | Current status | Proposed destination | Rationale |
 | --- | --- | --- | --- |
-| TBD | `canon-candidate | soft-canon | note-only | rejected` | TBD | TBD |
+| TBD | `candidate | accepted-existing | note-only | rejected` | TBD | TBD |
 
 ## Character State Delta
 
@@ -37,3 +37,10 @@
 | Risk | Scope | Severity | Required before next draft? |
 | --- | --- | --- | --- |
 | TBD | TBD | TBD | `yes | no` |
+
+## Promotion Decision
+
+- Proposed deltas:
+- Conflicts checked against:
+- User or project-rule approval: `not-requested | pending | approved | rejected`
+- Files updated after approval:

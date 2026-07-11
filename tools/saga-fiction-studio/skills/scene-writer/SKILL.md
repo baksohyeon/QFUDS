@@ -13,8 +13,8 @@ user-invocable: true
 Draft prose that hooks before it explains. This skill executes the `writer` mode of
 the production order; it does not canonize.
 SSOT: `.agent/workflows/agentic-fiction-production-workflow.md`,
-`creative_harness/craft/010_reader_onboarding_harness_ko.md`,
-`creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md`,
+`creative_harness/craft/reader_onboarding_harness.md`,
+`creative_harness/craft/korean_fiction_prose_naturalness_harness.md`,
 and `.agent/templates/fiction/chapter_intent_card_template.md` +
 `style_packet_template.md`.
 ## Before drafting

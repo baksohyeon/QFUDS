@@ -1,71 +1,101 @@
-"""Regression tests for scripts/fiction_gate.py path logic.
-
-The 2026-07-10 fiction-vault migration moved fiction content from
-``docs/wiki/fiction/`` to a repository-root ``fiction/`` vault (plus
-``creative_harness/``). The SAGA production track (drafts, revisions,
-release) closed and now lives in Git history only; the only live prose-draft
-shelf is a per-project drafts directory (``fiction/projects/*/drafts/``).
-
-These tests lock in that path logic so a future edit cannot silently revert
-the gate to scanning a directory that no longer exists.
-
-Run with: python3 -m unittest discover -s tests -p 'test_*.py'
-"""
-from __future__ import annotations
-
-import sys
+import contextlib
+import importlib.util
+import os
+import pathlib
+import tempfile
 import unittest
-from pathlib import Path
-
-REPO_ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS_DIR = REPO_ROOT / "scripts"
-
-if str(SCRIPTS_DIR) not in sys.path:
-    sys.path.insert(0, str(SCRIPTS_DIR))
-
-import fiction_gate as gate  # noqa: E402
 
 
-class ScanRootsTests(unittest.TestCase):
-    def test_scan_roots_point_at_the_vault_layout(self) -> None:
-        self.assertEqual(gate.FICTION_ROOTS, ("fiction", "creative_harness"))
-
-    def test_all_fiction_finds_real_vault_docs(self) -> None:
-        found = gate.all_fiction()
-        self.assertTrue(any(f.startswith("fiction/") for f in found))
-        self.assertTrue(any(f.startswith("creative_harness/") for f in found))
-
-    def test_all_fiction_does_not_scan_the_legacy_root(self) -> None:
-        found = gate.all_fiction()
-        self.assertFalse(any(f.startswith("docs/wiki/fiction") for f in found))
+MODULE_PATH = pathlib.Path(__file__).parents[1] / "scripts" / "fiction_gate.py"
+SPEC = importlib.util.spec_from_file_location("fiction_gate", MODULE_PATH)
+fiction_gate = importlib.util.module_from_spec(SPEC)
+SPEC.loader.exec_module(fiction_gate)
 
 
-class ProjectDraftShelfTests(unittest.TestCase):
-    def test_project_draft_path_is_recognized_as_the_draft_shelf(self) -> None:
-        # Path-based recognition only fires for filenames that also carry the
-        # reader-prose naming convention (korean/primary/adaptation/
-        # manuscript/english) — unchanged keyword logic, just repointed to
-        # the new directory shape.
-        path = "fiction/projects/feathersmcgraw-coda/drafts/003_something_korean_ko.md"
-        self.assertTrue(gate.is_active_draft(path))
+VALID_HOME = """# Demo
 
-    def test_real_project_draft_without_prose_naming_is_not_flagged(self) -> None:
-        # feathersmcgraw-coda/README.md explicitly overrides the SAGA prose
-        # rules for this work; its actual draft filenames don't carry the
-        # korean/manuscript/english convention, so they fall outside the
-        # gate's active-draft checks as a natural consequence of that.
-        path = "fiction/projects/feathersmcgraw-coda/drafts/001_still_eating_spaghetti_ko.md"
-        self.assertFalse(gate.is_active_draft(path))
+## Classification
+- Work id: `demo`
+- State: `drafting`
+- Style profile: `inline`
+- Canon promotion authority/rule: user approval
 
-    def test_legacy_saga_draft_path_is_not_matched(self) -> None:
-        # SAGA drafts (old 20_series/qfuds-saga/20_drafts shelf) are closed
-        # and Git-history-only; the gate must not special-case that path.
-        path = "fiction/worlds/qfuds-verse/20_series/qfuds-saga/20_drafts/019_korean_ko.md"
-        self.assertFalse(gate.is_active_draft(path))
+## Drafts And Reviews
+- Current draft: drafts/001.md
 
-    def test_non_draft_world_doc_is_not_a_draft(self) -> None:
-        path = "fiction/worlds/qfuds-verse/world/101_world_anchor_and_verisimilitude_ko.md"
-        self.assertFalse(gate.is_active_draft(path))
+## Current Next Action
+Revise the opening.
+"""
+
+
+@contextlib.contextmanager
+def workspace():
+    previous = pathlib.Path.cwd()
+    with tempfile.TemporaryDirectory() as directory:
+        root = pathlib.Path(directory)
+        os.chdir(root)
+        try:
+            yield root
+        finally:
+            os.chdir(previous)
+
+
+def write(root, relative, text):
+    path = root / relative
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    return relative
+
+
+class FictionGateTests(unittest.TestCase):
+    def test_passes_minimal_project_and_zettel(self):
+        with workspace() as root:
+            files = [
+                write(root, "fiction/projects/demo/README.md", VALID_HOME),
+                write(root, "fiction/projects/demo/drafts/001.md", "# Draft\n"),
+                write(
+                    root,
+                    "fiction/knowledge/notes/idea.md",
+                    "---\ntype: zettel\nkind: idea\ncreated: 2026-07-11\n"
+                    "source-ids: []\nrelated-notes: []\nrelated-projects: []\n---\n# Idea\n",
+                ),
+            ]
+            errors, _ = fiction_gate.check(files)
+            self.assertEqual(errors, [])
+
+    def test_rejects_incomplete_project_home(self):
+        with workspace() as root:
+            path = write(root, "fiction/projects/demo/README.md", "# Demo\n")
+            errors, _ = fiction_gate.check([path])
+            self.assertTrue(any("project Home Note missing" in error for error in errors))
+
+    def test_rejects_fenced_zettel_metadata(self):
+        with workspace() as root:
+            path = write(root, "fiction/knowledge/notes/bad.md", "# Bad\n```yaml\ntype: zettel\n```\n")
+            errors, _ = fiction_gate.check([path])
+            self.assertTrue(any("top-of-file YAML" in error for error in errors))
+
+    def test_rejects_project_artifact_without_home(self):
+        with workspace() as root:
+            path = write(root, "fiction/projects/orphan/drafts/001.md", "# Draft\n")
+            errors, _ = fiction_gate.check([path])
+            self.assertTrue(any("has no project Home Note" in error for error in errors))
+
+    def test_rejects_unpinned_release_candidate_name(self):
+        with workspace() as root:
+            write(root, "fiction/projects/demo/README.md", VALID_HOME)
+            path = write(root, "fiction/projects/demo/release/candidates/demo_v1.md", "# Candidate\n")
+            errors, _ = fiction_gate.check([path])
+            self.assertTrue(any("baseline short SHA" in error for error in errors))
+
+    def test_rejects_published_snapshot_without_evidence(self):
+        with workspace() as root:
+            write(root, "fiction/projects/demo/README.md", VALID_HOME)
+            path = write(root, "fiction/projects/demo/release/published/demo_v1.md", "# Published\n")
+            errors, _ = fiction_gate.check([path])
+            self.assertTrue(any("state released" in error for error in errors))
+            self.assertTrue(any("retention gate" in error for error in errors))
+            self.assertTrue(any("release checklist" in error for error in errors))
 
 
 if __name__ == "__main__":

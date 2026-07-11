@@ -8,7 +8,7 @@ evidence_role: provenance
 depends_on:
   - qfuds_verse_universe_index_ko
 next_gate: canon 권위는 000이 정한다. 설정 충돌 시 000 → 해당 주제 문서 순으로 확인
-last_updated: 2026-07-10
+last_updated: 2026-07-11
 ---
 
 # QFUDS SAGA 00_bible 지도
@@ -28,7 +28,8 @@ only, QFUDS 연구 증거 아님.
 | 첫 Arc 설정을 한 번에 | [202 첫 Arc Canon 정리](first_arc_canon_consolidation.md) |
 | "복원이 물리적으로 불가능하지 않나" 의문 | [113 복원 메커니즘 정정](../world/113_restoration_mechanism_correction_ko.md) (필독: 복원=사본, 엔트로피 역전 불가) |
 
-> 이야기 자체가 처음이면 bible보다 story_design 318 세계관·인물 한눈에를 먼저 본다.
+> 이야기 자체가 처음이면 [QFUDS Verse orientation](../world_canon_orientation.md)을
+> 먼저 읽는다. 과거 story design 318은 Git history only다.
 
 ## 공유 세계·연속성은 universe 레벨로 이동 (2026-07-01 재레벨링)
 
@@ -73,9 +74,11 @@ research evidence: no
 external source claim: no
 ```
 
-새 아이디어는 바로 canon이 아니다. 승격 경로는 brainstorm → `10_story_design` →
-stable world fact → `00_bible`다.
+새 아이디어는 바로 canon이 아니다. `fiction/inbox/` 또는 `fiction/knowledge/seeds/`
+에서 시작해 새 work의 README에서 candidate로 채택한다. 공유 세계의 stable fact로
+승격할 때만 `world/` 또는 `continuity/` 권위 문서를 갱신한다.
 
-## 번호 체계 (2026-07-06 재번호)
+## Legacy Numbering
 
-선반별 밴드 번호를 쓴다(continuity 0xx / world 1xx / bible 2xx / story_design 3xx / workroom 4xx). 구→신 매핑은 workroom 417이 보유한다. 원고(20_drafts)·revisions·archive는 구번호 유지.
+과거 story design, workroom, draft, revision 번호는 Git history provenance다.
+현재 active routing이나 promotion gate로 사용하지 않는다.

@@ -14,11 +14,11 @@ What should this session produce?
 - Allowed outputs:
 - Forbidden outputs:
 
-## Jargon / Reader Support
+## Terms / Reader Support
 
 - New English terms or abbreviations:
-- Plain Korean explanations:
-- Any bare `TBD` placeholders left? `yes | no`
+- Target-reader support needed:
+- Unresolved placeholders that block this session:
 
 ## Required Reads
 
@@ -26,17 +26,19 @@ What should this session produce?
 - Universe README:
 - Continuity policy:
 - Work README:
-- Work bible:
+- Work README bible/design section:
 - Existing draft:
 
 ## Approval Gate
 
-State what needs user confirmation before writing or committing.
+State what needs user confirmation before writing, canon promotion, release, or an
+external side effect. Routine in-scope edits do not need a ceremonial gate.
 
 ## Science And Source Boundary
 
 - Does this touch external sources? `yes | no`
-- If yes, apply Research Asset and Product Workflow.
+- If yes, apply Fiction Source Intake Workflow. Use the research asset workflow
+  separately only for a QFUDS research claim.
 - State only local boundary exceptions. Do not repeat the full harness
   disclaimer.
 - Does this introduce or rename a scientific/technical term? `yes | no`
@@ -46,12 +48,12 @@ State what needs user confirmation before writing or committing.
 - If yes, record who speaks, who sees, telling time, form, implied audience,
   motive, knowledge limits, and distortion risk.
 
-## Tone
+## Work-Local Style
 
-- Clean and direct.
-- No unnecessary manifesto language.
-- Use metaphors only when they help the scene.
-- Anchor time words to the authoring baseline date.
+- Draft language and register:
+- Voice constraints:
+- Deliberate exceptions:
+- Time-label convention, when relevant:
 
 ## Verification
 

@@ -1,71 +1,142 @@
 ---
 name: fiction-production
-description: Execute QFUDS fiction writing, critique, revision, chronicler, and release-prep work using the local agentic fiction production harness. Use when the user asks to write, revise, review, outline, continue, or operationalize QFUDS SAGA fiction.
+description: Plan, draft, critique, revise, continuity-check, and release fiction with the repository's generic SF studio. Use for any fiction work, not only QFUDS-derived stories.
 user-invocable: true
 argument-hint: "[optional work/unit/file]"
 ---
 
-## Required Reading Order
+# Fiction Production
 
-Before changing fiction files, read:
+## Outcome
 
-1. `docs/05_next_steps/000_roadmap.md` for current research posture.
-2. `.agent/workflows/fiction-ip-management-workflow.md` for routing and boundary.
-3. `.agent/workflows/agentic-fiction-production-workflow.md` for production order.
-4. `creative_harness/craft/009_korean_fiction_prose_naturalness_harness_ko.md`
-   for Korean-primary prose or polish.
-5. `creative_harness/craft/010_reader_onboarding_harness_ko.md`
-   for scenes that depend on technical, legal, institutional, or world-historical concepts.
-6. The relevant work's `README.md` under `fiction/projects/<work-id>/`
-   (classification, inherited rules, local overrides, work bible, story
-   design, boundary). The QFUDS SAGA first-arc reader orientation closed
-   2026-07-10 and is Git history only
-   (`git show bbbcb970:docs/wiki/fiction/10_universes/qfuds-verse/20_series/qfuds-saga/10_story_design/318_first_arc_reader_orientation_world_and_cast_ko.md`).
-7. The chapter intent card, if the task touches prose or a chapter/episode plan.
-8. The relevant universe series-bible (`fiction/worlds/<universe-id>/series-bible/`)
-   and the work's README sections and `drafts/`.
+Complete the smallest useful fiction-production step without confusing raw ideas,
+candidate design, world canon, project state, prose, or release evidence.
 
-## Execution Modes
+Success means:
+
+- the active work and target reader are identified;
+- the speculative change affects constraints, character choice, and consequence;
+- the chosen production tier leaves only the artifacts needed for that risk;
+- structural revision happens before prose polish;
+- canon and continuity changes remain proposals until promoted;
+- validation matches the files actually changed.
+
+## Authority To Read
+
+Read only the relevant subset, in this order:
+
+1. `fiction/README.md` and the work's `fiction/projects/<work-id>/README.md`.
+2. `.agent/workflows/fiction-ip-management-workflow.md` for routing and promotion.
+3. `.agent/workflows/agentic-fiction-production-workflow.md` for execution tiers.
+4. `creative_harness/fiction_studio_operating_guide.md` for the end-to-end route.
+5. `creative_harness/craft/creative_writing_craft_harness.md` for craft decisions.
+6. Relevant universe files under `fiction/worlds/<universe-id>/`.
+7. Optional modules only when triggered:
+   - Korean prose: `creative_harness/craft/korean_fiction_prose_naturalness_harness.md`
+   - unfamiliar concepts: `creative_harness/craft/reader_onboarding_harness.md`
+   - university/workshop benchmark:
+     `creative_harness/craft/university_creative_writing_reference_matrix.md`
+   - brain dump/Zettelkasten intake:
+     `creative_harness/methods/zettelkasten_fiction_intake_method.md`
+
+Do not require the QFUDS research roadmap for fiction-only work. Read it only if a
+task changes or interprets QFUDS research status.
+
+## Modes
 
 Name the active mode before making decisions:
 
-- `writer`: draft or rewrite prose from an approved intent card.
-- `critic`: identify structural, POV, pacing, and technical-grounding failures.
-- `reader-sim`: report where a target reader loses interest or clarity.
-- `continuity`: check canon, chronology, knowledge state, field marks, and terms.
-- `chronicler`: recover deltas after drafting or revision.
-- `polish`: final language pass only after structure and continuity pass.
+- `curator`: capture, distill, connect, or route raw material.
+- `architect`: premise, character pressure, structure, scene order, or ending.
+- `writer`: draft new prose from an approved intent.
+- `critic`: diagnose premise, causality, POV, scene, exposition, or prose failures.
+- `reader-sim`: report actual comprehension, expectation, and dropout points.
+- `continuity`: check canon, chronology, knowledge state, promises, and terms.
+- `chronicler`: recover candidate deltas after drafting or revision.
+- `polish`: final target-language line pass after structure and continuity stabilize.
 
-## Non-Negotiables
+Do not draft, critique, revise, and canonize in one unlabeled pass.
 
-- Fiction is not QFUDS research evidence. (This boundary is NOT lifted.)
-- External AI writing tools, MCP servers, prompts, and code MAY be adopted or
-  adapted for fiction work (rule relaxed 2026-06-30, user decision), under these
-  conditions:
-  - check and respect the source license before copying; record it;
-  - record source URL, license, allowed claim, blocked claim, and workflow state
-    in the changed fiction document (IP workflow source rule + Research Asset and
-    Product Workflow);
-  - vet MCP servers/tools for security (prompt injection, excess permissions)
-    and scope them to the fiction repo/vault before installing;
-  - fiction side only — never copy external material into QFUDS research
-    evidence, theory, or results;
-  - prefer adapting to this project's structure (shelves, Korean-primary, gates)
-    over replacing the governance wholesale.
-- Korean-primary active SAGA prose comes before English adaptation unless the user explicitly overrides it.
-- Draft Korean prose as Korean sentences first. Do not generate a translated
-  logline or foreign-language noun stack and then render it into Korean.
-- Preserve technical terms when they carry meaning; explain them in-scene.
-- `humanize` is final polish only. Do not use it for AI detector evasion or to hide weak structure.
-- Do not canonize by momentum. Proposed canon changes go through a chronicler pass and the appropriate bible/story_design/revision destination.
+## Production Tiers
+
+Choose the lightest tier that controls the actual risk.
+
+### Quick
+
+Use for a brain dump, Zettel, story seed, isolated exercise, or small scene test.
+
+Required: intent in the response or file, output, next decision. No production board.
+
+### Chapter
+
+Use for a chapter, major scene, or substantial rewrite.
+
+Required: intent card, draft or revision, focused review, continuity/chronicler note,
+verification.
+
+### Release
+
+Use for a complete short, submission candidate, or release-facing unit.
+
+Required: production board, source baseline, workshop/revision plan, revision memo,
+continuity pass, retention artifact, final verification.
+
+Metadata must not become larger than the prose it controls without a stated reason.
+
+## SF Core
+
+Before drafting or major revision, answer:
+
+1. What differs from the reader's experience world?
+2. What rule, limit, cost, and failure mode follow?
+3. Which person is most pressured by that difference?
+4. What choice becomes possible or unavoidable only because of it?
+5. What consequence must the ending pay?
+
+If removing the speculative element leaves the same choice and ending, return to
+premise design instead of adding more exposition.
+
+## Workshop And Revision
+
+Review output uses:
+
+```text
+observation -> reader effect -> exact evidence -> question -> optional suggestion
+```
+
+After workshop, write a revision plan before changing prose. Revise in this order:
+
+```text
+premise/reader contract -> causality/POV/continuity -> scene function
+-> exposition -> paragraph/rhythm -> sentence polish -> chronicler recovery
+```
+
+For Korean polish, use span-grounded S1/S2/S3 findings. Preserve character voice,
+in-world document register, facts, names, numbers, and direct quotations. Stop and
+report if stylistic changes exceed 30% or alter meaning.
+
+## External Sources And Tools
+
+External papers, web pages, repositories, prompts, or tools may inform fiction only
+after the Fiction Source Intake Workflow records source id, URL, access date, state,
+allowed anchor, blocked claim, license when copying, and security scope. Use the
+Research Asset and Product Workflow separately only for QFUDS research claims.
+
+Inspection and paraphrased method adoption do not authorize installation. Do not copy
+source prose or imitate a living author's distinctive expression. Fiction sources
+never become QFUDS research evidence.
 
 ## Output Contract
 
-For prose or major outline work, leave behind:
+Report:
 
-- updated production board state;
-- chapter intent card or explicit note that an existing card was reused;
-- reader onboarding note when the scene depends on unfamiliar concepts;
-- review wave result for substantial revisions;
-- chronicler pass after drafting or revision;
-- validation commands run and any residual risk.
+- active mode and tier;
+- files read and changed;
+- intent or existing intent reused;
+- review/revision evidence required by the tier;
+- candidate canon or continuity deltas;
+- validation commands and residual risks.
+
+Stop when the requested artifact is complete and the relevant checks pass. Ask the
+user only when a missing choice would materially change premise, canon, language,
+genre contract, or external side effects.

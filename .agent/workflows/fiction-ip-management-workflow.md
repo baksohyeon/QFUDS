@@ -1,507 +1,235 @@
 # Fiction IP Management Workflow
 
-Use this workflow whenever an agent creates, moves, classifies, or extends
-fiction material under the repository-root [fiction/](../../fiction/README.md)
-vault.
-
-This workflow is process-only. It does not change research evidence or roadmap
+Use this workflow to capture, classify, route, promote, or move fiction material.
+It governs the repository-root `fiction/` studio and is independent of QFUDS research
 status.
 
-Workflow index: [QFUDS Agent Workflows](README.md).
+Workflow index: [Repository Agent Workflows](README.md).
 
-## Core Rule
+## Core Boundary
 
-Manage fiction like an IP studio, not like loose one-off documents.
+Fiction may borrow scientific questions from QFUDS, but fiction is never QFUDS
+research evidence. `docs/wiki/fiction/` is legacy read-only. Do not route active
+work there or recreate its old shelves. Historical material may be cited only as a
+Git-history source such as `git show bbbcb970:<path>`.
 
-## Tone And Baseline Rule
+## Authority Layers
 
-Keep fiction-system documents clean and direct.
-
-Do not repeat the full evidence disclaimer in every document. The harness already
-defines the boundary. In individual documents, use a short boundary only when it
-adds local information, such as an external-source state token or a specific
-scope exception.
-
-Avoid grandiose summary prose, decorative metaphors, and repeated manifesto
-language in reference documents. Prefer:
-
-- concrete roles over mood labels;
-- short definitions over slogans;
-- scene-use rules over abstract praise;
-- tables/checklists when they reduce ambiguity.
-
-Every new fiction reference, work README, bible, or scene plan must record an
-authoring baseline date. Use the date when the document starts, not a floating
-"now." When using terms like `ancient`, `modern`, `post-COVID`,
-`pre-AGI`, or `future`, explain them relative to that baseline.
-
-The authoring baseline is not automatically story canon. For alternate-history,
-far-future, or fully invented worlds, separate:
-
-- author-side baseline: the real-world writing context;
-- in-world chronology: calendar, era names, year zero, story year, and internal
-  historical labels.
-
-Fully invented worlds should define in-world era IDs instead of forcing
-real-world labels such as `post-COVID`.
-
-Author-context may guide clarity and audience assumptions, but do not write
-private user identity, location, nationality, job, or personal context into the
-story or docs unless the user explicitly asks for it.
-
-## Technical Grounding Rule
-
-Treat scientific and technical terms as load-bearing concepts.
-
-Do not replace terms such as `hash`, `KDF`, `key`, `salt`, `collision`,
-`entropy`, `Hawking radiation`, `Page curve`, `island`, `AGI`, or `QFUDS`
-with social, legal, religious, or poetic aliases unless the document records a
-reason. The default is to preserve the technical term and explain it cleanly.
-
-A fictional alias is allowed only when it represents a story-world institution,
-ritual, legal category, propaganda term, translation convention, or character
-misunderstanding. It must not hide the underlying technical mechanism.
-
-When a setting changes a technical term, record:
-
-- original technical term;
-- preserved term or fictional alias;
-- reason for the alias;
-- what technical meaning could be lost or distorted;
-- where the accurate explanation remains available;
-- scene purpose.
-
-If there is no reason, keep the technical term.
-
-## Narrative Frame Rule
-
-Do not reduce narration to only `first person` or `third person`.
-
-Every work bible or substantial scene plan must define the narrative frame:
-
-- who speaks: narrator, editor, archivist, court recorder, memoirist, historian,
-  machine, chorus, or anonymous voice;
-- who sees: focal character, witness, external camera, institution, archive, or
-  rotating focalizers;
-- when the telling happens relative to the events;
-- what document or performance form carries the story: chronicle, memoir,
-  essay, trial record, field report, archive note, letter, transcript,
-  recovered file, oral history, direct scene, or mixed form;
-- who the implied audience is;
-- why the story is being told now;
-- what the narrator can know;
-- what the narrator may distort, omit, or misunderstand.
-
-For frame narratives, also record how the outer frame changes the meaning of the
-inner story.
-
-## Craft Harness Rule
-
-Before creating or revising a work bible, story design, prose draft, or release
-candidate, apply
-[Creative Writing Craft Harness](../../creative_harness/craft/creative_writing_craft_harness.md).
-
-This adds Korean-readable explanations for English craft terms and checks
-premise, character, conflict, scene purpose, point of view, dialogue,
-worldbuilding, theme, pacing, and revision.
-
-If the user asks for a university, writing-program, workshop, literary-craft, or
-formal creative-writing benchmark, also apply
-[University Creative Writing Reference Matrix](../../creative_harness/craft/university_creative_writing_reference_matrix.md).
-
-## Agentic Production Rule
-
-For active long-form fiction work, apply
-[Agentic Fiction Production Workflow](agentic-fiction-production-workflow.md)
-after classification and before drafting or revising.
-
-That workflow does not decide canon or routing. It records execution state:
-production board, chapter intent card, review wave, chronicler pass, style
-packet, and truth-state ledger.
-
-Use it when work touches:
-
-- a chapter, episode, or major scene;
-- a multi-step writing sprint;
-- prose revision after critique;
-- reader-sim or retention feedback;
-- continuity recovery after drafting;
-- final polish where `humanize` could otherwise hide structural problems.
-
-## Bilingual Draft Sequence Rule
-
-For active SAGA prose, the default writing sequence is Korean-primary:
+Decide ownership before editing:
 
 ```text
-Korean primary draft -> English Anglophone adaptation -> shared continuity check
+studio method
+-> reusable Zettelkasten knowledge
+-> real-world fiction research
+-> universe/world continuity
+-> work Home Note and local design
+-> draft
+-> review/revision evidence
+-> release candidate
 ```
 
-The Korean version is the first reader-facing draft and must read as natural
-Korean fiction, not translationese. The English version is a same-story
-counterpart written for Anglophone rhythm, idiom, and genre expectations, not a
-literal translation. Existing English-first drafts may remain as provenance or
-source counterparts, but new active prose should follow the Korean-primary
-sequence unless the user explicitly asks otherwise.
+| Layer | Active home |
+| --- | --- |
+| Studio workflow, templates, agent skills | `.agent/`, `.agents/`, `creative_harness/`, `tools/` |
+| Raw capture | `fiction/inbox/` |
+| Cross-project ideas and craft tools | `fiction/knowledge/` |
+| Real-world research for fiction | `fiction/research/` |
+| Facts adopted by a fictional world | `fiction/worlds/<universe-id>/` |
+| Work contract, bible/design summary, current map | `fiction/projects/<work-id>/README.md` |
+| Prose | `fiction/projects/<work-id>/drafts/` |
+| Review and revision artifacts | `fiction/projects/<work-id>/reviews/` when needed |
+| Fixed release candidates | `fiction/projects/<work-id>/release/candidates/` |
+| Published snapshots | `fiction/projects/<work-id>/release/published/` |
 
-Shared continuity checks must keep plot events, field marks, character
-decisions, technical terms, and fiction/research boundaries aligned across both
-language versions.
+Do not duplicate the same fact across layers. Lower layers link to the authority they
+inherit.
 
-Do not cite web references as loose "materials consulted." If a source changes a
-workflow, template, checklist, or fiction-system document, the changed document
-must record the source URL, allowed claim, blocked claim, and workflow state.
-If that record is missing, treat the source as unused.
+## Brain Dump And Zettelkasten Route
 
-Before writing or moving fiction, classify the idea by these layers:
+Unstructured input is allowed. Capture it without promoting it.
 
 ```text
-studio rule -> catalog entry -> universe/IP -> continuity branch -> work -> bible/design/draft/release
+brain dump / article / fragment
+-> inbox
+-> distill reusable thought to knowledge/notes
+-> connect through knowledge/maps
+-> combine into knowledge/seeds
+-> user promotes a seed to a project
+-> project linearizes it into scenes and prose
 ```
 
-Do not decide by topic alone. Decide by ownership:
-
-- `studio`: how agents write, review, verify, and commit fiction.
-- `catalog`: what exists, what is active, reading order, status board.
-- `universe/IP`: shared fictional world, science-fiction premise, institutions,
-  timeline, recurring motifs.
-- `continuity`: canon, soft-canon, elseworld, prototype, retired, anthology
-  ordering, multiverse policy.
-- `work`: a specific series, novel, short story, webtoon-like run, anthology,
-  or elseworld branch.
-- `workroom`: work-local operating specs, harness notes, approval gates, and
-  repeatable review rules that are narrower than global studio policy.
-- `bible`: work-local reference sheet for continuity, cast, point of view,
-  tone, local rules, and canon constraints.
-- `story_design`: outline, arcs, beat sheet, scene list, reveal order.
-- `drafts`: prose drafts, language counterparts, and scene tests.
-- `revisions`: line-edit plans, continuity-fix passes, and release-prep
-  revision controls.
-- `release`: cleaned publication/export candidate if one exists.
-
-## Recommended Target Shape
-
-Use this target shape for new fiction work. It reflects the repository-root
-fiction vault adopted 2026-07-10; the earlier per-work
-studio/catalog/workroom/bible/story-design/revisions/release scaffold under
-`docs/wiki/fiction/` is Git history only (`git show bbbcb970:<old-path>`).
-
-```text
-fiction/
-  inbox/
-  knowledge/
-  research/
-  worlds/
-    <universe-id>/
-      README.md
-      continuity/
-      world/
-      series-bible/
-  projects/
-    <work-id>/
-      README.md
-      drafts/
-```
-
-Operational workflow/template/skill authority for fiction stays outside the
-vault: `.agent/workflows/`, `.agent/templates/fiction/`,
-`.agents/skills/fiction-production/`, and `tools/`. Human craft/method
-references stay in `creative_harness/` (`creative_harness/craft/`,
-`creative_harness/methods/`).
-
-Within a project, local operating notes, work bible, and story-design/reveal
-material live as sections in `README.md`; only prose drafts get their own
-`drafts/` subfolder. A shared universe bible lives once in
-`worlds/<universe-id>/series-bible/` rather than being duplicated per work.
+Follow
+[Zettelkasten fiction intake](../../creative_harness/methods/zettelkasten_fiction_intake_method.md).
+Original Zettels remain in knowledge; projects link rather than copy them.
 
 ## Classification Checklist
 
-Before creating a fiction document, answer:
+Before a write or move, answer only the relevant items:
 
-1. Is this a studio rule, catalog entry, universe/IP record, continuity record,
-   work record, workroom note, bible note, story design note, prose draft,
-   revision, or release candidate?
-2. Which universe/IP owns it?
-3. Is it canon, soft-canon, elseworld, prototype, retired, or unclassified?
-4. Does it inherit shared world rules, or does it introduce a local override?
-5. If it introduces a local override, is the override allowed by the continuity
-   policy?
-6. Is this for a series, novel, short, anthology, webtoon-like run, or
-   elseworld branch?
-7. Does it need a work README before any bible/design/draft is added?
-8. Does it touch external references, papers, PDFs, MCP outputs, assets, or
-   source/product claims?
-9. Does it accidentally phrase a fiction premise as a research/status claim?
-10. What is the authoring baseline date?
-11. Is the work same-universe, alternate-history, far-future, fully invented,
-    or unknown?
-12. What is the in-world chronology if it is not simple same-universe fiction?
-13. Are time words such as `ancient`, `current`, `post-COVID`, or `future`
-    anchored to the authoring baseline or to an in-world era ID?
-14. What is the narrative frame: who speaks, who sees, when, in what form, and
-    for which implied audience?
-15. Has the craft harness been applied for work bible, story design, prose, or
-    release work?
-16. Does this task cite university, writing-program, workshop, or craft-web
-    references?
-17. If yes, has the university reference matrix recorded source state and claim
-    boundaries?
-18. Are English craft terms and abbreviations explained for Korean readers?
-19. Does this introduce or rename a scientific or technical concept?
-20. If yes, what is the recorded rationale and what technical meaning is
-    preserved?
-21. What validation and commit boundary will close this step?
+1. Is it raw, candidate, accepted, retired, or release-facing?
+2. Is it reusable thought, real-world research, world fact, work design, prose, or
+   review evidence?
+3. Which universe and work own it, if any?
+4. What does it inherit and what is a local override?
+5. Does it change canon, character knowledge, chronology, terminology, or promises?
+6. Does it touch an external source or tool?
+7. What is the smallest artifact and validation needed?
 
-## Work README Contract
+Raw material and agent-generated proposals are never canon by momentum.
 
-Every work folder must have a README before drafts are added.
+## Project Home Contract
 
-The README must state:
-
-- universe/IP;
-- format: series, novel, short, anthology, webtoon-like run, or elseworld;
-- canon status;
-- authoring baseline date;
-- inherited continuity/world/science-boundary documents;
-- local overrides;
-- workroom/bible/design/draft/revision/release paths;
-- local boundary exceptions, if any.
-
-Use [.agent/templates/fiction/work_readme_template.md](../templates/fiction/work_readme_template.md).
-
-## Workroom Rule
-
-Record local operating procedure for a single work — agent harness notes,
-approval gates, sub-agent role definitions, local workflow exceptions, or
-repeatable review rules for that work only — as a section in the work's
-`README.md` under `fiction/projects/<work-id>/`. The dedicated `00_workroom/`
-subfolder was part of the closed SAGA production track (Git history only,
-`git show bbbcb970:<path>`); new work does not recreate it.
-
-Do not put universe-wide studio rules in a work's README. Global fiction/IP
-rules belong in `.agent/workflows/`; there is no separate human-readable
-mirror inside the fiction vault.
-
-## Harness Applied Block
-
-Every active prose draft, release-facing revision plan, or release candidate
-must include a compact `Harness Applied` block near the boundary/intent section.
-The block records:
-
-- craft harness link;
-- narrative frame;
-- scene or revision goal/obstacle/turn/cost;
-- Korean-primary / English Anglophone sibling-text gate;
-- external-source or research-asset workflow boundary.
-
-Legacy drafts may omit this block when preserved unchanged for provenance, but
-any new revision of those drafts must add it before the draft is promoted.
-
-## Bible Rule
-
-`bible` is a continuity-reference term, not a folder every work needs.
-
-Shared continuity for a universe lives in
-`fiction/worlds/<universe-id>/series-bible/` (the qfuds-verse universe keeps
-its bible there). A work with no shared-bible need records its own continuity
-reference as a "Work Bible" section in the work's `README.md` under
-`fiction/projects/<work-id>/`, covering:
-
-- cast and relationships;
-- point of view and voice;
-- setting subset used by the work;
-- local timeline;
-- local motifs;
-- local science-fiction limits;
-- what the work inherits from the universe;
-- what the work overrides.
-
-Do not use `bible` for:
-
-- prose drafts;
-- loose brainstorms;
-- whole-repo fiction system rules;
-- research evidence;
-- external-source cache records.
-
-The per-work `00_bible/` subfolder was part of the closed SAGA production
-track (Git history only, `git show bbbcb970:<path>`).
-
-## Universe Inheritance Rule
-
-Do not make every work a new universe by default.
-
-Default behavior:
+Every work has one hand-maintained entrypoint:
 
 ```text
-new idea -> existing universe/IP -> work-local README -> inherited rules + local overrides
+fiction/projects/<work-id>/README.md
 ```
 
-Create a new universe only when the idea changes the shared premise enough that
-inheritance would be misleading. Examples:
+The README is the project's Home Note. Do not also require `HOME.md` or `story.md`
+for a new work.
 
-- different physics premise;
-- incompatible timeline;
-- incompatible institutions or history;
-- different genre contract so strong that shared canon would confuse readers;
-- explicit multiverse branch that needs its own continuity policy.
+Minimum fields:
 
-If a work borrows only some motifs from a universe, classify it as `elseworld`
-or create a new universe. Do not write "loosely QFUDS-ish" without a continuity
-classification.
+- universe or `standalone`;
+- form, target reader, genre/subgenre contract;
+- language and style profile;
+- authoring baseline and in-world chronology when relevant;
+- premise and speculative change;
+- source Zettels and research;
+- inherited world rules and local overrides;
+- narrative frame and POV;
+- central conflict, ending hypothesis, open questions;
+- current draft and one next action;
+- current canon state and promotion rule.
 
-## GSD Planning Integration
+Optional growth paths:
 
-GSD planning may manage execution phases, but it must not replace this
-classification workflow.
+- add `reviews/` after substantial workshop or revision evidence exists;
+- adopt `tools/story-skills` schema only when long-form continuity work justifies it;
+- never add files solely because a template offers them.
 
-Use this split:
+## Release State Transition
+
+Release work uses immutable evidence, not a moving draft.
 
 ```text
-Fiction IP Management Workflow = where the idea belongs and what it is
-GSD planning = how to execute a bounded phase of work
+drafting/revising
+-> commit the candidate source baseline
+-> copy the exact candidate to release/candidates/
+-> run workshop, continuity, retention, and release checklist against commit + blob
+-> if prose changes, commit a new baseline and create new gate artifacts
+-> when all release blockers are closed, copy the passed candidate unchanged to
+   release/published/ and set the work README state to released
 ```
 
-Use GSD planning for:
-
-- migrating an existing fiction folder into the IP structure;
-- creating a catalog or universe scaffold;
-- building a new series/short/anthology work package;
-- planning a multi-step writing sprint;
-- coordinating review, revision, verification, commit, and handoff.
-
-Do not use GSD planning for:
-
-- deciding canon by momentum;
-- skipping the universe/IP and continuity classification;
-- adding drafts before a work README exists;
-- treating a phase plan as fiction canon;
-- turning fiction premises into research/status claims.
-
-Every fiction-related GSD phase must state:
-
-- applicable workflow: this workflow;
-- universe/IP or `none yet`;
-- continuity status;
-- target work folder;
-- allowed outputs;
-- forbidden outputs;
-- acceptance criteria;
-- verification commands.
-
-Use [.agent/templates/fiction/gsd_phase_brief_template.md](../templates/fiction/gsd_phase_brief_template.md)
-when drafting a GSD phase for fiction work.
-
-## Reader Retention Test (Release Gate)
-
-Before any fiction work (short or series) is promoted to release, run a reader
-retention test. This is a formal gate, not optional polish: prose can pass
-AI-tell and naturalness audits and still lose readers (this happened on the
-QFUDS SAGA first arc).
-
-- Spawn several reader-persona subagents with distinct profiles (예: 중학생,
-  고등학생, 대학생~직장인 일반, 웹소설 속독, 까다로운 순문학, 기술 문외한,
-  안티-AI 냉소가, Ted Chiang식 정밀·절제, SF 애호가). 다양성이 핵심이다.
-- 각 페르소나는 release 원고를 읽고, 흥미가 진짜로 끊기는 지점에서 멈춘다.
-  보고: 이탈 지점(장면·줄)과 트리거, 편별 몰입 점수, 다음 편 진행 여부,
-  끝까지 끌고 간 훅.
-- 집계해 공통 이탈 지점을 고치고, 페르소나가 목표 리텐션(사실상 끝까지)에
-  도달할 때까지 반복한다. 통과 전에는 release 금지.
-- 실행 결과와 판정을 작품 README(`fiction/projects/<work-id>/README.md`)의
-  해당 섹션에 기록한다. 과거 SAGA `30_revisions/`, `00_workroom/` 경로는
-  closed shelf로 Git 이력에서만 확인한다(`git show bbbcb970:<path>`).
-
-### Required Retention Gate Artifact
-
-A retention gate without a written artifact is invalid. Do not record
-"9-persona pass", "all completed", or "release gate passed" unless the work has
-a revision document based on
-[reader_retention_gate_template.md](../templates/fiction/reader_retention_gate_template.md).
-The run artifact must use `doc_type: gate`. A protocol or planning document may
-use `doc_type: guide`, but it cannot itself count as the completed retention
-gate.
-
-The artifact must include:
-
-- gate id, source draft files, baseline commit/date, per-file blob hash, and
-  target release shelf;
-- persona roster and why each persona exists;
-- reading units pinned as `baseline commit:path#Lx-Ly`;
-- one result sheet per persona, including exact baseline stop source ref, stop
-  trigger, immersion score, clarity score, next-unit intent, strongest hook, and
-  weakest moment;
-- cross-persona evidence matrix;
-- issue ledger with severity, evidence personas, baseline source ref, proposed fix,
-  owner mode, and status;
-- revision mapping from issue id to changed files and fix commit/blob;
-- pass/fail decision using only these states:
+Naming:
 
 ```text
-not_run | invalid_no_artifact | ran_failed | ran_passed_with_risks | ran_passed
+release/candidates/<work-id>_<version>_<baseline-shortsha>.md
+release/published/<work-id>_<version>.md
+reviews/release/<work-id>_release_check_<version>_<baseline-shortsha>.md
 ```
 
-Release promotion is blocked when the gate state is `not_run`,
-`invalid_no_artifact`, or `ran_failed`.
+`released` means the published snapshot is byte-identical to the candidate that
+passed the recorded gate, and the work README records version, date, destination,
+baseline commit, and blob. A submission package not yet public may use `submission`
+state and the candidates shelf without a published copy.
 
-Pass requires:
+## Universe And Canon Rule
 
-- every persona result sheet exists;
-- no release-blocking `S0` issue remains open;
-- every repeated `S1` issue is fixed or explicitly deferred with rationale;
-- every applied fix links to a revision wave and changed files;
-- every feedback item is tied to the reviewed git baseline, not the moving
-  current file;
-- the production board records the gate id, decision, and residual risks.
+Create a new universe only when inherited physics, history, institutions, or genre
+contract would mislead the reader. Otherwise create a new work under an existing
+universe and record local overrides.
 
-Retention gate run artifacts are immutable. If the draft changes after a run,
-create a new run document for the new baseline and link the older run through
-`depends_on`. Do not overwrite prior persona feedback.
+World states:
 
-Do not store raw private reasoning or long hidden deliberation. Store concise
-reader-facing observations, evidence references, and actionable issue records.
+- `provisional`: candidate used for exploration;
+- `accepted`: current authority for that universe;
+- `retired`: preserved but no longer active.
 
-## External Source Boundary
+Canon promotion requires:
 
-If fiction work touches external paper, web reference, PDF, code repository,
-MCP, asset, image, source, extraction, cache, or product-availability claims,
-also apply [Research Asset and Product Workflow](research-asset-product-workflow.md).
+1. owning universe/work identified;
+2. conflicts checked against current authority;
+3. proposed delta listed;
+4. user or recorded project rule approves promotion;
+5. affected links, chronology, and knowledge state updated.
 
-Every resulting fiction document must record:
+Drafting can propose canon. It cannot approve it.
 
-- workflow marker/link;
-- most specific workflow state token;
-- a short local boundary statement for how the source is used.
+## Work-Local Profiles
 
-### External Tool and Code Adoption (fiction only)
+Global workflow does not impose:
 
-Rule relaxed 2026-06-30 (user decision). The earlier "inspiration-only; no
-install or prompt/code copy" prohibition is lifted **for fiction work only**.
-External AI writing tools, MCP servers, prompts, and code may be adopted or
-adapted for fiction, under these conditions:
+- Korean-first or English-first;
+- a fixed POV or character arc model;
+- em dash or word bans;
+- technothriller, literary, web-novel, or hard-SF pacing;
+- bilingual sibling drafts;
+- specific QFUDS terms, roles, or dramatic questions.
 
-- check and respect the source license before copying; record the license;
-- record source URL, license, allowed claim, blocked claim, and workflow state
-  in the changed fiction document (this rule + Research Asset and Product
-  Workflow);
-- vet MCP servers/tools for security (prompt injection, excess permissions) and
-  scope them to the fiction repo/vault before installing;
-- adopt on the fiction side only — never copy external material into QFUDS
-  research evidence, theory, or results. The research/fiction boundary is not
-  lifted;
-- prefer adapting external material to this project's structure (shelves,
-  Korean-primary, gates) over replacing the governance wholesale.
+Record those decisions in the work README and style packet. A target-language draft
+should be composed directly in that language. Translation and adaptation are separate
+only when the work chooses that policy.
+
+## Craft Rule
+
+Before a major scene, chapter, or revision, apply
+[SF Creative Writing Craft Harness](../../creative_harness/craft/creative_writing_craft_harness.md).
+
+Optional modules:
+
+- Korean prose naturalness;
+- reader onboarding for unfamiliar concepts;
+- social/institutional verisimilitude;
+- university workshop benchmark.
+
+Scene type determines the minimum contract. Do not force every scene into the same
+want-obstacle-turn-cost formula.
+
+## External Source And Tool Rule
+
+For sources used only for fiction, follow
+[Fiction Source Intake Workflow](fiction-source-intake-workflow.md). Run the
+[Research Asset and Product Workflow](research-asset-product-workflow.md) separately
+only if the source also supports a QFUDS research claim.
+
+Every adopted method or copied asset records:
+
+- source id, URL, access date, and workflow state;
+- license when copying or modifying;
+- allowed and blocked claims;
+- whether content was inspected, copied, adapted, installed, or only referenced;
+- security scope for executable tools;
+- owning fiction document or profile.
+
+Inspection does not authorize installation. Paraphrased methods do not authorize
+copying source prose. Do not claim an asset is absent until a scoped search was
+actually run.
+
+## Story Skills Boundary
+
+`tools/story-skills` is a vendored MIT-licensed submodule with deterministic checks
+for schema, links, chronology, character state, promises, and questions. It is an
+optional long-form engine, not the global creative authority.
+
+For a new or small work, use README + drafts. Adopt Story Skills only after an
+adapter/import plan maps current files without destroying author-owned structure.
+Run its own tests and validators inside the submodule when used.
 
 ## Validation
 
-Before commit, run:
+For fiction/control-document changes, run:
 
 ```bash
 python3 scripts/validate_docs.py
 python3 scripts/research_consistency.py
+python3 scripts/check_markdown_link_targets.py creative_harness .agent .agents fiction tools/saga-fiction-studio
 python3 scripts/agent_workflow_guard.py --staged
 python3 scripts/fiction_gate.py --staged
-make preflight
 sh scripts/git-hooks/pre-commit
 ```
 
-For fiction restructuring, also run a local link/state smoke check over
-`fiction/` when practical.
+Run `make preflight` when the touched scope makes it practical. If a work adopts
+Story Skills, also run its `story validate`, `story links`, and `story continuity`
+checks.
